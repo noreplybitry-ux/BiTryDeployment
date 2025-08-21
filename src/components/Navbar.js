@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
+import BiTryLogoText from "../images/BiTryLogoText-removebg-preview.png";
+import "../css/Navbar.css"; 
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +25,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="nav-left">
         <div className="brand">
-          <NavLink to="/home"><img src="/assets/logo.png" alt="BiTry logo" className="logo" /></NavLink>
+          <NavLink to="/home"><img src={BiTryLogoText} alt="BiTry logo" className="logo" /></NavLink>
         </div>
 
         <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
