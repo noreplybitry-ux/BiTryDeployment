@@ -14,33 +14,461 @@ export default function News() {
   const [selectedArticle, setSelectedArticle] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isLoadingInsights, setIsLoadingInsights] = useState(false);
+  const [insights, setInsights] = useState(null);
+  const [insightsError, setInsightsError] = useState(null);
 
-  // Configuration
+  // Configuration - HUGGING FACE INTEGRATION
   const ARTICLES_PER_PAGE = 12;
-  const MAX_ARTICLES = 100; // NewsAPI free tier allows up to 100
+  const MAX_ARTICLES = 100;
   const CACHE_KEY = 'bitry_crypto_news';
+  const INSIGHTS_CACHE_KEY = 'bitry_ai_insights';
   const CACHE_DURATION = 30 * 60 * 1000; // 30 minutes
+  const INSIGHTS_CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days for AI insights
   const API_KEY = 'eca0ba3938154abd9d66d996cfa36459';
+  const HUGGINGFACE_API_KEY = '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';
+  
+  // AI API Configuration
+  const AI_PROVIDERS = {
+    huggingface: {
+      apiKey: HUGGINGFACE_API_KEY,
+      baseUrl: 'https://api-inference.huggingface.co/models/',
+      models: {
+        // Different models for different tasks
+        text: 'microsoft/DialoGPT-large', // Conversational AI
+        analysis: 'cardiffnlp/twitter-roberta-base-sentiment-latest', // Sentiment analysis
+        summarization: 'facebook/bart-large-cnn' // Text summarization
+      },
+      dailyLimit: 1000,
+      enabled: true
+    }
+  };
 
+  // Cache functions for insights
+  const getInsightsCache = () => {
+    try {
+      const cached = localStorage.getItem(INSIGHTS_CACHE_KEY);
+      return cached ? JSON.parse(cached) : {};
+    } catch (error) {
+      console.error('Error reading insights cache:', error);
+      return {};
+    }
+  };
+
+  const setInsightsCache = (articleId, insightsData) => {
+    try {
+      const cache = getInsightsCache();
+      cache[articleId] = {
+        data: insightsData,
+        timestamp: Date.now()
+      };
+      localStorage.setItem(INSIGHTS_CACHE_KEY, JSON.stringify(cache));
+    } catch (error) {
+      console.error('Error saving insights to cache:', error);
+    }
+  };
+
+  const isInsightsCacheFresh = (cached) => {
+    if (!cached || !cached.timestamp) return false;
+    return Date.now() - cached.timestamp < INSIGHTS_CACHE_DURATION;
+  };
+
+  // Track API usage to avoid hitting limits
+  const getApiUsage = () => {
+    try {
+      const today = new Date().toDateString();
+      const usage = localStorage.getItem('hf_api_usage');
+      const parsed = usage ? JSON.parse(usage) : {};
+      
+      if (!parsed[today]) {
+        parsed[today] = { count: 0 };
+        localStorage.setItem('hf_api_usage', JSON.stringify(parsed));
+      }
+      
+      return parsed[today].count;
+    } catch (error) {
+      return 0;
+    }
+  };
+
+  const incrementApiUsage = () => {
+    try {
+      const today = new Date().toDateString();
+      const usage = localStorage.getItem('hf_api_usage');
+      const parsed = usage ? JSON.parse(usage) : {};
+      
+      if (!parsed[today]) {
+        parsed[today] = { count: 0 };
+      }
+      
+      parsed[today].count += 1;
+      localStorage.setItem('hf_api_usage', JSON.stringify(parsed));
+      
+      return parsed[today].count;
+    } catch (error) {
+      return 0;
+    }
+  };
+
+  // Hugging Face API call with retry logic
+  const callHuggingFaceAPI = async (model, payload, retries = 3) => {
+    for (let attempt = 1; attempt <= retries; attempt++) {
+      try {
+        const response = await fetch(`${AI_PROVIDERS.huggingface.baseUrl}${model}`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${HUGGINGFACE_API_KEY}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          incrementApiUsage();
+          return data;
+        } else if (response.status === 503) {
+          // Model is loading, wait and retry
+          const waitTime = attempt * 2000; // Exponential backoff
+          console.log(`Model loading, waiting ${waitTime}ms before retry ${attempt}/${retries}`);
+          await new Promise(resolve => setTimeout(resolve, waitTime));
+          continue;
+        } else {
+          const errorText = await response.text();
+          throw new Error(`HuggingFace API error: ${response.status} - ${errorText}`);
+        }
+      } catch (error) {
+        if (attempt === retries) {
+          throw error;
+        }
+        console.log(`Attempt ${attempt} failed, retrying...`, error.message);
+        await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+      }
+    }
+  };
+
+  // AI-powered insights using Hugging Face
+  const generateInsights = async (article) => {
+    try {
+      // Check cache first
+      const cache = getInsightsCache();
+      const cachedInsight = cache[article.id];
+      
+      if (cachedInsight && isInsightsCacheFresh(cachedInsight)) {
+        console.log('Using cached AI insights for article:', article.id);
+        return cachedInsight.data;
+      }
+
+      // Check API usage limits
+      const todayUsage = getApiUsage();
+      if (todayUsage >= AI_PROVIDERS.huggingface.dailyLimit) {
+        console.log('Daily API limit reached, using fallback analysis');
+        return createEnhancedInsights(article);
+      }
+
+      console.log(`Generating AI insights using Hugging Face (Usage: ${todayUsage}/${AI_PROVIDERS.huggingface.dailyLimit})`);
+
+      const articleText = `${article.title} ${article.description}`;
+      
+      // Step 1: Get sentiment analysis
+      const sentimentResult = await callHuggingFaceAPI(
+        AI_PROVIDERS.huggingface.models.analysis,
+        {
+          inputs: articleText
+        }
+      );
+
+      // Step 2: Get text summarization for key insights
+      const summaryResult = await callHuggingFaceAPI(
+        AI_PROVIDERS.huggingface.models.summarization,
+        {
+          inputs: articleText,
+          parameters: {
+            max_length: 100,
+            min_length: 30
+          }
+        }
+      );
+
+      // Process the AI results
+      const insights = processAIResults(article, sentimentResult, summaryResult);
+
+      // Cache the insights
+      setInsightsCache(article.id, insights);
+      
+      return insights;
+
+    } catch (error) {
+      console.error('Error generating AI insights:', error);
+      // Fallback to enhanced rule-based analysis
+      return createEnhancedInsights(article);
+    }
+  };
+
+  // Process AI results into our insights format
+  const processAIResults = (article, sentimentResult, summaryResult) => {
+    const title = article.title.toLowerCase();
+    const description = article.description.toLowerCase();
+    const content = title + ' ' + description;
+    
+    // Process sentiment from Hugging Face
+    let sentiment = 'Neutral';
+    let confidence = '60%';
+    
+    if (sentimentResult && Array.isArray(sentimentResult) && sentimentResult.length > 0) {
+      const topSentiment = sentimentResult[0];
+      const score = Math.round(topSentiment.score * 100);
+      confidence = `${score}%`;
+      
+      if (topSentiment.label === 'LABEL_2' || topSentiment.label === 'POSITIVE') {
+        sentiment = 'Bullish';
+      } else if (topSentiment.label === 'LABEL_0' || topSentiment.label === 'NEGATIVE') {
+        sentiment = 'Bearish';
+      }
+    }
+
+    // Determine market impact using crypto-specific keywords
+    let marketImpact = 'Low';
+    const highImpactKeywords = [
+      'bitcoin', 'btc', 'ethereum', 'eth', 'federal reserve', 'sec', 
+      'regulation', 'institutional', 'etf', 'binance', 'coinbase',
+      'market', 'trillion', 'billion', 'major', 'breaking'
+    ];
+    
+    const impactScore = highImpactKeywords.reduce((score, word) => 
+      content.includes(word) ? score + 1 : score, 0);
+    
+    if (impactScore >= 3) {
+      marketImpact = 'High';
+    } else if (impactScore >= 1) {
+      marketImpact = 'Moderate';
+    }
+
+    // Risk assessment
+    let riskLevel = 'Low';
+    if (content.includes('hack') || content.includes('scam') || content.includes('fraud')) {
+      riskLevel = 'High';
+    } else if (content.includes('regulation') || content.includes('volatility') || content.includes('investigation')) {
+      riskLevel = 'Moderate';
+    }
+
+    // Generate key takeaways
+    const takeaways = [];
+    
+    // Add AI-powered summary if available
+    if (summaryResult && Array.isArray(summaryResult) && summaryResult.length > 0) {
+      const summary = summaryResult[0].summary_text;
+      takeaways.push(`AI Analysis: ${summary.substring(0, 100)}...`);
+    }
+    
+    if (sentiment === 'Bullish') {
+      takeaways.push('Positive sentiment detected - could support crypto price growth');
+      takeaways.push('Good opportunity to research the mentioned cryptocurrencies');
+    } else if (sentiment === 'Bearish') {
+      takeaways.push('Negative sentiment suggests exercising caution in crypto investments');
+      takeaways.push('Consider waiting for market stabilization before making moves');
+    } else {
+      takeaways.push('Mixed sentiment indicates a balanced approach may be best');
+    }
+    
+    if (content.includes('bitcoin') || content.includes('btc')) {
+      takeaways.push('Bitcoin news often influences the entire cryptocurrency market');
+    }
+    
+    if (content.includes('philippines') || content.includes('filipino')) {
+      takeaways.push('This news has specific relevance for Filipino crypto investors');
+    } else {
+      takeaways.push('Monitor impact on Philippine exchanges like PDAX and Coins.ph');
+    }
+    
+    // Generate recommendation
+    let recommendation;
+    if (sentiment === 'Bullish' && riskLevel === 'Low') {
+      recommendation = 'AI analysis shows positive sentiment. Consider this favorable for learning about crypto investments with peso-cost averaging.';
+    } else if (sentiment === 'Bearish' || riskLevel === 'High') {
+      recommendation = 'AI detects concerning signals. Focus on education and wait for more stable conditions before investing.';
+    } else {
+      recommendation = 'AI shows mixed signals. Continue learning and monitoring market developments without rushing into investments.';
+    }
+
+    return {
+      marketImpact: {
+        level: marketImpact,
+        description: `AI analysis indicates ${marketImpact.toLowerCase()} potential impact on crypto markets, particularly affecting major coins available on Philippine exchanges.`
+      },
+      sentiment: {
+        overall: sentiment,
+        confidence: confidence,
+        reasoning: `AI sentiment analysis with ${confidence} confidence suggests ${sentiment.toLowerCase()} market sentiment based on article content and tone.`
+      },
+      keyTakeaways: takeaways.slice(0, 4),
+      riskLevel: {
+        level: riskLevel,
+        description: `AI assessment shows ${riskLevel.toLowerCase()} risk level for Filipino crypto beginners. ${riskLevel === 'High' ? 'Exercise extra caution.' : riskLevel === 'Moderate' ? 'Standard crypto market risks apply.' : 'Relatively safer conditions for learning.'}`
+      },
+      recommendation: recommendation
+    };
+  };
+
+  // Enhanced rule-based analysis (no API needed)
+  const createEnhancedInsights = (article) => {
+    const title = article.title.toLowerCase();
+    const description = article.description.toLowerCase();
+    const content = title + ' ' + description;
+    
+    // Advanced keyword analysis for crypto
+    let sentiment = 'Neutral';
+    let marketImpact = 'Low';
+    let riskLevel = 'Moderate';
+    let confidence = '70%';
+    
+    // Crypto-specific sentiment analysis
+    const bullishIndicators = [
+      'buy', 'bull', 'rise', 'surge', 'pump', 'adoption', 'institutional', 
+      'etf', 'approved', 'breakout', 'rally', 'gain', 'up', 'growth',
+      'investment', 'partnership', 'launch', 'upgrade', 'integration'
+    ];
+    
+    const bearishIndicators = [
+      'sell', 'bear', 'drop', 'crash', 'dump', 'regulation', 'ban', 
+      'hack', 'decline', 'fall', 'down', 'loss', 'warning', 'risk',
+      'lawsuit', 'probe', 'investigation', 'concerns', 'volatility'
+    ];
+    
+    const highImpactKeywords = [
+      'bitcoin', 'btc', 'ethereum', 'eth', 'federal reserve', 'sec', 
+      'regulation', 'institutional', 'etf', 'binance', 'coinbase',
+      'market', 'price', 'trillion', 'billion', 'major'
+    ];
+    
+    // Philippine-specific context
+    const philippineContext = [
+      'philippines', 'filipino', 'peso', 'bsp', 'bangko sentral',
+      'manila', 'sec philippines', 'pdax', 'coins.ph'
+    ];
+    
+    // Calculate sentiment scores
+    const bullishScore = bullishIndicators.reduce((score, word) => 
+      content.includes(word) ? score + 1 : score, 0);
+    const bearishScore = bearishIndicators.reduce((score, word) => 
+      content.includes(word) ? score + 1 : score, 0);
+    
+    // Determine sentiment
+    if (bullishScore > bearishScore + 1) {
+      sentiment = 'Bullish';
+      confidence = '75%';
+    } else if (bearishScore > bullishScore + 1) {
+      sentiment = 'Bearish';
+      confidence = '75%';
+    } else {
+      sentiment = 'Neutral';
+      confidence = bullishScore > 0 || bearishScore > 0 ? '65%' : '60%';
+    }
+    
+    // Determine market impact
+    const impactScore = highImpactKeywords.reduce((score, word) => 
+      content.includes(word) ? score + 1 : score, 0);
+    
+    if (impactScore >= 3) {
+      marketImpact = 'High';
+    } else if (impactScore >= 1) {
+      marketImpact = 'Moderate';
+    }
+    
+    // Risk assessment
+    if (content.includes('hack') || content.includes('scam') || content.includes('fraud')) {
+      riskLevel = 'High';
+    } else if (content.includes('regulation') || content.includes('volatility')) {
+      riskLevel = 'Moderate';
+    } else {
+      riskLevel = 'Low';
+    }
+    
+    // Generate contextual takeaways
+    const takeaways = [];
+    
+    if (sentiment === 'Bullish') {
+      takeaways.push('This positive news could support crypto price growth');
+      takeaways.push('Good time to research and learn more about the mentioned cryptocurrencies');
+    } else if (sentiment === 'Bearish') {
+      takeaways.push('This news suggests caution in the crypto market');
+      takeaways.push('Consider waiting for more stability before making investment decisions');
+    } else {
+      takeaways.push('Mixed signals suggest a wait-and-see approach may be prudent');
+    }
+    
+    if (content.includes('bitcoin') || content.includes('btc')) {
+      takeaways.push('Bitcoin movements often influence the entire crypto market');
+    }
+    
+    if (content.includes('ethereum') || content.includes('eth')) {
+      takeaways.push('Ethereum developments can impact DeFi and NFT sectors');
+    }
+    
+    if (philippineContext.some(word => content.includes(word))) {
+      takeaways.push('This news has specific relevance for Filipino crypto investors');
+    } else {
+      takeaways.push('Monitor how global crypto trends affect Philippine exchanges like PDAX and Coins.ph');
+    }
+    
+    takeaways.push('Always practice peso-cost averaging and never invest more than you can afford to lose');
+    
+    // Generate recommendation
+    let recommendation;
+    if (sentiment === 'Bullish' && riskLevel === 'Low') {
+      recommendation = 'Favorable conditions for learning about crypto investments. Consider starting small with peso-cost averaging.';
+    } else if (sentiment === 'Bearish' || riskLevel === 'High') {
+      recommendation = 'Exercise caution. Focus on education and wait for more stable market conditions before investing.';
+    } else {
+      recommendation = 'Stay informed and continue learning. This is a good time to research and understand market dynamics without rushing into investments.';
+    }
+    
+    return {
+      marketImpact: {
+        level: marketImpact,
+        description: `This news shows ${marketImpact.toLowerCase()} potential impact on Philippine crypto markets, particularly affecting major coins like Bitcoin and Ethereum available on local exchanges.`
+      },
+      sentiment: {
+        overall: sentiment,
+        confidence: confidence,
+        reasoning: `Analysis of key terms suggests ${sentiment.toLowerCase()} sentiment based on ${bullishScore} positive and ${bearishScore} negative indicators in the article.`
+      },
+      keyTakeaways: takeaways.slice(0, 4), // Limit to 4 takeaways
+      riskLevel: {
+        level: riskLevel,
+        description: `${riskLevel} risk level for Filipino crypto beginners. ${riskLevel === 'High' ? 'Exercise extra caution and consider professional advice.' : riskLevel === 'Moderate' ? 'Standard crypto market risks apply.' : 'Relatively safer conditions for learning and gradual investment.'}`
+      },
+      recommendation: recommendation
+    };
+  };
   // Modal handlers
-  const openModal = (article) => {
+  const openModal = async (article) => {
     setSelectedArticle(article);
     setIsModalOpen(true);
     setIsLoadingInsights(true);
-    
-    // Simulate AI processing time
-    setTimeout(() => {
-      setIsLoadingInsights(false);
-    }, 2000);
+    setInsights(null);
+    setInsightsError(null);
     
     // Prevent body scroll when modal is open
     document.body.style.overflow = 'hidden';
+
+    // Generate or fetch cached insights
+    try {
+      const aiInsights = await generateInsights(article);
+      setInsights(aiInsights);
+    } catch (error) {
+      console.error('Failed to get AI insights:', error);
+      setInsightsError(error.message);
+    } finally {
+      setIsLoadingInsights(false);
+    }
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
     setSelectedArticle(null);
     setIsLoadingInsights(false);
+    setInsights(null);
+    setInsightsError(null);
     
     // Restore body scroll
     document.body.style.overflow = 'unset';
@@ -297,7 +725,8 @@ export default function News() {
 
   const clearCache = () => {
     localStorage.removeItem(CACHE_KEY);
-    console.log('Cache cleared');
+    localStorage.removeItem(INSIGHTS_CACHE_KEY);
+    console.log('All cache cleared');
     window.location.reload();
   };
 
@@ -520,38 +949,153 @@ export default function News() {
             </div>
             
             <div className="modal-body">
-              <div className="insights-placeholder">
-                <div className="placeholder-icon">
+              {isLoadingInsights ? (
+                <div className="insights-loading">
                   <div className="ai-brain">
                     <div className="brain-pulse"></div>
-                    🧠
+                    🤖
+                  </div>
+                  <h4>AI Analyzing Article...</h4>
+                  <p>Our Hugging Face AI is processing the news and generating personalized insights.</p>
+                  <div className="loading-steps">
+                    <div className="step">🧠 Running sentiment analysis...</div>
+                    <div className="step">📊 Analyzing market impact...</div>
+                    <div className="step">🎯 Generating recommendations...</div>
+                  </div>
+                  <div className="api-status">
+                    <small>Using AI models: RoBERTa Sentiment + BART Summarization</small>
                   </div>
                 </div>
-                <h4>AI Analysis Coming Soon</h4>
-                <p>This is where our AI will provide detailed market insights, sentiment analysis, and personalized recommendations for Filipino crypto beginners.</p>
-                
-                <div className="feature-preview">
-                  <div className="feature-item">
-                    <span className="feature-icon">📊</span>
-                    <span>Market Impact Analysis</span>
-                  </div>
-                  <div className="feature-item">
-                    <span className="feature-icon">💭</span>
-                    <span>Sentiment Analysis</span>
-                  </div>
-                  <div className="feature-item">
-                    <span className="feature-icon">🎯</span>
-                    <span>Investment Recommendations</span>
-                  </div>
-                  <div className="feature-item">
-                    <span className="feature-icon">⚠️</span>
-                    <span>Risk Assessment</span>
+              ) : insightsError ? (
+                <div className="insights-error">
+                  <div className="error-icon">⚠️</div>
+                  <h4>AI Analysis Unavailable</h4>
+                  <p>We couldn't generate AI insights right now. This might be due to:</p>
+                  <ul>
+                    <li>Daily API limit reached (1000 requests/day)</li>
+                    <li>AI models are loading or temporarily unavailable</li>
+                    <li>Network connectivity issues</li>
+                  </ul>
+                  <p className="error-message">{insightsError}</p>
+                  <div className="error-actions">
+                    <button 
+                      className="btn-retry"
+                      onClick={() => openModal(selectedArticle)}
+                    >
+                      Try Again
+                    </button>
+                    <button 
+                      className="btn-fallback"
+                      onClick={() => {
+                        setInsights(createEnhancedInsights(selectedArticle));
+                        setInsightsError(null);
+                      }}
+                    >
+                      Use Basic Analysis
+                    </button>
                   </div>
                 </div>
-              </div>
+              ) : insights ? (
+                <div className="insights-content">
+                  <div className="article-header">
+                    <h4>{selectedArticle.title}</h4>
+                    <div className="article-meta">
+                      <span className="source">{selectedArticle.source}</span>
+                      <span className="date">
+                        {new Date(selectedArticle.publishedAt).toLocaleDateString('en-US', {
+                          month: 'short',
+                          day: 'numeric'
+                        })}
+                      </span>
+                      <span className="ai-badge">🤖 AI Powered</span>
+                    </div>
+                  </div>
+
+                  <div className="insights-grid">
+                    <div className="insight-card">
+                      <div className="insight-header">
+                        <span className="insight-icon">📊</span>
+                        <h5>AI Market Impact</h5>
+                      </div>
+                      <div className={`impact-badge ${insights.marketImpact.level.toLowerCase()}`}>
+                        {insights.marketImpact.level} Impact
+                      </div>
+                      <p>{insights.marketImpact.description}</p>
+                    </div>
+
+                    <div className="insight-card">
+                      <div className="insight-header">
+                        <span className="insight-icon">💭</span>
+                        <h5>AI Sentiment Analysis</h5>
+                      </div>
+                      <div className={`sentiment-badge ${insights.sentiment.overall.toLowerCase()}`}>
+                        {insights.sentiment.overall}
+                        <span className="confidence">({insights.sentiment.confidence} confidence)</span>
+                      </div>
+                      <p>{insights.sentiment.reasoning}</p>
+                    </div>
+
+                    <div className="insight-card full-width">
+                      <div className="insight-header">
+                        <span className="insight-icon">🎯</span>
+                        <h5>AI-Generated Insights for Filipino Beginners</h5>
+                      </div>
+                      <ul className="takeaways-list">
+                        {insights.keyTakeaways.map((takeaway, index) => (
+                          <li key={index}>{takeaway}</li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div className="insight-card">
+                      <div className="insight-header">
+                        <span className="insight-icon">⚠️</span>
+                        <h5>AI Risk Assessment</h5>
+                      </div>
+                      <div className={`risk-badge ${insights.riskLevel.level.toLowerCase()}`}>
+                        {insights.riskLevel.level} Risk
+                      </div>
+                      <p>{insights.riskLevel.description}</p>
+                    </div>
+
+                    <div className="insight-card">
+                      <div className="insight-header">
+                        <span className="insight-icon">💡</span>
+                        <h5>AI Recommendation</h5>
+                      </div>
+                      <p className="recommendation">{insights.recommendation}</p>
+                    </div>
+                  </div>
+
+                  <div className="ai-info">
+                    <div className="ai-models-used">
+                      <h6>🧠 AI Models Used:</h6>
+                      <div className="model-tags">
+                        <span className="model-tag">RoBERTa Sentiment Analysis</span>
+                        <span className="model-tag">BART Text Summarization</span>
+                        <span className="model-tag">Custom Crypto Logic</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="disclaimer">
+                    <p><strong>AI Disclaimer:</strong> This analysis is generated by AI models and rule-based systems for educational purposes only. It should not be considered as financial advice. Always do your own research and consult with financial professionals before making investment decisions.</p>
+                  </div>
+                </div>
+              ) : null}
             </div>
             
             <div className="modal-footer">
+              {selectedArticle && (
+                <a 
+                  href={selectedArticle.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn-read-full"
+                >
+                  Read Full Article
+                </a>
+              )}
               <button className="btn-close" onClick={closeModal}>
                 Close
               </button>
