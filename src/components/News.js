@@ -9,6 +9,11 @@ export default function News() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
+  
+  // Modal states
+  const [selectedArticle, setSelectedArticle] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLoadingInsights, setIsLoadingInsights] = useState(false);
 
   // Configuration
   const ARTICLES_PER_PAGE = 12;
@@ -16,6 +21,42 @@ export default function News() {
   const CACHE_KEY = 'bitry_crypto_news';
   const CACHE_DURATION = 30 * 60 * 1000; // 30 minutes
   const API_KEY = 'eca0ba3938154abd9d66d996cfa36459';
+
+  // Modal handlers
+  const openModal = (article) => {
+    setSelectedArticle(article);
+    setIsModalOpen(true);
+    setIsLoadingInsights(true);
+    
+    // Simulate AI processing time
+    setTimeout(() => {
+      setIsLoadingInsights(false);
+    }, 2000);
+    
+    // Prevent body scroll when modal is open
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedArticle(null);
+    setIsLoadingInsights(false);
+    
+    // Restore body scroll
+    document.body.style.overflow = 'unset';
+  };
+
+  // Close modal on Escape key
+  useEffect(() => {
+    const handleEscape = (event) => {
+      if (event.key === 'Escape' && isModalOpen) {
+        closeModal();
+      }
+    };
+
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, [isModalOpen]);
 
   // Cache functions
   const isCacheFresh = (cached) => {
@@ -364,35 +405,46 @@ export default function News() {
             )}
             
             <div className="news-content">
-              <h3 className="news-card-title">
-                <a 
-                  href={article.url} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  {article.title}
-                </a>
-              </h3>
-              
-              <p className="news-description">
-                {article.description}
-              </p>
-              
-              <div className="news-meta">
-                <div className="news-source">
-                  <span className="source-name">{article.source}</span>
-                  {article.author !== 'Unknown Author' && (
-                    <span className="author">by {article.author}</span>
-                  )}
+              <div className="news-text-content">
+                <h3 className="news-card-title">
+                  <a 
+                    href={article.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    {article.title}
+                  </a>
+                </h3>
+                
+                <p className="news-description">
+                  {article.description}
+                </p>
+                
+                <div className="news-meta">
+                  <div className="news-source">
+                    <span className="source-name">{article.source}</span>
+                    {article.author !== 'Unknown Author' && (
+                      <span className="author">by {article.author}</span>
+                    )}
+                  </div>
+                  <time className="news-date" dateTime={article.publishedAt}>
+                    {new Date(article.publishedAt).toLocaleDateString('en-US', {
+                      month: 'short',
+                      day: 'numeric',
+                      hour: '2-digit',
+                      minute: '2-digit'
+                    })}
+                  </time>
                 </div>
-                <time className="news-date" dateTime={article.publishedAt}>
-                  {new Date(article.publishedAt).toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric',
-                    hour: '2-digit',
-                    minute: '2-digit'
-                  })}
-                </time>
+              </div>
+              
+              <div className="news-actions">
+                <button 
+                  className="btn-ai-insights"
+                  onClick={() => openModal(article)}
+                >
+                  🤖 See AI Insights
+                </button>
               </div>
             </div>
           </article>
@@ -455,6 +507,58 @@ export default function News() {
             new Date(getCachedData().timestamp).toLocaleString() : 'Just now'}
         </p>
       </div>
+
+      {/* AI Insights Modal */}
+      {isModalOpen && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <h3>🤖 AI Market Insights</h3>
+              <button className="modal-close" onClick={closeModal}>
+                ×
+              </button>
+            </div>
+            
+            <div className="modal-body">
+              <div className="insights-placeholder">
+                <div className="placeholder-icon">
+                  <div className="ai-brain">
+                    <div className="brain-pulse"></div>
+                    🧠
+                  </div>
+                </div>
+                <h4>AI Analysis Coming Soon</h4>
+                <p>This is where our AI will provide detailed market insights, sentiment analysis, and personalized recommendations for Filipino crypto beginners.</p>
+                
+                <div className="feature-preview">
+                  <div className="feature-item">
+                    <span className="feature-icon">📊</span>
+                    <span>Market Impact Analysis</span>
+                  </div>
+                  <div className="feature-item">
+                    <span className="feature-icon">💭</span>
+                    <span>Sentiment Analysis</span>
+                  </div>
+                  <div className="feature-item">
+                    <span className="feature-icon">🎯</span>
+                    <span>Investment Recommendations</span>
+                  </div>
+                  <div className="feature-item">
+                    <span className="feature-icon">⚠️</span>
+                    <span>Risk Assessment</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="modal-footer">
+              <button className="btn-close" onClick={closeModal}>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

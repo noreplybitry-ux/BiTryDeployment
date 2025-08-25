@@ -1,4 +1,8 @@
-.logo {
-  height: auto;
-  width: 100px;
+.navbar .brand .logo {
+  display: block;
+  width: auto !important;        /* preserve aspect ratio */
+  height: 40px !important;       /* default desktop height */
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain;
 }
