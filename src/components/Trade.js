@@ -1,6 +1,7 @@
 // src/pages/TradePage.jsx
 import React, { useEffect, useRef, useState } from "react";
 import "../css/Trade.css";
+import TechnicalAnalysis from "./TechnicalAnalysis";
 
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
@@ -960,6 +961,10 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
             </div>
           </div>
         </aside>
+      </div>
+
+      <div className="analysis-panel"> 
+        <TechnicalAnalysis symbol={symbol} interval={interval} />
       </div>
 
       <div className="positions-panel">
