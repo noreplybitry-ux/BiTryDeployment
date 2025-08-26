@@ -440,6 +440,7 @@ export default function News() {
       recommendation: recommendation
     };
   };
+
   // Modal handlers
   const openModal = async (article) => {
     setSelectedArticle(article);
@@ -693,6 +694,32 @@ export default function News() {
     }
   };
 
+  // small cache-verification helper for debugging
+  const verifyCaches = () => {
+    try {
+      const newsCacheRaw = localStorage.getItem(CACHE_KEY);
+      const insightsCacheRaw = localStorage.getItem(INSIGHTS_CACHE_KEY);
+
+      const newsCache = newsCacheRaw ? JSON.parse(newsCacheRaw) : null;
+      const insightsCache = insightsCacheRaw ? JSON.parse(insightsCacheRaw) : {};
+
+      console.info('BiTry Cache Check → news:', newsCache ? {
+        items: Array.isArray(newsCache.data) ? newsCache.data.length : 0,
+        ageMs: newsCache ? Date.now() - newsCache.timestamp : null
+      } : null);
+
+      console.info('BiTry Cache Check → insights:', {
+        keys: Object.keys(insightsCache || {}).length,
+        sampleKey: Object.keys(insightsCache || {})[0] || null
+      });
+
+      return { newsCache, insightsCache };
+    } catch (e) {
+      console.warn('Cache verification failed', e);
+      return null;
+    }
+  };
+
   // Initial load
   useEffect(() => {
     const loadNews = async () => {
@@ -717,6 +744,8 @@ export default function News() {
         }
       } finally {
         setLoading(false);
+        // debug: verify caches present
+        verifyCaches();
       }
     };
 
