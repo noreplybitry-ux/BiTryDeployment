@@ -100,6 +100,13 @@ const Signup = () => {
     return Object.keys(newErrors).length === 0;
   };
 
+  // Simple email check - let Supabase handle duplicate detection
+  const checkEmailExists = async (email) => {
+    // We'll skip pre-checking and let Supabase Auth handle duplicate detection
+    // This avoids potential issues with the email checking logic
+    return false;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     
@@ -110,6 +117,8 @@ const Signup = () => {
     setSuccessMessage('');
     
     try {
+      console.log('Starting signup process...');
+      
       // Sign up the user with Supabase Auth
       const { data, error } = await supabase.auth.signUp({
         email: formData.email.trim(),
@@ -123,25 +132,47 @@ const Signup = () => {
         }
       });
 
+      console.log('Signup response:', { data, error });
+
       if (error) {
+        console.error('Signup error:', error);
+        
         // Handle specific Supabase errors
-        if (error.message.includes('User already registered')) {
+        if (error.message.includes('User already registered') || 
+            error.message.includes('email address already in use') ||
+            error.message.includes('already registered')) {
           setErrors({ email: 'An account with this email already exists' });
         } else if (error.message.includes('Password should be at least 6 characters')) {
           setErrors({ password: 'Password must be at least 6 characters' });
-        } else if (error.message.includes('Invalid email')) {
+        } else if (error.message.includes('Invalid email') || 
+                   error.message.includes('Unable to validate email address')) {
           setErrors({ email: 'Please enter a valid email address' });
+        } else if (error.message.includes('Database error') || 
+                   error.message.includes('saving new user') ||
+                   error.message.includes('insert or update on table') ||
+                   error.message.includes('violates foreign key constraint')) {
+          setErrors({ general: 'There was a problem creating your account. This might be due to a database configuration issue. Please contact support.' });
         } else {
-          setErrors({ general: error.message });
+          setErrors({ general: `Registration failed: ${error.message}` });
         }
         return;
       }
 
-      // Check if email confirmation is required
+      console.log('User created:', data.user?.id);
+
+      // Check if we have a user
+      if (!data.user) {
+        setErrors({ general: 'Account creation failed. Please try again.' });
+        return;
+      }
+
+      // If we have a user but no session, they need to confirm their email
       if (data.user && !data.session) {
+        console.log('Email confirmation required');
         setSuccessMessage(
           `Account created successfully! Please check your email (${formData.email}) and click the confirmation link to activate your account.`
         );
+        
         // Reset form
         setFormData({
           firstName: '',
@@ -152,7 +183,7 @@ const Signup = () => {
           agreeToTerms: false
         });
       } else if (data.session) {
-        // User is automatically logged in
+        console.log('User logged in automatically');
         setSuccessMessage('Account created successfully! Redirecting to dashboard...');
         setTimeout(() => {
           window.location.href = '/dashboard';
@@ -160,8 +191,8 @@ const Signup = () => {
       }
 
     } catch (error) {
-      console.error('Signup error:', error);
-      setErrors({ general: 'An unexpected error occurred. Please try again.' });
+      console.error('Unexpected signup error:', error);
+      setErrors({ general: `An unexpected error occurred: ${error.message}` });
     } finally {
       setIsLoading(false);
     }
