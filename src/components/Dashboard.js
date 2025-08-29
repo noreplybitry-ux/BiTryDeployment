@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { useAuth } from "../contexts/AuthContext";
+import { supabase } from "../lib/supabase";
 import PieStat from "../components/DashboardPieStat";
 import "../css/Dashboard.css";
 import {
@@ -9,7 +11,9 @@ import {
   IoRefresh,
   IoLogOut,
   IoEye,
-  IoEyeOff
+  IoEyeOff,
+  IoClose,
+  IoCheckmark
 } from "react-icons/io5";
 import {
   FaUser,
@@ -19,7 +23,8 @@ import {
   FaExchangeAlt,
   FaHistory,
   FaCamera,
-  FaLock
+  FaLock,
+  FaSpinner
 } from "react-icons/fa";
 
 // Mock data with more realistic crypto trading data
@@ -253,10 +258,58 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
   );
 };
 
+// Modal component for editing profile information
+const EditModal = ({ isOpen, onClose, title, children }) => {
+  if (!isOpen) return null;
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-header">
+          <h3>{title}</h3>
+          <button className="modal-close" onClick={onClose}>
+            <IoClose />
+          </button>
+        </div>
+        <div className="modal-body">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default function Dashboard() {
+  const { user, signOut } = useAuth();
   const [activeTab, setActiveTab] = useState("overview");
   const [balanceVisible, setBalanceVisible] = useState(true);
   const [timeFilter, setTimeFilter] = useState("7d");
+  
+  // Profile state
+  const [profile, setProfile] = useState({
+    first_name: '',
+    last_name: '',
+    profile_picture_url: null,
+    birthday: null
+  });
+  const [loading, setLoading] = useState(false);
+  
+  // Modal states
+  const [editNameModal, setEditNameModal] = useState(false);
+  const [changePasswordModal, setChangePasswordModal] = useState(false);
+  
+  // Form states
+  const [nameForm, setNameForm] = useState({ first_name: '', last_name: '' });
+  const [passwordForm, setPasswordForm] = useState({ 
+    current_password: '', 
+    new_password: '', 
+    confirm_password: '' 
+  });
+  const [uploadingImage, setUploadingImage] = useState(false);
+  const [messages, setMessages] = useState({ success: '', error: '' });
+  const [passwordStrength, setPasswordStrength] = useState({ score: 0, text: '', isValid: false });
+  
+  const fileInputRef = useRef(null);
 
   // Calculate stats
   const totalTrades = recentTradesData.length + ongoingTradesData.length;
@@ -275,6 +328,351 @@ export default function Dashboard() {
 
   const winRateData = [{ name: "Wins", value: parseFloat(winRate) }, { name: "Losses", value: 100 - parseFloat(winRate) }];
 
+  // Fetch user profile on component mount
+  useEffect(() => {
+    if (user) {
+      fetchProfile();
+    }
+  }, [user]);
+
+  // Password validation function
+  const validatePassword = (password) => {
+    const minLength = password.length >= 8;
+    const hasLower = /[a-z]/.test(password);
+    const hasUpper = /[A-Z]/.test(password);
+    const hasDigit = /[0-9]/.test(password);
+    const hasSpecial = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]/.test(password);
+    
+    const validations = {
+      minLength,
+      hasLower,
+      hasUpper,
+      hasDigit,
+      hasSpecial
+    };
+    
+    const validCount = Object.values(validations).filter(Boolean).length;
+    const isValid = validCount === 5;
+    
+    let strength = 'Weak';
+    let score = 0;
+    
+    if (validCount >= 3) {
+      strength = 'Medium';
+      score = 1;
+    }
+    
+    if (isValid && password.length >= 12) {
+      strength = 'Strong';
+      score = 2;
+    } else if (isValid) {
+      strength = 'Medium';
+      score = 1;
+    }
+    
+    return {
+      isValid,
+      score,
+      text: strength,
+      validations,
+      requirements: {
+        minLength: 'At least 8 characters',
+        hasLower: 'At least one lowercase letter',
+        hasUpper: 'At least one uppercase letter',
+        hasDigit: 'At least one number',
+        hasSpecial: 'At least one special character (!@#$%^&*()_+-=[]{};\':"|,.<>/?)'
+      }
+    };
+  };
+
+  // Update password strength when password changes
+  useEffect(() => {
+    if (passwordForm.new_password) {
+      const strength = validatePassword(passwordForm.new_password);
+      setPasswordStrength(strength);
+    } else {
+      setPasswordStrength({ score: 0, text: '', isValid: false });
+    }
+  }, [passwordForm.new_password]);
+
+  // Check if user is from Google OAuth
+  const isGoogleUser = user?.app_metadata?.provider === 'google';
+
+  const fetchProfile = async () => {
+    if (!user) return;
+    
+    setLoading(true);
+    try {
+      // First try to get existing profile
+      let { data, error } = await supabase
+        .from('profiles')
+        .select('*')
+        .eq('id', user.id)
+        .maybeSingle(); // Use maybeSingle instead of single to avoid errors when no record exists
+
+      if (error) {
+        console.error('Error fetching profile:', error);
+        // If there's an error, try to create a new profile
+        const { data: newProfile, error: createError } = await supabase
+          .from('profiles')
+          .upsert({ 
+            id: user.id,
+            first_name: user.user_metadata?.firstName || '',
+            last_name: user.user_metadata?.lastName || '',
+          }, { 
+            onConflict: 'id',
+            ignoreDuplicates: false 
+          })
+          .select()
+          .single();
+
+        if (createError) {
+          console.error('Error creating profile:', createError);
+          throw createError;
+        }
+        data = newProfile;
+      }
+
+      if (!data) {
+        // Create profile if it doesn't exist
+        const { data: newProfile, error: createError } = await supabase
+          .from('profiles')
+          .insert([{ 
+            id: user.id,
+            first_name: user.user_metadata?.firstName || '',
+            last_name: user.user_metadata?.lastName || '',
+          }])
+          .select()
+          .single();
+
+        if (createError) {
+          console.error('Error creating profile:', createError);
+          throw createError;
+        }
+        data = newProfile;
+      }
+
+      setProfile(data);
+      setNameForm({ 
+        first_name: data.first_name || '', 
+        last_name: data.last_name || '' 
+      });
+    } catch (error) {
+      console.error('Error in fetchProfile:', error);
+      setMessages({ ...messages, error: 'Failed to fetch profile data' });
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const updateProfile = async (updates) => {
+    if (!user) return { success: false, error: 'No user found' };
+
+    try {
+      const { data, error } = await supabase
+        .from('profiles')
+        .upsert(
+          { id: user.id, ...updates },
+          { 
+            onConflict: 'id',
+            ignoreDuplicates: false 
+          }
+        )
+        .select()
+        .single();
+
+      if (error) {
+        console.error('Update profile error:', error);
+        throw error;
+      }
+
+      setProfile(data);
+      return { success: true, data };
+    } catch (error) {
+      console.error('Error updating profile:', error);
+      return { success: false, error: error.message };
+    }
+  };
+
+  const handleNameUpdate = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    
+    try {
+      const result = await updateProfile({
+        first_name: nameForm.first_name.trim(),
+        last_name: nameForm.last_name.trim()
+      });
+
+      if (result.success) {
+        setMessages({ success: 'Name updated successfully!', error: '' });
+        // Close modal after 1 second
+        setTimeout(() => {
+          setEditNameModal(false);
+        }, 1000);
+      } else {
+        setMessages({ error: result.error, success: '' });
+        // Close modal after 3 seconds even on error
+        setTimeout(() => {
+          setEditNameModal(false);
+        }, 3000);
+      }
+    } catch (error) {
+      setMessages({ error: 'Failed to update name', success: '' });
+      setTimeout(() => {
+        setEditNameModal(false);
+      }, 3000);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleProfilePictureUpload = async (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    // Validate file type
+    if (!file.type.startsWith('image/')) {
+      setMessages({ error: 'Please select an image file', success: '' });
+      return;
+    }
+
+    // Validate file size (max 5MB)
+    if (file.size > 5 * 1024 * 1024) {
+      setMessages({ error: 'Image must be less than 5MB', success: '' });
+      return;
+    }
+
+    setUploadingImage(true);
+    
+    try {
+      // Delete old profile picture if it exists
+      if (profile.profile_picture_url) {
+        const oldFileName = profile.profile_picture_url.split('/').pop();
+        await supabase.storage
+          .from('profile-pictures')
+          .remove([`${user.id}/${oldFileName}`]);
+      }
+
+      // Upload new profile picture
+      const fileExt = file.name.split('.').pop();
+      const fileName = `${Date.now()}.${fileExt}`;
+      const filePath = `${user.id}/${fileName}`;
+
+      const { data: uploadData, error: uploadError } = await supabase.storage
+        .from('profile-pictures')
+        .upload(filePath, file);
+
+      if (uploadError) {
+        console.error('Upload error:', uploadError);
+        throw uploadError;
+      }
+
+      // Get public URL
+      const { data: urlData } = supabase.storage
+        .from('profile-pictures')
+        .getPublicUrl(filePath);
+
+      // Update profile with new picture URL
+      const result = await updateProfile({
+        profile_picture_url: urlData.publicUrl
+      });
+
+      if (result.success) {
+        setMessages({ success: 'Profile picture updated successfully!', error: '' });
+      } else {
+        setMessages({ error: result.error, success: '' });
+      }
+    } catch (error) {
+      console.error('Error uploading profile picture:', error);
+      setMessages({ error: 'Failed to upload profile picture', success: '' });
+    } finally {
+      setUploadingImage(false);
+      // Reset file input
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
+    }
+  };
+
+  const handlePasswordChange = async (e) => {
+    e.preventDefault();
+    
+    if (!passwordStrength.isValid) {
+      setMessages({ error: 'Password does not meet security requirements', success: '' });
+      return;
+    }
+
+    if (passwordForm.new_password !== passwordForm.confirm_password) {
+      setMessages({ error: 'New passwords do not match', success: '' });
+      return;
+    }
+
+    setLoading(true);
+    
+    try {
+      // For Google users, they might not have a current password, so we skip verification
+      if (!isGoogleUser) {
+        // Verify current password by attempting to sign in
+        const { error: verifyError } = await supabase.auth.signInWithPassword({
+          email: user.email,
+          password: passwordForm.current_password
+        });
+
+        if (verifyError) {
+          setMessages({ error: 'Current password is incorrect', success: '' });
+          setLoading(false);
+          return;
+        }
+      }
+
+      // Update password
+      const { error: updateError } = await supabase.auth.updateUser({
+        password: passwordForm.new_password
+      });
+
+      if (updateError) {
+        console.error('Password update error:', updateError);
+        throw updateError;
+      }
+
+      setMessages({ success: 'Password changed successfully!', error: '' });
+      setPasswordForm({ current_password: '', new_password: '', confirm_password: '' });
+      
+      // Close modal after 1 second
+      setTimeout(() => {
+        setChangePasswordModal(false);
+      }, 1000);
+    } catch (error) {
+      console.error('Error changing password:', error);
+      setMessages({ error: 'Failed to change password', success: '' });
+      // Close modal after 3 seconds even on error
+      setTimeout(() => {
+        setChangePasswordModal(false);
+      }, 3000);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleSignOut = async () => {
+    try {
+      await signOut();
+    } catch (error) {
+      console.error('Error signing out:', error);
+    }
+  };
+
+  // Clear messages after 5 seconds
+  useEffect(() => {
+    if (messages.success || messages.error) {
+      const timer = setTimeout(() => {
+        setMessages({ success: '', error: '' });
+      }, 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [messages]);
+
   const formatCurrency = (amount) => {
     return balanceVisible
       ? `₱${Math.abs(amount).toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
@@ -291,8 +689,22 @@ export default function Dashboard() {
     return `${showSign ? sign : ""}${percent.toFixed(2)}%`;
   };
 
+  const getDisplayName = () => {
+    if (profile.first_name || profile.last_name) {
+      return `${profile.first_name || ''} ${profile.last_name || ''}`.trim();
+    }
+    return user?.email?.split('@')[0] || 'User';
+  };
+
   return (
     <div className="dashboard">
+      {/* Messages */}
+      {(messages.success || messages.error) && (
+        <div className={`message-banner ${messages.error ? 'error' : 'success'}`}>
+          {messages.success || messages.error}
+        </div>
+      )}
+
       {/* Sidebar */}
       <aside className="sidebar" aria-label="Sidebar">
         <nav className="sidebar-nav">
@@ -328,7 +740,7 @@ export default function Dashboard() {
         </nav>
 
         <div className="sidebar-footer">
-          <div className="sidebar-item">
+          <div className="sidebar-item" onClick={handleSignOut}>
             <IoLogOut className="sidebar-icon" />
             <span className="sidebar-label">Logout</span>
           </div>
@@ -597,14 +1009,33 @@ export default function Dashboard() {
           <section className="page-card profile-section">
             <div className="profile-header">
               <div className="profile-avatar">
-                <FaUserCircle />
-                <button className="avatar-edit">
-                  <FaCamera />
+                {profile.profile_picture_url ? (
+                  <img 
+                    src={profile.profile_picture_url} 
+                    alt="Profile" 
+                    className="profile-image"
+                  />
+                ) : (
+                  <FaUserCircle />
+                )}
+                <button 
+                  className="avatar-edit" 
+                  onClick={() => fileInputRef.current?.click()}
+                  disabled={uploadingImage}
+                >
+                  {uploadingImage ? <FaSpinner className="spinning" /> : <FaCamera />}
                 </button>
+                <input
+                  type="file"
+                  ref={fileInputRef}
+                  onChange={handleProfilePictureUpload}
+                  accept="image/*"
+                  style={{ display: 'none' }}
+                />
               </div>
               <div className="profile-info">
-                <h2>Mang Tomas</h2>
-                <p className="profile-email">TMang@gmail.com</p>
+                <h2>{getDisplayName()}</h2>
+                <p className="profile-email">{user?.email}</p>
               </div>
             </div>
 
@@ -620,7 +1051,9 @@ export default function Dashboard() {
                         <small>Update your display name</small>
                       </div>
                     </div>
-                    <button className="setting-btn">Edit</button>
+                    <button className="setting-btn" onClick={() => setEditNameModal(true)}>
+                      Edit
+                    </button>
                   </div>
                   <div className="setting-item">
                     <div className="setting-info">
@@ -630,18 +1063,28 @@ export default function Dashboard() {
                         <small>Upload a new profile image</small>
                       </div>
                     </div>
-                    <button className="setting-btn">Upload</button>
+                    <button 
+                      className="setting-btn" 
+                      onClick={() => fileInputRef.current?.click()}
+                      disabled={uploadingImage}
+                    >
+                      {uploadingImage ? 'Uploading...' : 'Upload'}
+                    </button>
                   </div>
-                  <div className="setting-item">
-                    <div className="setting-info">
-                      <FaLock className="setting-icon" />
-                      <div>
-                        <span>Change Password</span>
-                        <small>Update your account password</small>
+                  {!isGoogleUser && (
+                    <div className="setting-item">
+                      <div className="setting-info">
+                        <FaLock className="setting-icon" />
+                        <div>
+                          <span>Change Password</span>
+                          <small>Update your account password</small>
+                        </div>
                       </div>
+                      <button className="setting-btn" onClick={() => setChangePasswordModal(true)}>
+                        Change
+                      </button>
                     </div>
-                    <button className="setting-btn">Change</button>
-                  </div>
+                  )}
                 </div>
               </div>
 
@@ -665,6 +1108,171 @@ export default function Dashboard() {
             </div>
           </section>
         )}
+
+        {/* Edit Name Modal */}
+        <EditModal
+          isOpen={editNameModal}
+          onClose={() => setEditNameModal(false)}
+          title="Edit Name"
+        >
+          <form onSubmit={handleNameUpdate}>
+            <div className="form-group">
+              <label htmlFor="first_name">First Name</label>
+              <input
+                type="text"
+                id="first_name"
+                value={nameForm.first_name}
+                onChange={(e) => setNameForm({ ...nameForm, first_name: e.target.value })}
+                className="form-input"
+                placeholder="Enter your first name"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="last_name">Last Name</label>
+              <input
+                type="text"
+                id="last_name"
+                value={nameForm.last_name}
+                onChange={(e) => setNameForm({ ...nameForm, last_name: e.target.value })}
+                className="form-input"
+                placeholder="Enter your last name"
+              />
+            </div>
+            <div className="modal-actions">
+              <button 
+                type="button" 
+                className="btn-secondary"
+                onClick={() => setEditNameModal(false)}
+              >
+                Cancel
+              </button>
+              <button 
+                type="submit" 
+                className="btn-primary"
+                disabled={loading}
+              >
+                {loading ? (
+                  <>
+                    <FaSpinner className="spinning" />
+                    Saving...
+                  </>
+                ) : (
+                  <>
+                    <IoCheckmark />
+                    Save Changes
+                  </>
+                )}
+              </button>
+            </div>
+          </form>
+        </EditModal>
+
+        {/* Change Password Modal */}
+        <EditModal
+          isOpen={changePasswordModal}
+          onClose={() => setChangePasswordModal(false)}
+          title="Change Password"
+        >
+          <form onSubmit={handlePasswordChange}>
+            {!isGoogleUser && (
+              <div className="form-group">
+                <label htmlFor="current_password">Current Password</label>
+                <input
+                  type="password"
+                  id="current_password"
+                  value={passwordForm.current_password}
+                  onChange={(e) => setPasswordForm({ ...passwordForm, current_password: e.target.value })}
+                  className="form-input"
+                  placeholder="Enter your current password"
+                  required
+                />
+              </div>
+            )}
+            <div className="form-group">
+              <label htmlFor="new_password">New Password</label>
+              <input
+                type="password"
+                id="new_password"
+                value={passwordForm.new_password}
+                onChange={(e) => setPasswordForm({ ...passwordForm, new_password: e.target.value })}
+                className="form-input"
+                placeholder="Enter your new password"
+                required
+                minLength={8}
+              />
+              {passwordForm.new_password && (
+                <div className="password-strength">
+                  <div className="strength-bar">
+                    <div 
+                      className={`strength-fill ${passwordStrength.score === 0 ? 'weak' : passwordStrength.score === 1 ? 'medium' : 'strong'}`}
+                      style={{ width: `${(passwordStrength.score + 1) * 33.33}%` }}
+                    ></div>
+                  </div>
+                  <div className={`strength-text ${passwordStrength.score === 0 ? 'weak' : passwordStrength.score === 1 ? 'medium' : 'strong'}`}>
+                    {passwordStrength.text}
+                  </div>
+                  <div className="password-requirements">
+                    {Object.entries(passwordStrength.requirements || {}).map(([key, requirement]) => (
+                      <div 
+                        key={key} 
+                        className={`requirement ${passwordStrength.validations?.[key] ? 'met' : 'unmet'}`}
+                      >
+                        <span className="requirement-icon">
+                          {passwordStrength.validations?.[key] ? '✓' : '✗'}
+                        </span>
+                        {requirement}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="form-group">
+              <label htmlFor="confirm_password">Confirm New Password</label>
+              <input
+                type="password"
+                id="confirm_password"
+                value={passwordForm.confirm_password}
+                onChange={(e) => setPasswordForm({ ...passwordForm, confirm_password: e.target.value })}
+                className="form-input"
+                placeholder="Confirm your new password"
+                required
+                minLength={8}
+              />
+              {passwordForm.confirm_password && passwordForm.new_password !== passwordForm.confirm_password && (
+                <div className="password-mismatch">
+                  Passwords do not match
+                </div>
+              )}
+            </div>
+            <div className="modal-actions">
+              <button 
+                type="button" 
+                className="btn-secondary"
+                onClick={() => setChangePasswordModal(false)}
+              >
+                Cancel
+              </button>
+              <button 
+                type="submit" 
+                className="btn-primary"
+                disabled={loading || !passwordStrength.isValid || passwordForm.new_password !== passwordForm.confirm_password}
+              >
+                {loading ? (
+                  <>
+                    <FaSpinner className="spinning" />
+                    Changing...
+                  </>
+                ) : (
+                  <>
+                    <FaLock />
+                    Change Password
+                  </>
+                )}
+              </button>
+            </div>
+          </form>
+        </EditModal>
       </main>
     </div>
   );
