@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { supabase } from '../lib/supabase';
 import '../css/Signup.css';
 
 const Signup = () => {
@@ -7,24 +8,32 @@ const Signup = () => {
     lastName: '',
     email: '',
     password: '',
-    birthday: ''
+    birthday: '',
+    agreeToTerms: false
   });
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value, type, checked } = e.target;
     setFormData(prev => ({
       ...prev,
-      [name]: value
+      [name]: type === 'checkbox' ? checked : value
     }));
+    
     // Clear error when user starts typing
     if (errors[name]) {
       setErrors(prev => ({
         ...prev,
         [name]: ''
       }));
+    }
+    
+    // Clear success message when user modifies form
+    if (successMessage) {
+      setSuccessMessage('');
     }
   };
 
@@ -35,12 +44,16 @@ const Signup = () => {
       newErrors.firstName = 'First name is required';
     } else if (formData.firstName.trim().length < 2) {
       newErrors.firstName = 'First name must be at least 2 characters';
+    } else if (!/^[a-zA-Z\s-']+$/.test(formData.firstName.trim())) {
+      newErrors.firstName = 'First name can only contain letters, spaces, hyphens, and apostrophes';
     }
 
     if (!formData.lastName.trim()) {
       newErrors.lastName = 'Last name is required';
     } else if (formData.lastName.trim().length < 2) {
       newErrors.lastName = 'Last name must be at least 2 characters';
+    } else if (!/^[a-zA-Z\s-']+$/.test(formData.lastName.trim())) {
+      newErrors.lastName = 'Last name can only contain letters, spaces, hyphens, and apostrophes';
     }
 
     if (!formData.email.trim()) {
@@ -65,11 +78,12 @@ const Signup = () => {
       const age = today.getFullYear() - birthDate.getFullYear();
       const monthDiff = today.getMonth() - birthDate.getMonth();
       
+      let actualAge = age;
       if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
+        actualAge--;
       }
       
-      if (age < 18) {
+      if (actualAge < 18) {
         newErrors.birthday = 'You must be at least 18 years old';
       }
       
@@ -78,30 +92,134 @@ const Signup = () => {
       }
     }
 
+    if (!formData.agreeToTerms) {
+      newErrors.agreeToTerms = 'You must agree to the Terms of Service and Privacy Policy';
+    }
+
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = async () => {
+  // Simple email check - let Supabase handle duplicate detection
+  const checkEmailExists = async (email) => {
+    // We'll skip pre-checking and let Supabase Auth handle duplicate detection
+    // This avoids potential issues with the email checking logic
+    return false;
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
     if (!validateForm()) return;
 
     setIsLoading(true);
+    setErrors({});
+    setSuccessMessage('');
     
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2500));
-      console.log('Signup submitted:', formData);
-      // Handle successful signup here
+      console.log('Starting signup process...');
+      
+      // Sign up the user with Supabase Auth
+      const { data, error } = await supabase.auth.signUp({
+        email: formData.email.trim(),
+        password: formData.password,
+        options: {
+          data: {
+            firstName: formData.firstName.trim(),
+            lastName: formData.lastName.trim(),
+            birthday: formData.birthday
+          }
+        }
+      });
+
+      console.log('Signup response:', { data, error });
+
+      if (error) {
+        console.error('Signup error:', error);
+        
+        // Handle specific Supabase errors
+        if (error.message.includes('User already registered') || 
+            error.message.includes('email address already in use') ||
+            error.message.includes('already registered')) {
+          setErrors({ email: 'An account with this email already exists' });
+        } else if (error.message.includes('Password should be at least 6 characters')) {
+          setErrors({ password: 'Password must be at least 6 characters' });
+        } else if (error.message.includes('Invalid email') || 
+                   error.message.includes('Unable to validate email address')) {
+          setErrors({ email: 'Please enter a valid email address' });
+        } else if (error.message.includes('Database error') || 
+                   error.message.includes('saving new user') ||
+                   error.message.includes('insert or update on table') ||
+                   error.message.includes('violates foreign key constraint')) {
+          setErrors({ general: 'There was a problem creating your account. This might be due to a database configuration issue. Please contact support.' });
+        } else {
+          setErrors({ general: `Registration failed: ${error.message}` });
+        }
+        return;
+      }
+
+      console.log('User created:', data.user?.id);
+
+      // Check if we have a user
+      if (!data.user) {
+        setErrors({ general: 'Account creation failed. Please try again.' });
+        return;
+      }
+
+      // If we have a user but no session, they need to confirm their email
+      if (data.user && !data.session) {
+        console.log('Email confirmation required');
+        setSuccessMessage(
+          `Account created successfully! Please check your email (${formData.email}) and click the confirmation link to activate your account.`
+        );
+        
+        // Reset form
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          password: '',
+          birthday: '',
+          agreeToTerms: false
+        });
+      } else if (data.session) {
+        console.log('User logged in automatically');
+        setSuccessMessage('Account created successfully! Redirecting to dashboard...');
+        setTimeout(() => {
+          window.location.href = '/dashboard';
+        }, 2000);
+      }
+
     } catch (error) {
-      console.error('Signup failed:', error);
+      console.error('Unexpected signup error:', error);
+      setErrors({ general: `An unexpected error occurred: ${error.message}` });
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleGoogleSignup = () => {
-    console.log('Google signup initiated');
-    // Handle Google OAuth here
+  const handleGoogleSignup = async () => {
+    try {
+      setIsLoading(true);
+      
+      const { data, error } = await supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: {
+          redirectTo: `${window.location.origin}/dashboard`
+        }
+      });
+
+      if (error) {
+        console.error('Google signup error:', error);
+        setErrors({ general: 'Google signup failed. Please try again.' });
+      }
+      // The redirect will happen automatically if successful
+    } catch (error) {
+      console.error('Google signup error:', error);
+      setErrors({ general: 'Google signup failed. Please try again.' });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const getPasswordStrength = () => {
@@ -135,7 +253,37 @@ const Signup = () => {
           <p>Create your account and start trading crypto today</p>
         </div>
 
-        <div className="auth-form">
+        {/* Success Message */}
+        {successMessage && (
+          <div className="success-message" style={{
+            padding: '12px',
+            backgroundColor: '#d4edda',
+            color: '#155724',
+            border: '1px solid #c3e6cb',
+            borderRadius: '8px',
+            marginBottom: '20px',
+            fontSize: '14px'
+          }}>
+            {successMessage}
+          </div>
+        )}
+
+        {/* General Error Message */}
+        {errors.general && (
+          <div className="error-message" style={{
+            padding: '12px',
+            backgroundColor: '#f8d7da',
+            color: '#721c24',
+            border: '1px solid #f5c6cb',
+            borderRadius: '8px',
+            marginBottom: '20px',
+            fontSize: '14px'
+          }}>
+            {errors.general}
+          </div>
+        )}
+
+        <form className="auth-form" onSubmit={handleSubmit}>
           <div className="name-row">
             <div className="input-group">
               <label htmlFor="firstName">First Name</label>
@@ -283,14 +431,21 @@ const Signup = () => {
 
           <div className="terms-agreement">
             <label className="checkbox-label">
-              <input type="checkbox" required />
+              <input 
+                type="checkbox" 
+                name="agreeToTerms"
+                checked={formData.agreeToTerms}
+                onChange={handleInputChange}
+                disabled={isLoading}
+              />
               <span className="checkmark"></span>
               I agree to the <a href="#terms" className="terms-link">Terms of Service</a> and <a href="#privacy" className="terms-link">Privacy Policy</a>
             </label>
+            {errors.agreeToTerms && <span className="error-message">{errors.agreeToTerms}</span>}
           </div>
 
           <button 
-            onClick={handleSubmit}
+            type="submit"
             className={`auth-btn primary ${isLoading ? 'loading' : ''}`}
             disabled={isLoading}
           >
@@ -303,25 +458,26 @@ const Signup = () => {
               'Create Account'
             )}
           </button>
+        </form>
 
-          <div className="divider">
-            <span>or</span>
-          </div>
-
-          <button 
-            className="auth-btn google"
-            onClick={handleGoogleSignup}
-            disabled={isLoading}
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24">
-              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
-              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-            </svg>
-            Sign up with Google
-          </button>
+        <div className="divider">
+          <span>or</span>
         </div>
+
+        <button 
+          className="auth-btn google"
+          onClick={handleGoogleSignup}
+          disabled={isLoading}
+          type="button"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24">
+            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+          </svg>
+          Sign up with Google
+        </button>
 
         <div className="auth-footer">
           <p>Already have an account? <a href="#login" className="auth-link">Sign in</a></p>

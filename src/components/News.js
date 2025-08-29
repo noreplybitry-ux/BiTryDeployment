@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { supabase } from "../lib/supabase";
 import "../css/News.css";
 
 export default function News() {
+  const [lastUpdated, setLastUpdated] = useState(null);
   const [allNews, setAllNews] = useState([]);
   const [displayedNews, setDisplayedNews] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -17,15 +19,14 @@ export default function News() {
   const [insights, setInsights] = useState(null);
   const [insightsError, setInsightsError] = useState(null);
 
-  // Configuration - HUGGING FACE INTEGRATION
+  // Configuration
   const ARTICLES_PER_PAGE = 12;
   const MAX_ARTICLES = 100;
   const CACHE_KEY = 'bitry_crypto_news';
   const INSIGHTS_CACHE_KEY = 'bitry_ai_insights';
   const CACHE_DURATION = 30 * 60 * 1000; // 30 minutes
   const INSIGHTS_CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days for AI insights
-  const API_KEY = 'eca0ba3938154abd9d66d996cfa36459';
-  const HUGGINGFACE_API_KEY = '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';
+  const HUGGINGFACE_API_KEY = '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';
   
   // AI API Configuration
   const AI_PROVIDERS = {
@@ -33,10 +34,9 @@ export default function News() {
       apiKey: HUGGINGFACE_API_KEY,
       baseUrl: 'https://api-inference.huggingface.co/models/',
       models: {
-        // Different models for different tasks
-        text: 'microsoft/DialoGPT-large', // Conversational AI
-        analysis: 'cardiffnlp/twitter-roberta-base-sentiment-latest', // Sentiment analysis
-        summarization: 'facebook/bart-large-cnn' // Text summarization
+        text: 'microsoft/DialoGPT-large',
+        analysis: 'cardiffnlp/twitter-roberta-base-sentiment-latest',
+        summarization: 'facebook/bart-large-cnn'
       },
       dailyLimit: 1000,
       enabled: true
@@ -128,7 +128,7 @@ export default function News() {
           return data;
         } else if (response.status === 503) {
           // Model is loading, wait and retry
-          const waitTime = attempt * 2000; // Exponential backoff
+          const waitTime = attempt * 2000;
           console.log(`Model loading, waiting ${waitTime}ms before retry ${attempt}/${retries}`);
           await new Promise(resolve => setTimeout(resolve, waitTime));
           continue;
@@ -432,7 +432,7 @@ export default function News() {
         confidence: confidence,
         reasoning: `Analysis of key terms suggests ${sentiment.toLowerCase()} sentiment based on ${bullishScore} positive and ${bearishScore} negative indicators in the article.`
       },
-      keyTakeaways: takeaways.slice(0, 4), // Limit to 4 takeaways
+      keyTakeaways: takeaways.slice(0, 4),
       riskLevel: {
         level: riskLevel,
         description: `${riskLevel} risk level for Filipino crypto beginners. ${riskLevel === 'High' ? 'Exercise extra caution and consider professional advice.' : riskLevel === 'Moderate' ? 'Standard crypto market risks apply.' : 'Relatively safer conditions for learning and gradual investment.'}`
@@ -515,7 +515,7 @@ export default function News() {
     }
   };
 
-  // Fetch news from multiple pages to get maximum articles
+  // Fetch news from Supabase
   const fetchAllNews = async () => {
     try {
       const cached = getCachedData();
@@ -524,142 +524,44 @@ export default function News() {
         return cached.data;
       }
 
-      console.log('Fetching fresh news from API...');
+      console.log('Fetching fresh news from Supabase...');
       
-      let allArticles = [];
-      const articlesPerRequest = 100; // Max allowed by NewsAPI
-      
-      // Fetch from NewsAPI - Very specific for Filipino crypto beginners
-      const response = await fetch(
-        `https://newsapi.org/v2/everything?` +
-        `q=("bitcoin" OR "ethereum" OR "BTC" OR "ETH" OR "crypto price" OR "cryptocurrency market" OR "binance" OR "coinbase" OR "dogecoin" OR "solana" OR "cardano" OR "polygon" OR "chainlink" OR "avalanche" OR "crypto beginner" OR "how to buy crypto")&` +
-        `sortBy=publishedAt&` +
-        `pageSize=${articlesPerRequest}&` +
-        `language=en&` +
-        `domains=coindesk.com,cointelegraph.com,decrypt.co,cryptonews.com,bitcoin.com,bitcoinmagazine.com&` +
-        `apiKey=${API_KEY}`
-      );
+      // Fetch news from Supabase
+      const { data: articles, error } = await supabase
+        .from('news_articles')
+        .select('*')
+        .order('date', { ascending: false })
+        .limit(MAX_ARTICLES);
 
-      if (!response.ok) {
-        if (response.status === 429) {
-          throw new Error('API rate limit exceeded. Using cached data if available.');
-        }
-        throw new Error(`API request failed with status ${response.status}`);
+      if (error) {
+        throw new Error(`Supabase error: ${error.message}`);
       }
 
-      const data = await response.json();
-      console.log(`Fetched ${data.articles?.length || 0} articles from API`);
+      console.log(`Fetched ${articles?.length || 0} articles from Supabase`);
 
-      // Process articles
-      if (data.articles && Array.isArray(data.articles)) {
-        const validArticles = data.articles
-          .filter((article) => {
-            // Basic validation
-            if (!article || 
-                !article.title || 
-                article.title === '[Removed]' ||
-                !article.description ||
-                article.description === '[Removed]' ||
-                !article.url ||
-                article.title.toLowerCase().includes('removed')) {
-              return false;
-            }
+      // Process articles to match expected format
+      const processedArticles = articles.map((article, index) => ({
+        id: article.id || `${Date.now()}-${index}`,
+        title: article.title,
+        description: article.description || 'No description available',
+        url: article.url || '#',
+        imageUrl: article.image,
+        publishedAt: article.date,
+        source: article.source || 'Unknown',
+        author: article.author || 'Unknown Author'
+      }));
 
-            // Very specific crypto validation for Filipino beginners
-            const title = article.title.toLowerCase();
-            const description = article.description.toLowerCase();
-            const content = title + ' ' + description;
-            
-            // Top cryptocurrencies relevant for Filipino beginners
-            const topCryptos = [
-              // Major coins (Top 10)
-              'bitcoin', 'btc', 'ethereum', 'eth', 'bnb', 'binance coin',
-              'solana', 'sol', 'cardano', 'ada', 'dogecoin', 'doge',
-              'polygon', 'matic', 'avalanche', 'avax', 'chainlink', 'link',
-              
-              // Popular in Philippines/SEA
-              'binance', 'coinbase', 'crypto.com', 
-              
-              // Beginner-friendly terms
-              'crypto beginner', 'how to buy', 'crypto guide', 'crypto tutorial',
-              'crypto investment', 'cryptocurrency explained', 'crypto basics',
-              'crypto trading', 'crypto wallet', 'crypto exchange',
-              
-              // Market terms beginners need
-              'crypto price', 'crypto market', 'bitcoin price', 'ethereum price',
-              'crypto news', 'cryptocurrency market', 'crypto analysis',
-              'crypto prediction', 'bull market', 'bear market'
-            ];
-
-            const hasRelevantCrypto = topCryptos.some(term => content.includes(term));
-            
-            // Exclude complex/advanced topics not suitable for beginners
-            const advancedTerms = [
-              'defi', 'yield farming', 'liquidity mining', 'dao', 'governance token',
-              'smart contract audit', 'flash loan', 'arbitrage', 'mev',
-              'layer 2 scaling', 'zk-rollup', 'optimistic rollup', 'sharding',
-              'consensus mechanism', 'proof of stake validator', 'slashing',
-              'impermanent loss', 'options trading', 'futures', 'derivatives',
-              'algorithmic trading', 'technical analysis', 'fibonacci retracement'
-            ];
-
-            // Exclude scam/risky topics
-            const scamTerms = [
-              'memecoin', 'shitcoin', 'pump and dump', 'rugpull', 'rug pull',
-              'ponzi', 'pyramid scheme', 'get rich quick', 'guaranteed profit',
-              'meme coin', 'shiba inu', 'pepe', 'floki', 'safemoon'
-            ];
-
-            // Exclude overly technical blockchain development
-            const techTerms = [
-              'blockchain development', 'smart contract development', 'web3 development',
-              'solidity', 'rust programming', 'substrate', 'cosmos sdk',
-              'ethereum virtual machine', 'evm', 'gas optimization'
-            ];
-
-            const hasAdvancedTerm = advancedTerms.some(term => content.includes(term));
-            const hasScamTerm = scamTerms.some(term => content.includes(term));
-            const hasTechTerm = techTerms.some(term => content.includes(term));
-            
-            // Additional quality checks
-            const hasGoodTitle = title.length > 10 && title.length < 200;
-            const hasGoodDescription = description.length > 50;
-
-            return hasRelevantCrypto && 
-                   !hasAdvancedTerm && 
-                   !hasScamTerm && 
-                   !hasTechTerm &&
-                   hasGoodTitle && 
-                   hasGoodDescription;
-          })
-          .map((article, index) => ({
-            id: `${Date.now()}-${index}`,
-            title: article.title.trim(),
-            description: article.description.trim(),
-            url: article.url,
-            imageUrl: article.urlToImage,
-            publishedAt: article.publishedAt,
-            source: article.source?.name || 'Unknown',
-            author: article.author || 'Unknown Author'
-          }))
-          .slice(0, MAX_ARTICLES); // Limit to MAX_ARTICLES
-
-        allArticles = validArticles;
-      }
-
-      console.log(`Processed ${allArticles.length} valid articles`);
-      
       // Cache the results
-      setCachedData(allArticles);
-      return allArticles;
+      setCachedData(processedArticles);
+      return processedArticles;
 
     } catch (error) {
       console.error('Fetch error:', error);
       
-      // Try to use stale cache if API fails
+      // Try to use stale cache if Supabase fails
       const cached = getCachedData();
       if (cached && cached.data) {
-        console.log('API failed, using stale cache...');
+        console.log('Supabase failed, using stale cache...');
         return cached.data;
       }
       
@@ -694,32 +596,6 @@ export default function News() {
     }
   };
 
-  // small cache-verification helper for debugging
-  const verifyCaches = () => {
-    try {
-      const newsCacheRaw = localStorage.getItem(CACHE_KEY);
-      const insightsCacheRaw = localStorage.getItem(INSIGHTS_CACHE_KEY);
-
-      const newsCache = newsCacheRaw ? JSON.parse(newsCacheRaw) : null;
-      const insightsCache = insightsCacheRaw ? JSON.parse(insightsCacheRaw) : {};
-
-      console.info('BiTry Cache Check → news:', newsCache ? {
-        items: Array.isArray(newsCache.data) ? newsCache.data.length : 0,
-        ageMs: newsCache ? Date.now() - newsCache.timestamp : null
-      } : null);
-
-      console.info('BiTry Cache Check → insights:', {
-        keys: Object.keys(insightsCache || {}).length,
-        sampleKey: Object.keys(insightsCache || {})[0] || null
-      });
-
-      return { newsCache, insightsCache };
-    } catch (e) {
-      console.warn('Cache verification failed', e);
-      return null;
-    }
-  };
-
   // Initial load
   useEffect(() => {
     const loadNews = async () => {
@@ -728,7 +604,8 @@ export default function News() {
         const newsData = await fetchAllNews();
         setAllNews(newsData);
         updateDisplayedNews(newsData, 1);
-        
+        const cachedObj = getCachedData();
+        setLastUpdated(cachedObj?.timestamp ?? Date.now());
         if (newsData.length === 0) {
           setError('No articles found');
         }
@@ -740,12 +617,10 @@ export default function News() {
         if (cached && cached.data) {
           setAllNews(cached.data);
           updateDisplayedNews(cached.data, 1);
-          setError(`API Error: ${err.message}. Showing cached data from ${new Date(cached.timestamp).toLocaleString()}`);
+          setError(`Database Error: ${err.message}. Showing cached data from ${new Date(cached.timestamp).toLocaleString()}`);
         }
       } finally {
         setLoading(false);
-        // debug: verify caches present
-        verifyCaches();
       }
     };
 
@@ -768,6 +643,8 @@ export default function News() {
       setAllNews(newsData);
       setCurrentPage(1);
       updateDisplayedNews(newsData, 1);
+      const cachedObj = getCachedData();
+      setLastUpdated(cachedObj?.timestamp ?? Date.now()); 
     } catch (err) {
       setError(err.message);
     } finally {
@@ -961,8 +838,7 @@ export default function News() {
       <div className="news-footer">
         <p className="cache-info">
           Articles are cached for 30 minutes to optimize API usage • 
-          Last updated: {getCachedData()?.timestamp ? 
-            new Date(getCachedData().timestamp).toLocaleString() : 'Just now'}
+          Last updated: {lastUpdated ? new Date(lastUpdated).toLocaleString() : 'Just now'}
         </p>
       </div>
 
