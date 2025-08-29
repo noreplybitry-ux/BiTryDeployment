@@ -10,165 +10,12 @@ import {
 } from "lucide-react";
 import "../css/Learn.css";
 
-const TOPIC_TEMPLATES = {
-  Fundamentals: [
-    "Understanding Blockchain Technology",
-    "Cryptocurrency Basics and History",
-    "Digital Wallet Management",
-    "Consensus Mechanisms Explained",
-    "Tokenomics and Token Standards",
-    "Bitcoin Technology Deep Dive",
-    "Ethereum and Smart Contracts",
-    "Altcoins vs Bitcoin Comparison",
-    "Hash Functions and Cryptography",
-    "Distributed Ledger Technology",
-    "Proof of Work vs Proof of Stake",
-    "Mining and Network Security",
-    "Public and Private Key Cryptography",
-    "Cryptocurrency Market Structure",
-    "Understanding Market Cap and Supply",
-    "Fork Types and Blockchain Upgrades",
-    "Node Operations and Network Participation",
-    "Cryptocurrency Address Systems",
-    "Transaction Fees and Gas Mechanics",
-    "Cross-chain Technology Basics"
-  ],
-  Trading: [
-    "Technical Analysis Fundamentals",
-    "Chart Reading and Patterns",
-    "Risk Management Strategies",
-    "Market Psychology in Crypto",
-    "Trading Indicators and Oscillators",
-    "Candlestick Patterns Recognition",
-    "Support and Resistance Levels",
-    "Volume Analysis in Crypto Markets",
-    "Moving Averages and Trend Analysis",
-    "Fibonacci Retracements in Crypto",
-    "RSI and MACD Strategies",
-    "Day Trading Cryptocurrency",
-    "Swing Trading Techniques",
-    "Scalping Strategies for Crypto",
-    "Order Types and Execution",
-    "Arbitrage Trading Opportunities",
-    "Futures and Derivatives Trading",
-    "Options Trading in Crypto",
-    "Automated Trading Bots",
-    "Market Maker vs Market Taker",
-    "Stop Loss and Take Profit Strategies",
-    "Leverage Trading and Margin",
-    "Position Sizing and Capital Management",
-    "Backtesting Trading Strategies",
-    "Psychology of Trading Losses"
-  ],
-  Investment: [
-    "Portfolio Diversification Strategies",
-    "Dollar Cost Averaging in Crypto",
-    "Long-term Investment Approaches",
-    "Asset Allocation for Crypto",
-    "Market Research and Analysis",
-    "HODLing vs Active Trading",
-    "Value Investing in Cryptocurrency",
-    "Growth vs Value Crypto Projects",
-    "Index Fund Strategies for Crypto",
-    "Retirement Planning with Crypto",
-    "Risk Assessment for Crypto Investments",
-    "Fundamental Analysis of Projects",
-    "Tokenomics Evaluation Framework",
-    "Team and Development Assessment",
-    "Roadmap Analysis and Milestones",
-    "Community and Ecosystem Evaluation",
-    "Competitive Analysis in Crypto",
-    "Market Timing Strategies",
-    "Rebalancing Crypto Portfolios",
-    "Tax-Efficient Investment Strategies",
-    "Institutional vs Retail Investment",
-    "ESG Considerations in Crypto",
-    "Geographic Diversification",
-    "Sector Allocation in Crypto",
-    "Exit Strategies and Profit Taking"
-  ],
-  Security: [
-    "Wallet Security Best Practices",
-    "Private Key Management",
-    "Avoiding Scams and Phishing",
-    "Hardware Wallet Setup and Use",
-    "Multi-factor Authentication",
-    "Cold Storage Solutions",
-    "Hot Wallet vs Cold Wallet",
-    "Seed Phrase Security and Recovery",
-    "Multi-signature Wallets",
-    "Air-gapped Security Measures",
-    "Exchange Security Evaluation",
-    "Smart Contract Security Audits",
-    "Social Engineering Prevention",
-    "Rug Pull Detection and Avoidance",
-    "Fake Token and Project Identification",
-    "Secure Trading Practices",
-    "VPN Usage for Crypto Activities",
-    "Browser Security for DeFi",
-    "Mobile Wallet Security",
-    "Backup and Recovery Strategies",
-    "Inheritance and Estate Planning",
-    "Privacy Coins and Anonymity",
-    "Transaction Privacy Techniques",
-    "KYC and AML Compliance",
-    "Regulatory Reporting Security"
-  ],
-  DeFi: [
-    "Decentralized Finance Protocols",
-    "Yield Farming Strategies",
-    "Liquidity Provision and Mining",
-    "Staking and Delegation Rewards",
-    "Smart Contract Interactions",
-    "Automated Market Makers (AMMs)",
-    "Decentralized Exchanges (DEXs)",
-    "Lending and Borrowing Protocols",
-    "Flash Loans and Arbitrage",
-    "Governance Tokens and DAOs",
-    "Impermanent Loss Understanding",
-    "Cross-chain DeFi Protocols",
-    "Layer 2 Solutions for DeFi",
-    "DeFi Insurance and Risk Management",
-    "Synthetic Assets and Derivatives",
-    "Wrapped Tokens and Bridges",
-    "DeFi Portfolio Management",
-    "MEV and Front-running Protection",
-    "Gas Optimization Strategies",
-    "DeFi Protocol Risk Assessment",
-    "Composability in DeFi",
-    "DeFi Analytics and Tracking",
-    "Regulatory Compliance in DeFi",
-    "DeFi Tax Implications",
-    "Future of Decentralized Finance"
-  ],
-  Regulation: [
-    "Cryptocurrency Regulations Overview",
-    "Tax Implications and Reporting",
-    "Compliance Requirements by Country",
-    "Legal Frameworks for Crypto",
-    "Anti-Money Laundering (AML) Rules",
-    "Know Your Customer (KYC) Processes",
-    "Securities Law and Crypto Tokens",
-    "Banking Regulations and Crypto",
-    "Cross-border Regulatory Challenges",
-    "Central Bank Digital Currencies",
-    "Regulatory Sandboxes and Innovation",
-    "Licensing Requirements for Exchanges",
-    "Privacy Rights vs Regulation",
-    "Enforcement Actions and Penalties",
-    "Regulatory Arbitrage Strategies",
-    "Professional Services Regulation",
-    "Institutional Compliance Frameworks",
-    "Record Keeping Requirements",
-    "International Regulatory Cooperation",
-    "Future Regulatory Developments",
-    "Stablecoin Regulation",
-    "DeFi Regulatory Challenges",
-    "NFT Legal Considerations",
-    "Mining Regulation and Environmental Law",
-    "Consumer Protection in Crypto"
-  ]
-};
+const FEEDS = [
+  "https://cointelegraph.com/rss",
+  "https://www.coindesk.com/arc/outboundfeeds/rss",
+  "https://cryptoslate.com/feed/",
+];
+
 // ── Hugging Face AI Model Config ────────────────────────────────────────────
 const HUGGINGFACE_API_KEY = "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";
 const HF_BASE = "https://api-inference.huggingface.co/models/";
@@ -198,7 +45,7 @@ export default function Learn() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [isRefreshing, setIsRefreshing] = useState(false);
 
-  // ── Cache helpers ────────────────────────────────────────────────────────
+
   const getCache = () => {
     try {
       const raw = localStorage.getItem(CACHE_KEY);
@@ -228,6 +75,65 @@ export default function Learn() {
   // ── Text helpers ──────────────────────────────────────────────────────────
   const sanitize = (s) =>
     (s || "").replace(/\s+/g, " ").replace(/&amp;/g, "&").trim();
+
+  // ── RSS Fetching and Parsing ────────────────────────────────────────────────
+  const fetchRSSFeed = async (feedUrl) => {
+    try {
+      // Use a CORS proxy for RSS feeds
+      const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(feedUrl)}`;
+      const response = await fetch(proxyUrl);
+      
+      if (!response.ok) {
+        throw new Error(`Failed to fetch ${feedUrl}`);
+      }
+
+      const xmlText = await response.text();
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+      
+      const items = xmlDoc.querySelectorAll("item");
+      const articles = [];
+
+      items.forEach((item, index) => {
+        if (index < 10) { // Limit to 10 articles per feed
+          const title = item.querySelector("title")?.textContent || "";
+          const description = item.querySelector("description")?.textContent || "";
+          const link = item.querySelector("link")?.textContent || "";
+          const pubDate = item.querySelector("pubDate")?.textContent || "";
+          
+          if (title && description) {
+            articles.push({
+              title: sanitize(title),
+              description: sanitize(description.replace(/<[^>]*>/g, '')), // Remove HTML tags
+              link,
+              pubDate: new Date(pubDate),
+              source: feedUrl.includes('cointelegraph') ? 'CoinTelegraph' : 
+                     feedUrl.includes('coindesk') ? 'CoinDesk' : 'CryptoSlate'
+            });
+          }
+        }
+      });
+
+      return articles;
+    } catch (error) {
+      console.warn(`Failed to fetch RSS feed ${feedUrl}:`, error);
+      return [];
+    }
+  };
+
+  const fetchAllRSSFeeds = async () => {
+    const allArticles = [];
+    
+    for (const feedUrl of FEEDS) {
+      const articles = await fetchRSSFeed(feedUrl);
+      allArticles.push(...articles);
+    }
+
+    // Sort by publication date (newest first)
+    allArticles.sort((a, b) => b.pubDate - a.pubDate);
+    
+    return allArticles.slice(0, 30); // Limit total articles
+  };
 
   // ── Hugging Face caller with retry/backoff ────────────────────────────────
   const callHF = async (model, payload, retries = 3) => {
@@ -259,72 +165,146 @@ export default function Learn() {
     }
   };
 
-  // ── AI helpers: generate topics, descriptions and lessons ─────────────────
-  const aiGenerateDescription = async (title, category, level) => {
+  // ── Article Processing: Convert news articles to learning modules ─────────
+  const categorizeArticle = (title, description) => {
+    const content = (title + " " + description).toLowerCase();
+    
+    if (content.includes('defi') || content.includes('protocol') || content.includes('yield') || content.includes('liquidity')) {
+      return 'DeFi';
+    }
+    if (content.includes('regulation') || content.includes('legal') || content.includes('sec') || content.includes('compliance')) {
+      return 'Regulation';
+    }
+    if (content.includes('trading') || content.includes('market') || content.includes('price') || content.includes('technical analysis')) {
+      return 'Trading';
+    }
+    if (content.includes('security') || content.includes('hack') || content.includes('wallet') || content.includes('private key')) {
+      return 'Security';
+    }
+    if (content.includes('investment') || content.includes('portfolio') || content.includes('institutional')) {
+      return 'Investment';
+    }
+    
+    return 'Fundamentals';
+  };
+
+  const determineLevelFromContent = (title, description) => {
+    const content = (title + " " + description).toLowerCase();
+    
+    if (content.includes('beginner') || content.includes('introduction') || content.includes('basics') || content.includes('getting started')) {
+      return 'Beginner';
+    }
+    if (content.includes('advanced') || content.includes('expert') || content.includes('institutional') || content.includes('complex')) {
+      return 'Advanced';
+    }
+    
+    return 'Intermediate';
+  };
+
+  const generateLearningModuleFromArticle = async (article) => {
+    const category = categorizeArticle(article.title, article.description);
+    const level = determineLevelFromContent(article.title, article.description);
+    
+    // Generate educational title from news title
+    let moduleTitle = article.title;
+    if (moduleTitle.length > 60) {
+      moduleTitle = moduleTitle.substring(0, 60) + "...";
+    }
+    
+    // Convert news description to educational description
+    let educationalDescription;
     try {
-      const prompt = `Create a comprehensive educational description for a cryptocurrency course titled "${title}" in the ${category} category for ${level} level students. Focus on learning outcomes and practical skills. Make it 2-3 sentences.`;
-      const out = await callHF(HF_SUMMARIZE, {
+      const prompt = `Convert this cryptocurrency news into an educational course description: "${article.title} - ${article.description}". Make it educational and focus on learning outcomes. 2-3 sentences.`;
+      const result = await callHF(HF_SUMMARIZE, {
         inputs: prompt,
         parameters: { max_length: 150, min_length: 50 },
       });
-      if (Array.isArray(out) && out[0]?.summary_text)
-        return sanitize(out[0].summary_text);
+      
+      if (Array.isArray(result) && result[0]?.summary_text) {
+        educationalDescription = sanitize(result[0].summary_text);
+      } else {
+        educationalDescription = `Learn about ${moduleTitle.toLowerCase()} and its implications for ${category.toLowerCase()}. Understand key concepts and practical applications.`;
+      }
     } catch (e) {
-      console.warn("Description generation failed:", e.message);
+      educationalDescription = `Learn about ${moduleTitle.toLowerCase()} and its implications for ${category.toLowerCase()}. Understand key concepts and practical applications.`;
     }
-    return `Learn essential ${title.toLowerCase()} concepts and practical applications in ${category.toLowerCase()}. Master ${level.toLowerCase()}-level techniques and strategies.`;
+
+    // Generate lessons based on article content
+    const lessons = await generateLessonsFromArticle(article, category, level);
+    
+    const { duration, modulesCount } = estimateEffort(level, lessons);
+
+    return {
+      id: `rss-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      title: moduleTitle,
+      subtitle: `${category} • ${level} Level • ${article.source}`,
+      description: educationalDescription,
+      level,
+      category,
+      duration,
+      modules: modulesCount,
+      enrolled: pseudoNumber(article.title),
+      rating: (4.0 + (pseudoNumber(article.title) % 10) / 10).toFixed(1),
+      tags: buildTagsFromArticle(article, category),
+      certificate: true,
+      lessons,
+      source: article.source,
+      originalLink: article.link,
+      publishDate: article.pubDate,
+    };
   };
 
-  // Generate structured lessons based on topic title, category and level
-  const generateLessonsForTopic = async (title, category, level) => {
+  const generateLessonsFromArticle = async (article, category, level) => {
     try {
-      const prompt = `Create 3-5 educational lessons for "${title}" course in ${category} category for ${level} level. Format: Lesson Title|Learning Objective|Quiz Question|Option A|Option B|Option C|Option D|Correct Answer (A/B/C/D). Each lesson on new line.`;
+      const prompt = `Create 3-4 educational lessons based on this cryptocurrency news: "${article.title} - ${article.description}". Format each lesson as: Title|Learning Objective|Quiz Question|Option A|Option B|Option C|Option D|Correct Answer. Make it educational for ${level} level students.`;
       
-      const out = await callHF(HF_SUMMARIZE, {
+      const result = await callHF(HF_SUMMARIZE, {
         inputs: prompt,
         parameters: { max_length: 300, min_length: 100 },
       });
       
-      if (Array.isArray(out) && out[0]?.summary_text) {
-        const text = out[0].summary_text;
-        const lessons = parseLessonsFromAI(text, title, category);
+      if (Array.isArray(result) && result[0]?.summary_text) {
+        const lessons = parseLessonsFromAI(result[0].summary_text, article.title, category);
         if (lessons.length > 0) return lessons;
       }
     } catch (e) {
       console.warn("AI lesson generation failed:", e.message);
     }
 
-    // Fallback: Generate lessons based on level and category templates
-    const levelTemplates = {
-      Beginner: [
-        { title: `Introduction to ${title}`, objective: `Understand the basics of ${title.toLowerCase()}` },
-        { title: `Key Concepts and Terminology`, objective: `Learn essential ${category.toLowerCase()} terminology` },
-        { title: `Getting Started Guide`, objective: `Take your first practical steps` },
-      ],
-      Intermediate: [
-        { title: `Advanced ${title} Strategies`, objective: `Master intermediate-level techniques` },
-        { title: `Practical Implementation`, objective: `Apply concepts in real-world scenarios` },
-        { title: `Risk Management`, objective: `Understand and mitigate common risks` },
-        { title: `Tools and Platforms`, objective: `Use professional tools effectively` },
-      ],
-      Advanced: [
-        { title: `Expert-Level ${title}`, objective: `Master advanced concepts and analysis` },
-        { title: `Complex Strategies`, objective: `Implement sophisticated approaches` },
-        { title: `Market Analysis`, objective: `Perform deep market and trend analysis` },
-        { title: `Professional Techniques`, objective: `Apply institutional-grade methods` },
-        { title: `Innovation and Trends`, objective: `Stay ahead of market developments` },
-      ],
-    };
-
-    const templates = levelTemplates[level] || levelTemplates.Beginner;
-    return templates.map((lesson, idx) => ({
-      ...lesson,
-      quiz: {
-        question: `What is the primary focus of ${lesson.title}?`,
-        choices: ["Theoretical knowledge", "Practical application", "Risk assessment", "Market analysis"],
-        answer_index: idx % 4,
+    // Fallback lessons based on article content
+    const baseTitle = article.title.split(':')[0] || article.title.substring(0, 30);
+    
+    const fallbackLessons = [
+      {
+        title: `Understanding ${baseTitle}`,
+        objective: `Learn the key concepts and background of ${baseTitle.toLowerCase()}`,
+        quiz: {
+          question: `What is the main focus of this ${category.toLowerCase()} topic?`,
+          choices: ["Market impact", "Technical details", "Regulatory aspects", "Investment implications"],
+          answer_index: 0,
+        }
       },
-    }));
+      {
+        title: `Market Impact and Analysis`,
+        objective: `Analyze the market implications and broader effects`,
+        quiz: {
+          question: `How does this development affect the ${category.toLowerCase()} market?`,
+          choices: ["Positive impact", "Negative impact", "Mixed impact", "No clear impact"],
+          answer_index: 2,
+        }
+      },
+      {
+        title: `Practical Applications`,
+        objective: `Understand how to apply this knowledge practically`,
+        quiz: {
+          question: `What should ${level.toLowerCase()} investors consider?`,
+          choices: ["Risk assessment", "Opportunity analysis", "Long-term planning", "All of the above"],
+          answer_index: 3,
+        }
+      }
+    ];
+
+    return fallbackLessons;
   };
 
   // Parse AI-generated lesson text into structured format
@@ -355,10 +335,27 @@ export default function Learn() {
     return lessons;
   };
 
-  // ── Helpers to generate topics and course fields ───────────────────────────
-  const generateRandomTopic = (category) => {
-    const templates = TOPIC_TEMPLATES[category] || TOPIC_TEMPLATES.Fundamentals;
-    return templates[Math.floor(Math.random() * templates.length)];
+  const buildTagsFromArticle = (article, category) => {
+    const tags = new Set([category, article.source]);
+    
+    // Extract keywords from title and description
+    const content = (article.title + " " + article.description).toLowerCase();
+    const keywords = content.match(/\b(bitcoin|ethereum|defi|nft|blockchain|crypto|trading|regulation|security|wallet|token|yield|staking|mining|protocol|exchange|market|investment)\b/g);
+    
+    if (keywords) {
+      keywords.slice(0, 3).forEach(keyword => {
+        tags.add(keyword.charAt(0).toUpperCase() + keyword.slice(1));
+      });
+    }
+
+    // Add time-based tag
+    const now = new Date();
+    const daysDiff = Math.floor((now - article.pubDate) / (1000 * 60 * 60 * 24));
+    if (daysDiff === 0) tags.add('Today');
+    else if (daysDiff <= 3) tags.add('Recent');
+    else if (daysDiff <= 7) tags.add('This Week');
+
+    return Array.from(tags).slice(0, 5);
   };
 
   const getRandomLevel = () => {
@@ -392,34 +389,7 @@ export default function Learn() {
     return Math.floor(min + (h % (max - min)));
   };
 
-  const buildTags = (title, category) => {
-    const tags = new Set([category]);
-    const titleWords = title.toLowerCase().split(' ');
-    
-    // Add relevant tags based on title words
-    titleWords.forEach(word => {
-      if (word.length > 3 && !['with', 'and', 'the', 'for', 'from'].includes(word)) {
-        tags.add(word.charAt(0).toUpperCase() + word.slice(1));
-      }
-    });
-
-    // Add category-specific tags
-    const categoryTags = {
-      Fundamentals: ['Blockchain', 'Crypto Basics'],
-      Trading: ['Technical Analysis', 'Markets'],
-      Investment: ['Portfolio', 'Long-term'],
-      Security: ['Wallet Safety', 'Privacy'],
-      DeFi: ['Protocols', 'Yield'],
-      Regulation: ['Compliance', 'Legal']
-    };
-    
-    const categorySpecific = categoryTags[category] || [];
-    categorySpecific.forEach(tag => tags.add(tag));
-
-    return Array.from(tags).slice(0, 4);
-  };
-
-  // ── Core: build AI modules from generated topics ─────────────────────────
+  // ── Core: build AI modules from RSS feeds ─────────────────────────────────
   const buildModules = async (forceReload = false) => {
     setLoading(true);
     try {
@@ -433,47 +403,34 @@ export default function Learn() {
         }
       }
 
-      const modules = [];
-      const categories = CATEGORIES.slice(1); // Remove 'all'
+      // Fetch RSS articles
+      const articles = await fetchAllRSSFeeds();
       
-      // Generate 3-4 courses per category
-      for (const category of categories) {
-        const coursesPerCategory = 3 + Math.floor(Math.random() * 2); // 3-4 courses
-        
-        for (let i = 0; i < coursesPerCategory; i++) {
-          const title = generateRandomTopic(category);
-          const level = getRandomLevel();
-          
-          // Generate AI description
-          const description = await aiGenerateDescription(title, category, level);
-          
-          // Generate lessons
-          const lessons = await generateLessonsForTopic(title, category, level);
-          
-          const { duration, modulesCount } = estimateEffort(level, lessons);
+      if (articles.length === 0) {
+        throw new Error('No articles fetched from RSS feeds');
+      }
 
-          modules.push({
-            id: `generated-${category}-${i}`,
-            title,
-            subtitle: `${category} • ${level} Level`,
-            description,
-            level,
-            category,
-            duration,
-            modules: modulesCount,
-            enrolled: pseudoNumber(title),
-            rating: (4.0 + (pseudoNumber(title) % 10) / 10).toFixed(1),
-            tags: buildTags(title, category),
-            certificate: true,
-            lessons,
-          });
+      // Convert articles to learning modules
+      const modules = [];
+      const maxModules = Math.min(articles.length, 20); // Limit to 20 modules
+
+      for (let i = 0; i < maxModules; i++) {
+        const article = articles[i];
+        try {
+          const module = await generateLearningModuleFromArticle(article);
+          modules.push(module);
+          
+          // Add a small delay to avoid overwhelming the API
+          if (i < maxModules - 1) {
+            await new Promise(resolve => setTimeout(resolve, 500));
+          }
+        } catch (e) {
+          console.warn(`Failed to generate module for article: ${article.title}`, e);
         }
       }
 
-      // Shuffle modules for variety
-      for (let i = modules.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [modules[i], modules[j]] = [modules[j], modules[i]];
+      if (modules.length === 0) {
+        throw new Error('No modules generated from articles');
       }
 
       setCache(modules);
@@ -481,28 +438,51 @@ export default function Learn() {
       setDisplayedModules(modules);
     } catch (e) {
       console.error("buildModules error:", e);
-      // Create minimal fallback modules without AI
-      const fallbackModules = CATEGORIES.slice(1).flatMap((category, catIdx) => 
-        Array.from({length: 3}, (_, i) => ({
-          id: `fallback-${catIdx}-${i}`,
-          title: generateRandomTopic(category),
-          subtitle: `${category} • Beginner Level`,
-          description: `Learn essential ${category.toLowerCase()} concepts and practical applications.`,
-          level: 'Beginner',
-          category,
-          duration: '2 hours',
-          modules: 3,
-          enrolled: 500 + catIdx * 100 + i * 50,
-          rating: '4.2',
-          tags: buildTags(generateRandomTopic(category), category),
+      
+      // Create fallback modules
+      const fallbackModules = [
+        {
+          id: 'fallback-1',
+          title: 'Bitcoin Market Analysis Fundamentals',
+          subtitle: 'Trading • Intermediate Level • CryptoSlate',
+          description: 'Learn to analyze Bitcoin market trends and make informed trading decisions based on technical indicators.',
+          level: 'Intermediate',
+          category: 'Trading',
+          duration: '4 hours',
+          modules: 4,
+          enrolled: 1250,
+          rating: '4.3',
+          tags: ['Trading', 'Bitcoin', 'Analysis', 'Recent'],
           certificate: true,
           lessons: [
-            { title: 'Introduction', objective: 'Get started', quiz: { question: 'What is this about?', choices: ['A', 'B', 'C', 'D'], answer_index: 0 }},
-            { title: 'Core Concepts', objective: 'Learn basics', quiz: { question: 'What are the basics?', choices: ['A', 'B', 'C', 'D'], answer_index: 1 }},
-            { title: 'Practical Application', objective: 'Apply knowledge', quiz: { question: 'How to apply?', choices: ['A', 'B', 'C', 'D'], answer_index: 2 }}
-          ],
-        }))
-      );
+            { title: 'Market Trend Analysis', objective: 'Understand market trends', quiz: { question: 'What indicates a bullish trend?', choices: ['Higher highs', 'Lower lows', 'Sideways movement', 'High volume'], answer_index: 0 }},
+            { title: 'Technical Indicators', objective: 'Use technical indicators', quiz: { question: 'What does RSI measure?', choices: ['Volume', 'Price momentum', 'Market cap', 'Supply'], answer_index: 1 }},
+            { title: 'Risk Management', objective: 'Manage trading risks', quiz: { question: 'What is a stop loss?', choices: ['Profit target', 'Risk management tool', 'Trading strategy', 'Market order'], answer_index: 1 }},
+            { title: 'Portfolio Allocation', objective: 'Allocate assets effectively', quiz: { question: 'Why diversify?', choices: ['Higher returns', 'Lower risk', 'More complexity', 'Tax benefits'], answer_index: 1 }}
+          ]
+        },
+        {
+          id: 'fallback-2',
+          title: 'DeFi Protocol Security Best Practices',
+          subtitle: 'Security • Advanced Level • CoinTelegraph',
+          description: 'Master advanced security practices for interacting with DeFi protocols and protecting your digital assets.',
+          level: 'Advanced',
+          category: 'Security',
+          duration: '6 hours',
+          modules: 5,
+          enrolled: 890,
+          rating: '4.7',
+          tags: ['DeFi', 'Security', 'Advanced', 'CoinTelegraph'],
+          certificate: true,
+          lessons: [
+            { title: 'Smart Contract Auditing', objective: 'Evaluate smart contracts', quiz: { question: 'What is a reentrancy attack?', choices: ['DDoS attack', 'Smart contract vulnerability', 'Phishing attempt', 'Network congestion'], answer_index: 1 }},
+            { title: 'Wallet Security', objective: 'Secure wallet practices', quiz: { question: 'Best practice for private keys?', choices: ['Store online', 'Share with friends', 'Cold storage', 'Write on paper only'], answer_index: 2 }},
+            { title: 'Protocol Risk Assessment', objective: 'Assess protocol risks', quiz: { question: 'What is impermanent loss?', choices: ['Permanent loss', 'Temporary price difference loss', 'Gas fee', 'Trading fee'], answer_index: 1 }},
+            { title: 'Emergency Procedures', objective: 'Handle security incidents', quiz: { question: 'First step if compromised?', choices: ['Panic sell', 'Move funds to safety', 'Contact support', 'Do nothing'], answer_index: 1 }},
+            { title: 'Insurance and Protection', objective: 'Use DeFi insurance', quiz: { question: 'Purpose of DeFi insurance?', choices: ['Profit guarantee', 'Risk mitigation', 'Tax benefits', 'Higher yields'], answer_index: 1 }}
+          ]
+        }
+      ];
       
       setAllModules(fallbackModules);
       setDisplayedModules(fallbackModules);
@@ -561,7 +541,7 @@ export default function Learn() {
     return (
       <div className="loading-container">
         <div className="loading-spinner"></div>
-        <p className="loading-text">Generating AI-enhanced learning modules...</p>
+        <p className="loading-text">Generating learning modules...</p>
       </div>
     );
   }
@@ -574,8 +554,7 @@ export default function Learn() {
           <div className="header-content">
             <h1 className="main-title">Cryptocurrency Learning Academy</h1>
             <p className="main-description">
-              Comprehensive learning modules covering all aspects of cryptocurrency, 
-              blockchain technology, and digital asset management.
+              Learn from real-world events and market trends.
             </p>
             {/* Search and Filters */}
             <div className="search-filters">
@@ -583,7 +562,7 @@ export default function Learn() {
                 <Search className="search-icon" />
                 <input
                   type="text"
-                  placeholder="Search courses, topics, or skills"
+                  placeholder="Search courses, topics, or modules"
                   value={searchTerm}
                   onChange={(e) => handleSearch(e.target.value)}
                   className="search-input"
@@ -623,7 +602,7 @@ export default function Learn() {
                   disabled={isRefreshing}
                   style={{ marginLeft: 12 }}
                 >
-                  {isRefreshing ? "Refreshing..." : "Refresh Content"}
+                  {isRefreshing ? "Refreshing..." : "Refresh Modules"}
                 </button>
               </div>
             </div>
@@ -652,6 +631,11 @@ export default function Learn() {
                 <h3 className="course-title">{course.title}</h3>
                 <p className="course-subtitle">{course.subtitle}</p>
                 <p className="course-description">{course.description}</p>
+                {course.publishDate && (
+                  <p className="course-date" style={{fontSize: '0.85rem', color: '#666', marginTop: '4px'}}>
+                    Published: {course.publishDate.toLocaleDateString()}
+                  </p>
+                )}
               </div>
 
               {/* Course Details */}
@@ -687,17 +671,22 @@ export default function Learn() {
                 {/* Action Button */}
                 <button
                   className="enroll-button"
-                  onClick={() =>
-                    alert(
-                      `${course.title}\n\nCourse Lessons:\n\n` +
-                        course.lessons
-                          .map(
-                            (l, i) => `${i + 1}. ${l.title}\n   ${l.objective}`
-                          )
-                          .join("\n\n") +
-                        `\n\nThis is a comprehensive ${course.level.toLowerCase()}-level course designed to help you master ${course.category.toLowerCase()} concepts.`
-                    )
-                  }
+                  onClick={() => {
+                    const courseInfo = `${course.title}\n\nGenerated from: ${course.source}\n\nCourse Lessons:\n\n` +
+                      course.lessons
+                        .map(
+                          (l, i) => `${i + 1}. ${l.title}\n   ${l.objective}`
+                        )
+                        .join("\n\n") +
+                      `\n\nThis ${course.level.toLowerCase()}-level course is based on current ${course.category.toLowerCase()}  articles.`;
+                    
+                    if (course.originalLink) {
+                      const fullInfo = courseInfo + `\n\nOriginal Article: ${course.originalLink}`;
+                      alert(fullInfo);
+                    } else {
+                      alert(courseInfo);
+                    }
+                  }}
                 >
                   <span>Start Learning</span>
                   <ChevronRight className="button-icon" />
@@ -713,7 +702,7 @@ export default function Learn() {
             <BookOpen className="no-results-icon" />
             <h3 className="no-results-title">No courses found</h3>
             <p className="no-results-text">
-              Try adjusting your search criteria or explore different categories
+              Try adjusting your search criteria.
             </p>
           </div>
         )}
@@ -726,11 +715,7 @@ export default function Learn() {
                 <div className="stat-number stat-blue">
                   {displayedModules.length}
                 </div>
-                <div className="stat-label">Learning Modules</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number stat-green">AI</div>
-                <div className="stat-label">Enhanced Content</div>
+                <div className="stat-label">Live Modules</div>
               </div>
               <div className="stat-item">
                 <div className="stat-number stat-purple">
@@ -738,10 +723,7 @@ export default function Learn() {
                 </div>
                 <div className="stat-label">Total Lessons</div>
               </div>
-              <div className="stat-item">
-                <div className="stat-number stat-orange">100%</div>
-                <div className="stat-label">Educational Focus</div>
-              </div>
+
             </div>
           </div>
         </div>
