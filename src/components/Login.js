@@ -1,28 +1,38 @@
 import React, { useState } from 'react';
+import { supabase } from '../lib/supabase';
 import '../css/Login.css';
 import { useNavigate, Link } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: '',
-    password: ''
+    password: '',
+    rememberMe: false
   });
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value, type, checked } = e.target;
     setFormData(prev => ({
       ...prev,
-      [name]: value
+      [name]: type === 'checkbox' ? checked : value
     }));
+    
     // Clear error when user starts typing
     if (errors[name]) {
       setErrors(prev => ({
         ...prev,
         [name]: ''
       }));
+    }
+    
+    // Clear success message when user modifies form
+    if (successMessage) {
+      setSuccessMessage('');
     }
   };
 
@@ -51,22 +61,76 @@ const Login = () => {
     if (!validateForm()) return;
 
     setIsLoading(true);
+    setErrors({});
+    setSuccessMessage('');
     
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      console.log('Login submitted:', formData);
-      // Handle successful login here
+      // Sign in with Supabase Auth
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email: formData.email.trim(),
+        password: formData.password
+      });
+
+      if (error) {
+        // Handle specific Supabase errors
+        if (error.message.includes('Invalid login credentials')) {
+          setErrors({ general: 'Invalid email or password. Please check your credentials and try again.' });
+        } else if (error.message.includes('Email not confirmed')) {
+          setErrors({ general: 'Please check your email and click the confirmation link before signing in.' });
+        } else if (error.message.includes('Too many requests')) {
+          setErrors({ general: 'Too many login attempts. Please wait a few minutes and try again.' });
+        } else if (error.message.includes('Invalid email')) {
+          setErrors({ email: 'Please enter a valid email address' });
+        } else {
+          setErrors({ general: error.message });
+        }
+        return;
+      }
+
+      // Successful login
+      if (data.session && data.user) {
+        setSuccessMessage('Login successful! Redirecting to homepage...');
+        
+        // If remember me is checked, the session will persist by default
+        // Supabase handles session persistence automatically
+        
+        // Redirect to dashboard after short delay
+        setTimeout(() => {
+          navigate('/home');
+        }, 1500);
+      }
+
     } catch (error) {
-      console.error('Login failed:', error);
+      console.error('Login error:', error);
+      setErrors({ general: 'An unexpected error occurred. Please try again.' });
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleGoogleLogin = () => {
-    console.log('Google login initiated');
-    // Handle Google OAuth here
+  const handleGoogleLogin = async () => {
+    try {
+      setIsLoading(true);
+      setErrors({});
+      
+      const { data, error } = await supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: {
+          redirectTo: `${window.location.origin}/dashboard`
+        }
+      });
+
+      if (error) {
+        console.error('Google login error:', error);
+        setErrors({ general: 'Google login failed. Please try again.' });
+      }
+      // The redirect will happen automatically if successful
+    } catch (error) {
+      console.error('Google login error:', error);
+      setErrors({ general: 'Google login failed. Please try again.' });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -77,7 +141,37 @@ const Login = () => {
           <p>Sign in to your account to continue trading</p>
         </div>
 
-        <div className="auth-form">
+        {/* Success Message */}
+        {successMessage && (
+          <div className="success-message" style={{
+            padding: '12px',
+            backgroundColor: '#d4edda',
+            color: '#155724',
+            border: '1px solid #c3e6cb',
+            borderRadius: '8px',
+            marginBottom: '20px',
+            fontSize: '14px'
+          }}>
+            {successMessage}
+          </div>
+        )}
+
+        {/* General Error Message */}
+        {errors.general && (
+          <div className="error-message" style={{
+            padding: '12px',
+            backgroundColor: '#f8d7da',
+            color: '#721c24',
+            border: '1px solid #f5c6cb',
+            borderRadius: '8px',
+            marginBottom: '20px',
+            fontSize: '14px'
+          }}>
+            {errors.general}
+          </div>
+        )}
+
+        <form className="auth-form" onSubmit={handleSubmit}>
           <div className="input-group">
             <label htmlFor="email">Email Address</label>
             <div className="input-wrapper">
@@ -137,7 +231,13 @@ const Login = () => {
 
           <div className="form-options">
             <label className="checkbox-label">
-              <input type="checkbox" />
+              <input 
+                type="checkbox" 
+                name="rememberMe"
+                checked={formData.rememberMe}
+                onChange={handleInputChange}
+                disabled={isLoading}
+              />
               <span className="checkmark"></span>
               Remember me
             </label>
@@ -145,7 +245,7 @@ const Login = () => {
           </div>
 
           <button 
-            onClick={handleSubmit}
+            type="submit"
             className={`auth-btn primary ${isLoading ? 'loading' : ''}`}
             disabled={isLoading}
           >
@@ -158,25 +258,26 @@ const Login = () => {
               'Sign In'
             )}
           </button>
+        </form>
 
-          <div className="divider">
-            <span>or</span>
-          </div>
-
-          <button 
-            className="auth-btn google"
-            onClick={handleGoogleLogin}
-            disabled={isLoading}
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24">
-              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
-              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-            </svg>
-            Continue with Google
-          </button>
+        <div className="divider">
+          <span>or</span>
         </div>
+
+        <button 
+          className="auth-btn google"
+          onClick={handleGoogleLogin}
+          disabled={isLoading}
+          type="button"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24">
+            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+          </svg>
+          Continue with Google
+        </button>
 
         <div className="auth-footer">
           <p>Don't have an account?{" "} <Link to="/signup" className="auth-link">Sign up</Link></p>
