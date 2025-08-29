@@ -18,17 +18,39 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    let isMounted = true;
+
     // Get initial session
     const getInitialSession = async () => {
       try {
-        const { data } = await supabase.auth.getSession()
+        console.log('Getting initial session...');
+        const { data, error } = await supabase.auth.getSession()
+        
+        if (error) {
+          console.error('getSession error:', error)
+          if (isMounted) {
+            setSession(null)
+            setUser(null)
+            setLoading(false)
+          }
+          return
+        }
+
         const session = data?.session ?? null
-        setSession(session)
-        setUser(session?.user ?? null)
+        console.log('Initial session:', session?.user?.id || 'No session');
+        
+        if (isMounted) {
+          setSession(session)
+          setUser(session?.user ?? null)
+          setLoading(false)
+        }
       } catch (err) {
         console.error('getSession error', err)
-      } finally {
-        setLoading(false)
+        if (isMounted) {
+          setSession(null)
+          setUser(null)
+          setLoading(false)
+        }
       }
     }
 
@@ -37,16 +59,28 @@ export const AuthProvider = ({ children }) => {
     // Listen for auth changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       (event, session) => {
+        console.log('Auth state changed:', event, session?.user?.id || 'No session')
+        
+        if (!isMounted) return;
+
         setSession(session)
         setUser(session?.user ?? null)
-        setLoading(false)
+        
+        // Only set loading to false if we're not in the middle of a sign-in process
+        if (event !== 'SIGNED_IN' || session) {
+          setLoading(false)
+        }
       }
     )
 
-    return () => subscription.unsubscribe()
+    return () => {
+      isMounted = false;
+      subscription.unsubscribe()
+    }
   }, [])
 
   const signUp = async (email, password, userData = {}) => {
+    setLoading(true)
     try {
       const { data, error } = await supabase.auth.signUp({
         email,
@@ -63,11 +97,15 @@ export const AuthProvider = ({ children }) => {
       if (error) throw error
       return { data, error: null }
     } catch (error) {
+      console.error('Sign up error:', error)
       return { data: null, error }
+    } finally {
+      setLoading(false)
     }
   }
 
   const signIn = async (email, password) => {
+    setLoading(true)
     try {
       const { data, error } = await supabase.auth.signInWithPassword({
         email,
@@ -76,11 +114,15 @@ export const AuthProvider = ({ children }) => {
       if (error) throw error
       return { data, error: null }
     } catch (error) {
+      console.error('Sign in error:', error)
       return { data: null, error }
+    } finally {
+      setLoading(false)
     }
   }
 
   const signInWithGoogle = async () => {
+    setLoading(true)
     try {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
@@ -91,20 +133,32 @@ export const AuthProvider = ({ children }) => {
       if (error) throw error
       return { data, error: null }
     } catch (error) {
+      console.error('Google sign in error:', error)
       return { data: null, error }
+    } finally {
+      // Don't set loading to false here for OAuth as it will redirect
     }
   }
 
   const signOut = async () => {
+    setLoading(true)
     try {
       const { error } = await supabase.auth.signOut()
       if (error) throw error
+      
+      // Clear state immediately
+      setUser(null)
+      setSession(null)
     } catch (error) {
       console.error('Error signing out:', error)
+      throw error
+    } finally {
+      setLoading(false)
     }
   }
 
   const resetPassword = async (email) => {
+    setLoading(true)
     try {
       const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
         redirectTo: `${window.location.origin}/reset-password`
@@ -112,7 +166,10 @@ export const AuthProvider = ({ children }) => {
       if (error) throw error
       return { data, error: null }
     } catch (error) {
+      console.error('Reset password error:', error)
       return { data: null, error }
+    } finally {
+      setLoading(false)
     }
   }
 
