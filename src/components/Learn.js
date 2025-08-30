@@ -7,6 +7,17 @@ import {
   Award,
   ChevronRight,
   Filter,
+  Play,
+  ChevronLeft,
+  Check,
+  X,
+  Star,
+  Trophy,
+  ArrowLeft,
+  Target,
+  Brain,
+  Lightbulb,
+  CheckCircle
 } from "lucide-react";
 import "../css/Learn.css";
 
@@ -14,14 +25,13 @@ const FEEDS = [
   "https://academy.binance.com/en/rss",
   "https://www.coinbase.com/blog/rss",
   "https://www.simplilearn.com/tutorials/blockchain-tutorial/feed",
-//  "https://consensys.net/academy/feed/",
   "https://cryptopotato.com/feed/",
   "https://blockgeeks.com/feed/",
 ];
 
 const HUGGINGFACE_API_KEY = "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";
 const HF_BASE = "https://api-inference.huggingface.co/models/";
-const HF_SUMMARIZE = "facebook/bart-large-cnn";
+const HF_DIALOGPT = "microsoft/DialoGPT-medium";
 
 const CATEGORIES = [
   "all",
@@ -44,7 +54,10 @@ export default function Learn() {
   const [selectedLevel, setSelectedLevel] = useState("all");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [isRefreshing, setIsRefreshing] = useState(false);
-
+  const [viewingCourse, setViewingCourse] = useState(null);
+  const [currentLesson, setCurrentLesson] = useState(0);
+  const [completedLessons, setCompletedLessons] = useState(new Set());
+  const [isGeneratingContent, setIsGeneratingContent] = useState(false);
 
   const getCache = () => {
     try {
@@ -58,6 +71,7 @@ export default function Learn() {
       return null;
     }
   };
+
   const setCache = (data) => {
     try {
       localStorage.setItem(
@@ -68,6 +82,7 @@ export default function Learn() {
       console.warn("Failed to set cache:", e.message);
     }
   };
+
   const clearCache = () => {
     localStorage.removeItem(CACHE_KEY);
   };
@@ -107,7 +122,6 @@ export default function Learn() {
               source: feedUrl.includes('binance') ? 'Binance Academy' : 
                      feedUrl.includes('coinbase') ? 'Coinbase Learn' :
                      feedUrl.includes('simplilearn') ? 'Simplilearn' :
-                     //feedUrl.includes('moralis') ? 'Moralis Academy' :
                      feedUrl.includes('consensys') ? 'ConsenSys Academy' :
                      feedUrl.includes('cryptopotato') ? 'Crypto Potato' :
                      feedUrl.includes('blockgeeks') ? 'Blockgeeks' : 'Unknown Source'
@@ -132,7 +146,6 @@ export default function Learn() {
     }
 
     allArticles.sort((a, b) => b.pubDate - a.pubDate);
-    
     return allArticles.slice(0, 30);
   };
 
@@ -208,23 +221,27 @@ export default function Learn() {
     
     let educationalDescription;
     try {
-      const prompt = `Convert this cryptocurrency news into an educational course description: "${article.title} - ${article.description}". Make it educational and focus on learning outcomes. 2-3 sentences.`;
-      const result = await callHF(HF_SUMMARIZE, {
+      const prompt = `Create an educational course description for: "${article.title}". Focus on learning outcomes and practical knowledge for ${category} in cryptocurrency. Make it engaging for ${level} learners.`;
+      
+      const result = await callHF(HF_DIALOGPT, {
         inputs: prompt,
-        parameters: { max_length: 150, min_length: 50 },
+        parameters: { 
+          max_new_tokens: 100,
+          temperature: 0.7,
+          do_sample: true,
+          pad_token_id: 50256
+        },
       });
       
-      if (Array.isArray(result) && result[0]?.summary_text) {
-        educationalDescription = sanitize(result[0].summary_text);
-      } else {
-        educationalDescription = `Learn about ${moduleTitle.toLowerCase()} and its implications for ${category.toLowerCase()}. Understand key concepts and practical applications.`;
+      if (Array.isArray(result) && result[0]?.generated_text) {
+        const generated = result[0].generated_text.replace(prompt, '').trim();
+        educationalDescription = sanitize(generated);
       }
     } catch (e) {
-      educationalDescription = `Learn about ${moduleTitle.toLowerCase()} and its implications for ${category.toLowerCase()}. Understand key concepts and practical applications.`;
+      console.warn("DialoGPT description generation failed:", e);
     }
 
     const lessons = await generateLessonsFromArticle(article, category, level);
-    
     const { duration, modulesCount } = estimateEffort(level, lessons);
 
     return {
@@ -247,49 +264,59 @@ export default function Learn() {
   };
 
   const generateLessonsFromArticle = async (article, category, level) => {
-    try {
-      const prompt = `Create 3-4 educational lessons based on this cryptocurrency news: "${article.title} - ${article.description}". Format each lesson as: Title|Learning Objective|Quiz Question|Option A|Option B|Option C|Option D|Correct Answer. Make it educational for ${level} level students.`;
-      
-      const result = await callHF(HF_SUMMARIZE, {
-        inputs: prompt,
-        parameters: { max_length: 300, min_length: 100 },
-      });
-      
-      if (Array.isArray(result) && result[0]?.summary_text) {
-        const lessons = parseLessonsFromAI(result[0].summary_text, article.title, category);
-        if (lessons.length > 0) return lessons;
-      }
-    } catch (e) {
-      console.warn("AI lesson generation failed:", e.message);
-    }
+    const lessonPrompts = [
+      `Explain the fundamentals of ${article.title} for ${level} crypto learners`,
+      `Describe practical applications of ${article.title} in ${category}`,
+      `Analyze the market impact of ${article.title}`,
+      `Create hands-on exercises for ${article.title} concepts`
+    ];
 
-  };
-
-  const parseLessonsFromAI = (text, title, category) => {
-    const lines = text.split('\n').filter(line => line.trim());
     const lessons = [];
     
-    lines.forEach((line, idx) => {
-      const parts = line.split('|');
-      if (parts.length >= 4) {
-        lessons.push({
-          title: parts[0]?.trim() || `Lesson ${idx + 1}: ${title}`,
-          objective: parts[1]?.trim() || `Learn key concepts of ${title.toLowerCase()}`,
-          quiz: {
-            question: parts[2]?.trim() || `What is important about ${title}?`,
-            choices: [
-              parts[3]?.trim() || "Option A",
-              parts[4]?.trim() || "Option B", 
-              parts[5]?.trim() || "Option C",
-              parts[6]?.trim() || "Option D"
-            ],
-            answer_index: ['A', 'B', 'C', 'D'].indexOf(parts[7]?.trim()) || 0,
+    for (let i = 0; i < lessonPrompts.length; i++) {
+      try {
+        const result = await callHF(HF_DIALOGPT, {
+          inputs: lessonPrompts[i],
+          parameters: { 
+            max_new_tokens: 200,
+            temperature: 0.8,
+            do_sample: true,
+            pad_token_id: 50256
           },
         });
+
+        let lessonContent = '';
+        if (Array.isArray(result) && result[0]?.generated_text) {
+          lessonContent = result[0].generated_text.replace(lessonPrompts[i], '').trim();
+        }
+
+        const lesson = {
+          title: `Lesson ${i + 1}: ${generateLessonTitle(article.title, i)}`,
+          objective: `Learn about ${article.title} - ${category} concepts`,
+          content: lessonContent,
+          duration: `${8 + i * 2} min`,
+          type: ['theory', 'practical', 'analysis', 'exercise'][i] || 'theory'
+        };
+
+        lessons.push(lesson);
+        
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      } catch (e) {
+        console.warn(`Failed to generate lesson ${i + 1}:`, e);
       }
-    });
+    }
     
-    return lessons;
+    return lessons.filter(lesson => lesson.content);
+  };
+
+  const generateLessonTitle = (articleTitle, index) => {
+    const titleTypes = [
+      `Understanding ${articleTitle.split(' ').slice(0, 3).join(' ')}`,
+      `Practical Applications`,
+      `Market Analysis & Impact`, 
+      `Advanced Implementation`
+    ];
+    return titleTypes[index] || `${articleTitle} Fundamentals`;
   };
 
   const buildTagsFromArticle = (article, category) => {
@@ -313,18 +340,6 @@ export default function Learn() {
     return Array.from(tags).slice(0, 5);
   };
 
-  const getRandomLevel = () => {
-    const levels = ['Beginner', 'Intermediate', 'Advanced'];
-    const weights = [0.4, 0.4, 0.2];
-    const random = Math.random();
-    let sum = 0;
-    for (let i = 0; i < levels.length; i++) {
-      sum += weights[i];
-      if (random <= sum) return levels[i];
-    }
-    return levels[0];
-  };
-
   const estimateEffort = (level, lessons) => {
     const baseHours = {
       Beginner: 2,
@@ -344,7 +359,6 @@ export default function Learn() {
     return Math.floor(min + (h % (max - min)));
   };
 
-  // ── Core: build AI modules from RSS feeds ─────────────────────────────────
   const buildModules = async (forceReload = false) => {
     setLoading(true);
     try {
@@ -358,24 +372,23 @@ export default function Learn() {
         }
       }
 
-      // Fetch RSS articles
       const articles = await fetchAllRSSFeeds();
       
       if (articles.length === 0) {
         throw new Error('No articles fetched from RSS feeds');
       }
 
-      // Convert articles to learning modules
       const modules = [];
-      const maxModules = Math.min(articles.length, 20); // Limit to 20 modules
+      const maxModules = Math.min(articles.length, 15);
 
       for (let i = 0; i < maxModules; i++) {
         const article = articles[i];
         try {
           const module = await generateLearningModuleFromArticle(article);
-          modules.push(module);
+          if (module.lessons && module.lessons.length > 0) {
+            modules.push(module);
+          }
           
-          // Add a small delay to avoid overwhelming the API
           if (i < maxModules - 1) {
             await new Promise(resolve => setTimeout(resolve, 500));
           }
@@ -384,22 +397,16 @@ export default function Learn() {
         }
       }
 
-      if (modules.length === 0) {
-        throw new Error('No modules generated from articles');
-      }
-
       setCache(modules);
       setAllModules(modules);
       setDisplayedModules(modules);
     } catch (e) {
       console.error("buildModules error:", e);
-      
     } finally {
       setLoading(false);
     }
   };
 
-  // ── Search / Filter logic ────────────────────────────────────────────────
   const handleSearch = (value) => {
     setSearchTerm(value);
     filterCourses(value, selectedLevel, selectedCategory);
@@ -432,7 +439,6 @@ export default function Learn() {
     setDisplayedModules(filtered);
   };
 
-  // ── Refresh handler ──────────────────────────────────────────────────────
   const handleRefresh = async () => {
     setIsRefreshing(true);
     clearCache();
@@ -440,7 +446,39 @@ export default function Learn() {
     setIsRefreshing(false);
   };
 
-  // ── Init ─────────────────────────────────────────────────────────────────
+  const startCourse = (course) => {
+    setViewingCourse(course);
+    setCurrentLesson(0);
+    setCompletedLessons(new Set());
+  };
+
+  const nextLesson = () => {
+    if (currentLesson < viewingCourse.lessons.length - 1) {
+      const newCompleted = new Set(completedLessons);
+      newCompleted.add(currentLesson);
+      setCompletedLessons(newCompleted);
+      setCurrentLesson(currentLesson + 1);
+    }
+  };
+
+  const prevLesson = () => {
+    if (currentLesson > 0) {
+      setCurrentLesson(currentLesson - 1);
+    }
+  };
+
+  const completeLesson = () => {
+    const newCompleted = new Set(completedLessons);
+    newCompleted.add(currentLesson);
+    setCompletedLessons(newCompleted);
+  };
+
+  const closeCourse = () => {
+    setViewingCourse(null);
+    setCurrentLesson(0);
+    setCompletedLessons(new Set());
+  };
+
   useEffect(() => {
     buildModules();
   }, []);
@@ -449,7 +487,160 @@ export default function Learn() {
     return (
       <div className="loading-container">
         <div className="loading-spinner"></div>
-        <p className="loading-text">Generating learning modules...</p>
+        <p className="loading-text">Generating AI-powered learning modules...</p>
+      </div>
+    );
+  }
+
+  if (viewingCourse) {
+    const currentLessonData = viewingCourse.lessons[currentLesson];
+    const isCompleted = completedLessons.has(currentLesson);
+    const progress = (completedLessons.size / viewingCourse.lessons.length) * 100;
+
+    return (
+      <div className="course-viewer">
+        <div className="course-header-nav">
+          <button onClick={closeCourse} className="back-button">
+            <ArrowLeft className="back-icon" />
+            Back to Courses
+          </button>
+          <div className="course-progress">
+            <div className="progress-bar">
+              <div className="progress-fill" style={{ width: `${progress}%` }}></div>
+            </div>
+            <span className="progress-text">{completedLessons.size} of {viewingCourse.lessons.length} lessons completed</span>
+          </div>
+        </div>
+
+        <div className="course-content">
+          <div className="lesson-sidebar">
+            <div className="course-info">
+              <h2 className="course-title-view">{viewingCourse.title}</h2>
+              <p className="course-subtitle-view">{viewingCourse.subtitle}</p>
+              <div className="course-stats">
+                <div className="stat">
+                  <Clock className="stat-icon" />
+                  <span>{viewingCourse.duration}</span>
+                </div>
+                <div className="stat">
+                  <BookOpen className="stat-icon" />
+                  <span>{viewingCourse.lessons.length} lessons</span>
+                </div>
+                <div className="stat">
+                  <Star className="stat-icon" />
+                  <span>{viewingCourse.rating}</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="lessons-list">
+              <h3 className="lessons-title">Course Content</h3>
+              {viewingCourse.lessons.map((lesson, index) => (
+                <div
+                  key={index}
+                  className={`lesson-item ${index === currentLesson ? 'active' : ''} ${completedLessons.has(index) ? 'completed' : ''}`}
+                  onClick={() => setCurrentLesson(index)}
+                >
+                  <div className="lesson-number">
+                    {completedLessons.has(index) ? (
+                      <CheckCircle className="lesson-icon completed-icon" />
+                    ) : (
+                      <span className="lesson-num">{index + 1}</span>
+                    )}
+                  </div>
+                  <div className="lesson-info">
+                    <h4 className="lesson-title">{lesson.title}</h4>
+                    <p className="lesson-duration">{lesson.duration}</p>
+                  </div>
+                  {index === currentLesson && (
+                    <Play className="lesson-playing" />
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="lesson-content">
+            <div className="lesson-header">
+              <div className="lesson-meta">
+                <span className="lesson-type">{currentLessonData.type}</span>
+                <span className="lesson-duration">{currentLessonData.duration}</span>
+              </div>
+              <h1 className="lesson-title-main">{currentLessonData.title}</h1>
+              <p className="lesson-objective">
+                <Target className="objective-icon" />
+                {currentLessonData.objective}
+              </p>
+            </div>
+
+            <div className="lesson-body">
+              <div className="content-section">
+                <h3 className="content-title">
+                  <Brain className="section-icon" />
+                  Learning Content
+                </h3>
+                <div className="content-text">
+                  {currentLessonData.content ? (
+                    <p>{currentLessonData.content}</p>
+                  ) : (
+                    <div className="content-placeholder">
+                      <Lightbulb className="placeholder-icon" />
+                      <p>Content is being generated by AI. This lesson will cover {currentLessonData.objective}</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              <div className="lesson-actions">
+                <div className="navigation-buttons">
+                  <button
+                    onClick={prevLesson}
+                    disabled={currentLesson === 0}
+                    className="nav-button prev"
+                  >
+                    <ChevronLeft className="nav-icon" />
+                    Previous
+                  </button>
+
+                  {!isCompleted && (
+                    <button
+                      onClick={completeLesson}
+                      className="complete-button"
+                    >
+                      <Check className="complete-icon" />
+                      Mark Complete
+                    </button>
+                  )}
+
+                  <button
+                    onClick={nextLesson}
+                    disabled={currentLesson === viewingCourse.lessons.length - 1}
+                    className="nav-button next"
+                  >
+                    Next
+                    <ChevronRight className="nav-icon" />
+                  </button>
+                </div>
+
+                {currentLesson === viewingCourse.lessons.length - 1 && completedLessons.has(currentLesson) && (
+                  <div className="course-complete">
+                    <Trophy className="trophy-icon" />
+                    <h3>Congratulations!</h3>
+                    <p>You've completed this course. Check out the original article for more details.</p>
+                    <a
+                      href={viewingCourse.originalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="original-link"
+                    >
+                      View Original Article
+                    </a>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
@@ -462,7 +653,7 @@ export default function Learn() {
           <div className="header-content">
             <h1 className="main-title">BiTry Learn</h1>
             <p className="main-description">
-              Learn from real-world events and market trends.
+              AI-powered learning modules from real-world crypto insights.
             </p>
             {/* Search and Filters */}
             <div className="search-filters">
@@ -572,22 +763,7 @@ export default function Learn() {
                 {/* Action Button */}
                 <button
                   className="enroll-button"
-                  onClick={() => {
-                    const courseInfo = `${course.title}\n\nGenerated from: ${course.source}\n\nCourse Lessons:\n\n` +
-                      course.lessons
-                        .map(
-                          (l, i) => `${i + 1}. ${l.title}\n   ${l.objective}`
-                        )
-                        .join("\n\n") +
-                      `\n\nThis ${course.level.toLowerCase()}-level course is based on current ${course.category.toLowerCase()}  articles.`;
-                    
-                    if (course.originalLink) {
-                      const fullInfo = courseInfo + `\n\nOriginal Article: ${course.originalLink}`;
-                      alert(fullInfo);
-                    } else {
-                      alert(courseInfo);
-                    }
-                  }}
+                  onClick={() => startCourse(course)}
                 >
                   <span>Start Learning</span>
                   <ChevronRight className="button-icon" />
@@ -616,7 +792,7 @@ export default function Learn() {
                 <div className="stat-number stat-blue">
                   {displayedModules.length}
                 </div>
-                <div className="stat-label">Live Modules</div>
+                <div className="stat-label">AI-Generated Modules</div>
               </div>
               <div className="stat-item">
                 <div className="stat-number stat-purple">
