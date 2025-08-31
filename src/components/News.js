@@ -516,6 +516,8 @@ export default function News() {
     
     // Prevent body scroll when modal is open
     document.body.style.overflow = 'hidden';
+    document.body.classList.add('modal-open'); // Add this line
+
 
     // Generate or fetch cached insights
     try {
@@ -537,7 +539,10 @@ export default function News() {
     setInsightsError(null);
     
     // Restore body scroll
+    
     document.body.style.overflow = 'unset';
+      document.body.classList.remove('modal-open'); // Add this line
+
   };
 
   // Close modal on Escape key
