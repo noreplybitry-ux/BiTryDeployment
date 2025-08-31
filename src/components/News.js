@@ -789,13 +789,6 @@ export default function News() {
     loadNews();
   }, []);
 
-  const clearCache = () => {
-    localStorage.removeItem(CACHE_KEY);
-    localStorage.removeItem(INSIGHTS_CACHE_KEY);
-    console.log('All cache cleared');
-    window.location.reload();
-  };
-
   const refreshNews = async () => {
     localStorage.removeItem(CACHE_KEY);
     setLoading(true);
@@ -817,9 +810,16 @@ export default function News() {
       <section className="news-container">
         <div className="news-header">
           <h2 className="news-title">Cryptocurrency News</h2>
-          <div className="loading-spinner">
-            <div className="spinner"></div>
-            <p>Loading latest crypto news...</p>
+          <div className="loading-container">
+            <div className="crypto-loader">
+              <div className="crypto-symbol btc">₿</div>
+              <div className="crypto-symbol eth">Ξ</div>
+              <div className="crypto-symbol bnb">⬡</div>
+            </div>
+            <p className="loading-text">Loading latest crypto news...</p>
+            <div className="loading-progress">
+              <div className="progress-bar"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -836,9 +836,6 @@ export default function News() {
             <div className="error-actions">
               <button onClick={refreshNews} className="btn-primary">
                 Try Again
-              </button>
-              <button onClick={clearCache} className="btn-secondary">
-                Clear Cache
               </button>
             </div>
           </div>
@@ -868,17 +865,16 @@ export default function News() {
             <button onClick={refreshNews} className="btn-refresh" disabled={loading}>
               {loading ? 'Refreshing...' : 'Refresh'}
             </button>
-            <button onClick={clearCache} className="btn-clear">
-              Clear Cache
-            </button>
           </div>
         </div>
       </div>
 
       {isLoadingMore && (
         <div className="loading-overlay">
-          <div className="loading-spinner">
-            <div className="spinner"></div>
+          <div className="page-loader">
+            <div className="pulse-dot"></div>
+            <div className="pulse-dot"></div>
+            <div className="pulse-dot"></div>
           </div>
         </div>
       )}
