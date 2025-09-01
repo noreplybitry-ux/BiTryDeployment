@@ -49,8 +49,8 @@ body {
 
 /* Logo: rectangular (wider than tall) */
 .logo {
-  width: 100px;         /* wider than height */
-  height: 28px;
+  width: auto;         /* wider than height */
+  height: 32px;
   object-fit: cover;   /* keep aspect fill */
   border-radius: 4px;  /* slight rounding, not circular */
   background: transparent;

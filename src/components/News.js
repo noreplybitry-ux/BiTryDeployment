@@ -854,7 +854,7 @@ export default function News() {
       <div className="news-header">
         <h2 className="news-title">Cryptocurrency News</h2>
         <p className="news-subtitle">
-          Latest news on Bitcoin, Ethereum, and top cryptocurrencies for Filipino beginners
+          Latest news on Bitcoin, Ethereum, and top cryptocurrencies
           {error && <span className="cache-warning"> • {error}</span>}
         </p>
         

@@ -89,6 +89,7 @@
 
         .btn-secondary:hover {
           border-color: #2196f3;
+          background: rgba(33, 150, 243, 0.1);
           color: #2196f3;
           transform: translateY(-2px);
         }
@@ -206,8 +207,6 @@
           50% { opacity: 1; }
         }
 
-
-
         .floating-elements {
           position: absolute;
           top: 0;
@@ -303,6 +302,10 @@
           padding: 40px;
           transition: all 0.3s ease;
           animation: slideInUp 0.8s ease-out both;
+          /* Flexbox layout to align button at bottom */
+          display: flex;
+          flex-direction: column;
+          height: 100%;
         }
 
         .feature-card:hover {
@@ -328,6 +331,7 @@
           font-size: 1.5rem;
           color: white;
           box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+          flex-shrink: 0;
         }
 
         .feature-title {
@@ -345,11 +349,12 @@
         .feature-highlights {
           list-style: none;
           margin-bottom: 32px;
+          flex-grow: 1; /* This pushes the button to the bottom */
         }
 
         .highlight-item {
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           gap: 12px;
           margin-bottom: 12px;
           color: #b7bdc6;
@@ -358,6 +363,8 @@
         .highlight-check {
           color: #02c076;
           font-weight: 700;
+          flex-shrink: 0;
+          margin-top: 1px;
         }
 
         .feature-button {
@@ -370,10 +377,13 @@
           cursor: pointer;
           transition: all 0.2s ease;
           width: 100%;
+          margin-top: auto; /* This ensures button stays at bottom */
         }
 
         .feature-button:hover {
           background: rgba(33, 150, 243, 0.2);
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(33, 150, 243, 0.2);
         }
 
         /* Stats Section */
@@ -426,7 +436,7 @@
 
         .steps-container {
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           justify-content: center;
           gap: 40px;
           margin-top: 60px;
@@ -469,6 +479,8 @@
           font-size: 2rem;
           color: #2196f3;
           font-weight: 700;
+          align-self: center;
+          margin-top: 40px;
         }
 
         /* Testimonials Section */
@@ -523,7 +535,7 @@
         /* CTA Section */
         .cta-section {
           background: linear-gradient(135deg, #2a2e39 0%, #353945 100%);
-          padding: 100px 20px;
+            padding: 10px 10px;
           text-align: center;
           border-top: 1px solid #353945;
         }
@@ -574,6 +586,7 @@
         .btn-outline:hover {
           border-color: #2196f3;
           color: #2196f3;
+          transform: translateY(-2px);
         }
 
         .cta-note {
@@ -619,10 +632,12 @@
           .steps-container {
             flex-direction: column;
             gap: 60px;
+            align-items: center;
           }
           
           .step-arrow {
             transform: rotate(90deg);
+            margin: 20px 0;
           }
           
           .cta-buttons {
@@ -646,6 +661,7 @@
           
           .features-grid {
             grid-template-columns: 1fr;
+            gap: 30px;
           }
           
           .feature-card {
@@ -659,6 +675,7 @@
           .hero-buttons {
             flex-direction: column;
             align-items: center;
+            gap: 12px;
           }
           
           .btn-primary, .btn-secondary {
@@ -668,6 +685,24 @@
           
           .cta-title {
             font-size: 2rem;
+          }
+
+          .bitcoin-coin {
+            width: 150px;
+            height: 150px;
+          }
+
+          .coin-face {
+            width: 150px;
+            height: 150px;
+          }
+
+          .coin-edge {
+            width: 150px;
+          }
+
+          .bitcoin-symbol {
+            font-size: 3rem;
           }
         }
 
@@ -692,5 +727,25 @@
           .stats-grid {
             grid-template-columns: repeat(2, 1fr);
             gap: 30px;
+          }
+
+          .features-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+          }
+
+          .feature-icon {
+            width: 50px;
+            height: 50px;
+            font-size: 1.25rem;
+          }
+
+          .feature-title {
+            font-size: 1.25rem;
+          }
+
+          .bitcoin-3d {
+            width: 250px;
+            height: 250px;
           }
         }
