@@ -74,51 +74,42 @@ const Dashboard = () => {
       description: "Master cryptocurrency fundamentals with personalized AI-generated quizzes that adapt to your learning pace.",
       icon: "🧠",
       highlights: ["Interactive lessons", "AI-generated quizzes", "Progress tracking", "Personalized learning paths"],
-      gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+      gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      source: "./learn"
     },
     {
       title: "Trading Simulator",
       description: "Practice spot and leverage trading with virtual funds in a real market environment without any risk.",
       icon: "📊",
       highlights: ["Spot trading", "Leverage up to 100x", "Real market data", "Virtual PHP balance"],
-      gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+      gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      source: "./trade"
     },
     {
       title: "AI News Insights",
       description: "Stay informed with crypto news enhanced by AI-generated insights and market analysis.",
       icon: "📰",
       highlights: ["Real-time news", "AI analysis", "Market sentiment", "Price impact insights"],
-      gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
+      gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      source: "./news"
     }
   ];
 
-  const stats = [
-    { number: "10K+", label: "Active Learners", icon: "👥" },
-    { number: "50+", label: "Learning Modules", icon: "📚" },
-    { number: "100+", label: "Trading Pairs", icon: "💱" },
-    { number: "24/7", label: "AI Support", icon: "🤖" }
-  ];
+  const handleStartLearning = () => {
+    window.location.href = "./learn";
+  }
 
-  const testimonials = [
-    {
-      name: "Maria Santos",
-      role: "Beginner Trader",
-      quote: "Sobrang helpful ng BiTry! From zero knowledge to confident trading sa loob lang ng 2 months.",
-      rating: 5
-    },
-    {
-      name: "Juan Dela Cruz",
-      role: "Student",
-      quote: "The AI quizzes really helped me understand technical analysis. Mas madali maintindihan kesa sa mga books.",
-      rating: 5
-    },
-    {
-      name: "Ana Reyes",
-      role: "Professional",
-      quote: "Perfect for learning crypto trading without risking real money. The simulator feels so realistic!",
-      rating: 5
-    }
-  ];
+  const handleTrySimulator = () => {
+    window.location.href = "./trade";
+  }
+
+  const handleGetStarted = () => {
+    window.location.href = "./signup";
+  }
+
+  const handleFeatureClick = (source) => {
+    window.location.href = source;
+  }
 
   return (
     <div className="homepage-container">
@@ -136,9 +127,9 @@ const Dashboard = () => {
               Master the markets with AI-powered learning and realistic simulations.
             </p>
             <div className="hero-buttons">
-              <button className="btn-primary">Start Learning</button>
-              <button className="btn-secondary">Try Simulator</button>
-            </div>
+              <button className="btn-primary" onClick={handleStartLearning}>Start Learning</button>
+              <button className="btn-secondary" onClick={handleTrySimulator}>Try Simulator</button>
+            </div>  
           </div>
           <div className="hero-visual">
             <div className="bitcoin-3d-container">
@@ -202,7 +193,7 @@ const Dashboard = () => {
                   </li>
                 ))}
               </ul>
-              <button className="feature-button">Explore Feature</button>
+              <button className="feature-button" onClick={() => handleFeatureClick(feature.source)}>Explore Feature</button>
             </div>
           ))}
         </div>
@@ -254,7 +245,7 @@ const Dashboard = () => {
             Join BiTry today and start your journey to becoming a confident cryptocurrency trader
           </p>
           <div className="cta-buttons">
-            <button className="btn-primary large">Get Started Free</button>
+            <button className="btn-primary large" onClick={handleGetStarted}>Get Started Free</button>
           </div>
           <div className="cta-note">
             No credit card required • 100% risk-free learning
