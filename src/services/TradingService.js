@@ -600,7 +600,7 @@ class TradingService {
         this.log('BUY order validation', { balance, totalCost });
 
         if (totalCost > balance) {
-          throw new Error(`Insufficient balance. Required: ${totalCost.toFixed(2)}, Available: ${balance.toFixed(2)}`);
+          throw new Error(`Insufficient balance. Required: $${totalCost.toFixed(2)}, Available: $${balance.toFixed(2)}`);
         }
 
         // Update balance (deduct cost)
@@ -759,25 +759,16 @@ class TradingService {
       // Check available margin
       const balance = await this.getUserBalance(userId);
       if (totalRequired > balance) {
-        throw new Error(`Insufficient margin. Required: ${totalRequired.toFixed(2)}, Available: ${balance.toFixed(2)}`);
+        throw new Error(`Insufficient margin. Required: $${totalRequired.toFixed(2)}, Available: $${balance.toFixed(2)}`);
       }
 
       // Map order side to position side
       const positionSide = this.mapOrderSideToPositionSide(side);
       this.log('Position side mapping', { orderSide: side, positionSide });
 
-      // Check for existing open position for the same symbol
-      const existingPosition = await this.getExistingPosition(userId, symbol);
-      
-      if (existingPosition) {
-        // Modify existing position instead of creating new one
-        this.log('Found existing position, modifying...');
-        await this.modifyExistingPosition(userId, existingPosition, positionSide, quantity, executionPrice, leverage, margin);
-      } else {
-        // Create new position
-        this.log('Creating new futures position...');
-        await this.createFuturesPosition(userId, symbol, positionSide, quantity, executionPrice, leverage, margin);
-      }
+      // For now, let's create a simple futures position without complex logic
+      this.log('Creating futures position...');
+      await this.createFuturesPosition(userId, symbol, positionSide, quantity, executionPrice, leverage, margin);
 
       // Update balance (deduct margin + fees)
       this.log('Updating user balance...');
@@ -852,113 +843,6 @@ class TradingService {
       throw error; // Don't transform the error, just re-throw it
     } finally {
       this.transactionInProgress = false;
-    }
-  }
-
-  async getExistingPosition(userId, symbol) {
-    try {
-      const { data, error } = await supabase
-        .from('positions')
-        .select('*')
-        .eq('user_id', userId)
-        .eq('symbol', symbol)
-        .eq('status', 'OPEN')
-        .maybeSingle();
-
-      if (error) {
-        this.log('Error checking existing position:', error);
-        throw error;
-      }
-
-      return data;
-    } catch (error) {
-      this.log('Error in getExistingPosition:', error);
-      throw error;
-    }
-  }
-
-  async modifyExistingPosition(userId, existingPosition, newPositionSide, quantity, price, leverage, margin) {
-    try {
-      this.log('Modifying existing position', {
-        existingPositionId: existingPosition.id,
-        existingSide: existingPosition.side,
-        newPositionSide,
-        quantity,
-        price
-      });
-
-      if (existingPosition.side === newPositionSide) {
-        // Same side - increase position size
-        const totalQuantity = parseFloat(existingPosition.quantity) + parseFloat(quantity);
-        const totalValue = (parseFloat(existingPosition.quantity) * parseFloat(existingPosition.entry_price)) + 
-                          (parseFloat(quantity) * parseFloat(price));
-        const newAvgPrice = totalValue / totalQuantity;
-        const newMargin = parseFloat(existingPosition.margin) + parseFloat(margin);
-        const newLiquidationPrice = this.calculateLiquidationPrice(newAvgPrice, newPositionSide, leverage);
-
-        const { error } = await supabase
-          .from('positions')
-          .update({
-            quantity: totalQuantity,
-            entry_price: newAvgPrice,
-            current_price: parseFloat(price),
-            margin: newMargin,
-            liquidation_price: newLiquidationPrice,
-            updated_at: new Date().toISOString()
-          })
-          .eq('id', existingPosition.id);
-
-        if (error) {
-          this.log('Error updating existing position:', error);
-          throw error;
-        }
-
-        this.log('Position size increased successfully');
-      } else {
-        // Opposite side - reduce or close position
-        const existingQty = parseFloat(existingPosition.quantity);
-        const newQty = parseFloat(quantity);
-
-        if (newQty >= existingQty) {
-          // Close existing position and potentially open new one in opposite direction
-          const pnl = this.calculatePnL(existingPosition, price);
-          await this.closeFuturesPosition(userId, existingPosition, price, pnl);
-
-          if (newQty > existingQty) {
-            // Create new position with remaining quantity
-            const remainingQty = newQty - existingQty;
-            await this.createFuturesPosition(userId, existingPosition.symbol, newPositionSide, remainingQty, price, leverage, margin * (remainingQty / newQty));
-          }
-        } else {
-          // Reduce position size
-          const remainingQty = existingQty - newQty;
-          const proportionalMargin = parseFloat(existingPosition.margin) * (remainingQty / existingQty);
-
-          const { error } = await supabase
-            .from('positions')
-            .update({
-              quantity: remainingQty,
-              margin: proportionalMargin,
-              current_price: parseFloat(price),
-              updated_at: new Date().toISOString()
-            })
-            .eq('id', existingPosition.id);
-
-          if (error) {
-            this.log('Error reducing position size:', error);
-            throw error;
-          }
-
-          // Refund partial margin
-          const marginRefund = parseFloat(existingPosition.margin) - proportionalMargin;
-          await this.updateUserBalance(userId, marginRefund, 'TRADE', `Partial position close ${existingPosition.symbol}`);
-
-          this.log('Position size reduced successfully');
-        }
-      }
-    } catch (error) {
-      this.log('Error in modifyExistingPosition:', error);
-      throw error;
     }
   }
 
@@ -1044,8 +928,7 @@ class TradingService {
           closed_at: new Date().toISOString(),
           updated_at: new Date().toISOString()
         })
-        .eq('id', position.id)
-        .eq('user_id', userId); // Add user_id check for security
+        .eq('id', position.id);
 
       if (error) {
         this.log('Error closing position:', error);
@@ -1123,3 +1006,43 @@ class TradingService {
           current_value: newCurrentValue,
           unrealized_pnl: unrealizedPnL,
           updated_at: new Date().toISOString()
+        })
+        .eq('user_id', userId)
+        .eq('symbol', baseSymbol);
+    } catch (error) {
+      this.log('Error updating spot holding price:', error);
+    }
+  }
+
+  async closeAllPositions(userId) {
+    try {
+      await this.ensureInitialized();
+      this.log('Closing all positions for user:', userId);
+      
+      const positions = await this.getOpenPositions(userId);
+      if (positions.length === 0) {
+        this.log('No positions to close');
+        return { success: true, closedCount: 0 };
+      }
+
+      const closePromises = positions.map(async (position) => {
+        const currentPrice = position.current_price || position.entry_price;
+        const pnl = this.calculatePnL(position, currentPrice);
+        return this.closeFuturesPosition(userId, position, currentPrice, pnl);
+      });
+
+      const results = await Promise.allSettled(closePromises);
+      const successCount = results.filter(r => r.status === 'fulfilled').length;
+      
+      this.log(`Closed ${successCount}/${positions.length} positions`);
+      return { success: true, closedCount: successCount };
+    } catch (error) {
+      this.log('Error closing all positions:', error);
+      throw error;
+    }
+  }
+}
+
+const tradingService = new TradingService();
+
+export default tradingService;
