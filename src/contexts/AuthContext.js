@@ -17,6 +17,50 @@ export const AuthProvider = ({ children }) => {
   const [session, setSession] = useState(null)
   const [loading, setLoading] = useState(true)
 
+  const checkUserProfile = async (userId) => {
+    try {
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('birthday')
+        .eq('id', userId)
+        .single();
+
+      if (error) {
+        console.error('Error checking user profile:', error);
+        return false;
+      }
+
+      // Return true if birthday exists, false if it needs to be collected
+      return data && data.birthday !== null;
+    } catch (error) {
+      console.error('Error checking user profile:', error);
+      return false;
+    }
+  };
+
+  const createOrUpdateProfile = async (userId, profileData) => {
+    try {
+      const { error } = await supabase
+        .from('profiles')
+        .upsert({
+          id: userId,
+          first_name: profileData.firstName,
+          last_name: profileData.lastName,
+          birthday: profileData.birthday,
+          updated_at: new Date().toISOString()
+        });
+
+      if (error) {
+        throw error;
+      }
+
+      return true;
+    } catch (error) {
+      console.error('Error creating/updating profile:', error);
+      throw error;
+    }
+  };
+
   useEffect(() => {
     let isMounted = true;
 
@@ -95,6 +139,17 @@ export const AuthProvider = ({ children }) => {
       })
 
       if (error) throw error
+
+      // Create profile record if user was created successfully
+      if (data.user) {
+        try {
+          await createOrUpdateProfile(data.user.id, userData);
+        } catch (profileError) {
+          console.error('Error creating profile during signup:', profileError);
+          // Don't fail the whole signup if profile creation fails
+        }
+      }
+
       return { data, error: null }
     } catch (error) {
       console.error('Sign up error:', error)
@@ -127,7 +182,7 @@ export const AuthProvider = ({ children }) => {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
-          redirectTo: `${window.location.origin}/dashboard`
+          redirectTo: `${window.location.origin}/auth/callback`
         }
       })
       if (error) throw error
@@ -181,7 +236,9 @@ export const AuthProvider = ({ children }) => {
     signIn,
     signInWithGoogle,
     signOut,
-    resetPassword
+    resetPassword,
+    checkUserProfile,
+    createOrUpdateProfile
   }
 
   return (

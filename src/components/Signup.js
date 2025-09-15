@@ -15,6 +15,9 @@ const Signup = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
+  const [showBirthdayModal, setShowBirthdayModal] = useState(false);
+  const [birthdayData, setBirthdayData] = useState('');
+  const [userId, setUserId] = useState(null);
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -73,22 +76,9 @@ const Signup = () => {
     if (!formData.birthday) {
       newErrors.birthday = 'Birthday is required';
     } else {
-      const birthDate = new Date(formData.birthday);
-      const today = new Date();
-      const age = today.getFullYear() - birthDate.getFullYear();
-      const monthDiff = today.getMonth() - birthDate.getMonth();
-      
-      let actualAge = age;
-      if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-        actualAge--;
-      }
-      
-      if (actualAge < 18) {
-        newErrors.birthday = 'You must be at least 18 years old';
-      }
-      
-      if (birthDate > today) {
-        newErrors.birthday = 'Birthday cannot be in the future';
+      const birthdayError = validateBirthday(formData.birthday);
+      if (birthdayError) {
+        newErrors.birthday = birthdayError;
       }
     }
 
@@ -100,11 +90,87 @@ const Signup = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  // Simple email check - let Supabase handle duplicate detection
-  const checkEmailExists = async (email) => {
-    // We'll skip pre-checking and let Supabase Auth handle duplicate detection
-    // This avoids potential issues with the email checking logic
-    return false;
+  const validateBirthday = (birthday) => {
+    if (!birthday) {
+      return 'Birthday is required';
+    }
+
+    const birthDate = new Date(birthday);
+    const today = new Date();
+    const age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    
+    let actualAge = age;
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      actualAge--;
+    }
+    
+    if (actualAge < 18) {
+      return 'You must be at least 18 years old';
+    }
+    
+    if (birthDate > today) {
+      return 'Birthday cannot be in the future';
+    }
+
+    return null;
+  };
+
+  const createProfile = async (userId, userData) => {
+    try {
+      const { error } = await supabase
+        .from('profiles')
+        .insert({
+          id: userId,
+          first_name: userData.firstName,
+          last_name: userData.lastName,
+          birthday: userData.birthday
+        });
+
+      if (error) {
+        throw error;
+      }
+
+      return true;
+    } catch (error) {
+      console.error('Error creating profile:', error);
+      throw error;
+    }
+  };
+
+  const handleBirthdaySubmit = async () => {
+    const birthdayError = validateBirthday(birthdayData);
+    if (birthdayError) {
+      setErrors({ birthday: birthdayError });
+      return;
+    }
+
+    setIsLoading(true);
+    setErrors({});
+
+    try {
+      // Get user's metadata from auth to get names
+      const { data: authData } = await supabase.auth.getUser();
+      const userMetadata = authData.user?.user_metadata || {};
+
+      await createProfile(userId, {
+        firstName: userMetadata.full_name?.split(' ')[0] || userMetadata.firstName || '',
+        lastName: userMetadata.full_name?.split(' ').slice(1).join(' ') || userMetadata.lastName || '',
+        birthday: birthdayData
+      });
+
+      setShowBirthdayModal(false);
+      setSuccessMessage('Profile completed! Redirecting to homepage...');
+      
+      setTimeout(() => {
+        window.location.href = '/home';
+      }, 1500);
+    } catch (error) {
+      console.error('Error updating profile:', error);
+      setErrors({ birthday: 'Failed to update profile. Please try again.' });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -166,6 +232,20 @@ const Signup = () => {
         return;
       }
 
+      // Create profile record for the new user
+      if (data.user) {
+        try {
+          await createProfile(data.user.id, {
+            firstName: formData.firstName.trim(),
+            lastName: formData.lastName.trim(),
+            birthday: formData.birthday
+          });
+        } catch (profileError) {
+          console.error('Error creating profile:', profileError);
+          // Don't fail the whole signup if profile creation fails
+        }
+      }
+
       // If we have a user but no session, they need to confirm their email
       if (data.user && !data.session) {
         console.log('Email confirmation required');
@@ -205,7 +285,7 @@ const Signup = () => {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
-          redirectTo: `${window.location.origin}/dashboard`
+          redirectTo: `${window.location.origin}/auth/callback`
         }
       });
 
@@ -483,6 +563,68 @@ const Signup = () => {
           <p>Already have an account? <a href="#login" className="auth-link">Sign in</a></p>
         </div>
       </div>
+
+      {/* Birthday Modal */}
+      {showBirthdayModal && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h3>Complete Your Profile</h3>
+              <p>Please provide your date of birth to finish setting up your account</p>
+            </div>
+            
+            <div className="modal-body">
+              <div className="input-group">
+                <label htmlFor="modalBirthday">Date of Birth</label>
+                <div className="input-wrapper">
+                  <input
+                    type="date"
+                    id="modalBirthday"
+                    value={birthdayData}
+                    onChange={(e) => {
+                      setBirthdayData(e.target.value);
+                      if (errors.birthday) {
+                        setErrors(prev => ({
+                          ...prev,
+                          birthday: ''
+                        }));
+                      }
+                    }}
+                    className={`auth-input ${errors.birthday ? 'error' : ''}`}
+                    disabled={isLoading}
+                    max={new Date().toISOString().split('T')[0]}
+                  />
+                  <span className="input-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                      <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M16 1V5M8 1V5M3 9H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+                {errors.birthday && <span className="error-message">{errors.birthday}</span>}
+              </div>
+            </div>
+            
+            <div className="modal-footer">
+              <button 
+                type="button"
+                className={`auth-btn primary ${isLoading ? 'loading' : ''}`}
+                onClick={handleBirthdaySubmit}
+                disabled={isLoading}
+              >
+                {isLoading ? (
+                  <>
+                    <div className="loading-spinner"></div>
+                    Updating...
+                  </>
+                ) : (
+                  'Continue'
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="auth-background">
         <div className="bg-pattern"></div>
