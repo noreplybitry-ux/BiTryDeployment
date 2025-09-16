@@ -10,6 +10,9 @@ import {
   RefreshCw,
   Loader,
   AlertCircle,
+  Plus,
+  X,
+  Sparkles,
 } from "lucide-react";
 import CourseViewer from "./CourseViewer";
 
@@ -58,38 +61,39 @@ export default function Learn() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [viewingCourse, setViewingCourse] = useState(null);
+  const [showCustomForm, setShowCustomForm] = useState(false);
+  const [customModuleForm, setCustomModuleForm] = useState({
+    title: "",
+    description: "",
+    category: "Blockchain Fundamentals",
+    level: "Beginner",
+    focusAreas: "",
+    specificTopics: "",
+  });
+  const [isGeneratingCustom, setIsGeneratingCustom] = useState(false);
   const [generationProgress, setGenerationProgress] = useState({
     current: 0,
     total: 0,
     status: "",
   });
 
-  // Cache management
+  // Cache management (using React state instead of localStorage)
+  const [moduleCache, setModuleCache] = useState(null);
+  const [quizCache, setQuizCache] = useState(null);
+  const [cacheTimestamp, setCacheTimestamp] = useState(0);
+
   const getCache = (key) => {
-    try {
-      const raw = localStorage.getItem(key);
-      if (!raw) return null;
-      const parsed = JSON.parse(raw);
-      if (!parsed.timestamp || Date.now() - parsed.timestamp > CACHE_DURATION)
-        return null;
-      return parsed.data;
-    } catch {
-      return null;
-    }
+    if (Date.now() - cacheTimestamp > CACHE_DURATION) return null;
+    return key === CACHE_KEY ? moduleCache : quizCache;
   };
 
   const setCache = (key, data) => {
-    try {
-      localStorage.setItem(
-        key,
-        JSON.stringify({
-          data,
-          timestamp: Date.now(),
-        })
-      );
-    } catch (e) {
-      console.warn("Failed to set cache:", e.message);
+    if (key === CACHE_KEY) {
+      setModuleCache(data);
+    } else {
+      setQuizCache(data);
     }
+    setCacheTimestamp(Date.now());
   };
 
   // Enhanced AI API caller with retry logic
@@ -129,6 +133,10 @@ export default function Learn() {
             generated = generated.replace(/^\W+/, "").replace(/\s+/g, " ");
             return generated || "Content generated successfully.";
           }
+          // Some HF models return string directly
+          if (result.generated_text) {
+            return result.generated_text;
+          }
           return "AI-generated content placeholder.";
         }
 
@@ -151,7 +159,377 @@ export default function Learn() {
     }
   };
 
-  // Generate comprehensive learning topics using AI
+  // Generate a custom module based on user input
+  const generateCustomModule = async (formData) => {
+    setIsGeneratingCustom(true);
+    setGenerationProgress({
+      current: 0,
+      total: 5,
+      status: "Initializing custom module generation...",
+    });
+
+    try {
+      // Enhanced prompt based on user input
+      const customPrompt = `Create a comprehensive ${
+        formData.level
+      } level course about "${formData.title}" in the ${
+        formData.category
+      } category. 
+      
+      Course Description: ${formData.description}
+      ${formData.focusAreas ? `Focus Areas: ${formData.focusAreas}` : ""}
+      ${
+        formData.specificTopics
+          ? `Specific Topics to Cover: ${formData.specificTopics}`
+          : ""
+      }
+      
+      Generate detailed educational content that covers the fundamentals, practical applications, and real-world examples. Make it engaging and suitable for ${
+        formData.level
+      } level learners.`;
+
+      setGenerationProgress((prev) => ({
+        ...prev,
+        current: 1,
+        status: "Generating course structure...",
+      }));
+
+      // Generate enhanced course description
+      const enhancedDescription = await callAI(customPrompt);
+
+      setGenerationProgress((prev) => ({
+        ...prev,
+        current: 2,
+        status: "Creating detailed lessons...",
+      }));
+
+      // Generate lessons with custom focus
+      const customLessons = await generateCustomLessons(
+        formData.title,
+        formData.category,
+        formData.level,
+        formData.focusAreas,
+        formData.specificTopics
+      );
+
+      setGenerationProgress((prev) => ({
+        ...prev,
+        current: 3,
+        status: "Generating quiz questions...",
+      }));
+
+      // Generate custom quizzes
+      const customQuizzes = await generateCustomQuizzes(
+        formData.title,
+        formData.category,
+        formData.level,
+        customLessons,
+        formData.specificTopics
+      );
+
+      setGenerationProgress((prev) => ({
+        ...prev,
+        current: 4,
+        status: "Finalizing custom module...",
+      }));
+
+      // Generate custom tags
+      const customTags = await generateTags(formData.title, formData.category);
+
+      // Calculate metrics
+      const duration = `${3 + Math.floor(customLessons.length * 0.7)} hours`;
+      const enrolled = 50 + Math.floor(Math.random() * 500); // Lower for custom modules
+      const rating = (4.2 + Math.random() * 0.8).toFixed(1);
+
+      const customModule = {
+        id: `custom-module-${Date.now()}-${Math.random()
+          .toString(36)
+          .substr(2, 9)}`,
+        title: formData.title,
+        subtitle: `${formData.category} • ${formData.level} Level • Custom AI Generated`,
+        description: enhancedDescription.slice(0, 200) + "...",
+        level: formData.level,
+        category: formData.category,
+        duration,
+        modules: customLessons.length,
+        enrolled,
+        rating: parseFloat(rating),
+        tags: [...customTags, "Custom Generated", "User Requested"],
+        lessons: customLessons,
+        quizzes: customQuizzes,
+        source: "Custom AI Generated",
+        originalLink: "",
+        publishDate: new Date(),
+        aiGenerated: true,
+        isCustom: true,
+        customRequest: {
+          originalTitle: formData.title,
+          originalDescription: formData.description,
+          focusAreas: formData.focusAreas,
+          specificTopics: formData.specificTopics,
+        },
+      };
+
+      setGenerationProgress((prev) => ({
+        ...prev,
+        current: 5,
+        status: "Custom module generated successfully!",
+      }));
+
+      // Add to modules list
+      const updatedModules = [customModule, ...allModules];
+      setAllModules(updatedModules);
+      setDisplayedModules(updatedModules);
+
+      // Add quizzes to pool
+      const updatedQuizPool = {
+        ...quizPool,
+        [customModule.id]: customModule.quizzes,
+      };
+      setQuizPool(updatedQuizPool);
+
+      // Update cache
+      setCache(CACHE_KEY, updatedModules);
+      setCache(QUIZ_CACHE_KEY, updatedQuizPool);
+
+      // Close form and show success
+      setShowCustomForm(false);
+      setCustomModuleForm({
+        title: "",
+        description: "",
+        category: "Blockchain Fundamentals",
+        level: "Beginner",
+        focusAreas: "",
+        specificTopics: "",
+      });
+
+      setTimeout(() => {
+        setGenerationProgress({ current: 0, total: 0, status: "" });
+      }, 3000);
+    } catch (error) {
+      console.error("Custom module generation error:", error);
+      setGenerationProgress({
+        current: 0,
+        total: 0,
+        status: "Error generating custom module. Please try again.",
+      });
+    } finally {
+      setIsGeneratingCustom(false);
+    }
+  };
+
+  // Generate custom lessons based on user specifications
+  const generateCustomLessons = async (
+    title,
+    category,
+    level,
+    focusAreas,
+    specificTopics
+  ) => {
+    const customLessonPrompts = [
+      `Create a foundational lesson for "${title}" covering basic concepts and definitions. Level: ${level}. ${
+        focusAreas ? `Focus on: ${focusAreas}` : ""
+      }`,
+      `Design a practical application lesson for "${title}" with hands-on examples and use cases. Level: ${level}. ${
+        specificTopics ? `Include: ${specificTopics}` : ""
+      }`,
+      `Develop an advanced analysis lesson for "${title}" covering market dynamics and real-world scenarios. Level: ${level}.`,
+      `Create an interactive exercise lesson for "${title}" with practice problems and implementations. Level: ${level}.`,
+    ];
+
+    const lessons = [];
+
+    for (let i = 0; i < customLessonPrompts.length; i++) {
+      const content = await callAI(customLessonPrompts[i]);
+      const lessonTitlePrompt = `Generate a concise, engaging lesson title for: ${customLessonPrompts[i]}`;
+      const lessonTitle = await callAI(lessonTitlePrompt);
+
+      const lesson = {
+        id: `custom-lesson-${Date.now()}-${i}`,
+        title:
+          lessonTitle
+            .split("\n")[0]
+            .replace(/^[^\w]+/, "")
+            .trim() || `Custom Lesson ${i + 1}`,
+        objective: `Master key concepts of ${title} through ${
+          [
+            "foundational understanding",
+            "practical application",
+            "advanced analysis",
+            "interactive practice",
+          ][i]
+        }`,
+        content: content,
+        duration: `${12 + i * 3} min`,
+        type: ["theory", "practical", "analysis", "exercise"][i],
+        completed: false,
+        isCustom: true,
+      };
+
+      lessons.push(lesson);
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+    }
+
+    return lessons;
+  };
+
+  // Generate custom quizzes with specific focus
+  const generateCustomQuizzes = async (
+    title,
+    category,
+    level,
+    lessons,
+    specificTopics
+  ) => {
+    const customQuizPrompt = `Generate 6 comprehensive multiple choice questions about "${title}" in ${category} for ${level} level learners. 
+    ${specificTopics ? `Focus specifically on: ${specificTopics}` : ""}
+    
+    Format each question with:
+    Question: [question]
+    A) [option]
+    B) [option] 
+    C) [option]
+    D) [option]
+    Correct: [letter]
+    
+    Make questions practical and test real understanding, not just memorization.`;
+
+    const quizContent = await callAI(customQuizPrompt);
+    const questions = [];
+
+    // Parse the AI-generated quiz content
+    const lines = quizContent.split("\n").filter((line) => line.trim());
+    let currentQuestion = null;
+
+    for (const line of lines) {
+      if (line.toLowerCase().includes("question:")) {
+        if (currentQuestion) questions.push(currentQuestion);
+        currentQuestion = {
+          id: `custom-quiz-${Date.now()}-${Math.random()
+            .toString(36)
+            .substr(2, 9)}`,
+          question: line.replace(/^.*question:\s*/i, "").trim(),
+          options: [],
+          correct: "",
+          difficulty: level,
+          category: category,
+          isCustom: true,
+        };
+      } else if (currentQuestion && /^[A-D]\)/.test(line.trim())) {
+        const option = line.replace(/^[A-D]\)\s*/, "").trim();
+        currentQuestion.options.push(option);
+      } else if (currentQuestion && line.toLowerCase().includes("correct:")) {
+        currentQuestion.correct = line
+          .replace(/^.*correct:\s*/i, "")
+          .trim()
+          .toUpperCase();
+      }
+    }
+
+    if (currentQuestion) questions.push(currentQuestion);
+
+    // If parsing failed, generate fallback questions
+    if (questions.length < 3) {
+      const fallbackQuestions = [
+        {
+          id: `custom-quiz-fallback-${Date.now()}-1`,
+          question: `What is the primary focus of ${title}?`,
+          options: [
+            "Understanding core concepts and applications",
+            "Memorizing technical definitions only",
+            "Following traditional financial models",
+            "Avoiding practical implementations",
+          ],
+          correct: "A",
+          difficulty: level,
+          category: category,
+          isCustom: true,
+        },
+        {
+          id: `custom-quiz-fallback-${Date.now()}-2`,
+          question: `Which approach is most effective for learning ${title}?`,
+          options: [
+            "Theory only without practice",
+            "Combining theory with hands-on practice",
+            "Avoiding complex topics entirely",
+            "Following outdated methodologies",
+          ],
+          correct: "B",
+          difficulty: level,
+          category: category,
+          isCustom: true,
+        },
+      ];
+      questions.push(...fallbackQuestions);
+    }
+
+    return questions;
+  };
+
+  // --- NEW: Binance Academy RSS fetch + summarization ---
+  // Try direct fetch, then fallback to AllOrigins proxy for CORS
+  const BINANCE_RSS_URL = "https://academy.binance.com/en/rss";
+
+  const fetchBinanceRSS = async () => {
+    try {
+      // Try direct fetch first
+      let res = await fetch(BINANCE_RSS_URL, { method: "GET" });
+      if (!res.ok) {
+        // fallback to proxy for CORS
+        const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(
+          BINANCE_RSS_URL
+        )}`;
+        res = await fetch(proxied, { method: "GET" });
+      }
+      if (!res.ok) throw new Error("Failed to fetch RSS");
+      const text = await res.text();
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(text, "application/xml");
+      const items = Array.from(xml.querySelectorAll("item")).slice(0, 12); // limit
+      const articles = items.map((it) => {
+        return {
+          title: it.querySelector("title")?.textContent || "",
+          link: it.querySelector("link")?.textContent || "",
+          pubDate: it.querySelector("pubDate")?.textContent || "",
+          description:
+            it.querySelector("description")?.textContent ||
+            it.querySelector("content\\:encoded")?.textContent ||
+            "",
+        };
+      });
+      return articles;
+    } catch (err) {
+      console.warn("Binance RSS fetch failed:", err.message);
+      return [];
+    }
+  };
+
+  // Summarize a Binance article using callAI (summary model)
+  const summarizeArticle = async (article) => {
+    const prompt = `Summarize the following article into a short teaching module foundation. Output a one-line title (if different), a 2-3 sentence summary, and 3 bullet learning points. Article title: "${article.title}" Article description/excerpt: "${article.description}" Link: ${article.link}`;
+    try {
+      const summary = await callAI(prompt, "summary", 2);
+      return {
+        source: "Binance Academy",
+        title: article.title,
+        link: article.link,
+        pubDate: article.pubDate,
+        rawDescription: article.description,
+        summary,
+      };
+    } catch (e) {
+      return {
+        source: "Binance Academy",
+        title: article.title,
+        link: article.link,
+        pubDate: article.pubDate,
+        rawDescription: article.description,
+        summary: article.description.slice(0, 300),
+      };
+    }
+  };
+
+  // Generate comprehensive learning topics using AI (keeps your original prompts)
   const generateLearningTopics = async () => {
     const topicPrompts = [
       "Generate a comprehensive cryptocurrency trading course title and description for beginners",
@@ -336,9 +714,9 @@ export default function Learn() {
       tags: await generateTags(topic.title, category),
       lessons,
       quizzes,
-      source: "AI Generated",
-      originalLink: "",
-      publishDate: new Date(),
+      source: topic.source || "AI Generated",
+      originalLink: topic.link || "",
+      publishDate: topic.pubDate ? new Date(topic.pubDate) : new Date(),
       aiGenerated: true,
     };
 
@@ -363,7 +741,7 @@ export default function Learn() {
     return tags;
   };
 
-  // Main function to build AI modules
+  // Main function to build AI modules (now integrates Binance Academy)
   const buildAIModules = async (forceReload = false) => {
     setLoading(true);
     try {
@@ -380,8 +758,40 @@ export default function Learn() {
         }
       }
 
-      // Generate learning topics
-      const topics = await generateLearningTopics();
+      // --- NEW: Fetch Binance articles and summarize them ---
+      setGenerationProgress({
+        current: 0,
+        total: 0,
+        status: "Fetching Binance Academy articles...",
+      });
+
+      const rawArticles = await fetchBinanceRSS();
+      const summarized = [];
+      for (let i = 0; i < rawArticles.length; i++) {
+        setGenerationProgress((prev) => ({
+          ...prev,
+          status: `Summarizing Binance article ${i + 1} of ${
+            rawArticles.length
+          }...`,
+        }));
+        const s = await summarizeArticle(rawArticles[i]);
+        // Convert summary into a topic object that generateModule expects
+        summarized.push({
+          title: s.title,
+          description: s.summary,
+          link: s.link,
+          pubDate: s.pubDate,
+          source: s.source,
+        });
+        // small delay so we don't hammer HF requests
+        await new Promise((r) => setTimeout(r, 600));
+      }
+
+      // Generate learning topics (AI prompts) as fallback/augmentation
+      const aiTopics = await generateLearningTopics();
+
+      // Merge Binance-based topics first, then AI topics to form final topic list
+      const topics = [...summarized, ...aiTopics].slice(0, 12);
 
       // Generate modules from topics
       const modules = [];
@@ -474,8 +884,9 @@ export default function Learn() {
 
   const handleRefresh = async () => {
     setIsRefreshing(true);
-    localStorage.removeItem(CACHE_KEY);
-    localStorage.removeItem(QUIZ_CACHE_KEY);
+    setModuleCache(null);
+    setQuizCache(null);
+    setCacheTimestamp(0);
     await buildAIModules(true);
     setIsRefreshing(false);
   };
@@ -488,8 +899,28 @@ export default function Learn() {
     setViewingCourse(null);
   };
 
+  const handleCustomFormSubmit = (e) => {
+    e.preventDefault();
+    if (
+      !customModuleForm.title.trim() ||
+      !customModuleForm.description.trim()
+    ) {
+      alert("Please fill in at least the title and description fields.");
+      return;
+    }
+    generateCustomModule(customModuleForm);
+  };
+
+  const handleCustomFormChange = (field, value) => {
+    setCustomModuleForm((prev) => ({
+      ...prev,
+      [field]: value,
+    }));
+  };
+
   useEffect(() => {
     buildAIModules();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (loading) {
@@ -740,10 +1171,516 @@ export default function Learn() {
                   />
                   {isRefreshing ? "Generating..." : "Refresh AI Modules"}
                 </button>
+
+                <button
+                  onClick={() => setShowCustomForm(true)}
+                  disabled={isGeneratingCustom}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                    padding: "8px 16px",
+                    backgroundColor: "#10b981",
+                    color: "white",
+                    border: "none",
+                    borderRadius: "6px",
+                    cursor: isGeneratingCustom ? "not-allowed" : "pointer",
+                    opacity: isGeneratingCustom ? 0.6 : 1,
+                  }}
+                >
+                  <Plus style={{ width: "16px", height: "16px" }} />
+                  Generate Custom Module
+                </button>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Custom Module Generation Form Modal */}
+        {showCustomForm && (
+          <div
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: "rgba(0, 0, 0, 0.5)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 1000,
+              padding: "1rem",
+            }}
+          >
+            <div
+              style={{
+                backgroundColor: "white",
+                borderRadius: "12px",
+                padding: "2rem",
+                maxWidth: "600px",
+                width: "100%",
+                maxHeight: "90vh",
+                overflowY: "auto",
+                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+              }}
+            >
+              {/* Form Header */}
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  marginBottom: "1.5rem",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.75rem",
+                  }}
+                >
+                  <Sparkles
+                    style={{
+                      width: "24px",
+                      height: "24px",
+                      color: "#10b981",
+                    }}
+                  />
+                  <h2
+                    style={{
+                      fontSize: "1.5rem",
+                      fontWeight: "bold",
+                      color: "#1f2937",
+                      margin: 0,
+                    }}
+                  >
+                    Generate Custom AI Module
+                  </h2>
+                </div>
+                <button
+                  onClick={() => setShowCustomForm(false)}
+                  disabled={isGeneratingCustom}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    color: "#6b7280",
+                    cursor: "pointer",
+                    padding: "4px",
+                  }}
+                >
+                  <X style={{ width: "24px", height: "24px" }} />
+                </button>
+              </div>
+
+              {/* Generation Progress */}
+              {isGeneratingCustom && (
+                <div
+                  style={{
+                    marginBottom: "1.5rem",
+                    padding: "1rem",
+                    backgroundColor: "#f0f9ff",
+                    borderRadius: "8px",
+                    border: "1px solid #bae6fd",
+                  }}
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                      marginBottom: "0.75rem",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: "16px",
+                        height: "16px",
+                        border: "2px solid #3b82f6",
+                        borderTop: "2px solid transparent",
+                        borderRadius: "50%",
+                        animation: "spin 1s linear infinite",
+                      }}
+                    ></div>
+                    <span style={{ color: "#1e40af", fontWeight: "500" }}>
+                      {generationProgress.status}
+                    </span>
+                  </div>
+                  {generationProgress.total > 0 && (
+                    <div
+                      style={{
+                        width: "100%",
+                        height: "6px",
+                        backgroundColor: "#dbeafe",
+                        borderRadius: "3px",
+                        overflow: "hidden",
+                      }}
+                    >
+                      <div
+                        style={{
+                          width: `${
+                            (generationProgress.current /
+                              generationProgress.total) *
+                            100
+                          }%`,
+                          height: "100%",
+                          backgroundColor: "#3b82f6",
+                          transition: "width 0.3s ease",
+                        }}
+                      ></div>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Form */}
+              <form onSubmit={handleCustomFormSubmit}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "1.25rem",
+                  }}
+                >
+                  {/* Title Field */}
+                  <div>
+                    <label
+                      style={{
+                        display: "block",
+                        fontSize: "0.875rem",
+                        fontWeight: "600",
+                        color: "#374151",
+                        marginBottom: "0.5rem",
+                      }}
+                    >
+                      Module Title *
+                    </label>
+                    <input
+                      type="text"
+                      value={customModuleForm.title}
+                      onChange={(e) =>
+                        handleCustomFormChange("title", e.target.value)
+                      }
+                      placeholder="e.g., Advanced DeFi Yield Farming Strategies"
+                      disabled={isGeneratingCustom}
+                      required
+                      style={{
+                        width: "100%",
+                        padding: "12px",
+                        border: "1px solid #d1d5db",
+                        borderRadius: "8px",
+                        fontSize: "1rem",
+                        backgroundColor: isGeneratingCustom
+                          ? "#f9fafb"
+                          : "white",
+                      }}
+                    />
+                  </div>
+
+                  {/* Description Field */}
+                  <div>
+                    <label
+                      style={{
+                        display: "block",
+                        fontSize: "0.875rem",
+                        fontWeight: "600",
+                        color: "#374151",
+                        marginBottom: "0.5rem",
+                      }}
+                    >
+                      Module Description *
+                    </label>
+                    <textarea
+                      value={customModuleForm.description}
+                      onChange={(e) =>
+                        handleCustomFormChange("description", e.target.value)
+                      }
+                      placeholder="Describe what this module should teach and its main objectives..."
+                      disabled={isGeneratingCustom}
+                      required
+                      rows={4}
+                      style={{
+                        width: "100%",
+                        padding: "12px",
+                        border: "1px solid #d1d5db",
+                        borderRadius: "8px",
+                        fontSize: "1rem",
+                        backgroundColor: isGeneratingCustom
+                          ? "#f9fafb"
+                          : "white",
+                        resize: "vertical",
+                      }}
+                    />
+                  </div>
+
+                  {/* Category and Level Row */}
+                  <div
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns: "1fr 1fr",
+                      gap: "1rem",
+                    }}
+                  >
+                    <div>
+                      <label
+                        style={{
+                          display: "block",
+                          fontSize: "0.875rem",
+                          fontWeight: "600",
+                          color: "#374151",
+                          marginBottom: "0.5rem",
+                        }}
+                      >
+                        Category
+                      </label>
+                      <select
+                        value={customModuleForm.category}
+                        onChange={(e) =>
+                          handleCustomFormChange("category", e.target.value)
+                        }
+                        disabled={isGeneratingCustom}
+                        style={{
+                          width: "100%",
+                          padding: "12px",
+                          border: "1px solid #d1d5db",
+                          borderRadius: "8px",
+                          fontSize: "1rem",
+                          backgroundColor: isGeneratingCustom
+                            ? "#f9fafb"
+                            : "white",
+                        }}
+                      >
+                        {CATEGORIES.slice(1).map((category) => (
+                          <option key={category} value={category}>
+                            {category}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+
+                    <div>
+                      <label
+                        style={{
+                          display: "block",
+                          fontSize: "0.875rem",
+                          fontWeight: "600",
+                          color: "#374151",
+                          marginBottom: "0.5rem",
+                        }}
+                      >
+                        Difficulty Level
+                      </label>
+                      <select
+                        value={customModuleForm.level}
+                        onChange={(e) =>
+                          handleCustomFormChange("level", e.target.value)
+                        }
+                        disabled={isGeneratingCustom}
+                        style={{
+                          width: "100%",
+                          padding: "12px",
+                          border: "1px solid #d1d5db",
+                          borderRadius: "8px",
+                          fontSize: "1rem",
+                          backgroundColor: isGeneratingCustom
+                            ? "#f9fafb"
+                            : "white",
+                        }}
+                      >
+                        {DIFFICULTY_LEVELS.map((level) => (
+                          <option key={level} value={level}>
+                            {level}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  </div>
+
+                  {/* Focus Areas Field */}
+                  <div>
+                    <label
+                      style={{
+                        display: "block",
+                        fontSize: "0.875rem",
+                        fontWeight: "600",
+                        color: "#374151",
+                        marginBottom: "0.5rem",
+                      }}
+                    >
+                      Focus Areas{" "}
+                      <span style={{ color: "#6b7280", fontWeight: "normal" }}>
+                        (optional)
+                      </span>
+                    </label>
+                    <input
+                      type="text"
+                      value={customModuleForm.focusAreas}
+                      onChange={(e) =>
+                        handleCustomFormChange("focusAreas", e.target.value)
+                      }
+                      placeholder="e.g., Risk management, Portfolio optimization, Market analysis"
+                      disabled={isGeneratingCustom}
+                      style={{
+                        width: "100%",
+                        padding: "12px",
+                        border: "1px solid #d1d5db",
+                        borderRadius: "8px",
+                        fontSize: "1rem",
+                        backgroundColor: isGeneratingCustom
+                          ? "#f9fafb"
+                          : "white",
+                      }}
+                    />
+                  </div>
+
+                  {/* Specific Topics Field */}
+                  <div>
+                    <label
+                      style={{
+                        display: "block",
+                        fontSize: "0.875rem",
+                        fontWeight: "600",
+                        color: "#374151",
+                        marginBottom: "0.5rem",
+                      }}
+                    >
+                      Specific Topics to Cover{" "}
+                      <span style={{ color: "#6b7280", fontWeight: "normal" }}>
+                        (optional)
+                      </span>
+                    </label>
+                    <textarea
+                      value={customModuleForm.specificTopics}
+                      onChange={(e) =>
+                        handleCustomFormChange("specificTopics", e.target.value)
+                      }
+                      placeholder="List specific topics, technologies, or concepts you want covered..."
+                      disabled={isGeneratingCustom}
+                      rows={3}
+                      style={{
+                        width: "100%",
+                        padding: "12px",
+                        border: "1px solid #d1d5db",
+                        borderRadius: "8px",
+                        fontSize: "1rem",
+                        backgroundColor: isGeneratingCustom
+                          ? "#f9fafb"
+                          : "white",
+                        resize: "vertical",
+                      }}
+                    />
+                  </div>
+
+                  {/* Form Actions */}
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "1rem",
+                      justifyContent: "flex-end",
+                      paddingTop: "1rem",
+                      borderTop: "1px solid #e5e7eb",
+                    }}
+                  >
+                    <button
+                      type="button"
+                      onClick={() => setShowCustomForm(false)}
+                      disabled={isGeneratingCustom}
+                      style={{
+                        padding: "12px 24px",
+                        border: "1px solid #d1d5db",
+                        borderRadius: "8px",
+                        backgroundColor: "white",
+                        color: "#374151",
+                        cursor: isGeneratingCustom ? "not-allowed" : "pointer",
+                        fontSize: "0.875rem",
+                        fontWeight: "500",
+                        opacity: isGeneratingCustom ? 0.6 : 1,
+                      }}
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      type="submit"
+                      disabled={
+                        isGeneratingCustom ||
+                        !customModuleForm.title.trim() ||
+                        !customModuleForm.description.trim()
+                      }
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.5rem",
+                        padding: "12px 24px",
+                        backgroundColor: "#10b981",
+                        color: "white",
+                        border: "none",
+                        borderRadius: "8px",
+                        cursor:
+                          isGeneratingCustom ||
+                          !customModuleForm.title.trim() ||
+                          !customModuleForm.description.trim()
+                            ? "not-allowed"
+                            : "pointer",
+                        fontSize: "0.875rem",
+                        fontWeight: "600",
+                        opacity:
+                          isGeneratingCustom ||
+                          !customModuleForm.title.trim() ||
+                          !customModuleForm.description.trim()
+                            ? 0.6
+                            : 1,
+                      }}
+                    >
+                      <Sparkles style={{ width: "16px", height: "16px" }} />
+                      {isGeneratingCustom
+                        ? "Generating..."
+                        : "Generate AI Module"}
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              {/* Help Text */}
+              <div
+                style={{
+                  marginTop: "1.5rem",
+                  padding: "1rem",
+                  backgroundColor: "#f9fafb",
+                  borderRadius: "8px",
+                  border: "1px solid #e5e7eb",
+                }}
+              >
+                <h4
+                  style={{
+                    color: "#374151",
+                    fontSize: "0.875rem",
+                    fontWeight: "600",
+                    margin: "0 0 0.5rem 0",
+                  }}
+                >
+                  💡 Tips for Better AI Generation:
+                </h4>
+                <ul
+                  style={{
+                    color: "#6b7280",
+                    fontSize: "0.8rem",
+                    margin: 0,
+                    paddingLeft: "1.25rem",
+                  }}
+                >
+                  <li>Be specific about what you want to learn</li>
+                  <li>Include relevant keywords and technologies</li>
+                  <li>Mention any particular use cases or examples you want</li>
+                  <li>
+                    The AI will create 4 lessons and multiple quiz questions
+                    automatically
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Course Grid */}
         <div
@@ -803,14 +1740,20 @@ export default function Learn() {
                   <div
                     style={{
                       padding: "4px 8px",
-                      backgroundColor: "#f3f4f6",
-                      color: "#374151",
+                      backgroundColor: course.isCustom ? "#dcfce7" : "#f3f4f6",
+                      color: course.isCustom ? "#15803d" : "#374151",
                       borderRadius: "6px",
                       fontSize: "0.75rem",
                       fontWeight: "500",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "4px",
                     }}
                   >
-                    AI Generated
+                    {course.isCustom && (
+                      <Sparkles style={{ width: "12px", height: "12px" }} />
+                    )}
+                    {course.source || "AI Generated"}
                   </div>
                 </div>
 
@@ -971,7 +1914,7 @@ export default function Learn() {
                     justifyContent: "center",
                     gap: "0.5rem",
                     padding: "12px",
-                    backgroundColor: "#3b82f6",
+                    backgroundColor: course.isCustom ? "#10b981" : "#3b82f6",
                     color: "white",
                     border: "none",
                     borderRadius: "8px",
@@ -981,7 +1924,14 @@ export default function Learn() {
                     transition: "background-color 0.2s",
                   }}
                 >
-                  <span>Start AI Learning</span>
+                  {course.isCustom && (
+                    <Sparkles style={{ width: "16px", height: "16px" }} />
+                  )}
+                  <span>
+                    {course.isCustom
+                      ? "Start Custom Module"
+                      : "Start AI Learning"}
+                  </span>
                   <ChevronRight style={{ width: "16px", height: "16px" }} />
                 </button>
               </div>
@@ -1098,10 +2048,10 @@ export default function Learn() {
                   marginBottom: "0.5rem",
                 }}
               >
-                100%
+                {displayedModules.filter((m) => m.isCustom).length}
               </div>
               <div style={{ color: "#6b7280", fontSize: "0.875rem" }}>
-                AI-Generated Content
+                Custom Modules
               </div>
             </div>
           </div>

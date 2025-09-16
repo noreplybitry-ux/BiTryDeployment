@@ -18,6 +18,8 @@ import {
   RotateCcw,
   X,
   AlertCircle,
+  FileText,
+  Scroll,
 } from "lucide-react";
 
 export default function CourseViewer({ course, onClose, quizzes = [] }) {
@@ -35,6 +37,195 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
   const isCompleted = completedLessons.has(currentLesson);
   const progress = (completedLessons.size / course.lessons.length) * 100;
   const canTakeQuiz = completedLessons.size === course.lessons.length;
+
+  // Function to format and display content properly
+  const formatLessonContent = (content) => {
+    if (!content || typeof content !== "string") {
+      return null;
+    }
+
+    // Split content into sections and paragraphs
+    const sections = content
+      .split(/\n\s*\n/)
+      .filter((section) => section.trim());
+
+    return sections.map((section, sectionIndex) => {
+      const lines = section.split("\n").filter((line) => line.trim());
+
+      return (
+        <div key={sectionIndex} style={{ marginBottom: "2rem" }}>
+          {lines.map((line, lineIndex) => {
+            const trimmedLine = line.trim();
+
+            // Handle headers (lines that start with ** or are in ALL CAPS)
+            if (trimmedLine.startsWith("**") && trimmedLine.endsWith("**")) {
+              const headerText = trimmedLine.slice(2, -2);
+              return (
+                <h3
+                  key={lineIndex}
+                  style={{
+                    fontSize: "1.125rem",
+                    fontWeight: "600",
+                    color: "#1f2937",
+                    marginBottom: "0.75rem",
+                    marginTop: lineIndex === 0 ? "0" : "1.5rem",
+                  }}
+                >
+                  {headerText}
+                </h3>
+              );
+            }
+
+            // Handle bold text within paragraphs
+            const handleBoldText = (text) => {
+              const parts = text.split(/(\*\*[^*]+\*\*)/g);
+              return parts.map((part, i) => {
+                if (part.startsWith("**") && part.endsWith("**")) {
+                  return (
+                    <strong
+                      key={i}
+                      style={{ color: "#1f2937", fontWeight: "600" }}
+                    >
+                      {part.slice(2, -2)}
+                    </strong>
+                  );
+                }
+                return part;
+              });
+            };
+
+            // Handle bullet points (lines starting with - or •)
+            if (trimmedLine.startsWith("- ") || trimmedLine.startsWith("• ")) {
+              return (
+                <div
+                  key={lineIndex}
+                  style={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "0.75rem",
+                    marginBottom: "0.5rem",
+                    paddingLeft: "1rem",
+                  }}
+                >
+                  <div
+                    style={{
+                      width: "6px",
+                      height: "6px",
+                      borderRadius: "50%",
+                      backgroundColor: "#3b82f6",
+                      marginTop: "0.5rem",
+                      flexShrink: 0,
+                    }}
+                  ></div>
+                  <p
+                    style={{
+                      margin: 0,
+                      color: "#374151",
+                      lineHeight: "1.6",
+                    }}
+                  >
+                    {handleBoldText(trimmedLine.substring(2))}
+                  </p>
+                </div>
+              );
+            }
+
+            // Handle numbered lists (lines starting with numbers)
+            if (/^\d+[.)]\s/.test(trimmedLine)) {
+              const numberMatch = trimmedLine.match(/^(\d+)[.)]\s(.+)/);
+              if (numberMatch) {
+                return (
+                  <div
+                    key={lineIndex}
+                    style={{
+                      display: "flex",
+                      alignItems: "flex-start",
+                      gap: "0.75rem",
+                      marginBottom: "0.75rem",
+                      paddingLeft: "1rem",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: "24px",
+                        height: "24px",
+                        borderRadius: "50%",
+                        backgroundColor: "#dbeafe",
+                        color: "#1e40af",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        fontSize: "0.875rem",
+                        fontWeight: "600",
+                        flexShrink: 0,
+                      }}
+                    >
+                      {numberMatch[1]}
+                    </div>
+                    <p
+                      style={{
+                        margin: 0,
+                        color: "#374151",
+                        lineHeight: "1.6",
+                      }}
+                    >
+                      {handleBoldText(numberMatch[2])}
+                    </p>
+                  </div>
+                );
+              }
+            }
+
+            // Handle section headers (lines that are mostly uppercase or end with :)
+            if (
+              trimmedLine.endsWith(":") ||
+              (trimmedLine === trimmedLine.toUpperCase() &&
+                trimmedLine.length > 3 &&
+                trimmedLine.split(" ").length <= 4)
+            ) {
+              return (
+                <h4
+                  key={lineIndex}
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: "600",
+                    color: "#4b5563",
+                    marginBottom: "0.5rem",
+                    marginTop: lineIndex === 0 ? "0" : "1.25rem",
+                    textTransform:
+                      trimmedLine === trimmedLine.toUpperCase()
+                        ? "capitalize"
+                        : "none",
+                  }}
+                >
+                  {trimmedLine}
+                </h4>
+              );
+            }
+
+            // Regular paragraphs
+            if (trimmedLine.length > 0) {
+              return (
+                <p
+                  key={lineIndex}
+                  style={{
+                    margin: "0 0 1rem 0",
+                    color: "#374151",
+                    lineHeight: "1.7",
+                    fontSize: "1rem",
+                  }}
+                >
+                  {handleBoldText(trimmedLine)}
+                </p>
+              );
+            }
+
+            return null;
+          })}
+        </div>
+      );
+    });
+  };
 
   // Load random quiz questions when quiz starts
   const startQuiz = () => {
@@ -876,6 +1067,24 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
                 >
                   {currentLessonData.duration}
                 </span>
+                {currentLessonData.isCustom && (
+                  <span
+                    style={{
+                      padding: "4px 8px",
+                      backgroundColor: "#dcfce7",
+                      color: "#15803d",
+                      borderRadius: "12px",
+                      fontSize: "0.75rem",
+                      fontWeight: "600",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                  >
+                    <Brain style={{ width: "12px", height: "12px" }} />
+                    Custom AI
+                  </span>
+                )}
               </div>
 
               <h1
@@ -884,6 +1093,7 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
                   fontWeight: "bold",
                   color: "#1f2937",
                   marginBottom: "1rem",
+                  lineHeight: "1.2",
                 }}
               >
                 {currentLessonData.title}
@@ -922,11 +1132,11 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
                   display: "flex",
                   alignItems: "center",
                   gap: "0.5rem",
-                  marginBottom: "1rem",
+                  marginBottom: "1.5rem",
                 }}
               >
                 <Brain
-                  style={{ width: "20px", height: "20px", color: "#10b981" }}
+                  style={{ width: "24px", height: "24px", color: "#10b981" }}
                 />
                 <h3
                   style={{
@@ -938,14 +1148,34 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
                 >
                   AI-Generated Learning Content
                 </h3>
+                {currentLessonData.fullContent && (
+                  <span
+                    style={{
+                      padding: "2px 8px",
+                      backgroundColor: "#f0fdf4",
+                      color: "#15803d",
+                      borderRadius: "12px",
+                      fontSize: "0.75rem",
+                      fontWeight: "600",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                  >
+                    <CheckCircle style={{ width: "12px", height: "12px" }} />
+                    Comprehensive
+                  </span>
+                )}
               </div>
 
               <div
                 style={{
-                  padding: "1.5rem",
+                  padding: "2rem",
                   backgroundColor: "#f9fafb",
-                  borderRadius: "8px",
+                  borderRadius: "12px",
                   border: "1px solid #e5e7eb",
+                  maxHeight: "70vh",
+                  overflowY: "auto",
                 }}
               >
                 {currentLessonData.content ? (
@@ -956,13 +1186,7 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
                       fontSize: "1rem",
                     }}
                   >
-                    {currentLessonData.content
-                      .split("\n")
-                      .map((paragraph, index) => (
-                        <p key={index} style={{ marginBottom: "1rem" }}>
-                          {paragraph}
-                        </p>
-                      ))}
+                    {formatLessonContent(currentLessonData.content)}
                   </div>
                 ) : (
                   <div
@@ -971,30 +1195,126 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
                       flexDirection: "column",
                       alignItems: "center",
                       gap: "1rem",
-                      padding: "2rem",
+                      padding: "3rem",
                       textAlign: "center",
                     }}
                   >
-                    <Lightbulb
+                    <div
                       style={{
-                        width: "48px",
-                        height: "48px",
-                        color: "#f59e0b",
-                      }}
-                    />
-                    <p
-                      style={{
-                        color: "#6b7280",
-                        fontSize: "1rem",
-                        margin: 0,
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.5rem",
                       }}
                     >
-                      AI content is being generated for this lesson. The content
-                      will cover {currentLessonData.objective.toLowerCase()}.
-                    </p>
+                      <div
+                        style={{
+                          width: "24px",
+                          height: "24px",
+                          border: "3px solid #f59e0b",
+                          borderTop: "3px solid transparent",
+                          borderRadius: "50%",
+                          animation: "spin 1s linear infinite",
+                        }}
+                      ></div>
+                      <Lightbulb
+                        style={{
+                          width: "48px",
+                          height: "48px",
+                          color: "#f59e0b",
+                        }}
+                      />
+                    </div>
+                    <div>
+                      <h4
+                        style={{
+                          color: "#1f2937",
+                          fontSize: "1.125rem",
+                          fontWeight: "600",
+                          marginBottom: "0.5rem",
+                        }}
+                      >
+                        AI Content Loading
+                      </h4>
+                      <p
+                        style={{
+                          color: "#6b7280",
+                          fontSize: "1rem",
+                          margin: 0,
+                          maxWidth: "400px",
+                        }}
+                      >
+                        Comprehensive AI content is being generated for this
+                        lesson. The content will cover{" "}
+                        {currentLessonData.objective.toLowerCase()}
+                        with detailed explanations and practical examples.
+                      </p>
+                    </div>
                   </div>
                 )}
               </div>
+
+              {/* Content Summary Stats */}
+              {currentLessonData.content && (
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginTop: "1rem",
+                    padding: "0.75rem 1rem",
+                    backgroundColor: "#f3f4f6",
+                    borderRadius: "8px",
+                    fontSize: "0.875rem",
+                    color: "#6b7280",
+                  }}
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                    }}
+                  >
+                    <FileText style={{ width: "16px", height: "16px" }} />
+                    <span>
+                      {currentLessonData.content.split(" ").length} words
+                    </span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                    }}
+                  >
+                    <Clock style={{ width: "16px", height: "16px" }} />
+                    <span>
+                      ~
+                      {Math.ceil(
+                        currentLessonData.content.split(" ").length / 200
+                      )}{" "}
+                      min read
+                    </span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                    }}
+                  >
+                    <Scroll style={{ width: "16px", height: "16px" }} />
+                    <span>
+                      {
+                        currentLessonData.content
+                          .split(/\n\s*\n/)
+                          .filter((p) => p.trim()).length
+                      }{" "}
+                      sections
+                    </span>
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Lesson Navigation */}
@@ -1118,7 +1438,7 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
                       marginBottom: "0.5rem",
                     }}
                   >
-                    Congratulations! 🎉
+                    Congratulations!
                   </h3>
 
                   <p
@@ -1187,6 +1507,17 @@ export default function CourseViewer({ course, onClose, quizzes = [] }) {
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes spin {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+      `}</style>
     </div>
   );
 }
