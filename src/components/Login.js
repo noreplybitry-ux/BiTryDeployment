@@ -14,6 +14,9 @@ const Login = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
+  const [showBirthdayModal, setShowBirthdayModal] = useState(false);
+  const [birthdayData, setBirthdayData] = useState('');
+  const [userId, setUserId] = useState(null);
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -55,6 +58,100 @@ const Login = () => {
     return Object.keys(newErrors).length === 0;
   };
 
+  const checkUserProfile = async (userId) => {
+    try {
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('birthday')
+        .eq('id', userId)
+        .single();
+
+      if (error) {
+        console.error('Error checking user profile:', error);
+        return false;
+      }
+
+      // Return true if birthday exists, false if it needs to be collected
+      return data && data.birthday !== null;
+    } catch (error) {
+      console.error('Error checking user profile:', error);
+      return false;
+    }
+  };
+
+  const createOrUpdateProfile = async (userId, birthdayDate) => {
+    try {
+      const { error } = await supabase
+        .from('profiles')
+        .upsert({
+          id: userId,
+          birthday: birthdayDate,
+          updated_at: new Date().toISOString()
+        });
+
+      if (error) {
+        throw error;
+      }
+
+      return true;
+    } catch (error) {
+      console.error('Error creating/updating profile:', error);
+      throw error;
+    }
+  };
+
+  const validateBirthday = (birthday) => {
+    if (!birthday) {
+      return 'Birthday is required';
+    }
+
+    const birthDate = new Date(birthday);
+    const today = new Date();
+    const age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    
+    let actualAge = age;
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      actualAge--;
+    }
+    
+    if (actualAge < 18) {
+      return 'You must be at least 18 years old';
+    }
+    
+    if (birthDate > today) {
+      return 'Birthday cannot be in the future';
+    }
+
+    return null;
+  };
+
+  const handleBirthdaySubmit = async () => {
+    const birthdayError = validateBirthday(birthdayData);
+    if (birthdayError) {
+      setErrors({ birthday: birthdayError });
+      return;
+    }
+
+    setIsLoading(true);
+    setErrors({});
+
+    try {
+      await createOrUpdateProfile(userId, birthdayData);
+      setShowBirthdayModal(false);
+      setSuccessMessage('Profile completed! Redirecting to homepage...');
+      
+      setTimeout(() => {
+        navigate('/home');
+      }, 1500);
+    } catch (error) {
+      console.error('Error updating profile:', error);
+      setErrors({ birthday: 'Failed to update profile. Please try again.' });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     
@@ -89,10 +186,18 @@ const Login = () => {
 
       // Successful login
       if (data.session && data.user) {
-        setSuccessMessage('Login successful! Redirecting to homepage...');
+        // Check if user has a complete profile
+        const hasCompleteProfile = await checkUserProfile(data.user.id);
         
-        // If remember me is checked, the session will persist by default
-        // Supabase handles session persistence automatically
+        if (!hasCompleteProfile) {
+          // Need to collect birthday
+          setUserId(data.user.id);
+          setShowBirthdayModal(true);
+          setIsLoading(false);
+          return;
+        }
+
+        setSuccessMessage('Login successful! Redirecting to homepage...');
         
         // Redirect to dashboard after short delay
         setTimeout(() => {
@@ -116,7 +221,7 @@ const Login = () => {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
-          redirectTo: `${window.location.origin}/dashboard`
+          redirectTo: `${window.location.origin}/auth/callback`
         }
       });
 
@@ -283,6 +388,68 @@ const Login = () => {
           <p>Don't have an account?{" "} <Link to="/signup" className="auth-link">Sign up</Link></p>
         </div>
       </div>
+
+      {/* Birthday Modal */}
+      {showBirthdayModal && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h3>Complete Your Profile</h3>
+              <p>Please provide your date of birth to finish setting up your account</p>
+            </div>
+            
+            <div className="modal-body">
+              <div className="input-group">
+                <label htmlFor="modalBirthday">Date of Birth</label>
+                <div className="input-wrapper">
+                  <input
+                    type="date"
+                    id="modalBirthday"
+                    value={birthdayData}
+                    onChange={(e) => {
+                      setBirthdayData(e.target.value);
+                      if (errors.birthday) {
+                        setErrors(prev => ({
+                          ...prev,
+                          birthday: ''
+                        }));
+                      }
+                    }}
+                    className={`auth-input ${errors.birthday ? 'error' : ''}`}
+                    disabled={isLoading}
+                    max={new Date().toISOString().split('T')[0]}
+                  />
+                  <span className="input-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                      <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M16 1V5M8 1V5M3 9H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+                {errors.birthday && <span className="error-message">{errors.birthday}</span>}
+              </div>
+            </div>
+            
+            <div className="modal-footer">
+              <button 
+                type="button"
+                className={`auth-btn primary ${isLoading ? 'loading' : ''}`}
+                onClick={handleBirthdaySubmit}
+                disabled={isLoading}
+              >
+                {isLoading ? (
+                  <>
+                    <div className="loading-spinner"></div>
+                    Updating...
+                  </>
+                ) : (
+                  'Continue'
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="auth-background">
         <div className="bg-pattern"></div>

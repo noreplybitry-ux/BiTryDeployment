@@ -1,54 +1,29 @@
-// src/pages/TradePage.jsx
+// src/pages/Trade.js
 import React, { useEffect, useRef, useState } from "react";
 import "../css/Trade.css";
 import TechnicalAnalysis from "./TechnicalAnalysis";
+import { usePriceData } from "../hooks/usePriceData";
+import { usePortfolio } from "../hooks/usePortfolio";
+import { useAuth } from "../contexts/AuthContext";
 
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
 const INTERVAL_OPTIONS = ["1m", "5m", "15m", "1h", "4h", "1d"];
 
-// Enhanced cryptocurrency icon mapping with real crypto logos (fallback emoji)
 const getCryptoIcon = (symbol) => {
   const baseSymbol = symbol.replace("USDT", "").toLowerCase();
 
-  // Return image URL for crypto logos (fallback source if CoinGecko image is not available)
   const getCryptoImageUrl = (s) => {
     return `https://cryptoicons.org/api/icon/${s}/50`;
   };
 
   const iconMap = {
-    btc: "₿",
-    eth: "Ξ",
-    bnb: "💛",
-    ada: "₳",
-    xrp: "✕",
-    dot: "●",
-    uni: "🦄",
-    link: "🔗",
-    ltc: "Ł",
-    bch: "₿",
-    xlm: "🚀",
-    vet: "⚡",
-    theta: "θ",
-    fil: "📁",
-    trx: "🔺",
-    etc: "💚",
-    eos: "📱",
-    atom: "⚛️",
-    neo: "●",
-    mkr: "🏛️",
-    aave: "👻",
-    comp: "🏛️",
-    sushi: "🍣",
-    yfi: "💙",
-    snx: "⚡",
-    "1inch": "1️⃣",
-    cake: "🎂",
-    sol: "☀️",
-    matic: "🔷",
-    avax: "🔺",
-    doge: "🐕",
-    shib: "🐕",
+    btc: "₿", eth: "Ξ", bnb: "💛", ada: "₳", xrp: "✕", dot: "●", uni: "🦄",
+    link: "🔗", ltc: "Ł", bch: "₿", xlm: "🚀", vet: "⚡", theta: "θ",
+    fil: "📁", trx: "🔺", etc: "💚", eos: "📱", atom: "⚛️", neo: "●",
+    mkr: "🏛️", aave: "👻", comp: "🏛️", sushi: "🍣", yfi: "💙", snx: "⚡",
+    "1inch": "1️⃣", cake: "🎂", sol: "☀️", matic: "🔷", avax: "🔺",
+    doge: "🐕", shib: "🐕",
   };
 
   return {
@@ -62,19 +37,16 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
   const widgetRef = useRef();
   const [isLoading, setIsLoading] = useState(true);
   const [scriptLoaded, setScriptLoaded] = useState(false);
+  const [error, setError] = useState(null);
   const readyTimeoutRef = useRef(null);
+  const initTimeoutRef = useRef(null);
 
-  // Map our intervals to TradingView intervals
   const intervalMap = {
-    "1m": "1",
-    "5m": "5",
-    "15m": "15",
-    "1h": "60",
-    "4h": "240",
-    "1d": "1D",
+    "1m": "1", "5m": "5", "15m": "15", "1h": "60", "4h": "240", "1d": "1D",
   };
 
-  // Load TradingView script on component mount
+  const tradingviewSymbol = isFutures ? `BINANCE:${symbol}.P` : `BINANCE:${symbol}`;
+
   useEffect(() => {
     if (window.TradingView) {
       setScriptLoaded(true);
@@ -83,7 +55,6 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
 
     const existingScript = document.querySelector('script[src*="tradingview"]');
     if (existingScript) {
-      // Poll until TradingView is available
       const checkTradingView = () => {
         if (window.TradingView) {
           setScriptLoaded(true);
@@ -95,192 +66,185 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
       return;
     }
 
-    // Load the script
     const script = document.createElement("script");
     script.src = "https://s3.tradingview.com/tv.js";
     script.async = true;
-    script.onload = () => {
-      setScriptLoaded(true);
-    };
+    script.onload = () => setScriptLoaded(true);
     script.onerror = () => {
-      // keep UI simple: stop loading overlay if script fails
       setIsLoading(false);
+      setError("Failed to load chart");
       console.error("Failed to load TradingView script");
     };
 
     document.head.appendChild(script);
 
     return () => {
-      // don't remove if it wasn't the one we created (avoid breaking other parts)
       if (script && script.parentNode) script.parentNode.removeChild(script);
     };
   }, []);
 
-  // Create or update the chart when symbol, interval, or scriptLoaded changes
   useEffect(() => {
-    if (!scriptLoaded || !containerRef.current) return;
-    if (!symbol) {
-      // no symbol — stop loader
-      setIsLoading(false);
-      return;
+    if (!scriptLoaded || !containerRef.current || !symbol) return;
+
+    if (readyTimeoutRef.current) {
+      clearTimeout(readyTimeoutRef.current);
+      readyTimeoutRef.current = null;
+    }
+    if (initTimeoutRef.current) {
+      clearTimeout(initTimeoutRef.current);
+      initTimeoutRef.current = null;
     }
 
-    // Cleanup previous widget
     if (widgetRef.current && typeof widgetRef.current.remove === "function") {
       try {
         widgetRef.current.remove();
       } catch (e) {
-        // ignore
+        console.error("Error removing previous widget:", e);
       }
       widgetRef.current = null;
     }
 
     setIsLoading(true);
+    setError(null);
 
-    // Start timeout to avoid infinite loading overlay (but do NOT show the textual error)
-    if (readyTimeoutRef.current) {
-      clearTimeout(readyTimeoutRef.current);
-    }
-    readyTimeoutRef.current = setTimeout(() => {
-      // hide loader if it takes too long — but don't show the error panel
-      setIsLoading(false);
-    }, 1000); // 1s timeout
-
-    try {
-      const containerId = `tradingview-${Date.now()}-${Math.random()
-        .toString(36)
-        .substr(2, 9)}`;
-      containerRef.current.id = containerId;
-
-      // Build proper TradingView symbol depending on market type
-      const tradingviewSymbol = isFutures ? `BINANCE:${symbol}.P` : `BINANCE:${symbol}`;
-
-      const widgetConfig = {
-        symbol: tradingviewSymbol,
-        interval: intervalMap[interval] || "60",
-        container_id: containerId,
-        autosize: true,
-        timezone: "Etc/UTC",
-        theme: "dark",
-        style: "1",
-        locale: "en",
-        toolbar_bg: "#1e222d",
-        enable_publishing: false,
-        backgroundColor: "#1e222d",
-        gridColor: "#2a2e39",
-        hide_top_toolbar: false,
-        hide_legend: false,
-        hide_side_toolbar: false,
-        allow_symbol_change: true,
-        save_image: true,
-        height: 600,
-        width: "100%",
-
-        enabled_features: [
-          "left_toolbar",
-          "header_widget",
-          "timeframes_toolbar",
-          "header_chart_type",
-          "header_resolutions",
-          "header_screenshot",
-          "header_settings",
-          "header_indicators",
-          "header_compare",
-          "header_undo_redo",
-          "header_fullscreen_button",
-          "header_symbol_search",
-        ],
-
-        disabled_features: ["popup_hints"],
-
-        overrides: {
-          "paneProperties.background": "#1e222d",
-          "paneProperties.vertGridProperties.color": "#2a2e39",
-          "paneProperties.horzGridProperties.color": "#2a2e39",
-          "scalesProperties.textColor": "#b7bdc6",
-        },
-
-        // Callback when chart is ready
-        onChartReady: function () {
-          // Clear timeout
-          if (readyTimeoutRef.current) {
-            clearTimeout(readyTimeoutRef.current);
-            readyTimeoutRef.current = null;
-          }
-          setIsLoading(false);
-        },
-
-        // Fallback when widget can't load — stop loader but don't replace with error panel
-        onLoadError: (err) => {
-          if (readyTimeoutRef.current) {
-            clearTimeout(readyTimeoutRef.current);
-            readyTimeoutRef.current = null;
-          }
-          console.error("TradingView onLoadError:", err);
-          setIsLoading(false);
-        },
-      };
+    initTimeoutRef.current = setTimeout(() => {
+      if (!containerRef.current) return;
 
       try {
-        // Create the TradingView widget
-        widgetRef.current = new window.TradingView.widget(widgetConfig);
-      } catch (err) {
-        // Try falling back: if was futures attempt spot symbol
-        console.error("Error creating widget:", err);
-        if (tradingviewSymbol.endsWith(".P")) {
-          try {
-            widgetConfig.symbol = `BINANCE:${symbol}`;
-            widgetRef.current = new window.TradingView.widget(widgetConfig);
-          } catch (err2) {
-            console.error("Error creating widget with spot symbol:", err2);
+        const containerId = `tradingview-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+        containerRef.current.id = containerId;
+
+        containerRef.current.style.width = '100%';
+        containerRef.current.style.height = '100%';
+        containerRef.current.style.position = 'relative';
+
+        readyTimeoutRef.current = setTimeout(() => {
+          setIsLoading(false);
+          setError(null);
+        }, 5000);
+
+        const widgetConfig = {
+          symbol: tradingviewSymbol,
+          interval: intervalMap[interval] || "60",
+          container_id: containerId,
+          autosize: true,
+          timezone: "Etc/UTC",
+          theme: "dark",
+          style: "1",
+          locale: "en",
+          toolbar_bg: "#1e222d",
+          enable_publishing: false,
+          backgroundColor: "#1e222d",
+          gridColor: "#2a2e39",
+          hide_top_toolbar: false,
+          hide_legend: false,
+          hide_side_toolbar: false,
+          allow_symbol_change: true,
+          save_image: false,
+          studies_overrides: {},
+          width: "100%",
+          height: "100%",
+
+          enabled_features: [
+            "left_toolbar", "header_widget", "timeframes_toolbar",
+            "header_chart_type", "header_resolutions", "header_screenshot",
+            "header_settings", "header_indicators", "header_compare",
+            "header_undo_redo", "header_fullscreen_button", "header_symbol_search",
+          ],
+
+          disabled_features: [
+            "popup_hints", "header_saveload", "study_templates",
+            "volume_force_overlay", "create_volume_indicator_by_default"
+          ],
+
+          overrides: {
+            "paneProperties.background": "#1e222d",
+            "paneProperties.vertGridProperties.color": "#2a2e39",
+            "paneProperties.horzGridProperties.color": "#2a2e39",
+            "scalesProperties.textColor": "#b7bdc6",
+            "paneProperties.crossHairProperties.color": "#b7bdc6",
+          },
+
+          onChartReady: function () {
             if (readyTimeoutRef.current) {
               clearTimeout(readyTimeoutRef.current);
               readyTimeoutRef.current = null;
             }
             setIsLoading(false);
+            setError(null);
+            console.log('TradingView chart ready');
+          },
+
+          onLoadError: (err) => {
+            console.error("TradingView onLoadError:", err);
+            if (readyTimeoutRef.current) {
+              clearTimeout(readyTimeoutRef.current);
+              readyTimeoutRef.current = null;
+            }
+            setIsLoading(false);
+            tryFallbackSymbol();
+          },
+        };
+
+        const tryFallbackSymbol = () => {
+          if (tradingviewSymbol.endsWith(".P")) {
+            try {
+              widgetConfig.symbol = `BINANCE:${symbol}`;
+              widgetRef.current = new window.TradingView.widget(widgetConfig);
+            } catch (err2) {
+              console.error("Fallback symbol also failed:", err2);
+              setError("Chart unavailable");
+            }
+          } else {
+            setError("Chart unavailable");
           }
-        } else {
-          if (readyTimeoutRef.current) {
-            clearTimeout(readyTimeoutRef.current);
-            readyTimeoutRef.current = null;
-          }
-          setIsLoading(false);
+        };
+
+        try {
+          widgetRef.current = new window.TradingView.widget(widgetConfig);
+        } catch (err) {
+          console.error("Error creating widget:", err);
+          tryFallbackSymbol();
         }
+
+      } catch (e) {
+        console.error("Error in widget initialization:", e);
+        setIsLoading(false);
+        setError("Chart initialization failed");
       }
-    } catch (e) {
-      console.error("Error creating TradingView widget outer:", e);
-      if (readyTimeoutRef.current) {
-        clearTimeout(readyTimeoutRef.current);
-        readyTimeoutRef.current = null;
-      }
-      setIsLoading(false);
-    }
+    }, 100);
 
     return () => {
       if (readyTimeoutRef.current) {
         clearTimeout(readyTimeoutRef.current);
         readyTimeoutRef.current = null;
       }
+      if (initTimeoutRef.current) {
+        clearTimeout(initTimeoutRef.current);
+        initTimeoutRef.current = null;
+      }
       if (widgetRef.current && typeof widgetRef.current.remove === "function") {
         try {
           widgetRef.current.remove();
         } catch (e) {
-          // ignore
+          console.error("Error removing widget on cleanup:", e);
         }
         widgetRef.current = null;
       }
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [symbol, interval, isFutures, scriptLoaded]);
+  }, [symbol, interval, isFutures, scriptLoaded, tradingviewSymbol]);
 
   return (
     <div className="chart-wrapper">
       <div
         ref={containerRef}
+        className="tradingview-container"
         style={{
-          height: "100%",
           width: "100%",
+          height: "100%",
+          minHeight: "600px",
           backgroundColor: "#1e222d",
+          position: "relative",
         }}
       />
 
@@ -288,6 +252,27 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
         <div className="chart-loading-overlay">
           <div className="loading-spinner"></div>
           <span>Loading chart...</span>
+        </div>
+      )}
+
+      {error && (
+        <div className="chart-error-overlay">
+          <div className="error-icon">⚠️</div>
+          <span>{error}</span>
+          <button onClick={() => {
+            setError(null);
+            setIsLoading(true);
+            if (widgetRef.current) {
+              try {
+                widgetRef.current.remove();
+              } catch (e) {
+                console.error("Error removing widget on retry:", e);
+              }
+              widgetRef.current = null;
+            }
+          }}>
+            Retry
+          </button>
         </div>
       )}
     </div>
@@ -298,7 +283,6 @@ const CryptoIcon = ({ symbol, size = "small", imageUrl = null }) => {
   const [imageError, setImageError] = useState(false);
   const fallback = getCryptoIcon(symbol);
 
-  // Prefer passed-in imageUrl (from CoinGecko) -> fallback cryptoicons.org -> emoji fallback
   const resolvedImage = imageUrl || fallback.imageUrl;
 
   if (imageError || !resolvedImage) {
@@ -317,79 +301,261 @@ const CryptoIcon = ({ symbol, size = "small", imageUrl = null }) => {
   );
 };
 
+const PositionRow = ({ position, onClose, currentPrices }) => {
+  const [isClosing, setIsClosing] = useState(false);
+  const currentPrice = currentPrices[position.symbol] || position.current_price;
+  const pnl = position.side === 'LONG' 
+    ? (currentPrice - position.entry_price) * position.quantity
+    : (position.entry_price - currentPrice) * position.quantity;
+  const pnlPercent = (pnl / position.margin) * 100;
+  const isProfit = pnl >= 0;
+
+  const handleClose = async () => {
+    setIsClosing(true);
+    try {
+      await onClose(position.id, currentPrice);
+    } catch (error) {
+      console.error('Error closing position:', error);
+      alert('Failed to close position: ' + error.message);
+    } finally {
+      setIsClosing(false);
+    }
+  };
+
+  const isNearLiquidation = position.liquidation_price && (
+    (position.side === 'LONG' && currentPrice <= position.liquidation_price * 1.1) ||
+    (position.side === 'SHORT' && currentPrice >= position.liquidation_price * 0.9)
+  );
+
+  return (
+    <tr className={`position-row ${isNearLiquidation ? 'near-liquidation' : ''}`}>
+      <td>
+        <div className="position-symbol">
+          <CryptoIcon symbol={position.symbol} size="small" />
+          <div className="symbol-info">
+            <div className="symbol-name">{position.symbol.replace('USDT', '')}/USDT</div>
+            <div className={`position-side ${position.side.toLowerCase()}`}>
+              {position.side} {position.leverage}x
+            </div>
+            {isNearLiquidation && <div className="liquidation-warning">⚠️ Near Liquidation</div>}
+          </div>
+        </div>
+      </td>
+      <td className="text-right">{Number(position.quantity).toFixed(4)}</td>
+      <td className="text-right">${Number(position.entry_price).toFixed(4)}</td>
+      <td className="text-right">${Number(currentPrice).toFixed(4)}</td>
+      <td className={`text-right ${isProfit ? 'positive' : 'negative'}`}>
+        <div>${pnl.toFixed(2)}</div>
+        <div className="pnl-percent">{isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%</div>
+      </td>
+      <td className="text-center">
+        <button 
+          className="close-btn" 
+          onClick={handleClose}
+          disabled={isClosing}
+          title={`Close ${position.side} position`}
+        >
+          {isClosing ? 'Closing...' : 'Close'}
+        </button>
+      </td>
+    </tr>
+  );
+};
+
+// Enhanced Spot Holding Row Component
+const SpotHoldingRow = ({ holding }) => {
+  const currentValue = holding.current_value || (holding.quantity * holding.average_price);
+  const unrealizedPnl = holding.unrealized_pnl || 0;
+  const pnlPercent = holding.average_price > 0 
+    ? ((holding.current_price - holding.average_price) / holding.average_price) * 100 
+    : 0;
+  const isProfit = unrealizedPnl >= 0;
+
+  return (
+    <tr className="holding-row">
+      <td>
+        <div className="position-symbol">
+          <CryptoIcon symbol={`${holding.symbol}USDT`} size="small" />
+          <div className="symbol-info">
+            <div className="symbol-name">{holding.symbol}</div>
+            <div className="holding-type">Spot</div>
+          </div>
+        </div>
+      </td>
+      <td className="text-right">{Number(holding.quantity).toFixed(6)}</td>
+      <td className="text-right">${Number(holding.average_price).toFixed(4)}</td>
+      <td className="text-right">${Number(holding.current_price || holding.average_price).toFixed(4)}</td>
+      <td className="text-right">${currentValue.toFixed(2)}</td>
+      <td className={`text-right ${isProfit ? 'positive' : 'negative'}`}>
+        <div>${unrealizedPnl.toFixed(2)}</div>
+        <div className="pnl-percent">{isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%</div>
+      </td>
+    </tr>
+  );
+};
+
+const OrderHistoryRow = ({ order }) => {
+  const isProfit = order.pnl >= 0;
+  const statusColor = {
+    'FILLED': 'success',
+    'PENDING': 'warning',
+    'CANCELLED': 'error',
+    'REJECTED': 'error'
+  }[order.status] || 'neutral';
+
+  return (
+    <tr className="order-history-row">
+      <td>{new Date(order.created_at).toLocaleString()}</td>
+      <td>
+        <div className="position-symbol">
+          <CryptoIcon symbol={order.symbol} size="small" />
+          <span>{order.symbol.replace('USDT', '')}/USDT</span>
+        </div>
+      </td>
+      <td>
+        <span className={`side-badge ${order.side.toLowerCase()}`}>
+          {order.side}
+        </span>
+      </td>
+      <td>{order.type}</td>
+      <td className="text-right">{Number(order.quantity).toFixed(6)}</td>
+      <td className="text-right">${Number(order.price || 0).toFixed(4)}</td>
+      <td>
+        <span className={`status-badge ${statusColor}`}>
+          {order.status}
+        </span>
+      </td>
+      <td>{order.market_type}</td>
+      {order.pnl !== null && order.pnl !== undefined && (
+        <td className={`text-right ${isProfit ? 'positive' : 'negative'}`}>
+          {isProfit ? '+' : ''}${Number(order.pnl).toFixed(2)}
+        </td>
+      )}
+    </tr>
+  );
+};
+
 export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInterval = DEFAULT_INTERVAL }) {
+  const { user } = useAuth();
   const [symbol, setSymbol] = useState(initialSymbol);
   const [interval, setInterval] = useState(initialInterval);
   const [cryptoList, setCryptoList] = useState([]);
   const [filteredCrypto, setFilteredCrypto] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [loading, setLoading] = useState(true);
-  const [lastPrice, setLastPrice] = useState("--");
-  const [priceChange, setPriceChange] = useState({ value: 0, percent: 0 });
   const [selectedPrice, setSelectedPrice] = useState("");
   const [quantity, setQuantity] = useState("");
   const [leverage, setLeverage] = useState(1);
   const [isFutures, setIsFutures] = useState(true);
   const [orderType, setOrderType] = useState("limit");
-  const [balance, setBalance] = useState(100000); // Virtual PHP balance
-  const wsRef = useRef(null);
+  const [isSubmittingOrder, setIsSubmittingOrder] = useState(false);
+  const [orderError, setOrderError] = useState("");
+  const [orderSuccess, setOrderSuccess] = useState("");
+  const [activeTab, setActiveTab] = useState("positions");
 
-  // Refs to coordinate single auto-fill behavior
-  const autoFilledSymbolRef = useRef(null); // tracks which symbol has been auto-filled most recently
-  const userEditedRef = useRef(false); // whether user manually edited the price input
+  const {
+    balance,
+    positions,
+    spotHoldings,
+    orderHistory,
+    totalPnL,
+    totalPortfolioValue,
+    submitOrder,
+    closePosition,
+    closeAllPositions,
+    refreshPortfolio,
+    usedMargin,
+    freeMargin,
+    loading: portfolioLoading,
+    marginUtilization,
+    portfolioMetrics
+  } = usePortfolio();
 
-  // Binance supported symbol sets
+  const [mockPrice, setMockPrice] = useState(45000);
+  const [mockPriceChange, setMockPriceChange] = useState({ value: '+100.00', percent: '+0.22' });
+  const [isConnected] = useState(true);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setMockPrice(prev => {
+        const change = (Math.random() - 0.5) * 100;
+        const newPrice = prev + change;
+        setMockPriceChange({
+          value: change.toFixed(2),
+          percent: ((change / prev) * 100).toFixed(2)
+        });
+        return newPrice;
+      });
+    }, 3000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const lastPrice = mockPrice.toFixed(2);
+  const priceChange = mockPriceChange;
+  const rawLastPrice = mockPrice;
+
+  const autoFilledSymbolRef = useRef(null);
+  const userEditedRef = useRef(false);
   const supportedSpotSymbolsRef = useRef(new Set());
   const supportedFuturesSymbolsRef = useRef(new Set());
-
   const [cryptoPage, setCryptoPage] = useState(1);
   const [hasMoreCryptos, setHasMoreCryptos] = useState(true);
 
-  // Load Binance exchange info once (spot + futures)
+  useEffect(() => {
+    if (orderError) {
+      const timer = setTimeout(() => setOrderError(""), 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [orderError]);
+
+  useEffect(() => {
+    if (orderSuccess) {
+      const timer = setTimeout(() => setOrderSuccess(""), 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [orderSuccess]);
+
+  // Load Binance exchange info
   useEffect(() => {
     const fetchBinanceInfo = async () => {
       try {
-        // Spot
-        const spotResp = await fetch("https://api.binance.com/api/v3/exchangeInfo");
-        if (!spotResp.ok) throw new Error("Failed to fetch spot exchange info");
-        const spotJson = await spotResp.json();
-        const spotSymbols = spotJson.symbols || [];
-        const spotSet = new Set(
-          spotSymbols
-            .filter((s) => s.status === "TRADING" && s.quoteAsset === "USDT")
-            .map((s) => s.symbol.toUpperCase())
-        );
-        supportedSpotSymbolsRef.current = spotSet;
+        const [spotResp, futuresResp] = await Promise.allSettled([
+          fetch("https://api.binance.com/api/v3/exchangeInfo"),
+          fetch("https://fapi.binance.com/fapi/v1/exchangeInfo")
+        ]);
 
-        // Futures (USDT-M futures)
-        try {
-          const futuresResp = await fetch("https://fapi.binance.com/fapi/v1/exchangeInfo");
-          if (futuresResp.ok) {
-            const futuresJson = await futuresResp.json();
-            const futSymbols = futuresJson.symbols || [];
-            const futSet = new Set(
-              futSymbols
-                .filter((s) => s.status === "TRADING" && s.quoteAsset === "USDT")
-                .map((s) => s.symbol.toUpperCase())
-            );
-            supportedFuturesSymbolsRef.current = futSet;
-          } else {
-            // If futures fetch fails, fallback to spot set
-            supportedFuturesSymbolsRef.current = spotSet;
-          }
-        } catch (e) {
-          supportedFuturesSymbolsRef.current = spotSet;
+        if (spotResp.status === 'fulfilled' && spotResp.value.ok) {
+          const spotJson = await spotResp.value.json();
+          const spotSymbols = spotJson.symbols || [];
+          const spotSet = new Set(
+            spotSymbols
+              .filter((s) => s.status === "TRADING" && s.quoteAsset === "USDT")
+              .map((s) => s.symbol.toUpperCase())
+          );
+          supportedSpotSymbolsRef.current = spotSet;
+        }
+
+        if (futuresResp.status === 'fulfilled' && futuresResp.value.ok) {
+          const futuresJson = await futuresResp.value.json();
+          const futSymbols = futuresJson.symbols || [];
+          const futSet = new Set(
+            futSymbols
+              .filter((s) => s.status === "TRADING" && s.quoteAsset === "USDT")
+              .map((s) => s.symbol.toUpperCase())
+          );
+          supportedFuturesSymbolsRef.current = futSet;
+        } else {
+          supportedFuturesSymbolsRef.current = supportedSpotSymbolsRef.current;
         }
       } catch (error) {
         console.error("Error fetching Binance exchangeInfo:", error);
-        // Keep empty sets — fallback list will be applied later
       }
     };
 
     fetchBinanceInfo();
   }, []);
 
-  // Fetch top cryptocurrencies using CoinGecko but only keep those supported by Binance (per market)
+  // Fetch cryptocurrencies from CoinGecko
   useEffect(() => {
     let isMounted = true;
 
@@ -397,7 +563,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       try {
         setLoading(true);
         const page = cryptoPage;
-        // fetch 250 per page (CoinGecko limit)
         const response = await fetch(
           `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=${page}&sparkline=false&price_change_percentage=24h`
         );
@@ -412,23 +577,19 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           return;
         }
 
-        // Determine which Binance set to apply
-        const supportedSet = isFutures ? supportedFuturesSymbolsRef.current : supportedSpotSymbolsRef.current;
+        const supportedSet = isFutures 
+          ? supportedFuturesSymbolsRef.current 
+          : supportedSpotSymbolsRef.current;
 
-        // If we have a non-empty supported set, filter CoinGecko results by symbols present in Binance
         const binanceSymbols = data
-          .map((coin) => {
-            return {
-              coin,
-              candidate: `${coin.symbol.toUpperCase()}USDT`,
-            };
-          })
+          .map((coin) => ({
+            coin,
+            candidate: `${coin.symbol.toUpperCase()}USDT`,
+          }))
           .filter((c) => {
-            // If supportedSet is non-empty, only include those that exist on Binance
             if (supportedSet && supportedSet.size > 0) {
               return supportedSet.has(c.candidate);
             }
-            // If supportedSet empty (fetch failed), be permissive and include coin, we'll later validate before creating widget/ws
             return true;
           })
           .map((c) => ({
@@ -437,10 +598,9 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
             priceChange24h: c.coin.price_change_percentage_24h || 0,
             symbol: c.coin.symbol.toUpperCase(),
             marketCap: c.coin.market_cap || 0,
-            image: c.coin.image || null, // <-- include image url from CoinGecko
+            image: c.coin.image || null,
           }));
 
-        // Ensure uniqueness
         const uniqueSymbols = binanceSymbols.reduce((acc, current) => {
           const x = acc.find((item) => item.value === current.value);
           if (!x) return acc.concat([current]);
@@ -454,7 +614,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         } else {
           setCryptoList((prev) => {
             const combined = [...prev, ...uniqueSymbols];
-            // dedupe
             const deduped = combined.reduce((acc, cur) => {
               if (!acc.find((x) => x.value === cur.value)) acc.push(cur);
               return acc;
@@ -478,63 +637,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     return () => {
       isMounted = false;
     };
-    // only re-run when page or market type changes
   }, [cryptoPage, isFutures]);
 
   // Fallback cryptocurrency list
   const getFallbackCryptos = () => {
     const popularCryptos = [
-      "BTC",
-      "ETH",
-      "BNB",
-      "ADA",
-      "XRP",
-      "SOL",
-      "DOT",
-      "DOGE",
-      "SHIB",
-      "MATIC",
-      "AVAX",
-      "LTC",
-      "LINK",
-      "ATOM",
-      "XLM",
-      "ALGO",
-      "VET",
-      "FIL",
-      "TRX",
-      "ETC",
-      "XMR",
-      "EOS",
-      "AAVE",
-      "XTZ",
-      "THETA",
-      "FTM",
-      "NEAR",
-      "CAKE",
-      "GRT",
-      "CHZ",
-      "ENJ",
-      "HBAR",
-      "SAND",
-      "MANA",
-      "CRV",
-      "MKR",
-      "COMP",
-      "KSM",
-      "BAT",
-      "ZEC",
-      "DASH",
-      "WAVES",
-      "SNX",
-      "YFI",
-      "UNI",
-      "REN",
-      "CELO",
-      "ONE",
-      "IOTA",
-      "OMG",
-      "ANKR",
+      "BTC", "ETH", "BNB", "ADA", "XRP", "SOL", "DOT", "DOGE", "SHIB", "MATIC",
+      "AVAX", "LTC", "LINK", "ATOM", "XLM", "ALGO", "VET", "FIL", "TRX", "ETC"
     ];
 
     return popularCryptos.map((sym) => ({
@@ -547,7 +656,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }));
   };
 
-  // When search term or cryptoList changes, filter
+  // Filter cryptocurrencies based on search
   useEffect(() => {
     if (!searchTerm) {
       setFilteredCrypto(cryptoList);
@@ -563,207 +672,203 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }
   }, [searchTerm, cryptoList]);
 
-  // Ensure selected symbol is always valid for selected market. If current symbol not supported, pick first available
   useEffect(() => {
     if (!cryptoList || cryptoList.length === 0) return;
-    const supportedSet = isFutures ? supportedFuturesSymbolsRef.current : supportedSpotSymbolsRef.current;
+    const supportedSet = isFutures 
+      ? supportedFuturesSymbolsRef.current 
+      : supportedSpotSymbolsRef.current;
 
-    // If supportedSet has entries, ensure symbol exists in that set
     if (supportedSet && supportedSet.size > 0) {
       if (!supportedSet.has(symbol)) {
-        // try to find first cryptoList value that exists in supportedSet
         const firstValid = cryptoList.find((c) => supportedSet.has(c.value));
         if (firstValid) {
           setSymbol(firstValid.value);
-        } else {
-          // Keep current symbol — but TradingView might fallback
         }
       }
     } else {
-      // If we don't have a supportedSet (fetch fail), ensure symbol exists in cryptoList, else set first
       if (!cryptoList.find((c) => c.value === symbol)) {
         setSymbol(cryptoList[0].value);
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [cryptoList, isFutures]);
+  }, [cryptoList, isFutures, symbol]);
 
-  // When symbol changes, reset auto-fill marker and allow auto-filling once for this pick
   useEffect(() => {
-    // Clear user edit flag so auto-fill can occur
     userEditedRef.current = false;
-    // Reset the selectedPrice so it will be filled once by WS (or quickly by other logic)
     setSelectedPrice("");
-    // Reset marker so that auto-fill for this symbol can happen again
     autoFilledSymbolRef.current = null;
+    setOrderError("");
+    setOrderSuccess("");
+    
+    if (quantity && (orderType === 'market' ? rawLastPrice : selectedPrice)) {
+
+    }
   }, [symbol]);
 
-  // Load more cryptocurrencies (pagination)
+  useEffect(() => {
+    if (lastPrice !== '--' && 
+        autoFilledSymbolRef.current !== symbol && 
+        !userEditedRef.current &&
+        orderType === 'limit') {
+      setSelectedPrice(lastPrice);
+      autoFilledSymbolRef.current = symbol;
+    }
+  }, [lastPrice, symbol, orderType]);
+
   const loadMoreCryptos = () => {
     if (hasMoreCryptos && !loading) {
       setCryptoPage((prev) => prev + 1);
     }
   };
 
-  // WebSocket for price updates (useRef stored)
-  useEffect(() => {
-    if (!symbol) return;
-    // Close previous
-    if (wsRef.current) {
-      try {
-        wsRef.current.close();
-      } catch (e) {}
-      wsRef.current = null;
-    }
-
-    const symbolLower = symbol.toLowerCase();
-    // Choose stream endpoint based on futures/spot
-    const wsUrl = isFutures
-      ? `wss://fstream.binance.com/ws/${symbolLower}@ticker`
-      : `wss://stream.binance.com:9443/ws/${symbolLower}@ticker`;
-
-    let ws;
-    try {
-      ws = new WebSocket(wsUrl);
-      wsRef.current = ws;
-    } catch (err) {
-      console.error("WebSocket create error:", err);
-      wsRef.current = null;
-      return;
-    }
-
-    ws.onopen = () => {
-      console.log(`WebSocket connected for ${symbol} (${isFutures ? "futures" : "spot"})`);
-    };
-
-    ws.onmessage = (event) => {
-      try {
-        const data = JSON.parse(event.data);
-        // Binance ticker fields: c (last), P (%) change, p (price change)
-        const currentPrice = parseFloat(data.c);
-        const changePercent = parseFloat(data.P);
-        const changeValue = parseFloat(data.p);
-
-        const formatPrice = (price) => {
-          if (Number.isNaN(price) || price === null) return "--";
-          if (price >= 1) return price.toFixed(2);
-          if (price >= 0.01) return price.toFixed(4);
-          return price.toFixed(8);
-        };
-
-        const formatChange = (change) => {
-          if (Number.isNaN(change) || change === null) return "0.00";
-          if (Math.abs(change) >= 1) return change.toFixed(2);
-          if (Math.abs(change) >= 0.01) return change.toFixed(4);
-          return change.toFixed(8);
-        };
-
-        const formattedPrice = formatPrice(currentPrice);
-
-        setLastPrice(formattedPrice);
-        setPriceChange({
-          value: formatChange(changeValue),
-          percent: changePercent ? changePercent.toFixed(2) : "0.00",
-        });
-
-        // Auto-fill limit price only once per pick
-        if (autoFilledSymbolRef.current !== symbol && !userEditedRef.current) {
-          setSelectedPrice(formattedPrice);
-          autoFilledSymbolRef.current = symbol;
-        }
-      } catch (error) {
-        console.error("Error processing WebSocket message:", error);
-      }
-    };
-
-    ws.onerror = (err) => {
-      console.error(`WebSocket error for ${symbol}:`, err);
-    };
-
-    ws.onclose = () => {
-      console.log(`WebSocket closed for ${symbol}`);
-    };
-
-    return () => {
-      if (wsRef.current) {
-        try {
-          wsRef.current.close();
-        } catch (e) {}
-        wsRef.current = null;
-      }
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [symbol, isFutures]);
 
   const calculatePositionValue = () => {
-    if (!selectedPrice || !quantity) return 0;
-    const val = parseFloat(selectedPrice) * parseFloat(quantity) * leverage;
-    if (Number.isNaN(val)) return 0;
-    return val.toFixed(2);
+    const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
+    const qty = parseFloat(quantity);
+    if (!price || !qty) return 0;
+    const val = price * qty;
+    if (isFutures) return val * leverage;
+    return val;
   };
 
   const calculateFees = () => {
     const positionValue = parseFloat(calculatePositionValue() || 0);
     const feeRate = isFutures ? 0.0004 : 0.001;
     const fees = positionValue * feeRate;
-    if (Number.isNaN(fees)) return "0.00";
-    return fees.toFixed(2);
+    return isNaN(fees) ? "0.00" : fees.toFixed(4);
   };
 
-  function submitOrder(side) {
-    const positionValue = calculatePositionValue();
-    const fees = calculateFees();
+  const calculateRequiredMargin = () => {
+    const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
+    const qty = parseFloat(quantity);
+    if (!price || !qty || !isFutures) return 0;
+    const positionValue = price * qty;
+    if (isNaN(positionValue)) return 0;
+    return (positionValue / leverage).toFixed(2);
+  };
 
-    if (parseFloat(positionValue) > balance) {
-      alert("Insufficient balance!");
-      return;
+  // Order validation
+  const validateOrder = (side) => {
+    const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
+    const qty = parseFloat(quantity);
+
+    if (!user) {
+      throw new Error('Please login to trade');
     }
 
-    const order = {
-      symbol,
-      side,
-      type: orderType,
-      price: orderType === "market" ? lastPrice : selectedPrice,
-      quantity: parseFloat(quantity),
-      leverage: isFutures ? leverage : 1,
-      positionValue,
-      fees,
-      timestamp: Date.now(),
-    };
+    if (!qty || qty <= 0) {
+      throw new Error('Please enter a valid quantity');
+    }
 
-    console.log("DEMO ORDER:", order);
-    alert(
-      `Demo order submitted!\n${side} ${quantity} ${symbol.replace("USDT", "")}\nPrice: $${order.price}\nValue: ₱${positionValue}\nFees: ₱${fees}\n${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`
-    );
+    if (orderType === 'limit' && (!price || price <= 0)) {
+      throw new Error('Please enter a valid price');
+    }
+
+    if (isFutures) {
+      const requiredMargin = parseFloat(calculateRequiredMargin());
+      const fees = parseFloat(calculateFees());
+      const totalRequired = requiredMargin + fees;
+
+      if (totalRequired > freeMargin) {
+        throw new Error(`Insufficient margin. Required: ${totalRequired.toFixed(2)}, Available: ${freeMargin.toFixed(2)}`);
+      }
+
+      if (leverage < 1 || leverage > 100) {
+        throw new Error('Leverage must be between 1x and 100x');
+      }
+    } else {
+      if (side === 'BUY') {
+        const totalCost = qty * price + parseFloat(calculateFees());
+        if (totalCost > balance) {
+          throw new Error(`Insufficient balance. Required: ${totalCost.toFixed(2)}, Available: ${balance.toFixed(2)}`);
+        }
+      } else {
+        const baseAsset = symbol.replace('USDT', '');
+        const holding = spotHoldings.find(h => h.symbol === baseAsset);
+        if (!holding || holding.quantity < qty) {
+          throw new Error(`Insufficient ${baseAsset} balance for sale`);
+        }
+      }
+    }
+
+    return true;
+  };
+
+  async function submitOrderHandler(side) {
+    setOrderError("");
+    setOrderSuccess("");
+
+    try {
+      validateOrder(side);
+
+      const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
+      const qty = parseFloat(quantity);
+
+      setIsSubmittingOrder(true);
+
+      const orderData = {
+        symbol,
+        side,
+        type: orderType.toUpperCase(),
+        quantity: qty,
+        price: price,
+        marketType: isFutures ? 'FUTURES' : 'SPOT',
+        leverage: isFutures ? leverage : 1
+      };
+
+      console.log('Submitting order:', orderData);
+      const result = await submitOrder(orderData);
+
+      const successMessage = `${side} order executed successfully!\n` +
+        `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)}\n` +
+        `Fees: ${result.fees.toFixed(4)}\n` +
+        `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
+
+      setOrderSuccess(successMessage);
+
+      setQuantity("");
+      if (orderType === 'limit') {
+        userEditedRef.current = false;
+        autoFilledSymbolRef.current = null;
+      }
+
+    } catch (error) {
+      console.error('Order submission error:', error);
+      setOrderError(error.message);
+    } finally {
+      setIsSubmittingOrder(false);
+    }
   }
 
-  // Determine image URL for the current selected symbol from cryptoList (CoinGecko provides reliable images)
-  const currentCryptoEntry = cryptoList.find((c) => c.value === symbol);
-  const currentImageUrl = currentCryptoEntry ? currentCryptoEntry.image : null;
+  const getCurrentPrices = () => {
+    const prices = {};
+    positions.forEach(position => {
+      prices[position.symbol] = position.current_price || position.entry_price;
+    });
+    return prices;
+  };
 
-  // --- NEW: smarter search handler that immediately selects a matching symbol as you type ---
   const handleSearchChange = (e) => {
     const term = e.target.value;
     setSearchTerm(term);
 
     if (!term || term.trim() === "") {
-      // Don't change symbol on empty search
       setFilteredCrypto(cryptoList);
       return;
     }
 
     const low = term.toLowerCase().trim();
 
-    // prefer exact symbol match: e.g., user typed "eth" -> match crypto.symbol === "ETH"
-    const exact = cryptoList.find((c) => c.symbol.toLowerCase() === low || c.value.toLowerCase() === `${low}usdt`);
+    const exact = cryptoList.find((c) => 
+      c.symbol.toLowerCase() === low || 
+      c.value.toLowerCase() === `${low}usdt`
+    );
+    
     if (exact) {
       if (exact.value !== symbol) setSymbol(exact.value);
-      // also set filtered to that exact match so dropdown shows it
       setFilteredCrypto([exact]);
       return;
     }
 
-    // next prefer startsWith on symbol (eth -> ethereum), then value or label includes
     const starts = cryptoList.find((c) => c.symbol.toLowerCase().startsWith(low));
     if (starts) {
       if (starts.value !== symbol) setSymbol(starts.value);
@@ -771,13 +876,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       return;
     }
 
-    // fallback: pick first filtered result by label include
     const includes = cryptoList.filter(
       (crypto) =>
         crypto.label.toLowerCase().includes(low) ||
         crypto.value.toLowerCase().includes(low) ||
         crypto.symbol.toLowerCase().includes(low)
     );
+    
     if (includes.length > 0) {
       const first = includes[0];
       if (first.value !== symbol) setSymbol(first.value);
@@ -785,64 +890,100 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       return;
     }
 
-    // no match: keep filtered empty so dropdown shows nothing
     setFilteredCrypto([]);
   };
 
+  const currentCryptoEntry = cryptoList.find((c) => c.value === symbol);
+  const currentImageUrl = currentCryptoEntry ? currentCryptoEntry.image : null;
+
   return (
     <div className="trade-page">
+      {/* Notification Messages */}
+      {orderError && (
+        <div className="notification error">
+          <span>❌ {orderError}</span>
+          <button onClick={() => setOrderError("")}>×</button>
+        </div>
+      )}
+      
+      {orderSuccess && (
+        <div className="notification success">
+          <span>✅ Order Successful</span>
+          <button onClick={() => setOrderSuccess("")}>×</button>
+        </div>
+      )}
+
       <header className="trade-header">
-        <div className="left-top">
-          <div className="brand-inline">
-            <CryptoIcon symbol={symbol} size="small" imageUrl={currentImageUrl} />
-            <div className="symbol-title">
-              <div className="symbol-name">{symbol.replace("USDT", "")}/USDT</div>
-              <div className="symbol-sub">{isFutures ? "Perpetual" : "Spot"} • {interval}</div>
+        <div className="header-top">
+          <div className="symbol-section">
+            <div className="symbol-display">
+              <CryptoIcon symbol={symbol} size="medium" imageUrl={currentImageUrl} />
+              <div className="symbol-info">
+                <div className="symbol-name">{symbol.replace("USDT", "")}/USDT</div>
+                <div className="symbol-details">
+                  {isFutures ? "Perpetual" : "Spot"} • {interval}
+                  {!isConnected && (
+                    <span className="connection-status disconnected"> • Reconnecting...</span>
+                  )}
+                  {isConnected && (
+                    <span className="connection-status connected"> • Live</span>
+                  )}
+                </div>
+              </div>
+            </div>
+            
+            <div className="price-display">
+              <div className="current-price">${lastPrice}</div>
+              <div className={`price-change ${parseFloat(priceChange.percent) >= 0 ? "positive" : "negative"}`}>
+                {parseFloat(priceChange.percent) >= 0 ? "+" : ""}
+                {priceChange.value} ({priceChange.percent}%)
+              </div>
             </div>
           </div>
+          
+          <div className="controls-section">
+            <div className="search-controls">
+              <div className="search-container">
+                <input
+                  type="text"
+                  placeholder="Search pairs..."
+                  value={searchTerm}
+                  onChange={handleSearchChange}
+                  className="search-input"
+                />
+                <div className="search-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+              </div>
 
-          <div className="controls-inline">
-            <div className="search-container">
-              <input
-                type="text"
-                placeholder="Search pairs..."
-                value={searchTerm}
-                onChange={handleSearchChange}
-                className="search-input"
-              />
-              <div className="search-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
-                  <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-                </svg>
+              <div className="symbol-selector">
+                <select
+                  className="symbol-select"
+                  value={symbol}
+                  onChange={(e) => {
+                    setSymbol(e.target.value);
+                    setSearchTerm("");
+                    setFilteredCrypto(cryptoList);
+                  }}
+                  onFocus={loadMoreCryptos}
+                >
+                  {filteredCrypto.map((s) => (
+                    <option key={s.value} value={s.value}>
+                      {s.label}
+                    </option>
+                  ))}
+                  {hasMoreCryptos && (
+                    <option disabled value="loading">
+                      {loading ? "Loading more..." : "Scroll to load more"}
+                    </option>
+                  )}
+                </select>
               </div>
             </div>
 
-            <div className="custom-select-container">
-              <select
-                className="symbol-select"
-                value={symbol}
-                onChange={(e) => {
-                  setSymbol(e.target.value);
-                  // clear search term so select stays in sync
-                  setSearchTerm("");
-                  setFilteredCrypto(cryptoList);
-                }}
-                onFocus={loadMoreCryptos}
-              >
-                {filteredCrypto.map((s) => (
-                  <option key={s.value} value={s.value}>
-                    {s.label}
-                  </option>
-                ))}
-                {hasMoreCryptos && (
-                  <option disabled value="loading">
-                    {loading ? "Loading more..." : "Scroll to load more"}
-                  </option>
-                )}
-              </select>
-            </div>
-
-            <div className="intervals">
+            <div className="interval-controls">
               {INTERVAL_OPTIONS.map((i) => (
                 <button
                   key={i}
@@ -856,19 +997,43 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           </div>
         </div>
 
-        <div className="right-top">
-          <div className="price-info">
-            <div className="price-box">
-              <div className="last-price">${lastPrice}</div>
-              <div className={`price-change ${parseFloat(priceChange.percent) >= 0 ? "positive" : "negative"}`}>
-                {parseFloat(priceChange.percent) >= 0 ? "+" : ""}
-                {priceChange.value} ({priceChange.percent}%)
+        <div className="header-bottom">
+          <div className="account-info">
+            <div className="balance-card">
+              <div className="balance-label">Balance</div>
+              <div className="balance-value">
+                ${balance.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-            <div className="balance-info">
-              <div className="balance-label">Virtual Balance</div>
-              <div className="balance-value">
-                ₱{balance.toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+            
+            {isFutures && (
+              <>
+                <div className="margin-card">
+                  <div className="margin-label">Free Margin</div>
+                  <div className="margin-value">
+                    ${freeMargin.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                  </div>
+                </div>
+                <div className="margin-card">
+                  <div className="margin-label">Margin Used</div>
+                  <div className="margin-percent">
+                    {marginUtilization.toFixed(1)}%
+                  </div>
+                </div>
+              </>
+            )}
+            
+            <div className="pnl-card">
+              <div className="pnl-label">Total P&L</div>
+              <div className={`pnl-value ${totalPnL >= 0 ? "positive" : "negative"}`}>
+                {totalPnL >= 0 ? "+" : ""}${totalPnL.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              </div>
+            </div>
+            
+            <div className="portfolio-card">
+              <div className="portfolio-label">Portfolio Value</div>
+              <div className="portfolio-amount">
+                ${totalPortfolioValue.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
           </div>
@@ -896,10 +1061,16 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
             <div className="order-header">
               <div className="order-title">{isFutures ? "Futures Trading" : "Spot Trading"}</div>
               <div className="order-type-selector">
-                <button className={`type-btn ${orderType === "limit" ? "active" : ""}`} onClick={() => setOrderType("limit")}>
+                <button 
+                  className={`type-btn ${orderType === "limit" ? "active" : ""}`} 
+                  onClick={() => setOrderType("limit")}
+                >
                   Limit
                 </button>
-                <button className={`type-btn ${orderType === "market" ? "active" : ""}`} onClick={() => setOrderType("market")}>
+                <button 
+                  className={`type-btn ${orderType === "market" ? "active" : ""}`} 
+                  onClick={() => setOrderType("market")}
+                >
                   Market
                 </button>
               </div>
@@ -912,27 +1083,53 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                   type="number"
                   value={selectedPrice}
                   onChange={(e) => {
-                    userEditedRef.current = true; // user touched input, disable auto-fill for this pick
+                    userEditedRef.current = true;
                     setSelectedPrice(e.target.value);
+                    setOrderError("");
                   }}
                   className="input-field"
                   placeholder="0.00"
+                  step="0.0001"
                 />
               </div>
             )}
 
             <div className="input-group">
               <label>Quantity</label>
-              <input type="number" value={quantity} onChange={(e) => setQuantity(e.target.value)} className="input-field" placeholder="0.00" />
+              <input 
+                type="number" 
+                value={quantity} 
+                onChange={(e) => {
+                  setQuantity(e.target.value);
+                  setOrderError("");
+                }} 
+                className="input-field" 
+                placeholder="0.00"
+                step="0.0001"
+              />
             </div>
 
             {isFutures && (
               <div className="input-group">
                 <label>Leverage: {leverage}x</label>
-                <input className="leverage-slider" type="range" min="1" max="100" value={leverage} onChange={(e) => setLeverage(Number(e.target.value))} />
+                <input 
+                  className="leverage-slider" 
+                  type="range" 
+                  min="1" 
+                  max="100" 
+                  value={leverage} 
+                  onChange={(e) => {
+                    setLeverage(Number(e.target.value));
+                    setOrderError("");
+                  }} 
+                />
                 <div className="leverage-presets">
                   {[1, 5, 10, 25, 50, 100].map((l) => (
-                    <button key={l} className={`preset-btn ${leverage === l ? "active" : ""}`} onClick={() => setLeverage(l)}>
+                    <button 
+                      key={l} 
+                      className={`preset-btn ${leverage === l ? "active" : ""}`} 
+                      onClick={() => setLeverage(l)}
+                    >
                       {l}x
                     </button>
                   ))}
@@ -943,22 +1140,59 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
             <div className="order-summary">
               <div className="summary-row">
                 <span>Position Value:</span>
-                <span>₱{calculatePositionValue()}</span>
+                <span>${calculatePositionValue().toLocaleString()}</span>
               </div>
+              {isFutures && (
+                <div className="summary-row">
+                  <span>Required Margin:</span>
+                  <span>${calculateRequiredMargin()}</span>
+                </div>
+              )}
               <div className="summary-row">
                 <span>Est. Fees:</span>
-                <span>₱{calculateFees()}</span>
+                <span>${calculateFees()}</span>
               </div>
+              {isFutures && (
+                <div className="summary-row">
+                  <span>Available Margin:</span>
+                  <span className={freeMargin < parseFloat(calculateRequiredMargin() || 0) ? "insufficient" : "sufficient"}>
+                    ${freeMargin.toFixed(2)}
+                  </span>
+                </div>
+              )}
             </div>
 
             <div className="order-actions">
-              <button className="btn btn-sell" onClick={() => submitOrder("SELL")} disabled={!quantity || parseFloat(quantity) <= 0}>
-                {isFutures ? "Short" : "Sell"}
+              <button 
+                className="btn btn-sell" 
+                onClick={() => submitOrderHandler("SELL")} 
+                disabled={!quantity || parseFloat(quantity) <= 0 || isSubmittingOrder || !user}
+                title={!user ? "Please login to trade" : ""}
+              >
+                {isSubmittingOrder ? "Submitting..." : (isFutures ? "Short" : "Sell")}
               </button>
-              <button className="btn btn-buy" onClick={() => submitOrder("BUY")} disabled={!quantity || parseFloat(quantity) <= 0}>
-                {isFutures ? "Long" : "Buy"}
+              <button 
+                className="btn btn-buy" 
+                onClick={() => submitOrderHandler("BUY")} 
+                disabled={!quantity || parseFloat(quantity) <= 0 || isSubmittingOrder || !user}
+                title={!user ? "Please login to trade" : ""}
+              >
+                {isSubmittingOrder ? "Submitting..." : (isFutures ? "Long" : "Buy")}
               </button>
             </div>
+
+            {!user && (
+              <div className="auth-notice">
+                <p>Please login to start trading</p>
+                <small>Virtual trading with $10,000 starting balance</small>
+              </div>
+            )}
+
+            {user && (
+              <div className="trading-info">
+                <small>Virtual trading platform - No real money involved</small>
+              </div>
+            )}
           </div>
         </aside>
       </div>
@@ -970,123 +1204,225 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       <div className="positions-panel">
         <div className="positions-header">
           <div className="positions-tabs">
-            <div className="tab active">
-              Positions <span className="tab-count">(0)</span>
+            <div 
+              className={`tab ${activeTab === 'positions' ? 'active' : ''}`}
+              onClick={() => setActiveTab('positions')}
+            >
+              {isFutures ? "Positions" : "Holdings"} 
+              <span className="tab-count">
+                ({isFutures ? positions.length : spotHoldings.length})
+              </span>
             </div>
-            <div className="tab">
-              Open Orders <span className="tab-count">(0)</span>
+            <div 
+              className={`tab ${activeTab === 'orders' ? 'active' : ''}`}
+              onClick={() => setActiveTab('orders')}
+            >
+              Order History 
+              <span className="tab-count">({orderHistory.length})</span>
             </div>
-            <div className="tab">Order History</div>
           </div>
           <div className="positions-actions">
-            <button className="action-btn">Close All</button>
-            <button className="action-btn">Cancel All</button>
+            <button 
+              className="action-btn" 
+              onClick={refreshPortfolio}
+              disabled={portfolioLoading}
+            >
+              {portfolioLoading ? "Loading..." : "Refresh"}
+            </button>
+            {positions.length > 0 && activeTab === 'positions' && (
+              <button 
+                className="action-btn danger" 
+                onClick={async () => {
+                  if (window.confirm(`Close all ${positions.length} positions?`)) {
+                    try {
+                      await closeAllPositions();
+                      setOrderSuccess("All positions closed successfully");
+                    } catch (error) {
+                      setOrderError("Failed to close all positions: " + error.message);
+                    }
+                  }
+                }}
+              >
+                Close All
+              </button>
+            )}
           </div>
         </div>
 
         <div className="positions-body">
-          <div className="empty-state">
-            <div className="empty-icon">📊</div>
-            <div className="empty-title">No {isFutures ? "positions" : "orders"} yet</div>
-            <div className="empty-subtitle">Your {isFutures ? "futures positions" : "spot orders"} will appear here</div>
-          </div>
+          {activeTab === 'positions' && (
+            isFutures ? (
+              positions.length > 0 ? (
+                <div className="trading-table-container">
+                  <table className="trading-table">
+                    <thead>
+                      <tr>
+                        <th>Symbol</th>
+                        <th className="text-right">Size</th>
+                        <th className="text-right">Entry Price</th>
+                        <th className="text-right">Current Price</th>
+                        <th className="text-right">P&L</th>
+                        <th className="text-center">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {positions.map(position => (
+                        <PositionRow 
+                          key={position.id} 
+                          position={position} 
+                          onClose={closePosition}
+                          currentPrices={getCurrentPrices()}
+                        />
+                      ))}
+                    </tbody>
+                  </table>
+                  
+                  <div className="positions-summary">
+                    <div className="summary-item">
+                      <span>Total Positions:</span>
+                      <span>{positions.length}</span>
+                    </div>
+                    <div className="summary-item">
+                      <span>Used Margin:</span>
+                      <span>${usedMargin.toFixed(2)}</span>
+                    </div>
+                    <div className="summary-item">
+                      <span>Unrealized P&L:</span>
+                      <span className={totalPnL >= 0 ? "positive" : "negative"}>
+                        {totalPnL >= 0 ? "+" : ""}${totalPnL.toFixed(2)}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="empty-state">
+                  <div className="empty-icon">📊</div>
+                  <div className="empty-title">No positions yet</div>
+                  <div className="empty-subtitle">
+                    Your futures positions will appear here. Start by placing a trade above.
+                  </div>
+                </div>
+              )
+            ) : (
+              spotHoldings.length > 0 ? (
+                <div className="trading-table-container">
+                  <table className="trading-table">
+                    <thead>
+                      <tr>
+                        <th>Asset</th>
+                        <th className="text-right">Quantity</th>
+                        <th className="text-right">Avg Price</th>
+                        <th className="text-right">Current Price</th>
+                        <th className="text-right">Value</th>
+                        <th className="text-right">P&L</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {spotHoldings.map(holding => (
+                        <SpotHoldingRow 
+                          key={holding.id} 
+                          holding={holding}
+                        />
+                      ))}
+                    </tbody>
+                  </table>
+                  
+                  <div className="holdings-summary">
+                    <div className="summary-item">
+                      <span>Total Holdings:</span>
+                      <span>{spotHoldings.length}</span>
+                    </div>
+                    <div className="summary-item">
+                      <span>Total Value:</span>
+                      <span>
+                        ${spotHoldings.reduce((total, h) => 
+                          total + (h.current_value || h.quantity * h.average_price), 0
+                        ).toFixed(2)}
+                      </span>
+                    </div>
+                    <div className="summary-item">
+                      <span>Unrealized P&L:</span>
+                      <span className={
+                        spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0) >= 0 
+                          ? "positive" : "negative"
+                      }>
+                        {spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0) >= 0 
+                          ? "+" : ""}
+                        ${spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0).toFixed(2)}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="empty-state">
+                  <div className="empty-icon">💰</div>
+                  <div className="empty-title">No holdings yet</div>
+                  <div className="empty-subtitle">
+                    Your spot holdings will appear here. Start by buying some crypto above.
+                  </div>
+                </div>
+              )
+            )
+          )}
+
+          {activeTab === 'orders' && (
+            orderHistory.length > 0 ? (
+              <div className="trading-table-container">
+                <table className="trading-table">
+                  <thead>
+                    <tr>
+                      <th>Time</th>
+                      <th>Symbol</th>
+                      <th>Side</th>
+                      <th>Type</th>
+                      <th className="text-right">Quantity</th>
+                      <th className="text-right">Price</th>
+                      <th>Status</th>
+                      <th>Market</th>
+                      <th className="text-right">P&L</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {orderHistory.slice(0, 50).map(order => (
+                      <OrderHistoryRow 
+                        key={order.id} 
+                        order={order}
+                      />
+                    ))}
+                  </tbody>
+                </table>
+                
+                <div className="orders-summary">
+                  <div className="summary-item">
+                    <span>Total Orders:</span>
+                    <span>{orderHistory.length}</span>
+                  </div>
+                  <div className="summary-item">
+                    <span>Filled Orders:</span>
+                    <span>{orderHistory.filter(o => o.status === 'FILLED').length}</span>
+                  </div>
+                  <div className="summary-item">
+                    <span>Success Rate:</span>
+                    <span>
+                      {orderHistory.length > 0 
+                        ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
+                        : 0}%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="empty-state">
+                <div className="empty-icon">📋</div>
+                <div className="empty-title">No orders yet</div>
+                <div className="empty-subtitle">
+                  Your order history will appear here once you start trading.
+                </div>
+              </div>
+            )
+          )}
         </div>
       </div>
-
-      <style jsx>{`
-    .chart-wrapper {
-      position: relative;
-      height: 100%;
-      width: 100%;
-      background: #1e222d;
-    }
-
-    .chart-loading-overlay {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-      color: #b7bdc6;
-      z-index: 999;
-      background: rgba(30, 34, 45, 0.95);
-      padding: 20px;
-      border-radius: 8px;
-      backdrop-filter: blur(10px);
-    }
-
-    .loading-spinner {
-      width: 32px;
-      height: 32px;
-      border: 3px solid #2a2e39;
-      border-top: 3px solid #2196f3;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-    }
-
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    .coin-icon {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      background: #2a2e39;
-    }
-
-    .coin-icon.small {
-      width: 24px;
-      height: 24px;
-      font-size: 14px;
-    }
-
-    .coin-icon.medium {
-      width: 32px;
-      height: 32px;
-      font-size: 18px;
-    }
-
-    .coin-icon.large {
-      width: 48px;
-      height: 48px;
-      font-size: 24px;
-    }
-
-    .custom-select-container {
-      position: relative;
-      min-width: 200px;
-    }
-
-    .symbol-select {
-      width: 100%;
-      height: 36px;
-      padding: 0 12px;
-      border: 1px solid #2a2e39;
-      border-radius: 4px;
-      background: #1e222d;
-      color: #b7bdc6;
-      font-size: 14px;
-      cursor: pointer;
-      appearance: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-    }
-
-    .symbol-select:focus {
-      outline: none;
-      border-color: #2196f3;
-    }
-  `}</style>
-</div>
-);
+    </div>
+  );
 }
