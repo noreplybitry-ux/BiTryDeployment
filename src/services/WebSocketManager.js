@@ -1,4 +1,3 @@
-// src/services/WebSocketManager.js
 class WebSocketManager {
   constructor() {
     this.spotWs = null;
@@ -45,12 +44,10 @@ class WebSocketManager {
         try {
           const data = JSON.parse(event.data);
           if (Array.isArray(data)) {
-            // Handle ticker array data
             data.forEach(ticker => {
               this.processTicker(ticker, 'spot');
             });
           } else {
-            // Handle single ticker data
             this.processTicker(data, 'spot');
           }
         } catch (error) {
@@ -95,12 +92,10 @@ class WebSocketManager {
         try {
           const data = JSON.parse(event.data);
           if (Array.isArray(data)) {
-            // Handle ticker array data
             data.forEach(ticker => {
               this.processTicker(ticker, 'futures');
             });
           } else {
-            // Handle single ticker data
             this.processTicker(data, 'futures');
           }
         } catch (error) {
@@ -126,37 +121,44 @@ class WebSocketManager {
   }
 
   processTicker(ticker, marketType) {
-    const symbol = ticker.s; // symbol
-    const key = `${symbol}_${marketType}`;
-    
-    // Only process if we have subscribers for this symbol+market combo
-    if (!this.subscribers.has(key)) {
-      return;
-    }
+    try {
+      const symbol = ticker.s; // symbol
+      const key = `${symbol}_${marketType}`;
+      
+      // Handle ticker array data
+      if (!ticker.c || isNaN(parseFloat(ticker.c))) {
+        console.warn('Invalid ticker data received:', ticker);
+        return;
+      }
+      
+      if (!this.subscribers.has(key)) {
+        return;
+      }
 
-    const priceData = {
-      symbol,
-      marketType,
-      lastPrice: parseFloat(ticker.c),
-      priceChange: parseFloat(ticker.p),
-      priceChangePercent: parseFloat(ticker.P),
-      volume: parseFloat(ticker.v),
-      timestamp: Date.now()
-    };
+      const priceData = {
+        symbol,
+        marketType,
+        lastPrice: parseFloat(ticker.c),
+        priceChange: parseFloat(ticker.p) || 0,
+        priceChangePercent: parseFloat(ticker.P) || 0,
+        volume: parseFloat(ticker.v) || 0,
+        timestamp: Date.now()
+      };
 
-    // Store latest data
-    this.priceData.set(key, priceData);
+      this.priceData.set(key, priceData);
 
-    // Notify all subscribers
-    const symbolSubscribers = this.subscribers.get(key);
-    if (symbolSubscribers) {
-      symbolSubscribers.forEach(callback => {
-        try {
-          callback(priceData);
-        } catch (error) {
-          console.error('Error calling subscriber callback:', error);
-        }
-      });
+      const symbolSubscribers = this.subscribers.get(key);
+      if (symbolSubscribers) {
+        symbolSubscribers.forEach(callback => {
+          try {
+            callback(priceData);
+          } catch (error) {
+            console.error('Error calling subscriber callback:', error);
+          }
+        });
+      }
+    } catch (error) {
+      console.error('Error processing ticker:', error);
     }
   }
 
@@ -169,7 +171,6 @@ class WebSocketManager {
     
     this.subscribers.get(key).add(callback);
 
-    // If we have cached data, send it immediately
     if (this.priceData.has(key)) {
       try {
         callback(this.priceData.get(key));
@@ -178,7 +179,6 @@ class WebSocketManager {
       }
     }
 
-    // Return unsubscribe function
     return () => this.unsubscribe(symbol, marketType, callback);
   }
 
@@ -189,7 +189,6 @@ class WebSocketManager {
     if (symbolSubscribers) {
       symbolSubscribers.delete(callback);
       
-      // Clean up if no more subscribers
       if (symbolSubscribers.size === 0) {
         this.subscribers.delete(key);
         this.priceData.delete(key);
@@ -207,7 +206,6 @@ class WebSocketManager {
 
     this.reconnectAttempts.set(connectionType, attempts + 1);
     
-    // Exponential backoff: 1s, 2s, 4s, 8s, 16s
     const delay = this.reconnectDelay * Math.pow(2, attempts);
     
     console.log(`Attempting to reconnect ${connectionType} in ${delay}ms (attempt ${attempts + 1})`);
@@ -221,13 +219,11 @@ class WebSocketManager {
     }, delay);
   }
 
-  // Get current price data for a symbol
   getCurrentPrice(symbol, marketType) {
     const key = `${symbol}_${marketType}`;
     return this.priceData.get(key) || null;
   }
 
-  // Get connection status
   getConnectionStatus() {
     return {
       spot: this.spotWs?.readyState === WebSocket.OPEN,
@@ -237,7 +233,6 @@ class WebSocketManager {
     };
   }
 
-  // Clean up all connections
   destroy() {
     if (this.spotWs) {
       this.spotWs.close();
@@ -260,7 +255,6 @@ class WebSocketManager {
   }
 }
 
-// Create singleton instance
 const webSocketManager = new WebSocketManager();
 
 export default webSocketManager;

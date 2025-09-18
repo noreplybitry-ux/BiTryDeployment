@@ -1,4 +1,3 @@
-// src/lib/supabase.js - Fixed Configuration
 import { createClient } from '@supabase/supabase-js'
 
 const supabaseUrl = process.env.REACT_APP_SUPABASE_URL
@@ -14,7 +13,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
     persistSession: true,
     detectSessionInUrl: true,
     storage: window.localStorage,
-    // FIXED: Add flowType for better session handling
     flowType: 'pkce'
   },
   global: {

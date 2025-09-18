@@ -1,4 +1,3 @@
-// src/hooks/usePriceData.js
 import { useState, useEffect, useRef } from 'react';
 import webSocketManager from '../services/WebSocketManager';
 
@@ -69,6 +68,10 @@ export const usePriceData = (symbol, marketType = 'spot') => {
 
     // Subscribe to updates
     const handlePriceUpdate = (data) => {
+      if (!data || !data.lastPrice || isNaN(data.lastPrice)) {
+        console.warn('Invalid price data received:', data);
+        return;
+      }
       setPriceData({
         lastPrice: formatPrice(data.lastPrice),
         priceChange: {
@@ -81,7 +84,11 @@ export const usePriceData = (symbol, marketType = 'spot') => {
     };
 
     // Subscribe to price updates
-    unsubscribeRef.current = webSocketManager.subscribe(symbol, marketType, handlePriceUpdate);
+    try {
+      unsubscribeRef.current = webSocketManager.subscribe(symbol, marketType, handlePriceUpdate);
+    } catch (error) {
+      console.error('Failed to subscribe to price updates:', error);
+    }
 
     // Monitor connection status
     const checkConnectionStatus = () => {

@@ -1,4 +1,3 @@
-// src/pages/Trade.js
 import React, { useEffect, useRef, useState } from "react";
 import "../css/Trade.css";
 import TechnicalAnalysis from "./TechnicalAnalysis";
@@ -311,6 +310,10 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
   const isProfit = pnl >= 0;
 
   const handleClose = async () => {
+    if (currentPrice <= 0) {
+      alert('Invalid current price for closing position');
+      return;
+    }
     setIsClosing(true);
     try {
       await onClose(position.id, currentPrice);
@@ -352,8 +355,8 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
         <button 
           className="close-btn" 
           onClick={handleClose}
-          disabled={isClosing}
-          title={`Close ${position.side} position`}
+          disabled={isClosing || currentPrice <= 0}
+          title={currentPrice <= 0 ? 'Invalid price data' : `Close ${position.side} position`}
         >
           {isClosing ? 'Closing...' : 'Close'}
         </button>
@@ -471,35 +474,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     portfolioMetrics
   } = usePortfolio();
 
-  const [mockPrice, setMockPrice] = useState(45000);
-  const [mockPriceChange, setMockPriceChange] = useState({ value: '+100.00', percent: '+0.22' });
-  const [isConnected] = useState(true);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setMockPrice(prev => {
-        const change = (Math.random() - 0.5) * 100;
-        const newPrice = prev + change;
-        setMockPriceChange({
-          value: change.toFixed(2),
-          percent: ((change / prev) * 100).toFixed(2)
-        });
-        return newPrice;
-      });
-    }, 3000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const lastPrice = mockPrice.toFixed(2);
-  const priceChange = mockPriceChange;
-  const rawLastPrice = mockPrice;
+  const { lastPrice, priceChange, rawLastPrice, isConnected } = usePriceData(symbol, isFutures ? 'futures' : 'spot');
 
   const autoFilledSymbolRef = useRef(null);
   const userEditedRef = useRef(false);
-  const supportedSpotSymbolsRef = useRef(new Set());
-  const supportedFuturesSymbolsRef = useRef(new Set());
   const [cryptoPage, setCryptoPage] = useState(1);
   const [hasMoreCryptos, setHasMoreCryptos] = useState(true);
+  // Removed minOrderSizes and supportedSymbolsRefs - use fallback always
 
   useEffect(() => {
     if (orderError) {
@@ -515,47 +496,8 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }
   }, [orderSuccess]);
 
-  // Load Binance exchange info
-  useEffect(() => {
-    const fetchBinanceInfo = async () => {
-      try {
-        const [spotResp, futuresResp] = await Promise.allSettled([
-          fetch("https://api.binance.com/api/v3/exchangeInfo"),
-          fetch("https://fapi.binance.com/fapi/v1/exchangeInfo")
-        ]);
+  // Removed useEffect for fetchBinanceInfo - no client-side Binance fetch
 
-        if (spotResp.status === 'fulfilled' && spotResp.value.ok) {
-          const spotJson = await spotResp.value.json();
-          const spotSymbols = spotJson.symbols || [];
-          const spotSet = new Set(
-            spotSymbols
-              .filter((s) => s.status === "TRADING" && s.quoteAsset === "USDT")
-              .map((s) => s.symbol.toUpperCase())
-          );
-          supportedSpotSymbolsRef.current = spotSet;
-        }
-
-        if (futuresResp.status === 'fulfilled' && futuresResp.value.ok) {
-          const futuresJson = await futuresResp.value.json();
-          const futSymbols = futuresJson.symbols || [];
-          const futSet = new Set(
-            futSymbols
-              .filter((s) => s.status === "TRADING" && s.quoteAsset === "USDT")
-              .map((s) => s.symbol.toUpperCase())
-          );
-          supportedFuturesSymbolsRef.current = futSet;
-        } else {
-          supportedFuturesSymbolsRef.current = supportedSpotSymbolsRef.current;
-        }
-      } catch (error) {
-        console.error("Error fetching Binance exchangeInfo:", error);
-      }
-    };
-
-    fetchBinanceInfo();
-  }, []);
-
-  // Fetch cryptocurrencies from CoinGecko
   useEffect(() => {
     let isMounted = true;
 
@@ -577,21 +519,11 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           return;
         }
 
-        const supportedSet = isFutures 
-          ? supportedFuturesSymbolsRef.current 
-          : supportedSpotSymbolsRef.current;
-
         const binanceSymbols = data
           .map((coin) => ({
             coin,
             candidate: `${coin.symbol.toUpperCase()}USDT`,
           }))
-          .filter((c) => {
-            if (supportedSet && supportedSet.size > 0) {
-              return supportedSet.has(c.candidate);
-            }
-            return true;
-          })
           .map((c) => ({
             value: c.candidate,
             label: `${c.coin.name} (${c.coin.symbol.toUpperCase()}/USDT)`,
@@ -639,7 +571,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     };
   }, [cryptoPage, isFutures]);
 
-  // Fallback cryptocurrency list
   const getFallbackCryptos = () => {
     const popularCryptos = [
       "BTC", "ETH", "BNB", "ADA", "XRP", "SOL", "DOT", "DOGE", "SHIB", "MATIC",
@@ -656,7 +587,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }));
   };
 
-  // Filter cryptocurrencies based on search
   useEffect(() => {
     if (!searchTerm) {
       setFilteredCrypto(cryptoList);
@@ -674,23 +604,11 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
 
   useEffect(() => {
     if (!cryptoList || cryptoList.length === 0) return;
-    const supportedSet = isFutures 
-      ? supportedFuturesSymbolsRef.current 
-      : supportedSpotSymbolsRef.current;
 
-    if (supportedSet && supportedSet.size > 0) {
-      if (!supportedSet.has(symbol)) {
-        const firstValid = cryptoList.find((c) => supportedSet.has(c.value));
-        if (firstValid) {
-          setSymbol(firstValid.value);
-        }
-      }
-    } else {
-      if (!cryptoList.find((c) => c.value === symbol)) {
-        setSymbol(cryptoList[0].value);
-      }
+    if (!cryptoList.find((c) => c.value === symbol)) {
+      setSymbol(cryptoList[0].value);
     }
-  }, [cryptoList, isFutures, symbol]);
+  }, [cryptoList, symbol]);
 
   useEffect(() => {
     userEditedRef.current = false;
@@ -720,11 +638,14 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }
   };
 
+  const getMinQty = () => {
+    return 0.0001; // Fallback always, no Binance fetch
+  };
 
   const calculatePositionValue = () => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
-    if (!price || !qty) return 0;
+    if (!price || !qty || qty < getMinQty() || price <= 0) return 0;
     const val = price * qty;
     if (isFutures) return val * leverage;
     return val;
@@ -740,23 +661,27 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const calculateRequiredMargin = () => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
-    if (!price || !qty || !isFutures) return 0;
+    if (!price || !qty || !isFutures || price <= 0) return 0;
     const positionValue = price * qty;
     if (isNaN(positionValue)) return 0;
     return (positionValue / leverage).toFixed(2);
   };
 
-  // Order validation
   const validateOrder = (side) => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
+    const minQty = getMinQty();
 
     if (!user) {
       throw new Error('Please login to trade');
     }
 
-    if (!qty || qty <= 0) {
-      throw new Error('Please enter a valid quantity');
+    if (!qty || qty <= 0 || qty < minQty) {
+      throw new Error(`Please enter a valid quantity (min: ${minQty})`);
+    }
+
+    if (orderType === 'market' && (!price || price <= 0)) {
+      throw new Error('Market price not available. Please wait for connection.');
     }
 
     if (orderType === 'limit' && (!price || price <= 0)) {
@@ -895,6 +820,12 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
 
   const currentCryptoEntry = cryptoList.find((c) => c.value === symbol);
   const currentImageUrl = currentCryptoEntry ? currentCryptoEntry.image : null;
+
+  const isSubmitDisabled = () => {
+    const qty = parseFloat(quantity);
+    const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
+    return !qty || qty <= 0 || isSubmittingOrder || !user || (orderType === 'market' && (!price || price <= 0));
+  };
 
   return (
     <div className="trade-page">
@@ -1166,16 +1097,16 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               <button 
                 className="btn btn-sell" 
                 onClick={() => submitOrderHandler("SELL")} 
-                disabled={!quantity || parseFloat(quantity) <= 0 || isSubmittingOrder || !user}
-                title={!user ? "Please login to trade" : ""}
+                disabled={isSubmitDisabled()}
+                title={isSubmitDisabled() && orderType === 'market' && rawLastPrice <= 0 ? "Price data not available" : (!user ? "Please login to trade" : "")}
               >
                 {isSubmittingOrder ? "Submitting..." : (isFutures ? "Short" : "Sell")}
               </button>
               <button 
                 className="btn btn-buy" 
                 onClick={() => submitOrderHandler("BUY")} 
-                disabled={!quantity || parseFloat(quantity) <= 0 || isSubmittingOrder || !user}
-                title={!user ? "Please login to trade" : ""}
+                disabled={isSubmitDisabled()}
+                title={isSubmitDisabled() && orderType === 'market' && rawLastPrice <= 0 ? "Price data not available" : (!user ? "Please login to trade" : "")}
               >
                 {isSubmittingOrder ? "Submitting..." : (isFutures ? "Long" : "Buy")}
               </button>
