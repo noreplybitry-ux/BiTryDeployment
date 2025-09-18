@@ -1,3 +1,6 @@
+import { useState, useEffect, useRef } from 'react';
+import tradingService from './TradingService';
+
 class WebSocketManager {
   constructor() {
     this.spotWs = null;
@@ -120,7 +123,7 @@ class WebSocketManager {
     }
   }
 
-  processTicker(ticker, marketType) {
+  async processTicker(ticker, marketType) {
     try {
       const symbol = ticker.s; // symbol
       const key = `${symbol}_${marketType}`;
@@ -156,6 +159,13 @@ class WebSocketManager {
             console.error('Error calling subscriber callback:', error);
           }
         });
+      }
+
+      // Process pending orders for this symbol
+      try {
+        await tradingService.processPendingOrdersForSymbol(symbol, priceData.lastPrice);
+      } catch (error) {
+        console.error('Error processing pending orders:', error);
       }
     } catch (error) {
       console.error('Error processing ticker:', error);

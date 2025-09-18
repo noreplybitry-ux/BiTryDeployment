@@ -688,6 +688,22 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       throw new Error('Please enter a valid price');
     }
 
+    if (orderType === 'limit') {
+      if (isFutures) {
+        if (leverage < 1 || leverage > 100) {
+          throw new Error('Leverage must be between 1x and 100x');
+        }
+      } else if (side === 'SELL') {
+        const baseAsset = symbol.replace('USDT', '');
+        const holding = spotHoldings.find(h => h.symbol === baseAsset);
+        if (!holding || holding.quantity < qty) {
+          throw new Error(`Insufficient ${baseAsset} balance for sale`);
+        }
+      }
+      return true;
+    }
+
+    // For market orders, full checks
     if (isFutures) {
       const requiredMargin = parseFloat(calculateRequiredMargin());
       const fees = parseFloat(calculateFees());
@@ -743,10 +759,17 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       console.log('Submitting order:', orderData);
       const result = await submitOrder(orderData);
 
-      const successMessage = `${side} order executed successfully!\n` +
-        `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)}\n` +
-        `Fees: ${result.fees.toFixed(4)}\n` +
-        `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
+      let successMessage;
+      if (result.status === 'PENDING') {
+        successMessage = `Limit ${side} order placed successfully!\n` +
+          `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)} (Pending)\n` +
+          `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
+      } else {
+        successMessage = `${side} order executed successfully!\n` +
+          `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)}\n` +
+          `Fees: ${result.fees.toFixed(4)}\n` +
+          `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
+      }
 
       setOrderSuccess(successMessage);
 
@@ -1083,7 +1106,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 <span>Est. Fees:</span>
                 <span>${calculateFees()}</span>
               </div>
-              {isFutures && (
+              {isFutures && orderType === 'market' && (
                 <div className="summary-row">
                   <span>Available Margin:</span>
                   <span className={freeMargin < parseFloat(calculateRequiredMargin() || 0) ? "insufficient" : "sufficient"}>

@@ -495,10 +495,10 @@ class TradingService {
     }
   }
 
-  async updateSpotHolding(userId, symbol, quantity, price, side) {
+  async updateSpotHolding(userId, symbol, quantity, price, side, fees = 0, order_id = null) {
     try {
       const baseAsset = symbol.replace('USDT', '');
-      this.log('Updating spot holding', { baseAsset, quantity, price, side });
+      this.log('Updating spot holding', { baseAsset, quantity, price, side, fees });
 
       return await this.retryOperation(async () => {
         const { data: existing, error: fetchError } = await supabase
@@ -567,13 +567,41 @@ class TradingService {
           }
         } else { // SELL
           if (existing) {
-            const newQuantity = parseFloat(existing.quantity) - parseFloat(quantity);
+            const oldQuantity = parseFloat(existing.quantity);
+            const newQuantity = oldQuantity - parseFloat(quantity);
             
             this.log('Selling from holding', {
-              oldQuantity: existing.quantity,
+              oldQuantity,
               sellQuantity: quantity,
               newQuantity
             });
+            
+            // Calculate gross PnL for this sale
+            const grossPnl = (parseFloat(price) - parseFloat(existing.average_price)) * parseFloat(quantity);
+            
+            // Insert closed trade record
+            const { error: tradeError } = await supabase
+              .from('trade_history')
+              .insert({
+                user_id: userId,
+                order_id: order_id,
+                symbol: symbol, // Full symbol e.g., BTCUSDT
+                side: 'SELL',
+                quantity: parseFloat(quantity),
+                price: parseFloat(price), // Exit price
+                entry_price: parseFloat(existing.average_price),
+                exit_price: parseFloat(price),
+                fee: parseFloat(fees),
+                market_type: 'SPOT',
+                pnl: grossPnl,
+                created_at: new Date().toISOString()
+              });
+
+            if (tradeError) {
+              this.log('Warning: Failed to record spot sell trade (non-critical):', tradeError);
+            } else {
+              this.log('✅ Spot sell trade recorded', { grossPnl, fees });
+            }
             
             if (newQuantity <= 0.00000001) {
               // Delete holding if quantity becomes effectively 0
@@ -634,137 +662,161 @@ class TradingService {
         
         this.log('🟦 Starting spot order submission', { userId, symbol, side, type, quantity, price });
 
-        // Calculate execution price
-        const executionPrice = type === 'MARKET' ? price : price;
-        if (!executionPrice || isNaN(executionPrice) || executionPrice <= 0) {
-          throw new Error('Invalid execution price calculated');
-        }
-
-        const totalValue = quantity * executionPrice;
-        const feeRate = 0.001; // 0.1% fee
-        const fees = totalValue * feeRate;
-
-        this.log('Spot order calculations', {
-          executionPrice,
-          totalValue,
-          fees,
-          side
-        });
-
-        if (side === 'BUY') {
-          // Check balance
-          const balance = await this.getUserBalance(userId);
-          const totalCost = totalValue + fees;
-
-          this.log('BUY order validation', { balance, totalCost });
-
-          if (totalCost > balance) {
-            throw new Error(`Insufficient balance. Required: $${totalCost.toFixed(2)}, Available: $${balance.toFixed(2)}`);
-          }
-
-          // Update balance (deduct cost)
-          this.log('Updating balance for BUY order...');
-          await this.updateUserBalance(userId, -totalCost, 'TRADE', `Spot ${side} ${symbol}`);
-
-          // Update or create spot holding
-          this.log('Updating spot holding for BUY order...');
-          await this.updateSpotHolding(userId, symbol, quantity, executionPrice, 'BUY');
-
-        } else { // SELL
-          const baseAsset = symbol.replace('USDT', '');
-          
-          this.log('SELL order - checking holdings for:', baseAsset);
-          
-          // Check holding
-          const { data: holding, error: holdingError } = await supabase
-            .from('spot_holdings')
-            .select('*')
-            .eq('user_id', userId)
-            .eq('symbol', baseAsset)
-            .maybeSingle();
-
-          if (holdingError) {
-            this.log('Error checking holding:', holdingError);
-            throw holdingError;
-          }
-
-          if (!holding || holding.quantity < quantity) {
-            const availableQuantity = holding ? holding.quantity : 0;
-            throw new Error(`Insufficient ${baseAsset} balance. Required: ${quantity}, Available: ${availableQuantity}`);
-          }
-
-          this.log('SELL validation passed', { holding: holding.quantity, required: quantity });
-
-          this.log('Updating spot holding for SELL order...');
-          await this.updateSpotHolding(userId, symbol, quantity, executionPrice, 'SELL');
-
-          const proceeds = totalValue - fees;
-          this.log('Updating balance for SELL order...');
-          await this.updateUserBalance(userId, proceeds, 'TRADE', `Spot ${side} ${symbol}`);
-        }
-
-        // Record order
-        this.log('Recording order in database...');
-        const { data: order, error: orderError } = await supabase
-          .from('orders')
-          .insert({
-            user_id: userId,
-            symbol,
-            side,
-            type,
-            quantity: parseFloat(quantity),
-            price: parseFloat(executionPrice),
-            filled_quantity: parseFloat(quantity),
-            average_fill_price: parseFloat(executionPrice),
-            status: 'FILLED',
-            market_type: 'SPOT',
-            fee: parseFloat(fees),
-            filled_at: new Date().toISOString(),
-            created_at: new Date().toISOString()
-          })
-          .select()
-          .single();
-
-        if (orderError) {
-          this.log('Error recording order:', orderError);
-          throw orderError;
-        }
-
-        this.log('Order recorded successfully:', order.id);
-
-        try {
-          const { error: tradeError } = await supabase
-            .from('trade_history')
-            .insert({
-              user_id: userId,
-              order_id: order.id,
-              symbol,
-              side,
-              quantity: parseFloat(quantity),
-              price: parseFloat(executionPrice),
-              fee: parseFloat(fees),
-              market_type: 'SPOT',
-              created_at: new Date().toISOString()
-            });
-
-          if (tradeError) {
-            this.log('Warning: Failed to record trade history (non-critical):', tradeError);
-          }
-        } catch (tradeError) {
-          this.log('Warning: Trade history recording failed (non-critical):', tradeError);
-        }
-
-        const result = {
-          success: true,
-          orderId: order.id,
-          executionPrice,
-          quantity,
-          fees,
-          totalValue
+        const orderDataToInsert = {
+          user_id: userId,
+          symbol,
+          side,
+          type,
+          quantity: parseFloat(quantity),
+          price: parseFloat(price),
+          filled_quantity: 0,
+          fee: 0,
+          market_type: 'SPOT',
+          leverage: 1,
+          created_at: new Date().toISOString()
         };
 
-        this.log('✅ Spot order completed successfully', result);
-        return result;
+        if (type === 'MARKET') {
+          // For market, check validations immediately
+          if (side === 'SELL') {
+            const baseAsset = symbol.replace('USDT', '');
+            const { data: holding, error: holdingError } = await supabase
+              .from('spot_holdings')
+              .select('*')
+              .eq('user_id', userId)
+              .eq('symbol', baseAsset)
+              .maybeSingle();
+
+            if (holdingError) {
+              this.log('Error checking holding:', holdingError);
+              throw holdingError;
+            }
+
+            if (!holding || holding.quantity < quantity) {
+              const availableQuantity = holding ? holding.quantity : 0;
+              throw new Error(`Insufficient ${baseAsset} balance. Required: ${quantity}, Available: ${availableQuantity}`);
+            }
+          }
+
+          // Calculate execution price
+          const executionPrice = price;
+          if (!executionPrice || isNaN(executionPrice) || executionPrice <= 0) {
+            throw new Error('Invalid execution price calculated');
+          }
+
+          const totalValue = quantity * executionPrice;
+          const feeRate = 0.001; // 0.1% fee
+          const fees = totalValue * feeRate;
+
+          this.log('Spot order calculations', {
+            executionPrice,
+            totalValue,
+            fees,
+            side
+          });
+
+          if (side === 'BUY') {
+            // Check balance
+            const balance = await this.getUserBalance(userId);
+            const totalCost = totalValue + fees;
+
+            this.log('BUY order validation', { balance, totalCost });
+
+            if (totalCost > balance) {
+              throw new Error(`Insufficient balance. Required: $${totalCost.toFixed(2)}, Available: $${balance.toFixed(2)}`);
+            }
+
+            // Update balance (deduct cost)
+            this.log('Updating balance for BUY order...');
+            await this.updateUserBalance(userId, -totalCost, 'TRADE', `Spot ${side} ${symbol}`);
+
+            // Update or create spot holding (no trade_history for BUY/open)
+            this.log('Updating spot holding for BUY order...');
+            await this.updateSpotHolding(userId, symbol, quantity, executionPrice, 'BUY');
+
+          } else { // SELL
+            this.log('Updating spot holding for SELL order...');
+            await this.updateSpotHolding(userId, symbol, quantity, executionPrice, 'SELL', fees);
+
+            const proceeds = totalValue - fees;
+            this.log('Updating balance for SELL order...');
+            await this.updateUserBalance(userId, proceeds, 'TRADE', `Spot ${side} ${symbol}`);
+          }
+
+          // Record filled order
+          this.log('Recording order in database...');
+          const { data: order, error: orderError } = await supabase
+            .from('orders')
+            .insert({
+              ...orderDataToInsert,
+              filled_quantity: parseFloat(quantity),
+              average_fill_price: parseFloat(executionPrice),
+              status: 'FILLED',
+              fee: parseFloat(fees),
+              filled_at: new Date().toISOString()
+            })
+            .select()
+            .single();
+
+          if (orderError) {
+            this.log('Error recording order:', orderError);
+            throw orderError;
+          }
+
+          this.log('Order recorded successfully:', order.id);
+
+          const result = {
+            success: true,
+            orderId: order.id,
+            executionPrice,
+            quantity,
+            fees,
+            totalValue
+          };
+
+          this.log('✅ Spot order completed successfully', result);
+          return result;
+        } else {
+          // For limit, insert pending
+          const { data: order, error: orderError } = await supabase
+            .from('orders')
+            .insert(orderDataToInsert)
+            .select()
+            .single();
+
+          if (orderError) {
+            this.log('Error recording pending order:', orderError);
+            throw orderError;
+          }
+
+          if (side === 'SELL') {
+            // Check holding for limit sell
+            const baseAsset = symbol.replace('USDT', '');
+            const { data: holding, error: holdingError } = await supabase
+              .from('spot_holdings')
+              .select('*')
+              .eq('user_id', userId)
+              .eq('symbol', baseAsset)
+              .maybeSingle();
+
+            if (holdingError) {
+              this.log('Error checking holding for limit sell:', holdingError);
+              throw holdingError;
+            }
+
+            if (!holding || holding.quantity < quantity) {
+              // Cancel the order if insufficient
+              await supabase
+                .from('orders')
+                .update({ status: 'REJECTED' })
+                .eq('id', order.id);
+              throw new Error(`Insufficient ${baseAsset} balance for sell limit order`);
+            }
+          }
+
+          this.log('✅ Spot limit order placed successfully', { orderId: order.id });
+          return { success: true, orderId: order.id, status: 'PENDING' };
+        }
 
       } catch (error) {
         this.log('❌ Spot order failed:', error);
@@ -789,108 +841,109 @@ class TradingService {
 
         this.log('🟨 Starting futures order submission', { userId, symbol, side, type, quantity, price, leverage });
 
-        // Calculate execution price
-        const executionPrice = type === 'MARKET' ? price : price;
-        if (!executionPrice || isNaN(executionPrice) || executionPrice <= 0) {
-          throw new Error('Invalid execution price calculated');
-        }
-
-        const positionValue = quantity * executionPrice;
-        const margin = positionValue / leverage;
-        const feeRate = 0.0004; // 0.04% fee for futures
-        const fees = positionValue * feeRate;
-        const totalRequired = margin + fees;
-
-        this.log('Futures order calculations', {
-          executionPrice,
-          positionValue,
-          margin,
-          fees,
-          totalRequired,
-          leverage
-        });
-
-        // Check available margin
-        const balance = await this.getUserBalance(userId);
-        if (totalRequired > balance) {
-          throw new Error(`Insufficient margin. Required: $${totalRequired.toFixed(2)}, Available: $${balance.toFixed(2)}`);
-        }
-
-        // Map order side to position side
-        const positionSide = this.mapOrderSideToPositionSide(side);
-        this.log('Position side mapping', { orderSide: side, positionSide });
-
-        // Update or create position
-        this.log('Updating or creating futures position...');
-        await this.updateOrCreateFuturesPosition(userId, symbol, positionSide, quantity, executionPrice, leverage, margin);
-
-        // Update balance (deduct margin + fees)
-        this.log('Updating user balance...');
-        await this.updateUserBalance(userId, -totalRequired, 'TRADE', `Futures ${side} ${symbol}`);
-
-        // Record order
-        this.log('Recording futures order...');
-        const { data: order, error: orderError } = await supabase
-          .from('orders')
-          .insert({
-            user_id: userId,
-            symbol,
-            side,
-            type,
-            quantity: parseFloat(quantity),
-            price: parseFloat(executionPrice),
-            filled_quantity: parseFloat(quantity),
-            average_fill_price: parseFloat(executionPrice),
-            status: 'FILLED',
-            market_type: 'FUTURES',
-            leverage: parseInt(leverage),
-            fee: parseFloat(fees),
-            filled_at: new Date().toISOString(),
-            created_at: new Date().toISOString()
-          })
-          .select()
-          .single();
-
-        if (orderError) {
-          this.log('Error recording futures order:', orderError);
-          throw orderError;
-        }
-
-        // Record trade history (non-critical)
-        try {
-          const { error: tradeError } = await supabase
-            .from('trade_history')
-            .insert({
-              user_id: userId,
-              order_id: order.id,
-              symbol,
-              side,
-              quantity: parseFloat(quantity),
-              price: parseFloat(executionPrice),
-              fee: parseFloat(fees),
-              market_type: 'FUTURES',
-              created_at: new Date().toISOString()
-            });
-
-          if (tradeError) {
-            this.log('Warning: Failed to record trade history (non-critical):', tradeError);
-          }
-        } catch (tradeError) {
-          this.log('Warning: Trade history recording failed (non-critical):', tradeError);
-        }
-
-        const result = {
-          success: true,
-          orderId: order.id,
-          executionPrice,
-          quantity,
-          fees,
-          margin,
-          leverage
+        const orderDataToInsert = {
+          user_id: userId,
+          symbol,
+          side,
+          type,
+          quantity: parseFloat(quantity),
+          price: parseFloat(price),
+          filled_quantity: 0,
+          fee: 0,
+          market_type: 'FUTURES',
+          leverage: parseInt(leverage),
+          created_at: new Date().toISOString()
         };
 
-        this.log('✅ Futures order completed successfully', result);
-        return result;
+        if (type === 'MARKET') {
+          // For market, check margin immediately
+          // Calculate execution price
+          const executionPrice = price;
+          if (!executionPrice || isNaN(executionPrice) || executionPrice <= 0) {
+            throw new Error('Invalid execution price calculated');
+          }
+
+          const positionValue = quantity * executionPrice;
+          const margin = positionValue / leverage;
+          const feeRate = 0.0004; // 0.04% fee for futures
+          const fees = positionValue * feeRate;
+          const totalRequired = margin + fees;
+
+          this.log('Futures order calculations', {
+            executionPrice,
+            positionValue,
+            margin,
+            fees,
+            totalRequired,
+            leverage
+          });
+
+          // Check available margin
+          const balance = await this.getUserBalance(userId);
+          if (totalRequired > balance) {
+            throw new Error(`Insufficient margin. Required: $${totalRequired.toFixed(2)}, Available: $${balance.toFixed(2)}`);
+          }
+
+          // Map order side to position side
+          const positionSide = this.mapOrderSideToPositionSide(side);
+          this.log('Position side mapping', { orderSide: side, positionSide });
+
+          // Update or create position (no trade_history for open)
+          this.log('Updating or creating futures position...');
+          await this.updateOrCreateFuturesPosition(userId, symbol, positionSide, quantity, executionPrice, leverage, margin);
+
+          // Update balance (deduct margin + fees)
+          this.log('Updating user balance...');
+          await this.updateUserBalance(userId, -totalRequired, 'TRADE', `Futures ${side} ${symbol}`);
+
+          // Record filled order
+          this.log('Recording futures order...');
+          const { data: order, error: orderError } = await supabase
+            .from('orders')
+            .insert({
+              ...orderDataToInsert,
+              filled_quantity: parseFloat(quantity),
+              average_fill_price: parseFloat(executionPrice),
+              status: 'FILLED',
+              fee: parseFloat(fees),
+              filled_at: new Date().toISOString()
+            })
+            .select()
+            .single();
+
+          if (orderError) {
+            this.log('Error recording futures order:', orderError);
+            throw orderError;
+          }
+
+          const result = {
+            success: true,
+            orderId: order.id,
+            executionPrice,
+            quantity,
+            fees,
+            margin,
+            leverage
+          };
+
+          this.log('✅ Futures order completed successfully', result);
+          return result;
+        } else {
+          // For limit, insert pending
+          const { data: order, error: orderError } = await supabase
+            .from('orders')
+            .insert(orderDataToInsert)
+            .select()
+            .single();
+
+          if (orderError) {
+            this.log('Error recording pending futures order:', orderError);
+            throw orderError;
+          }
+
+          this.log('✅ Futures limit order placed successfully', { orderId: order.id });
+          return { success: true, orderId: order.id, status: 'PENDING' };
+        }
 
       } catch (error) {
         this.log('❌ Futures order failed:', error);
@@ -919,8 +972,7 @@ class TradingService {
           if (existing.side !== positionSide) {
             // Close existing opposite position
             this.log('Closing opposite position before opening new...');
-            const pnl = this.calculatePnL(existing, executionPrice);
-            await this.closeFuturesPosition(userId, existing, executionPrice, pnl);
+            await this.closeFuturesPosition(userId, existing, executionPrice);
             
             // Verify the position is now CLOSED before proceeding
             const { data: updatedPosition } = await supabase
@@ -1039,39 +1091,35 @@ class TradingService {
     }
   }
 
-  async closeFuturesPosition(userId, position, closePrice, pnl) {
+  async closeFuturesPosition(userId, position, closePrice) {
     return await this.queueTransaction(async () => {
       try {
         await this.ensureInitialized();
         
-        this.log('🟥 Closing futures position', { positionId: position.id, closePrice, pnl });
+        this.log('🟥 Closing futures position', { positionId: position.id, closePrice });
 
         return await this.retryOperation(async () => {
-          const { error } = await supabase
-            .from('positions')
-            .update({
-              status: 'CLOSED',
-              current_price: parseFloat(closePrice),
-              unrealized_pnl: 0,
-              realized_pnl: parseFloat(pnl),
-              closed_at: new Date().toISOString(),
-              updated_at: new Date().toISOString()
-            })
-            .eq('id', position.id);
+          const { data, error } = await supabase.rpc('close_futures_position', {
+            p_user_id: userId,
+            p_position_id: position.id,
+            p_close_price: closePrice
+          });
 
           if (error) {
-            this.log('Error closing position:', error);
+            this.log('RPC error closing position:', error);
             throw error;
           }
 
-          const balanceChange = position.margin + pnl;
-          await this.updateUserBalance(userId, balanceChange, 'PNL', 
-            `Closed ${position.side} ${position.symbol} position`);
+          if (!data.success) {
+            this.log('DB function failed closing position:', data.error);
+            throw new Error(data.error || 'Failed to close position');
+          }
 
           const result = {
             success: true,
-            pnl,
-            closedQuantity: position.quantity
+            grossPnl: data.gross_pnl,
+            closedQuantity: data.closed_quantity,
+            closeFee: data.close_fee
           };
 
           this.log('✅ Position closed successfully', result);
@@ -1167,8 +1215,7 @@ class TradingService {
               this.log(`Skipping position ${position.id} due to invalid price`);
               continue;
             }
-            const pnl = this.calculatePnL(position, currentPrice);
-            await this.closeFuturesPosition(userId, position, currentPrice, pnl);
+            await this.closeFuturesPosition(userId, position, currentPrice);
             successCount++;
           } catch (error) {
             this.log(`Failed to close position ${position.id}:`, error);
@@ -1182,6 +1229,106 @@ class TradingService {
       this.log('Error closing all positions:', error);
       throw error;
     }
+  }
+
+  calculateFillFees(quantity, price, marketType) {
+    const value = quantity * price;
+    const rate = marketType === 'FUTURES' ? 0.0004 : 0.001;
+    return value * rate;
+  }
+
+  async processPendingOrdersForSymbol(symbol, currentPrice) {
+    if (!currentPrice || isNaN(currentPrice) || currentPrice <= 0) return;
+
+    try {
+      const { data: pendingOrders, error } = await supabase
+        .from('orders')
+        .select('*')
+        .eq('symbol', symbol)
+        .eq('status', 'PENDING')
+        .order('created_at');
+
+      if (error || !pendingOrders || pendingOrders.length === 0) return;
+
+      this.log(`Processing ${pendingOrders.length} pending orders for ${symbol} at price ${currentPrice}`);
+
+      for (const order of pendingOrders) {
+        const shouldFill = 
+          (order.side === 'BUY' && currentPrice <= order.price) ||
+          (order.side === 'SELL' && currentPrice >= order.price);
+
+        if (!shouldFill) continue;
+
+        this.log(`Filling order ${order.id}: ${order.side} ${order.quantity} at ${order.price}`);
+
+        try {
+          await this.fillOrder(order, currentPrice);
+        } catch (fillError) {
+          this.log(`Failed to fill order ${order.id}:`, fillError);
+        }
+      }
+    } catch (error) {
+      this.log('Error processing pending orders:', error);
+    }
+  }
+
+  async fillOrder(order, fillPrice) {
+    const { id, user_id, symbol, side, type, quantity, market_type, leverage } = order;
+
+    const fees = this.calculateFillFees(quantity, fillPrice, market_type);
+    const fillQuantity = quantity; // full fill
+    const averageFillPrice = fillPrice; // simple
+
+    // Update order
+    const { error: orderError } = await supabase
+      .from('orders')
+      .update({
+        filled_quantity: fillQuantity,
+        average_fill_price: averageFillPrice,
+        status: 'FILLED',
+        fee: fees,
+        filled_at: new Date().toISOString()
+      })
+      .eq('id', id);
+
+    if (orderError) throw orderError;
+
+    // Execute fill (trade_history handled inside for closes)
+    if (market_type === 'SPOT') {
+      await this.executeSpotFill(user_id, symbol, side, fillQuantity, averageFillPrice, fees, id);
+    } else {
+      await this.executeFuturesFill(user_id, symbol, side, fillQuantity, averageFillPrice, leverage, fees, id);
+    }
+  }
+
+  async executeSpotFill(userId, symbol, side, quantity, price, fees, order_id) {
+    const totalValue = quantity * price;
+
+    if (side === 'BUY') {
+      const totalCost = totalValue + fees;
+      await this.updateUserBalance(userId, -totalCost, 'TRADE', `Spot fill ${side} ${quantity} ${symbol}`);
+      await this.updateSpotHolding(userId, symbol, quantity, price, 'BUY'); // No trade_history
+    } else {
+      await this.updateSpotHolding(userId, symbol, quantity, price, 'SELL', fees, order_id); // Handles trade_history
+      const proceeds = totalValue - fees;
+      await this.updateUserBalance(userId, proceeds, 'TRADE', `Spot fill ${side} ${quantity} ${symbol}`);
+    }
+  }
+
+  async executeFuturesFill(userId, symbol, side, quantity, price, leverage, fees, order_id) {
+    const positionValue = quantity * price;
+    const margin = positionValue / leverage;
+    const totalRequired = margin + fees;
+
+    // Check balance
+    const balance = await this.getUserBalance(userId);
+    if (totalRequired > balance) {
+      throw new Error(`Insufficient margin for fill`);
+    }
+
+    const positionSide = this.mapOrderSideToPositionSide(side);
+    await this.updateOrCreateFuturesPosition(userId, symbol, positionSide, quantity, price, leverage, margin);
+    await this.updateUserBalance(userId, -totalRequired, 'TRADE', `Futures fill ${side} ${quantity} ${symbol}`);
   }
 }
 
