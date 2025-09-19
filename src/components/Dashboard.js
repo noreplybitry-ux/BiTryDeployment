@@ -245,10 +245,10 @@ export default function Dashboard() {
   const totalBalanceBTC = totalBalance ? (totalBalance / btcPrice).toFixed(6) : 0;
   const availableBalance = totalBalance - (ongoingPositions.reduce((sum, pos) => sum + (pos.margin || 0), 0));
   const unrealizedPnL = ongoingPositions.reduce((sum, pos) => sum + (pos.unrealized_pnl || 0), 0);
+  const today = new Date();
   const todayPnL = recentTrades
     .filter(trade => {
       const tradeDate = new Date(trade.created_at);
-      const today = new Date('2025-09-18'); // Current date as per context
       return tradeDate.toDateString() === today.toDateString();
     })
     .reduce((sum, trade) => sum + (trade.pnl || 0), 0);
@@ -261,8 +261,29 @@ export default function Dashboard() {
   const totalRealizedPnL = recentTrades.reduce((sum, trade) => sum + (trade.pnl || 0), 0);
   const avgReturn = totalTrades > 0 ? (totalRealizedPnL / totalTrades).toFixed(2) : 0;
 
+  const pnls = recentTrades.map(t => t.pnl || 0);
+  const winningPnls = pnls.filter(p => p > 0);
+  const losingPnls = pnls.filter(p => p < 0);
+  const bestTrade = winningPnls.length > 0 ? Math.max(...winningPnls) : 0;
+  const worstTrade = losingPnls.length > 0 ? Math.min(...losingPnls) : 0;
+
   const totalPositionsData = [{ name: "Wins", value: winningTrades }, { name: "Losses", value: losingTrades }];
   const winRateData = [{ name: "Wins", value: parseFloat(winRate) }, { name: "Losses", value: 100 - parseFloat(winRate) }];
+
+  // Function to get filtered trades based on time period
+  const getFilteredTrades = (period) => {
+    const now = new Date();
+    let daysAgo;
+    switch (period) {
+      case '1d': daysAgo = 1; break;
+      case '7d': daysAgo = 7; break;
+      case '30d': daysAgo = 30; break;
+      case '90d': daysAgo = 90; break;
+      default: daysAgo = 7;
+    }
+    const cutoff = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1000);
+    return recentTrades.filter(trade => new Date(trade.created_at) >= cutoff);
+  };
 
   // Map ongoing positions to table data
   const ongoingTradesData = ongoingPositions.map(pos => ({
@@ -278,21 +299,6 @@ export default function Dashboard() {
     pnlPercent: ((pos.unrealized_pnl / pos.margin) * 100).toFixed(2),
     leverage: `${pos.leverage}x`,
     timestamp: new Date(pos.opened_at).toLocaleString()
-  }));
-
-  // Map recent trades to table data (now using closed trades with entry/exit/pnl)
-  const recentTradesData = recentTrades.slice(0, 4).map(trade => ({
-    id: trade.id,
-    symbol: trade.symbol,
-    coin: trade.symbol.replace('USDT', ''),
-    side: trade.side,
-    size: trade.quantity.toFixed(4),
-    entryPrice: `$${trade.entry_price ? trade.entry_price.toFixed(2) : 'N/A'}`,
-    exitPrice: `$${trade.exit_price ? trade.exit_price.toFixed(2) : 'N/A'}`,
-    pnl: trade.pnl || 0,
-    pnlPercent: trade.entry_price && trade.exit_price ? (((trade.exit_price - trade.entry_price) / trade.entry_price) * 100).toFixed(2) : 0,
-    fees: getDisplayAmount(trade.fee || 0).toFixed(2),
-    closeTime: new Date(trade.created_at).toLocaleString()
   }));
 
   // Fetch user profile on component mount
@@ -757,7 +763,7 @@ export default function Dashboard() {
                       {balanceVisible ? <IoEye /> : <IoEyeOff />}
                     </button>
                     <button className="currency-toggle" onClick={() => setCurrency(c => c === 'USD' ? 'PHP' : 'USD')}>
-                      {currency === 'USD' ? 'PHP' : 'USD'}
+                      {currency === 'USD' ? '₱' : '$'}
                     </button>
                   </div>
                 </div>
@@ -903,106 +909,145 @@ export default function Dashboard() {
                 </div>
               </div>
 
-              <div className="analytics-grid">
-                <div className="chart-card">
-                  <div className="chart-header">
-                    <h4>Win/Loss Distribution</h4>
-                  </div>
-                  <div className="chart-content">
-                    <PieStat data={totalPositionsData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${totalTrades}`} subLabel="Total Trades" />
-                    <div className="chart-legend">
-                      <div className="legend-item">
-                        <div className="legend-color wins"></div>
-                        <span>Wins: {winningTrades}</span>
-                      </div>
-                      <div className="legend-item">
-                        <div className="legend-color losses"></div>
-                        <span>Losses: {losingTrades}</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              {(() => {
+                const filteredTrades = getFilteredTrades(timeFilter);
+                const filteredTotalTrades = filteredTrades.length;
+                const filteredWinningTrades = filteredTrades.filter((trade) => (trade.pnl || 0) > 0).length;
+                const filteredLosingTrades = filteredTrades.filter((trade) => (trade.pnl || 0) < 0).length;
+                const filteredWinRate = filteredTotalTrades > 0 ? ((filteredWinningTrades / filteredTotalTrades) * 100).toFixed(1) : 0;
+                const filteredPnls = filteredTrades.map(t => t.pnl || 0);
+                const filteredWinningPnls = filteredPnls.filter(p => p > 0);
+                const filteredLosingPnls = filteredPnls.filter(p => p < 0);
+                const filteredBestTrade = filteredWinningPnls.length > 0 ? Math.max(...filteredWinningPnls) : 0;
+                const filteredWorstTrade = filteredLosingPnls.length > 0 ? Math.min(...filteredLosingPnls) : 0;
 
-                <div className="chart-card">
-                  <div className="chart-header">
-                    <h4>Win Rate</h4>
-                  </div>
-                  <div className="chart-content">
-                    <PieStat data={winRateData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${winRate}%`} subLabel="Success Rate" />
-                    <div className="performance-metrics">
-                      <div className="metric">
-                        <span className="metric-label">Best Trade:</span>
-                        <span className="metric-value positive">{getCurrencySymbol()}{getDisplayAmount(Math.max(...recentTrades.map(t => t.pnl || 0).filter(p => p > 0) || 0)).toFixed(2)}</span>
+                const filteredTotalPositionsData = [{ name: "Wins", value: filteredWinningTrades }, { name: "Losses", value: filteredLosingTrades }];
+                const filteredWinRateData = [{ name: "Wins", value: parseFloat(filteredWinRate) }, { name: "Losses", value: 100 - parseFloat(filteredWinRate) }];
+
+                return (
+                  <div className="analytics-grid">
+                    <div className="chart-card">
+                      <div className="chart-header">
+                        <h4>Win/Loss Distribution</h4>
                       </div>
-                      <div className="metric">
-                        <span className="metric-label">Worst Trade:</span>
-                        <span className="metric-value negative">{getCurrencySymbol()}{getDisplayAmount(Math.abs(Math.min(...recentTrades.map(t => t.pnl || 0).filter(p => p < 0) || 0))).toFixed(2)}</span>
+                      <div className="chart-content">
+                        <PieStat data={filteredTotalPositionsData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${filteredTotalTrades}`} subLabel="Total Trades" />
+                        <div className="chart-legend">
+                          <div className="legend-item">
+                            <div className="legend-color wins"></div>
+                            <span>Wins: {filteredWinningTrades}</span>
+                          </div>
+                          <div className="legend-item">
+                            <div className="legend-color losses"></div>
+                            <span>Losses: {filteredLosingTrades}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="chart-card">
+                      <div className="chart-header">
+                        <h4>Win Rate</h4>
+                      </div>
+                      <div className="chart-content">
+                        <PieStat data={filteredWinRateData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${filteredWinRate}%`} subLabel="Success Rate" showPercentage={true} />
+                        <div className="performance-metrics">
+                          <div className="metric">
+                            <span className="metric-label">Best Trade:</span>
+                            <span className="metric-value positive">{getCurrencySymbol()}{getDisplayAmount(filteredBestTrade).toFixed(2)}</span>
+                          </div>
+                          <div className="metric">
+                            <span className="metric-label">Worst Trade:</span>
+                            <span className="metric-value negative">{getCurrencySymbol()}{getDisplayAmount(Math.abs(filteredWorstTrade)).toFixed(2)}</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                );
+              })()}
             </section>
           </>
         )}
 
         {activeTab === "history" && (
-          <section className="page-card">
-            <div className="section-header">
-              <h3>Trading History</h3>
-              <div className="section-actions">
-                <select className="filter-select">
-                  <option>Last 7 days</option>
-                  <option>Last 30 days</option>
-                  <option>Last 90 days</option>
-                </select>
-              </div>
-            </div>
+          (() => {
+            const filteredTrades = getFilteredTrades(timeFilter);
+            const recentTradesData = filteredTrades.slice(0, 4).map(trade => ({
+              id: trade.id,
+              symbol: trade.symbol,
+              coin: trade.symbol.replace('USDT', ''),
+              side: trade.side,
+              size: trade.quantity.toFixed(4),
+              entryPrice: `$${trade.entry_price ? trade.entry_price.toFixed(2) : 'N/A'}`,
+              exitPrice: `$${trade.exit_price ? trade.exit_price.toFixed(2) : 'N/A'}`,
+              pnl: trade.pnl || 0,
+              pnlPercent: trade.entry_price && trade.exit_price ? (((trade.exit_price - trade.entry_price) / trade.entry_price) * 100).toFixed(2) : 0,
+              fees: getDisplayAmount(trade.fee || 0).toFixed(2),
+              closeTime: new Date(trade.created_at).toLocaleString()
+            }));
 
-            <div className="table-container">
-              <table className="modern-table">
-                <thead>
-                  <tr>
-                    <th>Market</th>
-                    <th>Side</th>
-                    <th>Size</th>
-                    <th>Entry Price</th>
-                    <th>Exit Price</th>
-                    <th>PnL</th>
-                    <th>Fees</th>
-                    <th>Close Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {recentTradesData.map((trade) => (
-                    <tr key={trade.id} className="trade-row">
-                      <td>
-                        <div className="market-cell">
-                          <CryptoLogo symbol={trade.symbol} size={28} />
-                          <div className="market-info">
-                            <div className="symbol">{trade.symbol}</div>
-                            <div className="coin-name">{trade.coin}</div>
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <span className={`position-badge ${trade.side.toLowerCase()}`}>{trade.side}</span>
-                      </td>
-                      <td className="numeric">{trade.size}</td>
-                      <td className="numeric">{trade.entryPrice}</td>
-                      <td className="numeric">{trade.exitPrice}</td>
-                      <td className="pnl-cell">
-                        <div className={`pnl-value ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPnL(trade.pnl)}</div>
-                        <div className={`pnl-percent ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPercent(parseFloat(trade.pnlPercent))}</div>
-                      </td>
-                      <td className="numeric">{getCurrencySymbol()}{trade.fees}</td>
-                      <td className="timestamp">{trade.closeTime}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
+            return (
+              <section className="page-card">
+                <div className="section-header">
+                  <h3>Trading History</h3>
+                  <div className="section-actions">
+                    <div className="time-filters">
+                      {["1d", "7d", "30d", "90d"].map((period) => (
+                        <button key={period} className={`filter-btn ${timeFilter === period ? "active" : ""}`} onClick={() => setTimeFilter(period)}>
+                          {period}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="table-container">
+                  <table className="modern-table">
+                    <thead>
+                      <tr>
+                        <th>Market</th>
+                        <th>Side</th>
+                        <th>Size</th>
+                        <th>Entry Price</th>
+                        <th>Exit Price</th>
+                        <th>PnL</th>
+                        <th>Fees</th>
+                        <th>Close Time</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {recentTradesData.map((trade) => (
+                        <tr key={trade.id} className="trade-row">
+                          <td>
+                            <div className="market-cell">
+                              <CryptoLogo symbol={trade.symbol} size={28} />
+                              <div className="market-info">
+                                <div className="symbol">{trade.symbol}</div>
+                                <div className="coin-name">{trade.coin}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span className={`position-badge ${trade.side.toLowerCase()}`}>{trade.side}</span>
+                          </td>
+                          <td className="numeric">{trade.size}</td>
+                          <td className="numeric">{trade.entryPrice}</td>
+                          <td className="numeric">{trade.exitPrice}</td>
+                          <td className="pnl-cell">
+                            <div className={`pnl-value ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPnL(trade.pnl)}</div>
+                            <div className={`pnl-percent ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPercent(parseFloat(trade.pnlPercent))}</div>
+                          </td>
+                          <td className="numeric">{getCurrencySymbol()}{trade.fees}</td>
+                          <td className="timestamp">{trade.closeTime}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            );
+          })()
         )}
 
         {activeTab === "profile" && (
@@ -1097,11 +1142,11 @@ export default function Dashboard() {
                   </div>
                   <div className="stat-row">
                     <span>Best Trade</span>
-                    <strong className="positive">+{getCurrencySymbol()}{getDisplayAmount(Math.max(...recentTrades.map(t => t.pnl || 0).filter(p => p > 0) || 0)).toFixed(2)}</strong>
+                    <strong className="positive">+{getCurrencySymbol()}{getDisplayAmount(bestTrade).toFixed(2)}</strong>
                   </div>
                   <div className="stat-row">
                     <span>Worst Trade</span>
-                    <strong className="negative">-{getCurrencySymbol()}{getDisplayAmount(Math.abs(Math.min(...recentTrades.map(t => t.pnl || 0).filter(p => p < 0) || 0))).toFixed(2)}</strong>
+                    <strong className="negative">-{getCurrencySymbol()}{getDisplayAmount(Math.abs(worstTrade)).toFixed(2)}</strong>
                   </div>
                 </div>
               </div>
