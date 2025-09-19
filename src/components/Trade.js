@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import "../css/Trade.css";
 import TechnicalAnalysis from "./TechnicalAnalysis";
 import { usePriceData } from "../hooks/usePriceData";
@@ -139,7 +139,7 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
           hide_legend: false,
           hide_side_toolbar: false,
           allow_symbol_change: true,
-          save_image: false,
+          save_image: true,
           studies_overrides: {},
           width: "100%",
           height: "100%",
@@ -300,7 +300,7 @@ const CryptoIcon = ({ symbol, size = "small", imageUrl = null }) => {
   );
 };
 
-const PositionRow = ({ position, onClose, currentPrices }) => {
+const PositionRow = ({ position, onClose, currentPrices, cryptoImages }) => {
   const [isClosing, setIsClosing] = useState(false);
   const currentPrice = currentPrices[position.symbol] || position.current_price;
   const pnl = position.side === 'LONG' 
@@ -330,11 +330,14 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
     (position.side === 'SHORT' && currentPrice >= position.liquidation_price * 0.9)
   );
 
+  const liqPrice = position.liquidation_price || 0;
+  const positionImageUrl = cryptoImages[position.symbol];
+
   return (
     <tr className={`position-row ${isNearLiquidation ? 'near-liquidation' : ''}`}>
       <td>
         <div className="position-symbol">
-          <CryptoIcon symbol={position.symbol} size="small" />
+          <CryptoIcon symbol={position.symbol} size="small" imageUrl={positionImageUrl} />
           <div className="symbol-info">
             <div className="symbol-name">{position.symbol.replace('USDT', '')}/USDT</div>
             <div className={`position-side ${position.side.toLowerCase()}`}>
@@ -347,6 +350,7 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
       <td className="text-right">{Number(position.quantity).toFixed(4)}</td>
       <td className="text-right">${Number(position.entry_price).toFixed(4)}</td>
       <td className="text-right">${Number(currentPrice).toFixed(4)}</td>
+      <td className="text-right">${Number(liqPrice).toFixed(4)}</td>
       <td className={`text-right ${isProfit ? 'positive' : 'negative'}`}>
         <div>${pnl.toFixed(2)}</div>
         <div className="pnl-percent">{isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%</div>
@@ -366,19 +370,21 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
 };
 
 // Enhanced Spot Holding Row Component
-const SpotHoldingRow = ({ holding }) => {
+const SpotHoldingRow = ({ holding, cryptoImages }) => {
   const currentValue = holding.current_value || (holding.quantity * holding.average_price);
   const unrealizedPnl = holding.unrealized_pnl || 0;
   const pnlPercent = holding.average_price > 0 
     ? ((holding.current_price - holding.average_price) / holding.average_price) * 100 
     : 0;
   const isProfit = unrealizedPnl >= 0;
+  const holdingSymbol = `${holding.symbol}USDT`;
+  const holdingImageUrl = cryptoImages[holdingSymbol];
 
   return (
     <tr className="holding-row">
       <td>
         <div className="position-symbol">
-          <CryptoIcon symbol={`${holding.symbol}USDT`} size="small" />
+          <CryptoIcon symbol={holdingSymbol} size="small" imageUrl={holdingImageUrl} />
           <div className="symbol-info">
             <div className="symbol-name">{holding.symbol}</div>
             <div className="holding-type">Spot</div>
@@ -397,21 +403,21 @@ const SpotHoldingRow = ({ holding }) => {
   );
 };
 
-const OrderHistoryRow = ({ order }) => {
-  const isProfit = order.pnl >= 0;
+const OrderHistoryRow = ({ order, cryptoImages }) => {
   const statusColor = {
     'FILLED': 'success',
     'PENDING': 'warning',
     'CANCELLED': 'error',
     'REJECTED': 'error'
   }[order.status] || 'neutral';
+  const orderImageUrl = cryptoImages[order.symbol];
 
   return (
     <tr className="order-history-row">
       <td>{new Date(order.created_at).toLocaleString()}</td>
       <td>
         <div className="position-symbol">
-          <CryptoIcon symbol={order.symbol} size="small" />
+          <CryptoIcon symbol={order.symbol} size="small" imageUrl={orderImageUrl} />
           <span>{order.symbol.replace('USDT', '')}/USDT</span>
         </div>
       </td>
@@ -429,12 +435,194 @@ const OrderHistoryRow = ({ order }) => {
         </span>
       </td>
       <td>{order.market_type}</td>
-      {order.pnl !== null && order.pnl !== undefined && (
-        <td className={`text-right ${isProfit ? 'positive' : 'negative'}`}>
-          {isProfit ? '+' : ''}${Number(order.pnl).toFixed(2)}
-        </td>
-      )}
     </tr>
+  );
+};
+
+// Mobile Card Components
+const PositionCard = ({ position, onClose, currentPrices, cryptoImages }) => {
+  const [isClosing, setIsClosing] = useState(false);
+  const currentPrice = currentPrices[position.symbol] || position.current_price;
+  const pnl = position.side === 'LONG' 
+    ? (currentPrice - position.entry_price) * position.quantity
+    : (position.entry_price - currentPrice) * position.quantity;
+  const pnlPercent = (pnl / position.margin) * 100;
+  const isProfit = pnl >= 0;
+  const liqPrice = position.liquidation_price || 0;
+  const positionImageUrl = cryptoImages[position.symbol];
+
+  const handleClose = async () => {
+    if (currentPrice <= 0) {
+      alert('Invalid current price for closing position');
+      return;
+    }
+    setIsClosing(true);
+    try {
+      await onClose(position.id, currentPrice);
+    } catch (error) {
+      console.error('Error closing position:', error);
+      alert('Failed to close position: ' + error.message);
+    } finally {
+      setIsClosing(false);
+    }
+  };
+
+  const isNearLiquidation = position.liquidation_price && (
+    (position.side === 'LONG' && currentPrice <= position.liquidation_price * 1.1) ||
+    (position.side === 'SHORT' && currentPrice >= position.liquidation_price * 0.9)
+  );
+
+  return (
+    <div className={`position-card ${isNearLiquidation ? 'near-liquidation' : ''}`}>
+      <div className="card-header">
+        <div className="symbol-section">
+          <CryptoIcon symbol={position.symbol} size="small" imageUrl={positionImageUrl} />
+          <div className="symbol-info">
+            <div className="symbol-name">{position.symbol.replace('USDT', '')}/USDT</div>
+            <div className={`position-side ${position.side.toLowerCase()}`}>
+              {position.side} {position.leverage}x
+            </div>
+          </div>
+        </div>
+        {isNearLiquidation && <div className="liquidation-warning">⚠️ Near Liquidation</div>}
+      </div>
+      <div className="card-body">
+        <div className="row">
+          <span>Size</span>
+          <span className="text-right">{Number(position.quantity).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Entry Price</span>
+          <span className="text-right">${Number(position.entry_price).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Mark Price</span>
+          <span className="text-right">${Number(currentPrice).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Liq. Price</span>
+          <span className="text-right">${Number(liqPrice).toFixed(4)}</span>
+        </div>
+        <div className={`row pnl-row ${isProfit ? 'positive' : 'negative'}`}>
+          <span>P&L</span>
+          <span className="text-right">
+            ${pnl.toFixed(2)} ({isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%)
+          </span>
+        </div>
+      </div>
+      <div className="card-footer">
+        <button 
+          className="close-btn" 
+          onClick={handleClose}
+          disabled={isClosing || currentPrice <= 0}
+        >
+          {isClosing ? 'Closing...' : 'Close'}
+        </button>
+      </div>
+    </div>
+  );
+};
+
+const SpotHoldingCard = ({ holding, cryptoImages }) => {
+  const currentValue = holding.current_value || (holding.quantity * holding.average_price);
+  const unrealizedPnl = holding.unrealized_pnl || 0;
+  const pnlPercent = holding.average_price > 0 
+    ? ((holding.current_price - holding.average_price) / holding.average_price) * 100 
+    : 0;
+  const isProfit = unrealizedPnl >= 0;
+  const holdingSymbol = `${holding.symbol}USDT`;
+  const holdingImageUrl = cryptoImages[holdingSymbol];
+
+  return (
+    <div className="holding-card">
+      <div className="card-header">
+        <div className="symbol-section">
+          <CryptoIcon symbol={holdingSymbol} size="small" imageUrl={holdingImageUrl} />
+          <div className="symbol-info">
+            <div className="symbol-name">{holding.symbol}</div>
+            <div className="holding-type">Spot</div>
+          </div>
+        </div>
+      </div>
+      <div className="card-body">
+        <div className="row">
+          <span>Quantity</span>
+          <span className="text-right">{Number(holding.quantity).toFixed(6)}</span>
+        </div>
+        <div className="row">
+          <span>Avg Price</span>
+          <span className="text-right">${Number(holding.average_price).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Current Price</span>
+          <span className="text-right">${Number(holding.current_price || holding.average_price).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Value</span>
+          <span className="text-right">${currentValue.toFixed(2)}</span>
+        </div>
+        <div className={`row pnl-row ${isProfit ? 'positive' : 'negative'}`}>
+          <span>P&L</span>
+          <span className="text-right">
+            ${unrealizedPnl.toFixed(2)} ({isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%)
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const OrderHistoryCard = ({ order, cryptoImages }) => {
+  const statusColor = {
+    'FILLED': 'success',
+    'PENDING': 'warning',
+    'CANCELLED': 'error',
+    'REJECTED': 'error'
+  }[order.status] || 'neutral';
+  const orderImageUrl = cryptoImages[order.symbol];
+
+  return (
+    <div className="order-card">
+      <div className="card-header">
+        <div className="time">{new Date(order.created_at).toLocaleString()}</div>
+        <span className={`status-badge ${statusColor}`}>
+          {order.status}
+        </span>
+      </div>
+      <div className="card-body">
+        <div className="row">
+          <span>Symbol</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'flex-end' }}>
+            <CryptoIcon symbol={order.symbol} size="small" imageUrl={orderImageUrl} />
+            <span>{order.symbol.replace('USDT', '')}/USDT</span>
+          </div>
+        </div>
+        <div className="row">
+          <span>Side</span>
+          <span className="text-right">
+            <span className={`side-badge ${order.side.toLowerCase()}`}>
+              {order.side}
+            </span>
+          </span>
+        </div>
+        <div className="row">
+          <span>Type</span>
+          <span className="text-right">{order.type}</span>
+        </div>
+        <div className="row">
+          <span>Quantity</span>
+          <span className="text-right">{Number(order.quantity).toFixed(6)}</span>
+        </div>
+        <div className="row">
+          <span>Price</span>
+          <span className="text-right">${Number(order.price || 0).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Market</span>
+          <span className="text-right">{order.market_type}</span>
+        </div>
+      </div>
+    </div>
   );
 };
 
@@ -480,7 +668,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const userEditedRef = useRef(false);
   const [cryptoPage, setCryptoPage] = useState(1);
   const [hasMoreCryptos, setHasMoreCryptos] = useState(true);
-  // Removed minOrderSizes and supportedSymbolsRefs - use fallback always
+
+  const cryptoImages = useMemo(() => {
+    return cryptoList.reduce((acc, c) => {
+      acc[c.value] = c.image;
+      return acc;
+    }, {});
+  }, [cryptoList]);
 
   useEffect(() => {
     if (orderError) {
@@ -495,8 +689,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       return () => clearTimeout(timer);
     }
   }, [orderSuccess]);
-
-  // Removed useEffect for fetchBinanceInfo - no client-side Binance fetch
 
   useEffect(() => {
     let isMounted = true;
@@ -850,6 +1042,11 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     return !qty || qty <= 0 || isSubmittingOrder || !user || (orderType === 'market' && (!price || price <= 0));
   };
 
+  const spotTotalPnl = spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0);
+  const spotTotalValue = spotHoldings.reduce((total, h) => 
+    total + (h.current_value || h.quantity * h.average_price), 0
+  );
+
   return (
     <div className="trade-page">
       {/* Notification Messages */}
@@ -869,13 +1066,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
 
       <header className="trade-header">
         <div className="header-top">
-          <div className="symbol-section">
+          <div className="left-controls">
             <div className="symbol-display">
               <CryptoIcon symbol={symbol} size="medium" imageUrl={currentImageUrl} />
               <div className="symbol-info">
                 <div className="symbol-name">{symbol.replace("USDT", "")}/USDT</div>
                 <div className="symbol-details">
-                  {isFutures ? "Perpetual" : "Spot"} • {interval}
+                  {isFutures ? "Perpetual Futures" : "Spot Trading"}
                   {!isConnected && (
                     <span className="connection-status disconnected"> • Reconnecting...</span>
                   )}
@@ -894,59 +1091,45 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               </div>
             </div>
           </div>
-          
-          <div className="controls-section">
-            <div className="search-controls">
-              <div className="search-container">
-                <input
-                  type="text"
-                  placeholder="Search pairs..."
-                  value={searchTerm}
-                  onChange={handleSearchChange}
-                  className="search-input"
-                />
-                <div className="search-icon">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-              </div>
 
-              <div className="symbol-selector">
-                <select
-                  className="symbol-select"
-                  value={symbol}
-                  onChange={(e) => {
-                    setSymbol(e.target.value);
-                    setSearchTerm("");
-                    setFilteredCrypto(cryptoList);
-                  }}
-                  onFocus={loadMoreCryptos}
-                >
-                  {filteredCrypto.map((s) => (
-                    <option key={s.value} value={s.value}>
-                      {s.label}
-                    </option>
-                  ))}
-                  {hasMoreCryptos && (
-                    <option disabled value="loading">
-                      {loading ? "Loading more..." : "Scroll to load more"}
-                    </option>
-                  )}
-                </select>
+          <div className="right-controls">
+            <div className="search-container">
+              <input
+                type="text"
+                placeholder="Search pairs..."
+                value={searchTerm}
+                onChange={handleSearchChange}
+                className="search-input"
+              />
+              <div className="search-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </div>
             </div>
 
-            <div className="interval-controls">
-              {INTERVAL_OPTIONS.map((i) => (
-                <button
-                  key={i}
-                  className={`interval-btn ${interval === i ? "active" : ""}`}
-                  onClick={() => setInterval(i)}
-                >
-                  {i}
-                </button>
-              ))}
+            <div className="symbol-selector">
+              <select
+                className="symbol-select"
+                value={symbol}
+                onChange={(e) => {
+                  setSymbol(e.target.value);
+                  setSearchTerm("");
+                  setFilteredCrypto(cryptoList);
+                }}
+                onFocus={loadMoreCryptos}
+              >
+                {filteredCrypto.map((s) => (
+                  <option key={s.value} value={s.value}>
+                    {s.label}
+                  </option>
+                ))}
+                {hasMoreCryptos && (
+                  <option disabled value="loading">
+                    {loading ? "Loading more..." : "Scroll to load more"}
+                  </option>
+                )}
+              </select>
             </div>
           </div>
         </div>
@@ -1205,163 +1388,250 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
 
         <div className="positions-body">
           {activeTab === 'positions' && (
-            isFutures ? (
-              positions.length > 0 ? (
-                <div className="trading-table-container">
-                  <table className="trading-table">
-                    <thead>
-                      <tr>
-                        <th>Symbol</th>
-                        <th className="text-right">Size</th>
-                        <th className="text-right">Entry Price</th>
-                        <th className="text-right">Current Price</th>
-                        <th className="text-right">P&L</th>
-                        <th className="text-center">Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
+            <div className="positions-content">
+              {isFutures ? (
+                positions.length > 0 ? (
+                  <>
+                    <div className="desktop-table">
+                      <div className="trading-table-container">
+                        <table className="trading-table">
+                          <thead>
+                            <tr>
+                              <th>Symbol</th>
+                              <th className="text-right">Size</th>
+                              <th className="text-right">Entry Price</th>
+                              <th className="text-right">Mark Price</th>
+                              <th className="text-right">Liq. Price</th>
+                              <th className="text-right">P&L</th>
+                              <th className="text-center">Actions</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {positions.map(position => (
+                              <PositionRow 
+                                key={position.id} 
+                                position={position} 
+                                onClose={closePosition}
+                                currentPrices={getCurrentPrices()}
+                                cryptoImages={cryptoImages}
+                              />
+                            ))}
+                          </tbody>
+                        </table>
+                        
+                        <div className="positions-summary">
+                          <div className="summary-item">
+                            <span>Total Positions:</span>
+                            <span>{positions.length}</span>
+                          </div>
+                          <div className="summary-item">
+                            <span>Used Margin:</span>
+                            <span>${usedMargin.toFixed(2)}</span>
+                          </div>
+                          <div className="summary-item">
+                            <span>Unrealized P&L:</span>
+                            <span className={totalPnL >= 0 ? "positive" : "negative"}>
+                              {totalPnL >= 0 ? "+" : ""}${totalPnL.toFixed(2)}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mobile-cards">
                       {positions.map(position => (
-                        <PositionRow 
+                        <PositionCard 
                           key={position.id} 
                           position={position} 
                           onClose={closePosition}
                           currentPrices={getCurrentPrices()}
+                          cryptoImages={cryptoImages}
                         />
                       ))}
-                    </tbody>
-                  </table>
-                  
-                  <div className="positions-summary">
-                    <div className="summary-item">
-                      <span>Total Positions:</span>
-                      <span>{positions.length}</span>
+                      <div className="positions-summary">
+                        <div className="summary-item">
+                          <span>Total Positions:</span>
+                          <span>{positions.length}</span>
+                        </div>
+                        <div className="summary-item">
+                          <span>Used Margin:</span>
+                          <span>${usedMargin.toFixed(2)}</span>
+                        </div>
+                        <div className="summary-item">
+                          <span>Unrealized P&L:</span>
+                          <span className={totalPnL >= 0 ? "positive" : "negative"}>
+                            {totalPnL >= 0 ? "+" : ""}${totalPnL.toFixed(2)}
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                    <div className="summary-item">
-                      <span>Used Margin:</span>
-                      <span>${usedMargin.toFixed(2)}</span>
-                    </div>
-                    <div className="summary-item">
-                      <span>Unrealized P&L:</span>
-                      <span className={totalPnL >= 0 ? "positive" : "negative"}>
-                        {totalPnL >= 0 ? "+" : ""}${totalPnL.toFixed(2)}
-                      </span>
+                  </>
+                ) : (
+                  <div className="empty-state">
+                    <div className="empty-icon">📊</div>
+                    <div className="empty-title">No positions yet</div>
+                    <div className="empty-subtitle">
+                      Your futures positions will appear here. Start by placing a trade above.
                     </div>
                   </div>
-                </div>
+                )
               ) : (
-                <div className="empty-state">
-                  <div className="empty-icon">📊</div>
-                  <div className="empty-title">No positions yet</div>
-                  <div className="empty-subtitle">
-                    Your futures positions will appear here. Start by placing a trade above.
-                  </div>
-                </div>
-              )
-            ) : (
-              spotHoldings.length > 0 ? (
-                <div className="trading-table-container">
-                  <table className="trading-table">
-                    <thead>
-                      <tr>
-                        <th>Asset</th>
-                        <th className="text-right">Quantity</th>
-                        <th className="text-right">Avg Price</th>
-                        <th className="text-right">Current Price</th>
-                        <th className="text-right">Value</th>
-                        <th className="text-right">P&L</th>
-                      </tr>
-                    </thead>
-                    <tbody>
+                spotHoldings.length > 0 ? (
+                  <>
+                    <div className="desktop-table">
+                      <div className="trading-table-container">
+                        <table className="trading-table">
+                          <thead>
+                            <tr>
+                              <th>Asset</th>
+                              <th className="text-right">Quantity</th>
+                              <th className="text-right">Avg Price</th>
+                              <th className="text-right">Current Price</th>
+                              <th className="text-right">Value</th>
+                              <th className="text-right">P&L</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {spotHoldings.map(holding => (
+                              <SpotHoldingRow 
+                                key={holding.id} 
+                                holding={holding}
+                                cryptoImages={cryptoImages}
+                              />
+                            ))}
+                          </tbody>
+                        </table>
+                        
+                        <div className="holdings-summary">
+                          <div className="summary-item">
+                            <span>Total Holdings:</span>
+                            <span>{spotHoldings.length}</span>
+                          </div>
+                          <div className="summary-item">
+                            <span>Total Value:</span>
+                            <span>${spotTotalValue.toFixed(2)}</span>
+                          </div>
+                          <div className="summary-item">
+                            <span>Unrealized P&L:</span>
+                            <span className={spotTotalPnl >= 0 ? "positive" : "negative"}>
+                              {spotTotalPnl >= 0 ? "+" : ""}${spotTotalPnl.toFixed(2)}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mobile-cards">
                       {spotHoldings.map(holding => (
-                        <SpotHoldingRow 
+                        <SpotHoldingCard 
                           key={holding.id} 
                           holding={holding}
+                          cryptoImages={cryptoImages}
                         />
                       ))}
-                    </tbody>
-                  </table>
-                  
-                  <div className="holdings-summary">
-                    <div className="summary-item">
-                      <span>Total Holdings:</span>
-                      <span>{spotHoldings.length}</span>
+                      <div className="holdings-summary">
+                        <div className="summary-item">
+                          <span>Total Holdings:</span>
+                          <span>{spotHoldings.length}</span>
+                        </div>
+                        <div className="summary-item">
+                          <span>Total Value:</span>
+                          <span>${spotTotalValue.toFixed(2)}</span>
+                        </div>
+                        <div className="summary-item">
+                          <span>Unrealized P&L:</span>
+                          <span className={spotTotalPnl >= 0 ? "positive" : "negative"}>
+                            {spotTotalPnl >= 0 ? "+" : ""}${spotTotalPnl.toFixed(2)}
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                    <div className="summary-item">
-                      <span>Total Value:</span>
-                      <span>
-                        ${spotHoldings.reduce((total, h) => 
-                          total + (h.current_value || h.quantity * h.average_price), 0
-                        ).toFixed(2)}
-                      </span>
-                    </div>
-                    <div className="summary-item">
-                      <span>Unrealized P&L:</span>
-                      <span className={
-                        spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0) >= 0 
-                          ? "positive" : "negative"
-                      }>
-                        {spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0) >= 0 
-                          ? "+" : ""}
-                        ${spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0).toFixed(2)}
-                      </span>
+                  </>
+                ) : (
+                  <div className="empty-state">
+                    <div className="empty-icon">💰</div>
+                    <div className="empty-title">No holdings yet</div>
+                    <div className="empty-subtitle">
+                      Your spot holdings will appear here. Start by buying some crypto above.
                     </div>
                   </div>
-                </div>
-              ) : (
-                <div className="empty-state">
-                  <div className="empty-icon">💰</div>
-                  <div className="empty-title">No holdings yet</div>
-                  <div className="empty-subtitle">
-                    Your spot holdings will appear here. Start by buying some crypto above.
-                  </div>
-                </div>
-              )
-            )
+                )
+              )}
+            </div>
           )}
 
           {activeTab === 'orders' && (
             orderHistory.length > 0 ? (
-              <div className="trading-table-container">
-                <table className="trading-table">
-                  <thead>
-                    <tr>
-                      <th>Time</th>
-                      <th>Symbol</th>
-                      <th>Side</th>
-                      <th>Type</th>
-                      <th className="text-right">Quantity</th>
-                      <th className="text-right">Price</th>
-                      <th>Status</th>
-                      <th>Market</th>
-                      <th className="text-right">P&L</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {orderHistory.slice(0, 50).map(order => (
-                      <OrderHistoryRow 
-                        key={order.id} 
-                        order={order}
-                      />
-                    ))}
-                  </tbody>
-                </table>
-                
-                <div className="orders-summary">
-                  <div className="summary-item">
-                    <span>Total Orders:</span>
-                    <span>{orderHistory.length}</span>
+              <div className="positions-content">
+                <div className="desktop-table">
+                  <div className="trading-table-container">
+                    <table className="trading-table">
+                      <thead>
+                        <tr>
+                          <th>Time</th>
+                          <th>Symbol</th>
+                          <th>Side</th>
+                          <th>Type</th>
+                          <th className="text-right">Quantity</th>
+                          <th className="text-right">Price</th>
+                          <th>Status</th>
+                          <th>Market</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {orderHistory.slice(0, 50).map(order => (
+                          <OrderHistoryRow 
+                            key={order.id} 
+                            order={order}
+                            cryptoImages={cryptoImages}
+                          />
+                        ))}
+                      </tbody>
+                    </table>
+                    
+                    <div className="orders-summary">
+                      <div className="summary-item">
+                        <span>Total Orders:</span>
+                        <span>{orderHistory.length}</span>
+                      </div>
+                      <div className="summary-item">
+                        <span>Filled Orders:</span>
+                        <span>{orderHistory.filter(o => o.status === 'FILLED').length}</span>
+                      </div>
+                      <div className="summary-item">
+                        <span>Success Rate:</span>
+                        <span>
+                          {orderHistory.length > 0 
+                            ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
+                            : 0}%
+                        </span>
+                      </div>
+                    </div>
                   </div>
-                  <div className="summary-item">
-                    <span>Filled Orders:</span>
-                    <span>{orderHistory.filter(o => o.status === 'FILLED').length}</span>
-                  </div>
-                  <div className="summary-item">
-                    <span>Success Rate:</span>
-                    <span>
-                      {orderHistory.length > 0 
-                        ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
-                        : 0}%
-                    </span>
+                </div>
+                <div className="mobile-cards">
+                  {orderHistory.slice(0, 20).map(order => (
+                    <OrderHistoryCard 
+                      key={order.id} 
+                      order={order}
+                      cryptoImages={cryptoImages}
+                    />
+                  ))}
+                  <div className="orders-summary">
+                    <div className="summary-item">
+                      <span>Total Orders:</span>
+                      <span>{orderHistory.length}</span>
+                    </div>
+                    <div className="summary-item">
+                      <span>Filled Orders:</span>
+                      <span>{orderHistory.filter(o => o.status === 'FILLED').length}</span>
+                    </div>
+                    <div className="summary-item">
+                      <span>Success Rate:</span>
+                      <span>
+                        {orderHistory.length > 0 
+                          ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
+                          : 0}%
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
