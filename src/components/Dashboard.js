@@ -26,7 +26,8 @@ import {
   FaLock,
   FaSpinner
 } from "react-icons/fa";
-import { usePortfolio } from "../hooks/usePortfolio"; // Import the portfolio hook for real data
+import { usePortfolio } from "../hooks/usePortfolio";
+import { v4 as uuidv4 } from 'uuid'; // Moved import to top
 
 // Fallback icon mapping (used if fetch to CoinGecko fails or no match)
 const fallbackIconMap = {
@@ -62,8 +63,6 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
     setErrored(false);
     setImgUrl(null);
 
-    // Use CoinGecko search endpoint which returns thumb & large URLs for matches
-    // e.g. https://api.coingecko.com/api/v3/search?query=btc
     const query = encodeURIComponent(baseSymbol);
     const url = `https://api.coingecko.com/api/v3/search?query=${query}`;
 
@@ -74,7 +73,6 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
       })
       .then((json) => {
         if (!mounted) return;
-        // prefer exact symbol match (symbol field), otherwise pick first coin whose id or name contains the query
         const coins = json.coins || [];
         let match = coins.find((c) => c.symbol?.toLowerCase() === baseSymbol);
         if (!match) {
@@ -86,10 +84,8 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
           );
         }
         if (match && (match.large || match.thumb)) {
-          // use large if available, else thumb
           setImgUrl(match.large || match.thumb);
         } else {
-          // no suitable match found
           setImgUrl(null);
           setErrored(true);
         }
@@ -109,7 +105,6 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
     };
   }, [baseSymbol]);
 
-  // If we have an image URL, render it (with onError fallback)
   if (imgUrl && !errored) {
     return (
       <img
@@ -123,7 +118,6 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
     );
   }
 
-  // Fallback: stylized circle with glyph or generic dot
   const fallback = fallbackIconMap[baseSymbol] || { icon: "◯", color: "#6B7280" };
   return (
     <div
@@ -252,7 +246,7 @@ export default function Dashboard() {
       return tradeDate.toDateString() === today.toDateString();
     })
     .reduce((sum, trade) => sum + (trade.pnl || 0), 0);
-  const dayChange = totalPnL > 0 ? ((totalPnL / totalBalance) * 100).toFixed(2) : 0; // % change based on current balance
+  const dayChange = totalPnL > 0 ? ((totalPnL / totalBalance) * 100).toFixed(2) : 0;
 
   const totalTrades = recentTrades.length;
   const winningTrades = recentTrades.filter((trade) => (trade.pnl || 0) > 0).length;
@@ -269,6 +263,59 @@ export default function Dashboard() {
 
   const totalPositionsData = [{ name: "Wins", value: winningTrades }, { name: "Losses", value: losingTrades }];
   const winRateData = [{ name: "Wins", value: parseFloat(winRate) }, { name: "Losses", value: 100 - parseFloat(winRate) }];
+
+  // Save calculated stats to user_balances table
+const saveUserStats = async () => {
+  if (!user) {
+    console.error('No authenticated user found');
+    setMessages({ error: 'No authenticated user found', success: '' });
+    return;
+  }
+
+  try {
+    const stats = {
+      user_id: user.id,
+      balance: typeof totalPortfolioValue === 'number' && !isNaN(totalPortfolioValue) ? totalPortfolioValue : 0,
+      currency: currency || 'USD',
+      portfolio_value: typeof totalPortfolioValue === 'number' && !isNaN(totalPortfolioValue) ? totalPortfolioValue : 0,
+      trade_count: Number.isInteger(totalTrades) ? totalTrades : 0,
+      win_rate: isFinite(parseFloat(winRate)) ? parseFloat(winRate) : 0,
+      best_trade: typeof bestTrade === 'number' && !isNaN(bestTrade) ? bestTrade : 0,
+      worst_trade: typeof worstTrade === 'number' && !isNaN(worstTrade) ? worstTrade : 0,
+      updated_at: new Date().toISOString()
+    };
+
+    console.log('Saving stats for user:', user.id, 'Stats:', stats); // Debug log
+
+    const { error } = await supabase
+      .from('user_balances')
+      .upsert(stats, {
+        onConflict: 'user_id',
+        ignoreDuplicates: false
+      });
+
+    if (error) {
+      console.error('Error saving user stats:', error.message, error.details, error.hint);
+      setMessages({ error: `Failed to save user stats: ${error.message}`, success: '' });
+    } else {
+      console.log('User stats saved successfully');
+      setMessages({ success: 'User stats saved successfully', error: '' });
+    }
+  } catch (error) {
+    console.error('Error in saveUserStats:', error);
+    setMessages({ error: `Failed to save user stats: ${error.message}`, success: '' });
+  }
+};
+
+  // Save stats whenever key metrics change
+  useEffect(() => {
+    if (user && !portfolioLoading) {
+      const debounceSave = setTimeout(() => {
+        saveUserStats();
+      }, 1000); // Debounce to prevent excessive updates
+      return () => clearTimeout(debounceSave);
+    }
+  }, [user, totalBalance, totalPortfolioValue, totalTrades, winRate, bestTrade, worstTrade, currency, portfolioLoading]);
 
   // Function to get filtered trades based on time period
   const getFilteredTrades = (period) => {
@@ -289,7 +336,7 @@ export default function Dashboard() {
   const ongoingTradesData = ongoingPositions.map(pos => ({
     id: pos.id,
     symbol: pos.symbol,
-    coin: pos.symbol.replace('USDT', ''), // Simple mapping, enhance if needed
+    coin: pos.symbol.replace('USDT', ''),
     position: pos.side,
     size: pos.quantity.toFixed(4),
     entryPrice: `$${pos.entry_price.toFixed(2)}`,
@@ -386,16 +433,14 @@ export default function Dashboard() {
     
     setLoading(true);
     try {
-      // First try to get existing profile
       let { data, error } = await supabase
         .from('profiles')
         .select('*')
         .eq('id', user.id)
-        .maybeSingle(); // Use maybeSingle instead of single to avoid errors when no record exists
+        .maybeSingle();
 
       if (error) {
         console.error('Error fetching profile:', error);
-        // If there's an error, try to create a new profile
         const { data: newProfile, error: createError } = await supabase
           .from('profiles')
           .upsert({ 
@@ -417,7 +462,6 @@ export default function Dashboard() {
       }
 
       if (!data) {
-        // Create profile if it doesn't exist
         const { data: newProfile, error: createError } = await supabase
           .from('profiles')
           .insert([{ 
@@ -442,7 +486,7 @@ export default function Dashboard() {
       });
     } catch (error) {
       console.error('Error in fetchProfile:', error);
-      setMessages({ ...messages, error: 'Failed to fetch profile data' });
+      setMessages({ error: 'Failed to fetch profile data', success: '' });
     } finally {
       setLoading(false);
     }
@@ -489,13 +533,11 @@ export default function Dashboard() {
 
       if (result.success) {
         setMessages({ success: 'Name updated successfully!', error: '' });
-        // Close modal after 1 second
         setTimeout(() => {
           setEditNameModal(false);
         }, 1000);
       } else {
         setMessages({ error: result.error, success: '' });
-        // Close modal after 3 seconds even on error
         setTimeout(() => {
           setEditNameModal(false);
         }, 3000);
@@ -514,13 +556,11 @@ export default function Dashboard() {
     const file = event.target.files[0];
     if (!file) return;
 
-    // Validate file type
     if (!file.type.startsWith('image/')) {
       setMessages({ error: 'Please select an image file', success: '' });
       return;
     }
 
-    // Validate file size (max 5MB)
     if (file.size > 5 * 1024 * 1024) {
       setMessages({ error: 'Image must be less than 5MB', success: '' });
       return;
@@ -529,7 +569,6 @@ export default function Dashboard() {
     setUploadingImage(true);
     
     try {
-      // Delete old profile picture if it exists
       if (profile.profile_picture_url) {
         const oldFileName = profile.profile_picture_url.split('/').pop();
         await supabase.storage
@@ -537,7 +576,6 @@ export default function Dashboard() {
           .remove([`${user.id}/${oldFileName}`]);
       }
 
-      // Upload new profile picture
       const fileExt = file.name.split('.').pop();
       const fileName = `${Date.now()}.${fileExt}`;
       const filePath = `${user.id}/${fileName}`;
@@ -551,12 +589,10 @@ export default function Dashboard() {
         throw uploadError;
       }
 
-      // Get public URL
       const { data: urlData } = supabase.storage
         .from('profile-pictures')
         .getPublicUrl(filePath);
 
-      // Update profile with new picture URL
       const result = await updateProfile({
         profile_picture_url: urlData.publicUrl
       });
@@ -571,7 +607,6 @@ export default function Dashboard() {
       setMessages({ error: 'Failed to upload profile picture', success: '' });
     } finally {
       setUploadingImage(false);
-      // Reset file input
       if (fileInputRef.current) {
         fileInputRef.current.value = '';
       }
@@ -594,9 +629,7 @@ export default function Dashboard() {
     setLoading(true);
     
     try {
-      // For Google users, they might not have a current password, so we skip verification
       if (!isGoogleUser) {
-        // Verify current password by attempting to sign in
         const { error: verifyError } = await supabase.auth.signInWithPassword({
           email: user.email,
           password: passwordForm.current_password
@@ -609,7 +642,6 @@ export default function Dashboard() {
         }
       }
 
-      // Update password
       const { error: updateError } = await supabase.auth.updateUser({
         password: passwordForm.new_password
       });
@@ -622,14 +654,12 @@ export default function Dashboard() {
       setMessages({ success: 'Password changed successfully!', error: '' });
       setPasswordForm({ current_password: '', new_password: '', confirm_password: '' });
       
-      // Close modal after 1 second
       setTimeout(() => {
         setChangePasswordModal(false);
       }, 1000);
     } catch (error) {
       console.error('Error changing password:', error);
       setMessages({ error: 'Failed to change password', success: '' });
-      // Close modal after 3 seconds even on error
       setTimeout(() => {
         setChangePasswordModal(false);
       }, 3000);
@@ -646,7 +676,6 @@ export default function Dashboard() {
     }
   };
 
-  // Clear messages after 5 seconds
   useEffect(() => {
     if (messages.success || messages.error) {
       const timer = setTimeout(() => {
@@ -697,14 +726,12 @@ export default function Dashboard() {
 
   return (
     <div className="dashboard">
-      {/* Messages */}
       {(messages.success || messages.error) && (
         <div className={`message-banner ${messages.error ? 'error' : 'success'}`}>
           {messages.success || messages.error}
         </div>
       )}
 
-      {/* Sidebar */}
       <aside className="sidebar" aria-label="Sidebar">
         <nav className="sidebar-nav">
           <div
@@ -746,11 +773,9 @@ export default function Dashboard() {
         </div>
       </aside>
 
-      {/* Main Content */}
       <main className="main-content" role="main">
         {activeTab === "overview" && (
           <>
-            {/* Portfolio Summary Cards */}
             <div className="summary-grid">
               <div className="summary-card balance-card">
                 <div className="card-header">
@@ -827,7 +852,6 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* Active Positions */}
             <section className="page-card positions-section">
               <div className="section-header">
                 <h3>Active Positions</h3>
@@ -896,7 +920,6 @@ export default function Dashboard() {
               )}
             </section>
 
-            {/* Performance Analytics */}
             <section className="page-card analytics-section">
               <div className="section-header">
                 <h3>Performance Analytics</h3>
@@ -1154,7 +1177,6 @@ export default function Dashboard() {
           </section>
         )}
 
-        {/* Edit Name Modal */}
         <EditModal
           isOpen={editNameModal}
           onClose={() => setEditNameModal(false)}
@@ -1212,7 +1234,6 @@ export default function Dashboard() {
           </form>
         </EditModal>
 
-        {/* Change Password Modal */}
         <EditModal
           isOpen={changePasswordModal}
           onClose={() => setChangePasswordModal(false)}

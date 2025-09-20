@@ -11,6 +11,7 @@ import Trade from "./components/Trade";
 import News from "./components/News";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Leaderboard from "./components/Leaderboard";
 import ForgotPassword from "./components/ForgotPassword";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/forgotpassword" element={<ForgotPassword />} />
+            <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="*" element={<Dashboard />} />
           </Routes>
         </main>
