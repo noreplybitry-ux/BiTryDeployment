@@ -2109,3 +2109,77 @@ body {
   /* Reuse position-row styles if needed */
 }
 
+/* SweetAlert2 Custom Styles */
+.swal2-popup {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text-primary);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.swal2-title {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.swal2-html-container {
+  color: var(--text-secondary);
+}
+
+.swal2-confirm {
+  background: var(--accent-blue) !important;
+  color: white !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+}
+
+.swal2-cancel {
+  background: var(--accent-red) !important;
+  color: white !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+}
+
+.swal2-input {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text-primary) !important;
+  border-radius: 8px !important;
+}
+
+.swal2-icon.swal2-success {
+  color: var(--accent-green) !important;
+  border-color: var(--accent-green) !important;
+}
+
+.swal2-icon.swal2-error {
+  color: var(--accent-red) !important;
+  border-color: var(--accent-red) !important;
+}
+
+.swal2-icon.swal2-warning {
+  color: var(--accent-orange) !important;
+  border-color: var(--accent-orange) !important;
+}
+
+.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step {
+  background: var(--accent-blue) !important;
+}
+
+.swal2-progress-steps .swal2-progress-step {
+  background: var(--surface) !important;
+}
+
+.swal2-timer-progress-bar {
+  background: var(--accent-blue) !important;
+}
+
+.swal2-actions .swal2-styled.swal2-confirm:focus,
+.swal2-actions .swal2-styled.swal2-cancel:focus {
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2) !important;
+}
+
+.swal2-input:focus {
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2) !important;
+}
