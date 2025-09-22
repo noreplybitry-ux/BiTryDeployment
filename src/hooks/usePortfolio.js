@@ -597,6 +597,25 @@ export const usePortfolio = () => {
     }
   };
 
+  const cancelOrder = async (orderId) => {
+    if (!user?.id) {
+      throw new Error('Please login to manage orders');
+    }
+
+    try {
+      const serviceReady = await initializeService();
+      if (!serviceReady) {
+        throw new Error('Trading service is not ready');
+      }
+
+      await tradingService.cancelOrder(user.id, orderId);
+      await loadPortfolioData();
+    } catch (error) {
+      debug('Cancel order failed:', error);
+      throw error;
+    }
+  };
+
   const getBalanceHistory = async () => {
     if (!user?.id) return [];
     
@@ -714,7 +733,7 @@ export const usePortfolio = () => {
     balanceHistory: balanceHistory || [],
     totalPnL: totalPnL || 0,
     totalPortfolioValue: totalPortfolioValue || 0,
-    portfolioSummary: portfolioSummary || {},
+   portfolioSummary: portfolioSummary || {},
     loading,
     initializationError,
 
@@ -731,6 +750,7 @@ export const usePortfolio = () => {
     refreshBalance,
     getBalanceHistory,
     getPortfolioMetrics,
+    cancelOrder,
 
     portfolioMetrics: getPortfolioMetrics(),
     

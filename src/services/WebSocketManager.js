@@ -134,10 +134,7 @@ class WebSocketManager {
         return;
       }
       
-      if (!this.subscribers.has(key)) {
-        return;
-      }
-
+      // Always store price data for all symbols
       const priceData = {
         symbol,
         marketType,
@@ -150,6 +147,7 @@ class WebSocketManager {
 
       this.priceData.set(key, priceData);
 
+      // Notify only if there are subscribers
       const symbolSubscribers = this.subscribers.get(key);
       if (symbolSubscribers) {
         symbolSubscribers.forEach(callback => {

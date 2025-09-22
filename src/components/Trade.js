@@ -4,10 +4,11 @@ import TechnicalAnalysis from "./TechnicalAnalysis";
 import { usePriceData } from "../hooks/usePriceData";
 import { usePortfolio } from "../hooks/usePortfolio";
 import { useAuth } from "../contexts/AuthContext";
+import webSocketManager from "../services/WebSocketManager";
+import Swal from 'sweetalert2';
 
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
-const INTERVAL_OPTIONS = ["1m", "5m", "15m", "1h", "4h", "1d"];
 
 const getCryptoIcon = (symbol) => {
   const baseSymbol = symbol.replace("USDT", "").toLowerCase();
@@ -40,9 +41,9 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
   const readyTimeoutRef = useRef(null);
   const initTimeoutRef = useRef(null);
 
-  const intervalMap = {
+  const intervalMap = useMemo(() => ({
     "1m": "1", "5m": "5", "15m": "15", "1h": "60", "4h": "240", "1d": "1D",
-  };
+  }), []);
 
   const tradingviewSymbol = isFutures ? `BINANCE:${symbol}.P` : `BINANCE:${symbol}`;
 
@@ -167,7 +168,7 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
           onChartReady: function () {
             if (readyTimeoutRef.current) {
               clearTimeout(readyTimeoutRef.current);
-              readyTimeoutRef.current = null;
+            readyTimeoutRef.current = null;
             }
             setIsLoading(false);
             setError(null);
@@ -231,7 +232,7 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
         widgetRef.current = null;
       }
     };
-  }, [symbol, interval, isFutures, scriptLoaded, tradingviewSymbol]);
+  }, [symbol, interval, isFutures, scriptLoaded, tradingviewSymbol, intervalMap]);
 
   return (
     <div className="chart-wrapper">
@@ -311,17 +312,45 @@ const PositionRow = ({ position, onClose, currentPrices, cryptoImages }) => {
 
   const handleClose = async () => {
     if (currentPrice <= 0) {
-      alert('Invalid current price for closing position');
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: 'Invalid current price for closing position',
+        confirmButtonColor: '#3085d6'
+      });
       return;
     }
-    setIsClosing(true);
-    try {
-      await onClose(position.id, currentPrice);
-    } catch (error) {
-      console.error('Error closing position:', error);
-      alert('Failed to close position: ' + error.message);
-    } finally {
-      setIsClosing(false);
+    const result = await Swal.fire({
+      title: 'Are you sure?',
+      text: `Close this ${position.side} position?`,
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, close it!'
+    });
+    if (result.isConfirmed) {
+      setIsClosing(true);
+      try {
+        await onClose(position.id, currentPrice);
+        Swal.fire({
+          icon: 'success',
+          title: 'Closed',
+          text: 'Position closed successfully',
+          timer: 2000,
+          showConfirmButton: false
+        });
+      } catch (error) {
+        console.error('Error closing position:', error);
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Failed to close position: ' + error.message,
+          confirmButtonColor: '#3085d6'
+        });
+      } finally {
+        setIsClosing(false);
+      }
     }
   };
 
@@ -370,7 +399,7 @@ const PositionRow = ({ position, onClose, currentPrices, cryptoImages }) => {
 };
 
 // Enhanced Spot Holding Row Component
-const SpotHoldingRow = ({ holding, cryptoImages }) => {
+const SpotHoldingRow = ({ holding, cryptoImages, onSell }) => {
   const currentValue = holding.current_value || (holding.quantity * holding.average_price);
   const unrealizedPnl = holding.unrealized_pnl || 0;
   const pnlPercent = holding.average_price > 0 
@@ -379,6 +408,60 @@ const SpotHoldingRow = ({ holding, cryptoImages }) => {
   const isProfit = unrealizedPnl >= 0;
   const holdingSymbol = `${holding.symbol}USDT`;
   const holdingImageUrl = cryptoImages[holdingSymbol];
+
+  const handleSell = async () => {
+    const { value: quantity } = await Swal.fire({
+      title: 'Sell Quantity',
+      input: 'number',
+      inputLabel: `Available: ${holding.quantity.toFixed(6)} ${holding.symbol}`,
+      inputPlaceholder: 'Enter quantity',
+      inputAttributes: {
+        min: 0,
+        max: holding.quantity,
+        step: 0.000001
+      },
+      showCancelButton: true,
+      confirmButtonText: 'Sell',
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      inputValidator: (value) => {
+        if (!value || value <= 0 || value > holding.quantity) {
+          return 'Invalid quantity';
+        }
+      }
+    });
+
+    if (quantity) {
+      const result = await Swal.fire({
+        title: 'Confirm Sell',
+        text: `Sell ${quantity} ${holding.symbol} at market price?`,
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#3085d6',
+        confirmButtonText: 'Yes, sell!'
+      });
+      if (result.isConfirmed) {
+        try {
+          await onSell(holding.symbol, quantity);
+          Swal.fire({
+            icon: 'success',
+            title: 'Sold',
+            text: 'Market sell executed successfully',
+            timer: 2000,
+            showConfirmButton: false
+          });
+        } catch (error) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: error.message,
+            confirmButtonColor: '#3085d6'
+          });
+        }
+      }
+    }
+  };
 
   return (
     <tr className="holding-row">
@@ -399,11 +482,14 @@ const SpotHoldingRow = ({ holding, cryptoImages }) => {
         <div>${unrealizedPnl.toFixed(2)}</div>
         <div className="pnl-percent">{isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%</div>
       </td>
+      <td className="text-center">
+        <button className="close-btn" onClick={handleSell}>Sell Market</button>
+      </td>
     </tr>
   );
 };
 
-const OrderHistoryRow = ({ order, cryptoImages }) => {
+const OrderHistoryRow = ({ order, cryptoImages, onCancel }) => {
   const statusColor = {
     'FILLED': 'success',
     'PENDING': 'warning',
@@ -411,6 +497,37 @@ const OrderHistoryRow = ({ order, cryptoImages }) => {
     'REJECTED': 'error'
   }[order.status] || 'neutral';
   const orderImageUrl = cryptoImages[order.symbol];
+
+  const handleCancel = async () => {
+    const result = await Swal.fire({
+      title: 'Cancel Order?',
+      text: 'Are you sure you want to cancel this pending order?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      confirmButtonText: 'Yes, cancel!'
+    });
+    if (result.isConfirmed) {
+      try {
+        await onCancel(order.id);
+        Swal.fire({
+          icon: 'success',
+          title: 'Cancelled',
+          text: 'Order cancelled successfully',
+          timer: 2000,
+          showConfirmButton: false
+        });
+      } catch (error) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: error.message,
+          confirmButtonColor: '#3085d6'
+        });
+      }
+    }
+  };
 
   return (
     <tr className="order-history-row">
@@ -435,6 +552,11 @@ const OrderHistoryRow = ({ order, cryptoImages }) => {
         </span>
       </td>
       <td>{order.market_type}</td>
+      <td className="text-center">
+        {order.status === 'PENDING' && (
+          <button className="close-btn" onClick={handleCancel}>Cancel</button>
+        )}
+      </td>
     </tr>
   );
 };
@@ -453,17 +575,45 @@ const PositionCard = ({ position, onClose, currentPrices, cryptoImages }) => {
 
   const handleClose = async () => {
     if (currentPrice <= 0) {
-      alert('Invalid current price for closing position');
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: 'Invalid current price for closing position',
+        confirmButtonColor: '#3085d6'
+      });
       return;
     }
-    setIsClosing(true);
-    try {
-      await onClose(position.id, currentPrice);
-    } catch (error) {
-      console.error('Error closing position:', error);
-      alert('Failed to close position: ' + error.message);
-    } finally {
-      setIsClosing(false);
+    const result = await Swal.fire({
+      title: 'Are you sure?',
+      text: `Close this ${position.side} position?`,
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, close it!'
+    });
+    if (result.isConfirmed) {
+      setIsClosing(true);
+      try {
+        await onClose(position.id, currentPrice);
+        Swal.fire({
+          icon: 'success',
+          title: 'Closed',
+          text: 'Position closed successfully',
+          timer: 2000,
+          showConfirmButton: false
+        });
+      } catch (error) {
+        console.error('Error closing position:', error);
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Failed to close position: ' + error.message,
+          confirmButtonColor: '#3085d6'
+        });
+      } finally {
+        setIsClosing(false);
+      }
     }
   };
 
@@ -523,7 +673,7 @@ const PositionCard = ({ position, onClose, currentPrices, cryptoImages }) => {
   );
 };
 
-const SpotHoldingCard = ({ holding, cryptoImages }) => {
+const SpotHoldingCard = ({ holding, cryptoImages, onSell }) => {
   const currentValue = holding.current_value || (holding.quantity * holding.average_price);
   const unrealizedPnl = holding.unrealized_pnl || 0;
   const pnlPercent = holding.average_price > 0 
@@ -532,6 +682,60 @@ const SpotHoldingCard = ({ holding, cryptoImages }) => {
   const isProfit = unrealizedPnl >= 0;
   const holdingSymbol = `${holding.symbol}USDT`;
   const holdingImageUrl = cryptoImages[holdingSymbol];
+
+  const handleSell = async () => {
+    const { value: quantity } = await Swal.fire({
+      title: 'Sell Quantity',
+      input: 'number',
+      inputLabel: `Available: ${holding.quantity.toFixed(6)} ${holding.symbol}`,
+      inputPlaceholder: 'Enter quantity',
+      inputAttributes: {
+        min: 0,
+        max: holding.quantity,
+        step: 0.000001
+      },
+      showCancelButton: true,
+      confirmButtonText: 'Sell',
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      inputValidator: (value) => {
+        if (!value || value <= 0 || value > holding.quantity) {
+          return 'Invalid quantity';
+        }
+      }
+    });
+
+    if (quantity) {
+      const result = await Swal.fire({
+        title: 'Confirm Sell',
+        text: `Sell ${quantity} ${holding.symbol} at market price?`,
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#3085d6',
+        confirmButtonText: 'Yes, sell!'
+      });
+      if (result.isConfirmed) {
+        try {
+          await onSell(holding.symbol, quantity);
+          Swal.fire({
+            icon: 'success',
+            title: 'Sold',
+            text: 'Market sell executed successfully',
+            timer: 2000,
+            showConfirmButton: false
+          });
+        } catch (error) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: error.message,
+            confirmButtonColor: '#3085d6'
+          });
+        }
+      }
+    }
+  };
 
   return (
     <div className="holding-card">
@@ -568,11 +772,14 @@ const SpotHoldingCard = ({ holding, cryptoImages }) => {
           </span>
         </div>
       </div>
+      <div className="card-footer">
+        <button className="close-btn" onClick={handleSell}>Sell Market</button>
+      </div>
     </div>
   );
 };
 
-const OrderHistoryCard = ({ order, cryptoImages }) => {
+const OrderHistoryCard = ({ order, cryptoImages, onCancel }) => {
   const statusColor = {
     'FILLED': 'success',
     'PENDING': 'warning',
@@ -580,6 +787,37 @@ const OrderHistoryCard = ({ order, cryptoImages }) => {
     'REJECTED': 'error'
   }[order.status] || 'neutral';
   const orderImageUrl = cryptoImages[order.symbol];
+
+  const handleCancel = async () => {
+    const result = await Swal.fire({
+      title: 'Cancel Order?',
+      text: 'Are you sure you want to cancel this pending order?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      confirmButtonText: 'Yes, cancel!'
+    });
+    if (result.isConfirmed) {
+      try {
+        await onCancel(order.id);
+        Swal.fire({
+          icon: 'success',
+          title: 'Cancelled',
+          text: 'Order cancelled successfully',
+          timer: 2000,
+          showConfirmButton: false
+        });
+      } catch (error) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: error.message,
+          confirmButtonColor: '#3085d6'
+        });
+      }
+    }
+  };
 
   return (
     <div className="order-card">
@@ -621,6 +859,12 @@ const OrderHistoryCard = ({ order, cryptoImages }) => {
           <span>Market</span>
           <span className="text-right">{order.market_type}</span>
         </div>
+        {order.status === 'PENDING' && (
+          <div className="row">
+            <span>Actions</span>
+            <button className="close-btn" onClick={handleCancel}>Cancel</button>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -659,7 +903,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     freeMargin,
     loading: portfolioLoading,
     marginUtilization,
-    portfolioMetrics
+    cancelOrder
   } = usePortfolio();
 
   const { lastPrice, priceChange, rawLastPrice, isConnected } = usePriceData(symbol, isFutures ? 'futures' : 'spot');
@@ -808,10 +1052,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     autoFilledSymbolRef.current = null;
     setOrderError("");
     setOrderSuccess("");
-    
-    if (quantity && (orderType === 'market' ? rawLastPrice : selectedPrice)) {
-
-    }
   }, [symbol]);
 
   useEffect(() => {
@@ -857,6 +1097,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     const positionValue = price * qty;
     if (isNaN(positionValue)) return 0;
     return (positionValue / leverage).toFixed(2);
+  };
+
+  const getMaxSellQuantity = () => {
+    if (isFutures) return null;
+    const baseAsset = symbol.replace('USDT', '');
+    const holding = spotHoldings.find(h => h.symbol === baseAsset);
+    return holding ? holding.quantity : 0;
   };
 
   const validateOrder = (side) => {
@@ -933,6 +1180,19 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     try {
       validateOrder(side);
 
+      if (side === 'SELL' && !isFutures) {
+        const result = await Swal.fire({
+          title: 'Confirm Sell',
+          text: `Are you sure you want to sell ${quantity} ${symbol.replace('USDT', '')}?`,
+          icon: 'warning',
+          showCancelButton: true,
+          confirmButtonColor: '#d33',
+          cancelButtonColor: '#3085d6',
+          confirmButtonText: 'Yes, sell!'
+        });
+        if (!result.isConfirmed) return;
+      }
+
       const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
       const qty = parseFloat(quantity);
 
@@ -978,6 +1238,29 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       setIsSubmittingOrder(false);
     }
   }
+
+  const handleSpotSellFromHolding = async (baseSymbol, qty) => {
+    const symbol = `${baseSymbol}USDT`;
+    const priceData = webSocketManager.getCurrentPrice(symbol, 'spot');
+    if (!priceData || !priceData.lastPrice || priceData.lastPrice <= 0) {
+      throw new Error(`Current market price not available for ${symbol}. Please try again in a moment.`);
+    }
+    const price = priceData.lastPrice;
+    const orderData = {
+      symbol,
+      side: 'SELL',
+      type: 'MARKET',
+      quantity: qty,
+      price,
+      marketType: 'SPOT'
+    };
+    await submitOrder(orderData);
+  };
+
+  const handleCancelOrder = async (orderId) => {
+    await cancelOrder(orderId);
+    refreshPortfolio();
+  };
 
   const getCurrentPrices = () => {
     const prices = {};
@@ -1046,6 +1329,8 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const spotTotalValue = spotHoldings.reduce((total, h) => 
     total + (h.current_value || h.quantity * h.average_price), 0
   );
+
+  const maxSellQty = getMaxSellQuantity();
 
   return (
     <div className="trade-page">
@@ -1289,6 +1574,12 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 <span>Est. Fees:</span>
                 <span>${calculateFees()}</span>
               </div>
+              {!isFutures && maxSellQty !== null && (
+                <div className="summary-row">
+                  <span>Max Sell:</span>
+                  <span>{maxSellQty.toFixed(6)} {symbol.replace('USDT', '')}</span>
+                </div>
+              )}
               {isFutures && orderType === 'market' && (
                 <div className="summary-row">
                   <span>Available Margin:</span>
@@ -1370,12 +1661,34 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               <button 
                 className="action-btn danger" 
                 onClick={async () => {
-                  if (window.confirm(`Close all ${positions.length} positions?`)) {
+                  const result = await Swal.fire({
+                    title: 'Close All?',
+                    text: `Close all ${positions.length} positions?`,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#3085d6',
+                    confirmButtonText: 'Yes, close all!'
+                  });
+                  if (result.isConfirmed) {
                     try {
                       await closeAllPositions();
                       setOrderSuccess("All positions closed successfully");
+                      Swal.fire({
+                        icon: 'success',
+                        title: 'Closed',
+                        text: 'All positions closed successfully',
+                        timer: 2000,
+                        showConfirmButton: false
+                      });
                     } catch (error) {
                       setOrderError("Failed to close all positions: " + error.message);
+                      Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Failed to close all positions: ' + error.message,
+                        confirmButtonColor: '#3085d6'
+                      });
                     }
                   }
                 }}
@@ -1488,6 +1801,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                               <th className="text-right">Current Price</th>
                               <th className="text-right">Value</th>
                               <th className="text-right">P&L</th>
+                              <th className="text-center">Actions</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -1496,6 +1810,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                                 key={holding.id} 
                                 holding={holding}
                                 cryptoImages={cryptoImages}
+                                onSell={handleSpotSellFromHolding}
                               />
                             ))}
                           </tbody>
@@ -1525,6 +1840,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                           key={holding.id} 
                           holding={holding}
                           cryptoImages={cryptoImages}
+                          onSell={handleSpotSellFromHolding}
                         />
                       ))}
                       <div className="holdings-summary">
@@ -1574,6 +1890,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                           <th className="text-right">Price</th>
                           <th>Status</th>
                           <th>Market</th>
+                          <th className="text-center">Actions</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -1582,6 +1899,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             key={order.id} 
                             order={order}
                             cryptoImages={cryptoImages}
+                            onCancel={handleCancelOrder}
                           />
                         ))}
                       </tbody>
@@ -1613,6 +1931,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                       key={order.id} 
                       order={order}
                       cryptoImages={cryptoImages}
+                      onCancel={handleCancelOrder}
                     />
                   ))}
                   <div className="orders-summary">

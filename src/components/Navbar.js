@@ -157,6 +157,11 @@ export default function Navbar() {
                 News
               </NavLink>
             </li>
+            <li>
+              <NavLink to="/leaderboard" className={({ isActive }) => (isActive ? "active" : "")}>
+                Leaderboard
+              </NavLink>
+            </li>
           </ul>
 
           {/* Mobile-only auth section */}

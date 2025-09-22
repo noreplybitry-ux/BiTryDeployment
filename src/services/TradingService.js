@@ -646,6 +646,21 @@ class TradingService {
     }
   }
 
+  async getCurrentPrice(symbol, marketType = 'SPOT') {
+    try {
+      const baseUrl = marketType === 'FUTURES' ? 'https://fapi.binance.com/fapi/v1' : 'https://api.binance.com/api/v3';
+      const response = await fetch(`${baseUrl}/ticker/price?symbol=${symbol}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch price');
+      }
+      const data = await response.json();
+      return parseFloat(data.price) || 0;
+    } catch (error) {
+      console.error('Error fetching current price:', error);
+      return 0;
+    }
+  }
+
   async submitSpotOrder(userId, orderData) {
     return await this.queueTransaction(async () => {
       try {
@@ -676,7 +691,12 @@ class TradingService {
           created_at: new Date().toISOString()
         };
 
+        let executionPrice;
         if (type === 'MARKET') {
+          executionPrice = await this.getCurrentPrice(symbol, 'SPOT');
+          if (executionPrice <= 0) {
+            throw new Error('Unable to fetch market price');
+          }
           // For market, check validations immediately
           if (side === 'SELL') {
             const baseAsset = symbol.replace('USDT', '');
@@ -696,12 +716,6 @@ class TradingService {
               const availableQuantity = holding ? holding.quantity : 0;
               throw new Error(`Insufficient ${baseAsset} balance. Required: ${quantity}, Available: ${availableQuantity}`);
             }
-          }
-
-          // Calculate execution price
-          const executionPrice = price;
-          if (!executionPrice || isNaN(executionPrice) || executionPrice <= 0) {
-            throw new Error('Invalid execution price calculated');
           }
 
           const totalValue = quantity * executionPrice;
@@ -777,6 +791,7 @@ class TradingService {
           this.log('✅ Spot order completed successfully', result);
           return result;
         } else {
+          executionPrice = price;
           // For limit, insert pending
           const { data: order, error: orderError } = await supabase
             .from('orders')
@@ -855,14 +870,12 @@ class TradingService {
           created_at: new Date().toISOString()
         };
 
+        let executionPrice;
         if (type === 'MARKET') {
-          // For market, check margin immediately
-          // Calculate execution price
-          const executionPrice = price;
-          if (!executionPrice || isNaN(executionPrice) || executionPrice <= 0) {
-            throw new Error('Invalid execution price calculated');
+          executionPrice = await this.getCurrentPrice(symbol, 'FUTURES');
+          if (executionPrice <= 0) {
+            throw new Error('Unable to fetch market price');
           }
-
           const positionValue = quantity * executionPrice;
           const margin = positionValue / leverage;
           const feeRate = 0.0004; // 0.04% fee for futures
@@ -929,6 +942,7 @@ class TradingService {
           this.log('✅ Futures order completed successfully', result);
           return result;
         } else {
+          executionPrice = price;
           // For limit, insert pending
           const { data: order, error: orderError } = await supabase
             .from('orders')
@@ -1210,7 +1224,11 @@ class TradingService {
         let successCount = 0;
         for (const position of positions) {
           try {
-            const currentPrice = position.current_price || position.entry_price;
+            let currentPrice = position.current_price || position.entry_price;
+            const fetchedPrice = await this.getCurrentPrice(position.symbol, 'FUTURES');
+            if (fetchedPrice > 0) {
+              currentPrice = fetchedPrice;
+            }
             if (currentPrice <= 0) {
               this.log(`Skipping position ${position.id} due to invalid price`);
               continue;
@@ -1329,6 +1347,44 @@ class TradingService {
     const positionSide = this.mapOrderSideToPositionSide(side);
     await this.updateOrCreateFuturesPosition(userId, symbol, positionSide, quantity, price, leverage, margin);
     await this.updateUserBalance(userId, -totalRequired, 'TRADE', `Futures fill ${side} ${quantity} ${symbol}`);
+  }
+
+  async cancelOrder(userId, orderId) {
+    try {
+      await this.ensureInitialized();
+      this.log('Cancelling order', { orderId });
+
+      const { data: order, error: fetchError } = await supabase
+        .from('orders')
+        .select('*')
+        .eq('id', orderId)
+        .eq('user_id', userId)
+        .eq('status', 'PENDING')
+        .single();
+
+      if (fetchError || !order) {
+        throw new Error('Order not found or not pending');
+      }
+
+      const { error } = await supabase
+        .from('orders')
+        .update({
+          status: 'CANCELLED',
+          cancelled_at: new Date().toISOString()
+        })
+        .eq('id', orderId);
+
+      if (error) {
+        this.log('Error cancelling order:', error);
+        throw error;
+      }
+
+      this.log('✅ Order cancelled successfully');
+      return { success: true };
+    } catch (error) {
+      this.log('❌ Error cancelling order:', error);
+      throw error;
+    }
   }
 }
 
