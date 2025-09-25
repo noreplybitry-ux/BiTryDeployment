@@ -1,4 +1,3 @@
-// src/hooks/usePortfolio.js - Final Fixed Version with Transparent Error Handling
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import tradingService from '../services/TradingService';
@@ -23,6 +22,7 @@ export const usePortfolio = () => {
   const priceUpdateQueue = useRef(new Map());
   const updateTimer = useRef(null);
   const isInitialized = useRef(false);
+  const isLoadingPortfolio = useRef(false); // New load lock
 
   // Debug logging
   const debug = (message, data = null) => {
@@ -43,7 +43,6 @@ export const usePortfolio = () => {
     throw error;
   };
 
-  // Initialize trading service
   const initializeService = useCallback(async () => {
     if (isInitialized.current) return true;
 
@@ -101,12 +100,20 @@ export const usePortfolio = () => {
     }
   }, []);
 
-  // Load portfolio data with minimal error handling
+  // Load portfolio data with load lock
   const loadPortfolioData = async (retries = 1) => {
+    if (isLoadingPortfolio.current) {
+      debug('Portfolio load already in progress, skipping');
+      return;
+    }
+
+    isLoadingPortfolio.current = true;
+
     if (!user?.id) {
       debug('No user ID, resetting portfolio state');
       resetPortfolioState();
       setLoading(false);
+      isLoadingPortfolio.current = false;
       return;
     }
 
@@ -115,13 +122,11 @@ export const usePortfolio = () => {
       setLoading(true);
       setInitializationError(null);
 
-      // Ensure service is initialized first
       const serviceReady = await initializeService();
       if (!serviceReady) {
         throw new Error('Unable to initialize trading service');
       }
 
-      // Load data with Promise.allSettled to handle partial failures
       const results = await Promise.allSettled([
         tradingService.getUserBalance(user.id),
         tradingService.getOpenPositions(user.id),
@@ -131,7 +136,6 @@ export const usePortfolio = () => {
         tradingService.getPortfolioSummary(user.id)
       ]);
 
-      // Extract results with fallbacks
       const [
         balanceResult,
         positionsResult,
@@ -141,7 +145,6 @@ export const usePortfolio = () => {
         summaryResult
       ] = results;
 
-      // Process each result
       if (balanceResult.status === 'fulfilled') {
         setBalance(balanceResult.value || 0);
       } else {
@@ -197,10 +200,10 @@ export const usePortfolio = () => {
     } catch (error) {
       console.error('Error loading portfolio data:', error);
       
-      // Simple retry logic
       if (retries > 0) {
         debug(`Retrying portfolio load (${retries} attempts left)...`);
         setTimeout(() => loadPortfolioData(retries - 1), 2000);
+        isLoadingPortfolio.current = false;
         return;
       }
       
@@ -208,10 +211,10 @@ export const usePortfolio = () => {
       setInitializationError(error.message || 'Failed to load portfolio data');
     } finally {
       setLoading(false);
+      isLoadingPortfolio.current = false;
     }
   };
 
-  // Reset portfolio state
   const resetPortfolioState = () => {
     setBalance(0);
     setPositions([]);
@@ -226,7 +229,6 @@ export const usePortfolio = () => {
     cleanupSubscriptions();
   };
 
-  // Clean up subscriptions
   const cleanupSubscriptions = () => {
     try {
       positionSubscriptions.current.forEach(unsubscribe => {
@@ -255,7 +257,6 @@ export const usePortfolio = () => {
     }
   };
 
-  // Subscribe to price updates for futures positions
   const subscribeToPositionUpdates = (positions) => {
     try {
       positionSubscriptions.current.forEach(unsubscribe => {
@@ -293,7 +294,6 @@ export const usePortfolio = () => {
     }
   };
 
-  // Subscribe to price updates for spot holdings
   const subscribeToSpotHoldingUpdates = (holdings) => {
     try {
       spotSubscriptions.current.forEach(unsubscribe => {
@@ -332,7 +332,6 @@ export const usePortfolio = () => {
     }
   };
 
-  // Update position P&L in real-time
   const updatePositionPnL = (symbol, currentPrice) => {
     try {
       if (!symbol || !currentPrice || isNaN(currentPrice)) return;
@@ -355,7 +354,6 @@ export const usePortfolio = () => {
         })
       );
 
-      // Update position in database (background task)
       if (user?.id && isInitialized.current) {
         tradingService.updatePositionPnL(user.id, symbol, currentPrice).catch(error => {
           debug('Background position PnL update failed:', error);
@@ -366,7 +364,6 @@ export const usePortfolio = () => {
     }
   };
 
-  // Update spot holding current value
   const updateSpotHoldingValue = (baseSymbol, currentPrice) => {
     try {
       if (!baseSymbol || !currentPrice || isNaN(currentPrice)) return;
@@ -388,7 +385,6 @@ export const usePortfolio = () => {
         })
       );
 
-      // Update holding in database (background task)
       if (user?.id && isInitialized.current) {
         tradingService.updateSpotHoldingCurrentPrice(user.id, baseSymbol, currentPrice).catch(error => {
           debug('Background spot holding update failed:', error);
@@ -399,7 +395,6 @@ export const usePortfolio = () => {
     }
   };
 
-  // Calculate total P&L
   useEffect(() => {
     try {
       const futuresPnL = positions.reduce((total, pos) => {
@@ -420,7 +415,6 @@ export const usePortfolio = () => {
     }
   }, [positions, spotHoldings]);
 
-  // Calculate total portfolio value
   useEffect(() => {
     try {
       const spotValue = spotHoldings.reduce((total, holding) => {
@@ -442,7 +436,6 @@ export const usePortfolio = () => {
     }
   }, [balance, positions, spotHoldings]);
 
-  // Load data when user changes
   useEffect(() => {
     if (user?.id) {
       debug('User authenticated, loading portfolio data');
@@ -458,7 +451,6 @@ export const usePortfolio = () => {
     };
   }, [user?.id]);
 
-  // Submit order function - just pass through errors
   const submitOrder = async (orderData) => {
     if (!user?.id) {
       throw new Error('Please login to start trading');
@@ -467,13 +459,11 @@ export const usePortfolio = () => {
     debug('🚀 Starting order submission process');
     debug('Order data received:', orderData);
 
-    // Ensure service is initialized
     const serviceReady = await initializeService();
     if (!serviceReady) {
       throw new Error('Trading service is not ready. Please wait a moment and try again.');
     }
 
-    // Basic validation
     if (!orderData || typeof orderData !== 'object') {
       throw new Error('Invalid order data provided');
     }
@@ -519,7 +509,6 @@ export const usePortfolio = () => {
 
       debug('✅ Order submitted successfully, refreshing portfolio...');
 
-      // Refresh portfolio data after successful order
       try {
         await loadPortfolioData();
         debug('✅ Portfolio data refreshed');
@@ -530,12 +519,10 @@ export const usePortfolio = () => {
       return result;
     } catch (error) {
       debug('❌ Order submission failed:', error);
-      // Don't transform the error - just pass it through
       throw error;
     }
   };
 
-  // Close position function
   const closePosition = async (positionId, closePrice) => {
     if (!user?.id) {
       throw new Error('Please login to manage positions');
@@ -563,7 +550,6 @@ export const usePortfolio = () => {
 
       debug('Position closed successfully:', result);
 
-      // Refresh portfolio data
       try {
         await loadPortfolioData();
       } catch (refreshError) {
@@ -577,7 +563,6 @@ export const usePortfolio = () => {
     }
   };
 
-  // Close all positions function
   const closeAllPositions = async () => {
     if (!user?.id) {
       throw new Error('Please login to manage positions');
@@ -599,7 +584,6 @@ export const usePortfolio = () => {
       
       debug(`Close all positions result:`, result);
       
-      // Refresh portfolio data
       try {
         await loadPortfolioData();
       } catch (refreshError) {
@@ -613,7 +597,25 @@ export const usePortfolio = () => {
     }
   };
 
-  // Get balance history
+  const cancelOrder = async (orderId) => {
+    if (!user?.id) {
+      throw new Error('Please login to manage orders');
+    }
+
+    try {
+      const serviceReady = await initializeService();
+      if (!serviceReady) {
+        throw new Error('Trading service is not ready');
+      }
+
+      await tradingService.cancelOrder(user.id, orderId);
+      await loadPortfolioData();
+    } catch (error) {
+      debug('Cancel order failed:', error);
+      throw error;
+    }
+  };
+
   const getBalanceHistory = async () => {
     if (!user?.id) return [];
     
@@ -632,13 +634,11 @@ export const usePortfolio = () => {
     }
   };
 
-  // Refresh portfolio data
   const refreshPortfolio = async () => {
     debug('Manual portfolio refresh requested');
     await loadPortfolioData();
   };
 
-  // Force refresh balance only
   const refreshBalance = async () => {
     if (!user?.id) return 0;
     
@@ -657,7 +657,6 @@ export const usePortfolio = () => {
     }
   };
 
-  // Get portfolio performance metrics
   const getPortfolioMetrics = useCallback(() => {
     try {
       const totalInvested = 10000;
@@ -697,7 +696,6 @@ export const usePortfolio = () => {
     }
   }, [totalPortfolioValue, positions, spotHoldings, tradeHistory]);
 
-  // Computed values
   const usedMargin = positions.reduce((total, pos) => {
     const margin = pos.margin || 0;
     return total + (isNaN(margin) ? 0 : margin);
@@ -727,7 +725,6 @@ export const usePortfolio = () => {
   const marginUtilization = balance > 0 ? (usedMargin / balance) * 100 : 0;
 
   return {
-    // Balance and portfolio data
     balance: balance || 0,
     positions: positions || [],
     spotHoldings: spotHoldings || [],
@@ -736,18 +733,16 @@ export const usePortfolio = () => {
     balanceHistory: balanceHistory || [],
     totalPnL: totalPnL || 0,
     totalPortfolioValue: totalPortfolioValue || 0,
-    portfolioSummary: portfolioSummary || {},
+   portfolioSummary: portfolioSummary || {},
     loading,
     initializationError,
 
-    // Computed values
     usedMargin: usedMargin || 0,
     freeMargin: freeMargin || 0,
     spotValue: spotValue || 0,
     futuresValue: futuresValue || 0,
     availableBalance: balance || 0,
 
-    // Actions
     submitOrder,
     closePosition,
     closeAllPositions,
@@ -755,17 +750,15 @@ export const usePortfolio = () => {
     refreshBalance,
     getBalanceHistory,
     getPortfolioMetrics,
+    cancelOrder,
 
-    // Portfolio metrics
     portfolioMetrics: getPortfolioMetrics(),
     
-    // Status flags
     hasPositions: positions.length > 0,
     hasHoldings: spotHoldings.length > 0,
     isMarginSufficient: freeMargin > 0,
     isServiceReady: isInitialized.current,
     
-    // Risk metrics
     marginUtilization: isNaN(marginUtilization) ? 0 : marginUtilization,
     totalExposure: isNaN(totalExposure) ? 0 : totalExposure
   };

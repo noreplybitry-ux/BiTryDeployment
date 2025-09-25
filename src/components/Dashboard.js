@@ -28,117 +28,7 @@ import {
   FaLock,
   FaSpinner,
 } from "react-icons/fa";
-
-// Mock data with more realistic crypto trading data
-const portfolioData = {
-  totalBalance: 15847.23,
-  totalBalanceBTC: 0.142857,
-  availableBalance: 12340.5,
-  unrealizedPnL: 1247.73,
-  totalPnL: 3507.0,
-  todayPnL: 247.5,
-  dayChange: 1.85,
-};
-
-const ongoingTradesData = [
-  {
-    id: 1,
-    symbol: "BTCUSDT",
-    coin: "Bitcoin",
-    position: "Long",
-    size: "0.025",
-    entryPrice: "67,450.00",
-    markPrice: "68,200.00",
-    margin: "1,686.25",
-    pnl: 18.75,
-    pnlPercent: 1.11,
-    leverage: "10x",
-    timestamp: "2025-01-20 14:30",
-  },
-  {
-    id: 2,
-    symbol: "ETHUSDT",
-    coin: "Ethereum",
-    position: "Short",
-    size: "0.5",
-    entryPrice: "3,420.00",
-    markPrice: "3,380.00",
-    margin: "342.00",
-    pnl: 20.0,
-    pnlPercent: 5.85,
-    leverage: "5x",
-    timestamp: "2025-01-20 12:15",
-  },
-  {
-    id: 3,
-    symbol: "ADAUSDT",
-    coin: "Cardano",
-    position: "Long",
-    size: "1000",
-    entryPrice: "0.4250",
-    markPrice: "0.4180",
-    margin: "85.00",
-    pnl: -7.0,
-    pnlPercent: -8.24,
-    leverage: "2x",
-    timestamp: "2025-01-19 16:45",
-  },
-];
-
-const recentTradesData = [
-  {
-    id: 1,
-    symbol: "BTCUSDT",
-    coin: "Bitcoin",
-    side: "Long",
-    size: "0.05",
-    entryPrice: "65,200.00",
-    exitPrice: "66,800.00",
-    pnl: 80.0,
-    pnlPercent: 12.31,
-    fees: 2.67,
-    closeTime: "2025-01-20 10:30",
-  },
-  {
-    id: 2,
-    symbol: "ETHUSDT",
-    coin: "Ethereum",
-    side: "Short",
-    size: "1.2",
-    entryPrice: "3,550.00",
-    exitPrice: "3,480.00",
-    pnl: 84.0,
-    pnlPercent: 19.72,
-    fees: 4.26,
-    closeTime: "2025-01-19 18:15",
-  },
-  {
-    id: 3,
-    symbol: "BNBUSDT",
-    coin: "BNB",
-    side: "Long",
-    size: "5",
-    entryPrice: "635.00",
-    exitPrice: "618.50",
-    pnl: -82.5,
-    pnlPercent: -2.59,
-    fees: 3.18,
-    closeTime: "2025-01-19 14:22",
-  },
-  {
-    id: 4,
-    symbol: "SOLUSDT",
-    coin: "Solana",
-    side: "Long",
-    size: "15",
-    entryPrice: "248.00",
-    exitPrice: "267.50",
-    pnl: 292.5,
-    pnlPercent: 7.86,
-    fees: 7.43,
-    closeTime: "2025-01-18 21:00",
-  },
-];
+import { usePortfolio } from "../hooks/usePortfolio"; // Import the portfolio hook for real data
 
 // Fallback icon mapping (used if fetch to CoinGecko fails or no match)
 const fallbackIconMap = {
@@ -295,7 +185,9 @@ export default function Dashboard() {
   const [activeTab, setActiveTab] = useState("overview");
   const [balanceVisible, setBalanceVisible] = useState(true);
   const [timeFilter, setTimeFilter] = useState("7d");
-
+  const [currency, setCurrency] = useState("USD");
+  const [phpRate, setPhpRate] = useState(56);
+  
   // Profile state
   const [profile, setProfile] = useState({
     first_name: "",
@@ -326,40 +218,103 @@ export default function Dashboard() {
 
   const fileInputRef = useRef(null);
 
-  // Calculate stats
-  const totalTrades = recentTradesData.length + ongoingTradesData.length;
-  const winningTrades = recentTradesData.filter(
-    (trade) => trade.pnl > 0
-  ).length;
-  const losingTrades = recentTradesData.filter((trade) => trade.pnl < 0).length;
-  const winRate =
-    totalTrades > 0
-      ? ((winningTrades / recentTradesData.length) * 100).toFixed(1)
-      : 0;
+  // Use portfolio hook for real trading data
+  const {
+    balance: totalBalance,
+    positions: ongoingPositions,
+    tradeHistory: recentTrades,
+    totalPnL,
+    totalPortfolioValue,
+    loading: portfolioLoading,
+    refreshPortfolio
+  } = usePortfolio();
 
-  const totalRealizedPnL = recentTradesData.reduce(
-    (sum, trade) => sum + trade.pnl,
-    0
-  );
-  const totalUnrealizedPnL = ongoingTradesData.reduce(
-    (sum, trade) => sum + trade.pnl,
-    0
-  );
+  // Fetch BTC price for equivalent calculation
+  const [btcPrice, setBtcPrice] = useState(0);
+  useEffect(() => {
+    const fetchBtcPrice = async () => {
+      try {
+        const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
+        const data = await response.json();
+        setBtcPrice(data.bitcoin.usd || 0);
+      } catch (error) {
+        console.error('Error fetching BTC price:', error);
+      }
+    };
+    fetchBtcPrice();
+  }, []);
 
-  const avgReturn =
-    recentTradesData.length > 0
-      ? (totalRealizedPnL / recentTradesData.length).toFixed(2)
-      : 0;
+  // Fetch USD to PHP rate
+  useEffect(() => {
+    fetch('https://api.exchangerate-api.com/v4/latest/USD')
+      .then(res => res.json())
+      .then(data => setPhpRate(data.rates.PHP || 56))
+      .catch(() => setPhpRate(56));
+  }, []);
 
-  const totalPositionsData = [
-    { name: "Wins", value: winningTrades },
-    { name: "Losses", value: losingTrades },
-  ];
+  // Helper functions for currency
+  const getDisplayAmount = (amount) => currency === 'USD' ? amount : amount * phpRate;
+  const getCurrencySymbol = () => currency === 'USD' ? '$' : '₱';
 
-  const winRateData = [
-    { name: "Wins", value: parseFloat(winRate) },
-    { name: "Losses", value: 100 - parseFloat(winRate) },
-  ];
+  // Calculate derived stats from real data
+  const totalBalanceBTC = totalBalance ? (totalBalance / btcPrice).toFixed(6) : 0;
+  const availableBalance = totalBalance - (ongoingPositions.reduce((sum, pos) => sum + (pos.margin || 0), 0));
+  const unrealizedPnL = ongoingPositions.reduce((sum, pos) => sum + (pos.unrealized_pnl || 0), 0);
+  const today = new Date();
+  const todayPnL = recentTrades
+    .filter(trade => {
+      const tradeDate = new Date(trade.created_at);
+      return tradeDate.toDateString() === today.toDateString();
+    })
+    .reduce((sum, trade) => sum + (trade.pnl || 0), 0);
+  const dayChange = totalPnL > 0 ? ((totalPnL / totalBalance) * 100).toFixed(2) : 0; // % change based on current balance
+
+  const totalTrades = recentTrades.length;
+  const winningTrades = recentTrades.filter((trade) => (trade.pnl || 0) > 0).length;
+  const losingTrades = recentTrades.filter((trade) => (trade.pnl || 0) < 0).length;
+  const winRate = totalTrades > 0 ? ((winningTrades / totalTrades) * 100).toFixed(1) : 0;
+  const totalRealizedPnL = recentTrades.reduce((sum, trade) => sum + (trade.pnl || 0), 0);
+  const avgReturn = totalTrades > 0 ? (totalRealizedPnL / totalTrades).toFixed(2) : 0;
+
+  const pnls = recentTrades.map(t => t.pnl || 0);
+  const winningPnls = pnls.filter(p => p > 0);
+  const losingPnls = pnls.filter(p => p < 0);
+  const bestTrade = winningPnls.length > 0 ? Math.max(...winningPnls) : 0;
+  const worstTrade = losingPnls.length > 0 ? Math.min(...losingPnls) : 0;
+
+  const totalPositionsData = [{ name: "Wins", value: winningTrades }, { name: "Losses", value: losingTrades }];
+  const winRateData = [{ name: "Wins", value: parseFloat(winRate) }, { name: "Losses", value: 100 - parseFloat(winRate) }];
+
+  // Function to get filtered trades based on time period
+  const getFilteredTrades = (period) => {
+    const now = new Date();
+    let daysAgo;
+    switch (period) {
+      case '1d': daysAgo = 1; break;
+      case '7d': daysAgo = 7; break;
+      case '30d': daysAgo = 30; break;
+      case '90d': daysAgo = 90; break;
+      default: daysAgo = 7;
+    }
+    const cutoff = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1000);
+    return recentTrades.filter(trade => new Date(trade.created_at) >= cutoff);
+  };
+
+  // Map ongoing positions to table data
+  const ongoingTradesData = ongoingPositions.map(pos => ({
+    id: pos.id,
+    symbol: pos.symbol,
+    coin: pos.symbol.replace('USDT', ''), // Simple mapping, enhance if needed
+    position: pos.side,
+    size: pos.quantity.toFixed(4),
+    entryPrice: `$${pos.entry_price.toFixed(2)}`,
+    markPrice: `$${pos.current_price.toFixed(2)}`,
+    margin: getDisplayAmount(pos.margin).toFixed(2),
+    pnl: pos.unrealized_pnl,
+    pnlPercent: ((pos.unrealized_pnl / pos.margin) * 100).toFixed(2),
+    leverage: `${pos.leverage}x`,
+    timestamp: new Date(pos.opened_at).toLocaleString()
+  }));
 
   // Fetch user profile on component mount
   useEffect(() => {
@@ -367,6 +322,16 @@ export default function Dashboard() {
       fetchProfile();
     }
   }, [user]);
+
+  // Refresh portfolio periodically
+  useEffect(() => {
+    if (user && !portfolioLoading) {
+      const interval = setInterval(() => {
+        refreshPortfolio();
+      }, 30000); // Every 30 seconds
+      return () => clearInterval(interval);
+    }
+  }, [user, portfolioLoading, refreshPortfolio]);
 
   // Password validation function
   const validatePassword = (password) => {
@@ -750,20 +715,18 @@ export default function Dashboard() {
   }, [messages]);
 
   const formatCurrency = (amount) => {
+    const displayAmount = getDisplayAmount(amount);
+    const sym = getCurrencySymbol();
     return balanceVisible
-      ? `₱${Math.abs(amount).toLocaleString("en-PH", {
-          minimumFractionDigits: 2,
-          maximumFractionDigits: 2,
-        })}`
+      ? `${sym}${Math.abs(displayAmount).toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
       : "••••••";
   };
 
   const formatPnL = (pnl, showSign = true) => {
-    const sign = pnl >= 0 ? "+" : "";
-    return `${showSign ? sign : ""}₱${Math.abs(pnl).toLocaleString("en-PH", {
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
-    })}`;
+    const displayAmount = getDisplayAmount(pnl);
+    const sym = getCurrencySymbol();
+    const sign = displayAmount >= 0 ? "+" : "";
+    return `${showSign ? sign : ""}${sym}${Math.abs(displayAmount).toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
   };
 
   const formatPercent = (percent, showSign = true) => {
@@ -777,6 +740,18 @@ export default function Dashboard() {
     }
     return user?.email?.split("@")[0] || "User";
   };
+
+  if (portfolioLoading) {
+    return (
+      <div className="dashboard">
+        <main className="main-content">
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+            <FaSpinner className="spinning" style={{ fontSize: '48px', color: '#b7bdc6' }} />
+          </div>
+        </main>
+      </div>
+    );
+  }
 
   return (
     <div className="dashboard">
@@ -849,33 +824,21 @@ export default function Dashboard() {
                     <IoWalletOutline />
                     <span>Total Balance</span>
                   </div>
-                  <button
-                    className="visibility-toggle"
-                    onClick={() => setBalanceVisible(!balanceVisible)}
-                  >
-                    {balanceVisible ? <IoEye /> : <IoEyeOff />}
-                  </button>
+                  <div className="balance-controls">
+                    <button className="visibility-toggle" onClick={() => setBalanceVisible(!balanceVisible)}>
+                      {balanceVisible ? <IoEye /> : <IoEyeOff />}
+                    </button>
+                    <button className="currency-toggle" onClick={() => setCurrency(c => c === 'USD' ? 'PHP' : 'USD')}>
+                      {currency === 'USD' ? '₱' : '$'}
+                    </button>
+                  </div>
                 </div>
                 <div className="balance-display">
-                  <div className="primary-balance">
-                    {formatCurrency(portfolioData.totalBalance)}
-                  </div>
-                  <div className="secondary-balance">
-                    {balanceVisible
-                      ? `≈ ${portfolioData.totalBalanceBTC} BTC`
-                      : "••••••"}
-                  </div>
-                  <div
-                    className={`balance-change ${
-                      portfolioData.dayChange >= 0 ? "positive" : "negative"
-                    }`}
-                  >
-                    {portfolioData.dayChange >= 0 ? (
-                      <IoTrendingUp />
-                    ) : (
-                      <IoTrendingDown />
-                    )}
-                    {formatPercent(portfolioData.dayChange)} (24h)
+                  <div className="primary-balance">{formatCurrency(totalBalance)}</div>
+                  <div className="secondary-balance">{balanceVisible ? `≈ ${totalBalanceBTC} BTC` : "••••••"}</div>
+                  <div className={`balance-change ${parseFloat(dayChange) >= 0 ? "positive" : "negative"}`}>
+                    {parseFloat(dayChange) >= 0 ? <IoTrendingUp /> : <IoTrendingDown />}
+                    {formatPercent(parseFloat(dayChange))} (24h)
                   </div>
                 </div>
               </div>
@@ -888,13 +851,7 @@ export default function Dashboard() {
                   </div>
                 </div>
                 <div className="pnl-display">
-                  <div
-                    className={`pnl-total ${
-                      portfolioData.totalPnL >= 0 ? "positive" : "negative"
-                    }`}
-                  >
-                    {formatPnL(portfolioData.totalPnL)}
-                  </div>
+                  <div className={`pnl-total ${totalPnL >= 0 ? "positive" : "negative"}`}>{formatPnL(totalPnL)}</div>
                   <div className="pnl-breakdown">
                     <div className="pnl-item">
                       <span>Realized:</span>
@@ -908,13 +865,7 @@ export default function Dashboard() {
                     </div>
                     <div className="pnl-item">
                       <span>Unrealized:</span>
-                      <span
-                        className={
-                          totalUnrealizedPnL >= 0 ? "positive" : "negative"
-                        }
-                      >
-                        {formatPnL(totalUnrealizedPnL)}
-                      </span>
+                      <span className={unrealizedPnL >= 0 ? "positive" : "negative"}>{formatPnL(unrealizedPnL)}</span>
                     </div>
                   </div>
                 </div>
@@ -933,11 +884,11 @@ export default function Dashboard() {
                     <div className="stat-label">Win Rate</div>
                   </div>
                   <div className="stat-item">
-                    <div className="stat-value">{recentTradesData.length}</div>
+                    <div className="stat-value">{totalTrades}</div>
                     <div className="stat-label">Total Trades</div>
                   </div>
                   <div className="stat-item">
-                    <div className="stat-value">₱{avgReturn}</div>
+                    <div className="stat-value">{getCurrencySymbol()}{getDisplayAmount(parseFloat(avgReturn)).toFixed(2)}</div>
                     <div className="stat-label">Avg Return</div>
                   </div>
                   <div className="stat-item">
@@ -953,9 +904,9 @@ export default function Dashboard() {
               <div className="section-header">
                 <h3>Active Positions</h3>
                 <div className="section-actions">
-                  <button className="action-btn secondary">
+                  <button className="action-btn secondary" onClick={refreshPortfolio} disabled={portfolioLoading}>
                     <IoRefresh />
-                    Refresh
+                    {portfolioLoading ? 'Loading...' : 'Refresh'}
                   </button>
                 </div>
               </div>
@@ -997,24 +948,12 @@ export default function Dashboard() {
                             </span>
                           </td>
                           <td className="numeric">{trade.size}</td>
-                          <td className="numeric">${trade.entryPrice}</td>
-                          <td className="numeric">${trade.markPrice}</td>
-                          <td className="numeric">₱{trade.margin}</td>
+                          <td className="numeric">{trade.entryPrice}</td>
+                          <td className="numeric">{trade.markPrice}</td>
+                          <td className="numeric">{getCurrencySymbol()}{trade.margin}</td>
                           <td className="pnl-cell">
-                            <div
-                              className={`pnl-value ${
-                                trade.pnl >= 0 ? "positive" : "negative"
-                              }`}
-                            >
-                              {formatPnL(trade.pnl)}
-                            </div>
-                            <div
-                              className={`pnl-percent ${
-                                trade.pnl >= 0 ? "positive" : "negative"
-                              }`}
-                            >
-                              {formatPercent(trade.pnlPercent)}
-                            </div>
+                            <div className={`pnl-value ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPnL(trade.pnl)}</div>
+                            <div className={`pnl-percent ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPercent(parseFloat(trade.pnlPercent))}</div>
                           </td>
                           <td>
                             <div className="action-buttons">
@@ -1058,132 +997,145 @@ export default function Dashboard() {
                 </div>
               </div>
 
-              <div className="analytics-grid">
-                <div className="chart-card">
-                  <div className="chart-header">
-                    <h4>Win/Loss Distribution</h4>
-                  </div>
-                  <div className="chart-content">
-                    <PieStat
-                      data={totalPositionsData}
-                      colors={["#10b981", "#ef4444"]}
-                      size={120}
-                      centerLabel={`${totalTrades}`}
-                      subLabel="Total Trades"
-                    />
-                    <div className="chart-legend">
-                      <div className="legend-item">
-                        <div className="legend-color wins"></div>
-                        <span>Wins: {winningTrades}</span>
-                      </div>
-                      <div className="legend-item">
-                        <div className="legend-color losses"></div>
-                        <span>Losses: {losingTrades}</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              {(() => {
+                const filteredTrades = getFilteredTrades(timeFilter);
+                const filteredTotalTrades = filteredTrades.length;
+                const filteredWinningTrades = filteredTrades.filter((trade) => (trade.pnl || 0) > 0).length;
+                const filteredLosingTrades = filteredTrades.filter((trade) => (trade.pnl || 0) < 0).length;
+                const filteredWinRate = filteredTotalTrades > 0 ? ((filteredWinningTrades / filteredTotalTrades) * 100).toFixed(1) : 0;
+                const filteredPnls = filteredTrades.map(t => t.pnl || 0);
+                const filteredWinningPnls = filteredPnls.filter(p => p > 0);
+                const filteredLosingPnls = filteredPnls.filter(p => p < 0);
+                const filteredBestTrade = filteredWinningPnls.length > 0 ? Math.max(...filteredWinningPnls) : 0;
+                const filteredWorstTrade = filteredLosingPnls.length > 0 ? Math.min(...filteredLosingPnls) : 0;
 
-                <div className="chart-card">
-                  <div className="chart-header">
-                    <h4>Win Rate</h4>
-                  </div>
-                  <div className="chart-content">
-                    <PieStat
-                      data={winRateData}
-                      colors={["#10b981", "#ef4444"]}
-                      size={120}
-                      centerLabel={`${winRate}%`}
-                      subLabel="Success Rate"
-                    />
-                    <div className="performance-metrics">
-                      <div className="metric">
-                        <span className="metric-label">Best Trade:</span>
-                        <span className="metric-value positive">+₱292.50</span>
+                const filteredTotalPositionsData = [{ name: "Wins", value: filteredWinningTrades }, { name: "Losses", value: filteredLosingTrades }];
+                const filteredWinRateData = [{ name: "Wins", value: parseFloat(filteredWinRate) }, { name: "Losses", value: 100 - parseFloat(filteredWinRate) }];
+
+                return (
+                  <div className="analytics-grid">
+                    <div className="chart-card">
+                      <div className="chart-header">
+                        <h4>Win/Loss Distribution</h4>
                       </div>
-                      <div className="metric">
-                        <span className="metric-label">Worst Trade:</span>
-                        <span className="metric-value negative">-₱82.50</span>
+                      <div className="chart-content">
+                        <PieStat data={filteredTotalPositionsData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${filteredTotalTrades}`} subLabel="Total Trades" />
+                        <div className="chart-legend">
+                          <div className="legend-item">
+                            <div className="legend-color wins"></div>
+                            <span>Wins: {filteredWinningTrades}</span>
+                          </div>
+                          <div className="legend-item">
+                            <div className="legend-color losses"></div>
+                            <span>Losses: {filteredLosingTrades}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="chart-card">
+                      <div className="chart-header">
+                        <h4>Win Rate</h4>
+                      </div>
+                      <div className="chart-content">
+                        <PieStat data={filteredWinRateData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${filteredWinRate}%`} subLabel="Success Rate" showPercentage={true} />
+                        <div className="performance-metrics">
+                          <div className="metric">
+                            <span className="metric-label">Best Trade:</span>
+                            <span className="metric-value positive">{getCurrencySymbol()}{getDisplayAmount(filteredBestTrade).toFixed(2)}</span>
+                          </div>
+                          <div className="metric">
+                            <span className="metric-label">Worst Trade:</span>
+                            <span className="metric-value negative">{getCurrencySymbol()}{getDisplayAmount(Math.abs(filteredWorstTrade)).toFixed(2)}</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                );
+              })()}
             </section>
           </>
         )}
 
         {activeTab === "history" && (
-          <section className="page-card">
-            <div className="section-header">
-              <h3>Trading History</h3>
-              <div className="section-actions">
-                <select className="filter-select">
-                  <option>Last 7 days</option>
-                  <option>Last 30 days</option>
-                  <option>Last 90 days</option>
-                </select>
-              </div>
-            </div>
+          (() => {
+            const filteredTrades = getFilteredTrades(timeFilter);
+            const recentTradesData = filteredTrades.slice(0, 4).map(trade => ({
+              id: trade.id,
+              symbol: trade.symbol,
+              coin: trade.symbol.replace('USDT', ''),
+              side: trade.side,
+              size: trade.quantity.toFixed(4),
+              entryPrice: `$${trade.entry_price ? trade.entry_price.toFixed(2) : 'N/A'}`,
+              exitPrice: `$${trade.exit_price ? trade.exit_price.toFixed(2) : 'N/A'}`,
+              pnl: trade.pnl || 0,
+              pnlPercent: trade.entry_price && trade.exit_price ? (((trade.exit_price - trade.entry_price) / trade.entry_price) * 100).toFixed(2) : 0,
+              fees: getDisplayAmount(trade.fee || 0).toFixed(2),
+              closeTime: new Date(trade.created_at).toLocaleString()
+            }));
 
-            <div className="table-container">
-              <table className="modern-table">
-                <thead>
-                  <tr>
-                    <th>Market</th>
-                    <th>Side</th>
-                    <th>Size</th>
-                    <th>Entry Price</th>
-                    <th>Exit Price</th>
-                    <th>PnL</th>
-                    <th>Close Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {recentTradesData.map((trade) => (
-                    <tr key={trade.id} className="trade-row">
-                      <td>
-                        <div className="market-cell">
-                          <CryptoLogo symbol={trade.symbol} size={28} />
-                          <div className="market-info">
-                            <div className="symbol">{trade.symbol}</div>
-                            <div className="coin-name">{trade.coin}</div>
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <span
-                          className={`position-badge ${trade.side.toLowerCase()}`}
-                        >
-                          {trade.side}
-                        </span>
-                      </td>
-                      <td className="numeric">{trade.size}</td>
-                      <td className="numeric">${trade.entryPrice}</td>
-                      <td className="numeric">${trade.exitPrice}</td>
-                      <td className="pnl-cell">
-                        <div
-                          className={`pnl-value ${
-                            trade.pnl >= 0 ? "positive" : "negative"
-                          }`}
-                        >
-                          {formatPnL(trade.pnl)}
-                        </div>
-                        <div
-                          className={`pnl-percent ${
-                            trade.pnl >= 0 ? "positive" : "negative"
-                          }`}
-                        >
-                          {formatPercent(trade.pnlPercent)}
-                        </div>
-                      </td>
-                      <td className="timestamp">{trade.closeTime}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
+            return (
+              <section className="page-card">
+                <div className="section-header">
+                  <h3>Trading History</h3>
+                  <div className="section-actions">
+                    <div className="time-filters">
+                      {["1d", "7d", "30d", "90d"].map((period) => (
+                        <button key={period} className={`filter-btn ${timeFilter === period ? "active" : ""}`} onClick={() => setTimeFilter(period)}>
+                          {period}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="table-container">
+                  <table className="modern-table">
+                    <thead>
+                      <tr>
+                        <th>Market</th>
+                        <th>Side</th>
+                        <th>Size</th>
+                        <th>Entry Price</th>
+                        <th>Exit Price</th>
+                        <th>PnL</th>
+                        <th>Fees</th>
+                        <th>Close Time</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {recentTradesData.map((trade) => (
+                        <tr key={trade.id} className="trade-row">
+                          <td>
+                            <div className="market-cell">
+                              <CryptoLogo symbol={trade.symbol} size={28} />
+                              <div className="market-info">
+                                <div className="symbol">{trade.symbol}</div>
+                                <div className="coin-name">{trade.coin}</div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>
+                            <span className={`position-badge ${trade.side.toLowerCase()}`}>{trade.side}</span>
+                          </td>
+                          <td className="numeric">{trade.size}</td>
+                          <td className="numeric">{trade.entryPrice}</td>
+                          <td className="numeric">{trade.exitPrice}</td>
+                          <td className="pnl-cell">
+                            <div className={`pnl-value ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPnL(trade.pnl)}</div>
+                            <div className={`pnl-percent ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPercent(parseFloat(trade.pnlPercent))}</div>
+                          </td>
+                          <td className="numeric">{getCurrencySymbol()}{trade.fees}</td>
+                          <td className="timestamp">{trade.closeTime}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            );
+          })()
         )}
 
         {activeTab === "profile" && (
@@ -1288,11 +1240,11 @@ export default function Dashboard() {
                   </div>
                   <div className="stat-row">
                     <span>Best Trade</span>
-                    <strong className="positive">+₱292.50</strong>
+                    <strong className="positive">+{getCurrencySymbol()}{getDisplayAmount(bestTrade).toFixed(2)}</strong>
                   </div>
                   <div className="stat-row">
                     <span>Worst Trade</span>
-                    <strong className="negative">-₱82.50</strong>
+                    <strong className="negative">-{getCurrencySymbol()}{getDisplayAmount(Math.abs(worstTrade)).toFixed(2)}</strong>
                   </div>
                 </div>
               </div>

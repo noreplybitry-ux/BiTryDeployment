@@ -1,4 +1,3 @@
-
 /* Enhanced Dashboard.css - Modern Crypto Trading Platform with Fixed Height */
 
 * {
@@ -148,6 +147,12 @@
   letter-spacing: 0.5px;
 }
 
+.balance-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 .visibility-toggle {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -159,6 +164,23 @@
 }
 
 .visibility-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.currency-toggle {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #b7bdc6;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.currency-toggle:hover {
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
 }
@@ -1040,7 +1062,8 @@
   }
   
   .setting-btn {
-    align-self: flex-end;
+    align-self: stretch;
+    width: 100%;
   }
   
   .modern-table {

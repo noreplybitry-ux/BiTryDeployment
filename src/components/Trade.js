@@ -1,14 +1,14 @@
-// src/pages/Trade.js
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import "../css/Trade.css";
 import TechnicalAnalysis from "./TechnicalAnalysis";
 import { usePriceData } from "../hooks/usePriceData";
 import { usePortfolio } from "../hooks/usePortfolio";
 import { useAuth } from "../contexts/AuthContext";
+import webSocketManager from "../services/WebSocketManager";
+import Swal from 'sweetalert2';
 
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
-const INTERVAL_OPTIONS = ["1m", "5m", "15m", "1h", "4h", "1d"];
 
 const getCryptoIcon = (symbol) => {
   const baseSymbol = symbol.replace("USDT", "").toLowerCase();
@@ -41,9 +41,9 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
   const readyTimeoutRef = useRef(null);
   const initTimeoutRef = useRef(null);
 
-  const intervalMap = {
+  const intervalMap = useMemo(() => ({
     "1m": "1", "5m": "5", "15m": "15", "1h": "60", "4h": "240", "1d": "1D",
-  };
+  }), []);
 
   const tradingviewSymbol = isFutures ? `BINANCE:${symbol}.P` : `BINANCE:${symbol}`;
 
@@ -140,7 +140,7 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
           hide_legend: false,
           hide_side_toolbar: false,
           allow_symbol_change: true,
-          save_image: false,
+          save_image: true,
           studies_overrides: {},
           width: "100%",
           height: "100%",
@@ -168,7 +168,7 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
           onChartReady: function () {
             if (readyTimeoutRef.current) {
               clearTimeout(readyTimeoutRef.current);
-              readyTimeoutRef.current = null;
+            readyTimeoutRef.current = null;
             }
             setIsLoading(false);
             setError(null);
@@ -232,7 +232,7 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
         widgetRef.current = null;
       }
     };
-  }, [symbol, interval, isFutures, scriptLoaded, tradingviewSymbol]);
+  }, [symbol, interval, isFutures, scriptLoaded, tradingviewSymbol, intervalMap]);
 
   return (
     <div className="chart-wrapper">
@@ -301,7 +301,7 @@ const CryptoIcon = ({ symbol, size = "small", imageUrl = null }) => {
   );
 };
 
-const PositionRow = ({ position, onClose, currentPrices }) => {
+const PositionRow = ({ position, onClose, currentPrices, cryptoImages }) => {
   const [isClosing, setIsClosing] = useState(false);
   const currentPrice = currentPrices[position.symbol] || position.current_price;
   const pnl = position.side === 'LONG' 
@@ -311,14 +311,46 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
   const isProfit = pnl >= 0;
 
   const handleClose = async () => {
-    setIsClosing(true);
-    try {
-      await onClose(position.id, currentPrice);
-    } catch (error) {
-      console.error('Error closing position:', error);
-      alert('Failed to close position: ' + error.message);
-    } finally {
-      setIsClosing(false);
+    if (currentPrice <= 0) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: 'Invalid current price for closing position',
+        confirmButtonColor: '#3085d6'
+      });
+      return;
+    }
+    const result = await Swal.fire({
+      title: 'Are you sure?',
+      text: `Close this ${position.side} position?`,
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, close it!'
+    });
+    if (result.isConfirmed) {
+      setIsClosing(true);
+      try {
+        await onClose(position.id, currentPrice);
+        Swal.fire({
+          icon: 'success',
+          title: 'Closed',
+          text: 'Position closed successfully',
+          timer: 2000,
+          showConfirmButton: false
+        });
+      } catch (error) {
+        console.error('Error closing position:', error);
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Failed to close position: ' + error.message,
+          confirmButtonColor: '#3085d6'
+        });
+      } finally {
+        setIsClosing(false);
+      }
     }
   };
 
@@ -327,11 +359,14 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
     (position.side === 'SHORT' && currentPrice >= position.liquidation_price * 0.9)
   );
 
+  const liqPrice = position.liquidation_price || 0;
+  const positionImageUrl = cryptoImages[position.symbol];
+
   return (
     <tr className={`position-row ${isNearLiquidation ? 'near-liquidation' : ''}`}>
       <td>
         <div className="position-symbol">
-          <CryptoIcon symbol={position.symbol} size="small" />
+          <CryptoIcon symbol={position.symbol} size="small" imageUrl={positionImageUrl} />
           <div className="symbol-info">
             <div className="symbol-name">{position.symbol.replace('USDT', '')}/USDT</div>
             <div className={`position-side ${position.side.toLowerCase()}`}>
@@ -344,6 +379,7 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
       <td className="text-right">{Number(position.quantity).toFixed(4)}</td>
       <td className="text-right">${Number(position.entry_price).toFixed(4)}</td>
       <td className="text-right">${Number(currentPrice).toFixed(4)}</td>
+      <td className="text-right">${Number(liqPrice).toFixed(4)}</td>
       <td className={`text-right ${isProfit ? 'positive' : 'negative'}`}>
         <div>${pnl.toFixed(2)}</div>
         <div className="pnl-percent">{isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%</div>
@@ -352,8 +388,8 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
         <button 
           className="close-btn" 
           onClick={handleClose}
-          disabled={isClosing}
-          title={`Close ${position.side} position`}
+          disabled={isClosing || currentPrice <= 0}
+          title={currentPrice <= 0 ? 'Invalid price data' : `Close ${position.side} position`}
         >
           {isClosing ? 'Closing...' : 'Close'}
         </button>
@@ -363,19 +399,75 @@ const PositionRow = ({ position, onClose, currentPrices }) => {
 };
 
 // Enhanced Spot Holding Row Component
-const SpotHoldingRow = ({ holding }) => {
+const SpotHoldingRow = ({ holding, cryptoImages, onSell }) => {
   const currentValue = holding.current_value || (holding.quantity * holding.average_price);
   const unrealizedPnl = holding.unrealized_pnl || 0;
   const pnlPercent = holding.average_price > 0 
     ? ((holding.current_price - holding.average_price) / holding.average_price) * 100 
     : 0;
   const isProfit = unrealizedPnl >= 0;
+  const holdingSymbol = `${holding.symbol}USDT`;
+  const holdingImageUrl = cryptoImages[holdingSymbol];
+
+  const handleSell = async () => {
+    const { value: quantity } = await Swal.fire({
+      title: 'Sell Quantity',
+      input: 'number',
+      inputLabel: `Available: ${holding.quantity.toFixed(6)} ${holding.symbol}`,
+      inputPlaceholder: 'Enter quantity',
+      inputAttributes: {
+        min: 0,
+        max: holding.quantity,
+        step: 0.000001
+      },
+      showCancelButton: true,
+      confirmButtonText: 'Sell',
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      inputValidator: (value) => {
+        if (!value || value <= 0 || value > holding.quantity) {
+          return 'Invalid quantity';
+        }
+      }
+    });
+
+    if (quantity) {
+      const result = await Swal.fire({
+        title: 'Confirm Sell',
+        text: `Sell ${quantity} ${holding.symbol} at market price?`,
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#3085d6',
+        confirmButtonText: 'Yes, sell!'
+      });
+      if (result.isConfirmed) {
+        try {
+          await onSell(holding.symbol, quantity);
+          Swal.fire({
+            icon: 'success',
+            title: 'Sold',
+            text: 'Market sell executed successfully',
+            timer: 2000,
+            showConfirmButton: false
+          });
+        } catch (error) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: error.message,
+            confirmButtonColor: '#3085d6'
+          });
+        }
+      }
+    }
+  };
 
   return (
     <tr className="holding-row">
       <td>
         <div className="position-symbol">
-          <CryptoIcon symbol={`${holding.symbol}USDT`} size="small" />
+          <CryptoIcon symbol={holdingSymbol} size="small" imageUrl={holdingImageUrl} />
           <div className="symbol-info">
             <div className="symbol-name">{holding.symbol}</div>
             <div className="holding-type">Spot</div>
@@ -390,25 +482,59 @@ const SpotHoldingRow = ({ holding }) => {
         <div>${unrealizedPnl.toFixed(2)}</div>
         <div className="pnl-percent">{isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%</div>
       </td>
+      <td className="text-center">
+        <button className="close-btn" onClick={handleSell}>Sell Market</button>
+      </td>
     </tr>
   );
 };
 
-const OrderHistoryRow = ({ order }) => {
-  const isProfit = order.pnl >= 0;
+const OrderHistoryRow = ({ order, cryptoImages, onCancel }) => {
   const statusColor = {
     'FILLED': 'success',
     'PENDING': 'warning',
     'CANCELLED': 'error',
     'REJECTED': 'error'
   }[order.status] || 'neutral';
+  const orderImageUrl = cryptoImages[order.symbol];
+
+  const handleCancel = async () => {
+    const result = await Swal.fire({
+      title: 'Cancel Order?',
+      text: 'Are you sure you want to cancel this pending order?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      confirmButtonText: 'Yes, cancel!'
+    });
+    if (result.isConfirmed) {
+      try {
+        await onCancel(order.id);
+        Swal.fire({
+          icon: 'success',
+          title: 'Cancelled',
+          text: 'Order cancelled successfully',
+          timer: 2000,
+          showConfirmButton: false
+        });
+      } catch (error) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: error.message,
+          confirmButtonColor: '#3085d6'
+        });
+      }
+    }
+  };
 
   return (
     <tr className="order-history-row">
       <td>{new Date(order.created_at).toLocaleString()}</td>
       <td>
         <div className="position-symbol">
-          <CryptoIcon symbol={order.symbol} size="small" />
+          <CryptoIcon symbol={order.symbol} size="small" imageUrl={orderImageUrl} />
           <span>{order.symbol.replace('USDT', '')}/USDT</span>
         </div>
       </td>
@@ -426,12 +552,321 @@ const OrderHistoryRow = ({ order }) => {
         </span>
       </td>
       <td>{order.market_type}</td>
-      {order.pnl !== null && order.pnl !== undefined && (
-        <td className={`text-right ${isProfit ? 'positive' : 'negative'}`}>
-          {isProfit ? '+' : ''}${Number(order.pnl).toFixed(2)}
-        </td>
-      )}
+      <td className="text-center">
+        {order.status === 'PENDING' && (
+          <button className="close-btn" onClick={handleCancel}>Cancel</button>
+        )}
+      </td>
     </tr>
+  );
+};
+
+// Mobile Card Components
+const PositionCard = ({ position, onClose, currentPrices, cryptoImages }) => {
+  const [isClosing, setIsClosing] = useState(false);
+  const currentPrice = currentPrices[position.symbol] || position.current_price;
+  const pnl = position.side === 'LONG' 
+    ? (currentPrice - position.entry_price) * position.quantity
+    : (position.entry_price - currentPrice) * position.quantity;
+  const pnlPercent = (pnl / position.margin) * 100;
+  const isProfit = pnl >= 0;
+  const liqPrice = position.liquidation_price || 0;
+  const positionImageUrl = cryptoImages[position.symbol];
+
+  const handleClose = async () => {
+    if (currentPrice <= 0) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: 'Invalid current price for closing position',
+        confirmButtonColor: '#3085d6'
+      });
+      return;
+    }
+    const result = await Swal.fire({
+      title: 'Are you sure?',
+      text: `Close this ${position.side} position?`,
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, close it!'
+    });
+    if (result.isConfirmed) {
+      setIsClosing(true);
+      try {
+        await onClose(position.id, currentPrice);
+        Swal.fire({
+          icon: 'success',
+          title: 'Closed',
+          text: 'Position closed successfully',
+          timer: 2000,
+          showConfirmButton: false
+        });
+      } catch (error) {
+        console.error('Error closing position:', error);
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: 'Failed to close position: ' + error.message,
+          confirmButtonColor: '#3085d6'
+        });
+      } finally {
+        setIsClosing(false);
+      }
+    }
+  };
+
+  const isNearLiquidation = position.liquidation_price && (
+    (position.side === 'LONG' && currentPrice <= position.liquidation_price * 1.1) ||
+    (position.side === 'SHORT' && currentPrice >= position.liquidation_price * 0.9)
+  );
+
+  return (
+    <div className={`position-card ${isNearLiquidation ? 'near-liquidation' : ''}`}>
+      <div className="card-header">
+        <div className="symbol-section">
+          <CryptoIcon symbol={position.symbol} size="small" imageUrl={positionImageUrl} />
+          <div className="symbol-info">
+            <div className="symbol-name">{position.symbol.replace('USDT', '')}/USDT</div>
+            <div className={`position-side ${position.side.toLowerCase()}`}>
+              {position.side} {position.leverage}x
+            </div>
+          </div>
+        </div>
+        {isNearLiquidation && <div className="liquidation-warning">⚠️ Near Liquidation</div>}
+      </div>
+      <div className="card-body">
+        <div className="row">
+          <span>Size</span>
+          <span className="text-right">{Number(position.quantity).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Entry Price</span>
+          <span className="text-right">${Number(position.entry_price).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Mark Price</span>
+          <span className="text-right">${Number(currentPrice).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Liq. Price</span>
+          <span className="text-right">${Number(liqPrice).toFixed(4)}</span>
+        </div>
+        <div className={`row pnl-row ${isProfit ? 'positive' : 'negative'}`}>
+          <span>P&L</span>
+          <span className="text-right">
+            ${pnl.toFixed(2)} ({isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%)
+          </span>
+        </div>
+      </div>
+      <div className="card-footer">
+        <button 
+          className="close-btn" 
+          onClick={handleClose}
+          disabled={isClosing || currentPrice <= 0}
+        >
+          {isClosing ? 'Closing...' : 'Close'}
+        </button>
+      </div>
+    </div>
+  );
+};
+
+const SpotHoldingCard = ({ holding, cryptoImages, onSell }) => {
+  const currentValue = holding.current_value || (holding.quantity * holding.average_price);
+  const unrealizedPnl = holding.unrealized_pnl || 0;
+  const pnlPercent = holding.average_price > 0 
+    ? ((holding.current_price - holding.average_price) / holding.average_price) * 100 
+    : 0;
+  const isProfit = unrealizedPnl >= 0;
+  const holdingSymbol = `${holding.symbol}USDT`;
+  const holdingImageUrl = cryptoImages[holdingSymbol];
+
+  const handleSell = async () => {
+    const { value: quantity } = await Swal.fire({
+      title: 'Sell Quantity',
+      input: 'number',
+      inputLabel: `Available: ${holding.quantity.toFixed(6)} ${holding.symbol}`,
+      inputPlaceholder: 'Enter quantity',
+      inputAttributes: {
+        min: 0,
+        max: holding.quantity,
+        step: 0.000001
+      },
+      showCancelButton: true,
+      confirmButtonText: 'Sell',
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      inputValidator: (value) => {
+        if (!value || value <= 0 || value > holding.quantity) {
+          return 'Invalid quantity';
+        }
+      }
+    });
+
+    if (quantity) {
+      const result = await Swal.fire({
+        title: 'Confirm Sell',
+        text: `Sell ${quantity} ${holding.symbol} at market price?`,
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#3085d6',
+        confirmButtonText: 'Yes, sell!'
+      });
+      if (result.isConfirmed) {
+        try {
+          await onSell(holding.symbol, quantity);
+          Swal.fire({
+            icon: 'success',
+            title: 'Sold',
+            text: 'Market sell executed successfully',
+            timer: 2000,
+            showConfirmButton: false
+          });
+        } catch (error) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: error.message,
+            confirmButtonColor: '#3085d6'
+          });
+        }
+      }
+    }
+  };
+
+  return (
+    <div className="holding-card">
+      <div className="card-header">
+        <div className="symbol-section">
+          <CryptoIcon symbol={holdingSymbol} size="small" imageUrl={holdingImageUrl} />
+          <div className="symbol-info">
+            <div className="symbol-name">{holding.symbol}</div>
+            <div className="holding-type">Spot</div>
+          </div>
+        </div>
+      </div>
+      <div className="card-body">
+        <div className="row">
+          <span>Quantity</span>
+          <span className="text-right">{Number(holding.quantity).toFixed(6)}</span>
+        </div>
+        <div className="row">
+          <span>Avg Price</span>
+          <span className="text-right">${Number(holding.average_price).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Current Price</span>
+          <span className="text-right">${Number(holding.current_price || holding.average_price).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Value</span>
+          <span className="text-right">${currentValue.toFixed(2)}</span>
+        </div>
+        <div className={`row pnl-row ${isProfit ? 'positive' : 'negative'}`}>
+          <span>P&L</span>
+          <span className="text-right">
+            ${unrealizedPnl.toFixed(2)} ({isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%)
+          </span>
+        </div>
+      </div>
+      <div className="card-footer">
+        <button className="close-btn" onClick={handleSell}>Sell Market</button>
+      </div>
+    </div>
+  );
+};
+
+const OrderHistoryCard = ({ order, cryptoImages, onCancel }) => {
+  const statusColor = {
+    'FILLED': 'success',
+    'PENDING': 'warning',
+    'CANCELLED': 'error',
+    'REJECTED': 'error'
+  }[order.status] || 'neutral';
+  const orderImageUrl = cryptoImages[order.symbol];
+
+  const handleCancel = async () => {
+    const result = await Swal.fire({
+      title: 'Cancel Order?',
+      text: 'Are you sure you want to cancel this pending order?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      confirmButtonText: 'Yes, cancel!'
+    });
+    if (result.isConfirmed) {
+      try {
+        await onCancel(order.id);
+        Swal.fire({
+          icon: 'success',
+          title: 'Cancelled',
+          text: 'Order cancelled successfully',
+          timer: 2000,
+          showConfirmButton: false
+        });
+      } catch (error) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: error.message,
+          confirmButtonColor: '#3085d6'
+        });
+      }
+    }
+  };
+
+  return (
+    <div className="order-card">
+      <div className="card-header">
+        <div className="time">{new Date(order.created_at).toLocaleString()}</div>
+        <span className={`status-badge ${statusColor}`}>
+          {order.status}
+        </span>
+      </div>
+      <div className="card-body">
+        <div className="row">
+          <span>Symbol</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'flex-end' }}>
+            <CryptoIcon symbol={order.symbol} size="small" imageUrl={orderImageUrl} />
+            <span>{order.symbol.replace('USDT', '')}/USDT</span>
+          </div>
+        </div>
+        <div className="row">
+          <span>Side</span>
+          <span className="text-right">
+            <span className={`side-badge ${order.side.toLowerCase()}`}>
+              {order.side}
+            </span>
+          </span>
+        </div>
+        <div className="row">
+          <span>Type</span>
+          <span className="text-right">{order.type}</span>
+        </div>
+        <div className="row">
+          <span>Quantity</span>
+          <span className="text-right">{Number(order.quantity).toFixed(6)}</span>
+        </div>
+        <div className="row">
+          <span>Price</span>
+          <span className="text-right">${Number(order.price || 0).toFixed(4)}</span>
+        </div>
+        <div className="row">
+          <span>Market</span>
+          <span className="text-right">{order.market_type}</span>
+        </div>
+        {order.status === 'PENDING' && (
+          <div className="row">
+            <span>Actions</span>
+            <button className="close-btn" onClick={handleCancel}>Cancel</button>
+          </div>
+        )}
+      </div>
+    </div>
   );
 };
 
@@ -468,38 +903,22 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     freeMargin,
     loading: portfolioLoading,
     marginUtilization,
-    portfolioMetrics
+    cancelOrder
   } = usePortfolio();
 
-  const [mockPrice, setMockPrice] = useState(45000);
-  const [mockPriceChange, setMockPriceChange] = useState({ value: '+100.00', percent: '+0.22' });
-  const [isConnected] = useState(true);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setMockPrice(prev => {
-        const change = (Math.random() - 0.5) * 100;
-        const newPrice = prev + change;
-        setMockPriceChange({
-          value: change.toFixed(2),
-          percent: ((change / prev) * 100).toFixed(2)
-        });
-        return newPrice;
-      });
-    }, 3000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const lastPrice = mockPrice.toFixed(2);
-  const priceChange = mockPriceChange;
-  const rawLastPrice = mockPrice;
+  const { lastPrice, priceChange, rawLastPrice, isConnected } = usePriceData(symbol, isFutures ? 'futures' : 'spot');
 
   const autoFilledSymbolRef = useRef(null);
   const userEditedRef = useRef(false);
-  const supportedSpotSymbolsRef = useRef(new Set());
-  const supportedFuturesSymbolsRef = useRef(new Set());
   const [cryptoPage, setCryptoPage] = useState(1);
   const [hasMoreCryptos, setHasMoreCryptos] = useState(true);
+
+  const cryptoImages = useMemo(() => {
+    return cryptoList.reduce((acc, c) => {
+      acc[c.value] = c.image;
+      return acc;
+    }, {});
+  }, [cryptoList]);
 
   useEffect(() => {
     if (orderError) {
@@ -515,47 +934,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }
   }, [orderSuccess]);
 
-  // Load Binance exchange info
-  useEffect(() => {
-    const fetchBinanceInfo = async () => {
-      try {
-        const [spotResp, futuresResp] = await Promise.allSettled([
-          fetch("https://api.binance.com/api/v3/exchangeInfo"),
-          fetch("https://fapi.binance.com/fapi/v1/exchangeInfo")
-        ]);
-
-        if (spotResp.status === 'fulfilled' && spotResp.value.ok) {
-          const spotJson = await spotResp.value.json();
-          const spotSymbols = spotJson.symbols || [];
-          const spotSet = new Set(
-            spotSymbols
-              .filter((s) => s.status === "TRADING" && s.quoteAsset === "USDT")
-              .map((s) => s.symbol.toUpperCase())
-          );
-          supportedSpotSymbolsRef.current = spotSet;
-        }
-
-        if (futuresResp.status === 'fulfilled' && futuresResp.value.ok) {
-          const futuresJson = await futuresResp.value.json();
-          const futSymbols = futuresJson.symbols || [];
-          const futSet = new Set(
-            futSymbols
-              .filter((s) => s.status === "TRADING" && s.quoteAsset === "USDT")
-              .map((s) => s.symbol.toUpperCase())
-          );
-          supportedFuturesSymbolsRef.current = futSet;
-        } else {
-          supportedFuturesSymbolsRef.current = supportedSpotSymbolsRef.current;
-        }
-      } catch (error) {
-        console.error("Error fetching Binance exchangeInfo:", error);
-      }
-    };
-
-    fetchBinanceInfo();
-  }, []);
-
-  // Fetch cryptocurrencies from CoinGecko
   useEffect(() => {
     let isMounted = true;
 
@@ -577,21 +955,11 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           return;
         }
 
-        const supportedSet = isFutures 
-          ? supportedFuturesSymbolsRef.current 
-          : supportedSpotSymbolsRef.current;
-
         const binanceSymbols = data
           .map((coin) => ({
             coin,
             candidate: `${coin.symbol.toUpperCase()}USDT`,
           }))
-          .filter((c) => {
-            if (supportedSet && supportedSet.size > 0) {
-              return supportedSet.has(c.candidate);
-            }
-            return true;
-          })
           .map((c) => ({
             value: c.candidate,
             label: `${c.coin.name} (${c.coin.symbol.toUpperCase()}/USDT)`,
@@ -639,7 +1007,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     };
   }, [cryptoPage, isFutures]);
 
-  // Fallback cryptocurrency list
   const getFallbackCryptos = () => {
     const popularCryptos = [
       "BTC", "ETH", "BNB", "ADA", "XRP", "SOL", "DOT", "DOGE", "SHIB", "MATIC",
@@ -656,7 +1023,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }));
   };
 
-  // Filter cryptocurrencies based on search
   useEffect(() => {
     if (!searchTerm) {
       setFilteredCrypto(cryptoList);
@@ -674,23 +1040,11 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
 
   useEffect(() => {
     if (!cryptoList || cryptoList.length === 0) return;
-    const supportedSet = isFutures 
-      ? supportedFuturesSymbolsRef.current 
-      : supportedSpotSymbolsRef.current;
 
-    if (supportedSet && supportedSet.size > 0) {
-      if (!supportedSet.has(symbol)) {
-        const firstValid = cryptoList.find((c) => supportedSet.has(c.value));
-        if (firstValid) {
-          setSymbol(firstValid.value);
-        }
-      }
-    } else {
-      if (!cryptoList.find((c) => c.value === symbol)) {
-        setSymbol(cryptoList[0].value);
-      }
+    if (!cryptoList.find((c) => c.value === symbol)) {
+      setSymbol(cryptoList[0].value);
     }
-  }, [cryptoList, isFutures, symbol]);
+  }, [cryptoList, symbol]);
 
   useEffect(() => {
     userEditedRef.current = false;
@@ -698,10 +1052,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     autoFilledSymbolRef.current = null;
     setOrderError("");
     setOrderSuccess("");
-    
-    if (quantity && (orderType === 'market' ? rawLastPrice : selectedPrice)) {
-
-    }
   }, [symbol]);
 
   useEffect(() => {
@@ -720,11 +1070,14 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }
   };
 
+  const getMinQty = () => {
+    return 0.0001; // Fallback always, no Binance fetch
+  };
 
   const calculatePositionValue = () => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
-    if (!price || !qty) return 0;
+    if (!price || !qty || qty < getMinQty() || price <= 0) return 0;
     const val = price * qty;
     if (isFutures) return val * leverage;
     return val;
@@ -740,29 +1093,56 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const calculateRequiredMargin = () => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
-    if (!price || !qty || !isFutures) return 0;
+    if (!price || !qty || !isFutures || price <= 0) return 0;
     const positionValue = price * qty;
     if (isNaN(positionValue)) return 0;
     return (positionValue / leverage).toFixed(2);
   };
 
-  // Order validation
+  const getMaxSellQuantity = () => {
+    if (isFutures) return null;
+    const baseAsset = symbol.replace('USDT', '');
+    const holding = spotHoldings.find(h => h.symbol === baseAsset);
+    return holding ? holding.quantity : 0;
+  };
+
   const validateOrder = (side) => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
+    const minQty = getMinQty();
 
     if (!user) {
       throw new Error('Please login to trade');
     }
 
-    if (!qty || qty <= 0) {
-      throw new Error('Please enter a valid quantity');
+    if (!qty || qty <= 0 || qty < minQty) {
+      throw new Error(`Please enter a valid quantity (min: ${minQty})`);
+    }
+
+    if (orderType === 'market' && (!price || price <= 0)) {
+      throw new Error('Market price not available. Please wait for connection.');
     }
 
     if (orderType === 'limit' && (!price || price <= 0)) {
       throw new Error('Please enter a valid price');
     }
 
+    if (orderType === 'limit') {
+      if (isFutures) {
+        if (leverage < 1 || leverage > 100) {
+          throw new Error('Leverage must be between 1x and 100x');
+        }
+      } else if (side === 'SELL') {
+        const baseAsset = symbol.replace('USDT', '');
+        const holding = spotHoldings.find(h => h.symbol === baseAsset);
+        if (!holding || holding.quantity < qty) {
+          throw new Error(`Insufficient ${baseAsset} balance for sale`);
+        }
+      }
+      return true;
+    }
+
+    // For market orders, full checks
     if (isFutures) {
       const requiredMargin = parseFloat(calculateRequiredMargin());
       const fees = parseFloat(calculateFees());
@@ -800,6 +1180,19 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     try {
       validateOrder(side);
 
+      if (side === 'SELL' && !isFutures) {
+        const result = await Swal.fire({
+          title: 'Confirm Sell',
+          text: `Are you sure you want to sell ${quantity} ${symbol.replace('USDT', '')}?`,
+          icon: 'warning',
+          showCancelButton: true,
+          confirmButtonColor: '#d33',
+          cancelButtonColor: '#3085d6',
+          confirmButtonText: 'Yes, sell!'
+        });
+        if (!result.isConfirmed) return;
+      }
+
       const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
       const qty = parseFloat(quantity);
 
@@ -818,10 +1211,17 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       console.log('Submitting order:', orderData);
       const result = await submitOrder(orderData);
 
-      const successMessage = `${side} order executed successfully!\n` +
-        `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)}\n` +
-        `Fees: ${result.fees.toFixed(4)}\n` +
-        `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
+      let successMessage;
+      if (result.status === 'PENDING') {
+        successMessage = `Limit ${side} order placed successfully!\n` +
+          `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)} (Pending)\n` +
+          `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
+      } else {
+        successMessage = `${side} order executed successfully!\n` +
+          `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)}\n` +
+          `Fees: ${result.fees.toFixed(4)}\n` +
+          `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
+      }
 
       setOrderSuccess(successMessage);
 
@@ -838,6 +1238,29 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       setIsSubmittingOrder(false);
     }
   }
+
+  const handleSpotSellFromHolding = async (baseSymbol, qty) => {
+    const symbol = `${baseSymbol}USDT`;
+    const priceData = webSocketManager.getCurrentPrice(symbol, 'spot');
+    if (!priceData || !priceData.lastPrice || priceData.lastPrice <= 0) {
+      throw new Error(`Current market price not available for ${symbol}. Please try again in a moment.`);
+    }
+    const price = priceData.lastPrice;
+    const orderData = {
+      symbol,
+      side: 'SELL',
+      type: 'MARKET',
+      quantity: qty,
+      price,
+      marketType: 'SPOT'
+    };
+    await submitOrder(orderData);
+  };
+
+  const handleCancelOrder = async (orderId) => {
+    await cancelOrder(orderId);
+    refreshPortfolio();
+  };
 
   const getCurrentPrices = () => {
     const prices = {};
@@ -896,6 +1319,19 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const currentCryptoEntry = cryptoList.find((c) => c.value === symbol);
   const currentImageUrl = currentCryptoEntry ? currentCryptoEntry.image : null;
 
+  const isSubmitDisabled = () => {
+    const qty = parseFloat(quantity);
+    const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
+    return !qty || qty <= 0 || isSubmittingOrder || !user || (orderType === 'market' && (!price || price <= 0));
+  };
+
+  const spotTotalPnl = spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0);
+  const spotTotalValue = spotHoldings.reduce((total, h) => 
+    total + (h.current_value || h.quantity * h.average_price), 0
+  );
+
+  const maxSellQty = getMaxSellQuantity();
+
   return (
     <div className="trade-page">
       {/* Notification Messages */}
@@ -915,13 +1351,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
 
       <header className="trade-header">
         <div className="header-top">
-          <div className="symbol-section">
+          <div className="left-controls">
             <div className="symbol-display">
               <CryptoIcon symbol={symbol} size="medium" imageUrl={currentImageUrl} />
               <div className="symbol-info">
                 <div className="symbol-name">{symbol.replace("USDT", "")}/USDT</div>
                 <div className="symbol-details">
-                  {isFutures ? "Perpetual" : "Spot"} • {interval}
+                  {isFutures ? "Perpetual Futures" : "Spot Trading"}
                   {!isConnected && (
                     <span className="connection-status disconnected"> • Reconnecting...</span>
                   )}
@@ -940,59 +1376,45 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               </div>
             </div>
           </div>
-          
-          <div className="controls-section">
-            <div className="search-controls">
-              <div className="search-container">
-                <input
-                  type="text"
-                  placeholder="Search pairs..."
-                  value={searchTerm}
-                  onChange={handleSearchChange}
-                  className="search-input"
-                />
-                <div className="search-icon">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-              </div>
 
-              <div className="symbol-selector">
-                <select
-                  className="symbol-select"
-                  value={symbol}
-                  onChange={(e) => {
-                    setSymbol(e.target.value);
-                    setSearchTerm("");
-                    setFilteredCrypto(cryptoList);
-                  }}
-                  onFocus={loadMoreCryptos}
-                >
-                  {filteredCrypto.map((s) => (
-                    <option key={s.value} value={s.value}>
-                      {s.label}
-                    </option>
-                  ))}
-                  {hasMoreCryptos && (
-                    <option disabled value="loading">
-                      {loading ? "Loading more..." : "Scroll to load more"}
-                    </option>
-                  )}
-                </select>
+          <div className="right-controls">
+            <div className="search-container">
+              <input
+                type="text"
+                placeholder="Search pairs..."
+                value={searchTerm}
+                onChange={handleSearchChange}
+                className="search-input"
+              />
+              <div className="search-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </div>
             </div>
 
-            <div className="interval-controls">
-              {INTERVAL_OPTIONS.map((i) => (
-                <button
-                  key={i}
-                  className={`interval-btn ${interval === i ? "active" : ""}`}
-                  onClick={() => setInterval(i)}
-                >
-                  {i}
-                </button>
-              ))}
+            <div className="symbol-selector">
+              <select
+                className="symbol-select"
+                value={symbol}
+                onChange={(e) => {
+                  setSymbol(e.target.value);
+                  setSearchTerm("");
+                  setFilteredCrypto(cryptoList);
+                }}
+                onFocus={loadMoreCryptos}
+              >
+                {filteredCrypto.map((s) => (
+                  <option key={s.value} value={s.value}>
+                    {s.label}
+                  </option>
+                ))}
+                {hasMoreCryptos && (
+                  <option disabled value="loading">
+                    {loading ? "Loading more..." : "Scroll to load more"}
+                  </option>
+                )}
+              </select>
             </div>
           </div>
         </div>
@@ -1152,7 +1574,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 <span>Est. Fees:</span>
                 <span>${calculateFees()}</span>
               </div>
-              {isFutures && (
+              {!isFutures && maxSellQty !== null && (
+                <div className="summary-row">
+                  <span>Max Sell:</span>
+                  <span>{maxSellQty.toFixed(6)} {symbol.replace('USDT', '')}</span>
+                </div>
+              )}
+              {isFutures && orderType === 'market' && (
                 <div className="summary-row">
                   <span>Available Margin:</span>
                   <span className={freeMargin < parseFloat(calculateRequiredMargin() || 0) ? "insufficient" : "sufficient"}>
@@ -1166,16 +1594,16 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               <button 
                 className="btn btn-sell" 
                 onClick={() => submitOrderHandler("SELL")} 
-                disabled={!quantity || parseFloat(quantity) <= 0 || isSubmittingOrder || !user}
-                title={!user ? "Please login to trade" : ""}
+                disabled={isSubmitDisabled()}
+                title={isSubmitDisabled() && orderType === 'market' && rawLastPrice <= 0 ? "Price data not available" : (!user ? "Please login to trade" : "")}
               >
                 {isSubmittingOrder ? "Submitting..." : (isFutures ? "Short" : "Sell")}
               </button>
               <button 
                 className="btn btn-buy" 
                 onClick={() => submitOrderHandler("BUY")} 
-                disabled={!quantity || parseFloat(quantity) <= 0 || isSubmittingOrder || !user}
-                title={!user ? "Please login to trade" : ""}
+                disabled={isSubmitDisabled()}
+                title={isSubmitDisabled() && orderType === 'market' && rawLastPrice <= 0 ? "Price data not available" : (!user ? "Please login to trade" : "")}
               >
                 {isSubmittingOrder ? "Submitting..." : (isFutures ? "Long" : "Buy")}
               </button>
@@ -1233,12 +1661,34 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               <button 
                 className="action-btn danger" 
                 onClick={async () => {
-                  if (window.confirm(`Close all ${positions.length} positions?`)) {
+                  const result = await Swal.fire({
+                    title: 'Close All?',
+                    text: `Close all ${positions.length} positions?`,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#3085d6',
+                    confirmButtonText: 'Yes, close all!'
+                  });
+                  if (result.isConfirmed) {
                     try {
                       await closeAllPositions();
                       setOrderSuccess("All positions closed successfully");
+                      Swal.fire({
+                        icon: 'success',
+                        title: 'Closed',
+                        text: 'All positions closed successfully',
+                        timer: 2000,
+                        showConfirmButton: false
+                      });
                     } catch (error) {
                       setOrderError("Failed to close all positions: " + error.message);
+                      Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Failed to close all positions: ' + error.message,
+                        confirmButtonColor: '#3085d6'
+                      });
                     }
                   }
                 }}
@@ -1251,163 +1701,256 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
 
         <div className="positions-body">
           {activeTab === 'positions' && (
-            isFutures ? (
-              positions.length > 0 ? (
-                <div className="trading-table-container">
-                  <table className="trading-table">
-                    <thead>
-                      <tr>
-                        <th>Symbol</th>
-                        <th className="text-right">Size</th>
-                        <th className="text-right">Entry Price</th>
-                        <th className="text-right">Current Price</th>
-                        <th className="text-right">P&L</th>
-                        <th className="text-center">Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
+            <div className="positions-content">
+              {isFutures ? (
+                positions.length > 0 ? (
+                  <>
+                    <div className="desktop-table">
+                      <div className="trading-table-container">
+                        <table className="trading-table">
+                          <thead>
+                            <tr>
+                              <th>Symbol</th>
+                              <th className="text-right">Size</th>
+                              <th className="text-right">Entry Price</th>
+                              <th className="text-right">Mark Price</th>
+                              <th className="text-right">Liq. Price</th>
+                              <th className="text-right">P&L</th>
+                              <th className="text-center">Actions</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {positions.map(position => (
+                              <PositionRow 
+                                key={position.id} 
+                                position={position} 
+                                onClose={closePosition}
+                                currentPrices={getCurrentPrices()}
+                                cryptoImages={cryptoImages}
+                              />
+                            ))}
+                          </tbody>
+                        </table>
+                        
+                        <div className="positions-summary">
+                          <div className="summary-item">
+                            <span>Total Positions:</span>
+                            <span>{positions.length}</span>
+                          </div>
+                          <div className="summary-item">
+                            <span>Used Margin:</span>
+                            <span>${usedMargin.toFixed(2)}</span>
+                          </div>
+                          <div className="summary-item">
+                            <span>Unrealized P&L:</span>
+                            <span className={totalPnL >= 0 ? "positive" : "negative"}>
+                              {totalPnL >= 0 ? "+" : ""}${totalPnL.toFixed(2)}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mobile-cards">
                       {positions.map(position => (
-                        <PositionRow 
+                        <PositionCard 
                           key={position.id} 
                           position={position} 
                           onClose={closePosition}
                           currentPrices={getCurrentPrices()}
+                          cryptoImages={cryptoImages}
                         />
                       ))}
-                    </tbody>
-                  </table>
-                  
-                  <div className="positions-summary">
-                    <div className="summary-item">
-                      <span>Total Positions:</span>
-                      <span>{positions.length}</span>
+                      <div className="positions-summary">
+                        <div className="summary-item">
+                          <span>Total Positions:</span>
+                          <span>{positions.length}</span>
+                        </div>
+                        <div className="summary-item">
+                          <span>Used Margin:</span>
+                          <span>${usedMargin.toFixed(2)}</span>
+                        </div>
+                        <div className="summary-item">
+                          <span>Unrealized P&L:</span>
+                          <span className={totalPnL >= 0 ? "positive" : "negative"}>
+                            {totalPnL >= 0 ? "+" : ""}${totalPnL.toFixed(2)}
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                    <div className="summary-item">
-                      <span>Used Margin:</span>
-                      <span>${usedMargin.toFixed(2)}</span>
-                    </div>
-                    <div className="summary-item">
-                      <span>Unrealized P&L:</span>
-                      <span className={totalPnL >= 0 ? "positive" : "negative"}>
-                        {totalPnL >= 0 ? "+" : ""}${totalPnL.toFixed(2)}
-                      </span>
+                  </>
+                ) : (
+                  <div className="empty-state">
+                    <div className="empty-icon">📊</div>
+                    <div className="empty-title">No positions yet</div>
+                    <div className="empty-subtitle">
+                      Your futures positions will appear here. Start by placing a trade above.
                     </div>
                   </div>
-                </div>
+                )
               ) : (
-                <div className="empty-state">
-                  <div className="empty-icon">📊</div>
-                  <div className="empty-title">No positions yet</div>
-                  <div className="empty-subtitle">
-                    Your futures positions will appear here. Start by placing a trade above.
-                  </div>
-                </div>
-              )
-            ) : (
-              spotHoldings.length > 0 ? (
-                <div className="trading-table-container">
-                  <table className="trading-table">
-                    <thead>
-                      <tr>
-                        <th>Asset</th>
-                        <th className="text-right">Quantity</th>
-                        <th className="text-right">Avg Price</th>
-                        <th className="text-right">Current Price</th>
-                        <th className="text-right">Value</th>
-                        <th className="text-right">P&L</th>
-                      </tr>
-                    </thead>
-                    <tbody>
+                spotHoldings.length > 0 ? (
+                  <>
+                    <div className="desktop-table">
+                      <div className="trading-table-container">
+                        <table className="trading-table">
+                          <thead>
+                            <tr>
+                              <th>Asset</th>
+                              <th className="text-right">Quantity</th>
+                              <th className="text-right">Avg Price</th>
+                              <th className="text-right">Current Price</th>
+                              <th className="text-right">Value</th>
+                              <th className="text-right">P&L</th>
+                              <th className="text-center">Actions</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {spotHoldings.map(holding => (
+                              <SpotHoldingRow 
+                                key={holding.id} 
+                                holding={holding}
+                                cryptoImages={cryptoImages}
+                                onSell={handleSpotSellFromHolding}
+                              />
+                            ))}
+                          </tbody>
+                        </table>
+                        
+                        <div className="holdings-summary">
+                          <div className="summary-item">
+                            <span>Total Holdings:</span>
+                            <span>{spotHoldings.length}</span>
+                          </div>
+                          <div className="summary-item">
+                            <span>Total Value:</span>
+                            <span>${spotTotalValue.toFixed(2)}</span>
+                          </div>
+                          <div className="summary-item">
+                            <span>Unrealized P&L:</span>
+                            <span className={spotTotalPnl >= 0 ? "positive" : "negative"}>
+                              {spotTotalPnl >= 0 ? "+" : ""}${spotTotalPnl.toFixed(2)}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mobile-cards">
                       {spotHoldings.map(holding => (
-                        <SpotHoldingRow 
+                        <SpotHoldingCard 
                           key={holding.id} 
                           holding={holding}
+                          cryptoImages={cryptoImages}
+                          onSell={handleSpotSellFromHolding}
                         />
                       ))}
-                    </tbody>
-                  </table>
-                  
-                  <div className="holdings-summary">
-                    <div className="summary-item">
-                      <span>Total Holdings:</span>
-                      <span>{spotHoldings.length}</span>
+                      <div className="holdings-summary">
+                        <div className="summary-item">
+                          <span>Total Holdings:</span>
+                          <span>{spotHoldings.length}</span>
+                        </div>
+                        <div className="summary-item">
+                          <span>Total Value:</span>
+                          <span>${spotTotalValue.toFixed(2)}</span>
+                        </div>
+                        <div className="summary-item">
+                          <span>Unrealized P&L:</span>
+                          <span className={spotTotalPnl >= 0 ? "positive" : "negative"}>
+                            {spotTotalPnl >= 0 ? "+" : ""}${spotTotalPnl.toFixed(2)}
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                    <div className="summary-item">
-                      <span>Total Value:</span>
-                      <span>
-                        ${spotHoldings.reduce((total, h) => 
-                          total + (h.current_value || h.quantity * h.average_price), 0
-                        ).toFixed(2)}
-                      </span>
-                    </div>
-                    <div className="summary-item">
-                      <span>Unrealized P&L:</span>
-                      <span className={
-                        spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0) >= 0 
-                          ? "positive" : "negative"
-                      }>
-                        {spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0) >= 0 
-                          ? "+" : ""}
-                        ${spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0).toFixed(2)}
-                      </span>
+                  </>
+                ) : (
+                  <div className="empty-state">
+                    <div className="empty-icon">💰</div>
+                    <div className="empty-title">No holdings yet</div>
+                    <div className="empty-subtitle">
+                      Your spot holdings will appear here. Start by buying some crypto above.
                     </div>
                   </div>
-                </div>
-              ) : (
-                <div className="empty-state">
-                  <div className="empty-icon">💰</div>
-                  <div className="empty-title">No holdings yet</div>
-                  <div className="empty-subtitle">
-                    Your spot holdings will appear here. Start by buying some crypto above.
-                  </div>
-                </div>
-              )
-            )
+                )
+              )}
+            </div>
           )}
 
           {activeTab === 'orders' && (
             orderHistory.length > 0 ? (
-              <div className="trading-table-container">
-                <table className="trading-table">
-                  <thead>
-                    <tr>
-                      <th>Time</th>
-                      <th>Symbol</th>
-                      <th>Side</th>
-                      <th>Type</th>
-                      <th className="text-right">Quantity</th>
-                      <th className="text-right">Price</th>
-                      <th>Status</th>
-                      <th>Market</th>
-                      <th className="text-right">P&L</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {orderHistory.slice(0, 50).map(order => (
-                      <OrderHistoryRow 
-                        key={order.id} 
-                        order={order}
-                      />
-                    ))}
-                  </tbody>
-                </table>
-                
-                <div className="orders-summary">
-                  <div className="summary-item">
-                    <span>Total Orders:</span>
-                    <span>{orderHistory.length}</span>
+              <div className="positions-content">
+                <div className="desktop-table">
+                  <div className="trading-table-container">
+                    <table className="trading-table">
+                      <thead>
+                        <tr>
+                          <th>Time</th>
+                          <th>Symbol</th>
+                          <th>Side</th>
+                          <th>Type</th>
+                          <th className="text-right">Quantity</th>
+                          <th className="text-right">Price</th>
+                          <th>Status</th>
+                          <th>Market</th>
+                          <th className="text-center">Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {orderHistory.slice(0, 50).map(order => (
+                          <OrderHistoryRow 
+                            key={order.id} 
+                            order={order}
+                            cryptoImages={cryptoImages}
+                            onCancel={handleCancelOrder}
+                          />
+                        ))}
+                      </tbody>
+                    </table>
+                    
+                    <div className="orders-summary">
+                      <div className="summary-item">
+                        <span>Total Orders:</span>
+                        <span>{orderHistory.length}</span>
+                      </div>
+                      <div className="summary-item">
+                        <span>Filled Orders:</span>
+                        <span>{orderHistory.filter(o => o.status === 'FILLED').length}</span>
+                      </div>
+                      <div className="summary-item">
+                        <span>Success Rate:</span>
+                        <span>
+                          {orderHistory.length > 0 
+                            ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
+                            : 0}%
+                        </span>
+                      </div>
+                    </div>
                   </div>
-                  <div className="summary-item">
-                    <span>Filled Orders:</span>
-                    <span>{orderHistory.filter(o => o.status === 'FILLED').length}</span>
-                  </div>
-                  <div className="summary-item">
-                    <span>Success Rate:</span>
-                    <span>
-                      {orderHistory.length > 0 
-                        ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
-                        : 0}%
-                    </span>
+                </div>
+                <div className="mobile-cards">
+                  {orderHistory.slice(0, 20).map(order => (
+                    <OrderHistoryCard 
+                      key={order.id} 
+                      order={order}
+                      cryptoImages={cryptoImages}
+                      onCancel={handleCancelOrder}
+                    />
+                  ))}
+                  <div className="orders-summary">
+                    <div className="summary-item">
+                      <span>Total Orders:</span>
+                      <span>{orderHistory.length}</span>
+                    </div>
+                    <div className="summary-item">
+                      <span>Filled Orders:</span>
+                      <span>{orderHistory.filter(o => o.status === 'FILLED').length}</span>
+                    </div>
+                    <div className="summary-item">
+                      <span>Success Rate:</span>
+                      <span>
+                        {orderHistory.length > 0 
+                          ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
+                          : 0}%
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
