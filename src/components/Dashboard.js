@@ -3,6 +3,8 @@ import { useAuth } from "../contexts/AuthContext";
 import { supabase } from "../lib/supabase";
 import PieStat from "../components/DashboardPieStat";
 import "../css/Dashboard.css";
+import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 import {
   IoBarChart,
   IoWalletOutline,
@@ -13,7 +15,7 @@ import {
   IoEye,
   IoEyeOff,
   IoClose,
-  IoCheckmark
+  IoCheckmark,
 } from "react-icons/io5";
 import {
   FaUser,
@@ -24,18 +26,18 @@ import {
   FaHistory,
   FaCamera,
   FaLock,
-  FaSpinner
+  FaSpinner,
 } from "react-icons/fa";
 
 // Mock data with more realistic crypto trading data
 const portfolioData = {
   totalBalance: 15847.23,
   totalBalanceBTC: 0.142857,
-  availableBalance: 12340.50,
+  availableBalance: 12340.5,
   unrealizedPnL: 1247.73,
-  totalPnL: 3507.00,
-  todayPnL: 247.50,
-  dayChange: 1.85
+  totalPnL: 3507.0,
+  todayPnL: 247.5,
+  dayChange: 1.85,
 };
 
 const ongoingTradesData = [
@@ -51,7 +53,7 @@ const ongoingTradesData = [
     pnl: 18.75,
     pnlPercent: 1.11,
     leverage: "10x",
-    timestamp: "2025-01-20 14:30"
+    timestamp: "2025-01-20 14:30",
   },
   {
     id: 2,
@@ -65,7 +67,7 @@ const ongoingTradesData = [
     pnl: 20.0,
     pnlPercent: 5.85,
     leverage: "5x",
-    timestamp: "2025-01-20 12:15"
+    timestamp: "2025-01-20 12:15",
   },
   {
     id: 3,
@@ -79,8 +81,8 @@ const ongoingTradesData = [
     pnl: -7.0,
     pnlPercent: -8.24,
     leverage: "2x",
-    timestamp: "2025-01-19 16:45"
-  }
+    timestamp: "2025-01-19 16:45",
+  },
 ];
 
 const recentTradesData = [
@@ -95,7 +97,7 @@ const recentTradesData = [
     pnl: 80.0,
     pnlPercent: 12.31,
     fees: 2.67,
-    closeTime: "2025-01-20 10:30"
+    closeTime: "2025-01-20 10:30",
   },
   {
     id: 2,
@@ -108,7 +110,7 @@ const recentTradesData = [
     pnl: 84.0,
     pnlPercent: 19.72,
     fees: 4.26,
-    closeTime: "2025-01-19 18:15"
+    closeTime: "2025-01-19 18:15",
   },
   {
     id: 3,
@@ -121,7 +123,7 @@ const recentTradesData = [
     pnl: -82.5,
     pnlPercent: -2.59,
     fees: 3.18,
-    closeTime: "2025-01-19 14:22"
+    closeTime: "2025-01-19 14:22",
   },
   {
     id: 4,
@@ -134,8 +136,8 @@ const recentTradesData = [
     pnl: 292.5,
     pnlPercent: 7.86,
     fees: 7.43,
-    closeTime: "2025-01-18 21:00"
-  }
+    closeTime: "2025-01-18 21:00",
+  },
 ];
 
 // Fallback icon mapping (used if fetch to CoinGecko fails or no match)
@@ -148,7 +150,7 @@ const fallbackIconMap = {
   xrp: { icon: "X", color: "#23292F" },
   dot: { icon: "●", color: "#E6007A" },
   avax: { icon: "▲", color: "#E84142" },
-  matic: { icon: "◆", color: "#8247E5" }
+  matic: { icon: "◆", color: "#8247E5" },
 };
 
 /**
@@ -161,7 +163,10 @@ const fallbackIconMap = {
  * - size (number px)
  */
 const CryptoLogo = ({ symbol, size = 36 }) => {
-  const baseSymbol = symbol.replace(/usdt$/i, "").replace(/ticker:/i, "").toLowerCase();
+  const baseSymbol = symbol
+    .replace(/usdt$/i, "")
+    .replace(/ticker:/i, "")
+    .toLowerCase();
   const [imgUrl, setImgUrl] = useState(null);
   const [loading, setLoading] = useState(true);
   const [errored, setErrored] = useState(false);
@@ -227,14 +232,21 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
         alt={`${baseSymbol.toUpperCase()} logo`}
         width={size}
         height={size}
-        style={{ borderRadius: "50%", objectFit: "cover", display: "inline-block" }}
+        style={{
+          borderRadius: "50%",
+          objectFit: "cover",
+          display: "inline-block",
+        }}
         onError={() => setErrored(true)}
       />
     );
   }
 
   // Fallback: stylized circle with glyph or generic dot
-  const fallback = fallbackIconMap[baseSymbol] || { icon: "◯", color: "#6B7280" };
+  const fallback = fallbackIconMap[baseSymbol] || {
+    icon: "◯",
+    color: "#6B7280",
+  };
   return (
     <div
       style={{
@@ -249,7 +261,7 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
         fontSize: Math.max(12, Math.floor(size * 0.5)),
         fontWeight: "700",
         textTransform: "uppercase",
-        userSelect: "none"
+        userSelect: "none",
       }}
       aria-hidden="true"
     >
@@ -271,9 +283,7 @@ const EditModal = ({ isOpen, onClose, title, children }) => {
             <IoClose />
           </button>
         </div>
-        <div className="modal-body">
-          {children}
-        </div>
+        <div className="modal-body">{children}</div>
       </div>
     </div>
   );
@@ -281,52 +291,75 @@ const EditModal = ({ isOpen, onClose, title, children }) => {
 
 export default function Dashboard() {
   const { user, signOut } = useAuth();
+  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("overview");
   const [balanceVisible, setBalanceVisible] = useState(true);
   const [timeFilter, setTimeFilter] = useState("7d");
-  
+
   // Profile state
   const [profile, setProfile] = useState({
-    first_name: '',
-    last_name: '',
+    first_name: "",
+    last_name: "",
     profile_picture_url: null,
-    birthday: null
+    birthday: null,
   });
   const [loading, setLoading] = useState(false);
-  
+
   // Modal states
   const [editNameModal, setEditNameModal] = useState(false);
   const [changePasswordModal, setChangePasswordModal] = useState(false);
-  
+
   // Form states
-  const [nameForm, setNameForm] = useState({ first_name: '', last_name: '' });
-  const [passwordForm, setPasswordForm] = useState({ 
-    current_password: '', 
-    new_password: '', 
-    confirm_password: '' 
+  const [nameForm, setNameForm] = useState({ first_name: "", last_name: "" });
+  const [passwordForm, setPasswordForm] = useState({
+    current_password: "",
+    new_password: "",
+    confirm_password: "",
   });
   const [uploadingImage, setUploadingImage] = useState(false);
-  const [messages, setMessages] = useState({ success: '', error: '' });
-  const [passwordStrength, setPasswordStrength] = useState({ score: 0, text: '', isValid: false });
-  
+  const [messages, setMessages] = useState({ success: "", error: "" });
+  const [passwordStrength, setPasswordStrength] = useState({
+    score: 0,
+    text: "",
+    isValid: false,
+  });
+
   const fileInputRef = useRef(null);
 
   // Calculate stats
   const totalTrades = recentTradesData.length + ongoingTradesData.length;
-  const winningTrades = recentTradesData.filter((trade) => trade.pnl > 0).length;
+  const winningTrades = recentTradesData.filter(
+    (trade) => trade.pnl > 0
+  ).length;
   const losingTrades = recentTradesData.filter((trade) => trade.pnl < 0).length;
   const winRate =
-    totalTrades > 0 ? ((winningTrades / recentTradesData.length) * 100).toFixed(1) : 0;
+    totalTrades > 0
+      ? ((winningTrades / recentTradesData.length) * 100).toFixed(1)
+      : 0;
 
-  const totalRealizedPnL = recentTradesData.reduce((sum, trade) => sum + trade.pnl, 0);
-  const totalUnrealizedPnL = ongoingTradesData.reduce((sum, trade) => sum + trade.pnl, 0);
+  const totalRealizedPnL = recentTradesData.reduce(
+    (sum, trade) => sum + trade.pnl,
+    0
+  );
+  const totalUnrealizedPnL = ongoingTradesData.reduce(
+    (sum, trade) => sum + trade.pnl,
+    0
+  );
 
   const avgReturn =
-    recentTradesData.length > 0 ? (totalRealizedPnL / recentTradesData.length).toFixed(2) : 0;
+    recentTradesData.length > 0
+      ? (totalRealizedPnL / recentTradesData.length).toFixed(2)
+      : 0;
 
-  const totalPositionsData = [{ name: "Wins", value: winningTrades }, { name: "Losses", value: losingTrades }];
+  const totalPositionsData = [
+    { name: "Wins", value: winningTrades },
+    { name: "Losses", value: losingTrades },
+  ];
 
-  const winRateData = [{ name: "Wins", value: parseFloat(winRate) }, { name: "Losses", value: 100 - parseFloat(winRate) }];
+  const winRateData = [
+    { name: "Wins", value: parseFloat(winRate) },
+    { name: "Losses", value: 100 - parseFloat(winRate) },
+  ];
 
   // Fetch user profile on component mount
   useEffect(() => {
@@ -342,46 +375,47 @@ export default function Dashboard() {
     const hasUpper = /[A-Z]/.test(password);
     const hasDigit = /[0-9]/.test(password);
     const hasSpecial = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]/.test(password);
-    
+
     const validations = {
       minLength,
       hasLower,
       hasUpper,
       hasDigit,
-      hasSpecial
+      hasSpecial,
     };
-    
+
     const validCount = Object.values(validations).filter(Boolean).length;
     const isValid = validCount === 5;
-    
-    let strength = 'Weak';
+
+    let strength = "Weak";
     let score = 0;
-    
+
     if (validCount >= 3) {
-      strength = 'Medium';
+      strength = "Medium";
       score = 1;
     }
-    
+
     if (isValid && password.length >= 12) {
-      strength = 'Strong';
+      strength = "Strong";
       score = 2;
     } else if (isValid) {
-      strength = 'Medium';
+      strength = "Medium";
       score = 1;
     }
-    
+
     return {
       isValid,
       score,
       text: strength,
       validations,
       requirements: {
-        minLength: 'At least 8 characters',
-        hasLower: 'At least one lowercase letter',
-        hasUpper: 'At least one uppercase letter',
-        hasDigit: 'At least one number',
-        hasSpecial: 'At least one special character (!@#$%^&*()_+-=[]{};\':"|,.<>/?)'
-      }
+        minLength: "At least 8 characters",
+        hasLower: "At least one lowercase letter",
+        hasUpper: "At least one uppercase letter",
+        hasDigit: "At least one number",
+        hasSpecial:
+          "At least one special character (!@#$%^&*()_+-=[]{};':\"|,.<>/?)",
+      },
     };
   };
 
@@ -391,43 +425,46 @@ export default function Dashboard() {
       const strength = validatePassword(passwordForm.new_password);
       setPasswordStrength(strength);
     } else {
-      setPasswordStrength({ score: 0, text: '', isValid: false });
+      setPasswordStrength({ score: 0, text: "", isValid: false });
     }
   }, [passwordForm.new_password]);
 
   // Check if user is from Google OAuth
-  const isGoogleUser = user?.app_metadata?.provider === 'google';
+  const isGoogleUser = user?.app_metadata?.provider === "google";
 
   const fetchProfile = async () => {
     if (!user) return;
-    
+
     setLoading(true);
     try {
       // First try to get existing profile
       let { data, error } = await supabase
-        .from('profiles')
-        .select('*')
-        .eq('id', user.id)
+        .from("profiles")
+        .select("*")
+        .eq("id", user.id)
         .maybeSingle(); // Use maybeSingle instead of single to avoid errors when no record exists
 
       if (error) {
-        console.error('Error fetching profile:', error);
+        console.error("Error fetching profile:", error);
         // If there's an error, try to create a new profile
         const { data: newProfile, error: createError } = await supabase
-          .from('profiles')
-          .upsert({ 
-            id: user.id,
-            first_name: user.user_metadata?.firstName || '',
-            last_name: user.user_metadata?.lastName || '',
-          }, { 
-            onConflict: 'id',
-            ignoreDuplicates: false 
-          })
+          .from("profiles")
+          .upsert(
+            {
+              id: user.id,
+              first_name: user.user_metadata?.firstName || "",
+              last_name: user.user_metadata?.lastName || "",
+            },
+            {
+              onConflict: "id",
+              ignoreDuplicates: false,
+            }
+          )
           .select()
           .single();
 
         if (createError) {
-          console.error('Error creating profile:', createError);
+          console.error("Error creating profile:", createError);
           throw createError;
         }
         data = newProfile;
@@ -436,60 +473,62 @@ export default function Dashboard() {
       if (!data) {
         // Create profile if it doesn't exist
         const { data: newProfile, error: createError } = await supabase
-          .from('profiles')
-          .insert([{ 
-            id: user.id,
-            first_name: user.user_metadata?.firstName || '',
-            last_name: user.user_metadata?.lastName || '',
-          }])
+          .from("profiles")
+          .insert([
+            {
+              id: user.id,
+              first_name: user.user_metadata?.firstName || "",
+              last_name: user.user_metadata?.lastName || "",
+            },
+          ])
           .select()
           .single();
 
         if (createError) {
-          console.error('Error creating profile:', createError);
+          console.error("Error creating profile:", createError);
           throw createError;
         }
         data = newProfile;
       }
 
       setProfile(data);
-      setNameForm({ 
-        first_name: data.first_name || '', 
-        last_name: data.last_name || '' 
+      setNameForm({
+        first_name: data.first_name || "",
+        last_name: data.last_name || "",
       });
     } catch (error) {
-      console.error('Error in fetchProfile:', error);
-      setMessages({ ...messages, error: 'Failed to fetch profile data' });
+      console.error("Error in fetchProfile:", error);
+      setMessages({ ...messages, error: "Failed to fetch profile data" });
     } finally {
       setLoading(false);
     }
   };
 
   const updateProfile = async (updates) => {
-    if (!user) return { success: false, error: 'No user found' };
+    if (!user) return { success: false, error: "No user found" };
 
     try {
       const { data, error } = await supabase
-        .from('profiles')
+        .from("profiles")
         .upsert(
           { id: user.id, ...updates },
-          { 
-            onConflict: 'id',
-            ignoreDuplicates: false 
+          {
+            onConflict: "id",
+            ignoreDuplicates: false,
           }
         )
         .select()
         .single();
 
       if (error) {
-        console.error('Update profile error:', error);
+        console.error("Update profile error:", error);
         throw error;
       }
 
       setProfile(data);
       return { success: true, data };
     } catch (error) {
-      console.error('Error updating profile:', error);
+      console.error("Error updating profile:", error);
       return { success: false, error: error.message };
     }
   };
@@ -497,28 +536,28 @@ export default function Dashboard() {
   const handleNameUpdate = async (e) => {
     e.preventDefault();
     setLoading(true);
-    
+
     try {
       const result = await updateProfile({
         first_name: nameForm.first_name.trim(),
-        last_name: nameForm.last_name.trim()
+        last_name: nameForm.last_name.trim(),
       });
 
       if (result.success) {
-        setMessages({ success: 'Name updated successfully!', error: '' });
+        setMessages({ success: "Name updated successfully!", error: "" });
         // Close modal after 1 second
         setTimeout(() => {
           setEditNameModal(false);
         }, 1000);
       } else {
-        setMessages({ error: result.error, success: '' });
+        setMessages({ error: result.error, success: "" });
         // Close modal after 3 seconds even on error
         setTimeout(() => {
           setEditNameModal(false);
         }, 3000);
       }
     } catch (error) {
-      setMessages({ error: 'Failed to update name', success: '' });
+      setMessages({ error: "Failed to update name", success: "" });
       setTimeout(() => {
         setEditNameModal(false);
       }, 3000);
@@ -532,95 +571,101 @@ export default function Dashboard() {
     if (!file) return;
 
     // Validate file type
-    if (!file.type.startsWith('image/')) {
-      setMessages({ error: 'Please select an image file', success: '' });
+    if (!file.type.startsWith("image/")) {
+      setMessages({ error: "Please select an image file", success: "" });
       return;
     }
 
     // Validate file size (max 5MB)
     if (file.size > 5 * 1024 * 1024) {
-      setMessages({ error: 'Image must be less than 5MB', success: '' });
+      setMessages({ error: "Image must be less than 5MB", success: "" });
       return;
     }
 
     setUploadingImage(true);
-    
+
     try {
       // Delete old profile picture if it exists
       if (profile.profile_picture_url) {
-        const oldFileName = profile.profile_picture_url.split('/').pop();
+        const oldFileName = profile.profile_picture_url.split("/").pop();
         await supabase.storage
-          .from('profile-pictures')
+          .from("profile-pictures")
           .remove([`${user.id}/${oldFileName}`]);
       }
 
       // Upload new profile picture
-      const fileExt = file.name.split('.').pop();
+      const fileExt = file.name.split(".").pop();
       const fileName = `${Date.now()}.${fileExt}`;
       const filePath = `${user.id}/${fileName}`;
 
       const { data: uploadData, error: uploadError } = await supabase.storage
-        .from('profile-pictures')
+        .from("profile-pictures")
         .upload(filePath, file);
 
       if (uploadError) {
-        console.error('Upload error:', uploadError);
+        console.error("Upload error:", uploadError);
         throw uploadError;
       }
 
       // Get public URL
       const { data: urlData } = supabase.storage
-        .from('profile-pictures')
+        .from("profile-pictures")
         .getPublicUrl(filePath);
 
       // Update profile with new picture URL
       const result = await updateProfile({
-        profile_picture_url: urlData.publicUrl
+        profile_picture_url: urlData.publicUrl,
       });
 
       if (result.success) {
-        setMessages({ success: 'Profile picture updated successfully!', error: '' });
+        setMessages({
+          success: "Profile picture updated successfully!",
+          error: "",
+        });
       } else {
-        setMessages({ error: result.error, success: '' });
+        setMessages({ error: result.error, success: "" });
       }
     } catch (error) {
-      console.error('Error uploading profile picture:', error);
-      setMessages({ error: 'Failed to upload profile picture', success: '' });
+      console.error("Error uploading profile picture:", error);
+      setMessages({ error: "Failed to upload profile picture", success: "" });
     } finally {
       setUploadingImage(false);
       // Reset file input
       if (fileInputRef.current) {
-        fileInputRef.current.value = '';
+        fileInputRef.current.value = "";
       }
     }
   };
 
   const handlePasswordChange = async (e) => {
     e.preventDefault();
-    
+
     if (!passwordStrength.isValid) {
-      setMessages({ error: 'Password does not meet security requirements', success: '' });
+      setMessages({
+        error: "Password does not meet security requirements",
+        success: "",
+      });
       return;
     }
 
     if (passwordForm.new_password !== passwordForm.confirm_password) {
-      setMessages({ error: 'New passwords do not match', success: '' });
+      setMessages({ error: "New passwords do not match", success: "" });
       return;
     }
 
     setLoading(true);
-    
+
     try {
       // For Google users, they might not have a current password, so we skip verification
       if (!isGoogleUser) {
         // Verify current password by attempting to sign in
         const { error: verifyError } = await supabase.auth.signInWithPassword({
           email: user.email,
-          password: passwordForm.current_password
+          password: passwordForm.current_password,
         });
 
         if (verifyError) {
-          setMessages({ error: 'Current password is incorrect', success: '' });
+          setMessages({ error: "Current password is incorrect", success: "" });
           setLoading(false);
           return;
         }
@@ -628,24 +673,28 @@ export default function Dashboard() {
 
       // Update password
       const { error: updateError } = await supabase.auth.updateUser({
-        password: passwordForm.new_password
+        password: passwordForm.new_password,
       });
 
       if (updateError) {
-        console.error('Password update error:', updateError);
+        console.error("Password update error:", updateError);
         throw updateError;
       }
 
-      setMessages({ success: 'Password changed successfully!', error: '' });
-      setPasswordForm({ current_password: '', new_password: '', confirm_password: '' });
-      
+      setMessages({ success: "Password changed successfully!", error: "" });
+      setPasswordForm({
+        current_password: "",
+        new_password: "",
+        confirm_password: "",
+      });
+
       // Close modal after 1 second
       setTimeout(() => {
         setChangePasswordModal(false);
       }, 1000);
     } catch (error) {
-      console.error('Error changing password:', error);
-      setMessages({ error: 'Failed to change password', success: '' });
+      console.error("Error changing password:", error);
+      setMessages({ error: "Failed to change password", success: "" });
       // Close modal after 3 seconds even on error
       setTimeout(() => {
         setChangePasswordModal(false);
@@ -656,10 +705,37 @@ export default function Dashboard() {
   };
 
   const handleSignOut = async () => {
-    try {
-      await signOut();
-    } catch (error) {
-      console.error('Error signing out:', error);
+    const result = await Swal.fire({
+      title: "Are you sure?",
+      text: "Do you want to log out of your account?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, log out",
+      cancelButtonText: "Cancel",
+    });
+
+    if (result.isConfirmed) {
+      try {
+        await signOut();
+        Swal.fire({
+          title: "Logged out!",
+          text: "You have been successfully logged out.",
+          icon: "success",
+          timer: 1500,
+          showConfirmButton: false,
+        });
+        navigate("/home");
+      } catch (error) {
+        console.error("Error signing out:", error);
+        Swal.fire({
+          title: "Error!",
+          text: "There was an error logging out. Please try again.",
+          icon: "error",
+          confirmButtonText: "OK",
+        });
+      }
     }
   };
 
@@ -667,7 +743,7 @@ export default function Dashboard() {
   useEffect(() => {
     if (messages.success || messages.error) {
       const timer = setTimeout(() => {
-        setMessages({ success: '', error: '' });
+        setMessages({ success: "", error: "" });
       }, 5000);
       return () => clearTimeout(timer);
     }
@@ -675,13 +751,19 @@ export default function Dashboard() {
 
   const formatCurrency = (amount) => {
     return balanceVisible
-      ? `₱${Math.abs(amount).toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+      ? `₱${Math.abs(amount).toLocaleString("en-PH", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        })}`
       : "••••••";
   };
 
   const formatPnL = (pnl, showSign = true) => {
     const sign = pnl >= 0 ? "+" : "";
-    return `${showSign ? sign : ""}₱${Math.abs(pnl).toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    return `${showSign ? sign : ""}₱${Math.abs(pnl).toLocaleString("en-PH", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    })}`;
   };
 
   const formatPercent = (percent, showSign = true) => {
@@ -691,16 +773,18 @@ export default function Dashboard() {
 
   const getDisplayName = () => {
     if (profile.first_name || profile.last_name) {
-      return `${profile.first_name || ''} ${profile.last_name || ''}`.trim();
+      return `${profile.first_name || ""} ${profile.last_name || ""}`.trim();
     }
-    return user?.email?.split('@')[0] || 'User';
+    return user?.email?.split("@")[0] || "User";
   };
 
   return (
     <div className="dashboard">
       {/* Messages */}
       {(messages.success || messages.error) && (
-        <div className={`message-banner ${messages.error ? 'error' : 'success'}`}>
+        <div
+          className={`message-banner ${messages.error ? "error" : "success"}`}
+        >
           {messages.success || messages.error}
         </div>
       )}
@@ -709,7 +793,9 @@ export default function Dashboard() {
       <aside className="sidebar" aria-label="Sidebar">
         <nav className="sidebar-nav">
           <div
-            className={`sidebar-item ${activeTab === "overview" ? "active" : ""}`}
+            className={`sidebar-item ${
+              activeTab === "overview" ? "active" : ""
+            }`}
             role="button"
             tabIndex={0}
             onClick={() => setActiveTab("overview")}
@@ -719,7 +805,9 @@ export default function Dashboard() {
           </div>
 
           <div
-            className={`sidebar-item ${activeTab === "history" ? "active" : ""}`}
+            className={`sidebar-item ${
+              activeTab === "history" ? "active" : ""
+            }`}
             role="button"
             tabIndex={0}
             onClick={() => setActiveTab("history")}
@@ -729,7 +817,9 @@ export default function Dashboard() {
           </div>
 
           <div
-            className={`sidebar-item ${activeTab === "profile" ? "active" : ""}`}
+            className={`sidebar-item ${
+              activeTab === "profile" ? "active" : ""
+            }`}
             role="button"
             tabIndex={0}
             onClick={() => setActiveTab("profile")}
@@ -759,15 +849,32 @@ export default function Dashboard() {
                     <IoWalletOutline />
                     <span>Total Balance</span>
                   </div>
-                  <button className="visibility-toggle" onClick={() => setBalanceVisible(!balanceVisible)}>
+                  <button
+                    className="visibility-toggle"
+                    onClick={() => setBalanceVisible(!balanceVisible)}
+                  >
                     {balanceVisible ? <IoEye /> : <IoEyeOff />}
                   </button>
                 </div>
                 <div className="balance-display">
-                  <div className="primary-balance">{formatCurrency(portfolioData.totalBalance)}</div>
-                  <div className="secondary-balance">{balanceVisible ? `≈ ${portfolioData.totalBalanceBTC} BTC` : "••••••"}</div>
-                  <div className={`balance-change ${portfolioData.dayChange >= 0 ? "positive" : "negative"}`}>
-                    {portfolioData.dayChange >= 0 ? <IoTrendingUp /> : <IoTrendingDown />}
+                  <div className="primary-balance">
+                    {formatCurrency(portfolioData.totalBalance)}
+                  </div>
+                  <div className="secondary-balance">
+                    {balanceVisible
+                      ? `≈ ${portfolioData.totalBalanceBTC} BTC`
+                      : "••••••"}
+                  </div>
+                  <div
+                    className={`balance-change ${
+                      portfolioData.dayChange >= 0 ? "positive" : "negative"
+                    }`}
+                  >
+                    {portfolioData.dayChange >= 0 ? (
+                      <IoTrendingUp />
+                    ) : (
+                      <IoTrendingDown />
+                    )}
                     {formatPercent(portfolioData.dayChange)} (24h)
                   </div>
                 </div>
@@ -781,15 +888,33 @@ export default function Dashboard() {
                   </div>
                 </div>
                 <div className="pnl-display">
-                  <div className={`pnl-total ${portfolioData.totalPnL >= 0 ? "positive" : "negative"}`}>{formatPnL(portfolioData.totalPnL)}</div>
+                  <div
+                    className={`pnl-total ${
+                      portfolioData.totalPnL >= 0 ? "positive" : "negative"
+                    }`}
+                  >
+                    {formatPnL(portfolioData.totalPnL)}
+                  </div>
                   <div className="pnl-breakdown">
                     <div className="pnl-item">
                       <span>Realized:</span>
-                      <span className={totalRealizedPnL >= 0 ? "positive" : "negative"}>{formatPnL(totalRealizedPnL)}</span>
+                      <span
+                        className={
+                          totalRealizedPnL >= 0 ? "positive" : "negative"
+                        }
+                      >
+                        {formatPnL(totalRealizedPnL)}
+                      </span>
                     </div>
                     <div className="pnl-item">
                       <span>Unrealized:</span>
-                      <span className={totalUnrealizedPnL >= 0 ? "positive" : "negative"}>{formatPnL(totalUnrealizedPnL)}</span>
+                      <span
+                        className={
+                          totalUnrealizedPnL >= 0 ? "positive" : "negative"
+                        }
+                      >
+                        {formatPnL(totalUnrealizedPnL)}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -858,24 +983,44 @@ export default function Dashboard() {
                               <CryptoLogo symbol={trade.symbol} size={36} />
                               <div className="market-info">
                                 <div className="symbol">{trade.symbol}</div>
-                                <div className="leverage-badge">{trade.leverage}</div>
+                                <div className="leverage-badge">
+                                  {trade.leverage}
+                                </div>
                               </div>
                             </div>
                           </td>
                           <td>
-                            <span className={`position-badge ${trade.position.toLowerCase()}`}>{trade.position}</span>
+                            <span
+                              className={`position-badge ${trade.position.toLowerCase()}`}
+                            >
+                              {trade.position}
+                            </span>
                           </td>
                           <td className="numeric">{trade.size}</td>
                           <td className="numeric">${trade.entryPrice}</td>
                           <td className="numeric">${trade.markPrice}</td>
                           <td className="numeric">₱{trade.margin}</td>
                           <td className="pnl-cell">
-                            <div className={`pnl-value ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPnL(trade.pnl)}</div>
-                            <div className={`pnl-percent ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPercent(trade.pnlPercent)}</div>
+                            <div
+                              className={`pnl-value ${
+                                trade.pnl >= 0 ? "positive" : "negative"
+                              }`}
+                            >
+                              {formatPnL(trade.pnl)}
+                            </div>
+                            <div
+                              className={`pnl-percent ${
+                                trade.pnl >= 0 ? "positive" : "negative"
+                              }`}
+                            >
+                              {formatPercent(trade.pnlPercent)}
+                            </div>
                           </td>
                           <td>
                             <div className="action-buttons">
-                              <button className="btn-sm btn-danger">Close</button>
+                              <button className="btn-sm btn-danger">
+                                Close
+                              </button>
                             </div>
                           </td>
                         </tr>
@@ -887,7 +1032,9 @@ export default function Dashboard() {
                 <div className="empty-state">
                   <FaExchangeAlt className="empty-icon" />
                   <div className="empty-title">No Active Positions</div>
-                  <div className="empty-subtitle">Open your first position to start trading</div>
+                  <div className="empty-subtitle">
+                    Open your first position to start trading
+                  </div>
                 </div>
               )}
             </section>
@@ -898,7 +1045,13 @@ export default function Dashboard() {
                 <h3>Performance Analytics</h3>
                 <div className="time-filters">
                   {["1d", "7d", "30d", "90d"].map((period) => (
-                    <button key={period} className={`filter-btn ${timeFilter === period ? "active" : ""}`} onClick={() => setTimeFilter(period)}>
+                    <button
+                      key={period}
+                      className={`filter-btn ${
+                        timeFilter === period ? "active" : ""
+                      }`}
+                      onClick={() => setTimeFilter(period)}
+                    >
                       {period}
                     </button>
                   ))}
@@ -911,7 +1064,13 @@ export default function Dashboard() {
                     <h4>Win/Loss Distribution</h4>
                   </div>
                   <div className="chart-content">
-                    <PieStat data={totalPositionsData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${totalTrades}`} subLabel="Total Trades" />
+                    <PieStat
+                      data={totalPositionsData}
+                      colors={["#10b981", "#ef4444"]}
+                      size={120}
+                      centerLabel={`${totalTrades}`}
+                      subLabel="Total Trades"
+                    />
                     <div className="chart-legend">
                       <div className="legend-item">
                         <div className="legend-color wins"></div>
@@ -930,7 +1089,13 @@ export default function Dashboard() {
                     <h4>Win Rate</h4>
                   </div>
                   <div className="chart-content">
-                    <PieStat data={winRateData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${winRate}%`} subLabel="Success Rate" />
+                    <PieStat
+                      data={winRateData}
+                      colors={["#10b981", "#ef4444"]}
+                      size={120}
+                      centerLabel={`${winRate}%`}
+                      subLabel="Success Rate"
+                    />
                     <div className="performance-metrics">
                       <div className="metric">
                         <span className="metric-label">Best Trade:</span>
@@ -987,14 +1152,30 @@ export default function Dashboard() {
                         </div>
                       </td>
                       <td>
-                        <span className={`position-badge ${trade.side.toLowerCase()}`}>{trade.side}</span>
+                        <span
+                          className={`position-badge ${trade.side.toLowerCase()}`}
+                        >
+                          {trade.side}
+                        </span>
                       </td>
                       <td className="numeric">{trade.size}</td>
                       <td className="numeric">${trade.entryPrice}</td>
                       <td className="numeric">${trade.exitPrice}</td>
                       <td className="pnl-cell">
-                        <div className={`pnl-value ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPnL(trade.pnl)}</div>
-                        <div className={`pnl-percent ${trade.pnl >= 0 ? "positive" : "negative"}`}>{formatPercent(trade.pnlPercent)}</div>
+                        <div
+                          className={`pnl-value ${
+                            trade.pnl >= 0 ? "positive" : "negative"
+                          }`}
+                        >
+                          {formatPnL(trade.pnl)}
+                        </div>
+                        <div
+                          className={`pnl-percent ${
+                            trade.pnl >= 0 ? "positive" : "negative"
+                          }`}
+                        >
+                          {formatPercent(trade.pnlPercent)}
+                        </div>
                       </td>
                       <td className="timestamp">{trade.closeTime}</td>
                     </tr>
@@ -1010,27 +1191,31 @@ export default function Dashboard() {
             <div className="profile-header">
               <div className="profile-avatar">
                 {profile.profile_picture_url ? (
-                  <img 
-                    src={profile.profile_picture_url} 
-                    alt="Profile" 
+                  <img
+                    src={profile.profile_picture_url}
+                    alt="Profile"
                     className="profile-image"
                   />
                 ) : (
                   <FaUserCircle />
                 )}
-                <button 
-                  className="avatar-edit" 
+                <button
+                  className="avatar-edit"
                   onClick={() => fileInputRef.current?.click()}
                   disabled={uploadingImage}
                 >
-                  {uploadingImage ? <FaSpinner className="spinning" /> : <FaCamera />}
+                  {uploadingImage ? (
+                    <FaSpinner className="spinning" />
+                  ) : (
+                    <FaCamera />
+                  )}
                 </button>
                 <input
                   type="file"
                   ref={fileInputRef}
                   onChange={handleProfilePictureUpload}
                   accept="image/*"
-                  style={{ display: 'none' }}
+                  style={{ display: "none" }}
                 />
               </div>
               <div className="profile-info">
@@ -1051,7 +1236,10 @@ export default function Dashboard() {
                         <small>Update your display name</small>
                       </div>
                     </div>
-                    <button className="setting-btn" onClick={() => setEditNameModal(true)}>
+                    <button
+                      className="setting-btn"
+                      onClick={() => setEditNameModal(true)}
+                    >
                       Edit
                     </button>
                   </div>
@@ -1063,12 +1251,12 @@ export default function Dashboard() {
                         <small>Upload a new profile image</small>
                       </div>
                     </div>
-                    <button 
-                      className="setting-btn" 
+                    <button
+                      className="setting-btn"
                       onClick={() => fileInputRef.current?.click()}
                       disabled={uploadingImage}
                     >
-                      {uploadingImage ? 'Uploading...' : 'Upload'}
+                      {uploadingImage ? "Uploading..." : "Upload"}
                     </button>
                   </div>
                   {!isGoogleUser && (
@@ -1080,7 +1268,10 @@ export default function Dashboard() {
                           <small>Update your account password</small>
                         </div>
                       </div>
-                      <button className="setting-btn" onClick={() => setChangePasswordModal(true)}>
+                      <button
+                        className="setting-btn"
+                        onClick={() => setChangePasswordModal(true)}
+                      >
                         Change
                       </button>
                     </div>
@@ -1122,7 +1313,9 @@ export default function Dashboard() {
                 type="text"
                 id="first_name"
                 value={nameForm.first_name}
-                onChange={(e) => setNameForm({ ...nameForm, first_name: e.target.value })}
+                onChange={(e) =>
+                  setNameForm({ ...nameForm, first_name: e.target.value })
+                }
                 className="form-input"
                 placeholder="Enter your first name"
               />
@@ -1133,24 +1326,22 @@ export default function Dashboard() {
                 type="text"
                 id="last_name"
                 value={nameForm.last_name}
-                onChange={(e) => setNameForm({ ...nameForm, last_name: e.target.value })}
+                onChange={(e) =>
+                  setNameForm({ ...nameForm, last_name: e.target.value })
+                }
                 className="form-input"
                 placeholder="Enter your last name"
               />
             </div>
             <div className="modal-actions">
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className="btn-secondary"
                 onClick={() => setEditNameModal(false)}
               >
                 Cancel
               </button>
-              <button 
-                type="submit" 
-                className="btn-primary"
-                disabled={loading}
-              >
+              <button type="submit" className="btn-primary" disabled={loading}>
                 {loading ? (
                   <>
                     <FaSpinner className="spinning" />
@@ -1181,7 +1372,12 @@ export default function Dashboard() {
                   type="password"
                   id="current_password"
                   value={passwordForm.current_password}
-                  onChange={(e) => setPasswordForm({ ...passwordForm, current_password: e.target.value })}
+                  onChange={(e) =>
+                    setPasswordForm({
+                      ...passwordForm,
+                      current_password: e.target.value,
+                    })
+                  }
                   className="form-input"
                   placeholder="Enter your current password"
                   required
@@ -1194,7 +1390,12 @@ export default function Dashboard() {
                 type="password"
                 id="new_password"
                 value={passwordForm.new_password}
-                onChange={(e) => setPasswordForm({ ...passwordForm, new_password: e.target.value })}
+                onChange={(e) =>
+                  setPasswordForm({
+                    ...passwordForm,
+                    new_password: e.target.value,
+                  })
+                }
                 className="form-input"
                 placeholder="Enter your new password"
                 required
@@ -1203,26 +1404,48 @@ export default function Dashboard() {
               {passwordForm.new_password && (
                 <div className="password-strength">
                   <div className="strength-bar">
-                    <div 
-                      className={`strength-fill ${passwordStrength.score === 0 ? 'weak' : passwordStrength.score === 1 ? 'medium' : 'strong'}`}
-                      style={{ width: `${(passwordStrength.score + 1) * 33.33}%` }}
+                    <div
+                      className={`strength-fill ${
+                        passwordStrength.score === 0
+                          ? "weak"
+                          : passwordStrength.score === 1
+                          ? "medium"
+                          : "strong"
+                      }`}
+                      style={{
+                        width: `${(passwordStrength.score + 1) * 33.33}%`,
+                      }}
                     ></div>
                   </div>
-                  <div className={`strength-text ${passwordStrength.score === 0 ? 'weak' : passwordStrength.score === 1 ? 'medium' : 'strong'}`}>
+                  <div
+                    className={`strength-text ${
+                      passwordStrength.score === 0
+                        ? "weak"
+                        : passwordStrength.score === 1
+                        ? "medium"
+                        : "strong"
+                    }`}
+                  >
                     {passwordStrength.text}
                   </div>
                   <div className="password-requirements">
-                    {Object.entries(passwordStrength.requirements || {}).map(([key, requirement]) => (
-                      <div 
-                        key={key} 
-                        className={`requirement ${passwordStrength.validations?.[key] ? 'met' : 'unmet'}`}
-                      >
-                        <span className="requirement-icon">
-                          {passwordStrength.validations?.[key] ? '✓' : '✗'}
-                        </span>
-                        {requirement}
-                      </div>
-                    ))}
+                    {Object.entries(passwordStrength.requirements || {}).map(
+                      ([key, requirement]) => (
+                        <div
+                          key={key}
+                          className={`requirement ${
+                            passwordStrength.validations?.[key]
+                              ? "met"
+                              : "unmet"
+                          }`}
+                        >
+                          <span className="requirement-icon">
+                            {passwordStrength.validations?.[key] ? "✓" : "✗"}
+                          </span>
+                          {requirement}
+                        </div>
+                      )
+                    )}
                   </div>
                 </div>
               )}
@@ -1233,30 +1456,40 @@ export default function Dashboard() {
                 type="password"
                 id="confirm_password"
                 value={passwordForm.confirm_password}
-                onChange={(e) => setPasswordForm({ ...passwordForm, confirm_password: e.target.value })}
+                onChange={(e) =>
+                  setPasswordForm({
+                    ...passwordForm,
+                    confirm_password: e.target.value,
+                  })
+                }
                 className="form-input"
                 placeholder="Confirm your new password"
                 required
                 minLength={8}
               />
-              {passwordForm.confirm_password && passwordForm.new_password !== passwordForm.confirm_password && (
-                <div className="password-mismatch">
-                  Passwords do not match
-                </div>
-              )}
+              {passwordForm.confirm_password &&
+                passwordForm.new_password !== passwordForm.confirm_password && (
+                  <div className="password-mismatch">
+                    Passwords do not match
+                  </div>
+                )}
             </div>
             <div className="modal-actions">
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className="btn-secondary"
                 onClick={() => setChangePasswordModal(false)}
               >
                 Cancel
               </button>
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="btn-primary"
-                disabled={loading || !passwordStrength.isValid || passwordForm.new_password !== passwordForm.confirm_password}
+                disabled={
+                  loading ||
+                  !passwordStrength.isValid ||
+                  passwordForm.new_password !== passwordForm.confirm_password
+                }
               >
                 {loading ? (
                   <>

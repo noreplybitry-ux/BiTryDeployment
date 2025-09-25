@@ -12,6 +12,7 @@ import News from "./components/News";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import ForgotPassword from "./components/ForgotPassword";
+import AdminDashboard from "./components/AdminDashboard";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/forgotpassword" element={<ForgotPassword />} />
             <Route path="*" element={<Dashboard />} />
+            <Route path="/admindashboard" element={<AdminDashboard />} />
           </Routes>
         </main>
       </div>
