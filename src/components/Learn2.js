@@ -935,7 +935,11 @@ ${contentText.substring(0, 20000)}`;
         ) : (
           <div className="modules-grid">
             {generatedModules.map((module) => (
-              <div key={module.id} className="module-card">
+              <div
+                key={module.id}
+                className="module-card"
+                onClick={() => handleModuleClick(module)}
+              >
                 <div className="module-card-header">
                   <h3 className="module-card-title">{module.title}</h3>
                   <span className="module-card-date">
@@ -944,9 +948,7 @@ ${contentText.substring(0, 20000)}`;
                 </div>
                 <div className="module-card-content">
                   <p className="module-intro">
-                    {module.content?.intro
-                      ? module.content.intro.substring(0, 150) + "..."
-                      : "Click to view module content..."}
+                    {module.content?.intro || "Click to view module content..."}
                   </p>
                   <div className="module-sections-count">
                     {module.content?.sections?.length || 0} sections
@@ -956,32 +958,49 @@ ${contentText.substring(0, 20000)}`;
                   <div
                     style={{
                       display: "flex",
-                      gap: "12px",
-                      justifyContent: "space-between",
+                      gap: "8px",
+                      flexWrap: "wrap",
+                      justifyContent: "flex-start",
                     }}
                   >
                     <button
                       className="btn btn-link"
-                      onClick={() => handleModuleClick(module)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleModuleClick(module);
+                      }}
                     >
                       View Module →
                     </button>
-                    <button
-                      className="btn btn-secondary"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        openEditModal(module);
-                      }}
-                      style={{
-                        fontSize: "14px",
-                        padding: "8px 16px",
-                        backgroundColor: "var(--accent-purple)",
-                        color: "white",
-                        border: "none",
-                      }}
-                    >
-                      Edit
-                    </button>
+                    {moduleQuestionCounts[module.id] >= 5 && (
+                      <button
+                        className="btn btn-link"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          startModuleQuiz(module.id);
+                        }}
+                      >
+                        Take Quiz →
+                      </button>
+                    )}
+                    {isAdmin && (
+                      <button
+                        className="btn btn-secondary"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          openEditModal(module);
+                        }}
+                        style={{
+                          fontSize: "14px",
+                          padding: "4px 8px",
+                          backgroundColor: "var(--accent-purple)",
+                          color: "white",
+                          border: "none",
+                        }}
+                      >
+                        Edit
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
