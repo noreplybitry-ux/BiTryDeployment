@@ -26,6 +26,9 @@ const Learn2 = () => {
   const [fetchGeneratedError, setFetchGeneratedError] = useState(null);
   const [selectedModule, setSelectedModule] = useState(null);
   const [isContentModalOpen, setIsContentModalOpen] = useState(false);
+  const [showGenerateTab, setShowGenerateTab] = useState(false); // New state for toggle
+  const [isGenerateModalOpen, setIsGenerateModalOpen] = useState(false); // New state for generate modal
+  const [isAdminInfoModalOpen, setIsAdminInfoModalOpen] = useState(false); // New state for admin info modal
   const formRef = useRef(null);
 
   // Fetch modules with null content
@@ -99,6 +102,29 @@ const Learn2 = () => {
         formRef.current.reset();
       }
     }
+  };
+
+  // New function to toggle generate tab visibility
+  const toggleGenerateTab = () => {
+    setShowGenerateTab(!showGenerateTab);
+  };
+
+  // New function to toggle generate modal
+  const toggleGenerateModal = () => {
+    setIsGenerateModalOpen(!isGenerateModalOpen);
+    if (!isGenerateModalOpen) {
+      // Reset states when opening
+      setSelectedModuleId("");
+      setGenerateError(null);
+      setFetchModulesError(null);
+      // Refresh modules when opening the modal
+      fetchModules();
+    }
+  };
+
+  // New function to toggle admin info modal
+  const toggleAdminInfoModal = () => {
+    setIsAdminInfoModalOpen(!isAdminInfoModalOpen);
   };
 
   const callGeminiAPI = async (prompt, retries = 3) => {
@@ -355,63 +381,71 @@ Output only the section content, without headings: `;
         </p>
       </div>
 
-      {/* Tabs */}
-      <div className="tabs">
-        <button
-          className="btn btn-primary"
-          onClick={toggleModal}
-          disabled={isSubmitting}
-        >
-          Create New Module
-        </button>
-        <div className="generate-tab">
-          <h2>Generate Module Content</h2>
-          <button
-            className="btn btn-accent"
-            onClick={fetchModules}
-            disabled={isGenerating}
-          >
-            Refresh Modules
-          </button>
-          <select
-            value={selectedModuleId}
-            onChange={(e) => setSelectedModuleId(e.target.value)}
-            className="form-select"
-            disabled={isGenerating}
-          >
-            <option value="">Select a module</option>
-            {modules.map((module) => (
-              <option key={module.id} value={module.id}>
-                {module.title}
-              </option>
-            ))}
-          </select>
-          <button
-            className="btn btn-accent"
-            onClick={handleGenerate}
-            disabled={isGenerating || !selectedModuleId}
-          >
-            {isGenerating ? "Generating..." : "Generate Module"}
-          </button>
-          {fetchModulesError && <p className="error-message">{fetchModulesError}</p>}
-          {modules.length === 0 && !fetchModulesError && (
-            <p className="info-message">No ungenerated modules available.</p>
-          )}
-          {generateError && <p className="error-message">{generateError}</p>}
+      {/* Conditionally render entire tabs section */}
+      {showGenerateTab && (
+        <div className="tabs" style={{ position: 'relative', zIndex: 1000 }}>
+          <div style={{
+            background: 'linear-gradient(135deg, var(--accent-purple), var(--accent-blue))',
+            padding: '3px',
+            borderRadius: '16px',
+            marginBottom: '4px'
+          }}>
+            <div style={{
+              background: 'var(--bg-secondary)',
+              borderRadius: '14px',
+              padding: '20px',
+              border: '1px solid var(--border)'
+            }}>
+              <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                <button
+                  className="btn btn-secondary"
+                  onClick={toggleAdminInfoModal}
+                  style={{ minWidth: '150px' }}
+                >
+                  Admin Info
+                </button>
+                <button
+                  className="btn btn-primary"
+                  onClick={toggleModal}
+                  disabled={isSubmitting}
+                  style={{ minWidth: '200px' }}
+                >
+                  Create New Module
+                </button>
+                <button
+                  className="btn btn-accent"
+                  onClick={toggleGenerateModal}
+                  disabled={isGenerating}
+                  style={{ minWidth: '200px' }}
+                >
+                  Generate Module Content
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Generated Modules Display */}
       <div className="modules-display">
         <div className="modules-header">
           <h2>Available Learning Modules</h2>
-          <button
-            className="btn btn-secondary"
-            onClick={fetchGeneratedModules}
-            disabled={isGenerating}
-          >
-            Refresh Modules
-          </button>
+          <div style={{ display: 'flex', gap: '12px' }}>
+            <button
+              className="btn btn-secondary"
+              onClick={fetchGeneratedModules}
+              disabled={isGenerating}
+            >
+              Refresh Modules
+            </button>
+            <button
+              className="btn btn-accent"
+              onClick={toggleGenerateTab}
+              disabled={isGenerating}
+            >
+              {showGenerateTab ? 'Hide Generator' : 'Show Generator'}
+            </button>
+          </div>
         </div>
         
         {fetchGeneratedError && <p className="error-message">{fetchGeneratedError}</p>}
@@ -617,6 +651,171 @@ Output only the section content, without headings: `;
             <button className="btn btn-secondary" onClick={closeContentModal}>
               Close
             </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Admin Info Modal */}
+      <div className={`modal-overlay ${isAdminInfoModalOpen ? "" : "hidden"}`}>
+        <div className="modal-content">
+          <div className="modal-header">
+            <h3>Module Generator & Creator</h3>
+            <button className="modal-close" onClick={toggleAdminInfoModal}>
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="module-form">
+              <div style={{
+                textAlign: 'center',
+                padding: '20px',
+                background: 'rgba(108, 92, 231, 0.1)',
+                borderRadius: '12px',
+                border: '1px solid rgba(108, 92, 231, 0.3)',
+                marginBottom: '20px'
+              }}>
+                <h2 style={{
+                  margin: '0 0 16px 0',
+                  color: 'var(--text-primary)',
+                  fontSize: '24px',
+                  fontWeight: '800'
+                }}>
+                  Administrative Tools
+                </h2>
+                <p style={{
+                  margin: '0 0 16px 0',
+                  color: 'var(--text-secondary)',
+                  fontSize: '16px',
+                  fontWeight: '500',
+                  lineHeight: '1.6'
+                }}>
+                  Use these tools to create and generate educational learning modules for your crypto knowledge platform.
+                </p>
+                <div style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+                  gap: '16px',
+                  marginTop: '20px'
+                }}>
+                  <div style={{
+                    background: 'var(--bg-tertiary)',
+                    padding: '16px',
+                    borderRadius: '8px',
+                    border: '1px solid var(--border)'
+                  }}>
+                    <h4 style={{
+                      margin: '0 0 8px 0',
+                      color: 'var(--accent-blue)',
+                      fontSize: '16px',
+                      fontWeight: '700'
+                    }}>
+                      Create New Module
+                    </h4>
+                    <p style={{
+                      margin: '0',
+                      color: 'var(--text-muted)',
+                      fontSize: '14px',
+                      lineHeight: '1.4'
+                    }}>
+                      Define module structure with title, keywords, difficulty level, and specific learning objectives.
+                    </p>
+                  </div>
+                  <div style={{
+                    background: 'var(--bg-tertiary)',
+                    padding: '16px',
+                    borderRadius: '8px',
+                    border: '1px solid var(--border)'
+                  }}>
+                    <h4 style={{
+                      margin: '0 0 8px 0',
+                      color: 'var(--accent-purple)',
+                      fontSize: '16px',
+                      fontWeight: '700'
+                    }}>
+                      Generate Content
+                    </h4>
+                    <p style={{
+                      margin: '0',
+                      color: 'var(--text-muted)',
+                      fontSize: '14px',
+                      lineHeight: '1.4'
+                    }}>
+                      Use AI to generate comprehensive educational content based on your module specifications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="modal-footer">
+            <button className="btn btn-secondary" onClick={toggleAdminInfoModal}>
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Generate Module Modal */}
+      <div className={`modal-overlay ${isGenerateModalOpen ? "" : "hidden"}`}>
+        <div className="modal-content">
+          <div className="modal-header">
+            <h3>Generate Module Content</h3>
+            <button className="modal-close" onClick={toggleGenerateModal} disabled={isGenerating}>
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="module-form">
+              <div className="form-group">
+                <label className="form-label">
+                  Select Module to Generate
+                </label>
+                <button
+                  className="btn btn-secondary"
+                  onClick={fetchModules}
+                  disabled={isGenerating}
+                  style={{ marginBottom: '12px' }}
+                >
+                  Refresh Modules
+                </button>
+                <select
+                  value={selectedModuleId}
+                  onChange={(e) => setSelectedModuleId(e.target.value)}
+                  className="form-select"
+                  disabled={isGenerating}
+                >
+                  <option value="">Select a module</option>
+                  {modules.map((module) => (
+                    <option key={module.id} value={module.id}>
+                      {module.title}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {fetchModulesError && <p className="error-message">{fetchModulesError}</p>}
+              {modules.length === 0 && !fetchModulesError && (
+                <p className="info-message">No ungenerated modules available.</p>
+              )}
+              {generateError && <p className="error-message">{generateError}</p>}
+
+              <div className="form-actions">
+                <button
+                  className="btn btn-accent"
+                  onClick={handleGenerate}
+                  disabled={isGenerating || !selectedModuleId}
+                >
+                  {isGenerating ? "Generating..." : "Generate Module"}
+                </button>
+                <button
+                  className="btn btn-secondary"
+                  onClick={toggleGenerateModal}
+                  disabled={isGenerating}
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
