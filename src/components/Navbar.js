@@ -349,6 +349,14 @@ export default function Navbar() {
                 </li>
                 <li>
                   <NavLink
+                    to="/learn2"
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                  >
+                    Learn2
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
                     to="/trade"
                     className={({ isActive }) => (isActive ? "active" : "")}
                   >
