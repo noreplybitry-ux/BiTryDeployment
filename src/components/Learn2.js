@@ -30,6 +30,36 @@ const Learn2 = () => {
   const [isGenerateModalOpen, setIsGenerateModalOpen] = useState(false); // New state for generate modal
   const [isAdminInfoModalOpen, setIsAdminInfoModalOpen] = useState(false); // New state for admin info modal
   const formRef = useRef(null);
+  const [isAdmin, setIsAdmin] = useState(false);
+  const [moduleQuestionCounts, setModuleQuestionCounts] = useState({});
+  const [isGenerateQuizModalOpen, setIsGenerateQuizModalOpen] = useState(false);
+  const [selectedQuizModuleId, setSelectedQuizModuleId] = useState("");
+  const [numQuestions, setNumQuestions] = useState(10);
+  const [isGeneratingQuiz, setIsGeneratingQuiz] = useState(false);
+  const [generateQuizError, setGenerateQuizError] = useState(null);
+  const [isValidationModalOpen, setIsValidationModalOpen] = useState(false);
+  const [pendingQuestions, setPendingQuestions] = useState([]);
+  const [isEditQuestionModalOpen, setIsEditQuestionModalOpen] = useState(false);
+  const [editingQuestion, setEditingQuestion] = useState(null);
+  const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);
+  const [currentQuizModuleId, setCurrentQuizModuleId] = useState(null);
+  const [quizQuestions, setQuizQuestions] = useState([]);
+  const [userAnswers, setUserAnswers] = useState({});
+  const [quizScore, setQuizScore] = useState(null);
+
+  useEffect(() => {
+    if (user) {
+      const fetchProfile = async () => {
+        const { data } = await supabase
+          .from("profiles")
+          .select("is_admin")
+          .eq("id", user.id)
+          .single();
+        setIsAdmin(data?.is_admin || false);
+      };
+      fetchProfile();
+    }
+  }, [user]);
 
   // Fetch modules with null content
   const fetchModules = async () => {
@@ -45,7 +75,9 @@ const Learn2 = () => {
       setModules(data || []);
     } catch (err) {
       console.error("Error fetching modules:", err.message);
-      setFetchModulesError("Failed to fetch ungenerated modules: " + err.message);
+      setFetchModulesError(
+        "Failed to fetch ungenerated modules: " + err.message
+      );
     }
   };
 
@@ -63,13 +95,34 @@ const Learn2 = () => {
       setGeneratedModules(data || []);
     } catch (err) {
       console.error("Error fetching generated modules:", err.message);
-      setFetchGeneratedError("Failed to fetch generated modules: " + err.message);
+      setFetchGeneratedError(
+        "Failed to fetch generated modules: " + err.message
+      );
+    }
+  };
+
+  const fetchQuestionCounts = async () => {
+    try {
+      const { data, error } = await supabase
+        .from("quiz_questions")
+        .select("module_id")
+        .eq("status", "approved");
+      if (error) throw error;
+      const counts = {};
+      data.forEach((row) => {
+        const mid = row.module_id;
+        counts[mid] = (counts[mid] || 0) + 1;
+      });
+      setModuleQuestionCounts(counts);
+    } catch (err) {
+      console.error("Error fetching question counts:", err);
     }
   };
 
   useEffect(() => {
     fetchModules();
     fetchGeneratedModules();
+    fetchQuestionCounts();
   }, []);
 
   const handleAddKeyword = () => {
@@ -129,12 +182,15 @@ const Learn2 = () => {
 
   const callGeminiAPI = async (prompt, retries = 3) => {
     const model = "gemini-2.5-flash";
-    const apiKey = "AIzaSyCiOkP4wLlNnNuu6tCDacvikPSctHSFyp0";
+    const apiKey = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
 
     for (let attempt = 1; attempt <= retries; attempt++) {
       try {
-        console.log(`Attempting to call Gemini API (attempt ${attempt}/${retries})`, { model, prompt: prompt.substring(0, 100) + "..." });
-        
+        console.log(
+          `Attempting to call Gemini API (attempt ${attempt}/${retries})`,
+          { model, prompt: prompt.substring(0, 100) + "..." }
+        );
+
         const response = await fetch(
           `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
           {
@@ -153,30 +209,46 @@ const Learn2 = () => {
         );
 
         const responseData = await response.json();
-        console.log("Gemini Response:", { status: response.status, body: responseData });
+        console.log("Gemini Response:", {
+          status: response.status,
+          body: responseData,
+        });
 
         if (response.ok) {
-          if (responseData.candidates && responseData.candidates[0]?.content?.parts?.[0]?.text) {
+          if (
+            responseData.candidates &&
+            responseData.candidates[0]?.content?.parts?.[0]?.text
+          ) {
             return responseData.candidates[0].content.parts[0].text;
           } else {
             throw new Error("Invalid response format from Gemini API");
           }
         } else if (response.status === 429) {
           const waitTime = Math.min(attempt * 20000, 90000);
-          console.log(`Rate limited (429), waiting ${waitTime}ms before retry ${attempt}/${retries}`);
-          await new Promise(resolve => setTimeout(resolve, waitTime));
+          console.log(
+            `Rate limited (429), waiting ${waitTime}ms before retry ${attempt}/${retries}`
+          );
+          await new Promise((resolve) => setTimeout(resolve, waitTime));
           continue;
         } else {
-          throw new Error(`Gemini API error: ${response.status} - ${JSON.stringify(responseData)}`);
+          throw new Error(
+            `Gemini API error: ${response.status} - ${JSON.stringify(
+              responseData
+            )}`
+          );
         }
       } catch (error) {
-        console.error(`Attempt ${attempt} failed:`, error.message, { responseData: error.message.includes("Gemini API error") ? JSON.parse(error.message.split(" - ")[1]) : null });
+        console.error(`Attempt ${attempt} failed:`, error.message, {
+          responseData: error.message.includes("Gemini API error")
+            ? JSON.parse(error.message.split(" - ")[1])
+            : null,
+        });
         if (attempt === retries) {
           throw new Error(`Failed after ${retries} attempts: ${error.message}`);
         }
         const waitTime = attempt * 3000;
         console.log(`Waiting ${waitTime}ms before next retry...`);
-        await new Promise(resolve => setTimeout(resolve, waitTime));
+        await new Promise((resolve) => setTimeout(resolve, waitTime));
       }
     }
   };
@@ -185,7 +257,7 @@ const Learn2 = () => {
     const lengthGuidance = {
       Short: "approximately 500 words total",
       Medium: "approximately 1000 words total",
-      Long: "approximately 2000 words total"
+      Long: "approximately 2000 words total",
     };
 
     const basePrompt = `You are an expert cryptocurrency educator. Create a comprehensive educational module for a beginner-level cryptocurrency course. Use the following specifications:
@@ -194,14 +266,20 @@ Title: ${module.title}
 Keywords: ${module.keywords.join(", ")}
 Level: ${module.level}
 Length: ${lengthGuidance[module.length]}
-${module.specific_points ? `Specific Points to Include: ${module.specific_points}` : ''}
+${
+  module.specific_points
+    ? `Specific Points to Include: ${module.specific_points}`
+    : ""
+}
 
 Generate detailed, structured content for a beginner cryptocurrency course, focusing on blockchain, DeFi, or related topics. The content must be engaging, use simple language, and be suitable for educational purposes in a classroom setting. Include clear explanations, real-world examples, analogies to simplify complex ideas, and practical exercises for beginners. Avoid technical jargon unless clearly explained. The introduction and each section should be unique, focusing on the specific keywords provided, and contribute to a cohesive module that helps learners build foundational knowledge.
 
 Introduction: Write a comprehensive introduction (400-600 words) covering:
 - Overview of the topic and its importance in cryptocurrency.
 - Brief history or context (e.g., origins of wallets, blockchain, or key platforms).
-- How the keywords (${module.keywords.join(", ")}) relate to the topic and each other.
+- How the keywords (${module.keywords.join(
+      ", "
+    )}) relate to the topic and each other.
 - What beginners will learn and why it matters for their crypto journey.
 - A motivating hook to engage learners (e.g., how this knowledge applies to managing crypto assets or exploring DeFi).
 
@@ -218,13 +296,18 @@ Output only the introduction text, without any labels or headings: `;
 
       // Generate sections based on keywords
       const sections = [];
-      const maxSections = module.length === "Short" ? 2 : module.length === "Medium" ? 3 : 4;
-      
+      const maxSections =
+        module.length === "Short" ? 2 : module.length === "Medium" ? 3 : 4;
+
       for (let i = 0; i < Math.min(maxSections, module.keywords.length); i++) {
         const keyword = module.keywords[i];
         if (!keyword.trim()) continue;
 
-        const sectionPrompt = `You are an expert cryptocurrency educator. Write a detailed section for a beginner-level cryptocurrency course module, focusing on "${keyword}" in the context of cryptocurrency and blockchain technology. The section should be comprehensive, engaging, and educational, contributing to a module of ${lengthGuidance[module.length]}. Interpret "${keyword}" as a key concept in cryptocurrency relevant to the module title "${module.title}". Include:
+        const sectionPrompt = `You are an expert cryptocurrency educator. Write a detailed section for a beginner-level cryptocurrency course module, focusing on "${keyword}" in the context of cryptocurrency and blockchain technology. The section should be comprehensive, engaging, and educational, contributing to a module of ${
+          lengthGuidance[module.length]
+        }. Interpret "${keyword}" as a key concept in cryptocurrency relevant to the module title "${
+          module.title
+        }". Include:
 
 1. Definition: Explain "${keyword}" in simple, beginner-friendly terms.
 2. How It Works: Describe the mechanics or processes behind "${keyword}", using an analogy (e.g., compare to a real-world object like a bank account or safe).
@@ -233,34 +316,41 @@ Output only the introduction text, without any labels or headings: `;
 5. Practical Exercises: Suggest 1-2 practical activities for beginners (e.g., setting up a wallet, checking a transaction on Etherscan).
 6. Key Takeaways: Summarize 2-3 key points for learners to remember.
 
-Use clear, engaging language, avoid complex jargon unless explained, and ensure the content is unique and distinct from other sections. Structure the content like a lesson in a course, suitable for educational purposes. Include ${module.specific_points ? `specific points: ${module.specific_points}` : 'relevant details'}.
+Use clear, engaging language, avoid complex jargon unless explained, and ensure the content is unique and distinct from other sections. Structure the content like a lesson in a course, suitable for educational purposes. Include ${
+          module.specific_points
+            ? `specific points: ${module.specific_points}`
+            : "relevant details"
+        }.
 
 Output only the section content, without headings: `;
 
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
         const sectionContent = await callGeminiAPI(sectionPrompt);
         if (!sectionContent || sectionContent.trim().length < 100) {
-          throw new Error(`Generated section for "${keyword}" is empty or too short`);
+          throw new Error(
+            `Generated section for "${keyword}" is empty or too short`
+          );
         }
 
         sections.push({
           title: keyword.charAt(0).toUpperCase() + keyword.slice(1),
-          body: sectionContent
+          body: sectionContent,
         });
       }
 
       if (sections.length === 0) {
-        throw new Error("No valid sections generated; at least one section is required");
+        throw new Error(
+          "No valid sections generated; at least one section is required"
+        );
       }
 
       const result = {
         intro: introduction,
-        sections: sections
+        sections: sections,
       };
 
       console.log("✅ Successfully generated complete module");
       return result;
-
     } catch (error) {
       console.error("Error generating module content:", error.message);
       throw new Error(`Failed to generate module content: ${error.message}`);
@@ -341,10 +431,9 @@ Output only the section content, without headings: `;
       await fetchModules();
       await fetchGeneratedModules();
       setSelectedModuleId("");
-      
+
       // Show success message
       alert("Module content generated successfully!");
-      
     } catch (err) {
       console.error("Error generating module:", err.message);
       setGenerateError(`Failed to generate module: ${err.message}`);
@@ -365,11 +454,268 @@ Output only the section content, without headings: `;
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
+    return date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
     });
+  };
+
+  const toggleGenerateQuizModal = () => {
+    setIsGenerateQuizModalOpen(!isGenerateQuizModalOpen);
+    if (!isGenerateQuizModalOpen) {
+      setSelectedQuizModuleId("");
+      setNumQuestions(10);
+      setGenerateQuizError(null);
+    }
+  };
+
+  const handleGenerateQuiz = async () => {
+    if (!selectedQuizModuleId) {
+      setGenerateQuizError("Please select a module");
+      return;
+    }
+    setIsGeneratingQuiz(true);
+    setGenerateQuizError(null);
+    try {
+      const { data: module, error } = await supabase
+        .from("learning_modules")
+        .select("*")
+        .eq("id", selectedQuizModuleId)
+        .single();
+      if (error) throw error;
+      let contentText = module.content.intro;
+      module.content.sections.forEach((s) => {
+        contentText += `\n\n${s.title}\n${s.body}`;
+      });
+      const prompt = `You are an expert quiz creator for cryptocurrency education. Based on the following module content, generate exactly ${numQuestions} unique multiple-choice questions. Each question should:
+- Be relevant to the module content.
+- Have 4 options (A, B, C, D).
+- Have exactly one correct answer.
+- Be suitable for ${module.level} level.
+Output ONLY a valid JSON array of objects, no other text:
+[
+  {
+    "question": "The question text?",
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": 0  // index of correct option, 0-3
+  },
+  ...
+] 
+Module Title: ${module.title}
+Keywords: ${module.keywords.join(", ")}
+Content:
+${contentText.substring(0, 20000)}`;
+      const response = await callGeminiAPI(prompt);
+      let questions;
+      try {
+        // Clean the response to remove Markdown code blocks
+        const cleanedResponse = response
+          .replace(/```json\s*/g, "") // Remove opening ```json
+          .replace(/\s*```/g, "") // Remove closing ```
+          .trim(); // Trim whitespace
+        questions = JSON.parse(cleanedResponse);
+        if (!Array.isArray(questions) || questions.length !== numQuestions) {
+          throw new Error("Invalid response format");
+        }
+      } catch (parseErr) {
+        throw new Error("Failed to parse AI response: " + parseErr.message);
+      }
+      const inserts = questions.map((q) => ({
+        module_id: selectedQuizModuleId,
+        question_text: q.question,
+        options: q.options,
+        correct_answer: q.correct,
+        status: "pending",
+      }));
+      const { error: insertError } = await supabase
+        .from("quiz_questions")
+        .insert(inserts);
+      if (insertError) throw insertError;
+      alert(`${numQuestions} questions generated and awaiting validation.`);
+      await fetchQuestionCounts();
+      toggleGenerateQuizModal();
+    } catch (err) {
+      setGenerateQuizError(err.message);
+    } finally {
+      setIsGeneratingQuiz(false);
+    }
+  };
+
+  const toggleValidationModal = () => {
+    setIsValidationModalOpen(!isValidationModalOpen);
+    if (!isValidationModalOpen) {
+      fetchPendingQuestions();
+    }
+  };
+
+  const fetchPendingQuestions = async () => {
+    try {
+      const { data, error } = await supabase
+        .from("quiz_questions")
+        .select("*, learning_modules!inner(title)")
+        .eq("status", "pending")
+        .order("created_at", { ascending: false });
+      if (error) throw error;
+      setPendingQuestions(data || []);
+    } catch (err) {
+      console.error("Error fetching pending questions:", err);
+    }
+  };
+
+  const handleApproveQuestion = async (id) => {
+    try {
+      const { error } = await supabase
+        .from("quiz_questions")
+        .update({ status: "approved", validated_by: user.id })
+        .eq("id", id);
+      if (error) throw error;
+      fetchPendingQuestions();
+      fetchQuestionCounts();
+    } catch (err) {
+      console.error("Error approving:", err);
+    }
+  };
+
+  const handleRejectQuestion = async (id) => {
+    try {
+      const { error } = await supabase
+        .from("quiz_questions")
+        .update({ status: "rejected" })
+        .eq("id", id);
+      if (error) throw error;
+      fetchPendingQuestions();
+    } catch (err) {
+      console.error("Error rejecting:", err);
+    }
+  };
+
+  const openEditQuestion = (question) => {
+    setEditingQuestion({ ...question });
+    setIsEditQuestionModalOpen(true);
+  };
+
+  const handleSaveEdit = async () => {
+    try {
+      const { error } = await supabase
+        .from("quiz_questions")
+        .update({
+          question_text: editingQuestion.question_text,
+          options: editingQuestion.options,
+          correct_answer: editingQuestion.correct_answer,
+        })
+        .eq("id", editingQuestion.id);
+      if (error) throw error;
+      setIsEditQuestionModalOpen(false);
+      fetchPendingQuestions();
+    } catch (err) {
+      console.error("Error saving edit:", err);
+    }
+  };
+
+  const startModuleQuiz = async (moduleId) => {
+    try {
+      const { data, error } = await supabase
+        .from("quiz_questions")
+        .select("*")
+        .eq("module_id", moduleId)
+        .eq("status", "approved");
+      if (error) throw error;
+      if (data.length < 5) {
+        alert("Not enough approved questions for this module yet.");
+        return;
+      }
+      const numQ = Math.floor(Math.random() * 3) + 5; // Randomly 5, 6, or 7 questions
+      const shuffled = data.sort(() => Math.random() - 0.5);
+      const selectedQ = shuffled.slice(0, numQ);
+      setQuizQuestions(selectedQ);
+      setUserAnswers({});
+      setQuizScore(null);
+      setCurrentQuizModuleId(moduleId);
+      setIsQuizModalOpen(true);
+    } catch (err) {
+      console.error("Error starting quiz:", err);
+      alert("Failed to start quiz.");
+    }
+  };
+
+  const handleQuizAnswer = (questionId, answerIndex) => {
+    setUserAnswers((prev) => ({ ...prev, [questionId]: answerIndex }));
+  };
+
+  const handleSubmitQuiz = async () => {
+    let correct = 0;
+    quizQuestions.forEach((q) => {
+      if (userAnswers[q.id] === q.correct_answer) correct++;
+    });
+    const total = quizQuestions.length;
+    const percentage = (correct / total) * 100;
+    let points = 0;
+
+    try {
+      const { data: previousAttempts, error: attCheckErr } = await supabase
+        .from("quiz_attempts")
+        .select("barya_points_earned")
+        .eq("user_id", user.id)
+        .eq("module_id", currentQuizModuleId);
+      if (attCheckErr) throw attCheckErr;
+
+      const alreadyRewarded = previousAttempts.some(
+        (a) => a.barya_points_earned > 0
+      );
+
+      if (!alreadyRewarded) {
+        if (percentage >= 80) {
+          points = correct * 7; // higher points for above average
+        } else if (percentage >= 50) {
+          points = correct * 5; // bare minimum points
+        }
+        // else points = 0; no points if failed
+      }
+
+      // Always record the attempt
+      const { error: attErr } = await supabase.from("quiz_attempts").insert({
+        user_id: user.id,
+        module_id: currentQuizModuleId,
+        score: correct,
+        total_questions: total,
+        barya_points_earned: points,
+      });
+      if (attErr) throw attErr;
+
+      if (points > 0) {
+        // Award points if applicable
+        const { data: ub, error: ubErr } = await supabase
+          .from("user_balances")
+          .select("balance")
+          .eq("user_id", user.id)
+          .single();
+        if (ubErr) throw ubErr;
+
+        const newBal = ub.balance + points;
+        const { error: updateErr } = await supabase
+          .from("user_balances")
+          .update({ balance: newBal })
+          .eq("user_id", user.id);
+        if (updateErr) throw updateErr;
+
+        const { error: histErr } = await supabase
+          .from("balance_history")
+          .insert({
+            user_id: user.id,
+            change_amount: points,
+            balance_after: newBal,
+            change_type: "DEPOSIT",
+            description: `Quiz reward for module ${currentQuizModuleId}`,
+          });
+        if (histErr) throw histErr;
+      }
+
+      setQuizScore({ correct, total, points });
+    } catch (err) {
+      console.error("Error submitting quiz:", err);
+      alert("Failed to submit quiz and award points.");
+    }
   };
 
   return (
@@ -377,30 +723,43 @@ Output only the section content, without headings: `;
       <div className="news-header">
         <h1 className="news-title">Learning Modules</h1>
         <p className="news-subtitle">
-          Create and generate educational modules to enhance your crypto knowledge.
+          Create and generate educational modules to enhance your crypto
+          knowledge.
         </p>
       </div>
 
       {/* Conditionally render entire tabs section */}
       {showGenerateTab && (
-        <div className="tabs" style={{ position: 'relative', zIndex: 1000 }}>
-          <div style={{
-            background: 'linear-gradient(135deg, var(--accent-purple), var(--accent-blue))',
-            padding: '3px',
-            borderRadius: '16px',
-            marginBottom: '4px'
-          }}>
-            <div style={{
-              background: 'var(--bg-secondary)',
-              borderRadius: '14px',
-              padding: '20px',
-              border: '1px solid var(--border)'
-            }}>
-              <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <div className="tabs" style={{ position: "relative", zIndex: 1000 }}>
+          <div
+            style={{
+              background:
+                "linear-gradient(135deg, var(--accent-purple), var(--accent-blue))",
+              padding: "3px",
+              borderRadius: "16px",
+              marginBottom: "4px",
+            }}
+          >
+            <div
+              style={{
+                background: "var(--bg-secondary)",
+                borderRadius: "14px",
+                padding: "20px",
+                border: "1px solid var(--border)",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  gap: "20px",
+                  flexWrap: "wrap",
+                  justifyContent: "center",
+                }}
+              >
                 <button
                   className="btn btn-secondary"
                   onClick={toggleAdminInfoModal}
-                  style={{ minWidth: '150px' }}
+                  style={{ minWidth: "150px" }}
                 >
                   Admin Info
                 </button>
@@ -408,7 +767,7 @@ Output only the section content, without headings: `;
                   className="btn btn-primary"
                   onClick={toggleModal}
                   disabled={isSubmitting}
-                  style={{ minWidth: '200px' }}
+                  style={{ minWidth: "200px" }}
                 >
                   Create New Module
                 </button>
@@ -416,9 +775,24 @@ Output only the section content, without headings: `;
                   className="btn btn-accent"
                   onClick={toggleGenerateModal}
                   disabled={isGenerating}
-                  style={{ minWidth: '200px' }}
+                  style={{ minWidth: "200px" }}
                 >
                   Generate Module Content
+                </button>
+                <button
+                  className="btn btn-primary"
+                  onClick={toggleGenerateQuizModal}
+                  disabled={isGeneratingQuiz}
+                  style={{ minWidth: "200px" }}
+                >
+                  Generate Quiz
+                </button>
+                <button
+                  className="btn btn-accent"
+                  onClick={toggleValidationModal}
+                  style={{ minWidth: "200px" }}
+                >
+                  Validate Quizzes
                 </button>
               </div>
             </div>
@@ -430,10 +804,13 @@ Output only the section content, without headings: `;
       <div className="modules-display">
         <div className="modules-header">
           <h2>Available Learning Modules</h2>
-          <div style={{ display: 'flex', gap: '12px' }}>
+          <div style={{ display: "flex", gap: "12px" }}>
             <button
               className="btn btn-secondary"
-              onClick={fetchGeneratedModules}
+              onClick={() => {
+                fetchGeneratedModules();
+                fetchQuestionCounts();
+              }}
               disabled={isGenerating}
             >
               Refresh Modules
@@ -443,23 +820,27 @@ Output only the section content, without headings: `;
               onClick={toggleGenerateTab}
               disabled={isGenerating}
             >
-              {showGenerateTab ? 'Hide Generator' : 'Show Generator'}
+              {showGenerateTab ? "Hide Generator" : "Show Generator"}
             </button>
           </div>
         </div>
-        
-        {fetchGeneratedError && <p className="error-message">{fetchGeneratedError}</p>}
-        
+
+        {fetchGeneratedError && (
+          <p className="error-message">{fetchGeneratedError}</p>
+        )}
+
         {generatedModules.length === 0 && !fetchGeneratedError ? (
           <div className="no-modules">
             <p className="info-message">No learning modules available yet.</p>
-            <p className="info-subtitle">Create and generate your first module to get started!</p>
+            <p className="info-subtitle">
+              Create and generate your first module to get started!
+            </p>
           </div>
         ) : (
           <div className="modules-grid">
             {generatedModules.map((module) => (
-              <div 
-                key={module.id} 
+              <div
+                key={module.id}
                 className="module-card"
                 onClick={() => handleModuleClick(module)}
               >
@@ -478,7 +859,23 @@ Output only the section content, without headings: `;
                   </div>
                 </div>
                 <div className="module-card-footer">
-                  <button className="btn btn-link">View Module →</button>
+                  <button
+                    className="btn btn-link"
+                    onClick={() => handleModuleClick(module)}
+                  >
+                    View Module →
+                  </button>
+                  {moduleQuestionCounts[module.id] >= 5 && (
+                    <button
+                      className="btn btn-link"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        startModuleQuiz(module.id);
+                      }}
+                    >
+                      Take Quiz →
+                    </button>
+                  )}
                 </div>
               </div>
             ))}
@@ -491,7 +888,11 @@ Output only the section content, without headings: `;
         <div className="modal-content">
           <div className="modal-header">
             <h3>Create New Learning Module</h3>
-            <button className="modal-close" onClick={toggleModal} disabled={isSubmitting}>
+            <button
+              className="modal-close"
+              onClick={toggleModal}
+              disabled={isSubmitting}
+            >
               ✕
             </button>
           </div>
@@ -527,7 +928,9 @@ Output only the section content, without headings: `;
                         ]
                       }`}
                       value={keyword}
-                      onChange={(e) => handleKeywordChange(index, e.target.value)}
+                      onChange={(e) =>
+                        handleKeywordChange(index, e.target.value)
+                      }
                       disabled={isSubmitting}
                     />
                   ))}
@@ -591,7 +994,11 @@ Output only the section content, without headings: `;
                 </select>
               </div>
               <div className="form-actions">
-                <button type="submit" className="btn btn-accent" disabled={isSubmitting}>
+                <button
+                  type="submit"
+                  className="btn btn-accent"
+                  disabled={isSubmitting}
+                >
                   {isSubmitting ? "Submitting..." : "Submit Module"}
                 </button>
                 <button
@@ -626,7 +1033,7 @@ Output only the section content, without headings: `;
                     Created: {formatDate(selectedModule.created_at)}
                   </span>
                 </div>
-                
+
                 <div className="module-intro-section">
                   <h4>Introduction</h4>
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
@@ -666,81 +1073,104 @@ Output only the section content, without headings: `;
           </div>
           <div className="modal-body">
             <div className="module-form">
-              <div style={{
-                textAlign: 'center',
-                padding: '20px',
-                background: 'rgba(108, 92, 231, 0.1)',
-                borderRadius: '12px',
-                border: '1px solid rgba(108, 92, 231, 0.3)',
-                marginBottom: '20px'
-              }}>
-                <h2 style={{
-                  margin: '0 0 16px 0',
-                  color: 'var(--text-primary)',
-                  fontSize: '24px',
-                  fontWeight: '800'
-                }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "20px",
+                  background: "rgba(108, 92, 231, 0.1)",
+                  borderRadius: "12px",
+                  border: "1px solid rgba(108, 92, 231, 0.3)",
+                  marginBottom: "20px",
+                }}
+              >
+                <h2
+                  style={{
+                    margin: "0 0 16px 0",
+                    color: "var(--text-primary)",
+                    fontSize: "24px",
+                    fontWeight: "800",
+                  }}
+                >
                   Administrative Tools
                 </h2>
-                <p style={{
-                  margin: '0 0 16px 0',
-                  color: 'var(--text-secondary)',
-                  fontSize: '16px',
-                  fontWeight: '500',
-                  lineHeight: '1.6'
-                }}>
-                  Use these tools to create and generate educational learning modules for your crypto knowledge platform.
+                <p
+                  style={{
+                    margin: "0 0 16px 0",
+                    color: "var(--text-secondary)",
+                    fontSize: "16px",
+                    fontWeight: "500",
+                    lineHeight: "1.6",
+                  }}
+                >
+                  Use these tools to create and generate educational learning
+                  modules for your crypto knowledge platform.
                 </p>
-                <div style={{
-                  display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-                  gap: '16px',
-                  marginTop: '20px'
-                }}>
-                  <div style={{
-                    background: 'var(--bg-tertiary)',
-                    padding: '16px',
-                    borderRadius: '8px',
-                    border: '1px solid var(--border)'
-                  }}>
-                    <h4 style={{
-                      margin: '0 0 8px 0',
-                      color: 'var(--accent-blue)',
-                      fontSize: '16px',
-                      fontWeight: '700'
-                    }}>
+                <div
+                  style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+                    gap: "16px",
+                    marginTop: "20px",
+                  }}
+                >
+                  <div
+                    style={{
+                      background: "var(--bg-tertiary)",
+                      padding: "16px",
+                      borderRadius: "8px",
+                      border: "1px solid var(--border)",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        margin: "0 0 8px 0",
+                        color: "var(--accent-blue)",
+                        fontSize: "16px",
+                        fontWeight: "700",
+                      }}
+                    >
                       Create New Module
                     </h4>
-                    <p style={{
-                      margin: '0',
-                      color: 'var(--text-muted)',
-                      fontSize: '14px',
-                      lineHeight: '1.4'
-                    }}>
-                      Define module structure with title, keywords, difficulty level, and specific learning objectives.
+                    <p
+                      style={{
+                        margin: "0",
+                        color: "var(--text-muted)",
+                        fontSize: "14px",
+                        lineHeight: "1.4",
+                      }}
+                    >
+                      Define module structure with title, keywords, difficulty
+                      level, and specific learning objectives.
                     </p>
                   </div>
-                  <div style={{
-                    background: 'var(--bg-tertiary)',
-                    padding: '16px',
-                    borderRadius: '8px',
-                    border: '1px solid var(--border)'
-                  }}>
-                    <h4 style={{
-                      margin: '0 0 8px 0',
-                      color: 'var(--accent-purple)',
-                      fontSize: '16px',
-                      fontWeight: '700'
-                    }}>
+                  <div
+                    style={{
+                      background: "var(--bg-tertiary)",
+                      padding: "16px",
+                      borderRadius: "8px",
+                      border: "1px solid var(--border)",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        margin: "0 0 8px 0",
+                        color: "var(--accent-purple)",
+                        fontSize: "16px",
+                        fontWeight: "700",
+                      }}
+                    >
                       Generate Content
                     </h4>
-                    <p style={{
-                      margin: '0',
-                      color: 'var(--text-muted)',
-                      fontSize: '14px',
-                      lineHeight: '1.4'
-                    }}>
-                      Use AI to generate comprehensive educational content based on your module specifications.
+                    <p
+                      style={{
+                        margin: "0",
+                        color: "var(--text-muted)",
+                        fontSize: "14px",
+                        lineHeight: "1.4",
+                      }}
+                    >
+                      Use AI to generate comprehensive educational content based
+                      on your module specifications.
                     </p>
                   </div>
                 </div>
@@ -748,7 +1178,10 @@ Output only the section content, without headings: `;
             </div>
           </div>
           <div className="modal-footer">
-            <button className="btn btn-secondary" onClick={toggleAdminInfoModal}>
+            <button
+              className="btn btn-secondary"
+              onClick={toggleAdminInfoModal}
+            >
               Close
             </button>
           </div>
@@ -760,21 +1193,23 @@ Output only the section content, without headings: `;
         <div className="modal-content">
           <div className="modal-header">
             <h3>Generate Module Content</h3>
-            <button className="modal-close" onClick={toggleGenerateModal} disabled={isGenerating}>
+            <button
+              className="modal-close"
+              onClick={toggleGenerateModal}
+              disabled={isGenerating}
+            >
               ✕
             </button>
           </div>
           <div className="modal-body">
             <div className="module-form">
               <div className="form-group">
-                <label className="form-label">
-                  Select Module to Generate
-                </label>
+                <label className="form-label">Select Module to Generate</label>
                 <button
                   className="btn btn-secondary"
                   onClick={fetchModules}
                   disabled={isGenerating}
-                  style={{ marginBottom: '12px' }}
+                  style={{ marginBottom: "12px" }}
                 >
                   Refresh Modules
                 </button>
@@ -793,11 +1228,17 @@ Output only the section content, without headings: `;
                 </select>
               </div>
 
-              {fetchModulesError && <p className="error-message">{fetchModulesError}</p>}
-              {modules.length === 0 && !fetchModulesError && (
-                <p className="info-message">No ungenerated modules available.</p>
+              {fetchModulesError && (
+                <p className="error-message">{fetchModulesError}</p>
               )}
-              {generateError && <p className="error-message">{generateError}</p>}
+              {modules.length === 0 && !fetchModulesError && (
+                <p className="info-message">
+                  No ungenerated modules available.
+                </p>
+              )}
+              {generateError && (
+                <p className="error-message">{generateError}</p>
+              )}
 
               <div className="form-actions">
                 <button
@@ -816,6 +1257,298 @@ Output only the section content, without headings: `;
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Generate Quiz Modal */}
+      <div
+        className={`modal-overlay ${isGenerateQuizModalOpen ? "" : "hidden"}`}
+      >
+        <div className="modal-content">
+          <div className="modal-header">
+            <h3>Generate Quiz Questions</h3>
+            <button
+              className="modal-close"
+              onClick={toggleGenerateQuizModal}
+              disabled={isGeneratingQuiz}
+            >
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="module-form">
+              <div className="form-group">
+                <label className="form-label">Select Module</label>
+                <select
+                  value={selectedQuizModuleId}
+                  onChange={(e) => setSelectedQuizModuleId(e.target.value)}
+                  className="form-select"
+                  disabled={isGeneratingQuiz}
+                >
+                  <option value="">Select a module</option>
+                  {generatedModules.map((m) => (
+                    <option key={m.id} value={m.id}>
+                      {m.title}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div className="form-group">
+                <label className="form-label">Number of Questions</label>
+                <select
+                  value={numQuestions}
+                  onChange={(e) => setNumQuestions(parseInt(e.target.value))}
+                  className="form-select"
+                  disabled={isGeneratingQuiz}
+                >
+                  <option value={5}>5</option>
+                  <option value={10}>10</option>
+                  <option value={15}>15</option>
+                  <option value={20}>20</option>
+                  <option value={25}>25</option>
+                  <option value={30}>30</option>
+                </select>
+              </div>
+              {generateQuizError && (
+                <p className="error-message">{generateQuizError}</p>
+              )}
+              <div className="form-actions">
+                <button
+                  className="btn btn-accent"
+                  onClick={handleGenerateQuiz}
+                  disabled={isGeneratingQuiz || !selectedQuizModuleId}
+                >
+                  {isGeneratingQuiz ? "Generating..." : "Generate Questions"}
+                </button>
+                <button
+                  className="btn btn-secondary"
+                  onClick={toggleGenerateQuizModal}
+                  disabled={isGeneratingQuiz}
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Validation Modal */}
+      <div className={`modal-overlay ${isValidationModalOpen ? "" : "hidden"}`}>
+        <div
+          className="modal-content"
+          style={{ width: "80%", maxWidth: "1200px" }}
+        >
+          <div className="modal-header">
+            <h3>Pending Quiz Questions</h3>
+            <button className="modal-close" onClick={toggleValidationModal}>
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            {pendingQuestions.length === 0 ? (
+              <p className="info-message">No pending questions available.</p>
+            ) : (
+              <div className="modules-grid">
+                {pendingQuestions.map((q) => (
+                  <div key={q.id} className="module-card">
+                    <div className="module-card-header">
+                      <h3 className="module-card-title">
+                        {q.learning_modules.title}
+                      </h3>
+                    </div>
+                    <div className="module-card-content">
+                      <p>
+                        <strong>Question:</strong> {q.question_text}
+                      </p>
+                      <ul>
+                        {q.options.map((opt, idx) => (
+                          <li
+                            key={idx}
+                            style={{
+                              fontWeight:
+                                idx === q.correct_answer ? "bold" : "normal",
+                            }}
+                          >
+                            {String.fromCharCode(65 + idx)}: {opt}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="module-card-footer">
+                      <button
+                        className="btn btn-link"
+                        onClick={() => openEditQuestion(q)}
+                      >
+                        Edit
+                      </button>
+                      <button
+                        className="btn btn-link"
+                        onClick={() => handleApproveQuestion(q.id)}
+                      >
+                        Approve
+                      </button>
+                      <button
+                        className="btn btn-link"
+                        onClick={() => handleRejectQuestion(q.id)}
+                      >
+                        Reject
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Edit Question Modal */}
+      <div
+        className={`modal-overlay ${isEditQuestionModalOpen ? "" : "hidden"}`}
+      >
+        <div className="modal-content">
+          <div className="modal-header">
+            <h3>Edit Question</h3>
+            <button
+              className="modal-close"
+              onClick={() => setIsEditQuestionModalOpen(false)}
+            >
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            {editingQuestion && (
+              <div className="module-form">
+                <div className="form-group">
+                  <label className="form-label">Question Text</label>
+                  <textarea
+                    className="form-textarea"
+                    value={editingQuestion.question_text}
+                    onChange={(e) =>
+                      setEditingQuestion({
+                        ...editingQuestion,
+                        question_text: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+                {editingQuestion.options.map((opt, idx) => (
+                  <div key={idx} className="form-group">
+                    <label className="form-label">
+                      Option {String.fromCharCode(65 + idx)}
+                    </label>
+                    <input
+                      type="text"
+                      className="form-input"
+                      value={opt}
+                      onChange={(e) => {
+                        const newOptions = [...editingQuestion.options];
+                        newOptions[idx] = e.target.value;
+                        setEditingQuestion({
+                          ...editingQuestion,
+                          options: newOptions,
+                        });
+                      }}
+                    />
+                  </div>
+                ))}
+                <div className="form-group">
+                  <label className="form-label">Correct Answer</label>
+                  <select
+                    className="form-select"
+                    value={editingQuestion.correct_answer}
+                    onChange={(e) =>
+                      setEditingQuestion({
+                        ...editingQuestion,
+                        correct_answer: parseInt(e.target.value),
+                      })
+                    }
+                  >
+                    <option value={0}>A</option>
+                    <option value={1}>B</option>
+                    <option value={2}>C</option>
+                    <option value={3}>D</option>
+                  </select>
+                </div>
+                <div className="form-actions">
+                  <button className="btn btn-accent" onClick={handleSaveEdit}>
+                    Save
+                  </button>
+                  <button
+                    className="btn btn-secondary"
+                    onClick={() => setIsEditQuestionModalOpen(false)}
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Quiz Modal */}
+      <div className={`modal-overlay ${isQuizModalOpen ? "" : "hidden"}`}>
+        <div className="modal-content module-content-modal">
+          <div className="modal-header">
+            <h3>
+              Quiz:{" "}
+              {
+                generatedModules.find((m) => m.id === currentQuizModuleId)
+                  ?.title
+              }
+            </h3>
+            <button
+              className="modal-close"
+              onClick={() => setIsQuizModalOpen(false)}
+            >
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            {quizScore ? (
+              <div>
+                <h4>
+                  Score: {quizScore.correct} / {quizScore.total}
+                </h4>
+                <p>Earned {quizScore.points} barya points!</p>
+              </div>
+            ) : (
+              <div>
+                {quizQuestions.map((q, qIndex) => (
+                  <div key={q.id} className="module-section">
+                    <h4>
+                      Question {qIndex + 1}: {q.question_text}
+                    </h4>
+                    {q.options.map((opt, oIndex) => (
+                      <div key={oIndex}>
+                        <input
+                          type="radio"
+                          id={`q${q.id}_o${oIndex}`}
+                          name={`q${q.id}`}
+                          checked={userAnswers[q.id] === oIndex}
+                          onChange={() => handleQuizAnswer(q.id, oIndex)}
+                        />
+                        <label htmlFor={`q${q.id}_o${oIndex}`}>
+                          {String.fromCharCode(65 + oIndex)}. {opt}
+                        </label>
+                      </div>
+                    ))}
+                  </div>
+                ))}
+                <button
+                  className="btn btn-accent"
+                  onClick={handleSubmitQuiz}
+                  disabled={
+                    Object.keys(userAnswers).length < quizQuestions.length
+                  }
+                >
+                  Submit Quiz
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
