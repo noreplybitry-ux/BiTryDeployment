@@ -715,7 +715,7 @@ body.modal-open {
   border-radius: var(--radius-xl);
   border: 1px solid rgba(0, 212, 255, 0.2);
   width: 100%;
-  max-width: 900px;
+  max-width: 900px !important;
   max-height: calc(100vh - 40px);
   overflow: hidden;
   display: flex;
