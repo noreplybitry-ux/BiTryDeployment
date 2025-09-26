@@ -55,6 +55,7 @@ const Learn2 = () => {
   const [editingQuestion, setEditingQuestion] = useState(null);
   const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);
   const [currentQuizModuleId, setCurrentQuizModuleId] = useState(null);
+  const [currentQuizModuleLevel, setCurrentQuizModuleLevel] = useState(null);
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [userAnswers, setUserAnswers] = useState({});
   const [quizScore, setQuizScore] = useState(null);
@@ -99,7 +100,7 @@ const Learn2 = () => {
       setFetchGeneratedError(null);
       const { data, error } = await supabase
         .from("learning_modules")
-        .select("id, title, content, created_at")
+        .select("id, title, content, created_at, level")
         .not("content", "is", null)
         .order("created_at", { ascending: false });
       if (error) throw error;
@@ -727,6 +728,8 @@ ${contentText.substring(0, 20000)}`;
       setQuizQuestions(selectedQ);
       setUserAnswers({});
       setQuizScore(null);
+      const module = generatedModules.find((m) => m.id === moduleId);
+      setCurrentQuizModuleLevel(module?.level || "Beginner");
       setCurrentQuizModuleId(moduleId);
       setIsQuizModalOpen(true);
     } catch (err) {
@@ -761,10 +764,18 @@ ${contentText.substring(0, 20000)}`;
       );
 
       if (!alreadyRewarded) {
+        const ranges = {
+          Beginner: [100, 190],
+          Intermediate: [200, 300],
+          Advanced: [400, 500],
+        };
+        const range = ranges[currentQuizModuleLevel] || [100, 190];
+        let base =
+          Math.floor(Math.random() * (range[1] - range[0] + 1)) + range[0];
         if (percentage >= 80) {
-          points = correct * 7; // higher points for above average
+          points = base;
         } else if (percentage >= 50) {
-          points = correct * 5; // bare minimum points
+          points = Math.floor(base / 2);
         }
         // else points = 0; no points if failed
       }
@@ -825,7 +836,7 @@ ${contentText.substring(0, 20000)}`;
       </div>
 
       {/* Conditionally render entire tabs section */}
-      {showGenerateTab && (
+      {showGenerateTab && isAdmin && (
         <div className="tabs" style={{ position: "relative", zIndex: 1000 }}>
           <div
             style={{
@@ -911,13 +922,15 @@ ${contentText.substring(0, 20000)}`;
             >
               Refresh Modules
             </button>
-            <button
-              className="btn btn-accent"
-              onClick={toggleGenerateTab}
-              disabled={isGenerating}
-            >
-              {showGenerateTab ? "Hide Generator" : "Show Generator"}
-            </button>
+            {isAdmin && (
+              <button
+                className="btn btn-accent"
+                onClick={toggleGenerateTab}
+                disabled={isGenerating}
+              >
+                {showGenerateTab ? "Hide Generator" : "Show Generator"}
+              </button>
+            )}
           </div>
         </div>
 
@@ -1365,7 +1378,7 @@ ${contentText.substring(0, 20000)}`;
                 style={{
                   textAlign: "center",
                   padding: "20px",
-                  background: "rgba(108, 92, 231, 0.1)",
+                  background: "rgba(108, 92, 92, 231, 0.1)",
                   borderRadius: "12px",
                   border: "1px solid rgba(108, 92, 231, 0.3)",
                   marginBottom: "20px",
