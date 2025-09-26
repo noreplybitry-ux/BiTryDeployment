@@ -341,18 +341,10 @@ export default function Navbar() {
                 </li>
                 <li>
                   <NavLink
-                    to="/learn"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Learn
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
                     to="/learn2"
                     className={({ isActive }) => (isActive ? "active" : "")}
                   >
-                    Learn2
+                    Learn
                   </NavLink>
                 </li>
                 <li>
@@ -371,11 +363,14 @@ export default function Navbar() {
                     News
                   </NavLink>
                 </li>
-            <li>
-              <NavLink to="/leaderboard" className={({ isActive }) => (isActive ? "active" : "")}>
-                Leaderboard
-              </NavLink>
-            </li>
+                <li>
+                  <NavLink
+                    to="/leaderboard"
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                  >
+                    Leaderboard
+                  </NavLink>
+                </li>
               </>
             )}
           </ul>
