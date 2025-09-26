@@ -26,9 +26,21 @@ const Learn2 = () => {
   const [fetchGeneratedError, setFetchGeneratedError] = useState(null);
   const [selectedModule, setSelectedModule] = useState(null);
   const [isContentModalOpen, setIsContentModalOpen] = useState(false);
-  const [showGenerateTab, setShowGenerateTab] = useState(false); // New state for toggle
-  const [isGenerateModalOpen, setIsGenerateModalOpen] = useState(false); // New state for generate modal
-  const [isAdminInfoModalOpen, setIsAdminInfoModalOpen] = useState(false); // New state for admin info modal
+  const [showGenerateTab, setShowGenerateTab] = useState(false);
+  const [isGenerateModalOpen, setIsGenerateModalOpen] = useState(false);
+  const [isAdminInfoModalOpen, setIsAdminInfoModalOpen] = useState(false);
+
+  // New states for edit functionality
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+  const [editingModule, setEditingModule] = useState(null);
+  const [editFormData, setEditFormData] = useState({
+    title: "",
+    intro: "",
+    sections: [],
+  });
+  const [isUpdating, setIsUpdating] = useState(false);
+  const [updateError, setUpdateError] = useState(null);
+
   const formRef = useRef(null);
   const [isAdmin, setIsAdmin] = useState(false);
   const [moduleQuestionCounts, setModuleQuestionCounts] = useState({});
@@ -140,6 +152,35 @@ const Learn2 = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // New function to handle edit form changes
+  const handleEditFormChange = (e) => {
+    const { name, value } = e.target;
+    setEditFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  // New function to handle section changes in edit form
+  const handleSectionChange = (index, field, value) => {
+    const newSections = [...editFormData.sections];
+    newSections[index] = { ...newSections[index], [field]: value };
+    setEditFormData((prev) => ({ ...prev, sections: newSections }));
+  };
+
+  // New function to add a section in edit form
+  const handleAddSection = () => {
+    setEditFormData((prev) => ({
+      ...prev,
+      sections: [...prev.sections, { title: "", body: "" }],
+    }));
+  };
+
+  // New function to remove a section in edit form
+  const handleRemoveSection = (index) => {
+    setEditFormData((prev) => ({
+      ...prev,
+      sections: prev.sections.filter((_, i) => i !== index),
+    }));
+  };
+
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
     if (!isModalOpen) {
@@ -157,27 +198,82 @@ const Learn2 = () => {
     }
   };
 
-  // New function to toggle generate tab visibility
   const toggleGenerateTab = () => {
     setShowGenerateTab(!showGenerateTab);
   };
 
-  // New function to toggle generate modal
   const toggleGenerateModal = () => {
     setIsGenerateModalOpen(!isGenerateModalOpen);
     if (!isGenerateModalOpen) {
-      // Reset states when opening
       setSelectedModuleId("");
       setGenerateError(null);
       setFetchModulesError(null);
-      // Refresh modules when opening the modal
       fetchModules();
     }
   };
 
-  // New function to toggle admin info modal
   const toggleAdminInfoModal = () => {
     setIsAdminInfoModalOpen(!isAdminInfoModalOpen);
+  };
+
+  // New function to open edit modal
+  const openEditModal = (module) => {
+    setEditingModule(module);
+    setEditFormData({
+      title: module.title,
+      intro: module.content?.intro || "",
+      sections: module.content?.sections || [],
+    });
+    setUpdateError(null);
+    setIsEditModalOpen(true);
+  };
+
+  // New function to close edit modal
+  const closeEditModal = () => {
+    setEditingModule(null);
+    setEditFormData({
+      title: "",
+      intro: "",
+      sections: [],
+    });
+    setUpdateError(null);
+    setIsEditModalOpen(false);
+  };
+
+  // New function to handle edit form submission
+  const handleEditSubmit = async (e) => {
+    e.preventDefault();
+    setIsUpdating(true);
+    setUpdateError(null);
+
+    try {
+      const updatedContent = {
+        intro: editFormData.intro,
+        sections: editFormData.sections,
+      };
+
+      const { error } = await supabase
+        .from("learning_modules")
+        .update({
+          title: editFormData.title,
+          content: updatedContent,
+        })
+        .eq("id", editingModule.id);
+
+      if (error) throw error;
+
+      console.log("Module updated successfully");
+      await fetchGeneratedModules();
+      closeEditModal();
+
+      // Show success message
+      alert("Module updated successfully!");
+    } catch (err) {
+      console.error("Error updating module:", err.message);
+      setUpdateError(`Failed to update module: ${err.message}`);
+    } finally {
+      setIsUpdating(false);
+    }
   };
 
   const callGeminiAPI = async (prompt, retries = 3) => {
@@ -839,11 +935,7 @@ ${contentText.substring(0, 20000)}`;
         ) : (
           <div className="modules-grid">
             {generatedModules.map((module) => (
-              <div
-                key={module.id}
-                className="module-card"
-                onClick={() => handleModuleClick(module)}
-              >
+              <div key={module.id} className="module-card">
                 <div className="module-card-header">
                   <h3 className="module-card-title">{module.title}</h3>
                   <span className="module-card-date">
@@ -852,30 +944,45 @@ ${contentText.substring(0, 20000)}`;
                 </div>
                 <div className="module-card-content">
                   <p className="module-intro">
-                    {module.content?.intro || "Click to view module content..."}
+                    {module.content?.intro
+                      ? module.content.intro.substring(0, 150) + "..."
+                      : "Click to view module content..."}
                   </p>
                   <div className="module-sections-count">
                     {module.content?.sections?.length || 0} sections
                   </div>
                 </div>
                 <div className="module-card-footer">
-                  <button
-                    className="btn btn-link"
-                    onClick={() => handleModuleClick(module)}
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "12px",
+                      justifyContent: "space-between",
+                    }}
                   >
-                    View Module →
-                  </button>
-                  {moduleQuestionCounts[module.id] >= 5 && (
                     <button
                       className="btn btn-link"
+                      onClick={() => handleModuleClick(module)}
+                    >
+                      View Module →
+                    </button>
+                    <button
+                      className="btn btn-secondary"
                       onClick={(e) => {
                         e.stopPropagation();
-                        startModuleQuiz(module.id);
+                        openEditModal(module);
+                      }}
+                      style={{
+                        fontSize: "14px",
+                        padding: "8px 16px",
+                        backgroundColor: "var(--accent-purple)",
+                        color: "white",
+                        border: "none",
                       }}
                     >
-                      Take Quiz →
+                      Edit
                     </button>
-                  )}
+                  </div>
                 </div>
               </div>
             ))}
@@ -1011,6 +1118,168 @@ ${contentText.substring(0, 20000)}`;
                 </button>
               </div>
               {submitError && <p className="error-message">{submitError}</p>}
+            </form>
+          </div>
+        </div>
+      </div>
+
+      {/* Edit Module Modal */}
+      <div className={`modal-overlay ${isEditModalOpen ? "" : "hidden"}`}>
+        <div className="modal-content module-content-modal">
+          <div className="modal-header">
+            <h3>Edit Module: {editingModule?.title}</h3>
+            <button
+              className="modal-close"
+              onClick={closeEditModal}
+              disabled={isUpdating}
+            >
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            <form className="module-form" onSubmit={handleEditSubmit}>
+              <div className="form-group">
+                <label htmlFor="edit-title" className="form-label">
+                  Module Title
+                </label>
+                <input
+                  type="text"
+                  id="edit-title"
+                  name="title"
+                  className="form-input"
+                  value={editFormData.title}
+                  onChange={handleEditFormChange}
+                  required
+                  disabled={isUpdating}
+                />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="edit-intro" className="form-label">
+                  Introduction
+                </label>
+                <textarea
+                  id="edit-intro"
+                  name="intro"
+                  className="form-textarea"
+                  rows="8"
+                  value={editFormData.intro}
+                  onChange={handleEditFormChange}
+                  disabled={isUpdating}
+                  style={{ minHeight: "200px" }}
+                />
+              </div>
+
+              <div className="form-group">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    marginBottom: "16px",
+                  }}
+                >
+                  <label className="form-label">Sections</label>
+                  <button
+                    type="button"
+                    className="btn btn-accent"
+                    onClick={handleAddSection}
+                    disabled={isUpdating}
+                  >
+                    Add Section
+                  </button>
+                </div>
+
+                {editFormData.sections.map((section, index) => (
+                  <div
+                    key={index}
+                    className="section-edit-group"
+                    style={{
+                      border: "1px solid var(--border)",
+                      borderRadius: "8px",
+                      padding: "16px",
+                      marginBottom: "16px",
+                      background: "var(--bg-tertiary)",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        marginBottom: "12px",
+                      }}
+                    >
+                      <h4
+                        style={{
+                          margin: 0,
+                          fontSize: "16px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Section {index + 1}
+                      </h4>
+                      <button
+                        type="button"
+                        className="btn btn-close"
+                        onClick={() => handleRemoveSection(index)}
+                        disabled={isUpdating}
+                        style={{ padding: "4px 8px", fontSize: "12px" }}
+                      >
+                        Remove
+                      </button>
+                    </div>
+
+                    <div className="form-group">
+                      <label className="form-label">Section Title</label>
+                      <input
+                        type="text"
+                        className="form-input"
+                        value={section.title}
+                        onChange={(e) =>
+                          handleSectionChange(index, "title", e.target.value)
+                        }
+                        disabled={isUpdating}
+                        placeholder="Section title"
+                      />
+                    </div>
+
+                    <div className="form-group">
+                      <label className="form-label">Section Content</label>
+                      <textarea
+                        className="form-textarea"
+                        rows="6"
+                        value={section.body}
+                        onChange={(e) =>
+                          handleSectionChange(index, "body", e.target.value)
+                        }
+                        disabled={isUpdating}
+                        placeholder="Section content"
+                        style={{ minHeight: "150px" }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="form-actions">
+                <button
+                  type="submit"
+                  className="btn btn-accent"
+                  disabled={isUpdating}
+                >
+                  {isUpdating ? "Updating..." : "Update Module"}
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={closeEditModal}
+                  disabled={isUpdating}
+                >
+                  Cancel
+                </button>
+              </div>
+              {updateError && <p className="error-message">{updateError}</p>}
             </form>
           </div>
         </div>
@@ -1171,6 +1440,36 @@ ${contentText.substring(0, 20000)}`;
                     >
                       Use AI to generate comprehensive educational content based
                       on your module specifications.
+                    </p>
+                  </div>
+                  <div
+                    style={{
+                      background: "var(--bg-tertiary)",
+                      padding: "16px",
+                      borderRadius: "8px",
+                      border: "1px solid var(--border)",
+                    }}
+                  >
+                    <h4
+                      style={{
+                        margin: "0 0 8px 0",
+                        color: "var(--accent-green)",
+                        fontSize: "16px",
+                        fontWeight: "700",
+                      }}
+                    >
+                      Edit Modules
+                    </h4>
+                    <p
+                      style={{
+                        margin: "0",
+                        color: "var(--text-muted)",
+                        fontSize: "14px",
+                        lineHeight: "1.4",
+                      }}
+                    >
+                      Modify existing module content, add or remove sections,
+                      and update titles and descriptions.
                     </p>
                   </div>
                 </div>
