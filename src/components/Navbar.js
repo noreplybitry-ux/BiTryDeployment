@@ -20,6 +20,22 @@ export default function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
 
+  // Function to calculate age from birthday
+  const calculateAge = (birthdate) => {
+    if (!birthdate) return null;
+    const today = new Date();
+    const birthDate = new Date(birthdate);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    if (
+      monthDiff < 0 ||
+      (monthDiff === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      age--;
+    }
+    return age;
+  };
+
   // Check if user is admin
   useEffect(() => {
     let isMounted = true;
@@ -87,7 +103,7 @@ export default function Navbar() {
       try {
         const { data: profileData, error } = await supabase
           .from("profiles")
-          .select("first_name, last_name, profile_picture_url")
+          .select("first_name, last_name, profile_picture_url, birthday")
           .eq("id", user.id)
           .single();
 
@@ -298,6 +314,10 @@ export default function Navbar() {
     return portfolioValue + cashBalance;
   };
 
+  // Calculate if user is under 18
+  const age = profile?.birthday ? calculateAge(profile.birthday) : null;
+  const isUnder18 = age !== null && age < 18;
+
   return (
     <header className="navbar">
       <div className="nav-left">
@@ -347,14 +367,16 @@ export default function Navbar() {
                     Learn
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    to="/trade"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Trade
-                  </NavLink>
-                </li>
+                {!isUnder18 && (
+                  <li>
+                    <NavLink
+                      to="/trade"
+                      className={({ isActive }) => (isActive ? "active" : "")}
+                    >
+                      Trade
+                    </NavLink>
+                  </li>
+                )}
                 <li>
                   <NavLink
                     to="/news"
