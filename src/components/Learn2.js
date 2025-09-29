@@ -1470,8 +1470,8 @@ ${contentText.substring(0, 20000)}`;
                         lineHeight: "1.4",
                       }}
                     >
-                      Use AI to generate comprehensive educational content based
-                      on your module specifications.
+                      Use AI to generate generate comprehensive educational
+                      content based on your module specifications.
                     </p>
                   </div>
                   <div
