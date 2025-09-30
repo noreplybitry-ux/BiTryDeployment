@@ -37,6 +37,8 @@ const Learn2 = () => {
     title: "",
     intro: "",
     sections: [],
+    taglish_intro: "",
+    taglish_sections: [],
   });
   const [isUpdating, setIsUpdating] = useState(false);
   const [updateError, setUpdateError] = useState(null);
@@ -59,6 +61,11 @@ const Learn2 = () => {
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [userAnswers, setUserAnswers] = useState({});
   const [quizScore, setQuizScore] = useState(null);
+  const [language, setLanguage] = useState("english");
+  const [isGenerateTaglishModalOpen, setIsGenerateTaglishModalOpen] = useState(false);
+  const [selectedTaglishModuleId, setSelectedTaglishModuleId] = useState("");
+  const [isGeneratingTaglish, setIsGeneratingTaglish] = useState(false);
+  const [generateTaglishError, setGenerateTaglishError] = useState(null);
 
   useEffect(() => {
     if (user) {
@@ -100,7 +107,7 @@ const Learn2 = () => {
       setFetchGeneratedError(null);
       const { data, error } = await supabase
         .from("learning_modules")
-        .select("id, title, content, created_at, level")
+        .select("id, title, content, taglish_content, created_at, level")
         .not("content", "is", null)
         .order("created_at", { ascending: false });
       if (error) throw error;
@@ -153,32 +160,31 @@ const Learn2 = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // New function to handle edit form changes
   const handleEditFormChange = (e) => {
     const { name, value } = e.target;
     setEditFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // New function to handle section changes in edit form
-  const handleSectionChange = (index, field, value) => {
-    const newSections = [...editFormData.sections];
+  const handleSectionChange = (index, field, value, isTaglish = false) => {
+    const key = isTaglish ? "taglish_sections" : "sections";
+    const newSections = [...editFormData[key]];
     newSections[index] = { ...newSections[index], [field]: value };
-    setEditFormData((prev) => ({ ...prev, sections: newSections }));
+    setEditFormData((prev) => ({ ...prev, [key]: newSections }));
   };
 
-  // New function to add a section in edit form
-  const handleAddSection = () => {
+  const handleAddSection = (isTaglish = false) => {
+    const key = isTaglish ? "taglish_sections" : "sections";
     setEditFormData((prev) => ({
       ...prev,
-      sections: [...prev.sections, { title: "", body: "" }],
+      [key]: [...prev[key], { title: "", body: "" }],
     }));
   };
 
-  // New function to remove a section in edit form
-  const handleRemoveSection = (index) => {
+  const handleRemoveSection = (index, isTaglish = false) => {
+    const key = isTaglish ? "taglish_sections" : "sections";
     setEditFormData((prev) => ({
       ...prev,
-      sections: prev.sections.filter((_, i) => i !== index),
+      [key]: prev[key].filter((_, i) => i !== index),
     }));
   };
 
@@ -217,31 +223,40 @@ const Learn2 = () => {
     setIsAdminInfoModalOpen(!isAdminInfoModalOpen);
   };
 
-  // New function to open edit modal
+  const toggleGenerateTaglishModal = () => {
+    setIsGenerateTaglishModalOpen(!isGenerateTaglishModalOpen);
+    if (!isGenerateTaglishModalOpen) {
+      setSelectedTaglishModuleId("");
+      setGenerateTaglishError(null);
+    }
+  };
+
   const openEditModal = (module) => {
     setEditingModule(module);
     setEditFormData({
       title: module.title,
       intro: module.content?.intro || "",
       sections: module.content?.sections || [],
+      taglish_intro: module.taglish_content?.intro || "",
+      taglish_sections: module.taglish_content?.sections || [],
     });
     setUpdateError(null);
     setIsEditModalOpen(true);
   };
 
-  // New function to close edit modal
   const closeEditModal = () => {
     setEditingModule(null);
     setEditFormData({
       title: "",
       intro: "",
       sections: [],
+      taglish_intro: "",
+      taglish_sections: [],
     });
     setUpdateError(null);
     setIsEditModalOpen(false);
   };
 
-  // New function to handle edit form submission
   const handleEditSubmit = async (e) => {
     e.preventDefault();
     setIsUpdating(true);
@@ -252,12 +267,17 @@ const Learn2 = () => {
         intro: editFormData.intro,
         sections: editFormData.sections,
       };
+      const updatedTaglishContent = {
+        intro: editFormData.taglish_intro,
+        sections: editFormData.taglish_sections,
+      };
 
       const { error } = await supabase
         .from("learning_modules")
         .update({
           title: editFormData.title,
           content: updatedContent,
+          taglish_content: updatedTaglishContent,
         })
         .eq("id", editingModule.id);
 
@@ -267,7 +287,6 @@ const Learn2 = () => {
       await fetchGeneratedModules();
       closeEditModal();
 
-      // Show success message
       alert("Module updated successfully!");
     } catch (err) {
       console.error("Error updating module:", err.message);
@@ -277,9 +296,9 @@ const Learn2 = () => {
     }
   };
 
-  const callGeminiAPI = async (prompt, retries = 3) => {
+  const callGeminiAPI = async (prompt, retries = 3, isTranslation = false) => {
     const model = "gemini-2.5-flash";
-    const apiKey = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
+    const apiKey = isTranslation ? "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q" : "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
 
     for (let attempt = 1; attempt <= retries; attempt++) {
       try {
@@ -347,6 +366,37 @@ const Learn2 = () => {
         console.log(`Waiting ${waitTime}ms before next retry...`);
         await new Promise((resolve) => setTimeout(resolve, waitTime));
       }
+    }
+  };
+
+  const translateToTaglish = async (englishContent) => {
+    const prompt = `
+Translate the following English content into casual TagLish (Tagalog-English mix) for Filipino beginners. Keep key cryptocurrency terms like "blockchain", "smart contracts", "DeFi", etc., untranslated. Use simple, conversational language with a mix of Tagalog and English, suitable for beginners. Ensure the structure remains the same. Output ONLY the translated content in JSON format:
+{
+  "intro": "Translated intro text",
+  "sections": [
+    { "title": "Translated section title", "body": "Translated section body" },
+    ...
+  ]
+}
+
+English Content:
+{
+  "intro": ${JSON.stringify(englishContent.intro)},
+  "sections": ${JSON.stringify(englishContent.sections)}
+}
+`;
+
+    try {
+      const response = await callGeminiAPI(prompt, 3, true);
+      const cleaned = response
+        .replace(/```json\s*/g, "")
+        .replace(/\s*```/g, "")
+        .trim();
+      return JSON.parse(cleaned);
+    } catch (error) {
+      console.error("Error translating to TagLish:", error.message);
+      throw new Error(`Failed to translate to TagLish: ${error.message}`);
     }
   };
 
@@ -441,13 +491,15 @@ Output only the section content, without headings: `;
         );
       }
 
-      const result = {
+      const englishContent = {
         intro: introduction,
         sections: sections,
       };
 
+      const taglishContent = await translateToTaglish(englishContent);
+
       console.log("✅ Successfully generated complete module");
-      return result;
+      return { englishContent, taglishContent };
     } catch (error) {
       console.error("Error generating module content:", error.message);
       throw new Error(`Failed to generate module content: ${error.message}`);
@@ -473,6 +525,7 @@ Output only the section content, without headings: `;
           level: formData.level,
           length: formData.length,
           content: null,
+          taglish_content: null,
         },
       ]);
 
@@ -503,7 +556,6 @@ Output only the section content, without headings: `;
     setGenerateError(null);
 
     try {
-      // Fetch module details
       const { data: module, error: fetchError } = await supabase
         .from("learning_modules")
         .select("*")
@@ -513,14 +565,12 @@ Output only the section content, without headings: `;
 
       console.log("Generating content for module:", module);
 
-      // Generate content
-      const aiContent = await generateModuleContent(module);
-      console.log("Generated content:", aiContent);
+      const { englishContent, taglishContent } = await generateModuleContent(module);
+      console.log("Generated content:", englishContent, taglishContent);
 
-      // Update Supabase with generated content
       const { error: updateError } = await supabase
         .from("learning_modules")
-        .update({ content: aiContent })
+        .update({ content: englishContent, taglish_content: taglishContent })
         .eq("id", selectedModuleId);
       if (updateError) throw updateError;
 
@@ -529,7 +579,6 @@ Output only the section content, without headings: `;
       await fetchGeneratedModules();
       setSelectedModuleId("");
 
-      // Show success message
       alert("Module content generated successfully!");
     } catch (err) {
       console.error("Error generating module:", err.message);
@@ -539,8 +588,50 @@ Output only the section content, without headings: `;
     }
   };
 
+  const handleGenerateTaglish = async () => {
+    if (!selectedTaglishModuleId) {
+      setGenerateTaglishError("Please select a module to generate TagLish content.");
+      return;
+    }
+
+    setIsGeneratingTaglish(true);
+    setGenerateTaglishError(null);
+
+    try {
+      const { data: module, error: fetchError } = await supabase
+        .from("learning_modules")
+        .select("id, content")
+        .eq("id", selectedTaglishModuleId)
+        .single();
+      if (fetchError) throw fetchError;
+      if (!module.content) throw new Error("Module has no English content to translate.");
+
+      console.log("Generating TagLish for module:", module);
+
+      const taglishContent = await translateToTaglish(module.content);
+      console.log("Generated TagLish content:", taglishContent);
+
+      const { error: updateError } = await supabase
+        .from("learning_modules")
+        .update({ taglish_content: taglishContent })
+        .eq("id", selectedTaglishModuleId);
+      if (updateError) throw updateError;
+
+      console.log("TagLish content updated successfully");
+      await fetchGeneratedModules();
+      setSelectedTaglishModuleId("");
+      alert("TagLish content generated successfully!");
+    } catch (err) {
+      console.error("Error generating TagLish content:", err.message);
+      setGenerateTaglishError(`Failed to generate TagLish content: ${err.message}`);
+    } finally {
+      setIsGeneratingTaglish(false);
+    }
+  };
+
   const handleModuleClick = (module) => {
     setSelectedModule(module);
+    setLanguage("english");
     setIsContentModalOpen(true);
   };
 
@@ -835,7 +926,6 @@ ${contentText.substring(0, 20000)}`;
         </p>
       </div>
 
-      {/* Conditionally render entire tabs section */}
       {showGenerateTab && isAdmin && (
         <div className="tabs" style={{ position: "relative", zIndex: 1000 }}>
           <div
@@ -901,13 +991,20 @@ ${contentText.substring(0, 20000)}`;
                 >
                   Validate Quizzes
                 </button>
+                <button
+                  className="btn btn-primary"
+                  onClick={toggleGenerateTaglishModal}
+                  disabled={isGeneratingTaglish}
+                  style={{ minWidth: "200px" }}
+                >
+                  Generate TagLish Content
+                </button>
               </div>
             </div>
           </div>
         </div>
       )}
 
-      {/* Generated Modules Display */}
       <div className="modules-display">
         <div className="modules-header">
           <h2>Available Learning Modules</h2>
@@ -1022,7 +1119,6 @@ ${contentText.substring(0, 20000)}`;
         )}
       </div>
 
-      {/* Create Module Modal */}
       <div className={`modal-overlay ${isModalOpen ? "" : "hidden"}`}>
         <div className="modal-content">
           <div className="modal-header">
@@ -1155,7 +1251,6 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      {/* Edit Module Modal */}
       <div className={`modal-overlay ${isEditModalOpen ? "" : "hidden"}`}>
         <div className="modal-content module-content-modal">
           <div className="modal-header">
@@ -1188,7 +1283,7 @@ ${contentText.substring(0, 20000)}`;
 
               <div className="form-group">
                 <label htmlFor="edit-intro" className="form-label">
-                  Introduction
+                  English Introduction
                 </label>
                 <textarea
                   id="edit-intro"
@@ -1196,6 +1291,22 @@ ${contentText.substring(0, 20000)}`;
                   className="form-textarea"
                   rows="8"
                   value={editFormData.intro}
+                  onChange={handleEditFormChange}
+                  disabled={isUpdating}
+                  style={{ minHeight: "200px" }}
+                />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="edit-taglish-intro" className="form-label">
+                  TagLish Introduction
+                </label>
+                <textarea
+                  id="edit-taglish-intro"
+                  name="taglish_intro"
+                  className="form-textarea"
+                  rows="8"
+                  value={editFormData.taglish_intro}
                   onChange={handleEditFormChange}
                   disabled={isUpdating}
                   style={{ minHeight: "200px" }}
@@ -1211,14 +1322,14 @@ ${contentText.substring(0, 20000)}`;
                     marginBottom: "16px",
                   }}
                 >
-                  <label className="form-label">Sections</label>
+                  <label className="form-label">English Sections</label>
                   <button
                     type="button"
                     className="btn btn-accent"
-                    onClick={handleAddSection}
+                    onClick={() => handleAddSection(false)}
                     disabled={isUpdating}
                   >
-                    Add Section
+                    Add English Section
                   </button>
                 </div>
 
@@ -1249,12 +1360,12 @@ ${contentText.substring(0, 20000)}`;
                           fontWeight: "600",
                         }}
                       >
-                        Section {index + 1}
+                        English Section {index + 1}
                       </h4>
                       <button
                         type="button"
                         className="btn btn-close"
-                        onClick={() => handleRemoveSection(index)}
+                        onClick={() => handleRemoveSection(index, false)}
                         disabled={isUpdating}
                         style={{ padding: "4px 8px", fontSize: "12px" }}
                       >
@@ -1269,7 +1380,7 @@ ${contentText.substring(0, 20000)}`;
                         className="form-input"
                         value={section.title}
                         onChange={(e) =>
-                          handleSectionChange(index, "title", e.target.value)
+                          handleSectionChange(index, "title", e.target.value, false)
                         }
                         disabled={isUpdating}
                         placeholder="Section title"
@@ -1283,10 +1394,102 @@ ${contentText.substring(0, 20000)}`;
                         rows="6"
                         value={section.body}
                         onChange={(e) =>
-                          handleSectionChange(index, "body", e.target.value)
+                          handleSectionChange(index, "body", e.target.value, false)
                         }
                         disabled={isUpdating}
                         placeholder="Section content"
+                        style={{ minHeight: "150px" }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="form-group">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    marginBottom: "16px",
+                  }}
+                >
+                  <label className="form-label">TagLish Sections</label>
+                  <button
+                    type="button"
+                    className="btn btn-accent"
+                    onClick={() => handleAddSection(true)}
+                    disabled={isUpdating}
+                  >
+                    Add TagLish Section
+                  </button>
+                </div>
+
+                {editFormData.taglish_sections.map((section, index) => (
+                  <div
+                    key={index}
+                    className="section-edit-group"
+                    style={{
+                      border: "1px solid var(--border)",
+                      borderRadius: "8px",
+                      padding: "16px",
+                      marginBottom: "16px",
+                      background: "var(--bg-tertiary)",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        marginBottom: "12px",
+                      }}
+                    >
+                      <h4
+                        style={{
+                          margin: 0,
+                          fontSize: "16px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        TagLish Section {index + 1}
+                      </h4>
+                      <button
+                        type="button"
+                        className="btn btn-close"
+                        onClick={() => handleRemoveSection(index, true)}
+                        disabled={isUpdating}
+                        style={{ padding: "4px 8px", fontSize: "12px" }}
+                      >
+                        Remove
+                      </button>
+                    </div>
+
+                    <div className="form-group">
+                      <label className="form-label">Section Title</label>
+                      <input
+                        type="text"
+                        className="form-input"
+                        value={section.title}
+                        onChange={(e) =>
+                          handleSectionChange(index, "title", e.target.value, true)
+                        }
+                        disabled={isUpdating}
+                        placeholder="TagLish Section title"
+                      />
+                    </div>
+
+                    <div className="form-group">
+                      <label className="form-label">Section Content</label>
+                      <textarea
+                        className="form-textarea"
+                        rows="6"
+                        value={section.body}
+                        onChange={(e) =>
+                          handleSectionChange(index, "body", e.target.value, true)
+                        }
+                        disabled={isUpdating}
+                        placeholder="TagLish Section content"
                         style={{ minHeight: "150px" }}
                       />
                     </div>
@@ -1317,7 +1520,6 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      {/* Module Content Modal */}
       <div className={`modal-overlay ${isContentModalOpen ? "" : "hidden"}`}>
         <div className="modal-content module-content-modal">
           <div className="modal-header">
@@ -1333,17 +1535,31 @@ ${contentText.substring(0, 20000)}`;
                   <span className="module-date">
                     Created: {formatDate(selectedModule.created_at)}
                   </span>
+                  <select
+                    value={language}
+                    onChange={(e) => setLanguage(e.target.value)}
+                    className="form-select"
+                    style={{ marginLeft: "16px" }}
+                  >
+                    <option value="english">English</option>
+                    <option value="taglish">TagLish</option>
+                  </select>
                 </div>
 
                 <div className="module-intro-section">
                   <h4>Introduction</h4>
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                    {selectedModule.content.intro}
+                    {language === "english"
+                      ? selectedModule.content.intro
+                      : selectedModule.taglish_content?.intro || "No TagLish content available"}
                   </ReactMarkdown>
                 </div>
 
                 <div className="module-sections">
-                  {selectedModule.content.sections?.map((section, index) => (
+                  {(language === "english"
+                    ? selectedModule.content.sections
+                    : selectedModule.taglish_content?.sections || []
+                  ).map((section, index) => (
                     <div key={index} className="module-section">
                       <h4>{section.title}</h4>
                       <ReactMarkdown remarkPlugins={[remarkGfm]}>
@@ -1363,7 +1579,6 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      {/* Admin Info Modal */}
       <div className={`modal-overlay ${isAdminInfoModalOpen ? "" : "hidden"}`}>
         <div className="modal-content">
           <div className="modal-header">
@@ -1378,7 +1593,7 @@ ${contentText.substring(0, 20000)}`;
                 style={{
                   textAlign: "center",
                   padding: "20px",
-                  background: "rgba(108, 92, 92, 231, 0.1)",
+                  background: "rgba(108, 92, 231, 0.1)",
                   borderRadius: "12px",
                   border: "1px solid rgba(108, 92, 231, 0.3)",
                   marginBottom: "20px",
@@ -1470,8 +1685,8 @@ ${contentText.substring(0, 20000)}`;
                         lineHeight: "1.4",
                       }}
                     >
-                      Use AI to generate generate comprehensive educational
-                      content based on your module specifications.
+                      Use AI to generate comprehensive educational content based
+                      on your module specifications.
                     </p>
                   </div>
                   <div
@@ -1519,7 +1734,6 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      {/* Generate Module Modal */}
       <div className={`modal-overlay ${isGenerateModalOpen ? "" : "hidden"}`}>
         <div className="modal-content">
           <div className="modal-header">
@@ -1592,7 +1806,73 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      {/* Generate Quiz Modal */}
+      <div className={`modal-overlay ${isGenerateTaglishModalOpen ? "" : "hidden"}`}>
+        <div className="modal-content">
+          <div className="modal-header">
+            <h3>Generate TagLish Content</h3>
+            <button
+              className="modal-close"
+              onClick={toggleGenerateTaglishModal}
+              disabled={isGeneratingTaglish}
+            >
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="module-form">
+              <div className="form-group">
+                <label className="form-label">Select Module for TagLish</label>
+                <button
+                  className="btn btn-secondary"
+                  onClick={fetchGeneratedModules}
+                  disabled={isGeneratingTaglish}
+                  style={{ marginBottom: "12px" }}
+                >
+                  Refresh Modules
+                </button>
+                <select
+                  value={selectedTaglishModuleId}
+                  onChange={(e) => setSelectedTaglishModuleId(e.target.value)}
+                  className="form-select"
+                  disabled={isGeneratingTaglish}
+                >
+                  <option value="">Select a module</option>
+                  {generatedModules.map((module) => (
+                    <option key={module.id} value={module.id}>
+                      {module.title}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {generateTaglishError && (
+                <p className="error-message">{generateTaglishError}</p>
+              )}
+              {generatedModules.length === 0 && (
+                <p className="info-message">No modules with content available.</p>
+              )}
+
+              <div className="form-actions">
+                <button
+                  className="btn btn-accent"
+                  onClick={handleGenerateTaglish}
+                  disabled={isGeneratingTaglish || !selectedTaglishModuleId}
+                >
+                  {isGeneratingTaglish ? "Generating..." : "Generate TagLish"}
+                </button>
+                <button
+                  className="btn btn-secondary"
+                  onClick={toggleGenerateTaglishModal}
+                  disabled={isGeneratingTaglish}
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div
         className={`modal-overlay ${isGenerateQuizModalOpen ? "" : "hidden"}`}
       >
@@ -1665,7 +1945,6 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      {/* Validation Modal */}
       <div className={`modal-overlay ${isValidationModalOpen ? "" : "hidden"}`}>
         <div
           className="modal-content"
@@ -1735,7 +2014,6 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      {/* Edit Question Modal */}
       <div
         className={`modal-overlay ${isEditQuestionModalOpen ? "" : "hidden"}`}
       >
@@ -1820,7 +2098,6 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      {/* Quiz Modal */}
       <div className={`modal-overlay ${isQuizModalOpen ? "" : "hidden"}`}>
         <div className="modal-content module-content-modal">
           <div className="modal-header">
