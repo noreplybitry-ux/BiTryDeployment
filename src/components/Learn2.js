@@ -46,6 +46,8 @@ const Learn2 = () => {
   const formRef = useRef(null);
   const [isAdmin, setIsAdmin] = useState(false);
   const [moduleQuestionCounts, setModuleQuestionCounts] = useState({});
+  const [moduleTaglishQuestionCounts, setModuleTaglishQuestionCounts] =
+    useState({});
   const [isGenerateQuizModalOpen, setIsGenerateQuizModalOpen] = useState(false);
   const [selectedQuizModuleId, setSelectedQuizModuleId] = useState("");
   const [numQuestions, setNumQuestions] = useState(10);
@@ -62,10 +64,20 @@ const Learn2 = () => {
   const [userAnswers, setUserAnswers] = useState({});
   const [quizScore, setQuizScore] = useState(null);
   const [language, setLanguage] = useState("english");
-  const [isGenerateTaglishModalOpen, setIsGenerateTaglishModalOpen] = useState(false);
+  const [quizLanguage, setQuizLanguage] = useState("english");
+  const [isGenerateTaglishModalOpen, setIsGenerateTaglishModalOpen] =
+    useState(false);
   const [selectedTaglishModuleId, setSelectedTaglishModuleId] = useState("");
   const [isGeneratingTaglish, setIsGeneratingTaglish] = useState(false);
   const [generateTaglishError, setGenerateTaglishError] = useState(null);
+  const [isGenerateTaglishQuizModalOpen, setIsGenerateTaglishQuizModalOpen] =
+    useState(false);
+  const [selectedTaglishQuizModuleId, setSelectedTaglishQuizModuleId] =
+    useState("");
+  const [numTaglishQuestions, setNumTaglishQuestions] = useState(10);
+  const [isGeneratingTaglishQuiz, setIsGeneratingTaglishQuiz] = useState(false);
+  const [generateTaglishQuizError, setGenerateTaglishQuizError] =
+    useState(null);
 
   useEffect(() => {
     if (user) {
@@ -125,15 +137,21 @@ const Learn2 = () => {
     try {
       const { data, error } = await supabase
         .from("quiz_questions")
-        .select("module_id")
+        .select("module_id, is_taglish")
         .eq("status", "approved");
       if (error) throw error;
-      const counts = {};
+      const englishCounts = {};
+      const taglishCounts = {};
       data.forEach((row) => {
         const mid = row.module_id;
-        counts[mid] = (counts[mid] || 0) + 1;
+        if (row.is_taglish) {
+          taglishCounts[mid] = (taglishCounts[mid] || 0) + 1;
+        } else {
+          englishCounts[mid] = (englishCounts[mid] || 0) + 1;
+        }
       });
-      setModuleQuestionCounts(counts);
+      setModuleQuestionCounts(englishCounts);
+      setModuleTaglishQuestionCounts(taglishCounts);
     } catch (err) {
       console.error("Error fetching question counts:", err);
     }
@@ -231,6 +249,15 @@ const Learn2 = () => {
     }
   };
 
+  const toggleGenerateTaglishQuizModal = () => {
+    setIsGenerateTaglishQuizModalOpen(!isGenerateTaglishQuizModalOpen);
+    if (!isGenerateTaglishQuizModalOpen) {
+      setSelectedTaglishQuizModuleId("");
+      setNumTaglishQuestions(10);
+      setGenerateTaglishQuizError(null);
+    }
+  };
+
   const openEditModal = (module) => {
     setEditingModule(module);
     setEditFormData({
@@ -298,7 +325,9 @@ const Learn2 = () => {
 
   const callGeminiAPI = async (prompt, retries = 3, isTranslation = false) => {
     const model = "gemini-2.5-flash";
-    const apiKey = isTranslation ? "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q" : "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
+    const apiKey = isTranslation
+      ? "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q"
+      : "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
 
     for (let attempt = 1; attempt <= retries; attempt++) {
       try {
@@ -397,6 +426,32 @@ English Content:
     } catch (error) {
       console.error("Error translating to TagLish:", error.message);
       throw new Error(`Failed to translate to TagLish: ${error.message}`);
+    }
+  };
+
+  const translateToTaglishQuiz = async (englishQuiz) => {
+    const prompt = `
+Translate the following English quiz question into casual TagLish (Tagalog-English mix) for Filipino beginners. Keep key cryptocurrency terms untranslated. Use simple, conversational language. Translate the question and all options. Keep the same structure. Output ONLY the translated content in JSON format:
+{
+  "question": "Translated question text",
+  "options": ["Translated A", "Translated B", "Translated C", "Translated D"]
+}
+
+English Quiz:
+Question: ${englishQuiz.question_text}
+Options: ${JSON.stringify(englishQuiz.options)}
+`;
+
+    try {
+      const response = await callGeminiAPI(prompt, 3, true);
+      const cleaned = response
+        .replace(/```json\s*/g, "")
+        .replace(/\s*```/g, "")
+        .trim();
+      return JSON.parse(cleaned);
+    } catch (error) {
+      console.error("Error translating quiz to TagLish:", error.message);
+      throw new Error(`Failed to translate quiz: ${error.message}`);
     }
   };
 
@@ -565,7 +620,9 @@ Output only the section content, without headings: `;
 
       console.log("Generating content for module:", module);
 
-      const { englishContent, taglishContent } = await generateModuleContent(module);
+      const { englishContent, taglishContent } = await generateModuleContent(
+        module
+      );
       console.log("Generated content:", englishContent, taglishContent);
 
       const { error: updateError } = await supabase
@@ -590,7 +647,9 @@ Output only the section content, without headings: `;
 
   const handleGenerateTaglish = async () => {
     if (!selectedTaglishModuleId) {
-      setGenerateTaglishError("Please select a module to generate TagLish content.");
+      setGenerateTaglishError(
+        "Please select a module to generate TagLish content."
+      );
       return;
     }
 
@@ -604,7 +663,8 @@ Output only the section content, without headings: `;
         .eq("id", selectedTaglishModuleId)
         .single();
       if (fetchError) throw fetchError;
-      if (!module.content) throw new Error("Module has no English content to translate.");
+      if (!module.content)
+        throw new Error("Module has no English content to translate.");
 
       console.log("Generating TagLish for module:", module);
 
@@ -623,9 +683,63 @@ Output only the section content, without headings: `;
       alert("TagLish content generated successfully!");
     } catch (err) {
       console.error("Error generating TagLish content:", err.message);
-      setGenerateTaglishError(`Failed to generate TagLish content: ${err.message}`);
+      setGenerateTaglishError(
+        `Failed to generate TagLish content: ${err.message}`
+      );
     } finally {
       setIsGeneratingTaglish(false);
+    }
+  };
+
+  const handleGenerateTaglishQuiz = async () => {
+    if (!selectedTaglishQuizModuleId) {
+      setGenerateTaglishQuizError("Please select a module");
+      return;
+    }
+    setIsGeneratingTaglishQuiz(true);
+    setGenerateTaglishQuizError(null);
+    try {
+      const { data: englishQuestions, error } = await supabase
+        .from("quiz_questions")
+        .select("*")
+        .eq("module_id", selectedTaglishQuizModuleId)
+        .eq("status", "approved")
+        .is("is_taglish", false);
+      if (error) throw error;
+      if (englishQuestions.length === 0) {
+        throw new Error("No approved English questions for this module");
+      }
+      const numToConvert = Math.min(
+        numTaglishQuestions,
+        englishQuestions.length
+      );
+      const shuffled = englishQuestions.sort(() => Math.random() - 0.5);
+      const toConvert = shuffled.slice(0, numToConvert);
+      const taglishQuizzes = [];
+      for (const q of toConvert) {
+        const translated = await translateToTaglishQuiz(q);
+        taglishQuizzes.push({
+          module_id: selectedTaglishQuizModuleId,
+          question_text: translated.question,
+          options: translated.options,
+          correct_answer: q.correct_answer,
+          status: "pending",
+          is_taglish: true,
+        });
+      }
+      const { error: insertError } = await supabase
+        .from("quiz_questions")
+        .insert(taglishQuizzes);
+      if (insertError) throw insertError;
+      alert(
+        `${numToConvert} Taglish questions generated and awaiting validation.`
+      );
+      await fetchQuestionCounts();
+      toggleGenerateTaglishQuizModal();
+    } catch (err) {
+      setGenerateTaglishQuizError(err.message);
+    } finally {
+      setIsGeneratingTaglishQuiz(false);
     }
   };
 
@@ -801,31 +915,40 @@ ${contentText.substring(0, 20000)}`;
     }
   };
 
-  const startModuleQuiz = async (moduleId) => {
+  const openQuizModal = (moduleId) => {
+    const module = generatedModules.find((m) => m.id === moduleId);
+    setCurrentQuizModuleId(moduleId);
+    setCurrentQuizModuleLevel(module?.level || "Beginner");
+    setQuizLanguage("english");
+    setQuizQuestions([]);
+    setUserAnswers({});
+    setQuizScore(null);
+    setIsQuizModalOpen(true);
+  };
+
+  const loadQuizQuestions = async () => {
     try {
+      const isTaglish = quizLanguage === "taglish";
       const { data, error } = await supabase
         .from("quiz_questions")
         .select("*")
-        .eq("module_id", moduleId)
-        .eq("status", "approved");
+        .eq("module_id", currentQuizModuleId)
+        .eq("status", "approved")
+        .eq("is_taglish", isTaglish);
       if (error) throw error;
       if (data.length < 5) {
-        alert("Not enough approved questions for this module yet.");
+        alert(
+          `Not enough approved ${quizLanguage} questions for this module yet.`
+        );
         return;
       }
       const numQ = Math.floor(Math.random() * 3) + 5; // Randomly 5, 6, or 7 questions
       const shuffled = data.sort(() => Math.random() - 0.5);
       const selectedQ = shuffled.slice(0, numQ);
       setQuizQuestions(selectedQ);
-      setUserAnswers({});
-      setQuizScore(null);
-      const module = generatedModules.find((m) => m.id === moduleId);
-      setCurrentQuizModuleLevel(module?.level || "Beginner");
-      setCurrentQuizModuleId(moduleId);
-      setIsQuizModalOpen(true);
     } catch (err) {
-      console.error("Error starting quiz:", err);
-      alert("Failed to start quiz.");
+      console.error("Error loading quiz:", err);
+      alert("Failed to load quiz.");
     }
   };
 
@@ -985,6 +1108,14 @@ ${contentText.substring(0, 20000)}`;
                   Generate Quiz
                 </button>
                 <button
+                  className="btn btn-primary"
+                  onClick={toggleGenerateTaglishQuizModal}
+                  disabled={isGeneratingTaglishQuiz}
+                  style={{ minWidth: "200px" }}
+                >
+                  Generate Taglish Quizzes
+                </button>
+                <button
                   className="btn btn-accent"
                   onClick={toggleValidationModal}
                   style={{ minWidth: "200px" }}
@@ -1082,12 +1213,13 @@ ${contentText.substring(0, 20000)}`;
                     >
                       View Module →
                     </button>
-                    {moduleQuestionCounts[module.id] >= 5 && (
+                    {(moduleQuestionCounts[module.id] >= 5 ||
+                      moduleTaglishQuestionCounts[module.id] >= 5) && (
                       <button
                         className="btn btn-link"
                         onClick={(e) => {
                           e.stopPropagation();
-                          startModuleQuiz(module.id);
+                          openQuizModal(module.id);
                         }}
                       >
                         Take Quiz →
@@ -1380,7 +1512,12 @@ ${contentText.substring(0, 20000)}`;
                         className="form-input"
                         value={section.title}
                         onChange={(e) =>
-                          handleSectionChange(index, "title", e.target.value, false)
+                          handleSectionChange(
+                            index,
+                            "title",
+                            e.target.value,
+                            false
+                          )
                         }
                         disabled={isUpdating}
                         placeholder="Section title"
@@ -1394,7 +1531,12 @@ ${contentText.substring(0, 20000)}`;
                         rows="6"
                         value={section.body}
                         onChange={(e) =>
-                          handleSectionChange(index, "body", e.target.value, false)
+                          handleSectionChange(
+                            index,
+                            "body",
+                            e.target.value,
+                            false
+                          )
                         }
                         disabled={isUpdating}
                         placeholder="Section content"
@@ -1472,7 +1614,12 @@ ${contentText.substring(0, 20000)}`;
                         className="form-input"
                         value={section.title}
                         onChange={(e) =>
-                          handleSectionChange(index, "title", e.target.value, true)
+                          handleSectionChange(
+                            index,
+                            "title",
+                            e.target.value,
+                            true
+                          )
                         }
                         disabled={isUpdating}
                         placeholder="TagLish Section title"
@@ -1486,7 +1633,12 @@ ${contentText.substring(0, 20000)}`;
                         rows="6"
                         value={section.body}
                         onChange={(e) =>
-                          handleSectionChange(index, "body", e.target.value, true)
+                          handleSectionChange(
+                            index,
+                            "body",
+                            e.target.value,
+                            true
+                          )
                         }
                         disabled={isUpdating}
                         placeholder="TagLish Section content"
@@ -1551,7 +1703,8 @@ ${contentText.substring(0, 20000)}`;
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
                     {language === "english"
                       ? selectedModule.content.intro
-                      : selectedModule.taglish_content?.intro || "No TagLish content available"}
+                      : selectedModule.taglish_content?.intro ||
+                        "No TagLish content available"}
                   </ReactMarkdown>
                 </div>
 
@@ -1806,7 +1959,11 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
-      <div className={`modal-overlay ${isGenerateTaglishModalOpen ? "" : "hidden"}`}>
+      <div
+        className={`modal-overlay ${
+          isGenerateTaglishModalOpen ? "" : "hidden"
+        }`}
+      >
         <div className="modal-content">
           <div className="modal-header">
             <h3>Generate TagLish Content</h3>
@@ -1849,7 +2006,9 @@ ${contentText.substring(0, 20000)}`;
                 <p className="error-message">{generateTaglishError}</p>
               )}
               {generatedModules.length === 0 && (
-                <p className="info-message">No modules with content available.</p>
+                <p className="info-message">
+                  No modules with content available.
+                </p>
               )}
 
               <div className="form-actions">
@@ -1945,6 +2104,90 @@ ${contentText.substring(0, 20000)}`;
         </div>
       </div>
 
+      <div
+        className={`modal-overlay ${
+          isGenerateTaglishQuizModalOpen ? "" : "hidden"
+        }`}
+      >
+        <div className="modal-content">
+          <div className="modal-header">
+            <h3>Generate Taglish Quiz Questions</h3>
+            <button
+              className="modal-close"
+              onClick={toggleGenerateTaglishQuizModal}
+              disabled={isGeneratingTaglishQuiz}
+            >
+              ✕
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="module-form">
+              <div className="form-group">
+                <label className="form-label">Select Module</label>
+                <select
+                  value={selectedTaglishQuizModuleId}
+                  onChange={(e) =>
+                    setSelectedTaglishQuizModuleId(e.target.value)
+                  }
+                  className="form-select"
+                  disabled={isGeneratingTaglishQuiz}
+                >
+                  <option value="">Select a module</option>
+                  {generatedModules.map((m) => (
+                    <option key={m.id} value={m.id}>
+                      {m.title} ({moduleQuestionCounts[m.id] || 0} questions)
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div className="form-group">
+                <label className="form-label">
+                  Number of Questions to Convert
+                </label>
+                <select
+                  value={numTaglishQuestions}
+                  onChange={(e) =>
+                    setNumTaglishQuestions(parseInt(e.target.value))
+                  }
+                  className="form-select"
+                  disabled={isGeneratingTaglishQuiz}
+                >
+                  <option value={5}>5</option>
+                  <option value={10}>10</option>
+                  <option value={15}>15</option>
+                  <option value={20}>20</option>
+                  <option value={25}>25</option>
+                  <option value={30}>30</option>
+                </select>
+              </div>
+              {generateTaglishQuizError && (
+                <p className="error-message">{generateTaglishQuizError}</p>
+              )}
+              <div className="form-actions">
+                <button
+                  className="btn btn-accent"
+                  onClick={handleGenerateTaglishQuiz}
+                  disabled={
+                    isGeneratingTaglishQuiz || !selectedTaglishQuizModuleId
+                  }
+                >
+                  {isGeneratingTaglishQuiz
+                    ? "Generating..."
+                    : "Generate Taglish Questions"}
+                </button>
+                <button
+                  className="btn btn-secondary"
+                  onClick={toggleGenerateTaglishQuizModal}
+                  disabled={isGeneratingTaglishQuiz}
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className={`modal-overlay ${isValidationModalOpen ? "" : "hidden"}`}>
         <div
           className="modal-content"
@@ -1965,7 +2208,8 @@ ${contentText.substring(0, 20000)}`;
                   <div key={q.id} className="module-card">
                     <div className="module-card-header">
                       <h3 className="module-card-title">
-                        {q.learning_modules.title}
+                        {q.learning_modules.title}{" "}
+                        {q.is_taglish ? "(TagLish)" : "(English)"}
                       </h3>
                     </div>
                     <div className="module-card-content">
@@ -2122,6 +2366,48 @@ ${contentText.substring(0, 20000)}`;
                   Score: {quizScore.correct} / {quizScore.total}
                 </h4>
                 <p>Earned {quizScore.points} barya points!</p>
+                <button
+                  className="btn btn-secondary"
+                  onClick={() => {
+                    setQuizQuestions([]);
+                    setUserAnswers({});
+                    setQuizScore(null);
+                  }}
+                >
+                  Retake Quiz
+                </button>
+              </div>
+            ) : quizQuestions.length === 0 ? (
+              <div>
+                <div className="form-group">
+                  <label className="form-label">Select Language</label>
+                  <select
+                    value={quizLanguage}
+                    onChange={(e) => setQuizLanguage(e.target.value)}
+                    className="form-select"
+                  >
+                    <option
+                      value="english"
+                      disabled={
+                        (moduleQuestionCounts[currentQuizModuleId] || 0) < 5
+                      }
+                    >
+                      English
+                    </option>
+                    <option
+                      value="taglish"
+                      disabled={
+                        (moduleTaglishQuestionCounts[currentQuizModuleId] ||
+                          0) < 5
+                      }
+                    >
+                      Taglish
+                    </option>
+                  </select>
+                </div>
+                <button className="btn btn-accent" onClick={loadQuizQuestions}>
+                  Start Quiz
+                </button>
               </div>
             ) : (
               <div>
