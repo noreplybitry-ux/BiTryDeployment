@@ -942,7 +942,7 @@ ${contentText.substring(0, 20000)}`;
         );
         return;
       }
-      const numQ = Math.floor(Math.random() * 3) + 5; // Randomly 5, 6, or 7 questions
+      const numQ = 5;
       const shuffled = data.sort(() => Math.random() - 0.5);
       const selectedQ = shuffled.slice(0, numQ);
       setQuizQuestions(selectedQ);
@@ -978,20 +978,26 @@ ${contentText.substring(0, 20000)}`;
       );
 
       if (!alreadyRewarded) {
-        const ranges = {
-          Beginner: [100, 190],
-          Intermediate: [200, 300],
-          Advanced: [400, 500],
-        };
-        const range = ranges[currentQuizModuleLevel] || [100, 190];
-        let base =
-          Math.floor(Math.random() * (range[1] - range[0] + 1)) + range[0];
-        if (percentage >= 80) {
-          points = base;
-        } else if (percentage >= 50) {
-          points = Math.floor(base / 2);
+        let basePoints;
+        switch (currentQuizModuleLevel) {
+          case "Beginner":
+            basePoints = 300;
+            break;
+          case "Intermediate":
+            basePoints = 500;
+            break;
+          case "Advanced":
+            basePoints = 700;
+            break;
+          default:
+            basePoints = 300;
         }
-        // else points = 0; no points if failed
+        if (percentage >= 80) {
+          points = basePoints;
+          if (percentage === 100) {
+            points = Math.floor(basePoints * 1.15);
+          }
+        }
       }
 
       // Always record the attempt
@@ -1183,6 +1189,7 @@ ${contentText.substring(0, 20000)}`;
               >
                 <div className="module-card-header">
                   <h3 className="module-card-title">{module.title}</h3>
+                  <span className="module-level-tag">{module.level}</span>
                   <span className="module-card-date">
                     {formatDate(module.created_at)}
                   </span>
