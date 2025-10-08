@@ -124,7 +124,7 @@ const Homepage = () => {
             <p className="hero-description">
               Experience next-generation cryptocurrency education with BiTry. 
               AI-powered learning, risk-free trading simulations, and real-time 
-              market intelligence—all in Taglish.
+              market intelligence — available in Taglish.
             </p>
             
             <div className="hero-actions">
