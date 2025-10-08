@@ -79,6 +79,8 @@ const Learn2 = () => {
   const [generateTaglishQuizError, setGenerateTaglishQuizError] =
     useState(null);
 
+  const canvasRef = useRef(null);
+
   useEffect(() => {
     if (user) {
       const fetchProfile = async () => {
@@ -1045,8 +1047,84 @@ ${contentText.substring(0, 20000)}`;
     }
   };
 
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const ctx = canvas.getContext("2d");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let particles = [];
+    const particleCount = 50; // Adjust for density
+    const particleSpeed = 0.5;
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 2 + 1;
+        this.speedX = Math.random() * particleSpeed - particleSpeed / 2;
+        this.speedY = Math.random() * particleSpeed - particleSpeed / 2;
+      }
+
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+
+        if (this.x > canvas.width) this.x = 0;
+        if (this.x < 0) this.x = canvas.width;
+        if (this.y > canvas.height) this.y = 0;
+        if (this.y < 0) this.y = canvas.height;
+      }
+
+      draw() {
+        ctx.fillStyle = "rgba(0, 212, 255, 0.3)"; // Use accent color from palette
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    for (let i = 0; i < particleCount; i++) {
+      particles.push(new Particle());
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach((p) => {
+        p.update();
+        p.draw();
+      });
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+
+    // Handle resize
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <div className="news-container">
+    <div>
+      <style>{`
+        .simple-btn {
+          transition: background-color 0.3s ease !important;
+        }
+        .simple-btn:hover {
+          background-color: var(--accent-blue);
+          transform: none !important;
+        }
+      `}</style>
+      <canvas ref={canvasRef} className="particle-canvas" />
       <div className="news-header">
         <h1 className="news-title">Learning Modules</h1>
         <p className="news-subtitle">
@@ -1083,14 +1161,14 @@ ${contentText.substring(0, 20000)}`;
                 }}
               >
                 <button
-                  className="btn btn-secondary"
+                  className="btn btn-secondary simple-btn"
                   onClick={toggleAdminInfoModal}
                   style={{ minWidth: "150px" }}
                 >
                   Admin Info
                 </button>
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-primary simple-btn"
                   onClick={toggleModal}
                   disabled={isSubmitting}
                   style={{ minWidth: "200px" }}
@@ -1098,7 +1176,7 @@ ${contentText.substring(0, 20000)}`;
                   Create New Module
                 </button>
                 <button
-                  className="btn btn-accent"
+                  className="btn btn-accent simple-btn"
                   onClick={toggleGenerateModal}
                   disabled={isGenerating}
                   style={{ minWidth: "200px" }}
@@ -1106,7 +1184,7 @@ ${contentText.substring(0, 20000)}`;
                   Generate Module Content
                 </button>
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-primary simple-btn"
                   onClick={toggleGenerateQuizModal}
                   disabled={isGeneratingQuiz}
                   style={{ minWidth: "200px" }}
@@ -1114,7 +1192,7 @@ ${contentText.substring(0, 20000)}`;
                   Generate Quiz
                 </button>
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-primary simple-btn"
                   onClick={toggleGenerateTaglishQuizModal}
                   disabled={isGeneratingTaglishQuiz}
                   style={{ minWidth: "200px" }}
@@ -1122,14 +1200,14 @@ ${contentText.substring(0, 20000)}`;
                   Generate Taglish Quizzes
                 </button>
                 <button
-                  className="btn btn-accent"
+                  className="btn btn-accent simple-btn"
                   onClick={toggleValidationModal}
                   style={{ minWidth: "200px" }}
                 >
                   Validate Quizzes
                 </button>
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-primary simple-btn"
                   onClick={toggleGenerateTaglishModal}
                   disabled={isGeneratingTaglish}
                   style={{ minWidth: "200px" }}
@@ -1158,7 +1236,7 @@ ${contentText.substring(0, 20000)}`;
             </button>
             {isAdmin && (
               <button
-                className="btn btn-accent"
+                className="btn btn-accent simple-btn"
                 onClick={toggleGenerateTab}
                 disabled={isGenerating}
               >
