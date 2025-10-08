@@ -101,9 +101,7 @@ body {
   align-items: center;
   gap: 4px;                          /* reduced space between login and signup */
   border-radius: var(--auth-radius); /* small corner radius (3px) */
-  background: var(--login-bg);       /* dark outer rectangle */
   padding: 4.5px;                      /* compact padding */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.30);
   overflow: visible;
   max-width: 200px;                  /* keeps it compact */
 }
@@ -177,7 +175,6 @@ body {
     padding: 8px;
     gap: 8px;
     border-radius: 8px;
-    background: rgba(255,255,255,0.02);
     box-shadow: none;
     justify-content: center;
   }
