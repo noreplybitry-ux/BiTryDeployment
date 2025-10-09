@@ -80,7 +80,7 @@ const Homepage = () => {
       title: "Quantum Simulator",
       description: "Real-time trading simulation with leverage and spot markets",
       icon: "⚡",
-      stats: "₱1M Virtual",
+      stats: "₱10K Virtual",
       color: "#00fff2",
       link: "./trade"
     },
