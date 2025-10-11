@@ -5,6 +5,11 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import "../css/Learn2.css";
 
+const MODULE_API_KEY = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
+const TRANSLATION_API_KEY = "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q";
+const QUIZ_API_KEY = "AIzaSyD__yT5oimCLqnFGnLIX-GyiYwiqnlEtmI";
+const TAGLISH_QUIZ_API_KEY = "AIzaSyDQ0hiG0G24Euursr639qmRQnmTmzg9Tjg";
+
 const Learn2 = () => {
   const { user } = useAuth();
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,7 +34,6 @@ const Learn2 = () => {
   const [showGenerateTab, setShowGenerateTab] = useState(false);
   const [isGenerateModalOpen, setIsGenerateModalOpen] = useState(false);
   const [isAdminInfoModalOpen, setIsAdminInfoModalOpen] = useState(false);
-
   // New states for edit functionality
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [editingModule, setEditingModule] = useState(null);
@@ -42,7 +46,6 @@ const Learn2 = () => {
   });
   const [isUpdating, setIsUpdating] = useState(false);
   const [updateError, setUpdateError] = useState(null);
-
   const formRef = useRef(null);
   const [isAdmin, setIsAdmin] = useState(false);
   const [moduleQuestionCounts, setModuleQuestionCounts] = useState({});
@@ -78,9 +81,7 @@ const Learn2 = () => {
   const [isGeneratingTaglishQuiz, setIsGeneratingTaglishQuiz] = useState(false);
   const [generateTaglishQuizError, setGenerateTaglishQuizError] =
     useState(null);
-
   const canvasRef = useRef(null);
-
   useEffect(() => {
     if (user) {
       const fetchProfile = async () => {
@@ -94,7 +95,6 @@ const Learn2 = () => {
       fetchProfile();
     }
   }, [user]);
-
   // Fetch modules with null content
   const fetchModules = async () => {
     try {
@@ -114,7 +114,6 @@ const Learn2 = () => {
       );
     }
   };
-
   // Fetch modules with content for display
   const fetchGeneratedModules = async () => {
     try {
@@ -134,7 +133,6 @@ const Learn2 = () => {
       );
     }
   };
-
   const fetchQuestionCounts = async () => {
     try {
       const { data, error } = await supabase
@@ -158,40 +156,33 @@ const Learn2 = () => {
       console.error("Error fetching question counts:", err);
     }
   };
-
   useEffect(() => {
     fetchModules();
     fetchGeneratedModules();
     fetchQuestionCounts();
   }, []);
-
   const handleAddKeyword = () => {
     setKeywords([...keywords, ""]);
   };
-
   const handleKeywordChange = (index, value) => {
     const newKeywords = [...keywords];
     newKeywords[index] = value;
     setKeywords(newKeywords);
   };
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
-
   const handleEditFormChange = (e) => {
     const { name, value } = e.target;
     setEditFormData((prev) => ({ ...prev, [name]: value }));
   };
-
   const handleSectionChange = (index, field, value, isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     const newSections = [...editFormData[key]];
     newSections[index] = { ...newSections[index], [field]: value };
     setEditFormData((prev) => ({ ...prev, [key]: newSections }));
   };
-
   const handleAddSection = (isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     setEditFormData((prev) => ({
@@ -199,7 +190,6 @@ const Learn2 = () => {
       [key]: [...prev[key], { title: "", body: "" }],
     }));
   };
-
   const handleRemoveSection = (index, isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     setEditFormData((prev) => ({
@@ -207,7 +197,6 @@ const Learn2 = () => {
       [key]: prev[key].filter((_, i) => i !== index),
     }));
   };
-
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
     if (!isModalOpen) {
@@ -224,11 +213,9 @@ const Learn2 = () => {
       }
     }
   };
-
   const toggleGenerateTab = () => {
     setShowGenerateTab(!showGenerateTab);
   };
-
   const toggleGenerateModal = () => {
     setIsGenerateModalOpen(!isGenerateModalOpen);
     if (!isGenerateModalOpen) {
@@ -238,11 +225,9 @@ const Learn2 = () => {
       fetchModules();
     }
   };
-
   const toggleAdminInfoModal = () => {
     setIsAdminInfoModalOpen(!isAdminInfoModalOpen);
   };
-
   const toggleGenerateTaglishModal = () => {
     setIsGenerateTaglishModalOpen(!isGenerateTaglishModalOpen);
     if (!isGenerateTaglishModalOpen) {
@@ -250,7 +235,6 @@ const Learn2 = () => {
       setGenerateTaglishError(null);
     }
   };
-
   const toggleGenerateTaglishQuizModal = () => {
     setIsGenerateTaglishQuizModalOpen(!isGenerateTaglishQuizModalOpen);
     if (!isGenerateTaglishQuizModalOpen) {
@@ -259,7 +243,6 @@ const Learn2 = () => {
       setGenerateTaglishQuizError(null);
     }
   };
-
   const openEditModal = (module) => {
     setEditingModule(module);
     setEditFormData({
@@ -272,7 +255,6 @@ const Learn2 = () => {
     setUpdateError(null);
     setIsEditModalOpen(true);
   };
-
   const closeEditModal = () => {
     setEditingModule(null);
     setEditFormData({
@@ -285,12 +267,10 @@ const Learn2 = () => {
     setUpdateError(null);
     setIsEditModalOpen(false);
   };
-
   const handleEditSubmit = async (e) => {
     e.preventDefault();
     setIsUpdating(true);
     setUpdateError(null);
-
     try {
       const updatedContent = {
         intro: editFormData.intro,
@@ -300,7 +280,6 @@ const Learn2 = () => {
         intro: editFormData.taglish_intro,
         sections: editFormData.taglish_sections,
       };
-
       const { error } = await supabase
         .from("learning_modules")
         .update({
@@ -309,13 +288,10 @@ const Learn2 = () => {
           taglish_content: updatedTaglishContent,
         })
         .eq("id", editingModule.id);
-
       if (error) throw error;
-
       console.log("Module updated successfully");
       await fetchGeneratedModules();
       closeEditModal();
-
       alert("Module updated successfully!");
     } catch (err) {
       console.error("Error updating module:", err.message);
@@ -324,20 +300,14 @@ const Learn2 = () => {
       setIsUpdating(false);
     }
   };
-
-  const callGeminiAPI = async (prompt, retries = 3, isTranslation = false) => {
+  const callGeminiAPI = async (prompt, apiKey, retries = 3) => {
     const model = "gemini-2.5-flash";
-    const apiKey = isTranslation
-      ? "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q"
-      : "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
-
     for (let attempt = 1; attempt <= retries; attempt++) {
       try {
         console.log(
           `Attempting to call Gemini API (attempt ${attempt}/${retries})`,
           { model, prompt: prompt.substring(0, 100) + "..." }
         );
-
         const response = await fetch(
           `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
           {
@@ -354,13 +324,11 @@ const Learn2 = () => {
             }),
           }
         );
-
         const responseData = await response.json();
         console.log("Gemini Response:", {
           status: response.status,
           body: responseData,
         });
-
         if (response.ok) {
           if (
             responseData.candidates &&
@@ -399,7 +367,6 @@ const Learn2 = () => {
       }
     }
   };
-
   const translateToTaglish = async (englishContent) => {
     const prompt = `
 Translate the following English content into casual TagLish (Tagalog-English mix) for Filipino beginners. Keep key cryptocurrency terms like "blockchain", "smart contracts", "DeFi", etc., untranslated. Use simple, conversational language with a mix of Tagalog and English, suitable for beginners. Ensure the structure remains the same. Output ONLY the translated content in JSON format:
@@ -410,16 +377,14 @@ Translate the following English content into casual TagLish (Tagalog-English mix
     ...
   ]
 }
-
 English Content:
 {
   "intro": ${JSON.stringify(englishContent.intro)},
   "sections": ${JSON.stringify(englishContent.sections)}
 }
 `;
-
     try {
-      const response = await callGeminiAPI(prompt, 3, true);
+      const response = await callGeminiAPI(prompt, TRANSLATION_API_KEY, 3);
       const cleaned = response
         .replace(/```json\s*/g, "")
         .replace(/\s*```/g, "")
@@ -430,7 +395,6 @@ English Content:
       throw new Error(`Failed to translate to TagLish: ${error.message}`);
     }
   };
-
   const translateToTaglishQuiz = async (englishQuiz) => {
     const prompt = `
 Translate the following English quiz question into casual TagLish (Tagalog-English mix) for Filipino beginners. Keep key cryptocurrency terms untranslated. Use simple, conversational language. Translate the question and all options. Keep the same structure. Output ONLY the translated content in JSON format:
@@ -438,14 +402,12 @@ Translate the following English quiz question into casual TagLish (Tagalog-Engli
   "question": "Translated question text",
   "options": ["Translated A", "Translated B", "Translated C", "Translated D"]
 }
-
 English Quiz:
 Question: ${englishQuiz.question_text}
 Options: ${JSON.stringify(englishQuiz.options)}
 `;
-
     try {
-      const response = await callGeminiAPI(prompt, 3, true);
+      const response = await callGeminiAPI(prompt, TAGLISH_QUIZ_API_KEY, 3);
       const cleaned = response
         .replace(/```json\s*/g, "")
         .replace(/\s*```/g, "")
@@ -456,16 +418,13 @@ Options: ${JSON.stringify(englishQuiz.options)}
       throw new Error(`Failed to translate quiz: ${error.message}`);
     }
   };
-
   const generateModuleContent = async (module) => {
     const lengthGuidance = {
       Short: "approximately 500 words total",
       Medium: "approximately 1000 words total",
       Long: "approximately 2000 words total",
     };
-
     const basePrompt = `You are an expert cryptocurrency educator. Create a comprehensive educational module for a beginner-level cryptocurrency course. Use the following specifications:
-
 Title: ${module.title}
 Keywords: ${module.keywords.join(", ")}
 Level: ${module.level}
@@ -475,9 +434,7 @@ ${
     ? `Specific Points to Include: ${module.specific_points}`
     : ""
 }
-
 Generate detailed, structured content for a beginner cryptocurrency course, focusing on blockchain, DeFi, or related topics. The content must be engaging, use simple language, and be suitable for educational purposes in a classroom setting. Include clear explanations, real-world examples, analogies to simplify complex ideas, and practical exercises for beginners. Avoid technical jargon unless clearly explained. The introduction and each section should be unique, focusing on the specific keywords provided, and contribute to a cohesive module that helps learners build foundational knowledge.
-
 Introduction: Write a comprehensive introduction (400-600 words) covering:
 - Overview of the topic and its importance in cryptocurrency.
 - Brief history or context (e.g., origins of wallets, blockchain, or key platforms).
@@ -486,75 +443,64 @@ Introduction: Write a comprehensive introduction (400-600 words) covering:
     )}) relate to the topic and each other.
 - What beginners will learn and why it matters for their crypto journey.
 - A motivating hook to engage learners (e.g., how this knowledge applies to managing crypto assets or exploring DeFi).
-
 Output only the introduction text, without any labels or headings: `;
-
     try {
       // Generate introduction
       console.log("Generating introduction...");
-      const introduction = await callGeminiAPI(basePrompt);
+      const introduction = await callGeminiAPI(basePrompt, MODULE_API_KEY);
       if (!introduction || introduction.trim().length < 100) {
         throw new Error("Generated introduction is empty or too short");
       }
       console.log("✅ Successfully generated introduction");
-
       // Generate sections based on keywords
       const sections = [];
       const maxSections =
         module.length === "Short" ? 2 : module.length === "Medium" ? 3 : 4;
-
       for (let i = 0; i < Math.min(maxSections, module.keywords.length); i++) {
         const keyword = module.keywords[i];
         if (!keyword.trim()) continue;
-
         const sectionPrompt = `You are an expert cryptocurrency educator. Write a detailed section for a beginner-level cryptocurrency course module, focusing on "${keyword}" in the context of cryptocurrency and blockchain technology. The section should be comprehensive, engaging, and educational, contributing to a module of ${
           lengthGuidance[module.length]
         }. Interpret "${keyword}" as a key concept in cryptocurrency relevant to the module title "${
           module.title
         }". Include:
-
 1. Definition: Explain "${keyword}" in simple, beginner-friendly terms.
 2. How It Works: Describe the mechanics or processes behind "${keyword}", using an analogy (e.g., compare to a real-world object like a bank account or safe).
 3. Importance: Explain why "${keyword}" is critical in cryptocurrency or blockchain, and its impact on users or the ecosystem.
 4. Real-World Examples: Provide 2-3 specific examples (e.g., MetaMask for hot wallets, Ledger for crypto storage, Ethereum for smart contracts).
 5. Practical Exercises: Suggest 1-2 practical activities for beginners (e.g., setting up a wallet, checking a transaction on Etherscan).
 6. Key Takeaways: Summarize 2-3 key points for learners to remember.
-
 Use clear, engaging language, avoid complex jargon unless explained, and ensure the content is unique and distinct from other sections. Structure the content like a lesson in a course, suitable for educational purposes. Include ${
           module.specific_points
             ? `specific points: ${module.specific_points}`
             : "relevant details"
         }.
-
 Output only the section content, without headings: `;
-
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
-        const sectionContent = await callGeminiAPI(sectionPrompt);
+        const sectionContent = await callGeminiAPI(
+          sectionPrompt,
+          MODULE_API_KEY
+        );
         if (!sectionContent || sectionContent.trim().length < 100) {
           throw new Error(
             `Generated section for "${keyword}" is empty or too short`
           );
         }
-
         sections.push({
           title: keyword.charAt(0).toUpperCase() + keyword.slice(1),
           body: sectionContent,
         });
       }
-
       if (sections.length === 0) {
         throw new Error(
           "No valid sections generated; at least one section is required"
         );
       }
-
       const englishContent = {
         intro: introduction,
         sections: sections,
       };
-
       const taglishContent = await translateToTaglish(englishContent);
-
       console.log("✅ Successfully generated complete module");
       return { englishContent, taglishContent };
     } catch (error) {
@@ -562,18 +508,15 @@ Output only the section content, without headings: `;
       throw new Error(`Failed to generate module content: ${error.message}`);
     }
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitError(null);
-
     try {
       const filteredKeywords = keywords.filter((kw) => kw.trim() !== "");
       if (!formData.title || filteredKeywords.length === 0) {
         throw new Error("Title and at least one keyword are required.");
       }
-
       const { data, error } = await supabase.from("learning_modules").insert([
         {
           title: formData.title,
@@ -585,12 +528,10 @@ Output only the section content, without headings: `;
           taglish_content: null,
         },
       ]);
-
       if (error) {
         console.error("Error inserting module:", error.message);
         throw new Error(error.message);
       }
-
       console.log("Module inserted successfully:", data);
       await fetchModules();
       await fetchGeneratedModules();
@@ -602,16 +543,13 @@ Output only the section content, without headings: `;
       setIsSubmitting(false);
     }
   };
-
   const handleGenerate = async () => {
     if (!selectedModuleId) {
       setGenerateError("Please select a module to generate.");
       return;
     }
-
     setIsGenerating(true);
     setGenerateError(null);
-
     try {
       const { data: module, error: fetchError } = await supabase
         .from("learning_modules")
@@ -619,25 +557,20 @@ Output only the section content, without headings: `;
         .eq("id", selectedModuleId)
         .single();
       if (fetchError) throw fetchError;
-
       console.log("Generating content for module:", module);
-
       const { englishContent, taglishContent } = await generateModuleContent(
         module
       );
       console.log("Generated content:", englishContent, taglishContent);
-
       const { error: updateError } = await supabase
         .from("learning_modules")
         .update({ content: englishContent, taglish_content: taglishContent })
         .eq("id", selectedModuleId);
       if (updateError) throw updateError;
-
       console.log("Module content generated and updated successfully");
       await fetchModules();
       await fetchGeneratedModules();
       setSelectedModuleId("");
-
       alert("Module content generated successfully!");
     } catch (err) {
       console.error("Error generating module:", err.message);
@@ -646,7 +579,6 @@ Output only the section content, without headings: `;
       setIsGenerating(false);
     }
   };
-
   const handleGenerateTaglish = async () => {
     if (!selectedTaglishModuleId) {
       setGenerateTaglishError(
@@ -654,10 +586,8 @@ Output only the section content, without headings: `;
       );
       return;
     }
-
     setIsGeneratingTaglish(true);
     setGenerateTaglishError(null);
-
     try {
       const { data: module, error: fetchError } = await supabase
         .from("learning_modules")
@@ -667,18 +597,14 @@ Output only the section content, without headings: `;
       if (fetchError) throw fetchError;
       if (!module.content)
         throw new Error("Module has no English content to translate.");
-
       console.log("Generating TagLish for module:", module);
-
       const taglishContent = await translateToTaglish(module.content);
       console.log("Generated TagLish content:", taglishContent);
-
       const { error: updateError } = await supabase
         .from("learning_modules")
         .update({ taglish_content: taglishContent })
         .eq("id", selectedTaglishModuleId);
       if (updateError) throw updateError;
-
       console.log("TagLish content updated successfully");
       await fetchGeneratedModules();
       setSelectedTaglishModuleId("");
@@ -692,7 +618,6 @@ Output only the section content, without headings: `;
       setIsGeneratingTaglish(false);
     }
   };
-
   const handleGenerateTaglishQuiz = async () => {
     if (!selectedTaglishQuizModuleId) {
       setGenerateTaglishQuizError("Please select a module");
@@ -744,18 +669,15 @@ Output only the section content, without headings: `;
       setIsGeneratingTaglishQuiz(false);
     }
   };
-
   const handleModuleClick = (module) => {
     setSelectedModule(module);
     setLanguage("english");
     setIsContentModalOpen(true);
   };
-
   const closeContentModal = () => {
     setSelectedModule(null);
     setIsContentModalOpen(false);
   };
-
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString("en-US", {
@@ -764,7 +686,6 @@ Output only the section content, without headings: `;
       day: "numeric",
     });
   };
-
   const toggleGenerateQuizModal = () => {
     setIsGenerateQuizModalOpen(!isGenerateQuizModalOpen);
     if (!isGenerateQuizModalOpen) {
@@ -773,7 +694,6 @@ Output only the section content, without headings: `;
       setGenerateQuizError(null);
     }
   };
-
   const handleGenerateQuiz = async () => {
     if (!selectedQuizModuleId) {
       setGenerateQuizError("Please select a module");
@@ -802,15 +722,15 @@ Output ONLY a valid JSON array of objects, no other text:
   {
     "question": "The question text?",
     "options": ["Option A", "Option B", "Option C", "Option D"],
-    "correct": 0  // index of correct option, 0-3
+    "correct": 0 // index of correct option, 0-3
   },
   ...
-] 
+]
 Module Title: ${module.title}
 Keywords: ${module.keywords.join(", ")}
 Content:
 ${contentText.substring(0, 20000)}`;
-      const response = await callGeminiAPI(prompt);
+      const response = await callGeminiAPI(prompt, QUIZ_API_KEY);
       let questions;
       try {
         // Clean the response to remove Markdown code blocks
@@ -845,14 +765,12 @@ ${contentText.substring(0, 20000)}`;
       setIsGeneratingQuiz(false);
     }
   };
-
   const toggleValidationModal = () => {
     setIsValidationModalOpen(!isValidationModalOpen);
     if (!isValidationModalOpen) {
       fetchPendingQuestions();
     }
   };
-
   const fetchPendingQuestions = async () => {
     try {
       const { data, error } = await supabase
@@ -866,7 +784,6 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error fetching pending questions:", err);
     }
   };
-
   const handleApproveQuestion = async (id) => {
     try {
       const { error } = await supabase
@@ -880,7 +797,6 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error approving:", err);
     }
   };
-
   const handleRejectQuestion = async (id) => {
     try {
       const { error } = await supabase
@@ -893,12 +809,10 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error rejecting:", err);
     }
   };
-
   const openEditQuestion = (question) => {
     setEditingQuestion({ ...question });
     setIsEditQuestionModalOpen(true);
   };
-
   const handleSaveEdit = async () => {
     try {
       const { error } = await supabase
@@ -916,7 +830,6 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error saving edit:", err);
     }
   };
-
   const openQuizModal = (moduleId) => {
     const module = generatedModules.find((m) => m.id === moduleId);
     setCurrentQuizModuleId(moduleId);
@@ -927,7 +840,6 @@ ${contentText.substring(0, 20000)}`;
     setQuizScore(null);
     setIsQuizModalOpen(true);
   };
-
   const loadQuizQuestions = async () => {
     try {
       const isTaglish = quizLanguage === "taglish";
@@ -953,11 +865,9 @@ ${contentText.substring(0, 20000)}`;
       alert("Failed to load quiz.");
     }
   };
-
   const handleQuizAnswer = (questionId, answerIndex) => {
     setUserAnswers((prev) => ({ ...prev, [questionId]: answerIndex }));
   };
-
   const handleSubmitQuiz = async () => {
     let correct = 0;
     quizQuestions.forEach((q) => {
@@ -966,7 +876,6 @@ ${contentText.substring(0, 20000)}`;
     const total = quizQuestions.length;
     const percentage = (correct / total) * 100;
     let points = 0;
-
     try {
       const { data: previousAttempts, error: attCheckErr } = await supabase
         .from("quiz_attempts")
@@ -974,11 +883,9 @@ ${contentText.substring(0, 20000)}`;
         .eq("user_id", user.id)
         .eq("module_id", currentQuizModuleId);
       if (attCheckErr) throw attCheckErr;
-
       const alreadyRewarded = previousAttempts.some(
         (a) => a.barya_points_earned > 0
       );
-
       if (!alreadyRewarded) {
         let basePoints;
         switch (currentQuizModuleLevel) {
@@ -997,11 +904,10 @@ ${contentText.substring(0, 20000)}`;
         if (percentage >= 80) {
           points = basePoints;
           if (percentage === 100) {
-            points = Math.floor(basePoints * 1.15);
+            points = Math.floor(basePoints * 1.02);
           }
         }
       }
-
       // Always record the attempt
       const { error: attErr } = await supabase.from("quiz_attempts").insert({
         user_id: user.id,
@@ -1011,7 +917,6 @@ ${contentText.substring(0, 20000)}`;
         barya_points_earned: points,
       });
       if (attErr) throw attErr;
-
       if (points > 0) {
         // Award points if applicable
         const { data: ub, error: ubErr } = await supabase
@@ -1020,14 +925,12 @@ ${contentText.substring(0, 20000)}`;
           .eq("user_id", user.id)
           .single();
         if (ubErr) throw ubErr;
-
         const newBal = ub.balance + points;
         const { error: updateErr } = await supabase
           .from("user_balances")
           .update({ balance: newBal })
           .eq("user_id", user.id);
         if (updateErr) throw updateErr;
-
         const { error: histErr } = await supabase
           .from("balance_history")
           .insert({
@@ -1039,26 +942,21 @@ ${contentText.substring(0, 20000)}`;
           });
         if (histErr) throw histErr;
       }
-
       setQuizScore({ correct, total, points });
     } catch (err) {
       console.error("Error submitting quiz:", err);
       alert("Failed to submit quiz and award points.");
     }
   };
-
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-
     const ctx = canvas.getContext("2d");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-
     let particles = [];
     const particleCount = 50; // Adjust for density
     const particleSpeed = 0.5;
-
     class Particle {
       constructor() {
         this.x = Math.random() * canvas.width;
@@ -1067,17 +965,14 @@ ${contentText.substring(0, 20000)}`;
         this.speedX = Math.random() * particleSpeed - particleSpeed / 2;
         this.speedY = Math.random() * particleSpeed - particleSpeed / 2;
       }
-
       update() {
         this.x += this.speedX;
         this.y += this.speedY;
-
         if (this.x > canvas.width) this.x = 0;
         if (this.x < 0) this.x = canvas.width;
         if (this.y > canvas.height) this.y = 0;
         if (this.y < 0) this.y = canvas.height;
       }
-
       draw() {
         ctx.fillStyle = "rgba(0, 212, 255, 0.3)"; // Use accent color from palette
         ctx.beginPath();
@@ -1085,11 +980,9 @@ ${contentText.substring(0, 20000)}`;
         ctx.fill();
       }
     }
-
     for (let i = 0; i < particleCount; i++) {
       particles.push(new Particle());
     }
-
     function animate() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       particles.forEach((p) => {
@@ -1098,21 +991,17 @@ ${contentText.substring(0, 20000)}`;
       });
       requestAnimationFrame(animate);
     }
-
     animate();
-
     // Handle resize
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
     };
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   return (
     <div>
       <style>{`
@@ -1132,7 +1021,6 @@ ${contentText.substring(0, 20000)}`;
           knowledge.
         </p>
       </div>
-
       {showGenerateTab && isAdmin && (
         <div className="tabs" style={{ position: "relative", zIndex: 1000 }}>
           <div
@@ -1219,7 +1107,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       )}
-
       <div className="modules-display">
         <div className="modules-header">
           <h2>Available Learning Modules</h2>
@@ -1245,11 +1132,9 @@ ${contentText.substring(0, 20000)}`;
             )}
           </div>
         </div>
-
         {fetchGeneratedError && (
           <p className="error-message">{fetchGeneratedError}</p>
         )}
-
         {generatedModules.length === 0 && !fetchGeneratedError ? (
           <div className="no-modules">
             <p className="info-message">No learning modules available yet.</p>
@@ -1335,7 +1220,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         )}
       </div>
-
       <div className={`modal-overlay ${isModalOpen ? "" : "hidden"}`}>
         <div className="modal-content">
           <div className="modal-header">
@@ -1467,7 +1351,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div className={`modal-overlay ${isEditModalOpen ? "" : "hidden"}`}>
         <div className="modal-content module-content-modal">
           <div className="modal-header">
@@ -1497,7 +1380,6 @@ ${contentText.substring(0, 20000)}`;
                   disabled={isUpdating}
                 />
               </div>
-
               <div className="form-group">
                 <label htmlFor="edit-intro" className="form-label">
                   English Introduction
@@ -1513,7 +1395,6 @@ ${contentText.substring(0, 20000)}`;
                   style={{ minHeight: "200px" }}
                 />
               </div>
-
               <div className="form-group">
                 <label htmlFor="edit-taglish-intro" className="form-label">
                   TagLish Introduction
@@ -1529,7 +1410,6 @@ ${contentText.substring(0, 20000)}`;
                   style={{ minHeight: "200px" }}
                 />
               </div>
-
               <div className="form-group">
                 <div
                   style={{
@@ -1549,7 +1429,6 @@ ${contentText.substring(0, 20000)}`;
                     Add English Section
                   </button>
                 </div>
-
                 {editFormData.sections.map((section, index) => (
                   <div
                     key={index}
@@ -1589,7 +1468,6 @@ ${contentText.substring(0, 20000)}`;
                         Remove
                       </button>
                     </div>
-
                     <div className="form-group">
                       <label className="form-label">Section Title</label>
                       <input
@@ -1608,7 +1486,6 @@ ${contentText.substring(0, 20000)}`;
                         placeholder="Section title"
                       />
                     </div>
-
                     <div className="form-group">
                       <label className="form-label">Section Content</label>
                       <textarea
@@ -1631,7 +1508,6 @@ ${contentText.substring(0, 20000)}`;
                   </div>
                 ))}
               </div>
-
               <div className="form-group">
                 <div
                   style={{
@@ -1651,7 +1527,6 @@ ${contentText.substring(0, 20000)}`;
                     Add TagLish Section
                   </button>
                 </div>
-
                 {editFormData.taglish_sections.map((section, index) => (
                   <div
                     key={index}
@@ -1691,7 +1566,6 @@ ${contentText.substring(0, 20000)}`;
                         Remove
                       </button>
                     </div>
-
                     <div className="form-group">
                       <label className="form-label">Section Title</label>
                       <input
@@ -1710,7 +1584,6 @@ ${contentText.substring(0, 20000)}`;
                         placeholder="TagLish Section title"
                       />
                     </div>
-
                     <div className="form-group">
                       <label className="form-label">Section Content</label>
                       <textarea
@@ -1733,7 +1606,6 @@ ${contentText.substring(0, 20000)}`;
                   </div>
                 ))}
               </div>
-
               <div className="form-actions">
                 <button
                   type="submit"
@@ -1756,7 +1628,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div className={`modal-overlay ${isContentModalOpen ? "" : "hidden"}`}>
         <div className="modal-content module-content-modal">
           <div className="modal-header">
@@ -1782,7 +1653,6 @@ ${contentText.substring(0, 20000)}`;
                     <option value="taglish">TagLish</option>
                   </select>
                 </div>
-
                 <div className="module-intro-section">
                   <h4>Introduction</h4>
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
@@ -1792,7 +1662,6 @@ ${contentText.substring(0, 20000)}`;
                         "No TagLish content available"}
                   </ReactMarkdown>
                 </div>
-
                 <div className="module-sections">
                   {(language === "english"
                     ? selectedModule.content.sections
@@ -1816,7 +1685,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div className={`modal-overlay ${isAdminInfoModalOpen ? "" : "hidden"}`}>
         <div className="modal-content">
           <div className="modal-header">
@@ -1971,7 +1839,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div className={`modal-overlay ${isGenerateModalOpen ? "" : "hidden"}`}>
         <div className="modal-content">
           <div className="modal-header">
@@ -2010,7 +1877,6 @@ ${contentText.substring(0, 20000)}`;
                   ))}
                 </select>
               </div>
-
               {fetchModulesError && (
                 <p className="error-message">{fetchModulesError}</p>
               )}
@@ -2022,7 +1888,6 @@ ${contentText.substring(0, 20000)}`;
               {generateError && (
                 <p className="error-message">{generateError}</p>
               )}
-
               <div className="form-actions">
                 <button
                   className="btn btn-accent"
@@ -2043,7 +1908,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div
         className={`modal-overlay ${
           isGenerateTaglishModalOpen ? "" : "hidden"
@@ -2086,7 +1950,6 @@ ${contentText.substring(0, 20000)}`;
                   ))}
                 </select>
               </div>
-
               {generateTaglishError && (
                 <p className="error-message">{generateTaglishError}</p>
               )}
@@ -2095,7 +1958,6 @@ ${contentText.substring(0, 20000)}`;
                   No modules with content available.
                 </p>
               )}
-
               <div className="form-actions">
                 <button
                   className="btn btn-accent"
@@ -2116,7 +1978,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div
         className={`modal-overlay ${isGenerateQuizModalOpen ? "" : "hidden"}`}
       >
@@ -2188,7 +2049,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div
         className={`modal-overlay ${
           isGenerateTaglishQuizModalOpen ? "" : "hidden"
@@ -2272,7 +2132,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div className={`modal-overlay ${isValidationModalOpen ? "" : "hidden"}`}>
         <div
           className="modal-content"
@@ -2342,7 +2201,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div
         className={`modal-overlay ${isEditQuestionModalOpen ? "" : "hidden"}`}
       >
@@ -2426,7 +2284,6 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-
       <div className={`modal-overlay ${isQuizModalOpen ? "" : "hidden"}`}>
         <div className="modal-content module-content-modal">
           <div className="modal-header">
@@ -2534,5 +2391,4 @@ ${contentText.substring(0, 20000)}`;
     </div>
   );
 };
-
 export default Learn2;
