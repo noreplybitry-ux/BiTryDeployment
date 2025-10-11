@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { supabase } from "../lib/supabase";
-import PieStat from "../components/DashboardPieStat";
-import { Line, Bar } from "react-chartjs-2";
+import { Line, Bar, Pie } from "react-chartjs-2";
 import "chart.js/auto";
 import {
   FaUsers,
@@ -22,8 +21,6 @@ export default function AdminDashboard() {
   // UI filters
   const [volumeFilter, setVolumeFilter] = useState("7d");
   const [newUsersFilter, setNewUsersFilter] = useState("month"); // 'month' or 'week'
-  const [selectedBuySellPeriod, setSelectedBuySellPeriod] = useState("all");
-  const [selectedTradeTypePeriod, setSelectedTradeTypePeriod] = useState("all");
 
   // summary stats
   const [totalUsers, setTotalUsers] = useState(0);
@@ -48,8 +45,8 @@ export default function AdminDashboard() {
   });
   const [tradeVolumeData, setTradeVolumeData] = useState([]);
   const [tradeVolumeLabels, setTradeVolumeLabels] = useState([]);
-  const [buySellRatios, setBuySellRatios] = useState({});
-  const [tradeTypeRatios, setTradeTypeRatios] = useState({});
+  const [buySellRatio, setBuySellRatio] = useState(0);
+  const [tradeTypeRatio, setTradeTypeRatio] = useState(0);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -68,24 +65,6 @@ export default function AdminDashboard() {
         .select("id", { count: "exact", head: true });
       if (usersError) throw usersError;
       setTotalUsers(userCount || 0);
-
-      // Total Trades Executed
-      const { count: tradeCount, error: tradesError } = await supabase
-        .from("trade_history")
-        .select("id", { count: "exact", head: true });
-      if (tradesError) throw tradesError;
-      setTotalTradesExecuted(tradeCount || 0);
-
-      // Total Fees Earned
-      const { data: feesData, error: feesError } = await supabase
-        .from("trade_history")
-        .select("fee");
-      if (feesError) throw feesError;
-      const totalFees = (feesData || []).reduce(
-        (sum, trade) => sum + (Number(trade.fee) || 0),
-        0
-      );
-      setTotalFeesEarned(totalFees || 0);
 
       // Active Positions
       const { count: positionCount, error: positionsError } = await supabase
@@ -143,21 +122,6 @@ export default function AdminDashboard() {
         }))
       );
 
-      // Most Traded Symbols (top 5)
-      const { data: tradeData = [], error: symbolError } = await supabase
-        .from("trade_history")
-        .select("symbol");
-      if (symbolError) throw symbolError;
-      const symbolCounts = (tradeData || []).reduce((acc, t) => {
-        if (!t.symbol) return acc;
-        acc[t.symbol] = (acc[t.symbol] || 0) + 1;
-        return acc;
-      }, {});
-      const sortedSymbols = Object.entries(symbolCounts)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 5);
-      setMostTradedSymbols(sortedSymbols);
-
       // Open vs Closed Positions
       const { data: positionStats = [], error: posStatsError } = await supabase
         .from("positions")
@@ -173,119 +137,6 @@ export default function AdminDashboard() {
         { open: 0, closed: 0, worst: 0 }
       );
       setOpenVsClosedPositions(stats);
-
-      // Trade Volume Over Time (1d/7d/30d)
-      let days;
-      switch (volumeFilter) {
-        case "1d":
-          days = 1;
-          break;
-        case "30d":
-          days = 30;
-          break;
-        default:
-          days = 7;
-      }
-      const startDate = new Date();
-      startDate.setDate(startDate.getDate() - days);
-      const { data: volumeTrades = [], error: volumeError } = await supabase
-        .from("trade_history")
-        .select("created_at")
-        .gte("created_at", startDate.toISOString());
-      if (volumeError) throw volumeError;
-
-      const dailyVolumes = Array(days).fill(0);
-      (volumeTrades || []).forEach((trade) => {
-        const tradeDate = new Date(trade.created_at);
-        const dayIndex = Math.floor((now - tradeDate) / (1000 * 60 * 60 * 24));
-        if (dayIndex < days) dailyVolumes[days - 1 - dayIndex]++;
-      });
-      setTradeVolumeData(dailyVolumes);
-
-      const labels = [];
-      for (let i = days - 1; i >= 0; i--) {
-        const d = new Date();
-        d.setDate(d.getDate() - i);
-        labels.push(d.toLocaleDateString());
-      }
-      setTradeVolumeLabels(labels);
-
-      // Fetch counts for buy/sell and market type ratios by period (fixed for accuracy)
-      const oneYearAgo = new Date(now);
-      oneYearAgo.setFullYear(now.getFullYear() - 1);
-
-      const periodConfigs = {
-        all: { since: null },
-        weekly: {
-          since: new Date(
-            now.getTime() - 7 * 24 * 60 * 60 * 1000
-          ).toISOString(),
-        },
-        monthly: {
-          since: new Date(
-            now.getTime() - 30 * 24 * 60 * 60 * 1000
-          ).toISOString(),
-        },
-        yearly: { since: oneYearAgo.toISOString() },
-      };
-
-      const buyCounts = {};
-      const sellCounts = {};
-      const futuresCounts = {};
-      const spotCounts = {};
-
-      for (const [period, config] of Object.entries(periodConfigs)) {
-        let buyQuery = supabase
-          .from("trade_history")
-          .select("id", { count: "exact", head: true })
-          .eq("side", "BUY"); // Assuming side is stored uppercase; adjust if needed
-
-        let totalQuery = supabase
-          .from("trade_history")
-          .select("id", { count: "exact", head: true });
-
-        let futuresQuery = supabase
-          .from("trade_history")
-          .select("id", { count: "exact", head: true })
-          .eq("market_type", "FUTURES"); // Assuming market_type is stored uppercase
-
-        if (config.since) {
-          buyQuery = buyQuery.gte("created_at", config.since);
-          totalQuery = totalQuery.gte("created_at", config.since);
-          futuresQuery = futuresQuery.gte("created_at", config.since);
-        }
-
-        const { count: buyCount, error: buyError } = await buyQuery;
-        if (buyError) throw buyError;
-
-        const { count: totalCount, error: totalError } = await totalQuery;
-        if (totalError) throw totalError;
-
-        const { count: futuresCount, error: futuresError } = await futuresQuery;
-        if (futuresError) throw futuresError;
-
-        buyCounts[period] = buyCount || 0;
-        sellCounts[period] = (totalCount || 0) - (buyCount || 0);
-        futuresCounts[period] = futuresCount || 0;
-        spotCounts[period] = (totalCount || 0) - (futuresCount || 0);
-      }
-
-      const newBuySellRatios = {};
-      const newTradeTypeRatios = {};
-      ["all", "weekly", "monthly", "yearly"].forEach((period) => {
-        const buyTotal = buyCounts[period] + sellCounts[period];
-        newBuySellRatios[period] =
-          buyTotal > 0 ? Math.round((buyCounts[period] / buyTotal) * 100) : 0;
-
-        const tradeTypeTotal = futuresCounts[period] + spotCounts[period];
-        newTradeTypeRatios[period] =
-          tradeTypeTotal > 0
-            ? Math.round((futuresCounts[period] / tradeTypeTotal) * 100)
-            : 0;
-      });
-
-      setBuySellRatios(newBuySellRatios);
-      setTradeTypeRatios(newTradeTypeRatios);
 
       // Learning Metrics from quiz_attempts
       const { data: quizData = [], error: quizError } = await supabase
@@ -315,6 +166,85 @@ export default function AdminDashboard() {
       setTotalPointsEarned(totalPoints);
       setAvgQuizScore(avgScore.toFixed(1));
       setQuizPassRate(passRate.toFixed(1));
+
+      // Fetch all trades for calculations
+      const { data: allTrades = [], error: allTradesError } = await supabase
+        .from("trade_history")
+        .select("created_at, side, market_type, fee, symbol, quantity, price");
+      if (allTradesError) throw allTradesError;
+
+      // Total Trades Executed
+      setTotalTradesExecuted(allTrades.length);
+
+      // Total Fees Earned
+      const totalFees = allTrades.reduce(
+        (sum, t) => sum + (Number(t.fee) || 0),
+        0
+      );
+      setTotalFeesEarned(totalFees);
+
+      // Most Traded Symbols (top 5)
+      const symbolCounts = allTrades.reduce((acc, t) => {
+        if (!t.symbol) return acc;
+        acc[t.symbol] = (acc[t.symbol] || 0) + 1;
+        return acc;
+      }, {});
+      const sortedSymbols = Object.entries(symbolCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 5);
+      setMostTradedSymbols(sortedSymbols);
+
+      // Overall buy/sell and futures/spot ratios
+      const total = allTrades.length;
+      const buyCount = allTrades.filter(
+        (t) => t.side.toUpperCase() === "BUY"
+      ).length;
+      const futuresCount = allTrades.filter(
+        (t) => t.market_type.toUpperCase() === "FUTURES"
+      ).length;
+      const buyRatio = total > 0 ? Math.round((buyCount / total) * 100) : 0;
+      const futuresRatio =
+        total > 0 ? Math.round((futuresCount / total) * 100) : 0;
+      setBuySellRatio(buyRatio);
+      setTradeTypeRatio(futuresRatio);
+
+      // Trade Value Over Time (1d/7d/30d)
+      let days;
+      switch (volumeFilter) {
+        case "1d":
+          days = 1;
+          break;
+        case "30d":
+          days = 30;
+          break;
+        default:
+          days = 7;
+      }
+      const startDate = new Date(now);
+      startDate.setDate(startDate.getDate() - days);
+      const volumeTrades = allTrades.filter(
+        (t) => new Date(t.created_at) >= startDate
+      );
+
+      const dailyVolumes = Array(days).fill(0);
+      volumeTrades.forEach((trade) => {
+        const tradeDate = new Date(trade.created_at);
+        const dayIndex = Math.floor((now - tradeDate) / (1000 * 60 * 60 * 24));
+        if (dayIndex < days) {
+          const tradeValue =
+            parseFloat(trade.quantity) * parseFloat(trade.price);
+          dailyVolumes[days - 1 - dayIndex] += tradeValue;
+        }
+      });
+      setTradeVolumeData(dailyVolumes);
+
+      const labels = [];
+      for (let i = days - 1; i >= 0; i--) {
+        const d = new Date(now);
+        d.setDate(d.getDate() - i);
+        labels.push(d.toLocaleDateString());
+      }
+      setTradeVolumeLabels(labels);
     } catch (error) {
       console.error("Error fetching admin data:", error);
     } finally {
@@ -349,7 +279,7 @@ export default function AdminDashboard() {
     labels: tradeVolumeLabels,
     datasets: [
       {
-        label: "Trade Volume",
+        label: "Trade Value",
         data: tradeVolumeData,
         borderColor: "#3b82f6",
         backgroundColor: "rgba(59, 130, 246, 0.12)",
@@ -378,6 +308,35 @@ export default function AdminDashboard() {
     ],
   };
 
+  const pieOptions = {
+    responsive: true,
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+  };
+
+  const buySellChartData = {
+    labels: ["Buy", "Sell"],
+    datasets: [
+      {
+        data: [buySellRatio, 100 - buySellRatio],
+        backgroundColor: ["#10b981", "#ef4444"],
+      },
+    ],
+  };
+
+  const tradeTypeChartData = {
+    labels: ["Futures", "Spot"],
+    datasets: [
+      {
+        data: [tradeTypeRatio, 100 - tradeTypeRatio],
+        backgroundColor: ["#3b82f6", "#10b981"],
+      },
+    ],
+  };
+
   const formatCurrency = (amount) => {
     return balanceVisible
       ? `$${Math.abs(amount).toLocaleString("en-US", {
@@ -390,8 +349,6 @@ export default function AdminDashboard() {
   const formatNumber = (num) => {
     return balanceVisible ? num.toLocaleString() : "••••••";
   };
-
-  const periods = ["all", "weekly", "monthly", "yearly"];
 
   return (
     <div className="dashboard">
@@ -526,10 +483,10 @@ export default function AdminDashboard() {
               </div>
             </div>
 
-            {/* Trade Volume Chart */}
+            {/* Trade Value Chart */}
             <section className="page-card positions-section">
               <div className="section-header">
-                <h3>Trade Volume Over Time</h3>
+                <h3>Trade Value Over Time</h3>
                 <div className="section-actions">
                   <div className="time-filters">
                     {["1d", "7d", "30d"].map((period) => (
@@ -588,59 +545,25 @@ export default function AdminDashboard() {
               <div className="chart-card">
                 <div className="chart-header">
                   <h4>Buy vs Sell Distribution</h4>
-                  <div className="time-filters">
-                    {periods.map((period) => (
-                      <button
-                        key={period}
-                        className={`filter-btn ${
-                          selectedBuySellPeriod === period ? "active" : ""
-                        }`}
-                        onClick={() => setSelectedBuySellPeriod(period)}
-                      >
-                        {period.charAt(0).toUpperCase() + period.slice(1)}
-                      </button>
-                    ))}
-                  </div>
                 </div>
                 <div className="chart-content">
-                  <PieStat
-                    data={[
-                      {
-                        name: "Buy",
-                        value: buySellRatios[selectedBuySellPeriod] || 0,
-                      },
-                      {
-                        name: "Sell",
-                        value:
-                          100 - (buySellRatios[selectedBuySellPeriod] || 0),
-                      },
-                    ]}
-                    colors={["#10b981", "#ef4444"]}
-                    size={180}
-                    centerLabel={`${
-                      buySellRatios[selectedBuySellPeriod] || 0
-                    }%`}
-                    subLabel="Buy Orders"
-                  />
+                  <div style={{ maxWidth: "180px", margin: "0 auto" }}>
+                    <Pie data={buySellChartData} options={pieOptions} />
+                  </div>
                   <div className="chart-legend">
                     <div className="legend-item">
                       <div
                         className="legend-color"
                         style={{ backgroundColor: "#10b981" }}
                       ></div>
-                      <span>
-                        Buy Orders: {buySellRatios[selectedBuySellPeriod] || 0}%
-                      </span>
+                      <span>Buy Orders: {buySellRatio}%</span>
                     </div>
                     <div className="legend-item">
                       <div
                         className="legend-color"
                         style={{ backgroundColor: "#ef4444" }}
                       ></div>
-                      <span>
-                        Sell Orders:{" "}
-                        {100 - (buySellRatios[selectedBuySellPeriod] || 0)}%
-                      </span>
+                      <span>Sell Orders: {100 - buySellRatio}%</span>
                     </div>
                   </div>
                 </div>
@@ -649,60 +572,25 @@ export default function AdminDashboard() {
               <div className="chart-card">
                 <div className="chart-header">
                   <h4>Futures vs Spot Distribution</h4>
-                  <div className="time-filters">
-                    {periods.map((period) => (
-                      <button
-                        key={period}
-                        className={`filter-btn ${
-                          selectedTradeTypePeriod === period ? "active" : ""
-                        }`}
-                        onClick={() => setSelectedTradeTypePeriod(period)}
-                      >
-                        {period.charAt(0).toUpperCase() + period.slice(1)}
-                      </button>
-                    ))}
-                  </div>
                 </div>
                 <div className="chart-content">
-                  <PieStat
-                    data={[
-                      {
-                        name: "Futures",
-                        value: tradeTypeRatios[selectedTradeTypePeriod] || 0,
-                      },
-                      {
-                        name: "Spot",
-                        value:
-                          100 - (tradeTypeRatios[selectedTradeTypePeriod] || 0),
-                      },
-                    ]}
-                    colors={["#3b82f6", "#10b981"]}
-                    size={180}
-                    centerLabel={`${
-                      tradeTypeRatios[selectedTradeTypePeriod] || 0
-                    }%`}
-                    subLabel="Futures Trades"
-                  />
+                  <div style={{ maxWidth: "180px", margin: "0 auto" }}>
+                    <Pie data={tradeTypeChartData} options={pieOptions} />
+                  </div>
                   <div className="chart-legend">
                     <div className="legend-item">
                       <div
                         className="legend-color"
                         style={{ backgroundColor: "#3b82f6" }}
                       ></div>
-                      <span>
-                        Futures Trades:{" "}
-                        {tradeTypeRatios[selectedTradeTypePeriod] || 0}%
-                      </span>
+                      <span>Futures Trades: {tradeTypeRatio}%</span>
                     </div>
                     <div className="legend-item">
                       <div
                         className="legend-color"
                         style={{ backgroundColor: "#10b981" }}
                       ></div>
-                      <span>
-                        Spot Trades:{" "}
-                        {100 - (tradeTypeRatios[selectedTradeTypePeriod] || 0)}%
-                      </span>
+                      <span>Spot Trades: {100 - tradeTypeRatio}%</span>
                     </div>
                   </div>
                 </div>
@@ -873,7 +761,7 @@ export default function AdminDashboard() {
         )}
       </main>
 
-      <style jsx>{`
+      <style>{`
         .user-avatar {
           width: 40px;
           height: 40px;
