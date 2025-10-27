@@ -108,7 +108,6 @@ export default function Navbar() {
           .single();
 
         if (error && error.code !== "PGRST116") {
-          // PGRST116 = no rows returned
           console.error("Profile fetch error:", error);
         }
 
@@ -148,7 +147,7 @@ export default function Navbar() {
       try {
         const { data: balanceData, error } = await supabase
           .from("user_balances")
-          .select("balance, currency, portfolio_value")
+          .select("balance, currency")
           .eq("user_id", user.id)
           .single();
 
@@ -198,7 +197,6 @@ export default function Navbar() {
             setBalance({
               balance: payload.new.balance,
               currency: payload.new.currency,
-              portfolio_value: payload.new.portfolio_value,
             });
           }
         }
@@ -305,13 +303,6 @@ export default function Navbar() {
       minimumFractionDigits: 2,
       maximumFractionDigits: 2,
     });
-  };
-
-  const getTotalValue = () => {
-    if (!balance) return 0;
-    const portfolioValue = parseFloat(balance.portfolio_value || 0);
-    const cashBalance = parseFloat(balance.balance || 0);
-    return portfolioValue + cashBalance;
   };
 
   // Calculate if user is under 18
@@ -435,13 +426,6 @@ export default function Navbar() {
                         <span className="navbar-balance-label">Cash:</span>
                         <span className="navbar-balance-value">
                           ${formatBalance(balance.balance)}{" "}
-                          {balance.currency || "USD"}
-                        </span>
-                      </div>
-                      <div className="navbar-balance-item total">
-                        <span className="navbar-balance-label">Total:</span>
-                        <span className="navbar-balance-value">
-                          ${formatBalance(getTotalValue())}{" "}
                           {balance.currency || "USD"}
                         </span>
                       </div>
@@ -575,20 +559,6 @@ export default function Navbar() {
                           <span>Cash Balance:</span>
                           <span className="amount">
                             ${formatBalance(balance.balance)}{" "}
-                            {balance.currency || "USD"}
-                          </span>
-                        </div>
-                        <div className="navbar-balance-row">
-                          <span>Portfolio Value:</span>
-                          <span className="amount">
-                            ${formatBalance(balance.portfolio_value)}{" "}
-                            {balance.currency || "USD"}
-                          </span>
-                        </div>
-                        <div className="navbar-balance-row total">
-                          <span>Total Value:</span>
-                          <span className="amount">
-                            ${formatBalance(getTotalValue())}{" "}
                             {balance.currency || "USD"}
                           </span>
                         </div>
