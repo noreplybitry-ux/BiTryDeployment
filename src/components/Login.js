@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { supabase } from "../lib/supabase";
 import "../css/Login.css";
 import { useNavigate, Link } from "react-router-dom";
+import { FiCalendar } from 'react-icons/fi';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -108,20 +109,6 @@ const Login = () => {
 
     const birthDate = new Date(birthday);
     const today = new Date();
-    const age = today.getFullYear() - birthDate.getFullYear();
-    const monthDiff = today.getMonth() - birthDate.getMonth();
-
-    let actualAge = age;
-    if (
-      monthDiff < 0 ||
-      (monthDiff === 0 && today.getDate() < birthDate.getDate())
-    ) {
-      actualAge--;
-    }
-
-    if (actualAge < 18) {
-      return "You must be at least 18 years old";
-    }
 
     if (birthDate > today) {
       return "Birthday cannot be in the future";
@@ -509,22 +496,7 @@ const Login = () => {
                     max={new Date().toISOString().split("T")[0]}
                   />
                   <span className="input-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M16 1V5M8 1V5M3 9H21"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                    <FiCalendar size={20} />
                   </span>
                 </div>
                 {errors.birthday && (

@@ -4,6 +4,7 @@ import "../css/Signup.css";
 import { useNavigate, Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import confetti from "canvas-confetti";
+import { FiCalendar } from 'react-icons/fi';
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -105,20 +106,6 @@ const Signup = () => {
 
     const birthDate = new Date(birthday);
     const today = new Date();
-    const age = today.getFullYear() - birthDate.getFullYear();
-    const monthDiff = today.getMonth() - birthDate.getMonth();
-
-    let actualAge = age;
-    if (
-      monthDiff < 0 ||
-      (monthDiff === 0 && today.getDate() < birthDate.getDate())
-    ) {
-      actualAge--;
-    }
-
-    if (actualAge < 18) {
-      return "You must be at least 18 years old";
-    }
 
     if (birthDate > today) {
       return "Birthday cannot be in the future";
@@ -170,14 +157,9 @@ const Signup = () => {
 
   const handleBirthdaySubmit = async () => {
     const birthdayError = validateBirthday(birthdayData);
-    let isUnder18 = false;
     if (birthdayError) {
-      if (birthdayError === "You must be at least 18 years old") {
-        isUnder18 = true;
-      } else {
-        setErrors({ birthday: birthdayError });
-        return;
-      }
+      setErrors({ birthday: birthdayError });
+      return;
     }
 
     setIsLoading(true);
@@ -220,21 +202,6 @@ const Signup = () => {
       );
 
       setShowBirthdayModal(false);
-
-      if (isUnder18) {
-        await Swal.fire({
-          title: "Age Restriction",
-          text: "Since you are below 18, you won't be allowed access to the simulator due to legal restrictions.",
-          icon: "warning",
-          confirmButtonText: "OK",
-          buttonsStyling: true,
-          customClass: {
-            popup: "professional-popup",
-            title: "professional-title",
-            confirmButton: "professional-button",
-          },
-        });
-      }
 
       Swal.fire({
         title: "Sign Up Bonus!",
@@ -815,22 +782,7 @@ const Signup = () => {
                 max={new Date().toISOString().split("T")[0]}
               />
               <span className="input-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M16 1V5M8 1V5M3 9H21"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+                <FiCalendar size={20} />
               </span>
             </div>
             {errors.birthday && (
@@ -952,22 +904,7 @@ const Signup = () => {
                     max={new Date().toISOString().split("T")[0]}
                   />
                   <span className="input-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M16 1V5M8 1V5M3 9H21"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                    <FiCalendar size={20} />
                   </span>
                 </div>
                 {errors.birthday && (
