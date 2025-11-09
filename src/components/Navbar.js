@@ -328,64 +328,60 @@ export default function Navbar() {
                 Home
               </NavLink>
             </li>
-            {user && (
-              <>
-                {/* Show Admin Dashboard only for admin users */}
-                {!adminLoading && isAdmin && (
-                  <li>
-                    <NavLink
-                      to="/AdminDashboard"
-                      className={({ isActive }) => (isActive ? "active" : "")}
-                    >
-                      Admin Dashboard
-                    </NavLink>
-                  </li>
-                )}
-                <li>
-                  <NavLink
-                    to="/dashboard"
-                    end
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Dashboard
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/learn2"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Learn
-                  </NavLink>
-                </li>
-                {!isUnder18 && (
-                  <li>
-                    <NavLink
-                      to="/trade"
-                      className={({ isActive }) => (isActive ? "active" : "")}
-                    >
-                      Trade
-                    </NavLink>
-                  </li>
-                )}
-                <li>
-                  <NavLink
-                    to="/news"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    News
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/leaderboard"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Leaderboard
-                  </NavLink>
-                </li>
-              </>
+            {/* Show Admin Dashboard only for admin users */}
+            {!adminLoading && isAdmin && (
+              <li>
+                <NavLink
+                  to="/AdminDashboard"
+                  className={({ isActive }) => (isActive ? "active" : "")}
+                >
+                  Admin Dashboard
+                </NavLink>
+              </li>
             )}
+            <li>
+              <NavLink
+                to="/dashboard"
+                end
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Dashboard
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/learn2"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Learn
+              </NavLink>
+            </li>
+            {!isUnder18 && (
+              <li>
+                <NavLink
+                  to="/trade"
+                  className={({ isActive }) => (isActive ? "active" : "")}
+                >
+                  Trade
+                </NavLink>
+              </li>
+            )}
+            <li>
+              <NavLink
+                to="/news"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                News
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/leaderboard"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Leaderboard
+              </NavLink>
+            </li>
           </ul>
 
           {/* Mobile-only auth section */}
