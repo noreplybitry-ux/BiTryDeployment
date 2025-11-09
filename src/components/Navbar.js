@@ -356,16 +356,14 @@ export default function Navbar() {
                 Learn
               </NavLink>
             </li>
-            {!isUnder18 && (
-              <li>
-                <NavLink
-                  to="/trade"
-                  className={({ isActive }) => (isActive ? "active" : "")}
-                >
-                  Trade
-                </NavLink>
-              </li>
-            )}
+            <li>
+              <NavLink
+                to="/trade"
+                className={({ isActive }) => (isActive ? "active" : "")}
+              >
+                Trade
+              </NavLink>
+            </li>
             <li>
               <NavLink
                 to="/news"
