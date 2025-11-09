@@ -180,7 +180,7 @@ const EditModal = ({ isOpen, onClose, title, children }) => {
 };
 
 export default function Dashboard() {
-  const { user, signOut } = useAuth();
+  const { user, loading: authLoading, signOut } = useAuth();
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("overview");
   const [balanceVisible, setBalanceVisible] = useState(true);
@@ -332,6 +332,26 @@ export default function Dashboard() {
       return () => clearInterval(interval);
     }
   }, [user, portfolioLoading, refreshPortfolio]);
+
+  // Handle no user fallback
+  useEffect(() => {
+    if (!authLoading && !user) {
+      Swal.fire({
+        title: 'Authentication Required',
+        text: 'Please login to access your dashboard.',
+        icon: 'warning',
+        confirmButtonText: 'Go to Login',
+        customClass: {
+          popup: 'custom-swal-popup',
+          title: 'custom-swal-title',
+          htmlContainer: 'custom-swal-content',
+          confirmButton: 'custom-swal-button'
+        }
+      }).then(() => {
+        navigate('/login');
+      });
+    }
+  }, [authLoading, user, navigate]);
 
   // Password validation function
   const validatePassword = (password) => {
@@ -679,6 +699,13 @@ export default function Dashboard() {
       cancelButtonColor: "#d33",
       confirmButtonText: "Yes, log out",
       cancelButtonText: "Cancel",
+      customClass: {
+        popup: 'custom-swal-popup',
+        title: 'custom-swal-title',
+        htmlContainer: 'custom-swal-content',
+        confirmButton: 'custom-swal-button',
+        cancelButton: 'custom-swal-cancel-button'
+      }
     });
 
     if (result.isConfirmed) {
@@ -690,6 +717,11 @@ export default function Dashboard() {
           icon: "success",
           timer: 1500,
           showConfirmButton: false,
+          customClass: {
+            popup: 'custom-swal-popup',
+            title: 'custom-swal-title',
+            htmlContainer: 'custom-swal-content'
+          }
         });
         navigate("/home");
       } catch (error) {
@@ -699,6 +731,12 @@ export default function Dashboard() {
           text: "There was an error logging out. Please try again.",
           icon: "error",
           confirmButtonText: "OK",
+          customClass: {
+            popup: 'custom-swal-popup',
+            title: 'custom-swal-title',
+            htmlContainer: 'custom-swal-content',
+            confirmButton: 'custom-swal-button'
+          }
         });
       }
     }
@@ -741,7 +779,7 @@ export default function Dashboard() {
     return user?.email?.split("@")[0] || "User";
   };
 
-  if (portfolioLoading) {
+  if (authLoading || portfolioLoading) {
     return (
       <div className="dashboard">
         <main className="main-content">
@@ -751,6 +789,10 @@ export default function Dashboard() {
         </main>
       </div>
     );
+  }
+
+  if (!user) {
+    return null; // The useEffect will handle the SweetAlert and navigation
   }
 
   return (
@@ -1041,11 +1083,11 @@ export default function Dashboard() {
                         <PieStat data={filteredWinRateData} colors={["#10b981", "#ef4444"]} size={120} centerLabel={`${filteredWinRate}%`} subLabel="Success Rate" showPercentage={true} />
                         <div className="performance-metrics">
                           <div className="metric">
-                            <span className="metric-label">Best Trade:</span>
+                            <span>Best Trade:</span>
                             <span className="metric-value positive">{getCurrencySymbol()}{getDisplayAmount(filteredBestTrade).toFixed(2)}</span>
                           </div>
                           <div className="metric">
-                            <span className="metric-label">Worst Trade:</span>
+                            <span>Worst Trade:</span>
                             <span className="metric-value negative">{getCurrencySymbol()}{getDisplayAmount(Math.abs(filteredWorstTrade)).toFixed(2)}</span>
                           </div>
                         </div>
