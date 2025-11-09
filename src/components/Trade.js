@@ -6,17 +6,13 @@ import { usePortfolio } from "../hooks/usePortfolio";
 import { useAuth } from "../contexts/AuthContext";
 import webSocketManager from "../services/WebSocketManager";
 import Swal from 'sweetalert2';
-
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
-
 const getCryptoIcon = (symbol) => {
   const baseSymbol = symbol.replace("USDT", "").toLowerCase();
-
   const getCryptoImageUrl = (s) => {
     return `https://cryptoicons.org/api/icon/${s}/50`;
   };
-
   const iconMap = {
     btc: "₿", eth: "Ξ", bnb: "💛", ada: "₳", xrp: "✕", dot: "●", uni: "🦄",
     link: "🔗", ltc: "Ł", bch: "₿", xlm: "🚀", vet: "⚡", theta: "θ",
@@ -25,13 +21,11 @@ const getCryptoIcon = (symbol) => {
     "1inch": "1️⃣", cake: "🎂", sol: "☀️", matic: "🔷", avax: "🔺",
     doge: "🐕", shib: "🐕",
   };
-
   return {
     imageUrl: getCryptoImageUrl(baseSymbol),
     emoji: iconMap[baseSymbol] || "🪙",
   };
 };
-
 const TradingViewChart = ({ symbol, interval, isFutures }) => {
   const containerRef = useRef();
   const widgetRef = useRef();
@@ -40,19 +34,15 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
   const [error, setError] = useState(null);
   const readyTimeoutRef = useRef(null);
   const initTimeoutRef = useRef(null);
-
   const intervalMap = useMemo(() => ({
     "1m": "1", "5m": "5", "15m": "15", "1h": "60", "4h": "240", "1d": "1D",
   }), []);
-
   const tradingviewSymbol = isFutures ? `BINANCE:${symbol}.P` : `BINANCE:${symbol}`;
-
   useEffect(() => {
     if (window.TradingView) {
       setScriptLoaded(true);
       return;
     }
-
     const existingScript = document.querySelector('script[src*="tradingview"]');
     if (existingScript) {
       const checkTradingView = () => {
@@ -65,7 +55,6 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
       checkTradingView();
       return;
     }
-
     const script = document.createElement("script");
     script.src = "https://s3.tradingview.com/tv.js";
     script.async = true;
@@ -75,17 +64,13 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
       setError("Failed to load chart");
       console.error("Failed to load TradingView script");
     };
-
     document.head.appendChild(script);
-
     return () => {
       if (script && script.parentNode) script.parentNode.removeChild(script);
     };
   }, []);
-
   useEffect(() => {
     if (!scriptLoaded || !containerRef.current || !symbol) return;
-
     if (readyTimeoutRef.current) {
       clearTimeout(readyTimeoutRef.current);
       readyTimeoutRef.current = null;
@@ -94,7 +79,6 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
       clearTimeout(initTimeoutRef.current);
       initTimeoutRef.current = null;
     }
-
     if (widgetRef.current && typeof widgetRef.current.remove === "function") {
       try {
         widgetRef.current.remove();
@@ -103,26 +87,20 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
       }
       widgetRef.current = null;
     }
-
     setIsLoading(true);
     setError(null);
-
     initTimeoutRef.current = setTimeout(() => {
       if (!containerRef.current) return;
-
       try {
         const containerId = `tradingview-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
         containerRef.current.id = containerId;
-
         containerRef.current.style.width = '100%';
         containerRef.current.style.height = '100%';
         containerRef.current.style.position = 'relative';
-
         readyTimeoutRef.current = setTimeout(() => {
           setIsLoading(false);
           setError(null);
         }, 5000);
-
         const widgetConfig = {
           symbol: tradingviewSymbol,
           interval: intervalMap[interval] || "60",
@@ -144,19 +122,16 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
           studies_overrides: {},
           width: "100%",
           height: "100%",
-
           enabled_features: [
             "left_toolbar", "header_widget", "timeframes_toolbar",
             "header_chart_type", "header_resolutions", "header_screenshot",
             "header_settings", "header_indicators", "header_compare",
             "header_undo_redo", "header_fullscreen_button", "header_symbol_search",
           ],
-
           disabled_features: [
             "popup_hints", "header_saveload", "study_templates",
             "volume_force_overlay", "create_volume_indicator_by_default"
           ],
-
           overrides: {
             "paneProperties.background": "#1e222d",
             "paneProperties.vertGridProperties.color": "#2a2e39",
@@ -164,7 +139,6 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
             "scalesProperties.textColor": "#b7bdc6",
             "paneProperties.crossHairProperties.color": "#b7bdc6",
           },
-
           onChartReady: function () {
             if (readyTimeoutRef.current) {
               clearTimeout(readyTimeoutRef.current);
@@ -174,7 +148,6 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
             setError(null);
             console.log('TradingView chart ready');
           },
-
           onLoadError: (err) => {
             console.error("TradingView onLoadError:", err);
             if (readyTimeoutRef.current) {
@@ -185,7 +158,6 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
             tryFallbackSymbol();
           },
         };
-
         const tryFallbackSymbol = () => {
           if (tradingviewSymbol.endsWith(".P")) {
             try {
@@ -199,21 +171,18 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
             setError("Chart unavailable");
           }
         };
-
         try {
           widgetRef.current = new window.TradingView.widget(widgetConfig);
         } catch (err) {
           console.error("Error creating widget:", err);
           tryFallbackSymbol();
         }
-
       } catch (e) {
         console.error("Error in widget initialization:", e);
         setIsLoading(false);
         setError("Chart initialization failed");
       }
     }, 100);
-
     return () => {
       if (readyTimeoutRef.current) {
         clearTimeout(readyTimeoutRef.current);
@@ -233,7 +202,6 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
       }
     };
   }, [symbol, interval, isFutures, scriptLoaded, tradingviewSymbol, intervalMap]);
-
   return (
     <div className="chart-wrapper">
       <div
@@ -247,14 +215,12 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
           position: "relative",
         }}
       />
-
       {isLoading && (
         <div className="chart-loading-overlay">
           <div className="loading-spinner"></div>
           <span>Loading chart...</span>
         </div>
       )}
-
       {error && (
         <div className="chart-error-overlay">
           <div className="error-icon">⚠️</div>
@@ -278,17 +244,13 @@ const TradingViewChart = ({ symbol, interval, isFutures }) => {
     </div>
   );
 };
-
 const CryptoIcon = ({ symbol, size = "small", imageUrl = null }) => {
   const [imageError, setImageError] = useState(false);
   const fallback = getCryptoIcon(symbol);
-
   const resolvedImage = imageUrl || fallback.imageUrl;
-
   if (imageError || !resolvedImage) {
     return <div className={`coin-icon ${size}`}>{fallback.emoji}</div>;
   }
-
   return (
     <div className={`coin-icon ${size}`}>
       <img
@@ -300,16 +262,14 @@ const CryptoIcon = ({ symbol, size = "small", imageUrl = null }) => {
     </div>
   );
 };
-
 const PositionRow = ({ position, onClose, currentPrices, cryptoImages }) => {
   const [isClosing, setIsClosing] = useState(false);
   const currentPrice = currentPrices[position.symbol] || position.current_price;
-  const pnl = position.side === 'LONG' 
+  const pnl = position.side === 'LONG'
     ? (currentPrice - position.entry_price) * position.quantity
     : (position.entry_price - currentPrice) * position.quantity;
   const pnlPercent = (pnl / position.margin) * 100;
   const isProfit = pnl >= 0;
-
   const handleClose = async () => {
     if (currentPrice <= 0) {
       Swal.fire({
@@ -353,15 +313,12 @@ const PositionRow = ({ position, onClose, currentPrices, cryptoImages }) => {
       }
     }
   };
-
   const isNearLiquidation = position.liquidation_price && (
     (position.side === 'LONG' && currentPrice <= position.liquidation_price * 1.1) ||
     (position.side === 'SHORT' && currentPrice >= position.liquidation_price * 0.9)
   );
-
   const liqPrice = position.liquidation_price || 0;
   const positionImageUrl = cryptoImages[position.symbol];
-
   return (
     <tr className={`position-row ${isNearLiquidation ? 'near-liquidation' : ''}`}>
       <td>
@@ -385,8 +342,8 @@ const PositionRow = ({ position, onClose, currentPrices, cryptoImages }) => {
         <div className="pnl-percent">{isProfit ? '+' : ''}{pnlPercent.toFixed(2)}%</div>
       </td>
       <td className="text-center">
-        <button 
-          className="close-btn" 
+        <button
+          className="close-btn"
           onClick={handleClose}
           disabled={isClosing || currentPrice <= 0}
           title={currentPrice <= 0 ? 'Invalid price data' : `Close ${position.side} position`}
@@ -397,18 +354,16 @@ const PositionRow = ({ position, onClose, currentPrices, cryptoImages }) => {
     </tr>
   );
 };
-
 // Enhanced Spot Holding Row Component
 const SpotHoldingRow = ({ holding, cryptoImages, onSell }) => {
   const currentValue = holding.current_value || (holding.quantity * holding.average_price);
   const unrealizedPnl = holding.unrealized_pnl || 0;
-  const pnlPercent = holding.average_price > 0 
-    ? ((holding.current_price - holding.average_price) / holding.average_price) * 100 
+  const pnlPercent = holding.average_price > 0
+    ? ((holding.current_price - holding.average_price) / holding.average_price) * 100
     : 0;
   const isProfit = unrealizedPnl >= 0;
   const holdingSymbol = `${holding.symbol}USDT`;
   const holdingImageUrl = cryptoImages[holdingSymbol];
-
   const handleSell = async () => {
     const { value: quantity } = await Swal.fire({
       title: 'Sell Quantity',
@@ -430,7 +385,6 @@ const SpotHoldingRow = ({ holding, cryptoImages, onSell }) => {
         }
       }
     });
-
     if (quantity) {
       const result = await Swal.fire({
         title: 'Confirm Sell',
@@ -462,7 +416,6 @@ const SpotHoldingRow = ({ holding, cryptoImages, onSell }) => {
       }
     }
   };
-
   return (
     <tr className="holding-row">
       <td>
@@ -488,7 +441,6 @@ const SpotHoldingRow = ({ holding, cryptoImages, onSell }) => {
     </tr>
   );
 };
-
 const OrderHistoryRow = ({ order, cryptoImages, onCancel }) => {
   const statusColor = {
     'FILLED': 'success',
@@ -497,7 +449,6 @@ const OrderHistoryRow = ({ order, cryptoImages, onCancel }) => {
     'REJECTED': 'error'
   }[order.status] || 'neutral';
   const orderImageUrl = cryptoImages[order.symbol];
-
   const handleCancel = async () => {
     const result = await Swal.fire({
       title: 'Cancel Order?',
@@ -528,7 +479,6 @@ const OrderHistoryRow = ({ order, cryptoImages, onCancel }) => {
       }
     }
   };
-
   return (
     <tr className="order-history-row">
       <td>{new Date(order.created_at).toLocaleString()}</td>
@@ -560,19 +510,17 @@ const OrderHistoryRow = ({ order, cryptoImages, onCancel }) => {
     </tr>
   );
 };
-
 // Mobile Card Components
 const PositionCard = ({ position, onClose, currentPrices, cryptoImages }) => {
   const [isClosing, setIsClosing] = useState(false);
   const currentPrice = currentPrices[position.symbol] || position.current_price;
-  const pnl = position.side === 'LONG' 
+  const pnl = position.side === 'LONG'
     ? (currentPrice - position.entry_price) * position.quantity
     : (position.entry_price - currentPrice) * position.quantity;
   const pnlPercent = (pnl / position.margin) * 100;
   const isProfit = pnl >= 0;
   const liqPrice = position.liquidation_price || 0;
   const positionImageUrl = cryptoImages[position.symbol];
-
   const handleClose = async () => {
     if (currentPrice <= 0) {
       Swal.fire({
@@ -616,12 +564,10 @@ const PositionCard = ({ position, onClose, currentPrices, cryptoImages }) => {
       }
     }
   };
-
   const isNearLiquidation = position.liquidation_price && (
     (position.side === 'LONG' && currentPrice <= position.liquidation_price * 1.1) ||
     (position.side === 'SHORT' && currentPrice >= position.liquidation_price * 0.9)
   );
-
   return (
     <div className={`position-card ${isNearLiquidation ? 'near-liquidation' : ''}`}>
       <div className="card-header">
@@ -661,8 +607,8 @@ const PositionCard = ({ position, onClose, currentPrices, cryptoImages }) => {
         </div>
       </div>
       <div className="card-footer">
-        <button 
-          className="close-btn" 
+        <button
+          className="close-btn"
           onClick={handleClose}
           disabled={isClosing || currentPrice <= 0}
         >
@@ -672,17 +618,15 @@ const PositionCard = ({ position, onClose, currentPrices, cryptoImages }) => {
     </div>
   );
 };
-
 const SpotHoldingCard = ({ holding, cryptoImages, onSell }) => {
   const currentValue = holding.current_value || (holding.quantity * holding.average_price);
   const unrealizedPnl = holding.unrealized_pnl || 0;
-  const pnlPercent = holding.average_price > 0 
-    ? ((holding.current_price - holding.average_price) / holding.average_price) * 100 
+  const pnlPercent = holding.average_price > 0
+    ? ((holding.current_price - holding.average_price) / holding.average_price) * 100
     : 0;
   const isProfit = unrealizedPnl >= 0;
   const holdingSymbol = `${holding.symbol}USDT`;
   const holdingImageUrl = cryptoImages[holdingSymbol];
-
   const handleSell = async () => {
     const { value: quantity } = await Swal.fire({
       title: 'Sell Quantity',
@@ -704,7 +648,6 @@ const SpotHoldingCard = ({ holding, cryptoImages, onSell }) => {
         }
       }
     });
-
     if (quantity) {
       const result = await Swal.fire({
         title: 'Confirm Sell',
@@ -736,7 +679,6 @@ const SpotHoldingCard = ({ holding, cryptoImages, onSell }) => {
       }
     }
   };
-
   return (
     <div className="holding-card">
       <div className="card-header">
@@ -778,7 +720,6 @@ const SpotHoldingCard = ({ holding, cryptoImages, onSell }) => {
     </div>
   );
 };
-
 const OrderHistoryCard = ({ order, cryptoImages, onCancel }) => {
   const statusColor = {
     'FILLED': 'success',
@@ -787,7 +728,6 @@ const OrderHistoryCard = ({ order, cryptoImages, onCancel }) => {
     'REJECTED': 'error'
   }[order.status] || 'neutral';
   const orderImageUrl = cryptoImages[order.symbol];
-
   const handleCancel = async () => {
     const result = await Swal.fire({
       title: 'Cancel Order?',
@@ -818,7 +758,6 @@ const OrderHistoryCard = ({ order, cryptoImages, onCancel }) => {
       }
     }
   };
-
   return (
     <div className="order-card">
       <div className="card-header">
@@ -869,7 +808,6 @@ const OrderHistoryCard = ({ order, cryptoImages, onCancel }) => {
     </div>
   );
 };
-
 export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInterval = DEFAULT_INTERVAL }) {
   const { user } = useAuth();
   const [symbol, setSymbol] = useState(initialSymbol);
@@ -887,7 +825,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const [orderError, setOrderError] = useState("");
   const [orderSuccess, setOrderSuccess] = useState("");
   const [activeTab, setActiveTab] = useState("positions");
-
   const {
     balance,
     positions,
@@ -905,38 +842,31 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     marginUtilization,
     cancelOrder
   } = usePortfolio();
-
   const { lastPrice, priceChange, rawLastPrice, isConnected } = usePriceData(symbol, isFutures ? 'futures' : 'spot');
-
   const autoFilledSymbolRef = useRef(null);
   const userEditedRef = useRef(false);
   const [cryptoPage, setCryptoPage] = useState(1);
   const [hasMoreCryptos, setHasMoreCryptos] = useState(true);
-
   const cryptoImages = useMemo(() => {
     return cryptoList.reduce((acc, c) => {
       acc[c.value] = c.image;
       return acc;
     }, {});
   }, [cryptoList]);
-
   useEffect(() => {
     if (orderError) {
       const timer = setTimeout(() => setOrderError(""), 5000);
       return () => clearTimeout(timer);
     }
   }, [orderError]);
-
   useEffect(() => {
     if (orderSuccess) {
       const timer = setTimeout(() => setOrderSuccess(""), 5000);
       return () => clearTimeout(timer);
     }
   }, [orderSuccess]);
-
   useEffect(() => {
     let isMounted = true;
-
     const fetchTopCryptos = async () => {
       try {
         setLoading(true);
@@ -944,17 +874,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         const response = await fetch(
           `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=${page}&sparkline=false&price_change_percentage=24h`
         );
-
         if (!response.ok) throw new Error("Failed to fetch crypto markets");
-
         const data = await response.json();
-
         if (!Array.isArray(data) || data.length === 0) {
           setHasMoreCryptos(false);
           setLoading(false);
           return;
         }
-
         const binanceSymbols = data
           .map((coin) => ({
             coin,
@@ -968,15 +894,12 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
             marketCap: c.coin.market_cap || 0,
             image: c.coin.image || null,
           }));
-
         const uniqueSymbols = binanceSymbols.reduce((acc, current) => {
           const x = acc.find((item) => item.value === current.value);
           if (!x) return acc.concat([current]);
           return acc;
         }, []);
-
         if (!isMounted) return;
-
         if (page === 1) {
           setCryptoList(uniqueSymbols);
         } else {
@@ -989,7 +912,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
             return deduped;
           });
         }
-
         setLoading(false);
       } catch (err) {
         console.error("Failed to fetch cryptocurrencies:", err);
@@ -999,20 +921,16 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         }
       }
     };
-
     fetchTopCryptos();
-
     return () => {
       isMounted = false;
     };
   }, [cryptoPage, isFutures]);
-
   const getFallbackCryptos = () => {
     const popularCryptos = [
       "BTC", "ETH", "BNB", "ADA", "XRP", "SOL", "DOT", "DOGE", "SHIB", "MATIC",
       "AVAX", "LTC", "LINK", "ATOM", "XLM", "ALGO", "VET", "FIL", "TRX", "ETC"
     ];
-
     return popularCryptos.map((sym) => ({
       value: `${sym}USDT`,
       label: `${sym}/USDT`,
@@ -1022,7 +940,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       image: null,
     }));
   };
-
   useEffect(() => {
     if (!searchTerm) {
       setFilteredCrypto(cryptoList);
@@ -1037,15 +954,12 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       setFilteredCrypto(filtered);
     }
   }, [searchTerm, cryptoList]);
-
   useEffect(() => {
     if (!cryptoList || cryptoList.length === 0) return;
-
     if (!cryptoList.find((c) => c.value === symbol)) {
       setSymbol(cryptoList[0].value);
     }
   }, [cryptoList, symbol]);
-
   useEffect(() => {
     userEditedRef.current = false;
     setSelectedPrice("");
@@ -1053,27 +967,23 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     setOrderError("");
     setOrderSuccess("");
   }, [symbol]);
-
   useEffect(() => {
-    if (lastPrice !== '--' && 
-        autoFilledSymbolRef.current !== symbol && 
+    if (lastPrice !== '--' &&
+        autoFilledSymbolRef.current !== symbol &&
         !userEditedRef.current &&
         orderType === 'limit') {
       setSelectedPrice(lastPrice);
       autoFilledSymbolRef.current = symbol;
     }
   }, [lastPrice, symbol, orderType]);
-
   const loadMoreCryptos = () => {
     if (hasMoreCryptos && !loading) {
       setCryptoPage((prev) => prev + 1);
     }
   };
-
   const getMinQty = () => {
     return 0.0001; // Fallback always, no Binance fetch
   };
-
   const calculatePositionValue = () => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
@@ -1082,14 +992,12 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     if (isFutures) return val * leverage;
     return val;
   };
-
   const calculateFees = () => {
     const positionValue = parseFloat(calculatePositionValue() || 0);
     const feeRate = isFutures ? 0.0004 : 0.001;
     const fees = positionValue * feeRate;
     return isNaN(fees) ? "0.00" : fees.toFixed(4);
   };
-
   const calculateRequiredMargin = () => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
@@ -1098,35 +1006,28 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     if (isNaN(positionValue)) return 0;
     return (positionValue / leverage).toFixed(2);
   };
-
   const getMaxSellQuantity = () => {
     if (isFutures) return null;
     const baseAsset = symbol.replace('USDT', '');
     const holding = spotHoldings.find(h => h.symbol === baseAsset);
     return holding ? holding.quantity : 0;
   };
-
   const validateOrder = (side) => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
     const minQty = getMinQty();
-
     if (!user) {
       throw new Error('Please login to trade');
     }
-
     if (!qty || qty <= 0 || qty < minQty) {
       throw new Error(`Please enter a valid quantity (min: ${minQty})`);
     }
-
     if (orderType === 'market' && (!price || price <= 0)) {
       throw new Error('Market price not available. Please wait for connection.');
     }
-
     if (orderType === 'limit' && (!price || price <= 0)) {
       throw new Error('Please enter a valid price');
     }
-
     if (orderType === 'limit') {
       if (isFutures) {
         if (leverage < 1 || leverage > 100) {
@@ -1141,17 +1042,14 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       }
       return true;
     }
-
     // For market orders, full checks
     if (isFutures) {
       const requiredMargin = parseFloat(calculateRequiredMargin());
       const fees = parseFloat(calculateFees());
       const totalRequired = requiredMargin + fees;
-
       if (totalRequired > freeMargin) {
         throw new Error(`Insufficient margin. Required: ${totalRequired.toFixed(2)}, Available: ${freeMargin.toFixed(2)}`);
       }
-
       if (leverage < 1 || leverage > 100) {
         throw new Error('Leverage must be between 1x and 100x');
       }
@@ -1169,17 +1067,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         }
       }
     }
-
     return true;
   };
-
   async function submitOrderHandler(side) {
     setOrderError("");
     setOrderSuccess("");
-
     try {
       validateOrder(side);
-
       if (side === 'SELL' && !isFutures) {
         const result = await Swal.fire({
           title: 'Confirm Sell',
@@ -1192,12 +1086,9 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         });
         if (!result.isConfirmed) return;
       }
-
       const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
       const qty = parseFloat(quantity);
-
       setIsSubmittingOrder(true);
-
       const orderData = {
         symbol,
         side,
@@ -1207,10 +1098,8 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         marketType: isFutures ? 'FUTURES' : 'SPOT',
         leverage: isFutures ? leverage : 1
       };
-
       console.log('Submitting order:', orderData);
       const result = await submitOrder(orderData);
-
       let successMessage;
       if (result.status === 'PENDING') {
         successMessage = `Limit ${side} order placed successfully!\n` +
@@ -1222,15 +1111,12 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           `Fees: ${result.fees.toFixed(4)}\n` +
           `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
       }
-
       setOrderSuccess(successMessage);
-
       setQuantity("");
       if (orderType === 'limit') {
         userEditedRef.current = false;
         autoFilledSymbolRef.current = null;
       }
-
     } catch (error) {
       console.error('Order submission error:', error);
       setOrderError(error.message);
@@ -1238,7 +1124,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       setIsSubmittingOrder(false);
     }
   }
-
   const handleSpotSellFromHolding = async (baseSymbol, qty) => {
     const symbol = `${baseSymbol}USDT`;
     const priceData = webSocketManager.getCurrentPrice(symbol, 'spot');
@@ -1256,12 +1141,10 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     };
     await submitOrder(orderData);
   };
-
   const handleCancelOrder = async (orderId) => {
     await cancelOrder(orderId);
     refreshPortfolio();
   };
-
   const getCurrentPrices = () => {
     const prices = {};
     positions.forEach(position => {
@@ -1269,68 +1152,83 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     });
     return prices;
   };
-
   const handleSearchChange = (e) => {
     const term = e.target.value;
     setSearchTerm(term);
-
     if (!term || term.trim() === "") {
       setFilteredCrypto(cryptoList);
       return;
     }
-
     const low = term.toLowerCase().trim();
-
-    const exact = cryptoList.find((c) => 
-      c.symbol.toLowerCase() === low || 
+    const exact = cryptoList.find((c) =>
+      c.symbol.toLowerCase() === low ||
       c.value.toLowerCase() === `${low}usdt`
     );
-    
+   
     if (exact) {
       if (exact.value !== symbol) setSymbol(exact.value);
       setFilteredCrypto([exact]);
       return;
     }
-
     const starts = cryptoList.find((c) => c.symbol.toLowerCase().startsWith(low));
     if (starts) {
       if (starts.value !== symbol) setSymbol(starts.value);
       setFilteredCrypto([starts, ...cryptoList.filter((c) => c.value !== starts.value)]);
       return;
     }
-
     const includes = cryptoList.filter(
       (crypto) =>
         crypto.label.toLowerCase().includes(low) ||
         crypto.value.toLowerCase().includes(low) ||
         crypto.symbol.toLowerCase().includes(low)
     );
-    
+   
     if (includes.length > 0) {
       const first = includes[0];
       if (first.value !== symbol) setSymbol(first.value);
       setFilteredCrypto(includes);
       return;
     }
-
     setFilteredCrypto([]);
   };
-
   const currentCryptoEntry = cryptoList.find((c) => c.value === symbol);
   const currentImageUrl = currentCryptoEntry ? currentCryptoEntry.image : null;
-
   const isSubmitDisabled = () => {
     const qty = parseFloat(quantity);
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     return !qty || qty <= 0 || isSubmittingOrder || !user || (orderType === 'market' && (!price || price <= 0));
   };
-
   const spotTotalPnl = spotHoldings.reduce((total, h) => total + (h.unrealized_pnl || 0), 0);
-  const spotTotalValue = spotHoldings.reduce((total, h) => 
+  const spotTotalValue = spotHoldings.reduce((total, h) =>
     total + (h.current_value || h.quantity * h.average_price), 0
   );
-
   const maxSellQty = getMaxSellQuantity();
+
+  // Random Taglish reminders
+  const reminders = [
+    "Tandaan, ang trading ay may risks. Always trade responsibly!",
+    "Ito ay virtual funds lamang. Practice muna bago mag-real trading.",
+    "Huwag mag-trade ng higit sa kaya mong mawala. Stay safe sa market!",
+    "Research well before making trades. Knowledge is key sa success!",
+    "This is just virtual money. No real losses or gains dito.",
+    "Mag-ingat sa emosyon sa trading. Think rationally always!",
+    "Gamitin ang stop-loss para protektahan ang iyong capital.",
+    "Trading is not gambling. Plan your trades wisely!",
+    "Enjoy learning with virtual funds. Walang pressure dito.",
+    "Always diversify your portfolio. Huwag ilagay lahat sa isang basket."
+  ];
+
+  useEffect(() => {
+    // Show random reminder on component mount
+    const randomReminder = reminders[Math.floor(Math.random() * reminders.length)];
+    Swal.fire({
+      title: 'Trading Reminder',
+      text: randomReminder,
+      icon: 'info',
+      confirmButtonText: 'OK',
+      confirmButtonColor: '#3085d6'
+    });
+  }, []);
 
   return (
     <div className="trade-page">
@@ -1341,14 +1239,13 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           <button onClick={() => setOrderError("")}>×</button>
         </div>
       )}
-      
+     
       {orderSuccess && (
         <div className="notification success">
           <span>✅ Order Successful</span>
           <button onClick={() => setOrderSuccess("")}>×</button>
         </div>
       )}
-
       <header className="trade-header">
         <div className="header-top">
           <div className="left-controls">
@@ -1367,7 +1264,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </div>
             </div>
-            
+           
             <div className="price-display">
               <div className="current-price">${lastPrice}</div>
               <div className={`price-change ${parseFloat(priceChange.percent) >= 0 ? "positive" : "negative"}`}>
@@ -1376,7 +1273,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               </div>
             </div>
           </div>
-
           <div className="right-controls">
             <div className="search-container">
               <input
@@ -1392,7 +1288,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </svg>
               </div>
             </div>
-
             <div className="symbol-selector">
               <select
                 className="symbol-select"
@@ -1418,7 +1313,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
             </div>
           </div>
         </div>
-
         <div className="header-bottom">
           <div className="account-info">
             <div className="balance-card">
@@ -1427,7 +1321,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 ${balance.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-            
+           
             {isFutures && (
               <>
                 <div className="margin-card">
@@ -1444,14 +1338,14 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </>
             )}
-            
+           
             <div className="pnl-card">
               <div className="pnl-label">Total P&L</div>
               <div className={`pnl-value ${totalPnL >= 0 ? "positive" : "negative"}`}>
                 {totalPnL >= 0 ? "+" : ""}${totalPnL.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-            
+           
             <div className="portfolio-card">
               <div className="portfolio-label">Portfolio Value</div>
               <div className="portfolio-amount">
@@ -1459,7 +1353,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               </div>
             </div>
           </div>
-
           <div className="market-toggle">
             <button className={`toggle-btn ${isFutures ? "active" : ""}`} onClick={() => setIsFutures(true)}>
               <span>Futures</span>
@@ -1470,34 +1363,31 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           </div>
         </div>
       </header>
-
       <div className="trade-grid">
         <div className="chart-panel">
           <div className="chart-container">
             <TradingViewChart symbol={symbol} interval={interval} isFutures={isFutures} />
           </div>
         </div>
-
         <aside className="order-panel">
           <div className="order-card">
             <div className="order-header">
               <div className="order-title">{isFutures ? "Futures Trading" : "Spot Trading"}</div>
               <div className="order-type-selector">
-                <button 
-                  className={`type-btn ${orderType === "limit" ? "active" : ""}`} 
+                <button
+                  className={`type-btn ${orderType === "limit" ? "active" : ""}`}
                   onClick={() => setOrderType("limit")}
                 >
                   Limit
                 </button>
-                <button 
-                  className={`type-btn ${orderType === "market" ? "active" : ""}`} 
+                <button
+                  className={`type-btn ${orderType === "market" ? "active" : ""}`}
                   onClick={() => setOrderType("market")}
                 >
                   Market
                 </button>
               </div>
             </div>
-
             {orderType === "limit" && (
               <div className="input-group">
                 <label>Price ($)</label>
@@ -1515,41 +1405,39 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 />
               </div>
             )}
-
             <div className="input-group">
               <label>Quantity</label>
-              <input 
-                type="number" 
-                value={quantity} 
+              <input
+                type="number"
+                value={quantity}
                 onChange={(e) => {
                   setQuantity(e.target.value);
                   setOrderError("");
-                }} 
-                className="input-field" 
+                }}
+                className="input-field"
                 placeholder="0.00"
                 step="0.0001"
               />
             </div>
-
             {isFutures && (
               <div className="input-group">
                 <label>Leverage: {leverage}x</label>
-                <input 
-                  className="leverage-slider" 
-                  type="range" 
-                  min="1" 
-                  max="100" 
-                  value={leverage} 
+                <input
+                  className="leverage-slider"
+                  type="range"
+                  min="1"
+                  max="100"
+                  value={leverage}
                   onChange={(e) => {
                     setLeverage(Number(e.target.value));
                     setOrderError("");
-                  }} 
+                  }}
                 />
                 <div className="leverage-presets">
                   {[1, 5, 10, 25, 50, 100].map((l) => (
-                    <button 
-                      key={l} 
-                      className={`preset-btn ${leverage === l ? "active" : ""}`} 
+                    <button
+                      key={l}
+                      className={`preset-btn ${leverage === l ? "active" : ""}`}
                       onClick={() => setLeverage(l)}
                     >
                       {l}x
@@ -1558,7 +1446,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </div>
             )}
-
             <div className="order-summary">
               <div className="summary-row">
                 <span>Position Value:</span>
@@ -1589,33 +1476,30 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               )}
             </div>
-
             <div className="order-actions">
-              <button 
-                className="btn btn-sell" 
-                onClick={() => submitOrderHandler("SELL")} 
+              <button
+                className="btn btn-sell"
+                onClick={() => submitOrderHandler("SELL")}
                 disabled={isSubmitDisabled()}
                 title={isSubmitDisabled() && orderType === 'market' && rawLastPrice <= 0 ? "Price data not available" : (!user ? "Please login to trade" : "")}
               >
                 {isSubmittingOrder ? "Submitting..." : (isFutures ? "Short" : "Sell")}
               </button>
-              <button 
-                className="btn btn-buy" 
-                onClick={() => submitOrderHandler("BUY")} 
+              <button
+                className="btn btn-buy"
+                onClick={() => submitOrderHandler("BUY")}
                 disabled={isSubmitDisabled()}
                 title={isSubmitDisabled() && orderType === 'market' && rawLastPrice <= 0 ? "Price data not available" : (!user ? "Please login to trade" : "")}
               >
                 {isSubmittingOrder ? "Submitting..." : (isFutures ? "Long" : "Buy")}
               </button>
             </div>
-
             {!user && (
               <div className="auth-notice">
                 <p>Please login to start trading</p>
                 <small>Virtual trading with $10,000 starting balance</small>
               </div>
             )}
-
             {user && (
               <div className="trading-info">
                 <small>Virtual trading platform - No real money involved</small>
@@ -1624,42 +1508,40 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           </div>
         </aside>
       </div>
-
-      <div className="analysis-panel"> 
+      <div className="analysis-panel">
         <TechnicalAnalysis symbol={symbol} interval={interval} />
       </div>
-
       <div className="positions-panel">
         <div className="positions-header">
           <div className="positions-tabs">
-            <div 
+            <div
               className={`tab ${activeTab === 'positions' ? 'active' : ''}`}
               onClick={() => setActiveTab('positions')}
             >
-              {isFutures ? "Positions" : "Holdings"} 
+              {isFutures ? "Positions" : "Holdings"}
               <span className="tab-count">
                 ({isFutures ? positions.length : spotHoldings.length})
               </span>
             </div>
-            <div 
+            <div
               className={`tab ${activeTab === 'orders' ? 'active' : ''}`}
               onClick={() => setActiveTab('orders')}
             >
-              Order History 
+              Order History
               <span className="tab-count">({orderHistory.length})</span>
             </div>
           </div>
           <div className="positions-actions">
-            <button 
-              className="action-btn" 
+            <button
+              className="action-btn"
               onClick={refreshPortfolio}
               disabled={portfolioLoading}
             >
               {portfolioLoading ? "Loading..." : "Refresh"}
             </button>
             {positions.length > 0 && activeTab === 'positions' && (
-              <button 
-                className="action-btn danger" 
+              <button
+                className="action-btn danger"
                 onClick={async () => {
                   const result = await Swal.fire({
                     title: 'Close All?',
@@ -1698,7 +1580,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
             )}
           </div>
         </div>
-
         <div className="positions-body">
           {activeTab === 'positions' && (
             <div className="positions-content">
@@ -1721,9 +1602,9 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                           </thead>
                           <tbody>
                             {positions.map(position => (
-                              <PositionRow 
-                                key={position.id} 
-                                position={position} 
+                              <PositionRow
+                                key={position.id}
+                                position={position}
                                 onClose={closePosition}
                                 currentPrices={getCurrentPrices()}
                                 cryptoImages={cryptoImages}
@@ -1731,7 +1612,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             ))}
                           </tbody>
                         </table>
-                        
+                       
                         <div className="positions-summary">
                           <div className="summary-item">
                             <span>Total Positions:</span>
@@ -1752,9 +1633,9 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                     </div>
                     <div className="mobile-cards">
                       {positions.map(position => (
-                        <PositionCard 
-                          key={position.id} 
-                          position={position} 
+                        <PositionCard
+                          key={position.id}
+                          position={position}
                           onClose={closePosition}
                           currentPrices={getCurrentPrices()}
                           cryptoImages={cryptoImages}
@@ -1806,8 +1687,8 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                           </thead>
                           <tbody>
                             {spotHoldings.map(holding => (
-                              <SpotHoldingRow 
-                                key={holding.id} 
+                              <SpotHoldingRow
+                                key={holding.id}
                                 holding={holding}
                                 cryptoImages={cryptoImages}
                                 onSell={handleSpotSellFromHolding}
@@ -1815,7 +1696,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             ))}
                           </tbody>
                         </table>
-                        
+                       
                         <div className="holdings-summary">
                           <div className="summary-item">
                             <span>Total Holdings:</span>
@@ -1836,8 +1717,8 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                     </div>
                     <div className="mobile-cards">
                       {spotHoldings.map(holding => (
-                        <SpotHoldingCard 
-                          key={holding.id} 
+                        <SpotHoldingCard
+                          key={holding.id}
                           holding={holding}
                           cryptoImages={cryptoImages}
                           onSell={handleSpotSellFromHolding}
@@ -1873,7 +1754,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               )}
             </div>
           )}
-
           {activeTab === 'orders' && (
             orderHistory.length > 0 ? (
               <div className="positions-content">
@@ -1895,8 +1775,8 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                       </thead>
                       <tbody>
                         {orderHistory.slice(0, 50).map(order => (
-                          <OrderHistoryRow 
-                            key={order.id} 
+                          <OrderHistoryRow
+                            key={order.id}
                             order={order}
                             cryptoImages={cryptoImages}
                             onCancel={handleCancelOrder}
@@ -1904,7 +1784,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                         ))}
                       </tbody>
                     </table>
-                    
+                   
                     <div className="orders-summary">
                       <div className="summary-item">
                         <span>Total Orders:</span>
@@ -1917,7 +1797,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                       <div className="summary-item">
                         <span>Success Rate:</span>
                         <span>
-                          {orderHistory.length > 0 
+                          {orderHistory.length > 0
                             ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
                             : 0}%
                         </span>
@@ -1927,8 +1807,8 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
                 <div className="mobile-cards">
                   {orderHistory.slice(0, 20).map(order => (
-                    <OrderHistoryCard 
-                      key={order.id} 
+                    <OrderHistoryCard
+                      key={order.id}
                       order={order}
                       cryptoImages={cryptoImages}
                       onCancel={handleCancelOrder}
@@ -1946,7 +1826,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                     <div className="summary-item">
                       <span>Success Rate:</span>
                       <span>
-                        {orderHistory.length > 0 
+                        {orderHistory.length > 0
                           ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
                           : 0}%
                       </span>
