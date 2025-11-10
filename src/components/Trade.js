@@ -7,7 +7,7 @@ import { useAuth } from "../contexts/AuthContext";
 import webSocketManager from "../services/WebSocketManager";
 import Swal from 'sweetalert2';
 import { useNavigate } from "react-router-dom";
-import { supabase } from "../lib/supabase"; 
+import { supabase } from "../lib/supabase";
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
 const getCryptoIcon = (symbol) => {
@@ -1207,49 +1207,71 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     total + (h.current_value || h.quantity * h.average_price), 0
   );
   const maxSellQty = getMaxSellQuantity();
+  // Random Taglish reminders
+  const reminders = [
+    "Tandaan, ang trading ay may risks. Always trade responsibly!",
+    "Ito ay virtual funds lamang. Practice muna bago mag-real trading.",
+    "Huwag mag-trade ng higit sa kaya mong mawala. Stay safe sa market!",
+    "Research well before making trades. Knowledge is key sa success!",
+    "This is just virtual money. No real losses or gains dito.",
+    "Mag-ingat sa emosyon sa trading. Think rationally always!",
+    "Gamitin ang stop-loss para protektahan ang iyong capital.",
+    "Trading is not gambling. Plan your trades wisely!",
+    "Enjoy learning with virtual funds. Walang pressure dito.",
+    "Always diversify your portfolio. Huwag ilagay lahat sa isang basket."
+  ];
   useEffect(() => {
-    if (!user) {
-      setIsAgeVerified(false);
-      return;
-    }
-
-    const checkAge = async () => {
-      const { data, error } = await supabase
-        .from('profiles')
-        .select('birthday')
-        .eq('id', user.id)
-        .single();
-
-      if (error || !data?.birthday) {
+    const randomReminder = reminders[Math.floor(Math.random() * reminders.length)];
+    Swal.fire({
+      title: 'Trading Reminder',
+      text: randomReminder,
+      icon: 'info',
+      confirmButtonText: 'OK',
+      confirmButtonColor: '#3085d6'
+    }).then(() => {
+      if (!user) {
         setIsAgeVerified(false);
         return;
       }
 
-      const birthDate = new Date(data.birthday);
-      const today = new Date();
-      let age = today.getFullYear() - birthDate.getFullYear();
-      const monthDiff = today.getMonth() - birthDate.getMonth();
-      if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-      }
+      const checkAge = async () => {
+        const { data, error } = await supabase
+          .from('profiles')
+          .select('birthday')
+          .eq('id', user.id)
+          .single();
 
-      if (age < 18) {
-        Swal.fire({
-          icon: 'warning',
-          title: 'Age Restriction',
-          text: 'Only users 18 and above are able to trade. You are able to view the lessons in the learn tab.',
-          confirmButtonText: 'OK',
-          confirmButtonColor: '#3085d6'
-        }).then(() => {
-          navigate('/');
-        });
-        setIsAgeVerified(false);
-      } else {
-        setIsAgeVerified(true);
-      }
-    };
+        if (error || !data?.birthday) {
+          setIsAgeVerified(false);
+          return;
+        }
 
-    checkAge();
+        const birthDate = new Date(data.birthday);
+        const today = new Date();
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const monthDiff = today.getMonth() - birthDate.getMonth();
+        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
+        }
+
+        if (age < 18) {
+          Swal.fire({
+            icon: 'warning',
+            title: 'Age Restriction',
+            text: 'Only users 18 and above are able to trade. You are able to view the lessons in the learn tab.',
+            confirmButtonText: 'OK',
+            confirmButtonColor: '#3085d6'
+          }).then(() => {
+            navigate('/');
+          });
+          setIsAgeVerified(false);
+        } else {
+          setIsAgeVerified(true);
+        }
+      };
+
+      checkAge();
+    });
   }, [user, navigate]);
 
   if (isAgeVerified === null) {
