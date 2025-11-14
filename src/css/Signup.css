@@ -26,7 +26,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
   line-height: 1.6;
 }
 /* Main Container */
@@ -35,7 +36,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #0b0e11 0%, #1a1d29 30%, #16213e 70%, #2d1b69 100%);
+  background: linear-gradient(
+    135deg,
+    #0b0e11 0%,
+    #1a1d29 30%,
+    #16213e 70%,
+    #2d1b69 100%
+  );
   padding: 20px;
   position: relative;
   overflow: hidden;
@@ -50,11 +57,26 @@ body {
 .bg-pattern {
   position: absolute;
   inset: 0;
-  background-image:
-    radial-gradient(circle at 20% 30%, rgba(0, 212, 255, 0.15) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 167, 38, 0.12) 0%, transparent 50%),
-    radial-gradient(circle at 60% 80%, rgba(2, 192, 118, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 30% 70%, rgba(108, 92, 231, 0.1) 0%, transparent 50%);
+  background-image: radial-gradient(
+      circle at 20% 30%,
+      rgba(0, 212, 255, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(255, 167, 38, 0.12) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 60% 80%,
+      rgba(2, 192, 118, 0.08) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 30% 70%,
+      rgba(108, 92, 231, 0.1) 0%,
+      transparent 50%
+    );
   animation: patternFloat 25s ease-in-out infinite;
 }
 .floating-shapes {
@@ -107,21 +129,26 @@ body {
   padding: 40px;
   width: 100%;
   max-width: 480px;
-  box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.4),
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4),
     0 0 0 1px rgba(255, 255, 255, 0.05) inset;
   position: relative;
   z-index: 2;
   animation: cardSlideIn 0.8s ease-out;
 }
 .auth-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple), var(--accent-orange), var(--accent-green));
+  background: linear-gradient(
+    90deg,
+    var(--accent-blue),
+    var(--accent-purple),
+    var(--accent-orange),
+    var(--accent-green)
+  );
   border-radius: 20px 20px 0 0;
   opacity: 0.8;
 }
@@ -320,7 +347,7 @@ body {
   border-color: var(--accent-blue);
 }
 .checkbox-label input[type="checkbox"]:checked + .checkmark::after {
-  content: '✓';
+  content: "✓";
   position: absolute;
   color: white;
   font-size: 12px;
@@ -328,6 +355,19 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.checkbox-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* visually indicate checkbox disabled state (input is hidden but we can target its sibling) */
+.checkbox-label input[type="checkbox"]:disabled + .checkmark {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: var(--surface);
+  border-color: var(--border);
 }
 .terms-link {
   color: var(--accent-blue);
@@ -368,7 +408,11 @@ body {
   box-shadow: 0 4px 15px var(--glow-blue);
 }
 .auth-btn.primary:hover:not(:disabled) {
-  background: linear-gradient(135deg, var(--accent-blue-hover) 0%, #0088bb 100%);
+  background: linear-gradient(
+    135deg,
+    var(--accent-blue-hover) 0%,
+    #0088bb 100%
+  );
   transform: translateY(-2px);
   box-shadow: 0 6px 20px var(--glow-blue);
 }
@@ -404,7 +448,7 @@ body {
   margin: 8px 0;
 }
 .divider::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 0;
@@ -463,14 +507,13 @@ body {
   padding: 40px;
   width: 100%;
   max-width: 420px;
-  box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.5),
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5),
     0 0 0 1px rgba(255, 255, 255, 0.05) inset;
   position: relative;
   animation: modalSlideIn 0.5s ease-out;
 }
 .modal-content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -527,8 +570,12 @@ body {
 }
 /* Animations */
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 @keyframes cardSlideIn {
   0% {
@@ -541,8 +588,12 @@ body {
   }
 }
 @keyframes modalFadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes modalSlideIn {
   0% {
@@ -555,12 +606,20 @@ body {
   }
 }
 @keyframes patternFloat {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  33% { transform: translateY(-15px) rotate(2deg); }
-  66% { transform: translateY(10px) rotate(-1deg); }
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-15px) rotate(2deg);
+  }
+  66% {
+    transform: translateY(10px) rotate(-1deg);
+  }
 }
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0) scale(1) rotate(0deg);
     opacity: 0.7;
   }
@@ -578,40 +637,40 @@ body {
   .auth-container {
     padding: 16px;
   }
- 
+
   .auth-card {
     padding: 32px 24px;
     max-width: 100%;
   }
- 
+
   .auth-header h2 {
     font-size: 20px;
   }
- 
+
   .name-row {
     grid-template-columns: 1fr;
     gap: 20px;
   }
- 
+
   .auth-input {
     padding: 14px 45px 14px 14px;
   }
- 
+
   .auth-btn {
     padding: 14px 20px;
     font-size: 15px;
   }
- 
+
   .checkbox-label {
     font-size: 13px;
   }
- 
+
   .password-strength {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
- 
+
   .strength-bar {
     width: 100%;
   }
@@ -633,43 +692,43 @@ body {
     padding: 24px 20px;
     border-radius: 16px;
   }
- 
+
   .auth-header h2 {
     font-size: 18px;
   }
- 
+
   .auth-form {
     gap: 20px;
   }
- 
+
   .auth-input {
     padding: 12px 40px 12px 12px;
     font-size: 16px; /* Prevent zoom on iOS */
   }
- 
+
   .auth-btn {
     padding: 12px 16px;
     font-size: 14px;
   }
- 
+
   .shape {
     display: none; /* Hide floating shapes on very small screens */
   }
- 
+
   .checkbox-label {
     font-size: 12px;
     gap: 10px;
   }
- 
+
   .checkmark {
     width: 16px;
     height: 16px;
   }
- 
+
   .password-strength {
     margin-top: 6px;
   }
- 
+
   .strength-text {
     font-size: 11px;
   }
@@ -678,19 +737,19 @@ body {
     max-width: 95%;
     border-radius: 16px;
   }
- 
+
   .modal-header {
     margin-bottom: 24px;
   }
- 
+
   .modal-header h3 {
     font-size: 18px;
   }
- 
+
   .modal-header p {
     font-size: 13px;
   }
- 
+
   .modal-footer {
     margin-top: 16px;
   }
@@ -706,18 +765,19 @@ body {
 }
 /* High contrast mode support */
 @media (prefers-contrast: high) {
-  .auth-card, .modal-content {
+  .auth-card,
+  .modal-content {
     border: 2px solid var(--text-primary);
   }
- 
+
   .auth-input {
     border: 2px solid var(--border);
   }
- 
+
   .auth-input:focus {
     border: 2px solid var(--accent-blue);
   }
- 
+
   .strength-bar {
     border: 1px solid var(--border);
   }
@@ -736,8 +796,36 @@ body {
     animation: none !important;
     transition: none !important;
   }
- 
+
   .auth-btn:hover:not(:disabled) {
     transform: none;
   }
+}
+
+/* hide native date-picker icon but keep the input usable */
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+}
+
+/* WebKit (Chrome, Edge, Safari) calendar indicator */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0; /* hide visual but keep clickable area */
+  -webkit-appearance: none;
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+/* Optional: hide inner spin/clear controls in WebKit */
+input[type="date"]::-webkit-clear-button,
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* Firefox: fallback to remove default appearance */
+input[type="date"]::-moz-focus-inner {
+  border: 0;
 }

@@ -783,7 +783,9 @@ export default function AdminDashboard() {
         }
 
         .chart-card {
-          background: white;
+          /* match other chart cards: soft gradient + subtle border */
+          background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+          border: 1px solid #e5e7eb;
           border-radius: 12px;
           padding: 1.5rem;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
