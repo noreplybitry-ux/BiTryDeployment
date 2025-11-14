@@ -1033,9 +1033,6 @@ const Signup = () => {
               <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>
                 Terms of Service
               </h2>
-              <p>
-                <strong>Last Updated: November 14, 2025</strong>
-              </p>
               <h4 style={{ marginTop: "28px" }}>1. Acceptance of Terms</h4>
               <p>
                 By creating an account or using Barya (“the Platform”), you
@@ -1158,16 +1155,12 @@ const Signup = () => {
               <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>
                 Privacy Policy
               </h2>
-              <p>
-                <strong>Last Updated: November 14, 2025</strong>
-              </p>
               <h4 style={{ marginTop: "28px" }}>1. Information We Collect</h4>
               <p>We collect:</p>
               <ul>
                 <li>
                   Information you provide: name, email, date of birth, password
                 </li>
-                <li>Usage data: trades, scores, device info, IP address</li>
                 <li>
                   When you sign up with Google: name and email from your Google
                   account
