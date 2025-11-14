@@ -333,6 +333,7 @@ const Signup = () => {
             last_name: formData.lastName.trim(),
             birthday: formData.birthday,
           },
+          emailRedirectTo: `${window.location.origin}/auth/callback`, // Added: Explicit redirect for confirmation link
         },
       });
 
@@ -503,7 +504,7 @@ const Signup = () => {
       const { data, error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: `${window.location.origin}/signup`,
+          redirectTo: `${window.location.origin}/auth/callback`, // Changed: Unify to /auth/callback for consistency
         },
       });
 

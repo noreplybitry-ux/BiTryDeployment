@@ -13,23 +13,45 @@ const ForgotPassword = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const [isResetMode, setIsResetMode] = useState(false);  // New: True if in password reset mode
+  const [isResetMode, setIsResetMode] = useState(false);  // True if in password reset mode
   const [successMessage, setSuccessMessage] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Check URL hash for recovery params on load
-    const hash = window.location.hash.substring(1);
-    const params = new URLSearchParams(hash);
-    const type = params.get('type');
-    const accessToken = params.get('access_token');
-    const refreshToken = params.get('refresh_token');
+    const checkForRecovery = async () => {
+      try {
+        // Parse URL hash for recovery params
+        const hash = window.location.hash.substring(1);
+        const params = new URLSearchParams(hash);
+        const type = params.get('type');
+        const accessToken = params.get('access_token');
+        const refreshToken = params.get('refresh_token');
 
-    if (type === 'recovery' && accessToken && refreshToken) {
-      // Sign in with recovery token
-      handleTokenVerification(accessToken, refreshToken);
-    }
-  }, []);
+        if (type === 'recovery' && accessToken && refreshToken) {
+          // Sign in with recovery token and set flag
+          await handleTokenVerification(accessToken, refreshToken);
+          localStorage.setItem('isInResetMode', 'true');
+        }
+
+        // Check for existing session
+        const { data: { session } } = await supabase.auth.getSession();
+
+        if (session) {
+          if (localStorage.getItem('isInResetMode') === 'true') {
+            setIsResetMode(true);
+          } else {
+            // Normal logged-in user accessing this page - redirect to home
+            navigate('/home');
+          }
+        }
+      } catch (error) {
+        console.error('Error checking recovery/session:', error);
+        setErrors({ general: 'An unexpected error occurred. Please try again.' });
+      }
+    };
+
+    checkForRecovery();
+  }, [navigate]);
 
   const handleTokenVerification = async (accessToken, refreshToken) => {
     try {
@@ -71,22 +93,28 @@ const ForgotPassword = () => {
 
   const validatePassword = () => {
     const newErrors = {};
-    if (!formData.password) {
-      newErrors.password = 'Password is required';
-    } else {
-      if (formData.password.length < 8) newErrors.password = 'Password must be at least 8 characters';
-      if (!/(?=.*[a-z])/.test(formData.password)) newErrors.password = 'Password must contain at least one lowercase letter';
-      if (!/(?=.*[A-Z])/.test(formData.password)) newErrors.password = 'Password must contain at least one uppercase letter';
-      if (!/(?=.*\d)/.test(formData.password)) newErrors.password = 'Password must contain at least one number';
-      if (!/(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?])/.test(formData.password)) newErrors.password = 'Password must contain at least one special character';
+    let hasError = false;
+
+    // Check all requirements
+    if (formData.password.length < 8 ||
+        !/(?=.*[a-z])/.test(formData.password) ||
+        !/(?=.*[A-Z])/.test(formData.password) ||
+        !/(?=.*\d)/.test(formData.password) ||
+        !/(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?])/.test(formData.password)) {
+      newErrors.password = 'Password does not meet all requirements';
+      hasError = true;
     }
+
     if (!formData.confirmPassword) {
       newErrors.confirmPassword = 'Please confirm your password';
+      hasError = true;
     } else if (formData.password !== formData.confirmPassword) {
       newErrors.confirmPassword = 'Passwords do not match';
+      hasError = true;
     }
+
     setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+    return !hasError;
   };
 
   const handleEmailSubmit = async (e) => {
@@ -115,6 +143,11 @@ const ForgotPassword = () => {
     try {
       const { error } = await supabase.auth.updateUser({ password: formData.password });
       if (error) throw error;
+
+      // Clear reset mode flag, sign out to clear temporary session, and redirect
+      localStorage.removeItem('isInResetMode');
+      await supabase.auth.signOut();
+      setFormData({ ...formData, password: '', confirmPassword: '' }); // Clear form
       setSuccessMessage('Password reset successful! Redirecting to login...');
       setTimeout(() => navigate('/login'), 2000);
     } catch (error) {
