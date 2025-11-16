@@ -7,6 +7,9 @@ class TradingService {
     this.isProcessingQueue = false;
     this.debugMode = true;
     this.initialized = false;
+    this.userId = null;
+    this.pendingOrders = new Map(); // symbol -> Map<id, order>
+    this.realtimeChannel = null;
   }
 
   log(message, data = null) {
@@ -31,6 +34,7 @@ class TradingService {
   async retryOperation(operation, maxRetries = 3) {
     let attempt = 0;
     let lastError;
+    let delay = 1000;
     while (attempt < maxRetries) {
       try {
         return await operation();
@@ -38,7 +42,8 @@ class TradingService {
         lastError = error;
         attempt++;
         this.log(`Retry attempt ${attempt}/${maxRetries} failed:`, error.message);
-        await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+        await new Promise(resolve => setTimeout(resolve, delay));
+        delay *= 2; // Exponential backoff
       }
     }
     throw lastError;
@@ -90,8 +95,13 @@ class TradingService {
         this.log('No session found');
         throw new Error('User not authenticated. Please login first.');
       }
+      
+      this.userId = session.user.id;
+      this.log('User authenticated:', this.userId);
 
-      this.log('User authenticated:', session.user.id);
+      await this.initializePendingOrdersCache();
+      this.setupRealtime();
+      
       this.initialized = true;
       this.log('✅ TradingService initialized successfully');
     } catch (error) {
@@ -804,6 +814,9 @@ class TradingService {
             throw orderError;
           }
 
+          // Manually add to cache (realtime will also, but for immediacy)
+          this.handleOrderChange({ eventType: 'INSERT', new: order });
+
           if (side === 'SELL') {
             // Check holding for limit sell
             const baseAsset = symbol.replace('USDT', '');
@@ -825,6 +838,7 @@ class TradingService {
                 .from('orders')
                 .update({ status: 'REJECTED' })
                 .eq('id', order.id);
+              this.handleOrderChange({ eventType: 'UPDATE', new: { ...order, status: 'REJECTED' } });
               throw new Error(`Insufficient ${baseAsset} balance for sell limit order`);
             }
           }
@@ -891,7 +905,7 @@ class TradingService {
             leverage
           });
 
-          // Check available margin
+          // Check balance
           const balance = await this.getUserBalance(userId);
           if (totalRequired > balance) {
             throw new Error(`Insufficient margin. Required: $${totalRequired.toFixed(2)}, Available: $${balance.toFixed(2)}`);
@@ -955,6 +969,9 @@ class TradingService {
             throw orderError;
           }
 
+          // Manually add to cache
+          this.handleOrderChange({ eventType: 'INSERT', new: order });
+
           this.log('✅ Futures limit order placed successfully', { orderId: order.id });
           return { success: true, orderId: order.id, status: 'PENDING' };
         }
@@ -966,7 +983,7 @@ class TradingService {
     });
   }
 
-  async updateOrCreateFuturesPosition(userId, symbol, positionSide, quantity, executionPrice, leverage, margin) {
+  async updateOrCreateFuturesPosition(userId, symbol, side, quantity, executionPrice, leverage, margin) {
     try {
       return await this.retryOperation(async () => {
         const { data: existing, error: fetchError } = await supabase
@@ -983,7 +1000,7 @@ class TradingService {
         }
 
         if (existing) {
-          if (existing.side !== positionSide) {
+          if (existing.side !== side) {
             // Close existing opposite position
             this.log('Closing opposite position before opening new...');
             await this.closeFuturesPosition(userId, existing, executionPrice);
@@ -1002,14 +1019,14 @@ class TradingService {
             this.log('Existing position verified as closed');
             
             // Create new position
-            await this.createFuturesPosition(userId, symbol, positionSide, quantity, executionPrice, leverage, margin);
+            await this.createFuturesPosition(userId, symbol, side, quantity, executionPrice, leverage, margin);
           } else {
             // Add to existing position (same side)
             this.log('Adding to existing position...');
             const newQuantity = parseFloat(existing.quantity) + parseFloat(quantity);
             const newMargin = parseFloat(existing.margin) + parseFloat(margin);
             const weightedEntry = (parseFloat(existing.quantity) * parseFloat(existing.entry_price) + parseFloat(quantity) * parseFloat(executionPrice)) / newQuantity;
-            const newLiquidationPrice = this.calculateLiquidationPrice(weightedEntry, positionSide, leverage);
+            const newLiquidationPrice = this.calculateLiquidationPrice(weightedEntry, side, leverage);
 
             const { error } = await supabase
               .from('positions')
@@ -1030,7 +1047,7 @@ class TradingService {
           }
         } else {
           // Create new position
-          await this.createFuturesPosition(userId, symbol, positionSide, quantity, executionPrice, leverage, margin);
+          await this.createFuturesPosition(userId, symbol, side, quantity, executionPrice, leverage, margin);
         }
       });
     } catch (error) {
@@ -1108,8 +1125,6 @@ class TradingService {
   async closeFuturesPosition(userId, position, closePrice) {
     return await this.queueTransaction(async () => {
       try {
-        await this.ensureInitialized();
-        
         this.log('🟥 Closing futures position', { positionId: position.id, closePrice });
 
         return await this.retryOperation(async () => {
@@ -1258,31 +1273,22 @@ class TradingService {
   async processPendingOrdersForSymbol(symbol, currentPrice) {
     if (!currentPrice || isNaN(currentPrice) || currentPrice <= 0) return;
 
+    if (!this.pendingOrders.has(symbol)) return;
+
     try {
-      const { data: pendingOrders, error } = await supabase
-        .from('orders')
-        .select('*')
-        .eq('symbol', symbol)
-        .eq('status', 'PENDING')
-        .order('created_at');
+      this.log(`Processing pending orders for ${symbol} at price ${currentPrice}`);
 
-      if (error || !pendingOrders || pendingOrders.length === 0) return;
+      const orders = Array.from(this.pendingOrders.get(symbol).values())
+        .sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
 
-      this.log(`Processing ${pendingOrders.length} pending orders for ${symbol} at price ${currentPrice}`);
-
-      for (const order of pendingOrders) {
+      for (const order of orders) {
         const shouldFill = 
           (order.side === 'BUY' && currentPrice <= order.price) ||
           (order.side === 'SELL' && currentPrice >= order.price);
 
-        if (!shouldFill) continue;
-
-        this.log(`Filling order ${order.id}: ${order.side} ${order.quantity} at ${order.price}`);
-
-        try {
+        if (shouldFill) {
+          this.log(`Filling order ${order.id}: ${order.side} ${order.quantity} at ${order.price}`);
           await this.fillOrder(order, currentPrice);
-        } catch (fillError) {
-          this.log(`Failed to fill order ${order.id}:`, fillError);
         }
       }
     } catch (error) {
@@ -1324,12 +1330,12 @@ class TradingService {
 
     if (side === 'BUY') {
       const totalCost = totalValue + fees;
-      await this.updateUserBalance(userId, -totalCost, 'TRADE', `Spot fill ${side} ${quantity} ${symbol}`);
+      await this.updateUserBalance(userId, -totalCost, 'TRADE', `Spot fill ${side} ${symbol}`);
       await this.updateSpotHolding(userId, symbol, quantity, price, 'BUY'); // No trade_history
     } else {
       await this.updateSpotHolding(userId, symbol, quantity, price, 'SELL', fees, order_id); // Handles trade_history
       const proceeds = totalValue - fees;
-      await this.updateUserBalance(userId, proceeds, 'TRADE', `Spot fill ${side} ${quantity} ${symbol}`);
+      await this.updateUserBalance(userId, proceeds, 'TRADE', `Spot fill ${side} ${symbol}`);
     }
   }
 
@@ -1346,7 +1352,7 @@ class TradingService {
 
     const positionSide = this.mapOrderSideToPositionSide(side);
     await this.updateOrCreateFuturesPosition(userId, symbol, positionSide, quantity, price, leverage, margin);
-    await this.updateUserBalance(userId, -totalRequired, 'TRADE', `Futures fill ${side} ${quantity} ${symbol}`);
+    await this.updateUserBalance(userId, -totalRequired, 'TRADE', `Futures fill ${side} ${symbol}`);
   }
 
   async cancelOrder(userId, orderId) {
@@ -1379,11 +1385,124 @@ class TradingService {
         throw error;
       }
 
+      // Realtime will handle cache removal
       this.log('✅ Order cancelled successfully');
       return { success: true };
     } catch (error) {
       this.log('❌ Error cancelling order:', error);
       throw error;
+    }
+  }
+
+  async initializePendingOrdersCache() {
+    try {
+      this.log('Initializing pending orders cache');
+      this.pendingOrders.clear();
+
+      const { data, error } = await supabase
+        .from('orders')
+        .select('*')
+        .eq('user_id', this.userId)
+        .eq('status', 'PENDING');
+
+      if (error) {
+        this.log('Error fetching initial pending orders:', error);
+        throw error;
+      }
+
+      data.forEach(order => {
+        const sym = order.symbol;
+        if (!this.pendingOrders.has(sym)) {
+          this.pendingOrders.set(sym, new Map());
+        }
+        this.pendingOrders.get(sym).set(order.id, order);
+      });
+
+      this.log(`Cached ${data.length} pending orders`);
+    } catch (error) {
+      this.log('Error initializing pending orders cache:', error);
+    }
+  }
+
+  setupRealtime() {
+    if (this.realtimeChannel) return;
+
+    this.log('Setting up realtime for orders');
+
+    this.realtimeChannel = supabase
+      .channel(`orders_${this.userId}`)
+      .on('postgres_changes', {
+        event: '*',
+        schema: 'public',
+        table: 'orders',
+        filter: `user_id=eq.${this.userId}`
+      }, (payload) => {
+        this.handleOrderChange(payload);
+      })
+      .subscribe((status) => {
+        this.log('Realtime subscription status:', status);
+      });
+  }
+
+  handleOrderChange(payload) {
+    try {
+      this.log('Handling order change:', payload.eventType);
+
+      const { eventType, new: newRecord, old: oldRecord } = payload;
+      let order, symbol, id;
+
+      switch (eventType) {
+        case 'INSERT':
+          order = newRecord;
+          if (order.status === 'PENDING') {
+            symbol = order.symbol;
+            id = order.id;
+            if (!this.pendingOrders.has(symbol)) {
+              this.pendingOrders.set(symbol, new Map());
+            }
+            this.pendingOrders.get(symbol).set(id, order);
+            this.log(`Added new pending order ${id} for ${symbol}`);
+          }
+          break;
+
+        case 'UPDATE':
+          order = newRecord;
+          symbol = order.symbol;
+          id = order.id;
+          if (order.status !== 'PENDING') {
+            if (this.pendingOrders.has(symbol)) {
+              this.pendingOrders.get(symbol).delete(id);
+              if (this.pendingOrders.get(symbol).size === 0) {
+                this.pendingOrders.delete(symbol);
+              }
+              this.log(`Removed non-pending order ${id} for ${symbol}`);
+            }
+          } else {
+            if (this.pendingOrders.has(symbol)) {
+              this.pendingOrders.get(symbol).set(id, order);
+            } else {
+              this.pendingOrders.set(symbol, new Map([[id, order]]));
+            }
+            this.log(`Updated pending order ${id} for ${symbol}`);
+          }
+          break;
+
+        case 'DELETE':
+          if (oldRecord) {
+            symbol = oldRecord.symbol;
+            id = oldRecord.id;
+            if (this.pendingOrders.has(symbol)) {
+              this.pendingOrders.get(symbol).delete(id);
+              if (this.pendingOrders.get(symbol).size === 0) {
+                this.pendingOrders.delete(symbol);
+              }
+              this.log(`Deleted order ${id} for ${symbol}`);
+            }
+          }
+          break;
+      }
+    } catch (error) {
+      this.log('Error handling order change:', error);
     }
   }
 }
