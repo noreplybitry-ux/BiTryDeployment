@@ -1,4 +1,4 @@
-// Leaderboard.js
+// Leaderboard.js – NO artificial limits (fetches & displays EVERY trader with ≥1 trade, sorted by PNL)
 import React, { useState, useEffect } from "react";
 import "../css/Leaderboard.css";
 import { supabase } from "../lib/supabase";
@@ -41,13 +41,9 @@ const Leaderboard = () => {
       const { year, month, day, dayOfWeek } = getPHTDateComponents();
       const pad = (n) => String(n).padStart(2, "0");
 
-      // Today start
       const today = `${year}-${pad(month)}-${pad(day)}T00:00:00+08:00`;
-
-      // Month start
       const monthStart = `${year}-${pad(month)}-01T00:00:00+08:00`;
 
-      // Week start (Monday)
       let mondayDay = day - (dayOfWeek === 0 ? 6 : dayOfWeek - 1);
       let weekStartYear = year;
       let weekStartMonth = month;
@@ -72,6 +68,7 @@ const Leaderboard = () => {
         DAILY: today,
         WEEKLY: weekStart,
         MONTHLY: monthStart,
+        ALLTIME: null,
       };
 
       const data = {};
@@ -80,84 +77,47 @@ const Leaderboard = () => {
       const uTrades = {};
 
       for (const [period, start] of Object.entries(periods)) {
-        // Fetch balance changes
-        const { data: changes, error: chErr } = await supabase
-          .from("balance_history")
-          .select("user_id, change_amount, change_type")
-          .gte("created_at", start);
-
-        if (chErr) throw chErr;
-
-        // Filter out DEPOSIT and WITHDRAWAL
-        const filteredChanges = changes.filter(
-          (c) => !["DEPOSIT", "WITHDRAWAL"].includes(c.change_type)
+        // Fetch ALL traders (no limit) – sorted by PNL desc server-side
+        const { data: rawStats, error: rpcErr } = await supabase.rpc(
+          "get_leaderboard",
+          {
+            start_ts: start, // null for ALLTIME
+            p_limit: null, // ← this removes the limit → returns every trader with ≥1 trade
+          }
         );
 
-        // Compute sum per user
-        const userGains = {};
-        filteredChanges.forEach((c) => {
-          const uid = c.user_id;
-          if (!userGains[uid]) userGains[uid] = 0;
-          userGains[uid] += c.change_amount;
-        });
+        if (rpcErr) throw rpcErr;
 
-        // Fetch trades
-        const { data: trades, error: trErr } = await supabase
-          .from("trade_history")
-          .select("user_id")
-          .gte("created_at", start);
+        if (!rawStats || rawStats.length === 0) {
+          data[period] = [];
+          continue;
+        }
 
-        if (trErr) throw trErr;
-
-        // Compute count per user
-        const userTrades = {};
-        trades.forEach((t) => {
-          const uid = t.user_id;
-          if (!userTrades[uid]) userTrades[uid] = 0;
-          userTrades[uid]++;
-        });
-
-        // Get unique user_ids
-        const userIds = new Set([
-          ...Object.keys(userGains),
-          ...Object.keys(userTrades),
-        ]);
-
-        // Fetch public profiles
-        const { data: users, error: uErr } = await supabase
+        // Fetch profiles (RLS gives public + own profile)
+        const userIds = rawStats.map((s) => s.user_id);
+        const { data: profiles } = await supabase
           .from("profiles")
           .select("id, display_name, profile_picture_url")
-          .in("id", Array.from(userIds))
-          .eq("is_public", true);
+          .in("id", userIds);
 
-        if (uErr) throw uErr;
-
-        // Map users
-        const userMap = {};
-        users.forEach((u) => {
-          userMap[u.id] = u;
+        const profileMap = {};
+        profiles?.forEach((p) => {
+          profileMap[p.id] = p;
         });
 
-        // Build stats
-        let stats = [];
-        Object.keys(userMap).forEach((uid) => {
-          const gain = userGains[uid] || 0;
-          const count = userTrades[uid] || 0;
-          stats.push({
-            id: uid,
-            total_pnl: gain,
-            trade_count: count,
-            user: userMap[uid],
-          });
-        });
+        const stats = rawStats.map((raw) => ({
+          id: raw.user_id,
+          total_pnl: raw.total_pnl,
+          trade_count: raw.trade_count,
+          user: {
+            display_name:
+              profileMap[raw.user_id]?.display_name || "Anonymous Trader",
+            profile_picture_url:
+              profileMap[raw.user_id]?.profile_picture_url || null,
+          },
+        }));
 
-        // Filter out users with no trades
-        stats = stats.filter((s) => s.trade_count > 0);
-
-        // Sort by gain desc
-        stats.sort((a, b) => b.total_pnl - a.total_pnl);
-
-        // Compute user rank if applicable
+        // User's own rank (always accurate because we fetched everyone)
         if (user) {
           const userIndex = stats.findIndex((s) => s.id === user.id);
           if (userIndex !== -1) {
@@ -165,83 +125,18 @@ const Leaderboard = () => {
             uPnls[period] = stats[userIndex].total_pnl;
             uTrades[period] = stats[userIndex].trade_count;
           }
+          // if no trades → no rank → stays undefined (we show "make first trade" message)
         }
 
-        // Limit to 100
-        data[period] = stats.slice(0, 100);
+        data[period] = stats; // ← NO slice → show every single trader
       }
-
-      // All-time based on balance only (excluding portfolio_value), fetching all trades regardless of date
-      // Fetch all trades
-      const { data: allTrades, error: trErr } = await supabase
-        .from("trade_history")
-        .select("user_id");
-
-      if (trErr) throw trErr;
-
-      // Compute count per user
-      const allUserTrades = {};
-      allTrades.forEach((t) => {
-        const uid = t.user_id;
-        if (!allUserTrades[uid]) allUserTrades[uid] = 0;
-        allUserTrades[uid]++;
-      });
-
-      // Get unique user_ids with trades > 0
-      const userIdsWithTrades = Object.keys(allUserTrades).filter(
-        (uid) => allUserTrades[uid] > 0
-      );
-
-      // Fetch balances for these users
-      const { data: balances, error: balErr } = await supabase
-        .from("user_balances")
-        .select("user_id, balance")
-        .in("user_id", userIdsWithTrades);
-
-      if (balErr) throw balErr;
-
-      // Fetch public profiles for these users
-      const { data: profiles, error: profErr } = await supabase
-        .from("profiles")
-        .select("id, display_name, profile_picture_url")
-        .in("id", userIdsWithTrades)
-        .eq("is_public", true);
-
-      if (profErr) throw profErr;
-
-      const profileMap = {};
-      profiles.forEach((p) => {
-        profileMap[p.id] = p;
-      });
-
-      let allTimeStats = balances
-        .filter((b) => profileMap[b.user_id])
-        .map((b) => ({
-          id: b.user_id,
-          total_pnl: b.balance || 0,
-          trade_count: allUserTrades[b.user_id] || 0,
-          user: profileMap[b.user_id],
-        }))
-        .sort((a, b) => b.total_pnl - a.total_pnl);
-
-      // Compute user rank for ALLTIME
-      if (user) {
-        const userIndex = allTimeStats.findIndex((s) => s.id === user.id);
-        if (userIndex !== -1) {
-          uRanks["ALLTIME"] = userIndex + 1;
-          uPnls["ALLTIME"] = allTimeStats[userIndex].total_pnl;
-          uTrades["ALLTIME"] = allTimeStats[userIndex].trade_count;
-        }
-      }
-
-      data["ALLTIME"] = allTimeStats.slice(0, 100);
 
       setLeaderboardData(data);
       setUserRanks(uRanks);
       setUserPnls(uPnls);
       setUserTradeCounts(uTrades);
     } catch (err) {
-      console.error("Leaderboard fetch error:", err);
+      console.error(err);
       setError("Failed to load leaderboard: " + err.message);
     } finally {
       setLoading(false);
@@ -249,33 +144,27 @@ const Leaderboard = () => {
   };
 
   const fixProfileUrl = (url) => {
-    if (!url) return '';
-    if (url.includes('/object/public/')) return url;
-    return url.replace('/object/', '/object/public/');
+    if (!url) return "";
+    if (url.includes("/object/public/")) return url;
+    return url.replace("/object/", "/object/public/");
   };
 
   const renderTop3 = (data) => {
-    const isPercent = false;
-    if (data.length < 1) return <div className="empty-state">No data yet</div>;
+    if (data.length === 0)
+      return <div className="empty-state">No traders yet this period</div>;
 
-    const top3 = data.slice(0, 3);
-    const num = top3.length;
+    const top3 = data.slice(0, Math.min(3, data.length));
 
-    let podiumOrder, podiumMedals, places;
-
-    if (num === 1) {
-      podiumOrder = [0];
-      podiumMedals = ["🥇"];
-      places = [1];
-    } else if (num === 2) {
-      podiumOrder = [1, 0];
-      podiumMedals = ["🥈", "🥇"];
-      places = [2, 1];
-    } else {
-      podiumOrder = [1, 0, 2];
-      podiumMedals = ["🥈", "🥇", "🥉"];
-      places = [2, 1, 3];
-    }
+    const podiumOrder =
+      top3.length === 1 ? [0] : top3.length === 2 ? [1, 0] : [1, 0, 2];
+    const podiumMedals =
+      top3.length === 1
+        ? ["🥇"]
+        : top3.length === 2
+        ? ["🥈", "🥇"]
+        : ["🥈", "🥇", "🥉"];
+    const places =
+      top3.length === 1 ? [1] : top3.length === 2 ? [2, 1] : [2, 1, 3];
 
     return (
       <div className="top-3">
@@ -287,10 +176,13 @@ const Leaderboard = () => {
                 <img
                   src={
                     fixProfileUrl(top3[idx].user.profile_picture_url) ||
-                    "https://via.placeholder.com/100/808080/FFFFFF?text=👤"
+                    "https://via.placeholder.com/100/333333/FFFFFF?text=👤"
                   }
                   alt={top3[idx].user.display_name}
-                  onError={(e) => { e.target.src = 'https://via.placeholder.com/100/808080/FFFFFF?text=👤'; }}
+                  onError={(e) =>
+                    (e.target.src =
+                      "https://via.placeholder.com/100/333333/FFFFFF?text=👤")
+                  }
                 />
                 <div className="rank-badge">{podiumMedals[pos]}</div>
               </div>
@@ -311,14 +203,11 @@ const Leaderboard = () => {
   };
 
   const renderTable = (data) => {
-    let valueLabel;
-    if (activeTab === "ALLTIME") {
-      valueLabel = "Total Wealth";
-    } else {
-      valueLabel = "Net Gain";
-    }
-
     if (data.length <= 3) return null;
+
+    const valueLabel =
+      activeTab === "ALLTIME" ? "Lifetime Trading PNL" : "Period Net PNL";
+
     return (
       <div className="table-wrapper">
         <h2 className="table-title">Full Leaderboard</h2>
@@ -348,10 +237,10 @@ const Leaderboard = () => {
     );
   };
 
-  if (loading) {
-    return <div className="loading">Loading leaderboard...</div>;
-  }
+  if (loading) return <div className="loading">Loading leaderboard...</div>;
+  if (error) return <div className="error">{error}</div>;
 
+  const currentData = leaderboardData[activeTab] || [];
   const currentRank = userRanks[activeTab];
   const currentPnl = userPnls[activeTab];
   const currentTrades = userTradeCounts[activeTab];
@@ -367,7 +256,9 @@ const Leaderboard = () => {
               className={activeTab === tab ? "active" : ""}
               onClick={() => setActiveTab(tab)}
             >
-              {tab.charAt(0) + tab.slice(1).toLowerCase()}
+              {tab === "ALLTIME"
+                ? "All Time"
+                : tab.charAt(0) + tab.slice(1).toLowerCase()}
             </button>
           ))}
         </div>
@@ -379,24 +270,26 @@ const Leaderboard = () => {
           {loading ? "Loading..." : "Refresh"}
         </button>
       </header>
-      {error && <div className="error">{error}</div>}
-      <div className="leaderboard-content">
-        {renderTop3(leaderboardData[activeTab])}
-        {renderTable(leaderboardData[activeTab])}
-      </div>
+
+      {renderTop3(currentData)}
+      {renderTable(currentData)}
+
       {user ? (
         currentRank ? (
           <div className="your-rank">
             <h3>Your Rank: #{currentRank}</h3>
             <p className={currentPnl >= 0 ? "positive" : "negative"}>
-              ${currentPnl.toFixed(2)} ({currentTrades} trades)
+              ${Number(currentPnl || 0).toFixed(2)} ({currentTrades || 0}{" "}
+              trades)
             </p>
           </div>
         ) : (
-          <div className="your-rank">Not ranked in this category</div>
+          <div className="your-rank">
+            Make your first trade to appear on the leaderboard!
+          </div>
         )
       ) : (
-        <div className="auth-notice">Login to see your rank</div>
+        <div className="auth-notice">Log in to see your rank</div>
       )}
     </div>
   );
