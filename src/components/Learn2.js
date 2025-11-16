@@ -4,12 +4,10 @@ import { useAuth } from "../contexts/AuthContext";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import "../css/Learn2.css";
-
 const MODULE_API_KEY = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
 const TRANSLATION_API_KEY = "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q";
 const QUIZ_API_KEY = "AIzaSyD__yT5oimCLqnFGnLIX-GyiYwiqnlEtmI";
 const TAGLISH_QUIZ_API_KEY = "AIzaSyDQ0hiG0G24Euursr639qmRQnmTmzg9Tjg";
-
 const Learn2 = () => {
   const { user } = useAuth();
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -1144,7 +1142,7 @@ ${contentText.substring(0, 20000)}`;
           </div>
         ) : (
           <div className="modules-grid">
-            {generatedModules.map((module) => (
+            {(user ? generatedModules : generatedModules.slice(0, 5)).map((module) => (
               <div
                 key={module.id}
                 className="module-card"
@@ -1184,7 +1182,7 @@ ${contentText.substring(0, 20000)}`;
                       View Module →
                     </button>
                     {(moduleQuestionCounts[module.id] >= 5 ||
-                      moduleTaglishQuestionCounts[module.id] >= 5) && (
+                      moduleTaglishQuestionCounts[module.id] >= 5) && user && (
                       <button
                         className="btn btn-link"
                         onClick={(e) => {
@@ -1217,6 +1215,41 @@ ${contentText.substring(0, 20000)}`;
                 </div>
               </div>
             ))}
+          </div>
+        )}
+        {!user && generatedModules.length > 5 && (
+          <div className="login-prompt" style={{
+            textAlign: 'center',
+            padding: '60px 32px',
+            marginTop: '40px',
+            background: 'linear-gradient(135deg, rgba(108, 92, 231, 0.15), rgba(0, 212, 255, 0.15))',
+            borderRadius: '24px',
+            border: '2px solid var(--border)',
+            backdropFilter: 'blur(20px)',
+            boxShadow: '0 8px 32px rgba(0, 212, 255, 0.2)',
+            animation: 'fadeInUp 0.6s ease-out'
+          }}>
+            <p style={{
+              fontSize: '22px',
+              fontWeight: '700',
+              background: 'var(--gradient-primary)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              marginBottom: '16px',
+              letterSpacing: '-0.5px'
+            }}>
+              🚀 Ready to unlock your crypto learning journey?
+            </p>
+            <p style={{
+              fontSize: '16px',
+              color: 'var(--text-secondary)',
+              lineHeight: '1.7',
+              maxWidth: '600px',
+              margin: '0 auto'
+            }}>
+              Create an account to access <strong style={{color: 'var(--accent-primary)'}}>exclusive modules</strong>, earn rewards, and learn more about crypto!
+            </p>
           </div>
         )}
       </div>

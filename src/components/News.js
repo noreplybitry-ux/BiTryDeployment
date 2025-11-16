@@ -24,7 +24,6 @@ export default function News() {
   const INSIGHTS_CACHE_KEY = 'bitry_ai_insights';
   const CACHE_DURATION = 30 * 60 * 1000; // 30 minutes
   const INSIGHTS_CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days for AI insights
-  const API_KEY = 'eca0ba3938154abd9d66d996cfa36459';
   const GEMINI_API_KEY = 'AIzaSyBr7vOrfZHOVil_FRIptCoZTgCJupm1Hak';
   
   // Gemini AI Configuration
@@ -411,15 +410,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
       const articlesPerRequest = 100; // Max allowed by NewsAPI
       
       // Fetch from NewsAPI - Very specific for Filipino crypto beginners
-      const response = await fetch(
-        `https://newsapi.org/v2/everything?` +
-        `q=("bitcoin" OR "ethereum" OR "BTC" OR "ETH" OR "crypto price" OR "cryptocurrency market" OR "binance" OR "coinbase" OR "dogecoin" OR "solana" OR "cardano" OR "polygon" OR "chainlink" OR "avalanche" OR "crypto beginner" OR "how to buy crypto")&` +
-        `sortBy=publishedAt&` +
-        `pageSize=${articlesPerRequest}&` +
-        `language=en&` +
-        `domains=coindesk.com,cointelegraph.com,decrypt.co,cryptonews.com,bitcoin.com,bitcoinmagazine.com&` +
-        `apiKey=${API_KEY}`
-      );
+      const response = await fetch('/api/news');
 
       if (!response.ok) {
         if (response.status === 429) {
