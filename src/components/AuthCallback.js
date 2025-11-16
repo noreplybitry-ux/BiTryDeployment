@@ -51,21 +51,27 @@ const AuthCallback = () => {
 
   const createOrUpdateProfile = async (userId, userData) => {
     try {
-      // Extract names from Google metadata
-      const fullName = userData.full_name || '';
+      // Extract names from Google metadata, using multiple possible fields for robustness
+      const fullName = userData.full_name || userData.name || '';
       const nameParts = fullName.split(' ');
-      const firstName = nameParts[0] || '';
-      const lastName = nameParts.slice(1).join(' ') || '';
+      const firstName = userData.given_name || userData.first_name || nameParts[0] || '';
+      const lastName = userData.family_name || userData.last_name || nameParts.slice(1).join(' ') || '';
+
+      const profile = {
+        id: userId,
+        first_name: firstName,
+        last_name: lastName,
+        updated_at: new Date().toISOString()
+      };
+
+      // Only set birthday if explicitly provided (truthy value)
+      if (birthdayData) {
+        profile.birthday = birthdayData;
+      }
 
       const { error } = await supabase
         .from('profiles')
-        .upsert({
-          id: userId,
-          first_name: firstName,
-          last_name: lastName,
-          birthday: birthdayData,
-          updated_at: new Date().toISOString()
-        });
+        .upsert(profile);
 
       if (error) {
         throw error;
@@ -124,7 +130,12 @@ const AuthCallback = () => {
         const user = session.user;
         console.log('User authenticated:', user.id);
         
-        // Check if user has a complete profile
+        setUserMetadata(user.user_metadata || {});
+        
+        // Always update first_name and last_name from metadata (won't touch birthday since birthdayData is falsy)
+        await createOrUpdateProfile(user.id, user.user_metadata || {});
+        
+        // Check if user has a complete profile (specifically birthday)
         const hasCompleteProfile = await checkUserProfile(user.id);
         
         if (hasCompleteProfile) {
@@ -133,7 +144,6 @@ const AuthCallback = () => {
         } else {
           // Need to collect birthday
           setUserId(user.id);
-          setUserMetadata(user.user_metadata || {});
           setShowBirthdayModal(true);
           setLoading(false);
         }
