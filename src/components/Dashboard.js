@@ -29,7 +29,6 @@ import {
   FaSpinner,
 } from "react-icons/fa";
 import { usePortfolio } from "../hooks/usePortfolio"; // Import the portfolio hook for real data
-
 // Fallback icon mapping (used if fetch to CoinGecko fails or no match)
 const fallbackIconMap = {
   btc: { icon: "₿", color: "#F7931A" },
@@ -42,7 +41,6 @@ const fallbackIconMap = {
   avax: { icon: "▲", color: "#E84142" },
   matic: { icon: "◆", color: "#8247E5" },
 };
-
 /**
  * CryptoLogo
  * - Attempts to fetch a matching crypto logo from CoinGecko (public API).
@@ -60,18 +58,15 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
   const [imgUrl, setImgUrl] = useState(null);
   const [loading, setLoading] = useState(true);
   const [errored, setErrored] = useState(false);
-
   useEffect(() => {
     let mounted = true;
     setLoading(true);
     setErrored(false);
     setImgUrl(null);
-
     // Use CoinGecko search endpoint which returns thumb & large URLs for matches
     // e.g. https://api.coingecko.com/api/v3/search?query=btc
     const query = encodeURIComponent(baseSymbol);
     const url = `https://api.coingecko.com/api/v3/search?query=${query}`;
-
     fetch(url)
       .then((res) => {
         if (!res.ok) throw new Error("Search failed");
@@ -108,12 +103,10 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
         if (!mounted) return;
         setLoading(false);
       });
-
     return () => {
       mounted = false;
     };
   }, [baseSymbol]);
-
   // If we have an image URL, render it (with onError fallback)
   if (imgUrl && !errored) {
     return (
@@ -131,7 +124,6 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
       />
     );
   }
-
   // Fallback: stylized circle with glyph or generic dot
   const fallback = fallbackIconMap[baseSymbol] || {
     icon: "◯",
@@ -159,11 +151,9 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
     </div>
   );
 };
-
 // Modal component for editing profile information
 const EditModal = ({ isOpen, onClose, title, children }) => {
   if (!isOpen) return null;
-
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -178,7 +168,6 @@ const EditModal = ({ isOpen, onClose, title, children }) => {
     </div>
   );
 };
-
 export default function Dashboard() {
   const { user, loading: authLoading, signOut } = useAuth();
   const navigate = useNavigate();
@@ -187,7 +176,6 @@ export default function Dashboard() {
   const [timeFilter, setTimeFilter] = useState("7d");
   const [currency, setCurrency] = useState("USD");
   const [phpRate, setPhpRate] = useState(56);
-  
   // Profile state
   const [profile, setProfile] = useState({
     first_name: "",
@@ -196,11 +184,9 @@ export default function Dashboard() {
     birthday: null,
   });
   const [loading, setLoading] = useState(false);
-
   // Modal states
   const [editNameModal, setEditNameModal] = useState(false);
   const [changePasswordModal, setChangePasswordModal] = useState(false);
-
   // Form states
   const [nameForm, setNameForm] = useState({ first_name: "", last_name: "" });
   const [passwordForm, setPasswordForm] = useState({
@@ -215,10 +201,8 @@ export default function Dashboard() {
     text: "",
     isValid: false,
   });
-
   const fileInputRef = useRef(null);
   const [imageVersion, setImageVersion] = useState(0); // Added for cache busting
-
   // Use portfolio hook for real trading data
   const {
     balance: totalBalance,
@@ -229,7 +213,6 @@ export default function Dashboard() {
     loading: portfolioLoading,
     refreshPortfolio
   } = usePortfolio();
-
   // Fetch BTC price for equivalent calculation
   const [btcPrice, setBtcPrice] = useState(0);
   useEffect(() => {
@@ -244,7 +227,6 @@ export default function Dashboard() {
     };
     fetchBtcPrice();
   }, []);
-
   // Fetch USD to PHP rate
   useEffect(() => {
     fetch('https://api.exchangerate-api.com/v4/latest/USD')
@@ -252,11 +234,9 @@ export default function Dashboard() {
       .then(data => setPhpRate(data.rates.PHP || 56))
       .catch(() => setPhpRate(56));
   }, []);
-
   // Helper functions for currency
   const getDisplayAmount = (amount) => currency === 'USD' ? amount : amount * phpRate;
   const getCurrencySymbol = () => currency === 'USD' ? '$' : '₱';
-
   // Calculate derived stats from real data
   const totalBalanceBTC = totalBalance ? (totalBalance / btcPrice).toFixed(6) : 0;
   const availableBalance = totalBalance - (ongoingPositions.reduce((sum, pos) => sum + (pos.margin || 0), 0));
@@ -269,23 +249,19 @@ export default function Dashboard() {
     })
     .reduce((sum, trade) => sum + (trade.pnl || 0), 0);
   const dayChange = totalPnL > 0 ? ((totalPnL / totalBalance) * 100).toFixed(2) : 0; // % change based on current balance
-
   const totalTrades = recentTrades.length;
   const winningTrades = recentTrades.filter((trade) => (trade.pnl || 0) > 0).length;
   const losingTrades = recentTrades.filter((trade) => (trade.pnl || 0) < 0).length;
   const winRate = totalTrades > 0 ? ((winningTrades / totalTrades) * 100).toFixed(1) : 0;
   const totalRealizedPnL = recentTrades.reduce((sum, trade) => sum + (trade.pnl || 0), 0);
   const avgReturn = totalTrades > 0 ? (totalRealizedPnL / totalTrades).toFixed(2) : 0;
-
   const pnls = recentTrades.map(t => t.pnl || 0);
   const winningPnls = pnls.filter(p => p > 0);
   const losingPnls = pnls.filter(p => p < 0);
   const bestTrade = winningPnls.length > 0 ? Math.max(...winningPnls) : 0;
   const worstTrade = losingPnls.length > 0 ? Math.min(...losingPnls) : 0;
-
   const totalPositionsData = [{ name: "Wins", value: winningTrades }, { name: "Losses", value: losingTrades }];
   const winRateData = [{ name: "Wins", value: parseFloat(winRate) }, { name: "Losses", value: 100 - parseFloat(winRate) }];
-
   // Function to get filtered trades based on time period
   const getFilteredTrades = (period) => {
     const now = new Date();
@@ -300,7 +276,6 @@ export default function Dashboard() {
     const cutoff = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1000);
     return recentTrades.filter(trade => new Date(trade.created_at) >= cutoff);
   };
-
   // Map ongoing positions to table data
   const ongoingTradesData = ongoingPositions.map(pos => ({
     id: pos.id,
@@ -316,14 +291,12 @@ export default function Dashboard() {
     leverage: `${pos.leverage}x`,
     timestamp: new Date(pos.opened_at).toLocaleString()
   }));
-
   // Fetch user profile on component mount
   useEffect(() => {
     if (user) {
       fetchProfile();
     }
   }, [user]);
-
   // Refresh portfolio periodically
   useEffect(() => {
     if (user && !portfolioLoading) {
@@ -333,7 +306,6 @@ export default function Dashboard() {
       return () => clearInterval(interval);
     }
   }, [user, portfolioLoading, refreshPortfolio]);
-
   // Handle no user fallback
   useEffect(() => {
     if (!authLoading && !user) {
@@ -353,7 +325,6 @@ export default function Dashboard() {
       });
     }
   }, [authLoading, user, navigate]);
-
   // Password validation function
   const validatePassword = (password) => {
     const minLength = password.length >= 8;
@@ -361,7 +332,6 @@ export default function Dashboard() {
     const hasUpper = /[A-Z]/.test(password);
     const hasDigit = /[0-9]/.test(password);
     const hasSpecial = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]/.test(password);
-
     const validations = {
       minLength,
       hasLower,
@@ -369,18 +339,14 @@ export default function Dashboard() {
       hasDigit,
       hasSpecial,
     };
-
     const validCount = Object.values(validations).filter(Boolean).length;
     const isValid = validCount === 5;
-
     let strength = "Weak";
     let score = 0;
-
     if (validCount >= 3) {
       strength = "Medium";
       score = 1;
     }
-
     if (isValid && password.length >= 12) {
       strength = "Strong";
       score = 2;
@@ -388,7 +354,6 @@ export default function Dashboard() {
       strength = "Medium";
       score = 1;
     }
-
     return {
       isValid,
       score,
@@ -404,7 +369,6 @@ export default function Dashboard() {
       },
     };
   };
-
   // Update password strength when password changes
   useEffect(() => {
     if (passwordForm.new_password) {
@@ -414,13 +378,10 @@ export default function Dashboard() {
       setPasswordStrength({ score: 0, text: "", isValid: false });
     }
   }, [passwordForm.new_password]);
-
   // Check if user is from Google OAuth
   const isGoogleUser = user?.app_metadata?.provider === "google";
-
   const fetchProfile = async () => {
     if (!user) return;
-
     setLoading(true);
     try {
       // First try to get existing profile
@@ -429,7 +390,6 @@ export default function Dashboard() {
         .select("*")
         .eq("id", user.id)
         .maybeSingle(); // Use maybeSingle instead of single to avoid errors when no record exists
-
       if (error) {
         console.error("Error fetching profile:", error);
         // If there's an error, try to create a new profile
@@ -448,14 +408,12 @@ export default function Dashboard() {
           )
           .select()
           .single();
-
         if (createError) {
           console.error("Error creating profile:", createError);
           throw createError;
         }
         data = newProfile;
       }
-
       if (!data) {
         // Create profile if it doesn't exist
         const { data: newProfile, error: createError } = await supabase
@@ -469,14 +427,12 @@ export default function Dashboard() {
           ])
           .select()
           .single();
-
         if (createError) {
           console.error("Error creating profile:", createError);
           throw createError;
         }
         data = newProfile;
       }
-
       setProfile(data);
       setNameForm({
         first_name: data.first_name || "",
@@ -489,10 +445,8 @@ export default function Dashboard() {
       setLoading(false);
     }
   };
-
   const updateProfile = async (updates) => {
     if (!user) return { success: false, error: "No user found" };
-
     try {
       const { data, error } = await supabase
         .from("profiles")
@@ -505,12 +459,10 @@ export default function Dashboard() {
         )
         .select()
         .single();
-
       if (error) {
         console.error("Update profile error:", error);
         throw error;
       }
-
       setProfile(data);
       return { success: true, data };
     } catch (error) {
@@ -518,17 +470,14 @@ export default function Dashboard() {
       return { success: false, error: error.message };
     }
   };
-
   const handleNameUpdate = async (e) => {
     e.preventDefault();
     setLoading(true);
-
     try {
       const result = await updateProfile({
         first_name: nameForm.first_name.trim(),
         last_name: nameForm.last_name.trim(),
       });
-
       if (result.success) {
         setMessages({ success: "Name updated successfully!", error: "" });
         // Close modal after 1 second
@@ -551,25 +500,31 @@ export default function Dashboard() {
       setLoading(false);
     }
   };
-
   const handleProfilePictureUpload = async (event) => {
     const file = event.target.files[0];
     if (!file) return;
-
-    // Validate file type
-    if (!file.type.startsWith("image/")) {
-      setMessages({ error: "Please select an image file", success: "" });
+    // Validate file type based on extension (more reliable than file.type)
+    const fileExt = file.name.split(".").pop().toLowerCase();
+    const validExtensions = ["jpg", "jpeg", "png", "gif", "webp"];
+    if (!validExtensions.includes(fileExt)) {
+      setMessages({ error: "Please select a valid image file (jpg, jpeg, png, gif, webp)", success: "" });
       return;
     }
-
+    // Map extension to correct MIME type (to avoid browser misdetection)
+    const mimeMap = {
+      jpg: "image/jpeg",
+      jpeg: "image/jpeg",
+      png: "image/png",
+      gif: "image/gif",
+      webp: "image/webp",
+    };
+    const contentType = mimeMap[fileExt] || "image/jpeg"; // Default to jpeg if unknown
     // Validate file size (max 5MB)
     if (file.size > 5 * 1024 * 1024) {
       setMessages({ error: "Image must be less than 5MB", success: "" });
       return;
     }
-
     setUploadingImage(true);
-
     try {
       // Delete old profile picture if it exists
       if (profile.profile_picture_url) {
@@ -578,31 +533,26 @@ export default function Dashboard() {
           .from("profile-pictures")
           .remove([`${user.id}/${oldFileName}`]);
       }
-
       // Upload new profile picture
-      const fileExt = file.name.split(".").pop();
       const fileName = `${Date.now()}.${fileExt}`;
       const filePath = `${user.id}/${fileName}`;
-
       const { data: uploadData, error: uploadError } = await supabase.storage
         .from("profile-pictures")
-        .upload(filePath, file);
-
+        .upload(filePath, file, {
+          contentType, // Use mapped type instead of file.type
+        });
       if (uploadError) {
         console.error("Upload error:", uploadError);
         throw uploadError;
       }
-
       // Get public URL
       const { data: urlData } = supabase.storage
         .from("profile-pictures")
         .getPublicUrl(filePath);
-
       // Update profile with new picture URL
       const result = await updateProfile({
         profile_picture_url: urlData.publicUrl,
       });
-
       if (result.success) {
         setMessages({
           success: "Profile picture updated successfully!",
@@ -626,10 +576,8 @@ export default function Dashboard() {
       }
     }
   };
-
   const handlePasswordChange = async (e) => {
     e.preventDefault();
-
     if (!passwordStrength.isValid) {
       setMessages({
         error: "Password does not meet security requirements",
@@ -637,14 +585,11 @@ export default function Dashboard() {
       });
       return;
     }
-
     if (passwordForm.new_password !== passwordForm.confirm_password) {
       setMessages({ error: "New passwords do not match", success: "" });
       return;
     }
-
     setLoading(true);
-
     try {
       // For Google users, they might not have a current password, so we skip verification
       if (!isGoogleUser) {
@@ -653,31 +598,26 @@ export default function Dashboard() {
           email: user.email,
           password: passwordForm.current_password,
         });
-
         if (verifyError) {
           setMessages({ error: "Current password is incorrect", success: "" });
           setLoading(false);
           return;
         }
       }
-
       // Update password
       const { error: updateError } = await supabase.auth.updateUser({
         password: passwordForm.new_password,
       });
-
       if (updateError) {
         console.error("Password update error:", updateError);
         throw updateError;
       }
-
       setMessages({ success: "Password changed successfully!", error: "" });
       setPasswordForm({
         current_password: "",
         new_password: "",
         confirm_password: "",
       });
-
       // Close modal after 1 second
       setTimeout(() => {
         setChangePasswordModal(false);
@@ -693,7 +633,6 @@ export default function Dashboard() {
       setLoading(false);
     }
   };
-
   const handleSignOut = async () => {
     const result = await Swal.fire({
       title: "Are you sure?",
@@ -712,7 +651,6 @@ export default function Dashboard() {
         cancelButton: 'custom-swal-cancel-button'
       }
     });
-
     if (result.isConfirmed) {
       try {
         await signOut();
@@ -746,7 +684,6 @@ export default function Dashboard() {
       }
     }
   };
-
   // Clear messages after 5 seconds
   useEffect(() => {
     if (messages.success || messages.error) {
@@ -756,7 +693,6 @@ export default function Dashboard() {
       return () => clearTimeout(timer);
     }
   }, [messages]);
-
   const formatCurrency = (amount) => {
     const displayAmount = getDisplayAmount(amount);
     const sym = getCurrencySymbol();
@@ -764,26 +700,22 @@ export default function Dashboard() {
       ? `${sym}${Math.abs(displayAmount).toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
       : "••••••";
   };
-
   const formatPnL = (pnl, showSign = true) => {
     const displayAmount = getDisplayAmount(pnl);
     const sym = getCurrencySymbol();
     const sign = displayAmount >= 0 ? "+" : "";
     return `${showSign ? sign : ""}${sym}${Math.abs(displayAmount).toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
   };
-
   const formatPercent = (percent, showSign = true) => {
     const sign = percent >= 0 ? "+" : "";
     return `${showSign ? sign : ""}${percent.toFixed(2)}%`;
   };
-
   const getDisplayName = () => {
     if (profile.first_name || profile.last_name) {
       return `${profile.first_name || ""} ${profile.last_name || ""}`.trim();
     }
     return user?.email?.split("@")[0] || "User";
   };
-
   if (authLoading || portfolioLoading) {
     return (
       <div className="dashboard">
@@ -795,11 +727,9 @@ export default function Dashboard() {
       </div>
     );
   }
-
   if (!user) {
     return null; // The useEffect will handle the SweetAlert and navigation
   }
-
   return (
     <div className="dashboard">
       {/* Messages */}
@@ -810,7 +740,6 @@ export default function Dashboard() {
           {messages.success || messages.error}
         </div>
       )}
-
       {/* Sidebar */}
       <aside className="sidebar" aria-label="Sidebar">
         <nav className="sidebar-nav">
@@ -825,7 +754,6 @@ export default function Dashboard() {
             <IoBarChart className="sidebar-icon" />
             <span className="sidebar-label">Overview</span>
           </div>
-
           <div
             className={`sidebar-item ${
               activeTab === "history" ? "active" : ""
@@ -837,7 +765,6 @@ export default function Dashboard() {
             <FaHistory className="sidebar-icon" />
             <span className="sidebar-label">History</span>
           </div>
-
           <div
             className={`sidebar-item ${
               activeTab === "profile" ? "active" : ""
@@ -850,7 +777,6 @@ export default function Dashboard() {
             <span className="sidebar-label">Profile</span>
           </div>
         </nav>
-
         <div className="sidebar-footer">
           <div className="sidebar-item" onClick={handleSignOut}>
             <IoLogOut className="sidebar-icon" />
@@ -858,7 +784,6 @@ export default function Dashboard() {
           </div>
         </div>
       </aside>
-
       {/* Main Content */}
       <main className="main-content" role="main">
         {activeTab === "overview" && (
@@ -889,7 +814,6 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-
               <div className="summary-card pnl-card">
                 <div className="card-header">
                   <div className="card-title">
@@ -917,7 +841,6 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-
               <div className="summary-card stats-card">
                 <div className="card-header">
                   <div className="card-title">
@@ -945,7 +868,6 @@ export default function Dashboard() {
                 </div>
               </div>
             </div>
-
             {/* Active Positions */}
             <section className="page-card positions-section">
               <div className="section-header">
@@ -957,7 +879,6 @@ export default function Dashboard() {
                   </button>
                 </div>
               </div>
-
               {ongoingTradesData.length > 0 ? (
                 <div className="table-container">
                   <table className="modern-table">
@@ -1024,7 +945,6 @@ export default function Dashboard() {
                 </div>
               )}
             </section>
-
             {/* Performance Analytics */}
             <section className="page-card analytics-section">
               <div className="section-header">
@@ -1043,7 +963,6 @@ export default function Dashboard() {
                   ))}
                 </div>
               </div>
-
               {(() => {
                 const filteredTrades = getFilteredTrades(timeFilter);
                 const filteredTotalTrades = filteredTrades.length;
@@ -1055,10 +974,8 @@ export default function Dashboard() {
                 const filteredLosingPnls = filteredPnls.filter(p => p < 0);
                 const filteredBestTrade = filteredWinningPnls.length > 0 ? Math.max(...filteredWinningPnls) : 0;
                 const filteredWorstTrade = filteredLosingPnls.length > 0 ? Math.min(...filteredLosingPnls) : 0;
-
                 const filteredTotalPositionsData = [{ name: "Wins", value: filteredWinningTrades }, { name: "Losses", value: filteredLosingTrades }];
                 const filteredWinRateData = [{ name: "Wins", value: parseFloat(filteredWinRate) }, { name: "Losses", value: 100 - parseFloat(filteredWinRate) }];
-
                 return (
                   <div className="analytics-grid">
                     <div className="chart-card">
@@ -1079,7 +996,6 @@ export default function Dashboard() {
                         </div>
                       </div>
                     </div>
-
                     <div className="chart-card">
                       <div className="chart-header">
                         <h4>Win Rate</h4>
@@ -1104,7 +1020,6 @@ export default function Dashboard() {
             </section>
           </>
         )}
-
         {activeTab === "history" && (
           (() => {
             const filteredTrades = getFilteredTrades(timeFilter);
@@ -1121,7 +1036,6 @@ export default function Dashboard() {
               fees: getDisplayAmount(trade.fee || 0).toFixed(2),
               closeTime: new Date(trade.created_at).toLocaleString()
             }));
-
             return (
               <section className="page-card">
                 <div className="section-header">
@@ -1136,7 +1050,6 @@ export default function Dashboard() {
                     </div>
                   </div>
                 </div>
-
                 <div className="table-container">
                   <table className="modern-table">
                     <thead>
@@ -1184,7 +1097,6 @@ export default function Dashboard() {
             );
           })()
         )}
-
         {activeTab === "profile" && (
           <section className="page-card profile-section">
             <div className="profile-header">
@@ -1222,7 +1134,6 @@ export default function Dashboard() {
                 <p className="profile-email">{user?.email}</p>
               </div>
             </div>
-
             <div className="profile-grid">
               <div className="profile-card">
                 <h4>Profile Settings</h4>
@@ -1277,7 +1188,6 @@ export default function Dashboard() {
                   )}
                 </div>
               </div>
-
               <div className="profile-card">
                 <h4>Quick Stats</h4>
                 <div className="account-stats">
@@ -1298,7 +1208,6 @@ export default function Dashboard() {
             </div>
           </section>
         )}
-
         {/* Edit Name Modal */}
         <EditModal
           isOpen={editNameModal}
@@ -1356,7 +1265,6 @@ export default function Dashboard() {
             </div>
           </form>
         </EditModal>
-
         {/* Change Password Modal */}
         <EditModal
           isOpen={changePasswordModal}

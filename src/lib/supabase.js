@@ -3,8 +3,12 @@ import { createClient } from '@supabase/supabase-js'
 const supabaseUrl = process.env.REACT_APP_SUPABASE_URL
 const supabaseAnonKey = process.env.REACT_APP_SUPABASE_ANON_KEY
 
-if (!supabaseUrl || !supabaseAnonKey) {
-  throw new Error('Missing Supabase environment variables. Check your .env file.');
+// Add logging to debug env variables
+console.log('Supabase URL:', supabaseUrl || 'MISSING');
+console.log('Supabase Anon Key:', supabaseAnonKey ? 'SET (length: ' + supabaseAnonKey.length + ')' : 'MISSING');
+
+if (!supabaseUrl || !supabaseAnonKey || supabaseAnonKey.length === 0) {
+  throw new Error('Missing or invalid Supabase environment variables. Please check your .env file and ensure it contains valid REACT_APP_SUPABASE_URL and REACT_APP_SUPABASE_ANON_KEY. Restart your development server after updating .env.');
 }
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
@@ -14,11 +18,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
     detectSessionInUrl: true,
     storage: window.localStorage,
     flowType: 'pkce'
-  },
-  global: {
-    headers: {
-      'Content-Type': 'application/json'
-    }
   },
   db: {
     schema: 'public'
@@ -32,7 +31,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
 
 // FIXED: Add session change listener for debugging
 supabase.auth.onAuthStateChange((event, session) => {
-  console.log('[Supabase Auth]', event, session?.user?.id || 'No session');
+  console.log('[Supabase Auth]', event, session?.user?.id?.user?.id || 'No session');
   
   // Handle session expiry
   if (event === 'TOKEN_REFRESHED') {

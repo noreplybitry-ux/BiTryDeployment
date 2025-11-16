@@ -283,9 +283,15 @@ export default function Navbar() {
     return "User";
   };
 
+  const fixProfileUrl = (url) => {
+    if (!url) return '';
+    if (url.includes('/object/public/')) return url;
+    return url.replace('/object/', '/object/public/');
+  };
+
   const getProfilePicture = () => {
     if (profile?.profile_picture_url) {
-      return profile.profile_picture_url;
+      return fixProfileUrl(profile.profile_picture_url);
     }
     if (user?.user_metadata?.avatar_url) {
       return user.user_metadata.avatar_url;

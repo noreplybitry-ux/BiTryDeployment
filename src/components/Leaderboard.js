@@ -248,6 +248,12 @@ const Leaderboard = () => {
     }
   };
 
+  const fixProfileUrl = (url) => {
+    if (!url) return '';
+    if (url.includes('/object/public/')) return url;
+    return url.replace('/object/', '/object/public/');
+  };
+
   const renderTop3 = (data) => {
     const isPercent = false;
     if (data.length < 1) return <div className="empty-state">No data yet</div>;
@@ -280,10 +286,11 @@ const Leaderboard = () => {
               <div className="avatar">
                 <img
                   src={
-                    top3[idx].user.profile_picture_url ||
+                    fixProfileUrl(top3[idx].user.profile_picture_url) ||
                     "https://via.placeholder.com/100/808080/FFFFFF?text=👤"
                   }
                   alt={top3[idx].user.display_name}
+                  onError={(e) => { e.target.src = 'https://via.placeholder.com/100/808080/FFFFFF?text=👤'; }}
                 />
                 <div className="rank-badge">{podiumMedals[pos]}</div>
               </div>
