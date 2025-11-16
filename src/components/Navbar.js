@@ -438,7 +438,7 @@ export default function Navbar() {
                 </div>
 
                 <div className="mobile-user-actions">
-                  <NavLink to="/profile" className="profile-link">
+                  <NavLink to="/dashboard" className="profile-link">
                     Profile
                   </NavLink>
                   {!adminLoading && isAdmin && (

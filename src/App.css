@@ -246,6 +246,6 @@ body {
 .page-sub { margin: 0 0 14px 0; color: rgba(255,255,255,0.75); }
 
 @media (max-width: 480px) {
-  .main-area { margin: 10px; padding: 10px; }
+  .main-area { margin: 0; padding: 10px; }  /* Removed margin to eliminate black gaps; kept padding for internal spacing */
   .brand-text { display: none; }
 }
