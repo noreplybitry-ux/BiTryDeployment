@@ -217,6 +217,7 @@ export default function Dashboard() {
   });
 
   const fileInputRef = useRef(null);
+  const [imageVersion, setImageVersion] = useState(0); // Added for cache busting
 
   // Use portfolio hook for real trading data
   const {
@@ -607,6 +608,10 @@ export default function Dashboard() {
           success: "Profile picture updated successfully!",
           error: "",
         });
+        // Increment image version to force reload
+        setImageVersion(prev => prev + 1);
+        // Refresh profile from DB
+        await fetchProfile();
       } else {
         setMessages({ error: result.error, success: "" });
       }
@@ -1186,7 +1191,7 @@ export default function Dashboard() {
               <div className="profile-avatar">
                 {profile.profile_picture_url ? (
                   <img
-                    src={profile.profile_picture_url}
+                    src={`${profile.profile_picture_url}?v=${imageVersion}`}
                     alt="Profile"
                     className="profile-image"
                   />
