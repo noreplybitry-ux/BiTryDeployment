@@ -1036,68 +1036,50 @@ const Signup = () => {
               </h2>
               <h4 style={{ marginTop: "28px" }}>1. Acceptance of Terms</h4>
               <p>
-                By creating an account or using Barya (“the Platform”), you
-                agree to these Terms of Service and our Privacy Policy. If you
-                do not agree, do not use the Platform.
+                By creating an account or using BiTry (“the Platform”), you agree to these Terms of Service and our Privacy Policy. If you do not agree, do not use the Platform. BiTry is a web-based, gamified trading simulator that combines real market data, AI-powered Taglish lessons, and interactive tools for educational and entertainment purposes only.
               </p>
               <h4>2. Eligibility</h4>
               <p>
-                You must be at least 18 years old and legally capable of
-                entering into contracts. You are responsible for complying with
-                all laws in your jurisdiction.
+                You must be at least 18 years old to access the virtual trading simulator and legally capable of entering into contracts. Users under 18 may access educational modules only. You are responsible for complying with all laws in your jurisdiction, including those in the Republic of the Philippines.
               </p>
               <h4>3. Nature of the Service</h4>
               <p>
-                Barya is a simulated cryptocurrency trading game for educational
-                and entertainment purposes only. No real money or real
-                cryptocurrency is ever at risk or traded.
+                BiTry is a simulated cryptocurrency trading game for educational and entertainment purposes only. It provides spot and futures-style virtual trading with $barya (virtual currency). No real money or real cryptocurrency is ever at risk or traded.
               </p>
-              <h4>4. Barya Points</h4>
+              <h4>4. $barya Points</h4>
               <p>
-                Barya Points are virtual, non-transferable, and have no monetary
-                value. They cannot be redeemed for cash or any real-world goods.
+                $barya are virtual, non-transferable, and have no monetary value. They cannot be redeemed for cash or any real-world goods. Users receive a sign-up bonus of $10,000 and can earn more through quizzes and lessons.
               </p>
               <h4>5. Account Security</h4>
               <p>
-                You are responsible for maintaining the confidentiality of your
-                account credentials and for all activities that occur under your
-                account.
+                You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. Age restrictions are enforced based on provided birthdate.
               </p>
               <h4>6. Prohibited Conduct</h4>
               <p>
-                You may not: (a) use bots, scripts, or any automated means; (b)
-                attempt to gain unauthorized access; (c) harass or harm other
-                users; (d) violate any applicable laws.
+                You may not: (a) use bots, scripts, or any automated means; (b) attempt to gain unauthorized access; (c) harass or harm other users; (d) violate any applicable laws; (e) bypass age restrictions; (f) misuse AI-generated content.
               </p>
               <h4>7. Intellectual Property</h4>
               <p>
-                All content, trademarks, and data on the Platform are owned by
-                Barya or its licensors and protected by copyright and other
-                laws.
+                All content, trademarks, and data on the Platform, including AI-generated Taglish modules and quizzes, are owned by BiTry or its licensors and protected by copyright and other laws.
               </p>
               <h4>8. Disclaimer of Warranties</h4>
               <p>
-                THE PLATFORM IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT
-                WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED.
+                THE PLATFORM IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. Market data is for simulation only and may have delays.
               </p>
               <h4>9. Limitation of Liability</h4>
               <p>
-                TO THE MAXIMUM EXTENT PERMITTED BY LAW, BARYA WILL NOT BE LIABLE
-                FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
-                PUNITIVE DAMAGES.
+                TO THE MAXIMUM EXTENT PERMITTED BY LAW, BITRY WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM USE OF THE PLATFORM OR SIMULATED TRADING.
               </p>
               <h4>10. Termination</h4>
               <p>
-                We may suspend or terminate your account at any time, with or
-                without notice, for any reason.
+                We may suspend or terminate your account at any time, with or without notice, for any reason, including violation of age restrictions or prohibited conduct.
               </p>
               <h4>11. Governing Law</h4>
               <p>
-                These Terms are governed by the laws of the Republic of the
-                Philippines.
+                These Terms are governed by the laws of the Republic of the Philippines.
               </p>
               <h4>12. Contact</h4>
-              <p>support@barya.app</p>
+              <p>noreplybitry@gmail.com</p>
             </div>
             <div className="modal-footer">
               <button
@@ -1166,32 +1148,31 @@ const Signup = () => {
                   When you sign up with Google: name and email from your Google
                   account
                 </li>
+                <li>
+                  Usage data: trading simulations, quiz attempts, lesson progress, and interactions with AI-generated content
+                </li>
               </ul>
               <h4>2. How We Use Your Information</h4>
               <p>
-                To operate the service, improve the Platform, communicate with
-                you, prevent fraud, and comply with legal obligations.
+                To operate the service, improve the Platform (including AI personalization), communicate with you, enforce age restrictions, prevent fraud, and comply with legal obligations.
               </p>
               <h4>3. Sharing of Information</h4>
               <p>
-                We do not sell your personal data. We may share it with trusted
-                service providers (e.g., Supabase for authentication, analytics
-                providers) or when required by law.
+                We do not sell your personal data. We may share it with trusted service providers (e.g., Supabase for authentication, Binance API for market data, NewsAPI for news, AI services for content generation) or when required by law.
               </p>
               <h4>4. Data Security</h4>
               <p>
                 We use industry-standard measures to protect your data, but no
-                method is 100% secure.
+                method is 100% secure. Data is stored in compliance with tier limitations of services like Supabase.
               </p>
               <h4>5. Your Rights</h4>
               <p>
                 You may access, correct, or request deletion of your data by
-                contacting us at privacy@barya.app.
+                contacting us at noreplybitry@gmail.com.
               </p>
               <h4>6. Children’s Privacy</h4>
               <p>
-                The Platform is not intended for persons under 18. We do not
-                knowingly collect data from minors.
+                The Platform enforces age restrictions: full features are not intended for persons under 18. We do not knowingly collect data from minors without proper restrictions. Users under 18 are limited to educational content.
               </p>
               <h4>7. Changes</h4>
               <p>
@@ -1199,7 +1180,7 @@ const Signup = () => {
                 email or in-app notice.
               </p>
               <h4>8. Contact</h4>
-              <p>privacy@barya.app</p>
+              <p>noreplybitry@gmail.com</p>
             </div>
             <div className="modal-footer">
               <button

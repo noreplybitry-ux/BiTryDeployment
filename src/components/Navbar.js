@@ -350,7 +350,7 @@ export default function Navbar() {
             </li>
             <li>
               <NavLink
-                to="/learn2"
+                to="/learn"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Learn

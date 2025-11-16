@@ -71,7 +71,7 @@ const Homepage = () => {
       title: "Neural Learning",
       description: "AI-created cryptocurrency modules in English and Taglish",
       icon: "🧠",
-      stats: "10K+ Users",
+      stats: "Growing User Base",
       color: "#00d4ff",
       link: "./learn"
     },
@@ -80,7 +80,7 @@ const Homepage = () => {
       title: "Quantum Simulator",
       description: "Real-time trading simulation with leverage and spot markets",
       icon: "⚡",
-      stats: "₱10K Virtual",
+      stats: "$10K Virtual",
       color: "#00fff2",
       link: "./trade"
     },
@@ -292,7 +292,7 @@ const Homepage = () => {
             <span>Get Started Free</span>
             <div className="btn-glow"></div>
           </button>
-          <div className="cta-note">No credit card required • Start learning in minutes</div>
+          <div className="cta-note">Start learning in minutes</div>
         </div>
       </section>
     </div>
