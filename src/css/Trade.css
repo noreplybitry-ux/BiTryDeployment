@@ -2081,6 +2081,14 @@ body {
   letter-spacing: 0.5px;
 }
 
+.status-badge.cancelled {
+  background: rgba(248, 73, 96, 0.2);
+  color: var(--accent-red);
+  border: 1px solid rgba(248, 73, 96, 0.3);
+  font-size: 9px;
+  padding: 4px 6px;
+}
+
 .status-badge.success {
   background: rgba(2, 192, 118, 0.2);
   color: var(--accent-green);

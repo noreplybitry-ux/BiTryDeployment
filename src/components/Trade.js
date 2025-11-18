@@ -447,7 +447,7 @@ const OrderHistoryRow = ({ order, cryptoImages, onCancel }) => {
   const statusColor = {
     'FILLED': 'success',
     'PENDING': 'warning',
-    'CANCELLED': 'error',
+    'CANCELLED': 'cancelled',
     'REJECTED': 'error'
   }[order.status] || 'neutral';
   const orderImageUrl = cryptoImages[order.symbol];
