@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import tradingService from '../services/TradingService';
 import webSocketManager from '../services/WebSocketManager';
+import { supabase } from '../lib/supabase';
 
 export const usePortfolio = () => {
   const { user } = useAuth();
@@ -450,6 +451,79 @@ export const usePortfolio = () => {
       cleanupSubscriptions();
     };
   }, [user?.id]);
+
+  useEffect(() => {
+    if (!user?.id) return;
+
+    const handleRealtimeUpdate = (table, setState, idField = 'id') => (payload) => {
+      const { eventType, new: newRecord, old: oldRecord } = payload;
+      setState((prev) => {
+        switch (eventType) {
+          case 'INSERT':
+            return [newRecord, ...prev];
+          case 'UPDATE':
+            return prev.map((item) => item[idField] === newRecord[idField] ? newRecord : item);
+          case 'DELETE':
+            return prev.filter((item) => item[idField] !== oldRecord[idField]);
+          default:
+            return prev;
+        }
+      });
+    };
+
+    const ordersChannel = supabase
+      .channel('orders-channel')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'orders', filter: `user_id=eq.${user.id}` }, handleRealtimeUpdate('orders', setOrderHistory))
+      .subscribe();
+
+    const positionsChannel = supabase
+      .channel('positions-channel')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'positions', filter: `user_id=eq.${user.id}` }, (payload) => {
+        handleRealtimeUpdate('positions', setPositions)(payload);
+        if (payload.eventType === 'INSERT' || payload.eventType === 'UPDATE') {
+          subscribeToPositionUpdates(positions); // Resubscribe if needed
+        }
+      })
+      .subscribe();
+
+    const holdingsChannel = supabase
+      .channel('spot_holdings-channel')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'spot_holdings', filter: `user_id=eq.${user.id}` }, (payload) => {
+        handleRealtimeUpdate('spot_holdings', setSpotHoldings)(payload);
+        if (payload.eventType === 'INSERT' || payload.eventType === 'UPDATE') {
+          subscribeToSpotHoldingUpdates(spotHoldings);
+        }
+      })
+      .subscribe();
+
+    const balanceChannel = supabase
+      .channel('user_balances-channel')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'user_balances', filter: `user_id=eq.${user.id}` }, (payload) => {
+        if (payload.eventType === 'UPDATE') {
+          setBalance(payload.new.balance);
+        }
+      })
+      .subscribe();
+
+    const tradeHistoryChannel = supabase
+      .channel('trade_history-channel')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'trade_history', filter: `user_id=eq.${user.id}` }, handleRealtimeUpdate('trade_history', setTradeHistory))
+      .subscribe();
+
+    const balanceHistoryChannel = supabase
+      .channel('balance_history-channel')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'balance_history', filter: `user_id=eq.${user.id}` }, handleRealtimeUpdate('balance_history', setBalanceHistory))
+      .subscribe();
+
+    return () => {
+      supabase.removeChannel(ordersChannel);
+      supabase.removeChannel(positionsChannel);
+      supabase.removeChannel(holdingsChannel);
+      supabase.removeChannel(balanceChannel);
+      supabase.removeChannel(tradeHistoryChannel);
+      supabase.removeChannel(balanceHistoryChannel);
+    };
+  }, [user?.id, positions, spotHoldings]);
 
   const submitOrder = async (orderData) => {
     if (!user?.id) {

@@ -1115,7 +1115,12 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           `Fees: ${result.fees.toFixed(4)}\n` +
           `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
       }
-      setOrderSuccess(successMessage);
+      Swal.fire({
+        icon: 'success',
+        title: result.status === 'PENDING' ? 'Limit Order Placed' : 'Market Position Opened',
+        text: successMessage,
+        confirmButtonColor: '#3085d6'
+      });
       setQuantity("");
       if (orderType === 'limit') {
         userEditedRef.current = false;
@@ -1124,6 +1129,12 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     } catch (error) {
       console.error('Order submission error:', error);
       setOrderError(error.message);
+      Swal.fire({
+        icon: 'error',
+        title: 'Order Failed',
+        text: error.message,
+        confirmButtonColor: '#3085d6'
+      });
     } finally {
       setIsSubmittingOrder(false);
     }
@@ -1607,7 +1618,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                   if (result.isConfirmed) {
                     try {
                       await closeAllPositions();
-                      setOrderSuccess("All positions closed successfully");
                       Swal.fire({
                         icon: 'success',
                         title: 'Closed',
