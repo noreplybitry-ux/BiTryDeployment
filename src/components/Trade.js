@@ -1295,20 +1295,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
 
   return (
     <div className="trade-page">
-      {/* Notification Messages */}
-      {orderError && (
-        <div className="notification error">
-          <span>❌ {orderError}</span>
-          <button onClick={() => setOrderError("")}>×</button>
-        </div>
-      )}
-    
-      {orderSuccess && (
-        <div className="notification success">
-          <span>✅ Order Successful</span>
-          <button onClick={() => setOrderSuccess("")}>×</button>
-        </div>
-      )}
       <header className="trade-header">
         <div className="header-top">
           <div className="left-controls">

@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import tradingService from '../services/TradingService';
 import webSocketManager from '../services/WebSocketManager';
-import { supabase } from '../lib/supabase';
+import { supabase } from '../lib/supabase';  // Import supabase for realtime subscriptions
 
 export const usePortfolio = () => {
   const { user } = useAuth();
@@ -17,7 +17,6 @@ export const usePortfolio = () => {
   const [totalPortfolioValue, setTotalPortfolioValue] = useState(0);
   const [portfolioSummary, setPortfolioSummary] = useState({});
   const [initializationError, setInitializationError] = useState(null);
-
   const positionSubscriptions = useRef(new Map());
   const spotSubscriptions = useRef(new Map());
   const priceUpdateQueue = useRef(new Map());
@@ -25,11 +24,16 @@ export const usePortfolio = () => {
   const isInitialized = useRef(false);
   const isLoadingPortfolio = useRef(false); // New load lock
 
+  // Realtime channels
+  const positionsChannel = useRef(null);
+  const holdingsChannel = useRef(null);
+  const ordersChannel = useRef(null);
+  const balancesChannel = useRef(null);
+
   // Debug logging
   const debug = (message, data = null) => {
     console.log(`[usePortfolio] ${message}`, data || '');
   };
-
   // Minimal error handler - don't transform errors, just log and re-throw
   const handlePortfolioError = (operation, error) => {
     debug(`Error in ${operation}:`, {
@@ -39,20 +43,17 @@ export const usePortfolio = () => {
       hint: error.hint,
       name: error.name
     });
-    
-    // Just re-throw the original error without transformation
+   
     throw error;
   };
-
   const initializeService = useCallback(async () => {
     if (isInitialized.current) return true;
-
     try {
       debug('Initializing trading service...');
       setInitializationError(null);
-      
+     
       await tradingService.initialize();
-      
+     
       isInitialized.current = true;
       debug('Trading service initialized successfully');
       return true;
@@ -64,23 +65,22 @@ export const usePortfolio = () => {
       return false;
     }
   }, []);
-
   // Debounced price update function
   const debouncedPriceUpdate = useCallback((symbol, price, type) => {
     try {
       if (!symbol || !price || isNaN(price)) return;
-      
+     
       priceUpdateQueue.current.set(`${symbol}_${type}`, { symbol, price, type });
-      
+     
       if (updateTimer.current) {
         clearTimeout(updateTimer.current);
       }
-      
+     
       updateTimer.current = setTimeout(() => {
         try {
           const updates = Array.from(priceUpdateQueue.current.values());
           priceUpdateQueue.current.clear();
-          
+         
           updates.forEach(({ symbol, price, type }) => {
             try {
               if (type === 'futures') {
@@ -100,16 +100,13 @@ export const usePortfolio = () => {
       debug('Error in debouncedPriceUpdate:', error);
     }
   }, []);
-
   // Load portfolio data with load lock
   const loadPortfolioData = async (retries = 1) => {
     if (isLoadingPortfolio.current) {
       debug('Portfolio load already in progress, skipping');
       return;
     }
-
     isLoadingPortfolio.current = true;
-
     if (!user?.id) {
       debug('No user ID, resetting portfolio state');
       resetPortfolioState();
@@ -117,17 +114,14 @@ export const usePortfolio = () => {
       isLoadingPortfolio.current = false;
       return;
     }
-
     try {
       debug('Loading portfolio data for user:', user.id);
       setLoading(true);
       setInitializationError(null);
-
       const serviceReady = await initializeService();
       if (!serviceReady) {
         throw new Error('Unable to initialize trading service');
       }
-
       const results = await Promise.allSettled([
         tradingService.getUserBalance(user.id),
         tradingService.getOpenPositions(user.id),
@@ -136,7 +130,6 @@ export const usePortfolio = () => {
         tradingService.getTradeHistory(user.id, 100),
         tradingService.getPortfolioSummary(user.id)
       ]);
-
       const [
         balanceResult,
         positionsResult,
@@ -145,14 +138,12 @@ export const usePortfolio = () => {
         tradeHistoryResult,
         summaryResult
       ] = results;
-
       if (balanceResult.status === 'fulfilled') {
         setBalance(balanceResult.value || 0);
       } else {
         debug('Failed to load balance:', balanceResult.reason?.message);
         setBalance(0);
       }
-
       if (positionsResult.status === 'fulfilled') {
         const positions = positionsResult.value || [];
         setPositions(positions);
@@ -163,7 +154,6 @@ export const usePortfolio = () => {
         debug('Failed to load positions:', positionsResult.reason?.message);
         setPositions([]);
       }
-
       if (holdingsResult.status === 'fulfilled') {
         const holdings = holdingsResult.value || [];
         setSpotHoldings(holdings);
@@ -174,40 +164,35 @@ export const usePortfolio = () => {
         debug('Failed to load holdings:', holdingsResult.reason?.message);
         setSpotHoldings([]);
       }
-
       if (orderHistoryResult.status === 'fulfilled') {
         setOrderHistory(orderHistoryResult.value || []);
       } else {
         debug('Failed to load order history:', orderHistoryResult.reason?.message);
         setOrderHistory([]);
       }
-
       if (tradeHistoryResult.status === 'fulfilled') {
         setTradeHistory(tradeHistoryResult.value || []);
       } else {
         debug('Failed to load trade history:', tradeHistoryResult.reason?.message);
         setTradeHistory([]);
       }
-
       if (summaryResult.status === 'fulfilled') {
         setPortfolioSummary(summaryResult.value || {});
       } else {
         debug('Failed to load portfolio summary:', summaryResult.reason?.message);
         setPortfolioSummary({});
       }
-
       debug('Portfolio data loaded successfully');
-
     } catch (error) {
       console.error('Error loading portfolio data:', error);
-      
+     
       if (retries > 0) {
         debug(`Retrying portfolio load (${retries} attempts left)...`);
         setTimeout(() => loadPortfolioData(retries - 1), 2000);
         isLoadingPortfolio.current = false;
         return;
       }
-      
+     
       debug('Portfolio data load failed');
       setInitializationError(error.message || 'Failed to load portfolio data');
     } finally {
@@ -215,7 +200,6 @@ export const usePortfolio = () => {
       isLoadingPortfolio.current = false;
     }
   };
-
   const resetPortfolioState = () => {
     setBalance(0);
     setPositions([]);
@@ -229,7 +213,6 @@ export const usePortfolio = () => {
     setInitializationError(null);
     cleanupSubscriptions();
   };
-
   const cleanupSubscriptions = () => {
     try {
       positionSubscriptions.current.forEach(unsubscribe => {
@@ -248,13 +231,133 @@ export const usePortfolio = () => {
       });
       positionSubscriptions.current.clear();
       spotSubscriptions.current.clear();
-      
+     
       if (updateTimer.current) {
         clearTimeout(updateTimer.current);
         updateTimer.current = null;
       }
     } catch (error) {
       debug('Error during subscription cleanup:', error);
+    }
+  };
+
+  // New: Setup realtime subscriptions
+  const setupRealtimeSubscriptions = () => {
+    if (!user?.id) return;
+
+    // Positions channel
+    positionsChannel.current = supabase
+      .channel('positions_changes')
+      .on('postgres_changes', {
+        event: '*',
+        schema: 'public',
+        table: 'positions',
+        filter: `user_id=eq.${user.id}`
+      }, (payload) => {
+        handleRealtimeUpdate('positions', payload);
+      })
+      .subscribe();
+
+    // Spot holdings channel
+    holdingsChannel.current = supabase
+      .channel('spot_holdings_changes')
+      .on('postgres_changes', {
+        event: '*',
+        schema: 'public',
+        table: 'spot_holdings',
+        filter: `user_id=eq.${user.id}`
+      }, (payload) => {
+        handleRealtimeUpdate('spot_holdings', payload);
+      })
+      .subscribe();
+
+    // Orders channel
+    ordersChannel.current = supabase
+      .channel('orders_changes')
+      .on('postgres_changes', {
+        event: '*',
+        schema: 'public',
+        table: 'orders',
+        filter: `user_id=eq.${user.id}`
+      }, (payload) => {
+        handleRealtimeUpdate('orders', payload);
+      })
+      .subscribe();
+
+    // Balances channel
+    balancesChannel.current = supabase
+      .channel('user_balances_changes')
+      .on('postgres_changes', {
+        event: '*',
+        schema: 'public',
+        table: 'user_balances',
+        filter: `user_id=eq.${user.id}`
+      }, (payload) => {
+        handleRealtimeUpdate('user_balances', payload);
+      })
+      .subscribe();
+  };
+
+  // New: Handle realtime updates
+  const handleRealtimeUpdate = async (table, payload) => {
+    const { eventType, new: newRecord, old: oldRecord } = payload;
+
+    switch (table) {
+      case 'positions':
+        if (eventType === 'INSERT') {
+          setPositions(prev => [...prev, newRecord]);
+        } else if (eventType === 'UPDATE') {
+          setPositions(prev => prev.map(pos => pos.id === newRecord.id ? newRecord : pos));
+        } else if (eventType === 'DELETE') {
+          setPositions(prev => prev.filter(pos => pos.id !== oldRecord.id));
+        }
+        break;
+
+      case 'spot_holdings':
+        if (eventType === 'INSERT') {
+          setSpotHoldings(prev => [...prev, newRecord]);
+        } else if (eventType === 'UPDATE') {
+          setSpotHoldings(prev => prev.map(holding => holding.id === newRecord.id ? newRecord : holding));
+        } else if (eventType === 'DELETE') {
+          setSpotHoldings(prev => prev.filter(holding => holding.id !== oldRecord.id));
+        }
+        break;
+
+      case 'orders':
+        // For simplicity, reload full order history on change
+        const updatedOrders = await tradingService.getOrderHistory(user.id, 100);
+        setOrderHistory(updatedOrders || []);
+        break;
+
+      case 'user_balances':
+        if (eventType === 'UPDATE') {
+          setBalance(newRecord.balance || 0);
+        }
+        break;
+    }
+
+    // Refresh summary on any change
+    const updatedSummary = await tradingService.getPortfolioSummary(user.id);
+    setPortfolioSummary(updatedSummary || {});
+  };
+
+  // New: Cleanup realtime subscriptions
+  const cleanupRealtimeSubscriptions = () => {
+    if (positionsChannel.current) {
+      supabase.removeChannel(positionsChannel.current);
+      positionsChannel.current = null;
+    }
+    if (holdingsChannel.current) {
+      supabase.removeChannel(holdingsChannel.current);
+      holdingsChannel.current = null;
+    }
+    if (ordersChannel.current) {
+      supabase.removeChannel(ordersChannel.current);
+      ordersChannel.current = null;
+    }
+    if (balancesChannel.current) {
+      supabase.removeChannel(balancesChannel.current);
+      balancesChannel.current = null;
     }
   };
 
@@ -268,14 +371,12 @@ export const usePortfolio = () => {
         }
       });
       positionSubscriptions.current.clear();
-
       positions.forEach(position => {
         try {
           if (!webSocketManager || typeof webSocketManager.subscribe !== 'function') {
             debug('WebSocket manager not available for position updates');
             return;
           }
-
           const unsubscribe = webSocketManager.subscribe(
             position.symbol,
             'futures',
@@ -294,7 +395,6 @@ export const usePortfolio = () => {
       debug('Error in subscribeToPositionUpdates:', error);
     }
   };
-
   const subscribeToSpotHoldingUpdates = (holdings) => {
     try {
       spotSubscriptions.current.forEach(unsubscribe => {
@@ -305,14 +405,12 @@ export const usePortfolio = () => {
         }
       });
       spotSubscriptions.current.clear();
-
       holdings.forEach(holding => {
         try {
           if (!webSocketManager || typeof webSocketManager.subscribe !== 'function') {
             debug('WebSocket manager not available for spot updates');
             return;
           }
-
           const symbol = `${holding.symbol}USDT`;
           const unsubscribe = webSocketManager.subscribe(
             symbol,
@@ -332,19 +430,16 @@ export const usePortfolio = () => {
       debug('Error in subscribeToSpotHoldingUpdates:', error);
     }
   };
-
   const updatePositionPnL = (symbol, currentPrice) => {
     try {
       if (!symbol || !currentPrice || isNaN(currentPrice)) return;
-
-      setPositions(prevPositions => 
+      setPositions(prevPositions =>
         prevPositions.map(pos => {
           if (pos.symbol === symbol) {
-            const priceDiff = pos.side === 'LONG' 
-              ? currentPrice - pos.entry_price 
+            const priceDiff = pos.side === 'LONG'
+              ? currentPrice - pos.entry_price
               : pos.entry_price - currentPrice;
             const unrealizedPnL = priceDiff * pos.quantity;
-
             return {
               ...pos,
               current_price: currentPrice,
@@ -354,7 +449,6 @@ export const usePortfolio = () => {
           return pos;
         })
       );
-
       if (user?.id && isInitialized.current) {
         tradingService.updatePositionPnL(user.id, symbol, currentPrice).catch(error => {
           debug('Background position PnL update failed:', error);
@@ -364,17 +458,15 @@ export const usePortfolio = () => {
       debug('Error updating position PnL:', error);
     }
   };
-
   const updateSpotHoldingValue = (baseSymbol, currentPrice) => {
     try {
       if (!baseSymbol || !currentPrice || isNaN(currentPrice)) return;
-
       setSpotHoldings(prevHoldings =>
         prevHoldings.map(h => {
           if (h.symbol === baseSymbol) {
             const currentValue = h.quantity * currentPrice;
             const unrealizedPnl = (currentPrice - h.average_price) * h.quantity;
-            
+           
             return {
               ...h,
               current_price: currentPrice,
@@ -385,7 +477,6 @@ export const usePortfolio = () => {
           return h;
         })
       );
-
       if (user?.id && isInitialized.current) {
         tradingService.updateSpotHoldingCurrentPrice(user.id, baseSymbol, currentPrice).catch(error => {
           debug('Background spot holding update failed:', error);
@@ -395,19 +486,18 @@ export const usePortfolio = () => {
       debug('Error updating spot holding value:', error);
     }
   };
-
   useEffect(() => {
     try {
       const futuresPnL = positions.reduce((total, pos) => {
         const pnl = pos.unrealized_pnl || 0;
         return total + (isNaN(pnl) ? 0 : pnl);
       }, 0);
-      
+     
       const spotPnL = spotHoldings.reduce((total, holding) => {
         const pnl = holding.unrealized_pnl || 0;
         return total + (isNaN(pnl) ? 0 : pnl);
       }, 0);
-      
+     
       const totalPnL = futuresPnL + spotPnL;
       setTotalPnL(isNaN(totalPnL) ? 0 : totalPnL);
     } catch (error) {
@@ -415,20 +505,19 @@ export const usePortfolio = () => {
       setTotalPnL(0);
     }
   }, [positions, spotHoldings]);
-
   useEffect(() => {
     try {
       const spotValue = spotHoldings.reduce((total, holding) => {
         const value = holding.current_value || (holding.quantity * holding.average_price) || 0;
         return total + (isNaN(value) ? 0 : value);
       }, 0);
-      
+     
       const futuresValue = positions.reduce((total, pos) => {
         const margin = pos.margin || 0;
         const pnl = pos.unrealized_pnl || 0;
         return total + (isNaN(margin) ? 0 : margin) + (isNaN(pnl) ? 0 : pnl);
       }, 0);
-      
+     
       const portfolioValue = balance + spotValue + futuresValue;
       setTotalPortfolioValue(isNaN(portfolioValue) ? balance : portfolioValue);
     } catch (error) {
@@ -436,143 +525,58 @@ export const usePortfolio = () => {
       setTotalPortfolioValue(balance || 0);
     }
   }, [balance, positions, spotHoldings]);
-
   useEffect(() => {
     if (user?.id) {
       debug('User authenticated, loading portfolio data');
       loadPortfolioData();
+      setupRealtimeSubscriptions();  // Setup realtime
     } else {
       debug('User not authenticated, resetting state');
       resetPortfolioState();
       isInitialized.current = false;
+      cleanupRealtimeSubscriptions();  // Cleanup realtime
     }
-
     return () => {
       cleanupSubscriptions();
+      cleanupRealtimeSubscriptions();
     };
   }, [user?.id]);
-
-  useEffect(() => {
-    if (!user?.id) return;
-
-    const handleRealtimeUpdate = (table, setState, idField = 'id') => (payload) => {
-      const { eventType, new: newRecord, old: oldRecord } = payload;
-      setState((prev) => {
-        switch (eventType) {
-          case 'INSERT':
-            return [newRecord, ...prev];
-          case 'UPDATE':
-            return prev.map((item) => item[idField] === newRecord[idField] ? newRecord : item);
-          case 'DELETE':
-            return prev.filter((item) => item[idField] !== oldRecord[idField]);
-          default:
-            return prev;
-        }
-      });
-    };
-
-    const ordersChannel = supabase
-      .channel('orders-channel')
-      .on('postgres_changes', { event: '*', schema: 'public', table: 'orders', filter: `user_id=eq.${user.id}` }, handleRealtimeUpdate('orders', setOrderHistory))
-      .subscribe();
-
-    const positionsChannel = supabase
-      .channel('positions-channel')
-      .on('postgres_changes', { event: '*', schema: 'public', table: 'positions', filter: `user_id=eq.${user.id}` }, (payload) => {
-        handleRealtimeUpdate('positions', setPositions)(payload);
-        if (payload.eventType === 'INSERT' || payload.eventType === 'UPDATE') {
-          subscribeToPositionUpdates(positions); // Resubscribe if needed
-        }
-      })
-      .subscribe();
-
-    const holdingsChannel = supabase
-      .channel('spot_holdings-channel')
-      .on('postgres_changes', { event: '*', schema: 'public', table: 'spot_holdings', filter: `user_id=eq.${user.id}` }, (payload) => {
-        handleRealtimeUpdate('spot_holdings', setSpotHoldings)(payload);
-        if (payload.eventType === 'INSERT' || payload.eventType === 'UPDATE') {
-          subscribeToSpotHoldingUpdates(spotHoldings);
-        }
-      })
-      .subscribe();
-
-    const balanceChannel = supabase
-      .channel('user_balances-channel')
-      .on('postgres_changes', { event: '*', schema: 'public', table: 'user_balances', filter: `user_id=eq.${user.id}` }, (payload) => {
-        if (payload.eventType === 'UPDATE') {
-          setBalance(payload.new.balance);
-        }
-      })
-      .subscribe();
-
-    const tradeHistoryChannel = supabase
-      .channel('trade_history-channel')
-      .on('postgres_changes', { event: '*', schema: 'public', table: 'trade_history', filter: `user_id=eq.${user.id}` }, handleRealtimeUpdate('trade_history', setTradeHistory))
-      .subscribe();
-
-    const balanceHistoryChannel = supabase
-      .channel('balance_history-channel')
-      .on('postgres_changes', { event: '*', schema: 'public', table: 'balance_history', filter: `user_id=eq.${user.id}` }, handleRealtimeUpdate('balance_history', setBalanceHistory))
-      .subscribe();
-
-    return () => {
-      supabase.removeChannel(ordersChannel);
-      supabase.removeChannel(positionsChannel);
-      supabase.removeChannel(holdingsChannel);
-      supabase.removeChannel(balanceChannel);
-      supabase.removeChannel(tradeHistoryChannel);
-      supabase.removeChannel(balanceHistoryChannel);
-    };
-  }, [user?.id, positions, spotHoldings]);
-
   const submitOrder = async (orderData) => {
     if (!user?.id) {
       throw new Error('Please login to start trading');
     }
-
     debug('🚀 Starting order submission process');
     debug('Order data received:', orderData);
-
     const serviceReady = await initializeService();
     if (!serviceReady) {
       throw new Error('Trading service is not ready. Please wait a moment and try again.');
     }
-
     if (!orderData || typeof orderData !== 'object') {
       throw new Error('Invalid order data provided');
     }
-
     const { symbol, side, type, quantity, price, marketType } = orderData;
-
     if (!symbol || typeof symbol !== 'string') {
       throw new Error('Invalid trading symbol');
     }
-
     if (!side || !['BUY', 'SELL'].includes(side)) {
       throw new Error('Invalid order side. Must be BUY or SELL');
     }
-
     if (!type || !['MARKET', 'LIMIT'].includes(type)) {
       throw new Error('Invalid order type. Must be MARKET or LIMIT');
     }
-
     if (!quantity || isNaN(quantity) || quantity <= 0) {
       throw new Error('Invalid quantity. Must be a positive number');
     }
-
     if (type === 'LIMIT' && (!price || isNaN(price) || price <= 0)) {
       throw new Error('Limit orders require a valid positive price');
     }
-
     if (!marketType || !['SPOT', 'FUTURES'].includes(marketType)) {
       throw new Error('Invalid market type. Must be SPOT or FUTURES');
     }
-
     debug('✅ Pre-validation passed');
-
     try {
       let result;
-      
+     
       if (orderData.marketType === 'SPOT') {
         debug('📈 Submitting spot order...');
         result = await tradingService.submitSpotOrder(user.id, orderData);
@@ -580,108 +584,95 @@ export const usePortfolio = () => {
         debug('📊 Submitting futures order...');
         result = await tradingService.submitFuturesOrder(user.id, orderData);
       }
-
       debug('✅ Order submitted successfully, refreshing portfolio...');
-
       try {
         await loadPortfolioData();
         debug('✅ Portfolio data refreshed');
       } catch (refreshError) {
         debug('⚠️ Portfolio refresh failed (non-critical):', refreshError);
       }
-      
+     
       return result;
     } catch (error) {
       debug('❌ Order submission failed:', error);
       throw error;
     }
   };
-
   const closePosition = async (positionId, closePrice) => {
     if (!user?.id) {
       throw new Error('Please login to manage positions');
     }
-
     try {
       debug('Closing position:', { positionId, closePrice });
-      
+     
       const serviceReady = await initializeService();
       if (!serviceReady) {
         throw new Error('Trading service is not ready. Please wait a moment and try again.');
       }
-      
+     
       const position = positions.find(p => p.id === positionId);
       if (!position) {
         throw new Error('Position not found or may have already been closed');
       }
-
       if (!closePrice || isNaN(closePrice) || closePrice <= 0) {
         throw new Error('Invalid close price provided');
       }
-
       const pnl = tradingService.calculatePnL(position, closePrice);
       const result = await tradingService.closeFuturesPosition(user.id, position, closePrice, pnl);
-
       debug('Position closed successfully:', result);
-
       try {
         await loadPortfolioData();
       } catch (refreshError) {
         debug('Portfolio refresh after close failed (non-critical):', refreshError);
       }
-      
+     
       return result;
     } catch (error) {
       debug('Position closing failed:', error);
       throw error;
     }
   };
-
   const closeAllPositions = async () => {
     if (!user?.id) {
       throw new Error('Please login to manage positions');
     }
-    
+   
     try {
       debug('Closing all positions');
-      
+     
       const serviceReady = await initializeService();
       if (!serviceReady) {
         throw new Error('Trading service is not ready. Please wait a moment and try again.');
       }
-      
+     
       if (positions.length === 0) {
         return { success: true, closedCount: 0, message: 'No positions to close' };
       }
-
       const result = await tradingService.closeAllPositions(user.id);
-      
+     
       debug(`Close all positions result:`, result);
-      
+     
       try {
         await loadPortfolioData();
       } catch (refreshError) {
         debug('Portfolio refresh after close all failed (non-critical):', refreshError);
       }
-      
+     
       return result;
     } catch (error) {
       debug('Close all positions failed:', error);
       throw error;
     }
   };
-
   const cancelOrder = async (orderId) => {
     if (!user?.id) {
       throw new Error('Please login to manage orders');
     }
-
     try {
       const serviceReady = await initializeService();
       if (!serviceReady) {
         throw new Error('Trading service is not ready');
       }
-
       await tradingService.cancelOrder(user.id, orderId);
       await loadPortfolioData();
     } catch (error) {
@@ -689,16 +680,15 @@ export const usePortfolio = () => {
       throw error;
     }
   };
-
   const getBalanceHistory = async () => {
     if (!user?.id) return [];
-    
+   
     try {
       const serviceReady = await initializeService();
       if (!serviceReady) {
         throw new Error('Trading service is not ready');
       }
-      
+     
       const history = await tradingService.getBalanceHistory(user.id);
       setBalanceHistory(history || []);
       return history || [];
@@ -707,21 +697,19 @@ export const usePortfolio = () => {
       return [];
     }
   };
-
   const refreshPortfolio = async () => {
     debug('Manual portfolio refresh requested');
     await loadPortfolioData();
   };
-
   const refreshBalance = async () => {
     if (!user?.id) return 0;
-    
+   
     try {
       const serviceReady = await initializeService();
       if (!serviceReady) {
         throw new Error('Trading service is not ready');
       }
-      
+     
       const newBalance = await tradingService.getUserBalance(user.id);
       setBalance(newBalance || 0);
       return newBalance || 0;
@@ -730,21 +718,20 @@ export const usePortfolio = () => {
       throw error;
     }
   };
-
   const getPortfolioMetrics = useCallback(() => {
     try {
       const totalInvested = 10000;
       const currentValue = totalPortfolioValue || 0;
       const totalReturn = currentValue - totalInvested;
       const totalReturnPercent = totalInvested > 0 ? (totalReturn / totalInvested) * 100 : 0;
-      
+     
       const todaysPnL = positions.reduce((total, pos) => total + (pos.unrealized_pnl || 0), 0) +
                        spotHoldings.reduce((total, holding) => total + (holding.unrealized_pnl || 0), 0);
-      
+     
       const completedTrades = tradeHistory.filter(t => t.pnl !== null && t.pnl !== undefined);
       const winningTrades = completedTrades.filter(t => parseFloat(t.pnl) > 0);
       const winRate = completedTrades.length > 0 ? (winningTrades.length / completedTrades.length) * 100 : 0;
-      
+     
       return {
         totalReturn: isNaN(totalReturn) ? 0 : totalReturn,
         totalReturnPercent: isNaN(totalReturnPercent) ? 0 : totalReturnPercent,
@@ -769,25 +756,23 @@ export const usePortfolio = () => {
       };
     }
   }, [totalPortfolioValue, positions, spotHoldings, tradeHistory]);
-
   const usedMargin = positions.reduce((total, pos) => {
     const margin = pos.margin || 0;
     return total + (isNaN(margin) ? 0 : margin);
   }, 0);
-  
+ 
   const freeMargin = Math.max(0, balance - usedMargin);
-  
+ 
   const spotValue = spotHoldings.reduce((total, holding) => {
     const value = holding.current_value || (holding.quantity * holding.average_price) || 0;
     return total + (isNaN(value) ? 0 : value);
   }, 0);
-  
+ 
   const futuresValue = positions.reduce((total, pos) => {
     const margin = pos.margin || 0;
     const pnl = pos.unrealized_pnl || 0;
     return total + (isNaN(margin) ? 0 : margin) + (isNaN(pnl) ? 0 : pnl);
   }, 0);
-
   const totalExposure = positions.reduce((total, pos) => {
     const quantity = pos.quantity || 0;
     const price = pos.current_price || pos.entry_price || 0;
@@ -795,9 +780,7 @@ export const usePortfolio = () => {
     const exposure = quantity * price * leverage;
     return total + (isNaN(exposure) ? 0 : exposure);
   }, 0);
-
   const marginUtilization = balance > 0 ? (usedMargin / balance) * 100 : 0;
-
   return {
     balance: balance || 0,
     positions: positions || [],
@@ -810,13 +793,13 @@ export const usePortfolio = () => {
    portfolioSummary: portfolioSummary || {},
     loading,
     initializationError,
-
     usedMargin: usedMargin || 0,
     freeMargin: freeMargin || 0,
     spotValue: spotValue || 0,
     futuresValue: futuresValue || 0,
-    availableBalance: balance || 0,
-
+    totalExposure: totalExposure || 0,
+    marginUtilization: marginUtilization || 0,
+    totalPortfolioValue: totalPortfolioValue || 0,
     submitOrder,
     closePosition,
     closeAllPositions,
@@ -825,14 +808,13 @@ export const usePortfolio = () => {
     getBalanceHistory,
     getPortfolioMetrics,
     cancelOrder,
-
     portfolioMetrics: getPortfolioMetrics(),
-    
+   
     hasPositions: positions.length > 0,
     hasHoldings: spotHoldings.length > 0,
     isMarginSufficient: freeMargin > 0,
     isServiceReady: isInitialized.current,
-    
+   
     marginUtilization: isNaN(marginUtilization) ? 0 : marginUtilization,
     totalExposure: isNaN(totalExposure) ? 0 : totalExposure
   };
