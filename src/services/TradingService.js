@@ -1,4 +1,5 @@
 import { supabase } from '../lib/supabase';
+import webSocketManager from './WebSocketManager';
 
 class TradingService {
   
@@ -657,17 +658,21 @@ class TradingService {
   }
 
   async getCurrentPrice(symbol, marketType = 'SPOT') {
+    const wsMarketType = marketType === 'FUTURES' ? 'futures' : 'spot';
+    const cached = webSocketManager.getCurrentPrice(symbol, wsMarketType);
+    if (cached && cached.lastPrice > 0) {
+      return cached.lastPrice;
+    }
+    console.warn(`No cached price for ${symbol} (${marketType}), falling back to API fetch`);
     try {
       const baseUrl = marketType === 'FUTURES' ? 'https://fapi.binance.com/fapi/v1' : 'https://api.binance.com/api/v3';
       const response = await fetch(`${baseUrl}/ticker/price?symbol=${symbol}`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch price');
-      }
+      if (!response.ok) throw new Error('Failed to fetch price');
       const data = await response.json();
       return parseFloat(data.price) || 0;
     } catch (error) {
       console.error('Error fetching current price:', error);
-      return 0;
+      throw error;
     }
   }
 
@@ -703,9 +708,9 @@ class TradingService {
 
         let executionPrice;
         if (type === 'MARKET') {
-          executionPrice = await this.getCurrentPrice(symbol, 'SPOT');
+          executionPrice = price; // Use passed price from WS
           if (executionPrice <= 0) {
-            throw new Error('Unable to fetch market price');
+            throw new Error('Invalid market price provided');
           }
           // For market, check validations immediately
           if (side === 'SELL') {
@@ -886,9 +891,9 @@ class TradingService {
 
         let executionPrice;
         if (type === 'MARKET') {
-          executionPrice = await this.getCurrentPrice(symbol, 'FUTURES');
+          executionPrice = price; // Use passed price from WS
           if (executionPrice <= 0) {
-            throw new Error('Unable to fetch market price');
+            throw new Error('Invalid market price provided');
           }
           const positionValue = quantity * executionPrice;
           const margin = positionValue / leverage;
@@ -1046,8 +1051,8 @@ class TradingService {
             }
           }
         } else {
-          // Create new position
-          await this.createFuturesPosition(userId, symbol, side, quantity, executionPrice, leverage, margin);
+            // Create new position
+            await this.createFuturesPosition(userId, symbol, side, quantity, executionPrice, leverage, margin);
         }
       });
     } catch (error) {
