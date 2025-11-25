@@ -4,10 +4,14 @@ import { useAuth } from "../contexts/AuthContext";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import "../css/Learn2.css";
+
 const MODULE_API_KEY = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
 const TRANSLATION_API_KEY = "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q";
 const QUIZ_API_KEY = "AIzaSyD__yT5oimCLqnFGnLIX-GyiYwiqnlEtmI";
 const TAGLISH_QUIZ_API_KEY = "AIzaSyDQ0hiG0G24Euursr639qmRQnmTmzg9Tjg";
+const PEXELS_API_KEY = "YOUR_PEXELS_API_KEY"; // Replace with your actual Pexels API key
+const YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"; // Optional: Replace with your actual YouTube API key or leave empty
+
 const Learn2 = () => {
   const { user } = useAuth();
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -41,6 +45,10 @@ const Learn2 = () => {
     sections: [],
     taglish_intro: "",
     taglish_sections: [],
+    media_image_url: "",
+    media_photographer: "",
+    media_photographer_url: "",
+    media_video: "",
   });
   const [isUpdating, setIsUpdating] = useState(false);
   const [updateError, setUpdateError] = useState(null);
@@ -249,6 +257,10 @@ const Learn2 = () => {
       sections: module.content?.sections || [],
       taglish_intro: module.taglish_content?.intro || "",
       taglish_sections: module.taglish_content?.sections || [],
+      media_image_url: module.content?.media?.image?.url || "",
+      media_photographer: module.content?.media?.image?.photographer || "",
+      media_photographer_url: module.content?.media?.image?.photographer_url || "",
+      media_video: module.content?.media?.video || "",
     });
     setUpdateError(null);
     setIsEditModalOpen(true);
@@ -261,6 +273,10 @@ const Learn2 = () => {
       sections: [],
       taglish_intro: "",
       taglish_sections: [],
+      media_image_url: "",
+      media_photographer: "",
+      media_photographer_url: "",
+      media_video: "",
     });
     setUpdateError(null);
     setIsEditModalOpen(false);
@@ -270,13 +286,24 @@ const Learn2 = () => {
     setIsUpdating(true);
     setUpdateError(null);
     try {
+      const media = editFormData.media_image_url ? {
+        image: {
+          url: editFormData.media_image_url,
+          photographer: editFormData.media_photographer,
+          photographer_url: editFormData.media_photographer_url,
+        },
+        video: editFormData.media_video || null,
+      } : null;
+
       const updatedContent = {
         intro: editFormData.intro,
         sections: editFormData.sections,
+        media,
       };
       const updatedTaglishContent = {
         intro: editFormData.taglish_intro,
         sections: editFormData.taglish_sections,
+        media,
       };
       const { error } = await supabase
         .from("learning_modules")
@@ -416,6 +443,51 @@ Options: ${JSON.stringify(englishQuiz.options)}
       throw new Error(`Failed to translate quiz: ${error.message}`);
     }
   };
+  const fetchPexelsImage = async (query) => {
+    if (!PEXELS_API_KEY) return null;
+    try {
+      const response = await fetch(
+        `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=1`,
+        {
+          headers: {
+            Authorization: PEXELS_API_KEY,
+          },
+        }
+      );
+      const data = await response.json();
+      if (data.photos && data.photos.length > 0) {
+        const photo = data.photos[0];
+        return {
+          url: photo.src.large,
+          photographer: photo.photographer,
+          photographer_url: photo.photographer_url,
+        };
+      }
+      return null;
+    } catch (error) {
+      console.error("Error fetching Pexels image:", error);
+      return null;
+    }
+  };
+
+  const searchYouTubeVideo = async (query) => {
+    if (!YOUTUBE_API_KEY) return null;
+    try {
+      const response = await fetch(
+        `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(
+          query
+        )}&type=video&maxResults=1&key=${YOUTUBE_API_KEY}`
+      );
+      const data = await response.json();
+      if (data.items && data.items.length > 0) {
+        return data.items[0].id.videoId;
+      }
+      return null;
+    } catch (error) {
+      console.error("Error searching YouTube:", error);
+      return null;
+    }
+  };
   const generateModuleContent = async (module) => {
     const lengthGuidance = {
       Short: "approximately 500 words total",
@@ -498,7 +570,23 @@ Output only the section content, without headings: `;
         intro: introduction,
         sections: sections,
       };
+
+      // Fetch media
+      const query = `${module.keywords.join(" ")} cryptocurrency`;
+      const [image, videoId] = await Promise.all([
+        fetchPexelsImage(query),
+        searchYouTubeVideo(`${module.title} tutorial cryptocurrency`),
+      ]);
+      const video = videoId ? `https://www.youtube.com/embed/${videoId}` : null;
+
+      englishContent.media = {
+        image,
+        video,
+      };
+
       const taglishContent = await translateToTaglish(englishContent);
+      taglishContent.media = englishContent.media;
+
       console.log("✅ Successfully generated complete module");
       return { englishContent, taglishContent };
     } catch (error) {
@@ -597,6 +685,7 @@ Output only the section content, without headings: `;
         throw new Error("Module has no English content to translate.");
       console.log("Generating TagLish for module:", module);
       const taglishContent = await translateToTaglish(module.content);
+      taglishContent.media = module.content.media;
       console.log("Generated TagLish content:", taglishContent);
       const { error: updateError } = await supabase
         .from("learning_modules")
@@ -1639,6 +1728,61 @@ ${contentText.substring(0, 20000)}`;
                   </div>
                 ))}
               </div>
+              <div className="form-group">
+                <label className="form-label">Media</label>
+                <div className="form-group">
+                  <label htmlFor="media_image_url" className="form-label">Image URL</label>
+                  <input
+                    type="text"
+                    id="media_image_url"
+                    name="media_image_url"
+                    className="form-input"
+                    value={editFormData.media_image_url}
+                    onChange={handleEditFormChange}
+                    disabled={isUpdating}
+                    placeholder="https://images.pexels.com/..."
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="media_photographer" className="form-label">Photographer</label>
+                  <input
+                    type="text"
+                    id="media_photographer"
+                    name="media_photographer"
+                    className="form-input"
+                    value={editFormData.media_photographer}
+                    onChange={handleEditFormChange}
+                    disabled={isUpdating}
+                    placeholder="Photographer Name"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="media_photographer_url" className="form-label">Photographer URL</label>
+                  <input
+                    type="text"
+                    id="media_photographer_url"
+                    name="media_photographer_url"
+                    className="form-input"
+                    value={editFormData.media_photographer_url}
+                    onChange={handleEditFormChange}
+                    disabled={isUpdating}
+                    placeholder="https://www.pexels.com/@photographer"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="media_video" className="form-label">Video Embed URL</label>
+                  <input
+                    type="text"
+                    id="media_video"
+                    name="media_video"
+                    className="form-input"
+                    value={editFormData.media_video}
+                    onChange={handleEditFormChange}
+                    disabled={isUpdating}
+                    placeholder="https://www.youtube.com/embed/VIDEO_ID"
+                  />
+                </div>
+              </div>
               <div className="form-actions">
                 <button
                   type="submit"
@@ -1685,6 +1829,37 @@ ${contentText.substring(0, 20000)}`;
                     <option value="english">English</option>
                     <option value="taglish">TagLish</option>
                   </select>
+                </div>
+                <div className="module-media">
+                  {(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media) && (
+                    <>
+                      {((language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).image) && (
+                        <>
+                          <img 
+                            src={(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).image.url} 
+                            alt="Module illustration" 
+                            style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px', borderRadius: '8px', display: 'block', margin: '0 auto' }} 
+                          />
+                          <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '8px', textAlign: 'center' }}>
+                            Photo by <a href={(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).image.photographer_url} target="_blank" rel="noopener noreferrer">
+                              {(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).image.photographer}
+                            </a> on Pexels
+                          </p>
+                        </>
+                      )}
+                      {((language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).video) && (
+                        <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, marginTop: '20px' }}>
+                          <iframe 
+                            src={(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).video}
+                            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '8px' }}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                          ></iframe>
+                        </div>
+                      )}
+                    </>
+                  )}
                 </div>
                 <div className="module-intro-section">
                   <h4>Introduction</h4>
