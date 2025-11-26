@@ -8,6 +8,7 @@ import webSocketManager from "../services/WebSocketManager";
 import Swal from 'sweetalert2';
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabase";
+import tradingService from "../services/TradingService";
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
 const getCryptoIcon = (symbol) => {
@@ -857,6 +858,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       return acc;
     }, {});
   }, [cryptoList]);
+  const prevOrdersRef = useRef([]);
   useEffect(() => {
     if (orderError) {
       const timer = setTimeout(() => setOrderError(""), 5000);
@@ -869,101 +871,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       return () => clearTimeout(timer);
     }
   }, [orderSuccess]);
-  useEffect(() => {
-    let isMounted = true;
-    const fetchTopCryptos = async () => {
-      try {
-        setLoading(true);
-        const page = cryptoPage;
-        const response = await fetch(
-          `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=${page}&sparkline=false&price_change_percentage=24h`
-        );
-        if (!response.ok) throw new Error("Failed to fetch crypto markets");
-        const data = await response.json();
-        if (!Array.isArray(data) || data.length === 0) {
-          setHasMoreCryptos(false);
-          setLoading(false);
-          return;
-        }
-        const binanceSymbols = data
-          .map((coin) => ({
-            coin,
-            candidate: `${coin.symbol.toUpperCase()}USDT`,
-          }))
-          .map((c) => ({
-            value: c.candidate,
-            label: `${c.coin.name} (${c.coin.symbol.toUpperCase()}/USDT)`,
-            priceChange24h: c.coin.price_change_percentage_24h || 0,
-            symbol: c.coin.symbol.toUpperCase(),
-            marketCap: c.coin.market_cap || 0,
-            image: c.coin.image || null,
-          }));
-        const uniqueSymbols = binanceSymbols.reduce((acc, current) => {
-          const x = acc.find((item) => item.value === current.value);
-          if (!x) return acc.concat([current]);
-          return acc;
-        }, []);
-        if (!isMounted) return;
-        if (page === 1) {
-          setCryptoList(uniqueSymbols);
-        } else {
-          setCryptoList((prev) => {
-            const combined = [...prev, ...uniqueSymbols];
-            const deduped = combined.reduce((acc, cur) => {
-              if (!acc.find((x) => x.value === cur.value)) acc.push(cur);
-              return acc;
-            }, []);
-            return deduped;
-          });
-        }
-        setLoading(false);
-      } catch (err) {
-        console.error("Failed to fetch cryptocurrencies:", err);
-        setLoading(false);
-        if (cryptoPage === 1) {
-          setCryptoList(getFallbackCryptos());
-        }
-      }
-    };
-    fetchTopCryptos();
-    return () => {
-      isMounted = false;
-    };
-  }, [cryptoPage, isFutures]);
-  const getFallbackCryptos = () => {
-    const popularCryptos = [
-      "BTC", "ETH", "BNB", "ADA", "XRP", "SOL", "DOT", "DOGE", "SHIB", "MATIC",
-      "AVAX", "LTC", "LINK", "ATOM", "XLM", "ALGO", "VET", "FIL", "TRX", "ETC"
-    ];
-    return popularCryptos.map((sym) => ({
-      value: `${sym}USDT`,
-      label: `${sym}/USDT`,
-      priceChange24h: 0,
-      symbol: sym,
-      marketCap: 0,
-      image: null,
-    }));
-  };
-  useEffect(() => {
-    if (!searchTerm) {
-      setFilteredCrypto(cryptoList);
-    } else {
-      const term = searchTerm.toLowerCase();
-      const filtered = cryptoList.filter(
-        (crypto) =>
-          crypto.label.toLowerCase().includes(term) ||
-          crypto.value.toLowerCase().includes(term) ||
-          crypto.symbol.toLowerCase().includes(term)
-      );
-      setFilteredCrypto(filtered);
-    }
-  }, [searchTerm, cryptoList]);
-  useEffect(() => {
-    if (!cryptoList || cryptoList.length === 0) return;
-    if (!cryptoList.find((c) => c.value === symbol)) {
-      setSymbol(cryptoList[0].value);
-    }
-  }, [cryptoList, symbol]);
   useEffect(() => {
     userEditedRef.current = false;
     setSelectedPrice("");
@@ -988,27 +895,24 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const getMinQty = () => {
     return 0.0001; // Fallback always, no Binance fetch
   };
-  const calculatePositionValue = () => {
+  const calculateNotionalValue = () => {
     const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
     const qty = parseFloat(quantity);
     if (!price || !qty || qty < getMinQty() || price <= 0) return 0;
-    const val = price * qty;
-    if (isFutures) return val * leverage;
-    return val;
+    return price * qty;
   };
+  const calculatePositionValue = calculateNotionalValue;
   const calculateFees = () => {
-    const positionValue = parseFloat(calculatePositionValue() || 0);
+    const notionalValue = calculateNotionalValue();
     const feeRate = isFutures ? 0.0004 : 0.001;
-    const fees = positionValue * feeRate;
+    const fees = notionalValue * feeRate;
     return isNaN(fees) ? "0.00" : fees.toFixed(4);
   };
   const calculateRequiredMargin = () => {
-    const price = orderType === "market" ? rawLastPrice : parseFloat(selectedPrice);
-    const qty = parseFloat(quantity);
-    if (!price || !qty || !isFutures || price <= 0) return 0;
-    const positionValue = price * qty;
-    if (isNaN(positionValue)) return 0;
-    return (positionValue / leverage).toFixed(2);
+    const notionalValue = calculateNotionalValue();
+    if (!isFutures) return 0;
+    if (isNaN(notionalValue)) return 0;
+    return (notionalValue / leverage).toFixed(2);
   };
   const getMaxSellQuantity = () => {
     if (isFutures) return null;
@@ -1109,6 +1013,11 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         successMessage = `Limit ${side} order placed successfully!\n` +
           `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)} (Pending)\n` +
           `${isFutures ? `Leverage: ${leverage}x` : "Spot Trading"}`;
+        // Immediately check if the new limit order can be filled based on current price
+        if (rawLastPrice > 0) {
+          await tradingService.processPendingOrdersForSymbol(symbol, rawLastPrice);
+          await refreshPortfolio(); // Ensure immediate state update for alert
+        }
       } else {
         successMessage = `${side} order executed successfully!\n` +
           `${qty} ${symbol.replace("USDT", "")} at ${price.toFixed(4)}\n` +
@@ -1179,7 +1088,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       c.symbol.toLowerCase() === low ||
       c.value.toLowerCase() === `${low}usdt`
     );
-  
     if (exact) {
       if (exact.value !== symbol) setSymbol(exact.value);
       setFilteredCrypto([exact]);
@@ -1197,7 +1105,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         crypto.value.toLowerCase().includes(low) ||
         crypto.symbol.toLowerCase().includes(low)
     );
-  
     if (includes.length > 0) {
       const first = includes[0];
       if (first.value !== symbol) setSymbol(first.value);
@@ -1244,19 +1151,16 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         setIsAgeVerified(false);
         return;
       }
-
       const checkAge = async () => {
         const { data, error } = await supabase
           .from('profiles')
           .select('birthday')
           .eq('id', user.id)
           .single();
-
         if (error || !data?.birthday) {
           setIsAgeVerified(false);
           return;
         }
-
         const birthDate = new Date(data.birthday);
         const today = new Date();
         let age = today.getFullYear() - birthDate.getFullYear();
@@ -1264,7 +1168,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
           age--;
         }
-
         if (age < 18) {
           Swal.fire({
             icon: 'warning',
@@ -1280,19 +1183,128 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           setIsAgeVerified(true);
         }
       };
-
       checkAge();
     });
   }, [user, navigate]);
-
+  useEffect(() => {
+    let isMounted = true;
+    const fetchTopCryptos = async () => {
+      try {
+        setLoading(true);
+        const page = cryptoPage;
+        const response = await fetch(
+          `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=${page}&sparkline=false&price_change_percentage=24h`
+        );
+        if (!response.ok) throw new Error("Failed to fetch crypto markets");
+        const data = await response.json();
+        if (!Array.isArray(data) || data.length === 0) {
+          setHasMoreCryptos(false);
+          setLoading(false);
+          return;
+        }
+        const binanceSymbols = data
+          .map((coin) => ({
+            coin,
+            candidate: `${coin.symbol.toUpperCase()}USDT`,
+          }))
+          .map((c) => ({
+            value: c.candidate,
+            label: `${c.coin.name} (${c.coin.symbol.toUpperCase()}/USDT)`,
+            priceChange24h: c.coin.price_change_percentage_24h || 0,
+            symbol: c.coin.symbol.toUpperCase(),
+            marketCap: c.coin.market_cap || 0,
+            image: c.coin.image || null,
+          }));
+        const uniqueSymbols = binanceSymbols.reduce((acc, current) => {
+          const x = acc.find((item) => item.value === current.value);
+          if (!x) return acc.concat([current]);
+          return acc;
+        }, []);
+        if (!isMounted) return;
+        if (page === 1) {
+          setCryptoList(uniqueSymbols);
+        } else {
+          setCryptoList((prev) => {
+            const combined = [...prev, ...uniqueSymbols];
+            const deduped = combined.reduce((acc, cur) => {
+              if (!acc.find((x) => x.value === cur.value)) acc.push(cur);
+              return acc;
+            }, []);
+            return deduped;
+          });
+        }
+        setLoading(false);
+      } catch (err) {
+        console.error("Failed to fetch cryptocurrencies:", err);
+        setLoading(false);
+        if (cryptoPage === 1) {
+          setCryptoList(getFallbackCryptos());
+        }
+      }
+    };
+    fetchTopCryptos();
+    return () => {
+      isMounted = false;
+    };
+  }, [cryptoPage, isFutures]);
+  const getFallbackCryptos = () => {
+    const popularCryptos = [
+      "BTC", "ETH", "BNB", "ADA", "XRP", "SOL", "DOT", "DOGE", "SHIB", "MATIC",
+      "AVAX", "LTC", "LINK", "ATOM", "XLM", "ALGO", "VET", "FIL", "TRX", "ETC"
+    ];
+    return popularCryptos.map((sym) => ({
+      value: `${sym}USDT`,
+      label: `${sym}/USDT`,
+      priceChange24h: 0,
+      symbol: sym,
+      marketCap: 0,
+      image: null,
+    }));
+  };
+  useEffect(() => {
+    if (!searchTerm) {
+      setFilteredCrypto(cryptoList);
+    } else {
+      const term = searchTerm.toLowerCase();
+      const filtered = cryptoList.filter(
+        (crypto) =>
+          crypto.label.toLowerCase().includes(term) ||
+          crypto.value.toLowerCase().includes(term) ||
+          crypto.symbol.toLowerCase().includes(term)
+      );
+      setFilteredCrypto(filtered);
+    }
+  }, [searchTerm, cryptoList]);
+  useEffect(() => {
+    if (!cryptoList || cryptoList.length === 0) return;
+    if (!cryptoList.find((c) => c.value === symbol)) {
+      setSymbol(cryptoList[0].value);
+    }
+  }, [cryptoList, symbol]);
+  useEffect(() => {
+    orderHistory.forEach((order) => {
+      const prevOrder = prevOrdersRef.current.find((p) => p.id === order.id);
+      if (prevOrder && prevOrder.status === "PENDING" && order.status === "FILLED") {
+        const successMessage = `${order.side} order executed successfully!\n` +
+          `${order.quantity} ${order.symbol.replace("USDT", "")} at ${order.price.toFixed(4)}\n` +
+          `Fees: ${order.fee.toFixed(4)}\n` +
+          `${order.market_type === "FUTURES" ? `Leverage: ${order.leverage}x` : "Spot Trading"}`;
+        Swal.fire({
+          icon: "success",
+          title: "Limit Order Executed",
+          text: successMessage,
+          confirmButtonColor: "#3085d6",
+        });
+      }
+    });
+    prevOrdersRef.current = [...orderHistory];
+  }, [orderHistory]);
   if (isAgeVerified === null) {
     return <div className="loading">Checking age...</div>;
   }
-
   if (!isAgeVerified && user) {
     return null; // Redirect already handled in Swal
   }
-
   return (
     <div className="trade-page">
       <header className="trade-header">
@@ -1313,7 +1325,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </div>
             </div>
-          
+        
             <div className="price-display">
               <div className="current-price">${lastPrice}</div>
               <div className={`price-change ${parseFloat(priceChange.percent) >= 0 ? "positive" : "negative"}`}>
@@ -1370,7 +1382,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 ${balance.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-          
+        
             {isFutures && (
               <>
                 <div className="margin-card">
@@ -1387,14 +1399,14 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </>
             )}
-          
+        
             <div className="pnl-card">
               <div className="pnl-label">Total P&L</div>
               <div className={`pnl-value ${totalPnL >= 0 ? "positive" : "negative"}`}>
                 {totalPnL >= 0 ? "+" : ""}${totalPnL.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-          
+        
             <div className="portfolio-card">
               <div className="portfolio-label">Portfolio Value</div>
               <div className="portfolio-amount">
@@ -1660,7 +1672,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             ))}
                           </tbody>
                         </table>
-                      
+                    
                         <div className="positions-summary">
                           <div className="summary-item">
                             <span>Total Positions:</span>
@@ -1744,7 +1756,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             ))}
                           </tbody>
                         </table>
-                      
+                    
                         <div className="holdings-summary">
                           <div className="summary-item">
                             <span>Total Holdings:</span>
@@ -1832,7 +1844,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                         ))}
                       </tbody>
                     </table>
-                  
+                
                     <div className="orders-summary">
                       <div className="summary-item">
                         <span>Total Orders:</span>
