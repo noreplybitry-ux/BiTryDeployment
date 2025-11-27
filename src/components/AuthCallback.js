@@ -5,8 +5,11 @@ import '../css/Signup.css';
 import { FiCalendar } from 'react-icons/fi';
 
 const AuthCallback = () => {
+  console.log('[DEBUG] AuthCallback component rendered');
+
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
+  const [errorMessage, setErrorMessage] = useState('');
   const [showBirthdayModal, setShowBirthdayModal] = useState(false);
   const [birthdayData, setBirthdayData] = useState('');
   const [errors, setErrors] = useState({});
@@ -65,9 +68,32 @@ const AuthCallback = () => {
       const { error } = await supabase.from('profiles').upsert(profile);
       if (error) throw error;
 
+      // Check if this is a new profile and insert balance if so
+      const { data: existing } = await supabase
+        .from('profiles')
+        .select('id')
+        .eq('id', userId)
+        .maybeSingle();
+
+      const isNew = !existing;
+
+      if (isNew) {
+        const balanceData = {
+          user_id: userId,
+          balance: 10000,
+          updated_at: new Date().toISOString(),
+        };
+
+        const { error: balanceError } = await supabase
+          .from('user_balances')
+          .insert(balanceData);
+
+        if (balanceError) throw balanceError;
+      }
+
       return true;
     } catch (error) {
-      console.error('Error creating/updating profile:', error);
+      console.error('Error creating/updating profile or balance:', error);
       throw error;
     }
   };
@@ -93,51 +119,66 @@ const AuthCallback = () => {
   };
 
   useEffect(() => {
+    console.log('[DEBUG] useEffect started');
+    console.log('[DEBUG] Current URL:', window.location.href);
+    console.log('[DEBUG] Search params:', window.location.search);
+
     const handleAuthCallback = async () => {
       const urlParams = new URLSearchParams(window.location.search);
+      console.log('[DEBUG] Parsed params:', Object.fromEntries(urlParams));
+
       const code = urlParams.get('code');
+      console.log('[DEBUG] Extracted code:', code);
 
       if (code) {
         setLoading(true);
+        setErrorMessage('');
         try {
+          console.log('[DEBUG] Exchanging code at /api/auth/google');
+          const redirectUri = `${window.location.origin}/auth/callback`;
           const response = await fetch('/api/auth/google', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ code }),
+            body: JSON.stringify({ code, redirect_uri: redirectUri }),
           });
 
+          console.log('[DEBUG] Token response status:', response.status);
+          const responseText = await response.text();
+          console.log('[DEBUG] Token response body:', responseText);
+
           if (!response.ok) {
-            const errData = await response.json();
-            throw new Error(errData.error || 'Failed to exchange code for tokens');
+            throw new Error(`HTTP error! status: ${response.status}, body: ${responseText}`);
           }
 
-          const googleUser = await response.json();
+          const googleUser = JSON.parse(responseText);
+
+          console.log('[DEBUG] Google user data received:', googleUser);
+
+          const nonce = sessionStorage.getItem('google_auth_nonce');
+          console.log('[DEBUG] Retrieved nonce:', nonce);
+          sessionStorage.removeItem('google_auth_nonce');
+
+          if (!nonce) {
+            throw new Error('Nonce not found. Please try logging in again.');
+          }
 
           // Sign in or sign up with Supabase using Google's ID token
           const { data, error } = await supabase.auth.signInWithIdToken({
             provider: 'google',
             token: googleUser.id_token,
+            nonce: nonce,
           });
 
-          if (error) {
-            console.error('Supabase signInWithIdToken error:', error);
-            // Fallback: try to sign up if user doesn't exist
-            const { data: signupData, error: signupError } = await supabase.auth.signUp({
-              email: googleUser.email,
-              options: {
-                data: {
-                  full_name: googleUser.name,
-                  avatar_url: googleUser.picture,
-                },
-              },
-            });
+          console.log('[DEBUG] Supabase signInWithIdToken response:', { data, error });
 
-            if (signupError && !signupError.message.includes('already registered')) {
-              throw signupError;
-            }
+          if (error) {
+            console.error('[DEBUG] Supabase signInWithIdToken error:', error);
+            throw error;
           }
 
-          const session = data?.session || (await supabase.auth.getSession()).data.session;
+          const { data: { session } } = await supabase.auth.getSession();
+          console.log('[DEBUG] Supabase session:', session);
+
           if (!session?.user) throw new Error('No user session');
 
           const user = session.user;
@@ -162,14 +203,18 @@ const AuthCallback = () => {
             navigate('/home', { replace: true });
           }
         } catch (err) {
-          console.error('Direct Google OAuth failed:', err.message);
-          navigate('/login', { replace: true });
+          console.error('[DEBUG] Direct Google OAuth failed:', err);
+          setErrorMessage(`Authentication failed: ${err.message}. Please try again or contact support.`);
+          setLoading(false);
+          // Optionally navigate after delay: setTimeout(() => navigate('/login', { replace: true }), 5000);
         }
         return;
       }
 
-      // Fallback if no code (should not happen)
-      navigate('/login', { replace: true });
+      // Fallback if no code
+      console.log('[DEBUG] No code found in URL');
+      setErrorMessage('No authorization code found. Redirecting to login...');
+      setTimeout(() => navigate('/login', { replace: true }), 3000);
     };
 
     handleAuthCallback();
@@ -185,6 +230,27 @@ const AuthCallback = () => {
           </div>
           <div style={{ textAlign: 'center', padding: '40px 0' }}>
             <div className="loading-spinner" style={{ margin: '0 auto' }}></div>
+          </div>
+        </div>
+        <div className="auth-background">
+          <div className="bg-pattern"></div>
+          <div className="floating-shapes">
+            <div className="shape shape-1"></div>
+            <div className="shape shape-2"></div>
+            <div className="shape shape-3"></div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (errorMessage) {
+    return (
+      <div className="auth-container">
+        <div className="auth-card">
+          <div className="auth-header">
+            <h2>Error</h2>
+            <p>{errorMessage}</p>
           </div>
         </div>
         <div className="auth-background">

@@ -2,7 +2,7 @@
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
 
-  const { code } = req.body;
+  const { code, redirect_uri } = req.body;
 
   const tokenResponse = await fetch('https://oauth2.googleapis.com/token', {
     method: 'POST',
@@ -10,7 +10,7 @@ export default async function handler(req, res) {
       code,
       client_id: process.env.GOOGLE_CLIENT_ID,
       client_secret: process.env.GOOGLE_CLIENT_SECRET,
-      redirect_uri: 'https://bitry.vercel.app/auth/callback',
+      redirect_uri,
       grant_type: 'authorization_code',
     }),
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
