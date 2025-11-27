@@ -230,13 +230,24 @@ const Login = () => {
     return Array.from(array, (byte) => byte.toString(16).padStart(2, '0')).join('');
   };
 
+  const hashNonce = async (nonce) => {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(nonce);
+    const hash = await crypto.subtle.digest('SHA-256', data);
+    return Array.from(new Uint8Array(hash))
+      .map((b) => b.toString(16).padStart(2, '0'))
+      .join('');
+  };
+
   const handleGoogleLogin = async () => {
     setIsLoading(true);
 
     const redirectTo = `${window.location.origin}/auth/callback`;
 
     const nonce = generateNonce();
-    sessionStorage.setItem('google_auth_nonce', nonce);
+    const hashedNonce = await hashNonce(nonce);
+
+    sessionStorage.setItem('google_auth_nonce', hashedNonce);
 
     const params = new URLSearchParams({
       client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
@@ -245,7 +256,7 @@ const Login = () => {
       scope: 'openid email profile',
       access_type: 'offline',
       prompt: 'consent',
-      nonce: nonce,
+      nonce: hashedNonce,
     });
 
     window.location.href = `https://accounts.google.com/o/oauth2/v2/auth?${params}`;
