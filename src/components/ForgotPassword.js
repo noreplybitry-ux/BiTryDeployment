@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../css/ForgotPassword.css';
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabase";
+import jwtDecode from 'jwt-decode';
 
 const ForgotPassword = () => {
   const [formData, setFormData] = useState({
@@ -18,30 +19,29 @@ const ForgotPassword = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Listen for auth state changes
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-      if (event === 'PASSWORD_RECOVERY') {
-        setIsResetMode(true);
-      } else if (session) {
-        // If signed in and not in recovery mode, redirect to home
-        if (!isResetMode) {
-          navigate('/home');
-        }
-      }
-    });
-
-    // Check for existing session
     const checkSession = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (session && !isResetMode) {
-        navigate('/home');
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session) {
+          // Decode JWT to check AMR
+          const decodedToken = jwtDecode(session.access_token);
+          const isRecovery = decodedToken.amr?.some(amrEntry => amrEntry.method === 'recovery') || false;
+          
+          if (isRecovery) {
+            setIsResetMode(true);
+          } else {
+            // Normal session, redirect to home
+            navigate('/home');
+          }
+        }
+      } catch (error) {
+        console.error('Error checking session:', error);
+        setErrors({ general: 'An unexpected error occurred. Please try again.' });
       }
     };
 
     checkSession();
-
-    return () => subscription.unsubscribe();
-  }, [navigate, isResetMode]);
+  }, [navigate]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
