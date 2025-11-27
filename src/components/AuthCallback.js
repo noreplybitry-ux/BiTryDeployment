@@ -7,6 +7,7 @@ import { FiCalendar } from 'react-icons/fi';
 const AuthCallback = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
+  const [errorMessage, setErrorMessage] = useState('');
   const [showBirthdayModal, setShowBirthdayModal] = useState(false);
   const [birthdayData, setBirthdayData] = useState('');
   const [errors, setErrors] = useState({});
@@ -65,9 +66,32 @@ const AuthCallback = () => {
       const { error } = await supabase.from('profiles').upsert(profile);
       if (error) throw error;
 
+      // Check if this is a new profile and insert balance if so
+      const { data: existing } = await supabase
+        .from('profiles')
+        .select('id')
+        .eq('id', userId)
+        .maybeSingle();
+
+      const isNew = !existing;
+
+      if (isNew) {
+        const balanceData = {
+          user_id: userId,
+          balance: 10000,
+          updated_at: new Date().toISOString(),
+        };
+
+        const { error: balanceError } = await supabase
+          .from('user_balances')
+          .insert(balanceData);
+
+        if (balanceError) throw balanceError;
+      }
+
       return true;
     } catch (error) {
-      console.error('Error creating/updating profile:', error);
+      console.error('Error creating/updating profile or balance:', error);
       throw error;
     }
   };
@@ -99,19 +123,24 @@ const AuthCallback = () => {
 
       if (code) {
         setLoading(true);
+        setErrorMessage('');
         try {
+          console.log('Exchanging code at /api/auth/google');
+          const redirectUri = `${window.location.origin}/auth/callback`;
           const response = await fetch('/api/auth/google', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ code }),
+            body: JSON.stringify({ code, redirect_uri: redirectUri }),
           });
 
           if (!response.ok) {
-            const errData = await response.json();
-            throw new Error(errData.error || 'Failed to exchange code for tokens');
+            const errData = await response.json().catch(() => ({}));
+            throw new Error(errData.error || `HTTP error! status: ${response.status}`);
           }
 
           const googleUser = await response.json();
+
+          console.log('Google user data received:', googleUser);
 
           // Sign in or sign up with Supabase using Google's ID token
           const { data, error } = await supabase.auth.signInWithIdToken({
@@ -121,23 +150,10 @@ const AuthCallback = () => {
 
           if (error) {
             console.error('Supabase signInWithIdToken error:', error);
-            // Fallback: try to sign up if user doesn't exist
-            const { data: signupData, error: signupError } = await supabase.auth.signUp({
-              email: googleUser.email,
-              options: {
-                data: {
-                  full_name: googleUser.name,
-                  avatar_url: googleUser.picture,
-                },
-              },
-            });
-
-            if (signupError && !signupError.message.includes('already registered')) {
-              throw signupError;
-            }
+            throw error;
           }
 
-          const session = data?.session || (await supabase.auth.getSession()).data.session;
+          const { data: { session } } = await supabase.auth.getSession();
           if (!session?.user) throw new Error('No user session');
 
           const user = session.user;
@@ -162,14 +178,17 @@ const AuthCallback = () => {
             navigate('/home', { replace: true });
           }
         } catch (err) {
-          console.error('Direct Google OAuth failed:', err.message);
-          navigate('/login', { replace: true });
+          console.error('Direct Google OAuth failed:', err);
+          setErrorMessage(`Authentication failed: ${err.message}. Please try again or contact support.`);
+          setLoading(false);
+          // Optionally navigate after delay: setTimeout(() => navigate('/login', { replace: true }), 5000);
         }
         return;
       }
 
-      // Fallback if no code (should not happen)
-      navigate('/login', { replace: true });
+      // Fallback if no code
+      setErrorMessage('No authorization code found. Redirecting to login...');
+      setTimeout(() => navigate('/login', { replace: true }), 3000);
     };
 
     handleAuthCallback();
@@ -185,6 +204,27 @@ const AuthCallback = () => {
           </div>
           <div style={{ textAlign: 'center', padding: '40px 0' }}>
             <div className="loading-spinner" style={{ margin: '0 auto' }}></div>
+          </div>
+        </div>
+        <div className="auth-background">
+          <div className="bg-pattern"></div>
+          <div className="floating-shapes">
+            <div className="shape shape-1"></div>
+            <div className="shape shape-2"></div>
+            <div className="shape shape-3"></div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (errorMessage) {
+    return (
+      <div className="auth-container">
+        <div className="auth-card">
+          <div className="auth-header">
+            <h2>Error</h2>
+            <p>{errorMessage}</p>
           </div>
         </div>
         <div className="auth-background">
