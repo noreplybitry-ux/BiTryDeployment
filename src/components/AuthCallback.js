@@ -94,34 +94,82 @@ const AuthCallback = () => {
 
   useEffect(() => {
     const handleAuthCallback = async () => {
-      try {
-        const { data, error } = await supabase.auth.getSession();
+      const urlParams = new URLSearchParams(window.location.search);
+      const code = urlParams.get('code');
 
-        if (error || !data.session?.user) {
+      if (code) {
+        setLoading(true);
+        try {
+          const response = await fetch('/api/auth/google', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ code }),
+          });
+
+          if (!response.ok) {
+            const errData = await response.json();
+            throw new Error(errData.error || 'Failed to exchange code for tokens');
+          }
+
+          const googleUser = await response.json();
+
+          // Sign in or sign up with Supabase using Google's ID token
+          const { data, error } = await supabase.auth.signInWithIdToken({
+            provider: 'google',
+            token: googleUser.id_token,
+          });
+
+          if (error) {
+            console.error('Supabase signInWithIdToken error:', error);
+            // Fallback: try to sign up if user doesn't exist
+            const { data: signupData, error: signupError } = await supabase.auth.signUp({
+              email: googleUser.email,
+              options: {
+                data: {
+                  full_name: googleUser.name,
+                  avatar_url: googleUser.picture,
+                },
+              },
+            });
+
+            if (signupError && !signupError.message.includes('already registered')) {
+              throw signupError;
+            }
+          }
+
+          const session = data?.session || (await supabase.auth.getSession()).data.session;
+          if (!session?.user) throw new Error('No user session');
+
+          const user = session.user;
+          setUserId(user.id);
+          setUserMetadata({
+            name: googleUser.name,
+            given_name: googleUser.given_name,
+            family_name: googleUser.family_name,
+            picture: googleUser.picture,
+          });
+
+          await createOrUpdateProfile(user.id, googleUser);
+
+          const { hasCompleteProfile, isAdmin } = await checkUserProfile(user.id);
+
+          if (isAdmin) {
+            navigate('/admindashboard', { replace: true });
+          } else if (!hasCompleteProfile) {
+            setShowBirthdayModal(true);
+            setLoading(false);
+          } else {
+            navigate('/home', { replace: true });
+          }
+        } catch (err) {
+          console.error('Direct Google OAuth failed:', err.message);
           navigate('/login', { replace: true });
-          return;
         }
-
-        const user = data.session.user;
-        setUserId(user.id);
-        setUserMetadata(user.user_metadata || {});
-
-        await createOrUpdateProfile(user.id, user.user_metadata || {});
-
-        const { hasCompleteProfile, isAdmin } = await checkUserProfile(user.id);
-
-        if (isAdmin) {
-          navigate('/admindashboard', { replace: true });
-        } else if (!hasCompleteProfile) {
-          setShowBirthdayModal(true);
-          setLoading(false);
-        } else {
-          navigate('/home', { replace: true });
-        }
-      } catch (err) {
-        console.error('OAuth callback failed:', err);
-        navigate('/login', { replace: true });
+        return;
       }
+
+      // Fallback if no code (should not happen)
+      navigate('/login', { replace: true });
     };
 
     handleAuthCallback();
