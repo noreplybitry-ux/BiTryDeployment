@@ -16,6 +16,7 @@ import ForgotPassword from "./components/ForgotPassword";
 import AdminDashboard from "./components/AdminDashboard";
 import ModuleDetail from "./components/ModuleDetail";
 import QuizPage from "./components/QuizPage";
+import AuthCallback from "./components/AuthCallback";
 
 function App() {
   return (
@@ -24,7 +25,6 @@ function App() {
         <Navbar />
         <main className="main-area">
           <Routes>
-            <Route path="*" element={<Homepage />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/learn" element={<Learn />} />
             <Route path="/module/:id" element={<ModuleDetail />} />
@@ -36,6 +36,8 @@ function App() {
             <Route path="/forgotpassword" element={<ForgotPassword />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/admindashboard" element={<AdminDashboard />} />
+            <Route path="/auth/callback" element={<AuthCallback />} />
+            <Route path="*" element={<Homepage />} />
           </Routes>
         </main>
       </div>
