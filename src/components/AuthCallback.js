@@ -133,12 +133,15 @@ const AuthCallback = () => {
             body: JSON.stringify({ code, redirect_uri: redirectUri }),
           });
 
+          console.log('Token response status:', response.status);
+          const responseText = await response.text();
+          console.log('Token response body:', responseText);
+
           if (!response.ok) {
-            const errData = await response.json().catch(() => ({}));
-            throw new Error(errData.error || `HTTP error! status: ${response.status}`);
+            throw new Error(`HTTP error! status: ${response.status}, body: ${responseText}`);
           }
 
-          const googleUser = await response.json();
+          const googleUser = JSON.parse(responseText);
 
           console.log('Google user data received:', googleUser);
 
