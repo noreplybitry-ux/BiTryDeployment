@@ -497,22 +497,42 @@ const Signup = () => {
     }
   };
 
-  const handleGoogleSignup = async () => {
-  setIsLoading(true);
-  
-  const redirectTo = `${window.location.origin}/auth/callback`;
-  
-  const params = new URLSearchParams({
-    client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
-    redirect_uri: redirectTo,
-    response_type: 'code',
-    scope: 'openid email profile',
-    access_type: 'offline',
-    prompt: 'consent',
-  });
+  const generateNonce = () => {
+    const array = new Uint8Array(32);
+    crypto.getRandomValues(array);
+    return Array.from(array, (byte) => byte.toString(16).padStart(2, '0')).join('');
+  };
 
-  window.location.href = `https://accounts.google.com/o/oauth2/v2/auth?${params}`;
-};
+  const hashNonce = async (nonce) => {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(nonce);
+    const hash = await crypto.subtle.digest('SHA-256', data);
+    return Array.from(new Uint8Array(hash))
+      .map((b) => b.toString(16).padStart(2, '0'))
+      .join('');
+  };
+
+  const handleGoogleSignup = async () => {
+    setIsLoading(true);
+    
+    const redirectTo = `${window.location.origin}/auth/callback`;
+    
+    const nonce = generateNonce();
+    const hashedNonce = await hashNonce(nonce);
+    sessionStorage.setItem('google_auth_nonce', hashedNonce);
+    
+    const params = new URLSearchParams({
+      client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
+      redirect_uri: redirectTo,
+      response_type: 'code',
+      scope: 'openid email profile',
+      access_type: 'offline',
+      prompt: 'consent',
+      nonce: nonce,
+    });
+  
+    window.location.href = `https://accounts.google.com/o/oauth2/v2/auth?${params}`;
+  };
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {

@@ -142,10 +142,14 @@ const AuthCallback = () => {
 
           console.log('Google user data received:', googleUser);
 
+          const hashedNonce = sessionStorage.getItem('google_auth_nonce');
+          sessionStorage.removeItem('google_auth_nonce');
+
           // Sign in or sign up with Supabase using Google's ID token
           const { data, error } = await supabase.auth.signInWithIdToken({
             provider: 'google',
             token: googleUser.id_token,
+            nonce: hashedNonce,
           });
 
           if (error) {
