@@ -160,9 +160,24 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.tabs .btn:hover:not(:disabled) {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 212, 255, 0.3);
+/* Disable floating/pulse animations for admin generator buttons within .tabs */
+.tabs .btn,
+.tabs .btn-primary,
+.tabs .btn-accent,
+.tabs .btn-secondary,
+.tabs .btn-primary.simple-btn,
+.tabs .btn-accent.simple-btn,
+.tabs .btn-secondary.simple-btn {
+  animation: none !important;
+  transform: none !important;
+  transition: background-color 0.18s ease !important; /* keep color hover smooth */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16) !important; /* subtle shadow only */
+}
+
+.tabs .btn:hover,
+.tabs .btn:focus {
+  transform: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18) !important;
 }
 
 /* ============================================
@@ -1313,19 +1328,24 @@ body {
 /* Improved Table of Contents - visual polish, accessible focus, no layout conflicts */
 .toc-section {
   padding: 28px; /* match other sections */
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.04));
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(0, 0, 0, 0.04)
+  );
   border-radius: 12px;
-  border: 1px solid rgba(0,212,255,0.06);
+  border: 1px solid rgba(0, 212, 255, 0.06);
   color: var(--text-secondary);
   max-width: none; /* allow full container width like module sections */
   width: 100%;
-  transition: box-shadow 0.18s ease, border-color 0.18s ease, transform 0.12s ease;
+  transition: box-shadow 0.18s ease, border-color 0.18s ease,
+    transform 0.12s ease;
   backdrop-filter: blur(6px);
   margin: 0 0 24px 0;
   position: relative;
   font-size: 14px;
   line-height: 1.5;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
 }
 
 .toc-section h4 {
@@ -1361,7 +1381,7 @@ body {
   height: 8px;
   border-radius: 50%;
   background: transparent;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2) inset;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
   position: absolute;
   left: 8px;
   top: 50%;
@@ -1390,14 +1410,19 @@ body {
 /* highlight active/targeted item (CSS alone) */
 .toc-section a:focus,
 .toc-section a:active,
-.toc-section a[href$="#intro"]:not([href="#"]) {}
+.toc-section a[href$="#intro"]:not([href="#"]) {
+}
 
 /* when section is targeted via anchor, style via :target selector on target element
    and mirror state by using .active class from JS if needed */
 .toc-section li.active,
 .toc-section li.active::before {
-  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
-  box-shadow: 0 6px 20px rgba(0,212,255,0.12);
+  background: linear-gradient(
+    90deg,
+    var(--accent-primary),
+    var(--accent-secondary)
+  );
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.12);
 }
 .toc-section li.active a {
   color: #0b0e11;
@@ -1406,7 +1431,7 @@ body {
 
 /* improved keyboard focus for accessibility */
 .toc-section a:focus-visible {
-  outline: 3px solid rgba(0,212,255,0.16);
+  outline: 3px solid rgba(0, 212, 255, 0.16);
   border-radius: 6px;
   outline-offset: 3px;
 }
@@ -1423,7 +1448,7 @@ body {
   width: 8px;
 }
 .toc-section::-webkit-scrollbar-thumb {
-  background: rgba(0,212,255,0.12);
+  background: rgba(0, 212, 255, 0.12);
   border-radius: 6px;
   border: 2px solid transparent;
   background-clip: padding-box;
@@ -1436,8 +1461,12 @@ body {
     font-size: 13px;
     padding: 14px;
   }
-  .toc-section li::before { left: 6px; }
-  .toc-section a { padding-left: 22px; }
+  .toc-section li::before {
+    left: 6px;
+  }
+  .toc-section a {
+    padding-left: 22px;
+  }
 }
 
 /* End of improved TOC */

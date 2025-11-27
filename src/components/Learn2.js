@@ -1,4 +1,3 @@
-// Learn2.js
 import React, { useState, useEffect, useRef } from "react";
 import { supabase } from "../lib/supabase";
 import { useAuth } from "../contexts/AuthContext";
@@ -6,6 +5,7 @@ import "highlight.js/styles/github-dark.css"; // Add a highlight.js style
 import "../css/Learn2.css";
 import ModuleDetail from "./ModuleDetail";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 const MODULE_API_KEY = process.env.REACT_APP_MODULE_API_KEY || "";
 const TRANSLATION_API_KEY = process.env.REACT_APP_TRANSLATION_API_KEY || "";
 const QUIZ_API_KEY = process.env.REACT_APP_QUIZ_API_KEY || "";
@@ -84,6 +84,8 @@ const Learn2 = () => {
     useState(null);
   const canvasRef = useRef(null);
   const [missingApiKeys, setMissingApiKeys] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedLevel, setSelectedLevel] = useState("");
   useEffect(() => {
     const missing = [];
     if (!MODULE_API_KEY) missing.push("REACT_APP_MODULE_API_KEY");
@@ -972,6 +974,54 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error saving edit:", err);
     }
   };
+  const handleDeleteModule = async (module) => {
+    Swal.fire({
+      title: "Are you sure?",
+      text: "This will delete the module and all related quizzes!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: "Yes, delete!",
+      cancelButtonText: "No, cancel",
+    }).then(async (result) => {
+      if (result.isConfirmed) {
+        try {
+          // Delete quiz_attempts
+          const { error: attemptsError } = await supabase
+            .from("quiz_attempts")
+            .delete()
+            .eq("module_id", module.id);
+          if (attemptsError) throw attemptsError;
+          // Delete quiz_questions
+          const { error: questionsError } = await supabase
+            .from("quiz_questions")
+            .delete()
+            .eq("module_id", module.id);
+          if (questionsError) throw questionsError;
+          // Delete learning_modules
+          const { error: moduleError } = await supabase
+            .from("learning_modules")
+            .delete()
+            .eq("id", module.id);
+          if (moduleError) throw moduleError;
+          // Refresh lists
+          await fetchGeneratedModules();
+          await fetchQuestionCounts();
+          Swal.fire(
+            "Deleted!",
+            "Module and related quizzes have been deleted.",
+            "success"
+          );
+        } catch (err) {
+          console.error("Error deleting module:", err.message);
+          Swal.fire(
+            "Error",
+            `Failed to delete module: ${err.message}`,
+            "error"
+          );
+        }
+      }
+    });
+  };
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -1026,11 +1076,39 @@ ${contentText.substring(0, 20000)}`;
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  const filteredModules = generatedModules.filter((module) => {
+    const matchesSearch = searchTerm
+      ? module.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        module.keywords.some((kw) =>
+          kw.toLowerCase().includes(searchTerm.toLowerCase())
+        )
+      : true;
+    const matchesLevel = selectedLevel ? module.level === selectedLevel : true;
+    return matchesSearch && matchesLevel;
+  });
+  const clearFilters = () => {
+    setSearchTerm("");
+    setSelectedLevel("");
+  };
   return (
     <div>
       <style>{`
         .simple-btn {
           transition: background-color 0.3s ease !important;
+          position: relative;
+        }
+        .simple-btn::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -2px;
+          width: 0;
+          height: 2px;
+          background-color: var(--accent-blue);
+          transition: width 0.3s ease-in-out;
+        }
+        .simple-btn:hover::after {
+          width: 100%;
         }
         .form-select {
           background: var(--bg-secondary);
@@ -1168,8 +1246,6 @@ ${contentText.substring(0, 20000)}`;
         <div className="tabs" style={{ position: "relative", zIndex: 1000 }}>
           <div
             style={{
-              background:
-                "linear-gradient(135deg, var(--accent-purple), var(--accent-blue))",
               padding: "3px",
               borderRadius: "16px",
               marginBottom: "4px",
@@ -1285,10 +1361,38 @@ ${contentText.substring(0, 20000)}`;
               )}
             </div>
           </div>
+          <div style={{ display: "flex", gap: "16px", marginBottom: "24px" }}>
+            <input
+              type="text"
+              placeholder="Search by title or keywords..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="form-input"
+              style={{ flex: 1 }}
+            />
+            <select
+              value={selectedLevel}
+              onChange={(e) => setSelectedLevel(e.target.value)}
+              className="form-select"
+              style={{ width: "200px" }}
+            >
+              <option value="">All Levels</option>
+              <option value="Beginner">Beginner</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="Advanced">Advanced</option>
+            </select>
+            <button
+              className="btn btn-secondary"
+              onClick={clearFilters}
+              disabled={!searchTerm && !selectedLevel}
+            >
+              Clear Filters
+            </button>
+          </div>
           {fetchGeneratedError && (
             <p className="error-message">{fetchGeneratedError}</p>
           )}
-          {generatedModules.length === 0 && !fetchGeneratedError ? (
+          {filteredModules.length === 0 && !fetchGeneratedError ? (
             <div className="no-modules">
               <p className="info-message">No learning modules available yet.</p>
               <p className="info-subtitle">
@@ -1297,7 +1401,7 @@ ${contentText.substring(0, 20000)}`;
             </div>
           ) : (
             <div className="modules-grid">
-              {(user ? generatedModules : generatedModules.slice(0, 5)).map(
+              {(user ? filteredModules : filteredModules.slice(0, 5)).map(
                 (module) => (
                   <div
                     key={module.id}
@@ -1367,22 +1471,40 @@ ${contentText.substring(0, 20000)}`;
                           View Module →
                         </button>
                         {isAdmin && (
-                          <button
-                            className="btn btn-secondary"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              openEditModal(module);
-                            }}
-                            style={{
-                              fontSize: "14px",
-                              padding: "4px 8px",
-                              backgroundColor: "var(--accent-purple)",
-                              color: "white",
-                              border: "none",
-                            }}
-                          >
-                            Edit
-                          </button>
+                          <>
+                            <button
+                              className="btn btn-secondary"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                openEditModal(module);
+                              }}
+                              style={{
+                                fontSize: "14px",
+                                padding: "4px 8px",
+                                backgroundColor: "var(--accent-purple)",
+                                color: "white",
+                                border: "none",
+                              }}
+                            >
+                              Edit
+                            </button>
+                            <button
+                              className="btn btn-secondary"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleDeleteModule(module);
+                              }}
+                              style={{
+                                fontSize: "14px",
+                                padding: "4px 8px",
+                                backgroundColor: "red",
+                                color: "white",
+                                border: "none",
+                              }}
+                            >
+                              Delete
+                            </button>
+                          </>
                         )}
                       </div>
                     </div>
