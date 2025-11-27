@@ -6,14 +6,12 @@ import "highlight.js/styles/github-dark.css"; // Add a highlight.js style
 import "../css/Learn2.css";
 import ModuleDetail from "./ModuleDetail";
 import { useNavigate } from "react-router-dom";
-
-const MODULE_API_KEY = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
-const TRANSLATION_API_KEY = "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q";
-const QUIZ_API_KEY = "AIzaSyD__yT5oimCLqnFGnLIX-GyiYwiqnlEtmI";
-const TAGLISH_QUIZ_API_KEY = "AIzaSyDQ0hiG0G24Euursr639qmRQnmTmzg9Tjg";
-const PEXELS_API_KEY =
-  "gEiXhyqTNdGHdTxV3TtTgRhA4fg9lSKavdeJYFKaQ0PvfqxMiELFfsXj"; // Replace with your actual Pexels API key
-const YOUTUBE_API_KEY = "AIzaSyAfq9h9cUs585n4nW25HwsIhEFB7gdC_58"; // Optional: Replace with your actual YouTube API key or leave empty
+const MODULE_API_KEY = process.env.REACT_APP_MODULE_API_KEY || "";
+const TRANSLATION_API_KEY = process.env.REACT_APP_TRANSLATION_API_KEY || "";
+const QUIZ_API_KEY = process.env.REACT_APP_QUIZ_API_KEY || "";
+const TAGLISH_QUIZ_API_KEY = process.env.REACT_APP_TAGLISH_QUIZ_API_KEY || "";
+const PEXELS_API_KEY = process.env.REACT_APP_PEXELS_API_KEY || "";
+const YOUTUBE_API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY || "";
 const Learn2 = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
@@ -66,6 +64,9 @@ const Learn2 = () => {
   const [generateQuizError, setGenerateQuizError] = useState(null);
   const [isValidationModalOpen, setIsValidationModalOpen] = useState(false);
   const [pendingQuestions, setPendingQuestions] = useState([]);
+  const [selectedPendingQuestionIds, setSelectedPendingQuestionIds] = useState(
+    []
+  );
   const [isEditQuestionModalOpen, setIsEditQuestionModalOpen] = useState(false);
   const [editingQuestion, setEditingQuestion] = useState(null);
   const [isGenerateTaglishModalOpen, setIsGenerateTaglishModalOpen] =
@@ -82,6 +83,20 @@ const Learn2 = () => {
   const [generateTaglishQuizError, setGenerateTaglishQuizError] =
     useState(null);
   const canvasRef = useRef(null);
+  const [missingApiKeys, setMissingApiKeys] = useState([]);
+  useEffect(() => {
+    const missing = [];
+    if (!MODULE_API_KEY) missing.push("REACT_APP_MODULE_API_KEY");
+    if (!TRANSLATION_API_KEY) missing.push("REACT_APP_TRANSLATION_API_KEY");
+    if (!QUIZ_API_KEY) missing.push("REACT_APP_QUIZ_API_KEY");
+    if (!TAGLISH_QUIZ_API_KEY) missing.push("REACT_APP_TAGLISH_QUIZ_API_KEY");
+    if (!PEXELS_API_KEY) missing.push("REACT_APP_PEXELS_API_KEY");
+    if (!YOUTUBE_API_KEY) missing.push("REACT_APP_YOUTUBE_API_KEY");
+    if (missing.length > 0) {
+      console.warn("Missing API keys:", missing);
+      setMissingApiKeys(missing);
+    }
+  }, []);
   useEffect(() => {
     if (user) {
       const fetchProfile = async () => {
@@ -324,6 +339,11 @@ const Learn2 = () => {
     }
   };
   const callGeminiAPI = async (prompt, apiKey, retries = 3) => {
+    if (!apiKey) {
+      throw new Error(
+        "Gemini API key is not configured. Please set the appropriate REACT_APP_*_API_KEY environment variable."
+      );
+    }
     const model = "gemini-2.5-flash";
     for (let attempt = 1; attempt <= retries; attempt++) {
       try {
@@ -332,11 +352,12 @@ const Learn2 = () => {
           { model, prompt: prompt.substring(0, 100) + "..." }
         );
         const response = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
           {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
+              "x-goog-api-key": apiKey,
             },
             body: JSON.stringify({
               contents: [{ parts: [{ text: prompt }] }],
@@ -845,6 +866,9 @@ ${contentText.substring(0, 20000)}`;
     setIsValidationModalOpen(!isValidationModalOpen);
     if (!isValidationModalOpen) {
       fetchPendingQuestions();
+      setSelectedPendingQuestionIds([]);
+    } else {
+      setSelectedPendingQuestionIds([]);
     }
   };
   const fetchPendingQuestions = async () => {
@@ -883,6 +907,48 @@ ${contentText.substring(0, 20000)}`;
       fetchPendingQuestions();
     } catch (err) {
       console.error("Error rejecting:", err);
+    }
+  };
+  const toggleSelectPendingQuestion = (id) => {
+    setSelectedPendingQuestionIds((prev) =>
+      prev.includes(id) ? prev.filter((p) => p !== id) : [...prev, id]
+    );
+  };
+  const toggleSelectAllPending = () => {
+    if (pendingQuestions.length === 0) return;
+    if (selectedPendingQuestionIds.length === pendingQuestions.length) {
+      setSelectedPendingQuestionIds([]);
+    } else {
+      setSelectedPendingQuestionIds(pendingQuestions.map((q) => q.id));
+    }
+  };
+  const approveSelectedPending = async () => {
+    if (selectedPendingQuestionIds.length === 0) return;
+    try {
+      const { error } = await supabase
+        .from("quiz_questions")
+        .update({ status: "approved", validated_by: user.id })
+        .in("id", selectedPendingQuestionIds);
+      if (error) throw error;
+      setSelectedPendingQuestionIds([]);
+      fetchPendingQuestions();
+      fetchQuestionCounts();
+    } catch (err) {
+      console.error("Error approving selected:", err.message);
+    }
+  };
+  const rejectSelectedPending = async () => {
+    if (selectedPendingQuestionIds.length === 0) return;
+    try {
+      const { error } = await supabase
+        .from("quiz_questions")
+        .update({ status: "rejected" })
+        .in("id", selectedPendingQuestionIds);
+      if (error) throw error;
+      setSelectedPendingQuestionIds([]);
+      fetchPendingQuestions();
+    } catch (err) {
+      console.error("Error rejecting selected:", err.message);
     }
   };
   const openEditQuestion = (question) => {
@@ -1094,8 +1160,8 @@ ${contentText.substring(0, 20000)}`;
       <div className="news-header">
         <h1 className="news-title">Learning Modules</h1>
         <p className="news-subtitle">
-          Create and generate educational modules to enhance your crypto
-          knowledge.
+          Explore educational modules designed to help you learn, understand,
+          and strengthen your crypto knowledge.
         </p>
       </div>
       {showGenerateTab && isAdmin && (
@@ -2307,13 +2373,64 @@ ${contentText.substring(0, 20000)}`;
             </button>
           </div>
           <div className="modal-body">
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                marginBottom: 12,
+              }}
+            >
+              <label style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <input
+                  type="checkbox"
+                  checked={
+                    pendingQuestions.length > 0 &&
+                    selectedPendingQuestionIds.length ===
+                      pendingQuestions.length
+                  }
+                  onChange={toggleSelectAllPending}
+                  aria-label="Select all pending questions"
+                />
+                Select All
+              </label>
+              <div style={{ display: "flex", gap: 8 }}>
+                <button
+                  className="btn btn-accent"
+                  onClick={approveSelectedPending}
+                  disabled={selectedPendingQuestionIds.length === 0}
+                >
+                  Approve Selected
+                </button>
+                <button
+                  className="btn btn-secondary"
+                  onClick={rejectSelectedPending}
+                  disabled={selectedPendingQuestionIds.length === 0}
+                >
+                  Reject Selected
+                </button>
+              </div>
+            </div>
             {pendingQuestions.length === 0 ? (
               <p className="info-message">No pending questions available.</p>
             ) : (
               <div className="modules-grid">
                 {pendingQuestions.map((q) => (
                   <div key={q.id} className="module-card">
-                    <div className="module-card-header">
+                    <div
+                      className="module-card-header"
+                      style={{ alignItems: "center", display: "flex", gap: 12 }}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={selectedPendingQuestionIds.includes(q.id)}
+                        onChange={(e) => {
+                          e.stopPropagation();
+                          toggleSelectPendingQuestion(q.id);
+                        }}
+                        onClick={(e) => e.stopPropagation()}
+                        aria-label={`Select question ${q.id}`}
+                      />
                       <h3 className="module-card-title">
                         {q.learning_modules.title}{" "}
                         {q.is_taglish ? "(TagLish)" : "(English)"}
