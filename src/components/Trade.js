@@ -831,6 +831,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const [orderSuccess, setOrderSuccess] = useState("");
   const [activeTab, setActiveTab] = useState("positions");
   const [isAgeVerified, setIsAgeVerified] = useState(null);
+  const [ageCheckLoading, setAgeCheckLoading] = useState(true);
   const [showBirthdayModal, setShowBirthdayModal] = useState(false);
   const [birthdayData, setBirthdayData] = useState('');
   const [errors, setErrors] = useState({});
@@ -1200,6 +1201,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       await createOrUpdateProfile(birthdayData);
       setShowBirthdayModal(false);
       const age = calculateAge(birthdayData);
+      setIsAgeVerified(age >= 18);
       if (age < 18) {
         Swal.fire({
           icon: 'warning',
@@ -1210,9 +1212,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         }).then(() => {
           navigate('/');
         });
-        setIsAgeVerified(false);
-      } else {
-        setIsAgeVerified(true);
       }
     } catch (error) {
       console.error("Error updating profile:", error);
@@ -1233,32 +1232,40 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }).then(() => {
       if (!user) {
         setIsAgeVerified(false);
+        setAgeCheckLoading(false);
         return;
       }
       const checkAge = async () => {
-        const { data, error } = await supabase
-          .from('profiles')
-          .select('birthday')
-          .eq('id', user.id)
-          .single();
-        if (error || !data?.birthday) {
+        try {
+          const { data, error } = await supabase
+            .from('profiles')
+            .select('birthday')
+            .eq('id', user.id)
+            .single();
+          if (error) throw error;
+          if (!data?.birthday) {
+            setShowBirthdayModal(true);
+            setAgeCheckLoading(false);
+            return;
+          }
+          const age = calculateAge(data.birthday);
+          setIsAgeVerified(age >= 18);
+          setAgeCheckLoading(false);
+          if (age < 18) {
+            Swal.fire({
+              icon: 'warning',
+              title: 'Age Restriction',
+              text: 'Only users 18 and above are able to trade. You are able to view the lessons in the learn tab.',
+              confirmButtonText: 'OK',
+              confirmButtonColor: '#3085d6'
+            }).then(() => {
+              navigate('/');
+            });
+          }
+        } catch (error) {
+          console.error('Error checking age:', error);
           setShowBirthdayModal(true);
-          return;
-        }
-        const age = calculateAge(data.birthday);
-        if (age < 18) {
-          Swal.fire({
-            icon: 'warning',
-            title: 'Age Restriction',
-            text: 'Only users 18 and above are able to trade. You are able to view the lessons in the learn tab.',
-            confirmButtonText: 'OK',
-            confirmButtonColor: '#3085d6'
-          }).then(() => {
-            navigate('/');
-          });
-          setIsAgeVerified(false);
-        } else {
-          setIsAgeVerified(true);
+          setAgeCheckLoading(false);
         }
       };
       checkAge();
@@ -1377,10 +1384,10 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     });
     prevOrdersRef.current = [...orderHistory];
   }, [orderHistory]);
-  if (isAgeVerified === null) {
+  if (ageCheckLoading) {
     return <div className="loading">Checking age...</div>;
   }
-  if (!isAgeVerified && user) {
+  if (isAgeVerified === false) {
     return null; // Redirect already handled in Swal
   }
   return (
@@ -1967,7 +1974,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                         {orderHistory.length > 0
                           ? ((orderHistory.filter(o => o.status === 'FILLED').length / orderHistory.length) * 100).toFixed(1)
                           : 0}%
-                      </span>
+                        </span>
                     </div>
                   </div>
                 </div>
