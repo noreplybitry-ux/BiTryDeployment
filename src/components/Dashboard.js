@@ -264,6 +264,9 @@ export default function Dashboard() {
   const winRateData = [{ name: "Wins", value: parseFloat(winRate) }, { name: "Losses", value: 100 - parseFloat(winRate) }];
   // Function to get filtered trades based on time period
   const getFilteredTrades = (period) => {
+    if (period === 'all') {
+      return recentTrades;
+    }
     const now = new Date();
     let daysAgo;
     switch (period) {
@@ -950,7 +953,7 @@ export default function Dashboard() {
               <div className="section-header">
                 <h3>Performance Analytics</h3>
                 <div className="time-filters">
-                  {["1d", "7d", "30d", "90d"].map((period) => (
+                  {["1d", "7d", "30d", "90d", "all"].map((period) => (
                     <button
                       key={period}
                       className={`filter-btn ${
@@ -958,7 +961,7 @@ export default function Dashboard() {
                       }`}
                       onClick={() => setTimeFilter(period)}
                     >
-                      {period}
+                      {period.toUpperCase()}
                     </button>
                   ))}
                 </div>
@@ -1023,7 +1026,7 @@ export default function Dashboard() {
         {activeTab === "history" && (
           (() => {
             const filteredTrades = getFilteredTrades(timeFilter);
-            const recentTradesData = filteredTrades.slice(0, 4).map(trade => ({
+            const recentTradesData = filteredTrades.map(trade => ({
               id: trade.id,
               symbol: trade.symbol,
               coin: trade.symbol.replace('USDT', ''),
@@ -1042,9 +1045,9 @@ export default function Dashboard() {
                   <h3>Trading History</h3>
                   <div className="section-actions">
                     <div className="time-filters">
-                      {["1d", "7d", "30d", "90d"].map((period) => (
+                      {["1d", "7d", "30d", "90d", "all"].map((period) => (
                         <button key={period} className={`filter-btn ${timeFilter === period ? "active" : ""}`} onClick={() => setTimeFilter(period)}>
-                          {period}
+                          {period.toUpperCase()}
                         </button>
                       ))}
                     </div>
