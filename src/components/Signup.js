@@ -498,21 +498,21 @@ const Signup = () => {
   };
 
   const handleGoogleSignup = async () => {
-  setIsLoading(true);
-  
-  const redirectTo = `${window.location.origin}/auth/callback`;
-  
-  const params = new URLSearchParams({
-    client_id: process.env.REACT_APP_PUBLIC_GOOGLE_CLIENT_ID,
-    redirect_uri: redirectTo,
-    response_type: 'code',
-    scope: 'openid email profile',
-    access_type: 'offline',
-    prompt: 'consent',
-  });
-
-  window.location.href = `https://accounts.google.com/o/oauth2/v2/auth?${params}`;
-};
+    setIsLoading(true);
+    try {
+      const { error } = await supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: {
+          redirectTo: `${window.location.origin}/auth/callback`,
+          scopes: 'email profile openid https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email',
+        },
+      });
+      if (error) throw error;
+    } catch (error) {
+      console.error('Google signup error:', error);
+      setIsLoading(false);
+    }
+  };
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {

@@ -94,81 +94,6 @@ const AuthCallback = () => {
 
   useEffect(() => {
     const handleAuthCallback = async () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const code = urlParams.get('code');
-
-      // CASE 1: Direct Google OAuth (we initiated with our own client ID)
-      if (code) {
-        setLoading(true);
-        try {
-          const response = await fetch('/api/auth/google', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ code }),
-          });
-
-          if (!response.ok) {
-            throw new Error('Failed to exchange code for tokens');
-          }
-
-          const googleUser = await response.json();
-
-          // Sign in or sign up with Supabase using Google's ID token
-          const { data, error } = await supabase.auth.signInWithIdToken({
-            provider: 'google',
-            token: googleUser.id_token,
-          });
-
-          if (error) {
-            console.error('Supabase signInWithIdToken error:', error);
-            // Fallback: try to sign up if user doesn't exist
-            const { data: signupData, error: signupError } = await supabase.auth.signUp({
-              email: googleUser.email,
-              options: {
-                data: {
-                  full_name: googleUser.name,
-                  avatar_url: googleUser.picture,
-                },
-              },
-            });
-
-            if (signupError && !signupError.message.includes('already registered')) {
-              throw signupError;
-            }
-          }
-
-          const session = data?.session || (await supabase.auth.getSession()).data.session;
-          if (!session?.user) throw new Error('No user session');
-
-          const user = session.user;
-          setUserId(user.id);
-          setUserMetadata({
-            name: googleUser.name,
-            given_name: googleUser.given_name,
-            family_name: googleUser.family_name,
-            picture: googleUser.picture,
-          });
-
-          await createOrUpdateProfile(user.id, googleUser);
-
-          const { hasCompleteProfile, isAdmin } = await checkUserProfile(user.id);
-
-          if (isAdmin) {
-            navigate('/admindashboard', { replace: true });
-          } else if (!hasCompleteProfile) {
-            setShowBirthdayModal(true);
-            setLoading(false);
-          } else {
-            navigate('/home', { replace: true });
-          }
-        } catch (err) {
-          console.error('Direct Google OAuth failed:', err);
-          navigate('/login', { replace: true });
-        }
-        return;
-      }
-
-      // CASE 2: Supabase OAuth callback (old flow)
       try {
         const { data, error } = await supabase.auth.getSession();
 
@@ -194,7 +119,7 @@ const AuthCallback = () => {
           navigate('/home', { replace: true });
         }
       } catch (err) {
-        console.error('Supabase OAuth callback failed:', err);
+        console.error('OAuth callback failed:', err);
         navigate('/login', { replace: true });
       }
     };
