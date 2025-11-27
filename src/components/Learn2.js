@@ -1,20 +1,21 @@
+// Learn2.js
 import React, { useState, useEffect, useRef } from "react";
 import { supabase } from "../lib/supabase";
 import { useAuth } from "../contexts/AuthContext";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import rehypeHighlight from "rehype-highlight";
-import 'highlight.js/styles/github-dark.css';  // Add a highlight.js style
+import "highlight.js/styles/github-dark.css"; // Add a highlight.js style
 import "../css/Learn2.css";
+import ModuleDetail from "./ModuleDetail";
+import { useNavigate } from "react-router-dom";
 
 const MODULE_API_KEY = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
 const TRANSLATION_API_KEY = "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q";
 const QUIZ_API_KEY = "AIzaSyD__yT5oimCLqnFGnLIX-GyiYwiqnlEtmI";
 const TAGLISH_QUIZ_API_KEY = "AIzaSyDQ0hiG0G24Euursr639qmRQnmTmzg9Tjg";
-const PEXELS_API_KEY = "gEiXhyqTNdGHdTxV3TtTgRhA4fg9lSKavdeJYFKaQ0PvfqxMiELFfsXj"; // Replace with your actual Pexels API key
+const PEXELS_API_KEY =
+  "gEiXhyqTNdGHdTxV3TtTgRhA4fg9lSKavdeJYFKaQ0PvfqxMiELFfsXj"; // Replace with your actual Pexels API key
 const YOUTUBE_API_KEY = "AIzaSyAfq9h9cUs585n4nW25HwsIhEFB7gdC_58"; // Optional: Replace with your actual YouTube API key or leave empty
-
 const Learn2 = () => {
+  const navigate = useNavigate();
   const { user } = useAuth();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [keywords, setKeywords] = useState([""]);
@@ -34,7 +35,6 @@ const Learn2 = () => {
   const [generatedModules, setGeneratedModules] = useState([]);
   const [fetchGeneratedError, setFetchGeneratedError] = useState(null);
   const [selectedModule, setSelectedModule] = useState(null);
-  const [isContentModalOpen, setIsContentModalOpen] = useState(false);
   const [showGenerateTab, setShowGenerateTab] = useState(false);
   const [isGenerateModalOpen, setIsGenerateModalOpen] = useState(false);
   const [isAdminInfoModalOpen, setIsAdminInfoModalOpen] = useState(false);
@@ -68,14 +68,6 @@ const Learn2 = () => {
   const [pendingQuestions, setPendingQuestions] = useState([]);
   const [isEditQuestionModalOpen, setIsEditQuestionModalOpen] = useState(false);
   const [editingQuestion, setEditingQuestion] = useState(null);
-  const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);
-  const [currentQuizModuleId, setCurrentQuizModuleId] = useState(null);
-  const [currentQuizModuleLevel, setCurrentQuizModuleLevel] = useState(null);
-  const [quizQuestions, setQuizQuestions] = useState([]);
-  const [userAnswers, setUserAnswers] = useState({});
-  const [quizScore, setQuizScore] = useState(null);
-  const [language, setLanguage] = useState("english");
-  const [quizLanguage, setQuizLanguage] = useState("english");
   const [isGenerateTaglishModalOpen, setIsGenerateTaglishModalOpen] =
     useState(false);
   const [selectedTaglishModuleId, setSelectedTaglishModuleId] = useState("");
@@ -90,7 +82,6 @@ const Learn2 = () => {
   const [generateTaglishQuizError, setGenerateTaglishQuizError] =
     useState(null);
   const canvasRef = useRef(null);
-
   useEffect(() => {
     if (user) {
       const fetchProfile = async () => {
@@ -104,7 +95,6 @@ const Learn2 = () => {
       fetchProfile();
     }
   }, [user]);
-
   // Fetch modules with null content
   const fetchModules = async () => {
     try {
@@ -124,7 +114,6 @@ const Learn2 = () => {
       );
     }
   };
-
   // Fetch modules with content for display
   const fetchGeneratedModules = async () => {
     try {
@@ -146,7 +135,6 @@ const Learn2 = () => {
       );
     }
   };
-
   const fetchQuestionCounts = async () => {
     try {
       const { data, error } = await supabase
@@ -170,40 +158,33 @@ const Learn2 = () => {
       console.error("Error fetching question counts:", err);
     }
   };
-
   useEffect(() => {
     fetchModules();
     fetchGeneratedModules();
     fetchQuestionCounts();
   }, []);
-
   const handleAddKeyword = () => {
     setKeywords([...keywords, ""]);
   };
-
   const handleKeywordChange = (index, value) => {
     const newKeywords = [...keywords];
     newKeywords[index] = value;
     setKeywords(newKeywords);
   };
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
-
   const handleEditFormChange = (e) => {
     const { name, value } = e.target;
     setEditFormData((prev) => ({ ...prev, [name]: value }));
   };
-
   const handleSectionChange = (index, field, value, isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     const newSections = [...editFormData[key]];
     newSections[index] = { ...newSections[index], [field]: value };
     setEditFormData((prev) => ({ ...prev, [key]: newSections }));
   };
-
   const handleAddSection = (isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     setEditFormData((prev) => ({
@@ -211,7 +192,6 @@ const Learn2 = () => {
       [key]: [...prev[key], { title: "", body: "" }],
     }));
   };
-
   const handleRemoveSection = (index, isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     setEditFormData((prev) => ({
@@ -219,7 +199,6 @@ const Learn2 = () => {
       [key]: prev[key].filter((_, i) => i !== index),
     }));
   };
-
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
     if (!isModalOpen) {
@@ -236,11 +215,9 @@ const Learn2 = () => {
       }
     }
   };
-
   const toggleGenerateTab = () => {
     setShowGenerateTab(!showGenerateTab);
   };
-
   const toggleGenerateModal = () => {
     setIsGenerateModalOpen(!isGenerateModalOpen);
     if (!isGenerateModalOpen) {
@@ -250,11 +227,9 @@ const Learn2 = () => {
       fetchModules();
     }
   };
-
   const toggleAdminInfoModal = () => {
     setIsAdminInfoModalOpen(!isAdminInfoModalOpen);
   };
-
   const toggleGenerateTaglishModal = () => {
     setIsGenerateTaglishModalOpen(!isGenerateTaglishModalOpen);
     if (!isGenerateTaglishModalOpen) {
@@ -262,7 +237,6 @@ const Learn2 = () => {
       setGenerateTaglishError(null);
     }
   };
-
   const toggleGenerateTaglishQuizModal = () => {
     setIsGenerateTaglishQuizModalOpen(!isGenerateTaglishQuizModalOpen);
     if (!isGenerateTaglishQuizModalOpen) {
@@ -271,7 +245,6 @@ const Learn2 = () => {
       setGenerateTaglishQuizError(null);
     }
   };
-
   const openEditModal = (module) => {
     setEditingModule(module);
     setEditFormData({
@@ -289,7 +262,6 @@ const Learn2 = () => {
     setUpdateError(null);
     setIsEditModalOpen(true);
   };
-
   const closeEditModal = () => {
     setEditingModule(null);
     setEditFormData({
@@ -306,7 +278,6 @@ const Learn2 = () => {
     setUpdateError(null);
     setIsEditModalOpen(false);
   };
-
   const handleEditSubmit = async (e) => {
     e.preventDefault();
     setIsUpdating(true);
@@ -352,7 +323,6 @@ const Learn2 = () => {
       setIsUpdating(false);
     }
   };
-
   const callGeminiAPI = async (prompt, apiKey, retries = 3) => {
     const model = "gemini-2.5-flash";
     for (let attempt = 1; attempt <= retries; attempt++) {
@@ -420,7 +390,6 @@ const Learn2 = () => {
       }
     }
   };
-
   const translateToTaglish = async (englishContent) => {
     const prompt = `
 Translate the following English content into casual TagLish (Tagalog-English mix) for Filipino beginners. Keep key cryptocurrency terms like "blockchain", "smart contracts", "DeFi", etc., untranslated. Use simple, conversational language with a mix of Tagalog and English, suitable for beginners. Ensure the structure remains the same. Output ONLY the translated content in JSON format:
@@ -449,7 +418,6 @@ English Content:
       throw new Error(`Failed to translate to TagLish: ${error.message}`);
     }
   };
-
   const translateToTaglishQuiz = async (englishQuiz) => {
     const prompt = `
 Translate the following English quiz question into casual TagLish (Tagalog-English mix) for Filipino beginners. Keep key cryptocurrency terms untranslated. Use simple, conversational language. Translate the question and all options. Keep the same structure. Output ONLY the translated content in JSON format:
@@ -473,7 +441,6 @@ Options: ${JSON.stringify(englishQuiz.options)}
       throw new Error(`Failed to translate quiz: ${error.message}`);
     }
   };
-
   const fetchPexelsImage = async (query) => {
     if (!PEXELS_API_KEY) return null;
     try {
@@ -502,7 +469,6 @@ Options: ${JSON.stringify(englishQuiz.options)}
       return null;
     }
   };
-
   const searchYouTubeVideo = async (query) => {
     if (!YOUTUBE_API_KEY) return null;
     try {
@@ -521,7 +487,6 @@ Options: ${JSON.stringify(englishQuiz.options)}
       return null;
     }
   };
-
   const generateModuleContent = async (module) => {
     const lengthGuidance = {
       Short: "approximately 500 words total",
@@ -624,7 +589,6 @@ Output only the section content, without headings: `;
       throw new Error(`Failed to generate module content: ${error.message}`);
     }
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -660,7 +624,6 @@ Output only the section content, without headings: `;
       setIsSubmitting(false);
     }
   };
-
   const handleGenerate = async () => {
     if (!selectedModuleId) {
       setGenerateError("Please select a module to generate.");
@@ -697,7 +660,6 @@ Output only the section content, without headings: `;
       setIsGenerating(false);
     }
   };
-
   const handleGenerateTaglish = async () => {
     if (!selectedTaglishModuleId) {
       setGenerateTaglishError(
@@ -738,7 +700,6 @@ Output only the section content, without headings: `;
       setIsGeneratingTaglish(false);
     }
   };
-
   const handleGenerateTaglishQuiz = async () => {
     if (!selectedTaglishQuizModuleId) {
       setGenerateTaglishQuizError("Please select a module");
@@ -790,18 +751,9 @@ Output only the section content, without headings: `;
       setIsGeneratingTaglishQuiz(false);
     }
   };
-
   const handleModuleClick = (module) => {
     setSelectedModule(module);
-    setLanguage("english");
-    setIsContentModalOpen(true);
   };
-
-  const closeContentModal = () => {
-    setSelectedModule(null);
-    setIsContentModalOpen(false);
-  };
-
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString("en-US", {
@@ -810,7 +762,6 @@ Output only the section content, without headings: `;
       day: "numeric",
     });
   };
-
   const toggleGenerateQuizModal = () => {
     setIsGenerateQuizModalOpen(!isGenerateQuizModalOpen);
     if (!isGenerateQuizModalOpen) {
@@ -819,7 +770,6 @@ Output only the section content, without headings: `;
       setGenerateQuizError(null);
     }
   };
-
   const handleGenerateQuiz = async () => {
     if (!selectedQuizModuleId) {
       setGenerateQuizError("Please select a module");
@@ -891,14 +841,12 @@ ${contentText.substring(0, 20000)}`;
       setIsGeneratingQuiz(false);
     }
   };
-
   const toggleValidationModal = () => {
     setIsValidationModalOpen(!isValidationModalOpen);
     if (!isValidationModalOpen) {
       fetchPendingQuestions();
     }
   };
-
   const fetchPendingQuestions = async () => {
     try {
       const { data, error } = await supabase
@@ -912,7 +860,6 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error fetching pending questions:", err);
     }
   };
-
   const handleApproveQuestion = async (id) => {
     try {
       const { error } = await supabase
@@ -926,7 +873,6 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error approving:", err);
     }
   };
-
   const handleRejectQuestion = async (id) => {
     try {
       const { error } = await supabase
@@ -939,12 +885,10 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error rejecting:", err);
     }
   };
-
   const openEditQuestion = (question) => {
     setEditingQuestion({ ...question });
     setIsEditQuestionModalOpen(true);
   };
-
   const handleSaveEdit = async () => {
     try {
       const { error } = await supabase
@@ -962,129 +906,6 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error saving edit:", err);
     }
   };
-
-  const openQuizModal = (moduleId) => {
-    const module = generatedModules.find((m) => m.id === moduleId);
-    setCurrentQuizModuleId(moduleId);
-    setCurrentQuizModuleLevel(module?.level || "Beginner");
-    setQuizLanguage("english");
-    setQuizQuestions([]);
-    setUserAnswers({});
-    setQuizScore(null);
-    setIsQuizModalOpen(true);
-  };
-
-  const loadQuizQuestions = async () => {
-    try {
-      const isTaglish = quizLanguage === "taglish";
-      const { data, error } = await supabase
-        .from("quiz_questions")
-        .select("*")
-        .eq("module_id", currentQuizModuleId)
-        .eq("status", "approved")
-        .eq("is_taglish", isTaglish);
-      if (error) throw error;
-      if (data.length < 5) {
-        alert(
-          `Not enough approved ${quizLanguage} questions for this module yet.`
-        );
-        return;
-      }
-      const numQ = 5;
-      const shuffled = data.sort(() => Math.random() - 0.5);
-      const selectedQ = shuffled.slice(0, numQ);
-      setQuizQuestions(selectedQ);
-    } catch (err) {
-      console.error("Error loading quiz:", err);
-      alert("Failed to load quiz.");
-    }
-  };
-
-  const handleQuizAnswer = (questionId, answerIndex) => {
-    setUserAnswers((prev) => ({ ...prev, [questionId]: answerIndex }));
-  };
-
-  const handleSubmitQuiz = async () => {
-    let correct = 0;
-    quizQuestions.forEach((q) => {
-      if (userAnswers[q.id] === q.correct_answer) correct++;
-    });
-    const total = quizQuestions.length;
-    const percentage = (correct / total) * 100;
-    let points = 0;
-    try {
-      const { data: previousAttempts, error: attCheckErr } = await supabase
-        .from("quiz_attempts")
-        .select("barya_points_earned")
-        .eq("user_id", user.id)
-        .eq("module_id", currentQuizModuleId);
-      if (attCheckErr) throw attCheckErr;
-      const alreadyRewarded = previousAttempts.some(
-        (a) => a.barya_points_earned > 0
-      );
-      if (!alreadyRewarded) {
-        let basePoints;
-        switch (currentQuizModuleLevel) {
-          case "Beginner":
-            basePoints = 300;
-            break;
-          case "Intermediate":
-            basePoints = 500;
-            break;
-          case "Advanced":
-            basePoints = 700;
-            break;
-          default:
-            basePoints = 300;
-        }
-        if (percentage >= 80) {
-          points = basePoints;
-          if (percentage === 100) {
-            points = Math.floor(basePoints * 1.02);
-          }
-        }
-      }
-      // Always record the attempt
-      const { error: attErr } = await supabase.from("quiz_attempts").insert({
-        user_id: user.id,
-        module_id: currentQuizModuleId,
-        score: correct,
-        total_questions: total,
-        barya_points_earned: points,
-      });
-      if (attErr) throw attErr;
-      if (points > 0) {
-        // Award points if applicable
-        const { data: ub, error: ubErr } = await supabase
-          .from("user_balances")
-          .select("balance")
-          .eq("user_id", user.id)
-          .single();
-        if (ubErr) throw ubErr;
-        const newBal = ub.balance + points;
-        const { error: updateErr } = await supabase
-          .from("user_balances")
-          .update({ balance: newBal })
-          .eq("user_id", user.id);
-        if (updateErr) throw updateErr;
-        const { error: histErr } = await supabase
-          .from("balance_history")
-          .insert({
-            user_id: user.id,
-            change_amount: points,
-            balance_after: newBal,
-            change_type: "DEPOSIT",
-            description: `Quiz reward for module ${currentQuizModuleId}`,
-          });
-        if (histErr) throw histErr;
-      }
-      setQuizScore({ correct, total, points });
-    } catch (err) {
-      console.error("Error submitting quiz:", err);
-      alert("Failed to submit quiz and award points.");
-    }
-  };
-
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -1139,16 +960,11 @@ ${contentText.substring(0, 20000)}`;
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   return (
     <div>
       <style>{`
         .simple-btn {
           transition: background-color 0.3s ease !important;
-        }
-        .simple-btn:hover {
-          background-color: var(--accent-blue);
-          transform: none !important;
         }
         .form-select {
           background: var(--bg-secondary);
@@ -1212,7 +1028,6 @@ ${contentText.substring(0, 20000)}`;
           width: 100%;
           height: 100%;
         }
-
         .module-thumbnail {
           width: 100%;
           height: 200px;
@@ -1220,44 +1035,57 @@ ${contentText.substring(0, 20000)}`;
           border-top-left-radius: 20px;
           border-top-right-radius: 20px;
         }
-
         .module-keywords {
           display: flex;
           flex-wrap: wrap;
           gap: 8px;
         }
-
-        .keyword-tag {
-          padding: 4px 12px;
-          background: rgba(0, 212, 255, 0.1);
-          border-radius: 20px;
-          font-size: 12px;
-          color: var(--accent-primary);
-          border: 1px solid rgba(0, 212, 255, 0.2);
+        .quiz-availability {
+          display: flex;
+          gap: 6px;
+          align-items: center;
         }
-
+        .quiz-badge {
+          font-size: 12px;
+          font-weight: 700;
+          padding: 6px 8px;
+          border-radius: 999px;
+          color: white;
+          display: inline-flex;
+          gap: 6px;
+          align-items: center;
+        }
+        .quiz-badge.english {
+          background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+        }
+        .quiz-badge.taglish {
+          background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
+        }
+        .quiz-available-dot {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: rgba(255,255,255,0.85);
+          display: inline-block;
+        }
         .toc-section {
           margin-bottom: 32px;
           padding: 20px;
           background: var(--bg-tertiary);
           border-radius: 12px;
         }
-
         .toc-section ul {
           list-style: none;
           padding: 0;
         }
-
         .toc-section li {
           margin-bottom: 12px;
         }
-
         .toc-section a {
           color: var(--text-secondary);
           text-decoration: none;
           transition: color 0.3s;
         }
-
         .toc-section a:hover {
           color: var(--accent-primary);
         }
@@ -1356,184 +1184,196 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       )}
-      <div className="modules-display">
-        <div className="modules-header">
-          <h2>Available Learning Modules</h2>
-          <div style={{ display: "flex", gap: "12px" }}>
-            <button
-              className="btn btn-secondary"
-              onClick={() => {
-                fetchGeneratedModules();
-                fetchQuestionCounts();
-              }}
-              disabled={isGenerating}
-            >
-              Refresh Modules
-            </button>
-            {isAdmin && (
+      {selectedModule ? (
+        <ModuleDetail
+          module={selectedModule}
+          onBack={() => setSelectedModule(null)}
+          onTakeQuiz={() => navigate(`/quiz/${selectedModule.id}`)}
+          moduleQuestionCounts={moduleQuestionCounts}
+          moduleTaglishQuestionCounts={moduleTaglishQuestionCounts}
+          user={user}
+        />
+      ) : (
+        <div className="modules-display">
+          <div className="modules-header">
+            <h2>Available Learning Modules</h2>
+            <div style={{ display: "flex", gap: "12px" }}>
               <button
-                className="btn btn-accent simple-btn"
-                onClick={toggleGenerateTab}
+                className="btn btn-secondary"
+                onClick={() => {
+                  fetchGeneratedModules();
+                  fetchQuestionCounts();
+                }}
                 disabled={isGenerating}
               >
-                {showGenerateTab ? "Hide Generator" : "Show Generator"}
+                Refresh Modules
               </button>
-            )}
-          </div>
-        </div>
-        {fetchGeneratedError && (
-          <p className="error-message">{fetchGeneratedError}</p>
-        )}
-        {generatedModules.length === 0 && !fetchGeneratedError ? (
-          <div className="no-modules">
-            <p className="info-message">No learning modules available yet.</p>
-            <p className="info-subtitle">
-              Create and generate your first module to get started!
-            </p>
-          </div>
-        ) : (
-          <div className="modules-grid">
-            {(user ? generatedModules : generatedModules.slice(0, 5)).map(
-              (module) => (
-                <div
-                  key={module.id}
-                  className="module-card"
-                  onClick={() => handleModuleClick(module)}
+              {isAdmin && (
+                <button
+                  className="btn btn-accent simple-btn"
+                  onClick={toggleGenerateTab}
+                  disabled={isGenerating}
                 >
-                  {module.content?.media?.image?.url && (
-                    <img
-                      src={module.content.media.image.url}
-                      alt="Module thumbnail"
-                      className="module-thumbnail"
-                    />
-                  )}
-                  <div className="module-card-header">
-                    <h3 className="module-card-title">{module.title}</h3>
-                    <span className="module-level-tag">{module.level}</span>
-                    <span className="module-card-date">
-                      {formatDate(module.created_at)}
-                    </span>
-                  </div>
-                  <div className="module-card-content">
-                    <p className="module-intro">
-                      {module.content?.intro ||
-                        "Click to view module content..."}
-                    </p>
-                    <div className="module-keywords">
-                      {module.keywords.map((kw, idx) => (
-                        <span key={idx} className="keyword-tag">
-                          {kw}
-                        </span>
-                      ))}
+                  {showGenerateTab ? "Hide Generator" : "Show Generator"}
+                </button>
+              )}
+            </div>
+          </div>
+          {fetchGeneratedError && (
+            <p className="error-message">{fetchGeneratedError}</p>
+          )}
+          {generatedModules.length === 0 && !fetchGeneratedError ? (
+            <div className="no-modules">
+              <p className="info-message">No learning modules available yet.</p>
+              <p className="info-subtitle">
+                Create and generate your first module to get started!
+              </p>
+            </div>
+          ) : (
+            <div className="modules-grid">
+              {(user ? generatedModules : generatedModules.slice(0, 5)).map(
+                (module) => (
+                  <div
+                    key={module.id}
+                    className="module-card"
+                    onClick={() => handleModuleClick(module)}
+                  >
+                    {module.content?.media?.image?.url && (
+                      <img
+                        src={module.content.media.image.url}
+                        alt="Module thumbnail"
+                        className="module-thumbnail"
+                      />
+                    )}
+                    <div className="module-card-header">
+                      <h3 className="module-card-title">{module.title}</h3>
+                      <span className="module-level-tag">{module.level}</span>
+                      <span className="module-card-date">
+                        {formatDate(module.created_at)}
+                      </span>
                     </div>
-                    <div className="module-sections-count">
-                      {module.content?.sections?.length || 0} sections
+                    <div className="module-card-content">
+                      <p className="module-intro">
+                        {module.content?.intro ||
+                          "Click to view module content..."}
+                      </p>
+                      <div className="module-keywords">
+                        {module.keywords.map((kw, idx) => (
+                          <span key={idx} className="keyword-tag">
+                            {kw}
+                          </span>
+                        ))}
+                      </div>
+                      <div className="module-sections-count">
+                        {module.content?.sections?.length || 0} sections
+                      </div>
+                      <div className="quiz-availability">
+                        {(moduleQuestionCounts[module.id] ?? 0) > 0 && (
+                          <span className="quiz-badge english">
+                            <span className="quiz-available-dot" />
+                            English Quiz
+                          </span>
+                        )}
+                        {(moduleTaglishQuestionCounts[module.id] ?? 0) > 0 && (
+                          <span className="quiz-badge taglish">
+                            <span className="quiz-available-dot" />
+                            Taglish Quiz
+                          </span>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                  <div className="module-card-footer">
-                    <div
-                      style={{
-                        display: "flex",
-                        gap: "8px",
-                        flexWrap: "wrap",
-                        justifyContent: "flex-start",
-                      }}
-                    >
-                      <button
-                        className="btn btn-link"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleModuleClick(module);
+                    <div className="module-card-footer">
+                      <div
+                        style={{
+                          display: "flex",
+                          gap: "8px",
+                          flexWrap: "wrap",
+                          justifyContent: "flex-start",
                         }}
                       >
-                        View Module →
-                      </button>
-                      {(moduleQuestionCounts[module.id] >= 5 ||
-                        moduleTaglishQuestionCounts[module.id] >= 5) &&
-                        user && (
-                          <button
-                            className="btn btn-link"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              openQuizModal(module.id);
-                            }}
-                          >
-                            Take Quiz →
-                          </button>
-                        )}
-                      {isAdmin && (
                         <button
-                          className="btn btn-secondary"
+                          className="btn btn-link"
                           onClick={(e) => {
                             e.stopPropagation();
-                            openEditModal(module);
-                          }}
-                          style={{
-                            fontSize: "14px",
-                            padding: "4px 8px",
-                            backgroundColor: "var(--accent-purple)",
-                            color: "white",
-                            border: "none",
+                            handleModuleClick(module);
                           }}
                         >
-                          Edit
+                          View Module →
                         </button>
-                      )}
+                        {isAdmin && (
+                          <button
+                            className="btn btn-secondary"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              openEditModal(module);
+                            }}
+                            style={{
+                              fontSize: "14px",
+                              padding: "4px 8px",
+                              backgroundColor: "var(--accent-purple)",
+                              color: "white",
+                              border: "none",
+                            }}
+                          >
+                            Edit
+                          </button>
+                        )}
+                      </div>
                     </div>
                   </div>
-                </div>
-              )
-            )}
-          </div>
-        )}
-        {!user && generatedModules.length > 5 && (
-          <div
-            className="login-prompt"
-            style={{
-              textAlign: "center",
-              padding: "60px 32px",
-              marginTop: "40px",
-              background:
-                "linear-gradient(135deg, rgba(108, 92, 231, 0.15), rgba(0, 212, 255, 0.15))",
-              borderRadius: "24px",
-              border: "2px solid var(--border)",
-              backdropFilter: "blur(20px)",
-              boxShadow: "0 8px 32px rgba(0, 212, 255, 0.2)",
-              animation: "fadeInUp 0.6s ease-out",
-            }}
-          >
-            <p
+                )
+              )}
+            </div>
+          )}
+          {!user && generatedModules.length > 5 && (
+            <div
+              className="login-prompt"
               style={{
-                fontSize: "22px",
-                fontWeight: "700",
-                background: "var(--gradient-primary)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
-                marginBottom: "16px",
-                letterSpacing: "-0.5px",
+                textAlign: "center",
+                padding: "60px 32px",
+                marginTop: "40px",
+                background:
+                  "linear-gradient(135deg, rgba(108, 92, 231, 0.15), rgba(0, 212, 255, 0.15))",
+                borderRadius: "24px",
+                border: "2px solid var(--border)",
+                backdropFilter: "blur(20px)",
+                boxShadow: "0 8px 32px rgba(0, 212, 255, 0.2)",
+                animation: "fadeInUp 0.6s ease-out",
               }}
             >
-              🚀 Ready to unlock your crypto learning journey?
-            </p>
-            <p
-              style={{
-                fontSize: "16px",
-                color: "var(--text-secondary)",
-                lineHeight: "1.7",
-                maxWidth: "600px",
-                margin: "0 auto",
-              }}
-            >
-              Create an account to access{" "}
-              <strong style={{ color: "var(--accent-primary)" }}>
-                exclusive modules
-              </strong>
-              , earn rewards, and learn more about crypto!
-            </p>
-          </div>
-        )}
-      </div>
+              <p
+                style={{
+                  fontSize: "22px",
+                  fontWeight: "700",
+                  background: "var(--gradient-primary)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
+                  marginBottom: "16px",
+                  letterSpacing: "-0.5px",
+                }}
+              >
+                🚀 Ready to unlock your crypto learning journey?
+              </p>
+              <p
+                style={{
+                  fontSize: "16px",
+                  color: "var(--text-secondary)",
+                  lineHeight: "1.7",
+                  maxWidth: "600px",
+                  margin: "0 auto",
+                }}
+              >
+                Create an account to access{" "}
+                <strong style={{ color: "var(--accent-primary)" }}>
+                  exclusive modules
+                </strong>
+                , earn rewards, and learn more about crypto!
+              </p>
+            </div>
+          )}
+        </div>
+      )}
       <div className={`modal-overlay ${isModalOpen ? "" : "hidden"}`}>
         <div className="modal-content">
           <div className="modal-header">
@@ -2005,185 +1845,6 @@ ${contentText.substring(0, 20000)}`;
               </div>
               {updateError && <p className="error-message">{updateError}</p>}
             </form>
-          </div>
-        </div>
-      </div>
-      <div className={`modal-overlay ${isContentModalOpen ? "" : "hidden"}`}>
-        <div className="modal-content module-content-modal">
-          <div className="modal-header">
-            <h3>{selectedModule?.title}</h3>
-            <button className="modal-close" onClick={closeContentModal}>
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            {selectedModule?.content && (
-              <div className="module-full-content">
-                <div className="module-meta">
-                  <span className="module-date">
-                    Created: {formatDate(selectedModule.created_at)}
-                  </span>
-                  <select
-                    value={language}
-                    onChange={(e) => setLanguage(e.target.value)}
-                    className="form-select"
-                    style={{ marginLeft: "16px" }}
-                  >
-                    <option value="english">English</option>
-                    <option value="taglish">TagLish</option>
-                  </select>
-                </div>
-                <div className="toc-section">
-                  <h4>Table of Contents</h4>
-                  <ul>
-                    <li>
-                      <a href="#intro">Introduction</a>
-                    </li>
-                    {/* sections first, video moved to end */}
-                    {(language === "english"
-                      ? selectedModule.content.sections
-                      : selectedModule.taglish_content?.sections || []
-                    ).map((section, index) => (
-                      <li key={index}>
-                        <a href={`#section-${index}`}>{section.title}</a>
-                      </li>
-                    ))}
-                    {(
-                      (language === "english"
-                        ? selectedModule.content.media
-                        : selectedModule.taglish_content?.media
-                      )?.video) && (
-                        <li>
-                          <a href="#video">Explanatory Video</a>
-                        </li>
-                    )}
-                  </ul>
-                </div>
-                <div id="intro" className="module-intro-section">
-                  <h4>Introduction</h4>
-                  <ReactMarkdown 
-                    remarkPlugins={[remarkGfm]} 
-                    rehypePlugins={[rehypeHighlight]}
-                  >
-                    {language === "english"
-                      ? selectedModule.content.intro
-                      : selectedModule.taglish_content?.intro ||
-                        "No TagLish content available"}
-                  </ReactMarkdown>
-                </div>
-                {/* show illustrative image (if present) */}
-                {(
-                  (language === "english"
-                    ? selectedModule.content.media
-                    : selectedModule.taglish_content?.media
-                  )?.image) && (
-                  <div className="media-section">
-                    <h4>Illustrative Image</h4>
-                    <p className="context">
-                      This image provides visual context for the module "
-                      {selectedModule.title}", illustrating key concepts such
-                      as {selectedModule.keywords.join(", ")}.
-                    </p>
-                    <img
-                      src={
-                        (language === "english"
-                          ? selectedModule.content.media
-                          : selectedModule.taglish_content?.media
-                        ).image.url
-                      }
-                      alt="Module illustration"
-                    />
-                    <p
-                      style={{
-                        fontSize: "12px",
-                        color: "var(--text-muted)",
-                        marginTop: "8px",
-                        textAlign: "center",
-                      }}
-                    >
-                      Photo by{" "}
-                      <a
-                        href={
-                          (language === "english"
-                            ? selectedModule.content.media
-                            : selectedModule.taglish_content?.media
-                          ).image.photographer_url
-                        }
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {
-                          (language === "english"
-                            ? selectedModule.content.media
-                            : selectedModule.taglish_content?.media
-                          ).image.photographer
-                        }
-                      </a>{" "}
-                      on Pexels
-                    </p>
-                  </div>
-                )}
-                <div className="module-sections">
-                  {(language === "english"
-                    ? selectedModule.content.sections
-                    : selectedModule.taglish_content?.sections || []
-                  ).map((section, index) => (
-                    <div key={index} id={`section-${index}`} className="module-section">
-                      <h4>{section.title}</h4>
-                      <ReactMarkdown 
-                        remarkPlugins={[remarkGfm]} 
-                        rehypePlugins={[rehypeHighlight]}
-                      >
-                        {section.body}
-                      </ReactMarkdown>
-                    </div>
-                  ))}
-                </div>
-                {/* move explanatory video to the end so it acts as supporting content */}
-                {(
-                  (language === "english"
-                    ? selectedModule.content.media
-                    : selectedModule.taglish_content?.media
-                  )?.video) && (
-                  <div id="video" className="media-section">
-                    <h4>Explanatory Video</h4>
-                    <p className="context">
-                      This video tutorial complements the module "
-                      {selectedModule.title}" by providing a practical
-                      demonstration of concepts like {selectedModule.keywords.join(", ")}.
-                    </p>
-                    <div className="video-wrapper">
-                      <iframe
-                        src={
-                          (language === "english"
-                            ? selectedModule.content.media
-                            : selectedModule.taglish_content?.media
-                          ).video
-                        }
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      ></iframe>
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
-          <div className="modal-footer">
-            <button className="btn btn-secondary" onClick={closeContentModal}>
-              Close
-            </button>
-            {(moduleQuestionCounts[selectedModule?.id] >= 5 ||
-              moduleTaglishQuestionCounts[selectedModule?.id] >= 5) &&
-              user && (
-                <button
-                  className="btn btn-link"
-                  onClick={() => openQuizModal(selectedModule.id)}
-                >
-                  Take Quiz
-                </button>
-              )}
           </div>
         </div>
       </div>
@@ -2786,112 +2447,7 @@ ${contentText.substring(0, 20000)}`;
           </div>
         </div>
       </div>
-      <div className={`modal-overlay ${isQuizModalOpen ? "" : "hidden"}`}>
-        <div className="modal-content module-content-modal">
-          <div className="modal-header">
-            <h3>
-              Quiz:{" "}
-              {
-                generatedModules.find((m) => m.id === currentQuizModuleId)
-                  ?.title
-              }
-            </h3>
-            <button
-              className="modal-close"
-              onClick={() => setIsQuizModalOpen(false)}
-            >
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            {quizScore ? (
-              <div>
-                <h4>
-                  Score: {quizScore.correct} / {quizScore.total}
-                </h4>
-                <p>Earned {quizScore.points} barya points!</p>
-                <button
-                  className="btn btn-secondary"
-                  onClick={() => {
-                    setQuizQuestions([]);
-                    setUserAnswers({});
-                    setQuizScore(null);
-                  }}
-                >
-                  Retake Quiz
-                </button>
-              </div>
-            ) : quizQuestions.length === 0 ? (
-              <div>
-                <div className="form-group">
-                  <label className="form-label">Select Language</label>
-                  <select
-                    value={quizLanguage}
-                    onChange={(e) => setQuizLanguage(e.target.value)}
-                    className="form-select"
-                  >
-                    <option
-                      value="english"
-                      disabled={
-                        (moduleQuestionCounts[currentQuizModuleId] || 0) < 5
-                      }
-                    >
-                      English
-                    </option>
-                    <option
-                      value="taglish"
-                      disabled={
-                        (moduleTaglishQuestionCounts[currentQuizModuleId] ||
-                          0) < 5
-                      }
-                    >
-                      Taglish
-                    </option>
-                  </select>
-                </div>
-                <button className="btn btn-accent" onClick={loadQuizQuestions}>
-                  Start Quiz
-                </button>
-              </div>
-            ) : (
-              <div>
-                {quizQuestions.map((q, qIndex) => (
-                  <div key={q.id} className="module-section">
-                    <h4>
-                      Question {qIndex + 1}: {q.question_text}
-                    </h4>
-                    {q.options.map((opt, oIndex) => (
-                      <div key={oIndex}>
-                        <input
-                          type="radio"
-                          id={`q${q.id}_o${oIndex}`}
-                          name={`q${q.id}`}
-                          checked={userAnswers[q.id] === oIndex}
-                          onChange={() => handleQuizAnswer(q.id, oIndex)}
-                        />
-                        <label htmlFor={`q${q.id}_o${oIndex}`}>
-                          {String.fromCharCode(65 + oIndex)}. {opt}
-                        </label>
-                      </div>
-                    ))}
-                  </div>
-                ))}
-                <button
-                  className="btn btn-accent"
-                  onClick={handleSubmitQuiz}
-                  disabled={
-                    Object.keys(userAnswers).length < quizQuestions.length
-                  }
-                >
-                  Submit Quiz
-                </button>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
-
 export default Learn2;

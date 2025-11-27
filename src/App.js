@@ -14,6 +14,8 @@ import Signup from "./components/Signup";
 import Leaderboard from "./components/Leaderboard";
 import ForgotPassword from "./components/ForgotPassword";
 import AdminDashboard from "./components/AdminDashboard";
+import ModuleDetail from "./components/ModuleDetail";
+import QuizPage from "./components/QuizPage";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
             <Route path="*" element={<Homepage />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/learn" element={<Learn />} />
+            <Route path="/module/:id" element={<ModuleDetail />} />
+            <Route path="/quiz/:moduleId" element={<QuizPage />} />
             <Route path="/trade" element={<Trade />} />
             <Route path="/news" element={<News />} />
             <Route path="/login" element={<Login />} />
