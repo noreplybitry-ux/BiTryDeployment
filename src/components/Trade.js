@@ -9,6 +9,8 @@ import Swal from 'sweetalert2';
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabase";
 import tradingService from "../services/TradingService";
+import { FiCalendar } from 'react-icons/fi';
+
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
 const getCryptoIcon = (symbol) => {
@@ -829,6 +831,10 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
   const [orderSuccess, setOrderSuccess] = useState("");
   const [activeTab, setActiveTab] = useState("positions");
   const [isAgeVerified, setIsAgeVerified] = useState(null);
+  const [showBirthdayModal, setShowBirthdayModal] = useState(false);
+  const [birthdayData, setBirthdayData] = useState('');
+  const [errors, setErrors] = useState({});
+  const [isLoadingBirthday, setIsLoadingBirthday] = useState(false);
   const navigate = useNavigate();
   const {
     balance,
@@ -1138,6 +1144,84 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     "Enjoy learning with virtual funds. Walang pressure dito.",
     "Always diversify your portfolio. Huwag ilagay lahat sa isang basket."
   ];
+  const validateBirthday = (birthday) => {
+    if (!birthday) {
+      return 'Birthday is required';
+    }
+    const birthDate = new Date(birthday);
+    const today = new Date();
+    if (birthDate > today) {
+      return 'Birthday cannot be in the future';
+    }
+    return null;
+  };
+
+  const createOrUpdateProfile = async (birthdayDate) => {
+    try {
+      const { error } = await supabase.from("profiles").upsert({
+        id: user.id,
+        birthday: birthdayDate,
+        updated_at: new Date().toISOString(),
+      });
+
+      if (error) {
+        throw error;
+      }
+
+      return true;
+    } catch (error) {
+      console.error("Error creating/updating profile:", error);
+      throw error;
+    }
+  };
+
+  const calculateAge = (birthday) => {
+    const birthDate = new Date(birthday);
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  };
+
+  const handleBirthdaySubmit = async () => {
+    const birthdayError = validateBirthday(birthdayData);
+    if (birthdayError) {
+      setErrors({ birthday: birthdayError });
+      return;
+    }
+
+    setIsLoadingBirthday(true);
+    setErrors({});
+
+    try {
+      await createOrUpdateProfile(birthdayData);
+      setShowBirthdayModal(false);
+      const age = calculateAge(birthdayData);
+      if (age < 18) {
+        Swal.fire({
+          icon: 'warning',
+          title: 'Age Restriction',
+          text: 'Only users 18 and above are able to trade. You are able to view the lessons in the learn tab.',
+          confirmButtonText: 'OK',
+          confirmButtonColor: '#3085d6'
+        }).then(() => {
+          navigate('/');
+        });
+        setIsAgeVerified(false);
+      } else {
+        setIsAgeVerified(true);
+      }
+    } catch (error) {
+      console.error("Error updating profile:", error);
+      setErrors({ birthday: "Failed to update profile. Please try again." });
+    } finally {
+      setIsLoadingBirthday(false);
+    }
+  };
+
   useEffect(() => {
     const randomReminder = reminders[Math.floor(Math.random() * reminders.length)];
     Swal.fire({
@@ -1158,16 +1242,10 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           .eq('id', user.id)
           .single();
         if (error || !data?.birthday) {
-          setIsAgeVerified(false);
+          setShowBirthdayModal(true);
           return;
         }
-        const birthDate = new Date(data.birthday);
-        const today = new Date();
-        let age = today.getFullYear() - birthDate.getFullYear();
-        const monthDiff = today.getMonth() - birthDate.getMonth();
-        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-          age--;
-        }
+        const age = calculateAge(data.birthday);
         if (age < 18) {
           Swal.fire({
             icon: 'warning',
@@ -1325,7 +1403,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </div>
             </div>
-        
+       
             <div className="price-display">
               <div className="current-price">${lastPrice}</div>
               <div className={`price-change ${parseFloat(priceChange.percent) >= 0 ? "positive" : "negative"}`}>
@@ -1382,7 +1460,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 ${balance.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-        
+       
             {isFutures && (
               <>
                 <div className="margin-card">
@@ -1399,14 +1477,14 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </>
             )}
-        
+       
             <div className="pnl-card">
               <div className="pnl-label">Total P&L</div>
               <div className={`pnl-value ${totalPnL >= 0 ? "positive" : "negative"}`}>
                 {totalPnL >= 0 ? "+" : ""}${totalPnL.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-        
+       
             <div className="portfolio-card">
               <div className="portfolio-label">Portfolio Value</div>
               <div className="portfolio-amount">
@@ -1672,7 +1750,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             ))}
                           </tbody>
                         </table>
-                    
+                   
                         <div className="positions-summary">
                           <div className="summary-item">
                             <span>Total Positions:</span>
@@ -1756,7 +1834,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             ))}
                           </tbody>
                         </table>
-                    
+                   
                         <div className="holdings-summary">
                           <div className="summary-item">
                             <span>Total Holdings:</span>
@@ -1844,7 +1922,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                         ))}
                       </tbody>
                     </table>
-                
+               
                     <div className="orders-summary">
                       <div className="summary-item">
                         <span>Total Orders:</span>
@@ -1906,6 +1984,65 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
           )}
         </div>
       </div>
+      {showBirthdayModal && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h3>Complete Your Profile</h3>
+              <p>Please provide your date of birth to access trading features</p>
+            </div>
+
+            <div className="modal-body">
+              <div className="input-group">
+                <label htmlFor="modalBirthday">Date of Birth</label>
+                <div className="input-wrapper">
+                  <input
+                    type="date"
+                    id="modalBirthday"
+                    value={birthdayData}
+                    onChange={(e) => {
+                      setBirthdayData(e.target.value);
+                      if (errors.birthday) {
+                        setErrors((prev) => ({
+                          ...prev,
+                          birthday: "",
+                        }));
+                      }
+                    }}
+                    className={`auth-input ${errors.birthday ? "error" : ""}`}
+                    disabled={isLoadingBirthday}
+                    max={new Date().toISOString().split("T")[0]}
+                  />
+                  <span className="input-icon">
+                    <FiCalendar size={20} />
+                  </span>
+                </div>
+                {errors.birthday && (
+                  <span className="error-message">{errors.birthday}</span>
+                )}
+              </div>
+            </div>
+
+            <div className="modal-footer">
+              <button
+                type="button"
+                className={`auth-btn primary ${isLoadingBirthday ? "loading" : ""}`}
+                onClick={handleBirthdaySubmit}
+                disabled={isLoadingBirthday}
+              >
+                {isLoadingBirthday ? (
+                  <>
+                    <div className="loading-spinner"></div>
+                    Updating...
+                  </>
+                ) : (
+                  "Continue"
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
