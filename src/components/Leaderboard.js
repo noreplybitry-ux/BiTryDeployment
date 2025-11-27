@@ -117,18 +117,28 @@ const Leaderboard = () => {
           },
         }));
 
-        // User's own rank (always accurate because we fetched everyone)
+        // User's own PNL and trade count (even if negative)
         if (user) {
-          const userIndex = stats.findIndex((s) => s.id === user.id);
-          if (userIndex !== -1) {
-            uRanks[period] = userIndex + 1;
-            uPnls[period] = stats[userIndex].total_pnl;
-            uTrades[period] = stats[userIndex].trade_count;
+          const userStat = stats.find((s) => s.id === user.id);
+          if (userStat) {
+            uPnls[period] = userStat.total_pnl;
+            uTrades[period] = userStat.trade_count;
           }
-          // if no trades → no rank → stays undefined (we show "make first trade" message)
+          // if no trades → no PNL/trades → stays undefined
         }
 
-        data[period] = stats; // ← NO slice → show every single trader
+        // Filter to only positive or zero PNL
+        const filteredStats = stats.filter((s) => s.total_pnl >= 0);
+
+        // User's rank only if PNL >= 0 (accurate because we have all data)
+        if (user && uPnls[period] >= 0) {
+          const userIndex = filteredStats.findIndex((s) => s.id === user.id);
+          if (userIndex !== -1) {
+            uRanks[period] = userIndex + 1;
+          }
+        }
+
+        data[period] = filteredStats; // ← NO slice → show every single trader with PNL >= 0
       }
 
       setLeaderboardData(data);
@@ -275,14 +285,25 @@ const Leaderboard = () => {
       {renderTable(currentData)}
 
       {user ? (
-        currentRank ? (
-          <div className="your-rank">
-            <h3>Your Rank: #{currentRank}</h3>
-            <p className={currentPnl >= 0 ? "positive" : "negative"}>
-              ${Number(currentPnl || 0).toFixed(2)} ({currentTrades || 0}{" "}
-              trades)
-            </p>
-          </div>
+        currentTrades !== undefined ? (
+          currentRank ? (
+            <div className="your-rank">
+              <h3>Your Rank: #{currentRank}</h3>
+              <p className={currentPnl >= 0 ? "positive" : "negative"}>
+                ${Number(currentPnl || 0).toFixed(2)} ({currentTrades || 0}{" "}
+                trades)
+              </p>
+            </div>
+          ) : (
+            <div className="your-rank">
+              <h3>Your PNL is negative</h3>
+              <p className={currentPnl >= 0 ? "positive" : "negative"}>
+                ${Number(currentPnl || 0).toFixed(2)} ({currentTrades || 0}{" "}
+                trades)
+              </p>
+              <p>Achieve positive PNL to appear on the leaderboard!</p>
+            </div>
+          )
         ) : (
           <div className="your-rank">
             Make your first trade to appear on the leaderboard!
