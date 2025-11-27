@@ -97,7 +97,6 @@ const AuthCallback = () => {
       const urlParams = new URLSearchParams(window.location.search);
       const code = urlParams.get('code');
 
-      // CASE 1: Direct Google OAuth (we initiated with our own client ID)
       if (code) {
         setLoading(true);
         try {
@@ -108,7 +107,8 @@ const AuthCallback = () => {
           });
 
           if (!response.ok) {
-            throw new Error('Failed to exchange code for tokens');
+            const errData = await response.json();
+            throw new Error(errData.error || 'Failed to exchange code for tokens');
           }
 
           const googleUser = await response.json();
@@ -162,41 +162,14 @@ const AuthCallback = () => {
             navigate('/home', { replace: true });
           }
         } catch (err) {
-          console.error('Direct Google OAuth failed:', err);
+          console.error('Direct Google OAuth failed:', err.message);
           navigate('/login', { replace: true });
         }
         return;
       }
 
-      // CASE 2: Supabase OAuth callback (old flow)
-      try {
-        const { data, error } = await supabase.auth.getSession();
-
-        if (error || !data.session?.user) {
-          navigate('/login', { replace: true });
-          return;
-        }
-
-        const user = data.session.user;
-        setUserId(user.id);
-        setUserMetadata(user.user_metadata || {});
-
-        await createOrUpdateProfile(user.id, user.user_metadata || {});
-
-        const { hasCompleteProfile, isAdmin } = await checkUserProfile(user.id);
-
-        if (isAdmin) {
-          navigate('/admindashboard', { replace: true });
-        } else if (!hasCompleteProfile) {
-          setShowBirthdayModal(true);
-          setLoading(false);
-        } else {
-          navigate('/home', { replace: true });
-        }
-      } catch (err) {
-        console.error('Supabase OAuth callback failed:', err);
-        navigate('/login', { replace: true });
-      }
+      // Fallback if no code (should not happen)
+      navigate('/login', { replace: true });
     };
 
     handleAuthCallback();

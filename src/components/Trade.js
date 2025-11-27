@@ -10,7 +10,6 @@ import { useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabase";
 import tradingService from "../services/TradingService";
 import { FiCalendar } from 'react-icons/fi';
-
 const DEFAULT_SYMBOL = "BTCUSDT";
 const DEFAULT_INTERVAL = "1m";
 const getCryptoIcon = (symbol) => {
@@ -1156,7 +1155,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }
     return null;
   };
-
   const createOrUpdateProfile = async (birthdayDate) => {
     try {
       const { error } = await supabase.from("profiles").upsert({
@@ -1164,18 +1162,15 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
         birthday: birthdayDate,
         updated_at: new Date().toISOString(),
       });
-
       if (error) {
         throw error;
       }
-
       return true;
     } catch (error) {
       console.error("Error creating/updating profile:", error);
       throw error;
     }
   };
-
   const calculateAge = (birthday) => {
     const birthDate = new Date(birthday);
     const today = new Date();
@@ -1186,17 +1181,14 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
     }
     return age;
   };
-
   const handleBirthdaySubmit = async () => {
     const birthdayError = validateBirthday(birthdayData);
     if (birthdayError) {
       setErrors({ birthday: birthdayError });
       return;
     }
-
     setIsLoadingBirthday(true);
     setErrors({});
-
     try {
       await createOrUpdateProfile(birthdayData);
       setShowBirthdayModal(false);
@@ -1220,7 +1212,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       setIsLoadingBirthday(false);
     }
   };
-
   useEffect(() => {
     const randomReminder = reminders[Math.floor(Math.random() * reminders.length)];
     Swal.fire({
@@ -1231,7 +1222,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       confirmButtonColor: '#3085d6'
     }).then(() => {
       if (!user) {
-        setIsAgeVerified(false);
+        setIsAgeVerified(true);
         setAgeCheckLoading(false);
         return;
       }
@@ -1410,7 +1401,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </div>
             </div>
-       
+      
             <div className="price-display">
               <div className="current-price">${lastPrice}</div>
               <div className={`price-change ${parseFloat(priceChange.percent) >= 0 ? "positive" : "negative"}`}>
@@ -1467,7 +1458,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 ${balance.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-       
+      
             {isFutures && (
               <>
                 <div className="margin-card">
@@ -1484,14 +1475,14 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 </div>
               </>
             )}
-       
+      
             <div className="pnl-card">
               <div className="pnl-label">Total P&L</div>
               <div className={`pnl-value ${totalPnL >= 0 ? "positive" : "negative"}`}>
                 {totalPnL >= 0 ? "+" : ""}${totalPnL.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </div>
             </div>
-       
+      
             <div className="portfolio-card">
               <div className="portfolio-label">Portfolio Value</div>
               <div className="portfolio-amount">
@@ -1757,7 +1748,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             ))}
                           </tbody>
                         </table>
-                   
+                  
                         <div className="positions-summary">
                           <div className="summary-item">
                             <span>Total Positions:</span>
@@ -1841,7 +1832,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                             ))}
                           </tbody>
                         </table>
-                   
+                  
                         <div className="holdings-summary">
                           <div className="summary-item">
                             <span>Total Holdings:</span>
@@ -1929,7 +1920,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                         ))}
                       </tbody>
                     </table>
-               
+              
                     <div className="orders-summary">
                       <div className="summary-item">
                         <span>Total Orders:</span>
@@ -1998,7 +1989,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
               <h3>Complete Your Profile</h3>
               <p>Please provide your date of birth to access trading features</p>
             </div>
-
             <div className="modal-body">
               <div className="input-group">
                 <label htmlFor="modalBirthday">Date of Birth</label>
@@ -2029,7 +2019,6 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
                 )}
               </div>
             </div>
-
             <div className="modal-footer">
               <button
                 type="button"

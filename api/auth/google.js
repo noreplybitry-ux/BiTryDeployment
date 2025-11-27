@@ -1,4 +1,4 @@
-//api/auth/google.js
+// api/auth/google.js
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
 
@@ -8,9 +8,9 @@ export default async function handler(req, res) {
     method: 'POST',
     body: new URLSearchParams({
       code,
-      client_id: process.env.REACT_APP_PUBLIC_GOOGLE_CLIENT_ID,
-      client_secret: process.env.REACT_APP_PUBLIC_GOOGLE_CLIENT_SECRET,
-      redirect_uri: `${'https://bitry.vercel.app'}/auth/callback`,
+      client_id: process.env.GOOGLE_CLIENT_ID,
+      client_secret: process.env.GOOGLE_CLIENT_SECRET,
+      redirect_uri: 'https://bitry.vercel.app/auth/callback',
       grant_type: 'authorization_code',
     }),
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },

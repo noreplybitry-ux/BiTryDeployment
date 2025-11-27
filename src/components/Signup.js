@@ -503,7 +503,7 @@ const Signup = () => {
   const redirectTo = `${window.location.origin}/auth/callback`;
   
   const params = new URLSearchParams({
-    client_id: process.env.REACT_APP_PUBLIC_GOOGLE_CLIENT_ID,
+    client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
     redirect_uri: redirectTo,
     response_type: 'code',
     scope: 'openid email profile',
