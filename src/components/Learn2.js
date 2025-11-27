@@ -4,14 +4,12 @@ import { useAuth } from "../contexts/AuthContext";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import "../css/Learn2.css";
-
 const MODULE_API_KEY = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
 const TRANSLATION_API_KEY = "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q";
 const QUIZ_API_KEY = "AIzaSyD__yT5oimCLqnFGnLIX-GyiYwiqnlEtmI";
 const TAGLISH_QUIZ_API_KEY = "AIzaSyDQ0hiG0G24Euursr639qmRQnmTmzg9Tjg";
 const PEXELS_API_KEY = "YOUR_PEXELS_API_KEY"; // Replace with your actual Pexels API key
 const YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"; // Optional: Replace with your actual YouTube API key or leave empty
-
 const Learn2 = () => {
   const { user } = useAuth();
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -126,7 +124,9 @@ const Learn2 = () => {
       setFetchGeneratedError(null);
       const { data, error } = await supabase
         .from("learning_modules")
-        .select("id, title, content, taglish_content, created_at, level")
+        .select(
+          "id, title, content, taglish_content, created_at, level, keywords"
+        )
         .not("content", "is", null)
         .order("created_at", { ascending: false });
       if (error) throw error;
@@ -259,7 +259,8 @@ const Learn2 = () => {
       taglish_sections: module.taglish_content?.sections || [],
       media_image_url: module.content?.media?.image?.url || "",
       media_photographer: module.content?.media?.image?.photographer || "",
-      media_photographer_url: module.content?.media?.image?.photographer_url || "",
+      media_photographer_url:
+        module.content?.media?.image?.photographer_url || "",
       media_video: module.content?.media?.video || "",
     });
     setUpdateError(null);
@@ -286,15 +287,16 @@ const Learn2 = () => {
     setIsUpdating(true);
     setUpdateError(null);
     try {
-      const media = editFormData.media_image_url ? {
-        image: {
-          url: editFormData.media_image_url,
-          photographer: editFormData.media_photographer,
-          photographer_url: editFormData.media_photographer_url,
-        },
-        video: editFormData.media_video || null,
-      } : null;
-
+      const media = editFormData.media_image_url
+        ? {
+            image: {
+              url: editFormData.media_image_url,
+              photographer: editFormData.media_photographer,
+              photographer_url: editFormData.media_photographer_url,
+            },
+            video: editFormData.media_video || null,
+          }
+        : null;
       const updatedContent = {
         intro: editFormData.intro,
         sections: editFormData.sections,
@@ -447,7 +449,9 @@ Options: ${JSON.stringify(englishQuiz.options)}
     if (!PEXELS_API_KEY) return null;
     try {
       const response = await fetch(
-        `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=1`,
+        `https://api.pexels.com/v1/search?query=${encodeURIComponent(
+          query
+        )}&per_page=1`,
         {
           headers: {
             Authorization: PEXELS_API_KEY,
@@ -469,7 +473,6 @@ Options: ${JSON.stringify(englishQuiz.options)}
       return null;
     }
   };
-
   const searchYouTubeVideo = async (query) => {
     if (!YOUTUBE_API_KEY) return null;
     try {
@@ -570,7 +573,6 @@ Output only the section content, without headings: `;
         intro: introduction,
         sections: sections,
       };
-
       // Fetch media
       const query = `${module.keywords.join(" ")} cryptocurrency`;
       const [image, videoId] = await Promise.all([
@@ -578,15 +580,12 @@ Output only the section content, without headings: `;
         searchYouTubeVideo(`${module.title} tutorial cryptocurrency`),
       ]);
       const video = videoId ? `https://www.youtube.com/embed/${videoId}` : null;
-
       englishContent.media = {
         image,
         video,
       };
-
       const taglishContent = await translateToTaglish(englishContent);
       taglishContent.media = englishContent.media;
-
       console.log("✅ Successfully generated complete module");
       return { englishContent, taglishContent };
     } catch (error) {
@@ -1099,6 +1098,68 @@ ${contentText.substring(0, 20000)}`;
           background-color: var(--accent-blue);
           transform: none !important;
         }
+        .form-select {
+          background: var(--bg-secondary);
+          border: 1px solid var(--border);
+          color: var(--text-primary);
+          padding: 12px 16px;
+          border-radius: 8px;
+          font-size: 16px;
+          appearance: none;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-position: right 16px center;
+          background-size: 16px;
+          transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .form-select:focus {
+          border-color: var(--accent-blue);
+          box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.1);
+          outline: none;
+        }
+        .media-section {
+          background: var(--bg-tertiary);
+          border: 1px solid var(--border);
+          border-radius: 12px;
+          padding: 20px;
+          margin-bottom: 24px;
+        }
+        .media-section h4 {
+          margin-bottom: 12px;
+          color: var(--text-primary);
+        }
+        .media-section p.context {
+          margin-bottom: 16px;
+          color: var(--text-secondary);
+          line-height: 1.6;
+        }
+        .media-section img {
+          max-width: 100%;
+          height: auto;
+          max-height: 400px;
+          border-radius: 8px;
+          display: block;
+          margin: 0 auto 12px;
+          border: 1px solid var(--border);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .media-section .video-wrapper {
+          position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+          border-radius: 8px;
+          border: 1px solid var(--border);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          margin-bottom: 12px;
+        }
+        .media-section .video-wrapper iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
       `}</style>
       <canvas ref={canvasRef} className="particle-canvas" />
       <div className="news-header">
@@ -1231,113 +1292,129 @@ ${contentText.substring(0, 20000)}`;
           </div>
         ) : (
           <div className="modules-grid">
-            {(user ? generatedModules : generatedModules.slice(0, 5)).map((module) => (
-              <div
-                key={module.id}
-                className="module-card"
-                onClick={() => handleModuleClick(module)}
-              >
-                <div className="module-card-header">
-                  <h3 className="module-card-title">{module.title}</h3>
-                  <span className="module-level-tag">{module.level}</span>
-                  <span className="module-card-date">
-                    {formatDate(module.created_at)}
-                  </span>
-                </div>
-                <div className="module-card-content">
-                  <p className="module-intro">
-                    {module.content?.intro || "Click to view module content..."}
-                  </p>
-                  <div className="module-sections-count">
-                    {module.content?.sections?.length || 0} sections
+            {(user ? generatedModules : generatedModules.slice(0, 5)).map(
+              (module) => (
+                <div
+                  key={module.id}
+                  className="module-card"
+                  onClick={() => handleModuleClick(module)}
+                >
+                  <div className="module-card-header">
+                    <h3 className="module-card-title">{module.title}</h3>
+                    <span className="module-level-tag">{module.level}</span>
+                    <span className="module-card-date">
+                      {formatDate(module.created_at)}
+                    </span>
                   </div>
-                </div>
-                <div className="module-card-footer">
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "8px",
-                      flexWrap: "wrap",
-                      justifyContent: "flex-start",
-                    }}
-                  >
-                    <button
-                      className="btn btn-link"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        handleModuleClick(module);
+                  <div className="module-card-content">
+                    <p className="module-intro">
+                      {module.content?.intro ||
+                        "Click to view module content..."}
+                    </p>
+                    <div className="module-sections-count">
+                      {module.content?.sections?.length || 0} sections
+                    </div>
+                  </div>
+                  <div className="module-card-footer">
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: "8px",
+                        flexWrap: "wrap",
+                        justifyContent: "flex-start",
                       }}
                     >
-                      View Module →
-                    </button>
-                    {(moduleQuestionCounts[module.id] >= 5 ||
-                      moduleTaglishQuestionCounts[module.id] >= 5) && user && (
                       <button
                         className="btn btn-link"
                         onClick={(e) => {
                           e.stopPropagation();
-                          openQuizModal(module.id);
+                          handleModuleClick(module);
                         }}
                       >
-                        Take Quiz →
+                        View Module →
                       </button>
-                    )}
-                    {isAdmin && (
-                      <button
-                        className="btn btn-secondary"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          openEditModal(module);
-                        }}
-                        style={{
-                          fontSize: "14px",
-                          padding: "4px 8px",
-                          backgroundColor: "var(--accent-purple)",
-                          color: "white",
-                          border: "none",
-                        }}
-                      >
-                        Edit
-                      </button>
-                    )}
+                      {(moduleQuestionCounts[module.id] >= 5 ||
+                        moduleTaglishQuestionCounts[module.id] >= 5) &&
+                        user && (
+                          <button
+                            className="btn btn-link"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              openQuizModal(module.id);
+                            }}
+                          >
+                            Take Quiz →
+                          </button>
+                        )}
+                      {isAdmin && (
+                        <button
+                          className="btn btn-secondary"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            openEditModal(module);
+                          }}
+                          style={{
+                            fontSize: "14px",
+                            padding: "4px 8px",
+                            backgroundColor: "var(--accent-purple)",
+                            color: "white",
+                            border: "none",
+                          }}
+                        >
+                          Edit
+                        </button>
+                      )}
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              )
+            )}
           </div>
         )}
         {!user && generatedModules.length > 5 && (
-          <div className="login-prompt" style={{
-            textAlign: 'center',
-            padding: '60px 32px',
-            marginTop: '40px',
-            background: 'linear-gradient(135deg, rgba(108, 92, 231, 0.15), rgba(0, 212, 255, 0.15))',
-            borderRadius: '24px',
-            border: '2px solid var(--border)',
-            backdropFilter: 'blur(20px)',
-            boxShadow: '0 8px 32px rgba(0, 212, 255, 0.2)',
-            animation: 'fadeInUp 0.6s ease-out'
-          }}>
-            <p style={{
-              fontSize: '22px',
-              fontWeight: '700',
-              background: 'var(--gradient-primary)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-              marginBottom: '16px',
-              letterSpacing: '-0.5px'
-            }}>
+          <div
+            className="login-prompt"
+            style={{
+              textAlign: "center",
+              padding: "60px 32px",
+              marginTop: "40px",
+              background:
+                "linear-gradient(135deg, rgba(108, 92, 231, 0.15), rgba(0, 212, 255, 0.15))",
+              borderRadius: "24px",
+              border: "2px solid var(--border)",
+              backdropFilter: "blur(20px)",
+              boxShadow: "0 8px 32px rgba(0, 212, 255, 0.2)",
+              animation: "fadeInUp 0.6s ease-out",
+            }}
+          >
+            <p
+              style={{
+                fontSize: "22px",
+                fontWeight: "700",
+                background: "var(--gradient-primary)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                backgroundClip: "text",
+                marginBottom: "16px",
+                letterSpacing: "-0.5px",
+              }}
+            >
               🚀 Ready to unlock your crypto learning journey?
             </p>
-            <p style={{
-              fontSize: '16px',
-              color: 'var(--text-secondary)',
-              lineHeight: '1.7',
-              maxWidth: '600px',
-              margin: '0 auto'
-            }}>
-              Create an account to access <strong style={{color: 'var(--accent-primary)'}}>exclusive modules</strong>, earn rewards, and learn more about crypto!
+            <p
+              style={{
+                fontSize: "16px",
+                color: "var(--text-secondary)",
+                lineHeight: "1.7",
+                maxWidth: "600px",
+                margin: "0 auto",
+              }}
+            >
+              Create an account to access{" "}
+              <strong style={{ color: "var(--accent-primary)" }}>
+                exclusive modules
+              </strong>
+              , earn rewards, and learn more about crypto!
             </p>
           </div>
         )}
@@ -1731,7 +1808,9 @@ ${contentText.substring(0, 20000)}`;
               <div className="form-group">
                 <label className="form-label">Media</label>
                 <div className="form-group">
-                  <label htmlFor="media_image_url" className="form-label">Image URL</label>
+                  <label htmlFor="media_image_url" className="form-label">
+                    Image URL
+                  </label>
                   <input
                     type="text"
                     id="media_image_url"
@@ -1744,7 +1823,9 @@ ${contentText.substring(0, 20000)}`;
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="media_photographer" className="form-label">Photographer</label>
+                  <label htmlFor="media_photographer" className="form-label">
+                    Photographer
+                  </label>
                   <input
                     type="text"
                     id="media_photographer"
@@ -1757,7 +1838,12 @@ ${contentText.substring(0, 20000)}`;
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="media_photographer_url" className="form-label">Photographer URL</label>
+                  <label
+                    htmlFor="media_photographer_url"
+                    className="form-label"
+                  >
+                    Photographer URL
+                  </label>
                   <input
                     type="text"
                     id="media_photographer_url"
@@ -1770,7 +1856,9 @@ ${contentText.substring(0, 20000)}`;
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="media_video" className="form-label">Video Embed URL</label>
+                  <label htmlFor="media_video" className="form-label">
+                    Video Embed URL
+                  </label>
                   <input
                     type="text"
                     id="media_video"
@@ -1830,37 +1918,95 @@ ${contentText.substring(0, 20000)}`;
                     <option value="taglish">TagLish</option>
                   </select>
                 </div>
-                <div className="module-media">
-                  {(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media) && (
-                    <>
-                      {((language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).image) && (
-                        <>
-                          <img 
-                            src={(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).image.url} 
-                            alt="Module illustration" 
-                            style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px', borderRadius: '8px', display: 'block', margin: '0 auto' }} 
-                          />
-                          <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '8px', textAlign: 'center' }}>
-                            Photo by <a href={(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).image.photographer_url} target="_blank" rel="noopener noreferrer">
-                              {(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).image.photographer}
-                            </a> on Pexels
-                          </p>
-                        </>
-                      )}
-                      {((language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).video) && (
-                        <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, marginTop: '20px' }}>
-                          <iframe 
-                            src={(language === "english" ? selectedModule.content.media : selectedModule.taglish_content?.media).video}
-                            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '8px' }}
+                {(language === "english"
+                  ? selectedModule.content.media
+                  : selectedModule.taglish_content?.media) && (
+                  <>
+                    {(language === "english"
+                      ? selectedModule.content.media
+                      : selectedModule.taglish_content?.media
+                    ).image && (
+                      <div className="media-section">
+                        <h4>Illustrative Image</h4>
+                        <p className="context">
+                          This image provides visual context for the module "
+                          {selectedModule.title}", illustrating key concepts
+                          such as {selectedModule.keywords.join(", ")}. It helps
+                          visualize the abstract ideas discussed in the content,
+                          making it easier to understand how these elements work
+                          in cryptocurrency.
+                        </p>
+                        <img
+                          src={
+                            (language === "english"
+                              ? selectedModule.content.media
+                              : selectedModule.taglish_content?.media
+                            ).image.url
+                          }
+                          alt="Module illustration"
+                        />
+                        <p
+                          style={{
+                            fontSize: "12px",
+                            color: "var(--text-muted)",
+                            marginTop: "8px",
+                            textAlign: "center",
+                          }}
+                        >
+                          Photo by{" "}
+                          <a
+                            href={
+                              (language === "english"
+                                ? selectedModule.content.media
+                                : selectedModule.taglish_content?.media
+                              ).image.photographer_url
+                            }
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {
+                              (language === "english"
+                                ? selectedModule.content.media
+                                : selectedModule.taglish_content?.media
+                              ).image.photographer
+                            }
+                          </a>{" "}
+                          on Pexels
+                        </p>
+                      </div>
+                    )}
+                    {(language === "english"
+                      ? selectedModule.content.media
+                      : selectedModule.taglish_content?.media
+                    ).video && (
+                      <div className="media-section">
+                        <h4>Explanatory Video</h4>
+                        <p className="context">
+                          This video tutorial complements the module "
+                          {selectedModule.title}" by providing a practical
+                          demonstration of concepts like{" "}
+                          {selectedModule.keywords.join(", ")}. It connects to
+                          the written content by showing real-world applications
+                          and step-by-step explanations, enhancing your
+                          understanding of the topic in cryptocurrency.
+                        </p>
+                        <div className="video-wrapper">
+                          <iframe
+                            src={
+                              (language === "english"
+                                ? selectedModule.content.media
+                                : selectedModule.taglish_content?.media
+                              ).video
+                            }
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                           ></iframe>
                         </div>
-                      )}
-                    </>
-                  )}
-                </div>
+                      </div>
+                    )}
+                  </>
+                )}
                 <div className="module-intro-section">
                   <h4>Introduction</h4>
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
