@@ -5,6 +5,8 @@ import '../css/Signup.css';
 import { FiCalendar } from 'react-icons/fi';
 
 const AuthCallback = () => {
+  console.log('[DEBUG] AuthCallback component rendered');
+
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState('');
@@ -117,15 +119,22 @@ const AuthCallback = () => {
   };
 
   useEffect(() => {
+    console.log('[DEBUG] useEffect started');
+    console.log('[DEBUG] Current URL:', window.location.href);
+    console.log('[DEBUG] Search params:', window.location.search);
+
     const handleAuthCallback = async () => {
       const urlParams = new URLSearchParams(window.location.search);
+      console.log('[DEBUG] Parsed params:', Object.fromEntries(urlParams));
+
       const code = urlParams.get('code');
+      console.log('[DEBUG] Extracted code:', code);
 
       if (code) {
         setLoading(true);
         setErrorMessage('');
         try {
-          console.log('Exchanging code at /api/auth/google');
+          console.log('[DEBUG] Exchanging code at /api/auth/google');
           const redirectUri = `${window.location.origin}/auth/callback`;
           const response = await fetch('/api/auth/google', {
             method: 'POST',
@@ -133,9 +142,9 @@ const AuthCallback = () => {
             body: JSON.stringify({ code, redirect_uri: redirectUri }),
           });
 
-          console.log('Token response status:', response.status);
+          console.log('[DEBUG] Token response status:', response.status);
           const responseText = await response.text();
-          console.log('Token response body:', responseText);
+          console.log('[DEBUG] Token response body:', responseText);
 
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}, body: ${responseText}`);
@@ -143,9 +152,10 @@ const AuthCallback = () => {
 
           const googleUser = JSON.parse(responseText);
 
-          console.log('Google user data received:', googleUser);
+          console.log('[DEBUG] Google user data received:', googleUser);
 
           const nonce = sessionStorage.getItem('google_auth_nonce');
+          console.log('[DEBUG] Retrieved nonce:', nonce);
           sessionStorage.removeItem('google_auth_nonce');
 
           if (!nonce) {
@@ -159,12 +169,16 @@ const AuthCallback = () => {
             nonce: nonce,
           });
 
+          console.log('[DEBUG] Supabase signInWithIdToken response:', { data, error });
+
           if (error) {
-            console.error('Supabase signInWithIdToken error:', error);
+            console.error('[DEBUG] Supabase signInWithIdToken error:', error);
             throw error;
           }
 
           const { data: { session } } = await supabase.auth.getSession();
+          console.log('[DEBUG] Supabase session:', session);
+
           if (!session?.user) throw new Error('No user session');
 
           const user = session.user;
@@ -189,7 +203,7 @@ const AuthCallback = () => {
             navigate('/home', { replace: true });
           }
         } catch (err) {
-          console.error('Direct Google OAuth failed:', err);
+          console.error('[DEBUG] Direct Google OAuth failed:', err);
           setErrorMessage(`Authentication failed: ${err.message}. Please try again or contact support.`);
           setLoading(false);
           // Optionally navigate after delay: setTimeout(() => navigate('/login', { replace: true }), 5000);
@@ -198,6 +212,7 @@ const AuthCallback = () => {
       }
 
       // Fallback if no code
+      console.log('[DEBUG] No code found in URL');
       setErrorMessage('No authorization code found. Redirecting to login...');
       setTimeout(() => navigate('/login', { replace: true }), 3000);
     };
