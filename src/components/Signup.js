@@ -498,28 +498,21 @@ const Signup = () => {
   };
 
   const handleGoogleSignup = async () => {
-    try {
-      setIsLoading(true);
+  setIsLoading(true);
+  
+  const redirectTo = `${window.location.origin}/auth/callback`;
+  
+  const params = new URLSearchParams({
+    client_id: process.env.REACT_APP_PUBLIC_GOOGLE_CLIENT_ID,
+    redirect_uri: redirectTo,
+    response_type: 'code',
+    scope: 'openid email profile',
+    access_type: 'offline',
+    prompt: 'consent',
+  });
 
-      const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: "google",
-        options: {
-          redirectTo: `${window.location.origin}/auth/callback`, // Changed: Unify to /auth/callback for consistency
-        },
-      });
-
-      if (error) {
-        console.error("Google signup error:", error);
-        setErrors({ general: "Google signup failed. Please try again." });
-      }
-      // The redirect will happen automatically if successful
-    } catch (error) {
-      console.error("Google signup error:", error);
-      setErrors({ general: "Google signup failed. Please try again." });
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  window.location.href = `https://accounts.google.com/o/oauth2/v2/auth?${params}`;
+};
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {

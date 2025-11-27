@@ -225,32 +225,21 @@ const Login = () => {
   };
 
   const handleGoogleLogin = async () => {
-    try {
-      setIsLoading(true);
-      setErrors({});
+  setIsLoading(true);
 
-      const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: "google",
-        options: {
-          redirectTo: `${window.location.origin}/auth/callback`,
-        },
-      });
+  const redirectTo = `${window.location.origin}/auth/callback`;
+  
+  const params = new URLSearchParams({
+    client_id: process.env.REACT_APP_PUBLIC_GOOGLE_CLIENT_ID,
+    redirect_uri: redirectTo,
+    response_type: 'code',
+    scope: 'openid email profile',
+    access_type: 'offline',
+    prompt: 'consent',
+  });
 
-      if (error) {
-        console.error("Google login error:", error);
-        setErrors({ general: "Google login failed. Please try again." });
-        return;
-      }
-
-      // After successful Google login, the auth callback should handle the redirect
-      // We'll check admin status in the callback route if needed
-    } catch (error) {
-      console.error("Google login error:", error);
-      setErrors({ general: "Google login failed. Please try again." });
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  window.location.href = `https://accounts.google.com/o/oauth2/v2/auth?${params}`;
+};
 
   return (
     <div className="auth-container">
