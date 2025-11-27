@@ -3,6 +3,7 @@ import '../css/ForgotPassword.css';
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabase";
 import jwtDecode from 'jwt-decode';
+import { jwtDecode } from 'jwt-decode';
 
 const ForgotPassword = () => {
   const [formData, setFormData] = useState({
