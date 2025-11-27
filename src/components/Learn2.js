@@ -1918,6 +1918,15 @@ ${contentText.substring(0, 20000)}`;
                     <option value="taglish">TagLish</option>
                   </select>
                 </div>
+                <div className="module-intro-section">
+                  <h4>Introduction</h4>
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    {language === "english"
+                      ? selectedModule.content.intro
+                      : selectedModule.taglish_content?.intro ||
+                        "No TagLish content available"}
+                  </ReactMarkdown>
+                </div>
                 {(language === "english"
                   ? selectedModule.content.media
                   : selectedModule.taglish_content?.media) && (
@@ -2007,15 +2016,6 @@ ${contentText.substring(0, 20000)}`;
                     )}
                   </>
                 )}
-                <div className="module-intro-section">
-                  <h4>Introduction</h4>
-                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                    {language === "english"
-                      ? selectedModule.content.intro
-                      : selectedModule.taglish_content?.intro ||
-                        "No TagLish content available"}
-                  </ReactMarkdown>
-                </div>
                 <div className="module-sections">
                   {(language === "english"
                     ? selectedModule.content.sections
