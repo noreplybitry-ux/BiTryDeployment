@@ -121,85 +121,43 @@ const AuthCallback = () => {
       const urlParams = new URLSearchParams(window.location.search);
       const code = urlParams.get('code');
 
-      if (code) {
-        setLoading(true);
-        setErrorMessage('');
-        try {
-          console.log('Exchanging code at /api/auth/google');
-          const redirectUri = `${window.location.origin}/auth/callback`;
-          const response = await fetch('/api/auth/google', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ code, redirect_uri: redirectUri }),
-          });
-
-          console.log('Token response status:', response.status);
-          const responseText = await response.text();
-          console.log('Token response body:', responseText);
-
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}, body: ${responseText}`);
-          }
-
-          const googleUser = JSON.parse(responseText);
-
-          console.log('Google user data received:', googleUser);
-
-          const nonce = sessionStorage.getItem('google_auth_nonce');
-          sessionStorage.removeItem('google_auth_nonce');
-
-          if (!nonce) {
-            throw new Error('Nonce not found. Please try logging in again.');
-          }
-
-          // Sign in or sign up with Supabase using Google's ID token
-          const { data, error } = await supabase.auth.signInWithIdToken({
-            provider: 'google',
-            token: googleUser.id_token,
-            nonce: nonce,
-          });
-
-          if (error) {
-            console.error('Supabase signInWithIdToken error:', error);
-            throw error;
-          }
-
-          const { data: { session } } = await supabase.auth.getSession();
-          if (!session?.user) throw new Error('No user session');
-
-          const user = session.user;
-          setUserId(user.id);
-          setUserMetadata({
-            name: googleUser.name,
-            given_name: googleUser.given_name,
-            family_name: googleUser.family_name,
-            picture: googleUser.picture,
-          });
-
-          await createOrUpdateProfile(user.id, googleUser);
-
-          const { hasCompleteProfile, isAdmin } = await checkUserProfile(user.id);
-
-          if (isAdmin) {
-            navigate('/admindashboard', { replace: true });
-          } else if (!hasCompleteProfile) {
-            setShowBirthdayModal(true);
-            setLoading(false);
-          } else {
-            navigate('/home', { replace: true });
-          }
-        } catch (err) {
-          console.error('Direct Google OAuth failed:', err);
-          setErrorMessage(`Authentication failed: ${err.message}. Please try again or contact support.`);
-          setLoading(false);
-          // Optionally navigate after delay: setTimeout(() => navigate('/login', { replace: true }), 5000);
-        }
+      if (!code) {
+        setErrorMessage('No authorization code found. Redirecting to login...');
+        setLoading(false);
+        setTimeout(() => navigate('/login', { replace: true }), 3000);
         return;
       }
 
-      // Fallback if no code
-      setErrorMessage('No authorization code found. Redirecting to login...');
-      setTimeout(() => navigate('/login', { replace: true }), 3000);
+      setLoading(true);
+      setErrorMessage('');
+
+      try {
+        const { data: { session }, error } = await supabase.auth.exchangeCodeForSession(code);
+
+        if (error) throw error;
+        if (!session) throw new Error('No session received');
+
+        const user = session.user;
+        setUserId(user.id);
+        setUserMetadata(user.user_metadata || {});
+
+        await createOrUpdateProfile(user.id, user.user_metadata || {});
+
+        const { hasCompleteProfile, isAdmin } = await checkUserProfile(user.id);
+
+        if (isAdmin) {
+          navigate('/admindashboard', { replace: true });
+        } else if (!hasCompleteProfile) {
+          setShowBirthdayModal(true);
+        } else {
+          navigate('/home', { replace: true });
+        }
+      } catch (err) {
+        console.error('Auth callback error:', err);
+        setErrorMessage(`Authentication failed: ${err.message}. Please try again or contact support.`);
+      } finally {
+        setLoading(false);
+      }
     };
 
     handleAuthCallback();
