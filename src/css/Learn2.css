@@ -1310,57 +1310,134 @@ body {
   }
 }
 
-/* Add for quiz */
-.quiz-option {
-  margin-bottom: 12px;
-}
-
-.quiz-label {
-  display: block;
-  padding: 12px 16px;
-  background: var(--surface);
+/* Improved Table of Contents - visual polish, accessible focus, no layout conflicts */
+.toc-section {
+  padding: 28px; /* match other sections */
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.04));
   border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(0,212,255,0.06);
+  color: var(--text-secondary);
+  max-width: none; /* allow full container width like module sections */
+  width: 100%;
+  transition: box-shadow 0.18s ease, border-color 0.18s ease, transform 0.12s ease;
+  backdrop-filter: blur(6px);
+  margin: 0 0 24px 0;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
 }
 
-input[type="radio"]:checked + .quiz-label {
-  background: rgba(0, 212, 255, 0.2);
-  border-color: var(--accent-primary);
-  box-shadow: 0 0 10px var(--glow-primary);
+.toc-section h4 {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  color: var(--text-primary);
+  font-weight: 700;
+  letter-spacing: -0.2px;
 }
 
-.quiz-progress {
-  height: 4px;
-  background: var(--border);
-  border-radius: 2px;
-  overflow: hidden;
+/* list reset + compact spacing */
+.toc-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.quiz-progress > div {
-  height: 100%;
-  background: var(--gradient-primary);
-  transition: width 0.3s ease;
+/* visual bullets using pseudo element */
+.toc-section li {
+  display: block;
+  padding: 6px 8px;
+  border-radius: 8px;
+  transition: background-color 0.12s ease, transform 0.08s ease;
+  position: relative;
 }
 
-/* Adjust tabs grid */
-.tabs > div > div > div {
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;
+.toc-section li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2) inset;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background 0.12s ease, box-shadow 0.12s ease;
 }
 
-/* Add hover for buttons */
-.btn:hover {
-  transform: translateY(-2px);
+/* link styling */
+.toc-section a {
+  display: block;
+  padding-left: 26px; /* account for pseudo bullet */
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.12s ease, transform 0.08s ease;
+  outline: none;
 }
 
-/* Ensure modals have glow */
-.modal-content.cta-glow-effect {
-  overflow: visible; /* To show glow */
+/* hover / focus */
+.toc-section a:hover,
+.toc-section a:focus {
+  color: var(--accent-primary);
+  transform: translateX(4px);
+  text-decoration: none;
 }
 
-/* For edit sections, add hover */
-.section-edit-group:hover {
-  box-shadow: 0 4px 16px rgba(0, 212, 255, 0.2);
+/* highlight active/targeted item (CSS alone) */
+.toc-section a:focus,
+.toc-section a:active,
+.toc-section a[href$="#intro"]:not([href="#"]) {}
+
+/* when section is targeted via anchor, style via :target selector on target element
+   and mirror state by using .active class from JS if needed */
+.toc-section li.active,
+.toc-section li.active::before {
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+  box-shadow: 0 6px 20px rgba(0,212,255,0.12);
 }
+.toc-section li.active a {
+  color: #0b0e11;
+  font-weight: 700;
+}
+
+/* improved keyboard focus for accessibility */
+.toc-section a:focus-visible {
+  outline: 3px solid rgba(0,212,255,0.16);
+  border-radius: 6px;
+  outline-offset: 3px;
+}
+
+/* make long TOC scroll inside small modal/body area if it overflows (keeps normal flow) */
+.toc-section {
+  max-height: 60vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* custom scrollbar for toc only (subtle) */
+.toc-section::-webkit-scrollbar {
+  width: 8px;
+}
+.toc-section::-webkit-scrollbar-thumb {
+  background: rgba(0,212,255,0.12);
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+/* small responsive tweak */
+@media (max-width: 600px) {
+  .toc-section {
+    max-width: 100%;
+    font-size: 13px;
+    padding: 14px;
+  }
+  .toc-section li::before { left: 6px; }
+  .toc-section a { padding-left: 22px; }
+}
+
+/* End of improved TOC */

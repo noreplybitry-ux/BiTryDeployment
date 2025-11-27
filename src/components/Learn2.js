@@ -3,13 +3,17 @@ import { supabase } from "../lib/supabase";
 import { useAuth } from "../contexts/AuthContext";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import rehypeHighlight from "rehype-highlight";
+import 'highlight.js/styles/github-dark.css';  // Add a highlight.js style
 import "../css/Learn2.css";
+
 const MODULE_API_KEY = "AIzaSyAfPzV46k4O46frVq9TihKGEdI_ZAsV4n4";
 const TRANSLATION_API_KEY = "AIzaSyDmpndqeG70SC6CjtfwGi40jluwcIHlF-Q";
 const QUIZ_API_KEY = "AIzaSyD__yT5oimCLqnFGnLIX-GyiYwiqnlEtmI";
 const TAGLISH_QUIZ_API_KEY = "AIzaSyDQ0hiG0G24Euursr639qmRQnmTmzg9Tjg";
-const PEXELS_API_KEY = "YOUR_PEXELS_API_KEY"; // Replace with your actual Pexels API key
-const YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"; // Optional: Replace with your actual YouTube API key or leave empty
+const PEXELS_API_KEY = "gEiXhyqTNdGHdTxV3TtTgRhA4fg9lSKavdeJYFKaQ0PvfqxMiELFfsXj"; // Replace with your actual Pexels API key
+const YOUTUBE_API_KEY = "AIzaSyAfq9h9cUs585n4nW25HwsIhEFB7gdC_58"; // Optional: Replace with your actual YouTube API key or leave empty
+
 const Learn2 = () => {
   const { user } = useAuth();
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -86,6 +90,7 @@ const Learn2 = () => {
   const [generateTaglishQuizError, setGenerateTaglishQuizError] =
     useState(null);
   const canvasRef = useRef(null);
+
   useEffect(() => {
     if (user) {
       const fetchProfile = async () => {
@@ -99,6 +104,7 @@ const Learn2 = () => {
       fetchProfile();
     }
   }, [user]);
+
   // Fetch modules with null content
   const fetchModules = async () => {
     try {
@@ -118,6 +124,7 @@ const Learn2 = () => {
       );
     }
   };
+
   // Fetch modules with content for display
   const fetchGeneratedModules = async () => {
     try {
@@ -139,6 +146,7 @@ const Learn2 = () => {
       );
     }
   };
+
   const fetchQuestionCounts = async () => {
     try {
       const { data, error } = await supabase
@@ -162,33 +170,40 @@ const Learn2 = () => {
       console.error("Error fetching question counts:", err);
     }
   };
+
   useEffect(() => {
     fetchModules();
     fetchGeneratedModules();
     fetchQuestionCounts();
   }, []);
+
   const handleAddKeyword = () => {
     setKeywords([...keywords, ""]);
   };
+
   const handleKeywordChange = (index, value) => {
     const newKeywords = [...keywords];
     newKeywords[index] = value;
     setKeywords(newKeywords);
   };
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
+
   const handleEditFormChange = (e) => {
     const { name, value } = e.target;
     setEditFormData((prev) => ({ ...prev, [name]: value }));
   };
+
   const handleSectionChange = (index, field, value, isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     const newSections = [...editFormData[key]];
     newSections[index] = { ...newSections[index], [field]: value };
     setEditFormData((prev) => ({ ...prev, [key]: newSections }));
   };
+
   const handleAddSection = (isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     setEditFormData((prev) => ({
@@ -196,6 +211,7 @@ const Learn2 = () => {
       [key]: [...prev[key], { title: "", body: "" }],
     }));
   };
+
   const handleRemoveSection = (index, isTaglish = false) => {
     const key = isTaglish ? "taglish_sections" : "sections";
     setEditFormData((prev) => ({
@@ -203,6 +219,7 @@ const Learn2 = () => {
       [key]: prev[key].filter((_, i) => i !== index),
     }));
   };
+
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
     if (!isModalOpen) {
@@ -219,9 +236,11 @@ const Learn2 = () => {
       }
     }
   };
+
   const toggleGenerateTab = () => {
     setShowGenerateTab(!showGenerateTab);
   };
+
   const toggleGenerateModal = () => {
     setIsGenerateModalOpen(!isGenerateModalOpen);
     if (!isGenerateModalOpen) {
@@ -231,9 +250,11 @@ const Learn2 = () => {
       fetchModules();
     }
   };
+
   const toggleAdminInfoModal = () => {
     setIsAdminInfoModalOpen(!isAdminInfoModalOpen);
   };
+
   const toggleGenerateTaglishModal = () => {
     setIsGenerateTaglishModalOpen(!isGenerateTaglishModalOpen);
     if (!isGenerateTaglishModalOpen) {
@@ -241,6 +262,7 @@ const Learn2 = () => {
       setGenerateTaglishError(null);
     }
   };
+
   const toggleGenerateTaglishQuizModal = () => {
     setIsGenerateTaglishQuizModalOpen(!isGenerateTaglishQuizModalOpen);
     if (!isGenerateTaglishQuizModalOpen) {
@@ -249,6 +271,7 @@ const Learn2 = () => {
       setGenerateTaglishQuizError(null);
     }
   };
+
   const openEditModal = (module) => {
     setEditingModule(module);
     setEditFormData({
@@ -266,6 +289,7 @@ const Learn2 = () => {
     setUpdateError(null);
     setIsEditModalOpen(true);
   };
+
   const closeEditModal = () => {
     setEditingModule(null);
     setEditFormData({
@@ -282,6 +306,7 @@ const Learn2 = () => {
     setUpdateError(null);
     setIsEditModalOpen(false);
   };
+
   const handleEditSubmit = async (e) => {
     e.preventDefault();
     setIsUpdating(true);
@@ -327,6 +352,7 @@ const Learn2 = () => {
       setIsUpdating(false);
     }
   };
+
   const callGeminiAPI = async (prompt, apiKey, retries = 3) => {
     const model = "gemini-2.5-flash";
     for (let attempt = 1; attempt <= retries; attempt++) {
@@ -394,6 +420,7 @@ const Learn2 = () => {
       }
     }
   };
+
   const translateToTaglish = async (englishContent) => {
     const prompt = `
 Translate the following English content into casual TagLish (Tagalog-English mix) for Filipino beginners. Keep key cryptocurrency terms like "blockchain", "smart contracts", "DeFi", etc., untranslated. Use simple, conversational language with a mix of Tagalog and English, suitable for beginners. Ensure the structure remains the same. Output ONLY the translated content in JSON format:
@@ -422,6 +449,7 @@ English Content:
       throw new Error(`Failed to translate to TagLish: ${error.message}`);
     }
   };
+
   const translateToTaglishQuiz = async (englishQuiz) => {
     const prompt = `
 Translate the following English quiz question into casual TagLish (Tagalog-English mix) for Filipino beginners. Keep key cryptocurrency terms untranslated. Use simple, conversational language. Translate the question and all options. Keep the same structure. Output ONLY the translated content in JSON format:
@@ -445,6 +473,7 @@ Options: ${JSON.stringify(englishQuiz.options)}
       throw new Error(`Failed to translate quiz: ${error.message}`);
     }
   };
+
   const fetchPexelsImage = async (query) => {
     if (!PEXELS_API_KEY) return null;
     try {
@@ -473,6 +502,7 @@ Options: ${JSON.stringify(englishQuiz.options)}
       return null;
     }
   };
+
   const searchYouTubeVideo = async (query) => {
     if (!YOUTUBE_API_KEY) return null;
     try {
@@ -491,6 +521,7 @@ Options: ${JSON.stringify(englishQuiz.options)}
       return null;
     }
   };
+
   const generateModuleContent = async (module) => {
     const lengthGuidance = {
       Short: "approximately 500 words total",
@@ -593,6 +624,7 @@ Output only the section content, without headings: `;
       throw new Error(`Failed to generate module content: ${error.message}`);
     }
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -628,6 +660,7 @@ Output only the section content, without headings: `;
       setIsSubmitting(false);
     }
   };
+
   const handleGenerate = async () => {
     if (!selectedModuleId) {
       setGenerateError("Please select a module to generate.");
@@ -664,6 +697,7 @@ Output only the section content, without headings: `;
       setIsGenerating(false);
     }
   };
+
   const handleGenerateTaglish = async () => {
     if (!selectedTaglishModuleId) {
       setGenerateTaglishError(
@@ -704,6 +738,7 @@ Output only the section content, without headings: `;
       setIsGeneratingTaglish(false);
     }
   };
+
   const handleGenerateTaglishQuiz = async () => {
     if (!selectedTaglishQuizModuleId) {
       setGenerateTaglishQuizError("Please select a module");
@@ -755,15 +790,18 @@ Output only the section content, without headings: `;
       setIsGeneratingTaglishQuiz(false);
     }
   };
+
   const handleModuleClick = (module) => {
     setSelectedModule(module);
     setLanguage("english");
     setIsContentModalOpen(true);
   };
+
   const closeContentModal = () => {
     setSelectedModule(null);
     setIsContentModalOpen(false);
   };
+
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString("en-US", {
@@ -772,6 +810,7 @@ Output only the section content, without headings: `;
       day: "numeric",
     });
   };
+
   const toggleGenerateQuizModal = () => {
     setIsGenerateQuizModalOpen(!isGenerateQuizModalOpen);
     if (!isGenerateQuizModalOpen) {
@@ -780,6 +819,7 @@ Output only the section content, without headings: `;
       setGenerateQuizError(null);
     }
   };
+
   const handleGenerateQuiz = async () => {
     if (!selectedQuizModuleId) {
       setGenerateQuizError("Please select a module");
@@ -851,12 +891,14 @@ ${contentText.substring(0, 20000)}`;
       setIsGeneratingQuiz(false);
     }
   };
+
   const toggleValidationModal = () => {
     setIsValidationModalOpen(!isValidationModalOpen);
     if (!isValidationModalOpen) {
       fetchPendingQuestions();
     }
   };
+
   const fetchPendingQuestions = async () => {
     try {
       const { data, error } = await supabase
@@ -870,6 +912,7 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error fetching pending questions:", err);
     }
   };
+
   const handleApproveQuestion = async (id) => {
     try {
       const { error } = await supabase
@@ -883,6 +926,7 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error approving:", err);
     }
   };
+
   const handleRejectQuestion = async (id) => {
     try {
       const { error } = await supabase
@@ -895,10 +939,12 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error rejecting:", err);
     }
   };
+
   const openEditQuestion = (question) => {
     setEditingQuestion({ ...question });
     setIsEditQuestionModalOpen(true);
   };
+
   const handleSaveEdit = async () => {
     try {
       const { error } = await supabase
@@ -916,6 +962,7 @@ ${contentText.substring(0, 20000)}`;
       console.error("Error saving edit:", err);
     }
   };
+
   const openQuizModal = (moduleId) => {
     const module = generatedModules.find((m) => m.id === moduleId);
     setCurrentQuizModuleId(moduleId);
@@ -926,6 +973,7 @@ ${contentText.substring(0, 20000)}`;
     setQuizScore(null);
     setIsQuizModalOpen(true);
   };
+
   const loadQuizQuestions = async () => {
     try {
       const isTaglish = quizLanguage === "taglish";
@@ -951,9 +999,11 @@ ${contentText.substring(0, 20000)}`;
       alert("Failed to load quiz.");
     }
   };
+
   const handleQuizAnswer = (questionId, answerIndex) => {
     setUserAnswers((prev) => ({ ...prev, [questionId]: answerIndex }));
   };
+
   const handleSubmitQuiz = async () => {
     let correct = 0;
     quizQuestions.forEach((q) => {
@@ -1034,6 +1084,7 @@ ${contentText.substring(0, 20000)}`;
       alert("Failed to submit quiz and award points.");
     }
   };
+
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -1088,6 +1139,7 @@ ${contentText.substring(0, 20000)}`;
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   return (
     <div>
       <style>{`
@@ -1159,6 +1211,55 @@ ${contentText.substring(0, 20000)}`;
           left: 0;
           width: 100%;
           height: 100%;
+        }
+
+        .module-thumbnail {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+        }
+
+        .module-keywords {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .keyword-tag {
+          padding: 4px 12px;
+          background: rgba(0, 212, 255, 0.1);
+          border-radius: 20px;
+          font-size: 12px;
+          color: var(--accent-primary);
+          border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .toc-section {
+          margin-bottom: 32px;
+          padding: 20px;
+          background: var(--bg-tertiary);
+          border-radius: 12px;
+        }
+
+        .toc-section ul {
+          list-style: none;
+          padding: 0;
+        }
+
+        .toc-section li {
+          margin-bottom: 12px;
+        }
+
+        .toc-section a {
+          color: var(--text-secondary);
+          text-decoration: none;
+          transition: color 0.3s;
+        }
+
+        .toc-section a:hover {
+          color: var(--accent-primary);
         }
       `}</style>
       <canvas ref={canvasRef} className="particle-canvas" />
@@ -1299,6 +1400,13 @@ ${contentText.substring(0, 20000)}`;
                   className="module-card"
                   onClick={() => handleModuleClick(module)}
                 >
+                  {module.content?.media?.image?.url && (
+                    <img
+                      src={module.content.media.image.url}
+                      alt="Module thumbnail"
+                      className="module-thumbnail"
+                    />
+                  )}
                   <div className="module-card-header">
                     <h3 className="module-card-title">{module.title}</h3>
                     <span className="module-level-tag">{module.level}</span>
@@ -1311,6 +1419,13 @@ ${contentText.substring(0, 20000)}`;
                       {module.content?.intro ||
                         "Click to view module content..."}
                     </p>
+                    <div className="module-keywords">
+                      {module.keywords.map((kw, idx) => (
+                        <span key={idx} className="keyword-tag">
+                          {kw}
+                        </span>
+                      ))}
+                    </div>
                     <div className="module-sections-count">
                       {module.content?.sections?.length || 0} sections
                     </div>
@@ -1918,117 +2033,140 @@ ${contentText.substring(0, 20000)}`;
                     <option value="taglish">TagLish</option>
                   </select>
                 </div>
-                <div className="module-intro-section">
+                <div className="toc-section">
+                  <h4>Table of Contents</h4>
+                  <ul>
+                    <li>
+                      <a href="#intro">Introduction</a>
+                    </li>
+                    {/* sections first, video moved to end */}
+                    {(language === "english"
+                      ? selectedModule.content.sections
+                      : selectedModule.taglish_content?.sections || []
+                    ).map((section, index) => (
+                      <li key={index}>
+                        <a href={`#section-${index}`}>{section.title}</a>
+                      </li>
+                    ))}
+                    {(
+                      (language === "english"
+                        ? selectedModule.content.media
+                        : selectedModule.taglish_content?.media
+                      )?.video) && (
+                        <li>
+                          <a href="#video">Explanatory Video</a>
+                        </li>
+                    )}
+                  </ul>
+                </div>
+                <div id="intro" className="module-intro-section">
                   <h4>Introduction</h4>
-                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  <ReactMarkdown 
+                    remarkPlugins={[remarkGfm]} 
+                    rehypePlugins={[rehypeHighlight]}
+                  >
                     {language === "english"
                       ? selectedModule.content.intro
                       : selectedModule.taglish_content?.intro ||
                         "No TagLish content available"}
                   </ReactMarkdown>
                 </div>
-                {(language === "english"
-                  ? selectedModule.content.media
-                  : selectedModule.taglish_content?.media) && (
-                  <>
-                    {(language === "english"
-                      ? selectedModule.content.media
-                      : selectedModule.taglish_content?.media
-                    ).image && (
-                      <div className="media-section">
-                        <h4>Illustrative Image</h4>
-                        <p className="context">
-                          This image provides visual context for the module "
-                          {selectedModule.title}", illustrating key concepts
-                          such as {selectedModule.keywords.join(", ")}. It helps
-                          visualize the abstract ideas discussed in the content,
-                          making it easier to understand how these elements work
-                          in cryptocurrency.
-                        </p>
-                        <img
-                          src={
-                            (language === "english"
-                              ? selectedModule.content.media
-                              : selectedModule.taglish_content?.media
-                            ).image.url
-                          }
-                          alt="Module illustration"
-                        />
-                        <p
-                          style={{
-                            fontSize: "12px",
-                            color: "var(--text-muted)",
-                            marginTop: "8px",
-                            textAlign: "center",
-                          }}
-                        >
-                          Photo by{" "}
-                          <a
-                            href={
-                              (language === "english"
-                                ? selectedModule.content.media
-                                : selectedModule.taglish_content?.media
-                              ).image.photographer_url
-                            }
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {
-                              (language === "english"
-                                ? selectedModule.content.media
-                                : selectedModule.taglish_content?.media
-                              ).image.photographer
-                            }
-                          </a>{" "}
-                          on Pexels
-                        </p>
-                      </div>
-                    )}
-                    {(language === "english"
-                      ? selectedModule.content.media
-                      : selectedModule.taglish_content?.media
-                    ).video && (
-                      <div className="media-section">
-                        <h4>Explanatory Video</h4>
-                        <p className="context">
-                          This video tutorial complements the module "
-                          {selectedModule.title}" by providing a practical
-                          demonstration of concepts like{" "}
-                          {selectedModule.keywords.join(", ")}. It connects to
-                          the written content by showing real-world applications
-                          and step-by-step explanations, enhancing your
-                          understanding of the topic in cryptocurrency.
-                        </p>
-                        <div className="video-wrapper">
-                          <iframe
-                            src={
-                              (language === "english"
-                                ? selectedModule.content.media
-                                : selectedModule.taglish_content?.media
-                              ).video
-                            }
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                          ></iframe>
-                        </div>
-                      </div>
-                    )}
-                  </>
+                {/* show illustrative image (if present) */}
+                {(
+                  (language === "english"
+                    ? selectedModule.content.media
+                    : selectedModule.taglish_content?.media
+                  )?.image) && (
+                  <div className="media-section">
+                    <h4>Illustrative Image</h4>
+                    <p className="context">
+                      This image provides visual context for the module "
+                      {selectedModule.title}", illustrating key concepts such
+                      as {selectedModule.keywords.join(", ")}.
+                    </p>
+                    <img
+                      src={
+                        (language === "english"
+                          ? selectedModule.content.media
+                          : selectedModule.taglish_content?.media
+                        ).image.url
+                      }
+                      alt="Module illustration"
+                    />
+                    <p
+                      style={{
+                        fontSize: "12px",
+                        color: "var(--text-muted)",
+                        marginTop: "8px",
+                        textAlign: "center",
+                      }}
+                    >
+                      Photo by{" "}
+                      <a
+                        href={
+                          (language === "english"
+                            ? selectedModule.content.media
+                            : selectedModule.taglish_content?.media
+                          ).image.photographer_url
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {
+                          (language === "english"
+                            ? selectedModule.content.media
+                            : selectedModule.taglish_content?.media
+                          ).image.photographer
+                        }
+                      </a>{" "}
+                      on Pexels
+                    </p>
+                  </div>
                 )}
                 <div className="module-sections">
                   {(language === "english"
                     ? selectedModule.content.sections
                     : selectedModule.taglish_content?.sections || []
                   ).map((section, index) => (
-                    <div key={index} className="module-section">
+                    <div key={index} id={`section-${index}`} className="module-section">
                       <h4>{section.title}</h4>
-                      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      <ReactMarkdown 
+                        remarkPlugins={[remarkGfm]} 
+                        rehypePlugins={[rehypeHighlight]}
+                      >
                         {section.body}
                       </ReactMarkdown>
                     </div>
                   ))}
                 </div>
+                {/* move explanatory video to the end so it acts as supporting content */}
+                {(
+                  (language === "english"
+                    ? selectedModule.content.media
+                    : selectedModule.taglish_content?.media
+                  )?.video) && (
+                  <div id="video" className="media-section">
+                    <h4>Explanatory Video</h4>
+                    <p className="context">
+                      This video tutorial complements the module "
+                      {selectedModule.title}" by providing a practical
+                      demonstration of concepts like {selectedModule.keywords.join(", ")}.
+                    </p>
+                    <div className="video-wrapper">
+                      <iframe
+                        src={
+                          (language === "english"
+                            ? selectedModule.content.media
+                            : selectedModule.taglish_content?.media
+                          ).video
+                        }
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  </div>
+                )}
               </div>
             )}
           </div>
@@ -2036,6 +2174,16 @@ ${contentText.substring(0, 20000)}`;
             <button className="btn btn-secondary" onClick={closeContentModal}>
               Close
             </button>
+            {(moduleQuestionCounts[selectedModule?.id] >= 5 ||
+              moduleTaglishQuestionCounts[selectedModule?.id] >= 5) &&
+              user && (
+                <button
+                  className="btn btn-link"
+                  onClick={() => openQuizModal(selectedModule.id)}
+                >
+                  Take Quiz
+                </button>
+              )}
           </div>
         </div>
       </div>
@@ -2745,4 +2893,5 @@ ${contentText.substring(0, 20000)}`;
     </div>
   );
 };
+
 export default Learn2;
