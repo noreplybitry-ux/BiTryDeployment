@@ -20,16 +20,14 @@ const ForgotPassword = () => {
   useEffect(() => {
     const checkForRecovery = async () => {
       try {
-        // Parse URL hash for recovery params
-        const hash = window.location.hash.substring(1);
-        const params = new URLSearchParams(hash);
+        // Parse URL query params for recovery params (updated for newer Supabase versions)
+        const params = new URLSearchParams(window.location.search);
         const type = params.get('type');
-        const accessToken = params.get('access_token');
-        const refreshToken = params.get('refresh_token');
+        const token_hash = params.get('token_hash');
 
-        if (type === 'recovery' && accessToken && refreshToken) {
-          // Sign in with recovery token and set flag
-          await handleTokenVerification(accessToken, refreshToken);
+        if (type === 'recovery' && token_hash) {
+          // Verify the recovery token
+          await handleTokenVerification(token_hash);
           localStorage.setItem('isInResetMode', 'true');
         }
 
@@ -53,11 +51,11 @@ const ForgotPassword = () => {
     checkForRecovery();
   }, [navigate]);
 
-  const handleTokenVerification = async (accessToken, refreshToken) => {
+  const handleTokenVerification = async (token_hash) => {
     try {
-      const { error } = await supabase.auth.setSession({
-        access_token: accessToken,
-        refresh_token: refreshToken
+      const { error } = await supabase.auth.verifyOtp({
+        type: 'recovery',
+        token_hash: token_hash
       });
       if (error) throw error;
       setIsResetMode(true);  // Switch to password reset form
