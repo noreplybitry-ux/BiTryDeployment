@@ -13,56 +13,35 @@ const ForgotPassword = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const [isResetMode, setIsResetMode] = useState(false);  // True if in password reset mode
+  const [isResetMode, setIsResetMode] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
-    const checkForRecovery = async () => {
-      try {
-        // Parse URL query params for recovery params (updated for newer Supabase versions)
-        const params = new URLSearchParams(window.location.search);
-        const type = params.get('type');
-        const token_hash = params.get('token_hash');
-
-        if (type === 'recovery' && token_hash) {
-          // Verify the recovery token
-          await handleTokenVerification(token_hash);
-          localStorage.setItem('isInResetMode', 'true');
+    // Listen for auth state changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'PASSWORD_RECOVERY') {
+        setIsResetMode(true);
+      } else if (session) {
+        // If signed in and not in recovery mode, redirect to home
+        if (!isResetMode) {
+          navigate('/home');
         }
+      }
+    });
 
-        // Check for existing session
-        const { data: { session } } = await supabase.auth.getSession();
-
-        if (session) {
-          if (localStorage.getItem('isInResetMode') === 'true') {
-            setIsResetMode(true);
-          } else {
-            // Normal logged-in user accessing this page - redirect to home
-            navigate('/home');
-          }
-        }
-      } catch (error) {
-        console.error('Error checking recovery/session:', error);
-        setErrors({ general: 'An unexpected error occurred. Please try again.' });
+    // Check for existing session
+    const checkSession = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session && !isResetMode) {
+        navigate('/home');
       }
     };
 
-    checkForRecovery();
-  }, [navigate]);
+    checkSession();
 
-  const handleTokenVerification = async (token_hash) => {
-    try {
-      const { error } = await supabase.auth.verifyOtp({
-        type: 'recovery',
-        token_hash: token_hash
-      });
-      if (error) throw error;
-      setIsResetMode(true);  // Switch to password reset form
-    } catch (error) {
-      setErrors({ general: 'Invalid or expired reset link. Please request a new one.' });
-    }
-  };
+    return () => subscription.unsubscribe();
+  }, [navigate, isResetMode]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -93,7 +72,6 @@ const ForgotPassword = () => {
     const newErrors = {};
     let hasError = false;
 
-    // Check all requirements
     if (formData.password.length < 8 ||
         !/(?=.*[a-z])/.test(formData.password) ||
         !/(?=.*[A-Z])/.test(formData.password) ||
@@ -121,8 +99,9 @@ const ForgotPassword = () => {
     setIsLoading(true);
     setSuccessMessage('');
     try {
+      const redirectTo = `${window.location.origin}${window.location.pathname}`;
       const { error } = await supabase.auth.resetPasswordForEmail(formData.email, {
-        redirectTo: `${window.location.origin}/forgotpassword`  // Redirects back here after click
+        redirectTo
       });
       if (error) throw error;
       setSuccessMessage('Reset link sent! Check your email and click the link to reset your password.');
@@ -141,12 +120,8 @@ const ForgotPassword = () => {
     try {
       const { error } = await supabase.auth.updateUser({ password: formData.password });
       if (error) throw error;
-
-      // Clear reset mode flag, sign out to clear temporary session, and redirect
-      localStorage.removeItem('isInResetMode');
-      await supabase.auth.signOut();
-      setFormData({ ...formData, password: '', confirmPassword: '' }); // Clear form
       setSuccessMessage('Password reset successful! Redirecting to login...');
+      await supabase.auth.signOut();
       setTimeout(() => navigate('/login'), 2000);
     } catch (error) {
       setErrors({ password: error.message || 'Failed to reset password. Please try again.' });
