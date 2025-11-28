@@ -24,7 +24,7 @@ export default function News() {
   const INSIGHTS_CACHE_KEY = "bitry_ai_insights";
   const CACHE_DURATION = 30 * 60 * 1000; // 30 minutes
   const INSIGHTS_CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days for AI insights
-  const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+  const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
 
   // Gemini AI Configuration
   const GEMINI_CONFIG = {
