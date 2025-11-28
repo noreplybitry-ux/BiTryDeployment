@@ -6,12 +6,12 @@ import "../css/Learn2.css";
 import ModuleDetail from "./ModuleDetail";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-const MODULE_API_KEY = process.env.REACT_APP_MODULE_API_KEY || "";
-const TRANSLATION_API_KEY = process.env.REACT_APP_TRANSLATION_API_KEY || "";
-const QUIZ_API_KEY = process.env.REACT_APP_QUIZ_API_KEY || "";
-const TAGLISH_QUIZ_API_KEY = process.env.REACT_APP_TAGLISH_QUIZ_API_KEY || "";
-const PEXELS_API_KEY = process.env.REACT_APP_PEXELS_API_KEY || "";
-const YOUTUBE_API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY || "";
+const MODULE_API_KEY = process.env.MODULE_API_KEY || "";
+const TRANSLATION_API_KEY = process.env.TRANSLATION_API_KEY || "";
+const QUIZ_API_KEY = process.env.QUIZ_API_KEY || "";
+const TAGLISH_QUIZ_API_KEY = process.env.TAGLISH_QUIZ_API_KEY || "";
+const PEXELS_API_KEY = process.env.PEXELS_API_KEY || "";
+const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY || "";
 const Learn2 = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
