@@ -77,7 +77,7 @@ export default function News() {
 
   // Generate dynamic placeholder based on article content
   const generatePlaceholderImage = (article) => {
-    const title = article.title.toLowerCase();
+    const title = (article.title || "").toLowerCase();
 
     // Determine crypto type for appropriate icon
     let icon = "₿"; // Default Bitcoin
@@ -230,11 +230,7 @@ export default function News() {
           );
         }
       } catch (error) {
-        console.error(`Attempt ${attempt} failed:`, error.message, {
-          responseData: error.message.includes("Gemini API error")
-            ? JSON.parse(error.message.split(" - ")[1])
-            : null,
-        });
+        console.error(`Attempt ${attempt} failed:`, error.message);
         if (attempt === retries) {
           throw new Error(`Failed after ${retries} attempts: ${error.message}`);
         }
@@ -267,49 +263,17 @@ export default function News() {
         `Generating AI insights using Gemini (Usage: ${todayUsage}/${GEMINI_CONFIG.dailyLimit})`
       );
 
-      const articleText = `${article.title} ${article.description}`;
+      const response = await callGeminiAPI(
+        `You are an expert in cryptocurrency market analysis. Assess the following news article for its sentiment and impact on the cryptocurrency market, tailored for Filipino beginners.\n\nArticle Title: ${article.title}\nArticle Description: ${article.description}\n\nReturn a JSON object with marketImpact, sentiment, keyTakeaways, riskLevel and recommendation. Keep it short and beginner friendly.`
+      );
 
-      // Craft prompt for Gemini to assess sentiment and impact
-      const prompt = `
-You are an expert in cryptocurrency market analysis. Assess the following news article for its sentiment and impact on the cryptocurrency market, tailored for Filipino beginners. Keep ALL responses concise, use simple language, and format descriptions/reasoning as short bullet points (e.g., - Point one\\n- Point two). Avoid any Markdown formatting like * or **; use plain text only.
-
-Article Title: ${article.title}
-Article Description: ${article.description}
-
-Output ONLY a valid JSON object with the following structure:
-{
-  "marketImpact": {
-    "level": "High" | "Moderate" | "Low",
-    "description": "Concise bullet points (2-4 max) on potential impact, focused on major coins on Philippine exchanges like PDAX or Coins.ph."
-  },
-  "sentiment": {
-    "overall": "Bullish" | "Bearish" | "Neutral",
-    "confidence": "e.g., 80%",
-    "reasoning": "Short bullet points (2-3 max) explaining the sentiment."
-  },
-  "keyTakeaways": ["3-5 short bullet points with key insights for beginners."],
-  "riskLevel": {
-    "level": "High" | "Moderate" | "Low",
-    "description": "Concise bullet points (2-3 max) assessing risk for beginners."
-  },
-  "recommendation": "A short recommendation (1-2 sentences) for beginners in the Philippines."
-}
-
-Focus on cryptocurrency market impact only. Use beginner-friendly terms.
-`;
-
-      const response = await callGeminiAPI(prompt);
       let parsedInsights;
       try {
-        // Clean the response to remove Markdown code blocks if present
         const cleanedResponse = response
-          .replace(/```json\s*/g, "") // Remove opening ```json
-          .replace(/\s*```/g, "") // Remove closing ```
-          .trim(); // Trim whitespace
+          .replace(/```json\s*/g, "")
+          .replace(/\s*```/g, "")
+          .trim();
         parsedInsights = JSON.parse(cleanedResponse);
-        if (typeof parsedInsights !== "object" || parsedInsights === null) {
-          throw new Error("Invalid response format");
-        }
       } catch (parseErr) {
         throw new Error("Failed to parse AI response: " + parseErr.message);
       }
@@ -407,220 +371,338 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
     try {
       const cached = getCachedData();
       if (cached && isCacheFresh(cached)) {
-        console.log("Loading from cache...");
+        console.log("Loading from client cache...");
         return cached.data;
       }
 
       console.log("Fetching fresh news from API...");
 
       let allArticles = [];
-      const articlesPerRequest = 100; // Max allowed by NewsAPI
 
-      // Fetch from NewsAPI - Very specific for Filipino crypto beginners
-      const response = await fetch("/api/news");
+      // Primary API
+      try {
+        const response = await fetch("/api/news");
 
-      if (!response.ok) {
-        if (response.status === 429) {
-          throw new Error(
-            "API rate limit exceeded. Using cached data if available."
-          );
+        if (!response.ok) {
+          throw new Error(`API request failed with status ${response.status}`);
         }
-        throw new Error(`API request failed with status ${response.status}`);
+
+        const data = await response.json();
+        console.log(`Fetched ${data.articles?.length || 0} articles from API`);
+
+        // Use the same processing logic you already have
+        if (data.articles && Array.isArray(data.articles)) {
+          const validArticles = data.articles
+            .filter((article) => {
+              // Basic validation
+              if (
+                !article ||
+                !article.title ||
+                article.title === "[Removed]" ||
+                !article.description ||
+                article.description === "[Removed]" ||
+                !article.url ||
+                article.title.toLowerCase().includes("removed")
+              ) {
+                return false;
+              }
+
+              // Very specific crypto validation for Filipino beginners
+              const title = article.title.toLowerCase();
+              const description = article.description.toLowerCase();
+              const content = title + " " + description;
+
+              // Top cryptocurrencies relevant for Filipino beginners
+              const topCryptos = [
+                "bitcoin",
+                "btc",
+                "ethereum",
+                "eth",
+                "bnb",
+                "binance coin",
+                "solana",
+                "sol",
+                "cardano",
+                "ada",
+                "dogecoin",
+                "doge",
+                "polygon",
+                "matic",
+                "avalanche",
+                "avax",
+                "chainlink",
+                "link",
+                "binance",
+                "coinbase",
+                "crypto.com",
+                "crypto beginner",
+                "how to buy",
+                "crypto guide",
+                "crypto tutorial",
+                "crypto investment",
+                "cryptocurrency explained",
+                "crypto basics",
+                "crypto trading",
+                "crypto wallet",
+                "crypto exchange",
+                "crypto price",
+                "crypto market",
+                "bitcoin price",
+                "ethereum price",
+                "crypto news",
+                "cryptocurrency market",
+                "crypto analysis",
+                "crypto prediction",
+                "bull market",
+                "bear market",
+              ];
+
+              const hasRelevantCrypto = topCryptos.some((term) =>
+                content.includes(term)
+              );
+
+              // Exclude complex/advanced topics not suitable for beginners
+              const advancedTerms = [
+                "defi",
+                "yield farming",
+                "liquidity mining",
+                "dao",
+                "governance token",
+                "smart contract audit",
+                "flash loan",
+                "arbitrage",
+                "mev",
+                "layer 2 scaling",
+                "zk-rollup",
+                "optimistic rollup",
+                "sharding",
+                "consensus mechanism",
+                "proof of stake validator",
+                "slashing",
+                "impermanent loss",
+                "options trading",
+                "futures",
+                "derivatives",
+                "algorithmic trading",
+                "technical analysis",
+                "fibonacci retracement",
+              ];
+
+              // Exclude scam/risky topics
+              const scamTerms = [
+                "memecoin",
+                "shitcoin",
+                "pump and dump",
+                "rugpull",
+                "rug pull",
+                "ponzi",
+                "pyramid scheme",
+                "get rich quick",
+                "guaranteed profit",
+                "meme coin",
+                "shiba inu",
+                "pepe",
+                "floki",
+                "safemoon",
+              ];
+
+              // Exclude overly technical blockchain development
+              const techTerms = [
+                "blockchain development",
+                "smart contract development",
+                "web3 development",
+                "solidity",
+                "rust programming",
+                "substrate",
+                "cosmos sdk",
+                "ethereum virtual machine",
+                "evm",
+                "gas optimization",
+              ];
+
+              const hasAdvancedTerm = advancedTerms.some((term) =>
+                content.includes(term)
+              );
+              const hasScamTerm = scamTerms.some((term) =>
+                content.includes(term)
+              );
+              const hasTechTerm = techTerms.some((term) =>
+                content.includes(term)
+              );
+
+              // Additional quality checks
+              const hasGoodTitle = title.length > 10 && title.length < 200;
+              const hasGoodDescription = description.length > 50;
+
+              return (
+                hasRelevantCrypto &&
+                !hasAdvancedTerm &&
+                !hasScamTerm &&
+                !hasTechTerm &&
+                hasGoodTitle &&
+                hasGoodDescription
+              );
+            })
+            .map((article, index) => ({
+              id: `${Date.now()}-${index}`,
+              title: article.title.trim(),
+              description: article.description.trim(),
+              url: article.url,
+              imageUrl: processArticleImage(article), // Use enhanced image processing
+              publishedAt: article.publishedAt,
+              source: article.source?.name || "Unknown",
+              author: article.author || "Unknown Author",
+            }))
+            .slice(0, MAX_ARTICLES);
+
+          allArticles = validArticles;
+        }
+
+        // Cache results client-side
+        setCachedData(allArticles);
+        return allArticles;
+      } catch (apiErr) {
+        console.warn("Primary API failed:", apiErr.message);
+
+        // Fallback: try public/news_cache.json (CRA serves files in public/)
+        try {
+          console.log("Attempting fallback to /news_cache.json...");
+          const fallbackResp = await fetch("/news_cache.json");
+          if (!fallbackResp.ok) {
+            throw new Error(
+              `Fallback request failed with status ${fallbackResp.status}`
+            );
+          }
+          const raw = await fallbackResp.json();
+
+          // support both shapes:
+          // 1) raw is { timestamp, data: { status, totalResults, articles: [...] } }
+          // 2) raw is a NewsAPI-shaped object { status, totalResults, articles: [...] }
+          const payload = raw?.data && Array.isArray(raw.data.articles)
+            ? raw.data
+            : raw;
+
+          if (!payload.articles || !Array.isArray(payload.articles)) {
+            throw new Error("Fallback file does not contain articles array");
+          }
+
+          console.log(
+            `Loaded ${payload.articles.length} articles from news_cache.json`
+          );
+
+          // Process like normal
+          const validArticles = payload.articles
+            .filter((article) => {
+              // Basic validation
+              if (
+                !article ||
+                !article.title ||
+                article.title === "[Removed]" ||
+                !article.description ||
+                article.description === "[Removed]" ||
+                !article.url ||
+                article.title.toLowerCase().includes("removed")
+              ) {
+                return false;
+              }
+
+              // Very specific crypto validation for Filipino beginners
+              const title = article.title.toLowerCase();
+              const description = article.description.toLowerCase();
+              const content = title + " " + description;
+
+              // reuse same topCryptos / exclusions as above
+              const topCryptos = [
+                "bitcoin","btc","ethereum","eth","bnb","binance coin","solana","sol",
+                "cardano","ada","dogecoin","doge","polygon","matic","avalanche","avax",
+                "chainlink","link","binance","coinbase","crypto.com","crypto beginner",
+                "how to buy","crypto guide","crypto tutorial","crypto investment",
+                "cryptocurrency explained","crypto basics","crypto trading","crypto wallet",
+                "crypto exchange","crypto price","crypto market","bitcoin price",
+                "ethereum price","crypto news","cryptocurrency market","crypto analysis",
+                "crypto prediction","bull market","bear market"
+              ];
+
+              const hasRelevantCrypto = topCryptos.some((term) =>
+                content.includes(term)
+              );
+
+              const advancedTerms = [
+                "defi","yield farming","liquidity mining","dao","governance token",
+                "smart contract audit","flash loan","arbitrage","mev","layer 2 scaling",
+                "zk-rollup","optimistic rollup","sharding","consensus mechanism",
+                "proof of stake validator","slashing","impermanent loss","options trading",
+                "futures","derivatives","algorithmic trading","technical analysis","fibonacci retracement"
+              ];
+
+              const scamTerms = [
+                "memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi",
+                "pyramid scheme","get rich quick","guaranteed profit","meme coin",
+                "shiba inu","pepe","floki","safemoon"
+              ];
+
+              const techTerms = [
+                "blockchain development","smart contract development","web3 development",
+                "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
+                "evm","gas optimization"
+              ];
+
+              const hasAdvancedTerm = advancedTerms.some((term) =>
+                content.includes(term)
+              );
+              const hasScamTerm = scamTerms.some((term) =>
+                content.includes(term)
+              );
+              const hasTechTerm = techTerms.some((term) =>
+                content.includes(term)
+              );
+
+              const hasGoodTitle = title.length > 10 && title.length < 200;
+              const hasGoodDescription = description.length > 50;
+
+              return (
+                hasRelevantCrypto &&
+                !hasAdvancedTerm &&
+                !hasScamTerm &&
+                !hasTechTerm &&
+                hasGoodTitle &&
+                hasGoodDescription
+              );
+            })
+            .map((article, index) => ({
+              id: `${Date.now()}-${index}`,
+              title: article.title.trim(),
+              description: article.description.trim(),
+              url: article.url,
+              imageUrl: processArticleImage(article),
+              publishedAt: article.publishedAt,
+              source: article.source?.name || "Unknown",
+              author: article.author || "Unknown Author",
+            }))
+            .slice(0, MAX_ARTICLES);
+
+          allArticles = validArticles;
+
+          // Save to client cache (so UI shows last updated timestamp consistently)
+          setCachedData(allArticles);
+
+          // Set an informative error so the UI can show we used fallback (optional)
+          setError(`Using local fallback: news_cache.json`);
+
+          return allArticles;
+        } catch (fallbackErr) {
+          console.warn("Fallback also failed:", fallbackErr.message);
+          throw apiErr; // re-throw the original API error so caller handles it
+        }
       }
-
-      const data = await response.json();
-      console.log(`Fetched ${data.articles?.length || 0} articles from API`);
-
-      // Process articles
-      if (data.articles && Array.isArray(data.articles)) {
-        const validArticles = data.articles
-          .filter((article) => {
-            // Basic validation
-            if (
-              !article ||
-              !article.title ||
-              article.title === "[Removed]" ||
-              !article.description ||
-              article.description === "[Removed]" ||
-              !article.url ||
-              article.title.toLowerCase().includes("removed")
-            ) {
-              return false;
-            }
-
-            // Very specific crypto validation for Filipino beginners
-            const title = article.title.toLowerCase();
-            const description = article.description.toLowerCase();
-            const content = title + " " + description;
-
-            // Top cryptocurrencies relevant for Filipino beginners
-            const topCryptos = [
-              // Major coins (Top 10)
-              "bitcoin",
-              "btc",
-              "ethereum",
-              "eth",
-              "bnb",
-              "binance coin",
-              "solana",
-              "sol",
-              "cardano",
-              "ada",
-              "dogecoin",
-              "doge",
-              "polygon",
-              "matic",
-              "avalanche",
-              "avax",
-              "chainlink",
-              "link",
-
-              // Popular in Philippines/SEA
-              "binance",
-              "coinbase",
-              "crypto.com",
-
-              // Beginner-friendly terms
-              "crypto beginner",
-              "how to buy",
-              "crypto guide",
-              "crypto tutorial",
-              "crypto investment",
-              "cryptocurrency explained",
-              "crypto basics",
-              "crypto trading",
-              "crypto wallet",
-              "crypto exchange",
-
-              // Market terms beginners need
-              "crypto price",
-              "crypto market",
-              "bitcoin price",
-              "ethereum price",
-              "crypto news",
-              "cryptocurrency market",
-              "crypto analysis",
-              "crypto prediction",
-              "bull market",
-              "bear market",
-            ];
-
-            const hasRelevantCrypto = topCryptos.some((term) =>
-              content.includes(term)
-            );
-
-            // Exclude complex/advanced topics not suitable for beginners
-            const advancedTerms = [
-              "defi",
-              "yield farming",
-              "liquidity mining",
-              "dao",
-              "governance token",
-              "smart contract audit",
-              "flash loan",
-              "arbitrage",
-              "mev",
-              "layer 2 scaling",
-              "zk-rollup",
-              "optimistic rollup",
-              "sharding",
-              "consensus mechanism",
-              "proof of stake validator",
-              "slashing",
-              "impermanent loss",
-              "options trading",
-              "futures",
-              "derivatives",
-              "algorithmic trading",
-              "technical analysis",
-              "fibonacci retracement",
-            ];
-
-            // Exclude scam/risky topics
-            const scamTerms = [
-              "memecoin",
-              "shitcoin",
-              "pump and dump",
-              "rugpull",
-              "rug pull",
-              "ponzi",
-              "pyramid scheme",
-              "get rich quick",
-              "guaranteed profit",
-              "meme coin",
-              "shiba inu",
-              "pepe",
-              "floki",
-              "safemoon",
-            ];
-
-            // Exclude overly technical blockchain development
-            const techTerms = [
-              "blockchain development",
-              "smart contract development",
-              "web3 development",
-              "solidity",
-              "rust programming",
-              "substrate",
-              "cosmos sdk",
-              "ethereum virtual machine",
-              "evm",
-              "gas optimization",
-            ];
-
-            const hasAdvancedTerm = advancedTerms.some((term) =>
-              content.includes(term)
-            );
-            const hasScamTerm = scamTerms.some((term) =>
-              content.includes(term)
-            );
-            const hasTechTerm = techTerms.some((term) =>
-              content.includes(term)
-            );
-
-            // Additional quality checks
-            const hasGoodTitle = title.length > 10 && title.length < 200;
-            const hasGoodDescription = description.length > 50;
-
-            return (
-              hasRelevantCrypto &&
-              !hasAdvancedTerm &&
-              !hasScamTerm &&
-              !hasTechTerm &&
-              hasGoodTitle &&
-              hasGoodDescription
-            );
-          })
-          .map((article, index) => ({
-            id: `${Date.now()}-${index}`,
-            title: article.title.trim(),
-            description: article.description.trim(),
-            url: article.url,
-            imageUrl: processArticleImage(article), // Use enhanced image processing
-            publishedAt: article.publishedAt,
-            source: article.source?.name || "Unknown",
-            author: article.author || "Unknown Author",
-          }))
-          .slice(0, MAX_ARTICLES); // Limit to MAX_ARTICLES
-
-        allArticles = validArticles;
-      }
-
-      console.log(`Processed ${allArticles.length} valid articles`);
-
-      // Cache the results
-      setCachedData(allArticles);
-      return allArticles;
     } catch (error) {
-      console.error("Fetch error:", error);
-
-      // Try to use stale cache if API fails
+      console.error("Fetch error (final):", error);
+      // Try to use client localStorage stale cache if available
       const cached = getCachedData();
       if (cached && cached.data) {
-        console.log("API failed, using stale cache...");
+        console.log("API failed, using stale client cache...");
         return cached.data;
       }
-
       throw error;
     }
   };
@@ -791,23 +873,9 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                   loading={index < 6 ? "eager" : "lazy"}
                   onError={(e) => {
                     console.log("Image failed to load:", article.imageUrl);
-                    // Replace with dynamic placeholder
                     const placeholder = generatePlaceholderImage(article);
                     const imageContainer = e.target.closest(".news-image");
-                    imageContainer.innerHTML = `
-                      <div class="news-image-placeholder" style="background: ${placeholder.gradient}">
-                        <div class="placeholder-content">
-                          <span class="crypto-icon">${placeholder.icon}</span>
-                          <span class="source-name">${article.source}</span>
-                        </div>
-                      </div>
-                    `;
-                  }}
-                  onLoad={(e) => {
-                    // Ensure image loaded successfully
-                    if (e.target.naturalWidth === 0) {
-                      const placeholder = generatePlaceholderImage(article);
-                      const imageContainer = e.target.closest(".news-image");
+                    if (imageContainer) {
                       imageContainer.innerHTML = `
                         <div class="news-image-placeholder" style="background: ${placeholder.gradient}">
                           <div class="placeholder-content">
@@ -816,6 +884,22 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                           </div>
                         </div>
                       `;
+                    }
+                  }}
+                  onLoad={(e) => {
+                    if (e.target.naturalWidth === 0) {
+                      const placeholder = generatePlaceholderImage(article);
+                      const imageContainer = e.target.closest(".news-image");
+                      if (imageContainer) {
+                        imageContainer.innerHTML = `
+                          <div class="news-image-placeholder" style="background: ${placeholder.gradient}">
+                            <div class="placeholder-content">
+                              <span class="crypto-icon">${placeholder.icon}</span>
+                              <span class="source-name">${article.source}</span>
+                            </div>
+                          </div>
+                        `;
+                      }
                     }
                   }}
                   crossOrigin="anonymous"
@@ -843,11 +927,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
             <div className="news-content">
               <div className="news-text-content">
                 <h3 className="news-card-title">
-                  <a
-                    href={article.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={article.url} target="_blank" rel="noopener noreferrer">
                     {article.title}
                   </a>
                 </h3>
@@ -873,10 +953,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               </div>
 
               <div className="news-actions">
-                <button
-                  className="btn-ai-insights"
-                  onClick={() => openModal(article)}
-                >
+                <button className="btn-ai-insights" onClick={() => openModal(article)}>
                   See AI Insights
                 </button>
               </div>
@@ -1014,12 +1091,13 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                     <div className="article-meta">
                       <span className="source">{selectedArticle.source}</span>
                       <span className="date">
-                        {new Date(
-                          selectedArticle.publishedAt
-                        ).toLocaleDateString("en-US", {
-                          month: "short",
-                          day: "numeric",
-                        })}
+                        {new Date(selectedArticle.publishedAt).toLocaleDateString(
+                          "en-US",
+                          {
+                            month: "short",
+                            day: "numeric",
+                          }
+                        )}
                       </span>
                       <span className="ai-badge">AI Powered</span>
                     </div>
@@ -1085,9 +1163,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                         <span className="insight-icon">💡</span>
                         <h5>AI Recommendation</h5>
                       </div>
-                      <p className="recommendation">
-                        {insights.recommendation}
-                      </p>
+                      <p className="recommendation">{insights.recommendation}</p>
                     </div>
                   </div>
 
