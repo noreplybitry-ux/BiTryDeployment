@@ -1,9 +1,152 @@
 {
-  "timestamp": "2025-12-07T14:38:13.821Z",
+  "timestamp": "2025-12-07T15:11:20.848Z",
   "data": {
     "status": "ok",
-    "totalResults": 18,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Andrew Urquhart",
+        "title": "Professor Coin: When Bitcoin Sneezes—How Crypto and Equities Caught the Same Cold",
+        "description": "Academic literature finds that during periods of economic stress, correlations and spillovers between cryptocurrencies and equities spike.",
+        "url": "https://decrypt.co/351063/professor-coin-when-bitcoin-sneezes-how-crypto-and-equities-caught-the-same-cold",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-decrypt-style-23-gID_7.jpg",
+        "publishedAt": "2025-12-06T15:01:02Z",
+        "content": "In brief\r\n<ul><li>Academic literature increasingly finds that crypto and equities are tightly intertwined, especially during periods of stress.</li><li>Studies find that crypto increasingly behaves l… [+7495 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Ambcrypto.com"
+        },
+        "author": "Ritika Gupta",
+        "title": "Could Ethereum outperform Bitcoin in 2026? KEY divergence suggests…",
+        "description": "Ethereum shows relative strength as market dynamics shift.",
+        "url": "https://ambcrypto.com/?p=551611",
+        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Ritika-4-1000x600.webp",
+        "publishedAt": "2025-12-06T15:00:58Z",
+        "content": "Since launch, altcoins have been trying to carve out their own identity. \r\nNotably, 2025 is finally putting that separation on full display. Even with the Altcoin Season Index trending down, a handfu… [+3979 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Industry Leader Shares Why Ethereum Price Will Reach $12,000",
+        "description": "Industry leader Tom Lee has shared how the Ethereum price could reach $12,000 within the next few months. He based his prediction on the Bitcoin price action and how ETH could match the flagship crypto on a potential run to the upside.  Tom Lee Explains How T…",
+        "url": "http://www.newsbtc.com/news/ethereum/industry-leader-shares-why-ethereum-price-will-reach-12000/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T15:00:43Z",
+        "content": "Industry leader Tom Lee has shared how the Ethereum price could reach $12,000 within the next few months. He based his prediction on the Bitcoin price action and how ETH could match the flagship cryp… [+2595 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Semilore Faleti",
+        "title": "Crypto Regulation: European Commission Proposes Single Oversight Regime",
+        "description": "The European Commission has moved to allocate the supervision of crypto companies and their activities under the sole jurisdiction of the European Securities and Markets Authority (ESMA).  This move will end the application of different regulatory styles in s…",
+        "url": "https://bitcoinist.com/crypto-regime-european-commission-single-oversight/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/4_9165f2.jpg",
+        "publishedAt": "2025-12-06T15:00:39Z",
+        "content": "The European Commission has moved to allocate the supervision of crypto companies and their activities under the sole jurisdiction of the European Securities and Markets Authority (ESMA).  This move … [+2852 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten, AI Boost",
+        "title": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?",
+        "description": "As the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming or if another cornerstone model is approaching its end.",
+        "url": "https://www.coindesk.com/markets/2025/12/05/how-much-longer-until-we-consider-the-bitcoin-power-law-model-invalid",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bbeda191f8fd9c64a56bc73526ad7134c6c442fe-3200x1800.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T15:00:00Z",
+        "content": "Over a long enough time frame, every long term valuation model for bitcoin has eventually been broken, yet the one that has maintained the strongest narrative this cycle has been the power law model.… [+1787 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Carlos Lei",
+        "title": "The Grandma Test: When Your Mom Can Use DePIN, Mass Adoption Has Arrived",
+        "description": "Mass adoption doesn't happen when crypto enthusiasts start using the technology: it happens when your grandma does it without even realizing it, argues Uplink co-founder Carlos Lei.",
+        "url": "https://www.coindesk.com/opinion/2025/12/05/the-grandma-test-when-your-mom-can-use-depin-mass-adoption-has-arrived",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5c6ebc369b874e88cc7cab0efe1d9c759717ef8f-1920x1080.jpg?auto=format",
+        "publishedAt": "2025-12-06T15:00:00Z",
+        "content": "In a perfect world, the internet works like tap water: you turn it on, and it flows. Seamlessly. Nobody really wants to think about a better connection spot, SIM cards, or the nearest cell towers. Us… [+4738 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pypi.org"
+        },
+        "author": "support@blocky.com.br",
+        "title": "blockypy 0.2.1",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/0.2.1/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T14:59:18Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "investors.com",
+        "title": "Strategy, The Bitcoin Whale, Is Wall Street's Favorite Stock — By Far",
+        "description": "The average analyst price target for Strategy (MSTR) implies 184% upside for the bitcoin holding company from Friday's close, which is nearly twice the implied upside for any other large-cap stock (with a market cap over $10 billion), according to an Investor…",
+        "url": "https://biztoc.com/x/05914dc1599fadbf",
+        "urlToImage": "https://biztoc.com/cdn/05914dc1599fadbf_s.webp",
+        "publishedAt": "2025-12-06T14:58:14Z",
+        "content": "The average analyst price target for Strategy (MSTR) implies 184% upside for the bitcoin holding company from Friday's close, which is nearly twice the implied upside for any other large-cap stock (w… [+145 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning",
+        "description": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning\nAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been thrust back into the spotlight, and not for the reasons the…",
+        "url": "https://biztoc.com/x/3c03aec676a396de",
+        "urlToImage": "https://biztoc.com/cdn/3c03aec676a396de_s.webp",
+        "publishedAt": "2025-12-06T14:47:03Z",
+        "content": "This December Could Decide the Fate of Digital Asset Treasuries: Heres CoinShares Survival WarningAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been th… [+147 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "Why Is Crypto Down Today: BTC Back to $90K as Bounce Fails for Now",
+        "description": "Crypto Sector Lit Up Bright Red as Bitcoin Slips Back to $90K\nSofter than expected private inflation data did spark some hope that the Friday decline could reverse.\nWhat to know:\n- Bitcoin's overnight decline sped up in early U.S. trading hours, pushing the p…",
+        "url": "https://biztoc.com/x/a1953fdc0d7f45a5",
+        "urlToImage": "https://biztoc.com/cdn/a1953fdc0d7f45a5_s.webp",
+        "publishedAt": "2025-12-06T14:46:55Z",
+        "content": "Crypto Sector Lit Up Bright Red as Bitcoin Slips Back to $90KSofter than expected private inflation data did spark some hope that the Friday decline could reverse.What to know:- Bitcoin's overnight d… [+144 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger Deal",
+        "description": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger Deal\nShares in the company fell more than 50% this week as the merger approval went forward.\nWhat to know:\n- Anthony Pompliano-led ProCap BTC closed its SPAC merger on Friday.\n- This year…",
+        "url": "https://biztoc.com/x/71c7e49c114c3f6d",
+        "urlToImage": "https://biztoc.com/cdn/71c7e49c114c3f6d_s.webp",
+        "publishedAt": "2025-12-06T14:35:46Z",
+        "content": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger DealShares in the company fell more than 50% this week as the merger approval went forward.What to know:- Anthony Pompliano-led… [+139 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -198,45 +341,6 @@
         "urlToImage": "https://ml.globenewswire.com/Resource/Download/46758e47-4e5d-4da5-945c-e049069b7ade",
         "publishedAt": "2025-12-06T11:57:00Z",
         "content": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches … [+4029 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "BeInCrypto"
-        },
-        "author": "Oluwapelumi Adejumo",
-        "title": "Coinbase Makes Bold Bitcoin Prediction For December Despite Market Downturn",
-        "description": "Coinbase says the crypto market is entering a December recovery phase as liquidity improves and macro conditions turn more supportive.",
-        "url": "https://beincrypto.com/coinbase-bitcoin-prediction-december-2025/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/wWRW8oQEPdFAWFHqmLszKA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/f7084fd32aebfb7509edd77c518cfb10",
-        "publishedAt": "2025-12-06T11:32:24Z",
-        "content": "Photo by BeInCrypto\r\nCoinbase expects the crypto market to enter a recovery phase in December as liquidity improves and selling pressure from long-time Bitcoin holders eases. \r\nOn December 5, the US-… [+2299 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Ambcrypto.com"
-        },
-        "author": "Ishika Kumari",
-        "title": "Why BlackRock’s $125M Bitcoin move has BTC traders on edge",
-        "description": "BlackRock’s routine transfers mask bearish signals as RSI and MACD confirm short-term selling momentum dominance.",
-        "url": "https://ambcrypto.com/why-blackrocks-125m-bitcoin-move-has-btc-traders-on-edge/",
-        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/BlackRock-has-deposited-125500000-in-BTC-1000x600.webp",
-        "publishedAt": "2025-12-06T11:00:02Z",
-        "content": "The crypto market is showing strain.\r\nAfter failing to stay above $94,000, Bitcoin [BTC] fell 2.6% to a low of around $89,596, as of press time. At the same time, Ethereum [ETH] mirrored the move wit… [+3016 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CryptoSlate"
-        },
-        "author": "Gino Matos",
-        "title": "Is Base’s Solana bridge a ‘vampire attack’ on SOL liquidity or multichain pragmatism?",
-        "description": "Base launched a bridge to Solana on Dec. 4, and within hours, Solana’s most vocal builders accused Jesse Pollak of running a vampire attack disguised as interoperability. The bridge uses Chainlink CCIP and Coinbase infrastructure to let users move assets betw…",
-        "url": "https://cryptoslate.com/is-bases-solana-bridge-a-vampire-attack-on-sol-liquidity-or-multichain-pragmatism/",
-        "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/solana-base.jpg",
-        "publishedAt": "2025-12-06T10:29:47Z",
-        "content": "Base launched a bridge to Solana on Dec. 4, and within hours, Solana’s most vocal builders accused Jesse Pollak of running a vampire attack disguised as interoperability.\r\nThe bridge uses Chainlink C… [+7338 chars]"
       }
     ]
   }
