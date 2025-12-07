@@ -4,7 +4,7 @@ import path from "path";
 const CACHE_FILE = path.join(process.cwd(), "api", "news_cache.json");
 const PUBLIC_CACHE_FILE = path.join(process.cwd(), "public", "news_cache.json");
 
-// Unified terms must match the fetch script
+// Unified terms (match scripts/fetch-news.js)
 const SEARCH_TERMS = [
   "bitcoin", "btc", "ethereum", "eth", "bnb", "binance coin",
   "solana", "sol", "cardano", "ada", "dogecoin", "doge",
@@ -38,7 +38,9 @@ async function atomicWrite(filePath, obj) {
 export default async function handler(req, res) {
   const apiKey = process.env.NEWS_API_KEY;
   let q = buildQuery(SEARCH_TERMS);
-  const MAX_QUERY_LENGTH = 1000;
+
+  // NewsAPI enforces a 500-character limit for the q= parameter
+  const MAX_QUERY_LENGTH = 500;
   if (q.length > MAX_QUERY_LENGTH) {
     console.warn(`Built query too long (${q.length}), using compact fallback.`);
     q = compactQueryFallback();
@@ -50,18 +52,19 @@ export default async function handler(req, res) {
   url.searchParams.set("pageSize", String(PAGE_SIZE));
   url.searchParams.set("language", "en");
 
-  console.log("Fetching NewsAPI URL:", url.toString().slice(0, 1000));
+  console.log("Fetching NewsAPI URL (q length):", q.length);
 
   try {
     const resp = await fetch(url.toString() + `&apiKey=${apiKey}`);
     const bodyText = await resp.text().catch(() => null);
     let bodyJson = null;
-    try { bodyJson = bodyText ? JSON.parse(bodyText) : null; } catch(e){ bodyJson = null; }
+    try { bodyJson = bodyText ? JSON.parse(bodyText) : null; } catch (e) { bodyJson = null; }
 
     if (!resp.ok) {
       console.error("NewsAPI returned non-OK:", resp.status, resp.statusText, bodyJson || bodyText);
       throw new Error(`NewsAPI error: ${resp.status} - ${bodyJson?.message || bodyText || "no body"}`);
     }
+
     const data = bodyJson || JSON.parse(bodyText);
 
     // Prepare cache object (timestamp + raw NewsAPI payload)
