@@ -1,9 +1,35 @@
 {
-  "timestamp": "2025-12-07T20:13:48.972Z",
+  "timestamp": "2025-12-07T21:10:59.746Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CryptoSlate"
+        },
+        "author": "Andjela Radmilac",
+        "title": "Corporate Bitcoin portfolios are hiding a massive liability crisis that triggered an average 27% crash last month",
+        "description": "Corporate Bitcoin holdings have been treated as a straightforward signal for years: a company buys BTC, investors read it as conviction, and the stock trades with a built-in Bitcoin premium. While this might sound like a very clear and simple trade, the balan…",
+        "url": "https://cryptoslate.com/bitcoin-corporate-debt-outweighs-btc/",
+        "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/bitcoin-treasury-debt.jpg",
+        "publishedAt": "2025-12-06T21:05:19Z",
+        "content": "Corporate Bitcoin holdings have been treated as a straightforward signal for years: a company buys BTC, investors read it as conviction, and the stock trades with a built-in Bitcoin premium.\r\nWhile t… [+7513 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Polish Lawmakers Fail To Override President’s Veto On Crypto Market Bill — Report",
+        "description": "According to the latest report, the lower house of Poland’s parliament has failed to overturn the President’s veto of the Crypto-Asset Market Act. Earlier this week, the Polish President, Karol Nawrocki, vetoed a bill aimed at setting strict rules in the coun…",
+        "url": "https://bitcoinist.com/polish-lawmakers-fail-to-override-veto-on-crypto/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/iStock-1370115266.jpg",
+        "publishedAt": "2025-12-06T20:30:42Z",
+        "content": "According to the latest report, the lower house of Polands parliament has failed to overturn the Presidents veto of the Crypto-Asset Market Act. Earlier this week, the Polish President, Karol Nawrock… [+2890 chars]"
+      },
       {
         "source": {
           "id": "the-times-of-india",
@@ -445,45 +471,6 @@
         "urlToImage": "https://demo.thinkmoon.ai/og-image.png",
         "publishedAt": "2025-12-06T15:48:16Z",
         "content": "You're viewing demo data from real AI trading on a Binance testnet account.Register orlogin to connect your Binance account and create your AI trading agent."
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb",
-        "description": "The firm's optimism is driven by rising odds of US Federal Reserve rate cuts, with markets pricing in a 93% chance of cuts, and improving liquidity conditions.",
-        "url": "https://www.coindesk.com/markets/2025/12/06/coinbase-sees-crypto-recovery-ahead-as-liquidity-improves-and-fed-rate-cut-odds-climb",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/80f99baf5da294e11a51b05b169174d736d06f9b-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T15:46:33Z",
-        "content": "Coinbase Institutional has said crypto markets may be poised for a December recovery, citing improving liquidity and a shift in macroeconomic conditions that could favor risk assets like bitcoin BTC\r… [+905 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "BeInCrypto"
-        },
-        "author": "Aaryamann Shrivastava",
-        "title": "Zcash Price Struggle Below $400 Is Down To Bitcoin, Here’s How",
-        "description": "Zcash struggles near $400 as negative Bitcoin correlation and liquidation risks increase odds of a drop toward $300.",
-        "url": "https://beincrypto.com/zcash-price-struggle-down-to-bitcoin/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/n8o2CdmQtE7AFUzHwB6Ksg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/3309c4fc0611ef1e9b09956e4d258bf5",
-        "publishedAt": "2025-12-06T15:43:40Z",
-        "content": "Photo by BeInCrypto\r\nZcash price has faced renewed selling pressure after a sharp 16% decline in the last 24 hours, pulling the altcoin down from its attempted move above $400. \r\nThe rejection has de… [+2235 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "support@blocky.com.br",
-        "title": "blockypy 0.2.3",
-        "description": "Official Python client library for the Blocky Crypto Exchange API",
-        "url": "https://pypi.org/project/blockypy/0.2.3/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T15:23:59Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       }
     ]
   }
