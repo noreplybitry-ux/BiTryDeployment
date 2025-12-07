@@ -1,13 +1,22 @@
 {
-<<<<<<< HEAD
-  "timestamp": "2025-12-07T14:17:54.224Z",
-=======
-  "timestamp": "2025-12-07T14:11:40.299Z",
->>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
+  "timestamp": "2025-12-07T14:25:17.865Z",
   "data": {
     "status": "ok",
     "totalResults": 16,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "cnbc.com",
+        "title": "Biggest mistakes crypto investors make with estate planning",
+        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
+        "url": "https://biztoc.com/x/8fa6e13e340de8e2",
+        "urlToImage": "https://biztoc.com/cdn/955/og.png",
+        "publishedAt": "2025-12-06T14:13:26Z",
+        "content": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.\r\nThis story appeared on cnbc.com, 2025-12-06… [+9 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -202,19 +211,6 @@
         "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/59b9a54d11dc7ec56de0e1f38ec90cbd",
         "publishedAt": "2025-12-06T10:12:00Z",
         "content": "MetaMask, the most widely used Ethereum wallet, is moving directly into the prediction market arena through a new integration with Polymarket, giving users the ability to trade event outcomes from in… [+3191 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Italy’s Market Watchdog Gives Crypto Firms A Clear Order: Act Or Exit",
-        "description": "According to a press release from Consob on December 4, 2025, Italy’s securities regulator told crypto and virtual asset service providers (VASPs) that they must secure authorization under the EU’s Markets in Crypto-Assets regime (MiCA) by December 30, 2025, …",
-        "url": "http://www.newsbtc.com/crypto/italys-market-watchdog-gives-crypto-firms-a-clear-order-act-or-exit/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_adc210.jpg",
-        "publishedAt": "2025-12-06T10:00:31Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
