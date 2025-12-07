@@ -48,38 +48,31 @@ export default function News() {
       };
     }
 
-    // Normalize and remove code fences and bad control chars
-    let cleaned = responseText
-      .replace(/```json\s*/gi, "")
-      .replace(/\s*```/g, "")
-      .trim();
-
-    // Remove low-ascii/control characters that break JSON.parse
-    cleaned = cleaned.replace(/[\u0000-\u001F\u007F]/g, " ");
-
-    // If there's a JSON object inside a bunch of text, extract it
-    const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
-      cleaned = jsonMatch[0];
-    }
-
-    // Try parsing, with a final safe fallback
     try {
-      const parsed = JSON.parse(cleaned);
-      if (parsed && typeof parsed === "object") return parsed;
+      const cleaned = responseText
+        .replace(/```json\s*/gi, "")
+        .replace(/\s*```/g, "")
+        .trim();
+      return JSON.parse(cleaned);
     } catch (err) {
-      console.warn("parseAIJsonOrFallback: JSON.parse failed after sanitizing:", err);
-    }
+      const match = responseText.match(/\{[\s\S]*\}/);
+      if (match) {
+        try {
+          return JSON.parse(match[0]);
+        } catch (err2) {
+          // fallthrough to raw fallback
+        }
+      }
 
-    // If parse failed, return a lightweight structured fallback using the raw text
-    const short = cleaned.slice(0, 800).trim();
-    return {
-      marketImpact: { level: "Unknown", description: short },
-      sentiment: { overall: "Unknown", confidence: "", reasoning: short },
-      keyTakeaways: short ? [short] : [],
-      riskLevel: { level: "Unknown", description: "" },
-      recommendation: short || "No recommendation available",
-    };
+      const short = responseText.slice(0, 800);
+      return {
+        marketImpact: { level: "Unknown", description: short },
+        sentiment: { overall: "Unknown", confidence: "", reasoning: short },
+        keyTakeaways: [short],
+        riskLevel: { level: "Unknown", description: "" },
+        recommendation: short,
+      };
+    }
   };
 
   // Prevent .toLowerCase() calls on non-strings
@@ -294,7 +287,7 @@ export default function News() {
     }
   };
 
-  // AI-powered insights using Gemini (robust parsing & caching)
+  // AI-powered insights using Gemini
   const generateInsights = async (article) => {
     try {
       // Check cache first
@@ -316,76 +309,21 @@ export default function News() {
         `Generating AI insights using Gemini (Usage: ${todayUsage}/${GEMINI_CONFIG.dailyLimit})`
       );
 
-      const articleText = `${article.title} ${article.description}`;
+      const response = await callGeminiAPI(
+        `You are an expert in cryptocurrency market analysis. Assess the following news article for its sentiment and impact on the cryptocurrency market, tailored for Filipino beginners.\n\nArticle Title: ${article.title}\nArticle Description: ${article.description}\n\nReturn ONLY a JSON object with keys: marketImpact (object with level and description), sentiment (object with overall, confidence, reasoning), keyTakeaways (array of strings), riskLevel (object with level and description), recommendation (string). Do not include any other text.`
+      );
 
-      // Craft prompt for Gemini to assess sentiment and impact
-      const prompt = `
-You are an expert in cryptocurrency market analysis. Assess the following news article for its sentiment and impact on the cryptocurrency market, tailored for Filipino beginners. Keep ALL responses concise, use simple language, and format descriptions/reasoning as short bullet points (e.g., - Point one\n- Point two). Avoid any Markdown formatting like * or **; use plain text only.
+      const parsedInsights = parseAIJsonOrFallback(response, article);
 
-Article Title: ${article.title}
-Article Description: ${article.description}
-
-Output ONLY a valid JSON object with the following structure:
-{
-  "marketImpact": {
-    "level": "High" | "Moderate" | "Low",
-    "description": "Concise bullet points (2-4 max) on potential impact, focused on major coins on Philippine exchanges like PDAX or Coins.ph."
-  },
-  "sentiment": {
-    "overall": "Bullish" | "Bearish" | "Neutral",
-    "confidence": "e.g., 80%",
-    "reasoning": "Short bullet points (2-3 max) explaining the sentiment."
-  },
-  "keyTakeaways": ["3-5 short bullet points with key insights for beginners."],
-  "riskLevel": {
-    "level": "High" | "Moderate" | "Low",
-    "description": "Concise bullet points (2-3 max) assessing risk for beginners."
-  },
-  "recommendation": "A short recommendation (1-2 sentences) for beginners in the Philippines."
-}
-
-Focus on cryptocurrency market impact only. Use beginner-friendly terms.
-`;
-
-      const response = await callGeminiAPI(prompt);
-
-      // DEBUG: log raw response so we can inspect it if parsing fails
-      console.log("Raw Gemini response:", response);
-
-      // First attempt: strict, minimal cleaning parse
-      let parsedInsights = null;
-      try {
-        const cleanedResponse = response
-          .replace(/```json\s*/gi, "")
-          .replace(/\s*```/g, "")
-          .trim()
-          .replace(/[\u0000-\u001F\u007F]/g, " "); // strip control chars
-
-        parsedInsights = JSON.parse(cleanedResponse);
-        if (!parsedInsights || typeof parsedInsights !== "object") {
-          throw new Error("Parsed value is not an object");
-        }
-      } catch (parseErr) {
-        console.warn("Strict JSON.parse failed for Gemini response:", parseErr);
-        // Fall back to tolerant parser which does extraction and sanitization
-        parsedInsights = parseAIJsonOrFallback(response, article);
-      }
-
-      // Increment usage and cache results (even if fallback)
       incrementApiUsage();
+
+      // Cache the insights
       setInsightsCache(article.id, parsedInsights);
 
       return parsedInsights;
     } catch (error) {
       console.error("Error generating AI insights:", error);
-      // Return a structured fallback instead of throwing so UI can show something useful
-      return {
-        marketImpact: { level: "Unknown", description: "AI analysis unavailable" },
-        sentiment: { overall: "Unknown", confidence: "", reasoning: "AI analysis unavailable" },
-        keyTakeaways: ["AI analysis unavailable"],
-        riskLevel: { level: "Unknown", description: "" },
-        recommendation: "AI analysis unavailable right now",
-      };
+      throw error;
     }
   };
 
@@ -1307,3 +1245,5 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
     </section>
   );
 }
+
+
