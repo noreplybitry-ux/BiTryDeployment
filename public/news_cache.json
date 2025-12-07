@@ -1,9 +1,178 @@
 {
-  "timestamp": "2025-12-07T15:11:20.848Z",
+  "timestamp": "2025-12-07T16:14:10.467Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Ambcrypto.com"
+        },
+        "author": "Samyukhtha L KM",
+        "title": "Ethereum supply drops – Yet Tom Lee insists ‘$3K is still undervalued’",
+        "description": "ETH is trading differently than traditional tech stocks.",
+        "url": "https://ambcrypto.com/ethereum-supply-drops-yet-tom-lee-insists-3k-is-still-undervalued/",
+        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Samyukhtha-1-2-1000x600.webp",
+        "publishedAt": "2025-12-06T16:00:45Z",
+        "content": "ETH held on CEXs has been dropping, falling from around 14.5 million ETH in late July to nearly 12.5 million ETH at press time.\r\nInvestors (both retail and institutional) are moving coins off exchang… [+1358 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pypi.org"
+        },
+        "author": "wisecoder01@gmail.com",
+        "title": "pypomes-crypto 0.8.6",
+        "description": "A collection of Python pomes, penyeach (cryptography modules)",
+        "url": "https://pypi.org/project/pypomes-crypto/0.8.6/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T15:55:45Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb",
+        "description": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb\nThe crypto exchange also took note of a so-called AI bubble that continues to go strong and a weaker U.S. dollar.\nWhat to know:\n- Coinbase Institutional is seeing a potentia…",
+        "url": "https://biztoc.com/x/e8d73ea7c7efa7e1",
+        "urlToImage": "https://biztoc.com/cdn/e8d73ea7c7efa7e1_s.webp",
+        "publishedAt": "2025-12-06T15:53:42Z",
+        "content": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds ClimbThe crypto exchange also took note of a so-called AI bubble that continues to go strong and a weaker U.S. dollar.W… [+137 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "benzinga.com",
+        "title": "Bitcoin Stuck Below $90,000 As Ethereum, XRP, Dogecoin Extend Losses",
+        "description": "Bitcoin is trading just below the $90,000 mark on Saturday as cooling inflation data is driving risk-off sentiment.\nCryptocurrency\nTicker\nPrice\nBitcoin\n(CRYPTO: BTC)\n$89,496.98\nEthereum\n(CRYPTO: ETH)\n$3,024.66\nSolana\n(CRYPTO: SOL)\n$132.33\nXRP\n(CRYPTO: XRP)\n$2…",
+        "url": "https://biztoc.com/x/c838b3783e5d72f1",
+        "urlToImage": "https://biztoc.com/cdn/c838b3783e5d72f1_s.webp",
+        "publishedAt": "2025-12-06T15:53:18Z",
+        "content": "Bitcoin is trading just below the $90,000 mark on Saturday as cooling inflation data is driving risk-off sentiment.CryptocurrencyTickerPriceBitcoin(CRYPTO: BTC)$89,496.98Ethereum(CRYPTO: ETH)$3,024.6… [+122 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Thinkmoon.ai"
+        },
+        "author": "thinkmoon",
+        "title": "Show HN: ThinkMoon – AI Trading Assistant Using LLMs for Live Crypto Trading",
+        "description": "I built ThinkMoon because I wanted to see if LLMs could actually make money trading crypto, not just talk about it.It's an AI-powered trading platform where you can connect models from OpenRouter, OpenAI, or Anthropic to real markets and let them execute actu…",
+        "url": "https://demo.thinkmoon.ai/",
+        "urlToImage": "https://demo.thinkmoon.ai/og-image.png",
+        "publishedAt": "2025-12-06T15:48:16Z",
+        "content": "You're viewing demo data from real AI trading on a Binance testnet account.Register orlogin to connect your Binance account and create your AI trading agent."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb",
+        "description": "The firm's optimism is driven by rising odds of US Federal Reserve rate cuts, with markets pricing in a 93% chance of cuts, and improving liquidity conditions.",
+        "url": "https://www.coindesk.com/markets/2025/12/06/coinbase-sees-crypto-recovery-ahead-as-liquidity-improves-and-fed-rate-cut-odds-climb",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/80f99baf5da294e11a51b05b169174d736d06f9b-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T15:46:33Z",
+        "content": "Coinbase Institutional has said crypto markets may be poised for a December recovery, citing improving liquidity and a shift in macroeconomic conditions that could favor risk assets like bitcoin BTC\r… [+905 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BeInCrypto"
+        },
+        "author": "Aaryamann Shrivastava",
+        "title": "Zcash Price Struggle Below $400 Is Down To Bitcoin, Here’s How",
+        "description": "Zcash struggles near $400 as negative Bitcoin correlation and liquidation risks increase odds of a drop toward $300.",
+        "url": "https://beincrypto.com/zcash-price-struggle-down-to-bitcoin/",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/n8o2CdmQtE7AFUzHwB6Ksg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/3309c4fc0611ef1e9b09956e4d258bf5",
+        "publishedAt": "2025-12-06T15:43:40Z",
+        "content": "Photo by BeInCrypto\r\nZcash price has faced renewed selling pressure after a sharp 16% decline in the last 24 hours, pulling the altcoin down from its attempted move above $400. \r\nThe rejection has de… [+2235 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pypi.org"
+        },
+        "author": "support@blocky.com.br",
+        "title": "blockypy 0.2.3",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/0.2.3/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T15:23:59Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Why CFTC-approved spot Bitcoin, Ethereum trading is a 'massively huge deal'",
+        "description": "Gold has increased by 4,000% following the CFTC's approval in the 1970s, leaving Bitcoin and Ethereum with a similar scaling setup.",
+        "url": "https://cointelegraph.com/news/why-cftc-approved-spot-crypto-trading-is-big-deal-for-bitcoin-ethereum",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af31b-08f5-7222-be72-b90dd4d61b20",
+        "publishedAt": "2025-12-06T15:22:09Z",
+        "content": "On Thursday, the US Commodity Futures Trading Commission (CFTC) announced that spot Bitcoin (BTC) and Ether (ETH) products will begin trading for the first time on its registered futures exchanges. \r… [+3848 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "Professor Coin: When Bitcoin Sneezes—How Crypto and Equities Caught the Same Cold",
+        "description": "Professor Andrew Urquhart is Professor of Finance and Financial Technology and Head of the Department of Finance at Birmingham Business School (BBS).\nThis is the tenth installment of the Professor Coin column, in which I bring important insights from publishe…",
+        "url": "https://biztoc.com/x/bd9b18640b8f6af1",
+        "urlToImage": "https://biztoc.com/cdn/bd9b18640b8f6af1_s.webp",
+        "publishedAt": "2025-12-06T15:20:22Z",
+        "content": "Professor Andrew Urquhart is Professor of Finance and Financial Technology and Head of the Department of Finance at Birmingham Business School (BBS).This is the tenth installment of the Professor Coi… [+146 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pypi.org"
+        },
+        "author": "support@blocky.com.br",
+        "title": "blockypy 0.2.2",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/0.2.2/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T15:13:31Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "The Grandma Test: When Your Mom Can Use DePIN, Mass Adoption Has Arrived",
+        "description": "The Grandma Test: When Your Mom Can Use DePIN, Mass Adoption Has Arrived\nMass adoption doesn't happen when crypto enthusiasts start using the technology: it happens when your grandma does it without even realizing it, argues Uplink co-founder Carlos Lei.\nIn a…",
+        "url": "https://biztoc.com/x/e99cdd05eb8797c1",
+        "urlToImage": "https://biztoc.com/cdn/e99cdd05eb8797c1_s.webp",
+        "publishedAt": "2025-12-06T15:09:21Z",
+        "content": "The Grandma Test: When Your Mom Can Use DePIN, Mass Adoption Has ArrivedMass adoption doesn't happen when crypto enthusiasts start using the technology: it happens when your grandma does it without e… [+144 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?",
+        "description": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?\nAs the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming or if another cornerstone model is approaching its end.\nWhat…",
+        "url": "https://biztoc.com/x/be84606c1468bdfb",
+        "urlToImage": "https://biztoc.com/cdn/be84606c1468bdfb_s.webp",
+        "publishedAt": "2025-12-06T15:09:18Z",
+        "content": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?As the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming o… [+138 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -276,71 +445,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1383793414.jpg?fit=1272%2C824",
         "publishedAt": "2025-12-06T13:30:13Z",
         "content": "The Bitcoin price has had a mixed performance over the past week, with both sides of the market divide struggling to establish dominance. In the latest battle between the bulls and bears, the premier… [+2392 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Tistory.com"
-        },
-        "author": "T.B",
-        "title": "국가 왜 존재 하는가",
-        "description": "코인 김남국과 연봉 2억 인사청탁 문진석 Crypto had a bad autumn. Will it have a bad winter? @davidgura and stacy-marie ishmael break down what you need to know. Listen to the Big Take podcast https://t.co/Lwt1aXgDv6 pic.twitter.com/QiRpjz02yF— Bloomberg (@business) December 5…",
-        "url": "https://ryueyes11.tistory.com/511998",
-        "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fp4zLE%2FdJMcahpobNU%2FAAAAAAAAAAAAAAAAAAAAAH8o_XWZZPnd2qODFNRAq-pknzbjEsG6eT4cwudZ6oFt%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1767193199%26allow_ip%3D%26allow_referer%3D%26signature%3DwBzBxwbbEGoMdM3FVXZUvbAHxWo%253D",
-        "publishedAt": "2025-12-06T12:27:51Z",
-        "content": "2 \r\nCrypto had a bad autumn. Will it have a bad winter? @davidgura and stacy-marie ishmael break down what you need to know. Listen to the Big Take podcast https://t.co/Lwt1aXgDv6pic.twitter.com/QiRp… [+7947 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Bitcoinist"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Crypto Sell-Off: Binance, Coinbase, Dump Over $2 Billion In Bitcoin As Prices Dip Below $90,000",
-        "description": "The cryptocurrency market experienced another wave of liquidations on Friday, with Bitcoin (BTC) prices dipping below the critical support level of $90,000. This decline followed a brief rally that had seen its price rise approximately $3,000 above this thres…",
-        "url": "https://bitcoinist.com/crypto-sell-off-binance-dump-over-2-billion-bitcoin/",
-        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/08/Screenshot_330.jpg",
-        "publishedAt": "2025-12-06T12:00:54Z",
-        "content": "The cryptocurrency market experienced another wave of liquidations on Friday, with Bitcoin (BTC) prices dipping below the critical support level of $90,000. This decline followed a brief rally that h… [+3221 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Settles In Consolidation Zone – Levels To Watch",
-        "description": "Bitcoin (BTC) trades just below $90,000 after a fluctuating week of price action resulted in a net loss of 1.8%. Despite initial hopes of a resurgence in late November, the premier cryptocurrency is now 29.16% away from its all-time high. Going by the price a…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-settles-in-consolidation-zone-levels-to-watch/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/istockphoto-1329055819-612x612-1.jpg?fit=900%2C538",
-        "publishedAt": "2025-12-06T12:00:03Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Dlnews.com"
-        },
-        "author": "Lance Datskoluo",
-        "title": "General Catalyst, Jump Trading pile on as crypto startups raise $155 million",
-        "description": "Fundraising in 2025 has already blown past analysts' expectations. Investors include crypto-native players as well as conservative financial institutions.",
-        "url": "https://www.dlnews.com/articles/markets/general-catalyst-jump-trading-pile-on-as-crypto-startups-raise-155-million/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/T90MtozIhalRioL8oT5fAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03ODU-/https://media.zenfs.com/en/dlnews_702/9dce25dbaeb0fda7e8a74dfe31051166",
-        "publishedAt": "2025-12-06T12:00:00Z",
-        "content": "Venture capitalists poured another $155 million into 14 crypto startups this week, bringing total investment to nearly $25 billion this year, according to DefiLlama data.\r\nThats a 160% uptick from la… [+2358 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "GlobeNewswire"
-        },
-        "author": "Mutuum Finance",
-        "title": "New Crypto Coin Mutuum Finance Nears 100% of Phase 6 Allocation as Price Shift Approaches",
-        "description": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches full allocation. With the current stage priced at $0.035 and…",
-        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201038/0/en/New-Crypto-Coin-Mutuum-Finance-Nears-100-of-Phase-6-Allocation-as-Price-Shift-Approaches.html",
-        "urlToImage": "https://ml.globenewswire.com/Resource/Download/46758e47-4e5d-4da5-945c-e049069b7ade",
-        "publishedAt": "2025-12-06T11:57:00Z",
-        "content": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches … [+4029 chars]"
       }
     ]
   }
