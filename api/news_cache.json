@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "timestamp": "2025-12-07T14:17:54.224Z",
+=======
+  "timestamp": "2025-12-07T14:11:40.299Z",
+>>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
   "data": {
     "status": "ok",
     "totalResults": 16,
