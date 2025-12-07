@@ -1,9 +1,35 @@
 {
-  "timestamp": "2025-12-07T12:12:57.172Z",
+  "timestamp": "2025-12-07T13:34:27.263Z",
   "data": {
     "status": "ok",
-    "totalResults": 18,
+    "totalResults": 15,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Price Falls Below $90,000 — Is The Recovery Over?",
+        "description": "The Bitcoin price has had a mixed performance over the past week, with both sides of the market divide struggling to establish dominance. In the latest battle between the bulls and bears, the premier cryptocurrency appears to be succumbing to pressure from th…",
+        "url": "http://www.newsbtc.com/news/bitcoin-price-falls-below-90000-recovery-over/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1383793414.jpg?fit=1272%2C824",
+        "publishedAt": "2025-12-06T13:30:13Z",
+        "content": "The Bitcoin price has had a mixed performance over the past week, with both sides of the market divide struggling to establish dominance. In the latest battle between the bulls and bears, the premier… [+2392 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Tistory.com"
+        },
+        "author": "T.B",
+        "title": "국가 왜 존재 하는가",
+        "description": "코인 김남국과 연봉 2억 인사청탁 문진석 Crypto had a bad autumn. Will it have a bad winter? @davidgura and stacy-marie ishmael break down what you need to know. Listen to the Big Take podcast https://t.co/Lwt1aXgDv6 pic.twitter.com/QiRpjz02yF— Bloomberg (@business) December 5…",
+        "url": "https://ryueyes11.tistory.com/511998",
+        "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fp4zLE%2FdJMcahpobNU%2FAAAAAAAAAAAAAAAAAAAAAH8o_XWZZPnd2qODFNRAq-pknzbjEsG6eT4cwudZ6oFt%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1767193199%26allow_ip%3D%26allow_referer%3D%26signature%3DwBzBxwbbEGoMdM3FVXZUvbAHxWo%253D",
+        "publishedAt": "2025-12-06T12:27:51Z",
+        "content": "2 \r\nCrypto had a bad autumn. Will it have a bad winter? @davidgura and stacy-marie ishmael break down what you need to know. Listen to the Big Take podcast https://t.co/Lwt1aXgDv6pic.twitter.com/QiRp… [+7947 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -29,6 +55,19 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/istockphoto-1329055819-612x612-1.jpg?fit=900%2C538",
         "publishedAt": "2025-12-06T12:00:03Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Dlnews.com"
+        },
+        "author": "Lance Datskoluo",
+        "title": "General Catalyst, Jump Trading pile on as crypto startups raise $155 million",
+        "description": "Fundraising in 2025 has already blown past analysts' expectations. Investors include crypto-native players as well as conservative financial institutions.",
+        "url": "https://www.dlnews.com/articles/markets/general-catalyst-jump-trading-pile-on-as-crypto-startups-raise-155-million/",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/T90MtozIhalRioL8oT5fAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03ODU-/https://media.zenfs.com/en/dlnews_702/9dce25dbaeb0fda7e8a74dfe31051166",
+        "publishedAt": "2025-12-06T12:00:00Z",
+        "content": "Venture capitalists poured another $155 million into 14 crypto startups this week, bringing total investment to nearly $25 billion this year, according to DefiLlama data.\r\nThats a 160% uptick from la… [+2358 chars]"
       },
       {
         "source": {
@@ -159,84 +198,6 @@
         "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/0f1b1a2e4feb711942a2004d9b0268fc",
         "publishedAt": "2025-12-06T09:13:47Z",
         "content": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who claimed a 30% drop in the stablecoin issuer’… [+4573 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Amin Ayan",
-        "title": "Strategy CEO Says $1.44B Cash Reserve Aims to Calm Bitcoin-Slump Fears",
-        "description": "Strategy CEO Phong Le says the company’s newly built $1.44 billion cash reserve is designed to quiet investor anxiety over its ability to withstand a sharp...",
-        "url": "https://cryptonews.com/news/strategy-ceo-says-1-44b-cash-reserve-aims-to-calm-bitcoin-slump-fears/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/b92a9008a87a3e79ce6e32e5fd6a0dba",
-        "publishedAt": "2025-12-06T08:28:19Z",
-        "content": "Strategy CEO Phong Le says the companys newly built $1.44 billion cash reserve is designed to quiet investor anxiety over its ability to withstand a sharp downturn in Bitcoin.\r\nKey Takeaways:\r\n<ul><l… [+2814 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Amin Ayan",
-        "title": "Strive Urges MSCI to Scrap Proposal Excluding Major BTC Holders",
-        "description": "Strive, a Nasdaq-listed firm and the 14th-largest public holder of Bitcoin, is pushing back against MSCI’s plan to remove companies with significant digital-...",
-        "url": "https://cryptonews.com/news/strive-urges-msci-to-scrap-proposal-excluding-major-btc-holders/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/65ad810c04b5ed42c4767e772153e55e",
-        "publishedAt": "2025-12-06T08:23:22Z",
-        "content": "Strive, a Nasdaq-listed firm and the 14th-largest public holder of Bitcoin, is pushing back against MSCIs plan to remove companies with significant digital-asset exposure from its global indexes.\r\nKe… [+3304 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Parth Dubey",
-        "title": "Crypto Recovery in December: Coinbase",
-        "description": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said...",
-        "url": "https://www.coinspeaker.com/crypto-recovery-in-december-coinbase/",
-        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/7e5cad94f86651a7ae03b97604e80236",
-        "publishedAt": "2025-12-06T08:20:24Z",
-        "content": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said that odds for a Federal Reserve rate cut ro… [+1970 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Bitcoinist"
-        },
-        "author": "Christian Encila",
-        "title": "Hidden XRP Accumulation: CEO Points To Secret Buys By The Wealthiest Families",
-        "description": "Reports have disclosed that some extremely wealthy family offices are adding XRP to their holdings, a move that market watchers say could influence demand for the token. Related Reading: Bitcoin Dip Attracts Gradual Buying From Sovereign Funds—CEO According t…",
-        "url": "https://bitcoinist.com/hidden-xrp-accumulation-ceo-points-to-secret-buys-by-the-wealthiest-families/",
-        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/a_9a4a03.jpg",
-        "publishedAt": "2025-12-06T08:00:50Z",
-        "content": "Reports have disclosed that some extremely wealthy family offices are adding XRP to their holdings, a move that market watchers say could influence demand for the token.\r\nAccording to Jake Claver, CE… [+3104 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Bull Season Hinges On Key $82,150 Level – Here’s Why",
-        "description": "The Bitcoin market continues to experience high levels of investor uncertainty, as indicated by the unstable price action of the past week. In the last month alone, the leading cryptocurrency has lost about 14% of its value, strengthening fears of an impendin…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bull-season-hinges-on-key-82150-level-heres-why/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/bitcoin-coin-on-keyboard-nice-600nw-2524086717.jpg",
-        "publishedAt": "2025-12-06T08:00:26Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Bitcoin treasury firms enter a ‘Darwinian phase’ as premiums collapse: Galaxy",
-        "description": "Galaxy Research says the Bitcoin treasury model has broken down as falling equity premiums reverse the issuance-driven growth cycle, pushing DAT firms into survival mode.",
-        "url": "https://cointelegraph.com/news/bitcoin-treasury-firms-enter-darwinian-phase-as-premiums-collapse",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af2a3-ea77-7bf8-9908-39a96936ad3f",
-        "publishedAt": "2025-12-06T07:58:03Z",
-        "content": "Bitcoin treasury companies are entering a Darwinian phase as the core mechanics of their once-booming business model break down, according to a new analysis from Galaxy Research. \r\nThe report said th… [+2945 chars]"
       }
     ]
   }
