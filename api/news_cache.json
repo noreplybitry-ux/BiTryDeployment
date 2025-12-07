@@ -1,684 +1,164 @@
 {
-  "timestamp": 1765086097598,
+  "timestamp": "2025-12-07T12:12:57.172Z",
   "data": {
     "status": "ok",
-    "totalResults": 1845,
+    "totalResults": 18,
     "articles": [
       {
         "source": {
           "id": null,
-          "name": "Cointelegraph"
+          "name": "Bitcoinist"
         },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "2,000 Bitcoin on the move: Rare Casascius coins awaken after 13 years",
-        "description": "Two long-dormant Casascius coins holding 2,000 BTC have just been unlocked, releasing more than $179 million in Bitcoin after over 13 years offline.",
-        "url": "https://cointelegraph.com/news/dormant-casascius-coins-activate-179m-btc",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af1bd-9a7c-7d3a-a8a5-189781327fff",
-        "publishedAt": "2025-12-06T04:36:42Z",
-        "content": "Two long-dormant Casascius coins each backed by 1,000 Bitcoin have just been activated as of Friday, unlocking more than $179 million stashed away for more than 13 years. \r\nOnchain data indicates tha… [+2059 chars]"
+        "author": "Ronaldo Marquez",
+        "title": "Crypto Sell-Off: Binance, Coinbase, Dump Over $2 Billion In Bitcoin As Prices Dip Below $90,000",
+        "description": "The cryptocurrency market experienced another wave of liquidations on Friday, with Bitcoin (BTC) prices dipping below the critical support level of $90,000. This decline followed a brief rally that had seen its price rise approximately $3,000 above this thres…",
+        "url": "https://bitcoinist.com/crypto-sell-off-binance-dump-over-2-billion-bitcoin/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/08/Screenshot_330.jpg",
+        "publishedAt": "2025-12-06T12:00:54Z",
+        "content": "The cryptocurrency market experienced another wave of liquidations on Friday, with Bitcoin (BTC) prices dipping below the critical support level of $90,000. This decline followed a brief rally that h… [+3221 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "CoinDesk"
+          "name": "newsBTC"
         },
-        "author": "Shaurya Malwa",
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Settles In Consolidation Zone – Levels To Watch",
+        "description": "Bitcoin (BTC) trades just below $90,000 after a fluctuating week of price action resulted in a net loss of 1.8%. Despite initial hopes of a resurgence in late November, the premier cryptocurrency is now 29.16% away from its all-time high. Going by the price a…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-settles-in-consolidation-zone-levels-to-watch/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/istockphoto-1329055819-612x612-1.jpg?fit=900%2C538",
+        "publishedAt": "2025-12-06T12:00:03Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "GlobeNewswire"
+        },
+        "author": "Mutuum Finance",
+        "title": "New Crypto Coin Mutuum Finance Nears 100% of Phase 6 Allocation as Price Shift Approaches",
+        "description": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches full allocation. With the current stage priced at $0.035 and…",
+        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201038/0/en/New-Crypto-Coin-Mutuum-Finance-Nears-100-of-Phase-6-Allocation-as-Price-Shift-Approaches.html",
+        "urlToImage": "https://ml.globenewswire.com/Resource/Download/46758e47-4e5d-4da5-945c-e049069b7ade",
+        "publishedAt": "2025-12-06T11:57:00Z",
+        "content": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches … [+4029 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BeInCrypto"
+        },
+        "author": "Oluwapelumi Adejumo",
+        "title": "Coinbase Makes Bold Bitcoin Prediction For December Despite Market Downturn",
+        "description": "Coinbase says the crypto market is entering a December recovery phase as liquidity improves and macro conditions turn more supportive.",
+        "url": "https://beincrypto.com/coinbase-bitcoin-prediction-december-2025/",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/wWRW8oQEPdFAWFHqmLszKA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/f7084fd32aebfb7509edd77c518cfb10",
+        "publishedAt": "2025-12-06T11:32:24Z",
+        "content": "Photo by BeInCrypto\r\nCoinbase expects the crypto market to enter a recovery phase in December as liquidity improves and selling pressure from long-time Bitcoin holders eases. \r\nOn December 5, the US-… [+2299 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Ambcrypto.com"
+        },
+        "author": "Ishika Kumari",
+        "title": "Why BlackRock’s $125M Bitcoin move has BTC traders on edge",
+        "description": "BlackRock’s routine transfers mask bearish signals as RSI and MACD confirm short-term selling momentum dominance.",
+        "url": "https://ambcrypto.com/why-blackrocks-125m-bitcoin-move-has-btc-traders-on-edge/",
+        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/BlackRock-has-deposited-125500000-in-BTC-1000x600.webp",
+        "publishedAt": "2025-12-06T11:00:02Z",
+        "content": "The crypto market is showing strain.\r\nAfter failing to stay above $94,000, Bitcoin [BTC] fell 2.6% to a low of around $89,596, as of press time. At the same time, Ethereum [ETH] mirrored the move wit… [+3016 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CryptoSlate"
+        },
+        "author": "Gino Matos",
+        "title": "Is Base’s Solana bridge a ‘vampire attack’ on SOL liquidity or multichain pragmatism?",
+        "description": "Base launched a bridge to Solana on Dec. 4, and within hours, Solana’s most vocal builders accused Jesse Pollak of running a vampire attack disguised as interoperability. The bridge uses Chainlink CCIP and Coinbase infrastructure to let users move assets betw…",
+        "url": "https://cryptoslate.com/is-bases-solana-bridge-a-vampire-attack-on-sol-liquidity-or-multichain-pragmatism/",
+        "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/solana-base.jpg",
+        "publishedAt": "2025-12-06T10:29:47Z",
+        "content": "Base launched a bridge to Solana on Dec. 4, and within hours, Solana’s most vocal builders accused Jesse Pollak of running a vampire attack disguised as interoperability.\r\nThe bridge uses Chainlink C… [+7338 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Amin Ayan",
+        "title": "MetaMask Enters Prediction Markets With Polymarket Integration",
+        "description": "MetaMask, the most widely used Ethereum wallet, is moving directly into the prediction market arena through a new integration with Polymarket, giving users...",
+        "url": "https://cryptonews.com/news/metamask-enters-prediction-markets-with-polymarket-integration/",
+        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/59b9a54d11dc7ec56de0e1f38ec90cbd",
+        "publishedAt": "2025-12-06T10:12:00Z",
+        "content": "MetaMask, the most widely used Ethereum wallet, is moving directly into the prediction market arena through a new integration with Polymarket, giving users the ability to trade event outcomes from in… [+3191 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Italy’s Market Watchdog Gives Crypto Firms A Clear Order: Act Or Exit",
+        "description": "According to a press release from Consob on December 4, 2025, Italy’s securities regulator told crypto and virtual asset service providers (VASPs) that they must secure authorization under the EU’s Markets in Crypto-Assets regime (MiCA) by December 30, 2025, …",
+        "url": "http://www.newsbtc.com/crypto/italys-market-watchdog-gives-crypto-firms-a-clear-order-act-or-exit/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_adc210.jpg",
+        "publishedAt": "2025-12-06T10:00:31Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
         "title": "Japan’s Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry Unwind",
-        "description": "A stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions that recently helped bitcoin rebound from November’s lows.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/japan-s-higher-rates-puts-bitcoin-in-the-crosshairs-of-a-yen-carry-unwind",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2b80c002c296863a2eea4fb98ebe974ae5cf997f-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T03:30:00Z",
-        "content": "The Bank of Japan is preparing to raise interest rates at its December policy meeting, a shift that would lift the countrys benchmark rate to its highest level since 1995 and potentially reverberate … [+2205 chars]"
+        "description": "Japan’s Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry Unwind\nA stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions that recently helped bitcoin rebound from November’s lows…",
+        "url": "https://biztoc.com/x/82914ccde682e4c7",
+        "urlToImage": "https://biztoc.com/cdn/82914ccde682e4c7_s.webp",
+        "publishedAt": "2025-12-06T09:58:33Z",
+        "content": "Japans Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry UnwindA stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions… [+149 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Github.com"
+        },
+        "author": "Daffactor",
+        "title": "Show HN: Nano.noq – Experimental key-container format",
+        "description": "Hi! This is an experimental learning project I've been working on.NANO.NOQ is a very small binary container format for AES-GCM keys. \nThe entire implementation is inside a single HTML file using WebCrypto \n(no backend, no external dependencies).The .noq file …",
+        "url": "https://github.com/NOQ-DAFFACTOR/NANO.NOQ",
+        "urlToImage": "https://opengraph.githubassets.com/03fdda58a114ea967c413769eb0f7acc559ba7b1338029dcb51b84f3a092591a/NOQ-DAFFACTOR/NANO.NOQ",
+        "publishedAt": "2025-12-06T09:48:51Z",
+        "content": "NANO.NOQ description\r\nThis project is purely an experimental format design, not a new cryptographic system.\r\nNANO.NOQ is a small file format designed to store AESGCM keys separately from ciphertext. … [+4028 chars]"
       },
       {
         "source": {
           "id": null,
           "name": "Cointelegraph"
         },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Strive calls on MSCI to rethink its ‘unworkable’ Bitcoin blacklist",
-        "description": "Strive urges MSCI to reconsider its blanket ban on Bitcoin-heavy treasury firms, arguing it would deny investors exposure to fast-growing AI and digital asset sectors.",
-        "url": "https://cointelegraph.com/news/msci-exclusion-btc-firms-is-unworkable-strive-ceo",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af145-8a5c-7c16-8973-b6367d7e729d",
-        "publishedAt": "2025-12-06T02:34:56Z",
-        "content": "Nasdaq-listed Strive, the 14th-largest publicly-listed Bitcoin treasury firm, has urged MSCI to reconsider its proposed exclusion of major Bitcoin holding companies from its indexes. \r\nIn a letter to… [+3324 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Strategy raised $1.44B to dispel ‘FUD’ amid a Bitcoin down cycle: CEO",
-        "description": "Strategy CEO Phong Le says the firm raised $1.44 billion in eight days to ease investor fears and prove it can still raise capital and pay dividends in a Bitcoin downcycle.",
-        "url": "https://cointelegraph.com/news/strategy-raised-1-44-billion-beat-fud-amid-bitcoin-down-cycle",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af0bc-3188-73cc-b2be-0cabe968dc67",
-        "publishedAt": "2025-12-06T00:23:47Z",
-        "content": "Strategy CEO Phong Le said part of the reason for establishing a $1.44 billion USD reserve was to alleviate investor concerns over the companys health amid a Bitcoin slump. \r\nWere very much are a par… [+2042 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "3 Binance Bitcoin charts point to the direction of BTC’s next big move",
-        "description": "Three Binance exchange onchain metrics showed rising sell pressure and volatile liquidity conditions, indicating that BTC’s next major move may be approaching.",
-        "url": "https://cointelegraph.com/news/3-binance-bitcoin-charts-point-to-direction-of-btc-s-next-big-move",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeee3-dfb2-786e-bc8e-86f170c1b86a",
-        "publishedAt": "2025-12-05T22:00:00Z",
-        "content": "Bitcoins (BTC) short-term trend may hinge on developments unfolding inside Binances order flow and onchain activity. Three Binance-linked metrics indicated rising sell-side pressure, shifting liquidi… [+3161 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Tether solvency fears are ‘misplaced’ as company sits on large surplus: CoinShares",
-        "description": "James Butterfill counters claims about Tether’s solvency, pointing to a multibillion-dollar surplus despite new criticism from Arthur Hayes and S&P Global.",
-        "url": "https://cointelegraph.com/news/tether-solvency-fears-misplaced-coinshares-stablecoin-surplus",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aefca-3310-7571-b026-db6586843bc6",
-        "publishedAt": "2025-12-05T21:09:50Z",
-        "content": "Concerns about stablecoin issuer Tethers financial stability resurfaced this week after BitMEX founder Arthur Hayes warned the company could face serious trouble if the value of its reserve assets we… [+2119 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Crypto Biz: Mining weakness tests Bitcoin’s market cycle",
-        "description": "Bitcoin miners face the harshest margin squeeze on record as American Bitcoin stock prices collapse, Kalshi raises $1 billion, and Ether derivatives volumes surge on CME.",
-        "url": "https://cointelegraph.com/news/crypto-biz-mining-weakness-tests-bitcoin-s-current-market-cycle",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aef42-50f5-7011-ac7a-b92db8493acc",
-        "publishedAt": "2025-12-05T21:00:00Z",
-        "content": "Bitcoin (BTC) miners are learning the hard way that number go up doesnt always trickle down. Even with Bitcoin prices still elevated by historical standards, mining margins have been sharply squeezed… [+4992 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin’s end-of-year run to $100K heavily depends on Fed pivot outcomes",
-        "description": "Bitcoin’s chance of hitting $100,000 before New Year’s Eve depends on investors’ reaction to the Fed policy pivot, and the market’s response to soaring BigTech and AI company debt.",
-        "url": "https://cointelegraph.com/news/bitcoin-s-end-of-year-run-to-100k-heavily-depends-on-fed-pivot-outcomes",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af020-06fa-76a1-915a-c97a94579259",
-        "publishedAt": "2025-12-05T21:00:00Z",
-        "content": "Key takeaways:\r\n<ul><li>The Federal Reserves move away from quantitative tightening and rate cuts creates liquidity, making fixed-income assets less attractive.\r\n</li><li>Surging tech credit risks, a… [+4126 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "AI-powered studio Mugafi partners with Avalanche to tokenize entertainment IP",
-        "description": "The collaboration aims to bring more than 1,000 entertainment properties onchain and establish a new framework for funding and distributing media as real-world assets.",
-        "url": "https://cointelegraph.com/news/ai-mugafi-entertainment-ip-pipeline-avalanche-tokenized",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aefd5-ca71-7e10-aed5-97941d895e37",
-        "publishedAt": "2025-12-05T20:49:33Z",
-        "content": "Mugafi, an AI-driven platform for entertainment intellectual property (IP), has partnered with Avalanche to tokenize films, anime, music and other media assets, allowing creators to finance and distr… [+2628 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin ‘risk off’ signals fire despite traders’ view that sub-$100K BTC is a discount",
-        "description": "Bitcoin’s bounce evaporated as the weekly close approaches and traders say multiple risk-off metrics point to a high correction risk for BTC. Is $100,000 by the end of 2025 possible?",
-        "url": "https://cointelegraph.com/news/bitcoin-risk-off-signals-fire-but-traders-say-sub-dollar100k-btc-is-discounted",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeecd-6a70-7aaa-ae66-df764bb841d0",
-        "publishedAt": "2025-12-05T20:09:45Z",
-        "content": "Bitcoin (BTC) may be holding above $90,000, but data implied that its price is still flashing a significant risk-off signal. CryptoQuants multi-metric risk-off oscillator remained near the High-Risk … [+3427 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Cantor Slashes Strategy Price Target By 59%, Remains 'Long-Term Bullish' on Bitcoin Giant",
-        "description": "Cantor Fitzgerald analysts significantly lowered their price target for Strategy (MSTR) shares, while reiterating an “Overweight” rating.",
-        "url": "https://decrypt.co/351142/cantor-slashes-strategy-price-target-remains-long-term-bullish-bitcoin",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg",
-        "publishedAt": "2025-12-05T19:27:20Z",
-        "content": "In brief\r\n<ul><li>Cantor Fitzgerald cut its price target for Strategy's shares.</li><li>The investment banks analysts are still bullish, however.</li><li>They identified one fear that is somewhat war… [+3092 chars]"
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "Brokerage behind major crypto treasury deals eyes $10–12B public listing: FT",
+        "description": "Clear Street is preparing a $10–12 billion IPO as the crypto-treasury model that fueled its rise shows strain, with Bitcoin down 30% and treasury stocks trading at discounts.",
+        "url": "https://cointelegraph.com/news/clear-street-prepares-10b-ipo-as-crypto-treasury-boom-falters",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af2fb-74fb-77da-b7c4-e85e87a24394",
+        "publishedAt": "2025-12-06T09:35:03Z",
+        "content": "Clear Street, a New York brokerage that has become one of the most active underwriters in the crypto-treasury boom, is preparing to go public with an expected valuation of $10 billion to $12 billion.… [+2978 chars]"
       },
       {
         "source": {
           "id": null,
           "name": "Cryptonews"
         },
-        "author": "Hassan Shittu",
-        "title": "Exposed: “Ramarxyz” Sniped 70% of $WET Presale With 1,000+ Wallets – Then Demanded Refund",
-        "description": "A chaotic token launch on Solana has placed decentralized finance platform HumidiFi and Jupiter Exchange under intense scrutiny after blockchain...",
-        "url": "https://cryptonews.com/news/ramarxyz-snipes-70-percent-humidifi-wet-presale/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/28de19329562a220da475b4ea51614f3",
-        "publishedAt": "2025-12-05T19:00:08Z",
-        "content": "A chaotic token launch on Solana has placed decentralized finance platform HumidiFi and Jupiter Exchange under intense scrutiny after blockchain investigators linked a single actor to the mass bottin… [+3871 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Bitcoin treads water at $90K as whales eat the Ethereum dip: Finance Redefined",
-        "description": "Bitcoin holds above $90,000 as fear lingers, Ethereum treasury buying slumps while whales keep accumulating, and DeFi lending and crosschain infrastructure continue to grow.",
-        "url": "https://cointelegraph.com/news/bitcoin-90k-whales-eat-ethereum-dip-finance-redefined",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-06/019759e2-2b71-79a7-9e1c-55c10296420e",
-        "publishedAt": "2025-12-05T19:00:00Z",
-        "content": "Cryptocurrency markets saw another week of consolidation following last weeks long-awaited market recovery.\r\nWhile Bitcoin (BTC) remained above the key $90,000 psychological level, investor sentiment… [+7829 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marco Castrovilli",
-        "title": "Is Bitcoin shifting to a 2-year cycle?",
-        "description": "Jeff Park explains why Bitcoin’s classic four-year cycle may be over and how a new two-year pattern could reshape the market. Watch the full Cointelegraph interview on our YouTube channel.",
-        "url": "https://cointelegraph.com/news/bitcoin-shifting-2-year-cycle-video",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aedfb-3f24-713a-800d-62c2241558cb",
-        "publishedAt": "2025-12-05T18:32:02Z",
-        "content": "For more than a decade, Bitcoin investors have relied on the familiar four-year cycle to navigate bull runs, capitulations and market shifts driven by halving events. In 2025, that long-standing road… [+1414 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Hayward",
-        "title": "Bitcoin, Ethereum and XRP Dive as Liquidations Hit $500 Million—While Stocks Rise",
-        "description": "Bitcoin is back below the $90,000 mark as Ethereum flirts with another dip below $3,000—all while major stock indices stay green.",
-        "url": "https://decrypt.co/351123/bitcoin-ethereum-xrp-dive-liquidations-hit-500-million-stocks-rise",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
-        "publishedAt": "2025-12-05T17:56:10Z",
-        "content": "Crypto prices fell sharply again Friday, with Bitcoin diving below the $90,000 mark while Ethereum flirted with a drop below the $3,000 markall while crypto liquidations piled up across the board.\r\nB… [+2117 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "New IMF Report Warns of Stablecoin Risk, Sparking Criticism From Experts",
-        "description": "The IMF released a report that campaigns in favor of CBDCs and warns against the risk stablecoins represent, sparking criticism among crypto experts.",
-        "url": "https://www.coindesk.com/policy/2025/12/05/new-imf-report-warns-of-stablecoin-risk-sparking-criticism-from-experts",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/daf34de7b1ff9e72bec1bbc3a31fb6d833137d75-1919x1080.jpg?auto=format",
-        "publishedAt": "2025-12-05T17:46:55Z",
-        "content": "Amid an intensifying international focus on stablecoins, the International Monetary Fund (IMF) has released a 56-page report detailing what it sees as the key risks surrounding their adoption.\r\nThe r… [+3098 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Polymarket plans to use in-house market maker to trade against users: Report",
-        "description": "The company has approached traders, including sports bettors, about joining the effort as it expands in the US and rival Kalshi faces scrutiny over similar practices.",
-        "url": "https://cointelegraph.com/news/polymarket-in-house-market-making-desk-trade-users",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aef36-d26d-78a3-984d-03323e88cd87",
-        "publishedAt": "2025-12-05T17:38:11Z",
-        "content": "Polymarket is recruiting staff for an internal market-making team that may trade against users on its platform.\r\nThe company has recently approached traders including sports bettors about joining the… [+2691 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole, AI Boost",
-        "title": "Trump's National Security Strategy Gives Reality Check to Crypto's Low Interest Rate Obsession",
-        "description": "The White House's new National Security Strategy emphasizes increased global fiscal expansion and military spending.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/trump-s-national-strategy-gives-reality-check-to-crypto-s-low-rate-obsession",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8f1a548b3ff573897e978c5ec5495cceee067482-1920x1079.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T17:25:38Z",
-        "content": "The White House's freshly unveiled National Security Strategy reads less like a traditional diplomatic blueprint and more like a call for global fiscal expansion. For the crypto market, addicted to t… [+2637 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Indiana Lawmaker Pushes for Bitcoin in Pensions, Crypto Payment Protections",
-        "description": "A lawmaker in Indiana introduced legislation that would broaden access to Bitcoin and crypto exposure for savers in the Midwestern state.",
-        "url": "https://decrypt.co/351112/indiana-lawmaker-pushes-bitcoin-pensions-crypto-payment-protections",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
-        "publishedAt": "2025-12-05T16:40:11Z",
-        "content": "In brief\r\n<ul><li>An Indiana lawmaker proposed a bill that centers on cryptocurrency.</li><li>State-managed retirement funds would be required to offer exposure.</li><li>The government wouldnt be abl… [+2360 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Polish lawmakers fail to revive controversial crypto bill after presidential veto",
-        "description": "Polish lawmakers failed to overturn a presidential veto on the Crypto-Asset Market Act, stalling EU-aligned regulation and widening divisions over crypto oversight.",
-        "url": "https://cointelegraph.com/news/polish-lawmakers-fail-crypto-bill-presidential-veto",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aef2c-a49b-7be8-95f0-244ca7a922e0",
-        "publishedAt": "2025-12-05T16:28:11Z",
-        "content": "The lower house of Polands parliament failed to secure the required three-fifths majority to override President Karol Nawrockis veto of the Crypto-Asset Market Act, pushing the country further away f… [+2476 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": null,
-        "title": "2-4% Crypto Dip! Sovereign Wealth Funds Buying BTC! CTFC approves U.S. Spot Crypto!",
-        "description": "Crypto majors were broadly lower, falling 2–4% with BTC down 2% at $91,400, ETH down 2% at $3,130, BNB down 2% at $893, and SOL down 4% at $136, while ZEC (+4%) and TRX (+2%) led the day’s top movers. BlackRock CEO Larry Fink said sovereign wealth funds have …",
-        "url": "https://decrypt.co/videos/interviews/tUN6hCk7/2-4-crypto-dip-sovereign-wealth-funds-buying-btc-ctfc-approves-us-spot-crypto",
-        "urlToImage": "https://cdn.jwplayer.com/v2/media/tUN6hCk7/poster.jpg",
-        "publishedAt": "2025-12-05T15:55:25Z",
-        "content": "Crypto majors traded slightly higher, with ETH leading gains post-Fusaka as BTC rose 1% to $93,000, ETH jumped 4% to $3,190, and BNB and SOL each added 1% to reach $909 and $143, respectively. Among … [+775 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "MARA Trades at a Premium Factoring in Its Debt, Not a Discount: VanEck’s Sigel",
-        "description": "VanEck’s Matthew Sigel argues MARA’s valuation looks expensive when adjusted for its leverage and capital structure.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/mara-trades-at-a-premium-factoring-in-its-debt-not-a-discount-vaneck-s-sigel",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c313bb7e1c910c52c3a17fb89a34f911e6f4808d-2113x1228.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T15:38:24Z",
-        "content": "The two largest publicly traded companies holding bitcoin, Strategy (MSTR) and MARA Holdings (MARA), have each fallen roughly 40% over the past six weeks.\r\nCoinDesk Research has extensively covered t… [+1797 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Has the DAT Bubble Already Burst? CoinShares Says In Many Ways, Yes.",
-        "description": "Digital-asset treasury plays that once traded at big premiums have fallen back toward net asset value.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/has-the-dat-bubble-already-burst-coinshares-says-in-many-ways-yes",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/cea9f4fef04e3ac91c879f25c3304b72561be4c9-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T15:30:17Z",
-        "content": "Crypto asset management firm CoinShares (CS) said the digital asset treasury (DAT) bubble has largely burst, with some firms that traded at 3x to 10x their market net-asset value (mNAV) in summer 202… [+1673 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Stephen Wundke",
-        "title": "The Dollar Is Crumbling. Fiat-Backed Stablecoins Are Next",
-        "description": "One possible solution is a new kind of stablecoin whose value is pegged to a real-world, physical stockpile of gold, argues Algoz’ Stephen Wundke.",
-        "url": "https://www.coindesk.com/opinion/2025/12/05/the-dollar-is-crumbling-fiat-backed-stablecoins-are-next",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/067f6de03b75d249ff7ab0c6cf105e8f35ec04e2-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T15:23:12Z",
-        "content": "Stablecoins have had their ups and downs, but its clear theyre one of cryptos biggest success stories so far. While Bitcoin may garner more of the headlines thanks to its constant ups and downs, stab… [+6389 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, AI Boost",
-        "title": "European Crypto Scam Network Dismantled After Laundering $815M",
-        "description": "Authorities across Europe took down a massive crypto fraud and laundering network tied to fake investment platforms, deepfake ads and call-center operations.",
-        "url": "https://www.coindesk.com/policy/2025/12/05/european-crypto-scam-network-dismantled-after-laundering-usd815m",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d37822f9447dae8d80d5b7d26dea2d2cf7428520-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-05T15:22:44Z",
-        "content": "A sprawling crypto-investment fraud network that stole and laundered more than 700 million euros ($815 million) has been dismantled following coordinated raids across Europe.\r\nThe criminal group ran … [+1511 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun, Will Canny, AI Boost",
-        "title": "Strategy Stock Still a Buy at Cantor After Plunge Forces Major Price Target Cut",
-        "description": "Lower adjusted net asset value multiple means Strategy can no longer issue equity at a premium, threatening its long-term plan to accumulate more bitcoin, analyst Brett Knoblauch wrote.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/cantor-slashes-mstr-price-target-but-stays-bullish-on-bitcoin-strategy-amid-market-pressures",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4c880d91609e495c17f244eb3774e6f7e006ea2c-1920x1079.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T15:20:30Z",
-        "content": "Catching up to the steep decline in the price of Strategy (MSTR), Cantor Fitzgerald's Brett Knoblauch cut his 12-month price target for Strategy (MSTR) to $229 from $560, citing a weaker environment … [+3036 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor, James Van Straten",
-        "title": "Crypto Sector Lit Up Bright Red as Bitcoin Slips Back to $90K",
-        "description": "Softer than expected private inflation data did spark some hope that the Friday decline could reverse.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/crypto-sector-lit-up-bright-red-as-bitcoin-slips-back-to-usd90k",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/666cb6435ce8db833dc7f0017b6ed1f04f49ef44-700x430.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T15:10:32Z",
-        "content": "Not waiting until what's become its customary plunge time of Sunday evening, bitcoin BTC\r\n$92.317,88 is getting an early start to the weekend this holiday season, continuing an overnight tumble and s… [+1993 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "CoinDesk Indices",
-        "title": "CoinDesk 20 Performance Update: Index Falls 1.5% as Nearly All Constituents Decline",
-        "description": "Bitcoin Cash (BCH), up 0.5%, was the only gainer from Thursday.",
-        "url": "https://www.coindesk.com/coindesk-indices/2025/12/05/coindesk-20-performance-update-index-falls-1-5-as-nearly-all-constituents-decline",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a532db3c090e523a2d4ab5f670c32c5d54b148fe-480x360.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T15:07:51Z",
-        "content": "CoinDesk Indices presents its daily market update, highlighting the performance of leaders and laggards in the CoinDesk 20 Index.\r\nThe CoinDesk 20 is currently trading at 2903.22, down 1.5% (-45.1) s… [+240 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Savannah Fortis",
-        "title": "What Texas’ recent Bitcoin purchase signals to the rest of the US in a market downturn",
-        "description": "The latest episode of Byte-Sized Insight examines why Texas made a $5 million Bitcoin purchase during a market downturn and what it signals for state-level crypto adoption across the U.S.",
-        "url": "https://cointelegraph.com/news/texas-bitcoin-purchase-us-podcast",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeef9-cd17-7494-a9e8-88d639eab70e",
-        "publishedAt": "2025-12-05T14:59:10Z",
-        "content": "Texas has become the first US state to officially purchase and hold Bitcoin (BTC), acquiring $5 million worth of BlackRocks iShares Bitcoin Trust (IBIT) and authorizing another $5 million for direct,… [+2632 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin risks return to low $80K zone next as trader says dip 'makes sense'",
-        "description": "Bitcoin traders brought back sub-$90,000 BTC price targets amid ongoing weakness after a rejection at the yearly open capped potential upside.",
-        "url": "https://cointelegraph.com/news/bitcoin-risks-return-80k-next-trader-says-dip-makes-sense",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeef6-560c-7c99-979f-276bed482d4e",
-        "publishedAt": "2025-12-05T14:45:03Z",
-        "content": "Bitcoin (BTC) traders saw fresh downside at Fridays Wall Street open as $90,000 hung in the balance.\r\nKey points:\r\n<ul><li>Bitcoin edges closer to $90,000 with traders lining up lower BTC price targe… [+2531 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Russian Banking Giant VTB to Become Country's First to Offer Spot Crypto Trading: Report",
-        "description": "In 2026, VTB plans to be the first Russian bank to allow clients access to spot crypto trading services.",
-        "url": "https://www.coindesk.com/business/2025/12/05/russian-banking-giant-vtb-to-become-country-s-first-to-offer-spot-crypto-trading-report",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d884b086a37546424f5129ac3301e5e9a34d4604-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-05T14:38:58Z",
-        "content": "VTB Bank, Russia's second-largest lender by assets, plans to start offering spot crypto trading to qualified investors next year, becoming the first institution in the country to allow clients direct… [+2425 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Aaron Wood",
-        "title": "EU may consolidate crypto regulations, IMF warns of stablecoin risk: Global Express",
-        "description": "The IMF and South Africa’s central bank are still concerned about stablecoins, while in the US, spot crypto products can now be traded on futures markets.",
-        "url": "https://cointelegraph.com/news/eu-crypto-regulations-imf-stablecoin-risk-global-express",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeece-8d37-7227-ae06-b314688e272f",
-        "publishedAt": "2025-12-05T14:36:52Z",
-        "content": "European tech regulators have fined social media platform X 120 million euros ($140 million) for breaking EU rules pertaining to online content.\r\nThe fine follows a two-year investigation under the D… [+5837 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": null,
-        "title": "XRP ETFs near $1 Billion, Sovereign wealth funds buying Bitcoin, CFTC approves U.S spot crypto trading - Daily Crypto Recap",
-        "description": "The next-generation media outlet navigating the intersection of culture and technology.",
-        "url": "https://decrypt.co/videos/interviews/a9gidnnr/xrp-etfs-near-1-billion-sovereign-wealth-funds-buying-bitcoin-cftc-approves-us-spot-crypto-trading-daily-crypto-recap",
-        "urlToImage": "https://cdn.jwplayer.com/v2/media/a9gidnnr/poster.jpg",
-        "publishedAt": "2025-12-05T14:14:10Z",
-        "content": "Crypto majors traded slightly higher, with ETH leading gains post-Fusaka as BTC rose 1% to $93,000, ETH jumped 4% to $3,190, and BNB and SOL each added 1% to reach $909 and $143, respectively. Among … [+775 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Gareth Jenkinson",
-        "title": "From DOGE to Bitcoin: How fiat accidentally ‘orange-pilled’ Elon Musk",
-        "description": "Elon Musk’s viral comments on Bitcoin’s intrinsic ties to energy and physics signal a changing attitude toward Bitcoin from Tesla’s founder.",
-        "url": "https://cointelegraph.com/news/doge-to-bitcoin-elon-musk-orange-pill",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeea3-756b-7f68-9c0c-dd301284bfbd",
-        "publishedAt": "2025-12-05T14:00:10Z",
-        "content": "Elon Musks ambitious goals of tackling excess spending and inefficiencies in the US federal government may have been futile, but it might have been the catalyst for his changing tune on Bitcoin.\r\nSo,… [+4495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "STRF Emerges as Strategy’s Standout Credit Instrument After Nine Months of Trading",
-        "description": "The company's senior preferred stock has rebounded 20% from November lows, with investors apparently favoring that over the more junior issues.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/strf-emerges-as-strategy-s-standout-credit-instrument-after-nine-months-of-trading",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bd0cd914bed67ba9fc16a1e28b3940eb1119f15a-2113x1228.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T13:49:46Z",
-        "content": "Strategys (MSTR) senior perpetual preferred stock, STRF, is increasingly standing out as the companys most successful credit instrument since its launch in March. \r\nTrading at $110, STRF has risen 36… [+1385 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin accumulation trends strengthen as realized losses surpass $5.7B",
-        "description": "Bitcoin sees 10% monthly losses as whales accumulate at record levels and $5.8 billion in losses hit short-term holders, hinting at a bullish reversal.",
-        "url": "https://cointelegraph.com/news/bitcoin-accumulation-trends-strengthen-realized-losses-5-7b",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeeb8-2ef9-7f13-9848-ad33719c240c",
-        "publishedAt": "2025-12-05T13:47:47Z",
-        "content": "Bitcoin (BTC) has dropped 10% over the last 30 days, as several groups of wallet holders switched from distribution to accumulation. \r\nData suggests that this accumulation, coupled with record realiz… [+3651 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: The CFTC Just Approved U.S. Spot Crypto Trading",
-        "description": "Spot crypto trading is now cleared to go live with any CFTC-registered exchange, bringing down another barrier to institutional adoption.",
-        "url": "https://decrypt.co/351078/morning-minute-the-cftc-just-approved-u-s-spot-crypto-trading",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2025-12-05T13:46:03Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. Subscribe to the Morning Minute on Subst… [+5019 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Buy every dip? How pro hodlers blend surgical DCA with rules-based crypto buys",
-        "description": "Pros don’t “ape the dip” on gut feel; they predefine their allocation, let rules-based systems do the buying and use DCA-style flows as part of a disciplined, data-driven execution plan.",
-        "url": "https://cointelegraph.com/news/how-pros-buy-bitcoin-dips-dca-institutional-playbook",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aee1f-1153-7872-ac96-1d90becb23b9",
-        "publishedAt": "2025-12-05T13:38:33Z",
-        "content": "Buy every dip. Thats the advice from Strike CEO Jack Mallers. According to Mallers, with quantitative tightening over and rate cuts and stimulus on the horizon, the great print is coming. The US cant… [+4950 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "JPMorgan Retains Gold-Linked $170K Bitcoin Target Despite Recent Plunge",
-        "description": "The bank’s volatility-adjusted bitcoin-to-gold model still points to a theoretical price around $170K over the next six to twelve months.",
-        "url": "https://www.coindesk.com/markets/2025/12/04/jpmorgan-retains-gold-linked-usd170k-bitcoin-target-despite-recent-plunge",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/cea9f4fef04e3ac91c879f25c3304b72561be4c9-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T13:03:05Z",
-        "content": "Despite bitcoin's recent sharp price declines, Wall Street Bank JPMorgan is sticking to its volatility-adjusted BTC-versus-gold model target which points to a theoretical price near $170,000 over the… [+1990 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "Ethereum Options Traders More Bullish Than Bitcoin Counterparts: Analysts",
-        "description": "Options data show Ethereum traders are less bearish than Bitcoin’s after recent network upgrades and improving macro uncertainty.",
-        "url": "https://decrypt.co/351073/ethereum-options-traders-more-bullish-than-bitcoin-counterparts-analysts",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/ethereum-decrypt-style-08-scaled-gID_7.jpeg",
-        "publishedAt": "2025-12-05T12:47:27Z",
-        "content": "In brief\r\n<ul><li>Ethereum's 90-day options skew sits at -2.8%, notably less bearish than Bitcoin's -4%, indicating traders see less downside risk for the former.</li><li>Analysts link Ethereums rela… [+3613 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Solana WET presale hijacked by Sybil wallets as HumidiFi resets launch",
-        "description": "Bubblemaps CEO Nick Vaiman said Sybil attacks are increasing across presales and airdrops, calling on teams to use KYC or algorithmic detection.",
-        "url": "https://cointelegraph.com/news/solana-wet-presale-bot-sybil-attack-humidifi",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aee40-4f7b-7696-a797-e2fde7864ca2",
-        "publishedAt": "2025-12-05T12:45:16Z",
-        "content": "A Solana presale event encountered distribution issues after a bot farm reportedly used over 1,000 wallets to snipe nearly the entire Wet (WET) token sale in seconds. \r\nHosted through the decentraliz… [+3228 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, Saksham Diwan",
-        "title": "Switch to Long-Term Thinking: Crypto Daybook Americas",
-        "description": "The day ahead in crypto: Dec. 5, 2025",
-        "url": "https://www.coindesk.com/daybook-us/2025/12/05/switch-to-long-term-thinking-crypto-daybook-americas",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/04bb284dafb567a5389139a916007de0edb520e3-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T12:29:12Z",
-        "content": "By Francisco Rodrigues (All times ET unless indicated otherwise)\r\nBitcoin is hovering around $91,300 after falling more than 2.2% in 24 hours, a better performance than the wider crypto markets 3.2% … [+6805 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Will McCurdy",
-        "title": "Bitcoin ETFs Just Shed $194 Million—Highest in Two Weeks",
-        "description": "Analysts argue this could mean institutional investors are continuing to unwind leveraged positions and basis trades.",
-        "url": "https://decrypt.co/351065/bitcoin-etfs-just-shed-194-million-highest-in-two-weeks",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/etf-decrypt-style-01-gID_7.png",
-        "publishedAt": "2025-12-05T12:19:06Z",
-        "content": "In brief\r\n<ul><li>Spot Bitcoin ETFs saw outflows of $194.6 million on December 5, a two-week high.</li><li>The outflows follow largely positive inflows throughout the earlier part of this week.</li><… [+2468 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Oliver Knight, Saksham Diwan",
-        "title": "Crypto Markets Today: Bitcoin Slides to $91K as ETF Outflows Deepen Market Anxiety",
-        "description": "Bitcoin’s early week rally unraveled as sharp ETF outflows, aggressive derivatives deleveraging and muted altcoin reactions to catalysts pulled the broader crypto market lower.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/crypto-markets-today-bitcoin-slides-to-usd91k-as-etf-outflows-deepen-market-anxiety",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1faf9605b2b89bfce1979ca675861e66050f2a5c-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-05T11:46:43Z",
-        "content": "The crypto market fell during the European morning, with bitcoin BTC\r\n$91,407.30 dropping to $91,200 after hitting a weekly high of $94,200 on Wednesday.\r\nThe decline was confined to crypto: U.S. equ… [+3672 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin's ‘momentum is igniting,’ but these are BTC price levels to watch",
-        "description": "Bitcoin market participants saw the yearly open at $93,000 and above as particularly important heading into the weekly close.",
-        "url": "https://cointelegraph.com/news/bitcoin-momentum-igniting-these-btc-price-levels-to-watch",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aee15-50af-7b60-9477-b17b8fab65db",
-        "publishedAt": "2025-12-05T11:30:00Z",
-        "content": "Bitcoin (BTC) analysis has mapped out key BTC price levels to watch going into the weekend, with a focus on the yearly open above $93,000.\r\nKey takeaways:\r\n<ul><li>Key Bitcoin price levels above and … [+3467 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Hassan Shittu",
-        "title": "Bitcoin Price Could Hit $170K — But Strategy ‘Resilience’ Is Vital: JPMorgan",
-        "description": "JPMorgan analysts say the near-term direction of Bitcoin’s price now depends less on miner behavior and more on the financial resilience of Strategy, the...",
-        "url": "https://cryptonews.com/news/strategys-ability-to-hold-bitcoin-may-shape-btcs-path-to-170k-jpmorgan/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/47574c9b83aed417ba4b14b68ce68276",
-        "publishedAt": "2025-12-05T11:06:08Z",
-        "content": "JPMorgan analysts say the near-term direction of Bitcoins price now depends less on miner behavior and more on the financial resilience of Strategy, the worlds largest corporate holder of Bitcoin, ev… [+4198 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "BlackRock’s IBIT Faces Record Outflow Run as Bitcoin Struggles to Reclaim Bull Trend",
-        "description": "Another $113 million exited on Thursday, putting the fund on track for a sixth week in the red, its longest streak since debuting in early 2024.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/blackrock-s-ibit-faces-record-outflow-run-as-bitcoin-struggles-to-reclaim-bull-trend",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/41cbb7ee40d94b98973687037c93204cb2d611a6-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T10:53:03Z",
-        "content": "BlackRocks flagship Bitcoin ETF is seeing its heaviest redemption cycle since launch, with more than $2.7 billion pulled over the past five weeks as institutional flows continue to unwind into year-e… [+1327 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Cantor slashes Strategy target by 60%, tells clients forced-sale fears are overblown",
-        "description": "Cantor Fitzgerald slashed its Strategy price target, but remains bullish on the stock despite fears over potential exclusion by the MSCI Index and forced liquidation concerns, the FT said.",
-        "url": "https://cointelegraph.com/news/cantor-slashes-strategy-target-60-sale-fears-overblown",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aedd0-d23a-7705-ac73-93d7679697f0",
-        "publishedAt": "2025-12-05T10:36:53Z",
-        "content": "US-based financial firm Cantor Fitzgerald slashed its price target on Michael Saylors Bitcoin-heavy company, Strategy, but kept a bullish stance on the cryptocurrencys long-term upside, downplaying f… [+2723 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Ether vs. Bitcoin teases 170% gains as ETH price breaks 5-month downtrend",
-        "description": "Ether price action staged a repeat of its 2021 bull market moves against Bitcoin, leading to predictions of fresh long-term highs against BTC.",
-        "url": "https://cointelegraph.com/news/ether-vs-bitcoin-170-gains-eth-price-breaks-5-month-downtrend",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aedd2-8791-708c-be38-0c0452062de1",
-        "publishedAt": "2025-12-05T10:33:22Z",
-        "content": "Ether (ETH) is teasing 170% gains in under two months as history repeats itself against Bitcoin (BTC).\r\nKey points:\r\n<ul><li>Ether has the potential to rematch long-term highs above 0.09 in Bitcoin t… [+2908 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "AlphaTON eyes meme-sized $420.69M raise for TON, AI expansion after baby-shelf exit",
-        "description": "AlphaTON Capital plans to scale Telegram AI infrastructure and buy TON ecosystem apps if it can raise capital, testing investor appetite amid soft DAT inflows.",
-        "url": "https://cointelegraph.com/news/alphaton-seeks-meme-sized-420-69m-shelf-for-ton-ai-expansion-after-baby-shelf-exit",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aed8c-b0c1-78c4-9a77-a6651eeb1cbe",
-        "publishedAt": "2025-12-05T10:16:37Z",
-        "content": "Small-cap publicly traded firm AlphaTON Capital has signaled ambitions to access a substantially larger fundraising capacity as it delves deeper into the artificial intelligence and Telegram ecosyste… [+2798 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Adrian Zmudzinski",
-        "title": "Ethereum sees 25% validation drop post-Fusaka as Prysm bug nears finality loss",
-        "description": "A 25% dip in Ethereum’s voting participation coincided with a bug in the Prysm consensus client shortly after the Fusaka upgrade, with the network just 9% away from losing finality.",
-        "url": "https://cointelegraph.com/news/ethereum-prysm-bug-fusaka-client-diversity-risk",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae9d4-52b0-74d9-afb5-1f95d3717b25",
-        "publishedAt": "2025-12-05T08:34:58Z",
-        "content": "Shortly after the Fusaka network upgrade, the Ethereum network saw a sharp drop in validator participation after a bug in the Prysm consensus client knocked a chunk of votes offline.\r\nAccording to a … [+3579 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Kraken Launches High-Touch VIP Program for Ultra High Net Worth Clients",
-        "description": "Kraken VIP members are paired with a specialist relationship manager, backed by 24/7 support and early insight into Kraken’s full product ecosystem.",
-        "url": "https://www.coindesk.com/business/2025/12/05/kraken-launches-high-touch-vip-program-for-ultra-high-net-worth-clients",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1f55b5e22ec39461abe4fb859e8826de3ae5245a-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T07:25:21Z",
-        "content": "Kraken, the cryptocurrency exchange preparing to go public in the U.S. early next year, has unveiled an invitation-only VIP program tailored to ultra high net worth individuals, sophisticated traders… [+1527 chars]"
+        "author": "Anas Hassan",
+        "title": "CoinShares Debunks Tether Collapse Fears After Hayes Warning",
+        "description": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who...",
+        "url": "https://cryptonews.com/news/coinshares-debunks-tether-collapse-fears-after-hayes-warning/",
+        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/0f1b1a2e4feb711942a2004d9b0268fc",
+        "publishedAt": "2025-12-06T09:13:47Z",
+        "content": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who claimed a 30% drop in the stablecoin issuer’… [+4573 chars]"
       },
       {
         "source": {
@@ -686,25 +166,12 @@
           "name": "Cryptonews"
         },
         "author": "Amin Ayan",
-        "title": "Meta Cuts Metaverse Spend as It Bets on AI Glasses and Wearables",
-        "description": "Meta is scaling back its metaverse spending and redirecting resources toward AI-powered glasses and wearable devices, marking one of the company’s most...",
-        "url": "https://cryptonews.com/news/meta-cuts-metaverse-spend-as-it-bets-on-ai-glasses-and-wearables/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/a9fbaae1d26ae4e58fe6ac8bddc67c22",
-        "publishedAt": "2025-12-05T07:13:14Z",
-        "content": "Meta is scaling back its metaverse spending and redirecting resources toward AI-powered glasses and wearable devices, marking one of the companys most significant strategic pivots in years.\r\nKey Take… [+2998 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "Italy Launches 'In-Depth' Review of Crypto Risks",
-        "description": "Regulators launch probe months after Italy's central bank warned that crypto's mainstream integration poses systemic financial dangers.",
-        "url": "https://decrypt.co/351032/italy-launches-in-depth-review-of-crypto-risks",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/Rome-Italy-gID_7.jpg",
-        "publishedAt": "2025-12-05T06:50:24Z",
-        "content": "In brief\r\n<ul><li>Italy's financial watchdog cited rising risks from crypto's deepening ties to mainstream finance and fragmented international oversight.</li><li>The probe will examine protections f… [+3507 chars]"
+        "title": "Strategy CEO Says $1.44B Cash Reserve Aims to Calm Bitcoin-Slump Fears",
+        "description": "Strategy CEO Phong Le says the company’s newly built $1.44 billion cash reserve is designed to quiet investor anxiety over its ability to withstand a sharp...",
+        "url": "https://cryptonews.com/news/strategy-ceo-says-1-44b-cash-reserve-aims-to-calm-bitcoin-slump-fears/",
+        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/b92a9008a87a3e79ce6e32e5fd6a0dba",
+        "publishedAt": "2025-12-06T08:28:19Z",
+        "content": "Strategy CEO Phong Le says the companys newly built $1.44 billion cash reserve is designed to quiet investor anxiety over its ability to withstand a sharp downturn in Bitcoin.\r\nKey Takeaways:\r\n<ul><l… [+2814 chars]"
       },
       {
         "source": {
@@ -712,597 +179,64 @@
           "name": "Cryptonews"
         },
         "author": "Amin Ayan",
-        "title": "Former Signature Bank Executives Launch N3XT, a Blockchain-Based 24/7 Payments Bank",
-        "description": "Former leaders of the shuttered crypto-friendly Signature Bank have returned with a new venture built around always-on settlement. Key Takeaways: N3XT is a...",
-        "url": "https://cryptonews.com/news/former-signature-bank-executives-launch-n3xt-a-blockchain-based-24-7-payments-bank/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/ad7b44fa81d0ec3e4d0ba95d0b51d268",
-        "publishedAt": "2025-12-05T06:35:31Z",
-        "content": "Former leaders of the shuttered crypto-friendly Signature Bank have returned with a new venture built around always-on settlement.\r\nKey Takeaways:\r\n<ul><li>N3XT is a Wyoming-chartered, fully reserved… [+3767 chars]"
+        "title": "Strive Urges MSCI to Scrap Proposal Excluding Major BTC Holders",
+        "description": "Strive, a Nasdaq-listed firm and the 14th-largest public holder of Bitcoin, is pushing back against MSCI’s plan to remove companies with significant digital-...",
+        "url": "https://cryptonews.com/news/strive-urges-msci-to-scrap-proposal-excluding-major-btc-holders/",
+        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/65ad810c04b5ed42c4767e772153e55e",
+        "publishedAt": "2025-12-06T08:23:22Z",
+        "content": "Strive, a Nasdaq-listed firm and the 14th-largest public holder of Bitcoin, is pushing back against MSCIs plan to remove companies with significant digital-asset exposure from its global indexes.\r\nKe… [+3304 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinspeaker"
+        },
+        "author": "Parth Dubey",
+        "title": "Crypto Recovery in December: Coinbase",
+        "description": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said...",
+        "url": "https://www.coinspeaker.com/crypto-recovery-in-december-coinbase/",
+        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/7e5cad94f86651a7ae03b97604e80236",
+        "publishedAt": "2025-12-06T08:20:24Z",
+        "content": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said that odds for a Federal Reserve rate cut ro… [+1970 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Christian Encila",
+        "title": "Hidden XRP Accumulation: CEO Points To Secret Buys By The Wealthiest Families",
+        "description": "Reports have disclosed that some extremely wealthy family offices are adding XRP to their holdings, a move that market watchers say could influence demand for the token. Related Reading: Bitcoin Dip Attracts Gradual Buying From Sovereign Funds—CEO According t…",
+        "url": "https://bitcoinist.com/hidden-xrp-accumulation-ceo-points-to-secret-buys-by-the-wealthiest-families/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/a_9a4a03.jpg",
+        "publishedAt": "2025-12-06T08:00:50Z",
+        "content": "Reports have disclosed that some extremely wealthy family offices are adding XRP to their holdings, a move that market watchers say could influence demand for the token.\r\nAccording to Jake Claver, CE… [+3104 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Bull Season Hinges On Key $82,150 Level – Here’s Why",
+        "description": "The Bitcoin market continues to experience high levels of investor uncertainty, as indicated by the unstable price action of the past week. In the last month alone, the leading cryptocurrency has lost about 14% of its value, strengthening fears of an impendin…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bull-season-hinges-on-key-82150-level-heres-why/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/bitcoin-coin-on-keyboard-nice-600nw-2524086717.jpg",
+        "publishedAt": "2025-12-06T08:00:26Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       },
       {
         "source": {
           "id": null,
           "name": "Cointelegraph"
         },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "US investors consider crypto less as risk-taking drops: FINRA study",
-        "description": "FINRA found the number of people invested in crypto was steady from 2021 to 2024, but fewer were considering either buying more or investing for the first time.",
-        "url": "https://cointelegraph.com/news/us-investors-crypto-interest-decline-finra-study",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aecd9-53ef-7dbb-8d3e-c43611937baf",
-        "publishedAt": "2025-12-05T06:24:07Z",
-        "content": "US investors are not considering buying crypto as much as they used to, as risk-taking behavior has dropped, according to a study from the Financial Industry Regulatory Authority.\r\nThe percentage of … [+2201 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Solana, XRP, ETH Extend Losses as Bitcoin’s $91K Support Back in Focus",
-        "description": "The one-month chart shows BTC still locked inside a descending structure from early November’s highs, with the latest rebound producing another lower high.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/solana-xrp-eth-extend-losses-as-bitcoin-s-usd91k-support-back-in-focus",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/181148f5c39f60293705e8d02619029fe9b70222-1280x914.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T05:57:26Z",
-        "content": "Bitcoin hovered around $92,000 on Friday after another failed attempt to break above $93,000 overnight, extending the choppy, directionless structure that has defined the past several sessions.\r\nThe … [+3296 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ciaran Lyons",
-        "title": "Bitcoin unlikely to replicate January’s surge to new high: 21Shares founder",
-        "description": "Bitcoin’s downturn has barely anything to do with “anything crypto specific,” but it’s unlikely to surge early next year, says 21Shares co-founder Ophelia Snyder.",
-        "url": "https://cointelegraph.com/news/bitcoin-price-all-time-high-january-repeat-uncertainty-analyst",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aecf2-3693-7ff5-9ea9-9af911ee90a0",
-        "publishedAt": "2025-12-05T05:46:43Z",
-        "content": "Current market conditions will make it difficult for Bitcoin to replicate its early 2025 price gains going into 2026, says 21Shares co-founder Ophelia Snyder.\r\nIts unlikely that the factors driving t… [+2454 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "XRP sentiment plummets, which could set token up for rally: Santiment",
-        "description": "Santiment says social sentiment toward XRP has hit its lowest levels since October, entering the fear zone, but suggested that has preceded a rally in the past.",
-        "url": "https://cointelegraph.com/news/xrp-sentiment-plummets-which-could-set-token-up-for-rally-santiment",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aec9d-5b81-7085-ba52-475c0cb3855c",
-        "publishedAt": "2025-12-05T05:30:57Z",
-        "content": "Social sentiment toward XRP has tanked into the fear zone, but the intelligence platform Santiment says a similar drop has led the token rallying.\r\nSantiment said on Thursday that its social data is … [+2128 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa, CD Analytics",
-        "title": "DOGE ETF Buzz Meets Bearish Reality as Dogecoin Prints Fresh Lower Lows",
-        "description": "Technical analysis shows DOGE failed to hold key support levels, suggesting continued downside unless buyers reclaim critical price points.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/doge-etf-buzz-meets-bearish-reality-as-dogecoin-prints-fresh-lower-lows",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3ca9f9b7ca470c4c8dcac34ea0a138ab2273c25e-1196x734.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T04:47:12Z",
-        "content": "Meme coin breaks key technical level as institutional-sized trades dominate Wednesday session amid ETF filing buzz.\r\n<ul><li>Dogecoins decline came despite an uptick in network activity and renewed E… [+2892 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "Precious Metals Soar, Bitcoin Stalls as Investors Hedge Fed 'Policy Error'",
-        "description": "Markets are hedging a Fed misstep, driving gold and silver higher while Bitcoin lags as traders reassess risk.",
-        "url": "https://decrypt.co/351021/precious-metals-soar-bitcoin-stalls-investors-hedge-fed-policy-error",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin_gold2-gID_7.png",
-        "publishedAt": "2025-12-05T04:43:42Z",
-        "content": "In brief\r\n<ul><li>Investors are buying gold and silver as a hedge against fears of monetary debasement, macro uncertainty, and a potential misstep by the Fed.</li><li>While U.S. equities are in a \"la… [+3296 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "XRP at Risk of $2.05 Retest, Analysts Warn, as Bitcoin Gives Back Weekly Gains",
-        "description": "Spot XRP ETFs have now attracted nearly $850 million in inflows since launching in mid-November — one of the strongest altcoin ETF starts on record — suggesting long-horizon capital continues to accumulate exposure.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/xrp-at-risk-of-usd2-05-retest-analysts-warn-as-bitcoin-gives-back-weekly-gains",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7ee18a8077e034e926440a6cb12e1b99350b1eee-1188x732.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T04:39:51Z",
-        "content": "Disclosure &amp; Polices: CoinDesk is an award-winning media outlet that covers the cryptocurrency industry. Its journalists abide by a strict set of editorial policies. CoinDesk has adopted a set of… [+435 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Solana and Coinbase’s Base connect together using Chainlink",
-        "description": "Base launched a Chainlink-secured bridge to Solana, enabling crosschain asset transfers between the Ethereum layer-2 and the Solana blockchain.",
-        "url": "https://cointelegraph.com/news/coinbase-base-solana-connect-together-using-chainlink",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aec42-20b8-7e99-89fb-aabc19314a4f",
-        "publishedAt": "2025-12-05T04:00:50Z",
-        "content": "Solana and Coinbases Ethereum layer-2 blockchain Base have been bridged together using Chainlinks technology in a move to increase liquidity between the two networks.\r\nBase said on Thursday that it l… [+2423 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole, AI Boost",
-        "title": "Here's How Much Bitcoin, XRP, Ether, Solana May Move on Friday's Inflation Report",
-        "description": "A softer inflation report could lower the 10-year Treasury yield and support cryptocurrencies.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/here-s-how-much-btc-eth-sol-xrp-may-move-on-friday-s-inflation-report",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d3b45a6718d1df12fd221c20554ddf6517960d5e-1280x958.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-05T04:00:15Z",
-        "content": "The Fed's preferred inflation gauge, core PCE, likely rose in Septembermoving in the wrong direction. Yet volatility indices show no signs of major turbulence.\r\nThe core PCE likely rose 2.9% year-on-… [+1582 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Shalini Nagarajan",
-        "title": "Asia Market Open: Bitcoin Holds Near $92k, Equities Slip On Fresh Economic Signals",
-        "description": "Bitcoin held just under $92,000 on Friday as traders weighed a heavy mix of labour data, central bank bets and choppy equity markets in Asia, Europe and the ...",
-        "url": "https://cryptonews.com/news/bitcoin-price-92k-equities-slip-fresh-economic-signals-asia-market-open/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/9e5972d99445de9a2a66d24e7d6fc3ae",
-        "publishedAt": "2025-12-05T03:42:38Z",
-        "content": "Bitcoin held just under $92,000 on Friday as traders weighed a heavy mix of labour data, central bank bets and choppy equity markets in Asia, Europe and the US.\r\nAkshat Siddhant, lead quant analyst a… [+3355 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brian Quarmby",
-        "title": "Strategy won’t be forced to sell Bitcoin if stock drops, Bitwise CIO says",
-        "description": "Strategy won’t need to sell Bitcoin, as it has enough cash to cover interest for over a year and faces no debt deadlines until 2027, says Bitwise’s Matt Hougan.",
-        "url": "https://cointelegraph.com/news/strategy-wont-sell-bitcoin-if-stock-drops-bitwise-cio",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeba2-433b-70a6-b379-8ebac8c9ec2b",
-        "publishedAt": "2025-12-05T02:37:30Z",
-        "content": "Strategy (MSTR) wont be forced to sell Bitcoin to stay afloat if its share price drops, and those who say otherwise are just flat wrong, says Bitwise chief investment officer Matt Hougan.\r\nThere is n… [+2932 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Sam Reynolds, AI Boost",
-        "title": "Asia Morning Briefing: Crypto’s Next Breakout Will Come From Infrastructure, Not Narratives, Hashed Says",
-        "description": "The Korean venture firm’s 2026 thesis argues that stablecoins, AI agents, and on-chain credit markets are becoming the foundation of a real digital economy, with Asia emerging as the first region where enterprise adoption is taking shape.",
-        "url": "https://www.coindesk.com/markets/2025/12/05/asia-morning-briefing-crypto-s-next-breakout-will-come-from-infrastructure-not-narratives-hashed-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4a3f7a484270cdc17c4d3d9cdc75caf00bfa6edc-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-05T02:29:59Z",
-        "content": "Welcome to Asia Morning Briefing, a daily summary of top stories during U.S. hours and an overview of market moves and analysis. For a detailed overview of U.S. markets, see CoinDesk's Crypto Daybook… [+3109 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "SOL price capped at $140 as altcoin ETF rivals reshape crypto demand",
-        "description": "SOL struggles to extend its gains as declining activity, falling leverage demand and competition from newly launched spot altcoin ETFs challenge Solana’s price rebound.",
-        "url": "https://cointelegraph.com/news/sol-price-capped-at-140-as-altcoin-etf-rivals-reshape-crypto-demand",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aec1b-2d02-7dee-ad00-83c93b8a514d",
-        "publishedAt": "2025-12-05T02:14:08Z",
-        "content": "Key takeaways:\r\n<ul><li>Falling DEX volumes, muted ETP flows and macro uncertainty are pressuring SOL prices and limiting appetite for bullish positions.\r\n</li><li>New spot ETFs for rival altcoins in… [+4083 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Ripple CEO Brad Garlinghouse Expects Bitcoin to Hit $180K Next Year",
-        "description": "Ripple CEO Brad Garlinghouse thinks Bitcoin will be trading at $180,000 at the close of 2026, nearly double the current price.",
-        "url": "https://decrypt.co/350988/ripple-ceo-brad-garlinghouse-expects-bitcoin-180k-next-year",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/brad-garlinghouse-xrp-ripple-decrypt-style-2-scaled-gID_7.jpg",
-        "publishedAt": "2025-12-04T22:04:45Z",
-        "content": "In brief\r\n<ul><li>Ripple CEO Brad Garlinghouse predicted that Bitcoin will trade at $180,000 at the close of 2026. </li><li>He added that continued regulatory improvements, like the CLARITY Act, can … [+3000 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Myriad Moves: Bitcoin and Ethereum Recovery Odds Rise as Traders Flip Bullish",
-        "description": "Top markets on Myriad this week include predictions on where Bitcoin and Ethereum are headed next, plus odds of another major liquidation event.",
-        "url": "https://decrypt.co/350986/myriad-moves-bitcoin-ethereum-recovery-odds-rise-traders-flip-bullish",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-ethereum-decrypt-style-02-scaled-gID_7.jpg",
-        "publishedAt": "2025-12-04T21:36:01Z",
-        "content": "In brief\r\n<ul><li>Myriad predictors have flipped bullish once more on the top crypto assets.</li><li>Predictors now heavily favor a Bitcoin move to $100K rather than a deep drop, while slightly favor… [+5479 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Hua Xia state-linked Chinese bank tokenizes $600M in yuan bonds",
-        "description": "Hua Xia Bank, a commercial bank operating in China, has successfully issued $600 million in tokenized yuan-backed bonds to onchain holders.",
-        "url": "https://cointelegraph.com/news/hua-xia-china-bank-tokenizes-600m-yuan-bonds",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeb20-fe5b-7267-8832-76ddaa70b5e9",
-        "publishedAt": "2025-12-04T21:35:08Z",
-        "content": "Hua Xia Bank, a publicly traded financial institution linked to Chinas government, issued 4.5 billion yuan ($600 million) in tokenized bonds on Wednesday, aiming to reduce clearing friction by removi… [+2328 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Solana and Ethereum Network Base Are Now Connected Thanks to Coinbase and Chainlink",
-        "description": "Solana and Base are now connected thanks to a new bridge secured by Chainlink's interoperability protocol and crypto exchange Coinbase.",
-        "url": "https://decrypt.co/350987/solana-ethereum-network-base-connected-coinbase-chainlink",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/base-decrypt-style-gID_7.jpg",
-        "publishedAt": "2025-12-04T21:25:56Z",
-        "content": "In brief\r\n<ul><li>Crypto users can now seamlessly bridge assets from the Coinbase layer-2 network Base to Solana.</li><li>The bridge is secured by Chainlink's Cross-Chain Interoperability Protocol an… [+2578 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "CNBC taps Kalshi to bring real-time prediction data into financial coverage",
-        "description": "CNBC will integrate Kalshi’s real-time prediction data across its TV, digital and subscription platforms starting in 2026, expanding the use of regulated forecasting tools in major news coverage.",
-        "url": "https://cointelegraph.com/news/kalshi-prediction-markets-partnership-cnbc",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeb01-67fb-71d3-a64f-03d76bf55d54",
-        "publishedAt": "2025-12-04T21:22:47Z",
-        "content": "CNBC has entered a multi-year partnership with prediction market operator Kalshi to incorporate real-time forecasting data across its TV, digital and subscription platforms.\r\nAccording to Thursdays a… [+2783 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Ether outpaces Bitcoin’s trend change: Is ETH on track for a 20% rally?",
-        "description": "ETH outperformed BTC as spot ETF inflows surged and the technical structure strengthened. Retail buying rises, but market signals hint at one more pullback before a breakout.",
-        "url": "https://cointelegraph.com/news/ether-outpaces-btc-is-a-20percent-eth-rally-next",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aea63-e8de-7296-b38c-3ddbce049071",
-        "publishedAt": "2025-12-04T21:03:58Z",
-        "content": "Ether (ETH) has outperformed Bitcoin (BTC) in terms of price action and exchange-traded fund (ETFs) flows this week, reinforcing the capital rotation narrative. Over the past two weeks, the spot ETH … [+3459 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "In wake of crypto’s leverage wipeout, SEC approves ‘SUI-on-steroids’ ETF",
-        "description": "The SEC approved a 2x leveraged ETF tied to SUI as regulators warn that excessive leverage continues to amplify volatility across crypto markets.",
-        "url": "https://cointelegraph.com/news/sec-approves-sui-on-steroids-etf",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeaae-a5a2-7c9c-abf5-47342ddb1776",
-        "publishedAt": "2025-12-04T20:47:30Z",
-        "content": "The US Securities and Exchange Commission (SEC) has approved a leveraged exchange-traded fund tied to the SUI token from 21Shares, allowing investors to gain amplified exposure to the Sui ecosystem a… [+2415 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Kraken Partners With Deutsche Börse as Europe Looks to Rival Wall Street in Crypto",
-        "description": "Deutsche Börse Group (DBG) and Kraken announced a strategic partnership signalling acceleration of crypto adoption across Europe and a clear intention to compete with Wall Street.",
-        "url": "https://www.coindesk.com/business/2025/12/04/kraken-partners-with-deutsche-boerse-as-europe-looks-to-rival-wall-street-in-crypto",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/05cab3dbfe4806f0567decd7fce00c302ac368a4-1919x1080.jpg?auto=format",
-        "publishedAt": "2025-12-04T20:38:59Z",
-        "content": "Deutsche Börse Group (DBG) and Kraken announced on Thursday that they are combining forces, signaling a clear acceleration of institutional cryptocurrency adoption in the Eurozone.\r\nThis partnership … [+2563 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Peter Schiff fails to authenticate gold bar during onstage test with CZ",
-        "description": "Gold advocate Peter Schiff faced Binance co-founder Changpeng \"CZ\" Zhao during an event panel in Dubai, arguing that tokenized gold is a better store-of-value asset than Bitcoin.",
-        "url": "https://cointelegraph.com/news/peter-schiff-gold-bar-bitcoin-tokenization-cz",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeaa5-f318-729b-b645-76f982187669",
-        "publishedAt": "2025-12-04T20:35:25Z",
-        "content": "A panel featuring gold advocate Peter Schiff and Binance co-founder Changpeng CZ Zhao at Binance Blockchain Week highlighted the challenges of verifying physical gold, after Schiff was unable to conf… [+3148 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Hassan Shittu",
-        "title": "“First Time Ever”: CFTC Greenlights Spot Crypto Trading on Regulated U.S. Exchanges",
-        "description": "For the first time in the United States, spot cryptocurrency trading is set to take place on federally regulated futures exchanges, a step that reshapes how ...",
-        "url": "https://cryptonews.com/news/cftc-approves-spot-crypto-trading-us-exchanges/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/56a1db3cf5c5d9d88beab1d57c5883f2",
-        "publishedAt": "2025-12-04T20:27:48Z",
-        "content": "For the first time in the United States, spot cryptocurrency trading is set to take place on federally regulated futures exchanges, a step that reshapes how digital assets fit into the countrys finan… [+4053 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Ryan Gladwin",
-        "title": "After Faking Death, Zerebro Founder Unveils AI-Penned Manifesto and New Solana Coin",
-        "description": "The manifesto argues for a future in which AI and humans will converge biologically, chemically, and surgically in a new form of humanity.",
-        "url": "https://decrypt.co/350928/faking-death-zerebro-founder-unveils-ai-manifesto-solana-coin",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ai-artificial-intelligence-decrypt-style-1-scaled-gID_7.jpg",
-        "publishedAt": "2025-12-04T20:22:37Z",
-        "content": "In brief\r\n<ul><li>The manifesto, which did not mention a token, argues AI wont reach human-level intelligence.</li><li>The PLOI token quickly surged before losing some of its initial gains.</li><li>S… [+2413 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor, Helene Braun",
-        "title": "Bitcoin Could Continue Chopping Below $95K Into Year-End and Altcoins Could Benefit, Analyst Says",
-        "description": "Low-liquidity in December may cap bitcoin's recovery rally, but rangebound trading for the largest crypto could benefit smaller digital assets, Wincent's Paul Howard said.",
-        "url": "https://www.coindesk.com/daybook-us/2025/12/04/bitcoin-could-continue-chopping-below-usd95k-into-year-end-as-altcoins-may-outperform-analyst-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9bdc7f7ab7995629743b070ea2b58270464a9b0f-700x430.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-04T20:20:03Z",
-        "content": "Bitcoin BTC\r\n$92,180.45 reversed its overnight climb to $94,000, dipping back to $92,000 during U.S. hours Thursday, continuing choppy rangebound action after the wild moves first lower, than higher … [+1767 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin price action, investor sentiment point to bullish December",
-        "description": "Multiple Bitcoin price metrics indicate a positive performance this month, despite statistical data showing that bearish Novembers are often followed by equally disappointing price action in December.",
-        "url": "https://cointelegraph.com/news/bitcoin-price-action-investor-sentiment-point-to-bullish-december",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae99b-49c5-7cb8-bc06-69b0f1c084fa",
-        "publishedAt": "2025-12-04T19:47:12Z",
-        "content": "Bitcoin (BTC) entered the new month with a statistical headwind it has never overcome: every time November ended in the red, BTC struggled to turn bullish in December. Yet this years structure looks … [+4759 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "IMF lays out guidelines for addressing stablecoin risks, beyond regulations",
-        "description": "The International Monetary Fund reported on the reserves of the largest stablecoins by market cap and the potential risks of fragmentation in issuers and regulatory approaches.",
-        "url": "https://cointelegraph.com/news/imf-guidelines-stablecoin-risks-regulations",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aea52-1f58-7adb-9030-f53461ab4ed0",
-        "publishedAt": "2025-12-04T19:43:08Z",
-        "content": "The International Monetary Fund (IMF) released a comprehensive report on the potential impact of the growing stablecoin market and the adequacy of global regulations in handling it. \r\nIn the Understa… [+2236 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Coinbase, Chainlink Introduce Base-Solana Bridge to Link Ecosystems",
-        "description": "The bridge, secured by Chainlink's Cross-Chain Interoperability Protocol, allows users to trade and interact with Solana-based tokens on Base-based dapps.",
-        "url": "https://www.coindesk.com/web3/2025/12/04/coinbase-chainlink-introduce-base-solana-bridge-to-link-ecosystems",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a2bd0e9c095fd602352b2399468650a2d8338801-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-04T19:00:00Z",
-        "content": "A new bridge connecting Base, the layer 2 incubated by Coinbase, and the Solana blockchain is now live on mainnet, giving users and developers a way to move assets directly between the two ecosystems… [+1413 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Twenty One Capital eyes Tuesday debut following Cantor Equity Partners merger",
-        "description": "Bitcoin-focused Twenty One Capital is set to go public on the NYSE after winning shareholder approval for its merger with Cantor Equity Partners.",
-        "url": "https://cointelegraph.com/news/twenty-one-capital-dec-9-listing-cantor-equity-partners-merger",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aea80-ea81-78c1-b36f-4707cf14d909",
-        "publishedAt": "2025-12-04T18:30:44Z",
-        "content": "Twenty One Capital, a Bitcoin-focused financial company led by Jack Mallers, expects its shares to begin trading on the New York Stock Exchange next week following the completion of its merger with C… [+2056 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten, AI Boost",
-        "title": "Bitcoin’s Negative Correlation With Nasdaq Persists, and History Suggests a Bottom May Be Forming",
-        "description": "Historical patterns show that bitcoin often bottoms when its correlation with the Nasdaq 100 breaks down, a dynamic now appearing for the fourth time in five years.",
-        "url": "https://www.coindesk.com/markets/2025/12/04/bitcoin-s-negative-correlation-with-nasdaq-persists-and-history-suggests-a-bottom-may-be-forming",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c9b14b043caf99d990101e617a15187b5b6ca3c1-2562x1584.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-04T18:23:21Z",
-        "content": "Bitcoin BTC\r\n$93,325.36 is once again behaving differently from the traditional risk asset complex, and the latest divergence may be sending an important signal.Negative correlation between bitcoin a… [+1705 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Solmate looks beyond SOL treasury model with RockawayX acquisition",
-        "description": "The deal would fold RockawayX’s infrastructure, liquidity and asset-management businesses into Solmate, widening revenue streams for the SOL-focused treasury company.",
-        "url": "https://cointelegraph.com/news/solmate-rockawayx-solana-infrastructure-treasury-abu-dhabi",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aea3f-53e2-7bbf-9602-51d578f94e89",
-        "publishedAt": "2025-12-04T18:03:51Z",
-        "content": "Solmate, formerly Brera Holdings PLC, has signed a nonbinding term sheet to acquire RockawayX, a deal that would shift the Abu Dhabibased Solana company from a passive digital-asset treasury to a uni… [+3033 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley",
-        "title": "Crypto Investor Donates $12M to UK's Reform Party",
-        "description": "Christopher Harborne has invested in stablecoin issuer Tether and crypto exchange Bitfinex, according to reports.",
-        "url": "https://www.coindesk.com/policy/2025/12/04/crypto-investor-donates-usd12m-to-uk-political-party-reform",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/02514c2b34357697104d4c876d63adbb117737ef-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-04T17:58:02Z",
-        "content": "A cryptocurrency investor has made a donation of 9 million pounds ($12 million) to U.K. political party Reform, according to a filing by the Electoral Commission on Thursday.\r\nThe donation by Christo… [+951 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "TD Cowen Grows Bearish on $60 Billion Bitcoin Giant Strategy—Here's Why",
-        "description": "After Strategy established a $1.44 billion cash reserve and said it may need to sell Bitcoin, TD Cowen has lowed its MSTR price target.",
-        "url": "https://decrypt.co/350944/td-cowen-grows-bearish-60-billion-bitcoin-giant-strategy",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png",
-        "publishedAt": "2025-12-04T17:47:13Z",
-        "content": "In brief\r\n<ul><li>Strategys cash reserve is a prudent move, TD Cowen analysts said.</li><li>Still, the investment bank lowered its Strategy price target to $500 per share.</li><li>The companys stock … [+2923 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "Reform UK Gets Britain's Biggest Political Donation Ever From Tether Investor",
-        "description": "DigFinex shareholder Christopher Harborne donated $11.4 million to Reform UK, the largest ever gift to a UK political party by a living donor.",
-        "url": "https://decrypt.co/350946/reform-uk-gets-britains-biggest-political-donation-ever-from-tether-investor",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/british-uk-pound-notes-decrypt-style-gID_7.jpg",
-        "publishedAt": "2025-12-04T17:39:47Z",
-        "content": "In brief\r\n<ul><li>Reform UK landed a record-breaking $11.4 million (£9 million) donation from Christopher Harborne, the largest gift ever made to a UK political party by a living donor.</li><li>The c… [+4183 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Sovereign Wealth Funds Were Buyers as Bitcoin Plunged: BlackRock's Larry Fink",
-        "description": "The CEO of the asset management giant, whose IBIT is the largest of the spot BTC ETFs, said the state actors were buying not for a trade, but to hold for years.",
-        "url": "https://www.coindesk.com/markets/2025/12/04/sovereign-wealth-funds-were-buyers-as-bitcoin-btc-plunged-blackrock-s-larry-fink",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/669021968ceb4c95870ff21e2a9e37aadfc61d86-5000x3333.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-04T17:32:02Z",
-        "content": "Sovereign wealth funds were buying the dip in bitcoin BTC\r\n$93,325.36, according to BlackRock CEO Larry Fink.\r\nWere seeing more and more legitimate, long-holding investors investing in it, Fink said … [+1577 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "CD Analytics, Francisco Rodrigues",
-        "title": "BNB Nears $910 as Volume Jumps 68%, Signaling Growing Interest Near Resistance Zone",
-        "description": "The token is trading in a sideways range, holding above recent lows near $896, while a breakout above $920-$928 resistance could push BNB toward $1,000.",
-        "url": "https://www.coindesk.com/markets/2025/12/04/bnb-nears-usd910-as-volume-jumps-68-signaling-growing-interest-near-resistance-zone",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0181bc53f43947174e168063a99cee835f6097ae-700x430.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-04T17:00:25Z",
-        "content": "BNB rose to $908 over the last 24-hour period, up 1.44% in the period, as a surge in trading volume suggests that large investors may be accumulating the token during a consolidation phase.\r\nVolume s… [+1424 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Callan Quinn",
-        "title": "Malaysia Cracks Down on Bitcoin Miners Behind $1.1B Electricity Theft",
-        "description": "A new taskforce is using drones and sensors to find power thieves, after 14,000 illicit mining operations have been uncovered over five years.",
-        "url": "https://decrypt.co/350941/malaysia-cracks-down-on-bitcoin-miners-behind-1-1b-electricity-theft",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-mining-decrypt-style-02-gID_7.png",
-        "publishedAt": "2025-12-04T16:55:22Z",
-        "content": "In brief\r\n<ul><li>Malaysia launched a special committee in November to target mining operations stealing power.</li><li>Around 14,000 illicit operations have been discovered in the country over the p… [+2583 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "$4B Bitcoin ETF Outflows in October-November Reflect Basis Trade Unwind, Not Capitulation: Analyst",
-        "description": "Recent outflows from U.S.-listed spot bitcoin ETFs were driven by specific arbitrage trade closures, not widespread institutional panic.",
-        "url": "https://www.coindesk.com/markets/2025/12/04/usd4b-bitcoin-etf-outflows-in-oct-nov-reflect-basis-trade-unwind-not-capitulation-research-analyst",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b7990c1aee6dc662da6a92e4675c895b7b28cf2b-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-04T16:28:01Z",
-        "content": "The U.S.-listed spot bitcoin BTC\r\n$92,306.88 exchange-traded funds (ETFs) saw billions in outflows in recent weeks amid a 35% price plunge from $125,000 to the low $80,000s, sparking talk of institut… [+3088 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, CD Analytics",
-        "title": "BONK Edges Higher as Narrow-Range Trading Holds Above Key Support",
-        "description": "The Solana meme token posted a modest gain while repeated resistance tests and shifting volume patterns kept price action confined to a tight band.",
-        "url": "https://www.coindesk.com/markets/2025/12/04/bonk-edges-higher-as-narrow-range-trading-holds-above-key-support",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/64b7663cdcaee3cdd8bc52c158b1414cb095c4f3-700x430.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-04T16:21:30Z",
-        "content": "BONK advanced 1.1% over the past 24 hours to $0.00000988, trading within a narrow band as the Solana-based meme token continued its consolidation phase. \r\nPrice action respected well-defined technica… [+1464 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": null,
-        "title": "BlackRock is RISK On! Polymarket launches US App! Crypto still Green!",
-        "description": "Crypto majors traded slightly higher, with ETH leading gains post-Fusaka as BTC rose 1% to $93,000, ETH jumped 4% to $3,190, and BNB and SOL each added 1% to reach $909 and $143, respectively. Among top movers, ZEC (+10%), TAO (+8%), and DASH (+6%) outperform…",
-        "url": "https://decrypt.co/videos/interviews/rPR1y1Fb/blackrock-is-risk-on-polymarket-launches-us-app-crypto-still-green",
-        "urlToImage": "https://cdn.jwplayer.com/v2/media/rPR1y1Fb/poster.jpg",
-        "publishedAt": "2025-12-04T16:06:55Z",
-        "content": "BlackRock is RISK On! Polymarket launches US App! Crypto still Green!\r\nCrypto majors traded slightly higher, with ETH leading gains post-Fusaka as BTC rose 1% to $93,000, ETH jumped 4% to $3,190, and… [+846 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Hayward",
-        "title": "Bitcoin Treasury Twenty One Set to Begin Trading on NYSE With $4 Billion BTC Stash",
-        "description": "Twenty One Capital is set to begin trading as XXI on the New York Stock Exchange on December 9, launching with $4 billion worth of Bitcoin.",
-        "url": "https://decrypt.co/350938/bitcoin-treasury-twenty-one-begin-trading-nyse-4-billion-stash",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-chart-decrypt-style-01-gID_7.png",
-        "publishedAt": "2025-12-04T16:01:58Z",
-        "content": "In brief\r\n<ul><li>Bitcoin treasury firm Twenty One Capital is set to begin trading on the New York Stock Exchange on December 9.</li><li>The company is a collaborative venture between Tether, Bitfine… [+2517 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Tanzeel Akhtar",
-        "title": "CZ and Peter Schiff Face Off at Binance Blockchain Week 2025: Bitcoin or Tokenized Gold?",
-        "description": "Binance Blockchain Week 2025 delivered one of its most anticipated moments when Changpeng Zhao (CZ), founder of Binance and Giggle Academy, took the stage...",
-        "url": "https://cryptonews.com/news/cz-and-peter-schiff-face-off-at-binance-blockchain-week-2025-bitcoin-or-tokenized-gold/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/4a523669973c5d380de450c2afb817f1",
-        "publishedAt": "2025-12-04T16:01:47Z",
-        "content": "Binance Blockchain Week 2025 delivered one of its most anticipated moments when Changpeng Zhao (CZ), founder of Binance and Giggle Academy, took the stage opposite Peter Schiff, senior economist and … [+2412 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Gregory Mall",
-        "title": "Crypto for Advisors: Crypto Yield Products",
-        "description": "Why systematic crypto yield is emerging as the path to cash-flow-based returns, making it the most durable bridge to mainstream portfolios.",
-        "url": "https://www.coindesk.com/coindesk-indices/2025/12/03/crypto-for-advisors-crypto-yield-products",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fa49fdd07879bec03bea2e75d7388b08e50f0cd7-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-04T16:00:00Z",
-        "content": "In todays \"Crypto for Advisors\" newsletter, Gregory Mall from Lionsoul Global breaks down crypto yield, highlighting its maturity, along with its role in a portfolio. We look at why yield may ultimat… [+7075 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, AI Boost",
-        "title": "Blockdaemon, VerifiedX Join Forces to Deliver Mass-Market, Self-Custodial DeFi",
-        "description": "The experience, which is designed to feel like Venmo or Cash App, allows users to earn yield on bitcoin (BTC) and stablecoins and borrow against their holdings.",
-        "url": "https://www.coindesk.com/business/2025/12/04/blockdaemon-and-verifiedx-join-forces-to-deliver-mass-market-self-custodial-defi",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9da8cd118bd908f3c43507c3b2ce71db14804941-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-04T16:00:00Z",
-        "content": "Crypto infrastructure provider Blockdaemon and Bitcoin sidechain VerifiedX said they are teaming up to make everyday crypto use simpler for non-technical users.\r\nThe move, which encompasses earning y… [+1772 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jesse Hamilton",
-        "title": "U.S. CFTC-Driven Spot Crypto Trading Going Live With Bitnomial, Opening Up New Arena",
-        "description": "President Donald Trump's push toward friendly crypto policies produced a CFTC-led effort to encourage leveraged spot crypto trading, starting with Bitnomial.",
-        "url": "https://www.coindesk.com/policy/2025/12/04/u-s-cftc-driven-spot-crypto-trading-going-live-opening-up-new-regulated-arena",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ded5744f3faae9dc99e645456bd1b40b75af435e-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-04T15:47:27Z",
-        "content": "The U.S. Commodity Futures Trading Commission is ushering in a new form of federally regulated crypto trading, having encouraged its regulated platforms to open up leveraged spot digital assets produ… [+3403 chars]"
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "Bitcoin treasury firms enter a ‘Darwinian phase’ as premiums collapse: Galaxy",
+        "description": "Galaxy Research says the Bitcoin treasury model has broken down as falling equity premiums reverse the issuance-driven growth cycle, pushing DAT firms into survival mode.",
+        "url": "https://cointelegraph.com/news/bitcoin-treasury-firms-enter-darwinian-phase-as-premiums-collapse",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af2a3-ea77-7bf8-9908-39a96936ad3f",
+        "publishedAt": "2025-12-06T07:58:03Z",
+        "content": "Bitcoin treasury companies are entering a Darwinian phase as the core mechanics of their once-booming business model break down, according to a new analysis from Galaxy Research. \r\nThe report said th… [+2945 chars]"
       }
     ]
   }

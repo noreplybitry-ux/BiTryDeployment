@@ -1,9 +1,61 @@
 {
-  "timestamp": "2025-12-07T11:55:31.701Z",
+  "timestamp": "2025-12-07T12:12:57.164Z",
   "data": {
     "status": "ok",
-    "totalResults": 18251,
+    "totalResults": 18255,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Crypto Sell-Off: Binance, Coinbase, Dump Over $2 Billion In Bitcoin As Prices Dip Below $90,000",
+        "description": "The cryptocurrency market experienced another wave of liquidations on Friday, with Bitcoin (BTC) prices dipping below the critical support level of $90,000. This decline followed a brief rally that had seen its price rise approximately $3,000 above this thres…",
+        "url": "https://bitcoinist.com/crypto-sell-off-binance-dump-over-2-billion-bitcoin/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/08/Screenshot_330.jpg",
+        "publishedAt": "2025-12-06T12:00:54Z",
+        "content": "The cryptocurrency market experienced another wave of liquidations on Friday, with Bitcoin (BTC) prices dipping below the critical support level of $90,000. This decline followed a brief rally that h… [+3221 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Settles In Consolidation Zone – Levels To Watch",
+        "description": "Bitcoin (BTC) trades just below $90,000 after a fluctuating week of price action resulted in a net loss of 1.8%. Despite initial hopes of a resurgence in late November, the premier cryptocurrency is now 29.16% away from its all-time high. Going by the price a…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-settles-in-consolidation-zone-levels-to-watch/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/istockphoto-1329055819-612x612-1.jpg?fit=900%2C538",
+        "publishedAt": "2025-12-06T12:00:03Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "GlobeNewswire"
+        },
+        "author": "Mutuum Finance",
+        "title": "DeFi Crypto Mutuum Finance Prepares for 20% Price Increase as Phase 6 Nears Completion",
+        "description": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n is approaching a major milestone as Phase 6 of its presale nears completion, bringing the project closer to its next scheduled 20% price increase. With strong demand contin…",
+        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201040/0/en/DeFi-Crypto-Mutuum-Finance-Prepares-for-20-Price-Increase-as-Phase-6-Nears-Completion.html",
+        "urlToImage": "https://ml.globenewswire.com/Resource/Download/46758e47-4e5d-4da5-945c-e049069b7ade",
+        "publishedAt": "2025-12-06T12:00:00Z",
+        "content": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n is approaching a major milestone as Phase 6 of its presale nears completion, bringing the project closer to its … [+3492 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "GlobeNewswire"
+        },
+        "author": "Mutuum Finance",
+        "title": "New Crypto Coin Mutuum Finance Nears 100% of Phase 6 Allocation as Price Shift Approaches",
+        "description": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches full allocation. With the current stage priced at $0.035 and…",
+        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201038/0/en/New-Crypto-Coin-Mutuum-Finance-Nears-100-of-Phase-6-Allocation-as-Price-Shift-Approaches.html",
+        "urlToImage": "https://ml.globenewswire.com/Resource/Download/46758e47-4e5d-4da5-945c-e049069b7ade",
+        "publishedAt": "2025-12-06T11:57:00Z",
+        "content": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches … [+4029 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -601,58 +653,6 @@
         "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/10/floriane-vita-FyD3OWBuXnY-unsplash.jpg",
         "publishedAt": "2025-12-06T07:00:58Z",
         "content": "As stablecoins continue to gain worldwide momentum, the International Monetary Fund (IMF) has called for global cooperation to avert potential macro financial stability risks related to the rapidly g… [+4491 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Ambcrypto.com"
-        },
-        "author": "Ishika Kumari",
-        "title": "€700M crypto scam exposed – Inside the multi-country sting",
-        "description": "Here are the details of the operation that shook the crypto underworld.",
-        "url": "https://ambcrypto.com/?p=551573",
-        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/International-takedown-of-crypto-fraud-1000x600.webp",
-        "publishedAt": "2025-12-06T07:00:39Z",
-        "content": "In a major victory against organized cybercrime, authorities conducted a massive international police operation spanning over half a dozen countries.\r\nThis operation successfully dismantled a sophist… [+3900 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Bitcoinist"
-        },
-        "author": "Keshav Verma",
-        "title": "From Top To Bottom: Bitcoin’s Largest & Smallest Hands Both Now Accumulating",
-        "description": "Data shows distribution on the Bitcoin network has dropped off, with both the largest of whales and small retail hands taking to accumulation. Bitcoin Accumulation Trend Score Shows Shift Toward Buying As explained by Glassnode analyst Chris Beamish in an X p…",
-        "url": "https://bitcoinist.com/top-bottom-bitcoins-largest-smallest-accumulating/",
-        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/btc_b199b5.png",
-        "publishedAt": "2025-12-06T06:00:55Z",
-        "content": "Data shows distribution on the Bitcoin network has dropped off, with both the largest of whales and small retail hands taking to accumulation.\r\nBitcoin Accumulation Trend Score Shows Shift Toward Buy… [+2796 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bernstein Forecasts Coinbase (COIN) To Surge 90%, Setting $510 Price Target",
-        "description": "Coinbase (COIN), the largest cryptocurrency exchange in the US, has experienced a significant decline in its stock valuation, dropping nearly 40% from its peak of $444 in July to its current trading level of around $271 per share. This, amid market fluctuatio…",
-        "url": "http://www.newsbtc.com/news/coinbase/bernstein-forecasts-coinbase-coin-to-surge-90-setting-510-price-target/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/04/Screenshot_1066.jpg?fit=1273%2C725",
-        "publishedAt": "2025-12-06T06:00:51Z",
-        "content": "Coinbase (COIN), the largest cryptocurrency exchange in the US, has experienced a significant decline in its stock valuation, dropping nearly 40% from its peak of $444 in July to its current trading … [+2879 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "The-independent.com"
-        },
-        "author": "Sean O'Grady",
-        "title": "Lexus LM350h: a seriously fun ride for the chauffeur-driven market",
-        "description": "Sean O’Grady tests the Lexus LM350h, finding a wildly luxurious, first-class-on-wheels limo that pampers its VIP passengers – even if its purpose and styling defy easy definition",
-        "url": "https://www.the-independent.com/life-style/motoring/lexus-lm350h-fun-chauffeur-toyota-engine-b2878660.html",
-        "urlToImage": "https://static.the-independent.com/2025/12/05/9/25/IMG_3815-Lexus-front-of-the-car.jpeg?trim=135,0,137,0&width=1200&height=800&crop=1200:800",
-        "publishedAt": "2025-12-06T06:00:00Z",
-        "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia… [+5892 chars]"
       }
     ]
   }
