@@ -1,9 +1,61 @@
 {
-  "timestamp": "2025-12-07T21:10:59.746Z",
+  "timestamp": "2025-12-07T22:12:16.488Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Shows Strength: Indicators Suggest Bigger Moves Ahead",
+        "description": "Ethereum is gaining momentum, and several technical signals suggest that a significant move could be on the way. With key support levels holding and bullish patterns forming, the market may be setting up for a notable upside. Golden Pocket Rejection: Confirmi…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-bigger-moves-ahead/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Ethereum-from-Freepik-5.jpg?fit=740%2C423",
+        "publishedAt": "2025-12-06T22:00:33Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Boost: Fidelity CEO Confirms Personal Holdings, Hails BTC As ‘Gold Standard’",
+        "description": "According to remarks made at the Founders Summit, Fidelity’s chief executive Abigail Johnson offered a rare look at how the firm moved from curiosity to a full crypto business and why she keeps a personal stake in Bitcoin. The account ties early, small bets t…",
+        "url": "https://bitcoinist.com/bitcoin-boost-fidelity-ceo-confirms-personal-holdings-hails-btc-as-gold-standard/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/a_e5e177.jpg",
+        "publishedAt": "2025-12-06T22:00:20Z",
+        "content": "According to remarks made at the Founders Summit, Fidelitys chief executive Abigail Johnson offered a rare look at how the firm moved from curiosity to a full crypto business and why she keeps a pers… [+3179 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "BitMine buys $199M in Ether as smart money traders bet on ETH decline",
+        "description": "The largest corporate Ether holder continues to buy the dip, as the industry’s most profitable traders continue to bet millions on ETH’s short-term decline.",
+        "url": "https://cointelegraph.com/news/bitmine-buys-199m-eth-smart-money-traders-eth",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af59e-a7d1-7f60-aa32-7b7ae01fdd73",
+        "publishedAt": "2025-12-06T21:44:16Z",
+        "content": "BitMine Immersion Technologies, the worlds largest corporate Ether holder, continues buying the dip, despite the industrys most successful traders betting on Ethereum's price fall.\r\nBitMine acquired … [+2151 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "With Bitcoin Falling, Is Strategy Stock in Trouble?",
+        "description": "Key Points\n-\nStrategy does its business by issuing debt or equity to buy Bitcoin.\n-\nBitcoin's price is way down, and so is Strategy's stock.\n-\nBut things aren't as bad as they seem.\nStrategy, (NASDAQ: MSTR) formerly known as MicroStrategy, has turned itself i…",
+        "url": "https://biztoc.com/x/a9cd6cce4299604a",
+        "urlToImage": "https://biztoc.com/cdn/a9cd6cce4299604a_s.webp",
+        "publishedAt": "2025-12-06T21:17:29Z",
+        "content": "Key Points-Strategy does its business by issuing debt or equity to buy Bitcoin.-Bitcoin's price is way down, and so is Strategy's stock.-But things aren't as bad as they seem.Strategy, (NASDAQ: MSTR)… [+138 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -419,58 +471,6 @@
         "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Samyukhtha-1-2-1000x600.webp",
         "publishedAt": "2025-12-06T16:00:45Z",
         "content": "ETH held on CEXs has been dropping, falling from around 14.5 million ETH in late July to nearly 12.5 million ETH at press time.\r\nInvestors (both retail and institutional) are moving coins off exchang… [+1358 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "wisecoder01@gmail.com",
-        "title": "pypomes-crypto 0.8.6",
-        "description": "A collection of Python pomes, penyeach (cryptography modules)",
-        "url": "https://pypi.org/project/pypomes-crypto/0.8.6/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T15:55:45Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb",
-        "description": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb\nThe crypto exchange also took note of a so-called AI bubble that continues to go strong and a weaker U.S. dollar.\nWhat to know:\n- Coinbase Institutional is seeing a potentia…",
-        "url": "https://biztoc.com/x/e8d73ea7c7efa7e1",
-        "urlToImage": "https://biztoc.com/cdn/e8d73ea7c7efa7e1_s.webp",
-        "publishedAt": "2025-12-06T15:53:42Z",
-        "content": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds ClimbThe crypto exchange also took note of a so-called AI bubble that continues to go strong and a weaker U.S. dollar.W… [+137 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "benzinga.com",
-        "title": "Bitcoin Stuck Below $90,000 As Ethereum, XRP, Dogecoin Extend Losses",
-        "description": "Bitcoin is trading just below the $90,000 mark on Saturday as cooling inflation data is driving risk-off sentiment.\nCryptocurrency\nTicker\nPrice\nBitcoin\n(CRYPTO: BTC)\n$89,496.98\nEthereum\n(CRYPTO: ETH)\n$3,024.66\nSolana\n(CRYPTO: SOL)\n$132.33\nXRP\n(CRYPTO: XRP)\n$2…",
-        "url": "https://biztoc.com/x/c838b3783e5d72f1",
-        "urlToImage": "https://biztoc.com/cdn/c838b3783e5d72f1_s.webp",
-        "publishedAt": "2025-12-06T15:53:18Z",
-        "content": "Bitcoin is trading just below the $90,000 mark on Saturday as cooling inflation data is driving risk-off sentiment.CryptocurrencyTickerPriceBitcoin(CRYPTO: BTC)$89,496.98Ethereum(CRYPTO: ETH)$3,024.6… [+122 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Thinkmoon.ai"
-        },
-        "author": "thinkmoon",
-        "title": "Show HN: ThinkMoon – AI Trading Assistant Using LLMs for Live Crypto Trading",
-        "description": "I built ThinkMoon because I wanted to see if LLMs could actually make money trading crypto, not just talk about it.It's an AI-powered trading platform where you can connect models from OpenRouter, OpenAI, or Anthropic to real markets and let them execute actu…",
-        "url": "https://demo.thinkmoon.ai/",
-        "urlToImage": "https://demo.thinkmoon.ai/og-image.png",
-        "publishedAt": "2025-12-06T15:48:16Z",
-        "content": "You're viewing demo data from real AI trading on a Binance testnet account.Register orlogin to connect your Binance account and create your AI trading agent."
       }
     ]
   }
