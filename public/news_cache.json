@@ -1,9 +1,22 @@
 {
-  "timestamp": "2025-12-07T12:16:02.091Z",
+  "timestamp": "2025-12-07T12:22:35.314Z",
   "data": {
     "status": "ok",
-    "totalResults": 18255,
+    "totalResults": 18256,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "GlobeNewswire"
+        },
+        "author": "BI DeFi",
+        "title": "BI DeFi Launches New Daily Yield Plan as Demand for Accessible Crypto Income Solutions Grows",
+        "description": "New York, USA, Dec. 06, 2025 (GLOBE NEWSWIRE) -- BI DeFi has officially launched its new Daily Yield Plan, expanding its suite of cloud computing power products designed for users seeking stable, transparent, and hardware-free digital asset income.",
+        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201041/0/en/BI-DeFi-Launches-New-Daily-Yield-Plan-as-Demand-for-Accessible-Crypto-Income-Solutions-Grows.html",
+        "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/47074e14-daef-45a5-aae6-6fd01a225043",
+        "publishedAt": "2025-12-06T12:15:00Z",
+        "content": "New York, USA, Dec. 06, 2025 (GLOBE NEWSWIRE) -- BI DeFi has officially launched its new Daily Yield Plan, expanding its suite of cloud computing power products designed for users seeking stable, tra… [+4150 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -309,12 +322,12 @@
           "name": "Biztoc.com"
         },
         "author": "bloomberg.com",
-        "title": "Charting the Global Economy: Europe, World Weathering Tariffs Better Than Expected",
+        "title": "Hong Kong Summons International News Outlets for Rare Warning",
         "description": "",
-        "url": "https://biztoc.com/x/7f54282edd7d1bac",
-        "urlToImage": "https://biztoc.com/cdn/7f54282edd7d1bac_s.webp",
+        "url": "https://biztoc.com/x/4457ad88c0869124",
+        "urlToImage": "https://biztoc.com/cdn/4457ad88c0869124_s.webp",
         "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+759 chars]"
+        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+754 chars]"
       },
       {
         "source": {
@@ -322,12 +335,12 @@
           "name": "Biztoc.com"
         },
         "author": "bloomberg.com",
-        "title": "Hong Kong Summons International News Outlets for Rare Warning",
+        "title": "Charting the Global Economy: Europe, World Weathering Tariffs Better Than Expected",
         "description": "",
-        "url": "https://biztoc.com/x/4457ad88c0869124",
-        "urlToImage": "https://biztoc.com/cdn/4457ad88c0869124_s.webp",
+        "url": "https://biztoc.com/x/7f54282edd7d1bac",
+        "urlToImage": "https://biztoc.com/cdn/7f54282edd7d1bac_s.webp",
         "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+754 chars]"
+        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+759 chars]"
       },
       {
         "source": {
@@ -640,19 +653,6 @@
         "urlToImage": "https://biztoc.com/cdn/0aad212d287c29f9_s.webp",
         "publishedAt": "2025-12-06T07:10:39Z",
         "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros. for $72 billion? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did EUs fine i… [+794 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Bitcoinist"
-        },
-        "author": "Rubmar Garcia",
-        "title": "‘Stablecoins Are Here To Stay’: IMF Calls For Global Cooperation To Prevent Financial Risks",
-        "description": "As stablecoins continue to gain worldwide momentum, the International Monetary Fund (IMF) has called for global cooperation to avert potential macro financial stability risks related to the rapidly growing sector and to turn the industry “into a force for goo…",
-        "url": "https://bitcoinist.com/stablecoins-imf-calls-for-global-cooperation/",
-        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/10/floriane-vita-FyD3OWBuXnY-unsplash.jpg",
-        "publishedAt": "2025-12-06T07:00:58Z",
-        "content": "As stablecoins continue to gain worldwide momentum, the International Monetary Fund (IMF) has called for global cooperation to avert potential macro financial stability risks related to the rapidly g… [+4491 chars]"
       }
     ]
   }
