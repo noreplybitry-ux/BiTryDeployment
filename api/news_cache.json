@@ -1,9 +1,74 @@
 {
-  "timestamp": "2025-12-07T13:34:27.263Z",
+  "timestamp": "2025-12-07T14:11:40.299Z",
   "data": {
     "status": "ok",
-    "totalResults": 15,
+    "totalResults": 16,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Sun Sentinel"
+        },
+        "author": "Ira Winderman, South Florida Sun-Sentinel",
+        "title": "Ira Winderman: Based on schedule, better if Heat NBA Cup runneth is over?",
+        "description": "MIAMI — You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular. But there also are times when the greater good has to be considered, of getting your team whole and healthy through the 82-game reg…",
+        "url": "https://www.sun-sentinel.com/2025/12/06/ira-winderman-based-on-schedule-better-if-heat-nba-cup-runneth-is-over/",
+        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+        "publishedAt": "2025-12-06T14:05:00Z",
+        "content": "MIAMI You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular.\r\nBut there also are times when the greater good has to be considered, of … [+7852 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": null,
+        "title": "Biggest mistakes crypto investors make with estate planning",
+        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
+        "url": "https://www.cnbc.com/2025/12/06/crypto-investors-estate-planning-taxes-mistakes.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/105154690-crypto.jpg?v=1764701916&w=1920&h=1080",
+        "publishedAt": "2025-12-06T14:03:30Z",
+        "content": "Roughly 1 in 7 people are leaving unclaimed property on the table, according to the National Association of Unclaimed Property Administrators. While the recent heavy selling in bitcoin and ether is r… [+7444 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "SEC Chair Paul Atkins Advocates For Modernizing Crypto Regulations– Here’s How",
+        "description": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SEC’s intent to modernize its rules to facilitate an on-chain market environmen…",
+        "url": "https://bitcoinist.com/sec-chair-advocates-modernizing-crypto-regulations/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/04/Screenshot_978.jpg",
+        "publishedAt": "2025-12-06T14:00:42Z",
+        "content": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SECs intent to mode… [+3468 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BeInCrypto"
+        },
+        "author": "Brian McGleenon",
+        "title": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning",
+        "description": "After a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) are in a danger zone during December.",
+        "url": "https://beincrypto.com/december-decide-fate-digital-asset-treasuries/",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/A2SWDNCCkCPRhIwSo0dqSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/de1248b79cb6b1eb1400c24fdf12c8b6",
+        "publishedAt": "2025-12-06T14:00:27Z",
+        "content": "Bitcoin Flashes a Rare Signal as a $13B Fed Shock HitsIs a Reversal Beginning?. Photo by BeInCrypto\r\nAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been… [+4523 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": "Monique Mulima",
+        "title": "From 2600% Gain to 86% Wipeout, Crypto’s Hottest Trade Collapsed",
+        "description": "An array of public companies thought they had found a sort of perpetual motion machine: Use your corporate cash to buy up Bitcoin or other digital tokens and...",
+        "url": "https://finance.yahoo.com/news/2600-gain-86-wipeout-crypto-140000811.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1ZaxxAQKXon.g2oSjE80DQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_holding_pen_162/af8dbb45d094b00c65cf4b0c8b6191a7",
+        "publishedAt": "2025-12-06T14:00:00Z",
+        "content": "Photographer: Camilo Freedman/Bloomberg\r\n(Bloomberg) -- What began the year as one of the best trades in the stock market has, in a matter of months, turned into one of the worst.\r\nAn array of public… [+6474 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -146,58 +211,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_adc210.jpg",
         "publishedAt": "2025-12-06T10:00:31Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "Japan’s Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry Unwind",
-        "description": "Japan’s Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry Unwind\nA stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions that recently helped bitcoin rebound from November’s lows…",
-        "url": "https://biztoc.com/x/82914ccde682e4c7",
-        "urlToImage": "https://biztoc.com/cdn/82914ccde682e4c7_s.webp",
-        "publishedAt": "2025-12-06T09:58:33Z",
-        "content": "Japans Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry UnwindA stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions… [+149 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Github.com"
-        },
-        "author": "Daffactor",
-        "title": "Show HN: Nano.noq – Experimental key-container format",
-        "description": "Hi! This is an experimental learning project I've been working on.NANO.NOQ is a very small binary container format for AES-GCM keys. \nThe entire implementation is inside a single HTML file using WebCrypto \n(no backend, no external dependencies).The .noq file …",
-        "url": "https://github.com/NOQ-DAFFACTOR/NANO.NOQ",
-        "urlToImage": "https://opengraph.githubassets.com/03fdda58a114ea967c413769eb0f7acc559ba7b1338029dcb51b84f3a092591a/NOQ-DAFFACTOR/NANO.NOQ",
-        "publishedAt": "2025-12-06T09:48:51Z",
-        "content": "NANO.NOQ description\r\nThis project is purely an experimental format design, not a new cryptographic system.\r\nNANO.NOQ is a small file format designed to store AESGCM keys separately from ciphertext. … [+4028 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Brokerage behind major crypto treasury deals eyes $10–12B public listing: FT",
-        "description": "Clear Street is preparing a $10–12 billion IPO as the crypto-treasury model that fueled its rise shows strain, with Bitcoin down 30% and treasury stocks trading at discounts.",
-        "url": "https://cointelegraph.com/news/clear-street-prepares-10b-ipo-as-crypto-treasury-boom-falters",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af2fb-74fb-77da-b7c4-e85e87a24394",
-        "publishedAt": "2025-12-06T09:35:03Z",
-        "content": "Clear Street, a New York brokerage that has become one of the most active underwriters in the crypto-treasury boom, is preparing to go public with an expected valuation of $10 billion to $12 billion.… [+2978 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Anas Hassan",
-        "title": "CoinShares Debunks Tether Collapse Fears After Hayes Warning",
-        "description": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who...",
-        "url": "https://cryptonews.com/news/coinshares-debunks-tether-collapse-fears-after-hayes-warning/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/0f1b1a2e4feb711942a2004d9b0268fc",
-        "publishedAt": "2025-12-06T09:13:47Z",
-        "content": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who claimed a 30% drop in the stablecoin issuer’… [+4573 chars]"
       }
     ]
   }

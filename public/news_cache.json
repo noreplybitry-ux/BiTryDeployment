@@ -1,9 +1,113 @@
 {
-  "timestamp": "2025-12-07T13:34:27.262Z",
+  "timestamp": "2025-12-07T14:11:40.298Z",
   "data": {
     "status": "ok",
-    "totalResults": 17742,
+    "totalResults": 17751,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Sun Sentinel"
+        },
+        "author": "Ira Winderman, South Florida Sun-Sentinel",
+        "title": "Ira Winderman: Based on schedule, better if Heat NBA Cup runneth is over?",
+        "description": "MIAMI — You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular. But there also are times when the greater good has to be considered, of getting your team whole and healthy through the 82-game reg…",
+        "url": "https://www.sun-sentinel.com/2025/12/06/ira-winderman-based-on-schedule-better-if-heat-nba-cup-runneth-is-over/",
+        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+        "publishedAt": "2025-12-06T14:05:00Z",
+        "content": "MIAMI You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular.\r\nBut there also are times when the greater good has to be considered, of … [+7852 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": null,
+        "title": "Biggest mistakes crypto investors make with estate planning",
+        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
+        "url": "https://www.cnbc.com/2025/12/06/crypto-investors-estate-planning-taxes-mistakes.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/105154690-crypto.jpg?v=1764701916&w=1920&h=1080",
+        "publishedAt": "2025-12-06T14:03:30Z",
+        "content": "Roughly 1 in 7 people are leaving unclaimed property on the table, according to the National Association of Unclaimed Property Administrators. While the recent heavy selling in bitcoin and ether is r… [+7444 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "Will Solana’s Price Trajectory Be Defined By Losses?",
+        "description": "Solana is in a critical phase as its recent decline continues to validate a channel pattern that has shaped its price action over the past week.\nThe downward movement highlights growing uncertainty, with investors now playing a key role in determining whether…",
+        "url": "https://biztoc.com/x/e48de8d2663a3d0a",
+        "urlToImage": "https://biztoc.com/cdn/e48de8d2663a3d0a_s.webp",
+        "publishedAt": "2025-12-06T14:02:36Z",
+        "content": "Solana is in a critical phase as its recent decline continues to validate a channel pattern that has shaped its price action over the past week.The downward movement highlights growing uncertainty, w… [+148 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "SEC Chair Paul Atkins Advocates For Modernizing Crypto Regulations– Here’s How",
+        "description": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SEC’s intent to modernize its rules to facilitate an on-chain market environmen…",
+        "url": "https://bitcoinist.com/sec-chair-advocates-modernizing-crypto-regulations/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/04/Screenshot_978.jpg",
+        "publishedAt": "2025-12-06T14:00:42Z",
+        "content": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SECs intent to mode… [+3468 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BeInCrypto"
+        },
+        "author": "Brian McGleenon",
+        "title": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning",
+        "description": "After a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) are in a danger zone during December.",
+        "url": "https://beincrypto.com/december-decide-fate-digital-asset-treasuries/",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/A2SWDNCCkCPRhIwSo0dqSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/de1248b79cb6b1eb1400c24fdf12c8b6",
+        "publishedAt": "2025-12-06T14:00:27Z",
+        "content": "Bitcoin Flashes a Rare Signal as a $13B Fed Shock HitsIs a Reversal Beginning?. Photo by BeInCrypto\r\nAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been… [+4523 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Ambcrypto.com"
+        },
+        "author": "Ishika Kumari",
+        "title": "How Grayscale’s S-1 filing marks a new chapter in SUI’s ETF push",
+        "description": "Grayscale and 21Shares compete for Sui ETFs as institutional focus shifts toward altcoins beyond giants.",
+        "url": "https://ambcrypto.com/?p=551691",
+        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Grayscale-Files-S-1-for-New-SUI-ETF-1000x600.webp",
+        "publishedAt": "2025-12-06T14:00:16Z",
+        "content": "The competition to bring Sui to retail investors is intensifying. \r\nJust days after 21Shares launched the first Suibased ETF on Nasdaq, a major rival has entered the market.\r\nGrayscale files S-1 for … [+3170 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": "Monique Mulima",
+        "title": "From 2600% Gain to 86% Wipeout, Crypto’s Hottest Trade Collapsed",
+        "description": "An array of public companies thought they had found a sort of perpetual motion machine: Use your corporate cash to buy up Bitcoin or other digital tokens and...",
+        "url": "https://finance.yahoo.com/news/2600-gain-86-wipeout-crypto-140000811.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1ZaxxAQKXon.g2oSjE80DQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_holding_pen_162/af8dbb45d094b00c65cf4b0c8b6191a7",
+        "publishedAt": "2025-12-06T14:00:00Z",
+        "content": "Photographer: Camilo Freedman/Bloomberg\r\n(Bloomberg) -- What began the year as one of the best trades in the stock market has, in a matter of months, turned into one of the worst.\r\nAn array of public… [+6474 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Stablecoin Adoption Is ‘Exploding' — Here's Why Wall Street Is Going All-In",
+        "description": "Alchemy co-founder and president Joe Lau said stablecoin adoption is exploding as banks, fintechs and payment platforms push beyond the USDT/USDC exchange era.",
+        "url": "https://www.coindesk.com/business/2025/12/05/stablecoin-adoption-is-exploding-here-s-why-wall-street-is-going-all-in",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8917180f34ea9b0c2901371bca93bb3421ba3f36-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T14:00:00Z",
+        "content": "For the past few years, stablecoins have been defined by a narrow reality: essentially a two-horse race between Tether's USDT and Circle's (CRCL) USDC, with most activity concentrated on crypto-nativ… [+4495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -46,19 +150,6 @@
       {
         "source": {
           "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, AI Boost",
-        "title": "Euro Stablecoin Market Cap Doubles in Year After MiCA, Study Finds",
-        "description": "Prior to MiCA, euro-denominated stablecoins' market cap contracted by 48% in the year leading up to June 2024.",
-        "url": "https://www.coindesk.com/business/2025/12/06/hold-euro-stablecoin-market-cap-doubles-in-year-after-mica-decta-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8d075d8d9d0e4946f4d7853ec0883f32a4d7de1f-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-06T13:00:00Z",
-        "content": "The euro stablecoin market has rebounded in the year since the European Unions (EU) Markets in Crypto-Assets Regulation (MiCA) came into force, with market capitalization doubling after regulations g… [+1792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "BeInCrypto"
         },
         "author": "Aaryamann Shrivastava",
@@ -68,6 +159,19 @@
         "urlToImage": "https://s.yimg.com/ny/api/res/1.2/5S5lKk8BrKF.vF.sCgYnPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/36cd2f6146991654ca04aa31ce37007b",
         "publishedAt": "2025-12-06T13:00:00Z",
         "content": "solana forward, solana price. Photo by BeInCrypto\r\nSolana is in a critical phase as its recent decline continues to validate a channel pattern that has shaped its price action over the past week. \r\nT… [+2424 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley, AI Boost",
+        "title": "Euro Stablecoin Market Cap Doubles in Year After MiCA, Study Finds",
+        "description": "Prior to MiCA, euro-denominated stablecoins' market cap contracted by 48% in the year leading up to June 2024.",
+        "url": "https://www.coindesk.com/business/2025/12/06/hold-euro-stablecoin-market-cap-doubles-in-year-after-mica-decta-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8d075d8d9d0e4946f4d7853ec0883f32a4d7de1f-1920x1080.jpg?auto=format",
+        "publishedAt": "2025-12-06T13:00:00Z",
+        "content": "The euro stablecoin market has rebounded in the year since the European Unions (EU) Markets in Crypto-Assets Regulation (MiCA) came into force, with market capitalization doubling after regulations g… [+1792 chars]"
       },
       {
         "source": {
@@ -452,12 +556,12 @@
           "name": "Biztoc.com"
         },
         "author": "bloomberg.com",
-        "title": "Charting the Global Economy: Europe, World Weathering Tariffs Better Than Expected",
+        "title": "Hong Kong Summons International News Outlets for Rare Warning",
         "description": "",
-        "url": "https://biztoc.com/x/7f54282edd7d1bac",
-        "urlToImage": "https://biztoc.com/cdn/7f54282edd7d1bac_s.webp",
+        "url": "https://biztoc.com/x/4457ad88c0869124",
+        "urlToImage": "https://biztoc.com/cdn/4457ad88c0869124_s.webp",
         "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+759 chars]"
+        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+754 chars]"
       },
       {
         "source": {
@@ -465,12 +569,12 @@
           "name": "Biztoc.com"
         },
         "author": "bloomberg.com",
-        "title": "Hong Kong Summons International News Outlets for Rare Warning",
+        "title": "Charting the Global Economy: Europe, World Weathering Tariffs Better Than Expected",
         "description": "",
-        "url": "https://biztoc.com/x/4457ad88c0869124",
-        "urlToImage": "https://biztoc.com/cdn/4457ad88c0869124_s.webp",
+        "url": "https://biztoc.com/x/7f54282edd7d1bac",
+        "urlToImage": "https://biztoc.com/cdn/7f54282edd7d1bac_s.webp",
         "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+754 chars]"
+        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+759 chars]"
       },
       {
         "source": {
@@ -549,110 +653,6 @@
         "urlToImage": "https://biztoc.com/cdn/955/og.png",
         "publishedAt": "2025-12-06T09:58:34Z",
         "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+716 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "Japan’s Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry Unwind",
-        "description": "Japan’s Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry Unwind\nA stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions that recently helped bitcoin rebound from November’s lows…",
-        "url": "https://biztoc.com/x/82914ccde682e4c7",
-        "urlToImage": "https://biztoc.com/cdn/82914ccde682e4c7_s.webp",
-        "publishedAt": "2025-12-06T09:58:33Z",
-        "content": "Japans Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry UnwindA stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions… [+149 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "reuters.com",
-        "title": "Qatar hopeful EU will resolve corporate concerns over sustainability laws by year-end",
-        "description": "",
-        "url": "https://biztoc.com/x/c5695d4bb58b587b",
-        "urlToImage": "https://biztoc.com/cdn/c5695d4bb58b587b_s.webp",
-        "publishedAt": "2025-12-06T09:57:57Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+767 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Github.com"
-        },
-        "author": "Daffactor",
-        "title": "Show HN: Nano.noq – Experimental key-container format",
-        "description": "Hi! This is an experimental learning project I've been working on.NANO.NOQ is a very small binary container format for AES-GCM keys. \nThe entire implementation is inside a single HTML file using WebCrypto \n(no backend, no external dependencies).The .noq file …",
-        "url": "https://github.com/NOQ-DAFFACTOR/NANO.NOQ",
-        "urlToImage": "https://opengraph.githubassets.com/03fdda58a114ea967c413769eb0f7acc559ba7b1338029dcb51b84f3a092591a/NOQ-DAFFACTOR/NANO.NOQ",
-        "publishedAt": "2025-12-06T09:48:51Z",
-        "content": "NANO.NOQ description\r\nThis project is purely an experimental format design, not a new cryptographic system.\r\nNANO.NOQ is a small file format designed to store AESGCM keys separately from ciphertext. … [+4028 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Brokerage behind major crypto treasury deals eyes $10–12B public listing: FT",
-        "description": "Clear Street is preparing a $10–12 billion IPO as the crypto-treasury model that fueled its rise shows strain, with Bitcoin down 30% and treasury stocks trading at discounts.",
-        "url": "https://cointelegraph.com/news/clear-street-prepares-10b-ipo-as-crypto-treasury-boom-falters",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af2fb-74fb-77da-b7c4-e85e87a24394",
-        "publishedAt": "2025-12-06T09:35:03Z",
-        "content": "Clear Street, a New York brokerage that has become one of the most active underwriters in the crypto-treasury boom, is preparing to go public with an expected valuation of $10 billion to $12 billion.… [+2978 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Libsyn.com"
-        },
-        "author": "John Lee Dumas",
-        "title": "Unleashing Your Hero: Rise Above Any Challenge, Expand Your Impact and be the Hero the World Needs with Kevin Brown: An EOFire Classic from 2021",
-        "description": "From the archive: This episode was originally recorded and published in 2021. Our interviews on Entrepreneurs On Fire are meant to be evergreen, and we do our best to confirm that all offers and URL's in these archive episodes are still relevant. Motivational…",
-        "url": "https://entrepreneuronfire.libsyn.com/unleashing-your-hero-rise-above-any-challenge-expand-your-impact-and-be-the-hero-the-world-needs-with-kevin-brown-an-eofire-classic-from2021",
-        "urlToImage": "http://assets.libsyn.com/show/37432?height=250&width=250&overlay=true",
-        "publishedAt": "2025-12-06T09:30:00Z",
-        "content": "From the archive: This episode was originally recorded and published in 2021. Our interviews on Entrepreneurs On Fire are meant to be evergreen, and we do our best to confirm that all offers and URL'… [+1555 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Yahoo Entertainment"
-        },
-        "author": "South China Morning Post",
-        "title": "7 Chinese industry bodies issue RWA tokenisation warning amid Beijing's crackdown",
-        "description": "Mainland Chinese industry associations have issued a joint warning to real-world asset (RWA) tokenisation providers after Beijing turned on the screws...",
-        "url": "https://finance.yahoo.com/news/7-chinese-industry-bodies-issue-093000629.html",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/It38gO5_QsuZmzzxfCDYtQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/south_china_morning_post_us_228/94d807a5e5a1a652633a7eb2e150fdc9",
-        "publishedAt": "2025-12-06T09:30:00Z",
-        "content": "Mainland Chinese industry associations have issued a joint warning to real-world asset (RWA) tokenisation providers after Beijing turned on the screws, dashing hopes that Beijing might ease restricti… [+4424 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Anas Hassan",
-        "title": "CoinShares Debunks Tether Collapse Fears After Hayes Warning",
-        "description": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who...",
-        "url": "https://cryptonews.com/news/coinshares-debunks-tether-collapse-fears-after-hayes-warning/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/0f1b1a2e4feb711942a2004d9b0268fc",
-        "publishedAt": "2025-12-06T09:13:47Z",
-        "content": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who claimed a 30% drop in the stablecoin issuer’… [+4573 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Ambcrypto.com"
-        },
-        "author": "Samyukhtha L KM",
-        "title": "Bitcoin whales freeze – Is BTC drifting toward $86.5K danger zone?",
-        "description": "BTC is going into an eerie calm.",
-        "url": "https://ambcrypto.com/bitcoin-whales-freeze-is-btc-drifting-toward-86-5k-danger-zone/",
-        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Samyukhtha-1-1000x600.webp",
-        "publishedAt": "2025-12-06T09:00:58Z",
-        "content": "Bitcoins [BTC] pace has softened, and the market suddenly feels quieter than it has in months.\r\nBig buyers arent adding much, long-term holders (LTH) arent selling heavily, and the price has slipped … [+2606 chars]"
       }
     ]
   }
