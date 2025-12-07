@@ -37,20 +37,52 @@ function buildQuery(terms) {
 }
 
 async function fetchNews() {
+  const SEARCH_QUERY = buildQuery(SEARCH_TERMS);
+  // Protect against too-long queries (NewsAPI can reject very long q= values)
+  const MAX_QUERY_LENGTH = 1000; // safe heuristic
+
+  let queryToUse = SEARCH_QUERY;
+  if (SEARCH_QUERY.length > MAX_QUERY_LENGTH) {
+    console.warn(
+      `Built query too long (${SEARCH_QUERY.length} chars). Falling back to compact query.`
+    );
+    // Compact fallback: keep a few high-signal tokens
+    const compact = ["crypto", "bitcoin", "ethereum", "bnb", "solana", "dogecoin", "cardano"];
+    queryToUse = buildQuery(compact);
+  }
+
   const url = new URL("https://newsapi.org/v2/everything");
-  url.searchParams.set("q", buildQuery(SEARCH_TERMS));
+  url.searchParams.set("q", queryToUse);
   url.searchParams.set("language", "en");
   url.searchParams.set("pageSize", String(PAGE_SIZE));
   url.searchParams.set("sortBy", "publishedAt");
+
+  console.log("Fetching NewsAPI URL:", url.toString().slice(0, 1000));
 
   const resp = await fetch(url.toString(), {
     headers: { "X-Api-Key": NEWS_API_KEY }
   });
 
-  if (!resp.ok) {
-    throw new Error(`NewsAPI fetch failed: ${resp.status} ${resp.statusText}`);
+  const bodyText = await resp.text().catch(() => null);
+  // Try to parse JSON error if present
+  let bodyJson = null;
+  try {
+    bodyJson = bodyText ? JSON.parse(bodyText) : null;
+  } catch (e) {
+    bodyJson = null;
   }
-  return await resp.json();
+
+  if (!resp.ok) {
+    console.error("NewsAPI returned non-OK:", resp.status, resp.statusText, bodyJson || bodyText);
+    throw new Error(`NewsAPI fetch failed: ${resp.status} ${resp.statusText} - ${bodyJson?.message || bodyText || "no body"}`);
+  }
+
+  // parse JSON from bodyText (we already read it)
+  try {
+    return bodyJson || JSON.parse(bodyText);
+  } catch (e) {
+    throw new Error("Failed to parse NewsAPI response JSON: " + (e.message || e));
+  }
 }
 
 async function atomicWrite(filePath, tmpPath, obj) {

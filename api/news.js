@@ -23,6 +23,11 @@ function buildQuery(terms) {
   return terms.map(t => (t.includes(" ") ? `"${t}"` : t)).join(" OR ");
 }
 
+function compactQueryFallback() {
+  const compact = ["crypto", "bitcoin", "ethereum", "bnb", "solana", "dogecoin", "cardano"];
+  return buildQuery(compact);
+}
+
 async function atomicWrite(filePath, obj) {
   const tmp = filePath + ".tmp";
   const data = JSON.stringify(obj, null, 2);
@@ -32,19 +37,32 @@ async function atomicWrite(filePath, obj) {
 
 export default async function handler(req, res) {
   const apiKey = process.env.NEWS_API_KEY;
+  let q = buildQuery(SEARCH_TERMS);
+  const MAX_QUERY_LENGTH = 1000;
+  if (q.length > MAX_QUERY_LENGTH) {
+    console.warn(`Built query too long (${q.length}), using compact fallback.`);
+    q = compactQueryFallback();
+  }
+
   const url = new URL("https://newsapi.org/v2/everything");
-  url.searchParams.set("q", buildQuery(SEARCH_TERMS));
+  url.searchParams.set("q", q);
   url.searchParams.set("sortBy", "publishedAt");
   url.searchParams.set("pageSize", String(PAGE_SIZE));
   url.searchParams.set("language", "en");
 
-  try {
-    const response = await fetch(url.toString() + `&apiKey=${apiKey}`);
-    if (!response.ok) {
-      throw new Error(`NewsAPI error: ${response.status}`);
-    }
+  console.log("Fetching NewsAPI URL:", url.toString().slice(0, 1000));
 
-    const data = await response.json();
+  try {
+    const resp = await fetch(url.toString() + `&apiKey=${apiKey}`);
+    const bodyText = await resp.text().catch(() => null);
+    let bodyJson = null;
+    try { bodyJson = bodyText ? JSON.parse(bodyText) : null; } catch(e){ bodyJson = null; }
+
+    if (!resp.ok) {
+      console.error("NewsAPI returned non-OK:", resp.status, resp.statusText, bodyJson || bodyText);
+      throw new Error(`NewsAPI error: ${resp.status} - ${bodyJson?.message || bodyText || "no body"}`);
+    }
+    const data = bodyJson || JSON.parse(bodyText);
 
     // Prepare cache object (timestamp + raw NewsAPI payload)
     const cacheObj = { timestamp: Date.now(), data };
