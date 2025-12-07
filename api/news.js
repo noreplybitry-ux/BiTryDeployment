@@ -4,7 +4,7 @@ import path from "path";
 const CACHE_FILE = path.join(process.cwd(), "api", "news_cache.json");
 const PUBLIC_CACHE_FILE = path.join(process.cwd(), "public", "news_cache.json");
 
-// Unified terms (match scripts/fetch-news.js)
+// Unified terms (same as scripts/fetch-news.js)
 const SEARCH_TERMS = [
   "bitcoin", "btc", "ethereum", "eth", "bnb", "binance coin",
   "solana", "sol", "cardano", "ada", "dogecoin", "doge",
@@ -23,9 +23,56 @@ function buildQuery(terms) {
   return terms.map(t => (t.includes(" ") ? `"${t}"` : t)).join(" OR ");
 }
 
-function compactQueryFallback() {
-  const compact = ["crypto", "bitcoin", "ethereum", "bnb", "solana", "dogecoin", "cardano"];
-  return buildQuery(compact);
+// Same filtering function used by the fetch script
+function filterCryptoArticles(raw) {
+  const articles = Array.isArray(raw.articles) ? raw.articles : [];
+  const topCryptos = SEARCH_TERMS.map(s => s.toLowerCase());
+  const advancedTerms = [
+    "defi","yield farming","liquidity mining","dao","governance token",
+    "smart contract audit","flash loan","arbitrage","mev","layer 2",
+    "zk-rollup","optimistic rollup","sharding","consensus mechanism",
+    "proof of stake validator","slashing","impermanent loss",
+    "options trading","futures","derivatives","technical analysis","fibonacci"
+  ];
+  const scamTerms = [
+    "memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi",
+    "pyramid scheme","get rich quick","guaranteed profit","meme coin","shiba inu","pepe","floki","safemoon"
+  ];
+  const techTerms = [
+    "blockchain development","smart contract development","web3 development",
+    "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
+    "evm","gas optimization"
+  ];
+
+  function hasAny(list, text) {
+    return list.some(term => text.includes(term));
+  }
+
+  const filtered = articles.filter(a => {
+    if (!a) return false;
+    const title = (a.title || "").toLowerCase();
+    const description = (a.description || "").toLowerCase();
+    const content = (title + " " + description).toLowerCase();
+
+    if (!title || !description) return false;
+    if (title === "[removed]" || description === "[removed]") return false;
+    if (title.includes("removed")) return false;
+    if (title.length <= 10 || title.length > 200) return false;
+    if (description.length <= 50) return false;
+
+    const isRelevant = hasAny(topCryptos, content);
+    const hasAdvanced = hasAny(advancedTerms, content);
+    const hasScam = hasAny(scamTerms, content);
+    const hasTech = hasAny(techTerms, content);
+
+    return isRelevant && !hasAdvanced && !hasScam && !hasTech;
+  });
+
+  return {
+    status: raw.status || "ok",
+    totalResults: filtered.length,
+    articles: filtered
+  };
 }
 
 async function atomicWrite(filePath, obj) {
@@ -43,7 +90,7 @@ export default async function handler(req, res) {
   const MAX_QUERY_LENGTH = 500;
   if (q.length > MAX_QUERY_LENGTH) {
     console.warn(`Built query too long (${q.length}), using compact fallback.`);
-    q = compactQueryFallback();
+    q = buildQuery(["crypto", "bitcoin", "ethereum", "bnb", "solana", "dogecoin", "cardano"]);
   }
 
   const url = new URL("https://newsapi.org/v2/everything");
@@ -65,10 +112,11 @@ export default async function handler(req, res) {
       throw new Error(`NewsAPI error: ${resp.status} - ${bodyJson?.message || bodyText || "no body"}`);
     }
 
-    const data = bodyJson || JSON.parse(bodyText);
+    // Filter the live NewsAPI payload for crypto relevance before caching/returning
+    const rawData = bodyJson || JSON.parse(bodyText);
+    const filteredData = filterCryptoArticles(rawData);
 
-    // Prepare cache object (timestamp + raw NewsAPI payload)
-    const cacheObj = { timestamp: Date.now(), data };
+    const cacheObj = { timestamp: Date.now(), data: filteredData };
 
     // Atomically write both server-side and public fallback (best-effort)
     (async () => {
@@ -82,11 +130,11 @@ export default async function handler(req, res) {
       }
     })();
 
-    // Mark response as live
-    res.setHeader("X-News-Source", "live");
+    // Mark response as live (but filtered)
+    res.setHeader("X-News-Source", "live-filtered");
     res.setHeader("X-News-Cache-Timestamp", new Date().toISOString());
 
-    return res.status(200).json(data);
+    return res.status(200).json(filteredData);
   } catch (error) {
     console.error("News fetch failed:", error.message);
 

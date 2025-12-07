@@ -1,16 +1,61 @@
 {
-<<<<<<< HEAD
-  "timestamp": "2025-12-07T14:17:54.220Z",
+  "timestamp": "2025-12-07T14:38:13.821Z",
   "data": {
     "status": "ok",
-    "totalResults": 16,
-=======
-  "timestamp": "2025-12-07T14:11:40.298Z",
-  "data": {
-    "status": "ok",
-    "totalResults": 17751,
->>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
+    "totalResults": 18,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Crypto Briefing"
+        },
+        "author": "Vivian Nguyen",
+        "title": "French banking giant BPCE will start letting customers buy Bitcoin and major tokens on Monday",
+        "description": "BPCE's crypto integration signals a shift in traditional banking, potentially accelerating digital asset adoption and regulatory evolution in Europe.\nThe post French banking giant BPCE will start letting customers buy Bitcoin and major tokens on Monday appear…",
+        "url": "https://cryptobriefing.com/buy-bitcoin-france-bpce-launch/",
+        "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2025/12/06093248/cec02a8b-878e-4ad1-bac8-000963266dd6-800x420.jpg",
+        "publishedAt": "2025-12-06T14:33:25Z",
+        "content": "Key Takeaways\r\n<ul><li>BPCE is allowing customers to buy Bitcoin, Ether, Solana, and USDC directly through its apps in a phased rollout starting with 2 million clients.</li><li>The rollout begins wit… [+1027 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Stephen Alpher",
+        "title": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger Deal",
+        "description": "Shares in the company fell more than 50% this week as the merger approval went forward.",
+        "url": "https://www.coindesk.com/markets/2025/12/06/anthony-pompliano-s-bitcoin-treasury-firm-procap-btc-closes-spac-merger-deal",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/31ca6f437b81910af6e1ba36ef18af29a8d3dcc3-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T14:29:36Z",
+        "content": "Special purpose acquisition company (SPAC) Columbus Circle Capital (BRR) and ProCap BTC led by Anthony Pompliano and having raised more than $750 million to build a bitcoin treasury firm closed their… [+1858 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CryptoSlate"
+        },
+        "author": "Gino Matos",
+        "title": "Zcash and privacy protocols face a “do-or-die” SEC meeting that determines if developers are personally liable for code",
+        "description": "The SEC’s Crypto Task Force scheduled a four-hour roundtable on financial surveillance and privacy for Dec. 15, bringing together zero-knowledge proof developers, civil liberties advocates, and protocol executives to debate whether blockchain privacy tools ca…",
+        "url": "https://cryptoslate.com/sec-drops-dec-15-roundtable-on-crypto-privacy-why-the-timing-matters/",
+        "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/sec-zcash-privacy.jpg",
+        "publishedAt": "2025-12-06T14:25:18Z",
+        "content": "The SEC’s Crypto Task Force scheduled a four-hour roundtable on financial surveillance and privacy for Dec. 15, bringing together zero-knowledge proof developers, civil liberties advocates, and proto… [+8238 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "cnbc.com",
+        "title": "Biggest mistakes crypto investors make with estate planning",
+        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
+        "url": "https://biztoc.com/x/8fa6e13e340de8e2",
+        "urlToImage": "https://biztoc.com/cdn/955/og.png",
+        "publishedAt": "2025-12-06T14:13:26Z",
+        "content": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.\r\nThis story appeared on cnbc.com, 2025-12-06… [+9 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -40,22 +85,6 @@
       {
         "source": {
           "id": null,
-<<<<<<< HEAD
-=======
-          "name": "Biztoc.com"
-        },
-        "author": "finance.yahoo.com",
-        "title": "Will Solana’s Price Trajectory Be Defined By Losses?",
-        "description": "Solana is in a critical phase as its recent decline continues to validate a channel pattern that has shaped its price action over the past week.\nThe downward movement highlights growing uncertainty, with investors now playing a key role in determining whether…",
-        "url": "https://biztoc.com/x/e48de8d2663a3d0a",
-        "urlToImage": "https://biztoc.com/cdn/e48de8d2663a3d0a_s.webp",
-        "publishedAt": "2025-12-06T14:02:36Z",
-        "content": "Solana is in a critical phase as its recent decline continues to validate a channel pattern that has shaped its price action over the past week.The downward movement highlights growing uncertainty, w… [+148 chars]"
-      },
-      {
-        "source": {
-          "id": null,
->>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
           "name": "Bitcoinist"
         },
         "author": "Ronaldo Marquez",
@@ -82,22 +111,6 @@
       {
         "source": {
           "id": null,
-<<<<<<< HEAD
-=======
-          "name": "Ambcrypto.com"
-        },
-        "author": "Ishika Kumari",
-        "title": "How Grayscale’s S-1 filing marks a new chapter in SUI’s ETF push",
-        "description": "Grayscale and 21Shares compete for Sui ETFs as institutional focus shifts toward altcoins beyond giants.",
-        "url": "https://ambcrypto.com/?p=551691",
-        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Grayscale-Files-S-1-for-New-SUI-ETF-1000x600.webp",
-        "publishedAt": "2025-12-06T14:00:16Z",
-        "content": "The competition to bring Sui to retail investors is intensifying. \r\nJust days after 21Shares launched the first Suibased ETF on Nasdaq, a major rival has entered the market.\r\nGrayscale files S-1 for … [+3170 chars]"
-      },
-      {
-        "source": {
-          "id": null,
->>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
           "name": "Yahoo Entertainment"
         },
         "author": "Monique Mulima",
@@ -111,22 +124,6 @@
       {
         "source": {
           "id": null,
-<<<<<<< HEAD
-=======
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Stablecoin Adoption Is ‘Exploding' — Here's Why Wall Street Is Going All-In",
-        "description": "Alchemy co-founder and president Joe Lau said stablecoin adoption is exploding as banks, fintechs and payment platforms push beyond the USDT/USDC exchange era.",
-        "url": "https://www.coindesk.com/business/2025/12/05/stablecoin-adoption-is-exploding-here-s-why-wall-street-is-going-all-in",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8917180f34ea9b0c2901371bca93bb3421ba3f36-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T14:00:00Z",
-        "content": "For the past few years, stablecoins have been defined by a narrow reality: essentially a two-horse race between Tether's USDT and Circle's (CRCL) USDC, with most activity concentrated on crypto-nativ… [+4495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
->>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
           "name": "newsBTC"
         },
         "author": "Opeyemi Sule",
@@ -139,100 +136,6 @@
       },
       {
         "source": {
-<<<<<<< HEAD
-=======
-          "id": "the-times-of-india",
-          "name": "The Times of India"
-        },
-        "author": "Shreya Biswas",
-        "title": "Why Warren Buffett nicknamed Big Short investor Michael Burry ‘Cassandra’ — here's the fascinating backstory",
-        "description": "Michael Burry Cassandra Unchained: Michael Burry, once dubbed \"Cassandra\" by Warren Buffett for his accurate but unheeded warnings of the housing bubble, has launched a paid Substack newsletter. This move follows his deregistration of Scion Asset Management, …",
-        "url": "https://economictimes.indiatimes.com/news/international/us/why-warren-buffett-nicknamed-big-short-investor-michael-burry-cassandra-heres-the-fascinating-backstory/articleshow/125805234.cms",
-        "urlToImage": "https://img.etimg.com/thumb/msid-125805587,width-1200,height-630,imgsize-194854,overlay-economictimes/articleshow.jpg",
-        "publishedAt": "2025-12-06T13:20:36Z",
-        "content": "Michael Burry Cassandra Unchained: The Big Short Michael Burry, best known for calling the mid-2000s housing bubble, has embraced the label that billionaire investor Warren Buffett once used to descr… [+3646 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, AI Boost",
-        "title": "LUNC Surges Over 160% in a Week as Do Kwon Sentencing and Token Burns Draw Traders",
-        "description": "The rally is driven by speculation that a final verdict could bring clarity to the project, as well as technical factors like token burns.",
-        "url": "https://www.coindesk.com/markets/2025/12/06/lunc-surges-over-160-in-a-week-as-do-kwon-sentencing-and-token-burns-draw-traders",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/174d8dd401bc0b71769b40cf615462b485717617-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T13:00:03Z",
-        "content": "LUNC\r\n$0.06315, the rebranded token from the collapsed Terra ecosystem, posted one of the largest gains in the crypto market over the past 24-hour period, climbing more than 74% to $0.0000072 on expl… [+1487 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "BeInCrypto"
-        },
-        "author": "Aaryamann Shrivastava",
-        "title": "Will Solana’s Price Trajectory Be Defined By Losses?",
-        "description": "Solana struggles inside a descending channel as bearish sentiment rises; investor behavior and market cues will determine SOL’s next move.",
-        "url": "https://beincrypto.com/solana-price-at-critical-point/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/5S5lKk8BrKF.vF.sCgYnPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/36cd2f6146991654ca04aa31ce37007b",
-        "publishedAt": "2025-12-06T13:00:00Z",
-        "content": "solana forward, solana price. Photo by BeInCrypto\r\nSolana is in a critical phase as its recent decline continues to validate a channel pattern that has shaped its price action over the past week. \r\nT… [+2424 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, AI Boost",
-        "title": "Euro Stablecoin Market Cap Doubles in Year After MiCA, Study Finds",
-        "description": "Prior to MiCA, euro-denominated stablecoins' market cap contracted by 48% in the year leading up to June 2024.",
-        "url": "https://www.coindesk.com/business/2025/12/06/hold-euro-stablecoin-market-cap-doubles-in-year-after-mica-decta-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8d075d8d9d0e4946f4d7853ec0883f32a4d7de1f-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-06T13:00:00Z",
-        "content": "The euro stablecoin market has rebounded in the year since the European Unions (EU) Markets in Crypto-Assets Regulation (MiCA) came into force, with market capitalization doubling after regulations g… [+1792 chars]"
-      },
-      {
-        "source": {
-          "id": "the-times-of-india",
-          "name": "The Times of India"
-        },
-        "author": "Shreya Biswas",
-        "title": "From a rejected startup laughed at by many to a $426 billion giant now buying Warner Bros — the Netflix story you didn’t know",
-        "description": "Netflix Warner Bros Discovery merger: Netflix, now a streaming giant, faced near-collapse in its early days. Jeff Bezos offered a buyout which was rejected. A cash crisis in 1999 was averted by Bernard Arnault's $30 million investment. Blockbuster famously la…",
-        "url": "https://economictimes.indiatimes.com/news/international/us/from-a-rejected-startup-laughed-at-by-many-to-a-426-billion-giant-now-buying-warner-bros-the-netflix-story-you-didnt-know/articleshow/125804893.cms",
-        "urlToImage": "https://img.etimg.com/thumb/msid-125805134,width-1200,height-630,imgsize-60416,overlay-economictimes/articleshow.jpg",
-        "publishedAt": "2025-12-06T12:35:23Z",
-        "content": "Netflix Warner Bros Discovery merger: Netflixs rise to a $426 billion powerhouse, now preparing to acquire Warner Bros Discovery in a $74 billion mega-merger, may make it seem like the streaming gian… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Western Union eyes inflation-resistant ‘stable cards’ as part of its stablecoin strategy",
-        "description": "Western Union plans to launch an inflation-resistant “stable card” and issue its own coin as part of a broader push into digital assets and global remittance modernization.",
-        "url": "https://cointelegraph.com/news/western-union-stable-card-stablecoin-strategy-emerging-markets",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af38d-567a-7f41-846a-d7bddc054ce5",
-        "publishedAt": "2025-12-06T12:31:59Z",
-        "content": "Western Union has unveiled plans to introduce a new stable card to protect users in high-inflation economies as part of its stablecoin strategy.\r\nSpeaking at the UBS Global Technology and AI conferen… [+2319 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Gizmodo.com"
-        },
-        "author": "Kyle Torpey",
-        "title": "Polymarket User Accused of $1 Million Insider Trade on Google Search Markets",
-        "description": "Prediction market observers have long warned that the business is ripe for insider trading.",
-        "url": "https://gizmodo.com/polymarket-user-accused-of-1-million-insider-trade-on-google-search-markets-2000696258",
-        "urlToImage": "https://gizmodo.com/app/uploads/2025/07/GettyImages-2221682966-1200x675.jpg",
-        "publishedAt": "2025-12-06T12:30:18Z",
-        "content": "A pseudonymous trader, known only as AlphaRaccoon, on prediction market Polymarket has drawn sharp scrutiny after reportedly turning a $1.15 million profit in under 24 hours by betting on Google’s 20… [+5161 chars]"
-      },
-      {
-        "source": {
->>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
           "id": null,
           "name": "Tistory.com"
         },
@@ -334,90 +237,6 @@
         "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/solana-base.jpg",
         "publishedAt": "2025-12-06T10:29:47Z",
         "content": "Base launched a bridge to Solana on Dec. 4, and within hours, Solana’s most vocal builders accused Jesse Pollak of running a vampire attack disguised as interoperability.\r\nThe bridge uses Chainlink C… [+7338 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-<<<<<<< HEAD
-=======
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "Hong Kong Summons International News Outlets for Rare Warning",
-        "description": "",
-        "url": "https://biztoc.com/x/4457ad88c0869124",
-        "urlToImage": "https://biztoc.com/cdn/4457ad88c0869124_s.webp",
-        "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+754 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "Charting the Global Economy: Europe, World Weathering Tariffs Better Than Expected",
-        "description": "",
-        "url": "https://biztoc.com/x/7f54282edd7d1bac",
-        "urlToImage": "https://biztoc.com/cdn/7f54282edd7d1bac_s.webp",
-        "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+759 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "J-Lo Is Back in the Former USSR as Putin Drives Stars Out of Moscow",
-        "description": "",
-        "url": "https://biztoc.com/x/3bec6bf0673b55ed",
-        "urlToImage": "https://biztoc.com/cdn/3bec6bf0673b55ed_s.webp",
-        "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+753 chars]"
-      },
-      {
-        "source": {
-          "id": null,
->>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
-          "name": "Cryptonews"
-        },
-        "author": "Amin Ayan",
-        "title": "MetaMask Enters Prediction Markets With Polymarket Integration",
-        "description": "MetaMask, the most widely used Ethereum wallet, is moving directly into the prediction market arena through a new integration with Polymarket, giving users...",
-        "url": "https://cryptonews.com/news/metamask-enters-prediction-markets-with-polymarket-integration/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/59b9a54d11dc7ec56de0e1f38ec90cbd",
-        "publishedAt": "2025-12-06T10:12:00Z",
-        "content": "MetaMask, the most widely used Ethereum wallet, is moving directly into the prediction market arena through a new integration with Polymarket, giving users the ability to trade event outcomes from in… [+3191 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Italy’s Market Watchdog Gives Crypto Firms A Clear Order: Act Or Exit",
-        "description": "According to a press release from Consob on December 4, 2025, Italy’s securities regulator told crypto and virtual asset service providers (VASPs) that they must secure authorization under the EU’s Markets in Crypto-Assets regime (MiCA) by December 30, 2025, …",
-        "url": "http://www.newsbtc.com/crypto/italys-market-watchdog-gives-crypto-firms-a-clear-order-act-or-exit/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_adc210.jpg",
-        "publishedAt": "2025-12-06T10:00:31Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-<<<<<<< HEAD
-=======
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "reuters.com",
-        "title": "Stocks higher, dollar set for second straight weekly loss as investors eye Fed cut",
-        "description": "",
-        "url": "https://biztoc.com/x/8b3f27180feba178",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T09:58:34Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+716 chars]"
->>>>>>> 3bccc29cdfe832e6e335c7d35acd8e0bbcb731e9
       }
     ]
   }

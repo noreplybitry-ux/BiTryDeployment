@@ -224,72 +224,36 @@ export default function News() {
     }
   };
 
-  // Gemini API call with retry logic
+  // Client -> server proxy call to /api/ai
   const callGeminiAPI = async (prompt, retries = GEMINI_CONFIG.retries) => {
-    const model = GEMINI_CONFIG.model;
-    const apiKey = GEMINI_API_KEY;
-
     for (let attempt = 1; attempt <= retries; attempt++) {
       try {
-        console.log(
-          `Attempting to call Gemini API (attempt ${attempt}/${retries})`,
-          { model, prompt: prompt.substring(0, 100) + "..." }
-        );
-
-        const response = await fetch(
-          `${GEMINI_CONFIG.baseUrl}${model}:generateContent?key=${apiKey}`,
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              contents: [{ parts: [{ text: prompt }] }],
-              generationConfig: {
-                temperature: 0.8,
-                topP: 0.9,
-              },
-            }),
-          }
-        );
-
-        const responseData = await response.json();
-        console.log("Gemini Response:", {
-          status: response.status,
-          body: responseData,
+        const resp = await fetch("/api/ai", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ prompt }),
         });
 
-        if (response.ok) {
-          if (
-            responseData.candidates &&
-            responseData.candidates[0]?.content?.parts?.[0]?.text
-          ) {
-            return responseData.candidates[0].content.parts[0].text;
-          } else {
-            throw new Error("Invalid response format from Gemini API");
-          }
-        } else if (response.status === 429) {
-          const waitTime = Math.min(attempt * 20000, 90000);
-          console.log(
-            `Rate limited (429), waiting ${waitTime}ms before retry ${attempt}/${retries}`
-          );
-          await new Promise((resolve) => setTimeout(resolve, waitTime));
-          continue;
-        } else {
-          throw new Error(
-            `Gemini API error: ${response.status} - ${JSON.stringify(
-              responseData
-            )}`
-          );
+        const contentType = resp.headers.get("content-type") || "";
+        const body = contentType.includes("application/json") ? await resp.json() : { rawText: await resp.text() };
+
+        if (!resp.ok) {
+          const message = body?.error || body?.message || (body?.rawText ? body.rawText : `Status ${resp.status}`);
+          const err = new Error(`AI proxy error: ${message}`);
+          err.status = resp.status;
+          throw err;
         }
-      } catch (error) {
-        console.error(`Attempt ${attempt} failed:`, error.message);
-        if (attempt === retries) {
-          throw new Error(`Failed after ${retries} attempts: ${error.message}`);
-        }
-        const waitTime = attempt * 3000;
-        console.log(`Waiting ${waitTime}ms before next retry...`);
-        await new Promise((resolve) => setTimeout(resolve, waitTime));
+
+        // If server returned parsed insights
+        if (body && body.insights) return body.insights;
+        // Otherwise return rawText for client fallback parsing
+        if (body && body.rawText) return body.rawText;
+        return null;
+      } catch (err) {
+        console.error(`AI proxy attempt ${attempt} failed:`, err.message);
+        if (attempt === retries) throw err;
+        const wait = attempt * 3000;
+        await new Promise((r) => setTimeout(r, wait));
       }
     }
   };
@@ -347,28 +311,38 @@ Output ONLY a valid JSON object with the following structure:
 Focus on cryptocurrency market impact only. Use beginner-friendly terms.
 `;
 
-      const response = await callGeminiAPI(prompt);
-
-      // DEBUG: log raw response so we can inspect it if parsing fails
-      console.log("Raw Gemini response:", response);
-
-      // First attempt: strict, minimal cleaning parse
+      // Try to get AI result from server proxy
       let parsedInsights = null;
       try {
-        const cleanedResponse = response
-          .replace(/```json\s*/gi, "")
-          .replace(/\s*```/g, "")
-          .trim()
-          .replace(/[\u0000-\u001F\u007F]/g, " "); // strip control chars
+        const aiResult = await callGeminiAPI(prompt);
 
-        parsedInsights = JSON.parse(cleanedResponse);
-        if (!parsedInsights || typeof parsedInsights !== "object") {
-          throw new Error("Parsed value is not an object");
+        if (aiResult && typeof aiResult === "object") {
+          // Proxy returned parsed JSON
+          parsedInsights = aiResult;
+        } else if (typeof aiResult === "string") {
+          // Proxy returned raw text — try strict parse then fallback
+          try {
+            const cleanedResponse = aiResult
+              .replace(/```json\s*/gi, "")
+              .replace(/\s*```/g, "")
+              .trim()
+              .replace(/[\u0000-\u001F\u007F]/g, " ");
+            parsedInsights = JSON.parse(cleanedResponse);
+            if (!parsedInsights || typeof parsedInsights !== "object") {
+              parsedInsights = parseAIJsonOrFallback(aiResult, article);
+            }
+          } catch (parseErr) {
+            console.warn("Strict JSON.parse failed for AI proxy response:", parseErr);
+            parsedInsights = parseAIJsonOrFallback(aiResult, article);
+          }
+        } else {
+          // No usable result; fallback to tolerant parser
+          parsedInsights = parseAIJsonOrFallback(null, article);
         }
-      } catch (parseErr) {
-        console.warn("Strict JSON.parse failed for Gemini response:", parseErr);
-        // Fall back to tolerant parser which does extraction and sanitization
-        parsedInsights = parseAIJsonOrFallback(response, article);
+      } catch (err) {
+        console.warn("AI proxy call failed:", err.message || err);
+        // fallback to local parsing/fallback helper
+        parsedInsights = parseAIJsonOrFallback(null, article);
       }
 
       // Increment usage and cache results (even if fallback)
