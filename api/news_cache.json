@@ -1,9 +1,165 @@
 {
-  "timestamp": "2025-12-07T16:14:10.467Z",
+  "timestamp": "2025-12-07T17:10:42.972Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin profit metric eyes 2-year lows in 'complete reset:' BTC analysis",
+        "description": "Bitcoin long-term holders lost interest in selling at $90,000, new research showed, as profitability of their BTC supply dried up.",
+        "url": "https://cointelegraph.com/news/bitcoin-profit-metric-eyes-2-year-lows-in-complete-reset-btc-analysis",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af444-47db-71ab-8a3e-ec2f426a9b4c",
+        "publishedAt": "2025-12-06T17:05:00Z",
+        "content": "Bitcoin (BTC) has seen a complete reset of sell pressure after dropping below $90,000, says new research.\r\nKey points:\r\n<ul><li>Bitcoin long-term holders have reset their selling habits as BTC price … [+2472 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "Cardano Builders are Now Betting on AI and Quantum Computing Growth",
+        "description": "Input Output, the engineering firm best known for building Cardano, has begun a sweeping restructuring that includes a name change and a move into technology sectors far beyond its blockchain origins.\nThe company said on December 5 that it will drop “Global” …",
+        "url": "https://biztoc.com/x/3b71d9b6514dd1f4",
+        "urlToImage": "https://biztoc.com/cdn/3b71d9b6514dd1f4_s.webp",
+        "publishedAt": "2025-12-06T17:00:42Z",
+        "content": "Input Output, the engineering firm best known for building Cardano, has begun a sweeping restructuring that includes a name change and a move into technology sectors far beyond its blockchain origins… [+148 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BeInCrypto"
+        },
+        "author": "Oluwapelumi Adejumo",
+        "title": "Cardano Builders are Now Betting on AI and Quantum Computing Growth",
+        "description": "Input Output, the engineering firm behind the Cardano blockchain, is restructuring and rebranding as Input Output Group.",
+        "url": "https://beincrypto.com/cardano-developer-expands-to-ai-quantum-computing/",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/6VFH4i.KMrz0bGa2MJzDCQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/24d5a3fbd8f5d379125de8aac62436c5",
+        "publishedAt": "2025-12-06T16:53:08Z",
+        "content": "Photo by BeInCrypto\r\nInput Output, the engineering firm best known for building Cardano, has begun a sweeping restructuring that includes a name change and a move into technology sectors far beyond i… [+2447 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "BTC poised for December recovery on ‘macro tailwinds,' Fed rate cut: Coinbase",
+        "description": "Bitcoin is poised for a December recovery, driven by growing global M2 money supply and rate cut expectations. However, Fed Chair Powell’s potential hawkish remarks may limit Bitcoin’s rise in 2026.",
+        "url": "https://cointelegraph.com/news/bitcoin-december-recovery-macro-fed-rate-cut-coinbase",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af483-f2b0-7eaa-9be5-a4555dcf1532",
+        "publishedAt": "2025-12-06T16:51:22Z",
+        "content": "Bitcoin's Santa rally may be ignited by macroeconomic tailwinds, including the Federal Reserves incoming interest rate decision, but fearful investor sentiment may take another hit by any hawkish rem… [+2719 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BleepingComputer"
+        },
+        "author": "",
+        "title": "Best Crypto Asset Recovery Service Providers: Top Firms to Retrieve Lost Crypto",
+        "description": "Best Crypto Asset Recovery Service Providers: Top Firms to Retrieve Lost Crypto - posted in Windows Crashes and Blue Screen of Death (BSOD) Help and Support: ZEUS CRYPTO RECOVERY SERVICES delivers expert support for recovering lost, stolen, or inaccessible cr…",
+        "url": "https://www.bleepingcomputer.com/forums/t/812233/best-crypto-asset-recovery-service-providers-top-firms-to-retrieve-lost-crypto/",
+        "urlToImage": "https://www.bleepingcomputer.com/forums/public/style_images/master/meta_image.png",
+        "publishedAt": "2025-12-06T16:40:52Z",
+        "content": "ZEUS CRYPTO RECOVERY SERVICES delivers expert support for recovering lost, stolen, or inaccessible cryptocurrency. Through advanced blockchain analytics and secure forensic methods, they trace digita… [+319 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "Strategy CEO Says No Bitcoin Sale till 2065 Despite BTC Losing $90K Support",
+        "description": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend volatility, exposing the correlation between thinning liquidity and larger directional moves when U.S. mar…",
+        "url": "https://biztoc.com/x/c593a894213d702b",
+        "urlToImage": "https://biztoc.com/cdn/c593a894213d702b_s.webp",
+        "publishedAt": "2025-12-06T16:38:07Z",
+        "content": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend volatility, exposing the correlation between t… [+145 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Wolfram.com"
+        },
+        "author": "Davis Tyrell",
+        "title": "Best Crypto Asset Recovery Service Providers: Top Firms to Retrieve Lost Cryptocurrency",
+        "description": "ZEUS CRYPTO RECOVERY SERVICES delivers expert support for recovering lost, stolen, or inaccessible cryptocurrency. Through advanced blockchain analytics and secure forensic methods, they trace digital assets, restore wallet access, and assist victims of scams…",
+        "url": "https://community.wolfram.com/groups/-/m/t/3586710",
+        "urlToImage": "http://community.wolfram.com/share.png",
+        "publishedAt": "2025-12-06T16:33:18Z",
+        "content": "ZEUS CRYPTO RECOVERY SERVICES delivers expert support for recovering lost, stolen, or inaccessible cryptocurrency. Through advanced blockchain analytics and secure forensic methods, they trace digita… [+319 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Massive Bitcoin Awakening: 2 Physical Coins Unlock $179 Million After 13 Years",
+        "description": "Two long-dormant Casascius coins, each loaded with 1,000 Bitcoin, were activated on Friday, unlocking more than $179 million that had sat untouched for over 13 years. Related Reading: Bitcoin Adoption Is Just Getting Started — 200x Growth Possible, Tom Lee Sa…",
+        "url": "http://www.newsbtc.com/news/bitcoin/massive-bitcoin-awakening-2-physical-coins-unlock-179-million-after-13-years/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_986f59.jpg?fit=3000%2C2000",
+        "publishedAt": "2025-12-06T16:30:51Z",
+        "content": "Two long-dormant Casascius coins, each loaded with 1,000 Bitcoin, were activated on Friday, unlocking more than $179 million that had sat untouched for over 13 years.\r\nAccording to onchain data, one … [+2533 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Scott Matherson",
+        "title": "Ripple Announces Groundbreaking “One-Stop Shop” For Everything, Here’s What It Is",
+        "description": "Crypto firm Ripple recently announced its mission to be the one-stop shop for crypto infrastructure. This came as the firm highlighted the acquisitions it made this year in a bid to achieve this mission.  Ripple Unveils One-Stop Shop For Digital Asset Infrast…",
+        "url": "https://bitcoinist.com/ripple-announces-one-stop-shop/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/Ripple-from-YouTube.jpg",
+        "publishedAt": "2025-12-06T16:30:42Z",
+        "content": "Crypto firm Ripple recently announced its mission to be the one-stop shop for crypto infrastructure. This came as the firm highlighted the acquisitions it made this year in a bid to achieve this miss… [+3180 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Crypto Briefing"
+        },
+        "author": "Vivian Nguyen",
+        "title": "Two Casascius coins with $2,000 Bitcoin move after 13 years of dormancy",
+        "description": "The movement of these rare physical Bitcoins highlights the enduring value and historical significance of early crypto artifacts.\nThe post Two Casascius coins with $2,000 Bitcoin move after 13 years of dormancy appeared first on Crypto Briefing.",
+        "url": "https://cryptobriefing.com/casascius-coins-move-dormant-bitcoin-activity-2025/",
+        "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2025/12/06112111/58aa458e-f508-401e-a40e-0975cb23ab17-800x420.jpg",
+        "publishedAt": "2025-12-06T16:21:54Z",
+        "content": "Key Takeaways\r\n<ul><li>Two Casascius physical Bitcoin coins containing about $2,000 moved after 13 years of dormancy.</li><li>Casascius coins are rare, physical coins embedding private keys beneath a… [+573 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "finance.yahoo.com",
+        "title": "Zcash Price Struggle Below $400 Is Down To Bitcoin, Here’s How",
+        "description": "Zcash price has faced renewed selling pressure after a sharp 16% decline in the last 24 hours, pulling the altcoin down from its attempted move above $400.\nThe rejection has delayed ZEC’s attempt to reclaim higher levels, and the extended wait could introduce…",
+        "url": "https://biztoc.com/x/992824a4bfb5a47e",
+        "urlToImage": "https://biztoc.com/cdn/992824a4bfb5a47e_s.webp",
+        "publishedAt": "2025-12-06T16:16:10Z",
+        "content": "Zcash price has faced renewed selling pressure after a sharp 16% decline in the last 24 hours, pulling the altcoin down from its attempted move above $400.The rejection has delayed ZECs attempt to re… [+144 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinspeaker"
+        },
+        "author": "Ibrahim Ajibade",
+        "title": "Strategy CEO Says No Bitcoin Sale till 2065 Despite BTC Losing $90K Support",
+        "description": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend...",
+        "url": "https://www.coinspeaker.com/strategy-ceo-says-no-bitcoin-sale-till-2065-despite-btc-losing-90k-support/",
+        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/3ab212062555682e1e15ca3bbf03edef",
+        "publishedAt": "2025-12-06T16:15:35Z",
+        "content": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend volatility, exposing the correlation between t… [+2451 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -367,84 +523,6 @@
         "urlToImage": "https://biztoc.com/cdn/955/og.png",
         "publishedAt": "2025-12-06T14:13:26Z",
         "content": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.\r\nThis story appeared on cnbc.com, 2025-12-06… [+9 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Sun Sentinel"
-        },
-        "author": "Ira Winderman, South Florida Sun-Sentinel",
-        "title": "Ira Winderman: Based on schedule, better if Heat NBA Cup runneth is over?",
-        "description": "MIAMI — You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular. But there also are times when the greater good has to be considered, of getting your team whole and healthy through the 82-game reg…",
-        "url": "https://www.sun-sentinel.com/2025/12/06/ira-winderman-based-on-schedule-better-if-heat-nba-cup-runneth-is-over/",
-        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-        "publishedAt": "2025-12-06T14:05:00Z",
-        "content": "MIAMI You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular.\r\nBut there also are times when the greater good has to be considered, of … [+7852 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CNBC"
-        },
-        "author": null,
-        "title": "Biggest mistakes crypto investors make with estate planning",
-        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
-        "url": "https://www.cnbc.com/2025/12/06/crypto-investors-estate-planning-taxes-mistakes.html",
-        "urlToImage": "https://image.cnbcfm.com/api/v1/image/105154690-crypto.jpg?v=1764701916&w=1920&h=1080",
-        "publishedAt": "2025-12-06T14:03:30Z",
-        "content": "Roughly 1 in 7 people are leaving unclaimed property on the table, according to the National Association of Unclaimed Property Administrators. While the recent heavy selling in bitcoin and ether is r… [+7444 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Bitcoinist"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "SEC Chair Paul Atkins Advocates For Modernizing Crypto Regulations– Here’s How",
-        "description": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SEC’s intent to modernize its rules to facilitate an on-chain market environmen…",
-        "url": "https://bitcoinist.com/sec-chair-advocates-modernizing-crypto-regulations/",
-        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/04/Screenshot_978.jpg",
-        "publishedAt": "2025-12-06T14:00:42Z",
-        "content": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SECs intent to mode… [+3468 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "BeInCrypto"
-        },
-        "author": "Brian McGleenon",
-        "title": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning",
-        "description": "After a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) are in a danger zone during December.",
-        "url": "https://beincrypto.com/december-decide-fate-digital-asset-treasuries/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/A2SWDNCCkCPRhIwSo0dqSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/de1248b79cb6b1eb1400c24fdf12c8b6",
-        "publishedAt": "2025-12-06T14:00:27Z",
-        "content": "Bitcoin Flashes a Rare Signal as a $13B Fed Shock HitsIs a Reversal Beginning?. Photo by BeInCrypto\r\nAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been… [+4523 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Yahoo Entertainment"
-        },
-        "author": "Monique Mulima",
-        "title": "From 2600% Gain to 86% Wipeout, Crypto’s Hottest Trade Collapsed",
-        "description": "An array of public companies thought they had found a sort of perpetual motion machine: Use your corporate cash to buy up Bitcoin or other digital tokens and...",
-        "url": "https://finance.yahoo.com/news/2600-gain-86-wipeout-crypto-140000811.html",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1ZaxxAQKXon.g2oSjE80DQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_holding_pen_162/af8dbb45d094b00c65cf4b0c8b6191a7",
-        "publishedAt": "2025-12-06T14:00:00Z",
-        "content": "Photographer: Camilo Freedman/Bloomberg\r\n(Bloomberg) -- What began the year as one of the best trades in the stock market has, in a matter of months, turned into one of the worst.\r\nAn array of public… [+6474 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Price Falls Below $90,000 — Is The Recovery Over?",
-        "description": "The Bitcoin price has had a mixed performance over the past week, with both sides of the market divide struggling to establish dominance. In the latest battle between the bulls and bears, the premier cryptocurrency appears to be succumbing to pressure from th…",
-        "url": "http://www.newsbtc.com/news/bitcoin-price-falls-below-90000-recovery-over/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1383793414.jpg?fit=1272%2C824",
-        "publishedAt": "2025-12-06T13:30:13Z",
-        "content": "The Bitcoin price has had a mixed performance over the past week, with both sides of the market divide struggling to establish dominance. In the latest battle between the bulls and bears, the premier… [+2392 chars]"
       }
     ]
   }
