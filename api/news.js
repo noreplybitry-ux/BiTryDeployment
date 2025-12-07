@@ -82,37 +82,42 @@ export default async function handler(req, res) {
       }
     })();
 
+    // Mark response as live
+    res.setHeader("X-News-Source", "live");
+    res.setHeader("X-News-Cache-Timestamp", new Date().toISOString());
+
     return res.status(200).json(data);
   } catch (error) {
     console.error("News fetch failed:", error.message);
 
-    // Try to serve cached data if available (prefer newest between api and public cache)
+    // Prefer the server-side cache (api/news_cache.json) for fallback.
     try {
-      const candidates = [];
       if (fs.existsSync(CACHE_FILE)) {
-        const raw1 = await fs.promises.readFile(CACHE_FILE, "utf8");
-        const parsed1 = JSON.parse(raw1);
-        if (parsed1 && parsed1.timestamp) candidates.push(parsed1);
-      }
-      if (fs.existsSync(PUBLIC_CACHE_FILE)) {
-        const raw2 = await fs.promises.readFile(PUBLIC_CACHE_FILE, "utf8");
-        const parsed2 = JSON.parse(raw2);
-        if (parsed2 && parsed2.timestamp) candidates.push(parsed2);
+        const raw = await fs.promises.readFile(CACHE_FILE, "utf8");
+        const parsed = JSON.parse(raw);
+        if (parsed && parsed.timestamp) {
+          res.setHeader("X-News-Source", "api-cache");
+          res.setHeader("X-News-Cache-Timestamp", new Date(parsed.timestamp).toISOString());
+          return res.status(200).json(parsed.data);
+        }
       }
 
-      if (candidates.length > 0) {
-        candidates.sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
-        const chosen = candidates[0];
-        if (chosen && chosen.timestamp) {
-          res.setHeader("X-News-Cache-Timestamp", new Date(chosen.timestamp).toISOString());
+      // If api cache missing, fall back to public/news_cache.json
+      if (fs.existsSync(PUBLIC_CACHE_FILE)) {
+        const rawPub = await fs.promises.readFile(PUBLIC_CACHE_FILE, "utf8");
+        const parsedPub = JSON.parse(rawPub);
+        if (parsedPub && parsedPub.timestamp) {
+          res.setHeader("X-News-Source", "public-cache");
+          res.setHeader("X-News-Cache-Timestamp", new Date(parsedPub.timestamp).toISOString());
+          return res.status(200).json(parsedPub.data);
         }
-        return res.status(200).json(chosen.data);
       }
     } catch (cacheErr) {
       console.error("Failed to read news cache:", cacheErr);
     }
 
     // No cache available — return error
+    res.setHeader("X-News-Source", "none");
     return res.status(500).json({ error: error.message });
   }
 }
