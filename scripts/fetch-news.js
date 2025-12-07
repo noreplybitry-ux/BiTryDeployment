@@ -15,11 +15,32 @@ const TMP_PUBLIC = OUT_PUBLIC + ".tmp";
 const OUT_API = path.join(process.cwd(), "api", "news_cache.json");
 const TMP_API = OUT_API + ".tmp";
 
+// Unified query terms (keeps same terms used by server)
+const SEARCH_TERMS = [
+  "bitcoin", "btc", "ethereum", "eth", "bnb", "binance coin",
+  "solana", "sol", "cardano", "ada", "dogecoin", "doge",
+  "polygon", "matic", "avalanche", "avax", "chainlink", "link",
+  "coinbase", "crypto", "crypto.com", "pdax", "coins.ph",
+  "crypto beginner", "how to buy", "crypto guide", "crypto tutorial",
+  "crypto investment", "cryptocurrency explained", "crypto basics",
+  "crypto trading", "crypto wallet", "crypto exchange", "crypto price",
+  "crypto market", "bitcoin price", "ethereum price", "crypto news",
+  "cryptocurrency market", "crypto analysis"
+];
+
+const PAGE_SIZE = 50;
+
+function buildQuery(terms) {
+  return terms
+    .map(t => (t.includes(" ") ? `"${t}"` : t))
+    .join(" OR ");
+}
+
 async function fetchNews() {
   const url = new URL("https://newsapi.org/v2/everything");
-  url.searchParams.set("q", "crypto OR bitcoin OR ethereum OR cryptocurrency");
+  url.searchParams.set("q", buildQuery(SEARCH_TERMS));
   url.searchParams.set("language", "en");
-  url.searchParams.set("pageSize", "50");
+  url.searchParams.set("pageSize", String(PAGE_SIZE));
   url.searchParams.set("sortBy", "publishedAt");
 
   const resp = await fetch(url.toString(), {
@@ -50,29 +71,18 @@ async function fileEquals(filePath, contentStr) {
 // Filtering logic (same idea as client)
 function filterCryptoArticles(raw) {
   const articles = Array.isArray(raw.articles) ? raw.articles : [];
-  const topCryptos = [
-    "bitcoin","btc","ethereum","eth","bnb","binance coin","solana","sol",
-    "cardano","ada","dogecoin","doge","polygon","matic","avalanche","avax",
-    "chainlink","link","coinbase","crypto","crypto.com","pdax","coins.ph","crypto beginner",
-    "how to buy","crypto guide","crypto tutorial","crypto investment",
-    "cryptocurrency explained","crypto basics","crypto trading","crypto wallet",
-    "crypto exchange","crypto price","crypto market","bitcoin price",
-    "ethereum price","crypto news","cryptocurrency market","crypto analysis"
-  ];
-
+  const topCryptos = SEARCH_TERMS.map(s => s.toLowerCase());
   const advancedTerms = [
     "defi","yield farming","liquidity mining","dao","governance token",
-    "smart contract audit","flash loan","arbitrage","mev","layer 2","zk-rollup",
-    "optimistic rollup","sharding","consensus mechanism","proof of stake validator",
-    "slashing","impermanent loss","options trading","futures","derivatives",
-    "technical analysis","fibonacci"
+    "smart contract audit","flash loan","arbitrage","mev","layer 2",
+    "zk-rollup","optimistic rollup","sharding","consensus mechanism",
+    "proof of stake validator","slashing","impermanent loss",
+    "options trading","futures","derivatives","technical analysis","fibonacci"
   ];
-
   const scamTerms = [
     "memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi",
     "pyramid scheme","get rich quick","guaranteed profit","meme coin"
   ];
-
   const techTerms = [
     "blockchain development","smart contract development","web3 development",
     "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
@@ -103,7 +113,6 @@ function filterCryptoArticles(raw) {
     return isRelevant && !hasAdvanced && !hasScam && !hasTech;
   });
 
-  // Keep original article objects for maximum data; you may map to a smaller schema if preferred.
   return {
     status: raw.status || "ok",
     totalResults: filtered.length,
@@ -115,14 +124,14 @@ function filterCryptoArticles(raw) {
   try {
     const data = await fetchNews();
 
-    // Full wrapped payload for public
+    // Public wrapped payload
     const publicPayload = {
       timestamp: new Date().toISOString(),
       data
     };
     const publicSerialized = JSON.stringify(publicPayload, null, 2) + "\n";
 
-    // Crypto-filtered payload for api/news_cache.json (NewsAPI-shaped)
+    // Crypto-filtered payload (NewsAPI-shaped) for api/news_cache.json
     const filtered = filterCryptoArticles(data);
     const apiPayload = {
       timestamp: new Date().toISOString(),
@@ -130,7 +139,6 @@ function filterCryptoArticles(raw) {
     };
     const apiSerialized = JSON.stringify(apiPayload, null, 2) + "\n";
 
-    // Determine what changed; write only changed files
     const publicChanged = !(await fileEquals(OUT_PUBLIC, publicSerialized));
     const apiChanged = !(await fileEquals(OUT_API, apiSerialized));
 
@@ -147,10 +155,7 @@ function filterCryptoArticles(raw) {
     }
 
     if (apiChanged) {
-      // Ensure api directory exists (should already)
-      try {
-        await fs.mkdir(path.dirname(OUT_API), { recursive: true });
-      } catch (e) {}
+      try { await fs.mkdir(path.dirname(OUT_API), { recursive: true }); } catch (e) {}
       await atomicWrite(OUT_API, TMP_API, apiPayload);
       console.log("Wrote filtered crypto cache to", OUT_API);
     } else {

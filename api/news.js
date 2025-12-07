@@ -4,6 +4,25 @@ import path from "path";
 const CACHE_FILE = path.join(process.cwd(), "api", "news_cache.json");
 const PUBLIC_CACHE_FILE = path.join(process.cwd(), "public", "news_cache.json");
 
+// Unified terms must match the fetch script
+const SEARCH_TERMS = [
+  "bitcoin", "btc", "ethereum", "eth", "bnb", "binance coin",
+  "solana", "sol", "cardano", "ada", "dogecoin", "doge",
+  "polygon", "matic", "avalanche", "avax", "chainlink", "link",
+  "coinbase", "crypto", "crypto.com", "pdax", "coins.ph",
+  "crypto beginner", "how to buy", "crypto guide", "crypto tutorial",
+  "crypto investment", "cryptocurrency explained", "crypto basics",
+  "crypto trading", "crypto wallet", "crypto exchange", "crypto price",
+  "crypto market", "bitcoin price", "ethereum price", "crypto news",
+  "cryptocurrency market", "crypto analysis"
+];
+
+const PAGE_SIZE = 50;
+
+function buildQuery(terms) {
+  return terms.map(t => (t.includes(" ") ? `"${t}"` : t)).join(" OR ");
+}
+
 async function atomicWrite(filePath, obj) {
   const tmp = filePath + ".tmp";
   const data = JSON.stringify(obj, null, 2);
@@ -13,10 +32,14 @@ async function atomicWrite(filePath, obj) {
 
 export default async function handler(req, res) {
   const apiKey = process.env.NEWS_API_KEY;
-  const url = `https://newsapi.org/v2/everything?q=("bitcoin"%20OR%20"ethereum"%20OR%20"BTC"%20OR%20"ETH"%20OR%20"crypto%20price"%20OR%20"cryptocurrency%20market"%20OR%20"binance"%20OR%20"coinbase"%20OR%20"dogecoin"%20OR%20"solana"%20OR%20"cardano"%20OR%20"polygon"%20OR%20"chainlink"%20OR%20"avalanche"%20OR%20"crypto%20beginner"%20OR%20"how%20to%20buy%20crypto")&sortBy=publishedAt&pageSize=100&language=en&domains=coindesk.com,cointelegraph.com,decrypt.co,cryptonews.com,bitcoin.com,bitcoinmagazine.com&apiKey=${apiKey}`;
+  const url = new URL("https://newsapi.org/v2/everything");
+  url.searchParams.set("q", buildQuery(SEARCH_TERMS));
+  url.searchParams.set("sortBy", "publishedAt");
+  url.searchParams.set("pageSize", String(PAGE_SIZE));
+  url.searchParams.set("language", "en");
 
   try {
-    const response = await fetch(url);
+    const response = await fetch(url.toString() + `&apiKey=${apiKey}`);
     if (!response.ok) {
       throw new Error(`NewsAPI error: ${response.status}`);
     }
@@ -42,18 +65,27 @@ export default async function handler(req, res) {
   } catch (error) {
     console.error("News fetch failed:", error.message);
 
-    // Try to serve cached data if available
+    // Try to serve cached data if available (prefer newest between api and public cache)
     try {
+      const candidates = [];
       if (fs.existsSync(CACHE_FILE)) {
-        const raw = await fs.promises.readFile(CACHE_FILE, "utf8");
-        const parsed = JSON.parse(raw);
+        const raw1 = await fs.promises.readFile(CACHE_FILE, "utf8");
+        const parsed1 = JSON.parse(raw1);
+        if (parsed1 && parsed1.timestamp) candidates.push(parsed1);
+      }
+      if (fs.existsSync(PUBLIC_CACHE_FILE)) {
+        const raw2 = await fs.promises.readFile(PUBLIC_CACHE_FILE, "utf8");
+        const parsed2 = JSON.parse(raw2);
+        if (parsed2 && parsed2.timestamp) candidates.push(parsed2);
+      }
 
-        if (parsed && parsed.timestamp) {
-          res.setHeader("X-News-Cache-Timestamp", new Date(parsed.timestamp).toISOString());
+      if (candidates.length > 0) {
+        candidates.sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+        const chosen = candidates[0];
+        if (chosen && chosen.timestamp) {
+          res.setHeader("X-News-Cache-Timestamp", new Date(chosen.timestamp).toISOString());
         }
-
-        // Return cached NewsAPI-shaped payload so frontend needs no change
-        return res.status(200).json(parsed.data);
+        return res.status(200).json(chosen.data);
       }
     } catch (cacheErr) {
       console.error("Failed to read news cache:", cacheErr);
