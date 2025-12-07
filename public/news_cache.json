@@ -1,9 +1,61 @@
 {
-  "timestamp": "2025-12-07T19:10:07.452Z",
+  "timestamp": "2025-12-07T20:13:48.972Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "Shreya Biswas",
+        "title": "Trump approval ratings slide in latest polls: Supreme Court case, Venezuela tensions, and Indiana redistricting shake public opinion",
+        "description": "Donald Trump approval ratings: US President Donald Trump's approval ratings have declined across major polls. This comes as the Supreme Court considers his challenge to birthright citizenship. Trump also received a FIFA Peace Prize, citing his conflict resolu…",
+        "url": "https://economictimes.indiatimes.com/news/international/us/trump-approval-ratings-slide-in-latest-polls-supreme-court-case-venezuela-tensions-and-indiana-redistricting-shake-public-opinion/articleshow/125809901.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-125809932,width-1200,height-630,imgsize-98158,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2025-12-06T20:05:30Z",
+        "content": "Donald Trump approval ratings: US president Donald Trump ended the week facing slipping approval ratings across most major polls, as he navigated a series of legal battles, foreign policy tensions an… [+2858 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pypi.org"
+        },
+        "author": "contact@verdict.example.com",
+        "title": "verdict-sdk added to PyPI",
+        "description": "Python SDK for VERDICT AI-powered crypto trading analyzer",
+        "url": "https://pypi.org/project/verdict-sdk/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T19:58:43Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pypi.org"
+        },
+        "author": "contact@verdict.example.com",
+        "title": "verdict-sdk 0.1.0",
+        "description": "Python SDK for VERDICT AI-powered crypto trading analyzer",
+        "url": "https://pypi.org/project/verdict-sdk/0.1.0/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T19:58:43Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "Shreya Biswas",
+        "title": "Bitcoin price (BTC USD) today falls to $89,000 — Strategy CEO Phong Lee calms crypto market, says no BTC sales until 2065",
+        "description": "Bitcoin price ​today: Strategy CEO Phong Lee reassured investors, stating the firm won't sell its Bitcoin until 2065, despite recent market volatility and liquidations. The cryptocurrency is holding near $89,691, within an 18-month cup-and-handle pattern. Whi…",
+        "url": "https://economictimes.indiatimes.com/news/international/us/bitcoin-price-btc-usd-today-falls-to-89000-strategy-ceo-phong-lee-calms-crypto-market-says-no-btc-sales-until-2065/articleshow/125809529.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-125809663,width-1200,height-630,imgsize-154310,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2025-12-06T19:25:41Z",
+        "content": "Bitcoin price today: Strategy CEO Phong Lee stepped forward on Saturday to steady shaken sentiment after Bitcoin briefly fell below $88,000, a drop triggered by more than $500 million in liquidations… [+3264 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -432,84 +484,6 @@
         "urlToImage": null,
         "publishedAt": "2025-12-06T15:23:59Z",
         "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Why CFTC-approved spot Bitcoin, Ethereum trading is a 'massively huge deal'",
-        "description": "Gold has increased by 4,000% following the CFTC's approval in the 1970s, leaving Bitcoin and Ethereum with a similar scaling setup.",
-        "url": "https://cointelegraph.com/news/why-cftc-approved-spot-crypto-trading-is-big-deal-for-bitcoin-ethereum",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af31b-08f5-7222-be72-b90dd4d61b20",
-        "publishedAt": "2025-12-06T15:22:09Z",
-        "content": "On Thursday, the US Commodity Futures Trading Commission (CFTC) announced that spot Bitcoin (BTC) and Ether (ETH) products will begin trading for the first time on its registered futures exchanges. \r… [+3848 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "finance.yahoo.com",
-        "title": "Professor Coin: When Bitcoin Sneezes—How Crypto and Equities Caught the Same Cold",
-        "description": "Professor Andrew Urquhart is Professor of Finance and Financial Technology and Head of the Department of Finance at Birmingham Business School (BBS).\nThis is the tenth installment of the Professor Coin column, in which I bring important insights from publishe…",
-        "url": "https://biztoc.com/x/bd9b18640b8f6af1",
-        "urlToImage": "https://biztoc.com/cdn/bd9b18640b8f6af1_s.webp",
-        "publishedAt": "2025-12-06T15:20:22Z",
-        "content": "Professor Andrew Urquhart is Professor of Finance and Financial Technology and Head of the Department of Finance at Birmingham Business School (BBS).This is the tenth installment of the Professor Coi… [+146 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "support@blocky.com.br",
-        "title": "blockypy 0.2.2",
-        "description": "Official Python client library for the Blocky Crypto Exchange API",
-        "url": "https://pypi.org/project/blockypy/0.2.2/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T15:13:31Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "The Grandma Test: When Your Mom Can Use DePIN, Mass Adoption Has Arrived",
-        "description": "The Grandma Test: When Your Mom Can Use DePIN, Mass Adoption Has Arrived\nMass adoption doesn't happen when crypto enthusiasts start using the technology: it happens when your grandma does it without even realizing it, argues Uplink co-founder Carlos Lei.\nIn a…",
-        "url": "https://biztoc.com/x/e99cdd05eb8797c1",
-        "urlToImage": "https://biztoc.com/cdn/e99cdd05eb8797c1_s.webp",
-        "publishedAt": "2025-12-06T15:09:21Z",
-        "content": "The Grandma Test: When Your Mom Can Use DePIN, Mass Adoption Has ArrivedMass adoption doesn't happen when crypto enthusiasts start using the technology: it happens when your grandma does it without e… [+144 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?",
-        "description": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?\nAs the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming or if another cornerstone model is approaching its end.\nWhat…",
-        "url": "https://biztoc.com/x/be84606c1468bdfb",
-        "urlToImage": "https://biztoc.com/cdn/be84606c1468bdfb_s.webp",
-        "publishedAt": "2025-12-06T15:09:18Z",
-        "content": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?As the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming o… [+138 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Urquhart",
-        "title": "Professor Coin: When Bitcoin Sneezes—How Crypto and Equities Caught the Same Cold",
-        "description": "Academic literature finds that during periods of economic stress, correlations and spillovers between cryptocurrencies and equities spike.",
-        "url": "https://decrypt.co/351063/professor-coin-when-bitcoin-sneezes-how-crypto-and-equities-caught-the-same-cold",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-decrypt-style-23-gID_7.jpg",
-        "publishedAt": "2025-12-06T15:01:02Z",
-        "content": "In brief\r\n<ul><li>Academic literature increasingly finds that crypto and equities are tightly intertwined, especially during periods of stress.</li><li>Studies find that crypto increasingly behaves l… [+7495 chars]"
       }
     ]
   }
