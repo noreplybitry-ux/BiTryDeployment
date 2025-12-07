@@ -1,9 +1,87 @@
 {
-  "timestamp": "2025-12-07T22:12:16.488Z",
+  "timestamp": "2025-12-07T23:11:54.599Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Ambcrypto.com"
+        },
+        "author": "Ritika Gupta",
+        "title": "Bitcoin enters extreme volatility – Why institutions refuse to back down",
+        "description": "Heavyweights under pressure: Why institutional moves are key for BTC.",
+        "url": "https://ambcrypto.com/?p=551684",
+        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Ritika1-2-1000x600.webp",
+        "publishedAt": "2025-12-06T23:00:23Z",
+        "content": "The crypto market is swinging hard between fear and extreme fear.\r\nDecember came in hot, with Bitcoin [BTC] ripping +8%. However, the momentum rolled over almost instantly. Now HODLers are trying to … [+3232 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "GlobeNewswire"
+        },
+        "author": "The Rosen Law Firm PA",
+        "title": "Balancer Announcement: If You Have Suffered Losses in Balancer Cryptocurrency, You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
+        "description": "NEW YORK, Dec. 06, 2025 (GLOBE NEWSWIRE) -- WHY: Rosen Law Firm, a global investor rights law firm, announces an investigation of potential securities claims on behalf of investors in cryptocurrency issued by Balancer (ticker: BAL), resulting from allegations…",
+        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201102/673/en/Balancer-Announcement-If-You-Have-Suffered-Losses-in-Balancer-Cryptocurrency-You-Are-Encouraged-to-Contact-The-Rosen-Law-Firm-About-Your-Rights.html",
+        "urlToImage": "https://ml.globenewswire.com/Resource/Download/745335af-3a3a-4fb5-84c0-fdedc9adf092",
+        "publishedAt": "2025-12-06T22:59:00Z",
+        "content": "NEW YORK, Dec. 06, 2025 (GLOBE NEWSWIRE) -- \r\nWHY: Rosen Law Firm, a global investor rights law firm, announces an investigation of potential securities claims on behalf of investors in cryptocurrenc… [+2849 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "State of Crypto: Wrapping Up the Month",
+        "description": "State of Crypto: Wrapping Up the Month\nCongress continues to make progress on crypto issues but things are moving slowly.\nCongressional panels have advanced nominations for regulators who will deal with crypto, but the full Senate hasn't confirmed them yet. W…",
+        "url": "https://biztoc.com/x/2f3ecf5d654d2201",
+        "urlToImage": "https://biztoc.com/cdn/2f3ecf5d654d2201_s.webp",
+        "publishedAt": "2025-12-06T22:57:34Z",
+        "content": "State of Crypto: Wrapping Up the MonthCongress continues to make progress on crypto issues but things are moving slowly.Congressional panels have advanced nominations for regulators who will deal wit… [+145 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Nikhilesh De",
+        "title": "State of Crypto: Wrapping Up the Month",
+        "description": "Congress continues to make progress on crypto issues but things are moving slowly.",
+        "url": "https://www.coindesk.com/policy/2025/12/06/state-of-crypto-wrapping-up-the-month",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/11d38e96067e18f4d9e1e0057cdf51ebefe2cca9-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T22:56:32Z",
+        "content": "Congressional panels have advanced nominations for regulators who will deal with crypto, but the full Senate hasn't confirmed them yet. We're also running out of time for market structure.\r\nPS: I'll … [+2229 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Line25.com"
+        },
+        "author": "Kate Dagli",
+        "title": "Guide des dépôts : Casino en ligne crypto et vos crypto-monnaies",
+        "description": "Guide des dépôts : Casino en ligne crypto et vos crypto-monnaies Dans cet article, nous allons explorer le monde fascinant des casinos en ligne crypto et vous guider sur ... Read More →\nThe post Guide des dépôts : Casino en ligne crypto et vos crypto-monnaies…",
+        "url": "https://line25.com/articles/guide-des-depots-casino-en-ligne-crypto-et-vos-crypto-monnaies/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T22:38:16Z",
+        "content": "Home » Articles » Guide des dépôts : Casino en ligne crypto et vos crypto-monnaies\r\nLine25 is reader supported. At no cost to you a commission from sponsors may be earned when a purchase is made via … [+6319 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Line25.com"
+        },
+        "author": "Kate Dagli",
+        "title": "Mostbet Portugal ᐈ Site Oficial De Apostas E Casino",
+        "description": "Mostbet Portugal Rehabilitation Casino Revisão Elizabeth Jogos De Azar Content Apk Em Virtude De Android Da Mostbet Benefícios Para Os Usuários Brasileiros Guia Passo Some Sort Of Passo Para ... Read More →\nThe post Mostbet Portugal ᐈ Site Oficial De Apostas …",
+        "url": "https://line25.com/articles/mostbet-portugal-ee-site-oficial-de-apostas-e-casino-2/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T22:18:19Z",
+        "content": "Home » Articles » Mostbet Portugal Site Oficial De Apostas E Casino\r\nLine25 is reader supported. At no cost to you a commission from sponsors may be earned when a purchase is made via links on the si… [+22814 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -419,58 +497,6 @@
         "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/Ripple-from-YouTube.jpg",
         "publishedAt": "2025-12-06T16:30:42Z",
         "content": "Crypto firm Ripple recently announced its mission to be the one-stop shop for crypto infrastructure. This came as the firm highlighted the acquisitions it made this year in a bid to achieve this miss… [+3180 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Crypto Briefing"
-        },
-        "author": "Vivian Nguyen",
-        "title": "Two Casascius coins with $2,000 Bitcoin move after 13 years of dormancy",
-        "description": "The movement of these rare physical Bitcoins highlights the enduring value and historical significance of early crypto artifacts.\nThe post Two Casascius coins with $2,000 Bitcoin move after 13 years of dormancy appeared first on Crypto Briefing.",
-        "url": "https://cryptobriefing.com/casascius-coins-move-dormant-bitcoin-activity-2025/",
-        "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2025/12/06112111/58aa458e-f508-401e-a40e-0975cb23ab17-800x420.jpg",
-        "publishedAt": "2025-12-06T16:21:54Z",
-        "content": "Key Takeaways\r\n<ul><li>Two Casascius physical Bitcoin coins containing about $2,000 moved after 13 years of dormancy.</li><li>Casascius coins are rare, physical coins embedding private keys beneath a… [+573 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "finance.yahoo.com",
-        "title": "Zcash Price Struggle Below $400 Is Down To Bitcoin, Here’s How",
-        "description": "Zcash price has faced renewed selling pressure after a sharp 16% decline in the last 24 hours, pulling the altcoin down from its attempted move above $400.\nThe rejection has delayed ZEC’s attempt to reclaim higher levels, and the extended wait could introduce…",
-        "url": "https://biztoc.com/x/992824a4bfb5a47e",
-        "urlToImage": "https://biztoc.com/cdn/992824a4bfb5a47e_s.webp",
-        "publishedAt": "2025-12-06T16:16:10Z",
-        "content": "Zcash price has faced renewed selling pressure after a sharp 16% decline in the last 24 hours, pulling the altcoin down from its attempted move above $400.The rejection has delayed ZECs attempt to re… [+144 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Ibrahim Ajibade",
-        "title": "Strategy CEO Says No Bitcoin Sale till 2065 Despite BTC Losing $90K Support",
-        "description": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend...",
-        "url": "https://www.coinspeaker.com/strategy-ceo-says-no-bitcoin-sale-till-2065-despite-btc-losing-90k-support/",
-        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/3ab212062555682e1e15ca3bbf03edef",
-        "publishedAt": "2025-12-06T16:15:35Z",
-        "content": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend volatility, exposing the correlation between t… [+2451 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Ambcrypto.com"
-        },
-        "author": "Samyukhtha L KM",
-        "title": "Ethereum supply drops – Yet Tom Lee insists ‘$3K is still undervalued’",
-        "description": "ETH is trading differently than traditional tech stocks.",
-        "url": "https://ambcrypto.com/ethereum-supply-drops-yet-tom-lee-insists-3k-is-still-undervalued/",
-        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Samyukhtha-1-2-1000x600.webp",
-        "publishedAt": "2025-12-06T16:00:45Z",
-        "content": "ETH held on CEXs has been dropping, falling from around 14.5 million ETH in late July to nearly 12.5 million ETH at press time.\r\nInvestors (both retail and institutional) are moving coins off exchang… [+1358 chars]"
       }
     ]
   }
