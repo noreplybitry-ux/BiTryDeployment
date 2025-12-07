@@ -1,7 +1,7 @@
-// scripts/fetch-news.js
+// scripts/fetch-news.js (CommonJS)
 // Node 18+ assumed (global fetch). Writes atomic public/news_cache.json
-import fs from "fs/promises";
-import path from "path";
+const fs = require("fs").promises;
+const path = require("path");
 
 const NEWS_API_KEY = process.env.NEWS_API_KEY;
 if (!NEWS_API_KEY) {
@@ -22,7 +22,7 @@ async function fetchNews() {
 
   const resp = await fetch(url.toString(), {
     headers: { "X-Api-Key": NEWS_API_KEY },
-    timeout: 20000,
+    // Note: fetch ignores `timeout` option — keep if you want, but Node's fetch doesn't support timeout this way.
   });
 
   if (!resp.ok) {
