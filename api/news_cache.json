@@ -1,9 +1,126 @@
 {
-  "timestamp": "2025-12-07T17:10:42.972Z",
+  "timestamp": "2025-12-07T18:17:15.340Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients",
+        "description": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients\nThe service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by Hexarq.\nWhat to know:\n- French banking group BPCE will star…",
+        "url": "https://biztoc.com/x/1f3bc422c3afe464",
+        "urlToImage": "https://biztoc.com/cdn/1f3bc422c3afe464_s.webp",
+        "publishedAt": "2025-12-06T18:07:16Z",
+        "content": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail ClientsThe service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by … [+140 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients",
+        "description": "The service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by Hexarq.",
+        "url": "https://www.coindesk.com/business/2025/12/06/french-banking-giant-bpce-to-roll-out-crypto-trading-for-2m-retail-clients",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2e296e10a2bb8be54b6b43be4e9869a518af675a-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T18:03:56Z",
+        "content": "Major French banking group BPCE is set to start offering crypto trading services to retail customers through its Banque Populaire and Caisse dÉpargne apps starting Monday.\r\nCustomers of four regional… [+1111 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "entrepreneur.com",
+        "title": "Bring Bitcoin Mining into Your Office Without Noise, Heat, or Hassle",
+        "description": "The Ticket Miner and Bitaxe Miner offer two paths to 'asymmetric upside.'",
+        "url": "https://biztoc.com/x/f3f90474065c9223",
+        "urlToImage": "https://biztoc.com/cdn/f3f90474065c9223_s.webp",
+        "publishedAt": "2025-12-06T17:55:53Z",
+        "content": "The Ticket Miner and Bitaxe Miner offer two paths to 'asymmetric upside.'\r\nThis story appeared on entrepreneur.com, 2025-12-06 17:00:00."
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Futurism"
+        },
+        "author": "Victor Tangermann",
+        "title": "Bitcoin Miners on the Run After Stealing $1.1 Billion in Electricity",
+        "description": "“It’s clearly run by the syndicate.\"\nThe post Bitcoin Miners on the Run After Stealing $1.1 Billion in Electricity appeared first on Futurism.",
+        "url": "http://futurism.com/future-society/bitcoin-miners-stealing-billion-electricity",
+        "urlToImage": "https://futurism.com/wp-content/uploads/2025/12/bitcoin-miners-stealing-billion-electricity.jpg?quality=85&w=1200",
+        "publishedAt": "2025-12-06T17:45:00Z",
+        "content": "Traditionally, thieves usually targeted some form of tangible good whether it’s physical or digital currency, jewelry, or a car.\r\nBut when it comes to mining cryptocurrencies, things get a little str… [+2796 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "‘European SEC’ proposal sparks licensing concerns, institutional ambitions",
+        "description": "Empowering ESMA to become the “European SEC” is raising concerns among legal experts, potentially slowing down crypto and fintech licensing in the region.",
+        "url": "https://cointelegraph.com/news/european-sec-proposal-licensing-concerns",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af4ab-f1ab-7af5-8e3d-8145420459cb",
+        "publishedAt": "2025-12-06T17:41:20Z",
+        "content": "The European Commissions proposal to expand the powers of the European Securities and Markets Authority (ESMA) is raising concerns about the centralization of the blocs licensing regime, despite sign… [+2633 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Christian Encila",
+        "title": "Strategy CEO Defends $1.44-B Reserve: “It’s About Protecting Investor Confidence”",
+        "description": "According to remarks made on CNBC’s Power Lunch, Strategy’s CEO Phong Le said the company moved quickly to calm investor fears after Bitcoin fell sharply. The firm announced a $1.44 billion US dollar reserve on Monday, raised through a stock sale. Related Rea…",
+        "url": "https://bitcoinist.com/strategy-ceo-defends-1-44-b-reserve-its-about-protecting-investor-confidence/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/a_df215d.jpg",
+        "publishedAt": "2025-12-06T17:30:25Z",
+        "content": "According to remarks made on CNBCs Power Lunch, Strategys CEO Phong Le said the company moved quickly to calm investor fears after Bitcoin fell sharply. The firm announced a $1.44 billion US dollar r… [+3095 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Analyst Points To $82,000 As Most Crucial Bitcoin Price Level — Here’s Why",
+        "description": "In a not-so-surprising turn of events, the bearish orientation of the Bitcoin price has continued into the month of December, suggesting that the premier cryptocurrency could end the year in the red. Interestingly, recent on-chain data has offered insights in…",
+        "url": "http://www.newsbtc.com/news/bitcoin/analyst-points-to-82000-crucial-bitcoin-price-level/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1397377530.jpg?fit=2309%2C1299",
+        "publishedAt": "2025-12-06T17:30:17Z",
+        "content": "In a not-so-surprising turn of events, the bearish orientation of the Bitcoin price has continued into the month of December, suggesting that the premier cryptocurrency could end the year in the red.… [+2405 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "Two Casascius Coins Holding 2K BTC Moved After 13 Years of Inactivity",
+        "description": "Two Casascius Coins Holding 2K BTC Moved After 13 Years of Inactivity\nThe Casascius coins were designed as offline cold storage with embedded private keys, but the project was shut down in 2013 due to regulatory pressure from FinCEN.\nWhat to know:\n- Two long-…",
+        "url": "https://biztoc.com/x/9224bca405e940af",
+        "urlToImage": "https://biztoc.com/cdn/9224bca405e940af_s.webp",
+        "publishedAt": "2025-12-06T17:22:51Z",
+        "content": "Two Casascius Coins Holding 2K BTC Moved After 13 Years of InactivityThe Casascius coins were designed as offline cold storage with embedded private keys, but the project was shut down in 2013 due to… [+143 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Two Casascius Coins Holding 2K BTC Moved After 13 Years of Inactivity",
+        "description": "The Casascius coins were designed as offline cold storage, containing embedded private keys, but the project was shut down in 2013 due to regulatory pressure from FinCEN.",
+        "url": "https://www.coindesk.com/business/2025/12/06/two-casascius-coins-holding-2k-btc-moved-after-13-years-of-inactivity",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ba917c7cdfaa21739feef837d1ede09c16f8b4f3-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T17:12:32Z",
+        "content": "Two long-dormant bitcoin wallets tied to physical Casascius coins moved a total of 2,000 BTC, worth roughly $180 million after more than a decade of inactivity.\r\nThe coins had been untouched since 20… [+1354 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -419,110 +536,6 @@
         "urlToImage": null,
         "publishedAt": "2025-12-06T14:59:18Z",
         "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "investors.com",
-        "title": "Strategy, The Bitcoin Whale, Is Wall Street's Favorite Stock — By Far",
-        "description": "The average analyst price target for Strategy (MSTR) implies 184% upside for the bitcoin holding company from Friday's close, which is nearly twice the implied upside for any other large-cap stock (with a market cap over $10 billion), according to an Investor…",
-        "url": "https://biztoc.com/x/05914dc1599fadbf",
-        "urlToImage": "https://biztoc.com/cdn/05914dc1599fadbf_s.webp",
-        "publishedAt": "2025-12-06T14:58:14Z",
-        "content": "The average analyst price target for Strategy (MSTR) implies 184% upside for the bitcoin holding company from Friday's close, which is nearly twice the implied upside for any other large-cap stock (w… [+145 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "finance.yahoo.com",
-        "title": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning",
-        "description": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning\nAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been thrust back into the spotlight, and not for the reasons the…",
-        "url": "https://biztoc.com/x/3c03aec676a396de",
-        "urlToImage": "https://biztoc.com/cdn/3c03aec676a396de_s.webp",
-        "publishedAt": "2025-12-06T14:47:03Z",
-        "content": "This December Could Decide the Fate of Digital Asset Treasuries: Heres CoinShares Survival WarningAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been th… [+147 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "Why Is Crypto Down Today: BTC Back to $90K as Bounce Fails for Now",
-        "description": "Crypto Sector Lit Up Bright Red as Bitcoin Slips Back to $90K\nSofter than expected private inflation data did spark some hope that the Friday decline could reverse.\nWhat to know:\n- Bitcoin's overnight decline sped up in early U.S. trading hours, pushing the p…",
-        "url": "https://biztoc.com/x/a1953fdc0d7f45a5",
-        "urlToImage": "https://biztoc.com/cdn/a1953fdc0d7f45a5_s.webp",
-        "publishedAt": "2025-12-06T14:46:55Z",
-        "content": "Crypto Sector Lit Up Bright Red as Bitcoin Slips Back to $90KSofter than expected private inflation data did spark some hope that the Friday decline could reverse.What to know:- Bitcoin's overnight d… [+144 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger Deal",
-        "description": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger Deal\nShares in the company fell more than 50% this week as the merger approval went forward.\nWhat to know:\n- Anthony Pompliano-led ProCap BTC closed its SPAC merger on Friday.\n- This year…",
-        "url": "https://biztoc.com/x/71c7e49c114c3f6d",
-        "urlToImage": "https://biztoc.com/cdn/71c7e49c114c3f6d_s.webp",
-        "publishedAt": "2025-12-06T14:35:46Z",
-        "content": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger DealShares in the company fell more than 50% this week as the merger approval went forward.What to know:- Anthony Pompliano-led… [+139 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Crypto Briefing"
-        },
-        "author": "Vivian Nguyen",
-        "title": "French banking giant BPCE will start letting customers buy Bitcoin and major tokens on Monday",
-        "description": "BPCE's crypto integration signals a shift in traditional banking, potentially accelerating digital asset adoption and regulatory evolution in Europe.\nThe post French banking giant BPCE will start letting customers buy Bitcoin and major tokens on Monday appear…",
-        "url": "https://cryptobriefing.com/buy-bitcoin-france-bpce-launch/",
-        "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2025/12/06093248/cec02a8b-878e-4ad1-bac8-000963266dd6-800x420.jpg",
-        "publishedAt": "2025-12-06T14:33:25Z",
-        "content": "Key Takeaways\r\n<ul><li>BPCE is allowing customers to buy Bitcoin, Ether, Solana, and USDC directly through its apps in a phased rollout starting with 2 million clients.</li><li>The rollout begins wit… [+1027 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Stephen Alpher",
-        "title": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger Deal",
-        "description": "Shares in the company fell more than 50% this week as the merger approval went forward.",
-        "url": "https://www.coindesk.com/markets/2025/12/06/anthony-pompliano-s-bitcoin-treasury-firm-procap-btc-closes-spac-merger-deal",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/31ca6f437b81910af6e1ba36ef18af29a8d3dcc3-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T14:29:36Z",
-        "content": "Special purpose acquisition company (SPAC) Columbus Circle Capital (BRR) and ProCap BTC led by Anthony Pompliano and having raised more than $750 million to build a bitcoin treasury firm closed their… [+1858 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CryptoSlate"
-        },
-        "author": "Gino Matos",
-        "title": "Zcash and privacy protocols face a “do-or-die” SEC meeting that determines if developers are personally liable for code",
-        "description": "The SEC’s Crypto Task Force scheduled a four-hour roundtable on financial surveillance and privacy for Dec. 15, bringing together zero-knowledge proof developers, civil liberties advocates, and protocol executives to debate whether blockchain privacy tools ca…",
-        "url": "https://cryptoslate.com/sec-drops-dec-15-roundtable-on-crypto-privacy-why-the-timing-matters/",
-        "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/sec-zcash-privacy.jpg",
-        "publishedAt": "2025-12-06T14:25:18Z",
-        "content": "The SEC’s Crypto Task Force scheduled a four-hour roundtable on financial surveillance and privacy for Dec. 15, bringing together zero-knowledge proof developers, civil liberties advocates, and proto… [+8238 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "cnbc.com",
-        "title": "Biggest mistakes crypto investors make with estate planning",
-        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
-        "url": "https://biztoc.com/x/8fa6e13e340de8e2",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T14:13:26Z",
-        "content": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.\r\nThis story appeared on cnbc.com, 2025-12-06… [+9 chars]"
       }
     ]
   }
