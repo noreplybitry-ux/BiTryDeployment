@@ -150,15 +150,15 @@ function filterCryptoArticles(raw) {
   try {
     const data = await fetchNews();
 
-    // Public wrapped payload
+    // Crypto-filtered payload (NewsAPI-shaped) for both public and api caches
+    const filtered = filterCryptoArticles(data);
+
     const publicPayload = {
       timestamp: new Date().toISOString(),
-      data
+      data: filtered
     };
     const publicSerialized = JSON.stringify(publicPayload, null, 2) + "\n";
 
-    // Crypto-filtered payload (NewsAPI-shaped) for api/news_cache.json
-    const filtered = filterCryptoArticles(data);
     const apiPayload = {
       timestamp: new Date().toISOString(),
       data: filtered

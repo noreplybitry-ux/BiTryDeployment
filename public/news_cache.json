@@ -1,9 +1,74 @@
 {
-  "timestamp": "2025-12-07T13:34:27.262Z",
+  "timestamp": "2025-12-07T14:17:54.220Z",
   "data": {
     "status": "ok",
-    "totalResults": 17742,
+    "totalResults": 16,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Sun Sentinel"
+        },
+        "author": "Ira Winderman, South Florida Sun-Sentinel",
+        "title": "Ira Winderman: Based on schedule, better if Heat NBA Cup runneth is over?",
+        "description": "MIAMI — You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular. But there also are times when the greater good has to be considered, of getting your team whole and healthy through the 82-game reg…",
+        "url": "https://www.sun-sentinel.com/2025/12/06/ira-winderman-based-on-schedule-better-if-heat-nba-cup-runneth-is-over/",
+        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+        "publishedAt": "2025-12-06T14:05:00Z",
+        "content": "MIAMI You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular.\r\nBut there also are times when the greater good has to be considered, of … [+7852 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": null,
+        "title": "Biggest mistakes crypto investors make with estate planning",
+        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
+        "url": "https://www.cnbc.com/2025/12/06/crypto-investors-estate-planning-taxes-mistakes.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/105154690-crypto.jpg?v=1764701916&w=1920&h=1080",
+        "publishedAt": "2025-12-06T14:03:30Z",
+        "content": "Roughly 1 in 7 people are leaving unclaimed property on the table, according to the National Association of Unclaimed Property Administrators. While the recent heavy selling in bitcoin and ether is r… [+7444 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "SEC Chair Paul Atkins Advocates For Modernizing Crypto Regulations– Here’s How",
+        "description": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SEC’s intent to modernize its rules to facilitate an on-chain market environmen…",
+        "url": "https://bitcoinist.com/sec-chair-advocates-modernizing-crypto-regulations/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/04/Screenshot_978.jpg",
+        "publishedAt": "2025-12-06T14:00:42Z",
+        "content": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SECs intent to mode… [+3468 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BeInCrypto"
+        },
+        "author": "Brian McGleenon",
+        "title": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning",
+        "description": "After a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) are in a danger zone during December.",
+        "url": "https://beincrypto.com/december-decide-fate-digital-asset-treasuries/",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/A2SWDNCCkCPRhIwSo0dqSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/de1248b79cb6b1eb1400c24fdf12c8b6",
+        "publishedAt": "2025-12-06T14:00:27Z",
+        "content": "Bitcoin Flashes a Rare Signal as a $13B Fed Shock HitsIs a Reversal Beginning?. Photo by BeInCrypto\r\nAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been… [+4523 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": "Monique Mulima",
+        "title": "From 2600% Gain to 86% Wipeout, Crypto’s Hottest Trade Collapsed",
+        "description": "An array of public companies thought they had found a sort of perpetual motion machine: Use your corporate cash to buy up Bitcoin or other digital tokens and...",
+        "url": "https://finance.yahoo.com/news/2600-gain-86-wipeout-crypto-140000811.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1ZaxxAQKXon.g2oSjE80DQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_holding_pen_162/af8dbb45d094b00c65cf4b0c8b6191a7",
+        "publishedAt": "2025-12-06T14:00:00Z",
+        "content": "Photographer: Camilo Freedman/Bloomberg\r\n(Bloomberg) -- What began the year as one of the best trades in the stock market has, in a matter of months, turned into one of the worst.\r\nAn array of public… [+6474 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -19,97 +84,6 @@
       },
       {
         "source": {
-          "id": "the-times-of-india",
-          "name": "The Times of India"
-        },
-        "author": "Shreya Biswas",
-        "title": "Why Warren Buffett nicknamed Big Short investor Michael Burry ‘Cassandra’ — here's the fascinating backstory",
-        "description": "Michael Burry Cassandra Unchained: Michael Burry, once dubbed \"Cassandra\" by Warren Buffett for his accurate but unheeded warnings of the housing bubble, has launched a paid Substack newsletter. This move follows his deregistration of Scion Asset Management, …",
-        "url": "https://economictimes.indiatimes.com/news/international/us/why-warren-buffett-nicknamed-big-short-investor-michael-burry-cassandra-heres-the-fascinating-backstory/articleshow/125805234.cms",
-        "urlToImage": "https://img.etimg.com/thumb/msid-125805587,width-1200,height-630,imgsize-194854,overlay-economictimes/articleshow.jpg",
-        "publishedAt": "2025-12-06T13:20:36Z",
-        "content": "Michael Burry Cassandra Unchained: The Big Short Michael Burry, best known for calling the mid-2000s housing bubble, has embraced the label that billionaire investor Warren Buffett once used to descr… [+3646 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, AI Boost",
-        "title": "LUNC Surges Over 160% in a Week as Do Kwon Sentencing and Token Burns Draw Traders",
-        "description": "The rally is driven by speculation that a final verdict could bring clarity to the project, as well as technical factors like token burns.",
-        "url": "https://www.coindesk.com/markets/2025/12/06/lunc-surges-over-160-in-a-week-as-do-kwon-sentencing-and-token-burns-draw-traders",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/174d8dd401bc0b71769b40cf615462b485717617-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T13:00:03Z",
-        "content": "LUNC\r\n$0.06315, the rebranded token from the collapsed Terra ecosystem, posted one of the largest gains in the crypto market over the past 24-hour period, climbing more than 74% to $0.0000072 on expl… [+1487 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, AI Boost",
-        "title": "Euro Stablecoin Market Cap Doubles in Year After MiCA, Study Finds",
-        "description": "Prior to MiCA, euro-denominated stablecoins' market cap contracted by 48% in the year leading up to June 2024.",
-        "url": "https://www.coindesk.com/business/2025/12/06/hold-euro-stablecoin-market-cap-doubles-in-year-after-mica-decta-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8d075d8d9d0e4946f4d7853ec0883f32a4d7de1f-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-06T13:00:00Z",
-        "content": "The euro stablecoin market has rebounded in the year since the European Unions (EU) Markets in Crypto-Assets Regulation (MiCA) came into force, with market capitalization doubling after regulations g… [+1792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "BeInCrypto"
-        },
-        "author": "Aaryamann Shrivastava",
-        "title": "Will Solana’s Price Trajectory Be Defined By Losses?",
-        "description": "Solana struggles inside a descending channel as bearish sentiment rises; investor behavior and market cues will determine SOL’s next move.",
-        "url": "https://beincrypto.com/solana-price-at-critical-point/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/5S5lKk8BrKF.vF.sCgYnPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/36cd2f6146991654ca04aa31ce37007b",
-        "publishedAt": "2025-12-06T13:00:00Z",
-        "content": "solana forward, solana price. Photo by BeInCrypto\r\nSolana is in a critical phase as its recent decline continues to validate a channel pattern that has shaped its price action over the past week. \r\nT… [+2424 chars]"
-      },
-      {
-        "source": {
-          "id": "the-times-of-india",
-          "name": "The Times of India"
-        },
-        "author": "Shreya Biswas",
-        "title": "From a rejected startup laughed at by many to a $426 billion giant now buying Warner Bros — the Netflix story you didn’t know",
-        "description": "Netflix Warner Bros Discovery merger: Netflix, now a streaming giant, faced near-collapse in its early days. Jeff Bezos offered a buyout which was rejected. A cash crisis in 1999 was averted by Bernard Arnault's $30 million investment. Blockbuster famously la…",
-        "url": "https://economictimes.indiatimes.com/news/international/us/from-a-rejected-startup-laughed-at-by-many-to-a-426-billion-giant-now-buying-warner-bros-the-netflix-story-you-didnt-know/articleshow/125804893.cms",
-        "urlToImage": "https://img.etimg.com/thumb/msid-125805134,width-1200,height-630,imgsize-60416,overlay-economictimes/articleshow.jpg",
-        "publishedAt": "2025-12-06T12:35:23Z",
-        "content": "Netflix Warner Bros Discovery merger: Netflixs rise to a $426 billion powerhouse, now preparing to acquire Warner Bros Discovery in a $74 billion mega-merger, may make it seem like the streaming gian… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Western Union eyes inflation-resistant ‘stable cards’ as part of its stablecoin strategy",
-        "description": "Western Union plans to launch an inflation-resistant “stable card” and issue its own coin as part of a broader push into digital assets and global remittance modernization.",
-        "url": "https://cointelegraph.com/news/western-union-stable-card-stablecoin-strategy-emerging-markets",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af38d-567a-7f41-846a-d7bddc054ce5",
-        "publishedAt": "2025-12-06T12:31:59Z",
-        "content": "Western Union has unveiled plans to introduce a new stable card to protect users in high-inflation economies as part of its stablecoin strategy.\r\nSpeaking at the UBS Global Technology and AI conferen… [+2319 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Gizmodo.com"
-        },
-        "author": "Kyle Torpey",
-        "title": "Polymarket User Accused of $1 Million Insider Trade on Google Search Markets",
-        "description": "Prediction market observers have long warned that the business is ripe for insider trading.",
-        "url": "https://gizmodo.com/polymarket-user-accused-of-1-million-insider-trade-on-google-search-markets-2000696258",
-        "urlToImage": "https://gizmodo.com/app/uploads/2025/07/GettyImages-2221682966-1200x675.jpg",
-        "publishedAt": "2025-12-06T12:30:18Z",
-        "content": "A pseudonymous trader, known only as AlphaRaccoon, on prediction market Polymarket has drawn sharp scrutiny after reportedly turning a $1.15 million profit in under 24 hours by betting on Google’s 20… [+5161 chars]"
-      },
-      {
-        "source": {
           "id": null,
           "name": "Tistory.com"
         },
@@ -120,19 +94,6 @@
         "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fp4zLE%2FdJMcahpobNU%2FAAAAAAAAAAAAAAAAAAAAAH8o_XWZZPnd2qODFNRAq-pknzbjEsG6eT4cwudZ6oFt%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1767193199%26allow_ip%3D%26allow_referer%3D%26signature%3DwBzBxwbbEGoMdM3FVXZUvbAHxWo%253D",
         "publishedAt": "2025-12-06T12:27:51Z",
         "content": "2 \r\nCrypto had a bad autumn. Will it have a bad winter? @davidgura and stacy-marie ishmael break down what you need to know. Listen to the Big Take podcast https://t.co/Lwt1aXgDv6pic.twitter.com/QiRp… [+7947 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "GlobeNewswire"
-        },
-        "author": "BI DeFi",
-        "title": "BI DeFi Launches New Daily Yield Plan as Demand for Accessible Crypto Income Solutions Grows",
-        "description": "New York, USA, Dec. 06, 2025 (GLOBE NEWSWIRE) -- BI DeFi has officially launched its new Daily Yield Plan, expanding its suite of cloud computing power products designed for users seeking stable, transparent, and hardware-free digital asset income.",
-        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201041/0/en/BI-DeFi-Launches-New-Daily-Yield-Plan-as-Demand-for-Accessible-Crypto-Income-Solutions-Grows.html",
-        "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/47074e14-daef-45a5-aae6-6fd01a225043",
-        "publishedAt": "2025-12-06T12:15:00Z",
-        "content": "New York, USA, Dec. 06, 2025 (GLOBE NEWSWIRE) -- BI DeFi has officially launched its new Daily Yield Plan, expanding its suite of cloud computing power products designed for users seeking stable, tra… [+4150 chars]"
       },
       {
         "source": {
@@ -163,19 +124,6 @@
       {
         "source": {
           "id": null,
-          "name": "GlobeNewswire"
-        },
-        "author": "Mutuum Finance",
-        "title": "DeFi Crypto Mutuum Finance Prepares for 20% Price Increase as Phase 6 Nears Completion",
-        "description": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n is approaching a major milestone as Phase 6 of its presale nears completion, bringing the project closer to its next scheduled 20% price increase. With strong demand contin…",
-        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201040/0/en/DeFi-Crypto-Mutuum-Finance-Prepares-for-20-Price-Increase-as-Phase-6-Nears-Completion.html",
-        "urlToImage": "https://ml.globenewswire.com/Resource/Download/46758e47-4e5d-4da5-945c-e049069b7ade",
-        "publishedAt": "2025-12-06T12:00:00Z",
-        "content": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n is approaching a major milestone as Phase 6 of its presale nears completion, bringing the project closer to its … [+3492 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "Dlnews.com"
         },
         "author": "Lance Datskoluo",
@@ -202,97 +150,6 @@
       {
         "source": {
           "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Parth Dubey",
-        "title": "Solana Liquidity Reset: Treasury Firm Reveals No New SOL Purchases, Will Prices Recover?",
-        "description": "DeFi Development Corp (DFDV), the Nasdaq firm built to accumulate Solana (SOL), said in its November update that it made no new SOL purchases through the...",
-        "url": "https://www.coinspeaker.com/solana-liquidity-reset-treasury-firm-reveals-no-new-sol-purchases-will-prices-recover/",
-        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/7dbaf740eea88d9ab26d2a04d5c17db7",
-        "publishedAt": "2025-12-06T11:48:33Z",
-        "content": "DeFi Development Corp (DFDV), the Nasdaq firm built to accumulate Solana (SOL), said in its November update that it made no new SOL purchases through the month. Its total SOL reserve held steady at 2… [+2245 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Github.com"
-        },
-        "author": "__VECTOR",
-        "title": "Show HN: WDP – A protocol where data migrates to survive seizure",
-        "description": "In modern distributed systems, static data is vulnerable. If data resides on a specific server (even in decentralized networks like IPFS), that node becomes a target for censorship, seizure, or physical failure. Static storage = Single Point of Failure. Wande…",
-        "url": "https://github.com/dododbobovo-commits/wdp",
-        "urlToImage": "https://opengraph.githubassets.com/1a1ac866dd8411561c909f9a1b2e25bfb48b6f2fe30d0d54dab82b2db5501c3f/dododbobovo-commits/wdp",
-        "publishedAt": "2025-12-06T11:40:14Z",
-        "content": "Status: Experimental / Proof of ConceptVersion: 0.1.0-alphaLicense: MITSpec Reference: Engineering Specification v1.1\r\nps: The Rust implementation is currently under active development in the /dev-ru… [+3300 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "investing.com",
-        "title": "Oil climbs to 2-week high on Fed rate-cut signals, supply concerns By Reuters",
-        "description": "",
-        "url": "https://biztoc.com/x/c5d6e10cfc0fd412",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T11:38:23Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+781 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "apnews.com",
-        "title": "Crow Tribe looks to ‘reset the clock’ on blood quantum requirements, expand enrollment",
-        "description": "",
-        "url": "https://biztoc.com/x/85cd5e73bbe477a6",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T11:38:20Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+761 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "wired.com",
-        "title": "A look at Phreeli, a privacy-focused phone carrier that lets users sign up with only a ZIP code and uses an encryption system based on “zero-knowledge proofs”",
-        "description": "",
-        "url": "https://biztoc.com/x/9467376cff9b1cfb",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T11:38:00Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+729 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "asia.nikkei.com",
-        "title": "Hong Kong warns foreign news media over fire coverage",
-        "description": "",
-        "url": "https://biztoc.com/x/e2b879d6dedc8dbc",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T11:37:59Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+739 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "seekingalpha.com",
-        "title": "U.S. Equities: I Want To Put All My Eggs In This Basket",
-        "description": "",
-        "url": "https://biztoc.com/x/4c9845a124c7c8ba",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T11:37:58Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+735 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "BeInCrypto"
         },
         "author": "Oluwapelumi Adejumo",
@@ -302,45 +159,6 @@
         "urlToImage": "https://s.yimg.com/ny/api/res/1.2/wWRW8oQEPdFAWFHqmLszKA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/f7084fd32aebfb7509edd77c518cfb10",
         "publishedAt": "2025-12-06T11:32:24Z",
         "content": "Photo by BeInCrypto\r\nCoinbase expects the crypto market to enter a recovery phase in December as liquidity improves and selling pressure from long-time Bitcoin holders eases. \r\nOn December 5, the US-… [+2299 chars]"
-      },
-      {
-        "source": {
-          "id": "hacker-news",
-          "name": "Hacker News"
-        },
-        "author": "oxfpr555",
-        "title": "Show HN: Tokenization of Real Estate on Blockchain",
-        "description": "Hi HN! We’ve been building RealDeed, a system that represents real-estate ownership information as blockchain-based digital twins.This is created under a DIFC Innovation Licence (DLT Technology Category).\nIt does not offer financial services, trading, fractio…",
-        "url": "https://news.ycombinator.com/item?id=46172420",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T11:15:05Z",
-        "content": "Hi HN! Weve been building RealDeed, a system that represents real-estate ownership information as blockchain-based digital twins.This is created under a DIFC Innovation Licence (DLT Technology Catego… [+2046 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "apnews.com",
-        "title": "France intercepts illegal drone overflight at nuclear submarine base",
-        "description": "",
-        "url": "https://biztoc.com/x/04871e94d1982594",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T11:04:55Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+749 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "Homeowners Risk Missing Out on Solar Tax Credits. This Is Why",
-        "description": "",
-        "url": "https://biztoc.com/x/6e3409a213f0c984",
-        "urlToImage": "https://biztoc.com/cdn/6e3409a213f0c984_s.webp",
-        "publishedAt": "2025-12-06T11:04:41Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+754 chars]"
       },
       {
         "source": {
@@ -358,84 +176,6 @@
       {
         "source": {
           "id": null,
-          "name": "Ms. Magazine"
-        },
-        "author": "Kathy Spillar",
-        "title": "The Ms. Q&A With Democracy Defenders Norm Eisen, Skye Perryman and Jennifer Rubin",
-        "description": "In the middle of an accelerating democratic crisis, and a year defined by sweeping attacks on women’s rights, the Feminist Majority Foundation, publisher of Ms. magazine, gathered in Los Angeles to honor some of the most formidable leaders on the front lines …",
-        "url": "https://msmagazine.com/2025/12/06/feminist-majority-foundation-awards-democracy-norm-eisen-skye-perryman-jennifer-rubin/",
-        "urlToImage": "https://msmagazine.com/wp-content/uploads/2025/12/GWRA2025-5240-scaled.jpg",
-        "publishedAt": "2025-12-06T11:00:00Z",
-        "content": "Ms. executive editor and FMF executive director Kathy Spillar, attorney Skye Perryman, and Contrarian cofounders Jennifer Rubin and Norm Eisen. (Nina Zacuto)\r\nIn the middle of an accelerating democra… [+24711 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "Biocon Moves to Fully Own Biologics Unit Valued at $5.5 Billion",
-        "description": "",
-        "url": "https://biztoc.com/x/feb27cf0cb72576f",
-        "urlToImage": "https://biztoc.com/cdn/feb27cf0cb72576f_s.webp",
-        "publishedAt": "2025-12-06T10:53:48Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+755 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "Qatar Says AI Demand, Underinvestment May Drive LNG Shortage",
-        "description": "",
-        "url": "https://biztoc.com/x/d3ef346b49a59287",
-        "urlToImage": "https://biztoc.com/cdn/d3ef346b49a59287_s.webp",
-        "publishedAt": "2025-12-06T10:53:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+752 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "inc.com",
-        "title": "What Google Just Did To Nest Is The One Thing No Company Should Ever Do",
-        "description": "",
-        "url": "https://biztoc.com/x/f0eb761e1fdda0e3",
-        "urlToImage": "https://biztoc.com/cdn/f0eb761e1fdda0e3_s.webp",
-        "publishedAt": "2025-12-06T10:42:31Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+740 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "reuters.com",
-        "title": "SpaceX tells investors it is targeting late 2026 IPO, the Information reports",
-        "description": "",
-        "url": "https://biztoc.com/x/f995274a01ad7cd5",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T10:31:32Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+758 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "reuters.com",
-        "title": "Ukraine's Zaporizhzhia nuclear plant temporarily lost power overnight, IAEA says",
-        "description": "",
-        "url": "https://biztoc.com/x/6af2e9e003e671fb",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T10:31:20Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+769 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "CryptoSlate"
         },
         "author": "Gino Matos",
@@ -445,45 +185,6 @@
         "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/solana-base.jpg",
         "publishedAt": "2025-12-06T10:29:47Z",
         "content": "Base launched a bridge to Solana on Dec. 4, and within hours, Solana’s most vocal builders accused Jesse Pollak of running a vampire attack disguised as interoperability.\r\nThe bridge uses Chainlink C… [+7338 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "Charting the Global Economy: Europe, World Weathering Tariffs Better Than Expected",
-        "description": "",
-        "url": "https://biztoc.com/x/7f54282edd7d1bac",
-        "urlToImage": "https://biztoc.com/cdn/7f54282edd7d1bac_s.webp",
-        "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+759 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "Hong Kong Summons International News Outlets for Rare Warning",
-        "description": "",
-        "url": "https://biztoc.com/x/4457ad88c0869124",
-        "urlToImage": "https://biztoc.com/cdn/4457ad88c0869124_s.webp",
-        "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+754 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "bloomberg.com",
-        "title": "J-Lo Is Back in the Former USSR as Putin Drives Stars Out of Moscow",
-        "description": "",
-        "url": "https://biztoc.com/x/3bec6bf0673b55ed",
-        "urlToImage": "https://biztoc.com/cdn/3bec6bf0673b55ed_s.webp",
-        "publishedAt": "2025-12-06T10:20:36Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+753 chars]"
       },
       {
         "source": {
@@ -501,32 +202,6 @@
       {
         "source": {
           "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "reuters.com",
-        "title": "Meta delays release of Phoenix mixed-reality glasses to 2027, Business Insider reports",
-        "description": "",
-        "url": "https://biztoc.com/x/543e958c6ee8f7c2",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T10:09:44Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+763 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "reuters.com",
-        "title": "Indonesians climb over logs in walk to aid centre as flood deaths rise over 900",
-        "description": "",
-        "url": "https://biztoc.com/x/91094f017cb657c3",
-        "urlToImage": "https://biztoc.com/cdn/91094f017cb657c3_s.webp",
-        "publishedAt": "2025-12-06T10:09:31Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+766 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "newsBTC"
         },
         "author": "Christian Encila",
@@ -536,123 +211,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_adc210.jpg",
         "publishedAt": "2025-12-06T10:00:31Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "reuters.com",
-        "title": "Stocks higher, dollar set for second straight weekly loss as investors eye Fed cut",
-        "description": "",
-        "url": "https://biztoc.com/x/8b3f27180feba178",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T09:58:34Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+716 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "Japan’s Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry Unwind",
-        "description": "Japan’s Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry Unwind\nA stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions that recently helped bitcoin rebound from November’s lows…",
-        "url": "https://biztoc.com/x/82914ccde682e4c7",
-        "urlToImage": "https://biztoc.com/cdn/82914ccde682e4c7_s.webp",
-        "publishedAt": "2025-12-06T09:58:33Z",
-        "content": "Japans Higher Rates Puts Bitcoin in the Crosshairs of a Yen Carry UnwindA stronger yen typically coincides with de-risking across macro portfolios, and that dynamic could tighten liquidity conditions… [+149 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "reuters.com",
-        "title": "Qatar hopeful EU will resolve corporate concerns over sustainability laws by year-end",
-        "description": "",
-        "url": "https://biztoc.com/x/c5695d4bb58b587b",
-        "urlToImage": "https://biztoc.com/cdn/c5695d4bb58b587b_s.webp",
-        "publishedAt": "2025-12-06T09:57:57Z",
-        "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Netflix acquiring Warner Bros for $72B? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How did the Fed inflation … [+767 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Github.com"
-        },
-        "author": "Daffactor",
-        "title": "Show HN: Nano.noq – Experimental key-container format",
-        "description": "Hi! This is an experimental learning project I've been working on.NANO.NOQ is a very small binary container format for AES-GCM keys. \nThe entire implementation is inside a single HTML file using WebCrypto \n(no backend, no external dependencies).The .noq file …",
-        "url": "https://github.com/NOQ-DAFFACTOR/NANO.NOQ",
-        "urlToImage": "https://opengraph.githubassets.com/03fdda58a114ea967c413769eb0f7acc559ba7b1338029dcb51b84f3a092591a/NOQ-DAFFACTOR/NANO.NOQ",
-        "publishedAt": "2025-12-06T09:48:51Z",
-        "content": "NANO.NOQ description\r\nThis project is purely an experimental format design, not a new cryptographic system.\r\nNANO.NOQ is a small file format designed to store AESGCM keys separately from ciphertext. … [+4028 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Brokerage behind major crypto treasury deals eyes $10–12B public listing: FT",
-        "description": "Clear Street is preparing a $10–12 billion IPO as the crypto-treasury model that fueled its rise shows strain, with Bitcoin down 30% and treasury stocks trading at discounts.",
-        "url": "https://cointelegraph.com/news/clear-street-prepares-10b-ipo-as-crypto-treasury-boom-falters",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af2fb-74fb-77da-b7c4-e85e87a24394",
-        "publishedAt": "2025-12-06T09:35:03Z",
-        "content": "Clear Street, a New York brokerage that has become one of the most active underwriters in the crypto-treasury boom, is preparing to go public with an expected valuation of $10 billion to $12 billion.… [+2978 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Libsyn.com"
-        },
-        "author": "John Lee Dumas",
-        "title": "Unleashing Your Hero: Rise Above Any Challenge, Expand Your Impact and be the Hero the World Needs with Kevin Brown: An EOFire Classic from 2021",
-        "description": "From the archive: This episode was originally recorded and published in 2021. Our interviews on Entrepreneurs On Fire are meant to be evergreen, and we do our best to confirm that all offers and URL's in these archive episodes are still relevant. Motivational…",
-        "url": "https://entrepreneuronfire.libsyn.com/unleashing-your-hero-rise-above-any-challenge-expand-your-impact-and-be-the-hero-the-world-needs-with-kevin-brown-an-eofire-classic-from2021",
-        "urlToImage": "http://assets.libsyn.com/show/37432?height=250&width=250&overlay=true",
-        "publishedAt": "2025-12-06T09:30:00Z",
-        "content": "From the archive: This episode was originally recorded and published in 2021. Our interviews on Entrepreneurs On Fire are meant to be evergreen, and we do our best to confirm that all offers and URL'… [+1555 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Yahoo Entertainment"
-        },
-        "author": "South China Morning Post",
-        "title": "7 Chinese industry bodies issue RWA tokenisation warning amid Beijing's crackdown",
-        "description": "Mainland Chinese industry associations have issued a joint warning to real-world asset (RWA) tokenisation providers after Beijing turned on the screws...",
-        "url": "https://finance.yahoo.com/news/7-chinese-industry-bodies-issue-093000629.html",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/It38gO5_QsuZmzzxfCDYtQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/south_china_morning_post_us_228/94d807a5e5a1a652633a7eb2e150fdc9",
-        "publishedAt": "2025-12-06T09:30:00Z",
-        "content": "Mainland Chinese industry associations have issued a joint warning to real-world asset (RWA) tokenisation providers after Beijing turned on the screws, dashing hopes that Beijing might ease restricti… [+4424 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Anas Hassan",
-        "title": "CoinShares Debunks Tether Collapse Fears After Hayes Warning",
-        "description": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who...",
-        "url": "https://cryptonews.com/news/coinshares-debunks-tether-collapse-fears-after-hayes-warning/",
-        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/0f1b1a2e4feb711942a2004d9b0268fc",
-        "publishedAt": "2025-12-06T09:13:47Z",
-        "content": "CoinShares head of research James Butterfill has dismissed insolvency concerns surrounding Tether following warnings from BitMEX founder Arthur Hayes, who claimed a 30% drop in the stablecoin issuer’… [+4573 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Ambcrypto.com"
-        },
-        "author": "Samyukhtha L KM",
-        "title": "Bitcoin whales freeze – Is BTC drifting toward $86.5K danger zone?",
-        "description": "BTC is going into an eerie calm.",
-        "url": "https://ambcrypto.com/bitcoin-whales-freeze-is-btc-drifting-toward-86-5k-danger-zone/",
-        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/Samyukhtha-1-1000x600.webp",
-        "publishedAt": "2025-12-06T09:00:58Z",
-        "content": "Bitcoins [BTC] pace has softened, and the market suddenly feels quieter than it has in months.\r\nBig buyers arent adding much, long-term holders (LTH) arent selling heavily, and the price has slipped … [+2606 chars]"
       }
     ]
   }
