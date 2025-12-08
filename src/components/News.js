@@ -128,6 +128,8 @@ export default function News() {
     return imageUrl;
   };
 
+ 
+
   // Generate dynamic placeholder based on article content
   const generatePlaceholderImage = (article) => {
     const title = (article.title || "").toLowerCase();
@@ -439,6 +441,88 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
     }
   };
 
+  // --- Filtering helpers and centralized article filter ---
+  const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&");
+  const wordMatch = (text, term) => {
+    if (!text || !term) return false;
+    try {
+      const re = new RegExp("\\b" + escapeRegex(term) + "\\b", "i");
+      return re.test(text);
+    } catch (e) {
+      return text.includes(term);
+    }
+  };
+  const normalize = (s) => (s || "").toLowerCase().replace(/[\n\r\t]+/g, " ").replace(/[^\w\s\-\.]/g, " ").trim();
+
+  const filterAndProcessArticles = (articles = []) => {
+    if (!Array.isArray(articles)) return [];
+
+    const REPUTABLE_DOMAINS = [
+      "coindesk.com","cointelegraph.com","decrypt.co","theblock.co",
+      "bitcoinmagazine.com","newsbtc.com","cryptonews.com"
+    ];
+
+    const irrelevantTerms = [
+      "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
+      "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
+      "movie","tv show","python","python package","pypi","pip","django","flask",
+      "python library","node package","npm package","software release","github.com/",
+      "casinos","casino"
+    ];
+
+    const advancedTerms = ["defi","yield farming","liquidity mining","dao","governance token","smart contract audit","flash loan","arbitrage","mev","layer 2","zk-rollup","optimistic rollup","sharding","consensus mechanism","proof of stake validator","slashing","impermanent loss","options trading","futures","derivatives","technical analysis","fibonacci"];
+    const scamTerms = ["memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi","pyramid scheme","get rich quick","guaranteed profit","meme coin","shiba inu","pepe","floki","safemoon"];
+    const techTerms = ["blockchain development","smart contract development","web3 development","solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine","evm","gas optimization"];
+
+    const topCryptos = ["bitcoin","btc","ethereum","eth","bnb","binance","binance coin","solana","sol","cardano","ada","dogecoin","doge","polygon","matic","avalanche","avax","chainlink","link","coinbase","crypto.com","pdax","coins.ph","crypto","cryptocurrency"];
+
+    const out = [];
+    for (let i = 0; i < articles.length; i++) {
+      const article = articles[i];
+      if (!article || !article.title || !article.description || !article.url) continue;
+      if (article.title === "[Removed]" || article.description === "[Removed]") continue;
+
+      // Hostname check
+      let host = "";
+      try { host = new URL(article.url).hostname || ""; } catch (e) { continue; }
+      if (!REPUTABLE_DOMAINS.some(d => host.includes(d))) continue;
+
+      const titleLower = normalize(article.title);
+      const descriptionLower = normalize(article.description);
+      const contentLower = normalize((article.content || "") + " " + titleLower + " " + descriptionLower);
+
+      if (irrelevantTerms.some(t => wordMatch(contentLower, t))) continue;
+
+      const cryptoMatches = topCryptos.reduce((c, t) => c + (wordMatch(contentLower, t) ? 1 : 0), 0);
+      const titleHasCrypto = topCryptos.some(t => wordMatch(titleLower, t));
+      if (cryptoMatches < 2 || !titleHasCrypto) continue;
+
+      if (advancedTerms.some(t => wordMatch(contentLower, t))) continue;
+      if (scamTerms.some(t => wordMatch(contentLower, t))) continue;
+      if (techTerms.some(t => wordMatch(contentLower, t))) continue;
+
+      const titleTrim = (article.title || "").trim();
+      const descTrim = (article.description || "").trim();
+      if (titleTrim.length <= 10 || titleTrim.length > 200) continue;
+      if (descTrim.length <= 50) continue;
+
+      out.push({
+        id: `${Date.now()}-${i}`,
+        title: titleTrim,
+        description: descTrim,
+        url: article.url,
+        imageUrl: processArticleImage(article),
+        publishedAt: article.publishedAt,
+        source: article.source?.name || host,
+        author: article.author || "Unknown Author",
+      });
+
+      if (out.length >= MAX_ARTICLES) break;
+    }
+
+    return out;
+  };
+
   // Fetch news from multiple pages to get maximum articles
   const fetchAllNews = async () => {
     try {
@@ -463,112 +547,9 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
         const data = await response.json();
         console.log(`Fetched ${data.articles?.length || 0} articles from API`);
 
-        // Use the same processing logic you already have
+        // Use centralized filter/processing for consistency
         if (data.articles && Array.isArray(data.articles)) {
-          const validArticles = data.articles
-            .filter((article) => {
-              // Basic validation
-              if (
-                !article ||
-                !article.title ||
-                article.title === "[Removed]" ||
-                !article.description ||
-                article.description === "[Removed]" ||
-                !article.url ||
-                (article.title || "").toLowerCase().includes("removed")
-              ) {
-                return false;
-              }
-
-              // Very specific crypto validation for Filipino beginners
-              const titleLower = (article.title || "").toLowerCase();
-              const descriptionLower = (article.description || "").toLowerCase();
-              const combinedContent = (titleLower + " " + descriptionLower).toLowerCase();
-
-              // Defensive: only accept articles from curated reputable domains
-              const REPUTABLE_DOMAINS = [
-                "coindesk.com",
-                "cointelegraph.com",
-                "decrypt.co",
-                "theblock.co",
-                "bitcoinmagazine.com",
-                "newsbtc.com",
-                "cryptonews.com"
-              ];
-              let hostnameOk = true;
-              try {
-                const host = new URL(article.url).hostname || "";
-                hostnameOk = REPUTABLE_DOMAINS.some(d => host.includes(d));
-              } catch (e) {
-                hostnameOk = false;
-              }
-              if (!hostnameOk) return false;
-
-              // Irrelevant terms: check early to avoid false positives (includes python + casinos)
-              const irrelevantTerms = [
-                "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
-                "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
-                "movie","tv show","python","python package","pypi","pip","django","flask",
-                "python library","node package","npm package","software release",
-                "github.com/",
-                "casinos","casino"
-              ];
-              if (irrelevantTerms.some(term => combinedContent.includes(term))) return false;
-
-              // Strong crypto terms (require >= 2 matches)
-              const strongCrypto = [
-                "cryptocurrency", "cryptocurrency market", "bitcoin", "bitcoin price",
-                "ethereum", "ethereum price", "blockchain", "crypto exchange",
-                "crypto trading", "crypto investment", "digital currency"
-              ];
-              const cryptoMatches = strongCrypto.reduce((c, t) => c + (combinedContent.includes(t) ? 1 : 0), 0);
-              if (cryptoMatches < 2) return false;
-
-              // Exclude advanced/scam/tech topics
-              const advancedTerms = [
-                "defi","yield farming","liquidity mining","dao","governance token",
-                "smart contract audit","flash loan","arbitrage","mev","layer 2",
-                "zk-rollup","optimistic rollup","sharding","consensus mechanism",
-                "proof of stake validator","slashing","impermanent loss",
-                "options trading","futures","derivatives","technical analysis","fibonacci"
-              ];
-              const scamTerms = [
-                "memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi",
-                "pyramid scheme","get rich quick","guaranteed profit","meme coin",
-                "shiba inu","pepe","floki","safemoon"
-              ];
-              const techTerms = [
-                "blockchain development","smart contract development","web3 development",
-                "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
-                "evm","gas optimization"
-              ];
-
-              if (
-                advancedTerms.some(t => combinedContent.includes(t)) ||
-                scamTerms.some(t => combinedContent.includes(t)) ||
-                techTerms.some(t => combinedContent.includes(t))
-              ) return false;
-
-              // Additional quality checks
-              const title = (article.title || "").trim();
-              const description = (article.description || "").trim();
-              if (title.length <= 10 || title.length > 200) return false;
-              if (description.length <= 50) return false;
-
-              return true;
-            })
-            .map((article, index) => ({
-              id: `${Date.now()}-${index}`,
-              title: article.title.trim(),
-              description: article.description.trim(),
-              url: article.url,
-              imageUrl: processArticleImage(article), // Use enhanced image processing
-              publishedAt: article.publishedAt,
-              source: article.source?.name || "Unknown",
-              author: article.author || "Unknown Author",
-            }))
-            .slice(0, MAX_ARTICLES);
-
+          const validArticles = filterAndProcessArticles(data.articles);
           allArticles = validArticles;
         }
 
@@ -604,121 +585,19 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
             `Loaded ${payload.articles.length} articles from news_cache.json`
           );
 
-          // Process like normal
-          const validArticles = payload.articles
-            .filter((article) => {
-              // Basic validation
-              if (
-                !article ||
-                !article.title ||
-                article.title === "[Removed]" ||
-                !article.description ||
-                article.description === "[Removed]" ||
-                !article.url ||
-                (article.title || "").toLowerCase().includes("removed")
-              ) {
-                return false;
-              }
+          // Use centralized filter for fallback payload
+          if (payload.articles && Array.isArray(payload.articles)) {
+            const validArticles = filterAndProcessArticles(payload.articles);
+            allArticles = validArticles;
 
-              // Very specific crypto validation for Filipino beginners
-              const titleLower = (article.title || "").toLowerCase();
-              const descriptionLower = (article.description || "").toLowerCase();
-              const contentLower = (titleLower + " " + descriptionLower).toLowerCase();
+            // Save to client cache (so UI shows last updated timestamp consistently)
+            setCachedData(allArticles);
 
-              // reuse same topCryptos / exclusions as above
-              const topCryptos = [
-                "bitcoin","btc","ethereum","eth","bnb","binance coin","solana","sol",
-                "cardano","ada","dogecoin","doge","polygon","matic","avalanche","avax",
-                "chainlink","link","binance","coinbase","crypto.com","crypto beginner",
-                "how to buy","crypto guide","crypto tutorial","crypto investment",
-                "cryptocurrency explained","crypto basics","crypto trading","crypto wallet",
-                "crypto exchange","crypto price","crypto market","bitcoin price",
-                "ethereum price","crypto news","cryptocurrency market","crypto analysis",
-                "crypto prediction","bull market","bear market"
-              ];
-              // require at least 2 strong term matches
-              const cryptoMatches = topCryptos.reduce((c, t) => c + (contentLower.includes(t) ? 1 : 0), 0);
-              const hasRelevantCrypto = cryptoMatches >= 2;
+            // Set an informative error so the UI can show we used fallback (optional)
+            setError(`Using local fallback: news_cache.json`);
 
-              // exclude irrelevant terms (sports etc)
-              const irrelevantTerms = [
-                "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
-                "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
-                "movie","tv show","python","python package","pypi","pip","django","flask",
-                "python library","python package","node package","npm package","software release",
-                "github.com/",
-              ];
-              const hasIrrelevant = irrelevantTerms.some(term => contentLower.includes(term));
-
-              if (!hasRelevantCrypto || hasIrrelevant) return false;
-
-              const advancedTerms = [
-                "defi","yield farming","liquidity mining","dao","governance token",
-                "smart contract audit","flash loan","arbitrage","mev","layer 2",
-                "zk-rollup","optimistic rollup","sharding","consensus mechanism",
-                "proof of stake validator","slashing","impermanent loss","options trading",
-                "futures","derivatives","algorithmic trading","technical analysis","fibonacci retracement"
-              ];
-
-              const scamTerms = [
-                "memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi",
-                "pyramid scheme","get rich quick","guaranteed profit","meme coin",
-                "shiba inu","pepe","floki","safemoon"
-              ];
-
-              const techTerms = [
-                "blockchain development","smart contract development","web3 development",
-                "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
-                "evm","gas optimization"
-              ];
-
-              const hasAdvancedTerm = advancedTerms.some((term) =>
-                contentLower.includes(term)
-              );
-              const hasScamTerm = scamTerms.some((term) =>
-                contentLower.includes(term)
-              );
-              const hasTechTerm = techTerms.some((term) =>
-                contentLower.includes(term)
-              );
-
-              // trimmed title/description used for length checks
-              const title = (article.title || "").trim();
-              const description = (article.description || "").trim();
-
-              const hasGoodTitle = title.length > 10 && title.length < 200;
-              const hasGoodDescription = description.length > 50;
-
-              return (
-                hasRelevantCrypto &&
-                !hasAdvancedTerm &&
-                !hasScamTerm &&
-                !hasTechTerm &&
-                hasGoodTitle &&
-                hasGoodDescription
-              );
-            })
-            .map((article, index) => ({
-              id: `${Date.now()}-${index}`,
-              title: article.title.trim(),
-              description: article.description.trim(),
-              url: article.url,
-              imageUrl: processArticleImage(article),
-              publishedAt: article.publishedAt,
-              source: article.source?.name || "Unknown",
-              author: article.author || "Unknown Author",
-            }))
-            .slice(0, MAX_ARTICLES);
-
-          allArticles = validArticles;
-
-          // Save to client cache (so UI shows last updated timestamp consistently)
-          setCachedData(allArticles);
-
-          // Set an informative error so the UI can show we used fallback (optional)
-          setError(`Using local fallback: news_cache.json`);
-
-          return allArticles;
+            return allArticles;
+          }
         } catch (fallbackErr) {
           console.warn("Fallback also failed:", fallbackErr.message);
           throw apiErr; // re-throw the original API error so caller handles it

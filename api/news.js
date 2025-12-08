@@ -37,70 +37,70 @@ function buildQuery(terms) {
 function filterCryptoArticles(raw) {
   const articles = Array.isArray(raw.articles) ? raw.articles : [];
 
-  // Strong crypto signals (phrases + tokens)
-  const strongCryptoTerms = [
-    "cryptocurrency", "cryptocurrency market", "bitcoin", "bitcoin price",
-    "ethereum", "ethereum price", "blockchain", "crypto exchange",
-    "crypto trading", "crypto investment", "digital currency"
-  ];
+  const escapeRegex = (s) => String(s || "").replace(/[.*+?^${}()|[\\]\\]/g, "\\$&");
+  const wordMatch = (text, term) => {
+    if (!text || !term) return false;
+    try {
+      const re = new RegExp("\\b" + escapeRegex(term) + "\\b", "i");
+      return re.test(text);
+    } catch (e) {
+      return text.includes(term);
+    }
+  };
+  const normalize = (s) => String(s || "").toLowerCase().replace(/[\n\r\t]+/g, " ").replace(/[^\w\s\-\.]/g, " ").trim();
 
-  const advancedTerms = [
-    "defi","yield farming","liquidity mining","dao","governance token",
-    "smart contract audit","flash loan","arbitrage","mev","layer 2",
-    "zk-rollup","optimistic rollup","sharding","consensus mechanism",
-    "proof of stake validator","slashing","impermanent loss",
-    "options trading","futures","derivatives","technical analysis","fibonacci"
-  ];
-  const scamTerms = [
-    "memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi",
-    "pyramid scheme","get rich quick","guaranteed profit","meme coin"
-  ];
-  const techTerms = [
-    "blockchain development","smart contract development","web3 development",
-    "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
-    "evm","gas optimization"
-  ];
+  const REPUTABLE_DOMAINS = CRYPTO_DOMAINS.slice();
 
-  // Irrelevant terms to exclude (sports/entertainment/packages / dev noise / casinos)
   const irrelevantTerms = [
     "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
     "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
     "movie","tv show","python","python package","pypi","pip","django","flask",
-    "python library","python package","node package","npm package","software release",
-    "github.com/",
-    "casinos", "casino"
+    "python library","node package","npm package","software release","github.com/",
+    "casinos","casino"
   ];
 
-  function hasAny(list, text) {
-    return list.some(term => text.includes(term));
+  const advancedTerms = ["defi","yield farming","liquidity mining","dao","governance token","smart contract audit","flash loan","arbitrage","mev","layer 2","zk-rollup","optimistic rollup","sharding","consensus mechanism","proof of stake validator","slashing","impermanent loss","options trading","futures","derivatives","technical analysis","fibonacci"];
+  const scamTerms = ["memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi","pyramid scheme","get rich quick","guaranteed profit","meme coin","shiba inu","pepe","floki","safemoon"];
+  const techTerms = ["blockchain development","smart contract development","web3 development","solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine","evm","gas optimization"];
+
+  const topCryptos = ["bitcoin","btc","ethereum","eth","bnb","binance","binance coin","solana","sol","cardano","ada","dogecoin","doge","polygon","matic","avalanche","avax","chainlink","link","coinbase","crypto.com","pdax","coins.ph","crypto","cryptocurrency"];
+
+  const filtered = [];
+  for (let i = 0; i < articles.length; i++) {
+    const a = articles[i];
+    if (!a) continue;
+    const titleRaw = a.title || "";
+    const descRaw = a.description || "";
+    const title = titleRaw.trim();
+    const description = descRaw.trim();
+    if (!title || !description) continue;
+    if (title === "[removed]" || description === "[removed]") continue;
+    if (title.toLowerCase().includes("removed")) continue;
+    if (title.length <= 10 || title.length > 200) continue;
+    if (description.length <= 50) continue;
+
+    // Hostname check against reputable domains
+    let host = "";
+    try { host = new URL(a.url).hostname || ""; } catch (e) { continue; }
+    if (!REPUTABLE_DOMAINS.some(d => host.includes(d))) continue;
+
+    const titleLower = normalize(title);
+    const descriptionLower = normalize(description);
+    const contentLower = normalize((a.content || "") + " " + titleLower + " " + descriptionLower);
+
+    if (irrelevantTerms.some(t => wordMatch(contentLower, t))) continue;
+
+    const cryptoMatches = topCryptos.reduce((c, t) => c + (wordMatch(contentLower, t) ? 1 : 0), 0);
+    const titleHasCrypto = topCryptos.some(t => wordMatch(titleLower, t));
+    if (cryptoMatches < 2 || !titleHasCrypto) continue;
+
+    if (advancedTerms.some(t => wordMatch(contentLower, t))) continue;
+    if (scamTerms.some(t => wordMatch(contentLower, t))) continue;
+    if (techTerms.some(t => wordMatch(contentLower, t))) continue;
+
+    filtered.push(a);
+    if (filtered.length >= PAGE_SIZE) break;
   }
-
-  const filtered = articles.filter(a => {
-    if (!a) return false;
-    const title = (a.title || "").toLowerCase();
-    const description = (a.description || "").toLowerCase();
-    const content = (title + " " + description).toLowerCase();
-
-    // Basic quality checks
-    if (!title || !description) return false;
-    if (title === "[removed]" || description === "[removed]") return false;
-    if (title.includes("removed")) return false;
-    if (title.length <= 10 || title.length > 200) return false;
-    if (description.length <= 50) return false;
-
-    // Exclude irrelevant topics early (python/dev noise, sports, casinos, etc.)
-    if (hasAny(irrelevantTerms, content)) return false;
-
-    // Count strong crypto matches — require at least 2 signals to pass
-    const cryptoMatches = strongCryptoTerms.reduce((c, t) => c + (content.includes(t) ? 1 : 0), 0);
-    if (cryptoMatches < 2) return false;
-
-    const hasAdvanced = hasAny(advancedTerms, content);
-    const hasScam = hasAny(scamTerms, content);
-    const hasTech = hasAny(techTerms, content);
-
-    return !hasAdvanced && !hasScam && !hasTech;
-  });
 
   return {
     status: raw.status || "ok",
