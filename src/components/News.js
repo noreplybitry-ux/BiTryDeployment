@@ -682,6 +682,10 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                 contentLower.includes(term)
               );
 
+              // trimmed title/description used for length checks
+              const title = (article.title || "").trim();
+              const description = (article.description || "").trim();
+
               const hasGoodTitle = title.length > 10 && title.length < 200;
               const hasGoodDescription = description.length > 50;
 
