@@ -1,9 +1,61 @@
 {
-  "timestamp": "2025-12-07T23:11:54.599Z",
+  "timestamp": "2025-12-08T01:01:43.162Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Forget Bitcoin, The Uber-Wealthy Are Now Rapidly Buying XRP: CEO",
+        "description": "Jake Claver, CEO of Digital Ascension Group, says ultra-wealthy families are rapidly accumulating XRP, and he believes most XRP holders still don’t realize how rare their position is. In a video posted on X, Claver revealed that his firm has been in recent co…",
+        "url": "http://www.newsbtc.com/altcoin/forget-bitcoin-the-uber-wealthy-are-now-rapidly-buying-xrp-ceo/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_8bd0e0.jpg?fit=3000%2C2002",
+        "publishedAt": "2025-12-07T01:00:06Z",
+        "content": "Jake Claver, CEO of Digital Ascension Group, says ultra-wealthy families are rapidly accumulating XRP, and he believes most XRP holders still dont realize how rare their position is. In a video poste… [+2957 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bitcoinist"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin ETF, Treasury Firms Might Have Stopped Buying — But How Much Have They Offloaded?",
+        "description": "The Bitcoin market structure is believed to have undergone a massive shift since the significant price downturn seen on October 10, 2025. While the premier cryptocurrency has been on something resembling a recovery path since the market bloodbath, some sector…",
+        "url": "https://bitcoinist.com/bitcoin-etf-and-treasury-firms-have-stopped-buying/",
+        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/01/2025-01-26-04.22.52.jpg",
+        "publishedAt": "2025-12-07T00:30:36Z",
+        "content": "The Bitcoin market structure is believed to have undergone a massive shift since the significant price downturn seen on October 10, 2025. While the premier cryptocurrency has been on something resemb… [+2572 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Tiiny.site"
+        },
+        "author": "Chu_Wong",
+        "title": "Show HN: XeraSentry – Real-time Ethereum security monitoring in Python",
+        "description": "serious beta testers only\n\nComments URL: https://news.ycombinator.com/item?id=46178032\nPoints: 1\n# Comments: 1",
+        "url": "https://lavender-clarette-17.tiiny.site",
+        "urlToImage": null,
+        "publishedAt": "2025-12-07T00:26:25Z",
+        "content": "Real-Time Monitoring\r\nAnalyzes transactions as they hit the blockchain. Python-based system with RPC failover and retry logic.\r\n10 Detection Rules\r\nHigh-value transfers, whale movements, address pois… [+691 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hoover.org"
+        },
+        "author": "December 7, 2025",
+        "title": "Articles On: Nvidia, Anthropic Claude Code, Robots, AI, Bitcoin, VW, Amazon, US Supply Chains, and Europe",
+        "description": "This section highlights articles and reports on the harmful impacts of the commercial and economic policies employed by the Chinese Communist Party.",
+        "url": "https://www.hoover.org/research/articles-nvidia-anthropic-claude-code-robots-ai-bitcoin-vw-amazon-us-supply-chains-and",
+        "urlToImage": "https://www.hoover.org/sites/default/files/styles/facebook/public/research/images/csgp_industrialpolicies.jpg?itok=dPkGHoSi",
+        "publishedAt": "2025-12-07T00:00:00Z",
+        "content": "3 Chinese nationals charged with smuggling Nvidia, HP chips to Chinavia ABC News on November 18, 2025\r\nFour Americans charged with smuggling Nvidia GPUs and HPE supercomputers to China face up to 200… [+1187 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -432,71 +484,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af483-f2b0-7eaa-9be5-a4555dcf1532",
         "publishedAt": "2025-12-06T16:51:22Z",
         "content": "Bitcoin's Santa rally may be ignited by macroeconomic tailwinds, including the Federal Reserves incoming interest rate decision, but fearful investor sentiment may take another hit by any hawkish rem… [+2719 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "BleepingComputer"
-        },
-        "author": "",
-        "title": "Best Crypto Asset Recovery Service Providers: Top Firms to Retrieve Lost Crypto",
-        "description": "Best Crypto Asset Recovery Service Providers: Top Firms to Retrieve Lost Crypto - posted in Windows Crashes and Blue Screen of Death (BSOD) Help and Support: ZEUS CRYPTO RECOVERY SERVICES delivers expert support for recovering lost, stolen, or inaccessible cr…",
-        "url": "https://www.bleepingcomputer.com/forums/t/812233/best-crypto-asset-recovery-service-providers-top-firms-to-retrieve-lost-crypto/",
-        "urlToImage": "https://www.bleepingcomputer.com/forums/public/style_images/master/meta_image.png",
-        "publishedAt": "2025-12-06T16:40:52Z",
-        "content": "ZEUS CRYPTO RECOVERY SERVICES delivers expert support for recovering lost, stolen, or inaccessible cryptocurrency. Through advanced blockchain analytics and secure forensic methods, they trace digita… [+319 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "finance.yahoo.com",
-        "title": "Strategy CEO Says No Bitcoin Sale till 2065 Despite BTC Losing $90K Support",
-        "description": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend volatility, exposing the correlation between thinning liquidity and larger directional moves when U.S. mar…",
-        "url": "https://biztoc.com/x/c593a894213d702b",
-        "urlToImage": "https://biztoc.com/cdn/c593a894213d702b_s.webp",
-        "publishedAt": "2025-12-06T16:38:07Z",
-        "content": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend volatility, exposing the correlation between t… [+145 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Wolfram.com"
-        },
-        "author": "Davis Tyrell",
-        "title": "Best Crypto Asset Recovery Service Providers: Top Firms to Retrieve Lost Cryptocurrency",
-        "description": "ZEUS CRYPTO RECOVERY SERVICES delivers expert support for recovering lost, stolen, or inaccessible cryptocurrency. Through advanced blockchain analytics and secure forensic methods, they trace digital assets, restore wallet access, and assist victims of scams…",
-        "url": "https://community.wolfram.com/groups/-/m/t/3586710",
-        "urlToImage": "http://community.wolfram.com/share.png",
-        "publishedAt": "2025-12-06T16:33:18Z",
-        "content": "ZEUS CRYPTO RECOVERY SERVICES delivers expert support for recovering lost, stolen, or inaccessible cryptocurrency. Through advanced blockchain analytics and secure forensic methods, they trace digita… [+319 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Massive Bitcoin Awakening: 2 Physical Coins Unlock $179 Million After 13 Years",
-        "description": "Two long-dormant Casascius coins, each loaded with 1,000 Bitcoin, were activated on Friday, unlocking more than $179 million that had sat untouched for over 13 years. Related Reading: Bitcoin Adoption Is Just Getting Started — 200x Growth Possible, Tom Lee Sa…",
-        "url": "http://www.newsbtc.com/news/bitcoin/massive-bitcoin-awakening-2-physical-coins-unlock-179-million-after-13-years/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_986f59.jpg?fit=3000%2C2000",
-        "publishedAt": "2025-12-06T16:30:51Z",
-        "content": "Two long-dormant Casascius coins, each loaded with 1,000 Bitcoin, were activated on Friday, unlocking more than $179 million that had sat untouched for over 13 years.\r\nAccording to onchain data, one … [+2533 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Bitcoinist"
-        },
-        "author": "Scott Matherson",
-        "title": "Ripple Announces Groundbreaking “One-Stop Shop” For Everything, Here’s What It Is",
-        "description": "Crypto firm Ripple recently announced its mission to be the one-stop shop for crypto infrastructure. This came as the firm highlighted the acquisitions it made this year in a bid to achieve this mission.  Ripple Unveils One-Stop Shop For Digital Asset Infrast…",
-        "url": "https://bitcoinist.com/ripple-announces-one-stop-shop/",
-        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/12/Ripple-from-YouTube.jpg",
-        "publishedAt": "2025-12-06T16:30:42Z",
-        "content": "Crypto firm Ripple recently announced its mission to be the one-stop shop for crypto infrastructure. This came as the firm highlighted the acquisitions it made this year in a bid to achieve this miss… [+3180 chars]"
       }
     ]
   }
