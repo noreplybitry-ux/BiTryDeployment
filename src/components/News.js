@@ -1,5 +1,6 @@
 ﻿import React, { useState, useEffect } from "react";
 import "../css/News.css";
+import { filterCryptoArticles, CRYPTO_DOMAINS, SEARCH_TERMS } from "../lib/newsFilter";
 
 export default function News() {
   const [allNews, setAllNews] = useState([]);
@@ -466,56 +467,16 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
   const filterAndProcessArticles = (articles = []) => {
     if (!Array.isArray(articles)) return [];
 
-    const REPUTABLE_DOMAINS = [
-      "coindesk.com","cointelegraph.com","decrypt.co","theblock.co",
-      "bitcoinmagazine.com","newsbtc.com","cryptonews.com"
-    ];
+    // Use the shared filter to ensure exact parity with server/scripts
+    const payloadLike = { status: "ok", totalResults: Array.isArray(articles) ? articles.length : 0, articles };
+    const filtered = filterCryptoArticles(payloadLike).articles || [];
 
-    const irrelevantTerms = [
-      "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
-      "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
-      "movie","tv show","python","python package","pypi","pip","django","flask",
-      "python library","node package","npm package","software release","github.com/",
-      "casinos","casino"
-    ];
-
-    const advancedTerms = ["defi","yield farming","liquidity mining","dao","governance token","smart contract audit","flash loan","arbitrage","mev","layer 2","zk-rollup","optimistic rollup","sharding","consensus mechanism","proof of stake validator","slashing","impermanent loss","options trading","futures","derivatives","technical analysis","fibonacci"];
-    const scamTerms = ["memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi","pyramid scheme","get rich quick","guaranteed profit","meme coin","shiba inu","pepe","floki","safemoon"];
-    const techTerms = ["blockchain development","smart contract development","web3 development","solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine","evm","gas optimization"];
-
-    const topCryptos = ["bitcoin","btc","ethereum","eth","bnb","binance","binance coin","solana","sol","cardano","ada","dogecoin","doge","polygon","matic","avalanche","avax","chainlink","link","coinbase","crypto.com","pdax","coins.ph","crypto","cryptocurrency"];
-
-    const out = [];
-    for (let i = 0; i < articles.length; i++) {
-      const article = articles[i];
-      if (!article || !article.title || !article.description || !article.url) continue;
-      if (article.title === "[Removed]" || article.description === "[Removed]") continue;
-
-      // Hostname check
-      let host = "";
-      try { host = new URL(article.url).hostname || ""; } catch (e) { continue; }
-      if (!REPUTABLE_DOMAINS.some(d => host.includes(d))) continue;
-
-      const titleLower = normalize(article.title);
-      const descriptionLower = normalize(article.description);
-      const contentLower = normalize((article.content || "") + " " + titleLower + " " + descriptionLower);
-
-      if (irrelevantTerms.some(t => wordMatch(contentLower, t))) continue;
-
-      const cryptoMatches = topCryptos.reduce((c, t) => c + (wordMatch(contentLower, t) ? 1 : 0), 0);
-      const titleHasCrypto = topCryptos.some(t => wordMatch(titleLower, t));
-      if (cryptoMatches < 2 || !titleHasCrypto) continue;
-
-      if (advancedTerms.some(t => wordMatch(contentLower, t))) continue;
-      if (scamTerms.some(t => wordMatch(contentLower, t))) continue;
-      if (techTerms.some(t => wordMatch(contentLower, t))) continue;
-
+    const out = filtered.slice(0, MAX_ARTICLES).map((article, i) => {
       const titleTrim = (article.title || "").trim();
       const descTrim = (article.description || "").trim();
-      if (titleTrim.length <= 10 || titleTrim.length > 200) continue;
-      if (descTrim.length <= 50) continue;
-
-      out.push({
+      let host = "";
+      try { host = new URL(article.url).hostname || ""; } catch (e) {}
+      return {
         id: `${Date.now()}-${i}`,
         title: titleTrim,
         description: descTrim,
@@ -524,10 +485,8 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
         publishedAt: article.publishedAt,
         source: article.source?.name || host,
         author: article.author || "Unknown Author",
-      });
-
-      if (out.length >= MAX_ARTICLES) break;
-    }
+      };
+    });
 
     return out;
   };
