@@ -483,7 +483,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               // Very specific crypto validation for Filipino beginners
               const title = (article.title || "").toLowerCase();
               const description = (article.description || "").toLowerCase();
-              const content = title + " " + description;
+              const content = (title + " " + description).toLowerCase();
 
               // Top cryptocurrencies relevant for Filipino beginners
               const topCryptos = [
@@ -530,9 +530,15 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                 "bear market",
               ];
 
-              const hasRelevantCrypto = topCryptos.some((term) =>
-                content.includes(term)
-              );
+              // require at least 2 strong term matches
+              const cryptoMatches = strongCryptoTerms.reduce((c, t) => c + (content.includes(t) ? 1 : 0), 0);
+              const hasRelevantCrypto = cryptoMatches >= 2;
+
+              // exclude irrelevant terms (sports etc)
+              const irrelevantTerms = ["nba","miami heat","lakers","soccer","movie","python package","npm package"];
+              const hasIrrelevant = irrelevantTerms.some(term => content.includes(term));
+
+              if (!hasRelevantCrypto || hasIrrelevant) return false;
 
               // Exclude complex/advanced topics not suitable for beginners
               const advancedTerms = [
@@ -680,7 +686,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               // Very specific crypto validation for Filipino beginners
               const title = (article.title || "").toLowerCase();
               const description = (article.description || "").toLowerCase();
-              const content = title + " " + description;
+              const content = (title + " " + description).toLowerCase();
 
               // reuse same topCryptos / exclusions as above
               const topCryptos = [
@@ -694,9 +700,15 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                 "crypto prediction","bull market","bear market"
               ];
 
-              const hasRelevantCrypto = topCryptos.some((term) =>
-                content.includes(term)
-              );
+              // require at least 2 strong term matches
+              const cryptoMatches = strongCryptoTerms.reduce((c, t) => c + (content.includes(t) ? 1 : 0), 0);
+              const hasRelevantCrypto = cryptoMatches >= 2;
+
+              // exclude irrelevant terms (sports etc)
+              const irrelevantTerms = ["nba","miami heat","lakers","soccer","movie","python package","npm package"];
+              const hasIrrelevant = irrelevantTerms.some(term => content.includes(term));
+
+              if (!hasRelevantCrypto || hasIrrelevant) return false;
 
               const advancedTerms = [
                 "defi","yield farming","liquidity mining","dao","governance token",
@@ -854,6 +866,12 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
       setLoading(false);
     }
   };
+
+  const strongCryptoTerms = [
+    "cryptocurrency", "cryptocurrency market", "bitcoin", "bitcoin price",
+    "ethereum", "ethereum price", "blockchain", "crypto exchange",
+    "crypto trading", "crypto investment", "digital currency"
+  ];
 
   if (loading) {
     return (

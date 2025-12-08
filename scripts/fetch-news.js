@@ -17,15 +17,14 @@ const TMP_API = OUT_API + ".tmp";
 
 // Unified query terms (keeps same terms used by server)
 const SEARCH_TERMS = [
-  "bitcoin", "btc", "ethereum", "eth", "bnb", "binance coin",
-  "solana", "sol", "cardano", "ada", "dogecoin", "doge",
-  "polygon", "matic", "avalanche", "avax", "chainlink", "link",
-  "coinbase", "crypto", "crypto.com", "pdax", "coins.ph",
-  "crypto beginner", "how to buy", "crypto guide", "crypto tutorial",
-  "crypto investment", "cryptocurrency explained", "crypto basics",
-  "crypto trading", "crypto wallet", "crypto exchange", "crypto price",
-  "crypto market", "bitcoin price", "ethereum price", "crypto news",
-  "cryptocurrency market", "crypto analysis"
+  "cryptocurrency market",
+  "bitcoin price",
+  "ethereum price",
+  "crypto trading",
+  "crypto investment",
+  "blockchain news",
+  "digital currency",
+  "crypto exchange"
 ];
 
 const PAGE_SIZE = 50;

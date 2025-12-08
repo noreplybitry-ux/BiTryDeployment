@@ -4,29 +4,43 @@ import path from "path";
 const CACHE_FILE = path.join(process.cwd(), "api", "news_cache.json");
 const PUBLIC_CACHE_FILE = path.join(process.cwd(), "public", "news_cache.json");
 
-// Unified terms (same as scripts/fetch-news.js)
+// Stronger, more specific search phrases (smaller, higher-signal list)
 const SEARCH_TERMS = [
-  "bitcoin", "btc", "ethereum", "eth", "bnb", "binance coin",
-  "solana", "sol", "cardano", "ada", "dogecoin", "doge",
-  "polygon", "matic", "avalanche", "avax", "chainlink", "link",
-  "coinbase", "crypto", "crypto.com", "pdax", "coins.ph",
-  "crypto beginner", "how to buy", "crypto guide", "crypto tutorial",
-  "crypto investment", "cryptocurrency explained", "crypto basics",
-  "crypto trading", "crypto wallet", "crypto exchange", "crypto price",
-  "crypto market", "bitcoin price", "ethereum price", "crypto news",
-  "cryptocurrency market", "crypto analysis"
+  "cryptocurrency market",
+  "bitcoin price",
+  "ethereum price",
+  "crypto trading",
+  "crypto investment",
+  "blockchain news",
+  "digital currency",
+  "crypto exchange"
 ];
 
-const PAGE_SIZE = 50;
+// Optionally restrict to well-known crypto domains to reduce noise
+const CRYPTO_DOMAINS = [
+  "coindesk.com",
+  "cointelegraph.com",
+  "decrypt.co",
+  "theblock.co",
+  "bitcoinmagazine.com",
+  "cryptonews.com"
+];
 
 function buildQuery(terms) {
-  return terms.map(t => (t.includes(" ") ? `"${t}"` : t)).join(" OR ");
+  return terms.map(t => `"${t.replace(/"/g, '\\"')}"`).join(" OR ");
 }
 
 // Same filtering function used by the fetch script
 function filterCryptoArticles(raw) {
   const articles = Array.isArray(raw.articles) ? raw.articles : [];
-  const topCryptos = SEARCH_TERMS.map(s => s.toLowerCase());
+
+  // Strong crypto signals (phrases + tokens)
+  const strongCryptoTerms = [
+    "cryptocurrency", "cryptocurrency market", "bitcoin", "bitcoin price",
+    "ethereum", "ethereum price", "blockchain", "crypto exchange",
+    "crypto trading", "crypto investment", "digital currency"
+  ];
+
   const advancedTerms = [
     "defi","yield farming","liquidity mining","dao","governance token",
     "smart contract audit","flash loan","arbitrage","mev","layer 2",
@@ -36,12 +50,19 @@ function filterCryptoArticles(raw) {
   ];
   const scamTerms = [
     "memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi",
-    "pyramid scheme","get rich quick","guaranteed profit","meme coin","shiba inu","pepe","floki","safemoon"
+    "pyramid scheme","get rich quick","guaranteed profit","meme coin"
   ];
   const techTerms = [
     "blockchain development","smart contract development","web3 development",
     "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
     "evm","gas optimization"
+  ];
+
+  // Irrelevant terms to exclude (sports/entertainment/packages etc)
+  const irrelevantTerms = [
+    "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
+    "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
+    "movie","tv show","python package","npm package","software release"
   ];
 
   function hasAny(list, text) {
@@ -54,18 +75,23 @@ function filterCryptoArticles(raw) {
     const description = (a.description || "").toLowerCase();
     const content = (title + " " + description).toLowerCase();
 
+    // Basic quality checks
     if (!title || !description) return false;
     if (title === "[removed]" || description === "[removed]") return false;
     if (title.includes("removed")) return false;
     if (title.length <= 10 || title.length > 200) return false;
     if (description.length <= 50) return false;
 
-    const isRelevant = hasAny(topCryptos, content);
+    // Count strong crypto matches — require at least 2 signals to pass
+    const cryptoMatches = strongCryptoTerms.reduce((c, t) => c + (content.includes(t) ? 1 : 0), 0);
+    if (cryptoMatches < 2) return false;
+
     const hasAdvanced = hasAny(advancedTerms, content);
     const hasScam = hasAny(scamTerms, content);
     const hasTech = hasAny(techTerms, content);
+    const hasIrrelevant = hasAny(irrelevantTerms, content);
 
-    return isRelevant && !hasAdvanced && !hasScam && !hasTech;
+    return !hasAdvanced && !hasScam && !hasTech && !hasIrrelevant;
   });
 
   return {
@@ -86,11 +112,12 @@ export default async function handler(req, res) {
   const apiKey = process.env.NEWS_API_KEY;
   let q = buildQuery(SEARCH_TERMS);
 
-  // NewsAPI enforces a 500-character limit for the q= parameter
+  // NewsAPI enforces a 500-character limit for q= — keep a compact fallback
   const MAX_QUERY_LENGTH = 500;
   if (q.length > MAX_QUERY_LENGTH) {
     console.warn(`Built query too long (${q.length}), using compact fallback.`);
-    q = buildQuery(["crypto", "bitcoin", "ethereum", "bnb", "solana", "dogecoin", "cardano"]);
+    const compact = ["cryptocurrency market", "bitcoin price", "crypto exchange"];
+    q = buildQuery(compact);
   }
 
   const url = new URL("https://newsapi.org/v2/everything");
@@ -98,6 +125,11 @@ export default async function handler(req, res) {
   url.searchParams.set("sortBy", "publishedAt");
   url.searchParams.set("pageSize", String(PAGE_SIZE));
   url.searchParams.set("language", "en");
+
+  // Add domains filter to concentrate on crypto publishers for higher precision
+  if (CRYPTO_DOMAINS.length > 0) {
+    url.searchParams.set("domains", CRYPTO_DOMAINS.join(","));
+  }
 
   console.log("Fetching NewsAPI URL (q length):", q.length);
 

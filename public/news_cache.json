@@ -1,125 +1,190 @@
 {
-  "timestamp": "2025-12-07T14:38:13.821Z",
+  "timestamp": "2025-12-08T01:11:59.327Z",
   "data": {
     "status": "ok",
-    "totalResults": 18,
+    "totalResults": 22,
     "articles": [
       {
         "source": {
           "id": null,
-          "name": "Crypto Briefing"
+          "name": "Pypi.org"
         },
-        "author": "Vivian Nguyen",
-        "title": "French banking giant BPCE will start letting customers buy Bitcoin and major tokens on Monday",
-        "description": "BPCE's crypto integration signals a shift in traditional banking, potentially accelerating digital asset adoption and regulatory evolution in Europe.\nThe post French banking giant BPCE will start letting customers buy Bitcoin and major tokens on Monday appear…",
-        "url": "https://cryptobriefing.com/buy-bitcoin-france-bpce-launch/",
-        "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2025/12/06093248/cec02a8b-878e-4ad1-bac8-000963266dd6-800x420.jpg",
-        "publishedAt": "2025-12-06T14:33:25Z",
-        "content": "Key Takeaways\r\n<ul><li>BPCE is allowing customers to buy Bitcoin, Ether, Solana, and USDC directly through its apps in a phased rollout starting with 2 million clients.</li><li>The rollout begins wit… [+1027 chars]"
+        "author": "contact@verdict.example.com",
+        "title": "verdict-sdk added to PyPI",
+        "description": "Python SDK for VERDICT AI-powered crypto trading analyzer",
+        "url": "https://pypi.org/project/verdict-sdk/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T19:58:43Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "CoinDesk"
+          "name": "Pypi.org"
         },
-        "author": "Stephen Alpher",
-        "title": "Anthony Pompliano's Bitcoin Treasury Firm ProCap BTC Closes SPAC Merger Deal",
-        "description": "Shares in the company fell more than 50% this week as the merger approval went forward.",
-        "url": "https://www.coindesk.com/markets/2025/12/06/anthony-pompliano-s-bitcoin-treasury-firm-procap-btc-closes-spac-merger-deal",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/31ca6f437b81910af6e1ba36ef18af29a8d3dcc3-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T14:29:36Z",
-        "content": "Special purpose acquisition company (SPAC) Columbus Circle Capital (BRR) and ProCap BTC led by Anthony Pompliano and having raised more than $750 million to build a bitcoin treasury firm closed their… [+1858 chars]"
+        "author": "contact@verdict.example.com",
+        "title": "verdict-sdk 0.1.0",
+        "description": "Python SDK for VERDICT AI-powered crypto trading analyzer",
+        "url": "https://pypi.org/project/verdict-sdk/0.1.0/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T19:58:43Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       },
       {
         "source": {
-          "id": null,
-          "name": "CryptoSlate"
+          "id": "the-times-of-india",
+          "name": "The Times of India"
         },
-        "author": "Gino Matos",
-        "title": "Zcash and privacy protocols face a “do-or-die” SEC meeting that determines if developers are personally liable for code",
-        "description": "The SEC’s Crypto Task Force scheduled a four-hour roundtable on financial surveillance and privacy for Dec. 15, bringing together zero-knowledge proof developers, civil liberties advocates, and protocol executives to debate whether blockchain privacy tools ca…",
-        "url": "https://cryptoslate.com/sec-drops-dec-15-roundtable-on-crypto-privacy-why-the-timing-matters/",
-        "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/sec-zcash-privacy.jpg",
-        "publishedAt": "2025-12-06T14:25:18Z",
-        "content": "The SEC’s Crypto Task Force scheduled a four-hour roundtable on financial surveillance and privacy for Dec. 15, bringing together zero-knowledge proof developers, civil liberties advocates, and proto… [+8238 chars]"
+        "author": "Shreya Biswas",
+        "title": "Bitcoin price (BTC USD) today falls to $89,000 — Strategy CEO Phong Lee calms crypto market, says no BTC sales until 2065",
+        "description": "Bitcoin price ​today: Strategy CEO Phong Lee reassured investors, stating the firm won't sell its Bitcoin until 2065, despite recent market volatility and liquidations. The cryptocurrency is holding near $89,691, within an 18-month cup-and-handle pattern. Whi…",
+        "url": "https://economictimes.indiatimes.com/news/international/us/bitcoin-price-btc-usd-today-falls-to-89000-strategy-ceo-phong-lee-calms-crypto-market-says-no-btc-sales-until-2065/articleshow/125809529.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-125809663,width-1200,height-630,imgsize-154310,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2025-12-06T19:25:41Z",
+        "content": "Bitcoin price today: Strategy CEO Phong Lee stepped forward on Saturday to steady shaken sentiment after Bitcoin briefly fell below $88,000, a drop triggered by more than $500 million in liquidations… [+3264 chars]"
       },
       {
         "source": {
           "id": null,
           "name": "Biztoc.com"
         },
-        "author": "cnbc.com",
-        "title": "Biggest mistakes crypto investors make with estate planning",
-        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
-        "url": "https://biztoc.com/x/8fa6e13e340de8e2",
-        "urlToImage": "https://biztoc.com/cdn/955/og.png",
-        "publishedAt": "2025-12-06T14:13:26Z",
-        "content": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.\r\nThis story appeared on cnbc.com, 2025-12-06… [+9 chars]"
+        "author": "coindesk.com",
+        "title": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients",
+        "description": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients\nThe service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by Hexarq.\nWhat to know:\n- French banking group BPCE will star…",
+        "url": "https://biztoc.com/x/1f3bc422c3afe464",
+        "urlToImage": "https://biztoc.com/cdn/1f3bc422c3afe464_s.webp",
+        "publishedAt": "2025-12-06T18:07:16Z",
+        "content": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail ClientsThe service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by … [+140 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "Sun Sentinel"
+          "name": "CoinDesk"
         },
-        "author": "Ira Winderman, South Florida Sun-Sentinel",
-        "title": "Ira Winderman: Based on schedule, better if Heat NBA Cup runneth is over?",
-        "description": "MIAMI — You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular. But there also are times when the greater good has to be considered, of getting your team whole and healthy through the 82-game reg…",
-        "url": "https://www.sun-sentinel.com/2025/12/06/ira-winderman-based-on-schedule-better-if-heat-nba-cup-runneth-is-over/",
-        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-        "publishedAt": "2025-12-06T14:05:00Z",
-        "content": "MIAMI You play to win the games. We get that. The Miami Heat get that. It is why “tank” remains out of the team’s vernacular.\r\nBut there also are times when the greater good has to be considered, of … [+7852 chars]"
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients",
+        "description": "The service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by Hexarq.",
+        "url": "https://www.coindesk.com/business/2025/12/06/french-banking-giant-bpce-to-roll-out-crypto-trading-for-2m-retail-clients",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2e296e10a2bb8be54b6b43be4e9869a518af675a-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T18:03:56Z",
+        "content": "Major French banking group BPCE is set to start offering crypto trading services to retail customers through its Banque Populaire and Caisse dÉpargne apps starting Monday.\r\nCustomers of four regional… [+1111 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "CNBC"
+          "name": "newsBTC"
         },
-        "author": null,
-        "title": "Biggest mistakes crypto investors make with estate planning",
-        "description": "Crypto investors face a wide range of estate planning issues that could leave digital assets tied up in court or lost forever rather than passed to heirs.",
-        "url": "https://www.cnbc.com/2025/12/06/crypto-investors-estate-planning-taxes-mistakes.html",
-        "urlToImage": "https://image.cnbcfm.com/api/v1/image/105154690-crypto.jpg?v=1764701916&w=1920&h=1080",
-        "publishedAt": "2025-12-06T14:03:30Z",
-        "content": "Roughly 1 in 7 people are leaving unclaimed property on the table, according to the National Association of Unclaimed Property Administrators. While the recent heavy selling in bitcoin and ether is r… [+7444 chars]"
+        "author": "Opeyemi Sule",
+        "title": "Analyst Points To $82,000 As Most Crucial Bitcoin Price Level — Here’s Why",
+        "description": "In a not-so-surprising turn of events, the bearish orientation of the Bitcoin price has continued into the month of December, suggesting that the premier cryptocurrency could end the year in the red. Interestingly, recent on-chain data has offered insights in…",
+        "url": "http://www.newsbtc.com/news/bitcoin/analyst-points-to-82000-crucial-bitcoin-price-level/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1397377530.jpg?fit=2309%2C1299",
+        "publishedAt": "2025-12-06T17:30:17Z",
+        "content": "In a not-so-surprising turn of events, the bearish orientation of the Bitcoin price has continued into the month of December, suggesting that the premier cryptocurrency could end the year in the red.… [+2405 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "Bitcoinist"
+          "name": "Biztoc.com"
         },
-        "author": "Ronaldo Marquez",
-        "title": "SEC Chair Paul Atkins Advocates For Modernizing Crypto Regulations– Here’s How",
-        "description": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SEC’s intent to modernize its rules to facilitate an on-chain market environmen…",
-        "url": "https://bitcoinist.com/sec-chair-advocates-modernizing-crypto-regulations/",
-        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2025/04/Screenshot_978.jpg",
-        "publishedAt": "2025-12-06T14:00:42Z",
-        "content": "In remarks made on December 4, US Securities and Exchange Commission (SEC) Chair Paul Atkins expressed an optimistic outlook for the cryptocurrency industry. Atkins emphasized the SECs intent to mode… [+3468 chars]"
+        "author": "coindesk.com",
+        "title": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb",
+        "description": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb\nThe crypto exchange also took note of a so-called AI bubble that continues to go strong and a weaker U.S. dollar.\nWhat to know:\n- Coinbase Institutional is seeing a potentia…",
+        "url": "https://biztoc.com/x/e8d73ea7c7efa7e1",
+        "urlToImage": "https://biztoc.com/cdn/e8d73ea7c7efa7e1_s.webp",
+        "publishedAt": "2025-12-06T15:53:42Z",
+        "content": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds ClimbThe crypto exchange also took note of a so-called AI bubble that continues to go strong and a weaker U.S. dollar.W… [+137 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "BeInCrypto"
+          "name": "Thinkmoon.ai"
         },
-        "author": "Brian McGleenon",
-        "title": "This December Could Decide the Fate of Digital Asset Treasuries: Here’s CoinShares’ Survival Warning",
-        "description": "After a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) are in a danger zone during December.",
-        "url": "https://beincrypto.com/december-decide-fate-digital-asset-treasuries/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/A2SWDNCCkCPRhIwSo0dqSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/de1248b79cb6b1eb1400c24fdf12c8b6",
-        "publishedAt": "2025-12-06T14:00:27Z",
-        "content": "Bitcoin Flashes a Rare Signal as a $13B Fed Shock HitsIs a Reversal Beginning?. Photo by BeInCrypto\r\nAfter a turbulent few weeks in the crypto market, Digital Asset Treasury (DAT) companies have been… [+4523 chars]"
+        "author": "thinkmoon",
+        "title": "Show HN: ThinkMoon – AI Trading Assistant Using LLMs for Live Crypto Trading",
+        "description": "I built ThinkMoon because I wanted to see if LLMs could actually make money trading crypto, not just talk about it.It's an AI-powered trading platform where you can connect models from OpenRouter, OpenAI, or Anthropic to real markets and let them execute actu…",
+        "url": "https://demo.thinkmoon.ai/",
+        "urlToImage": "https://demo.thinkmoon.ai/og-image.png",
+        "publishedAt": "2025-12-06T15:48:16Z",
+        "content": "You're viewing demo data from real AI trading on a Binance testnet account.Register orlogin to connect your Binance account and create your AI trading agent."
       },
       {
         "source": {
           "id": null,
-          "name": "Yahoo Entertainment"
+          "name": "Pypi.org"
         },
-        "author": "Monique Mulima",
-        "title": "From 2600% Gain to 86% Wipeout, Crypto’s Hottest Trade Collapsed",
-        "description": "An array of public companies thought they had found a sort of perpetual motion machine: Use your corporate cash to buy up Bitcoin or other digital tokens and...",
-        "url": "https://finance.yahoo.com/news/2600-gain-86-wipeout-crypto-140000811.html",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1ZaxxAQKXon.g2oSjE80DQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_holding_pen_162/af8dbb45d094b00c65cf4b0c8b6191a7",
-        "publishedAt": "2025-12-06T14:00:00Z",
-        "content": "Photographer: Camilo Freedman/Bloomberg\r\n(Bloomberg) -- What began the year as one of the best trades in the stock market has, in a matter of months, turned into one of the worst.\r\nAn array of public… [+6474 chars]"
+        "author": "support@blocky.com.br",
+        "title": "blockypy 0.2.3",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/0.2.3/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T15:23:59Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pypi.org"
+        },
+        "author": "support@blocky.com.br",
+        "title": "blockypy 0.2.2",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/0.2.2/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T15:13:31Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Biztoc.com"
+        },
+        "author": "coindesk.com",
+        "title": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?",
+        "description": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?\nAs the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming or if another cornerstone model is approaching its end.\nWhat…",
+        "url": "https://biztoc.com/x/be84606c1468bdfb",
+        "urlToImage": "https://biztoc.com/cdn/be84606c1468bdfb_s.webp",
+        "publishedAt": "2025-12-06T15:09:18Z",
+        "content": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?As the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming o… [+138 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Industry Leader Shares Why Ethereum Price Will Reach $12,000",
+        "description": "Industry leader Tom Lee has shared how the Ethereum price could reach $12,000 within the next few months. He based his prediction on the Bitcoin price action and how ETH could match the flagship crypto on a potential run to the upside.  Tom Lee Explains How T…",
+        "url": "http://www.newsbtc.com/news/ethereum/industry-leader-shares-why-ethereum-price-will-reach-12000/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T15:00:43Z",
+        "content": "Industry leader Tom Lee has shared how the Ethereum price could reach $12,000 within the next few months. He based his prediction on the Bitcoin price action and how ETH could match the flagship cryp… [+2595 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten, AI Boost",
+        "title": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?",
+        "description": "As the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming or if another cornerstone model is approaching its end.",
+        "url": "https://www.coindesk.com/markets/2025/12/05/how-much-longer-until-we-consider-the-bitcoin-power-law-model-invalid",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bbeda191f8fd9c64a56bc73526ad7134c6c442fe-3200x1800.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2025-12-06T15:00:00Z",
+        "content": "Over a long enough time frame, every long term valuation model for bitcoin has eventually been broken, yet the one that has maintained the strongest narrative this cycle has been the power law model.… [+1787 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Pypi.org"
+        },
+        "author": "support@blocky.com.br",
+        "title": "blockypy 0.2.1",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/0.2.1/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T14:59:18Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       },
       {
         "source": {
@@ -137,19 +202,6 @@
       {
         "source": {
           "id": null,
-          "name": "Tistory.com"
-        },
-        "author": "T.B",
-        "title": "국가 왜 존재 하는가",
-        "description": "코인 김남국과 연봉 2억 인사청탁 문진석 Crypto had a bad autumn. Will it have a bad winter? @davidgura and stacy-marie ishmael break down what you need to know. Listen to the Big Take podcast https://t.co/Lwt1aXgDv6 pic.twitter.com/QiRpjz02yF— Bloomberg (@business) December 5…",
-        "url": "https://ryueyes11.tistory.com/511998",
-        "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fp4zLE%2FdJMcahpobNU%2FAAAAAAAAAAAAAAAAAAAAAH8o_XWZZPnd2qODFNRAq-pknzbjEsG6eT4cwudZ6oFt%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1767193199%26allow_ip%3D%26allow_referer%3D%26signature%3DwBzBxwbbEGoMdM3FVXZUvbAHxWo%253D",
-        "publishedAt": "2025-12-06T12:27:51Z",
-        "content": "2 \r\nCrypto had a bad autumn. Will it have a bad winter? @davidgura and stacy-marie ishmael break down what you need to know. Listen to the Big Take podcast https://t.co/Lwt1aXgDv6pic.twitter.com/QiRp… [+7947 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "Bitcoinist"
         },
         "author": "Ronaldo Marquez",
@@ -163,80 +215,80 @@
       {
         "source": {
           "id": null,
+          "name": "Coinspeaker"
+        },
+        "author": "Parth Dubey",
+        "title": "Crypto Recovery in December: Coinbase",
+        "description": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said...",
+        "url": "https://www.coinspeaker.com/crypto-recovery-in-december-coinbase/",
+        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/7e5cad94f86651a7ae03b97604e80236",
+        "publishedAt": "2025-12-06T08:20:24Z",
+        "content": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said that odds for a Federal Reserve rate cut ro… [+1970 chars]"
+      },
+      {
+        "source": {
+          "id": null,
           "name": "newsBTC"
         },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Settles In Consolidation Zone – Levels To Watch",
-        "description": "Bitcoin (BTC) trades just below $90,000 after a fluctuating week of price action resulted in a net loss of 1.8%. Despite initial hopes of a resurgence in late November, the premier cryptocurrency is now 29.16% away from its all-time high. Going by the price a…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-settles-in-consolidation-zone-levels-to-watch/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/istockphoto-1329055819-612x612-1.jpg?fit=900%2C538",
-        "publishedAt": "2025-12-06T12:00:03Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+        "author": "Rubmar Garcia",
+        "title": "Bitcoin Price Slides Below $90,000 – Is A Retest Of The November Lows Near?",
+        "description": "Bitcoin (BTC) is retesting a crucial support area after its price slid 5% from the recent highs and fell below the $90,000 barrier. Some analysts have suggested that the cryptocurrency’s structure remains intact, but warned that it must bounce quickly or risk…",
+        "url": "http://www.newsbtc.com/news/bitcoin-price-slides-below-90000-is-a-retest-of-the-november-lows-near/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/kanchanara-7E3QGntO66M-unsplash.jpeg?fit=1920%2C1277",
+        "publishedAt": "2025-12-06T03:00:34Z",
+        "content": "Bitcoin (BTC) is retesting a crucial support area after its price slid 5% from the recent highs and fell below the $90,000 barrier. Some analysts have suggested that the cryptocurrencys structure rem… [+3184 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "Dlnews.com"
+          "name": "newsBTC"
         },
-        "author": "Lance Datskoluo",
-        "title": "General Catalyst, Jump Trading pile on as crypto startups raise $155 million",
-        "description": "Fundraising in 2025 has already blown past analysts' expectations. Investors include crypto-native players as well as conservative financial institutions.",
-        "url": "https://www.dlnews.com/articles/markets/general-catalyst-jump-trading-pile-on-as-crypto-startups-raise-155-million/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/T90MtozIhalRioL8oT5fAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03ODU-/https://media.zenfs.com/en/dlnews_702/9dce25dbaeb0fda7e8a74dfe31051166",
-        "publishedAt": "2025-12-06T12:00:00Z",
-        "content": "Venture capitalists poured another $155 million into 14 crypto startups this week, bringing total investment to nearly $25 billion this year, according to DefiLlama data.\r\nThats a 160% uptick from la… [+2358 chars]"
+        "author": "Ronaldo Marquez",
+        "title": "Bitcoin Price Faces Potential 60% Decline As Expert Warns Of ‘Major Bull Trap’",
+        "description": "Despite the Bitcoin price recovery above the crucial $90,000 threshold—a level that has historically served as a supportive floor for the cryptocurrency—the market is exhibiting signs that a further correction may be imminent.  Bitcoin Price Recovery At Risk?…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-faces-potential-60-decline-as-expert-warns-of-major-bull-trap/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Screenshot_844.jpg?fit=1274%2C721",
+        "publishedAt": "2025-12-06T02:00:43Z",
+        "content": "Despite the Bitcoin price recovery above the crucial $90,000 thresholda level that has historically served as a supportive floor for the cryptocurrencythe market is exhibiting signs that a further co… [+2769 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "GlobeNewswire"
+          "name": "Pypi.org"
         },
-        "author": "Mutuum Finance",
-        "title": "New Crypto Coin Mutuum Finance Nears 100% of Phase 6 Allocation as Price Shift Approaches",
-        "description": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches full allocation. With the current stage priced at $0.035 and…",
-        "url": "https://www.globenewswire.com/news-release/2025/12/06/3201038/0/en/New-Crypto-Coin-Mutuum-Finance-Nears-100-of-Phase-6-Allocation-as-Price-Shift-Approaches.html",
-        "urlToImage": "https://ml.globenewswire.com/Resource/Download/46758e47-4e5d-4da5-945c-e049069b7ade",
-        "publishedAt": "2025-12-06T11:57:00Z",
-        "content": "DUBAI, United Arab Emirates, Dec. 06, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n, a developing decentralized lending protocol, is nearing a major milestone as Phase 6 of its presale approaches … [+4029 chars]"
+        "author": "support@blocky.com.br",
+        "title": "blockypy 0.2.0",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/0.2.0/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-06T00:29:43Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "BeInCrypto"
+          "name": "Pypi.org"
         },
-        "author": "Oluwapelumi Adejumo",
-        "title": "Coinbase Makes Bold Bitcoin Prediction For December Despite Market Downturn",
-        "description": "Coinbase says the crypto market is entering a December recovery phase as liquidity improves and macro conditions turn more supportive.",
-        "url": "https://beincrypto.com/coinbase-bitcoin-prediction-december-2025/",
-        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/wWRW8oQEPdFAWFHqmLszKA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/beincrypto_us_662/f7084fd32aebfb7509edd77c518cfb10",
-        "publishedAt": "2025-12-06T11:32:24Z",
-        "content": "Photo by BeInCrypto\r\nCoinbase expects the crypto market to enter a recovery phase in December as liquidity improves and selling pressure from long-time Bitcoin holders eases. \r\nOn December 5, the US-… [+2299 chars]"
+        "author": "support@blocky.com.br",
+        "title": "blockypy added to PyPI",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-05T23:32:55Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       },
       {
         "source": {
           "id": null,
-          "name": "Ambcrypto.com"
+          "name": "Pypi.org"
         },
-        "author": "Ishika Kumari",
-        "title": "Why BlackRock’s $125M Bitcoin move has BTC traders on edge",
-        "description": "BlackRock’s routine transfers mask bearish signals as RSI and MACD confirm short-term selling momentum dominance.",
-        "url": "https://ambcrypto.com/why-blackrocks-125m-bitcoin-move-has-btc-traders-on-edge/",
-        "urlToImage": "https://ambcrypto.com/wp-content/uploads/2025/12/BlackRock-has-deposited-125500000-in-BTC-1000x600.webp",
-        "publishedAt": "2025-12-06T11:00:02Z",
-        "content": "The crypto market is showing strain.\r\nAfter failing to stay above $94,000, Bitcoin [BTC] fell 2.6% to a low of around $89,596, as of press time. At the same time, Ethereum [ETH] mirrored the move wit… [+3016 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CryptoSlate"
-        },
-        "author": "Gino Matos",
-        "title": "Is Base’s Solana bridge a ‘vampire attack’ on SOL liquidity or multichain pragmatism?",
-        "description": "Base launched a bridge to Solana on Dec. 4, and within hours, Solana’s most vocal builders accused Jesse Pollak of running a vampire attack disguised as interoperability. The bridge uses Chainlink CCIP and Coinbase infrastructure to let users move assets betw…",
-        "url": "https://cryptoslate.com/is-bases-solana-bridge-a-vampire-attack-on-sol-liquidity-or-multichain-pragmatism/",
-        "urlToImage": "https://cryptoslate.com/wp-content/uploads/2025/12/solana-base.jpg",
-        "publishedAt": "2025-12-06T10:29:47Z",
-        "content": "Base launched a bridge to Solana on Dec. 4, and within hours, Solana’s most vocal builders accused Jesse Pollak of running a vampire attack disguised as interoperability.\r\nThe bridge uses Chainlink C… [+7338 chars]"
+        "author": "support@blocky.com.br",
+        "title": "blockypy 0.1.0",
+        "description": "Official Python client library for the Blocky Crypto Exchange API",
+        "url": "https://pypi.org/project/blockypy/0.1.0/",
+        "urlToImage": null,
+        "publishedAt": "2025-12-05T23:32:55Z",
+        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       }
     ]
   }

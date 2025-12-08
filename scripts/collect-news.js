@@ -19,8 +19,11 @@ async function fetchCryptoNews() {
 
   console.log('📡 Fetching crypto news...');
   
+  const compact = ['cryptocurrency market','bitcoin price','ethereum price','crypto trading','blockchain news'];
+  const q = compact.map(t => `"${t.replace(/"/g,'\\"')}"`).join(' OR ');
+  const domains = 'coindesk.com,cointelegraph.com,decrypt.co,theblock.co,bitcoinmagazine.com,cryptonews.com';
   const response = await fetch(
-    `https://newsapi.org/v2/everything?q=cryptocurrency OR bitcoin OR ethereum OR "crypto market" OR blockchain&language=en&sortBy=publishedAt&pageSize=50&apiKey=${NEWS_API_KEY}`
+    `https://newsapi.org/v2/everything?q=${encodeURIComponent(q)}&domains=${encodeURIComponent(domains)}&language=en&sortBy=publishedAt&pageSize=50&apiKey=${NEWS_API_KEY}`
   );
   
   if (!response.ok) {
