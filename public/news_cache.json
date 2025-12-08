@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2025-12-08T15:15:17.033Z",
+  "timestamp": "2025-12-08T16:18:14.101Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price dips below 88K as analysis blames FOMC nerves",
+        "description": "Bitcoin saw snap downside toward the weekly close with $87,000 back on the radar ahead of an important Federal Reserve interest-rate decision.",
+        "url": "https://cointelegraph.com/news/bitcoin-dips-below-88k-analysis-blames-fomc",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af946-5ad3-7bfe-8613-ff9f97f1d4fd",
+        "publishedAt": "2025-12-07T15:53:53Z",
+        "content": "Bitcoin (BTC) fell below $88,000 into Sundays weekly close as traders eyed weakness into a major US macro event.\r\nKey points:\r\n<ul><li>Bitcoin sees snap volatility into the weekly close, dipping clos… [+2993 chars]"
+      },
       {
         "source": {
           "id": null,
