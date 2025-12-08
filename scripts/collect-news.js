@@ -34,11 +34,15 @@ async function fetchCryptoNews() {
   
   // Filter and format articles
   return data.articles
-    .filter(article => 
-      article.title && 
-      article.url && 
+    .filter(article =>
+      article.title &&
+      article.url &&
       !article.title.includes('[Removed]') &&
-      !article.url.includes('removed.com')
+      !article.url.includes('removed.com') &&
+      // Exclude Python / dev-package noise
+      !/(python|pypi|pip|django|flask|python package|npm package|node package)/i.test(
+        (article.title || "") + " " + (article.description || "")
+      )
     )
     .map(article => ({
       title: article.title,

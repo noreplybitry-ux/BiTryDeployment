@@ -535,7 +535,13 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               const hasRelevantCrypto = cryptoMatches >= 2;
 
               // exclude irrelevant terms (sports etc)
-              const irrelevantTerms = ["nba","miami heat","lakers","soccer","movie","python package","npm package"];
+              const irrelevantTerms = [
+                "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
+                "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
+                "movie","tv show","python","python package","pypi","pip","django","flask",
+                "python library","python package","node package","npm package","software release",
+                "github.com/",
+              ];
               const hasIrrelevant = irrelevantTerms.some(term => content.includes(term));
 
               if (!hasRelevantCrypto || hasIrrelevant) return false;
@@ -705,7 +711,13 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               const hasRelevantCrypto = cryptoMatches >= 2;
 
               // exclude irrelevant terms (sports etc)
-              const irrelevantTerms = ["nba","miami heat","lakers","soccer","movie","python package","npm package"];
+              const irrelevantTerms = [
+                "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
+                "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
+                "movie","tv show","python","python package","pypi","pip","django","flask",
+                "python library","python package","node package","npm package","software release",
+                "github.com/",
+              ];
               const hasIrrelevant = irrelevantTerms.some(term => content.includes(term));
 
               if (!hasRelevantCrypto || hasIrrelevant) return false;

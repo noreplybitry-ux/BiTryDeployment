@@ -62,7 +62,9 @@ function filterCryptoArticles(raw) {
   const irrelevantTerms = [
     "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
     "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
-    "movie","tv show","python package","npm package","software release"
+    "movie","tv show","python","python package","pypi","pip","django","flask",
+    "python library","python package","node package","npm package","software release",
+    "github.com/", // generic code repo links often not crypto news
   ];
 
   function hasAny(list, text) {

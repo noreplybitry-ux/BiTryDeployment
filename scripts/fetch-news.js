@@ -113,6 +113,14 @@ function filterCryptoArticles(raw) {
     "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
     "evm","gas optimization"
   ];
+  // Irrelevant terms to exclude (sports/entertainment/packages etc)
+  const irrelevantTerms = [
+    "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
+    "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
+    "movie","tv show","python","python package","pypi","pip","django","flask",
+    "python library","python package","node package","npm package","software release",
+    "github.com/",
+  ];
 
   function hasAny(list, text) {
     return list.some(term => text.includes(term));
@@ -134,8 +142,9 @@ function filterCryptoArticles(raw) {
     const hasAdvanced = hasAny(advancedTerms, content);
     const hasScam = hasAny(scamTerms, content);
     const hasTech = hasAny(techTerms, content);
+    const hasIrrelevant = hasAny(irrelevantTerms, content);
 
-    return isRelevant && !hasAdvanced && !hasScam && !hasTech;
+    return isRelevant && !hasAdvanced && !hasScam && !hasTech && !hasIrrelevant;
   });
 
   return {

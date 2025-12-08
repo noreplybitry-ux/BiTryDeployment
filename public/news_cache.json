@@ -1,48 +1,9 @@
 {
-  "timestamp": "2025-12-08T01:11:59.327Z",
+  "timestamp": "2025-12-08T01:27:38.407Z",
   "data": {
     "status": "ok",
-    "totalResults": 22,
+    "totalResults": 10,
     "articles": [
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "contact@verdict.example.com",
-        "title": "verdict-sdk added to PyPI",
-        "description": "Python SDK for VERDICT AI-powered crypto trading analyzer",
-        "url": "https://pypi.org/project/verdict-sdk/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T19:58:43Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "contact@verdict.example.com",
-        "title": "verdict-sdk 0.1.0",
-        "description": "Python SDK for VERDICT AI-powered crypto trading analyzer",
-        "url": "https://pypi.org/project/verdict-sdk/0.1.0/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T19:58:43Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": "the-times-of-india",
-          "name": "The Times of India"
-        },
-        "author": "Shreya Biswas",
-        "title": "Bitcoin price (BTC USD) today falls to $89,000 — Strategy CEO Phong Lee calms crypto market, says no BTC sales until 2065",
-        "description": "Bitcoin price ​today: Strategy CEO Phong Lee reassured investors, stating the firm won't sell its Bitcoin until 2065, despite recent market volatility and liquidations. The cryptocurrency is holding near $89,691, within an 18-month cup-and-handle pattern. Whi…",
-        "url": "https://economictimes.indiatimes.com/news/international/us/bitcoin-price-btc-usd-today-falls-to-89000-strategy-ceo-phong-lee-calms-crypto-market-says-no-btc-sales-until-2065/articleshow/125809529.cms",
-        "urlToImage": "https://img.etimg.com/thumb/msid-125809663,width-1200,height-630,imgsize-154310,overlay-economictimes/articleshow.jpg",
-        "publishedAt": "2025-12-06T19:25:41Z",
-        "content": "Bitcoin price today: Strategy CEO Phong Lee stepped forward on Saturday to steady shaken sentiment after Bitcoin briefly fell below $88,000, a drop triggered by more than $500 million in liquidations… [+3264 chars]"
-      },
       {
         "source": {
           "id": null,
@@ -85,19 +46,6 @@
       {
         "source": {
           "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb",
-        "description": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds Climb\nThe crypto exchange also took note of a so-called AI bubble that continues to go strong and a weaker U.S. dollar.\nWhat to know:\n- Coinbase Institutional is seeing a potentia…",
-        "url": "https://biztoc.com/x/e8d73ea7c7efa7e1",
-        "urlToImage": "https://biztoc.com/cdn/e8d73ea7c7efa7e1_s.webp",
-        "publishedAt": "2025-12-06T15:53:42Z",
-        "content": "Coinbase Sees Crypto Recovery Ahead as Liquidity Improves and Fed Rate Cut Odds ClimbThe crypto exchange also took note of a so-called AI bubble that continues to go strong and a weaker U.S. dollar.W… [+137 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "Thinkmoon.ai"
         },
         "author": "thinkmoon",
@@ -107,32 +55,6 @@
         "urlToImage": "https://demo.thinkmoon.ai/og-image.png",
         "publishedAt": "2025-12-06T15:48:16Z",
         "content": "You're viewing demo data from real AI trading on a Binance testnet account.Register orlogin to connect your Binance account and create your AI trading agent."
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "support@blocky.com.br",
-        "title": "blockypy 0.2.3",
-        "description": "Official Python client library for the Blocky Crypto Exchange API",
-        "url": "https://pypi.org/project/blockypy/0.2.3/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T15:23:59Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "support@blocky.com.br",
-        "title": "blockypy 0.2.2",
-        "description": "Official Python client library for the Blocky Crypto Exchange API",
-        "url": "https://pypi.org/project/blockypy/0.2.2/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T15:13:31Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       },
       {
         "source": {
@@ -176,19 +98,6 @@
       {
         "source": {
           "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "support@blocky.com.br",
-        "title": "blockypy 0.2.1",
-        "description": "Official Python client library for the Blocky Crypto Exchange API",
-        "url": "https://pypi.org/project/blockypy/0.2.1/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T14:59:18Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "newsBTC"
         },
         "author": "Opeyemi Sule",
@@ -198,32 +107,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1383793414.jpg?fit=1272%2C824",
         "publishedAt": "2025-12-06T13:30:13Z",
         "content": "The Bitcoin price has had a mixed performance over the past week, with both sides of the market divide struggling to establish dominance. In the latest battle between the bulls and bears, the premier… [+2392 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Bitcoinist"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Crypto Sell-Off: Binance, Coinbase, Dump Over $2 Billion In Bitcoin As Prices Dip Below $90,000",
-        "description": "The cryptocurrency market experienced another wave of liquidations on Friday, with Bitcoin (BTC) prices dipping below the critical support level of $90,000. This decline followed a brief rally that had seen its price rise approximately $3,000 above this thres…",
-        "url": "https://bitcoinist.com/crypto-sell-off-binance-dump-over-2-billion-bitcoin/",
-        "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/08/Screenshot_330.jpg",
-        "publishedAt": "2025-12-06T12:00:54Z",
-        "content": "The cryptocurrency market experienced another wave of liquidations on Friday, with Bitcoin (BTC) prices dipping below the critical support level of $90,000. This decline followed a brief rally that h… [+3221 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Parth Dubey",
-        "title": "Crypto Recovery in December: Coinbase",
-        "description": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said...",
-        "url": "https://www.coinspeaker.com/crypto-recovery-in-december-coinbase/",
-        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/7e5cad94f86651a7ae03b97604e80236",
-        "publishedAt": "2025-12-06T08:20:24Z",
-        "content": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said that odds for a Federal Reserve rate cut ro… [+1970 chars]"
       },
       {
         "source": {
@@ -250,45 +133,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Screenshot_844.jpg?fit=1274%2C721",
         "publishedAt": "2025-12-06T02:00:43Z",
         "content": "Despite the Bitcoin price recovery above the crucial $90,000 thresholda level that has historically served as a supportive floor for the cryptocurrencythe market is exhibiting signs that a further co… [+2769 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "support@blocky.com.br",
-        "title": "blockypy 0.2.0",
-        "description": "Official Python client library for the Blocky Crypto Exchange API",
-        "url": "https://pypi.org/project/blockypy/0.2.0/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T00:29:43Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "support@blocky.com.br",
-        "title": "blockypy added to PyPI",
-        "description": "Official Python client library for the Blocky Crypto Exchange API",
-        "url": "https://pypi.org/project/blockypy/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-05T23:32:55Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Pypi.org"
-        },
-        "author": "support@blocky.com.br",
-        "title": "blockypy 0.1.0",
-        "description": "Official Python client library for the Blocky Crypto Exchange API",
-        "url": "https://pypi.org/project/blockypy/0.1.0/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-05T23:32:55Z",
-        "content": "A required part of this site couldnt load. This may be due to a browser\r\n extension, network issues, or browser settings. Please check your\r\n connection, disable any ad blockers, or try using a diffe… [+12 chars]"
       }
     ]
   }
