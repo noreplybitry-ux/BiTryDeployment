@@ -20,7 +20,8 @@ export default function News() {
   // Configuration
   const ARTICLES_PER_PAGE = 12;
   const MAX_ARTICLES = 100;
-  const CACHE_KEY = "bitry_crypto_news";
+  const CACHE_VERSION = 3;
+  const CACHE_KEY = `bitry_crypto_news_v${CACHE_VERSION}`;
   const INSIGHTS_CACHE_KEY = "bitry_ai_insights";
   const CACHE_DURATION = 30 * 60 * 1000; // 30 minutes
   const INSIGHTS_CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days for AI insights
@@ -422,7 +423,14 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
   const getCachedData = () => {
     try {
       const cached = localStorage.getItem(CACHE_KEY);
-      return cached ? JSON.parse(cached) : null;
+      const parsed = cached ? JSON.parse(cached) : null;
+      if (!parsed) return null;
+      // Auto-invalidate old versions
+      if (parsed.version && parsed.version !== CACHE_VERSION) {
+        localStorage.removeItem(CACHE_KEY);
+        return null;
+      }
+      return parsed;
     } catch (error) {
       console.error("Error reading cache:", error);
       return null;
@@ -432,6 +440,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
   const setCachedData = (data) => {
     try {
       const cacheObject = {
+        version: CACHE_VERSION,
         data: data,
         timestamp: Date.now(),
       };

@@ -20,8 +20,8 @@ async function fetchCryptoNews() {
   console.log('📡 Fetching crypto news...');
   
   const compact = ['cryptocurrency market','bitcoin price','ethereum price','crypto trading','blockchain news'];
-  const q = compact.map(t => `"${t.replace(/"/g,'\\"')}"`).join(' OR ');
-  const domains = 'coindesk.com,cointelegraph.com,decrypt.co,theblock.co,bitcoinmagazine.com,cryptonews.com';
+  const q = compact.map(t => `"${t.replace(/"/g,'\"')}"`).join(' OR ');
+  const domains = 'coindesk.com,cointelegraph.com,decrypt.co,theblock.co,bitcoinmagazine.com,cryptonews.com,coinjournal.net,coinspeaker.com';
   const response = await fetch(
     `https://newsapi.org/v2/everything?q=${encodeURIComponent(q)}&domains=${encodeURIComponent(domains)}&language=en&sortBy=publishedAt&pageSize=50&apiKey=${NEWS_API_KEY}`
   );
@@ -39,8 +39,8 @@ async function fetchCryptoNews() {
       article.url &&
       !article.title.includes('[Removed]') &&
       !article.url.includes('removed.com') &&
-      // Exclude Python / dev-package noise
-      !/(python|pypi|pip|django|flask|python package|npm package|node package)/i.test(
+      // Exclude Python / dev-package noise and irrelevant non-crypto topics (casino, sports, movies)
+      !/(python|pypi|pip|django|flask|python package|npm package|node package|casino|casinos|gambling|nba|nfl|soccer|movie|tv show)/i.test(
         (article.title || "") + " " + (article.description || "")
       )
     )

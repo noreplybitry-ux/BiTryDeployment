@@ -28,6 +28,7 @@ const SEARCH_TERMS = [
 ];
 
 const PAGE_SIZE = 50;
+const CACHE_VERSION = 3;
 
 function buildQuery(terms) {
   return terms
@@ -114,18 +115,24 @@ function filterCryptoArticles(raw) {
   const normalize = (s) => String(s || "").toLowerCase().replace(/[\n\r\t]+/g, " ").replace(/[^\w\s\-\.]/g, " ").trim();
 
   const irrelevantTerms = [
+    "casino","casinos","gambling",
     "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
     "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
     "movie","tv show","python","python package","pypi","pip","django","flask",
-    "python library","node package","npm package","software release","github.com/",
-    "casinos","casino"
+    "python library","node package","npm package","software release","github.com/","github release",
+    "python 3","java library","javascript framework"
   ];
 
   const advancedTerms = ["defi","yield farming","liquidity mining","dao","governance token","smart contract audit","flash loan","arbitrage","mev","layer 2","zk-rollup","optimistic rollup","sharding","consensus mechanism","proof of stake validator","slashing","impermanent loss","options trading","futures","derivatives","technical analysis","fibonacci"];
   const scamTerms = ["memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi","pyramid scheme","get rich quick","guaranteed profit","meme coin","shiba inu","pepe","floki","safemoon"];
   const techTerms = ["blockchain development","smart contract development","web3 development","solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine","evm","gas optimization"];
 
-  const topCryptos = ["bitcoin","btc","ethereum","eth","bnb","binance","binance coin","solana","sol","cardano","ada","dogecoin","doge","polygon","matic","avalanche","avax","chainlink","link","coinbase","crypto.com","pdax","coins.ph","crypto","cryptocurrency"];
+  const topCryptos = [
+    "cryptocurrency","bitcoin","btc","ethereum","eth","bnb","binance","binance coin",
+    "solana","sol","cardano","ada","dogecoin","doge","polygon","matic",
+    "avalanche","avax","chainlink","link","coinbase","crypto.com","pdax","coins.ph",
+    "crypto","cryptocurrency","crypto market","crypto price","crypto trading","crypto exchange"
+  ];
 
   const filtered = [];
   for (let i = 0; i < articles.length; i++) {
@@ -179,7 +186,9 @@ const CRYPTO_DOMAINS = [
   "theblock.co",
   "bitcoinmagazine.com",
   "newsbtc.com",
-  "cryptonews.com"
+  "cryptonews.com",
+  "coinjournal.net",
+  "coinspeaker.com"
 ];
 
 (async () => {
@@ -190,12 +199,14 @@ const CRYPTO_DOMAINS = [
     const filtered = filterCryptoArticles(data);
 
     const publicPayload = {
+      version: CACHE_VERSION,
       timestamp: new Date().toISOString(),
       data: filtered
     };
     const publicSerialized = JSON.stringify(publicPayload, null, 2) + "\n";
 
     const apiPayload = {
+      version: CACHE_VERSION,
       timestamp: new Date().toISOString(),
       data: filtered
     };
