@@ -23,8 +23,11 @@ const CRYPTO_DOMAINS = [
   "decrypt.co",
   "theblock.co",
   "bitcoinmagazine.com",
+  "newsbtc.com",
   "cryptonews.com"
 ];
+
+const PAGE_SIZE = 50;
 
 function buildQuery(terms) {
   return terms.map(t => `"${t.replace(/"/g, '\\"')}"`).join(" OR ");
@@ -58,13 +61,14 @@ function filterCryptoArticles(raw) {
     "evm","gas optimization"
   ];
 
-  // Irrelevant terms to exclude (sports/entertainment/packages etc)
+  // Irrelevant terms to exclude (sports/entertainment/packages / dev noise / casinos)
   const irrelevantTerms = [
     "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
     "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
     "movie","tv show","python","python package","pypi","pip","django","flask",
     "python library","python package","node package","npm package","software release",
-    "github.com/", // generic code repo links often not crypto news
+    "github.com/",
+    "casinos", "casino"
   ];
 
   function hasAny(list, text) {
@@ -84,6 +88,9 @@ function filterCryptoArticles(raw) {
     if (title.length <= 10 || title.length > 200) return false;
     if (description.length <= 50) return false;
 
+    // Exclude irrelevant topics early (python/dev noise, sports, casinos, etc.)
+    if (hasAny(irrelevantTerms, content)) return false;
+
     // Count strong crypto matches — require at least 2 signals to pass
     const cryptoMatches = strongCryptoTerms.reduce((c, t) => c + (content.includes(t) ? 1 : 0), 0);
     if (cryptoMatches < 2) return false;
@@ -91,9 +98,8 @@ function filterCryptoArticles(raw) {
     const hasAdvanced = hasAny(advancedTerms, content);
     const hasScam = hasAny(scamTerms, content);
     const hasTech = hasAny(techTerms, content);
-    const hasIrrelevant = hasAny(irrelevantTerms, content);
 
-    return !hasAdvanced && !hasScam && !hasTech && !hasIrrelevant;
+    return !hasAdvanced && !hasScam && !hasTech;
   });
 
   return {
@@ -147,7 +153,7 @@ export default async function handler(req, res) {
     }
 
     // Filter the live NewsAPI payload for crypto relevance before caching/returning
-    const rawData = bodyJson || JSON.parse(bodyText);
+    const rawData = bodyJson || (bodyText ? JSON.parse(bodyText) : null);
     const filteredData = filterCryptoArticles(rawData);
 
     const cacheObj = { timestamp: Date.now(), data: filteredData };

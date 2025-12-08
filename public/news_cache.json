@@ -1,35 +1,9 @@
 {
-  "timestamp": "2025-12-08T01:27:38.407Z",
+  "timestamp": "2025-12-08T01:44:01.391Z",
   "data": {
     "status": "ok",
-    "totalResults": 10,
+    "totalResults": 16,
     "articles": [
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients",
-        "description": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients\nThe service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by Hexarq.\nWhat to know:\n- French banking group BPCE will star…",
-        "url": "https://biztoc.com/x/1f3bc422c3afe464",
-        "urlToImage": "https://biztoc.com/cdn/1f3bc422c3afe464_s.webp",
-        "publishedAt": "2025-12-06T18:07:16Z",
-        "content": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail ClientsThe service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by … [+140 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, AI Boost",
-        "title": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients",
-        "description": "The service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by Hexarq.",
-        "url": "https://www.coindesk.com/business/2025/12/06/french-banking-giant-bpce-to-roll-out-crypto-trading-for-2m-retail-clients",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2e296e10a2bb8be54b6b43be4e9869a518af675a-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T18:03:56Z",
-        "content": "Major French banking group BPCE is set to start offering crypto trading services to retail customers through its Banque Populaire and Caisse dÉpargne apps starting Monday.\r\nCustomers of four regional… [+1111 chars]"
-      },
       {
         "source": {
           "id": null,
@@ -42,32 +16,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1397377530.jpg?fit=2309%2C1299",
         "publishedAt": "2025-12-06T17:30:17Z",
         "content": "In a not-so-surprising turn of events, the bearish orientation of the Bitcoin price has continued into the month of December, suggesting that the premier cryptocurrency could end the year in the red.… [+2405 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Thinkmoon.ai"
-        },
-        "author": "thinkmoon",
-        "title": "Show HN: ThinkMoon – AI Trading Assistant Using LLMs for Live Crypto Trading",
-        "description": "I built ThinkMoon because I wanted to see if LLMs could actually make money trading crypto, not just talk about it.It's an AI-powered trading platform where you can connect models from OpenRouter, OpenAI, or Anthropic to real markets and let them execute actu…",
-        "url": "https://demo.thinkmoon.ai/",
-        "urlToImage": "https://demo.thinkmoon.ai/og-image.png",
-        "publishedAt": "2025-12-06T15:48:16Z",
-        "content": "You're viewing demo data from real AI trading on a Binance testnet account.Register orlogin to connect your Binance account and create your AI trading agent."
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Biztoc.com"
-        },
-        "author": "coindesk.com",
-        "title": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?",
-        "description": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?\nAs the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming or if another cornerstone model is approaching its end.\nWhat…",
-        "url": "https://biztoc.com/x/be84606c1468bdfb",
-        "urlToImage": "https://biztoc.com/cdn/be84606c1468bdfb_s.webp",
-        "publishedAt": "2025-12-06T15:09:18Z",
-        "content": "How Much Longer Until We Consider the Bitcoin Power Law Model Invalid?As the gap between spot bitcoin price and the power law widens, investors are left questioning whether mean reversion is coming o… [+138 chars]"
       },
       {
         "source": {
@@ -113,6 +61,19 @@
           "id": null,
           "name": "newsBTC"
         },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Settles In Consolidation Zone – Levels To Watch",
+        "description": "Bitcoin (BTC) trades just below $90,000 after a fluctuating week of price action resulted in a net loss of 1.8%. Despite initial hopes of a resurgence in late November, the premier cryptocurrency is now 29.16% away from its all-time high. Going by the price a…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-settles-in-consolidation-zone-levels-to-watch/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/istockphoto-1329055819-612x612-1.jpg?fit=900%2C538",
+        "publishedAt": "2025-12-06T12:00:03Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
         "author": "Rubmar Garcia",
         "title": "Bitcoin Price Slides Below $90,000 – Is A Retest Of The November Lows Near?",
         "description": "Bitcoin (BTC) is retesting a crucial support area after its price slid 5% from the recent highs and fell below the $90,000 barrier. Some analysts have suggested that the cryptocurrency’s structure remains intact, but warned that it must bounce quickly or risk…",
@@ -133,6 +94,123 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Screenshot_844.jpg?fit=1274%2C721",
         "publishedAt": "2025-12-06T02:00:43Z",
         "content": "Despite the Bitcoin price recovery above the crucial $90,000 thresholda level that has historically served as a supportive floor for the cryptocurrencythe market is exhibiting signs that a further co… [+2769 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Adoption Is Just Getting Started — 200x Growth Possible, Tom Lee Says",
+        "description": "Fundstrat’s Tom Lee told attendees at Binance Blockchain Week that he believes the worst leg of the recent crypto slump is likely over and that markets may be ready for a gradual recovery. He pointed to weakening selling pressure and growing underlying activi…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-adoption-is-just-getting-started-200x-growth-possible-tom-lee-says/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_430976.jpg?fit=3000%2C1996",
+        "publishedAt": "2025-12-06T01:00:51Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Binance Founder Crushes Bitcoin Critic In Game-Changing BTC Vs. Gold Debate",
+        "description": "The Binance Blockchain Week event in Dubai became the center of a high-stakes showdown between traditional and digital innovation, with Bitcoin and gold going head-to-head. Investors, tech enthusiasts, and financial experts watched closely as Binance founder …",
+        "url": "http://www.newsbtc.com/news/bitcoin/trending-bitcoin-vs-gold-debate/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-and-Gold-from-iStock.jpg?fit=612%2C510",
+        "publishedAt": "2025-12-05T22:00:55Z",
+        "content": "The Binance Blockchain Week event in Dubai became the center of a high-stakes showdown between traditional and digital innovation, with Bitcoin and gold going head-to-head. Investors, tech enthusiast… [+3617 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Here’s Why Bitcoin Volatility Sparks Fresh Attention On MicroStrategy",
+        "description": "The Bitcoin price volatility is once again drawing attention to MicroStrategy, the company whose strategy has become a major market reference point, with billions in accumulated BTC and a track record of aggressive buying during downturns. As traders search f…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-volatility-on-microstrategy/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-from-Pixabay-46.jpg?fit=1280%2C853",
+        "publishedAt": "2025-12-05T20:00:56Z",
+        "content": "The Bitcoin price volatility is once again drawing attention to MicroStrategy, the company whose strategy has become a major market reference point, with billions in accumulated BTC and a track recor… [+2960 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": null,
+        "title": "XRP ETFs near $1 Billion, Sovereign wealth funds buying Bitcoin, CFTC approves U.S spot crypto trading - Daily Crypto Recap",
+        "description": "The next-generation media outlet navigating the intersection of culture and technology.",
+        "url": "https://decrypt.co/videos/interviews/a9gidnnr/xrp-etfs-near-1-billion-sovereign-wealth-funds-buying-bitcoin-cftc-approves-us-spot-crypto-trading-daily-crypto-recap",
+        "urlToImage": "https://cdn.jwplayer.com/v2/media/a9gidnnr/poster.jpg",
+        "publishedAt": "2025-12-05T14:14:10Z",
+        "content": "Crypto majors traded slightly higher, with ETH leading gains post-Fusaka as BTC rose 1% to $93,000, ETH jumped 4% to $3,190, and BNB and SOL each added 1% to reach $909 and $143, respectively. Among … [+775 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Hassan Shittu",
+        "title": "Bitcoin Price Could Hit $170K — But Strategy ‘Resilience’ Is Vital: JPMorgan",
+        "description": "JPMorgan analysts say the near-term direction of Bitcoin’s price now depends less on miner behavior and more on the financial resilience of Strategy, the...",
+        "url": "https://cryptonews.com/news/strategys-ability-to-hold-bitcoin-may-shape-btcs-path-to-170k-jpmorgan/",
+        "urlToImage": "https://media.zenfs.com/en/cryptonews_us_711/47574c9b83aed417ba4b14b68ce68276",
+        "publishedAt": "2025-12-05T11:06:08Z",
+        "content": "JPMorgan analysts say the near-term direction of Bitcoins price now depends less on miner behavior and more on the financial resilience of Strategy, the worlds largest corporate holder of Bitcoin, ev… [+4198 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Tightens Uptrend Structure as Market Eyes Another Wave of Gains",
+        "description": "Ethereum price started a fresh increase above $3,200. ETH is now consolidating gains and might aim for more gains above $3,250. Ethereum started a fresh increase above the $3,050 and $3,120 levels. The price is trading above $3,120 and the 100-hourly Simple M…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-tightens-uptrend-3250/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/08/Ethereum-Price-Bulls-Losing-Steam.jpg?fit=1792%2C1024",
+        "publishedAt": "2025-12-05T03:08:36Z",
+        "content": "Ethereum price started a fresh increase above $3,200. ETH is now consolidating gains and might aim for more gains above $3,250.\r\n<ul><li>Ethereum started a fresh increase above the $3,050 and $3,120 … [+2211 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Coils Near Highs as Bulls Defend Gains Ahead of Resistance",
+        "description": "Bitcoin price started a fresh increase above $92,500. BTC is now consolidating gains and might attempt an upside break above $93,500. Bitcoin started a fresh increase above the $92,500 zone. The price is trading above $92,000 and the 100 hourly Simple moving …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-coils-near-highs-94k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/Bitcoin-Pauses.jpg",
+        "publishedAt": "2025-12-05T02:25:26Z",
+        "content": "Bitcoin price started a fresh increase above $92,500. BTC is now consolidating gains and might attempt an upside break above $93,500.\r\n<ul><li>Bitcoin started a fresh increase above the $92,500 zone.… [+2208 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Reversal Loading? Bitcoin, Ethereum, And Solana Build Powerful High-Time-Frame Structures",
+        "description": "In the volatile theatre of the cryptocurrency market, Bitcoin, Ethereum, and Solana are showing signs of a potential high-time-frame reversal. After weeks of stress and price compression, each of the top assets is now stabilizing at key structural support lev…",
+        "url": "http://www.newsbtc.com/news/bitcoin-ethereum-and-solana-2/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-and-Ethereum-from-iStock-5.jpg?fit=612%2C408",
+        "publishedAt": "2025-12-05T00:00:19Z",
+        "content": "In the volatile theatre of the cryptocurrency market, Bitcoin, Ethereum, and Solana are showing signs of a potential high-time-frame reversal. After weeks of stress and price compression, each of the… [+2718 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin price action, investor sentiment point to bullish December",
+        "description": "Multiple Bitcoin price metrics indicate a positive performance this month, despite statistical data showing that bearish Novembers are often followed by equally disappointing price action in December.",
+        "url": "https://cointelegraph.com/news/bitcoin-price-action-investor-sentiment-point-to-bullish-december",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae99b-49c5-7cb8-bc06-69b0f1c084fa",
+        "publishedAt": "2025-12-04T19:47:12Z",
+        "content": "Bitcoin (BTC) entered the new month with a statistical headwind it has never overcome: every time November ended in the red, BTC struggled to turn bullish in December. Yet this years structure looks … [+4759 chars]"
       }
     ]
   }

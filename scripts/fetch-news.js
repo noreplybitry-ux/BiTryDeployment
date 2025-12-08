@@ -56,6 +56,11 @@ async function fetchNews() {
   url.searchParams.set("pageSize", String(PAGE_SIZE));
   url.searchParams.set("sortBy", "publishedAt");
 
+  // Limit to curated crypto news publishers for higher precision
+  if (CRYPTO_DOMAINS.length > 0) {
+    url.searchParams.set("domains", CRYPTO_DOMAINS.join(","));
+  }
+
   console.log("Fetching NewsAPI URL (q length):", queryToUse.length);
 
   const resp = await fetch(url.toString(), {
@@ -96,7 +101,13 @@ async function fileEquals(filePath, contentStr) {
 // Filtering logic (same idea as client)
 function filterCryptoArticles(raw) {
   const articles = Array.isArray(raw.articles) ? raw.articles : [];
-  const topCryptos = SEARCH_TERMS.map(s => s.toLowerCase());
+
+  const strongCryptoTerms = [
+    "cryptocurrency", "cryptocurrency market", "bitcoin", "bitcoin price",
+    "ethereum", "ethereum price", "blockchain", "crypto exchange",
+    "crypto trading", "crypto investment", "digital currency"
+  ];
+
   const advancedTerms = [
     "defi","yield farming","liquidity mining","dao","governance token",
     "smart contract audit","flash loan","arbitrage","mev","layer 2",
@@ -113,13 +124,14 @@ function filterCryptoArticles(raw) {
     "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
     "evm","gas optimization"
   ];
-  // Irrelevant terms to exclude (sports/entertainment/packages etc)
+
   const irrelevantTerms = [
     "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
     "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
     "movie","tv show","python","python package","pypi","pip","django","flask",
     "python library","python package","node package","npm package","software release",
     "github.com/",
+    "casinos"
   ];
 
   function hasAny(list, text) {
@@ -138,13 +150,18 @@ function filterCryptoArticles(raw) {
     if (title.length <= 10 || title.length > 200) return false;
     if (description.length <= 50) return false;
 
-    const isRelevant = hasAny(topCryptos, content);
+    // Exclude irrelevant topics early
+    if (hasAny(irrelevantTerms, content)) return false;
+
+    // Require at least 2 strong crypto signals
+    const cryptoCount = strongCryptoTerms.reduce((c, t) => c + (content.includes(t) ? 1 : 0), 0);
+    if (cryptoCount < 2) return false;
+
     const hasAdvanced = hasAny(advancedTerms, content);
     const hasScam = hasAny(scamTerms, content);
     const hasTech = hasAny(techTerms, content);
-    const hasIrrelevant = hasAny(irrelevantTerms, content);
 
-    return isRelevant && !hasAdvanced && !hasScam && !hasTech && !hasIrrelevant;
+    return !hasAdvanced && !hasScam && !hasTech;
   });
 
   return {
@@ -153,6 +170,17 @@ function filterCryptoArticles(raw) {
     articles: filtered
   };
 }
+
+// Restrict NewsAPI fetches to a curated list of reputable crypto news domains
+const CRYPTO_DOMAINS = [
+  "coindesk.com",
+  "cointelegraph.com",
+  "decrypt.co",
+  "theblock.co",
+  "bitcoinmagazine.com",
+  "newsbtc.com",
+  "cryptonews.com"
+];
 
 (async () => {
   try {

@@ -481,150 +481,81 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               }
 
               // Very specific crypto validation for Filipino beginners
-              const title = (article.title || "").toLowerCase();
-              const description = (article.description || "").toLowerCase();
-              const content = (title + " " + description).toLowerCase();
+              const titleLower = (article.title || "").toLowerCase();
+              const descriptionLower = (article.description || "").toLowerCase();
+              const combinedContent = (titleLower + " " + descriptionLower).toLowerCase();
 
-              // Top cryptocurrencies relevant for Filipino beginners
-              const topCryptos = [
-                "bitcoin",
-                "btc",
-                "ethereum",
-                "eth",
-                "bnb",
-                "binance coin",
-                "solana",
-                "sol",
-                "cardano",
-                "ada",
-                "dogecoin",
-                "doge",
-                "polygon",
-                "matic",
-                "avalanche",
-                "avax",
-                "chainlink",
-                "link",
-                "binance",
-                "coinbase",
-                "crypto.com",
-                "crypto beginner",
-                "how to buy",
-                "crypto guide",
-                "crypto tutorial",
-                "crypto investment",
-                "cryptocurrency explained",
-                "crypto basics",
-                "crypto trading",
-                "crypto wallet",
-                "crypto exchange",
-                "crypto price",
-                "crypto market",
-                "bitcoin price",
-                "ethereum price",
-                "crypto news",
-                "cryptocurrency market",
-                "crypto analysis",
-                "crypto prediction",
-                "bull market",
-                "bear market",
+              // Defensive: only accept articles from curated reputable domains
+              const REPUTABLE_DOMAINS = [
+                "coindesk.com",
+                "cointelegraph.com",
+                "decrypt.co",
+                "theblock.co",
+                "bitcoinmagazine.com",
+                "newsbtc.com",
+                "cryptonews.com"
               ];
+              let hostnameOk = true;
+              try {
+                const host = new URL(article.url).hostname || "";
+                hostnameOk = REPUTABLE_DOMAINS.some(d => host.includes(d));
+              } catch (e) {
+                hostnameOk = false;
+              }
+              if (!hostnameOk) return false;
 
-              // require at least 2 strong term matches
-              const cryptoMatches = strongCryptoTerms.reduce((c, t) => c + (content.includes(t) ? 1 : 0), 0);
-              const hasRelevantCrypto = cryptoMatches >= 2;
-
-              // exclude irrelevant terms (sports etc)
+              // Irrelevant terms: check early to avoid false positives (includes python + casinos)
               const irrelevantTerms = [
                 "nba","nfl","nhl","mlb","fifa","soccer","basketball","football",
                 "sports","game schedule","playoffs","cup","miami heat","lakers","yankees",
                 "movie","tv show","python","python package","pypi","pip","django","flask",
-                "python library","python package","node package","npm package","software release",
+                "python library","node package","npm package","software release",
                 "github.com/",
+                "casinos","casino"
               ];
-              const hasIrrelevant = irrelevantTerms.some(term => content.includes(term));
+              if (irrelevantTerms.some(term => combinedContent.includes(term))) return false;
 
-              if (!hasRelevantCrypto || hasIrrelevant) return false;
+              // Strong crypto terms (require >= 2 matches)
+              const strongCrypto = [
+                "cryptocurrency", "cryptocurrency market", "bitcoin", "bitcoin price",
+                "ethereum", "ethereum price", "blockchain", "crypto exchange",
+                "crypto trading", "crypto investment", "digital currency"
+              ];
+              const cryptoMatches = strongCrypto.reduce((c, t) => c + (combinedContent.includes(t) ? 1 : 0), 0);
+              if (cryptoMatches < 2) return false;
 
-              // Exclude complex/advanced topics not suitable for beginners
+              // Exclude advanced/scam/tech topics
               const advancedTerms = [
-                "defi",
-                "yield farming",
-                "liquidity mining",
-                "dao",
-                "governance token",
-                "smart contract audit",
-                "flash loan",
-                "arbitrage",
-                "mev",
-                "layer 2 scaling",
-                "zk-rollup",
-                "optimistic rollup",
-                "sharding",
-                "consensus mechanism",
-                "proof of stake validator",
-                "slashing",
-                "impermanent loss",
-                "options trading",
-                "futures",
-                "derivatives",
-                "algorithmic trading",
-                "technical analysis",
-                "fibonacci retracement",
+                "defi","yield farming","liquidity mining","dao","governance token",
+                "smart contract audit","flash loan","arbitrage","mev","layer 2",
+                "zk-rollup","optimistic rollup","sharding","consensus mechanism",
+                "proof of stake validator","slashing","impermanent loss",
+                "options trading","futures","derivatives","technical analysis","fibonacci"
               ];
-
-              // Exclude scam/risky topics
               const scamTerms = [
-                "memecoin",
-                "shitcoin",
-                "pump and dump",
-                "rugpull",
-                "rug pull",
-                "ponzi",
-                "pyramid scheme",
-                "get rich quick",
-                "guaranteed profit",
-                "meme coin",
-                "shiba inu",
-                "pepe",
-                "floki",
-                "safemoon",
+                "memecoin","shitcoin","pump and dump","rugpull","rug pull","ponzi",
+                "pyramid scheme","get rich quick","guaranteed profit","meme coin",
+                "shiba inu","pepe","floki","safemoon"
               ];
-
-              // Exclude overly technical blockchain development
               const techTerms = [
-                "blockchain development",
-                "smart contract development",
-                "web3 development",
-                "solidity",
-                "rust programming",
-                "substrate",
-                "cosmos sdk",
-                "ethereum virtual machine",
-                "evm",
-                "gas optimization",
+                "blockchain development","smart contract development","web3 development",
+                "solidity","rust programming","substrate","cosmos sdk","ethereum virtual machine",
+                "evm","gas optimization"
               ];
 
-              const hasAdvancedTerm = advancedTerms.some((term) =>
-                content.includes(term)
-              );
-              const hasScamTerm = scamTerms.some((term) =>
-                content.includes(term)
-              );
-              const hasTechTerm = techTerms.some((term) => content.includes(term));
+              if (
+                advancedTerms.some(t => combinedContent.includes(t)) ||
+                scamTerms.some(t => combinedContent.includes(t)) ||
+                techTerms.some(t => combinedContent.includes(t))
+              ) return false;
 
               // Additional quality checks
-              const hasGoodTitle = title.length > 10 && title.length < 200;
-              const hasGoodDescription = description.length > 50;
+              const title = (article.title || "").trim();
+              const description = (article.description || "").trim();
+              if (title.length <= 10 || title.length > 200) return false;
+              if (description.length <= 50) return false;
 
-              return (
-                hasRelevantCrypto &&
-                !hasAdvancedTerm &&
-                !hasScamTerm &&
-                !hasTechTerm &&
-                hasGoodTitle &&
-                hasGoodDescription
-              );
+              return true;
             })
             .map((article, index) => ({
               id: `${Date.now()}-${index}`,
@@ -690,9 +621,9 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               }
 
               // Very specific crypto validation for Filipino beginners
-              const title = (article.title || "").toLowerCase();
-              const description = (article.description || "").toLowerCase();
-              const content = (title + " " + description).toLowerCase();
+              const titleLower = (article.title || "").toLowerCase();
+              const descriptionLower = (article.description || "").toLowerCase();
+              const contentLower = (titleLower + " " + descriptionLower).toLowerCase();
 
               // reuse same topCryptos / exclusions as above
               const topCryptos = [
@@ -705,9 +636,8 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                 "ethereum price","crypto news","cryptocurrency market","crypto analysis",
                 "crypto prediction","bull market","bear market"
               ];
-
               // require at least 2 strong term matches
-              const cryptoMatches = strongCryptoTerms.reduce((c, t) => c + (content.includes(t) ? 1 : 0), 0);
+              const cryptoMatches = topCryptos.reduce((c, t) => c + (contentLower.includes(t) ? 1 : 0), 0);
               const hasRelevantCrypto = cryptoMatches >= 2;
 
               // exclude irrelevant terms (sports etc)
@@ -718,13 +648,13 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                 "python library","python package","node package","npm package","software release",
                 "github.com/",
               ];
-              const hasIrrelevant = irrelevantTerms.some(term => content.includes(term));
+              const hasIrrelevant = irrelevantTerms.some(term => contentLower.includes(term));
 
               if (!hasRelevantCrypto || hasIrrelevant) return false;
 
               const advancedTerms = [
                 "defi","yield farming","liquidity mining","dao","governance token",
-                "smart contract audit","flash loan","arbitrage","mev","layer 2 scaling",
+                "smart contract audit","flash loan","arbitrage","mev","layer 2",
                 "zk-rollup","optimistic rollup","sharding","consensus mechanism",
                 "proof of stake validator","slashing","impermanent loss","options trading",
                 "futures","derivatives","algorithmic trading","technical analysis","fibonacci retracement"
@@ -743,13 +673,13 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               ];
 
               const hasAdvancedTerm = advancedTerms.some((term) =>
-                content.includes(term)
+                contentLower.includes(term)
               );
               const hasScamTerm = scamTerms.some((term) =>
-                content.includes(term)
+                contentLower.includes(term)
               );
               const hasTechTerm = techTerms.some((term) =>
-                content.includes(term)
+                contentLower.includes(term)
               );
 
               const hasGoodTitle = title.length > 10 && title.length < 200;
