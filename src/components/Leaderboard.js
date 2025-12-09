@@ -183,17 +183,20 @@ const Leaderboard = () => {
           {podiumOrder.map((idx, pos) => (
             <div key={top3[idx].id} className={`podium place-${places[pos]}`}>
               <div className="avatar">
-                <img
-                  src={
-                    fixProfileUrl(top3[idx].user.profile_picture_url) ||
-                    "https://via.placeholder.com/100/333333/FFFFFF?text=👤"
-                  }
-                  alt={top3[idx].user.display_name}
-                  onError={(e) =>
-                    (e.target.src =
-                      "https://via.placeholder.com/100/333333/FFFFFF?text=👤")
-                  }
-                />
+                {top3[idx].user.profile_picture_url ? (
+                  <img
+                    src={fixProfileUrl(top3[idx].user.profile_picture_url)}
+                    alt={top3[idx].user.display_name}
+                    onError={(e) =>
+                      (e.target.src =
+                        "https://via.placeholder.com/100/333333/FFFFFF?text=👤")
+                    }
+                  />
+                ) : (
+                  <div className="initials-avatar">
+                    {top3[idx].user.display_name.charAt(0).toUpperCase()}
+                  </div>
+                )}
                 <div className="rank-badge">{podiumMedals[pos]}</div>
               </div>
               <div className="user-info">
