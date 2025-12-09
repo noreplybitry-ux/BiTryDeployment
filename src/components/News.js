@@ -613,6 +613,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
       }
       throw error;
     }
+    localStorage.removeItem(CACHE_KEY); // Temp: Clear cache on load for testing
   };
 
   // Update displayed news based on current page
