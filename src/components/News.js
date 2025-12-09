@@ -1,6 +1,10 @@
 ﻿import React, { useState, useEffect } from "react";
 import "../css/News.css";
-import { filterCryptoArticles, CRYPTO_DOMAINS, SEARCH_TERMS } from "../lib/newsFilter";
+import {
+  filterCryptoArticles,
+  CRYPTO_DOMAINS,
+  SEARCH_TERMS,
+} from "../lib/newsFilter";
 
 export default function News() {
   const [allNews, setAllNews] = useState([]);
@@ -24,9 +28,8 @@ export default function News() {
   const CACHE_VERSION = 3;
   const CACHE_KEY = `bitry_crypto_news_v${CACHE_VERSION}`;
   const INSIGHTS_CACHE_KEY = "bitry_ai_insights";
-  const CACHE_DURATION = 30 * 60 * 1000; // 30 minutes
+  const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes for testing (was 30)
   const INSIGHTS_CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days for AI insights
-  const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
 
   // Gemini AI Configuration
   const GEMINI_CONFIG = {
@@ -70,7 +73,10 @@ export default function News() {
       const parsed = JSON.parse(cleaned);
       if (parsed && typeof parsed === "object") return parsed;
     } catch (err) {
-      console.warn("parseAIJsonOrFallback: JSON.parse failed after sanitizing:", err);
+      console.warn(
+        "parseAIJsonOrFallback: JSON.parse failed after sanitizing:",
+        err
+      );
     }
 
     // If parse failed, return a lightweight structured fallback using the raw text
@@ -85,7 +91,8 @@ export default function News() {
   };
 
   // Prevent .toLowerCase() calls on non-strings
-  const safeLower = (v) => (typeof v === "string" ? v.toLowerCase() : "unknown");
+  const safeLower = (v) =>
+    typeof v === "string" ? v.toLowerCase() : "unknown";
 
   // ------- End helpers -------
 
@@ -129,8 +136,6 @@ export default function News() {
 
     return imageUrl;
   };
-
- 
 
   // Generate dynamic placeholder based on article content
   const generatePlaceholderImage = (article) => {
@@ -239,10 +244,15 @@ export default function News() {
         });
 
         const contentType = resp.headers.get("content-type") || "";
-        const body = contentType.includes("application/json") ? await resp.json() : { rawText: await resp.text() };
+        const body = contentType.includes("application/json")
+          ? await resp.json()
+          : { rawText: await resp.text() };
 
         if (!resp.ok) {
-          const message = body?.error || body?.message || (body?.rawText ? body.rawText : `Status ${resp.status}`);
+          const message =
+            body?.error ||
+            body?.message ||
+            (body?.rawText ? body.rawText : `Status ${resp.status}`);
           const err = new Error(`AI proxy error: ${message}`);
           err.status = resp.status;
           throw err;
@@ -336,7 +346,10 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               parsedInsights = parseAIJsonOrFallback(aiResult, article);
             }
           } catch (parseErr) {
-            console.warn("Strict JSON.parse failed for AI proxy response:", parseErr);
+            console.warn(
+              "Strict JSON.parse failed for AI proxy response:",
+              parseErr
+            );
             parsedInsights = parseAIJsonOrFallback(aiResult, article);
           }
         } else {
@@ -358,8 +371,15 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
       console.error("Error generating AI insights:", error);
       // Return a structured fallback instead of throwing so UI can show something useful
       return {
-        marketImpact: { level: "Unknown", description: "AI analysis unavailable" },
-        sentiment: { overall: "Unknown", confidence: "", reasoning: "AI analysis unavailable" },
+        marketImpact: {
+          level: "Unknown",
+          description: "AI analysis unavailable",
+        },
+        sentiment: {
+          overall: "Unknown",
+          confidence: "",
+          reasoning: "AI analysis unavailable",
+        },
         keyTakeaways: ["AI analysis unavailable"],
         riskLevel: { level: "Unknown", description: "" },
         recommendation: "AI analysis unavailable right now",
@@ -462,45 +482,24 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
       return text.includes(term);
     }
   };
-  const normalize = (s) => (s || "").toLowerCase().replace(/[\n\r\t]+/g, " ").replace(/[^\w\s\-\.]/g, " ").trim();
-
-  const filterAndProcessArticles = (articles = []) => {
-    if (!Array.isArray(articles)) return [];
-
-    // Use the shared filter to ensure exact parity with server/scripts
-    const payloadLike = { status: "ok", totalResults: Array.isArray(articles) ? articles.length : 0, articles };
-    const filtered = filterCryptoArticles(payloadLike).articles || [];
-
-    const out = filtered.slice(0, MAX_ARTICLES).map((article, i) => {
-      const titleTrim = (article.title || "").trim();
-      const descTrim = (article.description || "").trim();
-      let host = "";
-      try { host = new URL(article.url).hostname || ""; } catch (e) {}
-      return {
-        id: `${Date.now()}-${i}`,
-        title: titleTrim,
-        description: descTrim,
-        url: article.url,
-        imageUrl: processArticleImage(article),
-        publishedAt: article.publishedAt,
-        source: article.source?.name || host,
-        author: article.author || "Unknown Author",
-      };
-    });
-
-    return out;
-  };
+  const normalize = (s) =>
+    (s || "")
+      .toLowerCase()
+      .replace(/[\n\r\t]+/g, " ")
+      .replace(/[^\w\s\-\.]/g, " ")
+      .trim();
 
   // Fetch news from multiple pages to get maximum articles
   const fetchAllNews = async () => {
     try {
-      const cached = getCachedData();
-      if (cached && isCacheFresh(cached)) {
-        console.log("Loading from client cache...");
-        return cached.data;
+      const response = await fetch("/api/news");
+
+      if (!response.ok) {
+        throw new Error(`API request failed with status ${response.status}`);
       }
 
-      console.log("Fetching fresh news from API...");
+      const data = await response.json();
+      console.log(`Fetched ${data.articles?.length || 0} articles from API`);
 
       let allArticles = [];
 
@@ -517,8 +516,25 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
 
         // Use centralized filter/processing for consistency
         if (data.articles && Array.isArray(data.articles)) {
-          const validArticles = filterAndProcessArticles(data.articles);
-          allArticles = validArticles;
+          const processedArticles = data.articles
+            .slice(0, MAX_ARTICLES)
+            .map((article, i) => {
+              let host = "";
+              try {
+                host = new URL(article.url).hostname || "";
+              } catch (e) {}
+              return {
+                id: `${Date.now()}-${i}`,
+                title: (article.title || "").trim(),
+                description: (article.description || "").trim(),
+                url: article.url,
+                imageUrl: processArticleImage(article),
+                publishedAt: article.publishedAt,
+                source: article.source?.name || host,
+                author: article.author || "Unknown Author",
+              };
+            });
+          allArticles = processedArticles;
         }
 
         // Cache results client-side
@@ -541,9 +557,8 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
           // support both shapes:
           // 1) raw is { timestamp, data: { status, totalResults, articles: [...] } }
           // 2) raw is a NewsAPI-shaped object { status, totalResults, articles: [...] }
-          const payload = raw?.data && Array.isArray(raw.data.articles)
-            ? raw.data
-            : raw;
+          const payload =
+            raw?.data && Array.isArray(raw.data.articles) ? raw.data : raw;
 
           if (!payload.articles || !Array.isArray(payload.articles)) {
             throw new Error("Fallback file does not contain articles array");
@@ -555,8 +570,25 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
 
           // Use centralized filter for fallback payload
           if (payload.articles && Array.isArray(payload.articles)) {
-            const validArticles = filterAndProcessArticles(payload.articles);
-            allArticles = validArticles;
+            const processedArticles = payload.articles
+              .slice(0, MAX_ARTICLES)
+              .map((article, i) => {
+                let host = "";
+                try {
+                  host = new URL(article.url).hostname || "";
+                } catch (e) {}
+                return {
+                  id: `${Date.now()}-${i}`,
+                  title: (article.title || "").trim(),
+                  description: (article.description || "").trim(),
+                  url: article.url,
+                  imageUrl: processArticleImage(article),
+                  publishedAt: article.publishedAt,
+                  source: article.source?.name || host,
+                  author: article.author || "Unknown Author",
+                };
+              });
+            allArticles = processedArticles;
 
             // Save to client cache (so UI shows last updated timestamp consistently)
             setCachedData(allArticles);
@@ -661,9 +693,17 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
   };
 
   const strongCryptoTerms = [
-    "cryptocurrency", "cryptocurrency market", "bitcoin", "bitcoin price",
-    "ethereum", "ethereum price", "blockchain", "crypto exchange",
-    "crypto trading", "crypto investment", "digital currency"
+    "cryptocurrency",
+    "cryptocurrency market",
+    "bitcoin",
+    "bitcoin price",
+    "ethereum",
+    "ethereum price",
+    "blockchain",
+    "crypto exchange",
+    "crypto trading",
+    "crypto investment",
+    "digital currency",
   ];
 
   if (loading) {
@@ -809,7 +849,11 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
             <div className="news-content">
               <div className="news-text-content">
                 <h3 className="news-card-title">
-                  <a href={article.url} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={article.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {article.title}
                   </a>
                 </h3>
@@ -835,7 +879,10 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
               </div>
 
               <div className="news-actions">
-                <button className="btn-ai-insights" onClick={() => openModal(article)}>
+                <button
+                  className="btn-ai-insights"
+                  onClick={() => openModal(article)}
+                >
                   See AI Insights
                 </button>
               </div>
@@ -973,13 +1020,12 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                     <div className="article-meta">
                       <span className="source">{selectedArticle.source}</span>
                       <span className="date">
-                        {new Date(selectedArticle.publishedAt).toLocaleDateString(
-                          "en-US",
-                          {
-                            month: "short",
-                            day: "numeric",
-                          }
-                        )}
+                        {new Date(
+                          selectedArticle.publishedAt
+                        ).toLocaleDateString("en-US", {
+                          month: "short",
+                          day: "numeric",
+                        })}
                       </span>
                       <span className="ai-badge">AI Powered</span>
                     </div>
@@ -992,7 +1038,9 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                         <h5>AI Market Impact</h5>
                       </div>
                       <div
-                        className={`impact-badge ${safeLower(insights?.marketImpact?.level)}`}
+                        className={`impact-badge ${safeLower(
+                          insights?.marketImpact?.level
+                        )}`}
                       >
                         {insights?.marketImpact?.level || "Unknown"} Impact
                       </div>
@@ -1005,11 +1053,14 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                         <h5>AI Sentiment Analysis</h5>
                       </div>
                       <div
-                        className={`sentiment-badge ${safeLower(insights?.sentiment?.overall)}`}
+                        className={`sentiment-badge ${safeLower(
+                          insights?.sentiment?.overall
+                        )}`}
                       >
                         {insights?.sentiment?.overall || "Unknown"}
                         <span className="confidence">
-                          ({insights?.sentiment?.confidence || "N/A"} confidence)
+                          ({insights?.sentiment?.confidence || "N/A"}{" "}
+                          confidence)
                         </span>
                       </div>
                       <p>{insights?.sentiment?.reasoning || ""}</p>
@@ -1021,9 +1072,11 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                         <h5>AI-Generated Insights for Filipino Beginners</h5>
                       </div>
                       <ul className="takeaways-list">
-                        {(insights?.keyTakeaways || []).map((takeaway, index) => (
-                          <li key={index}>{takeaway}</li>
-                        ))}
+                        {(insights?.keyTakeaways || []).map(
+                          (takeaway, index) => (
+                            <li key={index}>{takeaway}</li>
+                          )
+                        )}
                       </ul>
                     </div>
 
@@ -1033,7 +1086,9 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                         <h5>AI Risk Assessment</h5>
                       </div>
                       <div
-                        className={`risk-badge ${safeLower(insights?.riskLevel?.level)}`}
+                        className={`risk-badge ${safeLower(
+                          insights?.riskLevel?.level
+                        )}`}
                       >
                         {insights?.riskLevel?.level || "Unknown"} Risk
                       </div>
@@ -1045,7 +1100,9 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
                         <span className="insight-icon">💡</span>
                         <h5>AI Recommendation</h5>
                       </div>
-                      <p className="recommendation">{insights?.recommendation || ""}</p>
+                      <p className="recommendation">
+                        {insights?.recommendation || ""}
+                      </p>
                     </div>
                   </div>
 

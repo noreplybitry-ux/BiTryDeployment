@@ -1,21 +1,19 @@
 ﻿import fs from "fs";
 import path from "path";
-import { createRequire } from 'module';
-
+import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const {
   PAGE_SIZE,
   CACHE_VERSION,
   SEARCH_TERMS,
   CRYPTO_DOMAINS,
-  filterCryptoArticles
-} = require(path.join(process.cwd(), 'lib', 'newsFilter.cjs'));
-
+  filterCryptoArticles,
+} = require(path.join(process.cwd(), "lib", "newsFilter.cjs"));
 const CACHE_FILE = path.join(process.cwd(), "api", "news_cache.json");
 const PUBLIC_CACHE_FILE = path.join(process.cwd(), "public", "news_cache.json");
 
 function buildQuery(terms) {
-  return terms.map(t => `"${t.replace(/"/g, '\\"')}"`).join(" OR ");
+  return terms.map((t) => `"${t.replace(/"/g, '\\"')}"`).join(" OR ");
 }
 
 // Filtering logic is provided by the shared module `lib/newsFilter.cjs`.
@@ -36,7 +34,11 @@ export default async function handler(req, res) {
   const MAX_QUERY_LENGTH = 500;
   if (q.length > MAX_QUERY_LENGTH) {
     console.warn(`Built query too long (${q.length}), using compact fallback.`);
-    const compact = ["cryptocurrency market", "bitcoin price", "crypto exchange"];
+    const compact = [
+      "cryptocurrency market",
+      "bitcoin price",
+      "crypto exchange",
+    ];
     q = buildQuery(compact);
   }
 
@@ -46,10 +48,10 @@ export default async function handler(req, res) {
   url.searchParams.set("pageSize", String(PAGE_SIZE));
   url.searchParams.set("language", "en");
 
-  // Add domains filter to concentrate on crypto publishers for higher precision
-  if (CRYPTO_DOMAINS.length > 0) {
-    url.searchParams.set("domains", CRYPTO_DOMAINS.join(","));
-  }
+  // COMMENT OUT: Remove domain restriction to allow broader sources
+  // if (CRYPTO_DOMAINS.length > 0) {
+  //   url.searchParams.set("domains", CRYPTO_DOMAINS.join(","));
+  // }
 
   console.log("Fetching NewsAPI URL (q length):", q.length);
 
@@ -57,18 +59,35 @@ export default async function handler(req, res) {
     const resp = await fetch(url.toString() + `&apiKey=${apiKey}`);
     const bodyText = await resp.text().catch(() => null);
     let bodyJson = null;
-    try { bodyJson = bodyText ? JSON.parse(bodyText) : null; } catch (e) { bodyJson = null; }
+    try {
+      bodyJson = bodyText ? JSON.parse(bodyText) : null;
+    } catch (e) {
+      bodyJson = null;
+    }
 
     if (!resp.ok) {
-      console.error("NewsAPI returned non-OK:", resp.status, resp.statusText, bodyJson || bodyText);
-      throw new Error(`NewsAPI error: ${resp.status} - ${bodyJson?.message || bodyText || "no body"}`);
+      console.error(
+        "NewsAPI returned non-OK:",
+        resp.status,
+        resp.statusText,
+        bodyJson || bodyText
+      );
+      throw new Error(
+        `NewsAPI error: ${resp.status} - ${
+          bodyJson?.message || bodyText || "no body"
+        }`
+      );
     }
 
     // Filter the live NewsAPI payload for crypto relevance before caching/returning
     const rawData = bodyJson || (bodyText ? JSON.parse(bodyText) : null);
     const filteredData = filterCryptoArticles(rawData);
 
-    const cacheObj = { version: CACHE_VERSION, timestamp: Date.now(), data: filteredData };
+    const cacheObj = {
+      version: CACHE_VERSION,
+      timestamp: Date.now(),
+      data: filteredData,
+    };
 
     // Atomically write both server-side and public fallback (best-effort)
     (async () => {
@@ -85,7 +104,6 @@ export default async function handler(req, res) {
     // Mark response as live (but filtered)
     res.setHeader("X-News-Source", "live-filtered");
     res.setHeader("X-News-Cache-Timestamp", new Date().toISOString());
-
     return res.status(200).json(filteredData);
   } catch (error) {
     console.error("News fetch failed:", error.message);
@@ -97,7 +115,10 @@ export default async function handler(req, res) {
         const parsed = JSON.parse(raw);
         if (parsed && parsed.timestamp) {
           res.setHeader("X-News-Source", "api-cache");
-          res.setHeader("X-News-Cache-Timestamp", new Date(parsed.timestamp).toISOString());
+          res.setHeader(
+            "X-News-Cache-Timestamp",
+            new Date(parsed.timestamp).toISOString()
+          );
           return res.status(200).json(parsed.data);
         }
       }
@@ -108,7 +129,10 @@ export default async function handler(req, res) {
         const parsedPub = JSON.parse(rawPub);
         if (parsedPub && parsedPub.timestamp) {
           res.setHeader("X-News-Source", "public-cache");
-          res.setHeader("X-News-Cache-Timestamp", new Date(parsedPub.timestamp).toISOString());
+          res.setHeader(
+            "X-News-Cache-Timestamp",
+            new Date(parsedPub.timestamp).toISOString()
+          );
           return res.status(200).json(parsedPub.data);
         }
       }
