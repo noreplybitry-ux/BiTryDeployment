@@ -548,18 +548,31 @@ Structure:
 - **Tip**: One easy thing to try or remember
 - End with a fun question 🤔
 
-After the content, add a MINI QUIZ to test understanding. Use this format:
+IMPORTANT: After the content above, ALWAYS add a MINI QUIZ to test understanding. Use EXACTLY this format:
 
-[QUIZ:type]
-Question: [Simple question]
-Options: [Option1, Option2] (for multiple choice or true/false)
-Answer: [Correct answer]
-Explanation: [Brief explanation why]
+[QUIZ:truefalse]
+Question: Is ${keyword} decentralized?
+Options: True, False
+Answer: True
+Explanation: ${keyword} operates without central control in cryptocurrency.
 [/QUIZ]
 
-Types: truefalse (True/False), multiplechoice (2-3 options), fillblank (fill in the blank)
+Or for multiple choice:
+[QUIZ:multiplechoice]
+Question: What is ${keyword}?
+Options: Option A, Option B, Option C
+Answer: Option A
+Explanation: Brief explanation.
+[/QUIZ]
 
-Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text, no labels:`;
+Or for fill in the blank:
+[QUIZ:fillblank]
+Question: ${keyword} is a __________ in cryptocurrency.
+Answer: [correct term]
+Explanation: Brief explanation.
+[/QUIZ]
+
+Choose the quiz type that fits best. Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text, no labels:`;
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
         const sectionContent = await callGeminiAPI(
           sectionPrompt,
