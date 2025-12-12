@@ -512,30 +512,18 @@ Options: ${JSON.stringify(englishQuiz.options)}
   };
   const generateModuleContent = async (module) => {
     const lengthGuidance = {
-      Short: "approximately 500 words total",
-      Medium: "approximately 1000 words total",
-      Long: "approximately 2000 words total",
+      Short: "approximately 300 words total",
+      Medium: "approximately 600 words total",
+      Long: "approximately 1000 words total",
     };
-    const basePrompt = `You are an expert cryptocurrency educator. Create a comprehensive educational module for a beginner-level cryptocurrency course. Use the following specifications:
-Title: ${module.title}
-Keywords: ${module.keywords.join(", ")}
-Level: ${module.level}
-Length: ${lengthGuidance[module.length]}
-${
-  module.specific_points
-    ? `Specific Points to Include: ${module.specific_points}`
-    : ""
-}
-Generate detailed, structured content for a beginner cryptocurrency course, focusing on blockchain, DeFi, or related topics. The content must be engaging, use simple language, and be suitable for educational purposes in a classroom setting. Include clear explanations, real-world examples, analogies to simplify complex ideas, and practical exercises for beginners. Avoid technical jargon unless clearly explained. The introduction and each section should be unique, focusing on the specific keywords provided, and contribute to a cohesive module that helps learners build foundational knowledge.
-Introduction: Write a comprehensive introduction (400-600 words) covering:
-- Overview of the topic and its importance in cryptocurrency.
-- Brief history or context (e.g., origins of wallets, blockchain, or key platforms).
-- How the keywords (${module.keywords.join(
-      ", "
-    )}) relate to the topic and each other.
-- What beginners will learn and why it matters for their crypto journey.
-- A motivating hook to engage learners (e.g., how this knowledge applies to managing crypto assets or exploring DeFi).
-Output only the introduction text, without any labels or headings: `;
+    const basePrompt = `You are a fun, engaging crypto educator for beginners! Create a short, exciting learning module on "${module.title}" using keywords: ${module.keywords.join(", ")}. Level: ${module.level}, Length: ${lengthGuidance[module.length]}.
+${module.specific_points ? `Include these points: ${module.specific_points}` : ""}
+
+Make it super engaging for Filipino beginners: Use simple words, fun analogies (like comparing crypto to everyday things), emojis 🎉, short bullet points, and questions to keep them hooked. Avoid walls of text – keep it lively and conversational!
+
+Introduction (150-200 words): Start with a cool hook, explain what it is in simple terms, why it matters, and what they'll learn. End with a fun fact or question.
+
+Output ONLY the introduction text, no labels:`;
     try {
       // Generate introduction
       console.log("Generating introduction...");
@@ -551,23 +539,16 @@ Output only the introduction text, without any labels or headings: `;
       for (let i = 0; i < Math.min(maxSections, module.keywords.length); i++) {
         const keyword = module.keywords[i];
         if (!keyword.trim()) continue;
-        const sectionPrompt = `You are an expert cryptocurrency educator. Write a detailed section for a beginner-level cryptocurrency course module, focusing on "${keyword}" in the context of cryptocurrency and blockchain technology. The section should be comprehensive, engaging, and educational, contributing to a module of ${
-          lengthGuidance[module.length]
-        }. Interpret "${keyword}" as a key concept in cryptocurrency relevant to the module title "${
-          module.title
-        }". Include:
-1. Definition: Explain "${keyword}" in simple, beginner-friendly terms.
-2. How It Works: Describe the mechanics or processes behind "${keyword}", using an analogy (e.g., compare to a real-world object like a bank account or safe).
-3. Importance: Explain why "${keyword}" is critical in cryptocurrency or blockchain, and its impact on users or the ecosystem.
-4. Real-World Examples: Provide 2-3 specific examples (e.g., MetaMask for hot wallets, Ledger for crypto storage, Ethereum for smart contracts).
-5. Practical Exercises: Suggest 1-2 practical activities for beginners (e.g., setting up a wallet, checking a transaction on Etherscan).
-6. Key Takeaways: Summarize 2-3 key points for learners to remember.
-Use clear, engaging language, avoid complex jargon unless explained, and ensure the content is unique and distinct from other sections. Structure the content like a lesson in a course, suitable for educational purposes. Include ${
-          module.specific_points
-            ? `specific points: ${module.specific_points}`
-            : "relevant details"
-        }.
-Output only the section content, without headings: `;
+        const sectionPrompt = `You are a fun crypto teacher for beginners! Create a short, exciting section on "${keyword}" for the module "${module.title}". Keep it engaging for Filipino beginners: simple words, fun analogies, emojis 🎉, bullet points, and a question at the end.
+
+Structure:
+- **Definition**: Quick explain what it is 🎯
+- **Analogy**: Compare to something everyday (like a digital wallet is like a magic backpack!)
+- **Example**: One real crypto example 💡
+- **Tip**: One easy thing to try or remember
+- End with a fun question 🤔
+
+Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text, no labels:`;
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
         const sectionContent = await callGeminiAPI(
           sectionPrompt,

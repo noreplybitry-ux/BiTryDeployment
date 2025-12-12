@@ -183,6 +183,50 @@ const ModuleDetail = ({
           scroll-behavior: smooth;
         }
 
+        /* Engaging styles for markdown content */
+        .module-intro-section p, .module-section p {
+          line-height: 1.6;
+          margin-bottom: 16px;
+        }
+        .module-intro-section ul, .module-section ul {
+          list-style: none;
+          padding-left: 0;
+        }
+        .module-intro-section li, .module-section li {
+          position: relative;
+          padding-left: 24px;
+          margin-bottom: 12px;
+          color: var(--text-primary);
+        }
+        .module-intro-section li::before, .module-section li::before {
+          content: "🚀";
+          position: absolute;
+          left: 0;
+          top: 0;
+          font-size: 16px;
+        }
+        .module-intro-section strong, .module-section strong {
+          color: var(--accent-blue);
+          font-weight: 700;
+        }
+        .module-intro-section em, .module-section em {
+          color: var(--accent-purple);
+          font-style: italic;
+        }
+        .module-intro-section h5, .module-section h5 {
+          color: var(--accent-blue);
+          margin-top: 20px;
+          margin-bottom: 10px;
+          font-size: 18px;
+        }
+        .module-intro-section blockquote, .module-section blockquote {
+          border-left: 4px solid var(--accent-purple);
+          padding-left: 16px;
+          margin: 20px 0;
+          color: var(--text-secondary);
+          font-style: italic;
+        }
+
         /* Media queries for mobile responsiveness */
         @media (max-width: 768px) {
           .module-detail-container {
