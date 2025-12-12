@@ -21,6 +21,8 @@ export default function News() {
   const [isLoadingInsights, setIsLoadingInsights] = useState(false);
   const [insights, setInsights] = useState(null);
   const [insightsError, setInsightsError] = useState(null);
+  const [selectedLanguage, setSelectedLanguage] = useState(null); // 'english' or 'taglish'
+  const [isLanguageSelectionOpen, setIsLanguageSelectionOpen] = useState(false);
 
   // Configuration
   const ARTICLES_PER_PAGE = 12;
@@ -273,14 +275,15 @@ export default function News() {
   };
 
   // AI-powered insights using Gemini (robust parsing & caching)
-  const generateInsights = async (article) => {
+  const generateInsights = async (article, language = 'english') => {
     try {
       // Check cache first
       const cache = getInsightsCache();
-      const cachedInsight = cache[article.id];
+      const cacheKey = `${article.id}_${language}`;
+      const cachedInsight = cache[cacheKey];
 
       if (cachedInsight && isInsightsCacheFresh(cachedInsight)) {
-        console.log("Using cached AI insights for article:", article.id);
+        console.log(`Using cached AI insights for article (${language}):`, article.id);
         return cachedInsight.data;
       }
 
@@ -291,13 +294,13 @@ export default function News() {
       }
 
       console.log(
-        `Generating AI insights using Gemini (Usage: ${todayUsage}/${GEMINI_CONFIG.dailyLimit})`
+        `Generating AI insights using Gemini (${language}) (Usage: ${todayUsage}/${GEMINI_CONFIG.dailyLimit})`
       );
 
       const articleText = `${article.title} ${article.description}`;
 
       // Craft prompt for Gemini to assess sentiment and impact
-      const prompt = `
+      const basePrompt = `
 You are an expert in cryptocurrency market analysis. Assess the following news article for its sentiment and impact on the cryptocurrency market, tailored for Filipino beginners. Keep ALL responses concise, use simple language, and format descriptions/reasoning as short bullet points (e.g., - Point one\n- Point two). Avoid any Markdown formatting like * or **; use plain text only.
 
 Article Title: ${article.title}
@@ -322,8 +325,36 @@ Output ONLY a valid JSON object with the following structure:
   "recommendation": "A short recommendation (1-2 sentences) for beginners in the Philippines."
 }
 
-Focus on cryptocurrency market impact only. Use beginner-friendly terms.
-`;
+Focus on cryptocurrency market impact only. Use beginner-friendly terms.`;
+
+      const taglishPrompt = `
+You are an expert in cryptocurrency market analysis. Assess the following news article for its sentiment and impact on the cryptocurrency market, tailored for Filipino beginners. Keep key cryptocurrency terms like "blockchain", "smart contracts", "DeFi", "Bitcoin", "Ethereum", etc., untranslated. Use casual TagLish (Tagalog-English mix) with simple, conversational language suitable for beginners. Keep ALL responses concise, use simple language, and format descriptions/reasoning as short bullet points (e.g., - Point one\n- Point two). Avoid any Markdown formatting like * or **; use plain text only.
+
+Article Title: ${article.title}
+Article Description: ${article.description}
+
+Output ONLY a valid JSON object with the following structure:
+{
+  "marketImpact": {
+    "level": "High" | "Moderate" | "Low",
+    "description": "Concise bullet points (2-4 max) in TagLish on potential impact, focused on major coins on Philippine exchanges like PDAX or Coins.ph."
+  },
+  "sentiment": {
+    "overall": "Bullish" | "Bearish" | "Neutral",
+    "confidence": "e.g., 80%",
+    "reasoning": "Short bullet points (2-3 max) in TagLish explaining the sentiment."
+  },
+  "keyTakeaways": ["3-5 short bullet points in TagLish with key insights for beginners."],
+  "riskLevel": {
+    "level": "High" | "Moderate" | "Low",
+    "description": "Concise bullet points (2-3 max) in TagLish assessing risk for beginners."
+  },
+  "recommendation": "A short recommendation (1-2 sentences) in TagLish for beginners in the Philippines."
+}
+
+Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.`;
+
+      const prompt = language === 'taglish' ? taglishPrompt : basePrompt;
 
       // Try to get AI result from server proxy
       let parsedInsights = null;
@@ -364,7 +395,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
 
       // Increment usage and cache results (even if fallback)
       incrementApiUsage();
-      setInsightsCache(article.id, parsedInsights);
+      setInsightsCache(cacheKey, parsedInsights);
 
       return parsedInsights;
     } catch (error) {
@@ -390,18 +421,29 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
   // Modal handlers
   const openModal = async (article) => {
     setSelectedArticle(article);
-    setIsModalOpen(true);
-    setIsLoadingInsights(true);
+    setSelectedLanguage(null);
+    setIsLanguageSelectionOpen(true);
+    setIsModalOpen(false);
+    setIsLoadingInsights(false);
     setInsights(null);
     setInsightsError(null);
 
     // Prevent body scroll when modal is open
     document.body.style.overflow = "hidden";
     document.body.classList.add("modal-open");
+  };
+
+  const selectLanguage = async (language) => {
+    setSelectedLanguage(language);
+    setIsLanguageSelectionOpen(false);
+    setIsModalOpen(true);
+    setIsLoadingInsights(true);
+    setInsights(null);
+    setInsightsError(null);
 
     // Generate or fetch cached insights
     try {
-      const aiInsights = await generateInsights(article);
+      const aiInsights = await generateInsights(selectedArticle, language);
       setInsights(aiInsights);
     } catch (error) {
       console.error("Failed to get AI insights:", error);
@@ -413,7 +455,9 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
 
   const closeModal = () => {
     setIsModalOpen(false);
+    setIsLanguageSelectionOpen(false);
     setSelectedArticle(null);
+    setSelectedLanguage(null);
     setIsLoadingInsights(false);
     setInsights(null);
     setInsightsError(null);
@@ -426,14 +470,14 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
   // Close modal on Escape key
   useEffect(() => {
     const handleEscape = (event) => {
-      if (event.key === "Escape" && isModalOpen) {
+      if (event.key === "Escape" && (isModalOpen || isLanguageSelectionOpen)) {
         closeModal();
       }
     };
 
     document.addEventListener("keydown", handleEscape);
     return () => document.removeEventListener("keydown", handleEscape);
-  }, [isModalOpen]);
+  }, [isModalOpen, isLanguageSelectionOpen]);
 
   // Cache functions
   const isCacheFresh = (cached) => {
@@ -959,6 +1003,59 @@ Focus on cryptocurrency market impact only. Use beginner-friendly terms.
             : "Just now"}
         </p>
       </div>
+
+      {/* Language Selection Modal */}
+      {isLanguageSelectionOpen && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content language-selection-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <h3>Choose Language</h3>
+              <button className="modal-close" onClick={closeModal}>
+                ×
+              </button>
+            </div>
+
+            <div className="modal-body">
+              <div className="language-selection">
+                <p className="language-selection-intro">
+                  Choose your preferred language for AI insights:
+                </p>
+
+                <div className="language-options">
+                  <button
+                    className="language-option english-option"
+                    onClick={() => selectLanguage('english')}
+                  >
+                    <div className="language-icon">🇺🇸</div>
+                    <div className="language-info">
+                      <h4>English</h4>
+                      <p>Read insights in English</p>
+                    </div>
+                  </button>
+
+                  <button
+                    className="language-option taglish-option"
+                    onClick={() => selectLanguage('taglish')}
+                  >
+                    <div className="language-icon">🇵🇭</div>
+                    <div className="language-info">
+                      <h4>TagLish</h4>
+                      <p>Basahin ang insights sa TagLish (Tagalog-English mix)</p>
+                    </div>
+                  </button>
+                </div>
+
+                <div className="language-note">
+                  <small>
+                    <strong>Note:</strong> TagLish keeps important crypto terms in English
+                    while using conversational Filipino for easier understanding.
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* AI Insights Modal */}
       {isModalOpen && (
