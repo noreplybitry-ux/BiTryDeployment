@@ -1,8 +1,137 @@
 // ModuleDetail.js
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
+
+const ProcessedMarkdown = ({ content }) => {
+  const parts = content.split(/(\[QUIZ:.*?\]\[\/QUIZ\])/s);
+  
+  return (
+    <>
+      {parts.map((part, index) => {
+        const quizMatch = part.match(/\[QUIZ:(.*?)\](.*?)\[\/QUIZ\]/s);
+        if (quizMatch) {
+          return <QuizComponent key={index} content={part} />;
+        } else {
+          return (
+            <ReactMarkdown
+              key={index}
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeHighlight]}
+            >
+              {part}
+            </ReactMarkdown>
+          );
+        }
+      })}
+    </>
+  );
+};
+
+const QuizComponent = ({ content }) => {
+  const [userAnswer, setUserAnswer] = useState('');
+  const [showResult, setShowResult] = useState(false);
+  const [isCorrect, setIsCorrect] = useState(false);
+
+  // Parse the quiz content
+  const quizMatch = content.match(/\[QUIZ:(.*?)\](.*?)\[\/QUIZ\]/s);
+  if (!quizMatch) return null;
+
+  const type = quizMatch[1];
+  const quizContent = quizMatch[2];
+
+  const questionMatch = quizContent.match(/Question:\s*(.*?)(?:\n|$)/);
+  const optionsMatch = quizContent.match(/Options:\s*(.*?)(?:\n|$)/);
+  const answerMatch = quizContent.match(/Answer:\s*(.*?)(?:\n|$)/);
+  const explanationMatch = quizContent.match(/Explanation:\s*(.*?)(?:\n|$)/);
+
+  const question = questionMatch ? questionMatch[1].trim() : '';
+  const options = optionsMatch ? optionsMatch[1].split(',').map(opt => opt.trim()) : [];
+  const correctAnswer = answerMatch ? answerMatch[1].trim() : '';
+  const explanation = explanationMatch ? explanationMatch[1].trim() : '';
+
+  const handleSubmit = () => {
+    setIsCorrect(userAnswer.toLowerCase() === correctAnswer.toLowerCase());
+    setShowResult(true);
+  };
+
+  const resetQuiz = () => {
+    setUserAnswer('');
+    setShowResult(false);
+    setIsCorrect(false);
+  };
+
+  return (
+    <div className="mini-quiz">
+      <h5>🧠 Quick Check!</h5>
+      <p className="quiz-question">{question}</p>
+      
+      {!showResult ? (
+        <div className="quiz-input">
+          {type === 'truefalse' && (
+            <div className="true-false-options">
+              <button 
+                className={`quiz-option ${userAnswer === 'True' ? 'selected' : ''}`}
+                onClick={() => setUserAnswer('True')}
+              >
+                True
+              </button>
+              <button 
+                className={`quiz-option ${userAnswer === 'False' ? 'selected' : ''}`}
+                onClick={() => setUserAnswer('False')}
+              >
+                False
+              </button>
+            </div>
+          )}
+          
+          {type === 'multiplechoice' && (
+            <div className="multiple-choice-options">
+              {options.map((option, index) => (
+                <button 
+                  key={index}
+                  className={`quiz-option ${userAnswer === option ? 'selected' : ''}`}
+                  onClick={() => setUserAnswer(option)}
+                >
+                  {option}
+                </button>
+              ))}
+            </div>
+          )}
+          
+          {type === 'fillblank' && (
+            <input
+              type="text"
+              value={userAnswer}
+              onChange={(e) => setUserAnswer(e.target.value)}
+              placeholder="Your answer..."
+              className="fill-blank-input"
+            />
+          )}
+          
+          <button 
+            className="quiz-submit-btn"
+            onClick={handleSubmit}
+            disabled={!userAnswer}
+          >
+            Check Answer
+          </button>
+        </div>
+      ) : (
+        <div className="quiz-result">
+          <div className={`result-message ${isCorrect ? 'correct' : 'incorrect'}`}>
+            {isCorrect ? '🎉 Correct!' : '❌ Not quite!'}
+          </div>
+          <p className="explanation">{explanation}</p>
+          <button className="quiz-reset-btn" onClick={resetQuiz}>
+            Try Again
+          </button>
+        </div>
+      )}
+    </div>
+  );
+};
 
 const ModuleDetail = ({
   module,
@@ -13,6 +142,19 @@ const ModuleDetail = ({
   user,
 }) => {
   const [language, setLanguage] = useState("english");
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const [feedback, setFeedback] = useState(null); // 'helpful' or 'not-helpful'
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = (window.scrollY / totalHeight) * 100;
+      setScrollProgress(progress);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
@@ -25,6 +167,10 @@ const ModuleDetail = ({
 
   return (
     <div className="module-detail-container">
+      {/* Progress Bar */}
+      <div className="progress-bar-container">
+        <div className="progress-bar" style={{ width: `${scrollProgress}%` }}></div>
+      </div>
       <style>{`
         .module-detail-container {
           max-width: 1200px;
@@ -33,6 +179,20 @@ const ModuleDetail = ({
           background: var(--bg-primary);
           border-radius: 16px;
           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .progress-bar-container {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 4px;
+          background: rgba(255, 255, 255, 0.2);
+          z-index: 1000;
+        }
+        .progress-bar {
+          height: 100%;
+          background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+          transition: width 0.3s ease;
         }
         .breadcrumbs {
           display: flex;
@@ -179,6 +339,50 @@ const ModuleDetail = ({
         .quiz-button:hover {
           transform: scale(1.05);
         }
+
+        /* Feedback Section */
+        .feedback-section {
+          margin-top: 32px;
+          padding: 24px;
+          background: var(--bg-secondary);
+          border-radius: 12px;
+          text-align: center;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        .feedback-section h5 {
+          margin-bottom: 16px;
+          color: var(--text-primary);
+        }
+        .feedback-buttons {
+          display: flex;
+          justify-content: center;
+          gap: 16px;
+          margin-bottom: 16px;
+        }
+        .feedback-btn {
+          padding: 12px 24px;
+          border: 2px solid var(--accent-blue);
+          background: transparent;
+          color: var(--accent-blue);
+          border-radius: 8px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+        .feedback-btn:hover {
+          background: var(--accent-blue);
+          color: white;
+          transform: scale(1.05);
+        }
+        .feedback-btn.active {
+          background: var(--accent-blue);
+          color: white;
+        }
+        .feedback-thanks {
+          color: var(--accent-purple);
+          font-weight: 500;
+        }
+
         html {
           scroll-behavior: smooth;
         }
@@ -225,6 +429,114 @@ const ModuleDetail = ({
           margin: 20px 0;
           color: var(--text-secondary);
           font-style: italic;
+        }
+
+        /* Mini Quiz Styles */
+        .mini-quiz {
+          background: var(--bg-tertiary);
+          border: 2px solid var(--accent-blue);
+          border-radius: 12px;
+          padding: 20px;
+          margin: 20px 0;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .mini-quiz h5 {
+          color: var(--accent-blue);
+          margin-bottom: 12px;
+          font-size: 18px;
+        }
+        .quiz-question {
+          font-weight: 600;
+          margin-bottom: 16px;
+          color: var(--text-primary);
+        }
+        .quiz-input {
+          margin-bottom: 16px;
+        }
+        .true-false-options, .multiple-choice-options {
+          display: flex;
+          gap: 12px;
+          margin-bottom: 16px;
+          flex-wrap: wrap;
+        }
+        .quiz-option {
+          padding: 10px 16px;
+          border: 2px solid var(--accent-purple);
+          background: transparent;
+          color: var(--accent-purple);
+          border-radius: 8px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          font-weight: 500;
+        }
+        .quiz-option:hover {
+          background: var(--accent-purple);
+          color: white;
+        }
+        .quiz-option.selected {
+          background: var(--accent-purple);
+          color: white;
+        }
+        .fill-blank-input {
+          width: 100%;
+          padding: 10px;
+          border: 2px solid var(--accent-purple);
+          border-radius: 8px;
+          margin-bottom: 16px;
+          font-size: 16px;
+        }
+        .quiz-submit-btn {
+          background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-weight: 600;
+          transition: transform 0.3s;
+        }
+        .quiz-submit-btn:hover:not(:disabled) {
+          transform: scale(1.05);
+        }
+        .quiz-submit-btn:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+        .quiz-result {
+          text-align: center;
+        }
+        .result-message {
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 12px;
+          padding: 12px;
+          border-radius: 8px;
+        }
+        .result-message.correct {
+          background: rgba(0, 255, 0, 0.1);
+          color: #28a745;
+          border: 2px solid #28a745;
+        }
+        .result-message.incorrect {
+          background: rgba(255, 0, 0, 0.1);
+          color: #dc3545;
+          border: 2px solid #dc3545;
+        }
+        .explanation {
+          margin-bottom: 16px;
+          color: var(--text-secondary);
+        }
+        .quiz-reset-btn {
+          background: var(--accent-blue);
+          color: white;
+          padding: 8px 16px;
+          border: none;
+          border-radius: 6px;
+          cursor: pointer;
+          font-weight: 500;
+        }
+        .quiz-reset-btn:hover {
+          background: var(--accent-purple);
         }
 
         /* Media queries for mobile responsiveness */
@@ -343,15 +655,12 @@ const ModuleDetail = ({
         <div className="main-content">
           <div id="intro" className="module-intro-section">
             <h4>Introduction</h4>
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              rehypePlugins={[rehypeHighlight]}
-            >
-              {language === "english"
+            <ProcessedMarkdown
+              content={language === "english"
                 ? module.content.intro
                 : module.taglish_content?.intro ||
                   "No TagLish content available"}
-            </ReactMarkdown>
+            />
           </div>
           {(language === "english"
             ? module.content.media
@@ -415,12 +724,7 @@ const ModuleDetail = ({
                 className="module-section"
               >
                 <h4>{section.title}</h4>
-                <ReactMarkdown
-                  remarkPlugins={[remarkGfm]}
-                  rehypePlugins={[rehypeHighlight]}
-                >
-                  {section.body}
-                </ReactMarkdown>
+                <ProcessedMarkdown content={section.body} />
               </div>
             ))}
           </div>
@@ -463,6 +767,29 @@ const ModuleDetail = ({
               Proceed to Quiz
             </button>
           )}
+      </div>
+      {/* Feedback Section */}
+      <div className="feedback-section">
+        <h5>Was this module helpful? 🎉</h5>
+        <div className="feedback-buttons">
+          <button
+            className={`feedback-btn ${feedback === 'helpful' ? 'active' : ''}`}
+            onClick={() => setFeedback('helpful')}
+          >
+            👍 Yes!
+          </button>
+          <button
+            className={`feedback-btn ${feedback === 'not-helpful' ? 'active' : ''}`}
+            onClick={() => setFeedback('not-helpful')}
+          >
+            👎 Not really
+          </button>
+        </div>
+        {feedback && (
+          <p className="feedback-thanks">
+            Thanks for your feedback! It helps us improve. 🚀
+          </p>
+        )}
       </div>
     </div>
   );

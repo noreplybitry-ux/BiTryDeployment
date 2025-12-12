@@ -548,6 +548,17 @@ Structure:
 - **Tip**: One easy thing to try or remember
 - End with a fun question 🤔
 
+After the content, add a MINI QUIZ to test understanding. Use this format:
+
+[QUIZ:type]
+Question: [Simple question]
+Options: [Option1, Option2] (for multiple choice or true/false)
+Answer: [Correct answer]
+Explanation: [Brief explanation why]
+[/QUIZ]
+
+Types: truefalse (True/False), multiplechoice (2-3 options), fillblank (fill in the blank)
+
 Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text, no labels:`;
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
         const sectionContent = await callGeminiAPI(
