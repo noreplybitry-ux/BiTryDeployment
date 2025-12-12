@@ -548,36 +548,30 @@ Structure:
 - **Tip**: One easy thing to try or remember
 - End with a fun question 🤔
 
-IMPORTANT: After the content above, ALWAYS add a MINI QUIZ to test understanding. Use EXACTLY this format:
+CRITICAL REQUIREMENT: You MUST include a MINI QUIZ at the end of EVERY section. This is mandatory for learning.
 
+QUIZ FORMAT (copy exactly):
 [QUIZ:truefalse]
-Question: Is ${keyword} decentralized?
-Options: True, False
+Question: Is ${keyword} secure?
+Options: True, False  
 Answer: True
-Explanation: ${keyword} operates without central control in cryptocurrency.
+Explanation: ${keyword} uses advanced security features.
 [/QUIZ]
 
-Or for multiple choice:
-[QUIZ:multiplechoice]
-Question: What is ${keyword}?
-Options: Option A, Option B, Option C
-Answer: Option A
-Explanation: Brief explanation.
-[/QUIZ]
+Replace the question, options, answer, and explanation with content relevant to ${keyword}.
 
-Or for fill in the blank:
-[QUIZ:fillblank]
-Question: ${keyword} is a __________ in cryptocurrency.
-Answer: [correct term]
-Explanation: Brief explanation.
-[/QUIZ]
+Choose the best quiz type:
+- truefalse for yes/no questions
+- multiplechoice for 2-3 options
+- fillblank for short answer
 
-Choose the quiz type that fits best. Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text, no labels:`;
+Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text with the quiz at the end:`;
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
         const sectionContent = await callGeminiAPI(
           sectionPrompt,
           MODULE_API_KEY
         );
+        console.log(`Generated section content for ${keyword}:`, sectionContent);
         if (!sectionContent || sectionContent.trim().length < 100) {
           throw new Error(
             `Generated section for "${keyword}" is empty or too short`

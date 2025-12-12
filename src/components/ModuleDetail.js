@@ -5,15 +5,15 @@ import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 
 const ProcessedMarkdown = ({ content }) => {
-  const parts = content.split(/(\[QUIZ:.*?\]\[\/QUIZ\])/s);
+  const parts = content.split(/(\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\])/i);
   
   return (
     <>
       {parts.map((part, index) => {
-        const quizMatch = part.match(/\[QUIZ:(.*?)\](.*?)\[\/QUIZ\]/s);
+        const quizMatch = part.match(/\[QUIZ:([^\]]*)\]([\s\S]*?)\[\/QUIZ\]/i);
         if (quizMatch) {
           return <QuizComponent key={index} content={part} />;
-        } else {
+        } else if (part.trim()) {
           return (
             <ReactMarkdown
               key={index}
@@ -24,6 +24,7 @@ const ProcessedMarkdown = ({ content }) => {
             </ReactMarkdown>
           );
         }
+        return null;
       })}
     </>
   );
@@ -35,7 +36,7 @@ const QuizComponent = ({ content }) => {
   const [isCorrect, setIsCorrect] = useState(false);
 
   // Parse the quiz content
-  const quizMatch = content.match(/\[QUIZ:(.*?)\](.*?)\[\/QUIZ\]/s);
+  const quizMatch = content.match(/\[QUIZ:([^\]]*)\]([\s\S]*?)\[\/QUIZ\]/i);
   if (!quizMatch) return null;
 
   const type = quizMatch[1];
