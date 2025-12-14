@@ -120,6 +120,25 @@ const Signup = () => {
       return "Birthday cannot be in the future";
     }
 
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    if (
+      monthDiff < 0 ||
+      (monthDiff === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      age--;
+    }
+
+    if (age <= 7) {
+      Swal.fire({
+        title: "Age Restriction",
+        text: "You must be at least 8 years old to create an account.",
+        icon: "warning",
+        confirmButtonText: "OK",
+      });
+      return "You must be at least 8 years old to create an account.";
+    }
+
     return null;
   };
 
@@ -500,27 +519,29 @@ const Signup = () => {
   const generateNonce = () => {
     const array = new Uint8Array(32);
     crypto.getRandomValues(array);
-    return Array.from(array, (byte) => byte.toString(16).padStart(2, '0')).join('');
+    return Array.from(array, (byte) => byte.toString(16).padStart(2, "0")).join(
+      ""
+    );
   };
 
   const handleGoogleSignup = async () => {
     setIsLoading(true);
-    
+
     const redirectTo = `${window.location.origin}/auth/callback`;
-    
+
     const nonce = generateNonce();
-    sessionStorage.setItem('google_auth_nonce', nonce);
-    
+    sessionStorage.setItem("google_auth_nonce", nonce);
+
     const params = new URLSearchParams({
       client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
       redirect_uri: redirectTo,
-      response_type: 'code',
-      scope: 'openid email profile',
-      access_type: 'offline',
-      prompt: 'consent',
+      response_type: "code",
+      scope: "openid email profile",
+      access_type: "offline",
+      prompt: "consent",
       nonce: nonce,
     });
-  
+
     window.location.href = `https://accounts.google.com/o/oauth2/v2/auth?${params}`;
   };
 
@@ -1037,52 +1058,194 @@ const Signup = () => {
               <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>
                 Terms of Service
               </h2>
+              <p>Last updated: December 14, 2025</p>
+              <p>
+                Please read these Terms of Service ("Terms", "Terms and
+                Conditions") carefully before using the BiTry platform (the
+                "Service") operated by BiTry ("us", "we", or "our").
+              </p>
+              <p>
+                Your access to and use of the Service is conditioned upon your
+                acceptance of and compliance with these Terms. These Terms apply
+                to all visitors, users, and others who wish to access or use the
+                Service.
+              </p>
+              <p>
+                By accessing or using the Service you agree to be bound by these
+                Terms. If you disagree with any part of the terms then you do
+                not have permission to access the Service.
+              </p>
               <h4 style={{ marginTop: "28px" }}>1. Acceptance of Terms</h4>
               <p>
-                By creating an account or using BiTry (“the Platform”), you agree to these Terms of Service and our Privacy Policy. If you do not agree, do not use the Platform. BiTry is a web-based, gamified trading simulator that combines real market data, AI-powered Taglish lessons, and interactive tools for educational and entertainment purposes only.
+                By creating an account or using BiTry (“the Platform”), you
+                agree to these Terms of Service and our Privacy Policy. If you
+                do not agree, do not use the Platform. BiTry is a web-based,
+                gamified trading simulator that combines real market data,
+                AI-powered Taglish lessons, and interactive tools for
+                educational and entertainment purposes only. These Terms
+                constitute a legally binding agreement made between you, whether
+                personally or on behalf of an entity (“you”) and BiTry,
+                concerning your access to and use of the BiTry website as well
+                as any other media form, media channel, mobile website or mobile
+                application related, linked, or otherwise connected thereto
+                (collectively, the “Site”). You agree that by accessing the
+                Site, you have read, understood, and agree to be bound by all of
+                these Terms of Service. If you do not agree with all of these
+                Terms of Service, then you are expressly prohibited from using
+                the Site and you must discontinue use immediately.
+              </p>
+              <p>
+                Supplemental terms and conditions or documents that may be
+                posted on the Site from time to time are hereby expressly
+                incorporated herein by reference. We reserve the right, in our
+                sole discretion, to make changes or modifications to these Terms
+                of Service at any time and for any reason. We will alert you
+                about any changes by updating the “Last updated” date of these
+                Terms of Service, and you waive any right to receive specific
+                notice of each such change. It is your responsibility to
+                periodically review these Terms of Service to stay informed of
+                updates. You will be subject to, and will be deemed to have been
+                made aware of and to have accepted, the changes in any revised
+                Terms of Service by your continued use of the Site after the
+                date such revised Terms of Service are posted.
               </p>
               <h4>2. Eligibility</h4>
               <p>
-                You must be at least 18 years old to access the virtual trading simulator and legally capable of entering into contracts. Users under 18 may access educational modules only. You are responsible for complying with all laws in your jurisdiction, including those in the Republic of the Philippines.
+                You must be at least 18 years old to access the virtual trading
+                simulator and legally capable of entering into contracts. Users
+                under 18 may access educational modules only. You are
+                responsible for complying with all laws in your jurisdiction,
+                including those in the Republic of the Philippines. The
+                information provided on the Site is not intended for
+                distribution to or use by any person or entity in any
+                jurisdiction or country where such distribution or use would be
+                contrary to law or regulation or which would subject us to any
+                registration requirement within such jurisdiction or country.
+                Accordingly, those persons who choose to access the Site from
+                other locations do so on their own initiative and are solely
+                responsible for compliance with local laws, if and to the extent
+                local laws are applicable.
+              </p>
+              <p>
+                The Site is intended for users who are at least 18 years old.
+                Persons under the age of 18 are not permitted to use or register
+                for the Site unless limited to educational content as specified.
               </p>
               <h4>3. Nature of the Service</h4>
               <p>
-                BiTry is a simulated cryptocurrency trading game for educational and entertainment purposes only. It provides spot and futures-style virtual trading with $barya (virtual currency). No real money or real cryptocurrency is ever at risk or traded.
+                BiTry is a simulated cryptocurrency trading game for educational
+                and entertainment purposes only. It provides spot and
+                futures-style virtual trading with $barya (virtual currency). No
+                real money or real cryptocurrency is ever at risk or traded. The
+                Service is provided for informational and educational purposes
+                only and should not be construed as financial advice. All
+                trading simulations are based on historical and real-time market
+                data but are not indicative of future performance. Users
+                acknowledge that any decisions made based on the Service are
+                their own responsibility.
               </p>
               <h4>4. $barya Points</h4>
               <p>
-                $barya are virtual, non-transferable, and have no monetary value. They cannot be redeemed for cash or any real-world goods. Users receive a sign-up bonus of $10,000 and can earn more through quizzes and lessons.
+                $barya are virtual, non-transferable, and have no monetary
+                value. They cannot be redeemed for cash or any real-world goods.
+                Users receive a sign-up bonus of $10,000 and can earn more
+                through quizzes and lessons. $barya points may be reset or
+                adjusted at our discretion for any reason, including but not
+                limited to system maintenance, fraud prevention, or policy
+                changes.
               </p>
               <h4>5. Account Security</h4>
               <p>
-                You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. Age restrictions are enforced based on provided birthdate.
+                You are responsible for maintaining the confidentiality of your
+                account credentials and for all activities that occur under your
+                account. Age restrictions are enforced based on provided
+                birthdate. You agree to notify us immediately of any
+                unauthorized use of your account or any other breach of
+                security. We will not be liable for any loss or damage arising
+                from your failure to comply with this section.
               </p>
               <h4>6. Prohibited Conduct</h4>
               <p>
-                You may not: (a) use bots, scripts, or any automated means; (b) attempt to gain unauthorized access; (c) harass or harm other users; (d) violate any applicable laws; (e) bypass age restrictions; (f) misuse AI-generated content.
+                You may not: (a) use bots, scripts, or any automated means; (b)
+                attempt to gain unauthorized access; (c) harass or harm other
+                users; (d) violate any applicable laws; (e) bypass age
+                restrictions; (f) misuse AI-generated content. Additionally, you
+                agree not to: reproduce, duplicate, copy, sell, resell or
+                exploit any portion of the Service; upload or transmit viruses
+                or any type of malicious code; interfere with or disrupt the
+                integrity or performance of the Service; attempt to probe, scan
+                or test the vulnerability of the system or network; or use the
+                Service for any commercial solicitation purposes.
               </p>
               <h4>7. Intellectual Property</h4>
               <p>
-                All content, trademarks, and data on the Platform, including AI-generated Taglish modules and quizzes, are owned by BiTry or its licensors and protected by copyright and other laws.
+                All content, trademarks, and data on the Platform, including
+                AI-generated Taglish modules and quizzes, are owned by BiTry or
+                its licensors and protected by copyright and other laws. Unless
+                otherwise indicated, the Site is our proprietary property and
+                all source code, databases, functionality, software, website
+                designs, audio, video, text, photographs, and graphics on the
+                Site (collectively, the “Content”) and the trademarks, service
+                marks, and logos contained therein (the “Marks”) are owned or
+                controlled by us or licensed to us, and are protected by
+                copyright and trademark laws and various other intellectual
+                property rights and unfair competition laws of the United
+                States, foreign jurisdictions, and international conventions.
+                The Content and the Marks are provided on the Site “AS IS” for
+                your information and personal use only. Except as expressly
+                provided in these Terms of Service, no part of the Site and no
+                Content or Marks may be copied, reproduced, aggregated,
+                republished, uploaded, posted, publicly displayed, encoded,
+                translated, transmitted, distributed, sold, licensed, or
+                otherwise exploited for any commercial purpose whatsoever,
+                without our express prior written permission.
               </p>
               <h4>8. Disclaimer of Warranties</h4>
               <p>
-                THE PLATFORM IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. Market data is for simulation only and may have delays.
+                THE PLATFORM IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT
+                WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. Market data is for
+                simulation only and may have delays. We make no warranty that
+                the Site will meet your requirements, will be available on an
+                uninterrupted, timely, secure, or error-free basis, or will be
+                accurate, reliable, free of viruses or other harmful code,
+                complete, legal, or safe. If applicable law requires any
+                warranties with respect to the Site, all such warranties are
+                limited in duration to ninety (90) days from the date of first
+                use.
               </p>
               <h4>9. Limitation of Liability</h4>
               <p>
-                TO THE MAXIMUM EXTENT PERMITTED BY LAW, BITRY WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM USE OF THE PLATFORM OR SIMULATED TRADING.
+                TO THE MAXIMUM EXTENT PERMITTED BY LAW, BITRY WILL NOT BE LIABLE
+                FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+                PUNITIVE DAMAGES ARISING FROM USE OF THE PLATFORM OR SIMULATED
+                TRADING. In no event shall our aggregate liability arising out
+                of or related to this agreement, whether arising out of or
+                related to breach of contract, tort (including negligence) or
+                otherwise, exceed the total of the amounts paid to us by you for
+                the Service in the twelve (12) months preceding the event giving
+                rise to the claim.
               </p>
               <h4>10. Termination</h4>
               <p>
-                We may suspend or terminate your account at any time, with or without notice, for any reason, including violation of age restrictions or prohibited conduct.
+                We may suspend or terminate your account at any time, with or
+                without notice, for any reason, including violation of age
+                restrictions or prohibited conduct. Upon termination, your right
+                to use the Service will immediately cease. If you wish to
+                terminate your account, you may simply discontinue using the
+                Service.
               </p>
               <h4>11. Governing Law</h4>
               <p>
-                These Terms are governed by the laws of the Republic of the Philippines.
+                These Terms are governed by the laws of the Republic of the
+                Philippines, without regard to its conflict of law provisions.
+                Any disputes arising from these Terms shall be resolved in the
+                courts located in the Republic of the Philippines.
               </p>
               <h4>12. Contact</h4>
-              <p>noreplybitry@gmail.com</p>
+              <p>
+                If you have any questions about these Terms, please contact us
+                at noreplybitry@gmail.com.
+              </p>
             </div>
             <div className="modal-footer">
               <button
@@ -1141,49 +1304,175 @@ const Signup = () => {
               <h2 style={{ fontSize: "24px", marginBottom: "10px" }}>
                 Privacy Policy
               </h2>
-              <h4 style={{ marginTop: "28px" }}>1. Information We Collect</h4>
-              <p>We collect:</p>
-              <ul>
-                <li>
-                  Information you provide: name, email, date of birth, password
-                </li>
-                <li>
-                  When you sign up with Google: name and email from your Google
-                  account
-                </li>
-                <li>
-                  Usage data: trading simulations, quiz attempts, lesson progress, and interactions with AI-generated content
-                </li>
-              </ul>
-              <h4>2. How We Use Your Information</h4>
+              <p>Last updated: December 14, 2025</p>
               <p>
-                To operate the service, improve the Platform (including AI personalization), communicate with you, enforce age restrictions, prevent fraud, and comply with legal obligations.
+                BiTry ("us", "we", or "our") operates the BiTry platform
+                (hereinafter referred to as the "Service").
               </p>
+              <p>
+                This page informs you of our policies regarding the collection,
+                use, and disclosure of personal data when you use our Service
+                and the choices you have associated with that data.
+              </p>
+              <p>
+                We use your data to provide and improve the Service. By using
+                the Service, you agree to the collection and use of information
+                in accordance with this policy. Unless otherwise defined in this
+                Privacy Policy, the terms used in this Privacy Policy have the
+                same meanings as in our Terms and Conditions.
+              </p>
+              <h4 style={{ marginTop: "28px" }}>1. Information We Collect</h4>
+              <p>
+                We collect several different types of information for various
+                purposes to provide and improve our Service to you.
+              </p>
+              <p>
+                <strong>Personal Data</strong>: While using our Service, we may
+                ask you to provide us with certain personally identifiable
+                information that can be used to contact or identify you
+                ("Personal Data"). Personally identifiable information may
+                include, but is not limited to:
+              </p>
+              <ul>
+                <li>Email address</li>
+                <li>First name and last name</li>
+                <li>Date of birth</li>
+                <li>Cookies and Usage Data</li>
+              </ul>
+              <p>
+                When you sign up with Google: name and email from your Google
+                account.
+              </p>
+              <p>
+                <strong>Usage Data</strong>: We may also collect information on
+                how the Service is accessed and used ("Usage Data"). This Usage
+                Data may include information such as your computer's Internet
+                Protocol address (e.g. IP address), browser type, browser
+                version, the pages of our Service that you visit, the time and
+                date of your visit, the time spent on those pages, unique device
+                identifiers and other diagnostic data. This includes trading
+                simulations, quiz attempts, lesson progress, and interactions
+                with AI-generated content.
+              </p>
+              <p>
+                <strong>Tracking & Cookies Data</strong>: We use cookies and
+                similar tracking technologies to track the activity on our
+                Service and hold certain information. Cookies are files with
+                small amount of data which may include an anonymous unique
+                identifier. Cookies are sent to your browser from a website and
+                stored on your device. Tracking technologies also used are
+                beacons, tags, and scripts to collect and track information and
+                to improve and analyze our Service. You can instruct your
+                browser to refuse all cookies or to indicate when a cookie is
+                being sent. However, if you do not accept cookies, you may not
+                be able to use some portions of our Service.
+              </p>
+              <h4>2. How We Use Your Information</h4>
+              <p>BiTry uses the collected data for various purposes:</p>
+              <ul>
+                <li>To provide and maintain our Service</li>
+                <li>To notify you about changes to our Service</li>
+                <li>
+                  To allow you to participate in interactive features of our
+                  Service when you choose to do so
+                </li>
+                <li>To provide customer support</li>
+                <li>
+                  To gather analysis or valuable information so that we can
+                  improve our Service (including AI personalization)
+                </li>
+                <li>To monitor the usage of our Service</li>
+                <li>To detect, prevent and address technical issues</li>
+                <li>To communicate with you</li>
+                <li>To enforce age restrictions</li>
+                <li>To prevent fraud</li>
+                <li>To comply with legal obligations</li>
+              </ul>
               <h4>3. Sharing of Information</h4>
               <p>
-                We do not sell your personal data. We may share it with trusted service providers (e.g., Supabase for authentication, Binance API for market data, NewsAPI for news, AI services for content generation) or when required by law.
+                We do not sell your personal data. We may share it with trusted
+                service providers (e.g., Supabase for authentication, Binance
+                API for market data, NewsAPI for news, AI services for content
+                generation) or when required by law. We may also disclose your
+                Personal Data in the good faith belief that such action is
+                necessary to:
               </p>
+              <ul>
+                <li>Comply with a legal obligation</li>
+                <li>Protect and defend the rights or property of BiTry</li>
+                <li>
+                  Prevent or investigate possible wrongdoing in connection with
+                  the Service
+                </li>
+                <li>
+                  Protect the personal safety of users of the Service or the
+                  public
+                </li>
+                <li>Protect against legal liability</li>
+              </ul>
               <h4>4. Data Security</h4>
               <p>
-                We use industry-standard measures to protect your data, but no
-                method is 100% secure. Data is stored in compliance with tier limitations of services like Supabase.
+                The security of your data is important to us but remember that
+                no method of transmission over the Internet or method of
+                electronic storage is 100% secure. While we strive to use
+                commercially acceptable means to protect your Personal Data, we
+                cannot guarantee its absolute security. We use industry-standard
+                measures to protect your data, but no method is 100% secure.
+                Data is stored in compliance with tier limitations of services
+                like Supabase.
               </p>
               <h4>5. Your Rights</h4>
               <p>
-                You may access, correct, or request deletion of your data by
-                contacting us at noreplybitry@gmail.com.
+                BiTry aims to take reasonable steps to allow you to correct,
+                amend, delete or limit the use of your Personal Data. You may
+                access, correct, or request deletion of your data by contacting
+                us at noreplybitry@gmail.com. If you wish to be informed about
+                what Personal Data we hold about you and if you want it to be
+                removed from our systems, please contact us. In certain
+                circumstances, you have the following data protection rights:
               </p>
+              <ul>
+                <li>
+                  The right to access, update or delete the information we have
+                  on you.
+                </li>
+                <li>The right of rectification.</li>
+                <li>The right to object.</li>
+                <li>The right of restriction.</li>
+                <li>The right to data portability</li>
+                <li>The right to withdraw consent</li>
+              </ul>
               <h4>6. Children’s Privacy</h4>
               <p>
-                The Platform enforces age restrictions: full features are not intended for persons under 18. We do not knowingly collect data from minors without proper restrictions. Users under 18 are limited to educational content.
+                Our Service does not address anyone under the age of 18
+                ("Children"). We do not knowingly collect personally
+                identifiable information from anyone under the age of 18 without
+                proper restrictions. If you are a parent or guardian and you are
+                aware that your Child has provided us with Personal Data, please
+                contact us. If we become aware that we have collected Personal
+                Data from children without verification of parental consent, we
+                take steps to remove that information from our servers. The
+                Platform enforces age restrictions: full features are not
+                intended for persons under 18. Users under 18 are limited to
+                educational content.
               </p>
               <h4>7. Changes</h4>
               <p>
-                We may update this policy. Material changes will be notified via
-                email or in-app notice.
+                We may update our Privacy Policy from time to time. We will
+                notify you of any changes by posting the new Privacy Policy on
+                this page. We will let you know via email and/or a prominent
+                notice on our Service, prior to the change becoming effective
+                and update the "effective date" at the top of this Privacy
+                Policy. You are advised to review this Privacy Policy
+                periodically for any changes. Changes to this Privacy Policy are
+                effective when they are posted on this page. Material changes
+                will be notified via email or in-app notice.
               </p>
               <h4>8. Contact</h4>
-              <p>noreplybitry@gmail.com</p>
+              <p>
+                If you have any questions about this Privacy Policy, please
+                contact us at noreplybitry@gmail.com.
+              </p>
             </div>
             <div className="modal-footer">
               <button
