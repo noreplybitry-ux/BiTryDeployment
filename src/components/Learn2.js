@@ -516,6 +516,7 @@ Options: ${JSON.stringify(englishQuiz.options)}
       Medium: "approximately 600 words total",
       Long: "approximately 1000 words total",
     };
+
     const basePrompt = `You are a fun, engaging crypto educator for beginners! Create a short, exciting learning module on "${module.title}" using keywords: ${module.keywords.join(", ")}. Level: ${module.level}, Length: ${lengthGuidance[module.length]}.
 ${module.specific_points ? `Include these points: ${module.specific_points}` : ""}
 
@@ -524,6 +525,7 @@ Make it super engaging for Filipino beginners: Use simple words, fun analogies (
 Introduction (150-200 words): Start with a cool hook, explain what it is in simple terms, why it matters, and what they'll learn. End with a fun fact or question.
 
 Output ONLY the introduction text, no labels:`;
+
     try {
       // Generate introduction
       console.log("Generating introduction...");
@@ -532,110 +534,146 @@ Output ONLY the introduction text, no labels:`;
         throw new Error("Generated introduction is empty or too short");
       }
       console.log("✅ Successfully generated introduction");
+
       // Generate sections based on keywords
       const sections = [];
       const maxSections =
         module.length === "Short" ? 2 : module.length === "Medium" ? 3 : 4;
+
       for (let i = 0; i < Math.min(maxSections, module.keywords.length); i++) {
         const keyword = module.keywords[i];
         if (!keyword.trim()) continue;
-const sectionPrompt = `You are a fun crypto teacher for beginners! Create a short, exciting section on "${keyword}" for the module "${module.title}". Keep it engaging for Filipino beginners: simple words, fun analogies, emojis 🎉, bullet points, and a question at the end.
 
-Structure:
+        const sectionPrompt = `You are a fun crypto teacher for beginners! Create a short, exciting section on "${keyword}" for the module "${module.title}". 
+
+Keep it engaging for Filipino beginners: simple words, fun analogies, emojis 🎉, bullet points, and interactive elements.
+
+Structure (100-150 words):
 - **Definition**: Quick explain what it is 🎯
 - **Analogy**: Compare to something everyday (like a digital wallet is like a magic backpack!)
 - **Example**: One real crypto example 💡
-- **Tip**: One easy thing to try or remember
-- End with a fun question 🤔
+- **Tip**: One easy action they can try
 
-CRITICAL REQUIREMENT: You MUST include a MINI QUIZ at the end of EVERY section. This is mandatory for learning.
+CRITICAL: You MUST include a mini quiz at the END. This is MANDATORY.
 
-QUIZ FORMAT - FOLLOW EXACTLY (no extra line breaks):
+QUIZ FORMAT (copy this structure EXACTLY):
+
 [QUIZ:truefalse]
-Question: Is ${keyword} secure?
+Question: Your question about ${keyword} here?
 Options: True, False
 Answer: True
-Explanation: ${keyword} uses advanced security features.
+Explanation: Brief explanation of why this answer is correct.
 [/QUIZ]
 
-IMPORTANT FORMATTING RULES:
-1. Each line (Question, Options, Answer, Explanation) must be on a SINGLE line
-2. Options must be comma-separated on ONE line
-3. No extra blank lines between quiz fields
-4. The quiz block must be at the END of the section
+FORMATTING RULES - FOLLOW EXACTLY:
+1. Each quiz field (Question:, Options:, Answer:, Explanation:) MUST be on a SINGLE line
+2. Options MUST be comma-separated on ONE line
+3. NO blank lines between quiz fields
+4. Add ONE blank line BEFORE the [QUIZ:] tag
+5. Quiz MUST be at the VERY END of the section
 
-Replace the question, options, answer, and explanation with content relevant to ${keyword}.
+Quiz Type Options:
+- truefalse: Options: True, False
+- multiplechoice: Options: Option A, Option B, Option C, Option D
+- fillblank: Options: correct answer
 
-Choose the best quiz type:
-- truefalse for yes/no questions (Options format: "True, False")
-- multiplechoice for 2-4 options (Options format: "Option A, Option B, Option C, Option D")
-- fillblank for short answer (Options format: "correct answer")
+Choose the most appropriate quiz type for ${keyword}.
 
-Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text with the quiz at the end:`;
+Output ONLY the section content with quiz at the end:`;
+
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
         let sectionContent = await callGeminiAPI(sectionPrompt, MODULE_API_KEY);
-        console.log(`Generated section content for ${keyword}:`, sectionContent);
+
         if (!sectionContent || sectionContent.trim().length < 100) {
           throw new Error(`Generated section for "${keyword}" is empty or too short`);
         }
-        // Ensure a QUIZ block exists in the section body; if not, append a default true/false mini-quiz
+
+        console.log(`Raw section content for ${keyword}:`, sectionContent.substring(0, 200));
+
+        // Check if quiz exists and is properly formatted
         const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
-       // Replace this function in Learn2.js
-const createDefaultQuiz = (k) =>
-  `[QUIZ:truefalse]
-Question: Is ${k} an important concept in cryptocurrency?
-Options: True, False
-Answer: True
-Explanation: ${k} is a fundamental concept that helps you understand how cryptocurrencies work.
-[/QUIZ]`;
+        
         if (!quizRegex.test(sectionContent)) {
-          sectionContent = sectionContent.trim() + createDefaultQuiz(keyword);
-          console.warn(`No QUIZ block found for keyword "${keyword}" — appended default mini-quiz.`);
+          console.warn(`⚠️ No quiz found in section "${keyword}" - adding default quiz`);
+          const defaultQuiz = `\n\n[QUIZ:truefalse]\nQuestion: Is ${keyword} an important concept in cryptocurrency?\nOptions: True, False\nAnswer: True\nExplanation: ${keyword} is a fundamental concept that helps you understand how cryptocurrencies and blockchain technology work.\n[/QUIZ]`;
+          sectionContent = sectionContent.trim() + defaultQuiz;
+        } else {
+          console.log(`✅ Quiz found in section "${keyword}"`);
+          
+          // Validate quiz format
+          const quizMatch = sectionContent.match(quizRegex);
+          if (quizMatch) {
+            const quizBlock = quizMatch[0];
+            const hasQuestion = /Question:\s*[^\n]+/i.test(quizBlock);
+            const hasOptions = /Options:\s*[^\n]+/i.test(quizBlock);
+            const hasAnswer = /Answer:\s*[^\n]+/i.test(quizBlock);
+            const hasExplanation = /Explanation:\s*[^\n]+/i.test(quizBlock);
+            
+            if (!hasQuestion || !hasOptions || !hasAnswer || !hasExplanation) {
+              console.warn(`⚠️ Quiz in "${keyword}" has missing fields - replacing with default`);
+              sectionContent = sectionContent.replace(quizRegex, '').trim() + `\n\n[QUIZ:truefalse]\nQuestion: Is ${keyword} an important concept in cryptocurrency?\nOptions: True, False\nAnswer: True\nExplanation: ${keyword} is a fundamental concept that helps you understand how cryptocurrencies and blockchain technology work.\n[/QUIZ]`;
+            } else {
+              console.log(`✅ Quiz in "${keyword}" is properly formatted`);
+            }
+          }
         }
+
         sections.push({
           title: keyword.charAt(0).toUpperCase() + keyword.slice(1),
-          body: sectionContent,
+          body: sectionContent.trim(),
         });
       }
+
       if (sections.length === 0) {
-        throw new Error(
-          "No valid sections generated; at least one section is required"
-        );
+        throw new Error("No valid sections generated; at least one section is required");
       }
+
+      console.log(`✅ Generated ${sections.length} sections with quizzes`);
+
       const englishContent = {
         intro: introduction,
         sections: sections,
       };
+
       // Fetch media
+      console.log("Fetching media...");
       const query = `${module.keywords.join(" ")} cryptocurrency`;
       const [image, videoId] = await Promise.all([
         fetchPexelsImage(query),
         searchYouTubeVideo(`${module.title} tutorial cryptocurrency`),
       ]);
+
       const video = videoId ? `https://www.youtube.com/embed/${videoId}` : null;
-      englishContent.media = {
-        image,
-        video,
-      };
+      englishContent.media = { image, video };
+
+      console.log("Translating to TagLish...");
       const taglishContent = await translateToTaglish(englishContent);
       taglishContent.media = englishContent.media;
-      // If translation removed or altered QUIZ blocks, reattach English quiz blocks where missing
-      try {
-        const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
-        for (let i = 0; i < englishContent.sections.length; i++) {
-          const engSection = englishContent.sections[i] || {};
-          const tagSection = taglishContent.sections?.[i];
-          if (!tagSection) continue;
-          const engQuizMatch = engSection.body?.match(quizRegex);
-          if (engQuizMatch && !quizRegex.test(tagSection.body || "")) {
-            tagSection.body = (tagSection.body || "").trim() + "\n\n" + engQuizMatch[0];
-            console.warn(`Reattached English QUIZ block to TagLish section ${i}`);
-          }
+
+      // Ensure TagLish sections also have quizzes
+      console.log("Verifying TagLish quizzes...");
+      const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
+      for (let i = 0; i < englishContent.sections.length; i++) {
+        const engSection = englishContent.sections[i];
+        const tagSection = taglishContent.sections?.[i];
+        
+        if (!tagSection) continue;
+
+        const engQuizMatch = engSection.body?.match(quizRegex);
+        if (engQuizMatch && !quizRegex.test(tagSection.body || "")) {
+          console.warn(`⚠️ Reattaching English quiz to TagLish section ${i}`);
+          tagSection.body = (tagSection.body || "").trim() + "\n\n" + engQuizMatch[0];
         }
-      } catch (e) {
-        console.error("Error reattaching quiz blocks to TagLish content:", e.message);
       }
-      console.log("✅ Successfully generated complete module");
+
+      console.log("✅ Successfully generated complete module with quizzes");
+      
+      // Final verification log
+      sections.forEach((section, idx) => {
+        const hasQuiz = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i.test(section.body);
+        console.log(`Section ${idx} "${section.title}": Quiz present = ${hasQuiz}`);
+      });
+
       return { englishContent, taglishContent };
     } catch (error) {
       console.error("Error generating module content:", error.message);

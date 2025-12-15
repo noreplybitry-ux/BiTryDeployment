@@ -35,18 +35,21 @@ const QuizComponent = ({ content }) => {
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
-  // Parse the quiz content - MORE ROBUST REGEX
+  // Parse the quiz content with more flexible regex
   const quizMatch = content.match(/\[QUIZ:([^\]]*)\]([\s\S]*?)\[\/QUIZ\]/i);
-  if (!quizMatch) return null;
+  if (!quizMatch) {
+    console.warn('No quiz block found in content');
+    return null;
+  }
 
-  const type = quizMatch[1].trim();
+  const type = quizMatch[1].trim().toLowerCase();
   const quizContent = quizMatch[2];
 
-  // More flexible parsing that handles extra whitespace
-  const questionMatch = quizContent.match(/Question:\s*(.*?)(?=\n|Options:|$)/is);
-  const optionsMatch = quizContent.match(/Options:\s*(.*?)(?=\n|Answer:|$)/is);
-  const answerMatch = quizContent.match(/Answer:\s*(.*?)(?=\n|Explanation:|$)/is);
-  const explanationMatch = quizContent.match(/Explanation:\s*(.*?)(?=\n|$)/is);
+  // More flexible parsing that handles extra whitespace and newlines
+  const questionMatch = quizContent.match(/Question:\s*([^\n]*?)(?=\s*(?:Options:|Answer:|Explanation:|\[\/QUIZ\]|$))/is);
+  const optionsMatch = quizContent.match(/Options:\s*([^\n]*?)(?=\s*(?:Answer:|Explanation:|\[\/QUIZ\]|$))/is);
+  const answerMatch = quizContent.match(/Answer:\s*([^\n]*?)(?=\s*(?:Explanation:|\[\/QUIZ\]|$))/is);
+  const explanationMatch = quizContent.match(/Explanation:\s*(.*?)(?=\s*\[\/QUIZ\]|$)/is);
 
   const question = questionMatch ? questionMatch[1].trim() : '';
   const options = optionsMatch 
@@ -55,7 +58,8 @@ const QuizComponent = ({ content }) => {
   const correctAnswer = answerMatch ? answerMatch[1].trim() : '';
   const explanation = explanationMatch ? explanationMatch[1].trim() : '';
 
-  console.log('Parsed Quiz:', { type, question, options, correctAnswer, explanation });
+  // Debug logging
+  console.log('Quiz parsed:', { type, question, options, correctAnswer, explanation });
 
   const handleSubmit = () => {
     const userAnswerLower = userAnswer.toLowerCase().trim();
@@ -70,8 +74,9 @@ const QuizComponent = ({ content }) => {
     setIsCorrect(false);
   };
 
+  // Validation
   if (!question || !correctAnswer) {
-    console.warn('Quiz parsing failed:', { question, correctAnswer });
+    console.warn('Quiz parsing failed - missing required fields:', { question, correctAnswer });
     return null;
   }
 
@@ -118,6 +123,7 @@ const QuizComponent = ({ content }) => {
               type="text"
               value={userAnswer}
               onChange={(e) => setUserAnswer(e.target.value)}
+              onKeyPress={(e) => e.key === 'Enter' && userAnswer && handleSubmit()}
               placeholder="Type your answer here..."
               className="fill-blank-input"
             />
@@ -136,7 +142,9 @@ const QuizComponent = ({ content }) => {
           <div className={`result-message ${isCorrect ? 'correct' : 'incorrect'}`}>
             {isCorrect ? '🎉 Correct! Great job!' : '❌ Not quite right!'}
           </div>
-          <p className="explanation"><strong>Explanation:</strong> {explanation}</p>
+          <p className="explanation">
+            <strong>💡 Explanation:</strong> {explanation}
+          </p>
           <button className="quiz-reset-btn" onClick={resetQuiz}>
             🔄 Try Again
           </button>
