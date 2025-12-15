@@ -35,25 +35,32 @@ const QuizComponent = ({ content }) => {
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
-  // Parse the quiz content
+  // Parse the quiz content - MORE ROBUST REGEX
   const quizMatch = content.match(/\[QUIZ:([^\]]*)\]([\s\S]*?)\[\/QUIZ\]/i);
   if (!quizMatch) return null;
 
-  const type = quizMatch[1];
+  const type = quizMatch[1].trim();
   const quizContent = quizMatch[2];
 
-  const questionMatch = quizContent.match(/Question:\s*(.*?)(?:\n|$)/);
-  const optionsMatch = quizContent.match(/Options:\s*(.*?)(?:\n|$)/);
-  const answerMatch = quizContent.match(/Answer:\s*(.*?)(?:\n|$)/);
-  const explanationMatch = quizContent.match(/Explanation:\s*(.*?)(?:\n|$)/);
+  // More flexible parsing that handles extra whitespace
+  const questionMatch = quizContent.match(/Question:\s*(.*?)(?=\n|Options:|$)/is);
+  const optionsMatch = quizContent.match(/Options:\s*(.*?)(?=\n|Answer:|$)/is);
+  const answerMatch = quizContent.match(/Answer:\s*(.*?)(?=\n|Explanation:|$)/is);
+  const explanationMatch = quizContent.match(/Explanation:\s*(.*?)(?=\n|$)/is);
 
   const question = questionMatch ? questionMatch[1].trim() : '';
-  const options = optionsMatch ? optionsMatch[1].split(',').map(opt => opt.trim()) : [];
+  const options = optionsMatch 
+    ? optionsMatch[1].split(',').map(opt => opt.trim()).filter(opt => opt.length > 0)
+    : [];
   const correctAnswer = answerMatch ? answerMatch[1].trim() : '';
   const explanation = explanationMatch ? explanationMatch[1].trim() : '';
 
+  console.log('Parsed Quiz:', { type, question, options, correctAnswer, explanation });
+
   const handleSubmit = () => {
-    setIsCorrect(userAnswer.toLowerCase() === correctAnswer.toLowerCase());
+    const userAnswerLower = userAnswer.toLowerCase().trim();
+    const correctAnswerLower = correctAnswer.toLowerCase().trim();
+    setIsCorrect(userAnswerLower === correctAnswerLower);
     setShowResult(true);
   };
 
@@ -62,6 +69,11 @@ const QuizComponent = ({ content }) => {
     setShowResult(false);
     setIsCorrect(false);
   };
+
+  if (!question || !correctAnswer) {
+    console.warn('Quiz parsing failed:', { question, correctAnswer });
+    return null;
+  }
 
   return (
     <div className="mini-quiz">
@@ -76,18 +88,18 @@ const QuizComponent = ({ content }) => {
                 className={`quiz-option ${userAnswer === 'True' ? 'selected' : ''}`}
                 onClick={() => setUserAnswer('True')}
               >
-                True
+                ✓ True
               </button>
               <button 
                 className={`quiz-option ${userAnswer === 'False' ? 'selected' : ''}`}
                 onClick={() => setUserAnswer('False')}
               >
-                False
+                ✗ False
               </button>
             </div>
           )}
           
-          {type === 'multiplechoice' && (
+          {type === 'multiplechoice' && options.length > 0 && (
             <div className="multiple-choice-options">
               {options.map((option, index) => (
                 <button 
@@ -106,7 +118,7 @@ const QuizComponent = ({ content }) => {
               type="text"
               value={userAnswer}
               onChange={(e) => setUserAnswer(e.target.value)}
-              placeholder="Your answer..."
+              placeholder="Type your answer here..."
               className="fill-blank-input"
             />
           )}
@@ -116,17 +128,17 @@ const QuizComponent = ({ content }) => {
             onClick={handleSubmit}
             disabled={!userAnswer}
           >
-            Check Answer
+            Check Answer ✨
           </button>
         </div>
       ) : (
         <div className="quiz-result">
           <div className={`result-message ${isCorrect ? 'correct' : 'incorrect'}`}>
-            {isCorrect ? '🎉 Correct!' : '❌ Not quite!'}
+            {isCorrect ? '🎉 Correct! Great job!' : '❌ Not quite right!'}
           </div>
-          <p className="explanation">{explanation}</p>
+          <p className="explanation"><strong>Explanation:</strong> {explanation}</p>
           <button className="quiz-reset-btn" onClick={resetQuiz}>
-            Try Again
+            🔄 Try Again
           </button>
         </div>
       )}

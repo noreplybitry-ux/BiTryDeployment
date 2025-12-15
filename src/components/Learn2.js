@@ -539,7 +539,7 @@ Output ONLY the introduction text, no labels:`;
       for (let i = 0; i < Math.min(maxSections, module.keywords.length); i++) {
         const keyword = module.keywords[i];
         if (!keyword.trim()) continue;
-        const sectionPrompt = `You are a fun crypto teacher for beginners! Create a short, exciting section on "${keyword}" for the module "${module.title}". Keep it engaging for Filipino beginners: simple words, fun analogies, emojis 🎉, bullet points, and a question at the end.
+const sectionPrompt = `You are a fun crypto teacher for beginners! Create a short, exciting section on "${keyword}" for the module "${module.title}". Keep it engaging for Filipino beginners: simple words, fun analogies, emojis 🎉, bullet points, and a question at the end.
 
 Structure:
 - **Definition**: Quick explain what it is 🎯
@@ -550,20 +550,26 @@ Structure:
 
 CRITICAL REQUIREMENT: You MUST include a MINI QUIZ at the end of EVERY section. This is mandatory for learning.
 
-QUIZ FORMAT (copy exactly):
+QUIZ FORMAT - FOLLOW EXACTLY (no extra line breaks):
 [QUIZ:truefalse]
 Question: Is ${keyword} secure?
-Options: True, False  
+Options: True, False
 Answer: True
 Explanation: ${keyword} uses advanced security features.
 [/QUIZ]
 
+IMPORTANT FORMATTING RULES:
+1. Each line (Question, Options, Answer, Explanation) must be on a SINGLE line
+2. Options must be comma-separated on ONE line
+3. No extra blank lines between quiz fields
+4. The quiz block must be at the END of the section
+
 Replace the question, options, answer, and explanation with content relevant to ${keyword}.
 
 Choose the best quiz type:
-- truefalse for yes/no questions
-- multiplechoice for 2-3 options
-- fillblank for short answer
+- truefalse for yes/no questions (Options format: "True, False")
+- multiplechoice for 2-4 options (Options format: "Option A, Option B, Option C, Option D")
+- fillblank for short answer (Options format: "correct answer")
 
 Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text with the quiz at the end:`;
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
@@ -574,8 +580,14 @@ Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the s
         }
         // Ensure a QUIZ block exists in the section body; if not, append a default true/false mini-quiz
         const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
-        const createDefaultQuiz = (k) =>
-          `\n\n[QUIZ:truefalse]\nQuestion: Is ${k} secure?\nOptions: True, False  \nAnswer: True\nExplanation: ${k} uses advanced security features.\n[/QUIZ]`;
+       // Replace this function in Learn2.js
+const createDefaultQuiz = (k) =>
+  `[QUIZ:truefalse]
+Question: Is ${k} an important concept in cryptocurrency?
+Options: True, False
+Answer: True
+Explanation: ${k} is a fundamental concept that helps you understand how cryptocurrencies work.
+[/QUIZ]`;
         if (!quizRegex.test(sectionContent)) {
           sectionContent = sectionContent.trim() + createDefaultQuiz(keyword);
           console.warn(`No QUIZ block found for keyword "${keyword}" — appended default mini-quiz.`);
