@@ -567,15 +567,18 @@ Choose the best quiz type:
 
 Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the section text with the quiz at the end:`;
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
-        const sectionContent = await callGeminiAPI(
-          sectionPrompt,
-          MODULE_API_KEY
-        );
+        let sectionContent = await callGeminiAPI(sectionPrompt, MODULE_API_KEY);
         console.log(`Generated section content for ${keyword}:`, sectionContent);
         if (!sectionContent || sectionContent.trim().length < 100) {
-          throw new Error(
-            `Generated section for "${keyword}" is empty or too short`
-          );
+          throw new Error(`Generated section for "${keyword}" is empty or too short`);
+        }
+        // Ensure a QUIZ block exists in the section body; if not, append a default true/false mini-quiz
+        const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
+        const createDefaultQuiz = (k) =>
+          `\n\n[QUIZ:truefalse]\nQuestion: Is ${k} secure?\nOptions: True, False  \nAnswer: True\nExplanation: ${k} uses advanced security features.\n[/QUIZ]`;
+        if (!quizRegex.test(sectionContent)) {
+          sectionContent = sectionContent.trim() + createDefaultQuiz(keyword);
+          console.warn(`No QUIZ block found for keyword "${keyword}" — appended default mini-quiz.`);
         }
         sections.push({
           title: keyword.charAt(0).toUpperCase() + keyword.slice(1),
@@ -604,6 +607,22 @@ Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the s
       };
       const taglishContent = await translateToTaglish(englishContent);
       taglishContent.media = englishContent.media;
+      // If translation removed or altered QUIZ blocks, reattach English quiz blocks where missing
+      try {
+        const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
+        for (let i = 0; i < englishContent.sections.length; i++) {
+          const engSection = englishContent.sections[i] || {};
+          const tagSection = taglishContent.sections?.[i];
+          if (!tagSection) continue;
+          const engQuizMatch = engSection.body?.match(quizRegex);
+          if (engQuizMatch && !quizRegex.test(tagSection.body || "")) {
+            tagSection.body = (tagSection.body || "").trim() + "\n\n" + engQuizMatch[0];
+            console.warn(`Reattached English QUIZ block to TagLish section ${i}`);
+          }
+        }
+      } catch (e) {
+        console.error("Error reattaching quiz blocks to TagLish content:", e.message);
+      }
       console.log("✅ Successfully generated complete module");
       return { englishContent, taglishContent };
     } catch (error) {
@@ -664,6 +683,32 @@ Keep it to 100-150 words total. Make it lively and not boring! Output ONLY the s
       const { englishContent, taglishContent } = await generateModuleContent(
         module
       );
+      // Final safety: ensure each saved section includes a QUIZ block
+      try {
+        const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
+        const createDefaultQuiz = (k) =>
+          `\n\n[QUIZ:truefalse]\nQuestion: Is ${k} secure?\nOptions: True, False  \nAnswer: True\nExplanation: ${k} uses advanced security features.\n[/QUIZ]`;
+        englishContent.sections = (englishContent.sections || []).map((s) => {
+          if (!quizRegex.test(s.body || "")) {
+            console.warn(`Sanitizer: appending default QUIZ to section '${s.title}'`);
+            return { ...s, body: (s.body || "").trim() + createDefaultQuiz(s.title) };
+          }
+          return s;
+        });
+        // Mirror to taglish if missing
+        if (taglishContent && taglishContent.sections) {
+          taglishContent.sections = taglishContent.sections.map((ts, idx) => {
+            const engQuiz = englishContent.sections?.[idx]?.body?.match(quizRegex);
+            if (engQuiz && !quizRegex.test(ts.body || "")) {
+              console.warn(`Sanitizer: reattaching ENG QUIZ to TagLish section ${idx}`);
+              return { ...ts, body: (ts.body || "").trim() + "\n\n" + engQuiz[0] };
+            }
+            return ts;
+          });
+        }
+      } catch (e) {
+        console.error("Sanitizer error before DB save:", e.message);
+      }
       console.log("Generated content:", englishContent, taglishContent);
       const { error: updateError } = await supabase
         .from("learning_modules")
