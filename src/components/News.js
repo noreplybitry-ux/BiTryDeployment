@@ -533,120 +533,56 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
       .replace(/[^\w\s\-\.]/g, " ")
       .trim();
 
-  // Fetch news from multiple pages to get maximum articles
+  // Fetch news from API, fall back to public cache file, then to localStorage
   const fetchAllNews = async () => {
     try {
-      const response = await fetch("/api/news");
+      const resp = await fetch("/api/news");
 
-      if (!response.ok) {
-        throw new Error(`API request failed with status ${response.status}`);
+      let payload = null;
+
+      if (!resp.ok) {
+        console.warn(`Primary API failed with status ${resp.status}. Falling back to static cache.`);
+
+        // Try public/news_cache.json (served from public/)
+        const fallbackResp = await fetch("/news_cache.json");
+        if (!fallbackResp.ok) {
+          throw new Error(`Fallback request failed with status ${fallbackResp.status}`);
+        }
+        const raw = await fallbackResp.json();
+        payload = raw?.data && Array.isArray(raw.data.articles) ? raw.data : raw;
+      } else {
+        // Live API returned OK
+        payload = await resp.json();
       }
 
-      const data = await response.json();
-      console.log(`Fetched ${data.articles?.length || 0} articles from API`);
-
-      let allArticles = [];
-
-      // Primary API
-      try {
-        const response = await fetch("/api/news");
-
-        if (!response.ok) {
-          throw new Error(`API request failed with status ${response.status}`);
-        }
-
-        const data = await response.json();
-        console.log(`Fetched ${data.articles?.length || 0} articles from API`);
-
-        // Use centralized filter/processing for consistency
-        if (data.articles && Array.isArray(data.articles)) {
-          const processedArticles = data.articles
-            .slice(0, MAX_ARTICLES)
-            .map((article, i) => {
-              let host = "";
-              try {
-                host = new URL(article.url).hostname || "";
-              } catch (e) {}
-              return {
-                id: `${Date.now()}-${i}`,
-                title: (article.title || "").trim(),
-                description: (article.description || "").trim(),
-                url: article.url,
-                imageUrl: processArticleImage(article),
-                publishedAt: article.publishedAt,
-                source: article.source?.name || host,
-                author: article.author || "Unknown Author",
-              };
-            });
-          allArticles = processedArticles;
-        }
-
-        // Cache results client-side
-        setCachedData(allArticles);
-        return allArticles;
-      } catch (apiErr) {
-        console.warn("Primary API failed:", apiErr.message);
-
-        // Fallback: try public/news_cache.json (CRA serves files in public/)
-        try {
-          console.log("Attempting fallback to /news_cache.json...");
-          const fallbackResp = await fetch("/news_cache.json");
-          if (!fallbackResp.ok) {
-            throw new Error(
-              `Fallback request failed with status ${fallbackResp.status}`
-            );
-          }
-          const raw = await fallbackResp.json();
-
-          // support both shapes:
-          // 1) raw is { timestamp, data: { status, totalResults, articles: [...] } }
-          // 2) raw is a NewsAPI-shaped object { status, totalResults, articles: [...] }
-          const payload =
-            raw?.data && Array.isArray(raw.data.articles) ? raw.data : raw;
-
-          if (!payload.articles || !Array.isArray(payload.articles)) {
-            throw new Error("Fallback file does not contain articles array");
-          }
-
-          console.log(
-            `Loaded ${payload.articles.length} articles from news_cache.json`
-          );
-
-          // Use centralized filter for fallback payload
-          if (payload.articles && Array.isArray(payload.articles)) {
-            const processedArticles = payload.articles
-              .slice(0, MAX_ARTICLES)
-              .map((article, i) => {
-                let host = "";
-                try {
-                  host = new URL(article.url).hostname || "";
-                } catch (e) {}
-                return {
-                  id: `${Date.now()}-${i}`,
-                  title: (article.title || "").trim(),
-                  description: (article.description || "").trim(),
-                  url: article.url,
-                  imageUrl: processArticleImage(article),
-                  publishedAt: article.publishedAt,
-                  source: article.source?.name || host,
-                  author: article.author || "Unknown Author",
-                };
-              });
-            allArticles = processedArticles;
-
-            // Save to client cache (so UI shows last updated timestamp consistently)
-            setCachedData(allArticles);
-
-            // Set an informative error so the UI can show we used fallback (optional)
-            setError(`Using local fallback: news_cache.json`);
-
-            return allArticles;
-          }
-        } catch (fallbackErr) {
-          console.warn("Fallback also failed:", fallbackErr.message);
-          throw apiErr; // re-throw the original API error so caller handles it
-        }
+      if (!payload || !payload.articles || !Array.isArray(payload.articles)) {
+        throw new Error("Payload does not contain articles array");
       }
+
+      console.log(`Loaded ${payload.articles.length} articles from ${resp.ok ? "live API" : "static cache"}`);
+
+      const processedArticles = payload.articles
+        .slice(0, MAX_ARTICLES)
+        .map((article, i) => {
+          let host = "";
+          try {
+            host = new URL(article.url).hostname || "";
+          } catch (e) {}
+          return {
+            id: `${Date.now()}-${i}`,
+            title: (article.title || "").trim(),
+            description: (article.description || "").trim(),
+            url: article.url,
+            imageUrl: processArticleImage(article),
+            publishedAt: article.publishedAt,
+            source: article.source?.name || host,
+            author: article.author || "Unknown Author",
+          };
+        });
+
+      // Cache results client-side for UI consistency
+      setCachedData(processedArticles);
+      return processedArticles;
     } catch (error) {
       console.error("Fetch error (final):", error);
       // Try to use client localStorage stale cache if available
@@ -657,7 +593,6 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
       }
       throw error;
     }
-    localStorage.removeItem(CACHE_KEY); // Temp: Clear cache on load for testing
   };
 
   // Update displayed news based on current page
