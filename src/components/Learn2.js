@@ -517,19 +517,34 @@ Options: ${JSON.stringify(englishQuiz.options)}
       Long: "approximately 1000 words total",
     };
 
-    const basePrompt = `You are a fun, engaging crypto educator for beginners! Create a short, exciting learning module on "${module.title}" using keywords: ${module.keywords.join(", ")}. Level: ${module.level}, Length: ${lengthGuidance[module.length]}.
+    // Base prompt: explicitly demand English-only output to avoid Taglish bleed
+    const basePrompt = `Respond ONLY in clear English. Do NOT use Tagalog, Taglish, or any mix. You are a fun, engaging crypto educator for beginners! Create a short, exciting learning module on "${module.title}" using keywords: ${module.keywords.join(", ")}. Level: ${module.level}, Length: ${lengthGuidance[module.length]}.
 ${module.specific_points ? `Include these points: ${module.specific_points}` : ""}
 
-Make it super engaging for Filipino beginners: Use simple words, fun analogies (like comparing crypto to everyday things), emojis 🎉, short bullet points, and questions to keep them hooked. Avoid walls of text – keep it lively and conversational!
+Make it engaging for Filipino beginners (tone/instruction), but keep the LANGUAGE strictly English: Use simple words, fun analogies, emojis 🎉 only if appropriate, short bullet points, and questions to keep them hooked. Avoid walls of text – keep it lively and conversational!
 
 Introduction (150-200 words): Start with a cool hook, explain what it is in simple terms, why it matters, and what they'll learn. End with a fun fact or question.
 
 Output ONLY the introduction text, no labels:`;
 
     try {
-      // Generate introduction
+      // small helper to detect Tagalog/Taglish words
+      const isLikelyTaglish = (text = '') => {
+        if (!text) return false;
+        const tagalogWords = /\b(ang|ng|si|mga|ako|ito|iyon|po|opo|kumusta|salamat|bahay|pero|naman|kita|kaibigan)\b/i;
+        return tagalogWords.test(text);
+      };
+
+      // Generate introduction with up to 2 retries if Taglish detected
       console.log("Generating introduction...");
-      const introduction = await callGeminiAPI(basePrompt, MODULE_API_KEY);
+      let introduction = await callGeminiAPI(basePrompt, MODULE_API_KEY);
+      let introAttempts = 0;
+      while (isLikelyTaglish(introduction) && introAttempts < 2) {
+        introAttempts += 1;
+        console.warn(`Introduction looks like Taglish (attempt ${introAttempts}). Retrying with stricter English-only instruction.`);
+        const retryIntroPrompt = `Respond ONLY in clear English. Do NOT use Tagalog or Taglish. ${basePrompt}`;
+        introduction = await callGeminiAPI(retryIntroPrompt, MODULE_API_KEY);
+      }
       if (!introduction || introduction.trim().length < 100) {
         throw new Error("Generated introduction is empty or too short");
       }
@@ -537,16 +552,15 @@ Output ONLY the introduction text, no labels:`;
 
       // Generate sections based on keywords
       const sections = [];
-      const maxSections =
-        module.length === "Short" ? 2 : module.length === "Medium" ? 3 : 4;
+      const maxSections = module.length === "Short" ? 2 : module.length === "Medium" ? 3 : 4;
 
       for (let i = 0; i < Math.min(maxSections, module.keywords.length); i++) {
         const keyword = module.keywords[i];
         if (!keyword.trim()) continue;
 
-        const sectionPrompt = `You are a fun crypto teacher for beginners! Create a short, exciting section on "${keyword}" for the module "${module.title}". 
+        const sectionPrompt = `Respond ONLY in clear English. Do NOT use Tagalog, Taglish, or a mix. You are a fun crypto teacher for beginners! Create a short, exciting section on "${keyword}" for the module "${module.title}".
 
-Keep it engaging for Filipino beginners: simple words, fun analogies, emojis 🎉, bullet points, and interactive elements.
+Keep it engaging (tone) for Filipino beginners but use only English: simple words, fun analogies, emojis 🎉 optional, bullet points, and a question.
 
 Structure (100-150 words):
 - **Definition**: Quick explain what it is 🎯
@@ -572,17 +586,19 @@ FORMATTING RULES - FOLLOW EXACTLY:
 4. Add ONE blank line BEFORE the [QUIZ:] tag
 5. Quiz MUST be at the VERY END of the section
 
-Quiz Type Options:
-- truefalse: Options: True, False
-- multiplechoice: Options: Option A, Option B, Option C, Option D
-- fillblank: Options: correct answer
-
-Choose the most appropriate quiz type for ${keyword}.
-
 Output ONLY the section content with quiz at the end:`;
 
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
+
+        // generate section and retry if Taglish detected
         let sectionContent = await callGeminiAPI(sectionPrompt, MODULE_API_KEY);
+        let sectionAttempts = 0;
+        while (isLikelyTaglish(sectionContent) && sectionAttempts < 2) {
+          sectionAttempts += 1;
+          console.warn(`Section "${keyword}" looks like Taglish (attempt ${sectionAttempts}). Retrying with stricter English-only instruction.`);
+          const retrySectionPrompt = `Respond ONLY in clear English. Do NOT use Tagalog or Taglish. ${sectionPrompt}`;
+          sectionContent = await callGeminiAPI(retrySectionPrompt, MODULE_API_KEY);
+        }
 
         if (!sectionContent || sectionContent.trim().length < 100) {
           throw new Error(`Generated section for "${keyword}" is empty or too short`);
@@ -592,14 +608,14 @@ Output ONLY the section content with quiz at the end:`;
 
         // Check if quiz exists and is properly formatted
         const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
-        
+
         if (!quizRegex.test(sectionContent)) {
           console.warn(`⚠️ No quiz found in section "${keyword}" - adding default quiz`);
           const defaultQuiz = `\n\n[QUIZ:truefalse]\nQuestion: Is ${keyword} an important concept in cryptocurrency?\nOptions: True, False\nAnswer: True\nExplanation: ${keyword} is a fundamental concept that helps you understand how cryptocurrencies and blockchain technology work.\n[/QUIZ]`;
           sectionContent = sectionContent.trim() + defaultQuiz;
         } else {
           console.log(`✅ Quiz found in section "${keyword}"`);
-          
+
           // Validate quiz format
           const quizMatch = sectionContent.match(quizRegex);
           if (quizMatch) {
@@ -608,7 +624,7 @@ Output ONLY the section content with quiz at the end:`;
             const hasOptions = /Options:\s*[^\n]+/i.test(quizBlock);
             const hasAnswer = /Answer:\s*[^\n]+/i.test(quizBlock);
             const hasExplanation = /Explanation:\s*[^\n]+/i.test(quizBlock);
-            
+
             if (!hasQuestion || !hasOptions || !hasAnswer || !hasExplanation) {
               console.warn(`⚠️ Quiz in "${keyword}" has missing fields - replacing with default`);
               sectionContent = sectionContent.replace(quizRegex, '').trim() + `\n\n[QUIZ:truefalse]\nQuestion: Is ${keyword} an important concept in cryptocurrency?\nOptions: True, False\nAnswer: True\nExplanation: ${keyword} is a fundamental concept that helps you understand how cryptocurrencies and blockchain technology work.\n[/QUIZ]`;
@@ -656,7 +672,7 @@ Output ONLY the section content with quiz at the end:`;
       for (let i = 0; i < englishContent.sections.length; i++) {
         const engSection = englishContent.sections[i];
         const tagSection = taglishContent.sections?.[i];
-        
+
         if (!tagSection) continue;
 
         const engQuizMatch = engSection.body?.match(quizRegex);
@@ -667,7 +683,7 @@ Output ONLY the section content with quiz at the end:`;
       }
 
       console.log("✅ Successfully generated complete module with quizzes");
-      
+
       // Final verification log
       sections.forEach((section, idx) => {
         const hasQuiz = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i.test(section.body);
