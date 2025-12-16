@@ -30,6 +30,42 @@ export default async function handler(req, res) {
   const apiKey = process.env.NEWS_API_KEY;
   let q = buildQuery(SEARCH_TERMS);
 
+  // If API key is not configured, prefer serving from cache immediately
+  if (!apiKey) {
+    console.warn("NEWS_API_KEY not set — serving cache fallback if available.");
+    try {
+      if (fs.existsSync(CACHE_FILE)) {
+        const raw = await fs.promises.readFile(CACHE_FILE, "utf8");
+        const parsed = JSON.parse(raw);
+        if (parsed && parsed.timestamp) {
+          res.setHeader("X-News-Source", "api-cache");
+          res.setHeader(
+            "X-News-Cache-Timestamp",
+            new Date(parsed.timestamp).toISOString()
+          );
+          return res.status(200).json(parsed.data);
+        }
+      }
+
+      if (fs.existsSync(PUBLIC_CACHE_FILE)) {
+        const rawPub = await fs.promises.readFile(PUBLIC_CACHE_FILE, "utf8");
+        const parsedPub = JSON.parse(rawPub);
+        if (parsedPub && parsedPub.timestamp) {
+          res.setHeader("X-News-Source", "public-cache");
+          res.setHeader(
+            "X-News-Cache-Timestamp",
+            new Date(parsedPub.timestamp).toISOString()
+          );
+          return res.status(200).json(parsedPub.data);
+        }
+      }
+    } catch (cacheErr) {
+      console.error("Failed to read news cache while NEWS_API_KEY missing:", cacheErr);
+    }
+
+    return res.status(500).json({ error: "NEWS_API_KEY not configured and no cache available" });
+  }
+
   // NewsAPI enforces a 500-character limit for q= — keep a compact fallback
   const MAX_QUERY_LENGTH = 500;
   if (q.length > MAX_QUERY_LENGTH) {
@@ -72,6 +108,39 @@ export default async function handler(req, res) {
         resp.statusText,
         bodyJson || bodyText
       );
+
+      // Try to serve cached data if NewsAPI fails
+      try {
+        if (fs.existsSync(CACHE_FILE)) {
+          const raw = await fs.promises.readFile(CACHE_FILE, "utf8");
+          const parsed = JSON.parse(raw);
+          if (parsed && parsed.timestamp && parsed.data) {
+            res.setHeader("X-News-Source", "api-cache");
+            res.setHeader(
+              "X-News-Cache-Timestamp",
+              new Date(parsed.timestamp).toISOString()
+            );
+            return res.status(200).json(parsed.data);
+          }
+        }
+
+        if (fs.existsSync(PUBLIC_CACHE_FILE)) {
+          const rawPub = await fs.promises.readFile(PUBLIC_CACHE_FILE, "utf8");
+          const parsedPub = JSON.parse(rawPub);
+          if (parsedPub && parsedPub.timestamp && parsedPub.data) {
+            res.setHeader("X-News-Source", "public-cache");
+            res.setHeader(
+              "X-News-Cache-Timestamp",
+              new Date(parsedPub.timestamp).toISOString()
+            );
+            return res.status(200).json(parsedPub.data);
+          }
+        }
+      } catch (cacheErr) {
+        console.error("Error reading cache after NewsAPI failure:", cacheErr);
+      }
+
+      // Nothing to fall back to — propagate error so outer catch can try other caches
       throw new Error(
         `NewsAPI error: ${resp.status} - ${
           bodyJson?.message || bodyText || "no body"
