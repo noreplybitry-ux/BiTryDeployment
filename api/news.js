@@ -1,14 +1,8 @@
 ﻿import fs from "fs";
 import path from "path";
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
-const {
-  PAGE_SIZE,
-  CACHE_VERSION,
-  SEARCH_TERMS,
-  CRYPTO_DOMAINS,
-  filterCryptoArticles,
-} = require(path.join(process.cwd(), "lib", "newsFilter.cjs"));
+
+// Default cache version (used when lib/newsFilter.cjs is unavailable)
+const CACHE_VERSION = 3;
 const CACHE_FILE = path.join(process.cwd(), "api", "news_cache.json");
 const PUBLIC_CACHE_FILE = path.join(process.cwd(), "public", "news_cache.json");
 
@@ -28,6 +22,25 @@ async function atomicWrite(filePath, obj) {
 
 export default async function handler(req, res) {
   const apiKey = process.env.NEWS_API_KEY;
+
+  // Lazy-load the news filter module to avoid top-level import/runtime crashes in serverless
+  let PAGE_SIZE = 50;
+  let SEARCH_TERMS = ["cryptocurrency market", "bitcoin price", "ethereum price"];
+  let CRYPTO_DOMAINS = [];
+  let filterCryptoArticles = (raw) => raw;
+
+  try {
+    const { createRequire } = await import("module");
+    const require = createRequire(import.meta.url);
+    const nf = require(path.join(process.cwd(), "lib", "newsFilter.cjs"));
+    PAGE_SIZE = nf.PAGE_SIZE || PAGE_SIZE;
+    SEARCH_TERMS = nf.SEARCH_TERMS || SEARCH_TERMS;
+    CRYPTO_DOMAINS = nf.CRYPTO_DOMAINS || CRYPTO_DOMAINS;
+    filterCryptoArticles = nf.filterCryptoArticles || filterCryptoArticles;
+  } catch (err) {
+    console.error("Warning: failed to load lib/newsFilter.cjs — using permissive defaults:", err && err.message ? err.message : err);
+  }
+
   let q = buildQuery(SEARCH_TERMS);
 
   // If API key is not configured, prefer serving from cache immediately
