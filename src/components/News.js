@@ -423,7 +423,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
     setSelectedArticle(article);
     setSelectedLanguage(null);
     setIsLanguageSelectionOpen(true);
-    setIsModalOpen(false);
+    setIsModalOpen(true);
     setIsLoadingInsights(false);
     setInsights(null);
     setInsightsError(null);
@@ -1058,7 +1058,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
       )}
 
       {/* AI Insights Modal */}
-      {isModalOpen && (
+      {isModalOpen && !isLanguageSelectionOpen && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
