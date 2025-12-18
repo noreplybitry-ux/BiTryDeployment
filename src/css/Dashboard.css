@@ -26,10 +26,6 @@
   padding: 30px 20px;
   transition: transform 0.3s ease;
   z-index: 10;
-  position: sticky;
-  top: var(--navbar-height);
-  align-self: start;
-  height: calc(100vh - var(--navbar-height));
   overflow-y: auto;
 }
 
@@ -643,7 +639,7 @@
   .dashboard {
     grid-template-columns: 80px 1fr;
   }
-  .sidebar { width: 80px; height: calc(100vh - var(--navbar-height)); }
+  .sidebar { width: 80px; }
   .sidebar-label {
     display: none;
   }
