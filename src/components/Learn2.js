@@ -1,11 +1,24 @@
+// src/components/Learn2.js
 import React, { useState, useEffect, useRef } from "react";
 import { supabase } from "../lib/supabase";
 import { useAuth } from "../contexts/AuthContext";
-import "highlight.js/styles/github-dark.css"; // Add a highlight.js style
+import "highlight.js/styles/github-dark.css";
 import "../css/Learn2.css";
 import ModuleDetail from "./ModuleDetail";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+import CreateModuleModal from "./CreateModuleModal";
+import GenerateContentModal from "./GenerateContentModal";
+import AdminInfoModal from "./AdminInfoModal";
+import EditModuleModal from "./EditModuleModal";
+import GenerateQuizModal from "./GenerateQuizModal";
+import GenerateTaglishModal from "./GenerateTaglishModal";
+import GenerateTaglishQuizModal from "./GenerateTaglishQuizModal";
+import ValidateQuizModal from "./ValidateQuizModal";
+import GenerateMiniGamesModal from "./GenerateMiniGamesModal";
+import ValidateMiniGamesModal from "./ValidateMiniGamesModal";
+import ModuleCard from "./ModuleCard";
+import EditQuestionModal from "./EditQuestionModal";
 const MODULE_API_KEY = process.env.REACT_APP_MODULE_API_KEY || "";
 const TRANSLATION_API_KEY = process.env.REACT_APP_TRANSLATION_API_KEY || "";
 const QUIZ_API_KEY = process.env.REACT_APP_QUIZ_API_KEY || "";
@@ -83,22 +96,22 @@ const Learn2 = () => {
   const [generateTaglishQuizError, setGenerateTaglishQuizError] =
     useState(null);
   const canvasRef = useRef(null);
-  const [missingApiKeys, setMissingApiKeys] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedLevel, setSelectedLevel] = useState("");
-  useEffect(() => {
-    const missing = [];
-    if (!MODULE_API_KEY) missing.push("REACT_APP_MODULE_API_KEY");
-    if (!TRANSLATION_API_KEY) missing.push("REACT_APP_TRANSLATION_API_KEY");
-    if (!QUIZ_API_KEY) missing.push("REACT_APP_QUIZ_API_KEY");
-    if (!TAGLISH_QUIZ_API_KEY) missing.push("REACT_APP_TAGLISH_QUIZ_API_KEY");
-    if (!PEXELS_API_KEY) missing.push("REACT_APP_PEXELS_API_KEY");
-    if (!YOUTUBE_API_KEY) missing.push("REACT_APP_YOUTUBE_API_KEY");
-    if (missing.length > 0) {
-      console.warn("Missing API keys:", missing);
-      setMissingApiKeys(missing);
-    }
-  }, []);
+  const [isGenerateMiniGamesModalOpen, setIsGenerateMiniGamesModalOpen] =
+    useState(false);
+  const [selectedMiniGamesModuleId, setSelectedMiniGamesModuleId] =
+    useState("");
+  const [selectedGameTypes, setSelectedGameTypes] = useState([]);
+  const [isMiniGamesTaglish, setIsMiniGamesTaglish] = useState(false);
+  const [isGeneratingMiniGames, setIsGeneratingMiniGames] = useState(false);
+  const [generateMiniGamesError, setGenerateMiniGamesError] = useState(null);
+  const [isValidateMiniGamesModalOpen, setIsValidateMiniGamesModalOpen] =
+    useState(false);
+  const [pendingMiniGames, setPendingMiniGames] = useState([]);
+  const [selectedPendingMiniGameIds, setSelectedPendingMiniGameIds] = useState(
+    []
+  );
   useEffect(() => {
     if (user) {
       const fetchProfile = async () => {
@@ -180,166 +193,6 @@ const Learn2 = () => {
     fetchGeneratedModules();
     fetchQuestionCounts();
   }, []);
-  const handleAddKeyword = () => {
-    setKeywords([...keywords, ""]);
-  };
-  const handleKeywordChange = (index, value) => {
-    const newKeywords = [...keywords];
-    newKeywords[index] = value;
-    setKeywords(newKeywords);
-  };
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-  const handleEditFormChange = (e) => {
-    const { name, value } = e.target;
-    setEditFormData((prev) => ({ ...prev, [name]: value }));
-  };
-  const handleSectionChange = (index, field, value, isTaglish = false) => {
-    const key = isTaglish ? "taglish_sections" : "sections";
-    const newSections = [...editFormData[key]];
-    newSections[index] = { ...newSections[index], [field]: value };
-    setEditFormData((prev) => ({ ...prev, [key]: newSections }));
-  };
-  const handleAddSection = (isTaglish = false) => {
-    const key = isTaglish ? "taglish_sections" : "sections";
-    setEditFormData((prev) => ({
-      ...prev,
-      [key]: [...prev[key], { title: "", body: "" }],
-    }));
-  };
-  const handleRemoveSection = (index, isTaglish = false) => {
-    const key = isTaglish ? "taglish_sections" : "sections";
-    setEditFormData((prev) => ({
-      ...prev,
-      [key]: prev[key].filter((_, i) => i !== index),
-    }));
-  };
-  const toggleModal = () => {
-    setIsModalOpen(!isModalOpen);
-    if (!isModalOpen) {
-      setKeywords([""]);
-      setFormData({
-        title: "",
-        specificPoints: "",
-        level: "Beginner",
-        length: "Short",
-      });
-      setSubmitError(null);
-      if (formRef.current) {
-        formRef.current.reset();
-      }
-    }
-  };
-  const toggleGenerateTab = () => {
-    setShowGenerateTab(!showGenerateTab);
-  };
-  const toggleGenerateModal = () => {
-    setIsGenerateModalOpen(!isGenerateModalOpen);
-    if (!isGenerateModalOpen) {
-      setSelectedModuleId("");
-      setGenerateError(null);
-      setFetchModulesError(null);
-      fetchModules();
-    }
-  };
-  const toggleAdminInfoModal = () => {
-    setIsAdminInfoModalOpen(!isAdminInfoModalOpen);
-  };
-  const toggleGenerateTaglishModal = () => {
-    setIsGenerateTaglishModalOpen(!isGenerateTaglishModalOpen);
-    if (!isGenerateTaglishModalOpen) {
-      setSelectedTaglishModuleId("");
-      setGenerateTaglishError(null);
-    }
-  };
-  const toggleGenerateTaglishQuizModal = () => {
-    setIsGenerateTaglishQuizModalOpen(!isGenerateTaglishQuizModalOpen);
-    if (!isGenerateTaglishQuizModalOpen) {
-      setSelectedTaglishQuizModuleId("");
-      setNumTaglishQuestions(10);
-      setGenerateTaglishQuizError(null);
-    }
-  };
-  const openEditModal = (module) => {
-    setEditingModule(module);
-    setEditFormData({
-      title: module.title,
-      intro: module.content?.intro || "",
-      sections: module.content?.sections || [],
-      taglish_intro: module.taglish_content?.intro || "",
-      taglish_sections: module.taglish_content?.sections || [],
-      media_image_url: module.content?.media?.image?.url || "",
-      media_photographer: module.content?.media?.image?.photographer || "",
-      media_photographer_url:
-        module.content?.media?.image?.photographer_url || "",
-      media_video: module.content?.media?.video || "",
-    });
-    setUpdateError(null);
-    setIsEditModalOpen(true);
-  };
-  const closeEditModal = () => {
-    setEditingModule(null);
-    setEditFormData({
-      title: "",
-      intro: "",
-      sections: [],
-      taglish_intro: "",
-      taglish_sections: [],
-      media_image_url: "",
-      media_photographer: "",
-      media_photographer_url: "",
-      media_video: "",
-    });
-    setUpdateError(null);
-    setIsEditModalOpen(false);
-  };
-  const handleEditSubmit = async (e) => {
-    e.preventDefault();
-    setIsUpdating(true);
-    setUpdateError(null);
-    try {
-      const media = editFormData.media_image_url
-        ? {
-            image: {
-              url: editFormData.media_image_url,
-              photographer: editFormData.media_photographer,
-              photographer_url: editFormData.media_photographer_url,
-            },
-            video: editFormData.media_video || null,
-          }
-        : null;
-      const updatedContent = {
-        intro: editFormData.intro,
-        sections: editFormData.sections,
-        media,
-      };
-      const updatedTaglishContent = {
-        intro: editFormData.taglish_intro,
-        sections: editFormData.taglish_sections,
-        media,
-      };
-      const { error } = await supabase
-        .from("learning_modules")
-        .update({
-          title: editFormData.title,
-          content: updatedContent,
-          taglish_content: updatedTaglishContent,
-        })
-        .eq("id", editingModule.id);
-      if (error) throw error;
-      console.log("Module updated successfully");
-      await fetchGeneratedModules();
-      closeEditModal();
-      alert("Module updated successfully!");
-    } catch (err) {
-      console.error("Error updating module:", err.message);
-      setUpdateError(`Failed to update module: ${err.message}`);
-    } finally {
-      setIsUpdating(false);
-    }
-  };
   const callGeminiAPI = async (prompt, apiKey, retries = 3) => {
     if (!apiKey) {
       throw new Error(
@@ -516,32 +369,37 @@ Options: ${JSON.stringify(englishQuiz.options)}
       Medium: "approximately 600 words total",
       Long: "approximately 1000 words total",
     };
-
     // Base prompt: explicitly demand English-only output to avoid Taglish bleed
-    const basePrompt = `Respond ONLY in clear English. Do NOT use Tagalog, Taglish, or any mix. You are a fun, engaging crypto educator for beginners! Create a short, exciting learning module on "${module.title}" using keywords: ${module.keywords.join(", ")}. Level: ${module.level}, Length: ${lengthGuidance[module.length]}.
-${module.specific_points ? `Include these points: ${module.specific_points}` : ""}
-
+    const basePrompt = `Respond ONLY in clear English. Do NOT use Tagalog, Taglish, or any mix. You are a fun, engaging crypto educator for beginners! Create a short, exciting learning module on "${
+      module.title
+    }" using keywords: ${module.keywords.join(", ")}. Level: ${
+      module.level
+    }, Length: ${lengthGuidance[module.length]}.
+${
+  module.specific_points
+    ? `Include these points: ${module.specific_points}`
+    : ""
+}
 Make it engaging for Filipino beginners (tone/instruction), but keep the LANGUAGE strictly English: Use simple words, fun analogies, emojis 🎉 only if appropriate, short bullet points, and questions to keep them hooked. Avoid walls of text – keep it lively and conversational!
-
 Introduction (150-200 words): Start with a cool hook, explain what it is in simple terms, why it matters, and what they'll learn. End with a fun fact or question.
-
 Output ONLY the introduction text, no labels:`;
-
     try {
       // small helper to detect Tagalog/Taglish words
-      const isLikelyTaglish = (text = '') => {
+      const isLikelyTaglish = (text = "") => {
         if (!text) return false;
-        const tagalogWords = /\b(ang|ng|si|mga|ako|ito|iyon|po|opo|kumusta|salamat|bahay|pero|naman|kita|kaibigan)\b/i;
+        const tagalogWords =
+          /\b(ang|ng|si|mga|ako|ito|iyon|po|opo|kumusta|salamat|bahay|pero|naman|kita|kaibigan)\b/i;
         return tagalogWords.test(text);
       };
-
       // Generate introduction with up to 2 retries if Taglish detected
       console.log("Generating introduction...");
       let introduction = await callGeminiAPI(basePrompt, MODULE_API_KEY);
       let introAttempts = 0;
       while (isLikelyTaglish(introduction) && introAttempts < 2) {
         introAttempts += 1;
-        console.warn(`Introduction looks like Taglish (attempt ${introAttempts}). Retrying with stricter English-only instruction.`);
+        console.warn(
+          `Introduction looks like Taglish (attempt ${introAttempts}). Retrying with stricter English-only instruction.`
+        );
         const retryIntroPrompt = `Respond ONLY in clear English. Do NOT use Tagalog or Taglish. ${basePrompt}`;
         introduction = await callGeminiAPI(retryIntroPrompt, MODULE_API_KEY);
       }
@@ -549,73 +407,69 @@ Output ONLY the introduction text, no labels:`;
         throw new Error("Generated introduction is empty or too short");
       }
       console.log("✅ Successfully generated introduction");
-
       // Generate sections based on keywords
       const sections = [];
-      const maxSections = module.length === "Short" ? 2 : module.length === "Medium" ? 3 : 4;
-
+      const maxSections =
+        module.length === "Short" ? 2 : module.length === "Medium" ? 3 : 4;
       for (let i = 0; i < Math.min(maxSections, module.keywords.length); i++) {
         const keyword = module.keywords[i];
         if (!keyword.trim()) continue;
-
         const sectionPrompt = `Respond ONLY in clear English. Do NOT use Tagalog, Taglish, or a mix. You are a fun crypto teacher for beginners! Create a short, exciting section on "${keyword}" for the module "${module.title}".
-
 Keep it engaging (tone) for Filipino beginners but use only English: simple words, fun analogies, emojis 🎉 optional, bullet points, and a question.
-
 Structure (100-150 words):
 - **Definition**: Quick explain what it is 🎯
 - **Analogy**: Compare to something everyday (like a digital wallet is like a magic backpack!)
 - **Example**: One real crypto example 💡
 - **Tip**: One easy action they can try
-
 CRITICAL: You MUST include a mini quiz at the END. This is MANDATORY.
-
 QUIZ FORMAT (copy this structure EXACTLY):
-
 [QUIZ:truefalse]
 Question: Your question about ${keyword} here?
 Options: True, False
 Answer: True
 Explanation: Brief explanation of why this answer is correct.
 [/QUIZ]
-
 FORMATTING RULES - FOLLOW EXACTLY:
 1. Each quiz field (Question:, Options:, Answer:, Explanation:) MUST be on a SINGLE line
 2. Options MUST be comma-separated on ONE line
 3. NO blank lines between quiz fields
 4. Add ONE blank line BEFORE the [QUIZ:] tag
 5. Quiz MUST be at the VERY END of the section
-
 Output ONLY the section content with quiz at the end:`;
-
         console.log(`Generating section ${i + 1} for keyword: ${keyword}`);
-
         // generate section and retry if Taglish detected
         let sectionContent = await callGeminiAPI(sectionPrompt, MODULE_API_KEY);
         let sectionAttempts = 0;
         while (isLikelyTaglish(sectionContent) && sectionAttempts < 2) {
           sectionAttempts += 1;
-          console.warn(`Section "${keyword}" looks like Taglish (attempt ${sectionAttempts}). Retrying with stricter English-only instruction.`);
+          console.warn(
+            `Section "${keyword}" looks like Taglish (attempt ${sectionAttempts}). Retrying with stricter English-only instruction.`
+          );
           const retrySectionPrompt = `Respond ONLY in clear English. Do NOT use Tagalog or Taglish. ${sectionPrompt}`;
-          sectionContent = await callGeminiAPI(retrySectionPrompt, MODULE_API_KEY);
+          sectionContent = await callGeminiAPI(
+            retrySectionPrompt,
+            MODULE_API_KEY
+          );
         }
-
         if (!sectionContent || sectionContent.trim().length < 100) {
-          throw new Error(`Generated section for "${keyword}" is empty or too short`);
+          throw new Error(
+            `Generated section for "${keyword}" is empty or too short`
+          );
         }
-
-        console.log(`Raw section content for ${keyword}:`, sectionContent.substring(0, 200));
-
+        console.log(
+          `Raw section content for ${keyword}:`,
+          sectionContent.substring(0, 200)
+        );
         // Check if quiz exists and is properly formatted
         const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
-
         if (!quizRegex.test(sectionContent)) {
-          console.warn(`⚠️ No quiz found in section "${keyword}" - adding default quiz`);
+          console.warn(
+            `⚠️ No quiz found in section "${keyword}" - adding default quiz`
+          );
           const defaultQuiz = `\n\n[QUIZ:truefalse]\nQuestion: Is ${keyword} an important concept in cryptocurrency?\nOptions: True, False\nAnswer: True\nExplanation: ${keyword} is a fundamental concept that helps you understand how cryptocurrencies and blockchain technology work.\n[/QUIZ]`;
           sectionContent = sectionContent.trim() + defaultQuiz;
         } else {
           console.log(`✅ Quiz found in section "${keyword}"`);
-
           // Validate quiz format
           const quizMatch = sectionContent.match(quizRegex);
           if (quizMatch) {
@@ -623,34 +477,35 @@ Output ONLY the section content with quiz at the end:`;
             const hasQuestion = /Question:\s*[^\n]+/i.test(quizBlock);
             const hasOptions = /Options:\s*[^\n]+/i.test(quizBlock);
             const hasAnswer = /Answer:\s*[^\n]+/i.test(quizBlock);
-            const hasExplanation = /Explanation:\s*[^\n]+/i.test(quizBlock);
-
+            const hasExplanation =
+              /Explanation:\s*(.*?)(?=\s*\[\/QUIZ\]|$)/is.test(quizBlock);
             if (!hasQuestion || !hasOptions || !hasAnswer || !hasExplanation) {
-              console.warn(`⚠️ Quiz in "${keyword}" has missing fields - replacing with default`);
-              sectionContent = sectionContent.replace(quizRegex, '').trim() + `\n\n[QUIZ:truefalse]\nQuestion: Is ${keyword} an important concept in cryptocurrency?\nOptions: True, False\nAnswer: True\nExplanation: ${keyword} is a fundamental concept that helps you understand how cryptocurrencies and blockchain technology work.\n[/QUIZ]`;
+              console.warn(
+                `⚠️ Quiz in "${keyword}" has missing fields - replacing with default`
+              );
+              sectionContent =
+                sectionContent.replace(quizRegex, "").trim() +
+                `\n\n[QUIZ:truefalse]\nQuestion: Is ${keyword} an important concept in cryptocurrency?\nOptions: True, False\nAnswer: True\nExplanation: ${keyword} is a fundamental concept that helps you understand how cryptocurrencies and blockchain technology work.\n[/QUIZ]`;
             } else {
               console.log(`✅ Quiz in "${keyword}" is properly formatted`);
             }
           }
         }
-
         sections.push({
           title: keyword.charAt(0).toUpperCase() + keyword.slice(1),
           body: sectionContent.trim(),
         });
       }
-
       if (sections.length === 0) {
-        throw new Error("No valid sections generated; at least one section is required");
+        throw new Error(
+          "No valid sections generated; at least one section is required"
+        );
       }
-
       console.log(`✅ Generated ${sections.length} sections with quizzes`);
-
       const englishContent = {
         intro: introduction,
         sections: sections,
       };
-
       // Fetch media
       console.log("Fetching media...");
       const query = `${module.keywords.join(" ")} cryptocurrency`;
@@ -658,38 +513,33 @@ Output ONLY the section content with quiz at the end:`;
         fetchPexelsImage(query),
         searchYouTubeVideo(`${module.title} tutorial cryptocurrency`),
       ]);
-
       const video = videoId ? `https://www.youtube.com/embed/${videoId}` : null;
       englishContent.media = { image, video };
-
       console.log("Translating to TagLish...");
       const taglishContent = await translateToTaglish(englishContent);
       taglishContent.media = englishContent.media;
-
       // Ensure TagLish sections also have quizzes
       console.log("Verifying TagLish quizzes...");
       const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
       for (let i = 0; i < englishContent.sections.length; i++) {
         const engSection = englishContent.sections[i];
         const tagSection = taglishContent.sections?.[i];
-
         if (!tagSection) continue;
-
         const engQuizMatch = engSection.body?.match(quizRegex);
         if (engQuizMatch && !quizRegex.test(tagSection.body || "")) {
           console.warn(`⚠️ Reattaching English quiz to TagLish section ${i}`);
-          tagSection.body = (tagSection.body || "").trim() + "\n\n" + engQuizMatch[0];
+          tagSection.body =
+            (tagSection.body || "").trim() + "\n\n" + engQuizMatch[0];
         }
       }
-
       console.log("✅ Successfully generated complete module with quizzes");
-
       // Final verification log
       sections.forEach((section, idx) => {
         const hasQuiz = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i.test(section.body);
-        console.log(`Section ${idx} "${section.title}": Quiz present = ${hasQuiz}`);
+        console.log(
+          `Section ${idx} "${section.title}": Quiz present = ${hasQuiz}`
+        );
       });
-
       return { englishContent, taglishContent };
     } catch (error) {
       console.error("Error generating module content:", error.message);
@@ -753,21 +603,32 @@ Output ONLY the section content with quiz at the end:`;
       try {
         const quizRegex = /\[QUIZ:[^\]]*\][\s\S]*?\[\/QUIZ\]/i;
         const createDefaultQuiz = (k) =>
-          `\n\n[QUIZ:truefalse]\nQuestion: Is ${k} secure?\nOptions: True, False  \nAnswer: True\nExplanation: ${k} uses advanced security features.\n[/QUIZ]`;
+          `\n\n[QUIZ:truefalse]\nQuestion: Is ${k} secure?\nOptions: True, False \nAnswer: True\nExplanation: ${k} uses advanced security features.\n[/QUIZ]`;
         englishContent.sections = (englishContent.sections || []).map((s) => {
           if (!quizRegex.test(s.body || "")) {
-            console.warn(`Sanitizer: appending default QUIZ to section '${s.title}'`);
-            return { ...s, body: (s.body || "").trim() + createDefaultQuiz(s.title) };
+            console.warn(
+              `Sanitizer: appending default QUIZ to section '${s.title}'`
+            );
+            return {
+              ...s,
+              body: (s.body || "").trim() + createDefaultQuiz(s.title),
+            };
           }
           return s;
         });
         // Mirror to taglish if missing
         if (taglishContent && taglishContent.sections) {
           taglishContent.sections = taglishContent.sections.map((ts, idx) => {
-            const engQuiz = englishContent.sections?.[idx]?.body?.match(quizRegex);
+            const engQuiz =
+              englishContent.sections?.[idx]?.body?.match(quizRegex);
             if (engQuiz && !quizRegex.test(ts.body || "")) {
-              console.warn(`Sanitizer: reattaching ENG QUIZ to TagLish section ${idx}`);
-              return { ...ts, body: (ts.body || "").trim() + "\n\n" + engQuiz[0] };
+              console.warn(
+                `Sanitizer: reattaching ENG QUIZ to TagLish section ${idx}`
+              );
+              return {
+                ...ts,
+                body: (ts.body || "").trim() + "\n\n" + engQuiz[0],
+              };
             }
             return ts;
           });
@@ -895,14 +756,6 @@ Output ONLY the section content with quiz at the end:`;
       day: "numeric",
     });
   };
-  const toggleGenerateQuizModal = () => {
-    setIsGenerateQuizModalOpen(!isGenerateQuizModalOpen);
-    if (!isGenerateQuizModalOpen) {
-      setSelectedQuizModuleId("");
-      setNumQuestions(10);
-      setGenerateQuizError(null);
-    }
-  };
   const handleGenerateQuiz = async () => {
     if (!selectedQuizModuleId) {
       setGenerateQuizError("Please select a module");
@@ -972,15 +825,6 @@ ${contentText.substring(0, 20000)}`;
       setGenerateQuizError(err.message);
     } finally {
       setIsGeneratingQuiz(false);
-    }
-  };
-  const toggleValidationModal = () => {
-    setIsValidationModalOpen(!isValidationModalOpen);
-    if (!isValidationModalOpen) {
-      fetchPendingQuestions();
-      setSelectedPendingQuestionIds([]);
-    } else {
-      setSelectedPendingQuestionIds([]);
     }
   };
   const fetchPendingQuestions = async () => {
@@ -1132,6 +976,183 @@ ${contentText.substring(0, 20000)}`;
       }
     });
   };
+  const getGamePrompt = (type) => {
+    switch (type) {
+      case "matching":
+        return 'Generate 6-8 pairs of terms and definitions. Output ONLY JSON: {"pairs": [["term1", "definition1"], ["term2", "definition2"], ...]}';
+      case "fillblanks":
+        return 'Generate 6-8 fill-in-the-blank sentences. Output ONLY JSON: {"blanks": [{"sentence": "Text with _ for blank.", "answer": "word"}, ...]}';
+      case "anagram":
+        return 'Generate 6-8 anagrams with hints. Output ONLY JSON: {"anagrams": [{"scrambled": "abc", "original": "cab", "hint": "A hint"}, ...]}';
+      case "hangman":
+        return 'Generate 6-8 words with hints. Output ONLY JSON: {"words": [{"word": "word", "hint": "A hint"}, ...]}';
+      case "wordsearch":
+        return 'Generate 8-12 words and create a 12x12 grid with them hidden (horizontal, vertical, diagonal). Fill empty cells with random letters. Output ONLY JSON: {"words": ["word1", ...], "grid": [["A", "B", ...], ...]}';
+      default:
+        return "";
+    }
+  };
+  const handleGenerateMiniGames = async () => {
+    if (!selectedMiniGamesModuleId || selectedGameTypes.length === 0) {
+      setGenerateMiniGamesError(
+        "Please select a module and at least one game type."
+      );
+      return;
+    }
+    setIsGeneratingMiniGames(true);
+    setGenerateMiniGamesError(null);
+    try {
+      const { data: module, error: fetchError } = await supabase
+        .from("learning_modules")
+        .select("*")
+        .eq("id", selectedMiniGamesModuleId)
+        .single();
+      if (fetchError) throw fetchError;
+      const contentKey = isMiniGamesTaglish ? "taglish_content" : "content";
+      if (!module[contentKey]) {
+        throw new Error(
+          `No ${
+            isMiniGamesTaglish ? "TagLish" : "English"
+          } content available for this module.`
+        );
+      }
+      let contentText = module[contentKey].intro;
+      module[contentKey].sections.forEach((s) => {
+        contentText += `\n\n${s.title}\n${s.body}`;
+      });
+      const langInstruction = isMiniGamesTaglish
+        ? "Generate the game in casual TagLish (Tagalog-English mix). Keep key cryptocurrency terms in English, but use TagLish for descriptions, sentences, and hints."
+        : "Generate the game in clear English.";
+      const inserts = [];
+      for (const type of selectedGameTypes) {
+        const gamePrompt = getGamePrompt(type);
+        if (!gamePrompt) continue;
+        const prompt = `You are an educational game creator for cryptocurrency beginners. ${langInstruction}
+Based on the following module content, generate a ${type} mini-game.
+Module Title: ${module.title}
+Keywords: ${module.keywords.join(", ")}
+Content:
+${contentText.substring(0, 20000)}
+${gamePrompt}`;
+        const response = await callGeminiAPI(prompt, MODULE_API_KEY, 3);
+        let gameData;
+        try {
+          const cleaned = response
+            .replace(/```json\s*/g, "")
+            .replace(/\s*```/g, "")
+            .trim();
+          gameData = JSON.parse(cleaned);
+        } catch (parseErr) {
+          console.error(`Failed to parse ${type} game data:`, parseErr);
+          continue; // Skip invalid
+        }
+        inserts.push({
+          module_id: selectedMiniGamesModuleId,
+          game_type: type,
+          data: gameData,
+          status: "pending",
+          is_taglish: isMiniGamesTaglish,
+        });
+      }
+      if (inserts.length > 0) {
+        const { error: insertError } = await supabase
+          .from("mini_games")
+          .insert(inserts);
+        if (insertError) throw insertError;
+        alert(
+          `${inserts.length} mini-games generated and awaiting validation.`
+        );
+      } else {
+        alert("No valid mini-games generated.");
+      }
+      toggleGenerateMiniGamesModal();
+    } catch (err) {
+      console.error("Error generating mini-games:", err.message);
+      setGenerateMiniGamesError(
+        `Failed to generate mini-games: ${err.message}`
+      );
+    } finally {
+      setIsGeneratingMiniGames(false);
+    }
+  };
+  const fetchPendingMiniGames = async () => {
+    try {
+      const { data, error } = await supabase
+        .from("mini_games")
+        .select("*, learning_modules!inner(title)")
+        .eq("status", "pending")
+        .order("created_at", { ascending: false });
+      if (error) throw error;
+      setPendingMiniGames(data || []);
+    } catch (err) {
+      console.error("Error fetching pending mini-games:", err);
+    }
+  };
+  const handleApproveMiniGame = async (id) => {
+    try {
+      const { error } = await supabase
+        .from("mini_games")
+        .update({ status: "approved", validated_by: user.id })
+        .eq("id", id);
+      if (error) throw error;
+      fetchPendingMiniGames();
+    } catch (err) {
+      console.error("Error approving mini-game:", err);
+    }
+  };
+  const handleRejectMiniGame = async (id) => {
+    try {
+      const { error } = await supabase
+        .from("mini_games")
+        .update({ status: "rejected" })
+        .eq("id", id);
+      if (error) throw error;
+      fetchPendingMiniGames();
+    } catch (err) {
+      console.error("Error rejecting mini-game:", err);
+    }
+  };
+  const toggleSelectPendingMiniGame = (id) => {
+    setSelectedPendingMiniGameIds((prev) =>
+      prev.includes(id) ? prev.filter((p) => p !== id) : [...prev, id]
+    );
+  };
+  const toggleSelectAllMiniGames = () => {
+    if (pendingMiniGames.length === 0) return;
+    if (selectedPendingMiniGameIds.length === pendingMiniGames.length) {
+      setSelectedPendingMiniGameIds([]);
+    } else {
+      setSelectedPendingMiniGameIds(pendingMiniGames.map((g) => g.id));
+    }
+  };
+  const approveSelectedMiniGames = async () => {
+    if (selectedPendingMiniGameIds.length === 0) return;
+    try {
+      const { error } = await supabase
+        .from("mini_games")
+        .update({ status: "approved", validated_by: user.id })
+        .in("id", selectedPendingMiniGameIds);
+      if (error) throw error;
+      setSelectedPendingMiniGameIds([]);
+      fetchPendingMiniGames();
+    } catch (err) {
+      console.error("Error approving selected mini-games:", err.message);
+    }
+  };
+  const rejectSelectedMiniGames = async () => {
+    if (selectedPendingMiniGameIds.length === 0) return;
+    try {
+      const { error } = await supabase
+        .from("mini_games")
+        .update({ status: "rejected" })
+        .in("id", selectedPendingMiniGameIds);
+      if (error) throw error;
+      setSelectedPendingMiniGameIds([]);
+      fetchPendingMiniGames();
+    } catch (err) {
+      console.error("Error rejecting selected mini-games:", err.message);
+    }
+  };
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -1199,6 +1220,171 @@ ${contentText.substring(0, 20000)}`;
   const clearFilters = () => {
     setSearchTerm("");
     setSelectedLevel("");
+  };
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+    if (!isModalOpen) {
+      setKeywords([""]);
+      setFormData({
+        title: "",
+        specificPoints: "",
+        level: "Beginner",
+        length: "Short",
+      });
+      setSubmitError(null);
+      if (formRef.current) {
+        formRef.current.reset();
+      }
+    }
+  };
+  const toggleGenerateTab = () => {
+    setShowGenerateTab(!showGenerateTab);
+  };
+  const toggleGenerateModal = () => {
+    setIsGenerateModalOpen(!isGenerateModalOpen);
+    if (!isGenerateModalOpen) {
+      setSelectedModuleId("");
+      setGenerateError(null);
+      setFetchModulesError(null);
+      fetchModules();
+    }
+  };
+  const toggleAdminInfoModal = () => {
+    setIsAdminInfoModalOpen(!isAdminInfoModalOpen);
+  };
+  const toggleGenerateTaglishModal = () => {
+    setIsGenerateTaglishModalOpen(!isGenerateTaglishModalOpen);
+    if (!isGenerateTaglishModalOpen) {
+      setSelectedTaglishModuleId("");
+      setGenerateTaglishError(null);
+    }
+  };
+  const toggleGenerateTaglishQuizModal = () => {
+    setIsGenerateTaglishQuizModalOpen(!isGenerateTaglishQuizModalOpen);
+    if (!isGenerateTaglishQuizModalOpen) {
+      setSelectedTaglishQuizModuleId("");
+      setNumTaglishQuestions(10);
+      setGenerateTaglishQuizError(null);
+    }
+  };
+  const openEditModal = (module) => {
+    setEditingModule(module);
+    setEditFormData({
+      title: module.title,
+      intro: module.content?.intro || "",
+      sections: module.content?.sections || [],
+      taglish_intro: module.taglish_content?.intro || "",
+      taglish_sections: module.taglish_content?.sections || [],
+      media_image_url: module.content?.media?.image?.url || "",
+      media_photographer: module.content?.media?.image?.photographer || "",
+      media_photographer_url:
+        module.content?.media?.image?.photographer_url || "",
+      media_video: module.content?.media?.video || "",
+    });
+    setUpdateError(null);
+    setIsEditModalOpen(true);
+  };
+  const closeEditModal = () => {
+    setEditingModule(null);
+    setEditFormData({
+      title: "",
+      intro: "",
+      sections: [],
+      taglish_intro: "",
+      taglish_sections: [],
+      media_image_url: "",
+      media_photographer: "",
+      media_photographer_url: "",
+      media_video: "",
+    });
+    setUpdateError(null);
+    setIsEditModalOpen(false);
+  };
+  const handleEditSubmit = async (e) => {
+    e.preventDefault();
+    setIsUpdating(true);
+    setUpdateError(null);
+    try {
+      const media = editFormData.media_image_url
+        ? {
+            image: {
+              url: editFormData.media_image_url,
+              photographer: editFormData.media_photographer,
+              photographer_url: editFormData.media_photographer_url,
+            },
+            video: editFormData.media_video || null,
+          }
+        : null;
+      const updatedContent = {
+        intro: editFormData.intro,
+        sections: editFormData.sections,
+        media,
+      };
+      const updatedTaglishContent = {
+        intro: editFormData.taglish_intro,
+        sections: editFormData.taglish_sections,
+        media,
+      };
+      const { error } = await supabase
+        .from("learning_modules")
+        .update({
+          title: editFormData.title,
+          content: updatedContent,
+          taglish_content: updatedTaglishContent,
+        })
+        .eq("id", editingModule.id);
+      if (error) throw error;
+      console.log("Module updated successfully");
+      await fetchGeneratedModules();
+      closeEditModal();
+      alert("Module updated successfully!");
+    } catch (err) {
+      console.error("Error updating module:", err.message);
+      setUpdateError(`Failed to update module: ${err.message}`);
+    } finally {
+      setIsUpdating(false);
+    }
+  };
+  const toggleGenerateQuizModal = () => {
+    setIsGenerateQuizModalOpen(!isGenerateQuizModalOpen);
+    if (!isGenerateQuizModalOpen) {
+      setSelectedQuizModuleId("");
+      setNumQuestions(10);
+      setGenerateQuizError(null);
+    }
+  };
+  const toggleValidationModal = () => {
+    setIsValidationModalOpen(!isValidationModalOpen);
+    if (!isValidationModalOpen) {
+      fetchPendingQuestions();
+      setSelectedPendingQuestionIds([]);
+    } else {
+      setSelectedPendingQuestionIds([]);
+    }
+  };
+  const toggleGenerateMiniGamesModal = () => {
+    setIsGenerateMiniGamesModalOpen(!isGenerateMiniGamesModalOpen);
+    if (!isGenerateMiniGamesModalOpen) {
+      setSelectedMiniGamesModuleId("");
+      setSelectedGameTypes([]);
+      setIsMiniGamesTaglish(false);
+      setGenerateMiniGamesError(null);
+    }
+  };
+  const toggleValidateMiniGamesModal = () => {
+    setIsValidateMiniGamesModalOpen(!isValidateMiniGamesModalOpen);
+    if (!isValidateMiniGamesModalOpen) {
+      fetchPendingMiniGames();
+      setSelectedPendingMiniGameIds([]);
+    } else {
+      setSelectedPendingMiniGameIds([]);
+    }
+  };
+  const handleGameTypeChange = (e) => {
+    const type = e.target.value;
+    setSelectedGameTypes((prev) =>
+      prev.includes(type) ? prev.filter((t) => t !== type) : [...prev, type]
+    );
   };
   return (
     <div>
@@ -1431,6 +1617,21 @@ ${contentText.substring(0, 20000)}`;
                 >
                   Generate TagLish Content
                 </button>
+                <button
+                  className="btn btn-accent simple-btn"
+                  onClick={toggleGenerateMiniGamesModal}
+                  disabled={isGeneratingMiniGames}
+                  style={{ minWidth: "200px" }}
+                >
+                  Generate Mini-Games
+                </button>
+                <button
+                  className="btn btn-accent simple-btn"
+                  onClick={toggleValidateMiniGamesModal}
+                  style={{ minWidth: "200px" }}
+                >
+                  Validate Mini-Games
+                </button>
               </div>
             </div>
           </div>
@@ -1513,112 +1714,17 @@ ${contentText.substring(0, 20000)}`;
             <div className="modules-grid">
               {(user ? filteredModules : filteredModules.slice(0, 5)).map(
                 (module) => (
-                  <div
+                  <ModuleCard
                     key={module.id}
-                    className="module-card"
-                    onClick={() => handleModuleClick(module)}
-                  >
-                    {module.content?.media?.image?.url && (
-                      <img
-                        src={module.content.media.image.url}
-                        alt="Module thumbnail"
-                        className="module-thumbnail"
-                      />
-                    )}
-                    <div className="module-card-header">
-                      <h3 className="module-card-title">{module.title}</h3>
-                      <span className="module-level-tag">{module.level}</span>
-                      <span className="module-card-date">
-                        {formatDate(module.created_at)}
-                      </span>
-                    </div>
-                    <div className="module-card-content">
-                      <p className="module-intro">
-                        {module.content?.intro ||
-                          "Click to view module content..."}
-                      </p>
-                      <div className="module-keywords">
-                        {module.keywords.map((kw, idx) => (
-                          <span key={idx} className="keyword-tag">
-                            {kw}
-                          </span>
-                        ))}
-                      </div>
-                      <div className="module-sections-count">
-                        {module.content?.sections?.length || 0} sections
-                      </div>
-                      <div className="quiz-availability">
-                        {(moduleQuestionCounts[module.id] ?? 0) > 0 && (
-                          <span className="quiz-badge english">
-                            <span className="quiz-available-dot" />
-                            English Quiz
-                          </span>
-                        )}
-                        {(moduleTaglishQuestionCounts[module.id] ?? 0) > 0 && (
-                          <span className="quiz-badge taglish">
-                            <span className="quiz-available-dot" />
-                            Taglish Quiz
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                    <div className="module-card-footer">
-                      <div
-                        style={{
-                          display: "flex",
-                          gap: "8px",
-                          flexWrap: "wrap",
-                          justifyContent: "flex-start",
-                        }}
-                      >
-                        <button
-                          className="btn btn-link"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            handleModuleClick(module);
-                          }}
-                        >
-                          View Module →
-                        </button>
-                        {isAdmin && (
-                          <>
-                            <button
-                              className="btn btn-secondary"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                openEditModal(module);
-                              }}
-                              style={{
-                                fontSize: "14px",
-                                padding: "4px 8px",
-                                backgroundColor: "var(--accent-purple)",
-                                color: "white",
-                                border: "none",
-                              }}
-                            >
-                              Edit
-                            </button>
-                            <button
-                              className="btn btn-secondary"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                handleDeleteModule(module);
-                              }}
-                              style={{
-                                fontSize: "14px",
-                                padding: "4px 8px",
-                                backgroundColor: "red",
-                                color: "white",
-                                border: "none",
-                              }}
-                            >
-                              Delete
-                            </button>
-                          </>
-                        )}
-                      </div>
-                    </div>
-                  </div>
+                    module={module}
+                    onClick={handleModuleClick}
+                    isAdmin={isAdmin}
+                    onEdit={openEditModal}
+                    onDelete={handleDeleteModule}
+                    moduleQuestionCounts={moduleQuestionCounts}
+                    moduleTaglishQuestionCounts={moduleTaglishQuestionCounts}
+                    formatDate={formatDate}
+                  />
                 )
               )}
             </div>
@@ -1672,1130 +1778,125 @@ ${contentText.substring(0, 20000)}`;
           )}
         </div>
       )}
-      <div className={`modal-overlay ${isModalOpen ? "" : "hidden"}`}>
-        <div className="modal-content">
-          <div className="modal-header">
-            <h3>Create New Learning Module</h3>
-            <button
-              className="modal-close"
-              onClick={toggleModal}
-              disabled={isSubmitting}
-            >
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            <form className="module-form" onSubmit={handleSubmit} ref={formRef}>
-              <div className="form-group">
-                <label htmlFor="module-title" className="form-label">
-                  Module Title
-                </label>
-                <input
-                  type="text"
-                  id="module-title"
-                  name="title"
-                  className="form-input"
-                  placeholder="e.g., Introduction to Blockchain"
-                  value={formData.title}
-                  onChange={handleInputChange}
-                  required
-                  disabled={isSubmitting}
-                />
-              </div>
-              <div className="form-group">
-                <label className="form-label">Keywords</label>
-                <div className="keywords-group">
-                  {keywords.map((keyword, index) => (
-                    <input
-                      key={index}
-                      type="text"
-                      className="form-input keyword-input"
-                      placeholder={`e.g., ${
-                        ["blockchain", "smart contracts", "decentralization"][
-                          index % 3
-                        ]
-                      }`}
-                      value={keyword}
-                      onChange={(e) =>
-                        handleKeywordChange(index, e.target.value)
-                      }
-                      disabled={isSubmitting}
-                    />
-                  ))}
-                  <button
-                    type="button"
-                    className="btn btn-accent add-keyword"
-                    onClick={handleAddKeyword}
-                    disabled={isSubmitting}
-                  >
-                    +
-                  </button>
-                </div>
-              </div>
-              <div className="form-group">
-                <label htmlFor="specific-points" className="form-label">
-                  Specific Points to Include
-                </label>
-                <textarea
-                  id="specific-points"
-                  name="specificPoints"
-                  className="form-textarea"
-                  rows="4"
-                  placeholder="e.g., Explain how blockchain ensures security, include examples of smart contracts"
-                  value={formData.specificPoints}
-                  onChange={handleInputChange}
-                  disabled={isSubmitting}
-                ></textarea>
-              </div>
-              <div className="form-group">
-                <label htmlFor="level" className="form-label">
-                  Level
-                </label>
-                <select
-                  id="level"
-                  name="level"
-                  className="form-select"
-                  value={formData.level}
-                  onChange={handleInputChange}
-                  disabled={isSubmitting}
-                >
-                  <option value="Beginner">Beginner</option>
-                  <option value="Intermediate">Intermediate</option>
-                  <option value="Advanced">Advanced</option>
-                </select>
-              </div>
-              <div className="form-group">
-                <label htmlFor="length" className="form-label">
-                  Length
-                </label>
-                <select
-                  id="length"
-                  name="length"
-                  className="form-select"
-                  value={formData.length}
-                  onChange={handleInputChange}
-                  disabled={isSubmitting}
-                >
-                  <option value="Short">Short (~500 words)</option>
-                  <option value="Medium">Medium (~1000 words)</option>
-                  <option value="Long">Long (~2000 words)</option>
-                </select>
-              </div>
-              <div className="form-actions">
-                <button
-                  type="submit"
-                  className="btn btn-accent"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? "Submitting..." : "Submit Module"}
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-close"
-                  onClick={toggleModal}
-                  disabled={isSubmitting}
-                >
-                  Cancel
-                </button>
-              </div>
-              {submitError && <p className="error-message">{submitError}</p>}
-            </form>
-          </div>
-        </div>
-      </div>
-      <div className={`modal-overlay ${isEditModalOpen ? "" : "hidden"}`}>
-        <div className="modal-content module-content-modal">
-          <div className="modal-header">
-            <h3>Edit Module: {editingModule?.title}</h3>
-            <button
-              className="modal-close"
-              onClick={closeEditModal}
-              disabled={isUpdating}
-            >
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            <form className="module-form" onSubmit={handleEditSubmit}>
-              <div className="form-group">
-                <label htmlFor="edit-title" className="form-label">
-                  Module Title
-                </label>
-                <input
-                  type="text"
-                  id="edit-title"
-                  name="title"
-                  className="form-input"
-                  value={editFormData.title}
-                  onChange={handleEditFormChange}
-                  required
-                  disabled={isUpdating}
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="edit-intro" className="form-label">
-                  English Introduction
-                </label>
-                <textarea
-                  id="edit-intro"
-                  name="intro"
-                  className="form-textarea"
-                  rows="8"
-                  value={editFormData.intro}
-                  onChange={handleEditFormChange}
-                  disabled={isUpdating}
-                  style={{ minHeight: "200px" }}
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="edit-taglish-intro" className="form-label">
-                  TagLish Introduction
-                </label>
-                <textarea
-                  id="edit-taglish-intro"
-                  name="taglish_intro"
-                  className="form-textarea"
-                  rows="8"
-                  value={editFormData.taglish_intro}
-                  onChange={handleEditFormChange}
-                  disabled={isUpdating}
-                  style={{ minHeight: "200px" }}
-                />
-              </div>
-              <div className="form-group">
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    marginBottom: "16px",
-                  }}
-                >
-                  <label className="form-label">English Sections</label>
-                  <button
-                    type="button"
-                    className="btn btn-accent"
-                    onClick={() => handleAddSection(false)}
-                    disabled={isUpdating}
-                  >
-                    Add English Section
-                  </button>
-                </div>
-                {editFormData.sections.map((section, index) => (
-                  <div
-                    key={index}
-                    className="section-edit-group"
-                    style={{
-                      border: "1px solid var(--border)",
-                      borderRadius: "8px",
-                      padding: "16px",
-                      marginBottom: "16px",
-                      background: "var(--bg-tertiary)",
-                    }}
-                  >
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        marginBottom: "12px",
-                      }}
-                    >
-                      <h4
-                        style={{
-                          margin: 0,
-                          fontSize: "16px",
-                          fontWeight: "600",
-                        }}
-                      >
-                        English Section {index + 1}
-                      </h4>
-                      <button
-                        type="button"
-                        className="btn btn-close"
-                        onClick={() => handleRemoveSection(index, false)}
-                        disabled={isUpdating}
-                        style={{ padding: "4px 8px", fontSize: "12px" }}
-                      >
-                        Remove
-                      </button>
-                    </div>
-                    <div className="form-group">
-                      <label className="form-label">Section Title</label>
-                      <input
-                        type="text"
-                        className="form-input"
-                        value={section.title}
-                        onChange={(e) =>
-                          handleSectionChange(
-                            index,
-                            "title",
-                            e.target.value,
-                            false
-                          )
-                        }
-                        disabled={isUpdating}
-                        placeholder="Section title"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <label className="form-label">Section Content</label>
-                      <textarea
-                        className="form-textarea"
-                        rows="6"
-                        value={section.body}
-                        onChange={(e) =>
-                          handleSectionChange(
-                            index,
-                            "body",
-                            e.target.value,
-                            false
-                          )
-                        }
-                        disabled={isUpdating}
-                        placeholder="Section content"
-                        style={{ minHeight: "150px" }}
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="form-group">
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    marginBottom: "16px",
-                  }}
-                >
-                  <label className="form-label">TagLish Sections</label>
-                  <button
-                    type="button"
-                    className="btn btn-accent"
-                    onClick={() => handleAddSection(true)}
-                    disabled={isUpdating}
-                  >
-                    Add TagLish Section
-                  </button>
-                </div>
-                {editFormData.taglish_sections.map((section, index) => (
-                  <div
-                    key={index}
-                    className="section-edit-group"
-                    style={{
-                      border: "1px solid var(--border)",
-                      borderRadius: "8px",
-                      padding: "16px",
-                      marginBottom: "16px",
-                      background: "var(--bg-tertiary)",
-                    }}
-                  >
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        marginBottom: "12px",
-                      }}
-                    >
-                      <h4
-                        style={{
-                          margin: 0,
-                          fontSize: "16px",
-                          fontWeight: "600",
-                        }}
-                      >
-                        TagLish Section {index + 1}
-                      </h4>
-                      <button
-                        type="button"
-                        className="btn btn-close"
-                        onClick={() => handleRemoveSection(index, true)}
-                        disabled={isUpdating}
-                        style={{ padding: "4px 8px", fontSize: "12px" }}
-                      >
-                        Remove
-                      </button>
-                    </div>
-                    <div className="form-group">
-                      <label className="form-label">Section Title</label>
-                      <input
-                        type="text"
-                        className="form-input"
-                        value={section.title}
-                        onChange={(e) =>
-                          handleSectionChange(
-                            index,
-                            "title",
-                            e.target.value,
-                            true
-                          )
-                        }
-                        disabled={isUpdating}
-                        placeholder="TagLish Section title"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <label className="form-label">Section Content</label>
-                      <textarea
-                        className="form-textarea"
-                        rows="6"
-                        value={section.body}
-                        onChange={(e) =>
-                          handleSectionChange(
-                            index,
-                            "body",
-                            e.target.value,
-                            true
-                          )
-                        }
-                        disabled={isUpdating}
-                        placeholder="TagLish Section content"
-                        style={{ minHeight: "150px" }}
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="form-group">
-                <label className="form-label">Media</label>
-                <div className="form-group">
-                  <label htmlFor="media_image_url" className="form-label">
-                    Image URL
-                  </label>
-                  <input
-                    type="text"
-                    id="media_image_url"
-                    name="media_image_url"
-                    className="form-input"
-                    value={editFormData.media_image_url}
-                    onChange={handleEditFormChange}
-                    disabled={isUpdating}
-                    placeholder="https://images.pexels.com/..."
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="media_photographer" className="form-label">
-                    Photographer
-                  </label>
-                  <input
-                    type="text"
-                    id="media_photographer"
-                    name="media_photographer"
-                    className="form-input"
-                    value={editFormData.media_photographer}
-                    onChange={handleEditFormChange}
-                    disabled={isUpdating}
-                    placeholder="Photographer Name"
-                  />
-                </div>
-                <div className="form-group">
-                  <label
-                    htmlFor="media_photographer_url"
-                    className="form-label"
-                  >
-                    Photographer URL
-                  </label>
-                  <input
-                    type="text"
-                    id="media_photographer_url"
-                    name="media_photographer_url"
-                    className="form-input"
-                    value={editFormData.media_photographer_url}
-                    onChange={handleEditFormChange}
-                    disabled={isUpdating}
-                    placeholder="https://www.pexels.com/@photographer"
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="media_video" className="form-label">
-                    Video Embed URL
-                  </label>
-                  <input
-                    type="text"
-                    id="media_video"
-                    name="media_video"
-                    className="form-input"
-                    value={editFormData.media_video}
-                    onChange={handleEditFormChange}
-                    disabled={isUpdating}
-                    placeholder="https://www.youtube.com/embed/VIDEO_ID"
-                  />
-                </div>
-              </div>
-              <div className="form-actions">
-                <button
-                  type="submit"
-                  className="btn btn-accent"
-                  disabled={isUpdating}
-                >
-                  {isUpdating ? "Updating..." : "Update Module"}
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  onClick={closeEditModal}
-                  disabled={isUpdating}
-                >
-                  Cancel
-                </button>
-              </div>
-              {updateError && <p className="error-message">{updateError}</p>}
-            </form>
-          </div>
-        </div>
-      </div>
-      <div className={`modal-overlay ${isAdminInfoModalOpen ? "" : "hidden"}`}>
-        <div className="modal-content">
-          <div className="modal-header">
-            <h3>Module Generator & Creator</h3>
-            <button className="modal-close" onClick={toggleAdminInfoModal}>
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            <div className="module-form">
-              <div
-                style={{
-                  textAlign: "center",
-                  padding: "20px",
-                  background: "rgba(108, 92, 231, 0.1)",
-                  borderRadius: "12px",
-                  border: "1px solid rgba(108, 92, 231, 0.3)",
-                  marginBottom: "20px",
-                }}
-              >
-                <h2
-                  style={{
-                    margin: "0 0 16px 0",
-                    color: "var(--text-primary)",
-                    fontSize: "24px",
-                    fontWeight: "800",
-                  }}
-                >
-                  Administrative Tools
-                </h2>
-                <p
-                  style={{
-                    margin: "0 0 16px 0",
-                    color: "var(--text-secondary)",
-                    fontSize: "16px",
-                    fontWeight: "500",
-                    lineHeight: "1.6",
-                  }}
-                >
-                  Use these tools to create and generate educational learning
-                  modules for your crypto knowledge platform.
-                </p>
-                <div
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-                    gap: "16px",
-                    marginTop: "20px",
-                  }}
-                >
-                  <div
-                    style={{
-                      background: "var(--bg-tertiary)",
-                      padding: "16px",
-                      borderRadius: "8px",
-                      border: "1px solid var(--border)",
-                    }}
-                  >
-                    <h4
-                      style={{
-                        margin: "0 0 8px 0",
-                        color: "var(--accent-blue)",
-                        fontSize: "16px",
-                        fontWeight: "700",
-                      }}
-                    >
-                      Create New Module
-                    </h4>
-                    <p
-                      style={{
-                        margin: "0",
-                        color: "var(--text-muted)",
-                        fontSize: "14px",
-                        lineHeight: "1.4",
-                      }}
-                    >
-                      Define module structure with title, keywords, difficulty
-                      level, and specific learning objectives.
-                    </p>
-                  </div>
-                  <div
-                    style={{
-                      background: "var(--bg-tertiary)",
-                      padding: "16px",
-                      borderRadius: "8px",
-                      border: "1px solid var(--border)",
-                    }}
-                  >
-                    <h4
-                      style={{
-                        margin: "0 0 8px 0",
-                        color: "var(--accent-purple)",
-                        fontSize: "16px",
-                        fontWeight: "700",
-                      }}
-                    >
-                      Generate Content
-                    </h4>
-                    <p
-                      style={{
-                        margin: "0",
-                        color: "var(--text-muted)",
-                        fontSize: "14px",
-                        lineHeight: "1.4",
-                      }}
-                    >
-                      Use AI to generate comprehensive educational content based
-                      on your module specifications.
-                    </p>
-                  </div>
-                  <div
-                    style={{
-                      background: "var(--bg-tertiary)",
-                      padding: "16px",
-                      borderRadius: "8px",
-                      border: "1px solid var(--border)",
-                    }}
-                  >
-                    <h4
-                      style={{
-                        margin: "0 0 8px 0",
-                        color: "var(--accent-green)",
-                        fontSize: "16px",
-                        fontWeight: "700",
-                      }}
-                    >
-                      Edit Modules
-                    </h4>
-                    <p
-                      style={{
-                        margin: "0",
-                        color: "var(--text-muted)",
-                        fontSize: "14px",
-                        lineHeight: "1.4",
-                      }}
-                    >
-                      Modify existing module content, add or remove sections,
-                      and update titles and descriptions.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="modal-footer">
-            <button
-              className="btn btn-secondary"
-              onClick={toggleAdminInfoModal}
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-      <div className={`modal-overlay ${isGenerateModalOpen ? "" : "hidden"}`}>
-        <div className="modal-content">
-          <div className="modal-header">
-            <h3>Generate Module Content</h3>
-            <button
-              className="modal-close"
-              onClick={toggleGenerateModal}
-              disabled={isGenerating}
-            >
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            <div className="module-form">
-              <div className="form-group">
-                <label className="form-label">Select Module to Generate</label>
-                <button
-                  className="btn btn-secondary"
-                  onClick={fetchModules}
-                  disabled={isGenerating}
-                  style={{ marginBottom: "12px" }}
-                >
-                  Refresh Modules
-                </button>
-                <select
-                  value={selectedModuleId}
-                  onChange={(e) => setSelectedModuleId(e.target.value)}
-                  className="form-select"
-                  disabled={isGenerating}
-                >
-                  <option value="">Select a module</option>
-                  {modules.map((module) => (
-                    <option key={module.id} value={module.id}>
-                      {module.title}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              {fetchModulesError && (
-                <p className="error-message">{fetchModulesError}</p>
-              )}
-              {modules.length === 0 && !fetchModulesError && (
-                <p className="info-message">
-                  No ungenerated modules available.
-                </p>
-              )}
-              {generateError && (
-                <p className="error-message">{generateError}</p>
-              )}
-              <div className="form-actions">
-                <button
-                  className="btn btn-accent"
-                  onClick={handleGenerate}
-                  disabled={isGenerating || !selectedModuleId}
-                >
-                  {isGenerating ? "Generating..." : "Generate Module"}
-                </button>
-                <button
-                  className="btn btn-secondary"
-                  onClick={toggleGenerateModal}
-                  disabled={isGenerating}
-                >
-                  Cancel
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className={`modal-overlay ${
-          isGenerateTaglishModalOpen ? "" : "hidden"
-        }`}
-      >
-        <div className="modal-content">
-          <div className="modal-header">
-            <h3>Generate TagLish Content</h3>
-            <button
-              className="modal-close"
-              onClick={toggleGenerateTaglishModal}
-              disabled={isGeneratingTaglish}
-            >
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            <div className="module-form">
-              <div className="form-group">
-                <label className="form-label">Select Module for TagLish</label>
-                <button
-                  className="btn btn-secondary"
-                  onClick={fetchGeneratedModules}
-                  disabled={isGeneratingTaglish}
-                  style={{ marginBottom: "12px" }}
-                >
-                  Refresh Modules
-                </button>
-                <select
-                  value={selectedTaglishModuleId}
-                  onChange={(e) => setSelectedTaglishModuleId(e.target.value)}
-                  className="form-select"
-                  disabled={isGeneratingTaglish}
-                >
-                  <option value="">Select a module</option>
-                  {generatedModules.map((module) => (
-                    <option key={module.id} value={module.id}>
-                      {module.title}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              {generateTaglishError && (
-                <p className="error-message">{generateTaglishError}</p>
-              )}
-              {generatedModules.length === 0 && (
-                <p className="info-message">
-                  No modules with content available.
-                </p>
-              )}
-              <div className="form-actions">
-                <button
-                  className="btn btn-accent"
-                  onClick={handleGenerateTaglish}
-                  disabled={isGeneratingTaglish || !selectedTaglishModuleId}
-                >
-                  {isGeneratingTaglish ? "Generating..." : "Generate TagLish"}
-                </button>
-                <button
-                  className="btn btn-secondary"
-                  onClick={toggleGenerateTaglishModal}
-                  disabled={isGeneratingTaglish}
-                >
-                  Cancel
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className={`modal-overlay ${isGenerateQuizModalOpen ? "" : "hidden"}`}
-      >
-        <div className="modal-content">
-          <div className="modal-header">
-            <h3>Generate Quiz Questions</h3>
-            <button
-              className="modal-close"
-              onClick={toggleGenerateQuizModal}
-              disabled={isGeneratingQuiz}
-            >
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            <div className="module-form">
-              <div className="form-group">
-                <label className="form-label">Select Module</label>
-                <select
-                  value={selectedQuizModuleId}
-                  onChange={(e) => setSelectedQuizModuleId(e.target.value)}
-                  className="form-select"
-                  disabled={isGeneratingQuiz}
-                >
-                  <option value="">Select a module</option>
-                  {generatedModules.map((m) => (
-                    <option key={m.id} value={m.id}>
-                      {m.title}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="form-group">
-                <label className="form-label">Number of Questions</label>
-                <select
-                  value={numQuestions}
-                  onChange={(e) => setNumQuestions(parseInt(e.target.value))}
-                  className="form-select"
-                  disabled={isGeneratingQuiz}
-                >
-                  <option value={5}>5</option>
-                  <option value={10}>10</option>
-                  <option value={15}>15</option>
-                  <option value={20}>20</option>
-                  <option value={25}>25</option>
-                  <option value={30}>30</option>
-                </select>
-              </div>
-              {generateQuizError && (
-                <p className="error-message">{generateQuizError}</p>
-              )}
-              <div className="form-actions">
-                <button
-                  className="btn btn-accent"
-                  onClick={handleGenerateQuiz}
-                  disabled={isGeneratingQuiz || !selectedQuizModuleId}
-                >
-                  {isGeneratingQuiz ? "Generating..." : "Generate Questions"}
-                </button>
-                <button
-                  className="btn btn-secondary"
-                  onClick={toggleGenerateQuizModal}
-                  disabled={isGeneratingQuiz}
-                >
-                  Cancel
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className={`modal-overlay ${
-          isGenerateTaglishQuizModalOpen ? "" : "hidden"
-        }`}
-      >
-        <div className="modal-content">
-          <div className="modal-header">
-            <h3>Generate Taglish Quiz Questions</h3>
-            <button
-              className="modal-close"
-              onClick={toggleGenerateTaglishQuizModal}
-              disabled={isGeneratingTaglishQuiz}
-            >
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            <div className="module-form">
-              <div className="form-group">
-                <label className="form-label">Select Module</label>
-                <select
-                  value={selectedTaglishQuizModuleId}
-                  onChange={(e) =>
-                    setSelectedTaglishQuizModuleId(e.target.value)
-                  }
-                  className="form-select"
-                  disabled={isGeneratingTaglishQuiz}
-                >
-                  <option value="">Select a module</option>
-                  {generatedModules.map((m) => (
-                    <option key={m.id} value={m.id}>
-                      {m.title} ({moduleQuestionCounts[m.id] || 0} questions)
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="form-group">
-                <label className="form-label">
-                  Number of Questions to Convert
-                </label>
-                <select
-                  value={numTaglishQuestions}
-                  onChange={(e) =>
-                    setNumTaglishQuestions(parseInt(e.target.value))
-                  }
-                  className="form-select"
-                  disabled={isGeneratingTaglishQuiz}
-                >
-                  <option value={5}>5</option>
-                  <option value={10}>10</option>
-                  <option value={15}>15</option>
-                  <option value={20}>20</option>
-                  <option value={25}>25</option>
-                  <option value={30}>30</option>
-                </select>
-              </div>
-              {generateTaglishQuizError && (
-                <p className="error-message">{generateTaglishQuizError}</p>
-              )}
-              <div className="form-actions">
-                <button
-                  className="btn btn-accent"
-                  onClick={handleGenerateTaglishQuiz}
-                  disabled={
-                    isGeneratingTaglishQuiz || !selectedTaglishQuizModuleId
-                  }
-                >
-                  {isGeneratingTaglishQuiz
-                    ? "Generating..."
-                    : "Generate Taglish Questions"}
-                </button>
-                <button
-                  className="btn btn-secondary"
-                  onClick={toggleGenerateTaglishQuizModal}
-                  disabled={isGeneratingTaglishQuiz}
-                >
-                  Cancel
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={`modal-overlay ${isValidationModalOpen ? "" : "hidden"}`}>
-        <div
-          className="modal-content"
-          style={{ width: "80%", maxWidth: "1200px" }}
-        >
-          <div className="modal-header">
-            <h3>Pending Quiz Questions</h3>
-            <button className="modal-close" onClick={toggleValidationModal}>
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                marginBottom: 12,
-              }}
-            >
-              <label style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                <input
-                  type="checkbox"
-                  checked={
-                    pendingQuestions.length > 0 &&
-                    selectedPendingQuestionIds.length ===
-                      pendingQuestions.length
-                  }
-                  onChange={toggleSelectAllPending}
-                  aria-label="Select all pending questions"
-                />
-                Select All
-              </label>
-              <div style={{ display: "flex", gap: 8 }}>
-                <button
-                  className="btn btn-accent"
-                  onClick={approveSelectedPending}
-                  disabled={selectedPendingQuestionIds.length === 0}
-                >
-                  Approve Selected
-                </button>
-                <button
-                  className="btn btn-secondary"
-                  onClick={rejectSelectedPending}
-                  disabled={selectedPendingQuestionIds.length === 0}
-                >
-                  Reject Selected
-                </button>
-              </div>
-            </div>
-            {pendingQuestions.length === 0 ? (
-              <p className="info-message">No pending questions available.</p>
-            ) : (
-              <div className="modules-grid">
-                {pendingQuestions.map((q) => (
-                  <div key={q.id} className="module-card">
-                    <div
-                      className="module-card-header"
-                      style={{ alignItems: "center", display: "flex", gap: 12 }}
-                    >
-                      <input
-                        type="checkbox"
-                        checked={selectedPendingQuestionIds.includes(q.id)}
-                        onChange={(e) => {
-                          e.stopPropagation();
-                          toggleSelectPendingQuestion(q.id);
-                        }}
-                        onClick={(e) => e.stopPropagation()}
-                        aria-label={`Select question ${q.id}`}
-                      />
-                      <h3 className="module-card-title">
-                        {q.learning_modules.title}{" "}
-                        {q.is_taglish ? "(TagLish)" : "(English)"}
-                      </h3>
-                    </div>
-                    <div className="module-card-content">
-                      <p>
-                        <strong>Question:</strong> {q.question_text}
-                      </p>
-                      <ul>
-                        {q.options.map((opt, idx) => (
-                          <li
-                            key={idx}
-                            style={{
-                              fontWeight:
-                                idx === q.correct_answer ? "bold" : "normal",
-                            }}
-                          >
-                            {String.fromCharCode(65 + idx)}: {opt}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="module-card-footer">
-                      <button
-                        className="btn btn-link"
-                        onClick={() => openEditQuestion(q)}
-                      >
-                        Edit
-                      </button>
-                      <button
-                        className="btn btn-link"
-                        onClick={() => handleApproveQuestion(q.id)}
-                      >
-                        Approve
-                      </button>
-                      <button
-                        className="btn btn-link"
-                        onClick={() => handleRejectQuestion(q.id)}
-                      >
-                        Reject
-                      </button>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-      <div
-        className={`modal-overlay ${isEditQuestionModalOpen ? "" : "hidden"}`}
-      >
-        <div className="modal-content">
-          <div className="modal-header">
-            <h3>Edit Question</h3>
-            <button
-              className="modal-close"
-              onClick={() => setIsEditQuestionModalOpen(false)}
-            >
-              ✕
-            </button>
-          </div>
-          <div className="modal-body">
-            {editingQuestion && (
-              <div className="module-form">
-                <div className="form-group">
-                  <label className="form-label">Question Text</label>
-                  <textarea
-                    className="form-textarea"
-                    value={editingQuestion.question_text}
-                    onChange={(e) =>
-                      setEditingQuestion({
-                        ...editingQuestion,
-                        question_text: e.target.value,
-                      })
-                    }
-                  />
-                </div>
-                {editingQuestion.options.map((opt, idx) => (
-                  <div key={idx} className="form-group">
-                    <label className="form-label">
-                      Option {String.fromCharCode(65 + idx)}
-                    </label>
-                    <input
-                      type="text"
-                      className="form-input"
-                      value={opt}
-                      onChange={(e) => {
-                        const newOptions = [...editingQuestion.options];
-                        newOptions[idx] = e.target.value;
-                        setEditingQuestion({
-                          ...editingQuestion,
-                          options: newOptions,
-                        });
-                      }}
-                    />
-                  </div>
-                ))}
-                <div className="form-group">
-                  <label className="form-label">Correct Answer</label>
-                  <select
-                    className="form-select"
-                    value={editingQuestion.correct_answer}
-                    onChange={(e) =>
-                      setEditingQuestion({
-                        ...editingQuestion,
-                        correct_answer: parseInt(e.target.value),
-                      })
-                    }
-                  >
-                    <option value={0}>A</option>
-                    <option value={1}>B</option>
-                    <option value={2}>C</option>
-                    <option value={3}>D</option>
-                  </select>
-                </div>
-                <div className="form-actions">
-                  <button className="btn btn-accent" onClick={handleSaveEdit}>
-                    Save
-                  </button>
-                  <button
-                    className="btn btn-secondary"
-                    onClick={() => setIsEditQuestionModalOpen(false)}
-                  >
-                    Cancel
-                  </button>
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
+      <CreateModuleModal
+        isOpen={isModalOpen}
+        onClose={toggleModal}
+        keywords={keywords}
+        setKeywords={setKeywords}
+        formData={formData}
+        setFormData={setFormData}
+        onSubmit={handleSubmit}
+        isSubmitting={isSubmitting}
+        submitError={submitError}
+      />
+      <EditModuleModal
+        isOpen={isEditModalOpen}
+        onClose={closeEditModal}
+        editingModule={editingModule}
+        editFormData={editFormData}
+        setEditFormData={setEditFormData}
+        onSubmit={handleEditSubmit}
+        isUpdating={isUpdating}
+        updateError={updateError}
+      />
+      <GenerateContentModal
+        isOpen={isGenerateModalOpen}
+        onClose={toggleGenerateModal}
+        modules={modules}
+        selectedModuleId={selectedModuleId}
+        setSelectedModuleId={setSelectedModuleId}
+        onGenerate={handleGenerate}
+        isGenerating={isGenerating}
+        generateError={generateError}
+        fetchModulesError={fetchModulesError}
+        onRefresh={fetchModules}
+      />
+      <AdminInfoModal
+        isOpen={isAdminInfoModalOpen}
+        onClose={toggleAdminInfoModal}
+      />
+      <GenerateQuizModal
+        isOpen={isGenerateQuizModalOpen}
+        onClose={toggleGenerateQuizModal}
+        generatedModules={generatedModules}
+        selectedQuizModuleId={selectedQuizModuleId}
+        setSelectedQuizModuleId={setSelectedQuizModuleId}
+        numQuestions={numQuestions}
+        setNumQuestions={setNumQuestions}
+        onGenerate={handleGenerateQuiz}
+        isGeneratingQuiz={isGeneratingQuiz}
+        generateQuizError={generateQuizError}
+      />
+      <GenerateTaglishModal
+        isOpen={isGenerateTaglishModalOpen}
+        onClose={toggleGenerateTaglishModal}
+        generatedModules={generatedModules}
+        selectedTaglishModuleId={selectedTaglishModuleId}
+        setSelectedTaglishModuleId={setSelectedTaglishModuleId}
+        onGenerate={handleGenerateTaglish}
+        isGeneratingTaglish={isGeneratingTaglish}
+        generateTaglishError={generateTaglishError}
+        onRefresh={fetchGeneratedModules}
+      />
+      <GenerateTaglishQuizModal
+        isOpen={isGenerateTaglishQuizModalOpen}
+        onClose={toggleGenerateTaglishQuizModal}
+        generatedModules={generatedModules}
+        selectedTaglishQuizModuleId={selectedTaglishQuizModuleId}
+        setSelectedTaglishQuizModuleId={setSelectedTaglishQuizModuleId}
+        numTaglishQuestions={numTaglishQuestions}
+        setNumTaglishQuestions={setNumTaglishQuestions}
+        onGenerate={handleGenerateTaglishQuiz}
+        isGeneratingTaglishQuiz={isGeneratingTaglishQuiz}
+        generateTaglishQuizError={generateTaglishQuizError}
+        moduleQuestionCounts={moduleQuestionCounts}
+      />
+      <ValidateQuizModal
+        isOpen={isValidationModalOpen}
+        onClose={toggleValidationModal}
+        pendingQuestions={pendingQuestions}
+        selectedPendingQuestionIds={selectedPendingQuestionIds}
+        onToggleSelect={toggleSelectPendingQuestion}
+        onToggleSelectAll={toggleSelectAllPending}
+        onApproveSelected={approveSelectedPending}
+        onRejectSelected={rejectSelectedPending}
+        onApprove={handleApproveQuestion}
+        onReject={handleRejectQuestion}
+        onEdit={openEditQuestion}
+      />
+      <EditQuestionModal
+        isOpen={isEditQuestionModalOpen}
+        onClose={() => setIsEditQuestionModalOpen(false)}
+        editingQuestion={editingQuestion}
+        setEditingQuestion={setEditingQuestion}
+        onSave={handleSaveEdit}
+      />
+      <GenerateMiniGamesModal
+        isOpen={isGenerateMiniGamesModalOpen}
+        onClose={toggleGenerateMiniGamesModal}
+        generatedModules={generatedModules}
+        selectedMiniGamesModuleId={selectedMiniGamesModuleId}
+        setSelectedMiniGamesModuleId={setSelectedMiniGamesModuleId}
+        isMiniGamesTaglish={isMiniGamesTaglish}
+        setIsMiniGamesTaglish={setIsMiniGamesTaglish}
+        selectedGameTypes={selectedGameTypes}
+        onGameTypeChange={handleGameTypeChange}
+        onGenerate={handleGenerateMiniGames}
+        isGeneratingMiniGames={isGeneratingMiniGames}
+        generateMiniGamesError={generateMiniGamesError}
+      />
+      <ValidateMiniGamesModal
+        isOpen={isValidateMiniGamesModalOpen}
+        onClose={toggleValidateMiniGamesModal}
+        pendingMiniGames={pendingMiniGames}
+        selectedPendingMiniGameIds={selectedPendingMiniGameIds}
+        onToggleSelect={toggleSelectPendingMiniGame}
+        onToggleSelectAll={toggleSelectAllMiniGames}
+        onApproveSelected={approveSelectedMiniGames}
+        onRejectSelected={rejectSelectedMiniGames}
+        onApprove={handleApproveMiniGame}
+        onReject={handleRejectMiniGame}
+      />
     </div>
   );
 };

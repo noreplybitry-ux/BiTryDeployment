@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 /* Pages */
 import Homepage from "./components/Homepage";
 import Dashboard from "./components/Dashboard";
-import Learn from "./components/Learn2";
+import Learn2 from "./components/Learn2";
 import Trade from "./components/Trade";
 import News from "./components/News";
 import Login from "./components/Login";
@@ -26,7 +26,7 @@ function App() {
         <main className="main-area">
           <Routes>
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/learn" element={<Learn />} />
+            <Route path="/learn" element={<Learn2 />} />
             <Route path="/module/:id" element={<ModuleDetail />} />
             <Route path="/quiz/:moduleId" element={<QuizPage />} />
             <Route path="/trade" element={<Trade />} />
