@@ -26,21 +26,19 @@
   padding: 30px 20px;
   transition: transform 0.3s ease;
   z-index: 10;
-  position: fixed;
+  position: sticky;
   top: var(--navbar-height);
-  left: 0;
-  bottom: 0;
-  width: 240px;
+  align-self: start;
+  height: calc(100vh - var(--navbar-height));
   overflow-y: auto;
 }
 
 .main-content {
   grid-area: main;
   overflow-y: auto;
-  padding: 40px;
+  padding: calc(40px + var(--navbar-height)) 40px 40px 40px;
   background: radial-gradient(circle at 10% 20%, rgba(0, 212, 255, 0.05) 0%, transparent 40%),
               radial-gradient(circle at 80% 90%, rgba(0, 212, 255, 0.04) 0%, transparent 50%);
-  margin-left: 240px;
 }
 
 /* Custom Scrollbar */
@@ -642,8 +640,10 @@
    ========================================================================== */
 
 @media (max-width: 1024px) {
-  .sidebar { width: 80px; }
-  .main-content { margin-left: 80px; }
+  .dashboard {
+    grid-template-columns: 80px 1fr;
+  }
+  .sidebar { width: 80px; height: calc(100vh - var(--navbar-height)); }
   .sidebar-label {
     display: none;
   }
@@ -697,7 +697,6 @@
   }
   .sidebar-footer { display: none; }
   .main-content { 
-    margin-left: 0; 
     padding: 20px; 
     padding-top: calc(20px + var(--navbar-height)); 
     padding-bottom: 100px; 
