@@ -899,9 +899,6 @@ const BiTryHomepage = () => {
             grid-template-columns: 1fr;
             gap: 60px;
           }
-          .hero-visual {
-            order: -1;
-          }
           .hero-title {
             font-size: 52px;
           }
@@ -962,7 +959,10 @@ const BiTryHomepage = () => {
           .stats-row {
             flex-direction: column;
             gap: 20px;
-            align-items: flex-start;
+            align-items: center;
+          }
+          .stat {
+            text-align: center;
           }
           .stat-divider {
             display: none;
