@@ -899,6 +899,9 @@ const BiTryHomepage = () => {
             grid-template-columns: 1fr;
             gap: 60px;
           }
+          .hero-visual {
+            order: -1;
+          }
           .hero-title {
             font-size: 52px;
           }
@@ -1199,7 +1202,8 @@ const BiTryHomepage = () => {
             height: 160px;
           }
           .marker-label {
-            display: none;
+            font-size: 8px;
+            top: -15px;
           }
           .how-it-works, .features, .cta {
             padding: 60px 5%;
