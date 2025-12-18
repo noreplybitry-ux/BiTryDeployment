@@ -1,29 +1,23 @@
 import React, { useState, useEffect, useRef } from "react";
+import { useAuth } from "../contexts/AuthContext";
 
-const Homepage = () => {
+const BiTryHomepage = () => {
   const [scrollY, setScrollY] = useState(0);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [activeCard, setActiveCard] = useState(null);
-  const globeRef = useRef(null);
+  const canvasRef = useRef(null);
   const particlesRef = useRef([]);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
-    const handleMouseMove = (e) => {
-      setMousePos({ x: e.clientX, y: e.clientY });
-    };
-
     window.addEventListener('scroll', handleScroll);
-    window.addEventListener('mousemove', handleMouseMove);
 
-    // Initialize particles
-    const canvas = document.getElementById('particle-canvas');
+    // Particle animation
+    const canvas = canvasRef.current;
     if (canvas) {
       const ctx = canvas.getContext('2d');
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
 
-      // Create particles
       for (let i = 0; i < 50; i++) {
         particlesRef.current.push({
           x: Math.random() * canvas.width,
@@ -34,8 +28,7 @@ const Homepage = () => {
         });
       }
 
-      // Animate particles
-      const animateParticles = () => {
+      const animate = () => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = '#00d4ff';
         
@@ -51,44 +44,35 @@ const Homepage = () => {
           ctx.fill();
         });
 
-        requestAnimationFrame(animateParticles);
+        requestAnimationFrame(animate);
       };
 
-      animateParticles();
+      animate();
     }
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('mousemove', handleMouseMove);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const features = [
     {
       id: 1,
-      title: "Neural Learning",
-      description: "AI-created cryptocurrency modules in English and Taglish",
+      title: "AI Learning",
+      description: "Personalized crypto education in English and Taglish",
       icon: "🧠",
-      stats: "Growing User Base",
-      color: "#00d4ff",
       link: "./learn"
     },
     {
       id: 2,
-      title: "Quantum Simulator",
-      description: "Real-time trading simulation with leverage and spot markets",
+      title: "Virtual Trading",
+      description: "Practice with $10K virtual funds, zero risk",
       icon: "⚡",
-      stats: "$10K Virtual",
-      color: "#00fff2",
       link: "./trade"
     },
     {
       id: 3,
-      title: "Market Intelligence",
-      description: "AI-powered news analysis and market sentiment tracking",
-      icon: "🔮",
-      stats: "24/7 Updates",
-      color: "#00d4ff",
+      title: "Live Markets",
+      description: "Real-time data for 100+ cryptocurrencies",
+      icon: "📈",
       link: "./news"
     }
   ];
@@ -102,695 +86,191 @@ const Homepage = () => {
     { name: "ADA", angle: 300, radius: 120 }
   ];
 
+  const { user } = useAuth();
+  const displayName = (user && (user.user_metadata?.full_name || user.email?.split('@')?.[0])) || 'Trader';
+
   return (
-    <div className="bitry-homepage">
+    <div style={styles.container}>
+      <canvas ref={canvasRef} style={styles.canvas} />
+
+      {/* Hero Section */}
+      <section style={styles.hero}>
+        <div style={styles.heroGrid}>
+          <div style={styles.heroContent}>
+            <div style={styles.badge}>
+              <span style={styles.badgeDot} />
+              <span>AI-Powered Platform</span>
+            </div>
+            
+            <h1 style={styles.heroTitle}>
+              Learn Crypto Trading<br />
+              <span style={styles.gradient}>Risk-Free</span>
+            </h1>
+            
+            <p style={styles.heroSubtitle}>
+              Master cryptocurrency with AI guidance, virtual trading, 
+              and real market data — designed for Filipinos.
+            </p>
+
+            <div style={styles.heroButtons}>
+              {!user && (
+                <button style={styles.primaryButton} onClick={() => window.location.href = './signup'}>
+                  Start Free →
+                </button>
+              )}
+              <button style={styles.secondaryButton} onClick={() => window.location.href = '#features'}>
+                Explore
+              </button>
+            </div>
+
+            <div style={styles.statsRow}>
+              <div style={styles.stat}>
+                <div style={styles.statValue}>100+</div>
+                <div style={styles.statLabel}>Crypto Pairs</div>
+              </div>
+              <div style={styles.statDivider} />
+              <div style={styles.stat}>
+                <div style={styles.statValue}>24/7</div>
+                <div style={styles.statLabel}>Live Data</div>
+              </div>
+              <div style={styles.statDivider} />
+              <div style={styles.stat}>
+                <div style={styles.statValue}>100%</div>
+                <div style={styles.statLabel}>Risk-Free</div>
+              </div>
+            </div>
+          </div>
+
+          <div style={styles.heroVisual}>
+            <div style={styles.globe}>
+              <div style={styles.globeCore}>
+                <div style={styles.coreInner} />
+                <div style={{...styles.coreRing, ...styles.ring1}} />
+                <div style={{...styles.coreRing, ...styles.ring2}} />
+                <div style={{...styles.coreRing, ...styles.ring3}} />
+              </div>
+              
+              {cryptoMarkers.map((marker, idx) => (
+                <div 
+                  key={idx}
+                  style={{
+                    ...styles.marker,
+                    '--angle': `${marker.angle}deg`,
+                    '--radius': `${marker.radius}px`
+                  }}
+                >
+                  <div style={styles.markerDot} />
+                  <div style={styles.markerLabel}>{marker.name}</div>
+                  <div style={styles.markerPulse} />
+                </div>
+              ))}
+              
+              <div style={styles.globeGrid} />
+              <div style={styles.waves}>
+                <div style={{...styles.wave, ...styles.wave1}} />
+                <div style={{...styles.wave, ...styles.wave2}} />
+                <div style={{...styles.wave, ...styles.wave3}} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={styles.howItWorks} id="about">
+        <div style={styles.sectionHeader}>
+          <span style={styles.sectionTag}>HOW IT WORKS</span>
+          <h2 style={styles.sectionTitle}>
+            Your Journey to <span style={styles.gradient}>Crypto Mastery</span>
+          </h2>
+        </div>
+
+        <div style={styles.stepsContainer}>
+          {(() => {
+            const stepIcons = ["📝", "📚", "💹", "📊"];
+            const steps = [
+              { step: "01", title: "Sign Up Free", desc: "Create your account in seconds. No credit card required." },
+              { step: "02", title: "Learn Basics", desc: "Start with AI-guided lessons in English or Taglish." },
+              { step: "03", title: "Practice Trading", desc: "Use virtual funds to practice real trading strategies." },
+              { step: "04", title: "Track Progress", desc: "Monitor your learning and trading performance." }
+            ];
+
+            return steps.map((item, idx) => (
+              <div key={idx} style={styles.stepCard}>
+                <div style={styles.stepBadge}>
+                  <div style={styles.stepCircle}>{stepIcons[idx]}</div>
+                  <div style={styles.stepNumberPill}>{item.step}</div>
+                </div>
+                <h3 style={styles.stepTitle}>{item.title}</h3>
+                <p style={styles.stepDesc}>{item.desc}</p>
+                {idx < 3 && <div style={styles.stepConnector} />}
+              </div>
+            ));
+          })()}
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section style={styles.features} id="features">
+        <div style={styles.sectionTag}>CORE FEATURES</div>
+        <h2 style={styles.sectionTitle}>
+          Everything You Need
+        </h2>
+
+        <div style={styles.featuresGrid}>
+          {features.map((feature) => (
+            <div 
+              key={feature.id}
+              style={styles.featureCard}
+              onMouseEnter={() => setActiveCard(feature.id)}
+              onMouseLeave={() => setActiveCard(null)}
+              onClick={() => window.location.href = feature.link}
+            >
+              <div style={styles.cardIcon}>{feature.icon}</div>
+              <h3 style={styles.cardTitle}>{feature.title}</h3>
+              <p style={styles.cardDesc}>{feature.description}</p>
+              <div style={styles.cardArrow}>→</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section style={styles.cta}>
+        <div style={styles.ctaCard}>
+          <div style={styles.ctaGlow} />
+          {user ? (
+            <div>
+              <h2 style={styles.ctaTitle}>Welcome back, {displayName}</h2>
+              <p style={styles.ctaSubtitle}>Last activity: <strong>Completed — Lesson 2: Market Basics</strong></p>
+
+              <div style={{display:'flex', gap:'12px', justifyContent:'center', marginTop:20}}>
+                <button style={styles.ctaButton} onClick={() => window.location.href = './learn'}>Review Lesson</button>
+                <button style={styles.secondaryButton} onClick={() => window.location.href = './dashboard'}>View Dashboard</button>
+              </div>
+
+              <p style={styles.ctaNote}>Last quiz: <strong>Quiz 1</strong> — Score: <span style={{color:'#00ff9e', fontWeight:800}}>87%</span></p>
+            </div>
+          ) : (
+            <div>
+              <h2 style={styles.ctaTitle}>
+                Ready to Start?
+              </h2>
+              <p style={styles.ctaSubtitle}>
+                Join thousands learning crypto the smart way
+              </p>
+              <button style={styles.ctaButton} onClick={() => window.location.href = './signup'}>
+                Get Started Free
+              </button>
+              <p style={styles.ctaNote}>No credit card required</p>
+            </div>
+          )}
+        </div>
+      </section>
+
       <style>{`
-        /* Global Styles */
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-        }
-
-        .bitry-homepage {
-          background: #0b0e11;
-          color: #ffffff;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-          overflow-x: hidden;
-          position: relative;
-        }
-
-        /* Particle Canvas */
-        .particle-canvas {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          z-index: 0;
-          opacity: 0.15;
-          pointer-events: none;
-        }
-
-        /* Hero Section */
-        .hero-container {
-          min-height: 100vh;
-          display: flex;
-          align-items: center;
-          padding: 120px 5% 80px;
-          position: relative;
-          z-index: 1;
-        }
-
-        .hero-grid {
-          max-width: 1400px;
-          margin: 0 auto;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 80px;
-          align-items: center;
-          width: 100%;
-        }
-
-        .hero-content {
-          animation: fadeInUp 1s ease-out;
-        }
-
-        .hero-heading {
-          font-size: 64px;
-          font-weight: 800;
-          line-height: 1.1;
-          margin-bottom: 24px;
-          letter-spacing: -2px;
-        }
-
-        .gradient-text {
-          background: linear-gradient(135deg, #00d4ff 0%, #00fff2 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-          position: relative;
-        }
-
-        .hero-description {
-          font-size: 18px;
-          line-height: 1.8;
-          color: rgba(255, 255, 255, 0.7);
-          margin-bottom: 40px;
-          max-width: 540px;
-        }
-
-        .hero-actions {
-          display: flex;
-          gap: 20px;
-          margin-bottom: 60px;
-        }
-
-        .btn-primary-glow {
-          position: relative;
-          padding: 16px 40px;
-          font-size: 16px;
-          font-weight: 600;
-          color: #0b0e11;
-          background: #00d4ff;
-          border: none;
-          border-radius: 12px;
-          cursor: pointer;
-          overflow: hidden;
-          transition: all 0.3s ease;
-        }
-
-        .btn-primary-glow span {
-          position: relative;
-          z-index: 2;
-        }
-
-        .btn-glow {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          width: 100%;
-          height: 100%;
-          background: radial-gradient(circle, rgba(0, 212, 255, 0.4) 0%, transparent 70%);
-          opacity: 0;
-          animation: glowRotate 10s linear infinite;
-          pointer-events: none;
-        }
-
-        .btn-primary-glow:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 10px 40px rgba(0, 212, 255, 0.4);
-        }
-
-        .btn-primary-glow:hover .btn-glow {
-          opacity: 1;
-        }
-
-        .btn-primary-glow.large {
-          padding: 20px 50px;
-          font-size: 18px;
-        }
-
-        .btn-outline {
-          padding: 16px 40px;
-          font-size: 16px;
-          font-weight: 600;
-          color: #00d4ff;
-          background: transparent;
-          border: 2px solid #00d4ff;
-          border-radius: 12px;
-          cursor: pointer;
-          transition: all 0.3s ease;
-          position: relative;
-          overflow: hidden;
-        }
-
-        .btn-outline::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: -100%;
-          width: 100%;
-          height: 100%;
-          background: rgba(0, 212, 255, 0.1);
-          transition: left 0.3s ease;
-        }
-
-        .btn-outline:hover::before {
-          left: 0;
-        }
-
-        .btn-outline:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
-        }
-
-        .hero-stats {
-          display: flex;
-          gap: 40px;
-          align-items: center;
-        }
-
-        .stat-item {
-          text-align: left;
-        }
-
-        .stat-value {
-          font-size: 32px;
-          font-weight: 800;
-          color: #00d4ff;
-          margin-bottom: 4px;
-        }
-
-        .stat-label {
-          font-size: 14px;
-          color: rgba(255, 255, 255, 0.5);
-        }
-
-        .stat-divider {
-          width: 1px;
-          height: 40px;
-          background: rgba(255, 255, 255, 0.1);
-        }
-
-        /* Holographic Globe */
-        .hero-visual {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          animation: fadeIn 1.5s ease-out;
-        }
-
-        .holographic-globe {
-          position: relative;
-          width: 400px;
-          height: 400px;
-          animation: float 6s ease-in-out infinite;
-        }
-
-        .globe-core {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 200px;
-          height: 200px;
-        }
-
-        .core-inner {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 100px;
-          height: 100px;
-          background: radial-gradient(circle, #00d4ff 0%, transparent 70%);
-          border-radius: 50%;
-          animation: corePulse 3s ease-in-out infinite;
-        }
-
-        .core-ring {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          border: 2px solid #00d4ff;
-          border-radius: 50%;
-          opacity: 0.3;
-        }
-
-        .ring-1 {
-          width: 120px;
-          height: 120px;
-          animation: ringRotate 10s linear infinite;
-        }
-
-        .ring-2 {
-          width: 160px;
-          height: 160px;
-          animation: ringRotate 15s linear infinite reverse;
-        }
-
-        .ring-3 {
-          width: 200px;
-          height: 200px;
-          animation: ringRotate 20s linear infinite;
-        }
-
-        .crypto-marker {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          width: 40px;
-          height: 40px;
-          transform-origin: center;
-          animation: markerOrbit 20s linear infinite;
-        }
-
-        .marker-dot {
-          width: 12px;
-          height: 12px;
-          background: #00d4ff;
-          border-radius: 50%;
-          box-shadow: 0 0 20px rgba(0, 212, 255, 0.8);
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-
-        .marker-label {
-          position: absolute;
-          top: -30px;
-          left: 50%;
-          transform: translateX(-50%);
-          font-size: 12px;
-          font-weight: 600;
-          color: #00d4ff;
-          white-space: nowrap;
-          text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
-        }
-
-        .marker-pulse {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 12px;
-          height: 12px;
-          background: #00d4ff;
-          border-radius: 50%;
-          animation: markerPulse 2s ease-out infinite;
-        }
-
-        .globe-grid {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 300px;
-          height: 300px;
-          background-image: 
-            linear-gradient(rgba(0, 212, 255, 0.1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(0, 212, 255, 0.1) 1px, transparent 1px);
-          background-size: 30px 30px;
-          border-radius: 50%;
-          opacity: 0.2;
-          animation: gridRotate 30s linear infinite;
-        }
-
-        .energy-waves {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 100%;
-          height: 100%;
-        }
-
-        .wave {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          border: 2px solid #00d4ff;
-          border-radius: 50%;
-          opacity: 0;
-        }
-
-        .wave-1 {
-          animation: waveExpand 3s ease-out infinite;
-        }
-
-        .wave-2 {
-          animation: waveExpand 3s ease-out infinite 1s;
-        }
-
-        .wave-3 {
-          animation: waveExpand 3s ease-out infinite 2s;
-        }
-
-        /* Features Section */
-        .features-section {
-          padding: 120px 5%;
-          position: relative;
-          z-index: 1;
-        }
-
-        .section-label {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 20px;
-          margin-bottom: 20px;
-          font-size: 14px;
-          font-weight: 600;
-          color: #00d4ff;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-        }
-
-        .label-line {
-          width: 60px;
-          height: 1px;
-          background: linear-gradient(90deg, transparent 0%, #00d4ff 50%, transparent 100%);
-        }
-
-        .section-heading {
-          text-align: center;
-          font-size: 48px;
-          font-weight: 800;
-          margin-bottom: 80px;
-          letter-spacing: -1px;
-        }
-
-        .features-grid-modern {
-          max-width: 1200px;
-          margin: 0 auto;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 30px;
-        }
-
-        .feature-card-modern {
-          position: relative;
-          padding: 40px 30px;
-          background: rgba(22, 26, 30, 0.6);
-          border: 1px solid rgba(0, 212, 255, 0.2);
-          border-radius: 20px;
-          backdrop-filter: blur(10px);
-          cursor: pointer;
-          transition: all 0.4s ease;
-          overflow: hidden;
-        }
-
-        .card-glow {
-          position: absolute;
-          top: -50%;
-          left: -50%;
-          width: 200%;
-          height: 200%;
-          background: radial-gradient(circle, var(--glow-color) 0%, transparent 70%);
-          opacity: 0;
-          transition: opacity 0.4s ease;
-          pointer-events: none;
-        }
-
-        .feature-card-modern:hover .card-glow {
-          opacity: 0.15;
-        }
-
-        .feature-card-modern:hover {
-          transform: translateY(-10px);
-          border-color: #00d4ff;
-          box-shadow: 0 20px 60px rgba(0, 212, 255, 0.2);
-        }
-
-        .card-content {
-          position: relative;
-          z-index: 2;
-        }
-
-        .card-icon {
-          font-size: 48px;
-          margin-bottom: 20px;
-          display: inline-block;
-          animation: iconFloat 3s ease-in-out infinite;
-        }
-
-        .card-title {
-          font-size: 24px;
-          font-weight: 700;
-          margin-bottom: 16px;
-          color: #ffffff;
-        }
-
-        .card-description {
-          font-size: 15px;
-          line-height: 1.7;
-          color: rgba(255, 255, 255, 0.6);
-          margin-bottom: 20px;
-        }
-
-        .card-stats {
-          display: inline-block;
-          padding: 6px 16px;
-          background: rgba(0, 212, 255, 0.1);
-          border: 1px solid rgba(0, 212, 255, 0.3);
-          border-radius: 20px;
-          font-size: 13px;
-          font-weight: 600;
-          color: #00d4ff;
-        }
-
-        .card-arrow {
-          position: absolute;
-          bottom: 30px;
-          right: 30px;
-          font-size: 24px;
-          color: #00d4ff;
-          opacity: 0;
-          transform: translateX(-10px);
-          transition: all 0.3s ease;
-        }
-
-        .feature-card-modern:hover .card-arrow {
-          opacity: 1;
-          transform: translateX(0);
-        }
-
-        /* Technology Section */
-        .tech-section {
-          padding: 120px 5%;
-          position: relative;
-          z-index: 1;
-          background: linear-gradient(180deg, transparent 0%, rgba(0, 212, 255, 0.02) 100%);
-        }
-
-        .tech-grid {
-          max-width: 1200px;
-          margin: 0 auto;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 100px;
-          align-items: center;
-        }
-
-        .tech-visual {
-          display: flex;
-          justify-content: center;
-          position: relative;
-          z-index: 1;
-        }
-
-        .tech-hexagon {
-          position: relative;
-          width: 300px;
-          height: 300px;
-          animation: float 8s ease-in-out infinite;
-        }
-
-        .hex-layer {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%) rotate(0deg);
-          width: 200px;
-          height: 200px;
-          border: 2px solid #00d4ff;
-          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-          opacity: 0.3;
-        }
-
-        .layer-1 {
-          animation: hexRotate 15s linear infinite;
-        }
-
-        .layer-2 {
-          width: 160px;
-          height: 160px;
-          animation: hexRotate 20s linear infinite reverse;
-        }
-
-        .layer-3 {
-          width: 120px;
-          height: 120px;
-          animation: hexRotate 25s linear infinite;
-        }
-
-        .hex-center {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 80px;
-          height: 80px;
-          background: radial-gradient(circle, #00d4ff 0%, transparent 70%);
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          animation: corePulse 3s ease-in-out infinite;
-        }
-
-        .center-icon {
-          font-size: 40px;
-          color: #00d4ff;
-          text-shadow: 0 0 20px rgba(0, 212, 255, 0.8);
-        }
-
-        .tech-content {
-          text-align: left;
-        }
-
-        .tech-features {
-          display: flex;
-          flex-direction: column;
-          gap: 30px;
-          margin-top: 40px;
-        }
-
-        .tech-item {
-          display: flex;
-          gap: 24px;
-          align-items: flex-start;
-          padding: 24px;
-          background: rgba(22, 26, 30, 0.4);
-          border: 1px solid rgba(0, 212, 255, 0.1);
-          border-radius: 16px;
-          transition: all 0.3s ease;
-        }
-
-        .tech-item:hover {
-          border-color: #00d4ff;
-          background: rgba(22, 26, 30, 0.6);
-          transform: translateX(10px);
-        }
-
-        .tech-number {
-          font-size: 32px;
-          font-weight: 800;
-          color: #00d4ff;
-          opacity: 0.3;
-          min-width: 50px;
-        }
-
-        .tech-info h4 {
-          font-size: 20px;
-          font-weight: 700;
-          margin-bottom: 8px;
-          color: #ffffff;
-        }
-
-        .tech-info p {
-          font-size: 15px;
-          line-height: 1.7;
-          color: rgba(255, 255, 255, 0.6);
-        }
-
-        /* CTA Section */
-        .cta-section-modern {
-          padding: 120px 5%;
-          position: relative;
-          z-index: 1;
-        }
-
-        .cta-container {
-          max-width: 900px;
-          margin: 0 auto;
-          text-align: center;
-          padding: 80px 60px;
-          background: rgba(22, 26, 30, 0.6);
-          border: 1px solid rgba(0, 212, 255, 0.3);
-          border-radius: 30px;
-          backdrop-filter: blur(20px);
-          position: relative;
-          overflow: hidden;
-        }
-
-        .cta-glow-effect {
-          position: absolute;
-          top: -50%;
-          left: -50%;
-          width: 200%;
-          height: 200%;
-          background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 70%);
-          animation: glowRotate 15s linear infinite;
-          pointer-events: none;
-        }
-
-        .cta-heading {
-          font-size: 48px;
-          font-weight: 800;
-          margin-bottom: 20px;
-          letter-spacing: -1px;
-          position: relative;
-          z-index: 2;
-        }
-
-        .cta-text {
-          font-size: 18px;
-          line-height: 1.7;
-          color: rgba(255, 255, 255, 0.7);
-          margin-bottom: 40px;
-          position: relative;
-          z-index: 2;
-        }
-
-        .cta-note {
-          margin-top: 20px;
-          font-size: 14px;
-          color: rgba(255, 255, 255, 0.5);
-          position: relative;
-          z-index: 2;
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-
         @keyframes pulse {
-          0%, 100% {
-            opacity: 1;
-            transform: scale(1);
-          }
-          50% {
-            opacity: 0.6;
-            transform: scale(1.2);
-          }
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.6; transform: scale(1.2); }
         }
 
         @keyframes float {
@@ -799,14 +279,8 @@ const Homepage = () => {
         }
 
         @keyframes corePulse {
-          0%, 100% {
-            opacity: 0.8;
-            transform: translate(-50%, -50%) scale(1);
-          }
-          50% {
-            opacity: 1;
-            transform: translate(-50%, -50%) scale(1.1);
-          }
+          0%, 100% { opacity: 0.8; transform: translate(-50%, -50%) scale(1); }
+          50% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
         }
 
         @keyframes ringRotate {
@@ -824,14 +298,8 @@ const Homepage = () => {
         }
 
         @keyframes markerPulse {
-          0% {
-            opacity: 0.8;
-            transform: translate(-50%, -50%) scale(1);
-          }
-          100% {
-            opacity: 0;
-            transform: translate(-50%, -50%) scale(3);
-          }
+          0% { opacity: 0.8; transform: translate(-50%, -50%) scale(1); }
+          100% { opacity: 0; transform: translate(-50%, -50%) scale(3); }
         }
 
         @keyframes gridRotate {
@@ -840,571 +308,530 @@ const Homepage = () => {
         }
 
         @keyframes waveExpand {
-          0% {
-            width: 100px;
-            height: 100px;
-            opacity: 0.6;
-          }
-          100% {
-            width: 400px;
-            height: 400px;
-            opacity: 0;
-          }
-        }
-
-        @keyframes iconFloat {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-10px); }
-        }
-
-        @keyframes hexRotate {
-          from { transform: translate(-50%, -50%) rotate(0deg); }
-          to { transform: translate(-50%, -50%) rotate(360deg); }
+          0% { width: 100px; height: 100px; opacity: 0.6; }
+          100% { width: 400px; height: 400px; opacity: 0; }
         }
 
         @keyframes glowRotate {
           from { transform: rotate(0deg); }
           to { transform: rotate(360deg); }
         }
-
-        /* Responsive Design */
-        @media (max-width: 1200px) {
-          .hero-grid {
-            gap: 60px;
-          }
-          
-          .hero-heading {
-            font-size: 52px;
-          }
-          
-          .holographic-globe {
-            width: 350px;
-            height: 350px;
-          }
-          
-          .features-grid-modern {
-            grid-template-columns: repeat(2, 1fr);
-          }
-        }
-
-        @media (max-width: 968px) {
-          .hero-grid {
-            grid-template-columns: 1fr;
-            gap: 60px;
-          }
-          
-          .hero-heading {
-            font-size: 48px;
-          }
-          
-          .hero-visual {
-            order: -1;
-          }
-          
-          .holographic-globe {
-            width: 300px;
-            height: 300px;
-          }
-          
-          .tech-grid {
-            grid-template-columns: 1fr;
-            gap: 60px;
-          }
-          
-          .section-heading {
-            font-size: 40px;
-          }
-
-          .features-grid-modern {
-            grid-template-columns: 1fr;
-          }
-        }
-
-        @media (max-width: 768px) {
-          .hero-container {
-            padding: 100px 6% 60px;
-          }
-          
-          .hero-heading {
-            font-size: 40px;
-            margin-bottom: 20px;
-          }
-          
-          .hero-description {
-            font-size: 16px;
-            line-height: 1.7;
-            max-width: 100%;
-          }
-          
-          .hero-actions {
-            flex-direction: column;
-            gap: 15px;
-            width: 100%;
-          }
-          
-          .btn-primary-glow,
-          .btn-outline {
-            width: 100%;
-            padding: 14px 20px;
-            text-align: center;
-          }
-          
-          .hero-stats {
-            flex-wrap: wrap;
-            gap: 30px 20px;
-          }
-          
-          .stat-divider {
-            display: none;
-          }
-          
-          .stat-value {
-            font-size: 28px;
-          }
-
-          .stat-label {
-            font-size: 13px;
-          }
-          
-          .features-grid-modern {
-            gap: 30px;
-          }
-          
-          .feature-card-modern {
-            padding: 36px 24px;
-          }
-
-          .card-icon {
-            font-size: 56px;
-            margin-bottom: 20px;
-          }
-
-          .card-title {
-            font-size: 22px;
-            margin-bottom: 12px;
-          }
-
-          .card-description {
-            font-size: 15px;
-            line-height: 1.6;
-            margin-bottom: 16px;
-          }
-
-          .card-stats {
-            font-size: 13px;
-          }
-
-          .card-arrow {
-            display: none;
-          }
-          
-          .section-heading {
-            font-size: 32px;
-            margin-bottom: 50px;
-          }
-          
-          .cta-container {
-            padding: 50px 30px;
-          }
-          
-          .cta-heading {
-            font-size: 32px;
-          }
-
-          .cta-text {
-            font-size: 16px;
-          }
-          
-          .holographic-globe {
-            width: 250px;
-            height: 250px;
-          }
-
-          .features-section,
-          .tech-section,
-          .cta-section-modern {
-            padding: 80px 6%;
-          }
-
-          .tech-visual {
-            order: -1;
-            margin-bottom: 20px;
-          }
-
-          .tech-content .section-heading {
-            text-align: center;
-          }
-
-          .tech-features {
-            gap: 20px;
-          }
-
-          .tech-item {
-            padding: 20px;
-          }
-
-          .tech-number {
-            font-size: 28px;
-            min-width: 40px;
-          }
-
-          .tech-info h4 {
-            font-size: 18px;
-            margin-bottom: 6px;
-          }
-
-          .tech-info p {
-            font-size: 14px;
-          }
-
-          .tech-hexagon {
-            width: 220px;
-            height: 220px;
-          }
-
-          /* Hide hex layers on mobile */
-          .hex-layer {
-            display: none;
-          }
-
-          .hex-center {
-            width: 100px;
-            height: 100px;
-          }
-
-          .center-icon {
-            font-size: 50px;
-          }
-        }
-
-        @media (max-width: 480px) {
-          .hero-container {
-            padding: 80px 5% 50px;
-          }
-
-          .hero-heading {
-            font-size: 32px;
-            letter-spacing: -1px;
-          }
-          
-          .hero-description {
-            font-size: 15px;
-            line-height: 1.6;
-          }
-
-          .btn-primary-glow,
-          .btn-outline {
-            padding: 12px 20px;
-            font-size: 15px;
-          }
-
-          .btn-primary-glow.large {
-            padding: 16px 30px;
-            font-size: 16px;
-          }
-
-          .hero-stats {
-            gap: 24px 16px;
-          }
-
-          .stat-value {
-            font-size: 24px;
-          }
-
-          .stat-label {
-            font-size: 12px;
-          }
-          
-          .section-heading {
-            font-size: 28px;
-            margin-bottom: 40px;
-          }
-
-          .section-label {
-            font-size: 12px;
-            gap: 12px;
-          }
-
-          .label-line {
-            width: 40px;
-          }
-          
-          .cta-heading {
-            font-size: 28px;
-            margin-bottom: 16px;
-          }
-
-          .cta-text {
-            font-size: 15px;
-            margin-bottom: 30px;
-          }
-
-          .cta-note {
-            font-size: 13px;
-          }
-          
-          .card-title {
-            font-size: 20px;
-          }
-
-          .card-description {
-            font-size: 14px;
-          }
-
-          .card-icon {
-            font-size: 48px;
-          }
-
-          .features-grid-modern {
-            gap: 24px;
-          }
-
-          .feature-card-modern {
-            padding: 30px 20px;
-            border-radius: 16px;
-          }
-
-          .tech-hexagon {
-            width: 180px;
-            height: 180px;
-          }
-
-          .hex-center {
-            width: 80px;
-            height: 80px;
-          }
-
-          .center-icon {
-            font-size: 40px;
-          }
-
-          .cta-container {
-            padding: 40px 24px;
-            border-radius: 20px;
-          }
-
-          .tech-item {
-            padding: 16px;
-            gap: 16px;
-          }
-
-          .tech-number {
-            font-size: 24px;
-            min-width: 35px;
-          }
-
-          .tech-info h4 {
-            font-size: 16px;
-          }
-
-          .tech-info p {
-            font-size: 13px;
-            line-height: 1.5;
-          }
-
-          .holographic-globe {
-            width: 200px;
-            height: 200px;
-          }
-
-          .features-section,
-          .tech-section,
-          .cta-section-modern {
-            padding: 60px 5%;
-          }
-        }
       `}</style>
-      <canvas id="particle-canvas" className="particle-canvas"></canvas>
-      
-      {/* Hero Section */}
-      <section className="hero-container">
-        <div className="hero-grid">
-          <div className="hero-content">
-            
-            <h1 className="hero-heading">
-              The Future of
-              <br />
-              <span className="gradient-text">Crypto Learning</span>
-              <br />
-              Starts Here
-            </h1>
-            
-            <p className="hero-description">
-              Experience next-generation cryptocurrency education with BiTry. 
-              AI-powered learning, risk-free trading simulations, and real-time 
-              market intelligence — available in Taglish.
-            </p>
-            
-            <div className="hero-actions">
-              <button className="btn-primary-glow" onClick={() => window.location.href = './signup'}>
-                <span>Launch Platform</span>
-                <div className="btn-glow"></div>
-              </button>
-              <button className="btn-outline" onClick={() => window.location.href = '#features'}>
-                <span>Explore Features</span>
-              </button>
-            </div>
-
-            <div className="hero-stats">
-              <div className="stat-item">
-                <div className="stat-value">100+</div>
-                <div className="stat-label">Crypto Pairs</div>
-              </div>
-              <div className="stat-divider"></div>
-              <div className="stat-item">
-                <div className="stat-value">24/7</div>
-                <div className="stat-label">News</div>
-              </div>
-              <div className="stat-divider"></div>
-              <div className="stat-item">
-                <div className="stat-value">100%</div>
-                <div className="stat-label">Risk-Free</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="hero-visual">
-            <div className="holographic-globe" ref={globeRef}>
-              <div className="globe-core">
-                <div className="core-inner"></div>
-                <div className="core-ring ring-1"></div>
-                <div className="core-ring ring-2"></div>
-                <div className="core-ring ring-3"></div>
-              </div>
-              
-              {cryptoMarkers.map((marker, idx) => (
-                <div 
-                  key={idx}
-                  className="crypto-marker"
-                  style={{
-                    '--angle': `${marker.angle}deg`,
-                    '--radius': `${marker.radius}px`,
-                    animationDelay: `${idx * 0.2}s`
-                  }}
-                >
-                  <div className="marker-dot"></div>
-                  <div className="marker-label">{marker.name}</div>
-                  <div className="marker-pulse"></div>
-                </div>
-              ))}
-              
-              <div className="globe-grid"></div>
-              <div className="energy-waves">
-                <div className="wave wave-1"></div>
-                <div className="wave wave-2"></div>
-                <div className="wave wave-3"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="features-section" id="features">
-        <div className="section-label">
-          <span className="label-line"></span>
-          <span>Core Features</span>
-          <span className="label-line"></span>
-        </div>
-        
-        <h2 className="section-heading">
-          Powered by <span className="gradient-text">Advanced AI</span>
-        </h2>
-
-        <div className="features-grid-modern">
-          {features.map((feature) => (
-            <div 
-              key={feature.id}
-              className={`feature-card-modern ${activeCard === feature.id ? 'active' : ''}`}
-              onMouseEnter={() => setActiveCard(feature.id)}
-              onMouseLeave={() => setActiveCard(null)}
-              onClick={() => window.location.href = feature.link}
-            >
-              <div className="card-glow" style={{ '--glow-color': feature.color }}></div>
-              <div className="card-content">
-                <div className="card-icon">{feature.icon}</div>
-                <h3 className="card-title">{feature.title}</h3>
-                <p className="card-description">{feature.description}</p>
-                <div className="card-stats">{feature.stats}</div>
-              </div>
-              <div className="card-arrow">→</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Technology Section */}
-      <section className="tech-section">
-        <div className="tech-grid">
-          <div className="tech-visual">
-            <div className="tech-hexagon">
-              <div className="hex-layer layer-1"></div>
-              <div className="hex-layer layer-2"></div>
-              <div className="hex-layer layer-3"></div>
-              <div className="hex-center">
-                <div className="center-icon">₿</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="tech-content">
-            <div className="section-label">
-              <span className="label-line"></span>
-              <span>Technology</span>
-            </div>
-            
-            <h2 className="section-heading">
-              Built for the <span className="gradient-text">Next Generation</span>
-            </h2>
-            
-            <div className="tech-features">
-              <div className="tech-item">
-                <div className="tech-number">01</div>
-                <div className="tech-info">
-                  <h4>AI-Powered Information</h4>
-                  <p>Learn with AI by your side</p>
-                </div>
-              </div>
-              
-              <div className="tech-item">
-                <div className="tech-number">02</div>
-                <div className="tech-info">
-                  <h4>Real-Time Market Data</h4>
-                  <p>Live cryptocurrency prices and trading simulations</p>
-                </div>
-              </div>
-              
-              <div className="tech-item">
-                <div className="tech-number">03</div>
-                <div className="tech-info">
-                  <h4>Secure & Private</h4>
-                  <p>Your learning data stays protected and encrypted</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="cta-section-modern">
-        <div className="cta-container">
-          <div className="cta-glow-effect"></div>
-          <h2 className="cta-heading">
-            Start Your Crypto Journey <span className="gradient-text">Today</span>
-          </h2>
-          <p className="cta-text">
-            Join thousands of Filipino learners mastering cryptocurrency trading with BiTry
-          </p>
-          <button className="btn-primary-glow large" onClick={() => window.location.href = './signup'}>
-            <span>Get Started Free</span>
-            <div className="btn-glow"></div>
-          </button>
-          <div className="cta-note">Start learning in minutes</div>
-        </div>
-      </section>
     </div>
   );
 };
 
-export default Homepage;
+const styles = {
+  container: {
+    minHeight: '100vh',
+    background: '#0b0e11',
+    color: '#ffffff',
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+    position: 'relative',
+    overflow: 'hidden'
+  },
+  canvas: {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    zIndex: 0,
+    opacity: 0.15,
+    pointerEvents: 'none'
+  },
+  hero: {
+    minHeight: '100vh',
+    display: 'flex',
+    alignItems: 'center',
+    padding: '140px 6% 100px',
+    position: 'relative',
+    zIndex: 1
+  },
+  heroGrid: {
+    maxWidth: '1400px',
+    margin: '0 auto',
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr',
+    gap: '80px',
+    alignItems: 'center',
+    width: '100%'
+  },
+  heroContent: {
+    animation: 'fadeInUp 1s ease-out'
+  },
+  badge: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '10px',
+    padding: '10px 24px',
+    background: 'rgba(0, 212, 255, 0.1)',
+    border: '1px solid rgba(0, 212, 255, 0.3)',
+    borderRadius: '50px',
+    fontSize: '14px',
+    fontWeight: '600',
+    color: '#00d4ff',
+    marginBottom: '32px'
+  },
+  badgeDot: {
+    width: '8px',
+    height: '8px',
+    background: '#00d4ff',
+    borderRadius: '50%',
+    animation: 'pulse 2s infinite'
+  },
+  heroTitle: {
+    fontSize: '72px',
+    fontWeight: '900',
+    lineHeight: '1.1',
+    marginBottom: '24px',
+    letterSpacing: '-2px'
+  },
+  gradient: {
+    background: 'linear-gradient(135deg, #00d4ff, #00fff2)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+    backgroundClip: 'text'
+  },
+  heroSubtitle: {
+    fontSize: '20px',
+    lineHeight: '1.7',
+    color: 'rgba(255, 255, 255, 0.7)',
+    marginBottom: '48px',
+    maxWidth: '540px'
+  },
+  heroButtons: {
+    display: 'flex',
+    gap: '16px',
+    marginBottom: '60px'
+  },
+  primaryButton: {
+    padding: '18px 40px',
+    background: '#00d4ff',
+    color: '#0b0e11',
+    border: 'none',
+    borderRadius: '12px',
+    fontSize: '17px',
+    fontWeight: '700',
+    cursor: 'pointer',
+    transition: 'all 0.3s',
+    whiteSpace: 'nowrap'
+  },
+  secondaryButton: {
+    padding: '18px 40px',
+    background: 'transparent',
+    color: '#00d4ff',
+    border: '2px solid #00d4ff',
+    borderRadius: '12px',
+    fontSize: '17px',
+    fontWeight: '700',
+    cursor: 'pointer',
+    transition: 'all 0.3s',
+    whiteSpace: 'nowrap'
+  },
+  statsRow: {
+    display: 'flex',
+    gap: '40px',
+    alignItems: 'center'
+  },
+  stat: {
+    textAlign: 'left'
+  },
+  statValue: {
+    fontSize: '36px',
+    fontWeight: '800',
+    color: '#00d4ff',
+    marginBottom: '4px'
+  },
+  statLabel: {
+    fontSize: '14px',
+    color: 'rgba(255, 255, 255, 0.5)'
+  },
+  statDivider: {
+    width: '1px',
+    height: '40px',
+    background: 'rgba(255, 255, 255, 0.1)'
+  },
+  heroVisual: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  globe: {
+    position: 'relative',
+    width: '400px',
+    height: '400px',
+    animation: 'float 6s ease-in-out infinite'
+  },
+  globeCore: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: '200px',
+    height: '200px'
+  },
+  coreInner: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: '100px',
+    height: '100px',
+    background: 'radial-gradient(circle, #00d4ff 0%, transparent 70%)',
+    borderRadius: '50%',
+    animation: 'corePulse 3s ease-in-out infinite'
+  },
+  coreRing: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    border: '2px solid #00d4ff',
+    borderRadius: '50%',
+    opacity: 0.3
+  },
+  ring1: {
+    width: '120px',
+    height: '120px',
+    animation: 'ringRotate 10s linear infinite'
+  },
+  ring2: {
+    width: '160px',
+    height: '160px',
+    animation: 'ringRotate 15s linear infinite reverse'
+  },
+  ring3: {
+    width: '200px',
+    height: '200px',
+    animation: 'ringRotate 20s linear infinite'
+  },
+  marker: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    width: '40px',
+    height: '40px',
+    transformOrigin: 'center',
+    animation: 'markerOrbit 20s linear infinite'
+  },
+  markerDot: {
+    width: '12px',
+    height: '12px',
+    background: '#00d4ff',
+    borderRadius: '50%',
+    boxShadow: '0 0 20px rgba(0, 212, 255, 0.8)',
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)'
+  },
+  markerLabel: {
+    position: 'absolute',
+    top: '-30px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    fontSize: '12px',
+    fontWeight: '600',
+    color: '#00d4ff',
+    whiteSpace: 'nowrap',
+    textShadow: '0 0 10px rgba(0, 212, 255, 0.5)'
+  },
+  markerPulse: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: '12px',
+    height: '12px',
+    background: '#00d4ff',
+    borderRadius: '50%',
+    animation: 'markerPulse 2s ease-out infinite'
+  },
+  globeGrid: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: '300px',
+    height: '300px',
+    backgroundImage: `linear-gradient(rgba(0, 212, 255, 0.1) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(0, 212, 255, 0.1) 1px, transparent 1px)`,
+    backgroundSize: '30px 30px',
+    borderRadius: '50%',
+    opacity: 0.2,
+    animation: 'gridRotate 30s linear infinite'
+  },
+  waves: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: '100%',
+    height: '100%'
+  },
+  wave: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    border: '2px solid #00d4ff',
+    borderRadius: '50%',
+    opacity: 0
+  },
+  wave1: {
+    animation: 'waveExpand 3s ease-out infinite'
+  },
+  wave2: {
+    animation: 'waveExpand 3s ease-out infinite 1s'
+  },
+  wave3: {
+    animation: 'waveExpand 3s ease-out infinite 2s'
+  },
+  features: {
+    padding: '120px 6%',
+    position: 'relative',
+    zIndex: 1
+  },
+  sectionTag: {
+    display: 'block',
+    textAlign: 'center',
+    fontSize: '13px',
+    fontWeight: '700',
+    color: '#00d4ff',
+    letterSpacing: '3px',
+    marginBottom: '20px'
+  },
+  sectionTitle: {
+    textAlign: 'center',
+    fontSize: '56px',
+    fontWeight: '900',
+    marginBottom: '80px',
+    letterSpacing: '-1px'
+  },
+  featuresGrid: {
+    maxWidth: '1200px',
+    margin: '0 auto',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    gap: '32px'
+  },
+  /* How It Works */
+  howItWorks: {
+    padding: '100px 6%',
+    background: 'transparent',
+    position: 'relative',
+    zIndex: 1
+  },
+  sectionHeader: {
+    textAlign: 'center',
+    marginBottom: '40px'
+  },
+  stepsContainer: {
+    maxWidth: '1200px',
+    margin: '0 auto',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(4, 1fr)',
+    gap: '24px',
+    alignItems: 'start'
+  },
+  stepCard: {
+    position: 'relative',
+    padding: '28px',
+    background: 'rgba(22,26,30,0.6)',
+    border: '1px solid rgba(0,212,255,0.08)',
+    borderRadius: '16px',
+    textAlign: 'left'
+  },
+  stepNumber: {
+    width: '48px',
+    height: '48px',
+    borderRadius: '12px',
+    background: '#00d4ff',
+    color: '#0b0e11',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontWeight: 800,
+    marginBottom: '16px'
+  },
+  stepTitle: {
+    fontSize: '18px',
+    fontWeight: 800,
+    marginBottom: '8px'
+  },
+  stepDesc: {
+    color: 'rgba(255,255,255,0.7)',
+    fontSize: '14px',
+    lineHeight: 1.6
+  },
+  stepConnector: {
+    position: 'absolute',
+    right: '-12px',
+    top: '50%',
+    width: '24px',
+    height: '2px',
+    background: 'rgba(255,255,255,0.06)',
+    transform: 'translateY(-50%)'
+  },
+  stepBadge: {
+    position: 'relative',
+    display: 'inline-block',
+    marginBottom: '14px'
+  },
+  stepCircle: {
+    width: '64px',
+    height: '64px',
+    borderRadius: '50%',
+    background: 'linear-gradient(135deg, #00d4ff, #00fff2)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '28px',
+    boxShadow: '0 16px 40px rgba(0,212,255,0.12)'
+  },
+  stepNumberPill: {
+    position: 'absolute',
+    top: '-10px',
+    right: '-10px',
+    background: '#071018',
+    color: '#00d4ff',
+    border: '2px solid rgba(255,255,255,0.06)',
+    padding: '6px 10px',
+    borderRadius: '12px',
+    fontWeight: 800,
+    fontSize: '12px'
+  },
+  featureCard: {
+    padding: '48px 36px',
+    background: 'rgba(22, 26, 30, 0.6)',
+    border: '1px solid rgba(0, 212, 255, 0.2)',
+    borderRadius: '24px',
+    backdropFilter: 'blur(10px)',
+    cursor: 'pointer',
+    transition: 'all 0.4s',
+    position: 'relative',
+    overflow: 'hidden'
+  },
+  cardIcon: {
+    fontSize: '56px',
+    marginBottom: '24px',
+    display: 'block'
+  },
+  cardTitle: {
+    fontSize: '28px',
+    fontWeight: '700',
+    marginBottom: '16px',
+    color: '#ffffff'
+  },
+  cardDesc: {
+    fontSize: '16px',
+    lineHeight: '1.6',
+    color: 'rgba(255, 255, 255, 0.6)'
+  },
+  cardArrow: {
+    position: 'absolute',
+    bottom: '36px',
+    right: '36px',
+    fontSize: '24px',
+    color: '#00d4ff',
+    opacity: 0,
+    transition: 'all 0.3s'
+  },
+  cta: {
+    padding: '100px 6% 120px',
+    position: 'relative',
+    zIndex: 1
+  },
+  ctaCard: {
+    maxWidth: '800px',
+    margin: '0 auto',
+    padding: '80px 60px',
+    background: 'rgba(22, 26, 30, 0.6)',
+    border: '1px solid rgba(0, 212, 255, 0.3)',
+    borderRadius: '32px',
+    textAlign: 'center',
+    position: 'relative',
+    overflow: 'hidden'
+  },
+  ctaGlow: {
+    position: 'absolute',
+    top: '-50%',
+    left: '-50%',
+    width: '200%',
+    height: '200%',
+    background: 'radial-gradient(circle, rgba(0, 212, 255, 0.1), transparent 70%)',
+    animation: 'glowRotate 20s linear infinite'
+  },
+  ctaTitle: {
+    fontSize: '52px',
+    fontWeight: '900',
+    marginBottom: '20px',
+    position: 'relative',
+    zIndex: 2
+  },
+  ctaSubtitle: {
+    fontSize: '20px',
+    color: 'rgba(255, 255, 255, 0.7)',
+    marginBottom: '40px',
+    position: 'relative',
+    zIndex: 2
+  },
+  ctaButton: {
+    padding: '20px 48px',
+    background: '#00d4ff',
+    color: '#0b0e11',
+    border: 'none',
+    borderRadius: '12px',
+    fontSize: '18px',
+    fontWeight: '700',
+    cursor: 'pointer',
+    transition: 'all 0.3s',
+    position: 'relative',
+    zIndex: 2
+  },
+  ctaNote: {
+    marginTop: '20px',
+    fontSize: '14px',
+    color: 'rgba(255, 255, 255, 0.5)',
+    position: 'relative',
+    zIndex: 2
+  },
+  '@media (max-width: 968px)': {
+    heroGrid: {
+      gridTemplateColumns: '1fr',
+      gap: '60px'
+    },
+    heroTitle: {
+      fontSize: '52px'
+    },
+    featuresGrid: {
+      gridTemplateColumns: 'repeat(2, 1fr)'
+    },
+    stepsContainer: {
+      gridTemplateColumns: 'repeat(2, 1fr)'
+    }
+  },
+  '@media (max-width: 640px)': {
+    heroTitle: {
+      fontSize: '40px'
+    },
+    heroSubtitle: {
+      fontSize: '18px'
+    },
+    statsRow: {
+      flexWrap: 'wrap'
+    },
+    featuresGrid: {
+      gridTemplateColumns: '1fr'
+    },
+    sectionTitle: {
+      fontSize: '40px'
+    },
+    ctaTitle: {
+      fontSize: '36px'
+    }
+  }
+};
+
+export default BiTryHomepage;
