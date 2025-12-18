@@ -772,6 +772,10 @@
     font-size: 10px;
   }
 
+  .sidebar-item.active {
+    transform: none;
+  }
+
   .sidebar-label {
     display: block;
     font-size: 11px;
@@ -791,9 +795,69 @@
 
   .profile-header { flex-direction: column; text-align: center; }
 
-  .table-container { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .table-container { overflow-x: visible; -webkit-overflow-scrolling: touch; }
 
-  .modern-table { min-width: 800px; }
+  .modern-table {
+    border: 0;
+    width: 100%;
+  }
+
+  .modern-table thead {
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .modern-table tr {
+    background-color: rgba(22, 26, 30, 0.7);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .modern-table td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: block;
+    padding: 12px 15px 12px 50%;
+    position: relative;
+    text-align: right;
+  }
+
+  .modern-table td::before {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    width: 45%;
+    transform: translateY(-50%);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .modern-table td:last-child {
+    border-bottom: 0;
+  }
+
+  .modern-table td:nth-of-type(1)::before { content: "Market"; }
+  .modern-table td:nth-of-type(2)::before { content: "Side"; }
+  .modern-table td:nth-of-type(3)::before { content: "Size"; }
+  .modern-table td:nth-of-type(4)::before { content: "Entry Price"; }
+
+  .positions-section .modern-table td:nth-of-type(5)::before { content: "Mark Price"; }
+  .positions-section .modern-table td:nth-of-type(6)::before { content: "Margin"; }
+  .positions-section .modern-table td:nth-of-type(7)::before { content: "PnL"; }
+  .positions-section .modern-table td:nth-of-type(8)::before { content: "Actions"; }
+
+  .history-section .modern-table td:nth-of-type(5)::before { content: "Exit Price"; }
+  .history-section .modern-table td:nth-of-type(6)::before { content: "PnL"; }
+  .history-section .modern-table td:nth-of-type(7)::before { content: "Fees"; }
+  .history-section .modern-table td:nth-of-type(8)::before { content: "Close Time"; }
 }
 
 @media (max-width: 480px) {

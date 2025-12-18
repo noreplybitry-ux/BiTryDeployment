@@ -1040,7 +1040,7 @@ export default function Dashboard() {
               closeTime: new Date(trade.created_at).toLocaleString()
             }));
             return (
-              <section className="page-card">
+              <section className="page-card history-section">
                 <div className="section-header">
                   <h3>Trading History</h3>
                   <div className="section-actions">
