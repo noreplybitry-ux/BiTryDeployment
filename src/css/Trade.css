@@ -1197,26 +1197,6 @@ body {
   gap: 8px;
 }
 
-.header-controls {
-  display: flex;
-  gap: 8px;
-}
-
-.expand-toggle {
-  background: none;
-  border: none;
-  color: var(--text-secondary);
-  font-size: 1.2rem;
-  cursor: pointer;
-  padding: 0 8px;
-  transition: all 0.2s ease;
-}
-
-.expand-toggle:hover {
-  color: var(--text-primary);
-  transform: scale(1.1);
-}
-
 .help-toggle {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -1232,38 +1212,6 @@ body {
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
-.collapsed-view {
-  text-align: center;
-  padding: 20px 0;
-}
-
-.expand-button {
-  background: var(--accent-blue);
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
-}
-
-.expand-button:hover {
-  background: #1976d2;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(33, 150, 243, 0.4);
-}
-
-.technical-loading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  padding: 40px 0;
-  color: var(--text-secondary);
 }
 
 .main-signal {
