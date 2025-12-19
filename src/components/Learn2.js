@@ -52,6 +52,7 @@ const Learn2 = () => {
   // New states for edit functionality
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [editingModule, setEditingModule] = useState(null);
+  // New states for edit functionality
   const [editFormData, setEditFormData] = useState({
     title: "",
     intro: "",
@@ -756,75 +757,130 @@ Output ONLY the section content with quiz at the end:`;
       day: "numeric",
     });
   };
-  const handleGenerateQuiz = async () => {
-    if (!selectedQuizModuleId) {
-      setGenerateQuizError("Please select a module");
+  const getGamePrompt = (type, langInstruction, moduleContent) => {
+    const basePrompt = `Act as an expert educational game designer specializing in interactive learning activities. Your goal is to create fun, engaging, and comprehensive mini-games that reinforce key concepts from the provided module content. The games should be detailed, directly derived from the content (using key terms, definitions, examples, and explanations), and suitable for middle school students or general learners. Make the games challenging yet educational, incorporating creative elements like riddles or real-life scenarios to build understanding. Ensure each game tests recall, application, and comprehension of the material.
+
+Module Content: ${moduleContent.substring(0, 20000)}
+
+${langInstruction}
+    
+Generate data ONLY for the ${type} mini-game:`;
+
+    switch (type) {
+      case "hangman":
+        return `${basePrompt}
+- Generate 5 key words or terms directly from the content.
+- For each word, provide a detailed hint that describes the concept without giving away the word (using riddles or examples from the content).
+- Output format: {"words": [{"word": "TERM", "hint": "Detailed description or riddle based on content."}, ...]}`;
+      case "matching":
+        return `${basePrompt}
+- Generate 5 pairs of terms/concepts and their matching definitions or related items, covering core ideas from the content.
+- Make pairs comprehensive, using detailed definitions or examples.
+- Output format: {"pairs": [["Term or Concept", "Detailed definition or matching item"], ...]}`;
+      case "fillblanks":
+        return `${basePrompt}
+- Generate 5 detailed sentences based on or adapted from the content, with one key word or phrase blanked out (use _____ for the blank).
+- Sentences should test deep understanding, e.g., by including context or examples.
+- Output format: {"blanks": [{"sentence": "Detailed sentence with _____ for the blank.", "answer": "The exact answer word/phrase"}, ...]}`;
+      case "anagram":
+        return `${basePrompt}
+- Generate 5 scrambled versions of key terms from the content.
+- For each, provide a detailed hint (e.g., a riddle or descriptive clue from the content).
+- Output format: {"anagrams": [{"scrambled": "scrambledletters", "original": "ORIGINALTERM", "hint": "Detailed clue or riddle."}, ...]}`;
+      case "wordsearch":
+        return `${basePrompt}
+- Generate a 10x10 grid of letters with exactly 5 key words hidden (horizontal, vertical, or diagonal; no overlaps; fill remaining spaces with random uppercase letters).
+- For each word, provide:
+  - A descriptive clue (e.g., a riddle or detailed description from the content) that helps the user guess the word without revealing it directly.
+  - An additional hint (e.g., first letter, length, or extra context) that can be revealed optionally (this allows for score adjustment if used).
+- Ensure words are key terms from the content.
+- Output format: {"grid": [["A", "B", ...], ...], "words": [{"word": "TERM", "clue": "Detailed descriptive clue or riddle to guess the word.", "hint": "Additional optional hint for help."}, ...]}`;
+      default:
+        return "";
+    }
+  };
+  const handleGenerateMiniGames = async () => {
+    if (!selectedMiniGamesModuleId || selectedGameTypes.length === 0) {
+      setGenerateMiniGamesError(
+        "Please select a module and at least one game type."
+      );
       return;
     }
-    setIsGeneratingQuiz(true);
-    setGenerateQuizError(null);
+    setIsGeneratingMiniGames(true);
+    setGenerateMiniGamesError(null);
     try {
-      const { data: module, error } = await supabase
+      const { data: module, error: fetchError } = await supabase
         .from("learning_modules")
         .select("*")
-        .eq("id", selectedQuizModuleId)
+        .eq("id", selectedMiniGamesModuleId)
         .single();
-      if (error) throw error;
-      let contentText = module.content.intro;
-      module.content.sections.forEach((s) => {
+      if (fetchError) throw fetchError;
+      const contentKey = isMiniGamesTaglish ? "taglish_content" : "content";
+      if (!module[contentKey]) {
+        throw new Error(
+          `No ${
+            isMiniGamesTaglish ? "TagLish" : "English"
+          } content available for this module.`
+        );
+      }
+      let contentText = module[contentKey].intro;
+      module[contentKey].sections.forEach((s) => {
         contentText += `\n\n${s.title}\n${s.body}`;
       });
-      const prompt = `You are an expert quiz creator for cryptocurrency education. Based on the following module content, generate exactly ${numQuestions} unique multiple-choice questions. Each question should:
-- Be relevant to the module content.
-- Have 4 options (A, B, C, D).
-- Have exactly one correct answer.
-- Be suitable for ${module.level} level.
-Output ONLY a valid JSON array of objects, no other text:
-[
-  {
-    "question": "The question text?",
-    "options": ["Option A", "Option B", "Option C", "Option D"],
-    "correct": 0 // index of correct option, 0-3
-  },
-  ...
-]
+      const langInstruction = isMiniGamesTaglish
+        ? "Generate the game in casual TagLish (Tagalog-English mix). Keep key cryptocurrency terms in English, but use TagLish for descriptions, sentences, and hints."
+        : "Generate the game in clear English.";
+      const inserts = [];
+      for (const type of selectedGameTypes) {
+        const gamePrompt = getGamePrompt(type, langInstruction, contentText);
+        if (!gamePrompt) continue;
+        const prompt = `You are an educational game creator for cryptocurrency beginners. ${langInstruction}
+Based on the following module content, generate a ${type} mini-game.
 Module Title: ${module.title}
 Keywords: ${module.keywords.join(", ")}
 Content:
-${contentText.substring(0, 20000)}`;
-      const response = await callGeminiAPI(prompt, QUIZ_API_KEY);
-      let questions;
-      try {
-        // Clean the response to remove Markdown code blocks
-        const cleanedResponse = response
-          .replace(/```json\s*/g, "") // Remove opening ```json
-          .replace(/\s*```/g, "") // Remove closing ```
-          .trim(); // Trim whitespace
-        questions = JSON.parse(cleanedResponse);
-        if (!Array.isArray(questions) || questions.length !== numQuestions) {
-          throw new Error("Invalid response format");
+${contentText.substring(0, 20000)}
+${gamePrompt}
+Output the entire response as a single JSON object.`;
+        const response = await callGeminiAPI(prompt, MODULE_API_KEY, 3);
+        let gameData;
+        try {
+          const cleaned = response
+            .replace(/```json\s*/g, "")
+            .replace(/\s*```/g, "")
+            .trim();
+          gameData = JSON.parse(cleaned);
+        } catch (parseErr) {
+          console.error(`Failed to parse ${type} game data:`, parseErr);
+          continue; // Skip invalid
         }
-      } catch (parseErr) {
-        throw new Error("Failed to parse AI response: " + parseErr.message);
+        inserts.push({
+          module_id: selectedMiniGamesModuleId,
+          game_type: type,
+          data: gameData,
+          status: "pending",
+          is_taglish: isMiniGamesTaglish,
+        });
       }
-      const inserts = questions.map((q) => ({
-        module_id: selectedQuizModuleId,
-        question_text: q.question,
-        options: q.options,
-        correct_answer: q.correct,
-        status: "pending",
-      }));
-      const { error: insertError } = await supabase
-        .from("quiz_questions")
-        .insert(inserts);
-      if (insertError) throw insertError;
-      alert(`${numQuestions} questions generated and awaiting validation.`);
-      await fetchQuestionCounts();
-      toggleGenerateQuizModal();
+      if (inserts.length > 0) {
+        const { error: insertError } = await supabase
+          .from("mini_games")
+          .insert(inserts);
+        if (insertError) throw insertError;
+        alert(
+          `${inserts.length} mini-games generated and awaiting validation.`
+        );
+      } else {
+        alert("No valid mini-games generated.");
+      }
+      toggleGenerateMiniGamesModal();
     } catch (err) {
-      setGenerateQuizError(err.message);
+      console.error("Error generating mini-games:", err.message);
+      setGenerateMiniGamesError(
+        `Failed to generate mini-games: ${err.message}`
+      );
     } finally {
-      setIsGeneratingQuiz(false);
+      setIsGeneratingMiniGames(false);
     }
   };
   const fetchPendingQuestions = async () => {
@@ -976,103 +1032,75 @@ ${contentText.substring(0, 20000)}`;
       }
     });
   };
-  const getGamePrompt = (type) => {
-    switch (type) {
-      case "matching":
-        return 'Generate 6-8 pairs of terms and definitions. Output ONLY JSON: {"pairs": [["term1", "definition1"], ["term2", "definition2"], ...]}';
-      case "fillblanks":
-        return 'Generate 6-8 fill-in-the-blank sentences. Output ONLY JSON: {"blanks": [{"sentence": "Text with _ for blank.", "answer": "word"}, ...]}';
-      case "anagram":
-        return 'Generate 6-8 anagrams with hints. Output ONLY JSON: {"anagrams": [{"scrambled": "abc", "original": "cab", "hint": "A hint"}, ...]}';
-      case "hangman":
-        return 'Generate 6-8 words with hints. Output ONLY JSON: {"words": [{"word": "word", "hint": "A hint"}, ...]}';
-      case "wordsearch":
-        return 'Generate 8-12 words and create a 12x12 grid with them hidden (horizontal, vertical, diagonal). Fill empty cells with random letters. Output ONLY JSON: {"words": ["word1", ...], "grid": [["A", "B", ...], ...]}';
-      default:
-        return "";
-    }
-  };
-  const handleGenerateMiniGames = async () => {
-    if (!selectedMiniGamesModuleId || selectedGameTypes.length === 0) {
-      setGenerateMiniGamesError(
-        "Please select a module and at least one game type."
-      );
+  const handleGenerateQuiz = async () => {
+    if (!selectedQuizModuleId) {
+      setGenerateQuizError("Please select a module");
       return;
     }
-    setIsGeneratingMiniGames(true);
-    setGenerateMiniGamesError(null);
+    setIsGeneratingQuiz(true);
+    setGenerateQuizError(null);
     try {
-      const { data: module, error: fetchError } = await supabase
+      const { data: module, error } = await supabase
         .from("learning_modules")
         .select("*")
-        .eq("id", selectedMiniGamesModuleId)
+        .eq("id", selectedQuizModuleId)
         .single();
-      if (fetchError) throw fetchError;
-      const contentKey = isMiniGamesTaglish ? "taglish_content" : "content";
-      if (!module[contentKey]) {
-        throw new Error(
-          `No ${
-            isMiniGamesTaglish ? "TagLish" : "English"
-          } content available for this module.`
-        );
-      }
-      let contentText = module[contentKey].intro;
-      module[contentKey].sections.forEach((s) => {
+      if (error) throw error;
+      let contentText = module.content.intro;
+      module.content.sections.forEach((s) => {
         contentText += `\n\n${s.title}\n${s.body}`;
       });
-      const langInstruction = isMiniGamesTaglish
-        ? "Generate the game in casual TagLish (Tagalog-English mix). Keep key cryptocurrency terms in English, but use TagLish for descriptions, sentences, and hints."
-        : "Generate the game in clear English.";
-      const inserts = [];
-      for (const type of selectedGameTypes) {
-        const gamePrompt = getGamePrompt(type);
-        if (!gamePrompt) continue;
-        const prompt = `You are an educational game creator for cryptocurrency beginners. ${langInstruction}
-Based on the following module content, generate a ${type} mini-game.
+      const prompt = `You are an expert quiz creator for cryptocurrency education. Based on the following module content, generate exactly ${numQuestions} unique multiple-choice questions. Each question should:
+- Be relevant to the module content.
+- Have 4 options (A, B, C, D).
+- Have exactly one correct answer.
+- Be suitable for ${module.level} level.
+Output ONLY a valid JSON array of objects, no other text:
+[
+  {
+    "question": "The question text?",
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": 0 // index of correct option, 0-3
+  },
+  ...
+]
 Module Title: ${module.title}
 Keywords: ${module.keywords.join(", ")}
 Content:
-${contentText.substring(0, 20000)}
-${gamePrompt}`;
-        const response = await callGeminiAPI(prompt, MODULE_API_KEY, 3);
-        let gameData;
-        try {
-          const cleaned = response
-            .replace(/```json\s*/g, "")
-            .replace(/\s*```/g, "")
-            .trim();
-          gameData = JSON.parse(cleaned);
-        } catch (parseErr) {
-          console.error(`Failed to parse ${type} game data:`, parseErr);
-          continue; // Skip invalid
+${contentText.substring(0, 20000)}`;
+      const response = await callGeminiAPI(prompt, QUIZ_API_KEY);
+      let questions;
+      try {
+        // Clean the response to remove Markdown code blocks
+        const cleanedResponse = response
+          .replace(/```json\s*/g, "") // Remove opening ```json
+          .replace(/\s*```/g, "") // Remove closing ```
+          .trim(); // Trim whitespace
+        questions = JSON.parse(cleanedResponse);
+        if (!Array.isArray(questions) || questions.length !== numQuestions) {
+          throw new Error("Invalid response format");
         }
-        inserts.push({
-          module_id: selectedMiniGamesModuleId,
-          game_type: type,
-          data: gameData,
-          status: "pending",
-          is_taglish: isMiniGamesTaglish,
-        });
+      } catch (parseErr) {
+        throw new Error("Failed to parse AI response: " + parseErr.message);
       }
-      if (inserts.length > 0) {
-        const { error: insertError } = await supabase
-          .from("mini_games")
-          .insert(inserts);
-        if (insertError) throw insertError;
-        alert(
-          `${inserts.length} mini-games generated and awaiting validation.`
-        );
-      } else {
-        alert("No valid mini-games generated.");
-      }
-      toggleGenerateMiniGamesModal();
+      const inserts = questions.map((q) => ({
+        module_id: selectedQuizModuleId,
+        question_text: q.question,
+        options: q.options,
+        correct_answer: q.correct,
+        status: "pending",
+      }));
+      const { error: insertError } = await supabase
+        .from("quiz_questions")
+        .insert(inserts);
+      if (insertError) throw insertError;
+      alert(`${numQuestions} questions generated and awaiting validation.`);
+      await fetchQuestionCounts();
+      toggleGenerateQuizModal();
     } catch (err) {
-      console.error("Error generating mini-games:", err.message);
-      setGenerateMiniGamesError(
-        `Failed to generate mini-games: ${err.message}`
-      );
+      setGenerateQuizError(err.message);
     } finally {
-      setIsGeneratingMiniGames(false);
+      setIsGeneratingQuiz(false);
     }
   };
   const fetchPendingMiniGames = async () => {
