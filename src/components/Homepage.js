@@ -648,6 +648,13 @@ const BiTryHomepage = () => {
           letter-spacing: 3px;
           margin-bottom: 20px;
         }
+        /* Ensure the small tag is centered inside the How It Works section */
+        .how-it-works .section-tag {
+          width: fit-content;
+          margin: 0 auto 20px;
+          display: block;
+          text-align: center;
+        }
 
         .section-title {
           text-align: center;
@@ -674,8 +681,9 @@ const BiTryHomepage = () => {
         }
 
         .section-header {
+          max-width: 900px;
+          margin: 0 auto 40px;
           text-align: center;
-          margin-bottom: 40px;
         }
 
         .steps-container {
@@ -684,7 +692,7 @@ const BiTryHomepage = () => {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
           gap: 24px;
-          align-items: start;
+          align-items: stretch;
         }
 
         .step-card {
@@ -694,6 +702,10 @@ const BiTryHomepage = () => {
           border: 1px solid rgba(0,212,255,0.08);
           border-radius: 16px;
           text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          height: 100%;
         }
 
         .step-title {
