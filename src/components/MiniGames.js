@@ -2,20 +2,26 @@
 import React, { useState } from "react";
 import { supabase } from "../lib/supabase";
 
-// Define consistent color scheme
+// Site color palette (matches homepage accents and glass surfaces)
 const theme = {
-  primaryGradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-  successGradient: "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
-  errorGradient: "linear-gradient(135deg, #ee0979 0%, #ff6a00 100%)",
-  infoGradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-  warningGradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-  backgroundLight: "rgba(255,255,255,0.95)",
-  textPrimary: "#667eea",
-  textDark: "#333",
-  textLight: "#fff",
-  shadow: "0 20px 60px rgba(0,0,0,0.3)",
-  shadowSmall: "0 4px 15px rgba(0,0,0,0.2)",
-  shadowHover: "0 6px 20px rgba(0,0,0,0.3)",
+  primaryGradient: "linear-gradient(135deg, #00d4ff 0%, #00fff2 100%)",
+  successGradient: "linear-gradient(135deg, #02c076 0%, #38ef7d 100%)",
+  errorGradient: "linear-gradient(135deg, #f84960 0%, #ff6b6b 100%)",
+  infoGradient: "linear-gradient(135deg, #00b8e6 0%, #00fff2 100%)",
+  warningGradient: "linear-gradient(135deg, #ffa726 0%, #ffb74d 100%)",
+  /* subtle glass panel over dark site background */
+  backgroundLight: "rgba(255,255,255,0.03)",
+  /* accent color */
+  textPrimary: "#00d4ff",
+  /* readable light text on dark glass */
+  textDark: "rgba(255,255,255,0.95)",
+  /* dark text used on bright gradient buttons */
+  textLight: "#0b0e11",
+  /* glass surface for outer wrappers */
+  surface: "rgba(22,26,30,0.6)",
+  shadow: "0 24px 60px rgba(0,0,0,0.6)",
+  shadowSmall: "0 6px 18px rgba(0,0,0,0.45)",
+  shadowHover: "0 10px 30px rgba(0,0,0,0.6)",
 };
 
 // Enhanced HangmanGame (already fits, minor adjustments for consistency)
@@ -75,9 +81,9 @@ export const HangmanGame = ({ data, onComplete }) => {
   return (
     <div
       style={{
-        background: theme.primaryGradient,
+        background: theme.surface,
         borderRadius: "20px",
-        padding: "32px",
+        padding: "28px",
         boxShadow: theme.shadow,
         position: "relative",
         overflow: "hidden",
@@ -132,8 +138,9 @@ export const HangmanGame = ({ data, onComplete }) => {
         style={{
           background: theme.backgroundLight,
           borderRadius: "16px",
-          padding: "24px",
-          marginBottom: "24px",
+          padding: "22px",
+          marginBottom: "22px",
+          color: theme.textDark,
         }}
       >
         {/* Hangman Character */}
@@ -141,128 +148,42 @@ export const HangmanGame = ({ data, onComplete }) => {
           style={{
             display: "flex",
             justifyContent: "center",
-            alignItems: "center",
-            minHeight: "300px",
-            position: "relative",
-            animation: shake ? "shake 0.5s" : "none",
+            marginBottom: "16px",
+            transform: shake ? "translateX(-6px)" : "none",
+            transition: "transform 0.1s linear",
           }}
         >
-          <svg width="250" height="300" viewBox="0 0 250 300">
+          <svg width="240" height="320" viewBox="0 0 240 320" xmlns="http://www.w3.org/2000/svg">
             {/* Gallows */}
-            <line
-              x1="20"
-              y1="280"
-              x2="150"
-              y2="280"
-              stroke="#8B4513"
-              strokeWidth="4"
-            />
-            <line
-              x1="50"
-              y1="280"
-              x2="50"
-              y2="20"
-              stroke="#8B4513"
-              strokeWidth="4"
-            />
-            <line
-              x1="50"
-              y1="20"
-              x2="150"
-              y2="20"
-              stroke="#8B4513"
-              strokeWidth="4"
-            />
-            <line
-              x1="150"
-              y1="20"
-              x2="150"
-              y2="50"
-              stroke="#8B4513"
-              strokeWidth="4"
-            />
+            <line x1="20" y1="280" x2="150" y2="280" stroke="#8B4513" strokeWidth="4" />
+            <line x1="50" y1="280" x2="50" y2="20" stroke="#8B4513" strokeWidth="4" />
+            <line x1="50" y1="20" x2="150" y2="20" stroke="#8B4513" strokeWidth="4" />
+            <line x1="150" y1="20" x2="150" y2="50" stroke="#8B4513" strokeWidth="4" />
             {/* Character parts with animations */}
             {wrongGuesses > 0 && (
               <g style={{ animation: "bounce 0.5s" }}>
-                <circle
-                  cx="150"
-                  cy="70"
-                  r="20"
-                  fill="#FFD700"
-                  stroke="#FF6B6B"
-                  strokeWidth="3"
-                />
+                <circle cx="150" cy="70" r="20" fill="#FFD700" stroke="#FF6B6B" strokeWidth="3" />
                 <circle cx="145" cy="67" r="3" fill="#000" />
                 <circle cx="155" cy="67" r="3" fill="#000" />
                 {wrongGuesses > 1 && (
-                  <path
-                    d="M 145 75 Q 150 78 155 75"
-                    stroke="#000"
-                    strokeWidth="2"
-                    fill="none"
-                  />
+                  <path d="M 145 75 Q 150 78 155 75" stroke="#000" strokeWidth="2" fill="none" />
                 )}
               </g>
             )}
             {wrongGuesses > 1 && (
-              <line
-                x1="150"
-                y1="90"
-                x2="150"
-                y2="150"
-                stroke="#4ECDC4"
-                strokeWidth="6"
-                strokeLinecap="round"
-                style={{ animation: "bounce 0.5s" }}
-              />
+              <line x1="150" y1="90" x2="150" y2="150" stroke="#4ECDC4" strokeWidth="6" strokeLinecap="round" style={{ animation: "bounce 0.5s" }} />
             )}
             {wrongGuesses > 2 && (
-              <line
-                x1="150"
-                y1="110"
-                x2="120"
-                y2="140"
-                stroke="#4ECDC4"
-                strokeWidth="5"
-                strokeLinecap="round"
-                style={{ animation: "bounce 0.5s" }}
-              />
+              <line x1="150" y1="110" x2="120" y2="140" stroke="#4ECDC4" strokeWidth="5" strokeLinecap="round" style={{ animation: "bounce 0.5s" }} />
             )}
             {wrongGuesses > 3 && (
-              <line
-                x1="150"
-                y1="110"
-                x2="180"
-                y2="140"
-                stroke="#4ECDC4"
-                strokeWidth="5"
-                strokeLinecap="round"
-                style={{ animation: "bounce 0.5s" }}
-              />
+              <line x1="150" y1="110" x2="180" y2="140" stroke="#4ECDC4" strokeWidth="5" strokeLinecap="round" style={{ animation: "bounce 0.5s" }} />
             )}
             {wrongGuesses > 4 && (
-              <line
-                x1="150"
-                y1="150"
-                x2="130"
-                y2="200"
-                stroke="#4ECDC4"
-                strokeWidth="5"
-                strokeLinecap="round"
-                style={{ animation: "bounce 0.5s" }}
-              />
+              <line x1="150" y1="150" x2="130" y2="200" stroke="#4ECDC4" strokeWidth="5" strokeLinecap="round" style={{ animation: "bounce 0.5s" }} />
             )}
             {wrongGuesses > 5 && (
-              <line
-                x1="150"
-                y1="150"
-                x2="170"
-                y2="200"
-                stroke="#4ECDC4"
-                strokeWidth="5"
-                strokeLinecap="round"
-                style={{ animation: "bounce 0.5s" }}
-              />
+              <line x1="150" y1="150" x2="170" y2="200" stroke="#4ECDC4" strokeWidth="5" strokeLinecap="round" style={{ animation: "bounce 0.5s" }} />
             )}
           </svg>
         </div>
@@ -570,9 +491,9 @@ export const MatchingGame = ({ data, onComplete }) => {
   return (
     <div
       style={{
-        background: theme.primaryGradient,
+        background: theme.surface,
         borderRadius: "20px",
-        padding: "32px",
+        padding: "28px",
         boxShadow: theme.shadow,
       }}
     >
@@ -586,7 +507,8 @@ export const MatchingGame = ({ data, onComplete }) => {
         style={{
           background: theme.backgroundLight,
           borderRadius: "16px",
-          padding: "24px",
+          padding: "22px",
+          color: theme.textDark,
         }}
       >
         <h3
@@ -802,7 +724,7 @@ export const FillBlanksGame = ({ data, onComplete }) => {
   return (
     <div
       style={{
-        background: theme.primaryGradient,
+        background: theme.surface,
         borderRadius: "20px",
         padding: "32px",
         boxShadow: theme.shadow,
@@ -819,7 +741,8 @@ export const FillBlanksGame = ({ data, onComplete }) => {
         style={{
           background: theme.backgroundLight,
           borderRadius: "16px",
-          padding: "24px",
+          padding: "22px",
+          color: theme.textDark,
         }}
       >
         <h3
@@ -839,8 +762,9 @@ export const FillBlanksGame = ({ data, onComplete }) => {
               marginBottom: "20px",
               padding: "16px",
               borderRadius: "12px",
-              background: "rgba(255,255,255,0.8)",
+              background: "rgba(255,255,255,0.06)",
               boxShadow: theme.shadowSmall,
+              border: "1px solid rgba(255,255,255,0.04)",
             }}
           >
             <p
@@ -990,7 +914,7 @@ export const AnagramGame = ({ data, onComplete }) => {
   return (
     <div
       style={{
-        background: theme.primaryGradient,
+        background: theme.surface,
         borderRadius: "20px",
         padding: "32px",
         boxShadow: theme.shadow,
@@ -1007,7 +931,8 @@ export const AnagramGame = ({ data, onComplete }) => {
         style={{
           background: theme.backgroundLight,
           borderRadius: "16px",
-          padding: "24px",
+          padding: "22px",
+          color: theme.textDark,
         }}
       >
         <h3
@@ -1027,8 +952,9 @@ export const AnagramGame = ({ data, onComplete }) => {
               marginBottom: "20px",
               padding: "16px",
               borderRadius: "12px",
-              background: "rgba(255,255,255,0.8)",
+              background: "rgba(255,255,255,0.06)",
               boxShadow: theme.shadowSmall,
+              border: "1px solid rgba(255,255,255,0.04)",
             }}
           >
             <p
@@ -1183,10 +1109,11 @@ export const WordSearchGame = ({ data, onComplete }) => {
   const [showResult, setShowResult] = useState(false);
   const [celebrate, setCelebrate] = useState(false);
   const grid = data.grid;
-  const words = data.words.map((w) => ({
-    original: w,
-    lower: w.toLowerCase(),
-  }));
+  const words = data.words.map((w) => {
+    const original =
+      typeof w === "string" ? w : w.original || w.word || w.name || "";
+    return { original, lower: original.toLowerCase() };
+  });
   const foundWords = foundPaths.map((p) => p.word.toLowerCase());
   const handleMouseDown = (r, c) => {
     setIsSelecting(true);
@@ -1251,7 +1178,7 @@ export const WordSearchGame = ({ data, onComplete }) => {
   return (
     <div
       style={{
-        background: theme.primaryGradient,
+        background: theme.surface,
         borderRadius: "20px",
         padding: "32px",
         boxShadow: theme.shadow,
@@ -1329,26 +1256,26 @@ export const WordSearchGame = ({ data, onComplete }) => {
               <span
                 key={`${r}-${c}`}
                 style={{
-                  padding: "12px",
-                  background: isInPath(
-                    r,
-                    c,
-                    foundPaths.map((p) => p.path).flat()
-                  )
-                    ? "#11998e"
-                    : isInPath(r, c, currentPath)
-                    ? "#ffd700"
-                    : "#fff",
-                  border: "1px solid #ddd",
-                  textAlign: "center",
-                  fontSize: "18px",
-                  fontWeight: "bold",
-                  cursor: "pointer",
-                  color: isInPath(r, c, foundPaths.map((p) => p.path).flat())
-                    ? theme.textLight
-                    : theme.textDark,
-                  transition: "all 0.3s ease",
-                }}
+                    padding: "12px",
+                    background: isInPath(
+                      r,
+                      c,
+                      foundPaths.map((p) => p.path).flat()
+                    )
+                      ? theme.successGradient
+                      : isInPath(r, c, currentPath)
+                      ? theme.primaryGradient
+                      : theme.backgroundLight,
+                    border: "1px solid rgba(255,255,255,0.04)",
+                    textAlign: "center",
+                    fontSize: "18px",
+                    fontWeight: "bold",
+                    cursor: "pointer",
+                    color: isInPath(r, c, foundPaths.map((p) => p.path).flat())
+                      ? theme.textLight
+                      : theme.textDark,
+                    transition: "all 0.3s ease",
+                  }}
                 onMouseDown={() => handleMouseDown(r, c)}
                 onMouseEnter={() => handleMouseEnter(r, c)}
               >
@@ -1386,19 +1313,19 @@ export const WordSearchGame = ({ data, onComplete }) => {
               <li
                 key={idx}
                 style={{
-                  padding: "8px 16px",
-                  borderRadius: "8px",
-                  background: "#f0f0f0",
-                  fontSize: "16px",
-                  textDecoration: foundWords.includes(w.lower)
-                    ? "line-through"
-                    : "none",
-                  color: foundWords.includes(w.lower)
-                    ? "#11998e"
-                    : theme.textDark,
-                  boxShadow: theme.shadowSmall,
-                  transition: "all 0.3s ease",
-                }}
+                    padding: "8px 16px",
+                    borderRadius: "8px",
+                    background: theme.backgroundLight,
+                    fontSize: "16px",
+                    textDecoration: foundWords.includes(w.lower)
+                      ? "line-through"
+                      : "none",
+                    color: foundWords.includes(w.lower)
+                      ? "#11998e"
+                      : theme.textDark,
+                    boxShadow: theme.shadowSmall,
+                    transition: "all 0.3s ease",
+                  }}
               >
                 {w.original}
               </li>
