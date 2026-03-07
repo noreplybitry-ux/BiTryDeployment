@@ -34,18 +34,6 @@ export const usePortfolio = () => {
   const debug = (message, data = null) => {
     console.log(`[usePortfolio] ${message}`, data || '');
   };
-  // Minimal error handler - don't transform errors, just log and re-throw
-  const handlePortfolioError = (operation, error) => {
-    debug(`Error in ${operation}:`, {
-      message: error.message,
-      code: error.code,
-      details: error.details,
-      hint: error.hint,
-      name: error.name
-    });
-   
-    throw error;
-  };
   const initializeService = useCallback(async () => {
     if (isInitialized.current) return true;
     try {
@@ -99,6 +87,7 @@ export const usePortfolio = () => {
     } catch (error) {
       debug('Error in debouncedPriceUpdate:', error);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   // Load portfolio data with load lock
   const loadPortfolioData = async (retries = 1) => {
@@ -334,6 +323,8 @@ export const usePortfolio = () => {
           setBalance(newRecord.balance || 0);
         }
         break;
+      default:
+        break;
     }
 
     // Refresh summary on any change
@@ -540,6 +531,7 @@ export const usePortfolio = () => {
       cleanupSubscriptions();
       cleanupRealtimeSubscriptions();
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user?.id]);
   const submitOrder = async (orderData) => {
     if (!user?.id) {
@@ -789,16 +781,13 @@ export const usePortfolio = () => {
     tradeHistory: tradeHistory || [],
     balanceHistory: balanceHistory || [],
     totalPnL: totalPnL || 0,
-    totalPortfolioValue: totalPortfolioValue || 0,
-   portfolioSummary: portfolioSummary || {},
+    portfolioSummary: portfolioSummary || {},
     loading,
     initializationError,
     usedMargin: usedMargin || 0,
     freeMargin: freeMargin || 0,
     spotValue: spotValue || 0,
     futuresValue: futuresValue || 0,
-    totalExposure: totalExposure || 0,
-    marginUtilization: marginUtilization || 0,
     totalPortfolioValue: totalPortfolioValue || 0,
     submitOrder,
     closePosition,

@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+
 import tradingService from './TradingService';
 
 class WebSocketManager {

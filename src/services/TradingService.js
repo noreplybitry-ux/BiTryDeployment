@@ -40,7 +40,9 @@ class TradingService {
         lastError = error;
         attempt++;
         this.log(`Retry attempt ${attempt}/${maxRetries} failed:`, error.message);
-        await new Promise(resolve => setTimeout(resolve, delay));
+        const waitTime = delay;
+        // eslint-disable-next-line no-loop-func
+        await new Promise(resolve => setTimeout(resolve, waitTime));
         delay *= 2; // Exponential backoff
       }
     }
@@ -1059,7 +1061,7 @@ class TradingService {
     }
   }
   async fillOrder(order, fillPrice) {
-    const { id, symbol, side, type, quantity, market_type, leverage } = order;
+    const { id, symbol, side, quantity, market_type, leverage } = order;
     const { data: currentOrder, error: fetchError } = await supabase
       .from('orders')
       .select('status')
@@ -1251,6 +1253,8 @@ class TradingService {
               this.log(`Deleted order ${id} for ${symbol}`);
             }
           }
+          break;
+        default:
           break;
       }
     } catch (error) {

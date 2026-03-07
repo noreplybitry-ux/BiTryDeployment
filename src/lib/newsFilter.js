@@ -40,7 +40,7 @@ export function wordMatch(text, term) {
 }
 
 export function normalize(s) {
-  return String(s || "").toLowerCase().replace(/[\n\r\t]+/g, " ").replace(/[^\w\s\-\.]/g, " ").trim();
+  return String(s || "").toLowerCase().replace(/[\n\r\t]+/g, " ").replace(/[^\w\s\-.]/g, " ").trim();
 }
 
 export function filterCryptoArticles(raw) {
