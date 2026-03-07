@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-07T13:00:05.286Z",
+  "timestamp": "2026-03-07T13:46:18.540Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: The NYSE Just Bought Into A Major Crypto Exchange",
+        "description": "The institutions continue to pile into crypto and blockchain projects, and end users stand to benefit.",
+        "url": "https://decrypt.co/360237/morning-minute-the-nyse-just-bought-into-a-major-crypto-exchange",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/nyse-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-03-06T13:09:46Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. Subscribe to the Morning Minute on Subst… [+6543 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
         "publishedAt": "2026-03-04T21:22:04Z",
         "content": "In brief\r\n<ul><li>A bottom may be forming for Bitcoin amid its monthslong rout, K33 analysts said.</li><li>Technical indicators have paralleled the collapse of FTX, they wrote.</li><li>The markets de… [+3006 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Oliver Knight",
-        "title": "How this week's rout in Korean stocks might have triggered crypto's surge higher",
-        "description": "Korea's tech-heavy Kospi has plunged 20% in the last two trading sessions, potentially pushing that country's fast-money chasing traders back into crypto.",
-        "url": "https://www.coindesk.com/markets/2026/03/04/how-this-week-s-rout-in-korean-stocks-might-have-triggered-crypto-s-surge-higher",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e9a59377257e7207c1afb33d674a364d0e3c6743-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-04T21:11:24Z",
-        "content": "South Koreas stock market suffered one of its fastest declines in history this week, with the Kospi falling about 20% in two trading days, as geopolitical tensions have, for the moment, shattered wha… [+1842 chars]"
       }
     ]
   }
