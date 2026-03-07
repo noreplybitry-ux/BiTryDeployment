@@ -815,7 +815,7 @@ const OrderHistoryCard = ({ order, cryptoImages, onCancel }) => {
 export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInterval = DEFAULT_INTERVAL }) {
   const { user } = useAuth();
   const [symbol, setSymbol] = useState(initialSymbol);
-  const [interval, setInterval] = useState(initialInterval);
+  const [interval] = useState(initialInterval);
   const [cryptoList, setCryptoList] = useState([]);
   const [filteredCrypto, setFilteredCrypto] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -1261,6 +1261,7 @@ export default function TradePage({ initialSymbol = DEFAULT_SYMBOL, initialInter
       };
       checkAge();
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, navigate]);
   useEffect(() => {
     let isMounted = true;

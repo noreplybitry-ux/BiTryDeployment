@@ -9,6 +9,7 @@ export default function Navbar() {
   const [profile, setProfile] = useState(null);
   const [balance, setBalance] = useState(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [profileLoading, setProfileLoading] = useState(false);
   const [balanceLoading, setBalanceLoading] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
@@ -327,6 +328,7 @@ export default function Navbar() {
   };
 
   const age = profile?.birthday ? calculateAge(profile.birthday) : null;
+  // eslint-disable-next-line no-unused-vars
   const isUnder18 = age !== null && age < 18;
 
   return (

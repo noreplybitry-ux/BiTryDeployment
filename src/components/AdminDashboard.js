@@ -9,7 +9,6 @@ import {
   FaSpinner,
   FaCalendarAlt,
   FaUser,
-  FaHistory,
 } from "react-icons/fa";
 import { IoBarChart, IoRefresh, IoEye, IoEyeOff } from "react-icons/io5";
 import "../css/Dashboard.css";
@@ -26,6 +25,7 @@ export default function AdminDashboard() {
   const [totalUsers, setTotalUsers] = useState(0);
   const [totalTradesExecuted, setTotalTradesExecuted] = useState(0);
   const [activePositions, setActivePositions] = useState(0);
+  // eslint-disable-next-line no-unused-vars
   const [totalFeesEarned, setTotalFeesEarned] = useState(0);
 
   // Learning metrics
@@ -38,6 +38,7 @@ export default function AdminDashboard() {
   const [topUsersByBalance, setTopUsersByBalance] = useState([]);
   const [newUsersThisPeriod, setNewUsersThisPeriod] = useState([]);
   const [mostTradedSymbols, setMostTradedSymbols] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [openVsClosedPositions, setOpenVsClosedPositions] = useState({
     open: 0,
     closed: 0,

@@ -9,6 +9,7 @@ const calculateSMA = (data, period) => {
 };
 
 // Returns the last EMA value (single number). Seeds with SMA of first `period` values.
+// eslint-disable-next-line no-unused-vars
 const calculateEMA = (data, period) => {
   if (data.length < period) return null;
   const k = 2 / (period + 1);

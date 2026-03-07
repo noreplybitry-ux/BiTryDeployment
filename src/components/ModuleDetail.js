@@ -5,11 +5,6 @@ import rehypeHighlight from "rehype-highlight";
 import { useAuth } from "../contexts/AuthContext";
 import { supabase } from "../lib/supabase";
 import {
-  HangmanGame,
-  MatchingGame,
-  FillBlanksGame,
-  AnagramGame,
-  WordSearchGame,
   GameRenderer,
 } from "./MiniGames";
 import "../css/ModuleDetail.css";
@@ -236,9 +231,9 @@ const ModuleDetail = ({
         ></div>
       </div>
       <div className="breadcrumbs">
-        <a href="#" onClick={onBack}>
+        <button onClick={onBack} style={{background:'none',border:'none',cursor:'pointer',padding:0,color:'inherit',font:'inherit',textDecoration:'underline'}}>
           Learning Modules
-        </a>
+        </button>
         <span>/</span>
         <span>{module.title}</span>
       </div>
@@ -385,6 +380,7 @@ const ModuleDetail = ({
                     ).video
                   }
                   frameBorder="0"
+                  title="Module video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>

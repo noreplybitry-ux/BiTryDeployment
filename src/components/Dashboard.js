@@ -56,6 +56,7 @@ const CryptoLogo = ({ symbol, size = 36 }) => {
     .replace(/ticker:/i, "")
     .toLowerCase();
   const [imgUrl, setImgUrl] = useState(null);
+  // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
   const [errored, setErrored] = useState(false);
   useEffect(() => {
@@ -209,7 +210,6 @@ export default function Dashboard() {
     positions: ongoingPositions,
     tradeHistory: recentTrades,
     totalPnL,
-    totalPortfolioValue,
     loading: portfolioLoading,
     refreshPortfolio
   } = usePortfolio();
@@ -239,9 +239,11 @@ export default function Dashboard() {
   const getCurrencySymbol = () => currency === 'USD' ? '$' : '₱';
   // Calculate derived stats from real data
   const totalBalanceBTC = totalBalance ? (totalBalance / btcPrice).toFixed(6) : 0;
+  // eslint-disable-next-line no-unused-vars
   const availableBalance = totalBalance - (ongoingPositions.reduce((sum, pos) => sum + (pos.margin || 0), 0));
   const unrealizedPnL = ongoingPositions.reduce((sum, pos) => sum + (pos.unrealized_pnl || 0), 0);
   const today = new Date();
+  // eslint-disable-next-line no-unused-vars
   const todayPnL = recentTrades
     .filter(trade => {
       const tradeDate = new Date(trade.created_at);
@@ -260,7 +262,9 @@ export default function Dashboard() {
   const losingPnls = pnls.filter(p => p < 0);
   const bestTrade = winningPnls.length > 0 ? Math.max(...winningPnls) : 0;
   const worstTrade = losingPnls.length > 0 ? Math.min(...losingPnls) : 0;
+  // eslint-disable-next-line no-unused-vars
   const totalPositionsData = [{ name: "Wins", value: winningTrades }, { name: "Losses", value: losingTrades }];
+  // eslint-disable-next-line no-unused-vars
   const winRateData = [{ name: "Wins", value: parseFloat(winRate) }, { name: "Losses", value: 100 - parseFloat(winRate) }];
   // Function to get filtered trades based on time period
   const getFilteredTrades = (period) => {
@@ -299,6 +303,7 @@ export default function Dashboard() {
     if (user) {
       fetchProfile();
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
   // Refresh portfolio periodically
   useEffect(() => {
@@ -334,7 +339,7 @@ export default function Dashboard() {
     const hasLower = /[a-z]/.test(password);
     const hasUpper = /[A-Z]/.test(password);
     const hasDigit = /[0-9]/.test(password);
-    const hasSpecial = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]/.test(password);
+    const hasSpecial = /[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/.test(password);
     const validations = {
       minLength,
       hasLower,
@@ -539,7 +544,7 @@ export default function Dashboard() {
       // Upload new profile picture
       const fileName = `${Date.now()}.${fileExt}`;
       const filePath = `${user.id}/${fileName}`;
-      const { data: uploadData, error: uploadError } = await supabase.storage
+      const { error: uploadError } = await supabase.storage
         .from("profile-pictures")
         .upload(filePath, file, {
           contentType, // Use mapped type instead of file.type

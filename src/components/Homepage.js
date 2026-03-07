@@ -2,7 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import { useAuth } from "../contexts/AuthContext";
 
 const BiTryHomepage = () => {
+  // eslint-disable-next-line no-unused-vars
   const [scrollY, setScrollY] = useState(0);
+  // eslint-disable-next-line no-unused-vars
   const [activeCard, setActiveCard] = useState(null);
   const canvasRef = useRef(null);
   const particlesRef = useRef([]);

@@ -1,10 +1,5 @@
-﻿import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../css/News.css";
-import {
-  filterCryptoArticles,
-  CRYPTO_DOMAINS,
-  SEARCH_TERMS,
-} from "../lib/newsFilter";
 
 export default function News() {
   const [allNews, setAllNews] = useState([]);
@@ -21,7 +16,7 @@ export default function News() {
   const [isLoadingInsights, setIsLoadingInsights] = useState(false);
   const [insights, setInsights] = useState(null);
   const [insightsError, setInsightsError] = useState(null);
-  const [selectedLanguage, setSelectedLanguage] = useState(null); // 'english' or 'taglish'
+  const [selectedLanguage, setSelectedLanguage] = useState(null); // eslint-disable-line no-unused-vars
   const [isLanguageSelectionOpen, setIsLanguageSelectionOpen] = useState(false);
 
   // Configuration
@@ -62,6 +57,7 @@ export default function News() {
       .trim();
 
     // Remove low-ascii/control characters that break JSON.parse
+    // eslint-disable-next-line no-control-regex
     cleaned = cleaned.replace(/[\u0000-\u001F\u007F]/g, " ");
 
     // If there's a JSON object inside a bunch of text, extract it
@@ -297,6 +293,7 @@ export default function News() {
         `Generating AI insights using Gemini (${language}) (Usage: ${todayUsage}/${GEMINI_CONFIG.dailyLimit})`
       );
 
+      // eslint-disable-next-line no-unused-vars
       const articleText = `${article.title} ${article.description}`;
 
       // Craft prompt for Gemini to assess sentiment and impact
@@ -371,6 +368,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
               .replace(/```json\s*/gi, "")
               .replace(/\s*```/g, "")
               .trim()
+              // eslint-disable-next-line no-control-regex
               .replace(/[\u0000-\u001F\u007F]/g, " ");
             parsedInsights = JSON.parse(cleanedResponse);
             if (!parsedInsights || typeof parsedInsights !== "object") {
@@ -480,6 +478,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
   }, [isModalOpen, isLanguageSelectionOpen]);
 
   // Cache functions
+  // eslint-disable-next-line no-unused-vars
   const isCacheFresh = (cached) => {
     if (!cached || !cached.timestamp) return false;
     return Date.now() - cached.timestamp < CACHE_DURATION;
@@ -516,7 +515,9 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
   };
 
   // --- Filtering helpers and centralized article filter ---
+  // eslint-disable-next-line no-unused-vars
   const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&");
+  // eslint-disable-next-line no-unused-vars
   const wordMatch = (text, term) => {
     if (!text || !term) return false;
     try {
@@ -526,11 +527,12 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
       return text.includes(term);
     }
   };
+  // eslint-disable-next-line no-unused-vars
   const normalize = (s) =>
     (s || "")
       .toLowerCase()
       .replace(/[\n\r\t]+/g, " ")
-      .replace(/[^\w\s\-\.]/g, " ")
+      .replace(/[^\w\s\-.]/g, " ")
       .trim();
 
   // Fetch news from API, fall back to public cache file, then to localStorage
@@ -654,6 +656,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
     };
 
     loadNews();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const refreshNews = async () => {
@@ -672,6 +675,7 @@ Focus on cryptocurrency market impact only. Use beginner-friendly TagLish terms.
     }
   };
 
+  // eslint-disable-next-line no-unused-vars
   const strongCryptoTerms = [
     "cryptocurrency",
     "cryptocurrency market",

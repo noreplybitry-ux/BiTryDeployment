@@ -218,6 +218,7 @@ const AuthCallback = () => {
     };
 
     handleAuthCallback();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [navigate]);
 
   if (loading && !showBirthdayModal) {

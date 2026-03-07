@@ -65,7 +65,7 @@ const ForgotPassword = () => {
         !/(?=.*[a-z])/.test(formData.password) ||
         !/(?=.*[A-Z])/.test(formData.password) ||
         !/(?=.*\d)/.test(formData.password) ||
-        !/(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?])/.test(formData.password)) {
+        !/(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?])/.test(formData.password)) {
       newErrors.password = 'Password does not meet requirements';
     }
     if (!formData.confirmPassword) newErrors.confirmPassword = 'Confirm password';
@@ -138,7 +138,7 @@ const ForgotPassword = () => {
       /[a-z]/.test(password),
       /[A-Z]/.test(password),
       /\d/.test(password),
-      /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(password),
+      /[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/.test(password),
       password.length >= 12
     ];
     score = checks.filter(Boolean).length;
@@ -225,7 +225,7 @@ const ForgotPassword = () => {
                 <li className={/[a-z]/.test(formData.password) ? 'valid' : ''}>One lowercase letter</li>
                 <li className={/[A-Z]/.test(formData.password) ? 'valid' : ''}>One uppercase letter</li>
                 <li className={/\d/.test(formData.password) ? 'valid' : ''}>One number</li>
-                <li className={/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(formData.password) ? 'valid' : ''}>One special character</li>
+                <li className={/[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/.test(formData.password) ? 'valid' : ''}>One special character</li>
               </ul>
             </div>
             <button type="submit" className={`auth-btn primary ${isLoading ? 'loading' : ''}`} disabled={isLoading}>
