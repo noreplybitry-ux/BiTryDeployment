@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-07T14:30:45.009Z",
+  "timestamp": "2026-03-07T15:30:27.983Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price drops to near $68K as US jobs weakness fails to rescue bulls",
+        "description": "Bitcoin erased its latest breakout attempt after hitting $74,000 as surprisingly weak labor-market data offered no tailwind to crypto or risk assets.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-near-68k-us-jobs-weakness-fails-rescue-bulls",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c6c3c-ff58-7cd7-853c-a3bf38350c63.jpg",
+        "publishedAt": "2026-03-06T15:14:04Z",
+        "content": "Bitcoin (BTC) slipped under $70,000 around Fridays Wall Street open as weak US employment data failed to boost risk assets.\r\nKey points:\r\n<ul><li>Bitcoin and stocks slump in reaction to a surprise do… [+3463 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Sam Reynolds",
+        "title": "Binance tells Senate probe no accounts sent crypto directly to Iran",
+        "description": "Crypto exchange pushed back on $1.7  billion Iran-linked flow allegations and called media reports behind the probe “defamatory.”",
+        "url": "https://www.coindesk.com/policy/2026/03/06/binance-tells-senate-probe-no-accounts-sent-crypto-directly-to-iran",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/66e56db9d7b789107fce617b2dd7328e0e016cd5-1920x1079.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-06T15:01:28Z",
+        "content": "Binance, via its lawyers, told a U.S. Senate investigation it found no evidence that accounts on its platform transacted directly with Iranian entities, refuting allegations that $1.7 billion in cryp… [+2060 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c36ce-5a33-781b-aa51-456342834541.jpg",
         "publishedAt": "2026-03-05T03:15:56Z",
         "content": "Blockchain infrastructure firm Zerohash has announced it has applied for a US national trust bank charter a move that could strengthen the companys position as a crypto payment rail provider to the T… [+2274 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Jumps 8%, Breakout Hopes Reignite Across Crypto Markets",
-        "description": "Bitcoin price started a steady increase above $70,000 and $72,000. BTC is now consolidating and might aim for more gains above $72,800. Bitcoin started a fresh increase after it settled above the $68,800 support. The price is trading above $70,000 and the 100…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-jumps-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Jumps-8-Breakout-Hopes-Reignite-Across-Crypto-Markets.jpg",
-        "publishedAt": "2026-03-05T02:41:47Z",
-        "content": "Bitcoin price started a steady increase above $70,000 and $72,000. BTC is now consolidating and might aim for more gains above $72,800.\r\n<ul><li>Bitcoin started a fresh increase after it settled abov… [+2266 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Price Surges Back Above $71,000: Key Reasons Explained",
-        "description": "Bitcoin climbed back above $71,000 on Wednesday, reaching its highest level since February 8, even as broader geopolitical risk remained elevated. The move appears to have been triggered by a sudden shift in macro sentiment around Iran, but market structure i…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-surges-back-above-71000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-4-2026-01_22_53-PM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-05T00:30:51Z",
-        "content": "Bitcoin climbed back above $71,000 on Wednesday, reaching its highest level since February 8, even as broader geopolitical risk remained elevated. The move appears to have been triggered by a sudden … [+4106 chars]"
       }
     ]
   }
