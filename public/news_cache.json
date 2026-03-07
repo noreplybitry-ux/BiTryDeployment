@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-07T20:33:12.420Z",
+  "timestamp": "2026-03-07T21:27:54.464Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/6: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, HYPE, XMR",
+        "description": "Bitcoin sold off below $70,000 on Friday, leading analysts to conclude that this week’s breakout to $74,000 was a relief rally rather than a longer-lasting sign of a trend change.",
+        "url": "https://cointelegraph.com/markets/price-predictions-3-6-btc-eth-bnb-xrp-sol-doge-ada-bch-hype-xmr",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cc3ff-9cc0-73f1-b9c9-f91dbd6a5e2a.jpg",
+        "publishedAt": "2026-03-06T21:00:00Z",
+        "content": "Key points:\r\n<ul><li>Analysts believe that Bitcoin will have to stay above the $68,000 level to continue its recovery.\r\n</li><li>Several major altcoins have turned down from their overhead resistance… [+8482 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/11/Ethereum.jpg",
         "publishedAt": "2026-03-05T07:03:09Z",
         "content": "<ul><li>Ethereum rally above $2,100 follows a sharp spike in open interest.</li><li>A break above the resistance at $2,175 could open the path toward $2,500.</li><li>Large ETH withdrawals from exchan… [+4230 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "Google warns of crypto scams using ‘new and powerful’ iPhone exploit kit",
-        "description": "The Google Threat Intelligence Group says it found an iPhone exploit kit that could crack the device and sniff out crypto wallets, apps and seed phrases to steal funds.",
-        "url": "https://cointelegraph.com/news/google-warns-crypto-scams-using-new-and-powerful-iphone-exploit-kit",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae762-6ceb-7bc0-b5a9-b1d764f95489",
-        "publishedAt": "2026-03-05T06:17:42Z",
-        "content": "Threat researchers at Google say they have uncovered a new exploit kit targeting Apple iPhone users, aimed at stealing crypto wallet seed phrases. \r\nThe kit, named Coruna by its developers, targets i… [+2736 chars]"
       }
     ]
   }
