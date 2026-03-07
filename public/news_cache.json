@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-07T15:30:27.983Z",
+  "timestamp": "2026-03-07T16:35:38.545Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Crypto Biz: Kraken plugs into the Fed",
+        "description": "Kraken wins direct access to the Fed’s payment system, signaling deeper crypto integration with traditional finance as MARA clarifies its Bitcoin strategy and tokenization gains traction.",
+        "url": "https://cointelegraph.com/news/kraken-fed-access-mara-bitcoin-nyse-tokenization",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cc3e8-8b95-7621-a596-ca6ff05727fb.jpg",
+        "publishedAt": "2026-03-06T16:23:32Z",
+        "content": "The digital asset sector took another step toward integration with traditional finance this week when Kraken secured direct access to the US Federal Reserves payment rails a milestone that could resh… [+4457 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Rally-Builds-Traders-Watch-Critical-100-Test.jpg?fit=1408%2C768",
         "publishedAt": "2026-03-05T05:18:49Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Hits $2,200 Milestone, Traders Brace for Next Move",
-        "description": "Ethereum price started a fresh increase above $2,120. ETH is now correcting gains from $2,200 and might decline further below $2,100. Ethereum started a downside correction from the $2,200 zone. The price is trading above $2,080 and the 100-hourly Simple Movi…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-hits-2200-milestone/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Hits-2200-Milestone.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-05T03:18:43Z",
-        "content": "Ethereum price started a fresh increase above $2,120. ETH is now correcting gains from $2,200 and might decline further below $2,100.\r\n<ul><li>Ethereum started a downside correction from the $2,200 z… [+2132 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "Zerohash joins surging list of crypto firms vying for a bank charter",
-        "description": "Crypto infrastructure firm Zerohash has applied for a US national trust bank charter, joining WLFI, Coinbase, Laser Digital, and Morgan Stanley among those awaiting a decision.",
-        "url": "https://cointelegraph.com/news/zerohash-applies-us-national-bank-charter",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c36ce-5a33-781b-aa51-456342834541.jpg",
-        "publishedAt": "2026-03-05T03:15:56Z",
-        "content": "Blockchain infrastructure firm Zerohash has announced it has applied for a US national trust bank charter a move that could strengthen the companys position as a crypto payment rail provider to the T… [+2274 chars]"
       }
     ]
   }
