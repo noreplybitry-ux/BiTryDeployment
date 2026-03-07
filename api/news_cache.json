@@ -1,412 +1,22 @@
 {
   "version": 3,
-  "timestamp": "2025-12-09T01:01:06.745Z",
+  "timestamp": "2026-03-07T08:20:49.057Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
           "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price dips below 88K as analysis blames FOMC nerves",
-        "description": "Bitcoin saw snap downside toward the weekly close with $87,000 back on the radar ahead of an important Federal Reserve interest-rate decision.",
-        "url": "https://cointelegraph.com/news/bitcoin-dips-below-88k-analysis-blames-fomc",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af946-5ad3-7bfe-8613-ff9f97f1d4fd",
-        "publishedAt": "2025-12-07T15:53:53Z",
-        "content": "Bitcoin (BTC) fell below $88,000 into Sundays weekly close as traders eyed weakness into a major US macro event.\r\nKey points:\r\n<ul><li>Bitcoin sees snap volatility into the weekly close, dipping clos… [+2993 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "French banking giant BPCE to launch in-app crypto trading: Report",
-        "description": "BPCE will allow customers to trade Bitcoin, Ether, Solana and USDC directly in its Banque Populaire and Caisse d’Épargne apps, expanding access through 2026.",
-        "url": "https://cointelegraph.com/news/french-bank-bpce-launches-in-app-crypto-trading",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019af80f-af4e-772e-b49f-001d7f91e51a",
-        "publishedAt": "2025-12-07T09:09:17Z",
-        "content": "French banking heavyweight BPCE is preparing to introduce crypto trading to millions of its retail customers, making it one of the first major traditional European banks to offer digital assets. \r\nAc… [+2757 chars]"
-      },
-      {
-        "source": {
-          "id": null,
           "name": "newsBTC"
         },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Market Profitability Hits ‘Complete Reset’ — What’s Next For Price?",
-        "description": "Following a fresh wave of bearish pressure on Friday, December 5, the price of Bitcoin has struggled beneath the psychological 90,000 level for much of the weekend. However, the latest on-chain data suggests that the premier cryptocurrency might be readying f…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-market-profitability-hit-complete-reset/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/photo_2024-04-27_05-05-56.jpg",
-        "publishedAt": "2025-12-07T09:00:42Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, AI Boost",
-        "title": "French Banking Giant BPCE to Roll Out Crypto Trading for 2M Retail Clients",
-        "description": "The service will allow customers to buy and sell BTC, ETH, SOL, and USDC through a separate digital asset account managed by Hexarq.",
-        "url": "https://www.coindesk.com/business/2025/12/06/french-banking-giant-bpce-to-roll-out-crypto-trading-for-2m-retail-clients",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2e296e10a2bb8be54b6b43be4e9869a518af675a-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2025-12-06T18:03:56Z",
-        "content": "Major French banking group BPCE is set to start offering crypto trading services to retail customers through its Banque Populaire and Caisse dÉpargne apps starting Monday.\r\nCustomers of four regional… [+1111 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Analyst Points To $82,000 As Most Crucial Bitcoin Price Level — Here’s Why",
-        "description": "In a not-so-surprising turn of events, the bearish orientation of the Bitcoin price has continued into the month of December, suggesting that the premier cryptocurrency could end the year in the red. Interestingly, recent on-chain data has offered insights in…",
-        "url": "http://www.newsbtc.com/news/bitcoin/analyst-points-to-82000-crucial-bitcoin-price-level/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1397377530.jpg?fit=2309%2C1299",
-        "publishedAt": "2025-12-06T17:30:17Z",
-        "content": "In a not-so-surprising turn of events, the bearish orientation of the Bitcoin price has continued into the month of December, suggesting that the premier cryptocurrency could end the year in the red.… [+2405 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Ibrahim Ajibade",
-        "title": "Strategy CEO Says No Bitcoin Sale till 2065 Despite BTC Losing $90K Support",
-        "description": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend...",
-        "url": "https://www.coinspeaker.com/strategy-ceo-says-no-bitcoin-sale-till-2065-despite-btc-losing-90k-support/",
-        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/3ab212062555682e1e15ca3bbf03edef",
-        "publishedAt": "2025-12-06T16:15:35Z",
-        "content": "Bitcoin declined below $90,000 on Saturday after more than $500 million of liquidations swept the market on Friday. The forced unwinds amplified weekend volatility, exposing the correlation between t… [+2451 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Urquhart",
-        "title": "Professor Coin: When Bitcoin Sneezes—How Crypto and Equities Caught the Same Cold",
-        "description": "Academic literature finds that during periods of economic stress, correlations and spillovers between cryptocurrencies and equities spike.",
-        "url": "https://decrypt.co/351063/professor-coin-when-bitcoin-sneezes-how-crypto-and-equities-caught-the-same-cold",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-decrypt-style-23-gID_7.jpg",
-        "publishedAt": "2025-12-06T15:01:02Z",
-        "content": "In brief\r\n<ul><li>Academic literature increasingly finds that crypto and equities are tightly intertwined, especially during periods of stress.</li><li>Studies find that crypto increasingly behaves l… [+7495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Industry Leader Shares Why Ethereum Price Will Reach $12,000",
-        "description": "Industry leader Tom Lee has shared how the Ethereum price could reach $12,000 within the next few months. He based his prediction on the Bitcoin price action and how ETH could match the flagship crypto on a potential run to the upside.  Tom Lee Explains How T…",
-        "url": "http://www.newsbtc.com/news/ethereum/industry-leader-shares-why-ethereum-price-will-reach-12000/",
-        "urlToImage": null,
-        "publishedAt": "2025-12-06T15:00:43Z",
-        "content": "Industry leader Tom Lee has shared how the Ethereum price could reach $12,000 within the next few months. He based his prediction on the Bitcoin price action and how ETH could match the flagship cryp… [+2595 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Price Falls Below $90,000 — Is The Recovery Over?",
-        "description": "The Bitcoin price has had a mixed performance over the past week, with both sides of the market divide struggling to establish dominance. In the latest battle between the bulls and bears, the premier cryptocurrency appears to be succumbing to pressure from th…",
-        "url": "http://www.newsbtc.com/news/bitcoin-price-falls-below-90000-recovery-over/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1383793414.jpg?fit=1272%2C824",
-        "publishedAt": "2025-12-06T13:30:13Z",
-        "content": "The Bitcoin price has had a mixed performance over the past week, with both sides of the market divide struggling to establish dominance. In the latest battle between the bulls and bears, the premier… [+2392 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Settles In Consolidation Zone – Levels To Watch",
-        "description": "Bitcoin (BTC) trades just below $90,000 after a fluctuating week of price action resulted in a net loss of 1.8%. Despite initial hopes of a resurgence in late November, the premier cryptocurrency is now 29.16% away from its all-time high. Going by the price a…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-settles-in-consolidation-zone-levels-to-watch/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/istockphoto-1329055819-612x612-1.jpg?fit=900%2C538",
-        "publishedAt": "2025-12-06T12:00:03Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Italy’s Market Watchdog Gives Crypto Firms A Clear Order: Act Or Exit",
-        "description": "According to a press release from Consob on December 4, 2025, Italy’s securities regulator told crypto and virtual asset service providers (VASPs) that they must secure authorization under the EU’s Markets in Crypto-Assets regime (MiCA) by December 30, 2025, …",
-        "url": "http://www.newsbtc.com/crypto/italys-market-watchdog-gives-crypto-firms-a-clear-order-act-or-exit/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_adc210.jpg",
-        "publishedAt": "2025-12-06T10:00:31Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Parth Dubey",
-        "title": "Crypto Recovery in December: Coinbase",
-        "description": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said...",
-        "url": "https://www.coinspeaker.com/crypto-recovery-in-december-coinbase/",
-        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/7e5cad94f86651a7ae03b97604e80236",
-        "publishedAt": "2025-12-06T08:20:24Z",
-        "content": "Leading crypto exchange Coinbase released a research report earlier today, noting that December opened with a major lift in global liquidity. The firm said that odds for a Federal Reserve rate cut ro… [+1970 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bernstein Forecasts Coinbase (COIN) To Surge 90%, Setting $510 Price Target",
-        "description": "Coinbase (COIN), the largest cryptocurrency exchange in the US, has experienced a significant decline in its stock valuation, dropping nearly 40% from its peak of $444 in July to its current trading level of around $271 per share. This, amid market fluctuatio…",
-        "url": "http://www.newsbtc.com/news/coinbase/bernstein-forecasts-coinbase-coin-to-surge-90-setting-510-price-target/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/04/Screenshot_1066.jpg?fit=1273%2C725",
-        "publishedAt": "2025-12-06T06:00:51Z",
-        "content": "Coinbase (COIN), the largest cryptocurrency exchange in the US, has experienced a significant decline in its stock valuation, dropping nearly 40% from its peak of $444 in July to its current trading … [+2879 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Rubmar Garcia",
-        "title": "Bitcoin Price Slides Below $90,000 – Is A Retest Of The November Lows Near?",
-        "description": "Bitcoin (BTC) is retesting a crucial support area after its price slid 5% from the recent highs and fell below the $90,000 barrier. Some analysts have suggested that the cryptocurrency’s structure remains intact, but warned that it must bounce quickly or risk…",
-        "url": "http://www.newsbtc.com/news/bitcoin-price-slides-below-90000-is-a-retest-of-the-november-lows-near/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/kanchanara-7E3QGntO66M-unsplash.jpeg?fit=1920%2C1277",
-        "publishedAt": "2025-12-06T03:00:34Z",
-        "content": "Bitcoin (BTC) is retesting a crucial support area after its price slid 5% from the recent highs and fell below the $90,000 barrier. Some analysts have suggested that the cryptocurrencys structure rem… [+3184 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bitcoin Price Faces Potential 60% Decline As Expert Warns Of ‘Major Bull Trap’",
-        "description": "Despite the Bitcoin price recovery above the crucial $90,000 threshold—a level that has historically served as a supportive floor for the cryptocurrency—the market is exhibiting signs that a further correction may be imminent.  Bitcoin Price Recovery At Risk?…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-faces-potential-60-decline-as-expert-warns-of-major-bull-trap/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Screenshot_844.jpg?fit=1274%2C721",
-        "publishedAt": "2025-12-06T02:00:43Z",
-        "content": "Despite the Bitcoin price recovery above the crucial $90,000 thresholda level that has historically served as a supportive floor for the cryptocurrencythe market is exhibiting signs that a further co… [+2769 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Adoption Is Just Getting Started — 200x Growth Possible, Tom Lee Says",
-        "description": "Fundstrat’s Tom Lee told attendees at Binance Blockchain Week that he believes the worst leg of the recent crypto slump is likely over and that markets may be ready for a gradual recovery. He pointed to weakening selling pressure and growing underlying activi…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-adoption-is-just-getting-started-200x-growth-possible-tom-lee-says/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_430976.jpg?fit=3000%2C1996",
-        "publishedAt": "2025-12-06T01:00:51Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Russia Steps Deeper Into Crypto As State Bank Prepares Direct Trading",
-        "description": "VTB, Russia’s second-largest bank, has told clients it plans to let them buy and sell real cryptocurrencies through its brokerage service, with a target rollout in 2026 pending regulator approval. Related Reading: Bitcoin Crash Fails To Shake Ripple CEO — He …",
-        "url": "http://www.newsbtc.com/altcoin/russia-steps-deeper-into-crypto-as-state-bank-prepares-direct-trading/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_f55733.jpg?fit=5184%2C3456",
-        "publishedAt": "2025-12-05T23:00:12Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Binance Founder Crushes Bitcoin Critic In Game-Changing BTC Vs. Gold Debate",
-        "description": "The Binance Blockchain Week event in Dubai became the center of a high-stakes showdown between traditional and digital innovation, with Bitcoin and gold going head-to-head. Investors, tech enthusiasts, and financial experts watched closely as Binance founder …",
-        "url": "http://www.newsbtc.com/news/bitcoin/trending-bitcoin-vs-gold-debate/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-and-Gold-from-iStock.jpg?fit=612%2C510",
-        "publishedAt": "2025-12-05T22:00:55Z",
-        "content": "The Binance Blockchain Week event in Dubai became the center of a high-stakes showdown between traditional and digital innovation, with Bitcoin and gold going head-to-head. Investors, tech enthusiast… [+3617 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin ‘risk off’ signals fire despite traders’ view that sub-$100K BTC is a discount",
-        "description": "Bitcoin’s bounce evaporated as the weekly close approaches and traders say multiple risk-off metrics point to a high correction risk for BTC. Is $100,000 by the end of 2025 possible?",
-        "url": "https://cointelegraph.com/news/bitcoin-risk-off-signals-fire-but-traders-say-sub-dollar100k-btc-is-discounted",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeecd-6a70-7aaa-ae66-df764bb841d0",
-        "publishedAt": "2025-12-05T20:09:45Z",
-        "content": "Bitcoin (BTC) may be holding above $90,000, but data implied that its price is still flashing a significant risk-off signal. CryptoQuants multi-metric risk-off oscillator remained near the High-Risk … [+3427 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Here’s Why Bitcoin Volatility Sparks Fresh Attention On MicroStrategy",
-        "description": "The Bitcoin price volatility is once again drawing attention to MicroStrategy, the company whose strategy has become a major market reference point, with billions in accumulated BTC and a track record of aggressive buying during downturns. As traders search f…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-volatility-on-microstrategy/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-from-Pixabay-46.jpg?fit=1280%2C853",
-        "publishedAt": "2025-12-05T20:00:56Z",
-        "content": "The Bitcoin price volatility is once again drawing attention to MicroStrategy, the company whose strategy has become a major market reference point, with billions in accumulated BTC and a track recor… [+2960 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "The $13.5 Billion Liquidity Injection That Could Send Bitcoin And Crypto Prices Flying",
-        "description": "Bitcoin has been struggling to build momentum in recent weeks, and the return of cash into the system is raising questions about whether this could be the moment that changes the tone of the crypto market. That growing sense of anticipation has already starte…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-and-crypto-prices-flying/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-from-Pngtree-44.jpg?fit=640%2C359",
-        "publishedAt": "2025-12-05T19:00:54Z",
-        "content": "Bitcoin has been struggling to build momentum in recent weeks, and the return of cash into the system is raising questions about whether this could be the moment that changes the tone of the crypto m… [+2360 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": null,
-        "title": "2-4% Crypto Dip! Sovereign Wealth Funds Buying BTC! CTFC approves U.S. Spot Crypto!",
-        "description": "Crypto majors were broadly lower, falling 2–4% with BTC down 2% at $91,400, ETH down 2% at $3,130, BNB down 2% at $893, and SOL down 4% at $136, while ZEC (+4%) and TRX (+2%) led the day’s top movers. BlackRock CEO Larry Fink said sovereign wealth funds have …",
-        "url": "https://decrypt.co/videos/interviews/tUN6hCk7/2-4-crypto-dip-sovereign-wealth-funds-buying-btc-ctfc-approves-us-spot-crypto",
-        "urlToImage": "https://cdn.jwplayer.com/v2/media/tUN6hCk7/poster.jpg",
-        "publishedAt": "2025-12-05T15:55:25Z",
-        "content": "Crypto majors traded slightly higher, with ETH leading gains post-Fusaka as BTC rose 1% to $93,000, ETH jumped 4% to $3,190, and BNB and SOL each added 1% to reach $909 and $143, respectively. Among … [+775 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor, AI Boost",
-        "title": "Turkey's Paribu Buys CoinMENA in $240M Deal, Expanding Into High-Growth Crypto Markets",
-        "description": "With the acquisition, Paribu gains regulatory foothold in Bahrain and Dubai and access to the region's fast-growing crypto user base.",
-        "url": "https://www.coindesk.com/business/2025/12/05/turkey-s-paribu-buys-coinmena-in-usd240m-deal-expanding-into-high-growth-crypto-markets",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/19bc664a1b3719f6dd100b8c0b318cd5ddadf688-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-05T15:51:05Z",
-        "content": "Paribu, one of Turkeys largest digital asset platforms, has acquired crypto exchange CoinMENA for up to $240 million, marking the countrys biggest fintech acquisition and its first cross-border crypt… [+1083 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Russian Banking Giant VTB to Become Country's First to Offer Spot Crypto Trading: Report",
-        "description": "In 2026, VTB plans to be the first Russian bank to allow clients access to spot crypto trading services.",
-        "url": "https://www.coindesk.com/business/2025/12/05/russian-banking-giant-vtb-to-become-country-s-first-to-offer-spot-crypto-trading-report",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d884b086a37546424f5129ac3301e5e9a34d4604-1920x1080.jpg?auto=format",
-        "publishedAt": "2025-12-05T14:38:58Z",
-        "content": "VTB Bank, Russia's second-largest lender by assets, plans to start offering spot crypto trading to qualified investors next year, becoming the first institution in the country to allow clients direct… [+2425 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": null,
-        "title": "XRP ETFs near $1 Billion, Sovereign wealth funds buying Bitcoin, CFTC approves U.S spot crypto trading - Daily Crypto Recap",
-        "description": "The next-generation media outlet navigating the intersection of culture and technology.",
-        "url": "https://decrypt.co/videos/interviews/a9gidnnr/xrp-etfs-near-1-billion-sovereign-wealth-funds-buying-bitcoin-cftc-approves-us-spot-crypto-trading-daily-crypto-recap",
-        "urlToImage": "https://cdn.jwplayer.com/v2/media/a9gidnnr/poster.jpg",
-        "publishedAt": "2025-12-05T14:14:10Z",
-        "content": "Crypto majors traded slightly higher, with ETH leading gains post-Fusaka as BTC rose 1% to $93,000, ETH jumped 4% to $3,190, and BNB and SOL each added 1% to reach $909 and $143, respectively. Among … [+775 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: The CFTC Just Approved U.S. Spot Crypto Trading",
-        "description": "Spot crypto trading is now cleared to go live with any CFTC-registered exchange, bringing down another barrier to institutional adoption.",
-        "url": "https://decrypt.co/351078/morning-minute-the-cftc-just-approved-u-s-spot-crypto-trading",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2025-12-05T13:46:03Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. Subscribe to the Morning Minute on Subst… [+5019 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aaron Walker",
-        "title": "Next Crypto to Explode as Solana Hits $140 Ceiling",
-        "description": "What to Know: Solana stalls near $140 and ETF flows reshape liquidity as DEX volumes cool off. Money starts to rotate into projects with real narratives or structural links to Bitcoin’s liquidity base. Bitcoin Hyper brings SVM-powered smart contracts and ultr…",
-        "url": "http://www.newsbtc.com/news/next-crypto-to-explode-as-sol-hits-140-ceiling/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/next-crypto-to-explode-as-sol-hits-140-ceiling_d644a9-e1764931997865.jpg",
-        "publishedAt": "2025-12-05T12:53:12Z",
-        "content": "What to Know:\r\n<ul><li>Solana stalls near $140 and ETF flows reshape liquidity as DEX volumes cool off.</li><li>Money starts to rotate into projects with real narratives or structural links to Bitcoi… [+5442 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Adrian Zmudzinski",
-        "title": "Turkish crypto exchange Paribu buys majority stake in competitor CoinMENA",
-        "description": "Paribu has acquired a majority ownership stake in CoinMENA, the exchange licensed in both Dubai and Bahrain, in a deal that values the company at up to $240 million.",
-        "url": "https://cointelegraph.com/news/paribu-acquires-coinmena-turkey-mena-crypto-expansion",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aedad-f135-7662-91ee-4b0c80ee23bd",
-        "publishedAt": "2025-12-05T12:19:28Z",
-        "content": "Turkish crypto exchange Paribu has acquired a majority stake in CoinMENA, a Sharia-compliant cryptocurrency exchange licensed in Dubai and Bahrain.\r\nAccording to a Thursday CoinMENA announcement, Par… [+2269 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin's ‘momentum is igniting,’ but these are BTC price levels to watch",
-        "description": "Bitcoin market participants saw the yearly open at $93,000 and above as particularly important heading into the weekly close.",
-        "url": "https://cointelegraph.com/news/bitcoin-momentum-igniting-these-btc-price-levels-to-watch",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aee15-50af-7b60-9477-b17b8fab65db",
-        "publishedAt": "2025-12-05T11:30:00Z",
-        "content": "Bitcoin (BTC) analysis has mapped out key BTC price levels to watch going into the weekend, with a focus on the yearly open above $93,000.\r\nKey takeaways:\r\n<ul><li>Key Bitcoin price levels above and … [+3467 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Ether vs. Bitcoin teases 170% gains as ETH price breaks 5-month downtrend",
-        "description": "Ether price action staged a repeat of its 2021 bull market moves against Bitcoin, leading to predictions of fresh long-term highs against BTC.",
-        "url": "https://cointelegraph.com/news/ether-vs-bitcoin-170-gains-eth-price-breaks-5-month-downtrend",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aedd2-8791-708c-be38-0c0452062de1",
-        "publishedAt": "2025-12-05T10:33:22Z",
-        "content": "Ether (ETH) is teasing 170% gains in under two months as history repeats itself against Bitcoin (BTC).\r\nKey points:\r\n<ul><li>Ether has the potential to rematch long-term highs above 0.09 in Bitcoin t… [+2908 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Godfrey Benjamin",
-        "title": "Korea’s Woori Bank Begins Displaying Bitcoin Price in Its Trading Room",
-        "description": "On Dec. 5, South Korean multinational financial institution Woori Bank announced that it had begun to display the prices of Bitcoin BTC $89 233 24h...",
-        "url": "https://www.coinspeaker.com/koreas-woori-bank-begins-displaying-bitcoin-price-in-its-trading-room/",
-        "urlToImage": "https://media.zenfs.com/en/coinspeaker_us_106/f5c00332da15279963042599e46a8da1",
-        "publishedAt": "2025-12-05T10:18:14Z",
-        "content": "On Dec. 5, South Korean multinational financial institution Woori Bank announced that it had begun to display the prices of Bitcoin in its main trading room in Seoul. It included won-dollar exchange … [+1953 chars]"
+        "author": "Keshav Verma",
+        "title": "Bitcoin Spot ETFs See 14-Day Netflows Surge: Demand Returning?",
+        "description": "Data shows the Bitcoin spot exchange-traded funds (ETFs) have seen their 14-day netflow trend climb into the positive territory, ending a period of sustained outflows. Bitcoin Spot ETF Netflow Has Been Rising Recently As highlighted by on-chain analytics firm…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-spot-etfs-14-netflows-demand-returning/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/btc_8a125e.png?fit=1305%2C870",
+        "publishedAt": "2026-03-06T06:00:12Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       },
       {
         "source": {
@@ -414,11 +24,323 @@
           "name": "newsBTC"
         },
         "author": "Aayush Jindal",
-        "title": "Solana (SOL) Starts to Retreat From Highs as Momentum Shows Early Fatigue",
-        "description": "Solana failed to stay above $144 and corrected gains. SOL price is now trading below $140 and might find bids near the $135 zone. SOL price started a downside correction below $140 against the US Dollar. The price is now trading above $135 and the 100-hourly …",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-starts-retreat-145/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/11/Solana-SOL-Support.jpg?fit=1792%2C1024",
-        "publishedAt": "2025-12-05T05:08:04Z",
+        "title": "Dogecoin (DOGE) Retreats, Market Eyes Potential Extended Pullback",
+        "description": "Dogecoin corrected some gains and traded below $0.10 against the US Dollar. DOGE is now holding the $0.0920 support and might aim for a fresh increase. DOGE price started a fresh downside correction below $0.10. The price is trading below the $0.0965 level an…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-retreats-0-095/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Retreats-Market-Eyes-Potential-Extended-Pullback.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-06T05:08:45Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vince Dioquino",
+        "title": "Vancouver Moves to Close Bitcoin Reserve Proposal After Legal Review",
+        "description": "Over a year after Vancouver explored becoming a “Bitcoin-friendly city,” staff say municipal law bars holding Bitcoin in city reserves.",
+        "url": "https://decrypt.co/360216/vancouver-close-bitcoin-reserve-proposal-legal-review",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/Victoria-Canada-gID_7.jpg",
+        "publishedAt": "2026-03-06T03:40:07Z",
+        "content": "In brief\r\n<ul><li>City staff have concluded the Vancouver Charter does not allow Bitcoin in city reserves.</li><li>The motion followed a late 2024 decree by Mayor Ken Sim to study crypto use.</li><li… [+4079 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Corrects Gains, Drifts Toward Key Support Zone",
+        "description": "Ethereum price started a fresh increase and tested $2,200. ETH is now correcting gains and might decline further if it trades below $2,030. Ethereum started a downside correction below the $2,120 zone. The price is trading above $2,065 and the 100-hourly Simp…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-corrects-gains-2065/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Corrects-Gains-Drifts-Toward-Key-Support-Zone.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-06T03:18:56Z",
+        "content": "Ethereum price started a fresh increase and tested $2,200. ETH is now correcting gains and might decline further if it trades below $2,030.\r\n<ul><li>Ethereum started a downside correction below the $… [+2164 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Sebastian Sinclair",
+        "title": "Crypto Exchange OKX Debuts Social Platform Linking Posts to Trades",
+        "description": "Orbit allows traders to disclose portfolio data and earn rewards tied to follower engagement in what OKX is touting as a transparency play.",
+        "url": "https://decrypt.co/360215/crypto-exchange-okx-debuts-social-platform-linking-posts-trades",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/okx-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-03-06T03:01:02Z",
+        "content": "In brief\r\n<ul><li>Orbit lets users discuss markets, host livestreams and execute trades directly from posts within the OKX app.</li><li>Performance data, including holdings, profit and loss, and trad… [+2969 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Rally Slows, Consolidation Signals Possible Next Move",
+        "description": "Bitcoin price started a steady increase above $70,500 and $72,500. BTC is now consolidating and might aim for a fresh increase above $72,500. Bitcoin started a fresh increase after it settled above the $70,000 zone. The price is trading above $70,000 and the …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rally-slows-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Rally-Slows.jpg",
+        "publishedAt": "2026-03-06T02:35:56Z",
+        "content": "Bitcoin price started a steady increase above $70,500 and $72,500. BTC is now consolidating and might aim for a fresh increase above $72,500.\r\n<ul><li>Bitcoin started a fresh increase after it settle… [+2230 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Consolidates Near Key Support Band — $77,000 Holds The Key To The Next Move",
+        "description": "Bitcoin is consolidating near a crucial support band, with $77,000 emerging as the key level to watch. A breakout above it could signal bullish momentum and a trend reversal, while failure to hold may keep Bitcoin in a corrective phase or push it lower. Bitco…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-near-key-support-band/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-05T22:00:55Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Iran Regime's Crypto Activity Topped $3 Billion as Illicit Transactions Surged in 2025: Report",
+        "description": "Iran, Russia, North Korea, and other sanctioned countries boosted their use of cryptocurrency last year, according to Chainalysis.",
+        "url": "https://decrypt.co/360146/iran-regime-crypto-activity-topped-3-billion-illicit-transactions-2025",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
+        "publishedAt": "2026-03-05T21:00:22Z",
+        "content": "In brief\r\n<ul><li>Illicit cryptocurrency addresses received at least $154 billion in 2025.</li><li>Sanctioned entities accounted for about $104 billion of those flows.</li><li>Activity tied to Iran, … [+4185 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "IRS proposes mandating electronic delivery of tax forms for crypto",
+        "description": "The US tax and revenue service has proposed a shift in how digital asset brokers can furnish tax forms to users on their platforms.",
+        "url": "https://cointelegraph.com/news/irs-proposes-electronic-delivery-tax-form",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbf69-4c9d-744d-ad4f-e11df3854394.jpg",
+        "publishedAt": "2026-03-05T20:53:09Z",
+        "content": "The US Internal Revenue Service (IRS) is seeking to require electronic delivery of tax forms to crypto exchange users. \r\nUnder the current rules, exchanges are required to provide paper copies of tax… [+2824 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Dollar-cost averaging Bitcoin is safest strategy for long-term gains: Data",
+        "description": "Backtested data and forward-looking models found that dollar-cost averaging Bitcoin buys is the best way to invest in BTC. Will the strategy work in the next bull market?",
+        "url": "https://cointelegraph.com/news/dollar-cost-averaging-bitcoin-is-safest-strategy-for-long-term-gains-data",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbda5-e24d-752c-9a0d-371b2a35a386.jpg",
+        "publishedAt": "2026-03-05T19:47:17Z",
+        "content": "Smart investors adjust their strategy during bear markets and 50% drawdowns like the one seen in Bitcoin (BTC) over the last 5 months. The strategy, known as dollar-cost averaging (DCA), involves inv… [+4490 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, Ian Allison",
+        "title": "U.S. judge freezes BlockFills assets in dispute over 70 bitcoin with creditor Dominion Capital",
+        "description": "A New York federal court barred the crypto trading firm from moving bitcoin tied to Dominion Capital, citing suspended withdrawals and insolvency concerns.",
+        "url": "https://www.coindesk.com/business/2026/03/05/u-s-judge-freezes-blockfills-assets-in-dispute-over-70-bitcoin-with-creditor-dominion-capital",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b8d05c10e1c15c0d584aa8678360ba15881c0286-5105x3362.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-05T18:59:09Z",
+        "content": "A U.S. federal judge has issued a temporary restraining order (TRO) against crypto lender BlockFills in a lawsuit brought by Dominion Capital, temporarily freezing assets tied to the dispute, accordi… [+3883 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "iPhone Users Warned: Crypto Scams Can Trigger ‘Coruna’ iOS Exploits",
+        "description": "Google’s Threat Intelligence Group (GTIG) is warning that a “new and powerful” iOS exploit kit, dubbed Coruna by its developers has been deployed on fake finance and crypto websites designed to lure iPhone users into visiting pages that can silently deliver e…",
+        "url": "http://www.newsbtc.com/news/iphone-users-warned-crypto-scams-can-trigger-coruna-ios-exploits/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-5-2026-10_30_56-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-05T18:00:41Z",
+        "content": "Googles Threat Intelligence Group (GTIG) is warning that a new and powerful iOS exploit kit, dubbed Coruna by its developers has been deployed on fake finance and crypto websites designed to lure iPh… [+3603 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Bitcoin Price Predictions Flip Bullish, But Ethereum Is Still Stuck",
+        "description": "Prediction market traders are becoming more bullish on Bitcoin's near-term price, but they're not as confident on Ethereum.",
+        "url": "https://decrypt.co/360131/bitcoin-price-predictions-flip-bullish-but-ethereum-stuck",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-ethereum-decrypt-style-new-01-1-gID_7.jpg",
+        "publishedAt": "2026-03-05T16:36:02Z",
+        "content": "In brief\r\n<ul><li>Predictors have flipped more bullish on Bitcoin's near-term price on Myriad Markets.</li><li>Analysts are split on whether or not the recent rally can be sustained, though. </li><li… [+2735 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Nick Ducoff",
+        "title": "Crypto for Advisors: Tokenization offers always-on global investment access",
+        "description": "Using blockchain technology, tokenization is creating a new, always-on investment market, giving people worldwide easy and fractional access to wealth-building assets.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/03/04/crypto-for-advisors-tokenization-offers-always-on-global-investment-access",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2d7168e1ad119fe6bd69df2bdbad13b8b4d86c7e-7000x4500.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-05T16:00:00Z",
+        "content": "In todays newsletter, Nick Ducoff, head of institutional growth at the Solana Foundation, draws a parallel between tokenizations ability to democratize investment access and how the Internet facilita… [+8389 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Bitcoin Surge To $74,000 Fueled By US Institutions, Coinbase Premium Signals",
+        "description": "Data shows the Bitcoin Coinbase Premium Gap spiked as the asset rallied toward $74,000, a potential sign that the platform’s institutional users were backing the run. Bitcoin’s Coinbase Premium Gap Shot Up To $61 During The Rally In a new thread on X, CryptoQ…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-coinbase-premium-2/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/btc_4fa8bc.png?fit=1228%2C819",
+        "publishedAt": "2026-03-05T15:00:40Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Dilip Kumar Patairya",
+        "title": "How US investigators traced $61M in crypto tied to romance scams across wallets",
+        "description": "US agents traced and seized $61 million in crypto tied to romance scams by following blockchain trails across wallets and freezing USDT.",
+        "url": "https://cointelegraph.com/news/how-us-investigators-traced-61m-in-crypto-tied-to-romance-scams-across-wallets",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbe5b-dece-7cf6-9982-844dd9cf8287.jpg",
+        "publishedAt": "2026-03-05T14:18:50Z",
+        "content": "Key takeaways\r\n<ul><li>Federal authorities in North Carolina seized more than $61 million in USDT, revealing how pig-butchering schemes combine emotional manipulation with fraudulent crypto investmen… [+10794 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Bitcoin’s drawdown hasn’t shaken institutional investors yet, says CoinShares",
+        "description": "Professional investors trimmed exposure but largely held firm during BTC’s recent slump, while long-term allocators quietly added positions, the crypto asset manager said.",
+        "url": "https://www.coindesk.com/markets/2026/03/05/bitcoin-s-drawdown-hasn-t-shaken-institutional-investors-yet-says-coinshares",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c577b38f229e9d3708d310ac5946ea8fae71162e-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-05T13:50:50Z",
+        "content": "The first phase of bitcoins BTC\r\n$72578,05 recent drawdown has not triggered panic among institutional investors, according to crypto asset management firm CoinShares.\r\nProfessional allocators reduce… [+2641 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin Price Suppressed By Shadow Banking Rehypothecation, Saylor Says",
+        "description": "Michael Saylor argued that Bitcoin’s inability to sustain the most aggressive upside forecasts is less about a broken long-term thesis and more about a credit-market bottleneck: a large share of Bitcoin wealth still can’t be financed cleanly inside the tradit…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-shadow-banking-rehypothecation-saylor/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Screenshot-2026-03-05-084912.png?fit=1887%2C1137",
+        "publishedAt": "2026-03-05T13:30:30Z",
+        "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+4777 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Crypto-friendly fintech giant Revolut files for U.S. banking license",
+        "description": "The license would allow the firm to operate like a traditional bank and gain direct access to payment networks like Fedwire and ACH.",
+        "url": "https://www.coindesk.com/policy/2026/03/05/crypto-friendly-fintech-giant-revolut-files-for-u-s-banking-license",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/669c3873a927924abdbbced4c7b661b281ba919f-1919x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-05T13:08:44Z",
+        "content": "Revolut, the U.K. fintech giant that offers crypto trading, filed an application for a U.S. banking license with the Office of the Comptroller of the Currency (OCC), a key step in its push to expand … [+1400 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "These 4 Bitcoin charts say BTC price is forming a bottom",
+        "description": "Bitcoin’s recent pullback toward $60,000 was likely a buy-the-dip opportunity with the price set to recover, several key technical indicators suggested.",
+        "url": "https://cointelegraph.com/news/these-4-bitcoin-charts-say-btc-price-forming-bottom",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbdc1-3753-77c0-b4f2-e86df53d19ca.jpg",
+        "publishedAt": "2026-03-05T12:22:11Z",
+        "content": "While Bitcoin (BTC) remains more than 42% below its $126,000 all-time high, several technical setups suggest that the price range between $60,000 and $72,000 may be the new bottom range, before a sus… [+4077 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Bitcoin Price Shakes Iran Fear as ETF Inflows Drive Short Squeeze Into The Vital $70K Level",
+        "description": "Bitcoin’s price recovered to around $73,000 in early March, after having fallen to the mid-$60,000 range from late January due to geopolitical unrest. What The Data Says Bitcoin’s price notable instability during the first trimester of the year seems to have …",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-etf-inflows-short-squeeze-70k-level/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image7.png",
+        "publishedAt": "2026-03-05T11:23:29Z",
+        "content": "Bitcoin’s price recovered to around $73,000 in early March, after having fallen to the mid-$60,000 range from late January due to geopolitical unrest.\r\nBitcoins price notable instability during the f… [+2546 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Chamath Palihapitiya questions bitcoin’s role as central bank reserve asset",
+        "description": "Billionaire Venture capitalist points to privacy and fungibility concerns, while debate grows over corporate bitcoin strategies such as Strategy’s massive holdings.",
+        "url": "https://www.coindesk.com/markets/2026/03/05/chamath-palihapitiya-questions-bitcoin-s-role-as-central-bank-reserve-asset",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b59cb7fdf99f08dec49b5fd5a13a138ae46766d2-1024x683.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-05T11:07:03Z",
+        "content": "Billionaire investor Chamath Palihapitiya, a venture capitalist and former Facebook executive, recently argued that bitcoin has a structural failing that could limit its long term adoption by governm… [+2768 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Bitcoin Historically Bottoms Between These MVRV Levels—Where Are They Now?",
+        "description": "An analyst has highlighted how Bitcoin has consistently bottomed out between the 1.0 and 0.8 MVRV pricing bands during the past decade. Bitcoin Still Hasn’t Breached Below 1.0 MVRV Band In This Cycle In a new post on X, analyst Ali Martinez has talked about h…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-bottoms-between-mvrv-levels-they-now/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/btc_b01112.png?fit=1382%2C921",
+        "publishedAt": "2026-03-05T09:00:37Z",
+        "content": "An analyst has highlighted how Bitcoin has consistently bottomed out between the 1.0 and 0.8 MVRV pricing bands during the past decade.\r\nIn a new post on X, analyst Ali Martinez has talked about hist… [+2785 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Ethereum price prediction: $2,500 in focus as OI spike amid Vitalik’s calls for scaling",
+        "description": "Ethereum rally above $2,100 follows a sharp spike in open interest. A break above the resistance at $2,175 could open the path toward $2,500. Large ETH withdrawals from exchanges point to tightening supply. Ethereum has climbed above the $2,100 after a strong…",
+        "url": "https://coinjournal.net/news/ethereum-price-prediction-2500-in-focus-as-oi-spike-amid-vitaliks-calls-for-scaling/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/11/Ethereum.jpg",
+        "publishedAt": "2026-03-05T07:03:09Z",
+        "content": "<ul><li>Ethereum rally above $2,100 follows a sharp spike in open interest.</li><li>A break above the resistance at $2,175 could open the path toward $2,500.</li><li>Large ETH withdrawals from exchan… [+4230 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Google warns of crypto scams using ‘new and powerful’ iPhone exploit kit",
+        "description": "The Google Threat Intelligence Group says it found an iPhone exploit kit that could crack the device and sniff out crypto wallets, apps and seed phrases to steal funds.",
+        "url": "https://cointelegraph.com/news/google-warns-crypto-scams-using-new-and-powerful-iphone-exploit-kit",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae762-6ceb-7bc0-b5a9-b1d764f95489",
+        "publishedAt": "2026-03-05T06:17:42Z",
+        "content": "Threat researchers at Google say they have uncovered a new exploit kit targeting Apple iPhone users, aimed at stealing crypto wallet seed phrases. \r\nThe kit, named Coruna by its developers, targets i… [+2736 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Rally Builds, Traders Watch Critical $100 Test",
+        "description": "Solana started a fresh increase above the $88 zone. SOL price is now consolidating above $90 and might aim for more gains above the $95 zone. SOL price started a fresh upward move above the $85 and $88 levels against the US Dollar. The price is now trading ab…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-rally-builds-95/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Rally-Builds-Traders-Watch-Critical-100-Test.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-05T05:18:49Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       },
       {
@@ -427,12 +349,25 @@
           "name": "newsBTC"
         },
         "author": "Aayush Jindal",
-        "title": "Ethereum Tightens Uptrend Structure as Market Eyes Another Wave of Gains",
-        "description": "Ethereum price started a fresh increase above $3,200. ETH is now consolidating gains and might aim for more gains above $3,250. Ethereum started a fresh increase above the $3,050 and $3,120 levels. The price is trading above $3,120 and the 100-hourly Simple M…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-tightens-uptrend-3250/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/08/Ethereum-Price-Bulls-Losing-Steam.jpg?fit=1792%2C1024",
-        "publishedAt": "2025-12-05T03:08:36Z",
-        "content": "Ethereum price started a fresh increase above $3,200. ETH is now consolidating gains and might aim for more gains above $3,250.\r\n<ul><li>Ethereum started a fresh increase above the $3,050 and $3,120 … [+2211 chars]"
+        "title": "Ethereum Price Hits $2,200 Milestone, Traders Brace for Next Move",
+        "description": "Ethereum price started a fresh increase above $2,120. ETH is now correcting gains from $2,200 and might decline further below $2,100. Ethereum started a downside correction from the $2,200 zone. The price is trading above $2,080 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-hits-2200-milestone/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Hits-2200-Milestone.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-05T03:18:43Z",
+        "content": "Ethereum price started a fresh increase above $2,120. ETH is now correcting gains from $2,200 and might decline further below $2,100.\r\n<ul><li>Ethereum started a downside correction from the $2,200 z… [+2132 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Zerohash joins surging list of crypto firms vying for a bank charter",
+        "description": "Crypto infrastructure firm Zerohash has applied for a US national trust bank charter, joining WLFI, Coinbase, Laser Digital, and Morgan Stanley among those awaiting a decision.",
+        "url": "https://cointelegraph.com/news/zerohash-applies-us-national-bank-charter",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c36ce-5a33-781b-aa51-456342834541.jpg",
+        "publishedAt": "2026-03-05T03:15:56Z",
+        "content": "Blockchain infrastructure firm Zerohash has announced it has applied for a US national trust bank charter a move that could strengthen the companys position as a crypto payment rail provider to the T… [+2274 chars]"
       },
       {
         "source": {
@@ -440,38 +375,90 @@
           "name": "newsBTC"
         },
         "author": "Aayush Jindal",
-        "title": "Bitcoin Coils Near Highs as Bulls Defend Gains Ahead of Resistance",
-        "description": "Bitcoin price started a fresh increase above $92,500. BTC is now consolidating gains and might attempt an upside break above $93,500. Bitcoin started a fresh increase above the $92,500 zone. The price is trading above $92,000 and the 100 hourly Simple moving …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-coils-near-highs-94k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/Bitcoin-Pauses.jpg",
-        "publishedAt": "2025-12-05T02:25:26Z",
-        "content": "Bitcoin price started a fresh increase above $92,500. BTC is now consolidating gains and might attempt an upside break above $93,500.\r\n<ul><li>Bitcoin started a fresh increase above the $92,500 zone.… [+2208 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "SOL price capped at $140 as altcoin ETF rivals reshape crypto demand",
-        "description": "SOL struggles to extend its gains as declining activity, falling leverage demand and competition from newly launched spot altcoin ETFs challenge Solana’s price rebound.",
-        "url": "https://cointelegraph.com/news/sol-price-capped-at-140-as-altcoin-etf-rivals-reshape-crypto-demand",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2025-12/019aec1b-2d02-7dee-ad00-83c93b8a514d",
-        "publishedAt": "2025-12-05T02:14:08Z",
-        "content": "Key takeaways:\r\n<ul><li>Falling DEX volumes, muted ETP flows and macro uncertainty are pressuring SOL prices and limiting appetite for bullish positions.\r\n</li><li>New spot ETFs for rival altcoins in… [+4083 chars]"
+        "title": "Bitcoin Price Jumps 8%, Breakout Hopes Reignite Across Crypto Markets",
+        "description": "Bitcoin price started a steady increase above $70,000 and $72,000. BTC is now consolidating and might aim for more gains above $72,800. Bitcoin started a fresh increase after it settled above the $68,800 support. The price is trading above $70,000 and the 100…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-jumps-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Jumps-8-Breakout-Hopes-Reignite-Across-Crypto-Markets.jpg",
+        "publishedAt": "2026-03-05T02:41:47Z",
+        "content": "Bitcoin price started a steady increase above $70,000 and $72,000. BTC is now consolidating and might aim for more gains above $72,800.\r\n<ul><li>Bitcoin started a fresh increase after it settled abov… [+2266 chars]"
       },
       {
         "source": {
           "id": null,
           "name": "newsBTC"
         },
-        "author": "Godspower Owie",
-        "title": "Reversal Loading? Bitcoin, Ethereum, And Solana Build Powerful High-Time-Frame Structures",
-        "description": "In the volatile theatre of the cryptocurrency market, Bitcoin, Ethereum, and Solana are showing signs of a potential high-time-frame reversal. After weeks of stress and price compression, each of the top assets is now stabilizing at key structural support lev…",
-        "url": "http://www.newsbtc.com/news/bitcoin-ethereum-and-solana-2/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-and-Ethereum-from-iStock-5.jpg?fit=612%2C408",
-        "publishedAt": "2025-12-05T00:00:19Z",
-        "content": "In the volatile theatre of the cryptocurrency market, Bitcoin, Ethereum, and Solana are showing signs of a potential high-time-frame reversal. After weeks of stress and price compression, each of the… [+2718 chars]"
+        "author": "Jake Simmons",
+        "title": "Bitcoin Price Surges Back Above $71,000: Key Reasons Explained",
+        "description": "Bitcoin climbed back above $71,000 on Wednesday, reaching its highest level since February 8, even as broader geopolitical risk remained elevated. The move appears to have been triggered by a sudden shift in macro sentiment around Iran, but market structure i…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-surges-back-above-71000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-4-2026-01_22_53-PM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-05T00:30:51Z",
+        "content": "Bitcoin climbed back above $71,000 on Wednesday, reaching its highest level since February 8, even as broader geopolitical risk remained elevated. The move appears to have been triggered by a sudden … [+4106 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "'The Worst Is Behind Us': Bitcoin Market Conditions Mirror FTX Bottom, Analysts Say",
+        "description": "Several technical indicators for Bitcoin have reached levels not seen since the market chaos of 2022",
+        "url": "https://decrypt.co/359970/worst-behind-us-bitcoin-market-conditions-mirror-ftx-bottom-analysts",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
+        "publishedAt": "2026-03-04T21:22:04Z",
+        "content": "In brief\r\n<ul><li>A bottom may be forming for Bitcoin amid its monthslong rout, K33 analysts said.</li><li>Technical indicators have paralleled the collapse of FTX, they wrote.</li><li>The markets de… [+3006 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Oliver Knight",
+        "title": "How this week's rout in Korean stocks might have triggered crypto's surge higher",
+        "description": "Korea's tech-heavy Kospi has plunged 20% in the last two trading sessions, potentially pushing that country's fast-money chasing traders back into crypto.",
+        "url": "https://www.coindesk.com/markets/2026/03/04/how-this-week-s-rout-in-korean-stocks-might-have-triggered-crypto-s-surge-higher",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e9a59377257e7207c1afb33d674a364d0e3c6743-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-04T21:11:24Z",
+        "content": "South Koreas stock market suffered one of its fastest declines in history this week, with the Kospi falling about 20% in two trading days, as geopolitical tensions have, for the moment, shattered wha… [+1842 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "A sucker's rally? Why Bitcoin analysts say BTC price must hold $70K",
+        "description": "A slowdown in profit-taking and defending the 200-week EMA support at $68,000 are prerequisites for BTC to break the next big hurdle at $75,000.",
+        "url": "https://cointelegraph.com/news/suckers-rally-why-bitcoin-analysts-say-btc-price-must-hold-70k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cb1f9-73ba-7fdd-b7bc-f223761cce2a.jpg",
+        "publishedAt": "2026-03-04T20:31:20Z",
+        "content": "Bitcoin (BTC) is up 8% on Wednesday to trade above $73,000, a level that has stopped every recovery attempt over the last three weeks. Analysts reveal why Bitcoin must hold $70,000 to secure the reco… [+3950 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Tradeweb backs crypto ECN Crossover Markets in $31M funding round",
+        "description": "Tradeweb led a $31M Series B round in institutional crypto trading platform Crossover Markets at a $200M valuation, partnering to bring spot crypto liquidity to its global trading network.",
+        "url": "https://cointelegraph.com/news/tradeweb-leads-31m-round-in-crypto-ecn-crossover-markets-entering-institutional-trading-market",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cba26-5918-7200-b5fa-9d0b3e1c77e8.jpg",
+        "publishedAt": "2026-03-04T19:37:06Z",
+        "content": "Electronic trading company Tradeweb has led a $31 million Series B funding round in institutional crypto trading platform Crossover Markets, valuing the company at $200 million. The round included pa… [+2650 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/4: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, HYPE, LINK",
+        "description": "Bitcoin’s recovery picked up steam on Wednesday as the cryptocurrency rallied above $74,000 amid consistent inflows into the spot Bitcoin ETFs. Do technical charts support the move in BTC and altcoins?",
+        "url": "https://cointelegraph.com/news/price-predictions-3-4-btc-eth-bnb-xrp-sol-doge-ada-bch-hype-link",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cb9b7-f8d0-7e9a-9a99-c4a01d117024.jpg",
+        "publishedAt": "2026-03-04T19:26:59Z",
+        "content": "Key points:\r\n<ul><li>Bitcoins strong recovery above $74,000, backed by solid inflows into the US spot Bitcoin ETFs, suggests the formation of a short-term bottom.\r\n</li><li>Several major altcoins are… [+8491 chars]"
       }
     ]
   }
