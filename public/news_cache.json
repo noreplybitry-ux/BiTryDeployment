@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-07T19:27:38.718Z",
+  "timestamp": "2026-03-07T20:33:12.420Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Oliver Knight",
+        "title": "Why bitcoin couldn't hold $70,000 despite its best week of Wall Street news in months",
+        "description": "Bitcoin’s institutional era is officially here, but a stronger dollar and shifting interest rate expectations are keeping a lid on the latest rally.",
+        "url": "https://www.coindesk.com/markets/2026/03/06/why-bitcoin-suffered-a-usd110-billion-wipeout-despite-its-best-week-of-wall-street-news-in-months",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/614280887003b84b84e80a6268962cc4f0f36563-8192x5464.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-06T20:17:14Z",
+        "content": "Bitcoin briefly pushed toward $74,000 this week, buoyed by a string of bullish developments that have tied the crypto industry ever closer to traditional finance. \r\nSome market observers began callin… [+6231 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Binance Denies $1.7 Billion in Iran Sanctions Violations Amid US Senate Probe",
+        "description": "Binance denied $1.7 billion in Iran sanctions violations and stood behind its compliance operations, in a new letter to Senator Richard Blumenthal.",
+        "url": "https://decrypt.co/360273/binance-denies-1-7-billion-iran-sanctions-violations-senate-probe",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+        "publishedAt": "2026-03-06T19:38:50Z",
+        "content": "In brief\r\n<ul><li>Binance denied violating Iran sanctions with more than $1.7 billion in transactions in a new letter to Senator Blumenthal. </li><li>The Senator opened an investigation into the firm… [+3129 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae762-6ceb-7bc0-b5a9-b1d764f95489",
         "publishedAt": "2026-03-05T06:17:42Z",
         "content": "Threat researchers at Google say they have uncovered a new exploit kit targeting Apple iPhone users, aimed at stealing crypto wallet seed phrases. \r\nThe kit, named Coruna by its developers, targets i… [+2736 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Rally Builds, Traders Watch Critical $100 Test",
-        "description": "Solana started a fresh increase above the $88 zone. SOL price is now consolidating above $90 and might aim for more gains above the $95 zone. SOL price started a fresh upward move above the $85 and $88 levels against the US Dollar. The price is now trading ab…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-rally-builds-95/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Rally-Builds-Traders-Watch-Critical-100-Test.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-05T05:18:49Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
