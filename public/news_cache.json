@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-07T10:30:39.531Z",
+  "timestamp": "2026-03-07T11:26:37.790Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Culper Shorts Ethereum, Says Buterin Selling Signals More Pain Ahead",
+        "description": "Culper Research disclosed a short position in ether and ETH-linked securities on Thursday, arguing that Ethereum’s post-upgrade economics have deteriorated enough to put sustained downside pressure on the token. The firm pointed directly at Ethereum’s Decembe…",
+        "url": "http://www.newsbtc.com/news/ethereum/culper-shorts-ethereum-buterin-selling/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-6-2026-08_16_08-AM.png?fit=1111%2C740",
+        "publishedAt": "2026-03-06T11:00:29Z",
+        "content": "Culper Research disclosed a short position in ether and ETH-linked securities on Thursday, arguing that Ethereums post-upgrade economics have deteriorated enough to put sustained downside pressure on… [+3701 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e9a59377257e7207c1afb33d674a364d0e3c6743-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-04T21:11:24Z",
         "content": "South Koreas stock market suffered one of its fastest declines in history this week, with the Kospi falling about 20% in two trading days, as geopolitical tensions have, for the moment, shattered wha… [+1842 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "A sucker's rally? Why Bitcoin analysts say BTC price must hold $70K",
-        "description": "A slowdown in profit-taking and defending the 200-week EMA support at $68,000 are prerequisites for BTC to break the next big hurdle at $75,000.",
-        "url": "https://cointelegraph.com/news/suckers-rally-why-bitcoin-analysts-say-btc-price-must-hold-70k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cb1f9-73ba-7fdd-b7bc-f223761cce2a.jpg",
-        "publishedAt": "2026-03-04T20:31:20Z",
-        "content": "Bitcoin (BTC) is up 8% on Wednesday to trade above $73,000, a level that has stopped every recovery attempt over the last three weeks. Analysts reveal why Bitcoin must hold $70,000 to secure the reco… [+3950 chars]"
       }
     ]
   }
