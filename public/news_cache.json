@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-08T11:27:32.630Z",
+  "timestamp": "2026-03-08T13:01:37.086Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin On-Chain Data Identifies Unusual Market Cap Behavior – Details",
+        "description": "The Bitcoin market experienced a short-lived rebound, as prices broke through the long-standing $70,000 resistance to briefly touch the $74,000 mark before dipping again. Whether this price action represents an initial retest for a potential market recovery r…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-on-chain-data-identifies-unusual-market-cap-behavior-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/pexels-roger-brown-3435524-5975340.jpg?fit=2759%2C2089",
+        "publishedAt": "2026-03-07T13:00:24Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
