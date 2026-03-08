@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-07T23:29:19.465Z",
+  "timestamp": "2026-03-08T02:41:00.757Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Vitalik Buterin Says Ethereum Should Be Bolder, Here’s Why",
+        "description": "Ethereum’s co-founder Vitalik Buterin has called for “bolder and more open‑minded” experimentation at Ethereum’s application layer while keeping the core principles untouched. Related Reading: Bitcoin Price Shakes Iran Fear as ETF Inflows Drive Short Squeeze …",
+        "url": "http://www.newsbtc.com/ethereum-news/vitalik-buterin-says-ethereum-should-be-bolder-heres-why/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image8.png?fit=2848%2C1600",
+        "publishedAt": "2026-03-07T02:00:04Z",
+        "content": "Ethereums co-founder Vitalik Buterin has called for bolder and more openminded experimentation at Ethereums application layer while keeping the core principles untouched.\r\nIn a long post on the socia… [+3705 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/btc_b01112.png?fit=1382%2C921",
         "publishedAt": "2026-03-05T09:00:37Z",
         "content": "An analyst has highlighted how Bitcoin has consistently bottomed out between the 1.0 and 0.8 MVRV pricing bands during the past decade.\r\nIn a new post on X, analyst Ali Martinez has talked about hist… [+2785 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Ethereum price prediction: $2,500 in focus as OI spike amid Vitalik’s calls for scaling",
-        "description": "Ethereum rally above $2,100 follows a sharp spike in open interest. A break above the resistance at $2,175 could open the path toward $2,500. Large ETH withdrawals from exchanges point to tightening supply. Ethereum has climbed above the $2,100 after a strong…",
-        "url": "https://coinjournal.net/news/ethereum-price-prediction-2500-in-focus-as-oi-spike-amid-vitaliks-calls-for-scaling/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/11/Ethereum.jpg",
-        "publishedAt": "2026-03-05T07:03:09Z",
-        "content": "<ul><li>Ethereum rally above $2,100 follows a sharp spike in open interest.</li><li>A break above the resistance at $2,175 could open the path toward $2,500.</li><li>Large ETH withdrawals from exchan… [+4230 chars]"
       }
     ]
   }
