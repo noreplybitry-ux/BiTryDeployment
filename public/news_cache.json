@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-08T04:48:22.290Z",
+  "timestamp": "2026-03-08T05:49:29.633Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Bitcoin could crash by another 30% as four-year cycle gains strength, investment firm says",
+        "description": "Bitcoin is now firmly in a deep bear market and could fall another 30% in 2026, firm said.",
+        "url": "https://www.coindesk.com/markets/2026/03/07/bitcoin-could-crash-another-30-as-four-year-cycle-gains-strength-investment-firm-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/aa651f593b05892413d8006cdf3a5cea49f53472-1260x843.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-07T05:44:21Z",
+        "content": "Bitcoin BTC\r\n$67,920.10 is firmly in the deepest phase of the bear market and the pain may worsen, according to CK Zheng, founder of crypto investment firm ZX Squared Capital.\r\n\"Bitcoin's price is co… [+2464 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image7.png",
         "publishedAt": "2026-03-05T11:23:29Z",
         "content": "Bitcoin’s price recovered to around $73,000 in early March, after having fallen to the mid-$60,000 range from late January due to geopolitical unrest.\r\nBitcoins price notable instability during the f… [+2546 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Chamath Palihapitiya questions bitcoin’s role as central bank reserve asset",
-        "description": "Billionaire Venture capitalist points to privacy and fungibility concerns, while debate grows over corporate bitcoin strategies such as Strategy’s massive holdings.",
-        "url": "https://www.coindesk.com/markets/2026/03/05/chamath-palihapitiya-questions-bitcoin-s-role-as-central-bank-reserve-asset",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b59cb7fdf99f08dec49b5fd5a13a138ae46766d2-1024x683.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-05T11:07:03Z",
-        "content": "Billionaire investor Chamath Palihapitiya, a venture capitalist and former Facebook executive, recently argued that bitcoin has a structural failing that could limit its long term adoption by governm… [+2768 chars]"
       }
     ]
   }
