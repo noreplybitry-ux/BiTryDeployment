@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-08T22:31:03.938Z",
+  "timestamp": "2026-03-08T23:31:01.272Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Here’s Why Bitcoin Price Must Not Fall To $54K: Analyst",
+        "description": "Over the past few days, the Bitcoin price has had one of its better performances so far in the first quarter of 2026. Catalyzed by the rising geopolitical tensions between US-Isreal and Iran, the premier cryptocurrency climbed to $74,000 over the past week. H…",
+        "url": "http://www.newsbtc.com/news/bitcoin/heres-why-bitcoin-price-must-not-fall-to-54k-analyst/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-1248674191-e1748299111676.jpg?fit=1200%2C801",
+        "publishedAt": "2026-03-07T23:30:34Z",
+        "content": "Over the past few days, the Bitcoin price has had one of its better performances so far in the first quarter of 2026. Catalyzed by the rising geopolitical tensions between US-Isreal and Iran, the pre… [+2652 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-ethereum-decrypt-style-new-01-1-gID_7.jpg",
         "publishedAt": "2026-03-05T16:36:02Z",
         "content": "In brief\r\n<ul><li>Predictors have flipped more bullish on Bitcoin's near-term price on Myriad Markets.</li><li>Analysts are split on whether or not the recent rally can be sustained, though. </li><li… [+2735 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Nick Ducoff",
-        "title": "Crypto for Advisors: Tokenization offers always-on global investment access",
-        "description": "Using blockchain technology, tokenization is creating a new, always-on investment market, giving people worldwide easy and fractional access to wealth-building assets.",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/03/04/crypto-for-advisors-tokenization-offers-always-on-global-investment-access",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2d7168e1ad119fe6bd69df2bdbad13b8b4d86c7e-7000x4500.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-05T16:00:00Z",
-        "content": "In todays newsletter, Nick Ducoff, head of institutional growth at the Solana Foundation, draws a parallel between tokenizations ability to democratize investment access and how the Internet facilita… [+8389 chars]"
       }
     ]
   }
