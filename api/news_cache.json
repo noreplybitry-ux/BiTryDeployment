@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-08T21:30:22.245Z",
+  "timestamp": "2026-03-08T22:31:03.938Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Crypto Fear and Greed Index falls back down to 'extreme fear' levels",
+        "description": "The Crypto Fear and Greed Index has fallen down to \"extreme fear\" levels again after renewed geopolitical and macroeconomic shocks shake investor confidence.",
+        "url": "https://cointelegraph.com/news/crypto-fear-greed-index-extreme-fear",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b5874-41c6-76d9-ac11-dbbf5925f145.jpg",
+        "publishedAt": "2026-03-07T22:05:54Z",
+        "content": "The Crypto Fear and Greed Index, one of the most widely used gauges of crypto investor sentiment, has fallen back down to extreme fear levels after briefly recovering on Wednesday.\r\nThe Crypto Fear a… [+2227 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "US Treasury report acknowledges legitimate uses of crypto mixers",
+        "description": "A new report from the United States Treasury Department touches on legitimate use cases for cryptocurrency mixers and privacy-preserving tools.",
+        "url": "https://cointelegraph.com/news/us-treasury-legitimate-use-crypto-mixer",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b46af-9c80-737e-8cb5-85cc0aa73f18.jpg",
+        "publishedAt": "2026-03-07T21:58:33Z",
+        "content": "The United States Treasury Department acknowledged the legitimate use of mixers, which obfuscate crypto transfers to preserve user privacy, in its report to Congress on Innovative Technologies to Cou… [+2429 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2d7168e1ad119fe6bd69df2bdbad13b8b4d86c7e-7000x4500.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-05T16:00:00Z",
         "content": "In todays newsletter, Nick Ducoff, head of institutional growth at the Solana Foundation, draws a parallel between tokenizations ability to democratize investment access and how the Internet facilita… [+8389 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Bitcoin Surge To $74,000 Fueled By US Institutions, Coinbase Premium Signals",
-        "description": "Data shows the Bitcoin Coinbase Premium Gap spiked as the asset rallied toward $74,000, a potential sign that the platform’s institutional users were backing the run. Bitcoin’s Coinbase Premium Gap Shot Up To $61 During The Rally In a new thread on X, CryptoQ…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-coinbase-premium-2/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/btc_4fa8bc.png?fit=1228%2C819",
-        "publishedAt": "2026-03-05T15:00:40Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       }
     ]
   }
