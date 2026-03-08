@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-08T15:30:45.939Z",
+  "timestamp": "2026-03-08T16:37:17.545Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Rising Wedge Warning: Breakdown Could Send Price Toward $1,500",
+        "description": "Ethereum is showing early signs of a rising wedge formation, a pattern often associated with potential reversals. With key support under pressure, a breakdown from this structure could push the price lower, putting the $1,500 level firmly in focus as the next…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-warning-breakdown/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-Pexels-1.jpeg?fit=5144%2C2893",
+        "publishedAt": "2026-03-07T16:00:50Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
