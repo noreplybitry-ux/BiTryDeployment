@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-08T19:29:36.872Z",
+  "timestamp": "2026-03-08T20:34:40.884Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "XRP Whale Outflows Continue On Binance — What’s Happening?",
+        "description": "According to recent on-chain data, large investors in the XRP market seem to be adjusting their positions. Further analysis suggests that if XRP finds favorable alignment with the current conditions, it could be at the start of a larger upside rally. 44 Milli…",
+        "url": "http://www.newsbtc.com/xrp-news/xrp-whale-outflows-continue-on-binance-whats-happening/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/02/iStock-933090786.jpg?fit=2119%2C1414",
+        "publishedAt": "2026-03-07T20:30:13Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/btc_4fa8bc.png?fit=1228%2C819",
         "publishedAt": "2026-03-05T15:00:40Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Dilip Kumar Patairya",
-        "title": "How US investigators traced $61M in crypto tied to romance scams across wallets",
-        "description": "US agents traced and seized $61 million in crypto tied to romance scams by following blockchain trails across wallets and freezing USDT.",
-        "url": "https://cointelegraph.com/news/how-us-investigators-traced-61m-in-crypto-tied-to-romance-scams-across-wallets",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbe5b-dece-7cf6-9982-844dd9cf8287.jpg",
-        "publishedAt": "2026-03-05T14:18:50Z",
-        "content": "Key takeaways\r\n<ul><li>Federal authorities in North Carolina seized more than $61 million in USDT, revealing how pig-butchering schemes combine emotional manipulation with fraudulent crypto investmen… [+10794 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Bitcoin’s drawdown hasn’t shaken institutional investors yet, says CoinShares",
-        "description": "Professional investors trimmed exposure but largely held firm during BTC’s recent slump, while long-term allocators quietly added positions, the crypto asset manager said.",
-        "url": "https://www.coindesk.com/markets/2026/03/05/bitcoin-s-drawdown-hasn-t-shaken-institutional-investors-yet-says-coinshares",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c577b38f229e9d3708d310ac5946ea8fae71162e-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-05T13:50:50Z",
-        "content": "The first phase of bitcoins BTC\r\n$72578,05 recent drawdown has not triggered panic among institutional investors, according to crypto asset management firm CoinShares.\r\nProfessional allocators reduce… [+2641 chars]"
       }
     ]
   }
