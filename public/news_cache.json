@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T17:51:42.962Z",
+  "timestamp": "2026-03-09T19:01:33.517Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Price Must Not Drop Below $63,700, Analyst Warns",
+        "description": "An on-chain data expert has identified a critical level that the Bitcoin price must not break, or it could be at risk of a significant downturn. Critical Levels For BTC Price: Alphractal CEO On Saturday, March 7, Alphractal founder and CEO Joao Wedson reveale…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-must-not-fall-below-63700/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-08-11.54.21.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-08T19:00:55Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
         "publishedAt": "2026-03-05T21:00:22Z",
         "content": "In brief\r\n<ul><li>Illicit cryptocurrency addresses received at least $154 billion in 2025.</li><li>Sanctioned entities accounted for about $104 billion of those flows.</li><li>Activity tied to Iran, … [+4185 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "IRS proposes mandating electronic delivery of tax forms for crypto",
-        "description": "The US tax and revenue service has proposed a shift in how digital asset brokers can furnish tax forms to users on their platforms.",
-        "url": "https://cointelegraph.com/news/irs-proposes-electronic-delivery-tax-form",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbf69-4c9d-744d-ad4f-e11df3854394.jpg",
-        "publishedAt": "2026-03-05T20:53:09Z",
-        "content": "The US Internal Revenue Service (IRS) is seeking to require electronic delivery of tax forms to crypto exchange users. \r\nUnder the current rules, exchanges are required to provide paper copies of tax… [+2824 chars]"
       }
     ]
   }
