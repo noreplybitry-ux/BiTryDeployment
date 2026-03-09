@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T08:54:20.774Z",
+  "timestamp": "2026-03-09T09:59:43.216Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Market Faces Structural Reset As ETF Outflows Begin To Stabilize",
+        "description": "After reaching an all-time high of $126,100 in October 2025, Bitcoin entered a deep correction phase, pushing prices to around $60,000 in early February. According to crypto market analysis firm XWIN Research Japan, these last bearish months have marked a str…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-market-faces-structural-reset-as-etf-outflows-begin-to-stabilize/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/im-286236.jpg",
+        "publishedAt": "2026-03-08T09:00:27Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
