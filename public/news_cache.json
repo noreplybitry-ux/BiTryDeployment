@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T19:01:33.517Z",
+  "timestamp": "2026-03-09T20:41:31.256Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
       {
         "source": {
@@ -485,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay.jpg?fit=1280%2C853",
         "publishedAt": "2026-03-05T22:00:55Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Iran Regime's Crypto Activity Topped $3 Billion as Illicit Transactions Surged in 2025: Report",
-        "description": "Iran, Russia, North Korea, and other sanctioned countries boosted their use of cryptocurrency last year, according to Chainalysis.",
-        "url": "https://decrypt.co/360146/iran-regime-crypto-activity-topped-3-billion-illicit-transactions-2025",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
-        "publishedAt": "2026-03-05T21:00:22Z",
-        "content": "In brief\r\n<ul><li>Illicit cryptocurrency addresses received at least $154 billion in 2025.</li><li>Sanctioned entities accounted for about $104 billion of those flows.</li><li>Activity tied to Iran, … [+4185 chars]"
       }
     ]
   }
