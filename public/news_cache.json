@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T16:07:00.452Z",
+  "timestamp": "2026-03-09T17:51:42.962Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin ETFs Break 5-Month Streak With 2nd Consecutive Week Of Inflows",
+        "description": "A Blockstream executive made waves on social media Saturday with a striking comparison: US spot Bitcoin exchange-traded funds have pulled in roughly the same amount of cumulative investor money as gold ETFs collected over their first 15 years — and Bitcoin di…",
+        "url": "http://www.newsbtc.com/news/bitcoin-etfs-break-5-month-streak-with-2nd-consecutive-week-of-inflows/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_02cbf9.jpg?fit=2000%2C1334",
+        "publishedAt": "2026-03-08T17:00:41Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbf69-4c9d-744d-ad4f-e11df3854394.jpg",
         "publishedAt": "2026-03-05T20:53:09Z",
         "content": "The US Internal Revenue Service (IRS) is seeking to require electronic delivery of tax forms to crypto exchange users. \r\nUnder the current rules, exchanges are required to provide paper copies of tax… [+2824 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Dollar-cost averaging Bitcoin is safest strategy for long-term gains: Data",
-        "description": "Backtested data and forward-looking models found that dollar-cost averaging Bitcoin buys is the best way to invest in BTC. Will the strategy work in the next bull market?",
-        "url": "https://cointelegraph.com/news/dollar-cost-averaging-bitcoin-is-safest-strategy-for-long-term-gains-data",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbda5-e24d-752c-9a0d-371b2a35a386.jpg",
-        "publishedAt": "2026-03-05T19:47:17Z",
-        "content": "Smart investors adjust their strategy during bear markets and 50% drawdowns like the one seen in Bitcoin (BTC) over the last 5 months. The strategy, known as dollar-cost averaging (DCA), involves inv… [+4490 chars]"
       }
     ]
   }
