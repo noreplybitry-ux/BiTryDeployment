@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T04:57:38.696Z",
+  "timestamp": "2026-03-09T06:04:42.696Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin LTH Stay Calm Amid Volatile Market Swings – Details",
+        "description": "Following its price crash in early February, Bitcoin continues to exhibit significant volatility, with prices fluctuating between $60,000 and $70,000. Last week, the leading cryptocurrency saw a sharp rebound towards the 74,000 price level, but was soon follo…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-lth-stay-calm-amid-volatile-market-swings-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/pexels-jonathanborba-14856610.jpg",
+        "publishedAt": "2026-03-08T05:00:23Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
