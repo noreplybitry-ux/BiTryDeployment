@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T11:41:07.567Z",
+  "timestamp": "2026-03-09T13:17:46.480Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Bear Market Could Be Shrinking, But Are We Watching History Repeating Itself?",
+        "description": "Bitcoin has fallen back below $70,000 as selling pressure continues to dominate among crypto traders. Notably, there is currently little sign of strong buying demand that could stop further downside and the current structure still leaves room for a Bitcoin pr…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bear-market-could-be-shrinking-but-are-we-watching-history-repeating-itself/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-08T13:00:38Z",
+        "content": "Bitcoin has fallen back below $70,000 as selling pressure continues to dominate among crypto traders. Notably, there is currently little sign of strong buying demand that could stop further downside … [+2899 chars]"
+      },
       {
         "source": {
           "id": null,
