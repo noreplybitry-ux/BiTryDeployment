@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T14:58:09.567Z",
+  "timestamp": "2026-03-09T16:07:00.453Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin LTH Supply Activity Continues To Rise — Further Downside For Price?",
+        "description": "Following a rollercoaster performance during the past week, Bitcoin has had a somewhat stable price action throughout the weekend. With eyes on the escalating tensions in the Middle East, it’s been a little challenging to determine the future trajectory of th…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-lth-supply-activity-continues-to-rise-further-downside-for-price/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/11/iStock-1326202724.jpeg?fit=1254%2C836",
+        "publishedAt": "2026-03-08T15:00:34Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbda5-e24d-752c-9a0d-371b2a35a386.jpg",
         "publishedAt": "2026-03-05T19:47:17Z",
         "content": "Smart investors adjust their strategy during bear markets and 50% drawdowns like the one seen in Bitcoin (BTC) over the last 5 months. The strategy, known as dollar-cost averaging (DCA), involves inv… [+4490 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, Ian Allison",
-        "title": "U.S. judge freezes BlockFills assets in dispute over 70 bitcoin with creditor Dominion Capital",
-        "description": "A New York federal court barred the crypto trading firm from moving bitcoin tied to Dominion Capital, citing suspended withdrawals and insolvency concerns.",
-        "url": "https://www.coindesk.com/business/2026/03/05/u-s-judge-freezes-blockfills-assets-in-dispute-over-70-bitcoin-with-creditor-dominion-capital",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b8d05c10e1c15c0d584aa8678360ba15881c0286-5105x3362.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-05T18:59:09Z",
-        "content": "A U.S. federal judge has issued a temporary restraining order (TRO) against crypto lender BlockFills in a lawsuit brought by Dominion Capital, temporarily freezing assets tied to the dispute, accordi… [+3883 chars]"
       }
     ]
   }
