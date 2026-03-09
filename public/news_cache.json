@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T10:57:59.178Z",
+  "timestamp": "2026-03-09T11:41:07.566Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -472,19 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b8d05c10e1c15c0d584aa8678360ba15881c0286-5105x3362.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-05T18:59:09Z",
         "content": "A U.S. federal judge has issued a temporary restraining order (TRO) against crypto lender BlockFills in a lawsuit brought by Dominion Capital, temporarily freezing assets tied to the dispute, accordi… [+3883 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "iPhone Users Warned: Crypto Scams Can Trigger ‘Coruna’ iOS Exploits",
-        "description": "Google’s Threat Intelligence Group (GTIG) is warning that a “new and powerful” iOS exploit kit, dubbed Coruna by its developers has been deployed on fake finance and crypto websites designed to lure iPhone users into visiting pages that can silently deliver e…",
-        "url": "http://www.newsbtc.com/news/iphone-users-warned-crypto-scams-can-trigger-coruna-ios-exploits/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-5-2026-10_30_56-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-05T18:00:41Z",
-        "content": "Googles Threat Intelligence Group (GTIG) is warning that a new and powerful iOS exploit kit, dubbed Coruna by its developers has been deployed on fake finance and crypto websites designed to lure iPh… [+3603 chars]"
       }
     ]
   }
