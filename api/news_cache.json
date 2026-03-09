@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T06:04:42.696Z",
+  "timestamp": "2026-03-09T07:53:08.509Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -472,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-5-2026-10_30_56-AM.png?fit=1222%2C814",
         "publishedAt": "2026-03-05T18:00:41Z",
         "content": "Googles Threat Intelligence Group (GTIG) is warning that a new and powerful iOS exploit kit, dubbed Coruna by its developers has been deployed on fake finance and crypto websites designed to lure iPh… [+3603 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Bitcoin Price Predictions Flip Bullish, But Ethereum Is Still Stuck",
-        "description": "Prediction market traders are becoming more bullish on Bitcoin's near-term price, but they're not as confident on Ethereum.",
-        "url": "https://decrypt.co/360131/bitcoin-price-predictions-flip-bullish-but-ethereum-stuck",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-ethereum-decrypt-style-new-01-1-gID_7.jpg",
-        "publishedAt": "2026-03-05T16:36:02Z",
-        "content": "In brief\r\n<ul><li>Predictors have flipped more bullish on Bitcoin's near-term price on Myriad Markets.</li><li>Analysts are split on whether or not the recent rally can be sustained, though. </li><li… [+2735 chars]"
       }
     ]
   }
