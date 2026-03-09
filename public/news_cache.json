@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T13:17:46.480Z",
+  "timestamp": "2026-03-09T14:58:09.567Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin preps fresh trend line showdown as weekly close sparks $60K target",
+        "description": "Bitcoin price weakness brought back the risk of cementing its 200-week exponential moving average trend line as new resistance.",
+        "url": "https://cointelegraph.com/markets/bitcoin-fresh-trend-line-showdown-weekly-close-60k-target",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ade40-de1e-7844-a640-148b3ad534d9",
+        "publishedAt": "2026-03-08T13:20:42Z",
+        "content": "Bitcoin (BTC) threatened to cement new resistance into Sundays weekly close as traders focused on oil and gold.\r\nKey points:\r\n<ul><li>Bitcoin risks reinforcing its 200-week exponential moving average… [+3575 chars]"
+      },
       {
         "source": {
           "id": null,
