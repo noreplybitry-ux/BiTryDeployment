@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T17:51:56.631Z",
+  "timestamp": "2026-03-10T18:59:06.402Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/9: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH",
+        "description": "Bitcoin and altcoins rallied toward their respective range highs as investors piled into crypto despite the war in Iran and record-high oil prices.",
+        "url": "https://cointelegraph.com/markets/price-predictions-3-9-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-bch",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd3a6-8b9e-751d-a3e3-6b9c5abb5ca2.jpg",
+        "publishedAt": "2026-03-09T17:57:56Z",
+        "content": "Key points:\r\n<ul><li>Rising oil prices have not hurt crypto sentiment as buyers attempt to push Bitcoin above $69,000\r\n</li><li>Buyers are attempting to propel several major altcoins above their over… [+8829 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-Pexels-1.jpeg?fit=5144%2C2893",
         "publishedAt": "2026-03-07T16:00:50Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin On-Chain Data Identifies Unusual Market Cap Behavior – Details",
-        "description": "The Bitcoin market experienced a short-lived rebound, as prices broke through the long-standing $70,000 resistance to briefly touch the $74,000 mark before dipping again. Whether this price action represents an initial retest for a potential market recovery r…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-on-chain-data-identifies-unusual-market-cap-behavior-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/pexels-roger-brown-3435524-5975340.jpg?fit=2759%2C2089",
-        "publishedAt": "2026-03-07T13:00:24Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Sees Historic Death Cross On 3-Day Chart — What Does This Mean?",
-        "description": "Market analyst Ali Martinez highlights a recent development on the Bitcoin 3-day chart with significant bearish implications. The leading cryptocurrency still trades just below the $70,000 mark following the temporary breakout earlier this week. Bitcoin has n…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-sees-historic-death-cross-on-3-day-chart-what-does-this-mean/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/gettyimages-1396501285-640x640-2.jpg",
-        "publishedAt": "2026-03-07T10:00:43Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       }
     ]
   }
