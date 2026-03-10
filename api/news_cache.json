@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T20:41:26.590Z",
+  "timestamp": "2026-03-10T21:35:25.357Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b46af-9c80-737e-8cb5-85cc0aa73f18.jpg",
         "publishedAt": "2026-03-07T21:58:33Z",
         "content": "The United States Treasury Department acknowledged the legitimate use of mixers, which obfuscate crypto transfers to preserve user privacy, in its report to Congress on Innovative Technologies to Cou… [+2429 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "XRP Whale Outflows Continue On Binance — What’s Happening?",
-        "description": "According to recent on-chain data, large investors in the XRP market seem to be adjusting their positions. Further analysis suggests that if XRP finds favorable alignment with the current conditions, it could be at the start of a larger upside rally. 44 Milli…",
-        "url": "http://www.newsbtc.com/xrp-news/xrp-whale-outflows-continue-on-binance-whats-happening/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/02/iStock-933090786.jpg?fit=2119%2C1414",
-        "publishedAt": "2026-03-07T20:30:13Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
       }
     ]
   }
