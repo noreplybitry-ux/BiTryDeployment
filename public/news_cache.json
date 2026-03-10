@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T05:52:04.020Z",
+  "timestamp": "2026-03-10T06:59:46.516Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/btc_8a125e.png?fit=1305%2C870",
         "publishedAt": "2026-03-06T06:00:12Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Retreats, Market Eyes Potential Extended Pullback",
-        "description": "Dogecoin corrected some gains and traded below $0.10 against the US Dollar. DOGE is now holding the $0.0920 support and might aim for a fresh increase. DOGE price started a fresh downside correction below $0.10. The price is trading below the $0.0965 level an…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-retreats-0-095/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Retreats-Market-Eyes-Potential-Extended-Pullback.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-06T05:08:45Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
