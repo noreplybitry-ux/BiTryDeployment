@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T21:35:25.357Z",
+  "timestamp": "2026-03-10T22:35:47.195Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Will Bitcoin follow oil’s historic surge and rally to $79K before the end of March?",
+        "description": "Historical data shows that Bitcoin typically gains 20% within a month of major spikes in oil prices. Should traders prepare for a rally to $79,000?",
+        "url": "https://cointelegraph.com/markets/will-bitcoin-follow-oil-historic-surge-and-rally-to-79k-before-end-of-march",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd49d-b9cb-75e4-bc6b-d10dea261a4e.jpg",
+        "publishedAt": "2026-03-09T22:07:11Z",
+        "content": "Key takeaways:\r\n<ul><li>Oil price spikes often precede 20% spikes in Bitcoin value, though initial market reactions remain volatile and unpredictable.\r\n</li><li>Bitcoin currently mirrors tech stocks … [+4030 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Stephen Graves",
+        "title": "Moldova's Anticorruption Center Alleges $107M Crypto Scheme to Influence Elections",
+        "description": "Blockchain analysis firm TRM Labs identified links to a Russia-backed influence operation paying agitators in cryptocurrency.",
+        "url": "https://decrypt.co/360396/moldova-107m-crypto-scheme-influence-elections",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-03-09T21:50:27Z",
+        "content": "In brief\r\n<ul><li>Moldova's National Anticorruption Center has identified an election-influence scheme that saw some $107 million used to promote candidates and bribe voters.</li><li>The \"complex tra… [+5010 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-1248674191-e1748299111676.jpg?fit=1200%2C801",
         "publishedAt": "2026-03-07T23:30:34Z",
         "content": "Over the past few days, the Bitcoin price has had one of its better performances so far in the first quarter of 2026. Catalyzed by the rising geopolitical tensions between US-Isreal and Iran, the pre… [+2652 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Crypto Fear and Greed Index falls back down to 'extreme fear' levels",
-        "description": "The Crypto Fear and Greed Index has fallen down to \"extreme fear\" levels again after renewed geopolitical and macroeconomic shocks shake investor confidence.",
-        "url": "https://cointelegraph.com/news/crypto-fear-greed-index-extreme-fear",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b5874-41c6-76d9-ac11-dbbf5925f145.jpg",
-        "publishedAt": "2026-03-07T22:05:54Z",
-        "content": "The Crypto Fear and Greed Index, one of the most widely used gauges of crypto investor sentiment, has fallen back down to extreme fear levels after briefly recovering on Wednesday.\r\nThe Crypto Fear a… [+2227 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "US Treasury report acknowledges legitimate uses of crypto mixers",
-        "description": "A new report from the United States Treasury Department touches on legitimate use cases for cryptocurrency mixers and privacy-preserving tools.",
-        "url": "https://cointelegraph.com/news/us-treasury-legitimate-use-crypto-mixer",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b46af-9c80-737e-8cb5-85cc0aa73f18.jpg",
-        "publishedAt": "2026-03-07T21:58:33Z",
-        "content": "The United States Treasury Department acknowledged the legitimate use of mixers, which obfuscate crypto transfers to preserve user privacy, in its report to Congress on Innovative Technologies to Cou… [+2429 chars]"
       }
     ]
   }
