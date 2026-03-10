@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T14:56:33.676Z",
+  "timestamp": "2026-03-10T16:07:22.329Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, Krisztian Sandor",
+        "title": "Bitcoin rises to $69,000, stocks reverse big early losses, as crude oil sinks back below $100",
+        "description": "WTI crude oil, which soared nearly 30% to $120 per barrel overnight, has pulled back to $95, easing pressure on risk assets.",
+        "url": "https://www.coindesk.com/markets/2026/03/09/bitcoin-rises-to-usd69-000-stocks-reverse-big-early-losses-as-crude-oil-sinks-back-below-usd100",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3ac88042e38f03c85b8fd0117c230c2b8673d5ad-1920x1080.jpg?auto=format",
+        "publishedAt": "2026-03-09T16:02:15Z",
+        "content": "Crypto assets traded higher during the U.S. session on Monday, rebounding from sharp overnight losses that had brought bitcoin BTC\r\n$69,030.27 down to nearly $65,000.\r\nBitcoin was trading just shy of… [+1861 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price retags $69K as G7 oil plan hangs in the balance",
+        "description": "Bitcoin managed to avoid losses suffered by global stock markets over oil supply uncertainty, with a 5% relief bounce from its weekly open level.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-retags-69k-g7-oil-plan-hangs-in-balance",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd347-ff53-7843-add4-ec3eeed18787.jpg",
+        "publishedAt": "2026-03-09T15:38:26Z",
+        "content": "Bitcoin (BTC) returned to $69,000 at Mondays Wall Street open with markets in limbo over the Middle East oil crisis.\r\nKey points:\r\n<ul><li>Bitcoin sees a rebound after dropping below $68,000 for the … [+4091 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Global insurance broker Aon tests stablecoin payments with Coinbase, Paxos",
+        "description": "The firm used USDC on Ethereum and PayPal USD on Solana for insurance premium payments, testing how stablecoins could reshape settlements.",
+        "url": "https://www.coindesk.com/business/2026/03/09/global-insurance-broker-aon-tests-stablecoin-payments-with-coinbase-paxos",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/60a6fa85e80e77bb8e8f9152dfcdf27f972b24aa-1920x1080.jpg?auto=format",
+        "publishedAt": "2026-03-09T15:21:14Z",
+        "content": "Aon (AON), which advises on $5 trillion in assets as one of the world's largest insurance brokers, said it carried out a proof-of-concept using stablecoins to settle insurance premium payments, an ea… [+1894 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,58 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/gettyimages-1396501285-640x640-2.jpg",
         "publishedAt": "2026-03-07T10:00:43Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Says Bitcoin $200,000 Target Remains Open, But There’s A More Realistic Target",
-        "description": "Bitcoin’s initial break above the 6-figure price point back in 2024, and then the eventual move to an all-time high of $126,000, has fueled the expectations of higher price points. Even now, as the price continues to trend below $100,000, it has done little t…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-200000-target-open/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-19-2026-08_33_10-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-07T08:30:00Z",
-        "content": "Bitcoins initial break above the 6-figure price point back in 2024, and then the eventual move to an all-time high of $126,000, has fueled the expectations of higher price points. Even now, as the pr… [+2067 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ciaran Lyons",
-        "title": "Bitcoin dip may not be over as retail ramps up buying below $70K: Santiment",
-        "description": "Crypto sentiment platform Santiment said whales have been selling aggressively since Bitcoin hit $74,000, while retail investors have been buying the dip, indicating potential further downside.",
-        "url": "https://cointelegraph.com/news/bitcoin-price-decline-downside-retail-whales-pattern-santiment",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019c0d0e-ede4-7d3d-a54a-3b58b5d4b4ed.jpg",
-        "publishedAt": "2026-03-07T06:02:01Z",
-        "content": "Retail investors have been scooping up Bitcoin after it slipped below $70,000, but whale activity suggests the price could still head lower if past patterns repeat, according to crypto sentiment plat… [+2230 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Bitcoin could crash by another 30% as four-year cycle gains strength, investment firm says",
-        "description": "Bitcoin is now firmly in a deep bear market and could fall another 30% in 2026, firm said.",
-        "url": "https://www.coindesk.com/markets/2026/03/07/bitcoin-could-crash-another-30-as-four-year-cycle-gains-strength-investment-firm-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/aa651f593b05892413d8006cdf3a5cea49f53472-1260x843.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-07T05:44:21Z",
-        "content": "Bitcoin BTC\r\n$67,920.10 is firmly in the deepest phase of the bear market and the pain may worsen, according to CK Zheng, founder of crypto investment firm ZX Squared Capital.\r\n\"Bitcoin's price is co… [+2464 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Bounce Fails As Short-Term Holders Rush To Take Profit",
-        "description": "Bitcoin’s latest rebound to $74,050 on Thursday is running into immediate selling pressure as short-term holders move coins to exchanges in large volumes, suggesting the market’s most reactive cohort remains unconvinced by the recovery. On-chain data shared b…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-bounce-fails-short-term-holders-take-profit/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-6-2026-02_18_32-PM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-07T04:00:41Z",
-        "content": "Bitcoins latest rebound to $74,050 on Thursday is running into immediate selling pressure as short-term holders move coins to exchanges in large volumes, suggesting the markets most reactive cohort r… [+3205 chars]"
       }
     ]
   }
