@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T18:59:06.402Z",
+  "timestamp": "2026-03-10T19:44:58.212Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Price Bounces, But Bears Are Still in Control: Analysis",
+        "description": "Bitcoin broke the descending triangle with a massive candle—then crept right back inside. Today, it's trying again, but the daily chart isn't convincing.",
+        "url": "https://decrypt.co/360448/bitcoin-price-bounces-bears-in-control-analysis",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-neon-gID_7.png",
+        "publishedAt": "2026-03-09T19:37:58Z",
+        "content": "In brief\r\n<ul><li>Bitcoin is up 4.78% today trading at $69,128.</li><li>Last week's apparent triangle breakout closed as a massive bullish wick a classic false breakout signal.</li><li>On Myriad, pre… [+5391 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/02/iStock-933090786.jpg?fit=2119%2C1414",
         "publishedAt": "2026-03-07T20:30:13Z",
         "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin ETFs Bleed $349M In A Day As Whales Dump, Small Buyers Step In: Analysts",
-        "description": "Spot Bitcoin ETFs listed in the US recorded their steepest single-day outflow in nearly three weeks on Friday, with $349 million pulled from all 11 products combined, according to data from Farside. Related Reading: Stablecoin Market Breaks Records — USDC Con…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-etfs-bleed-349m-in-a-day-as-whales-dump-small-buyers-step-in-analysts/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_67e8c8.jpg?fit=1280%2C903",
-        "publishedAt": "2026-03-07T17:30:49Z",
-        "content": "Spot Bitcoin ETFs listed in the US recorded their steepest single-day outflow in nearly three weeks on Friday, with $349 million pulled from all 11 products combined, according to data from Farside.\r… [+2626 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Ethereum Rising Wedge Warning: Breakdown Could Send Price Toward $1,500",
-        "description": "Ethereum is showing early signs of a rising wedge formation, a pattern often associated with potential reversals. With key support under pressure, a breakdown from this structure could push the price lower, putting the $1,500 level firmly in focus as the next…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-warning-breakdown/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-Pexels-1.jpeg?fit=5144%2C2893",
-        "publishedAt": "2026-03-07T16:00:50Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
       }
     ]
   }
