@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T06:59:46.516Z",
+  "timestamp": "2026-03-10T07:49:59.560Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Ethereum price prediction as ETH teeters below $2,000",
+        "description": "Ethereum price remains under pressure below the key $2,150 resistance. Exchange outflows hint at continued long-term accumulation. The $1,800 support is the key level traders are watching. The Ethereum price is struggling to hold above the $2,000 mark amid mi…",
+        "url": "https://coinjournal.net/news/ethereum-price-prediction-as-eth-teeters-below-2000/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2023/05/1684792480546-2025ef2f-4a84-4b58-9b1c-224d81a4baed.jpg",
+        "publishedAt": "2026-03-09T07:42:58Z",
+        "content": "<ul><li>Ethereum price remains under pressure below the key $2,150 resistance.</li><li>Exchange outflows hint at continued long-term accumulation.</li><li>The $1,800 support is the key level traders … [+3996 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cc217-4d5e-7c75-bd3a-4da82366d0b2.jpg",
         "publishedAt": "2026-03-06T10:18:36Z",
         "content": "Payments company Strike received a virtual currency license and a money transmitter license (MTL) from the New York State Department of Financial Services (NYDFS), allowing the company to offer its B… [+2245 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Bitcoin Spot ETFs See 14-Day Netflows Surge: Demand Returning?",
-        "description": "Data shows the Bitcoin spot exchange-traded funds (ETFs) have seen their 14-day netflow trend climb into the positive territory, ending a period of sustained outflows. Bitcoin Spot ETF Netflow Has Been Rising Recently As highlighted by on-chain analytics firm…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-spot-etfs-14-netflows-demand-returning/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/btc_8a125e.png?fit=1305%2C870",
-        "publishedAt": "2026-03-06T06:00:12Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       }
     ]
   }
