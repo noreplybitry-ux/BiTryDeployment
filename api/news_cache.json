@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T02:33:35.624Z",
+  "timestamp": "2026-03-10T04:46:54.307Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Extends Pullback, $1,920 Support Now Under Threat",
+        "description": "Ethereum price started a fresh decline below $2,000. ETH is now correcting gains above $1,920 and might decline further in the near term. Ethereum started a downside correction below the $2,020 zone. The price is trading below $2,000 and the 100-hourly Simple…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-extends-pullback-1920/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Extends-Pullback.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-09T03:18:20Z",
+        "content": "Ethereum price started a fresh decline below $2,000. ETH is now correcting gains above $1,920 and might decline further in the near term.\r\n<ul><li>Ethereum started a downside correction below the $2,… [+2123 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Sinks Below $68K, Downside Targets Come Into Focus",
+        "description": "Bitcoin price started a fresh decline below $68,500 and $68,000. BTC is now consolidating and might struggle to start a recovery wave above $68,500. Bitcoin started a fresh decline after it settled above the $69,500 zone. The price is trading below $68,000 an…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-sinks-below-68k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Breakdown.jpg",
+        "publishedAt": "2026-03-09T02:44:07Z",
+        "content": "Bitcoin price started a fresh decline below $68,500 and $68,000. BTC is now consolidating and might struggle to start a recovery wave above $68,500.\r\n<ul><li>Bitcoin started a fresh decline after it … [+2241 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Corrects-Gains-Drifts-Toward-Key-Support-Zone.jpg?fit=1408%2C768",
         "publishedAt": "2026-03-06T03:18:56Z",
         "content": "Ethereum price started a fresh increase and tested $2,200. ETH is now correcting gains and might decline further if it trades below $2,030.\r\n<ul><li>Ethereum started a downside correction below the $… [+2164 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Sebastian Sinclair",
-        "title": "Crypto Exchange OKX Debuts Social Platform Linking Posts to Trades",
-        "description": "Orbit allows traders to disclose portfolio data and earn rewards tied to follower engagement in what OKX is touting as a transparency play.",
-        "url": "https://decrypt.co/360215/crypto-exchange-okx-debuts-social-platform-linking-posts-trades",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/okx-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-03-06T03:01:02Z",
-        "content": "In brief\r\n<ul><li>Orbit lets users discuss markets, host livestreams and execute trades directly from posts within the OKX app.</li><li>Performance data, including holdings, profit and loss, and trad… [+2969 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Rally Slows, Consolidation Signals Possible Next Move",
-        "description": "Bitcoin price started a steady increase above $70,500 and $72,500. BTC is now consolidating and might aim for a fresh increase above $72,500. Bitcoin started a fresh increase after it settled above the $70,000 zone. The price is trading above $70,000 and the …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rally-slows-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Rally-Slows.jpg",
-        "publishedAt": "2026-03-06T02:35:56Z",
-        "content": "Bitcoin price started a steady increase above $70,500 and $72,500. BTC is now consolidating and might aim for a fresh increase above $72,500.\r\n<ul><li>Bitcoin started a fresh increase after it settle… [+2230 chars]"
       }
     ]
   }
