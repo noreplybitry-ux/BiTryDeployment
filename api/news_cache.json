@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T11:38:19.353Z",
+  "timestamp": "2026-03-10T13:15:17.785Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin At The Bottom? The 23-Month Cycle That Has Never Failed",
+        "description": "Crypto analyst Coinvo has explained why Bitcoin may be close to a bottom, which could spark a rally to new highs. This comes as BTC continues to face downside pressure due to the rising tensions between the U.S. and Iran.  Why Bitcoin May Soon Reach A Bear Ma…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-at-the-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-18.jpg?fit=1280%2C960",
+        "publishedAt": "2026-03-09T13:00:27Z",
+        "content": "Crypto analyst Coinvo has explained why Bitcoin may be close to a bottom, which could spark a rally to new highs. This comes as BTC continues to face downside pressure due to the rising tensions betw… [+2520 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,45 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cc3ff-9cc0-73f1-b9c9-f91dbd6a5e2a.jpg",
         "publishedAt": "2026-03-06T21:00:00Z",
         "content": "Key points:\r\n<ul><li>Analysts believe that Bitcoin will have to stay above the $68,000 level to continue its recovery.\r\n</li><li>Several major altcoins have turned down from their overhead resistance… [+8482 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Oliver Knight",
-        "title": "Why bitcoin couldn't hold $70,000 despite its best week of Wall Street news in months",
-        "description": "Bitcoin’s institutional era is officially here, but a stronger dollar and shifting interest rate expectations are keeping a lid on the latest rally.",
-        "url": "https://www.coindesk.com/markets/2026/03/06/why-bitcoin-suffered-a-usd110-billion-wipeout-despite-its-best-week-of-wall-street-news-in-months",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/614280887003b84b84e80a6268962cc4f0f36563-8192x5464.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-06T20:17:14Z",
-        "content": "Bitcoin briefly pushed toward $74,000 this week, buoyed by a string of bullish developments that have tied the crypto industry ever closer to traditional finance. \r\nSome market observers began callin… [+6231 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Binance Denies $1.7 Billion in Iran Sanctions Violations Amid US Senate Probe",
-        "description": "Binance denied $1.7 billion in Iran sanctions violations and stood behind its compliance operations, in a new letter to Senator Richard Blumenthal.",
-        "url": "https://decrypt.co/360273/binance-denies-1-7-billion-iran-sanctions-violations-senate-probe",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
-        "publishedAt": "2026-03-06T19:38:50Z",
-        "content": "In brief\r\n<ul><li>Binance denied violating Iran sanctions with more than $1.7 billion in transactions in a new letter to Senator Blumenthal. </li><li>The Senator opened an investigation into the firm… [+3129 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Crypto Biz: Kraken plugs into the Fed",
-        "description": "Kraken wins direct access to the Fed’s payment system, signaling deeper crypto integration with traditional finance as MARA clarifies its Bitcoin strategy and tokenization gains traction.",
-        "url": "https://cointelegraph.com/news/kraken-fed-access-mara-bitcoin-nyse-tokenization",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cc3e8-8b95-7621-a596-ca6ff05727fb.jpg",
-        "publishedAt": "2026-03-06T16:23:32Z",
-        "content": "The digital asset sector took another step toward integration with traditional finance this week when Kraken secured direct access to the US Federal Reserves payment rails a milestone that could resh… [+4457 chars]"
       }
     ]
   }
