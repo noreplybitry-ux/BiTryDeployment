@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-09T23:34:38.084Z",
+  "timestamp": "2026-03-10T02:33:35.624Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -472,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Rally-Slows.jpg",
         "publishedAt": "2026-03-06T02:35:56Z",
         "content": "Bitcoin price started a steady increase above $70,500 and $72,500. BTC is now consolidating and might aim for a fresh increase above $72,500.\r\n<ul><li>Bitcoin started a fresh increase after it settle… [+2230 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin Consolidates Near Key Support Band — $77,000 Holds The Key To The Next Move",
-        "description": "Bitcoin is consolidating near a crucial support band, with $77,000 emerging as the key level to watch. A breakout above it could signal bullish momentum and a trend reversal, while failure to hold may keep Bitcoin in a corrective phase or push it lower. Bitco…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-near-key-support-band/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-05T22:00:55Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
       }
     ]
   }
