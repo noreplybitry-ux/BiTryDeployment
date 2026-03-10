@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T10:50:04.061Z",
+  "timestamp": "2026-03-10T11:38:19.353Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Why A U.S. Court Says Binance Is Not (Yet) Liable for Terrorist Crypto Flows",
+        "description": "A lawsuit accusing the crypto exchange Binance of allowing terrorism financing by facilitating it has fallen apart after a US Federal court dismissed it. Not Terrorist Supporters The Troell et al. v. Binance case was dismissed in an opinion and order issued o…",
+        "url": "http://www.newsbtc.com/crypto/why-a-u-s-court-says-binance-is-not-yet-liable-for-terrorist-crypto-flows/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image10.png",
+        "publishedAt": "2026-03-09T11:21:29Z",
+        "content": "A lawsuit accusing the crypto exchange Binance of allowing terrorism financing by facilitating it has fallen apart after a US Federal court dismissed it.\r\nThe Troell et al. v. Binance case was dismis… [+3408 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin at $67K despite oil shock is 'strongest indicator' bottom may be in",
+        "description": "Bitcoin held strong above $67,000 amid oil surge to $119 on Middle East conflict and inflation fears, with analysts seeing signs of a potential BTC price reversal.",
+        "url": "https://cointelegraph.com/markets/bitcoin-67k-oil-shock-strongest-indicator-bottom-may-be-in",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd22a-e25a-700c-abd2-057993d2337f.jpg",
+        "publishedAt": "2026-03-09T11:20:01Z",
+        "content": "Bitcoin (BTC) displayed strength as it traded above $67,000 on Monday, after producing the first bullish weekly close in seven weeks. Meanwhile, oil prices exploded as the Middle East conflict prompt… [+4157 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cc3e8-8b95-7621-a596-ca6ff05727fb.jpg",
         "publishedAt": "2026-03-06T16:23:32Z",
         "content": "The digital asset sector took another step toward integration with traditional finance this week when Kraken secured direct access to the US Federal Reserves payment rails a milestone that could resh… [+4457 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price drops to near $68K as US jobs weakness fails to rescue bulls",
-        "description": "Bitcoin erased its latest breakout attempt after hitting $74,000 as surprisingly weak labor-market data offered no tailwind to crypto or risk assets.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-near-68k-us-jobs-weakness-fails-rescue-bulls",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c6c3c-ff58-7cd7-853c-a3bf38350c63.jpg",
-        "publishedAt": "2026-03-06T15:14:04Z",
-        "content": "Bitcoin (BTC) slipped under $70,000 around Fridays Wall Street open as weak US employment data failed to boost risk assets.\r\nKey points:\r\n<ul><li>Bitcoin and stocks slump in reaction to a surprise do… [+3463 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Sam Reynolds",
-        "title": "Binance tells Senate probe no accounts sent crypto directly to Iran",
-        "description": "Crypto exchange pushed back on $1.7  billion Iran-linked flow allegations and called media reports behind the probe “defamatory.”",
-        "url": "https://www.coindesk.com/policy/2026/03/06/binance-tells-senate-probe-no-accounts-sent-crypto-directly-to-iran",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/66e56db9d7b789107fce617b2dd7328e0e016cd5-1920x1079.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-06T15:01:28Z",
-        "content": "Binance, via its lawyers, told a U.S. Senate investigation it found no evidence that accounts on its platform transacted directly with Iranian entities, refuting allegations that $1.7 billion in cryp… [+2060 chars]"
       }
     ]
   }
