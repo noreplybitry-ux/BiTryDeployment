@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T04:46:54.307Z",
+  "timestamp": "2026-03-10T05:52:04.020Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Martin Young",
+        "title": "BTC Markets eyes RWA trading license amid global tokenization wave",
+        "description": "BTC Markets is seeking an ASIC markets license to offer tokenized real-world assets as global exchanges race to bring RWA trading to investors.",
+        "url": "https://cointelegraph.com/news/btc-markets-eyes-markets-license-tokenization-play-joining-peers",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd0e7-d931-7d23-9d77-f4231a428c56.jpg",
+        "publishedAt": "2026-03-09T05:34:39Z",
+        "content": "Australian crypto exchange BTC Markets has notified the countrys securities regulator, the Australian Securities and Investments Commission, of its intention to apply for a markets license to offer r… [+3529 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Tumbles to $80, Traders Watch Critical Support Defense",
+        "description": "Solana failed to settle above $90 and extended losses. SOL price is now consolidating losses below $85 and might struggle to start a recovery wave. SOL price started a fresh decline below $85 and $82 against the US Dollar. The price is now trading below $85 a…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-tumbles-to-80/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Tumbles-to-80.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-09T05:18:26Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Retreats-Market-Eyes-Potential-Extended-Pullback.jpg?fit=1408%2C768",
         "publishedAt": "2026-03-06T05:08:45Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vince Dioquino",
-        "title": "Vancouver Moves to Close Bitcoin Reserve Proposal After Legal Review",
-        "description": "Over a year after Vancouver explored becoming a “Bitcoin-friendly city,” staff say municipal law bars holding Bitcoin in city reserves.",
-        "url": "https://decrypt.co/360216/vancouver-close-bitcoin-reserve-proposal-legal-review",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/Victoria-Canada-gID_7.jpg",
-        "publishedAt": "2026-03-06T03:40:07Z",
-        "content": "In brief\r\n<ul><li>City staff have concluded the Vancouver Charter does not allow Bitcoin in city reserves.</li><li>The motion followed a late 2024 decree by Mayor Ken Sim to study crypto use.</li><li… [+4079 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Corrects Gains, Drifts Toward Key Support Zone",
-        "description": "Ethereum price started a fresh increase and tested $2,200. ETH is now correcting gains and might decline further if it trades below $2,030. Ethereum started a downside correction below the $2,120 zone. The price is trading above $2,065 and the 100-hourly Simp…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-corrects-gains-2065/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Corrects-Gains-Drifts-Toward-Key-Support-Zone.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-06T03:18:56Z",
-        "content": "Ethereum price started a fresh increase and tested $2,200. ETH is now correcting gains and might decline further if it trades below $2,030.\r\n<ul><li>Ethereum started a downside correction below the $… [+2164 chars]"
       }
     ]
   }
