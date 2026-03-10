@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T19:44:58.212Z",
+  "timestamp": "2026-03-10T20:41:26.590Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Why Did Bitcoin Price Crash To $67,000, And Ethereum Price Fell Below $2,000?",
+        "description": "Bitcoin’s rally back to the mid-$73,000 region did not last long as the leading cryptocurrency’s price action reversed as the week came to a close and fell back around $67,000 after momentarily regaining momentum last week, pulling Ethereum down with it till …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-crash-ethereum/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-and-Ethereum-from-Pngtree-1.jpg?fit=520%2C260",
+        "publishedAt": "2026-03-09T20:30:37Z",
+        "content": "Bitcoins rally back to the mid-$73,000 region did not last long as the leading cryptocurrencys price action reversed as the week came to a close and fell back around $67,000 after momentarily regaini… [+2731 chars]"
+      },
       {
         "source": {
           "id": null,
