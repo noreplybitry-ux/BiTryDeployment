@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T09:52:16.320Z",
+  "timestamp": "2026-03-11T10:50:01.188Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Bitcoin price holds above $70k as exchange outflows rise and Iran conflict impact eases",
+        "description": "Exchange outflows reduce available Bitcoin, tightening the market. Easing Iran tensions boosts investor confidence and trading activity. Traders and institutions step in, supporting the price during dips. Bitcoin (BTC) has rebounded above $70,000 amid easing …",
+        "url": "https://coinjournal.net/news/bitcoin-price-holds-above-70k-as-exchange-outflows-rise-and-iran-conflict-impact-eases/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/08/Bitcoin-Cash-price-forecast.png",
+        "publishedAt": "2026-03-10T09:58:30Z",
+        "content": "<ul><li>Exchange outflows reduce available Bitcoin, tightening the market.</li><li>Easing Iran tensions boosts investor confidence and trading activity.</li><li>Traders and institutions step in, supp… [+2910 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_02cbf9.jpg?fit=2000%2C1334",
         "publishedAt": "2026-03-08T17:00:41Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin LTH Supply Activity Continues To Rise — Further Downside For Price?",
-        "description": "Following a rollercoaster performance during the past week, Bitcoin has had a somewhat stable price action throughout the weekend. With eyes on the escalating tensions in the Middle East, it’s been a little challenging to determine the future trajectory of th…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-lth-supply-activity-continues-to-rise-further-downside-for-price/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/11/iStock-1326202724.jpeg?fit=1254%2C836",
-        "publishedAt": "2026-03-08T15:00:34Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
       }
     ]
   }
