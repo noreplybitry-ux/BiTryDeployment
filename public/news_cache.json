@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T17:57:20.252Z",
+  "timestamp": "2026-03-11T19:05:27.029Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bc1ad-31b2-707e-92d8-5b63a16f1777.jpg",
         "publishedAt": "2026-03-09T10:22:37Z",
         "content": "Bitcoin (BTC) starts the second week of March on the edge, with markets focused on the Middle East.\r\n<ul><li>Bitcoin erased its latest breakout attempt and closed the weekly candle below key resistan… [+8602 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "43% of Bitcoin Supply Is In Loss As Market Nears Bear Territory",
-        "description": "A growing share of Bitcoin supply has slipped underwater, with CryptoQuant contributor Darkfost arguing that the market is now sitting much closer to historical bear-phase conditions than to a confirmed bull trend. His latest charts show 43% of Bitcoin supply…",
-        "url": "http://www.newsbtc.com/bitcoin-news/43-bitcoin-supply-in-loss-bear-territory/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-9-2026-09_29_45-AM.png",
-        "publishedAt": "2026-03-09T08:30:47Z",
-        "content": "A growing share of Bitcoin supply has slipped underwater, with CryptoQuant contributor Darkfost arguing that the market is now sitting much closer to historical bear-phase conditions than to a confir… [+3679 chars]"
       }
     ]
   }
