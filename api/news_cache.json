@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T10:50:01.188Z",
+  "timestamp": "2026-03-11T11:38:47.299Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Is Repeating 2022 Playbook That Triggered Crash To $17,500",
+        "description": "The 2022 Bitcoin crash has been one for the history books, where the price went from $69,000 to $16,000 before hitting a bottom. Being the most recent bear market before the current cycle, there have been a lot of comparisons between the current trend and the…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-repeating-2022-playbook/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-23-2026-08_23_08-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-10T11:30:06Z",
+        "content": "The 2022 Bitcoin crash has been one for the history books, where the price went from $69,000 to $16,000 before hitting a bottom. Being the most recent bear market before the current cycle, there have… [+2204 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Winklevoss Twins Move $130M in Bitcoin to Gemini Hot Wallets: Arkham",
+        "description": "Arkham claimed that the transfers were intended “presumably to sell,” though neither Cameron nor Tyler Winklevoss has commented on the move.",
+        "url": "https://decrypt.co/360539/winklevoss-twins-move-130m-in-bitcoin-to-gemini-hot-wallets-arkham",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-03-10T11:02:35Z",
+        "content": "In brief\r\n<ul><li>Gemini founders Tyler and Cameron Winklevoss have transferred around $130 million in Bitcoin to the exchange's hot wallets over the past week, said Arkham.</li><li>The blockchain an… [+2842 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Breakdown.jpg",
         "publishedAt": "2026-03-09T02:44:07Z",
         "content": "Bitcoin price started a fresh decline below $68,500 and $68,000. BTC is now consolidating and might struggle to start a recovery wave above $68,500.\r\n<ul><li>Bitcoin started a fresh decline after it … [+2241 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Price Must Not Drop Below $63,700, Analyst Warns",
-        "description": "An on-chain data expert has identified a critical level that the Bitcoin price must not break, or it could be at risk of a significant downturn. Critical Levels For BTC Price: Alphractal CEO On Saturday, March 7, Alphractal founder and CEO Joao Wedson reveale…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-must-not-fall-below-63700/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-08-11.54.21.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-08T19:00:55Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin ETFs Break 5-Month Streak With 2nd Consecutive Week Of Inflows",
-        "description": "A Blockstream executive made waves on social media Saturday with a striking comparison: US spot Bitcoin exchange-traded funds have pulled in roughly the same amount of cumulative investor money as gold ETFs collected over their first 15 years — and Bitcoin di…",
-        "url": "http://www.newsbtc.com/news/bitcoin-etfs-break-5-month-streak-with-2nd-consecutive-week-of-inflows/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_02cbf9.jpg?fit=2000%2C1334",
-        "publishedAt": "2026-03-08T17:00:41Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
