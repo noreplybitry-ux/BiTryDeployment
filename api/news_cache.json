@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T08:52:57.381Z",
+  "timestamp": "2026-03-11T09:52:16.321Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "BitMine Acquires 60,000 ETH; Chair Discusses Outlook For Ethereum And Crypto Prices",
+        "description": "BitMine Immersion Technologies (BMNR), the largest corporate holder of Ethereum (ETH) worldwide, announced on Monday that it had made a significant new purchase of nearly 61,000 ETH.  BitMine Holds 3.7% Of Total Ethereum Supply BitMine’s latest transaction, c…",
+        "url": "http://www.newsbtc.com/news/ethereum/bitmine-acquires-60000-eth-chair-discusses-outlook-for-ethereum-and-crypto-prices/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/Screenshot_1259.jpg?fit=1277%2C718",
+        "publishedAt": "2026-03-10T09:00:02Z",
+        "content": "BitMine Immersion Technologies (BMNR), the largest corporate holder of Ethereum (ETH) worldwide, announced on Monday that it had made a significant new purchase of nearly 61,000 ETH. \r\nBitMine’s late… [+2665 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/11/iStock-1326202724.jpeg?fit=1254%2C836",
         "publishedAt": "2026-03-08T15:00:34Z",
         "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin preps fresh trend line showdown as weekly close sparks $60K target",
-        "description": "Bitcoin price weakness brought back the risk of cementing its 200-week exponential moving average trend line as new resistance.",
-        "url": "https://cointelegraph.com/markets/bitcoin-fresh-trend-line-showdown-weekly-close-60k-target",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ade40-de1e-7844-a640-148b3ad534d9",
-        "publishedAt": "2026-03-08T13:20:42Z",
-        "content": "Bitcoin (BTC) threatened to cement new resistance into Sundays weekly close as traders focused on oil and gold.\r\nKey points:\r\n<ul><li>Bitcoin risks reinforcing its 200-week exponential moving average… [+3575 chars]"
       }
     ]
   }
