@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T11:38:47.299Z",
+  "timestamp": "2026-03-11T13:15:12.771Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Strategy records biggest STRC issuance day with estimated 1,420 BTC buy",
+        "description": "Strategy sold a record amount of STRC, estimated to fund 1,420 Bitcoin purchases in a single day after easing ATM sales restrictions.",
+        "url": "https://cointelegraph.com/news/strategy-strc-record-share-sales-atm-rule-change",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd77a-b746-71dc-8424-6d3238be81b2.jpg",
+        "publishedAt": "2026-03-10T13:14:10Z",
+        "content": "Michael Saylors Strategy, the worlds largest public holder of Bitcoin, sold a record amount of its perpetual preferred equity, Stretch (STRC), after amending its sales rules on Monday.\r\nStrategy is e… [+2368 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea sells $21.5M in recovered Bitcoin after custody breach",
+        "description": "The sale follows a custody breach that briefly removed seized Bitcoin from prosecutors’ control, raising questions about handling confiscated crypto.",
+        "url": "https://cointelegraph.com/news/south-korea-sells-21-5m-in-recovered-bitcoin-after-custody-breach",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd055-fda3-780e-b855-64ec18e71dc4.jpg",
+        "publishedAt": "2026-03-10T12:18:58Z",
+        "content": "South Korean prosecutors have sold 320.8 Bitcoin recovered after a phishing incident temporarily removed the crypto from government custody.\r\nThe Gwangju District Prosecutors Office said it sold 320.… [+2082 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Extends-Pullback.jpg?fit=1408%2C768",
         "publishedAt": "2026-03-09T03:18:20Z",
         "content": "Ethereum price started a fresh decline below $2,000. ETH is now correcting gains above $1,920 and might decline further in the near term.\r\n<ul><li>Ethereum started a downside correction below the $2,… [+2123 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Sinks Below $68K, Downside Targets Come Into Focus",
-        "description": "Bitcoin price started a fresh decline below $68,500 and $68,000. BTC is now consolidating and might struggle to start a recovery wave above $68,500. Bitcoin started a fresh decline after it settled above the $69,500 zone. The price is trading below $68,000 an…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-sinks-below-68k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Breakdown.jpg",
-        "publishedAt": "2026-03-09T02:44:07Z",
-        "content": "Bitcoin price started a fresh decline below $68,500 and $68,000. BTC is now consolidating and might struggle to start a recovery wave above $68,500.\r\n<ul><li>Bitcoin started a fresh decline after it … [+2241 chars]"
       }
     ]
   }
