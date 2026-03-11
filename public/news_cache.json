@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T04:48:15.445Z",
+  "timestamp": "2026-03-11T05:55:04.859Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Bounce Weakens, Downtrend Risks Return Quickly",
+        "description": "Dogecoin started a recovery wave above the $0.090 zone against the US Dollar. DOGE is now facing hurdles near $0.0930 and might struggle to continue higher. DOGE price started a recovery wave from $0.0860 and climbed above $0.090. The price is trading above t…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-bounce-weakens-0-095/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Bounce-Weakens-Downtrend-Risks-Return-Quickly.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-10T05:08:15Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ade40-de1e-7844-a640-148b3ad534d9",
         "publishedAt": "2026-03-08T13:20:42Z",
         "content": "Bitcoin (BTC) threatened to cement new resistance into Sundays weekly close as traders focused on oil and gold.\r\nKey points:\r\n<ul><li>Bitcoin risks reinforcing its 200-week exponential moving average… [+3575 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Bear Market Could Be Shrinking, But Are We Watching History Repeating Itself?",
-        "description": "Bitcoin has fallen back below $70,000 as selling pressure continues to dominate among crypto traders. Notably, there is currently little sign of strong buying demand that could stop further downside and the current structure still leaves room for a Bitcoin pr…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bear-market-could-be-shrinking-but-are-we-watching-history-repeating-itself/",
-        "urlToImage": null,
-        "publishedAt": "2026-03-08T13:00:38Z",
-        "content": "Bitcoin has fallen back below $70,000 as selling pressure continues to dominate among crypto traders. Notably, there is currently little sign of strong buying demand that could stop further downside … [+2899 chars]"
       }
     ]
   }
