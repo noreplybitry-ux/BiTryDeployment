@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T17:00:38.170Z",
+  "timestamp": "2026-03-11T17:57:20.252Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin S2F Model Says BTC Price Is Headed To $500,000, Here’s When",
+        "description": "Bitcoin could be on track for a massive long-term rally if one of the most interesting valuation models in the crypto industry is still valid. According to pseudonymous analyst PlanB, the Stock-to-Flow (S2F) model suggests that Bitcoin could average around $5…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-s2f-model-btc-500000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pixabay-55.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-10T17:30:32Z",
+        "content": "Bitcoin could be on track for a massive long-term rally if one of the most interesting valuation models in the crypto industry is still valid. According to pseudonymous analyst PlanB, the Stock-to-Fl… [+2640 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin orderbook shows imbalance: Will $70K hold?",
+        "description": "Bitcoin’s sell-side liquidity reached a two-month high, mirroring a setup seen in January. Should traders prepare for a sell-off?",
+        "url": "https://cointelegraph.com/markets/bitcoin-orderbook-shows-imbalance-will-dollar70k-hold",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-10/019a2a93-de79-7d44-8d20-a47d30178baf",
+        "publishedAt": "2026-03-10T17:30:00Z",
+        "content": "Bitcoin (BTC) appears to have reclaimed $70,000 as support, although the market remains cautious as technical charts indicate a setup resembling the bull trap that occurred in January 2026.\r\nBitcoins… [+3501 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-9-2026-09_29_45-AM.png",
         "publishedAt": "2026-03-09T08:30:47Z",
         "content": "A growing share of Bitcoin supply has slipped underwater, with CryptoQuant contributor Darkfost arguing that the market is now sitting much closer to historical bear-phase conditions than to a confir… [+3679 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Sam Reynolds",
-        "title": "Bitflyer volume surges 200% past Binance, Coinbase as oil spike sends Nikkei sliding",
-        "description": "Bitflyer trading spiked even as Japan’s Nikkei tumbled, while Korea and Taiwan equities joined the broader Asian selloff.",
-        "url": "https://www.coindesk.com/markets/2026/03/09/bitflyer-volume-surges-200-past-binance-coinbase-as-oil-spike-sends-nikkei-sliding",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4fa86d69f55915946af98157ce05cad3837a4957-1200x628.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-09T08:04:47Z",
-        "content": "Crypto trading surged on Japans Bitflyer on Monday as the Nikkei slid, with the Tokyo-based exchange posting a larger jump in volume than global platforms such as Binance and Coinbase during a sharp … [+3405 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Ethereum price prediction as ETH teeters below $2,000",
-        "description": "Ethereum price remains under pressure below the key $2,150 resistance. Exchange outflows hint at continued long-term accumulation. The $1,800 support is the key level traders are watching. The Ethereum price is struggling to hold above the $2,000 mark amid mi…",
-        "url": "https://coinjournal.net/news/ethereum-price-prediction-as-eth-teeters-below-2000/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2023/05/1684792480546-2025ef2f-4a84-4b58-9b1c-224d81a4baed.jpg",
-        "publishedAt": "2026-03-09T07:42:58Z",
-        "content": "<ul><li>Ethereum price remains under pressure below the key $2,150 resistance.</li><li>Exchange outflows hint at continued long-term accumulation.</li><li>The $1,800 support is the key level traders … [+3996 chars]"
       }
     ]
   }
