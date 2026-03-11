@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T15:55:39.730Z",
+  "timestamp": "2026-03-11T17:00:38.170Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Just Entered The DCA Zone Again, Why This Is A Good Time To Buy",
+        "description": "Crypto analyst Merlijn has revealed that Bitcoin has just re-entered the DCA zone, indicating it’s a good time to buy BTC. The leading crypto is already staging another rebound, rising to the psychological $70,000, which has so far proved to be a major resist…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-enters-the-dca-zone/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-36.jpg?fit=960%2C717",
+        "publishedAt": "2026-03-10T16:00:02Z",
+        "content": "Crypto analyst Merlijn has revealed that Bitcoin has just re-entered the DCA zone, indicating it’s a good time to buy BTC. The leading crypto is already staging another rebound, rising to the psychol… [+2455 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2023/05/1684792480546-2025ef2f-4a84-4b58-9b1c-224d81a4baed.jpg",
         "publishedAt": "2026-03-09T07:42:58Z",
         "content": "<ul><li>Ethereum price remains under pressure below the key $2,150 resistance.</li><li>Exchange outflows hint at continued long-term accumulation.</li><li>The $1,800 support is the key level traders … [+3996 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "BTC Markets eyes RWA trading license amid global tokenization wave",
-        "description": "BTC Markets is seeking an ASIC markets license to offer tokenized real-world assets as global exchanges race to bring RWA trading to investors.",
-        "url": "https://cointelegraph.com/news/btc-markets-eyes-markets-license-tokenization-play-joining-peers",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd0e7-d931-7d23-9d77-f4231a428c56.jpg",
-        "publishedAt": "2026-03-09T05:34:39Z",
-        "content": "Australian crypto exchange BTC Markets has notified the countrys securities regulator, the Australian Securities and Investments Commission, of its intention to apply for a markets license to offer r… [+3529 chars]"
       }
     ]
   }
