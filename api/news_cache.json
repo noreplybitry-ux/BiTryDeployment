@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-10T23:34:19.914Z",
+  "timestamp": "2026-03-11T02:32:35.583Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/pexels-jonathanborba-14856610.jpg",
         "publishedAt": "2026-03-08T05:00:23Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Here’s Why Bitcoin Price Must Not Fall To $54K: Analyst",
-        "description": "Over the past few days, the Bitcoin price has had one of its better performances so far in the first quarter of 2026. Catalyzed by the rising geopolitical tensions between US-Isreal and Iran, the premier cryptocurrency climbed to $74,000 over the past week. H…",
-        "url": "http://www.newsbtc.com/news/bitcoin/heres-why-bitcoin-price-must-not-fall-to-54k-analyst/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-1248674191-e1748299111676.jpg?fit=1200%2C801",
-        "publishedAt": "2026-03-07T23:30:34Z",
-        "content": "Over the past few days, the Bitcoin price has had one of its better performances so far in the first quarter of 2026. Catalyzed by the rising geopolitical tensions between US-Isreal and Iran, the pre… [+2652 chars]"
       }
     ]
   }
