@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T20:40:31.802Z",
+  "timestamp": "2026-03-11T21:40:03.516Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,32 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-18.jpg?fit=1280%2C960",
         "publishedAt": "2026-03-09T13:00:27Z",
         "content": "Crypto analyst Coinvo has explained why Bitcoin may be close to a bottom, which could spark a rally to new highs. This comes as BTC continues to face downside pressure due to the rising tensions betw… [+2520 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Why A U.S. Court Says Binance Is Not (Yet) Liable for Terrorist Crypto Flows",
-        "description": "A lawsuit accusing the crypto exchange Binance of allowing terrorism financing by facilitating it has fallen apart after a US Federal court dismissed it. Not Terrorist Supporters The Troell et al. v. Binance case was dismissed in an opinion and order issued o…",
-        "url": "http://www.newsbtc.com/crypto/why-a-u-s-court-says-binance-is-not-yet-liable-for-terrorist-crypto-flows/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image10.png",
-        "publishedAt": "2026-03-09T11:21:29Z",
-        "content": "A lawsuit accusing the crypto exchange Binance of allowing terrorism financing by facilitating it has fallen apart after a US Federal court dismissed it.\r\nThe Troell et al. v. Binance case was dismis… [+3408 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin at $67K despite oil shock is 'strongest indicator' bottom may be in",
-        "description": "Bitcoin held strong above $67,000 amid oil surge to $119 on Middle East conflict and inflation fears, with analysts seeing signs of a potential BTC price reversal.",
-        "url": "https://cointelegraph.com/markets/bitcoin-67k-oil-shock-strongest-indicator-bottom-may-be-in",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd22a-e25a-700c-abd2-057993d2337f.jpg",
-        "publishedAt": "2026-03-09T11:20:01Z",
-        "content": "Bitcoin (BTC) displayed strength as it traded above $67,000 on Monday, after producing the first bullish weekly close in seven weeks. Meanwhile, oil prices exploded as the Middle East conflict prompt… [+4157 chars]"
       }
     ]
   }
