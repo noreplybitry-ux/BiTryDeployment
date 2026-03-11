@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-11T14:54:13.578Z",
+  "timestamp": "2026-03-11T15:55:39.730Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Solana, XRP ETFs take different paths as crypto investors pile in",
+        "description": "Solana funds are seeing more institutional demand, while the XRP products are retail investor favorites, according to a Bloomberg report.",
+        "url": "https://www.coindesk.com/markets/2026/03/10/solana-etfs-find-institutional-backing-while-xrp-funds-depend-more-on-retail",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fae9c4033cf0fd23ffa9149bdd5cd982f2281113-6870x4100.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-10T15:20:01Z",
+        "content": "U.S. exchange-traded funds tied to Solana (SOL) and XRP (XRP) are attracting investors despite falling crypto prices, though the two products are drawing very different types of buyers.\r\nSolana ETFs … [+4274 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd0e7-d931-7d23-9d77-f4231a428c56.jpg",
         "publishedAt": "2026-03-09T05:34:39Z",
         "content": "Australian crypto exchange BTC Markets has notified the countrys securities regulator, the Australian Securities and Investments Commission, of its intention to apply for a markets license to offer r… [+3529 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Tumbles to $80, Traders Watch Critical Support Defense",
-        "description": "Solana failed to settle above $90 and extended losses. SOL price is now consolidating losses below $85 and might struggle to start a recovery wave. SOL price started a fresh decline below $85 and $82 against the US Dollar. The price is now trading below $85 a…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-tumbles-to-80/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Tumbles-to-80.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-09T05:18:26Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
