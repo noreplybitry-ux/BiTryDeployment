@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T17:53:42.980Z",
+  "timestamp": "2026-03-12T19:02:27.724Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-23-2026-08_23_08-AM.png?fit=1222%2C814",
         "publishedAt": "2026-03-10T11:30:06Z",
         "content": "The 2022 Bitcoin crash has been one for the history books, where the price went from $69,000 to $16,000 before hitting a bottom. Being the most recent bear market before the current cycle, there have… [+2204 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Winklevoss Twins Move $130M in Bitcoin to Gemini Hot Wallets: Arkham",
-        "description": "Arkham claimed that the transfers were intended “presumably to sell,” though neither Cameron nor Tyler Winklevoss has commented on the move.",
-        "url": "https://decrypt.co/360539/winklevoss-twins-move-130m-in-bitcoin-to-gemini-hot-wallets-arkham",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-03-10T11:02:35Z",
-        "content": "In brief\r\n<ul><li>Gemini founders Tyler and Cameron Winklevoss have transferred around $130 million in Bitcoin to the exchange's hot wallets over the past week, said Arkham.</li><li>The blockchain an… [+2842 chars]"
       }
     ]
   }
