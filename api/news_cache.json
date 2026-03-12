@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T10:49:20.395Z",
+  "timestamp": "2026-03-12T11:36:25.088Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Price To Rally 928%? Why $10,000 Isn’t The Real ATH Target",
+        "description": "Ethereum continues to struggle to surmount the resistance that has mounted at $3,000, with bears maintaining a firm grip on the price. Nevertheless, bullish sentiment surrounding the Ethereum price has not been completely eroded. This suggests that investors …",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-to-rally-928/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-from-iStock-33.jpg?fit=612%2C408",
+        "publishedAt": "2026-03-11T11:30:50Z",
+        "content": "Ethereum continues to struggle to surmount the resistance that has mounted at $3,000, with bears maintaining a firm grip on the price. Nevertheless, bullish sentiment surrounding the Ethereum price h… [+2146 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "DOJ Seeks Forfeiture of $3.4M in USDT Tied to Ethereum Investment Scam",
+        "description": "Federal prosecutors in Massachusetts have moved to forfeit 3.44 million USDT linked to an alleged text-based crypto investment fraud.",
+        "url": "https://decrypt.co/360650/doj-seeks-forfeiture-of-3-4m-in-usdt-tied-to-ethereum-investment-scam",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-gID_7.png",
+        "publishedAt": "2026-03-11T10:52:18Z",
+        "content": "In brief\r\n<ul><li>U.S. prosecutors in Massachusetts have filed a civil forfeiture complaint targeting $3.4 million in USDT tied to an alleged investment scam.</li><li>Investigators say victims were a… [+2168 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-neon-gID_7.png",
         "publishedAt": "2026-03-09T19:37:58Z",
         "content": "In brief\r\n<ul><li>Bitcoin is up 4.78% today trading at $69,128.</li><li>Last week's apparent triangle breakout closed as a massive bullish wick a classic false breakout signal.</li><li>On Myriad, pre… [+5391 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 3/9: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH",
-        "description": "Bitcoin and altcoins rallied toward their respective range highs as investors piled into crypto despite the war in Iran and record-high oil prices.",
-        "url": "https://cointelegraph.com/markets/price-predictions-3-9-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-bch",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd3a6-8b9e-751d-a3e3-6b9c5abb5ca2.jpg",
-        "publishedAt": "2026-03-09T17:57:56Z",
-        "content": "Key points:\r\n<ul><li>Rising oil prices have not hurt crypto sentiment as buyers attempt to push Bitcoin above $69,000\r\n</li><li>Buyers are attempting to propel several major altcoins above their over… [+8829 chars]"
       }
     ]
   }
