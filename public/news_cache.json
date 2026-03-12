@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T13:15:24.504Z",
+  "timestamp": "2026-03-12T14:56:43.085Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Ghana opens crypto trading sandbox with 11 firms under new VASP law",
+        "description": "The companies will be able to run their products in a controlled environment while regulators monitor risks and compliance.",
+        "url": "https://www.coindesk.com/policy/2026/03/11/ghana-opens-crypto-trading-sandbox-with-11-firms-under-new-vasp-law",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/502b736d5049290cb60a66d46b62850d7046b353-1920x1080.jpg?auto=format",
+        "publishedAt": "2026-03-11T13:21:43Z",
+        "content": "Ghanas Securities and Exchange Commission (SEC) said 11 companies have been granted access to a regulatory sandbox to test cryptocurrency and digital asset services under the countrys Virtual Asset S… [+1164 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd49d-b9cb-75e4-bc6b-d10dea261a4e.jpg",
         "publishedAt": "2026-03-09T22:07:11Z",
         "content": "Key takeaways:\r\n<ul><li>Oil price spikes often precede 20% spikes in Bitcoin value, though initial market reactions remain volatile and unpredictable.\r\n</li><li>Bitcoin currently mirrors tech stocks … [+4030 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Stephen Graves",
-        "title": "Moldova's Anticorruption Center Alleges $107M Crypto Scheme to Influence Elections",
-        "description": "Blockchain analysis firm TRM Labs identified links to a Russia-backed influence operation paying agitators in cryptocurrency.",
-        "url": "https://decrypt.co/360396/moldova-107m-crypto-scheme-influence-elections",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-03-09T21:50:27Z",
-        "content": "In brief\r\n<ul><li>Moldova's National Anticorruption Center has identified an election-influence scheme that saw some $107 million used to promote candidates and bribe voters.</li><li>The \"complex tra… [+5010 chars]"
       }
     ]
   }
