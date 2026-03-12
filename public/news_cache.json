@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T05:56:46.020Z",
+  "timestamp": "2026-03-12T07:07:53.379Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin May Sink To $50K Before Rallying, Standard Chartered’s Kendrick Warns",
+        "description": "Standard Chartered’s Geoffrey Kendrick says Bitcoin could still face a final washout to $50,000 before recovering sharply, arguing that the current drawdown looks more like a macro-led tech capitulation than a crypto-specific breakdown. Speaking on Deribit’s …",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-50k-before-rallying-standard-chartered-kendrick/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Screenshot-2026-03-10-122610.png?fit=1960%2C1232",
+        "publishedAt": "2026-03-11T07:00:16Z",
+        "content": "Standard Chartereds Geoffrey Kendrick says Bitcoin could still face a final washout to $50,000 before recovering sharply, arguing that the current drawdown looks more like a macro-led tech capitulati… [+3991 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Crosses 20 Million Coins Mined — And Only 1 In 20 Remains",
+        "description": "The last full Bitcoin could be mined sometime in the 2090s. Only fractions will follow until roughly 2140, when the final satoshi is expected to be produced. Related Reading: Bitcoin ETFs Break 5-Month Streak With 2nd Consecutive Week Of Inflows That endpoint…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-crosses-20-million-coins-mined-and-only-1-in-20-remains/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-11T06:00:43Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3ac88042e38f03c85b8fd0117c230c2b8673d5ad-1920x1080.jpg?auto=format",
         "publishedAt": "2026-03-09T16:02:15Z",
         "content": "Crypto assets traded higher during the U.S. session on Monday, rebounding from sharp overnight losses that had brought bitcoin BTC\r\n$69,030.27 down to nearly $65,000.\r\nBitcoin was trading just shy of… [+1861 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price retags $69K as G7 oil plan hangs in the balance",
-        "description": "Bitcoin managed to avoid losses suffered by global stock markets over oil supply uncertainty, with a 5% relief bounce from its weekly open level.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-retags-69k-g7-oil-plan-hangs-in-balance",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd347-ff53-7843-add4-ec3eeed18787.jpg",
-        "publishedAt": "2026-03-09T15:38:26Z",
-        "content": "Bitcoin (BTC) returned to $69,000 at Mondays Wall Street open with markets in limbo over the Middle East oil crisis.\r\nKey points:\r\n<ul><li>Bitcoin sees a rebound after dropping below $68,000 for the … [+4091 chars]"
       }
     ]
   }
