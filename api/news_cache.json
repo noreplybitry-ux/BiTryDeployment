@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T11:36:25.088Z",
+  "timestamp": "2026-03-12T13:15:24.504Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "XRP Accumulation Signal? Binance Withdrawals Jump, ETF Demand Grows",
+        "description": "A fresh cluster of on-chain and fund-flow data is feeding a familiar XRP market question: are buyers using the recent weakness to accumulate? New figures highlighted by CryptoQuant contributor Darkfost suggest that Binance withdrawal activity has surged just …",
+        "url": "http://www.newsbtc.com/xrp-news/xrp-accumulation-signal-binance-etf-demand/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-11-2026-08_23_44-AM.png?fit=1111%2C740",
+        "publishedAt": "2026-03-11T13:00:30Z",
+        "content": "A fresh cluster of on-chain and fund-flow data is feeding a familiar XRP market question: are buyers using the recent weakness to accumulate? New figures highlighted by CryptoQuant contributor Darkfo… [+3673 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Bitcoin Price Holds Near $70K As Markets Brace For Key Event",
+        "description": "Bitcoin is holding up near the upper $60Ks–$70K region despite a sharp macro shock, showing relative resilience versus equities and other risk assets. Related Reading: Bitcoin Reclaims $70,000 as Iran War Jitters Ease and Volatility Cools Bitcoin Is Resilient…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-holds-near-70k-as-markets-brace-for-key-event/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image19.png",
+        "publishedAt": "2026-03-11T12:31:19Z",
+        "content": "Bitcoin is holding up near the upper $60Ks$70K region despite a sharp macro shock, showing relative resilience versus equities and other risk assets.\r\nBitcoin appears to have passed the first stress … [+2989 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Binance sues Wall Street Journal as newspaper says U.S. Dept. of Justice is investigating Iran transactions",
+        "description": "The situation adds pressure to Binance, which is already operating under a compliance monitor following its $4.3 billion anti-money laundering and sanctions settlement in 2023.",
+        "url": "https://www.coindesk.com/business/2026/03/11/binance-sues-wall-street-journal-as-newspaper-says-u-s-dept-of-justice-is-investigating-iran-transactions",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4188f95da5664abffff8df4bd616ed948203e078-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T12:29:14Z",
+        "content": "Binance said it filed a defamation lawsuit against Dow Jones, the publisher of The Wall Street Journal, on the same day the newspaper published a report claiming the U.S. Justice Department is invest… [+633 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +433,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
         "publishedAt": "2026-03-09T21:50:27Z",
         "content": "In brief\r\n<ul><li>Moldova's National Anticorruption Center has identified an election-influence scheme that saw some $107 million used to promote candidates and bribe voters.</li><li>The \"complex tra… [+5010 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Why Did Bitcoin Price Crash To $67,000, And Ethereum Price Fell Below $2,000?",
-        "description": "Bitcoin’s rally back to the mid-$73,000 region did not last long as the leading cryptocurrency’s price action reversed as the week came to a close and fell back around $67,000 after momentarily regaining momentum last week, pulling Ethereum down with it till …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-crash-ethereum/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-and-Ethereum-from-Pngtree-1.jpg?fit=520%2C260",
-        "publishedAt": "2026-03-09T20:30:37Z",
-        "content": "Bitcoins rally back to the mid-$73,000 region did not last long as the leading cryptocurrencys price action reversed as the week came to a close and fell back around $67,000 after momentarily regaini… [+2731 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Price Bounces, But Bears Are Still in Control: Analysis",
-        "description": "Bitcoin broke the descending triangle with a massive candle—then crept right back inside. Today, it's trying again, but the daily chart isn't convincing.",
-        "url": "https://decrypt.co/360448/bitcoin-price-bounces-bears-in-control-analysis",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-neon-gID_7.png",
-        "publishedAt": "2026-03-09T19:37:58Z",
-        "content": "In brief\r\n<ul><li>Bitcoin is up 4.78% today trading at $69,128.</li><li>Last week's apparent triangle breakout closed as a massive bullish wick a classic false breakout signal.</li><li>On Myriad, pre… [+5391 chars]"
       }
     ]
   }
