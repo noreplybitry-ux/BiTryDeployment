@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T16:07:52.190Z",
+  "timestamp": "2026-03-12T17:53:42.980Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Bloomberg strategist doubles down on $10,000 bitcoin call but peers say it would take a nuclear war to get there",
+        "description": "Mati Greenspan said a bitcoin collapse to below $10,000 would require a global liquidity crisis, a nuclear war and the internet to stop working.",
+        "url": "https://www.coindesk.com/markets/2026/03/11/bloomberg-strategist-doubles-down-on-usd10-000-bitcoin-call-but-peers-say-it-would-take-a-nuclear-war-to-get-there",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ea8e1928d0d5811a7ae0cae6f6d5ad3d5dd2b714-2932x1649.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T17:00:20Z",
+        "content": "Bloomberg Intelligence senior commodity strategist Mike McGlone, who previously said bitcoin could drop to $10,000, is reiterating his call that bitcoin could still fall below that level, an outlook … [+3989 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Crypto-friendly fintech Revolut gains full UK banking license",
+        "description": "The move is a major step in Revolut's goal to become a global digital bank, though services like crypto and stock trading remain separate.",
+        "url": "https://www.coindesk.com/policy/2026/03/11/crypto-friendly-fintech-revolut-gains-full-uk-banking-license",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/669c3873a927924abdbbced4c7b661b281ba919f-1919x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T16:41:12Z",
+        "content": "Revolut, the London-based crypto-friendly fintech, said it received a full U.K. banking license, allowing it to offer a wider range of services and providing deposit protection for eligible funds alm… [+1527 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-03-10T11:02:35Z",
         "content": "In brief\r\n<ul><li>Gemini founders Tyler and Cameron Winklevoss have transferred around $130 million in Bitcoin to the exchange's hot wallets over the past week, said Arkham.</li><li>The blockchain an… [+2842 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Bitcoin price holds above $70k as exchange outflows rise and Iran conflict impact eases",
-        "description": "Exchange outflows reduce available Bitcoin, tightening the market. Easing Iran tensions boosts investor confidence and trading activity. Traders and institutions step in, supporting the price during dips. Bitcoin (BTC) has rebounded above $70,000 amid easing …",
-        "url": "https://coinjournal.net/news/bitcoin-price-holds-above-70k-as-exchange-outflows-rise-and-iran-conflict-impact-eases/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/08/Bitcoin-Cash-price-forecast.png",
-        "publishedAt": "2026-03-10T09:58:30Z",
-        "content": "<ul><li>Exchange outflows reduce available Bitcoin, tightening the market.</li><li>Easing Iran tensions boosts investor confidence and trading activity.</li><li>Traders and institutions step in, supp… [+2910 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "BitMine Acquires 60,000 ETH; Chair Discusses Outlook For Ethereum And Crypto Prices",
-        "description": "BitMine Immersion Technologies (BMNR), the largest corporate holder of Ethereum (ETH) worldwide, announced on Monday that it had made a significant new purchase of nearly 61,000 ETH.  BitMine Holds 3.7% Of Total Ethereum Supply BitMine’s latest transaction, c…",
-        "url": "http://www.newsbtc.com/news/ethereum/bitmine-acquires-60000-eth-chair-discusses-outlook-for-ethereum-and-crypto-prices/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/Screenshot_1259.jpg?fit=1277%2C718",
-        "publishedAt": "2026-03-10T09:00:02Z",
-        "content": "BitMine Immersion Technologies (BMNR), the largest corporate holder of Ethereum (ETH) worldwide, announced on Monday that it had made a significant new purchase of nearly 61,000 ETH. \r\nBitMine’s late… [+2665 chars]"
       }
     ]
   }
