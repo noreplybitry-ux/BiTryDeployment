@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T19:02:27.724Z",
+  "timestamp": "2026-03-12T20:42:26.299Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Crypto platform Bullish climbs past Coinbase to become third-largest crypto exchange by spot volume",
+        "description": "The institutional-focused exchange saw spot trading jump 62% to $76 billion in February, surpassing Coinbase’s market share.",
+        "url": "https://www.coindesk.com/markets/2026/03/11/crypto-platform-bullish-climbs-past-coinbase-to-become-third-largest-crypto-exchange-by-spot-volume",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8ec5e8da78b8de9221e71d7a1c75106996edd8fe-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T20:33:01Z",
+        "content": "Crypto platform Bullish (BLSH), which operates an institutional-only crypto exchange business, climbed into the top three centralized crypto exchanges by spot trading volume for the first time in Feb… [+2165 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Bitcoin holds $70,000, starting to show relative strength versus stocks, software sector, and gold",
+        "description": "Bitcoin is up about 7% from the Sunday lows, even as equities and gold tread water. Analysts point to seller exhaustion, shifting gold correlation and improving ETF flows.",
+        "url": "https://www.coindesk.com/markets/2026/03/11/bitcoin-holds-usd70-000-beginning-to-show-relative-strength-versus-stocks-software-sector-and-gold",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/de660771a2dc4c17a41ac9cf17caf164195d7ee7-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T20:23:58Z",
+        "content": "Bitcoins resilience during the latest bout of global macro stress is starting to turn heads on trading desks.\r\nThe largest crypto climbed to just shy of $71,000, up roughly 7% from Sunday evening low… [+3508 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd77a-b746-71dc-8424-6d3238be81b2.jpg",
         "publishedAt": "2026-03-10T13:14:10Z",
         "content": "Michael Saylors Strategy, the worlds largest public holder of Bitcoin, sold a record amount of its perpetual preferred equity, Stretch (STRC), after amending its sales rules on Monday.\r\nStrategy is e… [+2368 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "South Korea sells $21.5M in recovered Bitcoin after custody breach",
-        "description": "The sale follows a custody breach that briefly removed seized Bitcoin from prosecutors’ control, raising questions about handling confiscated crypto.",
-        "url": "https://cointelegraph.com/news/south-korea-sells-21-5m-in-recovered-bitcoin-after-custody-breach",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd055-fda3-780e-b855-64ec18e71dc4.jpg",
-        "publishedAt": "2026-03-10T12:18:58Z",
-        "content": "South Korean prosecutors have sold 320.8 Bitcoin recovered after a phishing incident temporarily removed the crypto from government custody.\r\nThe Gwangju District Prosecutors Office said it sold 320.… [+2082 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Is Repeating 2022 Playbook That Triggered Crash To $17,500",
-        "description": "The 2022 Bitcoin crash has been one for the history books, where the price went from $69,000 to $16,000 before hitting a bottom. Being the most recent bear market before the current cycle, there have been a lot of comparisons between the current trend and the…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-repeating-2022-playbook/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-23-2026-08_23_08-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-10T11:30:06Z",
-        "content": "The 2022 Bitcoin crash has been one for the history books, where the price went from $69,000 to $16,000 before hitting a bottom. Being the most recent bear market before the current cycle, there have… [+2204 chars]"
       }
     ]
   }
