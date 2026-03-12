@@ -1,10 +1,101 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T14:56:43.085Z",
+  "timestamp": "2026-03-12T16:07:52.190Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Sylvia To",
+        "title": "Crypto Long & Short: AI agents choosing denationalized money",
+        "description": "In this week’s Crypto Long & Short Newsletter, Sylvia To on AI agents choosing denationalized money.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/03/11/crypto-long-and-short-ai-agents-choosing-denationalized-money",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1826e15e8fe0baba229c5b62f9cfd133bbe72c66-7360x5100.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T16:02:20Z",
+        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Sylvia To on AI agents choosing denationalized money</li><li>Top headlines institutions should pay attention to b… [+8393 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/11: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, HYPE, XMR",
+        "description": "Bitcoin is facing resistance just above $70,000, but the bulls have kept up the pressure, increasing the possibility of a rally to $74,508.",
+        "url": "https://cointelegraph.com/markets/price-predictions-3-11-btc-eth-bnb-xrp-sol-doge-ada-bch-hype-xmr",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cdd60-be85-784d-b8a3-7b8aa31fe827.jpg",
+        "publishedAt": "2026-03-11T15:46:16Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin is facing selling above $70,000, but a shallow pullback increases the likelihood of a rally to $74,508.\r\n</li><li>Select major altcoins are showing strength and may break… [+8803 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "STRC may help Strategy reach 1M Bitcoin milestone before BlackRock",
+        "description": "Demand for Strategy’s STRC preferred stock is rising, which translates into about 1,940 BTC of daily buying power at the current rate.",
+        "url": "https://cointelegraph.com/markets/strc-may-help-strategy-hit-1m-bitcoin-before-blackrock",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeba2-433b-70a6-b379-8ebac8c9ec2b",
+        "publishedAt": "2026-03-11T15:45:57Z",
+        "content": "Michael Saylors Strategy (MSTR) may reach the 1 million Bitcoin (BTC) milestone faster than expected, potentially overtaking BlackRock in total holdings.\r\nKey takeaways:\r\n<ul><li>STRC share sales hav… [+4161 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "What To Expect For The Bitcoin Price After The Weekend Breakdown Below $70,000",
+        "description": "Crypto analyst Doctor Profit has provided insights into what to expect from the Bitcoin price after it dropped below $70,000 over the weekend. This comes as the leading crypto continues to face pressure due to the U.S.-Iran war and volatile oil prices.  What …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-after-weekend-breakdown/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-56.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-11T15:30:58Z",
+        "content": "Crypto analyst Doctor Profit has provided insights into what to expect from the Bitcoin price after it dropped below $70,000 over the weekend. This comes as the leading crypto continues to face press… [+2690 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Margaux Nijkerk",
+        "title": "The Protocol: Ethereum Foundation starts experimenting with ‘DVT-lite’ technology",
+        "description": "Also: Nvidia’s rare blog, Aave liquidations, and Pudgy Penguins new game.",
+        "url": "https://www.coindesk.com/tech/2026/03/11/the-protocol-ethereum-foundation-starts-experimenting-with-dvt-lite-technology",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/859343e8743070b6648fd596b3614e460f27faeb-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T15:09:16Z",
+        "content": "ETHEREUM FOUNDATION STARTS EXPERIMENTING WITH DVT-LITE TECH: The Ethereum Foundation is testing a method for running validators that could make it significantly easier for institutions holding large … [+13047 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, AI Boost",
+        "title": "Binance.US names compliance veteran as CEO as regulation, competition get tougher",
+        "description": "The appointment of Stephen Gregory comes as U.S. crypto exchanges intensify competition and broaden offerings beyond digital assets.",
+        "url": "https://www.coindesk.com/business/2026/03/11/binance-us-names-compliance-veteran-as-ceo-as-regulation-competition-get-tougher",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7da338c5a2086d04105adfd02744a31f75b0e70e-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T15:05:00Z",
+        "content": "Binance.US, the American affiliate of the world's largest crypto exchange, named Stephen Gregory as CEO, installing a compliance-focused executive at the helm at a time that competition among U.S. cr… [+2164 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin rebounds on flat US CPI as oil price cools on 400M barrel release",
+        "description": "Bitcoin price reacted positively as US CPI inflation conformed to market expectations, as traders stayed in wait-and-see mode.",
+        "url": "https://cointelegraph.com/markets/bitcoin-rebounds-flat-us-cpi-oil-price-cools-400m-barrel-release",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cdd64-1d48-7dc0-86af-fe4bdda10305.jpg",
+        "publishedAt": "2026-03-11T15:00:09Z",
+        "content": "Bitcoin (BTC) broke back above $70,000 around Wednesdays Wall Street open as US inflation data soothed anxious markets.\r\nKey points:\r\n<ul><li>Bitcoin bounces around a narrow range as US inflation dat… [+3421 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,71 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/Screenshot_1259.jpg?fit=1277%2C718",
         "publishedAt": "2026-03-10T09:00:02Z",
         "content": "BitMine Immersion Technologies (BMNR), the largest corporate holder of Ethereum (ETH) worldwide, announced on Monday that it had made a significant new purchase of nearly 61,000 ETH. \r\nBitMine’s late… [+2665 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Bounce Weakens, Downtrend Risks Return Quickly",
-        "description": "Dogecoin started a recovery wave above the $0.090 zone against the US Dollar. DOGE is now facing hurdles near $0.0930 and might struggle to continue higher. DOGE price started a recovery wave from $0.0860 and climbed above $0.090. The price is trading above t…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-bounce-weakens-0-095/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Bounce-Weakens-Downtrend-Risks-Return-Quickly.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-10T05:08:15Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Climbs Past $2,000, $2,200 Now in Bullish Crosshairs",
-        "description": "Ethereum price started a recovery wave from the $1,920 zone. ETH is now back above $2,000 and might aim for more gains in the near term. Ethereum started a recovery wave above the $2,000 zone. The price is trading above $2,000 and the 100-hourly Simple Moving…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-climbs-past-2000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Climbs-Past-2000-2200-Now-in-Bullish-Crosshairs.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-10T03:18:57Z",
-        "content": "Ethereum price started a recovery wave from the $1,920 zone. ETH is now back above $2,000 and might aim for more gains in the near term.\r\n<ul><li>Ethereum started a recovery wave above the $2,000 zon… [+2100 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Bitcoin Exchange Reserves Fall To 2019 Levels As ETFs And Corporate Treasuries Accumulate",
-        "description": "Bitcoin continues to trade below the $70,000 level as the broader crypto market navigates another period of heightened volatility. After several attempts to regain upward momentum, price action has remained unstable, reflecting ongoing uncertainty across glob…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-exchange-reserves-fall-to-2019-levels-as-etfs-and-corporate-treasuries-accumulate/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-30.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-03-10T03:00:52Z",
-        "content": "Bitcoin continues to trade below the $70,000 level as the broader crypto market navigates another period of heightened volatility. After several attempts to regain upward momentum, price action has r… [+4316 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Reclaims Ground, Can Bulls Flip Market Momentum?",
-        "description": "Bitcoin price started a recovery wave from the $65,500 zone. BTC is now consolidating and might aim for more gains above $69,500. Bitcoin started a decent recovery wave above the $67,500 zone. The price is trading above $68,000 and the 100 hourly simple movin…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-reclaims-ground-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Tumbles-to-80-1.jpg",
-        "publishedAt": "2026-03-10T02:34:38Z",
-        "content": "Bitcoin price started a recovery wave from the $65,500 zone. BTC is now consolidating and might aim for more gains above $69,500.\r\n<ul><li>Bitcoin started a decent recovery wave above the $67,500 zon… [+2241 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Will Bitcoin follow oil’s historic surge and rally to $79K before the end of March?",
-        "description": "Historical data shows that Bitcoin typically gains 20% within a month of major spikes in oil prices. Should traders prepare for a rally to $79,000?",
-        "url": "https://cointelegraph.com/markets/will-bitcoin-follow-oil-historic-surge-and-rally-to-79k-before-end-of-march",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd49d-b9cb-75e4-bc6b-d10dea261a4e.jpg",
-        "publishedAt": "2026-03-09T22:07:11Z",
-        "content": "Key takeaways:\r\n<ul><li>Oil price spikes often precede 20% spikes in Bitcoin value, though initial market reactions remain volatile and unpredictable.\r\n</li><li>Bitcoin currently mirrors tech stocks … [+4030 chars]"
       }
     ]
   }
