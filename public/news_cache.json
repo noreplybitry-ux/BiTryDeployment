@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-12T04:52:29.633Z",
+  "timestamp": "2026-03-12T05:56:46.020Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Rejected Near $90, Downtrend Threat Reappears",
+        "description": "Solana failed to settle above $90 and trimmed some gains. SOL price is now consolidating above $85 and showing a few bearish signs. SOL price started a decent recovery wave above $82 and $85 against the US Dollar. The price is now trading above $85 and the 10…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-rejected-near-90/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Rejected-Near-90-Downtrend-Threat-Reappears.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-11T05:08:21Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Dogecoin zooms as Elon Musk announces X Money launch date for April",
+        "description": "The payments app offers 6% yield on balances and peer-to-peer transfers inside X, competing directly with the same demand stablecoin products are targeting. No mention of dogecoin or any crypto functionality was included.",
+        "url": "https://www.coindesk.com/markets/2026/03/11/dogecoin-zooms-as-elon-musk-announces-x-money-launch-date-for-april",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4290d2e5ba7140f5d65f68d3183a9abb87c098a4-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-11T05:00:15Z",
+        "content": "Elon Musk said late Tuesday that the payments features on social application X will go live next month.\r\nDubbed X Money, the feature turns X into a fintech app with peer-to-peer transfers, bank depos… [+2502 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd347-ff53-7843-add4-ec3eeed18787.jpg",
         "publishedAt": "2026-03-09T15:38:26Z",
         "content": "Bitcoin (BTC) returned to $69,000 at Mondays Wall Street open with markets in limbo over the Middle East oil crisis.\r\nKey points:\r\n<ul><li>Bitcoin sees a rebound after dropping below $68,000 for the … [+4091 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Global insurance broker Aon tests stablecoin payments with Coinbase, Paxos",
-        "description": "The firm used USDC on Ethereum and PayPal USD on Solana for insurance premium payments, testing how stablecoins could reshape settlements.",
-        "url": "https://www.coindesk.com/business/2026/03/09/global-insurance-broker-aon-tests-stablecoin-payments-with-coinbase-paxos",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/60a6fa85e80e77bb8e8f9152dfcdf27f972b24aa-1920x1080.jpg?auto=format",
-        "publishedAt": "2026-03-09T15:21:14Z",
-        "content": "Aon (AON), which advises on $5 trillion in assets as one of the world's largest insurance brokers, said it carried out a proof-of-concept using stablecoins to settle insurance premium payments, an ea… [+1894 chars]"
       }
     ]
   }
