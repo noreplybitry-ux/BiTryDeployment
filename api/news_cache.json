@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T13:13:01.726Z",
+  "timestamp": "2026-03-13T14:50:38.113Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Ethereum price forecast: bulls hold $2K support amid CEX outflows",
+        "description": "Ethereum price hovered just above $2,000 as whales moved ETH off exchanges. Large holder activity sees Ethereum exchange balances fall by over 74,000 ETH this week. Bulls could eye $2,188 and potentially $2,600 amid a technical breakout. Ethereum’s price is h…",
+        "url": "https://coinjournal.net/news/ethereum-price-forecast-bulls-hold-2k-support-amid-cex-outflows/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/trading-3.png",
+        "publishedAt": "2026-03-12T13:43:59Z",
+        "content": "<ul><li>Ethereum price hovered just above $2,000 as whales moved ETH off exchanges.</li><li>Large holder activity sees Ethereum exchange balances fall by over 74,000 ETH this week.</li><li>Bulls coul… [+3819 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,45 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rejected-Again-Market-Watches-Key-Support-Closely.jpg?fit=1408%2C768",
         "publishedAt": "2026-03-11T03:18:17Z",
         "content": "Ethereum price started a recovery wave above the $2,000 zone. ETH is now struggling to clear $2,090 and remains at risk of another decline in the near term.\r\n<ul><li>Ethereum started a recovery wave … [+2158 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Bitcoin is back in ‘FOMO territory’ after crossing $70K: Santiment",
-        "description": "Bitcoin sentiment on social media has shifted into FOMO territory, with an analyst speculating that traders might be reacting to Bitcoin's resilience amid conflict and institutional buying.",
-        "url": "https://cointelegraph.com/news/bitcoin-sentiment-jumps-back-into-fomo-territory-santiment",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cda46-3f39-77fa-b770-b7475ce5b35d.jpg",
-        "publishedAt": "2026-03-11T03:03:33Z",
-        "content": "Social media sentiment over Bitcoin has shifted back to optimism as Bitcoin recovered to over $70,000 on Tuesday, driven by US President Donald Trumps recent comments that the war with Iran could be … [+3342 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Pullback Tests Bulls — Bounce Attempt Incoming?",
-        "description": "Bitcoin price started a recovery wave above the $68,500 zone. BTC is now consolidating and might aim for more gains above $70,500. Bitcoin started a decent recovery wave above the $69,200 zone. The price is trading above $68,500 and the 100 hourly simple movi…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-pullback-tests-bulls-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Pullback-Tests-Bulls.jpg",
-        "publishedAt": "2026-03-11T02:36:03Z",
-        "content": "Bitcoin price started a recovery wave above the $68,500 zone. BTC is now consolidating and might aim for more gains above $70,500.\r\n<ul><li>Bitcoin started a decent recovery wave above the $69,200 zo… [+2187 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Worth Nearly $12 Million Moved By Bhutan In Fresh On-Chain Activity",
-        "description": "Proceeds from Bitcoin sales have paid for healthcare, environmental programs, and government worker salaries in Bhutan — a detail that puts the kingdom’s latest crypto move in sharper focus. Related Reading: WAR Token Explodes 100%, Then Crashes 20% In Sudden…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-worth-nearly-12-million-moved-by-bhutan-in-fresh-on-chain-activity/",
-        "urlToImage": null,
-        "publishedAt": "2026-03-11T01:00:17Z",
-        "content": "Proceeds from Bitcoin sales have paid for healthcare, environmental programs, and government worker salaries in Bhutan a detail that puts the kingdom’s latest crypto move in sharper focus.\r\nOn Monday… [+2740 chars]"
       }
     ]
   }
