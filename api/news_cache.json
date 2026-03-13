@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T16:50:23.788Z",
+  "timestamp": "2026-03-13T17:40:42.036Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,19 +420,6 @@
         "urlToImage": null,
         "publishedAt": "2026-03-11T06:00:43Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Rejected Near $90, Downtrend Threat Reappears",
-        "description": "Solana failed to settle above $90 and trimmed some gains. SOL price is now consolidating above $85 and showing a few bearish signs. SOL price started a decent recovery wave above $82 and $85 against the US Dollar. The price is now trading above $85 and the 10…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-rejected-near-90/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Rejected-Near-90-Downtrend-Threat-Reappears.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-11T05:08:21Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
