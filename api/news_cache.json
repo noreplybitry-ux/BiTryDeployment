@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T11:36:54.546Z",
+  "timestamp": "2026-03-13T13:13:01.726Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "BlackRock launches staked Ethereum ETF offering ETH exposure and yield",
+        "description": "BlackRock’s iShares Staked Ethereum Trust ETF will trade on the Nasdaq, offering spot exposure and staking income with a reduced 0.12% fee on the first $2.5 billion.",
+        "url": "https://cointelegraph.com/news/blackrock-ishares-staked-ethereum-trust-etf-exposure-yield",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce205-869d-7265-b754-ef310768a09c.jpg",
+        "publishedAt": "2026-03-12T12:56:54Z",
+        "content": "BlackRock is expanding its crypto investment lineup with a new Nasdaq-listed product tied to Ethereum staking.\r\nBlackRock on Thursday introduced its iShares Staked Ethereum Trust ETF, or ETHB, descri… [+1205 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea plans to use AI for crypto tax enforcement",
+        "description": "South Korea’s NTS is developing an AI-driven system to analyze virtual asset transactions as the country prepares to tax crypto gains.",
+        "url": "https://cointelegraph.com/news/south-korea-tax-agency-ai-system-track-crypto-gains",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce189-3d92-7eac-bd4d-9646ecb25b29.jpg",
+        "publishedAt": "2026-03-12T12:18:18Z",
+        "content": "South Koreas tax authority is preparing to deploy artificial intelligence to track cryptocurrency investment gains as the government moves closer to implementing a long-delayed tax on digital assets.… [+2400 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "BlackRock debuts staked ether ETF as demand grows for yield in crypto funds",
+        "description": "The BlackRock’s iShares Staked Ethereum Trust ETF (ETHB) lets investors earn staking rewards alongside spot ETH exposure.",
+        "url": "https://www.coindesk.com/markets/2026/03/12/blackrock-debuts-staked-ether-etf-as-demand-grows-for-yield-in-crypto-funds",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fcf4c5947496fab4a554a10a69d7310dc4787418-5000x3333.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-12T12:00:00Z",
+        "content": "After the first wave of spot ether (ETH) exchange-traded funds launched without staking, BlackRocks iShares Staked Ethereum Trust ETF (ETHB), one of the industrys most anticipated versions, begins tr… [+3953 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +472,6 @@
         "urlToImage": null,
         "publishedAt": "2026-03-11T01:00:17Z",
         "content": "Proceeds from Bitcoin sales have paid for healthcare, environmental programs, and government worker salaries in Bhutan a detail that puts the kingdom’s latest crypto move in sharper focus.\r\nOn Monday… [+2740 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Candlestick Structure That Led To Crash To Below $20,000 Last Cycle Just Appeared Again",
-        "description": "Bitcoin (BTC) is showing technical warning signs that have caught the attention of market watchers, with one analyst now predicting a dramatic price collapse in the world’s largest cryptocurrency. The analyst noted that a Bitcoin candlestick pattern that prev…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-candlestick-structure/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-5.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-10T20:30:03Z",
-        "content": "Bitcoin (BTC) is showing technical warning signs that have caught the attention of market watchers, with one analyst nowpredicting a dramatic price collapse in the worlds largest cryptocurrency. The … [+2788 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "Investment firm Multicoin bets 'Internet Labor Markets' will drive crypto’s next wave of adoption",
-        "description": "According to Multicoin Capital, the next wave of users that will onboard into crypto will be thanks to networks where users earn crypto by contributing work rather than buying tokens outright.",
-        "url": "https://www.coindesk.com/business/2026/03/10/investment-firm-multicoin-bets-internet-labor-markets-will-drive-crypto-s-next-wave-of-adoption",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/da3208a77b9544c92de0a9445502abb5e9077b25-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-10T19:14:00Z",
-        "content": "For much of cryptos history, the primary use case has been simple: buying tokens and trading them.\r\nNow, some investors and builders believe the industry may be moving toward a different model altoge… [+4599 chars]"
       }
     ]
   }
