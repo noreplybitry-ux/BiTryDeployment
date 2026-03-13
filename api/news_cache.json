@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T04:49:46.681Z",
+  "timestamp": "2026-03-13T05:54:46.517Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Pullback Sparks Tension — Will Support Hold?",
+        "description": "Dogecoin corrected some gains and traded below $0.0950 against the US Dollar. DOGE is now holding the $0.0915 support and might aim for a fresh increase. DOGE price started a fresh downside correction below $0.0950. The price is trading above the $0.0920 leve…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-pullback-0-0920/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Dogecoin-DOGE-Sinks-Further-Into-Red.jpg?fit=1024%2C572",
+        "publishedAt": "2026-03-12T05:18:28Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pixabay-55.jpg?fit=1280%2C853",
         "publishedAt": "2026-03-10T17:30:32Z",
         "content": "Bitcoin could be on track for a massive long-term rally if one of the most interesting valuation models in the crypto industry is still valid. According to pseudonymous analyst PlanB, the Stock-to-Fl… [+2640 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin orderbook shows imbalance: Will $70K hold?",
-        "description": "Bitcoin’s sell-side liquidity reached a two-month high, mirroring a setup seen in January. Should traders prepare for a sell-off?",
-        "url": "https://cointelegraph.com/markets/bitcoin-orderbook-shows-imbalance-will-dollar70k-hold",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-10/019a2a93-de79-7d44-8d20-a47d30178baf",
-        "publishedAt": "2026-03-10T17:30:00Z",
-        "content": "Bitcoin (BTC) appears to have reclaimed $70,000 as support, although the market remains cautious as technical charts indicate a setup resembling the bull trap that occurred in January 2026.\r\nBitcoins… [+3501 chars]"
       }
     ]
   }
