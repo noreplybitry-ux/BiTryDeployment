@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T02:36:26.878Z",
+  "timestamp": "2026-03-13T04:49:46.681Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Struggles Near Highs — Reversal Risk Rising",
+        "description": "Ethereum price started a recovery wave above the $2,020 zone. ETH is now struggling to clear $2,080 and remains at risk of another decline in the near term. Ethereum started a recovery wave above the $2,020 zone. The price is trading above $2,020 and the 100-…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-2080/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Sinks.jpg?fit=1024%2C572",
+        "publishedAt": "2026-03-12T03:18:01Z",
+        "content": "Ethereum price started a recovery wave above the $2,020 zone. ETH is now struggling to clear $2,080 and remains at risk of another decline in the near term.\r\n<ul><li>Ethereum started a recovery wave … [+2161 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Rally Fades, Market Braces for Possible Downside",
+        "description": "Bitcoin price failed to extend its recovery wave above the $70,500 zone. BTC is now consolidating and might decline again below $68,500. Bitcoin started a decent recovery wave above the $68,500 zone. The price is trading above $68,650 and the 100 hourly simpl…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rally-fades-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Breakdown.jpg",
+        "publishedAt": "2026-03-12T03:07:27Z",
+        "content": "Bitcoin price failed to extend its recovery wave above the $70,500 zone. BTC is now consolidating and might decline again below $68,500.\r\n<ul><li>Bitcoin started a decent recovery wave above the $68,… [+2235 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Crypto Thieves Pivot To Phishing As Protocol Hacks Decline In February",
+        "description": "Bybit blocked more than $300 million in unauthorized withdrawals during the final quarter of last year — a figure that puts February’s total crypto theft losses in sharp relief. Related Reading: Bitcoin Crosses 20 Million Coins Mined — And Only 1 In 20 Remain…",
+        "url": "http://www.newsbtc.com/news/crypto-thieves-pivot-to-phishing-as-protocol-hacks-decline-in-february/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_9e51fd.jpg?fit=1600%2C1008",
+        "publishedAt": "2026-03-12T03:00:02Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Binance.US names new CEO as crypto exchange eyes expansion",
+        "description": "Stephen Gregory, a former compliance executive at CEX.IO and Gemini, has taken over as CEO of Binance.US, a crypto exchange that was once a target of a long-running SEC lawsuit.",
+        "url": "https://cointelegraph.com/news/binance-us-names-new-ceo-crypto-exchange-eyes-expansion",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cdf7e-93de-77a2-abfd-0621ea5a4823.jpg",
+        "publishedAt": "2026-03-12T02:51:13Z",
+        "content": "Binance.US, the US affiliate of crypto exchange Binance, has named compliance lawyer Stephen Gregory as CEO as the company looks to re-expand in the country.\r\nThe company said on Wednesday that Grego… [+1885 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Ghana greenlights 11 crypto companies for regulatory sandbox",
+        "description": "Ghana’s SEC has admitted 11 crypto companies into its new regulatory sandbox following the passage of a VASP law in December, aimed at responsibly supporting crypto innovation.",
+        "url": "https://cointelegraph.com/news/ghana-greenlights-11-crypto-companies-sandbox",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b45fe-1692-7310-8a2b-46ad766044dc.jpg",
+        "publishedAt": "2026-03-12T02:45:38Z",
+        "content": "Ghanas securities regulator has given the nod to 11 crypto trading platforms to participate in its new regulatory sandbox program, its first major step in support of crypto after passing a law to pro… [+2357 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-10/019a2a93-de79-7d44-8d20-a47d30178baf",
         "publishedAt": "2026-03-10T17:30:00Z",
         "content": "Bitcoin (BTC) appears to have reclaimed $70,000 as support, although the market remains cautious as technical charts indicate a setup resembling the bull trap that occurred in January 2026.\r\nBitcoins… [+3501 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Just Entered The DCA Zone Again, Why This Is A Good Time To Buy",
-        "description": "Crypto analyst Merlijn has revealed that Bitcoin has just re-entered the DCA zone, indicating it’s a good time to buy BTC. The leading crypto is already staging another rebound, rising to the psychological $70,000, which has so far proved to be a major resist…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-enters-the-dca-zone/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-36.jpg?fit=960%2C717",
-        "publishedAt": "2026-03-10T16:00:02Z",
-        "content": "Crypto analyst Merlijn has revealed that Bitcoin has just re-entered the DCA zone, indicating it’s a good time to buy BTC. The leading crypto is already staging another rebound, rising to the psychol… [+2455 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Solana, XRP ETFs take different paths as crypto investors pile in",
-        "description": "Solana funds are seeing more institutional demand, while the XRP products are retail investor favorites, according to a Bloomberg report.",
-        "url": "https://www.coindesk.com/markets/2026/03/10/solana-etfs-find-institutional-backing-while-xrp-funds-depend-more-on-retail",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fae9c4033cf0fd23ffa9149bdd5cd982f2281113-6870x4100.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-10T15:20:01Z",
-        "content": "U.S. exchange-traded funds tied to Solana (SOL) and XRP (XRP) are attracting investors despite falling crypto prices, though the two products are drawing very different types of buyers.\r\nSolana ETFs … [+4274 chars]"
       }
     ]
   }
