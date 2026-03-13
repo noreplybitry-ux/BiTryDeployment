@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T07:03:20.807Z",
+  "timestamp": "2026-03-13T08:51:22.484Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd87a-2f36-7be3-9c6e-bf2c29c09a59.jpg",
         "publishedAt": "2026-03-10T19:06:02Z",
         "content": "Crypto-related hacks declined sharply in February, but attackers are increasingly targeting users through phishing campaigns and malicious wallet approvals a shift suggesting they are focusing more o… [+2578 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin S2F Model Says BTC Price Is Headed To $500,000, Here’s When",
-        "description": "Bitcoin could be on track for a massive long-term rally if one of the most interesting valuation models in the crypto industry is still valid. According to pseudonymous analyst PlanB, the Stock-to-Flow (S2F) model suggests that Bitcoin could average around $5…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-s2f-model-btc-500000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pixabay-55.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-10T17:30:32Z",
-        "content": "Bitcoin could be on track for a massive long-term rally if one of the most interesting valuation models in the crypto industry is still valid. According to pseudonymous analyst PlanB, the Stock-to-Fl… [+2640 chars]"
       }
     ]
   }
