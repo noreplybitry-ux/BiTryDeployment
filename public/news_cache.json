@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T18:52:33.689Z",
+  "timestamp": "2026-03-13T19:35:36.690Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Polychain backs VeryAI’s $10M raise to build palm-scan identity system on Solana",
+        "description": "The startup’s smartphone-based biometric system aims to help crypto platforms detect AI-generated accounts while preserving user privacy through onchain verification.",
+        "url": "https://cointelegraph.com/news/polychain-backs-veryai-s-10m-raise-to-build-palm-scan-identity-system-on-solana",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019be9ce-c015-72ff-a772-33d5ff03c125.jpg",
+        "publishedAt": "2026-03-12T19:13:34Z",
+        "content": "Startup VeryAI has raised $10 million in a seed funding round led by Polychain Capital to launch a palm-scan identity verification system designed to distinguish real users from AI-generated accounts… [+3622 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin funding rate flips negative: Are bears getting too confident?",
+        "description": "While geopolitical tension and weak labor data are hurting market sentiment, institutional buying below $75,000 may soon exhaust sellers and spark a bull run.",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-flips-negative-are-btc-bears-too-confident",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce314-9766-7c0f-97e3-05f983046949.jpg",
+        "publishedAt": "2026-03-12T19:01:34Z",
+        "content": "Bitcoin (BTC) failed to break beyond $71,000 on Thursday, partially driven by the decline in the US stock market, with BTC funding rates dropping deeper into negative territory.\r\nKey takeaways:\r\n<ul>… [+4262 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Coinbase execs deny lobbying against Bitcoin de minimis tax exemption",
+        "description": "Executives from the Coinbase crypto exchange deny rumors that the company is telling US lawmakers that a BTC tax exemption for small transactions is unnecessary.",
+        "url": "https://cointelegraph.com/news/coinbase-deny-lobby-bitcoin-tax-exemption",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce2e5-058b-75f5-bcf1-22c103fbc8d3.jpg",
+        "publishedAt": "2026-03-12T18:54:28Z",
+        "content": "Executives at Coinbase have denied allegations that the crypto exchange is blocking a de minimis tax exemption for Bitcoin (BTC) transactions below a certain threshold to push for stablecoin tax exem… [+2258 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4188f95da5664abffff8df4bd616ed948203e078-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-11T12:29:14Z",
         "content": "Binance said it filed a defamation lawsuit against Dow Jones, the publisher of The Wall Street Journal, on the same day the newspaper published a report claiming the U.S. Justice Department is invest… [+633 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Price To Rally 928%? Why $10,000 Isn’t The Real ATH Target",
-        "description": "Ethereum continues to struggle to surmount the resistance that has mounted at $3,000, with bears maintaining a firm grip on the price. Nevertheless, bullish sentiment surrounding the Ethereum price has not been completely eroded. This suggests that investors …",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-to-rally-928/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-from-iStock-33.jpg?fit=612%2C408",
-        "publishedAt": "2026-03-11T11:30:50Z",
-        "content": "Ethereum continues to struggle to surmount the resistance that has mounted at $3,000, with bears maintaining a firm grip on the price. Nevertheless, bullish sentiment surrounding the Ethereum price h… [+2146 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "DOJ Seeks Forfeiture of $3.4M in USDT Tied to Ethereum Investment Scam",
-        "description": "Federal prosecutors in Massachusetts have moved to forfeit 3.44 million USDT linked to an alleged text-based crypto investment fraud.",
-        "url": "https://decrypt.co/360650/doj-seeks-forfeiture-of-3-4m-in-usdt-tied-to-ethereum-investment-scam",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-gID_7.png",
-        "publishedAt": "2026-03-11T10:52:18Z",
-        "content": "In brief\r\n<ul><li>U.S. prosecutors in Massachusetts have filed a civil forfeiture complaint targeting $3.4 million in USDT tied to an alleged investment scam.</li><li>Investigators say victims were a… [+2168 chars]"
       }
     ]
   }
