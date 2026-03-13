@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T21:39:46.159Z",
+  "timestamp": "2026-03-13T22:34:22.785Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/502b736d5049290cb60a66d46b62850d7046b353-1920x1080.jpg?auto=format",
         "publishedAt": "2026-03-11T13:21:43Z",
         "content": "Ghanas Securities and Exchange Commission (SEC) said 11 companies have been granted access to a regulatory sandbox to test cryptocurrency and digital asset services under the countrys Virtual Asset S… [+1164 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "XRP Accumulation Signal? Binance Withdrawals Jump, ETF Demand Grows",
-        "description": "A fresh cluster of on-chain and fund-flow data is feeding a familiar XRP market question: are buyers using the recent weakness to accumulate? New figures highlighted by CryptoQuant contributor Darkfost suggest that Binance withdrawal activity has surged just …",
-        "url": "http://www.newsbtc.com/xrp-news/xrp-accumulation-signal-binance-etf-demand/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-11-2026-08_23_44-AM.png?fit=1111%2C740",
-        "publishedAt": "2026-03-11T13:00:30Z",
-        "content": "A fresh cluster of on-chain and fund-flow data is feeding a familiar XRP market question: are buyers using the recent weakness to accumulate? New figures highlighted by CryptoQuant contributor Darkfo… [+3673 chars]"
       }
     ]
   }
