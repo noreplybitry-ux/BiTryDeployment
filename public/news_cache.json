@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T20:42:22.159Z",
+  "timestamp": "2026-03-13T21:39:46.159Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "XRP Reserves On Binance Drop To Lowest Level Since April 2025 – A $3.7B Drain",
+        "description": "XRP is currently in a consolidation phase below $1.50 as the broader cryptocurrency market navigates uncertain momentum and limited liquidity. After experiencing significant volatility in recent months, price action has slowed. The asset is now moving sideway…",
+        "url": "http://www.newsbtc.com/xrp-news/xrp-reserves-on-binance-drop-to-lowest-level-since-april-2025-a-3-7b-drain/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-41.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-03-12T21:00:41Z",
+        "content": "XRP is currently in a consolidation phase below $1.50 as the broader cryptocurrency market navigates uncertain momentum and limited liquidity. After experiencing significant volatility in recent mont… [+4194 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-11-2026-08_23_44-AM.png?fit=1111%2C740",
         "publishedAt": "2026-03-11T13:00:30Z",
         "content": "A fresh cluster of on-chain and fund-flow data is feeding a familiar XRP market question: are buyers using the recent weakness to accumulate? New figures highlighted by CryptoQuant contributor Darkfo… [+3673 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Bitcoin Price Holds Near $70K As Markets Brace For Key Event",
-        "description": "Bitcoin is holding up near the upper $60Ks–$70K region despite a sharp macro shock, showing relative resilience versus equities and other risk assets. Related Reading: Bitcoin Reclaims $70,000 as Iran War Jitters Ease and Volatility Cools Bitcoin Is Resilient…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-holds-near-70k-as-markets-brace-for-key-event/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image19.png",
-        "publishedAt": "2026-03-11T12:31:19Z",
-        "content": "Bitcoin is holding up near the upper $60Ks$70K region despite a sharp macro shock, showing relative resilience versus equities and other risk assets.\r\nBitcoin appears to have passed the first stress … [+2989 chars]"
       }
     ]
   }
