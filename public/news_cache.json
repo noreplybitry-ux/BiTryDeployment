@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T17:40:42.035Z",
+  "timestamp": "2026-03-13T18:52:33.689Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Authorities Freeze $3.5M in Crypto as Europol, DOJ Disrupt ‘SocksEscort’ Proxy Network",
+        "description": "Investigators said the service infected thousands of routers and enabled fraud including crypto account takeovers.",
+        "url": "https://decrypt.co/360923/authorities-freeze-3-5m-in-crypto-as-europol-doj-disrupt-socksescort-proxy-network",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/malware-code-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-03-12T18:04:29Z",
+        "content": "In brief\r\n<ul><li>Europol and partners announced the disruption of the SocksEscort malicious proxy service and the freezing of $3.5 million in cryptocurrency linked to the operation.</li><li>The netw… [+2602 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Is Bitcoin price at risk if private credit breaks?",
+        "description": "A looming private credit crisis risked triggering liquidity crunches that could initially suppress Bitcoin prices, but Fed interventions may ignite a major BTC rally.",
+        "url": "https://cointelegraph.com/markets/is-bitcoin-price-at-risk-if-private-credit-breaks",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c9411-15b2-7a03-8587-9b6d131e5c06.jpg",
+        "publishedAt": "2026-03-12T17:49:30Z",
+        "content": "There is a growing risk that a looming crisis in the private credit market, fueled by rising redemptions and defaults, could spill over into Bitcoin (BTC) and crypto markets, according to analysts.\r\n… [+4772 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-gID_7.png",
         "publishedAt": "2026-03-11T10:52:18Z",
         "content": "In brief\r\n<ul><li>U.S. prosecutors in Massachusetts have filed a civil forfeiture complaint targeting $3.4 million in USDT tied to an alleged investment scam.</li><li>Investigators say victims were a… [+2168 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "US seeks forfeiture of $3.4M in USDt tied to crypto investment scam",
-        "description": "US prosecutors filed a civil forfeiture action to recover $3.44 million in USDt linked to a crypto investment scam that persuaded victims to send Ether to fraudulent wallets.",
-        "url": "https://cointelegraph.com/news/us-seeks-forfeiture-3-4m-usdt-crypto-investment-scam",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cdc5c-285a-778a-904b-66d3fab5c716.jpg",
-        "publishedAt": "2026-03-11T10:25:42Z",
-        "content": "US federal prosecutors have filed a civil forfeiture action to recover roughly 3.44 million USDt tied to an alleged online crypto investment scam that targeted victims across several states.\r\nAccordi… [+2416 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin May Sink To $50K Before Rallying, Standard Chartered’s Kendrick Warns",
-        "description": "Standard Chartered’s Geoffrey Kendrick says Bitcoin could still face a final washout to $50,000 before recovering sharply, arguing that the current drawdown looks more like a macro-led tech capitulation than a crypto-specific breakdown. Speaking on Deribit’s …",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-50k-before-rallying-standard-chartered-kendrick/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Screenshot-2026-03-10-122610.png?fit=1960%2C1232",
-        "publishedAt": "2026-03-11T07:00:16Z",
-        "content": "Standard Chartereds Geoffrey Kendrick says Bitcoin could still face a final washout to $50,000 before recovering sharply, arguing that the current drawdown looks more like a macro-led tech capitulati… [+3991 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Crosses 20 Million Coins Mined — And Only 1 In 20 Remains",
-        "description": "The last full Bitcoin could be mined sometime in the 2090s. Only fractions will follow until roughly 2140, when the final satoshi is expected to be produced. Related Reading: Bitcoin ETFs Break 5-Month Streak With 2nd Consecutive Week Of Inflows That endpoint…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-crosses-20-million-coins-mined-and-only-1-in-20-remains/",
-        "urlToImage": null,
-        "publishedAt": "2026-03-11T06:00:43Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
