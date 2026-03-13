@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-13T14:50:38.113Z",
+  "timestamp": "2026-03-13T15:51:03.233Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Has Bitcoin Price Bottomed Yet? Analyst Says We’re Not There Yet",
+        "description": "Crypto analyst Leshka has explained why it is unlikely that the Bitcoin price has bottomed even as it continues to attempt a recovery above $70,000. His analysis also aligns with predictions from analysts such as Doctor Profit, who predict that BTC could stil…",
+        "url": "http://www.newsbtc.com/news/bitcoin/has-bitcoin-price-bottomed-yet/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-9.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-12T15:00:45Z",
+        "content": "Crypto analyst Leshka has explained why it is unlikely that the Bitcoin price has bottomed even as it continues to attempt a recovery above $70,000. His analysis also aligns with predictions from ana… [+2454 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4290d2e5ba7140f5d65f68d3183a9abb87c098a4-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-11T05:00:15Z",
         "content": "Elon Musk said late Tuesday that the payments features on social application X will go live next month.\r\nDubbed X Money, the feature turns X into a fintech app with peer-to-peer transfers, bank depos… [+2502 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Rejected Again, Market Watches Key Support Closely",
-        "description": "Ethereum price started a recovery wave above the $2,000 zone. ETH is now struggling to clear $2,090 and remains at risk of another decline in the near term. Ethereum started a recovery wave above the $2,000 zone. The price is trading above $2,000 and the 100-…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rejected-again-2090/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rejected-Again-Market-Watches-Key-Support-Closely.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-11T03:18:17Z",
-        "content": "Ethereum price started a recovery wave above the $2,000 zone. ETH is now struggling to clear $2,090 and remains at risk of another decline in the near term.\r\n<ul><li>Ethereum started a recovery wave … [+2158 chars]"
       }
     ]
   }
