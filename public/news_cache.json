@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T02:34:31.437Z",
+  "timestamp": "2026-03-14T04:47:33.809Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Dems say they will oversee reported DOJ probe into Binance",
+        "description": "Senators Chris Van Hollen, Elizabeth Warren and Ruben Gallego have vowed to ensure that the Justice Department “conducts a serious investigation into Binance.”",
+        "url": "https://cointelegraph.com/news/democrats-oversee-doj-probe-binance",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce573-e2da-74c2-a49a-b618e2547c02.jpg",
+        "publishedAt": "2026-03-13T04:39:25Z",
+        "content": "A group of Democratic senators say they will oversee a reported Justice Department investigation into possible Iran-related sanctions violations on the crypto exchange Binance.\r\nSenators Chris Van Ho… [+2086 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Sebastian Sinclair",
+        "title": "Why Bitcoin's Price Is at a Weekly High Despite Middle East Tensions",
+        "description": "Bitcoin rose even as equities dropped, with analysts pointing to crypto-specific demand alongside geopolitical tensions driving energy markets higher.",
+        "url": "https://decrypt.co/360969/bitcoin-weekly-hig-middle-east-tensions-lift-oil-pressure-equities",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
+        "publishedAt": "2026-03-13T03:43:48Z",
+        "content": "In brief\r\n<ul><li>Bitcoin is up 2.6% to around $71,500, its highest level in a week.</li><li>On Thursday, Brent crude jumped 9.2% to above $100 a barrel, its largest one-day gain since 2020.</li><li>… [+4244 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Pushes Higher as Bulls Fuel Market Optimism",
+        "description": "Ethereum price started a recovery wave above the $2,050 zone. ETH is now showing positive signs and might aim for more gains above $2,150. Ethereum started a recovery wave above the $2,050 zone. The price is trading above $2,050 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-pushes-higher-2150/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Pushes-Higher-as-Bulls-Fuel-Market-Optimism.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-13T03:38:04Z",
+        "content": "Ethereum price started a recovery wave above the $2,050 zone. ETH is now showing positive signs and might aim for more gains above $2,150.\r\n<ul><li>Ethereum started a recovery wave above the $2,050 z… [+2060 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Shows Bullish Setup — Takeover Rally Incoming?",
+        "description": "Bitcoin price started a decent increase above the $70,000 zone. BTC is now consolidating and might aim for more gains if it clears $72,000. Bitcoin started a decent recovery wave above the $70,000 zone. The price is trading above $70,000 and the 100 hourly si…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-shows-bullish-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Shows-Bullish-Setup.jpg",
+        "publishedAt": "2026-03-13T03:05:12Z",
+        "content": "Bitcoin price started a decent increase above the $70,000 zone. BTC is now consolidating and might aim for more gains if it clears $72,000.\r\n<ul><li>Bitcoin started a decent recovery wave above the $… [+2153 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/859343e8743070b6648fd596b3614e460f27faeb-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-11T15:09:16Z",
         "content": "ETHEREUM FOUNDATION STARTS EXPERIMENTING WITH DVT-LITE TECH: The Ethereum Foundation is testing a method for running validators that could make it significantly easier for institutions holding large … [+13047 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun, AI Boost",
-        "title": "Binance.US names compliance veteran as CEO as regulation, competition get tougher",
-        "description": "The appointment of Stephen Gregory comes as U.S. crypto exchanges intensify competition and broaden offerings beyond digital assets.",
-        "url": "https://www.coindesk.com/business/2026/03/11/binance-us-names-compliance-veteran-as-ceo-as-regulation-competition-get-tougher",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7da338c5a2086d04105adfd02744a31f75b0e70e-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-11T15:05:00Z",
-        "content": "Binance.US, the American affiliate of the world's largest crypto exchange, named Stephen Gregory as CEO, installing a compliance-focused executive at the helm at a time that competition among U.S. cr… [+2164 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin rebounds on flat US CPI as oil price cools on 400M barrel release",
-        "description": "Bitcoin price reacted positively as US CPI inflation conformed to market expectations, as traders stayed in wait-and-see mode.",
-        "url": "https://cointelegraph.com/markets/bitcoin-rebounds-flat-us-cpi-oil-price-cools-400m-barrel-release",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cdd64-1d48-7dc0-86af-fe4bdda10305.jpg",
-        "publishedAt": "2026-03-11T15:00:09Z",
-        "content": "Bitcoin (BTC) broke back above $70,000 around Wednesdays Wall Street open as US inflation data soothed anxious markets.\r\nKey points:\r\n<ul><li>Bitcoin bounces around a narrow range as US inflation dat… [+3421 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Ghana opens crypto trading sandbox with 11 firms under new VASP law",
-        "description": "The companies will be able to run their products in a controlled environment while regulators monitor risks and compliance.",
-        "url": "https://www.coindesk.com/policy/2026/03/11/ghana-opens-crypto-trading-sandbox-with-11-firms-under-new-vasp-law",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/502b736d5049290cb60a66d46b62850d7046b353-1920x1080.jpg?auto=format",
-        "publishedAt": "2026-03-11T13:21:43Z",
-        "content": "Ghanas Securities and Exchange Commission (SEC) said 11 companies have been granted access to a regulatory sandbox to test cryptocurrency and digital asset services under the countrys Virtual Asset S… [+1164 chars]"
       }
     ]
   }
