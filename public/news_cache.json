@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T05:52:01.540Z",
+  "timestamp": "2026-03-14T06:57:20.505Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/669c3873a927924abdbbced4c7b661b281ba919f-1919x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-11T16:41:12Z",
         "content": "Revolut, the London-based crypto-friendly fintech, said it received a full U.K. banking license, allowing it to offer a wider range of services and providing deposit protection for eligible funds alm… [+1527 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Sylvia To",
-        "title": "Crypto Long & Short: AI agents choosing denationalized money",
-        "description": "In this week’s Crypto Long & Short Newsletter, Sylvia To on AI agents choosing denationalized money.",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/03/11/crypto-long-and-short-ai-agents-choosing-denationalized-money",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1826e15e8fe0baba229c5b62f9cfd133bbe72c66-7360x5100.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-11T16:02:20Z",
-        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Sylvia To on AI agents choosing denationalized money</li><li>Top headlines institutions should pay attention to b… [+8393 chars]"
       }
     ]
   }
