@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T14:35:56.317Z",
+  "timestamp": "2026-03-14T15:34:53.435Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Stablecoins, bitcoin could reshape finance, Stanley Druckenmiller says",
+        "description": "The billionaire investor reiterated his skepticism toward crypto but said blockchain-based stablecoins could reshape financial infrastructure and even challenge the dollar’s reserve status.",
+        "url": "https://www.coindesk.com/business/2026/03/13/stablecoins-bitcoin-could-reshape-finance-stanley-druckenmiller-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/852f38f36f97ac4b27a91a57b69877ae3ce2fc0c-1919x1080.jpg?auto=format",
+        "publishedAt": "2026-03-13T15:28:28Z",
+        "content": "Billionaire investor Stanley Druckenmiller said stablecoins could underpin global payment systems within the next decade or two while reiterating his long-standing skepticism toward much of the broad… [+2016 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price eyes $74K rematch as US PCE inflation boosts crypto, stocks",
+        "description": "Bitcoin bulls squeezed the market toward $74,000 again as promising US inflation data buoyed risk assets, but BTC price forecasts stayed mixed.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-rematch-us-pce-inflation-boosts-crypto-stocks",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce7a6-4fec-7f43-987a-aa00e38150c0.jpg",
+        "publishedAt": "2026-03-13T14:58:30Z",
+        "content": "Bitcoin (BTC) aimed for five-week highs at Thursdays Wall Street open as US inflation trends stayed on track.\r\nKey points:\r\n<ul><li>US inflation data keeps crypto and stocks higher as BTC price actio… [+3591 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cdf7e-93de-77a2-abfd-0621ea5a4823.jpg",
         "publishedAt": "2026-03-12T02:51:13Z",
         "content": "Binance.US, the US affiliate of crypto exchange Binance, has named compliance lawyer Stephen Gregory as CEO as the company looks to re-expand in the country.\r\nThe company said on Wednesday that Grego… [+1885 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "Ghana greenlights 11 crypto companies for regulatory sandbox",
-        "description": "Ghana’s SEC has admitted 11 crypto companies into its new regulatory sandbox following the passage of a VASP law in December, aimed at responsibly supporting crypto innovation.",
-        "url": "https://cointelegraph.com/news/ghana-greenlights-11-crypto-companies-sandbox",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b45fe-1692-7310-8a2b-46ad766044dc.jpg",
-        "publishedAt": "2026-03-12T02:45:38Z",
-        "content": "Ghanas securities regulator has given the nod to 11 crypto trading platforms to participate in its new regulatory sandbox program, its first major step in support of crypto after passing a law to pro… [+2357 chars]"
       }
     ]
   }
