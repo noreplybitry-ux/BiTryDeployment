@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T06:57:20.505Z",
+  "timestamp": "2026-03-14T07:40:53.953Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,19 +355,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ea8e1928d0d5811a7ae0cae6f6d5ad3d5dd2b714-2932x1649.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-11T17:00:20Z",
         "content": "Bloomberg Intelligence senior commodity strategist Mike McGlone, who previously said bitcoin could drop to $10,000, is reiterating his call that bitcoin could still fall below that level, an outlook … [+3989 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Crypto-friendly fintech Revolut gains full UK banking license",
-        "description": "The move is a major step in Revolut's goal to become a global digital bank, though services like crypto and stock trading remain separate.",
-        "url": "https://www.coindesk.com/policy/2026/03/11/crypto-friendly-fintech-revolut-gains-full-uk-banking-license",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/669c3873a927924abdbbced4c7b661b281ba919f-1919x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-11T16:41:12Z",
-        "content": "Revolut, the London-based crypto-friendly fintech, said it received a full U.K. banking license, allowing it to offer a wider range of services and providing deposit protection for eligible funds alm… [+1527 chars]"
       }
     ]
   }
