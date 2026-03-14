@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T08:43:32.576Z",
+  "timestamp": "2026-03-14T09:40:03.084Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Bitcoin holds above $71,000, defying rising dollar, oil and U.S. bond yields",
+        "description": "Stronger dollar, rising Treasury yields, and tech equities treading water contrast with bitcoin’s resilience amid geopolitical tensions.",
+        "url": "https://www.coindesk.com/markets/2026/03/13/bitcoin-holds-above-usd71-000-defying-rising-dollar-oil-and-u-s-bond-yields",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5c3dbb59812805bd08833ffe02ee76e11cc7f1ba-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-13T09:32:45Z",
+        "content": "Bitcoin BTC\r\n$72,301.23 rose above $71,500 on Friday, outperforming U.S. equities even as the dollar strengthened and oil prices remained elevated as the war with Iran was set to enter its third week… [+1736 chars]"
+      },
       {
         "source": {
           "id": null,
