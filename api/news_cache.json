@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T17:33:11.032Z",
+  "timestamp": "2026-03-14T18:49:14.967Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Kraken-Linked SPAC Could Target Crypto Firm Valued at Up to $10 Billion",
+        "description": "The company is taking a broad look at crypto-native firms that could generate interest on Wall Street.",
+        "url": "https://decrypt.co/361042/kraken-linked-spac-could-target-crypto-firm-10-billion",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/kraken-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-03-13T18:33:24Z",
+        "content": "In brief\r\n<ul><li>KRAKacquisition may find a target thats worth as much as $10 billion.</li><li>The goal is to align a small- or mid-cap company with the crypto exchange.</li><li>The search comes as … [+2294 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/13: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, XMR",
+        "description": "Charts suggest Bitcoin may remain range-bound, with $74,000 being the toughest resistance to overcome. Will altcoins drop their recent gains or continue to find buyers?",
+        "url": "https://cointelegraph.com/markets/price-predictions-3-13-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-xmr",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce816-7a37-77f5-a1a0-e38724529501.jpg",
+        "publishedAt": "2026-03-13T18:22:48Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin turned down from the $74,000 level, indicating that the bears remain sellers on rallies.\r\n</li><li>Several major altcoins are showing strength and are likely to break abo… [+8606 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Dogecoin-DOGE-Sinks-Further-Into-Red.jpg?fit=1024%2C572",
         "publishedAt": "2026-03-12T05:18:28Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Struggles Near Highs — Reversal Risk Rising",
-        "description": "Ethereum price started a recovery wave above the $2,020 zone. ETH is now struggling to clear $2,080 and remains at risk of another decline in the near term. Ethereum started a recovery wave above the $2,020 zone. The price is trading above $2,020 and the 100-…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-2080/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Sinks.jpg?fit=1024%2C572",
-        "publishedAt": "2026-03-12T03:18:01Z",
-        "content": "Ethereum price started a recovery wave above the $2,020 zone. ETH is now struggling to clear $2,080 and remains at risk of another decline in the near term.\r\n<ul><li>Ethereum started a recovery wave … [+2161 chars]"
       }
     ]
   }
