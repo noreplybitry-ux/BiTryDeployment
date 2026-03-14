@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T04:47:33.809Z",
+  "timestamp": "2026-03-14T05:52:01.540Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Upside Awakens — Will Bulls Finally Hit $100?",
+        "description": "Solana started a fresh increase above the $88 zone. SOL price is now consolidating near $90 and might aim for more gains above the $92 zone. SOL price started a fresh upward move above the $85 and $88 levels against the US Dollar. The price is now trading abo…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-upside-92/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Upside-Awakens.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-13T05:18:57Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Weiss Crypto Flags 3 Key Risks For Hyperliquid And HYPE",
+        "description": "Weiss Crypto is making a two-sided case on Hyperliquid’s HYPE token: bullish on the protocol’s fee-driven tokenomics, but clear that investors should not mistake momentum for the absence of risk. In a series of posts over the past days, the research outlet ar…",
+        "url": "http://www.newsbtc.com/news/weiss-crypto-3-key-risks-hyperliquid-hype/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-6-2026-11_58_28-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-13T05:00:19Z",
+        "content": "Weiss Crypto is making a two-sided case on Hyperliquids HYPE token: bullish on the protocols fee-driven tokenomics, but clear that investors should not mistake momentum for the absence of risk. In a … [+3706 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,58 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1826e15e8fe0baba229c5b62f9cfd133bbe72c66-7360x5100.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-11T16:02:20Z",
         "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Sylvia To on AI agents choosing denationalized money</li><li>Top headlines institutions should pay attention to b… [+8393 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 3/11: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, HYPE, XMR",
-        "description": "Bitcoin is facing resistance just above $70,000, but the bulls have kept up the pressure, increasing the possibility of a rally to $74,508.",
-        "url": "https://cointelegraph.com/markets/price-predictions-3-11-btc-eth-bnb-xrp-sol-doge-ada-bch-hype-xmr",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cdd60-be85-784d-b8a3-7b8aa31fe827.jpg",
-        "publishedAt": "2026-03-11T15:46:16Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin is facing selling above $70,000, but a shallow pullback increases the likelihood of a rally to $74,508.\r\n</li><li>Select major altcoins are showing strength and may break… [+8803 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "STRC may help Strategy reach 1M Bitcoin milestone before BlackRock",
-        "description": "Demand for Strategy’s STRC preferred stock is rising, which translates into about 1,940 BTC of daily buying power at the current rate.",
-        "url": "https://cointelegraph.com/markets/strc-may-help-strategy-hit-1m-bitcoin-before-blackrock",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019aeba2-433b-70a6-b379-8ebac8c9ec2b",
-        "publishedAt": "2026-03-11T15:45:57Z",
-        "content": "Michael Saylors Strategy (MSTR) may reach the 1 million Bitcoin (BTC) milestone faster than expected, potentially overtaking BlackRock in total holdings.\r\nKey takeaways:\r\n<ul><li>STRC share sales hav… [+4161 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "What To Expect For The Bitcoin Price After The Weekend Breakdown Below $70,000",
-        "description": "Crypto analyst Doctor Profit has provided insights into what to expect from the Bitcoin price after it dropped below $70,000 over the weekend. This comes as the leading crypto continues to face pressure due to the U.S.-Iran war and volatile oil prices.  What …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-after-weekend-breakdown/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-56.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-11T15:30:58Z",
-        "content": "Crypto analyst Doctor Profit has provided insights into what to expect from the Bitcoin price after it dropped below $70,000 over the weekend. This comes as the leading crypto continues to face press… [+2690 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "The Protocol: Ethereum Foundation starts experimenting with ‘DVT-lite’ technology",
-        "description": "Also: Nvidia’s rare blog, Aave liquidations, and Pudgy Penguins new game.",
-        "url": "https://www.coindesk.com/tech/2026/03/11/the-protocol-ethereum-foundation-starts-experimenting-with-dvt-lite-technology",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/859343e8743070b6648fd596b3614e460f27faeb-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-11T15:09:16Z",
-        "content": "ETHEREUM FOUNDATION STARTS EXPERIMENTING WITH DVT-LITE TECH: The Ethereum Foundation is testing a method for running validators that could make it significantly easier for institutions holding large … [+13047 chars]"
       }
     ]
   }
