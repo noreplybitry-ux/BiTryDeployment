@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T13:05:24.687Z",
+  "timestamp": "2026-03-14T14:35:56.317Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b45fe-1692-7310-8a2b-46ad766044dc.jpg",
         "publishedAt": "2026-03-12T02:45:38Z",
         "content": "Ghanas securities regulator has given the nod to 11 crypto trading platforms to participate in its new regulatory sandbox program, its first major step in support of crypto after passing a law to pro… [+2357 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Crypto platform Bullish climbs past Coinbase to become third-largest crypto exchange by spot volume",
-        "description": "The institutional-focused exchange saw spot trading jump 62% to $76 billion in February, surpassing Coinbase’s market share.",
-        "url": "https://www.coindesk.com/markets/2026/03/11/crypto-platform-bullish-climbs-past-coinbase-to-become-third-largest-crypto-exchange-by-spot-volume",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8ec5e8da78b8de9221e71d7a1c75106996edd8fe-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-11T20:33:01Z",
-        "content": "Crypto platform Bullish (BLSH), which operates an institutional-only crypto exchange business, climbed into the top three centralized crypto exchanges by spot trading volume for the first time in Feb… [+2165 chars]"
       }
     ]
   }
