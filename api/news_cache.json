@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T11:30:04.409Z",
+  "timestamp": "2026-03-14T13:05:24.687Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Bitcoin targets $73,000 as crypto bounces despite oil price jitters",
+        "description": "Bitcoin is charging toward $73,000 amid a fresh decoupling from the stock market. The surge in BTC price comes despite fears around escalating oil prices. Ethereum, XRP, and Solana are also eyeing momentum as traditional assets falter. Bitcoin climbed past $7…",
+        "url": "https://coinjournal.net/news/bitcoin-targets-73000-as-crypto-bounces-despite-oil-price-jitters/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
+        "publishedAt": "2026-03-13T12:01:12Z",
+        "content": "<ul><li>Bitcoin is charging toward $73,000 amid a fresh decoupling from the stock market.</li><li>The surge in BTC price comes despite fears around escalating oil prices.</li><li>Ethereum, XRP, and S… [+2731 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8ec5e8da78b8de9221e71d7a1c75106996edd8fe-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-11T20:33:01Z",
         "content": "Crypto platform Bullish (BLSH), which operates an institutional-only crypto exchange business, climbed into the top three centralized crypto exchanges by spot trading volume for the first time in Feb… [+2165 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Bitcoin holds $70,000, starting to show relative strength versus stocks, software sector, and gold",
-        "description": "Bitcoin is up about 7% from the Sunday lows, even as equities and gold tread water. Analysts point to seller exhaustion, shifting gold correlation and improving ETF flows.",
-        "url": "https://www.coindesk.com/markets/2026/03/11/bitcoin-holds-usd70-000-beginning-to-show-relative-strength-versus-stocks-software-sector-and-gold",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/de660771a2dc4c17a41ac9cf17caf164195d7ee7-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-11T20:23:58Z",
-        "content": "Bitcoins resilience during the latest bout of global macro stress is starting to turn heads on trading desks.\r\nThe largest crypto climbed to just shy of $71,000, up roughly 7% from Sunday evening low… [+3508 chars]"
       }
     ]
   }
