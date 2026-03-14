@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T18:49:14.967Z",
+  "timestamp": "2026-03-14T19:33:05.202Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin And Crypto Exchanges Could Be In Trouble, Here’s Why",
+        "description": "Bitcoin and crypto exchanges built much of the cryptocurrency industry’s reputation by challenging traditional finance. However, as major Wall Street institutions deepen their involvement in crypto services, the structure of the market could begin to change i…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-crypto-exchanges-trouble/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pngtree-38.png?fit=1200%2C686",
+        "publishedAt": "2026-03-13T19:30:48Z",
+        "content": "Bitcoin and crypto exchanges built much of the cryptocurrency industrys reputation by challenging traditional finance. However, as major Wall Street institutions deepen their involvement in crypto se… [+3489 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Key Bitcoin price levels to watch as BTC nears new monthly highs",
+        "description": "Bitcoin rallied toward fresh monthly highs as the BTC Coinbase Premium turned positive and spot ETF inflows topped $1.9 billion. Will bulls top $75,000 before the weekly candle close?",
+        "url": "https://cointelegraph.com/markets/key-bitcoin-price-levels-to-watch-as-btc-nears-new-monthly-highs",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019be4e6-87be-7c00-ba13-1367c4796b52.jpg",
+        "publishedAt": "2026-03-13T19:13:03Z",
+        "content": "Bitcoin (BTC) price rallied close to a monthly high near $74,000, posting a 10.42% weekly gain, its strongest seven-day return since September 2025. \r\nThe spot market activity, exchange-traded fund (… [+3715 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-03/0195d29a-5138-727b-9d06-31dad888aa2a",
         "publishedAt": "2026-03-12T11:16:34Z",
         "content": "Market analysts say Bitcoin (BTC) is in a relief rally after its 17% recovery from multi-year lows below $60,000, but the $78,000 level is key to reversing the broader downtrend.\r\nKey takeaways:\r\n<ul… [+4140 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Pullback Sparks Tension — Will Support Hold?",
-        "description": "Dogecoin corrected some gains and traded below $0.0950 against the US Dollar. DOGE is now holding the $0.0915 support and might aim for a fresh increase. DOGE price started a fresh downside correction below $0.0950. The price is trading above the $0.0920 leve…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-pullback-0-0920/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Dogecoin-DOGE-Sinks-Further-Into-Red.jpg?fit=1024%2C572",
-        "publishedAt": "2026-03-12T05:18:28Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
