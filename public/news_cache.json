@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-15T14:37:17.983Z",
+  "timestamp": "2026-03-15T15:35:37.894Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Market Remains Pessimistic Despite Price Reclaiming $70k",
+        "description": "The past week recorded a significant change in the Bitcoin price action, where there was a momentum-driven rally to the upside of the charts. As of Tuesday, March 10, this move had boosted the flagship cryptocurrency tp reclaim its previous psychological $70,…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-market-remains-pessimistic-despite-price-reclaiming-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/photo-1752672107061-a6596aefabed.jpg?fit=3000%2C2186",
+        "publishedAt": "2026-03-14T15:30:54Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
