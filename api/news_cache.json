@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-14T23:34:23.460Z",
+  "timestamp": "2026-03-15T02:55:22.055Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Ethereum Whale Loads Up $152M In ETH In Three Days — How Much More Will He Buy?",
+        "description": "Ethereum is attempting to reclaim the $2,100 level as the broader cryptocurrency market experiences a wave of short-term relief following weeks of volatility and downward pressure. While price action remains fragile, buyers have recently pushed ETH higher as …",
+        "url": "http://www.newsbtc.com/ethereum-news/ethereum-whale-loads-up-152m-in-eth-in-three-days-how-much-more-will-he-buy/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-45.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-03-14T01:00:30Z",
+        "content": "Ethereum is attempting to reclaim the $2,100 level as the broader cryptocurrency market experiences a wave of short-term relief following weeks of volatility and downward pressure. While price action… [+4273 chars]"
+      },
       {
         "source": {
           "id": null,
