@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-15T22:34:44.884Z",
+  "timestamp": "2026-03-15T23:36:18.859Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Fear & Greed Index At COVID- And LUNA-Crash Low — What’s Next?",
+        "description": "The price of Bitcoin put in another interesting performance over the past week, as the global uncertainty continued in the broader financial markets. However, the $74,000 resistance level proved to be unyielding yet again, as the premier cryptocurrency made a…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-fear-greed-index-at-covid-and-luna-crash-low-whats-next/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-14-09.37.31.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-14T23:00:18Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce314-9766-7c0f-97e3-05f983046949.jpg",
         "publishedAt": "2026-03-12T19:01:34Z",
         "content": "Bitcoin (BTC) failed to break beyond $71,000 on Thursday, partially driven by the decline in the US stock market, with BTC funding rates dropping deeper into negative territory.\r\nKey takeaways:\r\n<ul>… [+4262 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Coinbase execs deny lobbying against Bitcoin de minimis tax exemption",
-        "description": "Executives from the Coinbase crypto exchange deny rumors that the company is telling US lawmakers that a BTC tax exemption for small transactions is unnecessary.",
-        "url": "https://cointelegraph.com/news/coinbase-deny-lobby-bitcoin-tax-exemption",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce2e5-058b-75f5-bcf1-22c103fbc8d3.jpg",
-        "publishedAt": "2026-03-12T18:54:28Z",
-        "content": "Executives at Coinbase have denied allegations that the crypto exchange is blocking a de minimis tax exemption for Bitcoin (BTC) transactions below a certain threshold to push for stablecoin tax exem… [+2258 chars]"
       }
     ]
   }
