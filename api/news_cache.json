@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-15T13:06:25.639Z",
+  "timestamp": "2026-03-15T14:37:17.984Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "AI developers may not be keen on crypto, but stablecoins are the secret to agentic finance, crypto insiders say",
+        "description": "The brave new world of autonomous, micro-transacting AI agents is where programmable cryptocurrencies will shine, according to stablecoin experts.",
+        "url": "https://www.coindesk.com/business/2026/03/14/ai-developers-may-not-be-keen-on-crypto-but-stablecoins-are-the-secret-to-agentic-finance-crypto-insiders-say",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fb1924e8b59d60f24b3f5e9b52c6f301394aace4-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-14T14:00:00Z",
+        "content": "To get an idea of how big a deal AI-based commerce could be for crypto, ask entrepreneurs and developers involved in digital assets, particularly stablecoins. They'll happily tell you blockchain-base… [+6132 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "The math behind Strategy’s path to 1 million bitcoin by the end of 2026",
+        "description": "The largest publicly traded corporate holder of bitcoin would need to buy roughly 6,158 BTC per week, about $523 million, to reach the milestone by Dec. 31.",
+        "url": "https://www.coindesk.com/markets/2026/03/14/the-math-behind-strategy-s-path-to-1-million-bitcoin-by-the-end-of-2026",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/28ee13d93bd9b44fa7fd6e10b0452bde47d4ddcd-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-14T14:00:00Z",
+        "content": "It's not out of the realm of possibility that Strategy (MSTR) could be the owner of 1 million bitcoin or nearly 5% of the 21 million bitcoin that will ever be created by the end of 2022.\r\nThe company… [+1242 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c9411-15b2-7a03-8587-9b6d131e5c06.jpg",
         "publishedAt": "2026-03-12T17:49:30Z",
         "content": "There is a growing risk that a looming crisis in the private credit market, fueled by rising redemptions and defaults, could spill over into Bitcoin (BTC) and crypto markets, according to analysts.\r\n… [+4772 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Has Bitcoin Price Bottomed Yet? Analyst Says We’re Not There Yet",
-        "description": "Crypto analyst Leshka has explained why it is unlikely that the Bitcoin price has bottomed even as it continues to attempt a recovery above $70,000. His analysis also aligns with predictions from analysts such as Doctor Profit, who predict that BTC could stil…",
-        "url": "http://www.newsbtc.com/news/bitcoin/has-bitcoin-price-bottomed-yet/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-9.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-12T15:00:45Z",
-        "content": "Crypto analyst Leshka has explained why it is unlikely that the Bitcoin price has bottomed even as it continues to attempt a recovery above $70,000. His analysis also aligns with predictions from ana… [+2454 chars]"
       }
     ]
   }
