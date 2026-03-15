@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-15T17:34:48.783Z",
+  "timestamp": "2026-03-15T18:49:49.343Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Strategy’s Bitcoin Bet Now $3.35 Billion In The Red As Saylor Tells Investors To Wait",
+        "description": "Strategy’s stock is trading below the value of its own Bitcoin holdings — an unusual position for a company that has built its entire identity around the cryptocurrency’s rise. Related Reading: Bitcoin Climbs Back To $73,000 As Short Squeeze Wipes Out $246M I…",
+        "url": "http://www.newsbtc.com/bitcoin-news/strategys-bitcoin-bet-now-3-35-billion-in-the-red-as-saylor-tells-investors-to-wait/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_b72add.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-14T18:30:20Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Bitcoin beats stocks as Strategy's STRC hints at $776M BTC buying potential",
+        "description": "BTC faces bull trap risks due to the formation of a bear flag pattern, with a measured downside target at around $51,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-beats-stocks-strategy-strc-776m-btc-buying-potential",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c9983-edf5-7656-9f9d-6803ae9b8e84.jpg",
+        "publishedAt": "2026-03-14T17:38:08Z",
+        "content": "Bitcoin (BTC) is on track for its strongest weekly gain since September 2025, defying a broader risk-off backdrop driven by the escalating US and Israel-Iran war.\r\nKey takeaways:\r\n<ul><li>Strategy ra… [+3626 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/malware-code-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-03-12T18:04:29Z",
         "content": "In brief\r\n<ul><li>Europol and partners announced the disruption of the SocksEscort malicious proxy service and the freezing of $3.5 million in cryptocurrency linked to the operation.</li><li>The netw… [+2602 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Is Bitcoin price at risk if private credit breaks?",
-        "description": "A looming private credit crisis risked triggering liquidity crunches that could initially suppress Bitcoin prices, but Fed interventions may ignite a major BTC rally.",
-        "url": "https://cointelegraph.com/markets/is-bitcoin-price-at-risk-if-private-credit-breaks",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c9411-15b2-7a03-8587-9b6d131e5c06.jpg",
-        "publishedAt": "2026-03-12T17:49:30Z",
-        "content": "There is a growing risk that a looming crisis in the private credit market, fueled by rising redemptions and defaults, could spill over into Bitcoin (BTC) and crypto markets, according to analysts.\r\n… [+4772 chars]"
       }
     ]
   }
