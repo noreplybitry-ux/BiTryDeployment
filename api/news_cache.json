@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-15T07:07:01.379Z",
+  "timestamp": "2026-03-15T08:46:35.722Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Bitcoin Fails To Break $74,000 Resistance: Analyst Predicts ‘Structural Bottom’ Yet to Form",
+        "description": "Bitcoin (BTC) made a notable recovery on Friday, witnessing a 4% surge that led the leading cryptocurrency to retest the critical $74,000 resistance level, which has remained unbroken for the past month.  However, even with this upward movement, the cryptocur…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-fails-to-break-74000-resistance-analyst-predicts-structural-bottom-yet-to-form/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/image_I70Uqjus_1770394322826_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-03-14T08:00:23Z",
+        "content": "Bitcoin (BTC) made a notable recovery on Friday, witnessing a 4% surge that led the leading cryptocurrency to retest the critical $74,000 resistance level, which has remained unbroken for the past mo… [+2735 chars]"
+      },
       {
         "source": {
           "id": null,
