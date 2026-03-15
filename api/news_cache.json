@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-15T16:39:30.217Z",
+  "timestamp": "2026-03-15T17:34:48.783Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin’s Base Case: What To Expect Before The Run-Up Above $100,000",
+        "description": "Crypto pundit Crypto Bully has shared his base case for Bitcoin and what to expect before the flagship crypto rallies above $100,000. This comes as BTC continues to struggle to hold above the $70,000 resistance amid escalating tensions in the Middle East.  An…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoins-base-case-scenario/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-6.jpg?fit=960%2C640",
+        "publishedAt": "2026-03-14T17:00:00Z",
+        "content": "Crypto pundit Crypto Bully has shared his base case for Bitcoin and what to expect before the flagship crypto rallies above $100,000. This comes as BTC continues to struggle to hold above the $70,000… [+2661 chars]"
+      },
       {
         "source": {
           "id": null,
