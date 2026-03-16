@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-16T02:55:45.799Z",
+  "timestamp": "2026-03-16T05:22:50.333Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Price Coils Near Key Resistance: A Breakout Could Be Explosive",
+        "description": "Ethereum is tightening below a critical $2,149 resistance level, building pressure as bulls and bears jockey for control. A decisive breakout above this zone could trigger strong momentum, potentially sending the price toward the next major resistance near $2…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-coils-near-resistance/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-15T03:00:47Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Shows-Bullish-Setup.jpg",
         "publishedAt": "2026-03-13T03:05:12Z",
         "content": "Bitcoin price started a decent increase above the $70,000 zone. BTC is now consolidating and might aim for more gains if it clears $72,000.\r\n<ul><li>Bitcoin started a decent recovery wave above the $… [+2153 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "XRP Reserves On Binance Drop To Lowest Level Since April 2025 – A $3.7B Drain",
-        "description": "XRP is currently in a consolidation phase below $1.50 as the broader cryptocurrency market navigates uncertain momentum and limited liquidity. After experiencing significant volatility in recent months, price action has slowed. The asset is now moving sideway…",
-        "url": "http://www.newsbtc.com/xrp-news/xrp-reserves-on-binance-drop-to-lowest-level-since-april-2025-a-3-7b-drain/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-41.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-03-12T21:00:41Z",
-        "content": "XRP is currently in a consolidation phase below $1.50 as the broader cryptocurrency market navigates uncertain momentum and limited liquidity. After experiencing significant volatility in recent mont… [+4194 chars]"
       }
     ]
   }
