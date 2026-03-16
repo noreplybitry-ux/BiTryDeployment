@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-16T11:00:14.217Z",
+  "timestamp": "2026-03-16T11:54:48.538Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Ethereum Currently Undervalued – But Is It Time To Buy?",
+        "description": "According to the latest on-chain data, Ethereum appears to be entering a state of undervaluation, with the potential of rebounding to new highs. However, the question is — is it really time to buy ETH? ETH Could Drop Another 40% Before Bear Cycle Ends In a ne…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-is-currently-undervalued-time-to-buy/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-15-00.49.32.jpg",
+        "publishedAt": "2026-03-15T11:00:41Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
         "publishedAt": "2026-03-13T03:43:48Z",
         "content": "In brief\r\n<ul><li>Bitcoin is up 2.6% to around $71,500, its highest level in a week.</li><li>On Thursday, Brent crude jumped 9.2% to above $100 a barrel, its largest one-day gain since 2020.</li><li>… [+4244 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Pushes Higher as Bulls Fuel Market Optimism",
-        "description": "Ethereum price started a recovery wave above the $2,050 zone. ETH is now showing positive signs and might aim for more gains above $2,150. Ethereum started a recovery wave above the $2,050 zone. The price is trading above $2,050 and the 100-hourly Simple Movi…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-pushes-higher-2150/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Pushes-Higher-as-Bulls-Fuel-Market-Optimism.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-13T03:38:04Z",
-        "content": "Ethereum price started a recovery wave above the $2,050 zone. ETH is now showing positive signs and might aim for more gains above $2,150.\r\n<ul><li>Ethereum started a recovery wave above the $2,050 z… [+2060 chars]"
       }
     ]
   }
