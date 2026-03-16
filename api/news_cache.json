@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-15T23:36:18.859Z",
+  "timestamp": "2026-03-16T02:55:45.799Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "On-Chain Data Shows Why Bitcoin’s Next Stop Could Be At $82K",
+        "description": "The Bitcoin price has not particularly impressed over the past two weeks, but it appears to have steadied its movement within a clear consolidation range. In its latest attempt to shine, the premier cryptocurrency faced fierce resistance around $74,000 on Fri…",
+        "url": "http://www.newsbtc.com/news/bitcoin/why-bitcoin-next-stop-could-be-at-82k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-14-09.52.12.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-15T02:00:17Z",
+        "content": "The Bitcoin price has not particularly impressed over the past two weeks, but it appears to have steadied its movement within a clear consolidation range. In its latest attempt to shine, the premier … [+2435 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Crash Far From Over? Analyst Shares How Painful Bear Markets Can Get",
+        "description": "Bitcoin’s extended pullback from its all-time high has left traders in uncertainty, and many investors are unsure whether the worst of the decline has already passed.  One analyst known as Jelle on X is of the notion that the conversation may be missing an un…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-crash-far-from-over-analyst-shares-how-painful-bear-markets-can-get/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-15T01:00:07Z",
+        "content": "Bitcoins extended pullback from its all-time high has left traders in uncertainty, and many investors are unsure whether the worst of the decline has already passed. \r\nOne analyst known as Jelle on X… [+3127 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Probes $73,000 Liquidity Pocket: Is The Next Leg Toward $80,000 Loading?",
+        "description": "Bitcoin recently pushed into a key liquidity pocket near the $73,000 level, briefly tapping overhead liquidity before encountering a sharp reaction to the downside. With structure still holding and buyers stepping in on dips, attention is now shifting to whet…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-probes-liquidity-pocket/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-23.jpg?fit=960%2C501",
+        "publishedAt": "2026-03-15T00:00:11Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-41.jpg?fit=1792%2C1024",
         "publishedAt": "2026-03-12T21:00:41Z",
         "content": "XRP is currently in a consolidation phase below $1.50 as the broader cryptocurrency market navigates uncertain momentum and limited liquidity. After experiencing significant volatility in recent mont… [+4194 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Polychain backs VeryAI’s $10M raise to build palm-scan identity system on Solana",
-        "description": "The startup’s smartphone-based biometric system aims to help crypto platforms detect AI-generated accounts while preserving user privacy through onchain verification.",
-        "url": "https://cointelegraph.com/news/polychain-backs-veryai-s-10m-raise-to-build-palm-scan-identity-system-on-solana",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019be9ce-c015-72ff-a772-33d5ff03c125.jpg",
-        "publishedAt": "2026-03-12T19:13:34Z",
-        "content": "Startup VeryAI has raised $10 million in a seed funding round led by Polychain Capital to launch a palm-scan identity verification system designed to distinguish real users from AI-generated accounts… [+3622 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin funding rate flips negative: Are bears getting too confident?",
-        "description": "While geopolitical tension and weak labor data are hurting market sentiment, institutional buying below $75,000 may soon exhaust sellers and spark a bull run.",
-        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-flips-negative-are-btc-bears-too-confident",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce314-9766-7c0f-97e3-05f983046949.jpg",
-        "publishedAt": "2026-03-12T19:01:34Z",
-        "content": "Bitcoin (BTC) failed to break beyond $71,000 on Thursday, partially driven by the decline in the US stock market, with BTC funding rates dropping deeper into negative territory.\r\nKey takeaways:\r\n<ul>… [+4262 chars]"
       }
     ]
   }
