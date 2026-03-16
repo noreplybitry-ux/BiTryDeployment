@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-16T07:27:20.034Z",
+  "timestamp": "2026-03-16T09:05:05.196Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Altseason is dead, expect shorter cycles and ‘violent’ rotations: Crypto exec",
+        "description": "The traditional dynamics of the altcoin market have changed due to several factors, according to market analysts and crypto industry executives.",
+        "url": "https://cointelegraph.com/news/altseaon-dead-short-cycles-violent-rotation",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019af959-27ff-740a-a082-e65816524b1a",
+        "publishedAt": "2026-03-15T09:00:34Z",
+        "content": "Traditional altcoin cycles, which featured broad market rallies called altseason, are now a relic of the past as new crypto market dynamics set in, according to Andrei Grachev, Managing Partner of DW… [+2325 chars]"
+      },
       {
         "source": {
           "id": null,
