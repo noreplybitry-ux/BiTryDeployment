@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-16T20:46:21.135Z",
+  "timestamp": "2026-03-16T21:47:50.386Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "CLARITY Act risks handing crypto to centralized players: Gnosis exec",
+        "description": "The CLARITY bill, as it is currently written, undermines the core ethos and value proposition of permissionless finance, according to one of the Gnosis founders.",
+        "url": "https://cointelegraph.com/news/clarity-act-hand-crypto-centralized-player",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf34e-0c0f-7093-86d9-9c69cc5d0b5f.jpg",
+        "publishedAt": "2026-03-15T21:32:48Z",
+        "content": "The regulatory provisions outlined in the US Digital Asset Market Structure Clarity Act, otherwise known as the CLARITY Act, threaten to give large financial institutions control over crypto, accordi… [+2821 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "You Can Control an AI Agent's Crypto Spending With Ledger Hardware Wallets and MoonPay",
+        "description": "The Ledger hardware wallet integration lets users approve AI-driven crypto transactions on-device while keeping private keys secure.",
+        "url": "https://decrypt.co/361136/control-ai-agent-crypto-spending-ledger-hardware-wallets-moonpay",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/ledger-hardware-wallets-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-03-15T21:01:03Z",
+        "content": "In brief\r\n<ul><li>Ledger now supports hardware wallet signing for MoonPay Agents transactions.</li><li>Users must approve each transaction while AI agents execute trades and transfers.</li><li>MoonPa… [+2396 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,19 +524,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/image_vRfwSL_P_1768937953528_raw.jpg?fit=1024%2C1024",
         "publishedAt": "2026-03-13T08:00:40Z",
         "content": "Despite trading more than 40% below its all-time high, with $70,000 serving as a short-term support level, Bitcoin (BTC) may be poised for a repeat pattern that could lead to a 54% increase following… [+2648 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Upside Awakens — Will Bulls Finally Hit $100?",
-        "description": "Solana started a fresh increase above the $88 zone. SOL price is now consolidating near $90 and might aim for more gains above the $92 zone. SOL price started a fresh upward move above the $85 and $88 levels against the US Dollar. The price is now trading abo…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-upside-92/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Upside-Awakens.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-13T05:18:57Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
