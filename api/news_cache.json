@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-16T13:26:49.502Z",
+  "timestamp": "2026-03-16T15:07:33.724Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Dilip Kumar Patairya",
+        "title": "How Bitcoin and Gold reacted differently to the Iran war shock",
+        "description": "During the Iran conflict, gold attracted safe-haven demand, while Bitcoin’s reaction reflected liquidity conditions and broader market sentiment rather than acting as a classic crisis hedge.",
+        "url": "https://cointelegraph.com/features/how-bitcoin-and-gold-reacted-differently-to-the-iran-war-shock",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf1d6-359a-7018-8e09-be8297796504.jpg",
+        "publishedAt": "2026-03-15T14:16:22Z",
+        "content": "Key takeaways\r\n<ul><li>The 2026 Iran conflict created a major geopolitical shock that triggered volatility across global markets. It pushed investors to reassess traditional safe-haven assets such as… [+10293 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Is Bitcoin Price Bottom In? MVRV Z-Score Says ‘Not Yet’",
+        "description": "After another failed attempt at breaking the $74,000 resistance, the Bitcoin price continues to hover around the psychological $70,000 level, with very little — if any — momentum to boast of. Some analysts expect this price level to serve as a rebound point f…",
+        "url": "http://www.newsbtc.com/news/bitcoin/is-bitcoin-price-bottom-in-mvrv-z-score-says-not-yet/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/07/iStock-1314151934.jpg?fit=1248%2C840",
+        "publishedAt": "2026-03-15T14:00:58Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +511,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce573-e2da-74c2-a49a-b618e2547c02.jpg",
         "publishedAt": "2026-03-13T04:39:25Z",
         "content": "A group of Democratic senators say they will oversee a reported Justice Department investigation into possible Iran-related sanctions violations on the crypto exchange Binance.\r\nSenators Chris Van Ho… [+2086 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Sebastian Sinclair",
-        "title": "Why Bitcoin's Price Is at a Weekly High Despite Middle East Tensions",
-        "description": "Bitcoin rose even as equities dropped, with analysts pointing to crypto-specific demand alongside geopolitical tensions driving energy markets higher.",
-        "url": "https://decrypt.co/360969/bitcoin-weekly-hig-middle-east-tensions-lift-oil-pressure-equities",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
-        "publishedAt": "2026-03-13T03:43:48Z",
-        "content": "In brief\r\n<ul><li>Bitcoin is up 2.6% to around $71,500, its highest level in a week.</li><li>On Thursday, Brent crude jumped 9.2% to above $100 a barrel, its largest one-day gain since 2020.</li><li>… [+4244 chars]"
       }
     ]
   }
