@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-17T21:45:03.319Z",
+  "timestamp": "2026-03-17T22:40:19.643Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/16: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, HYPE",
+        "description": "Bitcoin opened the week by rallying straight into a key resistance level. If it holds, BTC and altcoins could embark on the next leg of the crypto bull market.",
+        "url": "https://cointelegraph.com/markets/price-predictions-3-16-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-hype",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf78b-f025-7e1c-a03c-d8ac86f61ab5.jpg",
+        "publishedAt": "2026-03-16T22:00:00Z",
+        "content": "Key points:\r\n<ul><li>Sellers will attempt to halt the recovery at $74,508, but if buyers bulldoze their way through, the rally may reach $84,000. \r\n</li><li>Select major altcoins have risen above the… [+8607 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +498,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-23.jpg?fit=960%2C501",
         "publishedAt": "2026-03-15T00:00:11Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Fear & Greed Index At COVID- And LUNA-Crash Low — What’s Next?",
-        "description": "The price of Bitcoin put in another interesting performance over the past week, as the global uncertainty continued in the broader financial markets. However, the $74,000 resistance level proved to be unyielding yet again, as the premier cryptocurrency made a…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-fear-greed-index-at-covid-and-luna-crash-low-whats-next/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-14-09.37.31.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-14T23:00:18Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Solana Key Indicator Flashes First Bullish Signal Since January – Market Rebound Incoming?",
-        "description": "Solana (SOL) may be on the cusp of a major market rally after the SuperTrend indicator turned bullish for the first time in two months. The prominent altcoin has been a major victim of the market downturn, losing over 62% of its value since October 2025. Howe…",
-        "url": "http://www.newsbtc.com/news/solana/solana-key-indicator-flashes-first-bullish-signal-since-january-market-rebound-incoming/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/360_F_933068575_UTWkmYaVRY12nK4KDsc7Fyu2LsPJNLaA.jpg?fit=1000%2C565",
-        "publishedAt": "2026-03-14T20:00:56Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       }
     ]
   }
