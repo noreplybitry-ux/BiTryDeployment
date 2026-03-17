@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-17T11:49:25.500Z",
+  "timestamp": "2026-03-17T13:25:47.879Z",
   "data": {
     "status": "ok",
-    "totalResults": 42,
+    "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Shows Early Trend Reversal Signs After Major Support Hold",
+        "description": "Bitcoin is showing early signs of recovery after firmly holding a major confluence support zone. The strong reaction from this level suggests that buyers have stepped in to absorb selling pressure. With the market beginning to stabilize, attention is now turn…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-trend-reversal-signs/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-42.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-16T13:00:04Z",
+        "content": "Bitcoin is showing early signs of recovery after firmly holding a major confluence support zone. The strong reaction from this level suggests that buyers have stepped in to absorb selling pressure. W… [+2787 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "U.S., UK, Canada start Operation Atlantic to disrupt crypto approval-phishing scams",
+        "description": "Authorities from the U.S., U.K. and Canada target investment fraud schemes that exploit wallet permissions.",
+        "url": "https://www.coindesk.com/business/2026/03/16/u-s-uk-canada-start-operation-atlantic-to-disrupt-crypto-approval-phishing-scams",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3e99c2994930500ca63b4734f9112d6c94ac8588-1920x1080.jpg?auto=format",
+        "publishedAt": "2026-03-16T12:50:36Z",
+        "content": "Law enforcement agencies from the U.S., U.K. and Canada started a joint initiative called Operation Atlantic aimed at disrupting cryptocurrency fraud schemes known as approval-phishing attacks, the O… [+2021 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Bitcoin Price Hits $74K As Geopolitical Tensions Spike, Is BTC Poised For a Fresh Leg Down?",
+        "description": "At the time of writing, Bitcoin (BTC) trades in the highs $73,000, outperforming both equities and gold in late‑quarter trading. A Late-Quarter Bitcoin Plot Twist Tensions around Iran and the Middle East are intensifying, yet BTC is rallying. According to a Q…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-hits-74k-as-geopolitical-tensions-spike/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image29.png",
+        "publishedAt": "2026-03-16T12:49:55Z",
+        "content": "At the time of writing, Bitcoin (BTC) trades in the highs $73,000, outperforming both equities and gold in latequarter trading.\r\nTensions around Iran and the Middle East are intensifying, yet BTC is … [+2581 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,58 +537,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-43.jpg?fit=1792%2C1024",
         "publishedAt": "2026-03-14T03:00:26Z",
         "content": "Ethereum is attempting to reclaim the $2,100 level as the broader cryptocurrency market experiences a modest wave of relief after weeks of volatility and sideways trading. While price action remains … [+4139 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Ethereum Whale Loads Up $152M In ETH In Three Days — How Much More Will He Buy?",
-        "description": "Ethereum is attempting to reclaim the $2,100 level as the broader cryptocurrency market experiences a wave of short-term relief following weeks of volatility and downward pressure. While price action remains fragile, buyers have recently pushed ETH higher as …",
-        "url": "http://www.newsbtc.com/ethereum-news/ethereum-whale-loads-up-152m-in-eth-in-three-days-how-much-more-will-he-buy/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-45.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-03-14T01:00:30Z",
-        "content": "Ethereum is attempting to reclaim the $2,100 level as the broader cryptocurrency market experiences a wave of short-term relief following weeks of volatility and downward pressure. While price action… [+4273 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Price From $70,000 To $110,000 In 2 Months? Analyst Reveals How",
-        "description": "A crypto analyst is calling for a $40,000 Bitcoin price surge within 60 days, and the macro environment may be building the case for exactly that. Bitcoin is still pushing around $70,000, and many traders are watching closely after weeks of volatility across …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-from-70000-to-110000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-47-1.jpg?fit=612%2C396",
-        "publishedAt": "2026-03-13T21:00:42Z",
-        "content": "A crypto analyst is calling for a $40,000 Bitcoin price surge within 60 days, and the macro environment may be building the case for exactly that. Bitcoin is still pushing around $70,000, and many tr… [+3039 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bitcoin Price Nearing Bottom? Key Indicators Suggest End Of Downturn–Bloomberg",
-        "description": "As Bitcoin (BTC) seeks to solidify its position around $71,000, the cryptocurrency faces a challenge from the $74,000 resistance level that has so far prevented a decisive breakout.  However, recent insights from Bloomberg indicate that a collection of indica…",
-        "url": "http://www.newsbtc.com/breaking-news-ticker/bitcoin-price-nearing-bottom-key-indicators-suggest-end-of-downturn-bloomberg/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/image_a92lgTpt_1770053397452_raw.jpg",
-        "publishedAt": "2026-03-13T20:14:50Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Crypto Biz: Circle stock defies Wall Street and digital asset selloff",
-        "description": "The USDC issuer's stock is soaring despite a market selloff as stablecoins expand into traditional finance. Meanwhile, Canaan boosts BTC reserves and Wells Fargo eyes crypto services.",
-        "url": "https://cointelegraph.com/news/circle-stock-stablecoin-growth-canaan-bitcoin-wells-fargo-crypto",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce7e5-3dc9-7974-a25a-5b8b2fe2488b.jpg",
-        "publishedAt": "2026-03-13T20:00:00Z",
-        "content": "A selloff in both Wall Street and crypto markets hasnt slowed Circles relentless rise. The stablecoin issuers stock has more than doubled since early February, with Bernstein analysts expecting furth… [+4430 chars]"
       }
     ]
   }
