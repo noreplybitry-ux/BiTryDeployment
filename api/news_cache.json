@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-03-17T02:38:45.723Z",
+  "timestamp": "2026-03-17T04:58:02.301Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Rockets Above $2,200 as Bulls Tighten Market Control",
+        "description": "Ethereum price started a major increase above the $2,150 zone. ETH is now showing positive signs and might aim for more gains above $2,250. Ethereum started a steady upward move above the $2,150 zone. The price is trading above $2,150 and the 100-hourly Simpl…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rockets-above-2200/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rockets-Above-2200.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-16T04:38:14Z",
+        "content": "Ethereum price started a major increase above the $2,150 zone. ETH is now showing positive signs and might aim for more gains above $2,250.\r\n<ul><li>Ethereum started a steady upward move above the $2… [+2104 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, Omkar Godbole",
+        "title": "Crypto trading firm Blockfills has filed for bankruptcy",
+        "description": "The institutional crypto lender filed for bankruptcy after suspending withdrawals, incurring about $75 million in losses and facing a lawsuit alleging misuse of customer funds.",
+        "url": "https://www.coindesk.com/business/2026/03/11/crypto-trading-firm-blockfills-has-filed-for-bankruptcy",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/39cad2102963a71638c30bdda262a3a340de4766-1647x1235.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-16T04:27:44Z",
+        "content": "Blockfills, a Chicago-based crypto trading firm, has filed for bankruptcy, as the crypto winter takes its toll on the industry. \r\nOn Sunday, BlockFills operator Reliz Ltd. and three affiliated entiti… [+3005 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Climbs Again — Bulls Aim for New Monthly High",
+        "description": "Bitcoin price started a steady increase above the $72,000 zone. BTC is now consolidating and might aim for more gains if it clears $73,000. Bitcoin started a decent upward move above the $72,000 zone. The price is trading above $71,200 and the 100 hourly simp…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-climbs-again-73k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Climbs-Again.jpg",
+        "publishedAt": "2026-03-16T04:06:57Z",
+        "content": "Bitcoin price started a steady increase above the $72,000 zone. BTC is now consolidating and might aim for more gains if it clears $73,000.\r\n<ul><li>Bitcoin started a decent upward move above the $72… [+2084 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vince Dioquino",
+        "title": "BlockFills Entities File Bankruptcy After Withdrawals Halted, Court Froze Bitcoin",
+        "description": "The filings come as the company faces a lawsuit alleging it commingled client crypto assets and refused to return client funds.",
+        "url": "https://decrypt.co/361195/blockfills-bankruptcy-withdrawals-halted-court-froze-bitcoin",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
+        "publishedAt": "2026-03-16T03:51:07Z",
+        "content": "In brief\r\n<ul><li>BlockFills entities have filed for Chapter 11 bankruptcy after suspending client withdrawals, following an asset freeze for 70 BTC earlier this month.</li><li>A lawsuit filed by its… [+3755 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,45 +537,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
         "publishedAt": "2026-03-13T12:01:12Z",
         "content": "<ul><li>Bitcoin is charging toward $73,000 amid a fresh decoupling from the stock market.</li><li>The surge in BTC price comes despite fears around escalating oil prices.</li><li>Ethereum, XRP, and S… [+2731 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin 'passing geopolitical stress test' as BTC price spikes above $72K",
-        "description": "Bitcoin price analysis saw conditions slowly \"building\" to support a breakout as BTC emerged as the strongest macro performer since the Iran conflict began.",
-        "url": "https://cointelegraph.com/markets/bitcoin-passing-geopolitical-stress-test-btc-price-spikes-above-72k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b6e86-4ef5-79b0-8df3-8376542a5458.jpg",
-        "publishedAt": "2026-03-13T09:58:54Z",
-        "content": "Bitcoin (BTC) hit eight-day highs into Fridays Wall Street open as markets awaited key US inflation cues.\r\nKey points:\r\n<ul><li>Bitcoin shows resilience despite macro market uncertainty with another … [+3586 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Bitcoin holds above $71,000, defying rising dollar, oil and U.S. bond yields",
-        "description": "Stronger dollar, rising Treasury yields, and tech equities treading water contrast with bitcoin’s resilience amid geopolitical tensions.",
-        "url": "https://www.coindesk.com/markets/2026/03/13/bitcoin-holds-above-usd71-000-defying-rising-dollar-oil-and-u-s-bond-yields",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5c3dbb59812805bd08833ffe02ee76e11cc7f1ba-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-13T09:32:45Z",
-        "content": "Bitcoin BTC\r\n$72,301.23 rose above $71,500 on Friday, outperforming U.S. equities even as the dollar strengthened and oil prices remained elevated as the war with Iran was set to enter its third week… [+1736 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bitcoin Historically Surges 54% On Average Post-US Midterm Elections, Binance",
-        "description": "Despite trading more than 40% below its all-time high, with $70,000 serving as a short-term support level, Bitcoin (BTC) may be poised for a repeat pattern that could lead to a 54% increase following this year’s US midterm elections.  New research from crypto…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-historically-surges-54-on-average-post-us-midterm-elections-binance/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/image_vRfwSL_P_1768937953528_raw.jpg?fit=1024%2C1024",
-        "publishedAt": "2026-03-13T08:00:40Z",
-        "content": "Despite trading more than 40% below its all-time high, with $70,000 serving as a short-term support level, Bitcoin (BTC) may be poised for a repeat pattern that could lead to a 54% increase following… [+2648 chars]"
       }
     ]
   }
