@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-17T19:11:46.518Z",
+  "timestamp": "2026-03-17T20:48:52.097Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Bitmine speeds pace of Ethereum buys, boosting treasury to 4.6M ETH",
+        "description": "Bitmine says its Ethereum holdings now total 4.596 million ETH, about 3.8% of the supply, as public companies collectively hold more than 6.6 million ETH worth $15.4 billion.",
+        "url": "https://cointelegraph.com/news/bitmine-buys-5-000-eth-from-ethereum-foundation-brings-holdings-to-4-6m-tokens",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf805-6ab5-71b1-af15-2ba5468b489e.jpg",
+        "publishedAt": "2026-03-16T20:31:04Z",
+        "content": "Bitmine Immersion Technologies has accelerated the pace of its Ether purchases in recent weeks, chairman Tom Lee said Monday, following the companys over-the-counter purchase of 5,000 ETH directly fr… [+2775 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,32 +511,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6b468a595d13878aa6b975a7606ca6d1dc25782e-1920x1080.jpg?auto=format",
         "publishedAt": "2026-03-14T20:00:00Z",
         "content": "Vienna, Austria-based crypto broker Bitpanda is leaning into a strategy it has been quietly building for years: keep its retail business anchored in Europe while expanding globally by supplying crypt… [+4429 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Strategy’s Bitcoin Bet Now $3.35 Billion In The Red As Saylor Tells Investors To Wait",
-        "description": "Strategy’s stock is trading below the value of its own Bitcoin holdings — an unusual position for a company that has built its entire identity around the cryptocurrency’s rise. Related Reading: Bitcoin Climbs Back To $73,000 As Short Squeeze Wipes Out $246M I…",
-        "url": "http://www.newsbtc.com/bitcoin-news/strategys-bitcoin-bet-now-3-35-billion-in-the-red-as-saylor-tells-investors-to-wait/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_b72add.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-14T18:30:20Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Bitcoin beats stocks as Strategy's STRC hints at $776M BTC buying potential",
-        "description": "BTC faces bull trap risks due to the formation of a bear flag pattern, with a measured downside target at around $51,000.",
-        "url": "https://cointelegraph.com/markets/bitcoin-beats-stocks-strategy-strc-776m-btc-buying-potential",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c9983-edf5-7656-9f9d-6803ae9b8e84.jpg",
-        "publishedAt": "2026-03-14T17:38:08Z",
-        "content": "Bitcoin (BTC) is on track for its strongest weekly gain since September 2025, defying a broader risk-off backdrop driven by the escalating US and Israel-Iran war.\r\nKey takeaways:\r\n<ul><li>Strategy ra… [+3626 chars]"
       }
     ]
   }
