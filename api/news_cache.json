@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-17T04:58:02.301Z",
+  "timestamp": "2026-03-17T06:06:38.429Z",
   "data": {
     "status": "ok",
     "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Strength Builds as Traders Anticipate Breakout",
+        "description": "Dogecoin started a major increase above $0.0950 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.1020. DOGE price started a fresh increase above $0.0980 and $0.10. The price is trading above the $0.0988 level and the…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-strength-builds-0-10/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Strength-Builds.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-16T05:18:55Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brian Quarmby",
+        "title": "Australia warns of AI, ‘finfluencers’ as Gen Z crypto ownership hits 23%",
+        "description": "Australia’s securities regulator said two-thirds of Gen Zs are using social media to make decisions about their financial future, leading to “riskier” financial decisions.",
+        "url": "https://cointelegraph.com/news/asic-warns-ai-finfluencers-gen-z-crypto-23-percent",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b004e-ab0e-7536-8f36-22fa05edc795",
+        "publishedAt": "2026-03-16T05:14:42Z",
+        "content": "Australias financial regulator has urged young investors not to rely on social media influencers and artificial intelligence chatbots to make financial decisions, according to a study that also found… [+4596 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,32 +537,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/852f38f36f97ac4b27a91a57b69877ae3ce2fc0c-1919x1080.jpg?auto=format",
         "publishedAt": "2026-03-13T15:28:28Z",
         "content": "Billionaire investor Stanley Druckenmiller said stablecoins could underpin global payment systems within the next decade or two while reiterating his long-standing skepticism toward much of the broad… [+2016 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price eyes $74K rematch as US PCE inflation boosts crypto, stocks",
-        "description": "Bitcoin bulls squeezed the market toward $74,000 again as promising US inflation data buoyed risk assets, but BTC price forecasts stayed mixed.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-rematch-us-pce-inflation-boosts-crypto-stocks",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce7a6-4fec-7f43-987a-aa00e38150c0.jpg",
-        "publishedAt": "2026-03-13T14:58:30Z",
-        "content": "Bitcoin (BTC) aimed for five-week highs at Thursdays Wall Street open as US inflation trends stayed on track.\r\nKey points:\r\n<ul><li>US inflation data keeps crypto and stocks higher as BTC price actio… [+3591 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Bitcoin targets $73,000 as crypto bounces despite oil price jitters",
-        "description": "Bitcoin is charging toward $73,000 amid a fresh decoupling from the stock market. The surge in BTC price comes despite fears around escalating oil prices. Ethereum, XRP, and Solana are also eyeing momentum as traditional assets falter. Bitcoin climbed past $7…",
-        "url": "https://coinjournal.net/news/bitcoin-targets-73000-as-crypto-bounces-despite-oil-price-jitters/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
-        "publishedAt": "2026-03-13T12:01:12Z",
-        "content": "<ul><li>Bitcoin is charging toward $73,000 amid a fresh decoupling from the stock market.</li><li>The surge in BTC price comes despite fears around escalating oil prices.</li><li>Ethereum, XRP, and S… [+2731 chars]"
       }
     ]
   }
