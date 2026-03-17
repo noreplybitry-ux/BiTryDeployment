@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-17T17:10:35.908Z",
+  "timestamp": "2026-03-17T19:11:46.518Z",
   "data": {
     "status": "ok",
-    "totalResults": 42,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Crypto-Linked Crime Jumps In Basque Country — But What Does It Mean For Traders?",
+        "description": "The Ertzaintza (Basque Country police) says crypto is now present in a growing share of tech‑enabled crimes in Euskadi. More Than 500 Crypto Crimes In A Small Region In a report from last Monday, northern Spain’s Ertzaintza stated that they logged 541 crypto‑…",
+        "url": "http://www.newsbtc.com/news/crypto-linked-crime-jumps-in-basque-country/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image31.png",
+        "publishedAt": "2026-03-16T18:38:38Z",
+        "content": "The Ertzaintza (Basque Country police) says crypto is now present in a growing share of techenabled crimes in Euskadi.\r\nIn a report from last Monday, northern Spains Ertzaintza stated that they logge… [+2499 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,45 +524,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c9983-edf5-7656-9f9d-6803ae9b8e84.jpg",
         "publishedAt": "2026-03-14T17:38:08Z",
         "content": "Bitcoin (BTC) is on track for its strongest weekly gain since September 2025, defying a broader risk-off backdrop driven by the escalating US and Israel-Iran war.\r\nKey takeaways:\r\n<ul><li>Strategy ra… [+3626 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin’s Base Case: What To Expect Before The Run-Up Above $100,000",
-        "description": "Crypto pundit Crypto Bully has shared his base case for Bitcoin and what to expect before the flagship crypto rallies above $100,000. This comes as BTC continues to struggle to hold above the $70,000 resistance amid escalating tensions in the Middle East.  An…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoins-base-case-scenario/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-6.jpg?fit=960%2C640",
-        "publishedAt": "2026-03-14T17:00:00Z",
-        "content": "Crypto pundit Crypto Bully has shared his base case for Bitcoin and what to expect before the flagship crypto rallies above $100,000. This comes as BTC continues to struggle to hold above the $70,000… [+2661 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Market Remains Pessimistic Despite Price Reclaiming $70k",
-        "description": "The past week recorded a significant change in the Bitcoin price action, where there was a momentum-driven rally to the upside of the charts. As of Tuesday, March 10, this move had boosted the flagship cryptocurrency tp reclaim its previous psychological $70,…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-market-remains-pessimistic-despite-price-reclaiming-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/photo-1752672107061-a6596aefabed.jpg?fit=3000%2C2186",
-        "publishedAt": "2026-03-14T15:30:54Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "AI developers may not be keen on crypto, but stablecoins are the secret to agentic finance, crypto insiders say",
-        "description": "The brave new world of autonomous, micro-transacting AI agents is where programmable cryptocurrencies will shine, according to stablecoin experts.",
-        "url": "https://www.coindesk.com/business/2026/03/14/ai-developers-may-not-be-keen-on-crypto-but-stablecoins-are-the-secret-to-agentic-finance-crypto-insiders-say",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fb1924e8b59d60f24b3f5e9b52c6f301394aace4-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-14T14:00:00Z",
-        "content": "To get an idea of how big a deal AI-based commerce could be for crypto, ask entrepreneurs and developers involved in digital assets, particularly stablecoins. They'll happily tell you blockchain-base… [+6132 chars]"
       }
     ]
   }
