@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-17T10:56:37.581Z",
+  "timestamp": "2026-03-17T11:49:25.500Z",
   "data": {
     "status": "ok",
     "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin And Ethereum Prices Are Struggling Again, And Here’s What’s Behind It",
+        "description": "The Bitcoin and Ethereum prices continue to struggle, with BTC dropping to as low as $70,000 over the weekend. This comes as tensions between the U.S. and Iran continue to escalate, with no sign of a ceasefire happening anytime soon.  Bitcoin and Ethereum Pri…",
+        "url": "http://www.newsbtc.com/news/bitcoin-and-ethereum-prices/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-and-Ethereum-from-Pngtree-2.png?fit=1200%2C673",
+        "publishedAt": "2026-03-16T11:30:16Z",
+        "content": "The Bitcoin and Ethereum prices continue to struggle, with BTC dropping to as low as $70,000 over the weekend. This comes as tensions between the U.S. and Iran continue to escalate, with no sign of a… [+2658 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Crypto funds add $1B as three-week inflow streak continues",
+        "description": "Crypto ETPs recorded $1.06 billion in inflows last week, led by Bitcoin and Ethereum, marking three straight weeks of gains despite ongoing geopolitical stress.",
+        "url": "https://cointelegraph.com/news/crypto-etp-1-billion-inflows-three-straight-weeks-gains",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b3770-8fc2-7fd8-a920-66734d9dbc5c.jpg",
+        "publishedAt": "2026-03-16T10:59:57Z",
+        "content": "Crypto investment products continued their momentum last week, signaling resilience to geopolitical stress and strengthening the case for Bitcoins role as a safe-haven asset.\r\nCrypto exchange-traded … [+2354 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -524,32 +550,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce7e5-3dc9-7974-a25a-5b8b2fe2488b.jpg",
         "publishedAt": "2026-03-13T20:00:00Z",
         "content": "A selloff in both Wall Street and crypto markets hasnt slowed Circles relentless rise. The stablecoin issuers stock has more than doubled since early February, with Bernstein analysts expecting furth… [+4430 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin And Crypto Exchanges Could Be In Trouble, Here’s Why",
-        "description": "Bitcoin and crypto exchanges built much of the cryptocurrency industry’s reputation by challenging traditional finance. However, as major Wall Street institutions deepen their involvement in crypto services, the structure of the market could begin to change i…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-crypto-exchanges-trouble/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pngtree-38.png?fit=1200%2C686",
-        "publishedAt": "2026-03-13T19:30:48Z",
-        "content": "Bitcoin and crypto exchanges built much of the cryptocurrency industrys reputation by challenging traditional finance. However, as major Wall Street institutions deepen their involvement in crypto se… [+3489 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Key Bitcoin price levels to watch as BTC nears new monthly highs",
-        "description": "Bitcoin rallied toward fresh monthly highs as the BTC Coinbase Premium turned positive and spot ETF inflows topped $1.9 billion. Will bulls top $75,000 before the weekly candle close?",
-        "url": "https://cointelegraph.com/markets/key-bitcoin-price-levels-to-watch-as-btc-nears-new-monthly-highs",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019be4e6-87be-7c00-ba13-1367c4796b52.jpg",
-        "publishedAt": "2026-03-13T19:13:03Z",
-        "content": "Bitcoin (BTC) price rallied close to a monthly high near $74,000, posting a 10.42% weekly gain, its strongest seven-day return since September 2025. \r\nThe spot market activity, exchange-traded fund (… [+3715 chars]"
       }
     ]
   }
