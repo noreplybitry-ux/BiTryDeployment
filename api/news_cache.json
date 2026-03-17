@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-17T09:02:55.836Z",
+  "timestamp": "2026-03-17T10:56:37.581Z",
   "data": {
     "status": "ok",
-    "totalResults": 41,
+    "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin hits $74.4K six-week high as analysts see ‘more upside’ for BTC",
+        "description": "Bitcoin’s relief rally pushed its price above the 50-day SMA as analysts say further upside potential is increasing amid rising open interest.",
+        "url": "https://cointelegraph.com/markets/bitcoin-hits-74-4k-six-week-high-analysts-more-upside-for-btc",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-05/0196f1af-9c96-71f9-9539-2992d1a574e5",
+        "publishedAt": "2026-03-16T10:51:19Z",
+        "content": "Bitcoin (BTC) found fresh strength during the early Asian trading hours on Monday as bulls eyed further short-term gains. \r\nKey takeaways:\r\n<ul><li>Bitcoin price rises to a six-week high of $74,400 o… [+3569 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "$58K BTC price still in play? Five things to know in Bitcoin this week",
+        "description": "Bitcoin traders demanded further support reclaims to avoid a return to fresh macro lows next, as BTC price hit six-week highs.",
+        "url": "https://cointelegraph.com/markets/58k-btc-price-still-in-play-five-things-bitcoin-this-week",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-09/01997070-b3f1-7228-b534-4b3ee9f5bd5a",
+        "publishedAt": "2026-03-16T10:19:56Z",
+        "content": "Bitcoin (BTC) starts the third week of March fighting for a breakout after a trip to near $75,000.\r\n<ul><li>BTC price action delivers a strong weekly close, but bulls have a lot of work left to do.\r\n… [+10722 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin Eyes MId-$80,000s As Peter Brandt Flags ‘Horn’ Pattern",
+        "description": "Veteran trader Peter Brandt sparked a fresh round of chart debate around Bitcoin after posting a chart and writing, “The Banana is splitting. This is a Horn. Richard W. Schabacker wrote about this in his 1934 book.” For market participants used to Brandt’s sh…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-eyes-mid-80000s-peter-brandt/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-16-2026-08_48_05-AM.png?fit=1333%2C888",
+        "publishedAt": "2026-03-16T09:05:30Z",
+        "content": "Veteran trader Peter Brandt sparked a fresh round of chart debate around Bitcoin after posting a chart and writing, The Banana is splitting. This is a Horn. Richard W. Schabacker wrote about this in … [+3176 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,32 +550,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019be4e6-87be-7c00-ba13-1367c4796b52.jpg",
         "publishedAt": "2026-03-13T19:13:03Z",
         "content": "Bitcoin (BTC) price rallied close to a monthly high near $74,000, posting a 10.42% weekly gain, its strongest seven-day return since September 2025. \r\nThe spot market activity, exchange-traded fund (… [+3715 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Kraken-Linked SPAC Could Target Crypto Firm Valued at Up to $10 Billion",
-        "description": "The company is taking a broad look at crypto-native firms that could generate interest on Wall Street.",
-        "url": "https://decrypt.co/361042/kraken-linked-spac-could-target-crypto-firm-10-billion",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/kraken-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-03-13T18:33:24Z",
-        "content": "In brief\r\n<ul><li>KRAKacquisition may find a target thats worth as much as $10 billion.</li><li>The goal is to align a small- or mid-cap company with the crypto exchange.</li><li>The search comes as … [+2294 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 3/13: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, XMR",
-        "description": "Charts suggest Bitcoin may remain range-bound, with $74,000 being the toughest resistance to overcome. Will altcoins drop their recent gains or continue to find buyers?",
-        "url": "https://cointelegraph.com/markets/price-predictions-3-13-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-xmr",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019ce816-7a37-77f5-a1a0-e38724529501.jpg",
-        "publishedAt": "2026-03-13T18:22:48Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin turned down from the $74,000 level, indicating that the bears remain sellers on rallies.\r\n</li><li>Several major altcoins are showing strength and are likely to break abo… [+8606 chars]"
       }
     ]
   }
