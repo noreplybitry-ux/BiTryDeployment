@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T02:45:13.599Z",
+  "timestamp": "2026-03-18T05:02:30.100Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Upside Run Intensifies — $2,400 Break Incoming?",
+        "description": "Ethereum price started a major increase above the $2,250 zone. ETH is now showing positive signs and might aim for more gains above $2,400. Ethereum started a steady upward move above the $2,250 zone. The price is trading above $2,300 and the 100-hourly Simpl…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-upside-run-intensifies-2400/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Ethereum-Price-Rallies.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-03-17T03:18:27Z",
+        "content": "Ethereum price started a major increase above the $2,250 zone. ETH is now showing positive signs and might aim for more gains above $2,400.\r\n<ul><li>Ethereum started a steady upward move above the $2… [+2122 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,32 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-15-00.49.32.jpg",
         "publishedAt": "2026-03-15T11:00:41Z",
         "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Stablecoin uncertainty could hurt banks more than crypto firms: Expert",
-        "description": "Stablecoin regulatory uncertainty could put banks at a disadvantage as crypto firms continue expanding, while institutions wait for clarity on classification and yield rules.",
-        "url": "https://cointelegraph.com/news/stablecoin-uncertainty-could-hurt-banks-more-than-crypto-firms-expert",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c8f05-6acb-7bf5-8a1a-891005dfdebb.jpg",
-        "publishedAt": "2026-03-15T10:01:51Z",
-        "content": "Regulatory uncertainty around stablecoins could place traditional banks at a greater disadvantage than crypto companies, according to Colin Butler, executive vice president of capital markets at Mega… [+3594 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Altseason is dead, expect shorter cycles and ‘violent’ rotations: Crypto exec",
-        "description": "The traditional dynamics of the altcoin market have changed due to several factors, according to market analysts and crypto industry executives.",
-        "url": "https://cointelegraph.com/news/altseaon-dead-short-cycles-violent-rotation",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019af959-27ff-740a-a082-e65816524b1a",
-        "publishedAt": "2026-03-15T09:00:34Z",
-        "content": "Traditional altcoin cycles, which featured broad market rallies called altseason, are now a relic of the past as new crypto market dynamics set in, according to Andrei Grachev, Managing Partner of DW… [+2325 chars]"
       }
     ]
   }
