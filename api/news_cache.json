@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T19:11:03.859Z",
+  "timestamp": "2026-03-18T20:46:08.518Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin holds $70K, bringing spot ETF buyers close to breakeven: Is the bull market back?",
+        "description": "A Bitcoin price rally to $80,000 would bring the bulk of spot BTC ETF holders to breakeven on their positions and possibly signal the resumption of the crypto bull market.",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-dollar70k-bringing-spot-etf-buyers-close-breakeven-is-bull-market-back",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cfca3-4612-7a79-93c3-a89a614f6269.jpg",
+        "publishedAt": "2026-03-17T20:27:57Z",
+        "content": "Bitcoin (BTC) is closing in on its average entry price for US spot BTC exchange-traded fund (ETF) investors at $79,900. The narrowing gap between Bitcoins market price and the ETF holders cost basis … [+3680 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-16-2026-08_48_05-AM.png?fit=1333%2C888",
         "publishedAt": "2026-03-16T09:05:30Z",
         "content": "Veteran trader Peter Brandt sparked a fresh round of chart debate around Bitcoin after posting a chart and writing, The Banana is splitting. This is a Horn. Richard W. Schabacker wrote about this in … [+3176 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "AI data center gold rush sparks debate over impact on Bitcoin",
-        "description": "Bitcoin miners are fleeing to AI as hashrates fall and profitability collapses, but Bitcoiners argue that it isn't a problem for Bitcoin.",
-        "url": "https://cointelegraph.com/news/bitcoin-miner-pivot-ai-threat-or-opportunity-bitcoin",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf500-a777-7152-8a0b-b041a60a9f74.jpg",
-        "publishedAt": "2026-03-16T06:46:17Z",
-        "content": "Theres a new debate over whether a continued pivot from Bitcoin miners to artificial intelligence could have an impact on Bitcoin security and its role as a store of value. \r\nWhile some argue that mi… [+3623 chars]"
       }
     ]
   }
