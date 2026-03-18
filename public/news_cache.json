@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T11:50:57.086Z",
+  "timestamp": "2026-03-18T13:26:31.370Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Dilip Kumar Patairya",
+        "title": "Bitcoin adoption metrics say one thing, price action says another",
+        "description": "Bitcoin adoption is accelerating across institutions and businesses, yet the price is lagging. Here’s why adoption and price do not always move together.",
+        "url": "https://cointelegraph.com/features/bitcoin-adoption-vs-price",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cfbcf-dfb0-77be-a2a4-9341d26f7764.jpg",
+        "publishedAt": "2026-03-17T12:46:26Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoins price reflects short-term marginal buying and selling, while adoption reflects long-term structural shifts. Ownership expansion, institutional integration and merchant… [+11478 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "Five companies vie for Vietnam crypto licences as overseas ban looms: Report",
+        "description": "Five companies, including bank affiliates and a major conglomerate, are competing for Vietnam’s first crypto exchange licences as authorities plan to restrict offshore trading.",
+        "url": "https://cointelegraph.com/news/vietnam-crypto-exchange-licences-overseas-ban",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cfba8-42e3-789e-a81c-9a59203e2e18.jpg",
+        "publishedAt": "2026-03-17T12:31:27Z",
+        "content": "Five Vietnamese companies are reportedly competing to launch the countrys first licensed crypto exchanges as authorities move to bring trading onshore and ban overseas platforms.\r\nFive companies have… [+2828 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,45 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
         "publishedAt": "2026-03-16T03:51:07Z",
         "content": "In brief\r\n<ul><li>BlockFills entities have filed for Chapter 11 bankruptcy after suspending client withdrawals, following an asset freeze for 70 BTC earlier this month.</li><li>A lawsuit filed by its… [+3755 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "CLARITY Act risks handing crypto to centralized players: Gnosis exec",
-        "description": "The CLARITY bill, as it is currently written, undermines the core ethos and value proposition of permissionless finance, according to one of the Gnosis founders.",
-        "url": "https://cointelegraph.com/news/clarity-act-hand-crypto-centralized-player",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf34e-0c0f-7093-86d9-9c69cc5d0b5f.jpg",
-        "publishedAt": "2026-03-15T21:32:48Z",
-        "content": "The regulatory provisions outlined in the US Digital Asset Market Structure Clarity Act, otherwise known as the CLARITY Act, threaten to give large financial institutions control over crypto, accordi… [+2821 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "You Can Control an AI Agent's Crypto Spending With Ledger Hardware Wallets and MoonPay",
-        "description": "The Ledger hardware wallet integration lets users approve AI-driven crypto transactions on-device while keeping private keys secure.",
-        "url": "https://decrypt.co/361136/control-ai-agent-crypto-spending-ledger-hardware-wallets-moonpay",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/ledger-hardware-wallets-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-03-15T21:01:03Z",
-        "content": "In brief\r\n<ul><li>Ledger now supports hardware wallet signing for MoonPay Agents transactions.</li><li>Users must approve each transaction while AI agents execute trades and transfers.</li><li>MoonPa… [+2396 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Coinbase Premium Turns Positive After 10 Weeks – Is US Demand Finally Returning?",
-        "description": "Bitcoin’s recent price action may be showing its first signs of relief as a closely watched indicator tied to US demand has just changed direction. The Coinbase Premium Gap has moved back into positive territory following nearly 10 weeks of persistent negativ…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-coinbase-premium-turns-positive-after-10-weeks-is-us-demand-finally-returning/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_b39b94.jpg?fit=4952%2C3327",
-        "publishedAt": "2026-03-15T16:00:56Z",
-        "content": "Bitcoins recent price action may be showing its first signs of relief as a closely watched indicator tied to US demand has just changed direction. The Coinbase Premium Gap has moved back into positiv… [+2879 chars]"
       }
     ]
   }
