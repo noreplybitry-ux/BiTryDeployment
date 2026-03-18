@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T22:38:13.979Z",
+  "timestamp": "2026-03-18T23:36:07.986Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-09/01997070-b3f1-7228-b534-4b3ee9f5bd5a",
         "publishedAt": "2026-03-16T10:19:56Z",
         "content": "Bitcoin (BTC) starts the third week of March fighting for a breakout after a trip to near $75,000.\r\n<ul><li>BTC price action delivers a strong weekly close, but bulls have a lot of work left to do.\r\n… [+10722 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Eyes MId-$80,000s As Peter Brandt Flags ‘Horn’ Pattern",
-        "description": "Veteran trader Peter Brandt sparked a fresh round of chart debate around Bitcoin after posting a chart and writing, “The Banana is splitting. This is a Horn. Richard W. Schabacker wrote about this in his 1934 book.” For market participants used to Brandt’s sh…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-eyes-mid-80000s-peter-brandt/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-16-2026-08_48_05-AM.png?fit=1333%2C888",
-        "publishedAt": "2026-03-16T09:05:30Z",
-        "content": "Veteran trader Peter Brandt sparked a fresh round of chart debate around Bitcoin after posting a chart and writing, The Banana is splitting. This is a Horn. Richard W. Schabacker wrote about this in … [+3176 chars]"
       }
     ]
   }
