@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T05:02:30.100Z",
+  "timestamp": "2026-03-18T07:10:51.977Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Ex-LA cop gets 5 years prison for helping crypto ‘Godfather’ extort victims",
+        "description": "Former LA Sheriff’s Department deputy Michael Coberg will spend over 5 years in prison for his role on a roster of corrupt cops that helped jailed crypto extorter and self-titled “Godfather” Adam Iza.",
+        "url": "https://cointelegraph.com/news/ex-la-cop-5-years-prison-helping-crypto-godfather-extortion",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf9b8-0aaf-7147-b57c-60e1c2e5dc86.jpg",
+        "publishedAt": "2026-03-17T06:06:32Z",
+        "content": "A former Los Angeles County Sheriffs Department deputy has been sentenced to more than five years in prison for helping Adam Iza, a jailed crypto founder dubbed The Godfather, extort victims.\r\nA Cali… [+2059 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Momentum Explodes as $100 Barrier Comes Into Focus",
+        "description": "Solana started a fresh increase above the $92 zone. SOL price is now consolidating near $95 and might aim for more gains above the $98 zone. SOL price started a fresh upward move above the $92 and $95 levels against the US Dollar. The price is now trading abo…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-momentum-explodes-100/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Momentum-Explodes-as-100-Barrier-Comes-Into-Focus.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-17T05:08:30Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,45 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019caf67-9abc-7465-a784-080cd4686ef4.jpg",
         "publishedAt": "2026-03-15T15:12:03Z",
         "content": "Bitcoin (BTC) inched higher on Sunday as bulls sought to seal a weekly close above $70,000.\r\nKey points:\r\n<ul><li>Bitcoin eyes its highest daily close in over a week with a fresh weekend push above $… [+3117 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Dilip Kumar Patairya",
-        "title": "How Bitcoin and Gold reacted differently to the Iran war shock",
-        "description": "During the Iran conflict, gold attracted safe-haven demand, while Bitcoin’s reaction reflected liquidity conditions and broader market sentiment rather than acting as a classic crisis hedge.",
-        "url": "https://cointelegraph.com/features/how-bitcoin-and-gold-reacted-differently-to-the-iran-war-shock",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf1d6-359a-7018-8e09-be8297796504.jpg",
-        "publishedAt": "2026-03-15T14:16:22Z",
-        "content": "Key takeaways\r\n<ul><li>The 2026 Iran conflict created a major geopolitical shock that triggered volatility across global markets. It pushed investors to reassess traditional safe-haven assets such as… [+10293 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Is Bitcoin Price Bottom In? MVRV Z-Score Says ‘Not Yet’",
-        "description": "After another failed attempt at breaking the $74,000 resistance, the Bitcoin price continues to hover around the psychological $70,000 level, with very little — if any — momentum to boast of. Some analysts expect this price level to serve as a rebound point f…",
-        "url": "http://www.newsbtc.com/news/bitcoin/is-bitcoin-price-bottom-in-mvrv-z-score-says-not-yet/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/07/iStock-1314151934.jpg?fit=1248%2C840",
-        "publishedAt": "2026-03-15T14:00:58Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Ethereum Currently Undervalued – But Is It Time To Buy?",
-        "description": "According to the latest on-chain data, Ethereum appears to be entering a state of undervaluation, with the potential of rebounding to new highs. However, the question is — is it really time to buy ETH? ETH Could Drop Another 40% Before Bear Cycle Ends In a ne…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-is-currently-undervalued-time-to-buy/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-15-00.49.32.jpg",
-        "publishedAt": "2026-03-15T11:00:41Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
       }
     ]
   }
