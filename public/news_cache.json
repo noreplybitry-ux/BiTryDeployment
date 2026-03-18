@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T10:05:19.144Z",
+  "timestamp": "2026-03-18T11:50:57.086Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Is Still Bearish And Price Is Headed Below $50,000; Analyst",
+        "description": "Bitcoin’s foray above $70,000, while encouraging, has not really done much to quell the expectations that this is only the start of the bear market. A number of analysts continue to warn investors that this might only be a temporary relief, with the real cras…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-still-bearish-50000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pngtree-38.png?fit=1200%2C686",
+        "publishedAt": "2026-03-17T10:30:22Z",
+        "content": "Bitcoins foray above $70,000, while encouraging, has not really done much to quell the expectations that this is only the start of the bear market. A number of analysts continue to warn investors tha… [+2419 chars]"
+      },
       {
         "source": {
           "id": null,
