@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T15:10:50.866Z",
+  "timestamp": "2026-03-18T17:10:18.788Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "XRP Flips BNB, Hitting Highest Price in a Month as Ripple Plans to Seek Brazil License",
+        "description": "The Ripple-linked XRP has leapfrogged BNB in market cap as the crypto payments firm expands its Brazil push.",
+        "url": "https://decrypt.co/361389/xrp-flips-bnb-highest-price-month-ripple-brazil-license",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-03-17T16:02:05Z",
+        "content": "In brief\r\n<ul><li>XRP has jumped above BNB, becoming the fourth-largest crypto asset by market cap. </li><li>The Ripple-linked token hit $1.60 late Monday, its highest price in a month. </li><li>The … [+3036 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Strategy halts Bitcoin buying via STRC: Will BTC price dip again?",
+        "description": "Strategy often pauses BTC buys when STRC falls below $100, a setup that has previously coincided with 25%–40% Bitcoin declines.",
+        "url": "https://cointelegraph.com/markets/strategy-halts-bitcoin-buying-via-strc-will-btc-price-dip-again",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b29fa-ffe9-71cc-a445-3eb98335bc5e.jpg",
+        "publishedAt": "2026-03-17T15:35:35Z",
+        "content": "Strategy paused its Bitcoin (BTC) accumulation via STRC preferred stock after failing to raise fresh capital since Friday, marking a notable shift after two aggressive weeks of buying.\r\nStrategys STR… [+3018 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Strength-Builds.jpg?fit=1408%2C768",
         "publishedAt": "2026-03-16T05:18:55Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brian Quarmby",
-        "title": "Australia warns of AI, ‘finfluencers’ as Gen Z crypto ownership hits 23%",
-        "description": "Australia’s securities regulator said two-thirds of Gen Zs are using social media to make decisions about their financial future, leading to “riskier” financial decisions.",
-        "url": "https://cointelegraph.com/news/asic-warns-ai-finfluencers-gen-z-crypto-23-percent",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b004e-ab0e-7536-8f36-22fa05edc795",
-        "publishedAt": "2026-03-16T05:14:42Z",
-        "content": "Australias financial regulator has urged young investors not to rely on social media influencers and artificial intelligence chatbots to make financial decisions, according to a study that also found… [+4596 chars]"
       }
     ]
   }
