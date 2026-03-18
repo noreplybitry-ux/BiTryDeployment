@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T08:58:18.740Z",
+  "timestamp": "2026-03-18T10:05:19.144Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Do Bitcoin halvings matter? Strategy buys outpace new BTC supply by 700%",
+        "description": "Strategy bought seven weeks of new Bitcoin supply in one week, boosting the case for a $400,000 BTC price target if this pace continues.",
+        "url": "https://cointelegraph.com/markets/do-bitcoin-halvings-matter-anymore-if-strategy-s-strc-exists",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b64eb-37c3-7a07-a0bc-e8cebe2827e5.jpg",
+        "publishedAt": "2026-03-17T10:02:04Z",
+        "content": "Michael Saylors Strategy is using its preferred stock, STRC, to buy Bitcoin (BTC) at an accelerating pace. But can this create a more powerful supply shock than the halving?\r\nKey takeaway:\r\n<ul><li>S… [+3840 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Bitcoin Returns To Full Bull Mode: Key Indicators Signal Bottom And Major Relief Rally",
+        "description": "Bitcoin (BTC) has briefly surpassed the critical resistance level of $74,000, generating renewed optimism among investors as key market indicators suggest the potential for a bottom and further recovery for the leading cryptocurrency.  A Potential Surge To $1…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-returns-to-full-bull-mode-key-indicators-signal-bottom-and-major-relief-rally/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/08/Screenshot_386.jpg?fit=1309%2C737",
+        "publishedAt": "2026-03-17T09:00:54Z",
+        "content": "Bitcoin (BTC) has briefly surpassed the critical resistance level of $74,000, generating renewed optimism among investors as key market indicators suggest the potential for a bottom and further recov… [+2725 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_b39b94.jpg?fit=4952%2C3327",
         "publishedAt": "2026-03-15T16:00:56Z",
         "content": "Bitcoins recent price action may be showing its first signs of relief as a closely watched indicator tied to US demand has just changed direction. The Coinbase Premium Gap has moved back into positiv… [+2879 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price teases key support reclaims with weekly close above $70K",
-        "description": "Bitcoin attempts to reclaim its 200-week moving average trend line and old 2021 all-time high as it eyes a weekly close above $70,000.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-teases-key-support-reclaims-weekly-close-above-70k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019caf67-9abc-7465-a784-080cd4686ef4.jpg",
-        "publishedAt": "2026-03-15T15:12:03Z",
-        "content": "Bitcoin (BTC) inched higher on Sunday as bulls sought to seal a weekly close above $70,000.\r\nKey points:\r\n<ul><li>Bitcoin eyes its highest daily close in over a week with a fresh weekend push above $… [+3117 chars]"
       }
     ]
   }
