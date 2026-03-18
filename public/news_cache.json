@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-18T13:26:31.370Z",
+  "timestamp": "2026-03-18T15:10:50.866Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Crypto trading firm GSR expands token advisory with $57 million in acquisitions",
+        "description": "The firm, best known for being one of the oldest crypto market makers, acquired Autonomous and Architech to combine token launch services, trading and treasury management tools.",
+        "url": "https://www.coindesk.com/business/2026/03/17/crypto-trading-firm-gsr-expands-token-advisory-with-usd57-million-in-acquisitions",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2bb224bfa288e79f5e3ee5873991c29fe31f5ebd-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-17T14:15:09Z",
+        "content": "Crypto trading firm GSR said Tuesday it is acquiring Autonomous and Architech for $57 million, expanding into token advisory and capital markets services.\r\nAutonomous will keep its brand and focus on… [+926 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Maestro launches mining-backed Bitcoin credit market for institutions",
+        "description": "Maestro debuted a Bitcoin-native credit market facility that aimed at attracting institutional investors with up to 9% yield, and letting miners finance their hashrate expansion.",
+        "url": "https://cointelegraph.com/news/maestro-bitcoin-credit-market-institutional-mining-yield",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cfb00-6d1a-7fad-a7bf-ae46d0e1de55.jpg",
+        "publishedAt": "2026-03-17T14:00:00Z",
+        "content": "Bitcoin infrastructure provider Maestro has launched a Bitcoin-denominated credit market backed by mining economics, aiming to give institutions a new way to earn yield on idle Bitcoin while expandin… [+3605 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,58 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b004e-ab0e-7536-8f36-22fa05edc795",
         "publishedAt": "2026-03-16T05:14:42Z",
         "content": "Australias financial regulator has urged young investors not to rely on social media influencers and artificial intelligence chatbots to make financial decisions, according to a study that also found… [+4596 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Rockets Above $2,200 as Bulls Tighten Market Control",
-        "description": "Ethereum price started a major increase above the $2,150 zone. ETH is now showing positive signs and might aim for more gains above $2,250. Ethereum started a steady upward move above the $2,150 zone. The price is trading above $2,150 and the 100-hourly Simpl…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rockets-above-2200/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rockets-Above-2200.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-16T04:38:14Z",
-        "content": "Ethereum price started a major increase above the $2,150 zone. ETH is now showing positive signs and might aim for more gains above $2,250.\r\n<ul><li>Ethereum started a steady upward move above the $2… [+2104 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, Omkar Godbole",
-        "title": "Crypto trading firm Blockfills has filed for bankruptcy",
-        "description": "The institutional crypto lender filed for bankruptcy after suspending withdrawals, incurring about $75 million in losses and facing a lawsuit alleging misuse of customer funds.",
-        "url": "https://www.coindesk.com/business/2026/03/11/crypto-trading-firm-blockfills-has-filed-for-bankruptcy",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/39cad2102963a71638c30bdda262a3a340de4766-1647x1235.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-16T04:27:44Z",
-        "content": "Blockfills, a Chicago-based crypto trading firm, has filed for bankruptcy, as the crypto winter takes its toll on the industry. \r\nOn Sunday, BlockFills operator Reliz Ltd. and three affiliated entiti… [+3005 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Climbs Again — Bulls Aim for New Monthly High",
-        "description": "Bitcoin price started a steady increase above the $72,000 zone. BTC is now consolidating and might aim for more gains if it clears $73,000. Bitcoin started a decent upward move above the $72,000 zone. The price is trading above $71,200 and the 100 hourly simp…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-climbs-again-73k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Climbs-Again.jpg",
-        "publishedAt": "2026-03-16T04:06:57Z",
-        "content": "Bitcoin price started a steady increase above the $72,000 zone. BTC is now consolidating and might aim for more gains if it clears $73,000.\r\n<ul><li>Bitcoin started a decent upward move above the $72… [+2084 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vince Dioquino",
-        "title": "BlockFills Entities File Bankruptcy After Withdrawals Halted, Court Froze Bitcoin",
-        "description": "The filings come as the company faces a lawsuit alleging it commingled client crypto assets and refused to return client funds.",
-        "url": "https://decrypt.co/361195/blockfills-bankruptcy-withdrawals-halted-court-froze-bitcoin",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
-        "publishedAt": "2026-03-16T03:51:07Z",
-        "content": "In brief\r\n<ul><li>BlockFills entities have filed for Chapter 11 bankruptcy after suspending client withdrawals, following an asset freeze for 70 BTC earlier this month.</li><li>A lawsuit filed by its… [+3755 chars]"
       }
     ]
   }
