@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T22:35:31.837Z",
+  "timestamp": "2026-03-19T23:36:19.069Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin falls under $71K but data shows BTC’s bullish momentum holding",
+        "description": "Bitcoin dropped below $71,000, but the market’s tilt toward bulls holds as spot ETF inflows and BTC buying from Strategy boost investor sentiment.",
+        "url": "https://cointelegraph.com/markets/bitcoin-falls-under-71k-but-data-shows-btc-s-bullish-momentum-holding",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d027f-dfb8-7b15-878e-bca0c700c8a5.jpg",
+        "publishedAt": "2026-03-18T23:23:32Z",
+        "content": "Key takeaways:\r\n<ul><li>Spot market demand through US-listed ETFs and Strategy buying BTC supports Bitcoins bullish momentum.\r\n</li><li>Low leverage among Bitcoin bulls reduces the risk of cascading … [+4529 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-32.png?fit=1200%2C673",
         "publishedAt": "2026-03-18T01:00:49Z",
         "content": "A single on-chain indicator has quietly called every major Bitcoin cycle bottom for the past decade, and it is now approaching that important level once again. \r\nThe setup comes from a monthly Bitcoi… [+2729 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin holds $70K, bringing spot ETF buyers close to breakeven: Is the bull market back?",
-        "description": "A Bitcoin price rally to $80,000 would bring the bulk of spot BTC ETF holders to breakeven on their positions and possibly signal the resumption of the crypto bull market.",
-        "url": "https://cointelegraph.com/markets/bitcoin-holds-dollar70k-bringing-spot-etf-buyers-close-breakeven-is-bull-market-back",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cfca3-4612-7a79-93c3-a89a614f6269.jpg",
-        "publishedAt": "2026-03-17T20:27:57Z",
-        "content": "Bitcoin (BTC) is closing in on its average entry price for US spot BTC exchange-traded fund (ETF) investors at $79,900. The narrowing gap between Bitcoins market price and the ETF holders cost basis … [+3680 chars]"
       }
     ]
   }
