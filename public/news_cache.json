@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T02:46:36.771Z",
+  "timestamp": "2026-03-19T04:59:45.037Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Citigroup Lowers 12-Month Bitcoin Price Forecast To $112,000, ETH To $3,175—Here’s The Reason",
+        "description": "Despite a recent resurgence in prices, Bitcoin (BTC) and Ethereum (ETH), the two largest cryptocurrencies by market capitalization, are not expected to achieve new all-time highs this year, according to analysts at Citigroup.  The company significantly revise…",
+        "url": "http://www.newsbtc.com/bitcoin-news/citigroup-lowers-12-month-bitcoin-price-forecast-to-112000-eth-to-3175-heres-the-reason/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Screenshot_842.jpg?fit=1278%2C722",
+        "publishedAt": "2026-03-18T04:00:28Z",
+        "content": "Despite a recent resurgence in prices, Bitcoin (BTC) and Ethereum (ETH), the two largest cryptocurrencies by market capitalization, are not expected to achieve new all-time highs this year, according… [+2674 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Upside Heats Up — $2,500 Barrier in Focus",
+        "description": "Ethereum price started a major increase above the $2,350 zone. ETH is now showing positive signs and might aim for more gains above $2,380. Ethereum started a steady upward move above the $2,320 zone. The price is trading above $2,320 and the 100-hourly Simpl…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-upside-heats-up-2380/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Upside-Heats-Up.jpg?fit=1408%2C768",
+        "publishedAt": "2026-03-18T03:18:32Z",
+        "content": "Ethereum price started a major increase above the $2,350 zone. ETH is now showing positive signs and might aim for more gains above $2,380.\r\n<ul><li>Ethereum started a steady upward move above the $2… [+2160 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image29.png",
         "publishedAt": "2026-03-16T12:49:55Z",
         "content": "At the time of writing, Bitcoin (BTC) trades in the highs $73,000, outperforming both equities and gold in latequarter trading.\r\nTensions around Iran and the Middle East are intensifying, yet BTC is … [+2581 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin And Ethereum Prices Are Struggling Again, And Here’s What’s Behind It",
-        "description": "The Bitcoin and Ethereum prices continue to struggle, with BTC dropping to as low as $70,000 over the weekend. This comes as tensions between the U.S. and Iran continue to escalate, with no sign of a ceasefire happening anytime soon.  Bitcoin and Ethereum Pri…",
-        "url": "http://www.newsbtc.com/news/bitcoin-and-ethereum-prices/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-and-Ethereum-from-Pngtree-2.png?fit=1200%2C673",
-        "publishedAt": "2026-03-16T11:30:16Z",
-        "content": "The Bitcoin and Ethereum prices continue to struggle, with BTC dropping to as low as $70,000 over the weekend. This comes as tensions between the U.S. and Iran continue to escalate, with no sign of a… [+2658 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Crypto funds add $1B as three-week inflow streak continues",
-        "description": "Crypto ETPs recorded $1.06 billion in inflows last week, led by Bitcoin and Ethereum, marking three straight weeks of gains despite ongoing geopolitical stress.",
-        "url": "https://cointelegraph.com/news/crypto-etp-1-billion-inflows-three-straight-weeks-gains",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b3770-8fc2-7fd8-a920-66734d9dbc5c.jpg",
-        "publishedAt": "2026-03-16T10:59:57Z",
-        "content": "Crypto investment products continued their momentum last week, signaling resilience to geopolitical stress and strengthening the case for Bitcoins role as a safe-haven asset.\r\nCrypto exchange-traded … [+2354 chars]"
       }
     ]
   }
