@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T13:19:38.636Z",
+  "timestamp": "2026-03-19T14:55:36.239Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Bitcoin hash rate is tumbling as Iran war lifts energy prices",
+        "description": "A falling hash rate and the resultant pressure on miners could signal another potential capitulation phase, which could push prices down further",
+        "url": "https://www.coindesk.com/markets/2026/03/18/bitcoin-hash-rate-is-tumbling-as-iran-war-lifts-energy-prices",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2f8f0af7ccc034c06cbbfaf318c734fc0eb012fe-1069x719.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-18T14:53:08Z",
+        "content": "Bitcoin's hash rate is tumbling as the Middle East conflict drives up energy prices, adding pressure to the mining sector and broader market.\r\nThe drop in hash rate is likely tied to geopolitical ten… [+1113 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Aaron Wood",
+        "title": "Crypto industry ties were a liability in Illinois primary",
+        "description": "Crypto PACs supported Representative Raja Krishnamoorthi in a Democratic senate primary in Illinois, running millions of dollars of ads against his opponent.",
+        "url": "https://cointelegraph.com/features/crypto-industry-ties-liability-illinois-primary",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d014a-7b08-7e98-ba82-25ff860c553a.jpg",
+        "publishedAt": "2026-03-18T14:20:36Z",
+        "content": "Not all voters are sold on crypto, and in Illinois, the crypto industry lobby failed to secure a victory, despite spending millions. \r\nOn Tuesday, Illinois Lieutenant Governor Juliana Stratton won a … [+5875 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Canadian Regulator Revokes Registrations of 23 Crypto Firms",
+        "description": "Canada's FINTRAC pulled the licenses of multiple money services businesses, in a \"significantly increased pace of action.\"",
+        "url": "https://decrypt.co/361546/canadian-regulator-revokes-registration-of-23-crypto-firms",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
+        "publishedAt": "2026-03-18T14:07:17Z",
+        "content": "In brief\r\n<ul><li>Canadian financial intelligence unit FINTRAC revoked the registrations of 23 money services businesses offering crypto-related services Tuesday.</li><li>Canadas Finance Minister sai… [+2187 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin dips to $72K on hot US PPI inflation hours before Fed FOMC meeting",
+        "description": "Bitcoin price action fell to week-to-date lows with Bitcoin caught between high US inflation and nerves over Fed policy hints at the day's FOMC meeting.",
+        "url": "https://cointelegraph.com/markets/bitcoin-dips-near-72k-hot-us-ppi-inflation-hours-fed-rates",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0143-3fd4-764a-8498-a43e1c08f31d.jpg",
+        "publishedAt": "2026-03-18T14:02:38Z",
+        "content": "Bitcoin (BTC) slid 2.5% around Wednesdays Wall Street open as a fresh US inflation overshoot spooked markets.\r\nKey points:\r\n<ul><li>US PPI inflation surpasses market expectations again, continuing it… [+3874 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Large investors are doubling down on crypto, but getting a lot pickier about risk",
+        "description": "Most institutional investors plan to increase allocations even as concerns around regulation and risk management continue to grow.",
+        "url": "https://www.coindesk.com/business/2026/03/18/large-investors-are-doubling-down-on-crypto-but-getting-a-lot-pickier-about-risk",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/de82d84087440c8b22943a46a1ca0fdab7936e0f-6870x4100.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-18T14:00:00Z",
+        "content": "Institutional investors remain broadly positive on digital assets despite recent market volatility, but they are becoming more selective about how they gain exposure, according to a new survey from C… [+4040 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,97 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Momentum-Explodes-as-100-Barrier-Comes-Into-Focus.jpg?fit=1408%2C768",
         "publishedAt": "2026-03-17T05:08:30Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Upside Run Intensifies — $2,400 Break Incoming?",
-        "description": "Ethereum price started a major increase above the $2,250 zone. ETH is now showing positive signs and might aim for more gains above $2,400. Ethereum started a steady upward move above the $2,250 zone. The price is trading above $2,300 and the 100-hourly Simpl…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-upside-run-intensifies-2400/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Ethereum-Price-Rallies.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-03-17T03:18:27Z",
-        "content": "Ethereum price started a major increase above the $2,250 zone. ETH is now showing positive signs and might aim for more gains above $2,400.\r\n<ul><li>Ethereum started a steady upward move above the $2… [+2122 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Rally Roars On — $76K Level Falls to Bulls",
-        "description": "Bitcoin price started a strong increase above the $75,000 zone. BTC is now consolidating and might aim for more gains if it clears $76,000. Bitcoin started a decent upward move above the $74,000 zone. The price is trading above $74,200 and the 100 hourly simp…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rally-roars-on-76k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Rally-Roars-On-—-76K-Level-Falls-to-Bulls.jpg",
-        "publishedAt": "2026-03-17T02:42:10Z",
-        "content": "Bitcoin price started a strong increase above the $75,000 zone. BTC is now consolidating and might aim for more gains if it clears $76,000.\r\n<ul><li>Bitcoin started a decent upward move above the $74… [+2162 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "XRP Supply Tightens On Binance As Scarcity Index Signals Limited Liquidity",
-        "description": "XRP has reclaimed the $1.40 level as the broader cryptocurrency market begins to show renewed bullish behavior after a period of volatility and consolidation. The recent move higher suggests that buyers are gradually regaining momentum, with traders closely m…",
-        "url": "http://www.newsbtc.com/xrp-news/xrp-supply-tightens-on-binance-as-scarcity-index-signals-limited-liquidity/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-49.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-03-17T01:00:41Z",
-        "content": "XRP has reclaimed the $1.40 level as the broader cryptocurrency market begins to show renewed bullish behavior after a period of volatility and consolidation. The recent move higher suggests that buy… [+4345 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Hits 40-Day High As US-Iran Tensions Trigger $113M In Short Liquidations",
-        "description": "A potential US military strike on Iran’s main oil export terminal helped push Bitcoin to its highest price in over a month Monday, as traders poured money into crypto while pulling back from stocks. Related Reading: WLFI Holders Face New 6-Month Lockup Rule T…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-hits-40-day-high-as-us-iran-tensions-trigger-113m-in-short-liquidations/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_394df0.jpg?fit=3000%2C2000",
-        "publishedAt": "2026-03-17T00:00:49Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 3/16: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, HYPE",
-        "description": "Bitcoin opened the week by rallying straight into a key resistance level. If it holds, BTC and altcoins could embark on the next leg of the crypto bull market.",
-        "url": "https://cointelegraph.com/markets/price-predictions-3-16-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-hype",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf78b-f025-7e1c-a03c-d8ac86f61ab5.jpg",
-        "publishedAt": "2026-03-16T22:00:00Z",
-        "content": "Key points:\r\n<ul><li>Sellers will attempt to halt the recovery at $74,508, but if buyers bulldoze their way through, the rally may reach $84,000. \r\n</li><li>Select major altcoins have risen above the… [+8607 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "T. Rowe Price amends S-1 for actively managed crypto ETF",
-        "description": "New SEC filing names Anchorage Digital Bank as the crypto custodian and adds SUI to the list of eligible tokens in the proposed fund that aims for direct digital asset exposure.",
-        "url": "https://cointelegraph.com/news/t-rowe-price-amends-sec-filing-active-crypto-etf",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf83f-49a6-723f-98df-ef3246bea8e1.jpg",
-        "publishedAt": "2026-03-16T21:10:36Z",
-        "content": "T. Rowe Price, the $1.8 trillion asset manager best known for managing mutual funds and retirement accounts, has amended the registration statement for its proposed Active Crypto exchange-traded fund… [+2512 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Bitmine speeds pace of Ethereum buys, boosting treasury to 4.6M ETH",
-        "description": "Bitmine says its Ethereum holdings now total 4.596 million ETH, about 3.8% of the supply, as public companies collectively hold more than 6.6 million ETH worth $15.4 billion.",
-        "url": "https://cointelegraph.com/news/bitmine-buys-5-000-eth-from-ethereum-foundation-brings-holdings-to-4-6m-tokens",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf805-6ab5-71b1-af15-2ba5468b489e.jpg",
-        "publishedAt": "2026-03-16T20:31:04Z",
-        "content": "Bitmine Immersion Technologies has accelerated the pace of its Ether purchases in recent weeks, chairman Tom Lee said Monday, following the companys over-the-counter purchase of 5,000 ETH directly fr… [+2775 chars]"
       }
     ]
   }
