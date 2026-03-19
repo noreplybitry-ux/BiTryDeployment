@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T19:07:08.880Z",
+  "timestamp": "2026-03-19T20:46:57.068Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,32 +433,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-03-17T16:02:05Z",
         "content": "In brief\r\n<ul><li>XRP has jumped above BNB, becoming the fourth-largest crypto asset by market cap. </li><li>The Ripple-linked token hit $1.60 late Monday, its highest price in a month. </li><li>The … [+3036 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Strategy halts Bitcoin buying via STRC: Will BTC price dip again?",
-        "description": "Strategy often pauses BTC buys when STRC falls below $100, a setup that has previously coincided with 25%–40% Bitcoin declines.",
-        "url": "https://cointelegraph.com/markets/strategy-halts-bitcoin-buying-via-strc-will-btc-price-dip-again",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b29fa-ffe9-71cc-a445-3eb98335bc5e.jpg",
-        "publishedAt": "2026-03-17T15:35:35Z",
-        "content": "Strategy paused its Bitcoin (BTC) accumulation via STRC preferred stock after failing to raise fresh capital since Friday, marking a notable shift after two aggressive weeks of buying.\r\nStrategys STR… [+3018 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Crypto trading firm GSR expands token advisory with $57 million in acquisitions",
-        "description": "The firm, best known for being one of the oldest crypto market makers, acquired Autonomous and Architech to combine token launch services, trading and treasury management tools.",
-        "url": "https://www.coindesk.com/business/2026/03/17/crypto-trading-firm-gsr-expands-token-advisory-with-usd57-million-in-acquisitions",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2bb224bfa288e79f5e3ee5873991c29fe31f5ebd-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-17T14:15:09Z",
-        "content": "Crypto trading firm GSR said Tuesday it is acquiring Autonomous and Architech for $57 million, expanding into token advisory and capital markets services.\r\nAutonomous will keep its brand and focus on… [+926 chars]"
       }
     ]
   }
