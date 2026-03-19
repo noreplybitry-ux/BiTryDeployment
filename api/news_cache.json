@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T04:59:45.037Z",
+  "timestamp": "2026-03-19T06:06:45.716Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "This Week Could Be The Most Volatile For Bitcoin In 2026, Top Expert Warns",
+        "description": "Bitcoin (BTC) is currently hovering above the recently breached $74,000 resistance, positioning to reclaim price levels not seen since the fourth quarter of last year. However, this week’s activity is set to be turbulent, with market expert Virtual Bacon pred…",
+        "url": "http://www.newsbtc.com/bitcoin-news/this-week-could-be-the-most-volatile-for-bitcoin-in-2026-top-expert-warns/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/image_q9eBc4jq_1770322173613_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-03-18T06:00:07Z",
+        "content": "Bitcoin (BTC) is currently hovering above the recently breached $74,000 resistance, positioning to reclaim price levels not seen since the fourth quarter of last year. However, this week’s activity i… [+3238 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Retraces Gains — Bulls Guard Key Support Zone",
+        "description": "Dogecoin corrected some gains and traded below $0.1010 against the US Dollar. DOGE is now holding the $0.0980 support and might aim for a fresh increase. DOGE price started a fresh downside correction below $0.1020. The price is trading above the $0.0980 leve…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-retraces-gains-0-10/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Retraces-Gains.jpg?fit=1366%2C745",
+        "publishedAt": "2026-03-18T05:08:18Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Crypto Rails Go Mainstream — Inside Mastercard’s Bold $1.8 Billion BVNK Acquisition",
+        "description": "Mastercard is set to acquire stablecoin infrastructure firm BVNK in a deal worth up to around $1.8 billion, pushing deeper into crypto rails and 24/7 payments. Related Reading: Crypto-Linked Crime Jumps In Basque Country — But What Does It Mean For Traders? A…",
+        "url": "http://www.newsbtc.com/news/crypto-rails-go-mainstream-mastercards-1-8-billion-bvnk-acquisition/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image34.png?fit=2048%2C2048",
+        "publishedAt": "2026-03-18T05:00:20Z",
+        "content": "Mastercard is set to acquire stablecoin infrastructure firm BVNK in a deal worth up to around $1.8 billion, pushing deeper into crypto rails and 24/7 payments.\r\nTradFi continues to demonstrate that t… [+2414 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-42.jpg?fit=1280%2C853",
         "publishedAt": "2026-03-16T13:00:04Z",
         "content": "Bitcoin is showing early signs of recovery after firmly holding a major confluence support zone. The strong reaction from this level suggests that buyers have stepped in to absorb selling pressure. W… [+2787 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "U.S., UK, Canada start Operation Atlantic to disrupt crypto approval-phishing scams",
-        "description": "Authorities from the U.S., U.K. and Canada target investment fraud schemes that exploit wallet permissions.",
-        "url": "https://www.coindesk.com/business/2026/03/16/u-s-uk-canada-start-operation-atlantic-to-disrupt-crypto-approval-phishing-scams",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3e99c2994930500ca63b4734f9112d6c94ac8588-1920x1080.jpg?auto=format",
-        "publishedAt": "2026-03-16T12:50:36Z",
-        "content": "Law enforcement agencies from the U.S., U.K. and Canada started a joint initiative called Operation Atlantic aimed at disrupting cryptocurrency fraud schemes known as approval-phishing attacks, the O… [+2021 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Bitcoin Price Hits $74K As Geopolitical Tensions Spike, Is BTC Poised For a Fresh Leg Down?",
-        "description": "At the time of writing, Bitcoin (BTC) trades in the highs $73,000, outperforming both equities and gold in late‑quarter trading. A Late-Quarter Bitcoin Plot Twist Tensions around Iran and the Middle East are intensifying, yet BTC is rallying. According to a Q…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-hits-74k-as-geopolitical-tensions-spike/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image29.png",
-        "publishedAt": "2026-03-16T12:49:55Z",
-        "content": "At the time of writing, Bitcoin (BTC) trades in the highs $73,000, outperforming both equities and gold in latequarter trading.\r\nTensions around Iran and the Middle East are intensifying, yet BTC is … [+2581 chars]"
       }
     ]
   }
