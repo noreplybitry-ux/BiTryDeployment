@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T09:54:04.618Z",
+  "timestamp": "2026-03-19T10:50:44.948Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin stalls at $76K: Key BTC price levels to watch ahead of FOMC",
+        "description": "Bitcoin price traded at $74,000 as investors braced for Jerome Powell’s post-FOMC speech that could see volatile swings toward key BTC price levels.",
+        "url": "https://cointelegraph.com/markets/bitcoin-stalls-76k-key-btc-price-levels-to-watch-ahead-fomc",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0053-83f5-7d91-83f6-c24070072f48.jpg",
+        "publishedAt": "2026-03-18T10:19:06Z",
+        "content": "Bitcoin (BTC) traded at $74,000 on Wednesday, 2.6% below its six-week high of $76,000 reached on Tuesday, as traders expect volatility after the US policy decision on interest rate cuts. \r\nKey takeaw… [+4492 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image31.png",
         "publishedAt": "2026-03-16T18:38:38Z",
         "content": "The Ertzaintza (Basque Country police) says crypto is now present in a growing share of techenabled crimes in Euskadi.\r\nIn a report from last Monday, northern Spains Ertzaintza stated that they logge… [+2499 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "Ethereum Foundation’s new mandate sparks debate about its role, priorities",
-        "description": "The document quickly sparked debate across the Ethereum community, with supporters saying it reinforces the network’s core principles. Critics, however, argue the mandate signals the foundation intends to take a backseat just as institutional interest in bloc…",
-        "url": "https://www.coindesk.com/tech/2026/03/16/ethereum-foundation-s-new-mandate-sparks-debate-about-its-role-priorities",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8809137a1448874d16e706bcb41913d518d008d6-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-16T16:22:18Z",
-        "content": "The Ethereum Foundations new mandate a sweeping document released Friday to clarify the organizations role and principles sparked a torrent of reactions, with supporters praising it as a long-overdue… [+5025 chars]"
       }
     ]
   }
