@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T16:00:31.404Z",
+  "timestamp": "2026-03-19T17:10:43.039Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Stacy Elliott",
+        "title": "Citi Downgrades Crypto Exchange Gemini After Cutting Bitcoin, Ethereum Price Targets",
+        "description": "Gemini stock (GEMI) fell 16% on Wednesday following the downgrade and a broader market dip, after Citi cut its Bitcoin and Ethereum targets.",
+        "url": "https://decrypt.co/361496/citi-downgrades-gemini-cutting-bitcoin-ethereum-targets",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/gemini-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-03-18T16:34:19Z",
+        "content": "In brief\r\n<ul><li>Citi downgraded Gemini from Neutral to Sell, saying it'll be years before the exchange achieves profitability.</li><li>GEMI stock was recently down more than 16% on the day, outpaci… [+3991 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cfbcf-dfb0-77be-a2a4-9341d26f7764.jpg",
         "publishedAt": "2026-03-17T12:46:26Z",
         "content": "Key takeaways\r\n<ul><li>Bitcoins price reflects short-term marginal buying and selling, while adoption reflects long-term structural shifts. Ownership expansion, institutional integration and merchant… [+11478 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Five companies vie for Vietnam crypto licences as overseas ban looms: Report",
-        "description": "Five companies, including bank affiliates and a major conglomerate, are competing for Vietnam’s first crypto exchange licences as authorities plan to restrict offshore trading.",
-        "url": "https://cointelegraph.com/news/vietnam-crypto-exchange-licences-overseas-ban",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cfba8-42e3-789e-a81c-9a59203e2e18.jpg",
-        "publishedAt": "2026-03-17T12:31:27Z",
-        "content": "Five Vietnamese companies are reportedly competing to launch the countrys first licensed crypto exchanges as authorities move to bring trading onshore and ban overseas platforms.\r\nFive companies have… [+2828 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Is Still Bearish And Price Is Headed Below $50,000; Analyst",
-        "description": "Bitcoin’s foray above $70,000, while encouraging, has not really done much to quell the expectations that this is only the start of the bear market. A number of analysts continue to warn investors that this might only be a temporary relief, with the real cras…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-still-bearish-50000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pngtree-38.png?fit=1200%2C686",
-        "publishedAt": "2026-03-17T10:30:22Z",
-        "content": "Bitcoins foray above $70,000, while encouraging, has not really done much to quell the expectations that this is only the start of the bear market. A number of analysts continue to warn investors tha… [+2419 chars]"
       }
     ]
   }
