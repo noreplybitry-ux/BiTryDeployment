@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T06:06:45.716Z",
+  "timestamp": "2026-03-19T07:51:48.941Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Bitcoin price outlook: Citigroup predicts $112K despite regulatory roadblocks",
+        "description": "Citigroup forecasts Bitcoin at $112,000 despite slow US crypto legislation. Bitcoin price ranges show cautious momentum with potential volatility ahead. Institutional demand remains key amid regulatory uncertainty. Bitcoin has been steadily climbing over the …",
+        "url": "https://coinjournal.net/news/bitcoin-price-outlook-citigroup-predicts-112k-despite-regulatory-roadblocks/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
+        "publishedAt": "2026-03-18T06:44:16Z",
+        "content": "<ul><li>Citigroup forecasts Bitcoin at $112,000 despite slow US crypto legislation.</li><li>Bitcoin price ranges show cautious momentum with potential volatility ahead.</li><li>Institutional demand r… [+2824 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Australian crypto shopping surges, but so do banking blocks: Survey",
+        "description": "Crypto use for shopping in Australia has doubled since last year, but banking issues are still a problem for many, with younger users facing more scrutiny, a survey by Independent Reserve has found.",
+        "url": "https://cointelegraph.com/news/australia-crypto-payments-rise-banking-blocks-survey",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cff18-d4e8-7a91-aa7d-5d6e90807974.jpg",
+        "publishedAt": "2026-03-18T06:42:45Z",
+        "content": "More Australians reported using cryptocurrency to pay for goods and services in 2026 compared to the year before, but banking friction has continued to weigh on crypto users, according to a newly pub… [+3311 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-27-2026-12_56_16-PM.png?fit=1222%2C814",
         "publishedAt": "2026-03-16T14:30:18Z",
         "content": "Every few years, a chart pattern resurfaces in the Bitcoin market that commands serious attention because it has repeated itself with near-mechanical consistency across every major US midterm electio… [+2871 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Bitcoin outperforms gold and stocks in global turmoil as ETFs and Strategy accumulate",
-        "description": "Wall Street broker Bernstein took note of an institutional ownership shift as behind bitcoin's resilience during this latest bout of global turmoil.",
-        "url": "https://www.coindesk.com/markets/2026/03/16/bitcoin-outperforms-gold-and-stocks-in-global-turmoil-as-etfs-and-strategy-accumulate",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c577b38f229e9d3708d310ac5946ea8fae71162e-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-16T13:53:42Z",
-        "content": "Bitcoins BTC\r\n$74,244.92 recent strength during geopolitical uncertainty reflects a fundamental shift in the assets ownership structure, according to Wall Street broker Bernstein.\r\nThe cryptocurrency… [+2679 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin Shows Early Trend Reversal Signs After Major Support Hold",
-        "description": "Bitcoin is showing early signs of recovery after firmly holding a major confluence support zone. The strong reaction from this level suggests that buyers have stepped in to absorb selling pressure. With the market beginning to stabilize, attention is now turn…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-trend-reversal-signs/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-42.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-16T13:00:04Z",
-        "content": "Bitcoin is showing early signs of recovery after firmly holding a major confluence support zone. The strong reaction from this level suggests that buyers have stepped in to absorb selling pressure. W… [+2787 chars]"
       }
     ]
   }
