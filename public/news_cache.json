@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T08:52:55.809Z",
+  "timestamp": "2026-03-19T09:54:04.618Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Crypto Payments Are Going Mainstream: Can Tourists Turn Into Daily Users In South Korea?",
+        "description": "Centralized exchange Crypto.com has partnered with KG Inicis, South Korea’s largest payment gateway and value added network (VAN) provider, to offer crypto payment options to foreign visitors in Korea. Related Reading: Crypto-Linked Crime Jumps In Basque Coun…",
+        "url": "http://www.newsbtc.com/news/can-tourists-turn-into-crypto-daily-users-in-south-korea/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image33.png",
+        "publishedAt": "2026-03-18T09:43:28Z",
+        "content": "Centralized exchange Crypto.com has partnered with KG Inicis, South Koreas largest payment gateway and value added network (VAN) provider, to offer crypto payment options to foreign visitors in Korea… [+2825 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Bitcoin is stuck below $75,000 even after landmark SEC, CFTC crypto rules",
+        "description": "Bitcoin remains stuck near key resistance around $75,000, leaving the broader market in limbo.",
+        "url": "https://www.coindesk.com/markets/2026/03/18/bitcoin-s-progress-above-usd75-000-elusive-after-sec-cftc-crypto-guidance",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/189c82fe52c9ec0f1c12177569dd2b8dd6d6a5af-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-18T09:29:00Z",
+        "content": "U.S. regulators' first joint guidance on applying securities laws to different types of crypto tokens failed to provide enough impetus to lift bitcoin BTC\r\n$74,043.46, the largest, above $75,000.\r\nTh… [+2403 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8809137a1448874d16e706bcb41913d518d008d6-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-16T16:22:18Z",
         "content": "The Ethereum Foundations new mandate a sweeping document released Friday to clarify the organizations role and principles sparked a torrent of reactions, with supporters praising it as a long-overdue… [+5025 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Circle is up 100% in a month: Why this boring stablecoin stock is suddenly the hottest trade in crypto",
-        "description": "The stablecoin issuer has rallied as analysts point to growing demand for USDC, a higher interest-rate environment and the rapid expansion of tokenized assets.",
-        "url": "https://www.coindesk.com/markets/2026/03/16/circle-is-up-100-in-a-month-why-this-boring-stablecoin-is-suddenly-the-hottest-trade-in-crypto",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/13963e0d3858e00fbf1de77c79da7c5226d29b5a-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-16T16:15:58Z",
-        "content": "Shares of stablecoin issuer Circle (CRCL) have surged more than 100% over the past month, turning what many investors once viewed as one of the most conservative corners of crypto into one of the mar… [+3914 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Ethereum Price Hits 6-Week High as Tom Lee's BitMine Reveals Latest ETH Buy",
-        "description": "Publicly traded Ethereum treasury firm BitMine Immersion Technologies added more ETH amid its climb to $2,300 for the first time in six weeks.",
-        "url": "https://decrypt.co/361236/ethereum-price-6-week-high-tom-lee-bitmine-eth-buy",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-gID_7.jpg",
-        "publishedAt": "2026-03-16T15:17:43Z",
-        "content": "In brief\r\n<ul><li>Ethereum treasury firm BitMine Immersion Technologies added another $138 million worth of ETH last week.</li><li>The firm's purchase comes as BitMine Chairman Tom Lee thinks the cry… [+3175 chars]"
       }
     ]
   }
