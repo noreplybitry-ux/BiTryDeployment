@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-20T18:59:07.346Z",
+  "timestamp": "2026-03-20T19:42:06.522Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Animoca invests in Ava Labs to boost Avalanche adoption in Asia, Middle East",
+        "description": "Animoca Brands has invested in Ava Labs and partnered to support Avalanche-based projects, targeting real-world assets, digital identity and expansion across Asia and the Middle East.",
+        "url": "https://cointelegraph.com/news/animoca-brands-invests-in-avax-partners-with-ava-labs-to-expand-avalanche-in-asia-and-middle-east",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d073c-c1c8-7f66-9ce5-0cb4b1016c20.jpg",
+        "publishedAt": "2026-03-19T19:31:48Z",
+        "content": "Animoca Brands has made a strategic investment in Ava Labs and entered a partnership to support projects building on the Avalanche blockchain, focusing on capital deployment, advisory support and exp… [+3192 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin To Rally 250% This Year? Crypto Founder’s Bullish Prediction Shows New ATHs",
+        "description": "Arthur Hayes, co-founder of BitMEX, has reiterated his $250,000 year-end price target for Bitcoin. With Bitcoin trading around $70,100, that target would imply roughly 256.5% upside from current levels and a clean break above its previous peak at $126,000 fro…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-to-rally-250/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-68.jpg?fit=612%2C408",
+        "publishedAt": "2026-03-19T19:30:52Z",
+        "content": "Arthur Hayes, co-founder of BitMEX, has reiterated his $250,000 year-end price target for Bitcoin. With Bitcoin trading around $70,100, that target would imply roughly 256.5% upside from current leve… [+2649 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Wall Street heavyweight Cantor among investment banks pitching crypto trading firm FalconX for its potential IPO",
+        "description": "Wall Street heavyweight Cantor among investment banks pitching crypto trading firm FalconX for its potential IPOcoindesk.com",
+        "url": "https://www.coindesk.com/business/2026/03/18/wall-street-heavyweight-cantor-among-investment-banks-pitching-falconx-for-its-potential-ipo",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d0183643376c63d3344b437b12fb69486c8bd450-1500x996.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-19T19:23:09Z",
+        "content": "Wall Street financial services firm Cantor is among investment banks that are pitching cryptocurrency trading platform FalconX for its potential IPO, according to two people with knowledge of the mat… [+4705 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +420,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d014a-7b08-7e98-ba82-25ff860c553a.jpg",
         "publishedAt": "2026-03-18T14:20:36Z",
         "content": "Not all voters are sold on crypto, and in Illinois, the crypto industry lobby failed to secure a victory, despite spending millions. \r\nOn Tuesday, Illinois Lieutenant Governor Juliana Stratton won a … [+5875 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Canadian Regulator Revokes Registrations of 23 Crypto Firms",
-        "description": "Canada's FINTRAC pulled the licenses of multiple money services businesses, in a \"significantly increased pace of action.\"",
-        "url": "https://decrypt.co/361546/canadian-regulator-revokes-registration-of-23-crypto-firms",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
-        "publishedAt": "2026-03-18T14:07:17Z",
-        "content": "In brief\r\n<ul><li>Canadian financial intelligence unit FINTRAC revoked the registrations of 23 money services businesses offering crypto-related services Tuesday.</li><li>Canadas Finance Minister sai… [+2187 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin dips to $72K on hot US PPI inflation hours before Fed FOMC meeting",
-        "description": "Bitcoin price action fell to week-to-date lows with Bitcoin caught between high US inflation and nerves over Fed policy hints at the day's FOMC meeting.",
-        "url": "https://cointelegraph.com/markets/bitcoin-dips-near-72k-hot-us-ppi-inflation-hours-fed-rates",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0143-3fd4-764a-8498-a43e1c08f31d.jpg",
-        "publishedAt": "2026-03-18T14:02:38Z",
-        "content": "Bitcoin (BTC) slid 2.5% around Wednesdays Wall Street open as a fresh US inflation overshoot spooked markets.\r\nKey points:\r\n<ul><li>US PPI inflation surpasses market expectations again, continuing it… [+3874 chars]"
       }
     ]
   }
