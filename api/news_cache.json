@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-20T15:50:55.773Z",
+  "timestamp": "2026-03-20T16:53:36.177Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Callan Quinn",
+        "title": "UK to Dissolve Crypto Exchange Accused of Aiding Iranian Sanctions Evasion",
+        "description": "The UK’s Companies House has moved to strike off Zedxion Exchange, a crypto firm accused of processing funds for Iran’s Revolutionary Guard.",
+        "url": "https://decrypt.co/361725/uk-to-dissolve-crypto-exchange-accused-of-aiding-iranian-sanctions-evasion",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-03-19T16:49:34Z",
+        "content": "In brief\r\n<ul><li>The UKs Companies House has moved to dissolve Zedxion Exchange Ltd over misleading, false or deceptive filings.</li><li>The U.S. sanctioned the exchange in January over alleged acti… [+4323 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Pundit Who Predicted Ethereum Price Bottom Reveals What To Expect Next",
+        "description": "A recent rebound in the Ethereum price has brought renewed focus to an analyst who accurately identified its local bottom. With price now recovering sharply from that region, the same market watcher has outlined the next key levels that could determine Ethere…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-expect-next/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-from-Pixabay-9.jpg?fit=1280%2C720",
+        "publishedAt": "2026-03-19T16:30:05Z",
+        "content": "A recent rebound in the Ethereum price has brought renewed focus to an analyst who accurately identified its local bottom. With price now recovering sharply from that region, the same market watcher … [+2732 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "As crypto trading platforms race to deploy AI agents, here's what a Nasdaq executive is seeing",
+        "description": "Human oversight remains, but machines now drive most decisions as Nasdaq expands AI across surveillance, compliance and trading workflows at scale, says Nasdaq and Leadpoet exec",
+        "url": "https://www.coindesk.com/business/2026/03/19/crypto-trading-platforms-race-to-deploy-ai-agents-job-losses-to-artificial-intelligence-will-continue-to-mount",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/670ba58fa926659cd4f56234ddfb24fc05ad118a-1920x1080.jpg?auto=format",
+        "publishedAt": "2026-03-19T16:16:26Z",
+        "content": "As AI agents become a bigger topic in crypto, Pranav Ramesh told CoinDesk that Nasdaq has already been using them across several sections of its business and has sharply expanded that use over roughl… [+4340 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/de82d84087440c8b22943a46a1ca0fdab7936e0f-6870x4100.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-18T14:00:00Z",
         "content": "Institutional investors remain broadly positive on digital assets despite recent market volatility, but they are becoming more selective about how they gain exposure, according to a new survey from C… [+4040 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "Bitcoin ETFs' $1.2B Streak Hangs in Balance as FOMC Takes Center Stage",
-        "description": "Experts warn that Bitcoin ETF inflows remain \"episodic\" without policy shifts, ahead of today's FOMC meeting.",
-        "url": "https://decrypt.co/361518/bitcoin-etfs-1-2b-streak-hangs-in-balance-as-fomc-takes-center-stage",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-03-18T12:46:07Z",
-        "content": "In brief\r\n<ul><li>Spot Bitcoin ETFs have raked in $1.16 billion over the past seven days, with weekly inflows now at $2.52 billion.</li><li>The Fed's policy decision today could extend or unwind the … [+2822 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: The SEC & CFTC Declare 'Most Crypto Assets' Are Not Securities",
-        "description": "After a decade of lawsuits, the SEC and CFTC finally wrote the rules for digital assets.",
-        "url": "https://decrypt.co/361508/morning-minute-the-sec-cftc-declare-most-crypto-assets-are-not-securities",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png",
-        "publishedAt": "2026-03-18T12:04:23Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7167 chars]"
       }
     ]
   }
