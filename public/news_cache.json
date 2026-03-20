@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-20T07:07:41.625Z",
+  "timestamp": "2026-03-20T08:51:44.640Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Says Bitcoin Price Is Showing Dangerous Weakness, Here’s Why",
+        "description": "The Bitcoin price broke above $75,000 earlier this week, marking the highest level for the pioneer cryptocurrency for over one month. But while this move has led to an improvement in the overall investor sentiment, it could end up being a trap. This is called…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-dangerous-weakness/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-12-2026-09_05_55-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-19T07:30:54Z",
+        "content": "The Bitcoin price broke above $75,000 earlier this week, marking the highest level for the pioneer cryptocurrency for over one month. But while this move has led to an improvement in the overall inve… [+2388 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Retraces-Gains.jpg?fit=1366%2C745",
         "publishedAt": "2026-03-18T05:08:18Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Crypto Rails Go Mainstream — Inside Mastercard’s Bold $1.8 Billion BVNK Acquisition",
-        "description": "Mastercard is set to acquire stablecoin infrastructure firm BVNK in a deal worth up to around $1.8 billion, pushing deeper into crypto rails and 24/7 payments. Related Reading: Crypto-Linked Crime Jumps In Basque Country — But What Does It Mean For Traders? A…",
-        "url": "http://www.newsbtc.com/news/crypto-rails-go-mainstream-mastercards-1-8-billion-bvnk-acquisition/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image34.png?fit=2048%2C2048",
-        "publishedAt": "2026-03-18T05:00:20Z",
-        "content": "Mastercard is set to acquire stablecoin infrastructure firm BVNK in a deal worth up to around $1.8 billion, pushing deeper into crypto rails and 24/7 payments.\r\nTradFi continues to demonstrate that t… [+2414 chars]"
       }
     ]
   }
