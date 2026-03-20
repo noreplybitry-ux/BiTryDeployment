@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-20T05:57:18.912Z",
+  "timestamp": "2026-03-20T07:07:41.625Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Bitcoin retests $70K as veteran trader flags ‘ugly’ setup",
+        "description": "Bitcoin traded to intraday lows of $70,500 amid key macro and geopolitical-related events. Veteran trader Peter Brandt has highlighted a potential bearish retest of support. The Iran war and inflation concerns tick potential negative catalysts boxes. Bitcoin …",
+        "url": "https://coinjournal.net/news/bitcoin-retests-70k-as-veteran-trader-warns-of-ugly-flag-pattern/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
+        "publishedAt": "2026-03-19T06:38:05Z",
+        "content": "<ul><li>Bitcoin traded to intraday lows of $70,500 amid key macro and geopolitical-related events.</li><li>Veteran trader Peter Brandt has highlighted a potential bearish retest of support.</li><li>T… [+3102 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Canada vows continued crypto crackdown after taking down 47 firms in 2026",
+        "description": "Canada's financial intelligence unit has revoked the registrations of nearly 50 crypto money services businesses this year, and the minister of finance says the crackdown is ongoing.",
+        "url": "https://cointelegraph.com/news/canada-crypto-msb-crackdown-50-registrations-revoked",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0457-4bcd-7310-b8a3-486dd33478b0.jpg",
+        "publishedAt": "2026-03-19T06:22:43Z",
+        "content": "Canada's financial intelligence unit has revoked the registrations of 50 money services businesses (MSBs) so far this year, with 47 related to crypto, and the minister of finance says it will continu… [+2013 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image34.png?fit=2048%2C2048",
         "publishedAt": "2026-03-18T05:00:20Z",
         "content": "Mastercard is set to acquire stablecoin infrastructure firm BVNK in a deal worth up to around $1.8 billion, pushing deeper into crypto rails and 24/7 payments.\r\nTradFi continues to demonstrate that t… [+2414 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Citigroup Lowers 12-Month Bitcoin Price Forecast To $112,000, ETH To $3,175—Here’s The Reason",
-        "description": "Despite a recent resurgence in prices, Bitcoin (BTC) and Ethereum (ETH), the two largest cryptocurrencies by market capitalization, are not expected to achieve new all-time highs this year, according to analysts at Citigroup.  The company significantly revise…",
-        "url": "http://www.newsbtc.com/bitcoin-news/citigroup-lowers-12-month-bitcoin-price-forecast-to-112000-eth-to-3175-heres-the-reason/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Screenshot_842.jpg?fit=1278%2C722",
-        "publishedAt": "2026-03-18T04:00:28Z",
-        "content": "Despite a recent resurgence in prices, Bitcoin (BTC) and Ethereum (ETH), the two largest cryptocurrencies by market capitalization, are not expected to achieve new all-time highs this year, according… [+2674 chars]"
       }
     ]
   }
