@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-19T23:36:19.069Z",
+  "timestamp": "2026-03-20T02:37:10.806Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Explodes 24% After Key Breakout: Rally To $4,956 In Play?",
+        "description": "Ethereum has surged 24% in just over a week, breaking above a key resistance with strong volume and signaling renewed bullish momentum. With a bullish structure still intact, attention now shifts to whether ETH can sustain the move toward the $4,956 target or…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-explodes-24-breakout/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-Getty-Images-16.jpg?fit=612%2C408",
+        "publishedAt": "2026-03-19T01:00:11Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Rangebound-After-Surge.jpg",
         "publishedAt": "2026-03-18T02:34:59Z",
         "content": "Bitcoin price started a strong increase and traded above the $75,500 zone. BTC is now consolidating and might aim for more gains if it clears $76,000.\r\n<ul><li>Bitcoin started a decent upward move ab… [+2212 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Nailing The Bitcoin Bottom: This Signal Has Correctly Predicted The Last 3 Cycle Bottoms",
-        "description": "A single on-chain indicator has quietly called every major Bitcoin cycle bottom for the past decade, and it is now approaching that important level once again.  The setup comes from a monthly Bitcoin chart paired with the NUPL indicator, which tracks whether …",
-        "url": "http://www.newsbtc.com/news/bitcoin/nailing-the-bitcoin-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-32.png?fit=1200%2C673",
-        "publishedAt": "2026-03-18T01:00:49Z",
-        "content": "A single on-chain indicator has quietly called every major Bitcoin cycle bottom for the past decade, and it is now approaching that important level once again. \r\nThe setup comes from a monthly Bitcoi… [+2729 chars]"
       }
     ]
   }
