@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-20T09:51:46.851Z",
+  "timestamp": "2026-03-20T10:46:18.536Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Where Is Bitcoin Price Headed Next? This Level Will Decide Everything",
+        "description": "Bitcoin is back at a point where the next move may carry more importance than an ordinary resistance test. The latest rebound has pulled the price back into a zone that could be the line between a continued recovery and another leg lower, especially as it is …",
+        "url": "http://www.newsbtc.com/news/bitcoin/where-is-bitcoin-price-headed/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-43.jpg?fit=1280%2C719",
+        "publishedAt": "2026-03-19T10:30:41Z",
+        "content": "Bitcoin is back at a point where the next move may carry more importance than an ordinary resistance test. The latest rebound has pulled the price back into a zone that could be the line between a co… [+2580 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Ethereum price hovers near key level as $111M whale sparks fresh accumulation",
+        "description": "Ethereum price was poised above the $2,150 level. Bulls were showing resilience as a whale re-accumulated $111 million worth of ETH. Another move above $2,000 could push prices towards the $2,500 resistance. A mysterious Ethereum whale has re-emerged after ly…",
+        "url": "https://coinjournal.net/news/ethereum-price-hovers-near-key-level-as-111m-whale-sparks-fresh-accumulation/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/ethereum-price-trading-laptop-chart.jpg.png",
+        "publishedAt": "2026-03-19T10:04:23Z",
+        "content": "<ul><li>Ethereum price was poised above the $2,150 level.</li><li>Bulls were showing resilience as a whale re-accumulated $111 million worth of ETH.</li><li>Another move above $2,000 could push price… [+3022 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +420,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cff18-d4e8-7a91-aa7d-5d6e90807974.jpg",
         "publishedAt": "2026-03-18T06:42:45Z",
         "content": "More Australians reported using cryptocurrency to pay for goods and services in 2026 compared to the year before, but banking friction has continued to weigh on crypto users, according to a newly pub… [+3311 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "This Week Could Be The Most Volatile For Bitcoin In 2026, Top Expert Warns",
-        "description": "Bitcoin (BTC) is currently hovering above the recently breached $74,000 resistance, positioning to reclaim price levels not seen since the fourth quarter of last year. However, this week’s activity is set to be turbulent, with market expert Virtual Bacon pred…",
-        "url": "http://www.newsbtc.com/bitcoin-news/this-week-could-be-the-most-volatile-for-bitcoin-in-2026-top-expert-warns/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/image_q9eBc4jq_1770322173613_raw.jpg?fit=1024%2C1024",
-        "publishedAt": "2026-03-18T06:00:07Z",
-        "content": "Bitcoin (BTC) is currently hovering above the recently breached $74,000 resistance, positioning to reclaim price levels not seen since the fourth quarter of last year. However, this week’s activity i… [+3238 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Retraces Gains — Bulls Guard Key Support Zone",
-        "description": "Dogecoin corrected some gains and traded below $0.1010 against the US Dollar. DOGE is now holding the $0.0980 support and might aim for a fresh increase. DOGE price started a fresh downside correction below $0.1020. The price is trading above the $0.0980 leve…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-retraces-gains-0-10/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Retraces-Gains.jpg?fit=1366%2C745",
-        "publishedAt": "2026-03-18T05:08:18Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
