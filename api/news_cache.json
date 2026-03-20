@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-20T16:53:36.177Z",
+  "timestamp": "2026-03-20T17:39:33.668Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Bitcoin holds $69,000 as gold tumbles, oil spikes, but analyst says stay on sidelines",
+        "description": "While bitcoin has shown relative strength against gold since the war in Iran broke out, investors are better off holding off \"dry powder\" while prices swing wildly on headlines, said Wintermute's Bryan Tan.",
+        "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-holds-usd69-000-as-gold-tumbles-oil-spikes-but-analyst-says-stay-on-sidelines",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8b0cbfb13f2150f50866b873f33a5e55fbfb4eb4-1920x1080.jpg?auto=format",
+        "publishedAt": "2026-03-19T16:54:28Z",
+        "content": "Bitcoin BTC\r\n$69,786.67 drifted toward $69,000 on Thursday as the deepening conflict in Iran is spiraling across the Middle East, hitting energy infrastructure and spilling into global markets.\r\nOil … [+2393 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0143-3fd4-764a-8498-a43e1c08f31d.jpg",
         "publishedAt": "2026-03-18T14:02:38Z",
         "content": "Bitcoin (BTC) slid 2.5% around Wednesdays Wall Street open as a fresh US inflation overshoot spooked markets.\r\nKey points:\r\n<ul><li>US PPI inflation surpasses market expectations again, continuing it… [+3874 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Large investors are doubling down on crypto, but getting a lot pickier about risk",
-        "description": "Most institutional investors plan to increase allocations even as concerns around regulation and risk management continue to grow.",
-        "url": "https://www.coindesk.com/business/2026/03/18/large-investors-are-doubling-down-on-crypto-but-getting-a-lot-pickier-about-risk",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/de82d84087440c8b22943a46a1ca0fdab7936e0f-6870x4100.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-18T14:00:00Z",
-        "content": "Institutional investors remain broadly positive on digital assets despite recent market volatility, but they are becoming more selective about how they gain exposure, according to a new survey from C… [+4040 chars]"
       }
     ]
   }
