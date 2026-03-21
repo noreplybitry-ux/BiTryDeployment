@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T14:33:35.486Z",
+  "timestamp": "2026-03-21T15:32:43.044Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin Price Breaks Legendary 14-Year Support, What This Means For The Market",
+        "description": "The Bitcoin price has broken below a legendary support level that had stood strong for 14 years, marking a major moment for the cryptocurrency. Market expert Crypto Tice has released a new analysis detailing the significance of this breach, warning of potenti…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-14-year-support/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pixabay-81.jpg?fit=960%2C720",
+        "publishedAt": "2026-03-20T15:00:01Z",
+        "content": "The Bitcoin price has broken below a legendary support level that had stood strong for 14 years, marking a major moment for the cryptocurrency. Market expert Crypto Tice has released a new analysis d… [+3048 chars]"
+      },
       {
         "source": {
           "id": null,
