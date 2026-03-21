@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T04:42:33.926Z",
+  "timestamp": "2026-03-21T05:47:18.048Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Slips After Failure, Can Bulls Contain More Downside?",
+        "description": "Dogecoin started a fresh decline below the $0.0980 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.0950 and $0.0980. DOGE price started a fresh decline below the $0.0965 level. The price is trading below the $0.0965…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-slips-0-0920/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Slips-After-Failure.jpg?fit=1366%2C745",
+        "publishedAt": "2026-03-20T05:08:02Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/gemini-decrypt-style-02-gID_7.jpg",
         "publishedAt": "2026-03-18T16:34:19Z",
         "content": "In brief\r\n<ul><li>Citi downgraded Gemini from Neutral to Sell, saying it'll be years before the exchange achieves profitability.</li><li>GEMI stock was recently down more than 16% on the day, outpaci… [+3991 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "The Protocol: Ethereum community debates foundation’s new mandate document",
-        "description": "Also: World’s AgentKit, Visa and Coinbase on AI agents, and prediction markets + AI.",
-        "url": "https://www.coindesk.com/tech/2026/03/18/the-protocol-ethereum-community-debates-foundation-s-new-mandate-document",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/068a9cfe6c20aa6677d64104024485326a2f2aa2-1920x1080.jpg?auto=format",
-        "publishedAt": "2026-03-18T15:52:37Z",
-        "content": "ETHEREUM COMMUNITY DEBATES FOUNDATIONS NEW MANDATE DOCUMENT: The Ethereum Foundations new mandate a sweeping document released to clarify the organizations role and principles sparked a torrent of re… [+10703 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jesse Hamilton",
-        "title": "Former Binance CEO CZ waves off accusations on Iran, terror ties",
-        "description": "The founder of the world's largest exchange distanced himself from reports about Binance activity that reports had recently suggested aided terrorism.",
-        "url": "https://www.coindesk.com/policy/2026/03/18/former-binance-ceo-cz-waves-off-accusations-on-iran-terror-ties",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/669d5953ba94e54358c2e6bdcdf2a680c429a20a-1920x1080.jpg?auto=format",
-        "publishedAt": "2026-03-18T15:48:29Z",
-        "content": "Changpeng \"CZ Zhao embraced a chance to distance himself from recent accusations against Binance that it has been involved in handling transactions that potentially enabled terrorism financing in Ira… [+1776 chars]"
       }
     ]
   }
