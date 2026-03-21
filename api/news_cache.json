@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T13:02:31.592Z",
+  "timestamp": "2026-03-21T14:33:35.486Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Corporate Bitcoin Trend Grows As Asian Firm Hits 2,383 BTC",
+        "description": "A global Asian food platform and digital asset firm’s holdings are worth more than twice what the entire company trades for on the stock market — a gap that has quietly widened as the firm keeps buying week after week. Related Reading: XRP Still In Danger Zon…",
+        "url": "http://www.newsbtc.com/news/bitcoin/corporate-bitcoin-trend-grows-as-asian-firm-hits-2383-btc/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_16a984.jpg?fit=3000%2C1996",
+        "publishedAt": "2026-03-20T14:00:24Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, AI Boost",
+        "title": "Crypto wallet maker Ledger taps former Circle exec as CFO to help lead IPO push",
+        "description": "The crypto security firm is expanding its U.S. footprint and strengthening its leadership team as it prepares for a potential public listing.",
+        "url": "https://www.coindesk.com/business/2026/03/20/crypto-wallet-maker-ledger-taps-a-former-circle-exec-as-cfo-to-help-lead-its-push-into-the-public-markets",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4abeeb018174db4b622cc0f8da3fd79865e18f3f-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-20T13:57:14Z",
+        "content": "Ledger has appointed a new chief financial officer and opened a New York office as the crypto security firm expands its U.S. presence ahead of a planned public listing.\r\nThe company said John Andrews… [+2196 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Aaron Wood",
+        "title": "Crypto part of Canada’s ‘core’ financial system, but risk concerns remain",
+        "description": "The crypto industry has seen a number of regulatory changes over the past year, with the Canadian government taking a risk-management, rules-first approach.",
+        "url": "https://cointelegraph.com/features/crypto-canada-core-financial-risk-concerns-remain",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0b6f-40ed-782a-959d-581265b53fc8.jpg",
+        "publishedAt": "2026-03-20T13:48:19Z",
+        "content": "Cryptocurrencies and blockchain technology have increasingly become part of Canadas core financial system over the past year.\r\nIn November, the country introduced stablecoin regulations as part of th… [+6872 chars]"
+      },
       {
         "source": {
           "id": null,
