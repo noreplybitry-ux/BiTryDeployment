@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T11:29:14.490Z",
+  "timestamp": "2026-03-21T13:02:31.592Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Chainlink price outlook as spot ETFs see 2nd-biggest inflow",
+        "description": "Chainlink price hovered near $9.00 on Friday, March 20, 2026. LINK spot ETFs recorded their second‑highest inflow day with $3.34 million. Bulls could ride fresh optimism to target $14. Chainlink (LINK) is trading near $9.11 as bulls attempt to hold onto recen…",
+        "url": "https://coinjournal.net/news/chainlink-price-outlook-as-spot-etfs-see-2nd-biggest-inflow/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/03/chainlink-link-price-traders.png",
+        "publishedAt": "2026-03-20T12:58:30Z",
+        "content": "<ul><li>Chainlink price hovered near $9.00 on Friday, March 20, 2026.</li><li>LINK spot ETFs recorded their second‑highest inflow day with $3.34 million.</li><li>Bulls could ride fresh optimism to ta… [+3066 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Apple iOS Malware Targets Crypto Apps on Unpatched iPhones: Google",
+        "description": "The DarkSword exploit chain affects older versions of iOS 18, delivering malware that specifically hunts for exchange and wallet apps.",
+        "url": "https://decrypt.co/361888/apple-ios-malware-targets-crypto-apps-on-unpatched-iphones-google",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/malware-code-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-03-20T11:38:34Z",
+        "content": "In brief\r\n<ul><li>Google researchers have identified an iOS exploit chain called DarkSword that works against iPhones running iOS versions 18.4 through 18.7.</li><li>The exploit can be used to delive… [+2087 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/layoffs-decrypt-style-gID_7.jpeg",
         "publishedAt": "2026-03-18T21:00:02Z",
         "content": "In brief\r\n<ul><li>The Algorand Foundation laid off 25% of its staff due to the downturn in crypto markets. </li><li>The foundation remains focused on the network, which saw nearly a 5% growth in tran… [+3174 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitwise Found What’s Really Driving Ethereum Price, And It’s Not Fundamentals",
-        "description": "Ethereum’s price has spent much of the past cycle lagging its own institutional and on-chain progress, and Bitwise says the reason is straightforward: ETH is still trading primarily as a Bitcoin proxy, not as a fundamentally valued network. In a new factor-mo…",
-        "url": "http://www.newsbtc.com/news/ethereum/bitwise-whats-really-driving-ethereum-price/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-18-2026-10_36_11-AM.png?fit=1111%2C740",
-        "publishedAt": "2026-03-18T19:00:15Z",
-        "content": "Ethereums price has spent much of the past cycle lagging its own institutional and on-chain progress, and Bitwise says the reason is straightforward: ETH is still trading primarily as a Bitcoin proxy… [+3955 chars]"
       }
     ]
   }
