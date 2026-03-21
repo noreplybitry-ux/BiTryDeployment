@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T16:37:44.094Z",
+  "timestamp": "2026-03-21T17:31:16.920Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Nasdaq winning SEC approval to move stocks onchain shows how Wall Street is taking charge of crypto tech",
+        "description": "Nasdaq's structure the SEC approved opens door to bring blockchain benefits to equities, while preserving the same-old intermediaries and market structure, industry insiders say.",
+        "url": "https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/84a2d1515233c6dfc723dbcca2afc300ec9b89f4-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-20T17:04:22Z",
+        "content": "The SECs fresh approval of Nasdaqs tokenized securities framework marks a key turning point for how stocks could trade in the future: it brings blockchain into the core of U.S. equity markets, but on… [+4370 chars]"
+      },
       {
         "source": {
           "id": null,
