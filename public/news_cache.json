@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T10:34:29.026Z",
+  "timestamp": "2026-03-21T11:29:14.490Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin vs gold shows potential bottom signals as BTC bulls defend $70K",
+        "description": "Bitcoin vs. gold ratio flashes classic bottom signals with oversold RSI recovery and impending bullish trend line cross after 14-month drawdown.",
+        "url": "https://cointelegraph.com/markets/bitcoin-vs-gold-flashes-multiple-bottom-signals-btc-bulls-defend-70k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b455a-624c-7d0f-827a-c20fba141264.jpg",
+        "publishedAt": "2026-03-20T10:38:42Z",
+        "content": "Bitcoin (BTC) has endured a 14-month bear market against gold, with the BTC/gold ratio and momentum indicators at historic lows that previously marked cycle bottoms.\r\nKey takeaways:\r\n<ul><li>The BTC/… [+3573 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-18-2026-10_36_11-AM.png?fit=1111%2C740",
         "publishedAt": "2026-03-18T19:00:15Z",
         "content": "Ethereums price has spent much of the past cycle lagging its own institutional and on-chain progress, and Bitwise says the reason is straightforward: ETH is still trading primarily as a Bitcoin proxy… [+3955 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "‘Rich Dad, Poor Dad’ author says ‘pin is near’ on TradFi ‘bubble burst:’ Predicts $750K Bitcoin",
-        "description": "Bitcoin may be destined for a rally to $750,000, but first, the global markets have to crash. Robert Kiyosaki explains why.",
-        "url": "https://cointelegraph.com/markets/rich-dad-poor-dad-author-says-pin-is-near-on-tradfi-bubble-burst-predicts-750k-bitcoin",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cff7c-3374-71cd-bb46-d76e8ff96315.jpg",
-        "publishedAt": "2026-03-18T17:30:00Z",
-        "content": "Key takeaways:\r\n<ul><li>Robert Kiyosakis $750,000 Bitcoin target implies a 95% discount versus gold, which is lower than the 2024 peak.\r\n</li><li>$750,000 Bitcoin might not be that significant if dai… [+4232 chars]"
       }
     ]
   }
