@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T17:31:16.920Z",
+  "timestamp": "2026-03-21T18:45:08.391Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
       {
         "source": {
@@ -485,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-Getty-Images-16.jpg?fit=612%2C408",
         "publishedAt": "2026-03-19T01:00:11Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin falls under $71K but data shows BTC’s bullish momentum holding",
-        "description": "Bitcoin dropped below $71,000, but the market’s tilt toward bulls holds as spot ETF inflows and BTC buying from Strategy boost investor sentiment.",
-        "url": "https://cointelegraph.com/markets/bitcoin-falls-under-71k-but-data-shows-btc-s-bullish-momentum-holding",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d027f-dfb8-7b15-878e-bca0c700c8a5.jpg",
-        "publishedAt": "2026-03-18T23:23:32Z",
-        "content": "Key takeaways:\r\n<ul><li>Spot market demand through US-listed ETFs and Strategy buying BTC supports Bitcoins bullish momentum.\r\n</li><li>Low leverage among Bitcoin bulls reduces the risk of cascading … [+4529 chars]"
       }
     ]
   }
