@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T15:32:43.044Z",
+  "timestamp": "2026-03-21T16:37:44.094Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Tom Lee Says Ethereum Looks Ready To Exit Crypto Winter",
+        "description": "Tom Lee used a Hong Kong conference stage to argue that Ethereum may be close to a cyclical turn, pointing to historical market analogs and on-chain cost-basis data that, in his view, suggest the selloff has reached exhaustion. Speaking at the 3rd Futu Expo 2…",
+        "url": "http://www.newsbtc.com/news/ethereum/tom-lee-ethereum-ready-exit-crypto-winter/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-10_53_05-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-20T16:00:15Z",
+        "content": "Tom Lee used a Hong Kong conference stage to argue that Ethereum may be close to a cyclical turn, pointing to historical market analogs and on-chain cost-basis data that, in his view, suggest the sel… [+3172 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "What happens to Bitcoin if oil price hits $180 per barrel?",
+        "description": "A 70% oil spike could nearly double US inflation, slash rate-cut hopes, and deepen downside risks for Bitcoin prices in the coming months.",
+        "url": "https://cointelegraph.com/markets/what-happens-to-bitcoin-if-oil-price-hits-180-per-barrel",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bc1ad-31b2-707e-92d8-5b63a16f1777.jpg",
+        "publishedAt": "2026-03-20T15:53:33Z",
+        "content": "Bitcoin (BTC) has outperformed US equities and gold since the US and Israels attack on Iran on Feb. 28, underscoring its strength amid one of the years biggest geopolitical shocks.\r\nHowever, BTCs ral… [+3706 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +485,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d027f-dfb8-7b15-878e-bca0c700c8a5.jpg",
         "publishedAt": "2026-03-18T23:23:32Z",
         "content": "Key takeaways:\r\n<ul><li>Spot market demand through US-listed ETFs and Strategy buying BTC supports Bitcoins bullish momentum.\r\n</li><li>Low leverage among Bitcoin bulls reduces the risk of cascading … [+4529 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Algorand Foundation Cuts 25% of Staff as Crypto Industry Layoffs Grow",
-        "description": "The organization behind layer-1 blockchain Algorand laid off 25% of its staff due to macroeconomic uncertainty and lower crypto prices.",
-        "url": "https://decrypt.co/361625/algorand-foundation-cuts-staff-crypto-industry-layoffs-grow",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/layoffs-decrypt-style-gID_7.jpeg",
-        "publishedAt": "2026-03-18T21:00:02Z",
-        "content": "In brief\r\n<ul><li>The Algorand Foundation laid off 25% of its staff due to the downturn in crypto markets. </li><li>The foundation remains focused on the network, which saw nearly a 5% growth in tran… [+3174 chars]"
       }
     ]
   }
