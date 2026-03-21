@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T19:30:47.591Z",
+  "timestamp": "2026-03-21T20:34:53.095Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Crypto Biz: Institutions aren’t waiting for the bottom",
+        "description": "Nearly three-quarters of institutional investors plan to increase their digital asset allocations this year, with Bitcoin, Ether, stablecoins and tokenized assets seeing the most interest.",
+        "url": "https://cointelegraph.com/news/crypto-biz-institutional-crypto-demand-stablecoins-abra-spac-listing",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0c37-383e-741e-9491-6cee1f92ed10.jpg",
+        "publishedAt": "2026-03-20T20:00:00Z",
+        "content": "Institutional demand for crypto is holding up despite ongoing turbulence, with new data showing large investors are preparing to increase allocations even after the markets sharp sell-off since Octob… [+3960 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c2cf1-fb06-7f0b-b9c2-0b1c7dae6413.jpg",
         "publishedAt": "2026-03-19T03:26:34Z",
         "content": "A California court on Wednesday dismissed a Coinbase users attempt to block an IRS summons for his financial records, in at least the second such case in the past year to fail to reach trial. \r\nRoger… [+2968 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Ethereum Explodes 24% After Key Breakout: Rally To $4,956 In Play?",
-        "description": "Ethereum has surged 24% in just over a week, breaking above a key resistance with strong volume and signaling renewed bullish momentum. With a bullish structure still intact, attention now shifts to whether ETH can sustain the move toward the $4,956 target or…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-explodes-24-breakout/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-Getty-Images-16.jpg?fit=612%2C408",
-        "publishedAt": "2026-03-19T01:00:11Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
       }
     ]
   }
