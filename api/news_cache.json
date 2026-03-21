@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T09:38:48.904Z",
+  "timestamp": "2026-03-21T10:34:29.026Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Price Is Headed For $8,500 If This Happens",
+        "description": "Ethereum, being the second-largest cryptocurrency by market cap, has often drawn a lot of attention as the next in line to replicate Bitcoin’s success. But despite Bitcoin rallying to new all-time highs, Ethereum has stayed below $5,000, unable to hit this ma…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-headed-8500/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-from-Adobe-Stock-4.jpg?fit=527%2C360",
+        "publishedAt": "2026-03-20T10:30:17Z",
+        "content": "Ethereum, being the second-largest cryptocurrency by market cap, has often drawn a lot of attention as the next in line to replicate Bitcoins success. But despite Bitcoin rallying to new all-time hig… [+2512 chars]"
+      },
       {
         "source": {
           "id": null,
