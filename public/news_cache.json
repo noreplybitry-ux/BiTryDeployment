@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T02:31:15.948Z",
+  "timestamp": "2026-03-21T04:42:33.925Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Ethereum Hits Rare MVRV Zone Linked To Past 130%+ Rallies",
+        "description": "Ethereum has slipped into a valuation range that some on-chain analysts associate with major long-term bottoms, after ETH fell below its realized price for the first time in two years. Via X, renowned crypto analyst Ali Martinez argued on Thursday the setup n…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-rare-buy-zone-mvrv/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-19-2026-02_19_45-PM.png?fit=1111%2C740",
+        "publishedAt": "2026-03-20T04:00:17Z",
+        "content": "Ethereum has slipped into a valuation range that some on-chain analysts associate with major long-term bottoms, after ETH fell below its realized price for the first time in two years. Via X, renowne… [+2829 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Drops to $2,100, Shaking Confidence Amid Volatility",
+        "description": "Ethereum price started a sharp decline from the $2,385 zone. ETH is now consolidating above $2,100 and might aim for a recovery wave if it climbs above $2,200. Ethereum started a sharp decline below the $2,320 zone. The price is trading below $2,250 and the 1…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-drops-to-2100/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Ethereum-Price-Flashes-Bearish-Bias.jpg?fit=1024%2C572",
+        "publishedAt": "2026-03-20T03:28:39Z",
+        "content": "Ethereum price started a sharp decline from the $2,385 zone. ETH is now consolidating above $2,100 and might aim for a recovery wave if it climbs above $2,200.\r\n<ul><li>Ethereum started a sharp decli… [+2187 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Cools Off — Range Forms Around $70K Support",
+        "description": "Bitcoin price started a sharp decline from well above $73,000. BTC is now consolidating and might aim for a fresh increase if it clears $72,400. Bitcoin started a sharp decline below $72,000 and $71,500. The price is trading below $72,500 and the 100 hourly s…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-cools-off-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Breakdown.jpg",
+        "publishedAt": "2026-03-20T02:55:36Z",
+        "content": "Bitcoin price started a sharp decline from well above $73,000. BTC is now consolidating and might aim for a fresh increase if it clears $72,400.\r\n<ul><li>Bitcoin started a sharp decline below $72,000… [+2258 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,58 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/669d5953ba94e54358c2e6bdcdf2a680c429a20a-1920x1080.jpg?auto=format",
         "publishedAt": "2026-03-18T15:48:29Z",
         "content": "Changpeng \"CZ Zhao embraced a chance to distance himself from recent accusations against Binance that it has been involved in handling transactions that potentially enabled terrorism financing in Ira… [+1776 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Stephen Graves",
-        "title": "'Crypto Castle': YouTube Comedy Takes You Back to When Bitcoin Was Just $250",
-        "description": "“The Crypto Castle” takes a look at the early days of Bitcoin—and the \"sad evolution\" it's undergone since then.",
-        "url": "https://decrypt.co/360897/new-youtube-comedy-set-bitcoin-just-250",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/crypto-castle-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-03-18T15:31:02Z",
-        "content": "In brief\r\n<ul><li>New YouTube series \"The Crypto Castle\" dials back the clock to 2015, when Bitcoin was just $250.</li><li>Viv Ford stars as Viv, who moves into a house full of early Bitcoin adopters… [+3087 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Payward, parent of crypto exchange Kraken, has put its IPO plans on hold",
-        "description": "Kraken's parent company filed a draft S-1 registration statement with the SEC in November regarding the proposed initial public offering of its common stock.",
-        "url": "https://www.coindesk.com/business/2026/03/17/crypto-exchange-kraken-freezes-multibillion-dollar-ipo-plan-due-to-difficult-market-conditions",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/350e51e2451b87ad30e2ee3a500adb4910c3274e-1920x1079.jpg?auto=format",
-        "publishedAt": "2026-03-18T15:14:18Z",
-        "content": "Crypto exchange Kraken, which announced four months ago that it planned to go public, has put its plan on hold, according to two people with knowledge of the matter. \r\nThe company is still considerin… [+2992 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Bitcoin, Ethereum Slip on Inflation Surprise as Oil Prices Jump",
-        "description": "Bitcoin fell alongside U.S. stocks after the world's largest gas field came under attack amid hotter-than-expected inflation data.",
-        "url": "https://decrypt.co/361556/bitcoin-ethereum-slip-inflation-surprise-oil-prices-jump",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/bitcoin-oil-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-03-18T15:05:40Z",
-        "content": "In brief\r\n<ul><li>Bitcoin dove from $74,000 after a hotter-than-expected inflation reading.</li><li>Oil prices surged on reports that the worlds largest gas field was struck in Iran.</li><li>Fed Chai… [+2891 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Bitcoin hash rate is tumbling as Iran war lifts energy prices",
-        "description": "A falling hash rate and the resultant pressure on miners could signal another potential capitulation phase, which could push prices down further",
-        "url": "https://www.coindesk.com/markets/2026/03/18/bitcoin-hash-rate-is-tumbling-as-iran-war-lifts-energy-prices",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2f8f0af7ccc034c06cbbfaf318c734fc0eb012fe-1069x719.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-18T14:53:08Z",
-        "content": "Bitcoin's hash rate is tumbling as the Middle East conflict drives up energy prices, adding pressure to the mining sector and broader market.\r\nThe drop in hash rate is likely tied to geopolitical ten… [+1113 chars]"
       }
     ]
   }
