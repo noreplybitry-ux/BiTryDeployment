@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-22T17:31:06.977Z",
+  "timestamp": "2026-03-22T18:47:03.612Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/670ba58fa926659cd4f56234ddfb24fc05ad118a-1920x1080.jpg?auto=format",
         "publishedAt": "2026-03-19T16:16:26Z",
         "content": "As AI agents become a bigger topic in crypto, Pranav Ramesh told CoinDesk that Nasdaq has already been using them across several sections of its business and has sharply expanded that use over roughl… [+4340 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "Bitcoin Dips Under $70K as Stocks Tumble on Hawkish Fed Hold—What’s Next?",
-        "description": "Analysts remain cautiously optimistic after the Fed’s hawkish stance, expecting a low volatility regime ahead of the quarterly options expiry.",
-        "url": "https://decrypt.co/361683/bitcoin-dips-under-70k-as-stocks-tumble-on-hawkish-fed-hold-whats-next",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-03-19T12:12:29Z",
-        "content": "In brief\r\n<ul><li>Bitcoin fell over 4% on the day to below $70,000 after the Fed held rates steady at 3.50%-3.75%.</li><li>Two whales sold 5,650 BTC on Wednesday, adding to macro-driven sell pressure… [+2336 chars]"
       }
     ]
   }
