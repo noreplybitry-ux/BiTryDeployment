@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-22T07:04:17.311Z",
+  "timestamp": "2026-03-22T08:42:24.345Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/ethereum-price-trading-laptop-chart.jpg.png",
         "publishedAt": "2026-03-19T10:04:23Z",
         "content": "<ul><li>Ethereum price was poised above the $2,150 level.</li><li>Bulls were showing resilience as a whale re-accumulated $111 million worth of ETH.</li><li>Another move above $2,000 could push price… [+3022 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Says Bitcoin Price Is Showing Dangerous Weakness, Here’s Why",
-        "description": "The Bitcoin price broke above $75,000 earlier this week, marking the highest level for the pioneer cryptocurrency for over one month. But while this move has led to an improvement in the overall investor sentiment, it could end up being a trap. This is called…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-dangerous-weakness/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-12-2026-09_05_55-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-19T07:30:54Z",
-        "content": "The Bitcoin price broke above $75,000 earlier this week, marking the highest level for the pioneer cryptocurrency for over one month. But while this move has led to an improvement in the overall inve… [+2388 chars]"
       }
     ]
   }
