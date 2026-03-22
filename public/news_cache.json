@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-22T11:29:45.508Z",
+  "timestamp": "2026-03-22T13:04:51.002Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Market Not Ready For Expansion Yet — Blockchain Firm",
+        "description": "According to a recent on-chain data evaluation, the Bitcoin price might not be seeing a start to renewed price expansion in the near-term. Interestingly, this hypothesis seems to align with the multiple recovery attempts by the flagship cryptocurrency over th…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-market-is-not-ready-for-expansion-yet/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-485863805.jpg?fit=2120%2C1415",
+        "publishedAt": "2026-03-21T13:00:52Z",
+        "content": "According to a recent on-chain data evaluation, the Bitcoin price might not be seeing a start to renewed price expansion in the near-term. Interestingly, this hypothesis seems to align with the multi… [+2923 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-43.jpg?fit=1280%2C719",
         "publishedAt": "2026-03-19T10:30:41Z",
         "content": "Bitcoin is back at a point where the next move may carry more importance than an ordinary resistance test. The latest rebound has pulled the price back into a zone that could be the line between a co… [+2580 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Ethereum price hovers near key level as $111M whale sparks fresh accumulation",
-        "description": "Ethereum price was poised above the $2,150 level. Bulls were showing resilience as a whale re-accumulated $111 million worth of ETH. Another move above $2,000 could push prices towards the $2,500 resistance. A mysterious Ethereum whale has re-emerged after ly…",
-        "url": "https://coinjournal.net/news/ethereum-price-hovers-near-key-level-as-111m-whale-sparks-fresh-accumulation/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/ethereum-price-trading-laptop-chart.jpg.png",
-        "publishedAt": "2026-03-19T10:04:23Z",
-        "content": "<ul><li>Ethereum price was poised above the $2,150 level.</li><li>Bulls were showing resilience as a whale re-accumulated $111 million worth of ETH.</li><li>Another move above $2,000 could push price… [+3022 chars]"
       }
     ]
   }
