@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-21T23:31:37.152Z",
+  "timestamp": "2026-03-22T02:47:20.748Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -472,19 +472,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
         "publishedAt": "2026-03-19T06:38:05Z",
         "content": "<ul><li>Bitcoin traded to intraday lows of $70,500 amid key macro and geopolitical-related events.</li><li>Veteran trader Peter Brandt has highlighted a potential bearish retest of support.</li><li>T… [+3102 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Canada vows continued crypto crackdown after taking down 47 firms in 2026",
-        "description": "Canada's financial intelligence unit has revoked the registrations of nearly 50 crypto money services businesses this year, and the minister of finance says the crackdown is ongoing.",
-        "url": "https://cointelegraph.com/news/canada-crypto-msb-crackdown-50-registrations-revoked",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0457-4bcd-7310-b8a3-486dd33478b0.jpg",
-        "publishedAt": "2026-03-19T06:22:43Z",
-        "content": "Canada's financial intelligence unit has revoked the registrations of 50 money services businesses (MSBs) so far this year, with 47 related to crypto, and the minister of finance says it will continu… [+2013 chars]"
       }
     ]
   }
