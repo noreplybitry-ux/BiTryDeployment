@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-22T02:47:20.748Z",
+  "timestamp": "2026-03-22T04:58:01.785Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-12-2026-09_05_55-AM.png?fit=1222%2C814",
         "publishedAt": "2026-03-19T07:30:54Z",
         "content": "The Bitcoin price broke above $75,000 earlier this week, marking the highest level for the pioneer cryptocurrency for over one month. But while this move has led to an improvement in the overall inve… [+2388 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Bitcoin retests $70K as veteran trader flags ‘ugly’ setup",
-        "description": "Bitcoin traded to intraday lows of $70,500 amid key macro and geopolitical-related events. Veteran trader Peter Brandt has highlighted a potential bearish retest of support. The Iran war and inflation concerns tick potential negative catalysts boxes. Bitcoin …",
-        "url": "https://coinjournal.net/news/bitcoin-retests-70k-as-veteran-trader-warns-of-ugly-flag-pattern/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
-        "publishedAt": "2026-03-19T06:38:05Z",
-        "content": "<ul><li>Bitcoin traded to intraday lows of $70,500 amid key macro and geopolitical-related events.</li><li>Veteran trader Peter Brandt has highlighted a potential bearish retest of support.</li><li>T… [+3102 chars]"
       }
     ]
   }
