@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-23T20:43:21.934Z",
+  "timestamp": "2026-03-23T21:43:18.470Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-68.jpg?fit=612%2C408",
         "publishedAt": "2026-03-19T19:30:52Z",
         "content": "Arthur Hayes, co-founder of BitMEX, has reiterated his $250,000 year-end price target for Bitcoin. With Bitcoin trading around $70,100, that target would imply roughly 256.5% upside from current leve… [+2649 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Wall Street heavyweight Cantor among investment banks pitching crypto trading firm FalconX for its potential IPO",
-        "description": "Wall Street heavyweight Cantor among investment banks pitching crypto trading firm FalconX for its potential IPOcoindesk.com",
-        "url": "https://www.coindesk.com/business/2026/03/18/wall-street-heavyweight-cantor-among-investment-banks-pitching-falconx-for-its-potential-ipo",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d0183643376c63d3344b437b12fb69486c8bd450-1500x996.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-19T19:23:09Z",
-        "content": "Wall Street financial services firm Cantor is among investment banks that are pitching cryptocurrency trading platform FalconX for its potential IPO, according to two people with knowledge of the mat… [+4705 chars]"
       }
     ]
   }
