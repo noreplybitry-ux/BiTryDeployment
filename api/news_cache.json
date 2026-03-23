@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-23T09:05:19.667Z",
+  "timestamp": "2026-03-23T10:58:25.407Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Coinbase-backed CoinDCX founders questioned in fraud case: Report",
+        "description": "Indian crypto exchange CoinDCX says the fraud complaint that led to the founders’ arrests is part of a wider impersonation scam, citing more than 1,200 fake sites using its brand.",
+        "url": "https://cointelegraph.com/news/coinbase-backed-coindcx-founders-questioned-report",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1475-7283-7720-b5d7-ba0b63fddefa.jpg",
+        "publishedAt": "2026-03-22T09:19:00Z",
+        "content": "Indian crypto exchange CoinDCX co-founders Sumit Gupta and Neeraj Khandelwal have reportedly been arrested in India following a police complaint alleging their involvement in a crypto investment frau… [+2355 chars]"
+      },
       {
         "source": {
           "id": null,
