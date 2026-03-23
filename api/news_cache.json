@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-23T15:02:35.554Z",
+  "timestamp": "2026-03-23T17:00:52.219Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-from-Pixabay-9.jpg?fit=1280%2C720",
         "publishedAt": "2026-03-19T16:30:05Z",
         "content": "A recent rebound in the Ethereum price has brought renewed focus to an analyst who accurately identified its local bottom. With price now recovering sharply from that region, the same market watcher … [+2732 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "As crypto trading platforms race to deploy AI agents, here's what a Nasdaq executive is seeing",
-        "description": "Human oversight remains, but machines now drive most decisions as Nasdaq expands AI across surveillance, compliance and trading workflows at scale, says Nasdaq and Leadpoet exec",
-        "url": "https://www.coindesk.com/business/2026/03/19/crypto-trading-platforms-race-to-deploy-ai-agents-job-losses-to-artificial-intelligence-will-continue-to-mount",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/670ba58fa926659cd4f56234ddfb24fc05ad118a-1920x1080.jpg?auto=format",
-        "publishedAt": "2026-03-19T16:16:26Z",
-        "content": "As AI agents become a bigger topic in crypto, Pranav Ramesh told CoinDesk that Nasdaq has already been using them across several sections of its business and has sharply expanded that use over roughl… [+4340 chars]"
       }
     ]
   }
