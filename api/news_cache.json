@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-22T23:35:15.109Z",
+  "timestamp": "2026-03-23T02:47:38.287Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Holds As Gold Posts Worst Week Since 1983 Amid Iran War",
+        "description": "Bitcoin quietly gained ground while gold crumbled. That contrast has become one of the more telling stories to emerge from weeks of escalating conflict in the Middle East, as the two assets — long compared as competing stores of value — have moved in sharply …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-holds-as-gold-posts-worst-week-since-1983-amid-iran-war/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-22T02:00:56Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
