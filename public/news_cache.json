@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-24T20:50:37.448Z",
+  "timestamp": "2026-03-24T21:44:12.529Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Price Recovery Paints Familiar Pattern—And That’s the Problem: Analysis",
+        "description": "Bitcoin bulls are feeling it right now. But the BTC price chart is quietly drawing the same pattern it drew before two major crashes in a row.",
+        "url": "https://decrypt.co/362087/bitcoin-price-pattern-market-crash-analysis",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-20-gID_7.png",
+        "publishedAt": "2026-03-23T20:54:30Z",
+        "content": "In brief\r\n<ul><li>Bitcoin climbed above $71,000 today, offering bulls their first glimpse of relief since February's collapse.</li><li>At the same time, the price move has formed the same compressive… [+6447 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bc38a-2595-72a4-a5f7-6778612c69d5.jpg",
         "publishedAt": "2026-03-20T20:56:20Z",
         "content": "Bitcoins (BTC) swift rejection from its $76,000 range high on Tuesday, and the subsequent sell-off below $70,000, raised concerns among traders that the bottom is not in for BTC.\r\nChartered market te… [+2054 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Crypto Biz: Institutions aren’t waiting for the bottom",
-        "description": "Nearly three-quarters of institutional investors plan to increase their digital asset allocations this year, with Bitcoin, Ether, stablecoins and tokenized assets seeing the most interest.",
-        "url": "https://cointelegraph.com/news/crypto-biz-institutional-crypto-demand-stablecoins-abra-spac-listing",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d0c37-383e-741e-9491-6cee1f92ed10.jpg",
-        "publishedAt": "2026-03-20T20:00:00Z",
-        "content": "Institutional demand for crypto is holding up despite ongoing turbulence, with new data showing large investors are preparing to increase allocations even after the markets sharp sell-off since Octob… [+3960 chars]"
       }
     ]
   }
