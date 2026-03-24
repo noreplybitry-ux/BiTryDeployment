@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-24T21:44:12.529Z",
+  "timestamp": "2026-03-24T22:38:45.581Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Senator Warren questions whether MrBeast will market crypto to kids",
+        "description": "Senator Elizabeth Warren urged MrBeast and Beast Industries’ CEO to take ”great care” and comply with the law if they planned to market crypto trading to minors and young adults.",
+        "url": "https://cointelegraph.com/news/senator-warren-mrbeast-crypto-children",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bb63f-beec-7de2-8139-1f7d5e2446fd.jpg",
+        "publishedAt": "2026-03-23T21:48:03Z",
+        "content": "Massachusetts Senator Elizabeth Warren has raised concerns about whether YouTuber Jimmy Donaldson, better known as MrBeast, intends to market cryptocurrency to teenagers and young adults following hi… [+2760 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-2.jpg?fit=1792%2C1024",
         "publishedAt": "2026-03-20T22:00:35Z",
         "content": "Ethereum is trading around the $2,150 level as volatility persists across the broader cryptocurrency market, reflecting a phase of uncertainty following recent price swings. While the asset has manag… [+4079 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Antonio Oliveira",
-        "title": "Bitcoin price aims to hold $70K amid rising inflation concerns",
-        "description": "Bitcoin searches for equilibrium at $70,000 while rising crude oil prices and tanking stock markets have investors worried over the future of inflation in the US.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-aims-to-hold-70k-amid-rising-inflation-concerns",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bc38a-2595-72a4-a5f7-6778612c69d5.jpg",
-        "publishedAt": "2026-03-20T20:56:20Z",
-        "content": "Bitcoins (BTC) swift rejection from its $76,000 range high on Tuesday, and the subsequent sell-off below $70,000, raised concerns among traders that the bottom is not in for BTC.\r\nChartered market te… [+2054 chars]"
       }
     ]
   }
