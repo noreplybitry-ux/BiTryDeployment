@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-24T11:51:16.979Z",
+  "timestamp": "2026-03-24T13:25:44.944Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Crypto ETF inflows slow to $230M as Fed caution dents momentum: CoinShares",
+        "description": "Weekly crypto ETP inflows reached $230 million despite $405 million in post-FOMC outflows, as Bitcoin led gains and Ether ended a three-week inflow streak, CoinShares reported.",
+        "url": "https://cointelegraph.com/news/crypto-fund-inflows-slow-230-million-fed-hits-sentiment",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1aac-9df5-72d2-9d3d-71cec18e7bb2.jpg",
+        "publishedAt": "2026-03-23T13:19:43Z",
+        "content": "Crypto investment products maintained their inflow streak last week but momentum slowed amid ongoing Middle East tensions and a hawkish pause interpretation of the US Feds meeting.\r\nCrypto exchange-t… [+2514 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Dilip Kumar Patairya",
+        "title": "How a ‘Wrong Number’ message turned into a $3.4M crypto scam",
+        "description": "Explore how scammers turned a casual text into a $3.4 million crypto fraud through trust-building, fake Ether investments and layered money laundering.",
+        "url": "https://cointelegraph.com/features/wrong-number-text-crypto-scam",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1ab8-3301-7c1e-b0bb-ac08977da584.jpg",
+        "publishedAt": "2026-03-23T12:47:21Z",
+        "content": "Key takeaways\r\n<ul><li>This $3.4 million scam shows how modern crypto fraud increasingly relies on social engineering rather than technical exploits.\r\n</li><li>Scammers used a gradual grooming proces… [+9943 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/malware-code-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-03-20T11:38:34Z",
         "content": "In brief\r\n<ul><li>Google researchers have identified an iOS exploit chain called DarkSword that works against iPhones running iOS versions 18.4 through 18.7.</li><li>The exploit can be used to delive… [+2087 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin vs gold shows potential bottom signals as BTC bulls defend $70K",
-        "description": "Bitcoin vs. gold ratio flashes classic bottom signals with oversold RSI recovery and impending bullish trend line cross after 14-month drawdown.",
-        "url": "https://cointelegraph.com/markets/bitcoin-vs-gold-flashes-multiple-bottom-signals-btc-bulls-defend-70k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b455a-624c-7d0f-827a-c20fba141264.jpg",
-        "publishedAt": "2026-03-20T10:38:42Z",
-        "content": "Bitcoin (BTC) has endured a 14-month bear market against gold, with the BTC/gold ratio and momentum indicators at historic lows that previously marked cycle bottoms.\r\nKey takeaways:\r\n<ul><li>The BTC/… [+3573 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Price Is Headed For $8,500 If This Happens",
-        "description": "Ethereum, being the second-largest cryptocurrency by market cap, has often drawn a lot of attention as the next in line to replicate Bitcoin’s success. But despite Bitcoin rallying to new all-time highs, Ethereum has stayed below $5,000, unable to hit this ma…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-headed-8500/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-from-Adobe-Stock-4.jpg?fit=527%2C360",
-        "publishedAt": "2026-03-20T10:30:17Z",
-        "content": "Ethereum, being the second-largest cryptocurrency by market cap, has often drawn a lot of attention as the next in line to replicate Bitcoins success. But despite Bitcoin rallying to new all-time hig… [+2512 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Slips After Failure, Can Bulls Contain More Downside?",
-        "description": "Dogecoin started a fresh decline below the $0.0980 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.0950 and $0.0980. DOGE price started a fresh decline below the $0.0965 level. The price is trading below the $0.0965…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-slips-0-0920/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Slips-After-Failure.jpg?fit=1366%2C745",
-        "publishedAt": "2026-03-20T05:08:02Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
