@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-24T06:08:35.975Z",
+  "timestamp": "2026-03-24T07:57:56.998Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "If Bitcoin Price Doesn’t Hold Take And Hold $69,000 With Momentum, It Could Get Very Bad",
+        "description": "The Bitcoin price broke below $70,000 over the weekend, effectively erasing the gains from the previous week. This move puts the cryptocurrency in a perilous position as the bulls are now hard-pressed to find another major support or risk the decline going de…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-could-get-very-bad/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-6-2026-02_18_32-PM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-23T06:30:31Z",
+        "content": "The Bitcoin price broke below $70,000 over the weekend, effectively erasing the gains from the previous week. This move puts the cryptocurrency in a perilous position as the bulls are now hard-presse… [+2170 chars]"
+      },
       {
         "source": {
           "id": null,
