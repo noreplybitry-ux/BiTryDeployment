@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-23T23:39:12.347Z",
+  "timestamp": "2026-03-24T02:38:51.360Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "NYSE exchanges scrap crypto options cap on 11 Bitcoin, Ether ETFs",
+        "description": "Part of the approved rule changes allows institutions to trade the crypto ETFs as FLEX options, which offer customizable terms like non-standard strike prices and expiration dates.",
+        "url": "https://cointelegraph.com/news/nyse-exchanges-scrap-crypto-options-cap",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b0172-c66b-7652-b04e-fa41302079e3",
+        "publishedAt": "2026-03-23T00:46:41Z",
+        "content": "Two New York Stock Exchange-affiliated exchanges have removed the 25,000 contract position limit on options tied to 11 crypto exchange-traded funds.\r\nNYSE Arca and NYSE American each filed three rule… [+1921 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Sebastian Sinclair",
+        "title": "Bitcoin Price Slides but Holds Up Better Than Stocks as Oil Shock Continues",
+        "description": "Earlier deleveraging and continued institutional participation have helped keep Bitcoin more stable than other risk assets during the recent macro-driven selloff.",
+        "url": "https://decrypt.co/361973/bitcoin-price-holds-up-better-stocks-oil-shock-continues",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
+        "publishedAt": "2026-03-23T00:41:36Z",
+        "content": "In brief\r\n<ul><li>Oil prices are climbing back toward $100 a barrel as tensions around the Strait of Hormuz escalate.</li><li>Bitcoin remains range-bound after months of deleveraging earlier this yea… [+3356 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/gemini-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-03-19T21:57:38Z",
         "content": "In brief\r\n<ul><li>Shares rose more than 7% after hours following results showing services revenue overtook trading for the first time amid aggressive cost cutting measures in the form of job layoffs.… [+3612 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Animoca invests in Ava Labs to boost Avalanche adoption in Asia, Middle East",
-        "description": "Animoca Brands has invested in Ava Labs and partnered to support Avalanche-based projects, targeting real-world assets, digital identity and expansion across Asia and the Middle East.",
-        "url": "https://cointelegraph.com/news/animoca-brands-invests-in-avax-partners-with-ava-labs-to-expand-avalanche-in-asia-and-middle-east",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d073c-c1c8-7f66-9ce5-0cb4b1016c20.jpg",
-        "publishedAt": "2026-03-19T19:31:48Z",
-        "content": "Animoca Brands has made a strategic investment in Ava Labs and entered a partnership to support projects building on the Avalanche blockchain, focusing on capital deployment, advisory support and exp… [+3192 chars]"
       }
     ]
   }
