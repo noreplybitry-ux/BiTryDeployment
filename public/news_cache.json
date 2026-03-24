@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-24T04:59:20.318Z",
+  "timestamp": "2026-03-24T06:08:35.975Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Hong Kong’s Boyaa Interactive eyes $70M crypto treasury expansion",
+        "description": "Web3 gaming firm Boyaa Interactive International said it is looking to use its cash reserves to buy $70 million worth of crypto over the next 12 months, pending shareholder approval.",
+        "url": "https://cointelegraph.com/news/hong-kong-web3-gaming-company-70-million-crypto-buys",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d18b5-7514-77ba-bdbf-679c463e9b98.jpg",
+        "publishedAt": "2026-03-23T05:23:51Z",
+        "content": "Hong Kong-based Web3 gaming firm Boyaa Interactive International said it is seeking shareholder approval to expand its crypto treasury, planning up to $70 million in purchases over the next year.\r\nIn… [+1913 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Drifts Lower, Is a Drop Below $85 Now Imminent?",
+        "description": "Solana failed to settle above $92 and extended losses. SOL price is now consolidating losses below $90 and might struggle to start a recovery wave. SOL price started a fresh decline below $90 and $88 against the US Dollar. The price is now trading below $88 a…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-drifts-lower-85/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Drifts-Lower.jpg?fit=1366%2C745",
+        "publishedAt": "2026-03-23T05:18:04Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Slips-After-Failure.jpg?fit=1366%2C745",
         "publishedAt": "2026-03-20T05:08:02Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Ethereum Hits Rare MVRV Zone Linked To Past 130%+ Rallies",
-        "description": "Ethereum has slipped into a valuation range that some on-chain analysts associate with major long-term bottoms, after ETH fell below its realized price for the first time in two years. Via X, renowned crypto analyst Ali Martinez argued on Thursday the setup n…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-rare-buy-zone-mvrv/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-19-2026-02_19_45-PM.png?fit=1111%2C740",
-        "publishedAt": "2026-03-20T04:00:17Z",
-        "content": "Ethereum has slipped into a valuation range that some on-chain analysts associate with major long-term bottoms, after ETH fell below its realized price for the first time in two years. Via X, renowne… [+2829 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Drops to $2,100, Shaking Confidence Amid Volatility",
-        "description": "Ethereum price started a sharp decline from the $2,385 zone. ETH is now consolidating above $2,100 and might aim for a recovery wave if it climbs above $2,200. Ethereum started a sharp decline below the $2,320 zone. The price is trading below $2,250 and the 1…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-drops-to-2100/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Ethereum-Price-Flashes-Bearish-Bias.jpg?fit=1024%2C572",
-        "publishedAt": "2026-03-20T03:28:39Z",
-        "content": "Ethereum price started a sharp decline from the $2,385 zone. ETH is now consolidating above $2,100 and might aim for a recovery wave if it climbs above $2,200.\r\n<ul><li>Ethereum started a sharp decli… [+2187 chars]"
       }
     ]
   }
