@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-24T17:06:57.781Z",
+  "timestamp": "2026-03-24T19:13:03.855Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin spot volumes fall to 2023 lows as BTC rallies remain news-led",
+        "description": "Bitcoin price topped $71,600 at the US market open, but the rally lacked sustained spot volumes. Can the bulls hold BTC above $70,000?",
+        "url": "https://cointelegraph.com/markets/bitcoin-spot-volumes-fall-to-2023-lows-as-btc-rallies-remain-news-led",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019af444-47db-71ab-8a3e-ec2f426a9b4c",
+        "publishedAt": "2026-03-23T18:21:50Z",
+        "content": "Bitcoin (BTC) spot volumes on Binance have dropped to their lowest level since September 2023, indicating that the current intraday price rise may not be backed by strong demand.\r\nThe rally above $71… [+3948 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Predicts When Bitcoin Price Will Hit $145,000",
+        "description": "Crypto analyst Celal has predicted that the Bitcoin price could hit a new all-time high (ATH) of $145,000. The analyst also provided a timeline for when the leading crypto could hit this milestone.  When The Bitcoin Price Could Hit $145,000 In an X post, Cela…",
+        "url": "http://www.newsbtc.com/news/bitcoin/when-bitcoin-price-hit-145000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-23-1.jpg?fit=960%2C501",
+        "publishedAt": "2026-03-23T18:00:05Z",
+        "content": "Crypto analyst Celal has predicted that the Bitcoin price could hit a new all-time high (ATH) of $145,000. The analyst also provided a timeline for when the leading crypto could hit this milestone. \r… [+2392 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Traders say Bitcoin still due for ‘next leg lower’ targeting $46K BTC price",
+        "description": "BTC price action looked weaker after Sunday's weekly close below the 200-week MA, with Bitcoin market participants bracing for lower levels.",
+        "url": "https://cointelegraph.com/markets/traders-bitcoin-still-due-next-leg-lower-targeting-46k-btc-price",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1a17-f0d3-7621-ad4b-f4523e7a4e21.jpg",
+        "publishedAt": "2026-03-23T17:20:09Z",
+        "content": "Bitcoins (BTC) failure to close the week above the 200-week exponential moving average (EMA) on Sunday put it at risk of another downward leg over the coming weeks or months.\r\nKey takeaways:\r\n<ul><li… [+3417 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,45 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/84a2d1515233c6dfc723dbcca2afc300ec9b89f4-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-20T17:04:22Z",
         "content": "The SECs fresh approval of Nasdaqs tokenized securities framework marks a key turning point for how stocks could trade in the future: it brings blockchain into the core of U.S. equity markets, but on… [+4370 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Tom Lee Says Ethereum Looks Ready To Exit Crypto Winter",
-        "description": "Tom Lee used a Hong Kong conference stage to argue that Ethereum may be close to a cyclical turn, pointing to historical market analogs and on-chain cost-basis data that, in his view, suggest the selloff has reached exhaustion. Speaking at the 3rd Futu Expo 2…",
-        "url": "http://www.newsbtc.com/news/ethereum/tom-lee-ethereum-ready-exit-crypto-winter/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-10_53_05-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-20T16:00:15Z",
-        "content": "Tom Lee used a Hong Kong conference stage to argue that Ethereum may be close to a cyclical turn, pointing to historical market analogs and on-chain cost-basis data that, in his view, suggest the sel… [+3172 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "What happens to Bitcoin if oil price hits $180 per barrel?",
-        "description": "A 70% oil spike could nearly double US inflation, slash rate-cut hopes, and deepen downside risks for Bitcoin prices in the coming months.",
-        "url": "https://cointelegraph.com/markets/what-happens-to-bitcoin-if-oil-price-hits-180-per-barrel",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bc1ad-31b2-707e-92d8-5b63a16f1777.jpg",
-        "publishedAt": "2026-03-20T15:53:33Z",
-        "content": "Bitcoin (BTC) has outperformed US equities and gold since the US and Israels attack on Iran on Feb. 28, underscoring its strength amid one of the years biggest geopolitical shocks.\r\nHowever, BTCs ral… [+3706 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin Price Breaks Legendary 14-Year Support, What This Means For The Market",
-        "description": "The Bitcoin price has broken below a legendary support level that had stood strong for 14 years, marking a major moment for the cryptocurrency. Market expert Crypto Tice has released a new analysis detailing the significance of this breach, warning of potenti…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-14-year-support/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pixabay-81.jpg?fit=960%2C720",
-        "publishedAt": "2026-03-20T15:00:01Z",
-        "content": "The Bitcoin price has broken below a legendary support level that had stood strong for 14 years, marking a major moment for the cryptocurrency. Market expert Crypto Tice has released a new analysis d… [+3048 chars]"
       }
     ]
   }
