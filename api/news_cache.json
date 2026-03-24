@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-24T13:25:44.944Z",
+  "timestamp": "2026-03-24T15:05:44.170Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/03/chainlink-link-price-traders.png",
         "publishedAt": "2026-03-20T12:58:30Z",
         "content": "<ul><li>Chainlink price hovered near $9.00 on Friday, March 20, 2026.</li><li>LINK spot ETFs recorded their second‑highest inflow day with $3.34 million.</li><li>Bulls could ride fresh optimism to ta… [+3066 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Apple iOS Malware Targets Crypto Apps on Unpatched iPhones: Google",
-        "description": "The DarkSword exploit chain affects older versions of iOS 18, delivering malware that specifically hunts for exchange and wallet apps.",
-        "url": "https://decrypt.co/361888/apple-ios-malware-targets-crypto-apps-on-unpatched-iphones-google",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/malware-code-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-03-20T11:38:34Z",
-        "content": "In brief\r\n<ul><li>Google researchers have identified an iOS exploit chain called DarkSword that works against iPhones running iOS versions 18.4 through 18.7.</li><li>The exploit can be used to delive… [+2087 chars]"
       }
     ]
   }
