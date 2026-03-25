@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-25T20:48:01.647Z",
+  "timestamp": "2026-03-25T21:47:12.793Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Stacy Elliott",
+        "title": "Circle Stock Dives as Rival Tether Secures Big Four Audit, Crypto Bill Threatens Stablecoin Yield",
+        "description": "Circle (CRCL) stock plunged 20% on Tuesday as stablecoin rival Tether made a long-awaited move and Clarity Act speculation grew.",
+        "url": "https://decrypt.co/362215/circle-stock-dives-tether-big-four-audit-crypto-bill-stablecoin-yield",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/USDC-gID_7.png",
+        "publishedAt": "2026-03-24T20:48:55Z",
+        "content": "In brief\r\n<ul><li>Circle's CRCL shares dropped 20% on Tuesday following a recent surge in value for the firm's stock.</li><li>Stablecoin giant Tether announced a long-awaited agreement for an audit f… [+3995 chars]"
+      },
       {
         "source": {
           "id": null,
