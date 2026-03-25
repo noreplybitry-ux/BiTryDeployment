@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-25T04:59:43.687Z",
+  "timestamp": "2026-03-25T06:10:07.193Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Targets Resistance, Bulls Eye Potential Upside Move",
+        "description": "Dogecoin started a decent increase above $0.0920 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.0955. DOGE price started a fresh increase above $0.0920 and $0.0925. The price is trading above the $0.0925 level and …",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-targets-resistance-0-0955/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Targets-Resistance.jpg?fit=1366%2C745",
+        "publishedAt": "2026-03-24T05:08:55Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bc068-c7bb-7264-976d-7fcaf983c9a0.jpg",
         "publishedAt": "2026-03-21T13:43:41Z",
         "content": "A 66-year-old Hong Kong retiree lost 6.6 million Hong Kong dollars (roughly $840,000) in a string of three related crypto investment scams after repeatedly trusting self-proclaimed virtual currency e… [+2515 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Market Not Ready For Expansion Yet — Blockchain Firm",
-        "description": "According to a recent on-chain data evaluation, the Bitcoin price might not be seeing a start to renewed price expansion in the near-term. Interestingly, this hypothesis seems to align with the multiple recovery attempts by the flagship cryptocurrency over th…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-market-is-not-ready-for-expansion-yet/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-485863805.jpg?fit=2120%2C1415",
-        "publishedAt": "2026-03-21T13:00:52Z",
-        "content": "According to a recent on-chain data evaluation, the Bitcoin price might not be seeing a start to renewed price expansion in the near-term. Interestingly, this hypothesis seems to align with the multi… [+2923 chars]"
       }
     ]
   }
