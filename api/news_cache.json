@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-25T19:04:15.077Z",
+  "timestamp": "2026-03-25T20:48:01.647Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Drifts-Lower.jpg?fit=1366%2C745",
         "publishedAt": "2026-03-23T05:18:04Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Drops Toward $2,000, Pressure Mounts on Key Support",
-        "description": "Ethereum price started a sharp decline below the $2,220 zone. ETH is now consolidating above $2,020 and might aim for a recovery wave if it climbs above $2,110. Ethereum started a sharp decline below the $2,200 zone. The price is trading below $2,120 and the …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-drops-toward-2000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Drops-Toward-2000.jpg?fit=1366%2C745",
-        "publishedAt": "2026-03-23T04:08:12Z",
-        "content": "Ethereum price started a sharp decline below the $2,220 zone. ETH is now consolidating above $2,020 and might aim for a recovery wave if it climbs above $2,110.\r\n<ul><li>Ethereum started a sharp decl… [+2241 chars]"
       }
     ]
   }
