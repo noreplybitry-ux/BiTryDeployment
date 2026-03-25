@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-25T17:11:09.734Z",
+  "timestamp": "2026-03-25T19:04:15.077Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Circle (CRCL) Crashes Below $100 After Senate Revises Crypto Bill To Ban Stablecoin Rewards",
+        "description": "Circle Internet Financial, the issuer behind the USDC stablecoin — the second-largest dollar-pegged cryptocurrency — saw its stock, CRCL, tumble 22% on Tuesday to $98 as lawmakers reportedly moved to tighten rules around stablecoin yields.  The selloff follow…",
+        "url": "http://www.newsbtc.com/breaking-news-ticker/circle-crcl-crashes-below-100-after-senate-revises-crypto-bill-to-ban-stablecoin-rewards/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/Screenshot_1273.jpg",
+        "publishedAt": "2026-03-24T17:39:03Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Whales Are Making Money Again, But Will They Hold Or Sell?",
+        "description": "Ethereum whales are now back in profit as the ETH price continues to climb, defying the broader market downtrend. Data from the on-chain analytics platform CryptoQuant indicate that these whales are investors with wallets holding over 100,000 ETH. The sudden …",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-whales-making-money/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-24T17:30:58Z",
+        "content": "Ethereum whales are now back in profit as the ETH price continues to climb, defying the broader market downtrend. Data from the on-chain analytics platform CryptoQuant indicate that these whales are … [+2997 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Drops-Toward-2000.jpg?fit=1366%2C745",
         "publishedAt": "2026-03-23T04:08:12Z",
         "content": "Ethereum price started a sharp decline below the $2,220 zone. ETH is now consolidating above $2,020 and might aim for a recovery wave if it climbs above $2,110.\r\n<ul><li>Ethereum started a sharp decl… [+2241 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Sinks Deeper, Is a Larger Breakdown Now Unfolding?",
-        "description": "Bitcoin price started a sharp decline from well above $72,000. BTC is now consolidating and might extend losses unless there is a close above $70,000. Bitcoin started a sharp decline below $71,200 and $70,500. The price is trading below $70,500 and the 100 ho…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-sinks-deeper-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Sinks-Deeper.jpg",
-        "publishedAt": "2026-03-23T03:42:45Z",
-        "content": "Bitcoin price started a sharp decline from well above $72,000. BTC is now consolidating and might extend losses unless there is a close above $70,000.\r\n<ul><li>Bitcoin started a sharp decline below $… [+2286 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "NYSE exchanges scrap crypto options cap on 11 Bitcoin, Ether ETFs",
-        "description": "Part of the approved rule changes allows institutions to trade the crypto ETFs as FLEX options, which offer customizable terms like non-standard strike prices and expiration dates.",
-        "url": "https://cointelegraph.com/news/nyse-exchanges-scrap-crypto-options-cap",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b0172-c66b-7652-b04e-fa41302079e3",
-        "publishedAt": "2026-03-23T00:46:41Z",
-        "content": "Two New York Stock Exchange-affiliated exchanges have removed the 25,000 contract position limit on options tied to 11 crypto exchange-traded funds.\r\nNYSE Arca and NYSE American each filed three rule… [+1921 chars]"
       }
     ]
   }
