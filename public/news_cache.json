@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-25T13:24:46.914Z",
+  "timestamp": "2026-03-25T15:06:52.343Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Bitcoin Holds $70K – Is The High‑Beta Era Over?",
+        "description": "Crypto continues to show resilience with bitcoin (BTC) steadily trading around $70-$71k after briefly dropping below the $70k mark over the weekend, outperforming prior Middle East‑driven sell‑offs where thin liquidity exaggerated downside. Related Reading: B…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-holds-70k-is-the-high%e2%80%91beta-era-over/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image45.png",
+        "publishedAt": "2026-03-24T14:55:27Z",
+        "content": "Crypto continues to show resilience with bitcoin (BTC) steadily trading around $70-$71k after briefly dropping below the $70k mark over the weekend, outperforming prior Middle Eastdriven selloffs whe… [+2745 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Ethereum price rally pauses at $2.2K: What will trigger breakout?",
+        "description": "A resurgence in institutional demand and spot ETF inflow return could put Ethereum price in a better position to overcome the next hurdle at $2,200.",
+        "url": "https://cointelegraph.com/markets/ethereum-price-rally-pauses-at-2-200-what-will-trigger-breakout",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-03/01956789-57c3-728c-8265-11d6397e5bb8",
+        "publishedAt": "2026-03-24T14:43:25Z",
+        "content": "Ethers (ETH) 9% rally on Monday stalled at $2,200 due to stiff overhead resistance and weak ETF demand. Still, technical and onchain setups suggested that upward momentum may increase as long as ETH … [+4310 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin PMI Cycle Is The Only Signal That Matters, Analyst Explains Why",
+        "description": "Bitcoin’s price action is looking uncertain on the surface, but one crypto analyst believes the real story is playing out far from the charts that most traders are watching. According to crypto analyst Crypto Tice, all of that Bitcoin price noise obscures a s…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-pmi-cycle-signal-matters/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pngtree-36.jpg?fit=960%2C717",
+        "publishedAt": "2026-03-24T13:30:37Z",
+        "content": "Bitcoins price action is looking uncertain on the surface, but one crypto analyst believes the real story is playing out far from the charts that most traders are watching. According to crypto analys… [+2727 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
         "publishedAt": "2026-03-23T00:41:36Z",
         "content": "In brief\r\n<ul><li>Oil prices are climbing back toward $100 a barrel as tensions around the Strait of Hormuz escalate.</li><li>Bitcoin remains range-bound after months of deleveraging earlier this yea… [+3356 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "BTC and gold divergence reflects split between retail and central banks: Analyst",
-        "description": "21Shares' macro chief looks at why Bitcoin has held relatively steady since the start of Middle East hostilities, while gold has slipped below $4,500 and key support levels.",
-        "url": "https://cointelegraph.com/news/divergence-between-btc-gold-retail-central-bank",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b264c-9514-7693-96f9-048f7075116b.jpg",
-        "publishedAt": "2026-03-22T21:48:01Z",
-        "content": "The divergence between gold and Bitcoin (BTC) in 2026 can be explained by two distinct segments of buyers, according to Stephen Coltman, head of macro at crypto exchange-traded product (ETP) provider… [+2328 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Scaramucci says BTC's 4-year cycle still in play, forecasts rise in Q4",
-        "description": "Investor Anthony Scaramucci says the ongoing Bitcoin bear market is normal when looking at historic price patterns and is not as deep as previous corrections.",
-        "url": "https://cointelegraph.com/news/scaramucci-btc-4-year-cycle-play-rise-q4",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d16d3-56f3-7d40-b2a5-c2f1ec84dc70.jpg",
-        "publishedAt": "2026-03-22T18:53:05Z",
-        "content": "The current Bitcoin (BTC) bear market can be explained by the four-year cycle and long-term BTC holders selling at the $100,000 psychological level, according to Anthony Scaramucci, managing partner … [+2849 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Crypto liquidations near $400M after $68K Bitcoin price dip",
-        "description": "Bitcoin fell over the weekend to set up another visit to \"unreliable\" support, but analysis flagged a new BTC price golden cross.",
-        "url": "https://cointelegraph.com/markets/crypto-liquidations-near-400m-after-68k-bitcoin-price-dip",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1683-f1ef-747a-bcfc-fb67965e6312.jpg",
-        "publishedAt": "2026-03-22T18:32:30Z",
-        "content": "Bitcoin (BTC) traded below $69,000 on Sunday as the market faced a critical weekly candle close.\r\nKey points:\r\n<ul><li>Bitcoin approaches its 200-week trend line after sinking throughout the weekend.… [+3423 chars]"
       }
     ]
   }
