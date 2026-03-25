@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-25T02:44:03.977Z",
+  "timestamp": "2026-03-25T04:59:43.687Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vismaya V",
+        "title": "Australian Pension Fund Weighs Crypto Access Amid Market Volatility",
+        "description": "Hostplus’s crypto ambition is attempting to meet rising investor demand, even as volatility keeps rivals on the sidelines.",
+        "url": "https://decrypt.co/362149/australian-pension-fund-weighs-crypto-market-volatility",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Sydney-gID_7.jpg",
+        "publishedAt": "2026-03-24T04:54:27Z",
+        "content": "In brief\r\n<ul><li>Hostplus CIO Sam Sicilia says the retirement fund is eyeing a potential launch as early as next financial year.</li><li>The fund is looking beyond Bitcoin at a wider range of digita… [+3510 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Rally Meets Resistance, Bears Eye Renewed Downside Move",
+        "description": "Ethereum price started a recovery wave from the $2,025 zone. ETH is now consolidating above $2,120 and might struggle to clear the $2,200 resistance. Ethereum started a recovery wave above the $2,120 zone. The price is trading above $2,120 and the 100-hourly …",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rally-meets-resistance-2200/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rally-Meets-Resistance-Bears-Eye-Renewed-Downside-Move.jpg?fit=1366%2C745",
+        "publishedAt": "2026-03-24T03:28:31Z",
+        "content": "Ethereum price started a recovery wave from the $2,025 zone. ETH is now consolidating above $2,120 and might struggle to clear the $2,200 resistance.\r\n<ul><li>Ethereum started a recovery wave above t… [+2207 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Bounce Weakens, Recovery at Risk of Fading Again",
+        "description": "Bitcoin price started a recovery wave from $68,000. BTC is now back above $70,000 and might struggle to continue higher in the near term. Bitcoin started a decent recovery wave above $69,500 and $70,000. The price is trading above $70,000 and the 100 hourly s…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-bounce-weakens-72k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Bounce-Weakens-Recovery-at-Risk-of-Fading-Again.jpg",
+        "publishedAt": "2026-03-24T02:49:00Z",
+        "content": "Bitcoin price started a recovery wave from $68,000. BTC is now back above $70,000 and might struggle to continue higher in the near term.\r\n<ul><li>Bitcoin started a decent recovery wave above $69,500… [+2154 chars]"
+      },
       {
         "source": {
           "id": null,
