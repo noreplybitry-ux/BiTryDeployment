@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-24T23:38:27.504Z",
+  "timestamp": "2026-03-25T02:44:03.977Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin At $76,000 Was A Fluke: Here’s What The Price Is Really Headed",
+        "description": "A crypto analyst who previously warned traders and investors that the recent Bitcoin (BTC) price surge could be a fluke has shared a new update. Confirming that his earlier prediction was accurate, the analyst now provides insight on where Bitcoin is really h…",
+        "url": "http://www.newsbtc.com/news/bitcoin-at-76000-was-a-fluke/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-27.jpg?fit=718%2C404",
+        "publishedAt": "2026-03-24T02:00:06Z",
+        "content": "A crypto analyst who previously warned traders and investors that the recent Bitcoin (BTC) price surge could be a fluke has shared a new update. Confirming that his earlier prediction was accurate, t… [+2829 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Next Major Bitcoin Catalyst May Be A New ‘Big Print’: Expert",
+        "description": "John Haar, managing director at Swan Private, says the policy response to COVID remains one of the clearest catalysts for Bitcoin adoption in recent years and argued that another large-scale round of money creation is likely a matter of when, not if. In an in…",
+        "url": "http://www.newsbtc.com/bitcoin-news/next-major-bitcoin-catalyst-new-big-print/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-23-2026-02_04_57-PM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-24T01:00:50Z",
+        "content": "John Haar, managing director at Swan Private, says the policy response to COVID remains one of the clearest catalysts for Bitcoin adoption in recent years and argued that another large-scale round of… [+3952 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-485863805.jpg?fit=2120%2C1415",
         "publishedAt": "2026-03-21T13:00:52Z",
         "content": "According to a recent on-chain data evaluation, the Bitcoin price might not be seeing a start to renewed price expansion in the near-term. Interestingly, this hypothesis seems to align with the multi… [+2923 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Ethereum Exchange Inflows Signal Shift: Whales Reduce Selling Pressure",
-        "description": "Ethereum is trading around the $2,150 level as volatility persists across the broader cryptocurrency market, reflecting a phase of uncertainty following recent price swings. While the asset has managed to stabilize near current levels, momentum remains fragil…",
-        "url": "http://www.newsbtc.com/ethereum-news/ethereum-exchange-inflows-signal-shift-whales-reduce-selling-pressure/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-2.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-03-20T22:00:35Z",
-        "content": "Ethereum is trading around the $2,150 level as volatility persists across the broader cryptocurrency market, reflecting a phase of uncertainty following recent price swings. While the asset has manag… [+4079 chars]"
       }
     ]
   }
