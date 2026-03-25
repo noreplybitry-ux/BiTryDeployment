@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-25T11:47:17.306Z",
+  "timestamp": "2026-03-25T13:24:46.914Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "ParaFi defies crypto market downturn with $125 million raise for new fund: Bloomberg",
+        "description": "The firm now manages about $2 billion, having already raised an additional $325 million for existing crypto investment strategies since last year.",
+        "url": "https://www.coindesk.com/business/2026/03/24/parafi-defies-crypto-market-downturn-with-usd125-million-raise-for-new-fund-bloomberg",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e8c82ae61f612938f328059badeed4de63c688a0-1280x720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-24T12:36:24Z",
+        "content": "ParaFi, a New York-based digital asset manager backed by KKR co-founder Henry Kravis, raised $125 million for a new venture fund, Bloomberg reported.\r\nThe cash comes on top of the $325 million ParaFi… [+975 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1683-f1ef-747a-bcfc-fb67965e6312.jpg",
         "publishedAt": "2026-03-22T18:32:30Z",
         "content": "Bitcoin (BTC) traded below $69,000 on Sunday as the market faced a critical weekly candle close.\r\nKey points:\r\n<ul><li>Bitcoin approaches its 200-week trend line after sinking throughout the weekend.… [+3423 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Gear Up! New Bitcoin Bull Market Is About To Begin — Time To Buy?",
-        "description": "The price of Bitcoin has continued to hover around the $70,000 level this weekend, establishing a choppy structure above this psychological level. According to the latest on-chain data, a significant buy alarm has gone off for BTC, indicating the potential st…",
-        "url": "http://www.newsbtc.com/news/bitcoin/gear-up-new-bitcoin-bull-market-is-about-to-begin-time-to-buy/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-22-09.07.40.jpg?fit=1280%2C853",
-        "publishedAt": "2026-03-22T12:00:49Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Coinbase-backed CoinDCX founders questioned in fraud case: Report",
-        "description": "Indian crypto exchange CoinDCX says the fraud complaint that led to the founders’ arrests is part of a wider impersonation scam, citing more than 1,200 fake sites using its brand.",
-        "url": "https://cointelegraph.com/news/coinbase-backed-coindcx-founders-questioned-report",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1475-7283-7720-b5d7-ba0b63fddefa.jpg",
-        "publishedAt": "2026-03-22T09:19:00Z",
-        "content": "Indian crypto exchange CoinDCX co-founders Sumit Gupta and Neeraj Khandelwal have reportedly been arrested in India following a police complaint alleging their involvement in a crypto investment frau… [+2355 chars]"
       }
     ]
   }
