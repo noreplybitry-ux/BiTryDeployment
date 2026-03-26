@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T05:12:06.967Z",
+  "timestamp": "2026-03-26T07:18:33.909Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Martin Young",
+        "title": "Bitcoin exchange outflows show ‘genuine accumulation by investors’: Analyst",
+        "description": "Ongoing accumulation of Bitcoin is likely one of the factors behind why the cryptocurrency is trading in a tight range, say crypto analysts.",
+        "url": "https://cointelegraph.com/news/persistent-btc-exchange-outflow-suggests-genuine-accumulation-by-investors-analyst",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bc10f-398f-7102-a685-ceaff2cfc902.jpg",
+        "publishedAt": "2026-03-25T05:50:51Z",
+        "content": "The net outflow of Bitcoin from exchanges over the past month suggests that investors have started to accumulate the cryptocurrency, says a CryptoQuant analyst.\r\nMarch has been largely dominated by B… [+2677 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Recovery Firms, Bulls Prepare for Stronger Upside Push",
+        "description": "Solana found support at $85 and corrected some losses. SOL price is now consolidating above $90 and might aim for a steady increase. SOL price started a decent recovery wave above $88 and $90 against the US Dollar. The price is now trading above $90 and the 1…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-recovery-firms-85/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Recovery-Firms.jpg?fit=1366%2C745",
+        "publishedAt": "2026-03-25T05:28:02Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1aac-9df5-72d2-9d3d-71cec18e7bb2.jpg",
         "publishedAt": "2026-03-23T13:19:43Z",
         "content": "Crypto investment products maintained their inflow streak last week but momentum slowed amid ongoing Middle East tensions and a hawkish pause interpretation of the US Feds meeting.\r\nCrypto exchange-t… [+2514 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Dilip Kumar Patairya",
-        "title": "How a ‘Wrong Number’ message turned into a $3.4M crypto scam",
-        "description": "Explore how scammers turned a casual text into a $3.4 million crypto fraud through trust-building, fake Ether investments and layered money laundering.",
-        "url": "https://cointelegraph.com/features/wrong-number-text-crypto-scam",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1ab8-3301-7c1e-b0bb-ac08977da584.jpg",
-        "publishedAt": "2026-03-23T12:47:21Z",
-        "content": "Key takeaways\r\n<ul><li>This $3.4 million scam shows how modern crypto fraud increasingly relies on social engineering rather than technical exploits.\r\n</li><li>Scammers used a gradual grooming proces… [+9943 chars]"
       }
     ]
   }
