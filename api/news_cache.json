@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T17:10:42.371Z",
+  "timestamp": "2026-03-26T19:16:57.828Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/25: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
+        "description": "Analysts believe that Bitcoin is in deep value territory, and withdrawals from cryptocurrency exchanges suggest strong accumulation by investors.",
+        "url": "https://cointelegraph.com/markets/price-predictions-3-25-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d25f1-bc21-7aeb-a91b-6b64fb0407a5.jpg",
+        "publishedAt": "2026-03-25T18:44:00Z",
+        "content": "Bitcoin (BTC) continues to face significant resistance at the $72,000 level, but the bulls have kept up the pressure. Trader Daan Crypto Trades said in a post on X that BTC will have to cross and sta… [+8513 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Analyst Who Predicted Bitcoin $125,000 Top Reveals What To Expect Next",
+        "description": "A crypto analyst who correctly predicted Bitcoin’s (BTC) cycle peak around $125,000 has released a new report detailing fresh projections for the world’s largest cryptocurrency. In the update, the analyst maintains a largely bearish outlook, pointing to weake…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-what-to-expect-next/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-19-2026-08_33_10-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-25T18:00:22Z",
+        "content": "A crypto analyst who correctly predicted Bitcoins (BTC) cycle peak around $125,000 has released a new report detailing fresh projections for the worlds largest cryptocurrency. In the update, the anal… [+4284 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Sydney-gID_7.jpg",
         "publishedAt": "2026-03-24T04:54:27Z",
         "content": "In brief\r\n<ul><li>Hostplus CIO Sam Sicilia says the retirement fund is eyeing a potential launch as early as next financial year.</li><li>The fund is looking beyond Bitcoin at a wider range of digita… [+3510 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Rally Meets Resistance, Bears Eye Renewed Downside Move",
-        "description": "Ethereum price started a recovery wave from the $2,025 zone. ETH is now consolidating above $2,120 and might struggle to clear the $2,200 resistance. Ethereum started a recovery wave above the $2,120 zone. The price is trading above $2,120 and the 100-hourly …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rally-meets-resistance-2200/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rally-Meets-Resistance-Bears-Eye-Renewed-Downside-Move.jpg?fit=1366%2C745",
-        "publishedAt": "2026-03-24T03:28:31Z",
-        "content": "Ethereum price started a recovery wave from the $2,025 zone. ETH is now consolidating above $2,120 and might struggle to clear the $2,200 resistance.\r\n<ul><li>Ethereum started a recovery wave above t… [+2207 chars]"
       }
     ]
   }
