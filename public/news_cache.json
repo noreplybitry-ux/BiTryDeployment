@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T15:12:34.384Z",
+  "timestamp": "2026-03-26T17:10:42.371Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Bitmine launches institutional Ethereum staking platform",
+        "description": "Bitmine Immersion Technologies launches MAVAN, an institutional Ethereum staking platform backed by over 3.1 million ETH, as demand for staking infrastructure grows.",
+        "url": "https://cointelegraph.com/news/bitmine-launches-mavan-an-institutional-ethereum-staking-platform",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b6983-aa71-74bf-a5c1-20c63f73244f.jpg",
+        "publishedAt": "2026-03-25T17:09:11Z",
+        "content": "Bitmine Immersion Technologies has launched MAVAN, an institutional-grade Ethereum staking platform that will run validator infrastructure for its own holdings and external clients. \r\nStaking involve… [+3107 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin pinned under $72K as four network metrics show 'weaker demand'",
+        "description": "Bitcoin price remains stuck below $72,000, as investor distribution, low whale activity, and declining network growth cast doubt on BTC's short term prospects.",
+        "url": "https://cointelegraph.com/markets/bitcoin-pinned-under-74k-four-metrics-weaker-demand",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d25a8-1d4d-786d-9f20-d4d8e50f9c8a.jpg",
+        "publishedAt": "2026-03-25T16:24:08Z",
+        "content": "Bitcoin (BTC) price struggled to break above $72,000, as several key onchain metrics highlighted weakening demand for BTC, casting doubts on its upside potential.\r\nKey takeaways:\r\n<ul><li>Bitcoin inv… [+4898 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Binance tightens market maker rules, tells token issuers they must disclose partners",
+        "description": "The guidelines ban profit-sharing and guaranteed return arrangements, aiming to prevent conflicts of interest and manipulative trading.",
+        "url": "https://www.coindesk.com/business/2026/03/25/binance-tightens-market-maker-rules-tells-token-issuers-they-must-disclose-partners",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1f1362ca8faeb9582aa796a20ed94760c858c0b3-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-25T15:39:32Z",
+        "content": "Binance, the largest crypto exchange by volume traded, released guidelines placing tighter obligations on token issuers and liquidity providers.\r\nThe new rules require projects to disclose their mark… [+1400 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,58 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rally-Meets-Resistance-Bears-Eye-Renewed-Downside-Move.jpg?fit=1366%2C745",
         "publishedAt": "2026-03-24T03:28:31Z",
         "content": "Ethereum price started a recovery wave from the $2,025 zone. ETH is now consolidating above $2,120 and might struggle to clear the $2,200 resistance.\r\n<ul><li>Ethereum started a recovery wave above t… [+2207 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Bounce Weakens, Recovery at Risk of Fading Again",
-        "description": "Bitcoin price started a recovery wave from $68,000. BTC is now back above $70,000 and might struggle to continue higher in the near term. Bitcoin started a decent recovery wave above $69,500 and $70,000. The price is trading above $70,000 and the 100 hourly s…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-bounce-weakens-72k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Bounce-Weakens-Recovery-at-Risk-of-Fading-Again.jpg",
-        "publishedAt": "2026-03-24T02:49:00Z",
-        "content": "Bitcoin price started a recovery wave from $68,000. BTC is now back above $70,000 and might struggle to continue higher in the near term.\r\n<ul><li>Bitcoin started a decent recovery wave above $69,500… [+2154 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin At $76,000 Was A Fluke: Here’s What The Price Is Really Headed",
-        "description": "A crypto analyst who previously warned traders and investors that the recent Bitcoin (BTC) price surge could be a fluke has shared a new update. Confirming that his earlier prediction was accurate, the analyst now provides insight on where Bitcoin is really h…",
-        "url": "http://www.newsbtc.com/news/bitcoin-at-76000-was-a-fluke/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-27.jpg?fit=718%2C404",
-        "publishedAt": "2026-03-24T02:00:06Z",
-        "content": "A crypto analyst who previously warned traders and investors that the recent Bitcoin (BTC) price surge could be a fluke has shared a new update. Confirming that his earlier prediction was accurate, t… [+2829 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Next Major Bitcoin Catalyst May Be A New ‘Big Print’: Expert",
-        "description": "John Haar, managing director at Swan Private, says the policy response to COVID remains one of the clearest catalysts for Bitcoin adoption in recent years and argued that another large-scale round of money creation is likely a matter of when, not if. In an in…",
-        "url": "http://www.newsbtc.com/bitcoin-news/next-major-bitcoin-catalyst-new-big-print/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-23-2026-02_04_57-PM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-24T01:00:50Z",
-        "content": "John Haar, managing director at Swan Private, says the policy response to COVID remains one of the clearest catalysts for Bitcoin adoption in recent years and argued that another large-scale round of… [+3952 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Senator Warren questions whether MrBeast will market crypto to kids",
-        "description": "Senator Elizabeth Warren urged MrBeast and Beast Industries’ CEO to take ”great care” and comply with the law if they planned to market crypto trading to minors and young adults.",
-        "url": "https://cointelegraph.com/news/senator-warren-mrbeast-crypto-children",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bb63f-beec-7de2-8139-1f7d5e2446fd.jpg",
-        "publishedAt": "2026-03-23T21:48:03Z",
-        "content": "Massachusetts Senator Elizabeth Warren has raised concerns about whether YouTuber Jimmy Donaldson, better known as MrBeast, intends to market cryptocurrency to teenagers and young adults following hi… [+2760 chars]"
       }
     ]
   }
