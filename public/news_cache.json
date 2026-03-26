@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T11:56:36.951Z",
+  "timestamp": "2026-03-26T13:49:31.157Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Bitcoin rebounds during Iran war, but safe haven role unproven",
+        "description": "Bitcoin has outperformed gold since the Iran conflict began, but its price action still tracks liquidity and risk sentiment more than safe haven demand.",
+        "url": "https://cointelegraph.com/features/bitcoin-iran-war-behaves-like-risk-asset",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b3c8b-9956-718c-8f81-2ad91a3a78e8.jpg",
+        "publishedAt": "2026-03-25T13:24:32Z",
+        "content": "Before the Iran war broke out, Bitcoin spent months trading sideways while gold rallied to record levels.\r\nAt the time, gold was seen as the go-to safe haven; inflation concerns remained persistent a… [+6139 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin bounces from 50-day trend line with $72K BTC price now key focus",
+        "description": "Bitcoin traders agreed that BTC price action needed to retake $72,000 to open up the odds of further upside as gold and US stocks gained.",
+        "url": "https://cointelegraph.com/markets/bitcoin-bounces-50-day-trend-line-72k-btc-price-key-focus",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d2503-5cce-7856-b63e-1530b850f747.jpg",
+        "publishedAt": "2026-03-25T12:49:44Z",
+        "content": "Bitcoin (BTC) returned to $72,000 on Wednesday as gold continued its rebound from four-month lows.\r\nKey points:\r\n<ul><li>Bitcoin price performs a support retest of its 50-day moving average before hi… [+3508 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Akash Girimath",
+        "title": "Bitcoin ETFs Draw in $2.5B in a Month, Close to Erasing YTD Losses",
+        "description": "Bitcoin ETFs show \"incredible fortitude\" with $2.5B monthly inflows, erasing YTD losses despite a 40% price drawdown, experts say.",
+        "url": "https://decrypt.co/362301/bitcoin-etfs-draw-in-2-5b-in-a-month-close-to-erasing-ytd-losses",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-03-25T12:48:39Z",
+        "content": "Bitcoin ETFs have pulled in nearly $2.5 billion over the past month, erasing almost all year-to-date outflows and displaying what Bloomberg Intelligence analyst Eric Balchunas calls \"incredible forti… [+4468 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-20-gID_7.png",
         "publishedAt": "2026-03-23T20:54:30Z",
         "content": "In brief\r\n<ul><li>Bitcoin climbed above $71,000 today, offering bulls their first glimpse of relief since February's collapse.</li><li>At the same time, the price move has formed the same compressive… [+6447 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin spot volumes fall to 2023 lows as BTC rallies remain news-led",
-        "description": "Bitcoin price topped $71,600 at the US market open, but the rally lacked sustained spot volumes. Can the bulls hold BTC above $70,000?",
-        "url": "https://cointelegraph.com/markets/bitcoin-spot-volumes-fall-to-2023-lows-as-btc-rallies-remain-news-led",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019af444-47db-71ab-8a3e-ec2f426a9b4c",
-        "publishedAt": "2026-03-23T18:21:50Z",
-        "content": "Bitcoin (BTC) spot volumes on Binance have dropped to their lowest level since September 2023, indicating that the current intraday price rise may not be backed by strong demand.\r\nThe rally above $71… [+3948 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Predicts When Bitcoin Price Will Hit $145,000",
-        "description": "Crypto analyst Celal has predicted that the Bitcoin price could hit a new all-time high (ATH) of $145,000. The analyst also provided a timeline for when the leading crypto could hit this milestone.  When The Bitcoin Price Could Hit $145,000 In an X post, Cela…",
-        "url": "http://www.newsbtc.com/news/bitcoin/when-bitcoin-price-hit-145000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-23-1.jpg?fit=960%2C501",
-        "publishedAt": "2026-03-23T18:00:05Z",
-        "content": "Crypto analyst Celal has predicted that the Bitcoin price could hit a new all-time high (ATH) of $145,000. The analyst also provided a timeline for when the leading crypto could hit this milestone. \r… [+2392 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Traders say Bitcoin still due for ‘next leg lower’ targeting $46K BTC price",
-        "description": "BTC price action looked weaker after Sunday's weekly close below the 200-week MA, with Bitcoin market participants bracing for lower levels.",
-        "url": "https://cointelegraph.com/markets/traders-bitcoin-still-due-next-leg-lower-targeting-46k-btc-price",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1a17-f0d3-7621-ad4b-f4523e7a4e21.jpg",
-        "publishedAt": "2026-03-23T17:20:09Z",
-        "content": "Bitcoins (BTC) failure to close the week above the 200-week exponential moving average (EMA) on Sunday put it at risk of another downward leg over the coming weeks or months.\r\nKey takeaways:\r\n<ul><li… [+3417 chars]"
       }
     ]
   }
