@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T07:18:33.909Z",
+  "timestamp": "2026-03-26T09:05:20.601Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "There's a huge $14 billion bitcoin options expiry this Friday and it points to $75,000 as price magnet",
+        "description": "Bitcoin options worth billions of dollars will expire on Deribit this Friday at 8:00 UTC.",
+        "url": "https://www.coindesk.com/markets/2026/03/25/there-s-a-huge-usd14-billion-bitcoin-options-expiry-this-friday-and-it-points-to-usd75-000-as-price-magnet",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bfb4779e9245468a88a2a948bb0e1677ae7e7858-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-25T08:10:37Z",
+        "content": "On Friday, bitcoin BTC\r\n$71,262.33 options or derivative contracts worth billions will expire on crypto exchange Deribit. Traders might want to note that the dynamics of the expiry are such that BTC'… [+3573 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Bitcoin back above $71K: is this rebound real or a bull trap?",
+        "description": "Bitcoin price rebounds above $71,000 amid cautious market sentiment. Exchange outflows suggest long-term accumulation by investors. Geopolitical signals and Bitcoin transfers shape near-term trends. Bitcoin has bounced back above $71,000 after a week of mixed…",
+        "url": "https://coinjournal.net/news/bitcoin-back-above-71k-is-this-rebound-real-or-a-bull-trap/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/bitcoin-cash-price.png",
+        "publishedAt": "2026-03-25T08:04:19Z",
+        "content": "<ul><li>Bitcoin price rebounds above $71,000 amid cautious market sentiment.</li><li>Exchange outflows suggest long-term accumulation by investors.</li><li>Geopolitical signals and Bitcoin transfers … [+2949 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Is Officially In A Bear Market And Is Headed Below $30,000, Analyst Warns",
+        "description": "One thing that has stood out about Bitcoin is how different the recent bull cycle was from other bull cycles. For example, even after the Bitcoin price surged to new all-time highs, the altcoins never followed, and therefore, there was no explosive altcoin se…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-headed-below-30000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-45.jpg?fit=640%2C359",
+        "publishedAt": "2026-03-25T07:30:03Z",
+        "content": "One thing that has stood out about Bitcoin is how different the recent bull cycle was from other bull cycles. For example, even after the Bitcoin price surged to new all-time highs, the altcoins neve… [+2270 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Jumps-8-Breakout-Hopes-Reignite-Across-Crypto-Markets.jpg?fit=1408%2C768",
         "publishedAt": "2026-03-23T16:30:57Z",
         "content": "Bitcoin is once again testing a critical level that could shape its next major move. With price action returning to a previously contested support and resistance zone, attention is now shifting towar… [+3021 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Stacy Elliott",
-        "title": "Ethereum Price Jumps on Iran Optimism as Tom Lee's BitMine Adds to $10 Billion Stash",
-        "description": "BitMine Immersion Technologies now holds more than $10 billion worth of Ethereum, leading the ETH treasury pack as the asset rebounds.",
-        "url": "https://decrypt.co/361995/ethereum-price-jumps-iran-optimism-tom-lee-bitmine-10-billion-treasury",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-03-23T15:19:58Z",
-        "content": "In brief\r\n<ul><li>BitMine Immersion Technologies (BMNR) acquired 65,341 ETH last week.</li><li>The company now holds over 4.66 million ETH tokens, valued above $10.1 billion.</li><li>However, BitMine… [+2983 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Crypto ETF inflows slow to $230M as Fed caution dents momentum: CoinShares",
-        "description": "Weekly crypto ETP inflows reached $230 million despite $405 million in post-FOMC outflows, as Bitcoin led gains and Ether ended a three-week inflow streak, CoinShares reported.",
-        "url": "https://cointelegraph.com/news/crypto-fund-inflows-slow-230-million-fed-hits-sentiment",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1aac-9df5-72d2-9d3d-71cec18e7bb2.jpg",
-        "publishedAt": "2026-03-23T13:19:43Z",
-        "content": "Crypto investment products maintained their inflow streak last week but momentum slowed amid ongoing Middle East tensions and a hawkish pause interpretation of the US Feds meeting.\r\nCrypto exchange-t… [+2514 chars]"
       }
     ]
   }
