@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T20:41:38.646Z",
+  "timestamp": "2026-03-26T21:37:35.784Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Data points to accelerating Ether supply crunch: Will ETH price follow?",
+        "description": "The number of Ether staked continues to rise while ETH outflows from exchanges are increasing. Will the phenomenon have a positive or negative impact on ETH price?",
+        "url": "https://cointelegraph.com/markets/data-points-to-accelerating-ether-supply-crunch-will-eth-price-follow",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bdbc5-c66e-79b9-baed-4568dac54cc3.jpg",
+        "publishedAt": "2026-03-25T21:15:00Z",
+        "content": "Ethers (ETH) liquid supply on the Ethereum network continues to tighten, with exchange netflows, rising staking participation, and declining exchange reserves all pointing to a shrinking pool of read… [+3370 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "The Bitcoin Coinbase Discount Is Back: History Says That Is Worth Watching",
+        "description": "Bitcoin is holding above $70,000. The number looks resilient. The geography behind it tells a more cautious story. An Arab Chain report tracking real-time exchange pricing has identified a spread that cuts against the bullish surface reading: Bitcoin is curre…",
+        "url": "http://www.newsbtc.com/bitcoin-news/the-bitcoin-coinbase-discount-is-back-history-says-that-is-worth-watching/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-13-1.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-03-25T21:00:35Z",
+        "content": "Bitcoin is holding above $70,000. The number looks resilient. The geography behind it tells a more cautious story.\r\nAn Arab Chain report tracking real-time exchange pricing has identified a spread th… [+3923 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1f55-c501-73bc-a068-80564899c825.jpg",
         "publishedAt": "2026-03-24T10:32:09Z",
         "content": "Bitcoin (BTC) is off the chart in terms of value-for-money as price diverges from hash rate, a market analyst says.\r\nKey points:\r\n<ul><li>Bitcoin price action is diverging from hash rate to an extent… [+3034 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Price Will Not See A Proper Surge Until This Happens; Analyst",
-        "description": "Bitcoin has now spent four consecutive months under the $100,000 mark for the first time since it crossed the milestone back in 2024. This move signaled a return to the bear market, and the trend has persisted since then. Even now, sellers are more than likel…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-proper-surge/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Sinks-to-New-Weekly-Low-Bulls-Lose-Key-Support.jpg?fit=1024%2C559",
-        "publishedAt": "2026-03-24T07:30:24Z",
-        "content": "Bitcoin has now spent four consecutive months under the $100,000 mark for the first time since it crossed the milestone back in 2024. This move signaled a return to the bear market, and the trend has… [+2279 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Major Australian pension fund mulls crypto offerings amid growing demand",
-        "description": "Hostplus, Australia’s third-largest pension fund by membership, is in the early stages of exploring Bitcoin and other cryptocurrencies amid frequent inquiries from members seeking exposure.",
-        "url": "https://cointelegraph.com/news/hostplus-considers-crypto-options-australia",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cb690-6e2d-7aab-b50f-16892f448bd0.jpg",
-        "publishedAt": "2026-03-24T06:25:47Z",
-        "content": "Hostplus, Australia's third-largest pension fund by member count, is reportedly considering offering cryptocurrencies as an investment option, citing interest from its members in the asset class.\r\nTh… [+2482 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Targets Resistance, Bulls Eye Potential Upside Move",
-        "description": "Dogecoin started a decent increase above $0.0920 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.0955. DOGE price started a fresh increase above $0.0920 and $0.0925. The price is trading above the $0.0925 level and …",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-targets-resistance-0-0955/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Targets-Resistance.jpg?fit=1366%2C745",
-        "publishedAt": "2026-03-24T05:08:55Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
