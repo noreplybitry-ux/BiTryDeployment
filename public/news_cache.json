@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T09:05:20.600Z",
+  "timestamp": "2026-03-26T10:59:02.311Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin retakes $71K as US sends Iran 15-point ceasefire plan",
+        "description": "Bitcoin climbed back above $71,000 after the US proposed a 15-point ceasefire plan to Iran, but technical and onchain data show limited upside for BTC.",
+        "url": "https://cointelegraph.com/markets/bitcoin-retakes-71k-us-sends-iran-15-point-ceasefire-plan",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae1e0-f123-7e75-9c70-98cca54ff4b4",
+        "publishedAt": "2026-03-25T10:54:33Z",
+        "content": "Bitcoin (BTC) rose back above $71,000 during the early Asian trading hours on Wednesday after Trumps administration offered a 15-point plan to Iran to end the war, sparking short-term optimism across… [+4020 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1a17-f0d3-7621-ad4b-f4523e7a4e21.jpg",
         "publishedAt": "2026-03-23T17:20:09Z",
         "content": "Bitcoins (BTC) failure to close the week above the 200-week exponential moving average (EMA) on Sunday put it at risk of another downward leg over the coming weeks or months.\r\nKey takeaways:\r\n<ul><li… [+3417 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "4 Bitcoin Targets To Be On The Lookout For As Price Retests S/R Zone",
-        "description": "Bitcoin is once again testing a critical level that could shape its next major move. With price action returning to a previously contested support and resistance zone, attention is now shifting toward a defined set of upside targets that could come into play …",
-        "url": "http://www.newsbtc.com/news/bitcoin/4-bitcoin-targets-s-r-zone/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Jumps-8-Breakout-Hopes-Reignite-Across-Crypto-Markets.jpg?fit=1408%2C768",
-        "publishedAt": "2026-03-23T16:30:57Z",
-        "content": "Bitcoin is once again testing a critical level that could shape its next major move. With price action returning to a previously contested support and resistance zone, attention is now shifting towar… [+3021 chars]"
       }
     ]
   }
