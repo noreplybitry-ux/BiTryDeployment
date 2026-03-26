@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T19:16:57.828Z",
+  "timestamp": "2026-03-26T20:41:38.646Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Roadmap To $300,000: Analyst Shares Step-By-Step Guide To The Top",
+        "description": "Crypto analyst Crypto Patel has outlined a roadmap for how Bitcoin could rally to $300,000. The analyst also indicated that investors will have the opportunity to buy at lower levels, as he predicts BTC will first drop to $44,000.  Roadmap For The Bitcoin Ral…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-roadmap-to-300000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-24.jpg?fit=612%2C344",
+        "publishedAt": "2026-03-25T20:00:42Z",
+        "content": "Crypto analyst Crypto Patel has outlined a roadmap for how Bitcoin could rally to $300,000. The analyst also indicated that investors will have the opportunity to buy at lower levels, as he predicts … [+2439 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Targets-Resistance.jpg?fit=1366%2C745",
         "publishedAt": "2026-03-24T05:08:55Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "Australian Pension Fund Weighs Crypto Access Amid Market Volatility",
-        "description": "Hostplus’s crypto ambition is attempting to meet rising investor demand, even as volatility keeps rivals on the sidelines.",
-        "url": "https://decrypt.co/362149/australian-pension-fund-weighs-crypto-market-volatility",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Sydney-gID_7.jpg",
-        "publishedAt": "2026-03-24T04:54:27Z",
-        "content": "In brief\r\n<ul><li>Hostplus CIO Sam Sicilia says the retirement fund is eyeing a potential launch as early as next financial year.</li><li>The fund is looking beyond Bitcoin at a wider range of digita… [+3510 chars]"
       }
     ]
   }
