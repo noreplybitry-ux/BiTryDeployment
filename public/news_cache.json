@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T22:37:34.597Z",
+  "timestamp": "2026-03-26T23:38:09.068Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Predicts Bitcoin To Gold Rotation That Will Send BTC Price To $800,000, But When?",
+        "description": "A crypto analyst has issued a bold long-term forecast for Bitcoin, predicting that a capital rotation out of gold and into Bitcoin will drive the asset to $800,000. This prediction is coming at a time when gold’s recent decline has caught many financial inves…",
+        "url": "http://www.newsbtc.com/news/bitcoin/a-bitcoin-to-gold-rotation/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-48.jpg?fit=1280%2C853",
+        "publishedAt": "2026-03-25T23:00:42Z",
+        "content": "A crypto analyst has issued a bold long-term forecast for Bitcoin, predicting that a capital rotation out of gold and into Bitcoin will drive the asset to $800,000. This prediction is coming at a tim… [+2729 chars]"
+      },
       {
         "source": {
           "id": null,
