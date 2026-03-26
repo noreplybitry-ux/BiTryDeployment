@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T10:59:02.311Z",
+  "timestamp": "2026-03-26T11:56:36.951Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "STS Digital unveils structured crypto platform with Kraken as distribution partner",
+        "description": "The platform, which covers 400 tokens, is aimed at banks, family offices, and high-net-worth individuals and comes as digital assets face growing institutional demand.",
+        "url": "https://www.coindesk.com/markets/2026/03/25/sts-digital-unveils-structured-crypto-platform-with-kraken-as-distribution-partner",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5b3e22f79db7d662674f6627620b8e945757ba94-1280x702.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-25T11:00:00Z",
+        "content": "STS Digital, a trading firm specializing in crypto options, unveiled a structured-products platform aimed at sophisticated investors as digital assets gain growing acceptance among traditional financ… [+1618 chars]"
+      },
       {
         "source": {
           "id": null,
