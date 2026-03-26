@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T13:49:31.157Z",
+  "timestamp": "2026-03-26T15:12:34.384Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Ethereum Staking Ratio Hits Record 31.4% As Exchange Supply Crashes To 2016 Lows",
+        "description": "Ethereum is trading below $2,200. The market is volatile. And yet, quietly, the structural case for ETH has never looked more constrained on the supply side. A new CryptoQuant report reveals that 38.31 million ETH — roughly 31.4% of the total supply — is now …",
+        "url": "http://www.newsbtc.com/ethereum-news/ethereum-staking-ratio-hits-record-31-4-as-exchange-supply-crashes-to-2016-lows/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-11-1.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-03-25T15:00:31Z",
+        "content": "Ethereum is trading below $2,200. The market is volatile. And yet, quietly, the structural case for ETH has never looked more constrained on the supply side.\r\nA new CryptoQuant report reveals that 38… [+3407 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Marshall Islands basic income effort gains crypto-connected backers",
+        "description": "Despite an IMF warning regarding the potential risks, the Marshall Islands is proceeding with a partnership which could expand its digital sovereign bond to institutional markets.",
+        "url": "https://cointelegraph.com/news/company-marshall-islands-digital-sovereign-bond-ubi",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d217a-c186-7706-84d9-69c108af19fc.jpg",
+        "publishedAt": "2026-03-25T14:13:25Z",
+        "content": "The company behind the Republic of the Marshall Islands universal basic income (UBI) program using a US dollar-pegged sovereign financial instrument has attracted some significant crypto-tied backers… [+2851 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bb63f-beec-7de2-8139-1f7d5e2446fd.jpg",
         "publishedAt": "2026-03-23T21:48:03Z",
         "content": "Massachusetts Senator Elizabeth Warren has raised concerns about whether YouTuber Jimmy Donaldson, better known as MrBeast, intends to market cryptocurrency to teenagers and young adults following hi… [+2760 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Price Recovery Paints Familiar Pattern—And That’s the Problem: Analysis",
-        "description": "Bitcoin bulls are feeling it right now. But the BTC price chart is quietly drawing the same pattern it drew before two major crashes in a row.",
-        "url": "https://decrypt.co/362087/bitcoin-price-pattern-market-crash-analysis",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-20-gID_7.png",
-        "publishedAt": "2026-03-23T20:54:30Z",
-        "content": "In brief\r\n<ul><li>Bitcoin climbed above $71,000 today, offering bulls their first glimpse of relief since February's collapse.</li><li>At the same time, the price move has formed the same compressive… [+6447 chars]"
       }
     ]
   }
