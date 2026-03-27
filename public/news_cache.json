@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T21:42:04.940Z",
+  "timestamp": "2026-03-27T22:39:44.501Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -472,19 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5b3e22f79db7d662674f6627620b8e945757ba94-1280x702.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-25T11:00:00Z",
         "content": "STS Digital, a trading firm specializing in crypto options, unveiled a structured-products platform aimed at sophisticated investors as digital assets gain growing acceptance among traditional financ… [+1618 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin retakes $71K as US sends Iran 15-point ceasefire plan",
-        "description": "Bitcoin climbed back above $71,000 after the US proposed a 15-point ceasefire plan to Iran, but technical and onchain data show limited upside for BTC.",
-        "url": "https://cointelegraph.com/markets/bitcoin-retakes-71k-us-sends-iran-15-point-ceasefire-plan",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae1e0-f123-7e75-9c70-98cca54ff4b4",
-        "publishedAt": "2026-03-25T10:54:33Z",
-        "content": "Bitcoin (BTC) rose back above $71,000 during the early Asian trading hours on Wednesday after Trumps administration offered a 15-point plan to Iran to end the war, sparking short-term optimism across… [+4020 chars]"
       }
     ]
   }
