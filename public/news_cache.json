@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T13:19:50.994Z",
+  "timestamp": "2026-03-27T14:57:53.055Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Stablecoin Giant Tether Expands Leading Gold-Backed Token to BNB Chain",
+        "description": "Tether’s gold-backed XAUT token, with a $2.5 billion market cap, is now available on BNB Chain following the precious metal’s recent surge.",
+        "url": "https://decrypt.co/362448/stablecoin-giant-expands-leading-gold-backed-token-bnb-chain",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin_gold2-gID_7.png",
+        "publishedAt": "2026-03-26T14:53:47Z",
+        "content": "Tether said Thursday that it has launched its gold-backed token XAUT on BNB Chain, expanding access to the dominant tokenized gold product after the precious metal soared to new price heights in rece… [+2263 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Recovery-Firms.jpg?fit=1366%2C745",
         "publishedAt": "2026-03-25T05:28:02Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Trends Higher, Bulls Look to Extend Gains Further",
-        "description": "Ethereum price started a recovery wave above the $2,065 zone. ETH is now consolidating above $2,120 and might aim for more gains if it clears the $2,200 resistance. Ethereum started a recovery wave above the $2,125 zone. The price is trading above $2,140 and …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-trends-higher-2120/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Trends-Higher.jpg?fit=1366%2C745",
-        "publishedAt": "2026-03-25T03:18:13Z",
-        "content": "Ethereum price started a recovery wave above the $2,065 zone. ETH is now consolidating above $2,120 and might aim for more gains if it clears the $2,200 resistance.\r\n<ul><li>Ethereum started a recove… [+2077 chars]"
       }
     ]
   }
