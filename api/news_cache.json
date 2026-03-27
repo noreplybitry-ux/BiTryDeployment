@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T19:03:54.619Z",
+  "timestamp": "2026-03-27T20:46:57.007Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "GameStop turned its $368 million bitcoin stash into an options income play",
+        "description": "The video retailer sparked speculations of selling bitcoin after it transferred nearly all its coins to Coinbase Prime in January.",
+        "url": "https://www.coindesk.com/business/2026/03/26/gamestop-turned-its-usd368-million-bitcoin-stash-into-an-options-income-play",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4c5823b1c33fe3a585f8b198bf7ff06536bfe5ae-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-26T20:20:21Z",
+        "content": "GameStop's (GME) massive, $420 million bitcoin BTC\r\n$69,165.01 transfer earlier this year was not an exit but it's not holding the coins anymore either.\r\nIn its annual report filed Tuesday, the video… [+1836 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "OKX won’t rush IPO as exec warns poor listings hurt crypto industry",
+        "description": "OKX says it will delay going public until it can deliver consistent shareholder returns, even after a $25 billion valuation tied to its NYSE parent company deal.",
+        "url": "https://www.coindesk.com/business/2026/03/26/okx-says-it-won-t-go-public-until-it-can-deliver-returns-to-investors",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5a368961e979692daed505ba5828bb72f91a8d96-1600x844.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-26T19:32:11Z",
+        "content": "OKX does not plan to rush into public markets in the U.S., even as the crypto exchange pushes deeper into global expansion and tokenized finance.\r\nWe will go public when we have confidence that we ca… [+2940 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae1e0-f123-7e75-9c70-98cca54ff4b4",
         "publishedAt": "2026-03-25T10:54:33Z",
         "content": "Bitcoin (BTC) rose back above $71,000 during the early Asian trading hours on Wednesday after Trumps administration offered a 15-point plan to Iran to end the war, sparking short-term optimism across… [+4020 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "There's a huge $14 billion bitcoin options expiry this Friday and it points to $75,000 as price magnet",
-        "description": "Bitcoin options worth billions of dollars will expire on Deribit this Friday at 8:00 UTC.",
-        "url": "https://www.coindesk.com/markets/2026/03/25/there-s-a-huge-usd14-billion-bitcoin-options-expiry-this-friday-and-it-points-to-usd75-000-as-price-magnet",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bfb4779e9245468a88a2a948bb0e1677ae7e7858-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-25T08:10:37Z",
-        "content": "On Friday, bitcoin BTC\r\n$71,262.33 options or derivative contracts worth billions will expire on crypto exchange Deribit. Traders might want to note that the dynamics of the expiry are such that BTC'… [+3573 chars]"
       }
     ]
   }
