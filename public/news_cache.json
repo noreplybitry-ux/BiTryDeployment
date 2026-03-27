@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T09:01:20.172Z",
+  "timestamp": "2026-03-27T10:55:03.685Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin in ‘later stages’ of bear market: Watch these BTC price levels",
+        "description": "Bitcoin was down 44% from its $126,000 all-time highs as key onchain and technical indicators suggested BTC is entering the late phase of the bear market.",
+        "url": "https://cointelegraph.com/markets/bitcoin-in-later-stages-of-bear-market-watch-these-btc-price-levels",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c1ee5-bd55-7ef5-aba5-f3abc1821d07.jpg",
+        "publishedAt": "2026-03-26T10:48:42Z",
+        "content": "Bitcoin (BTC) sellers resumed their activity on Thursday as the BTC price slipped below the $70,000 mark.\r\nAnalysts said that Bitcoin showed signs of a bear market in its last stages, due to extreme … [+5091 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,32 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/USDC-gID_7.png",
         "publishedAt": "2026-03-24T20:48:55Z",
         "content": "In brief\r\n<ul><li>Circle's CRCL shares dropped 20% on Tuesday following a recent surge in value for the firm's stock.</li><li>Stablecoin giant Tether announced a long-awaited agreement for an audit f… [+3995 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Circle (CRCL) Crashes Below $100 After Senate Revises Crypto Bill To Ban Stablecoin Rewards",
-        "description": "Circle Internet Financial, the issuer behind the USDC stablecoin — the second-largest dollar-pegged cryptocurrency — saw its stock, CRCL, tumble 22% on Tuesday to $98 as lawmakers reportedly moved to tighten rules around stablecoin yields.  The selloff follow…",
-        "url": "http://www.newsbtc.com/breaking-news-ticker/circle-crcl-crashes-below-100-after-senate-revises-crypto-bill-to-ban-stablecoin-rewards/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/Screenshot_1273.jpg",
-        "publishedAt": "2026-03-24T17:39:03Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Whales Are Making Money Again, But Will They Hold Or Sell?",
-        "description": "Ethereum whales are now back in profit as the ETH price continues to climb, defying the broader market downtrend. Data from the on-chain analytics platform CryptoQuant indicate that these whales are investors with wallets holding over 100,000 ETH. The sudden …",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-whales-making-money/",
-        "urlToImage": null,
-        "publishedAt": "2026-03-24T17:30:58Z",
-        "content": "Ethereum whales are now back in profit as the ETH price continues to climb, defying the broader market downtrend. Data from the on-chain analytics platform CryptoQuant indicate that these whales are … [+2997 chars]"
       }
     ]
   }
