@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-26T23:38:09.068Z",
+  "timestamp": "2026-03-27T02:53:05.932Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Hits Barriers, Can Bulls Overcome Key Resistance Levels?",
+        "description": "Bitcoin price started a recovery wave above $70,000. BTC is now consolidating above $70,200 and might aim for a steady increase if it clears $71,650. Bitcoin started a decent recovery wave above $69,800 and $70,200. The price is trading above $70,200 and the …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-hits-barriers-71200/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Defends-Support.jpg",
+        "publishedAt": "2026-03-26T02:51:22Z",
+        "content": "Bitcoin price started a recovery wave above $70,000. BTC is now consolidating above $70,200 and might aim for a steady increase if it clears $71,650.\r\n<ul><li>Bitcoin started a decent recovery wave a… [+2165 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Will Ethereum Price Crash Below $2,000 Again Amid Whale Sell-Offs",
+        "description": "The Ethereum price has jumped back above $2,100 despite broader market volatility, driven by aggressive whale accumulation and tightening supply. However, recent updates reveal that whales are now selling their ETH, likely taking profit after prices recovered…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-crash-below-2000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-Getty-Images-37.jpg?fit=612%2C407",
+        "publishedAt": "2026-03-26T02:00:42Z",
+        "content": "The Ethereum price has jumped back above $2,100 despite broader market volatility, driven by aggressive whale accumulation and tightening supply. However, recent updates reveal that whales are now se… [+2889 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e8c82ae61f612938f328059badeed4de63c688a0-1280x720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-24T12:36:24Z",
         "content": "ParaFi, a New York-based digital asset manager backed by KKR co-founder Henry Kravis, raised $125 million for a new venture fund, Bloomberg reported.\r\nThe cash comes on top of the $325 million ParaFi… [+975 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "What happens to Bitcoin if US bond yields soar above 5%?",
-        "description": "Past oil-war shocks have lifted inflation and reduced risk appetite, a macroeconomic setup that increases the risk of Bitcoin falling below $50,000 in 2026.",
-        "url": "https://cointelegraph.com/markets/what-happens-bitcoin-bond-yields-above-5percent",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1a63-dd67-75bb-a817-43623d2cae56.jpg",
-        "publishedAt": "2026-03-24T10:55:56Z",
-        "content": "Bitcoin (BTC) has been among the best-performing assets amid the USIran war, but signs of upside exhaustion are emerging due to an out-of-control bond market.\r\nKey takeaways:\r\n<ul><li>US benchmark yi… [+4201 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin value 'off the chart' as BTC price metric hits record lows in 2026",
-        "description": "Bitcoin Yardstick data confirmed a new record for BTC price \"deep value\" in February as miners battled the lowest price levels in 15 months.",
-        "url": "https://cointelegraph.com/markets/bitcoin-value-off-the-chart-btc-price-metric-hits-record-lows-in-2026",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1f55-c501-73bc-a068-80564899c825.jpg",
-        "publishedAt": "2026-03-24T10:32:09Z",
-        "content": "Bitcoin (BTC) is off the chart in terms of value-for-money as price diverges from hash rate, a market analyst says.\r\nKey points:\r\n<ul><li>Bitcoin price action is diverging from hash rate to an extent… [+3034 chars]"
       }
     ]
   }
