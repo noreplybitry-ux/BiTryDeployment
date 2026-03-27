@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T17:53:03.838Z",
+  "timestamp": "2026-03-27T19:03:54.619Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Expert Analyst Says Bitcoin Expansion Is Over, It Won’t Rally Until This Is Over",
+        "description": "Bitcoin’s next move is one of the most debated questions in the market right now. One side sees the current price structure as a base for a push to new all-time highs, pointing to strength around $70,000 and repeated rebounds above this price level. Another c…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-expansion-is-over/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-68-1.jpg?fit=612%2C408",
+        "publishedAt": "2026-03-26T18:00:31Z",
+        "content": "Bitcoins next move is one of the most debated questions in the market right now. One side sees the current price structure as a base for a push to new all-time highs, pointing to strength around $70,… [+2669 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bfb4779e9245468a88a2a948bb0e1677ae7e7858-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-25T08:10:37Z",
         "content": "On Friday, bitcoin BTC\r\n$71,262.33 options or derivative contracts worth billions will expire on crypto exchange Deribit. Traders might want to note that the dynamics of the expiry are such that BTC'… [+3573 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Bitcoin back above $71K: is this rebound real or a bull trap?",
-        "description": "Bitcoin price rebounds above $71,000 amid cautious market sentiment. Exchange outflows suggest long-term accumulation by investors. Geopolitical signals and Bitcoin transfers shape near-term trends. Bitcoin has bounced back above $71,000 after a week of mixed…",
-        "url": "https://coinjournal.net/news/bitcoin-back-above-71k-is-this-rebound-real-or-a-bull-trap/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/bitcoin-cash-price.png",
-        "publishedAt": "2026-03-25T08:04:19Z",
-        "content": "<ul><li>Bitcoin price rebounds above $71,000 amid cautious market sentiment.</li><li>Exchange outflows suggest long-term accumulation by investors.</li><li>Geopolitical signals and Bitcoin transfers … [+2949 chars]"
       }
     ]
   }
