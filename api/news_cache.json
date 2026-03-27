@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T11:46:13.539Z",
+  "timestamp": "2026-03-27T13:19:50.995Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Binance Just Declared War On Quiet Market Makers —3 Red Flags Every Trader Should Watch",
+        "description": "The new Binance guidelines for market makers requires them to disclose information such as their identity and contract terms. Binance Tightens The Grip On Market Makers On Wednesday, the largest centralized crypto exchange in the world released a new set of g…",
+        "url": "http://www.newsbtc.com/breaking-news-ticker/binance-war-on-market-makers-3-red-flags-every-trader-should-watch/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image52.png",
+        "publishedAt": "2026-03-26T13:13:04Z",
+        "content": "The new Binance guidelines for market makers requires them to disclose information such as their identity and contract terms.\r\nOn Wednesday, the largest centralized crypto exchange in the world relea… [+3965 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "White House clears review of proposal to allow crypto in 401(k) retirement plans",
+        "description": "A review from the White House’s Office of Information cleared the Labor Department to move forward with its draft rule on including crypto and alternative assets into 401(k) retirement funds.",
+        "url": "https://cointelegraph.com/news/white-house-review-greenlights-crypto-401-k-plans",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cb690-6e2d-7aab-b50f-16892f448bd0.jpg",
+        "publishedAt": "2026-03-26T13:09:50Z",
+        "content": "The White Houses Office of Information and Regulatory Affairs (OIRA) has completed its review of a Department of Labor (DOL) proposal that could reshape how 401(k) fiduciaries evaluate alternative as… [+2476 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Accumulation Map Reveals Price Roadmap To $20,000",
+        "description": "Crypto analyst Crypto Patel has revealed an Ethereum accumulation roadmap indicating the altcoin could rally as high as $20,000. This comes as ETH continues to struggle around the $2,000 level amid the U.S.-Iran war, which has dragged on for almost a month no…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-roadmap-to-20000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-iStock-28.jpg?fit=612%2C408",
+        "publishedAt": "2026-03-26T12:00:31Z",
+        "content": "Crypto analyst Crypto Patel has revealed an Ethereum accumulation roadmap indicating the altcoin could rally as high as $20,000. This comes as ETH continues to struggle around the $2,000 level amid t… [+2745 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,45 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Trends-Higher.jpg?fit=1366%2C745",
         "publishedAt": "2026-03-25T03:18:13Z",
         "content": "Ethereum price started a recovery wave above the $2,065 zone. ETH is now consolidating above $2,120 and might aim for more gains if it clears the $2,200 resistance.\r\n<ul><li>Ethereum started a recove… [+2077 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Approaches Break Zone, Upside Move Looks Likely",
-        "description": "Bitcoin price started a recovery wave above $69,200. BTC is now back above $70,000 and might aim for a steady increase if it clears $71,650. Bitcoin started a decent recovery wave above $69,500 and $70,000. The price is trading above $70,000 and the 100 hourl…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-approaches-break-70700/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Approaches-Break-Zone-Upside-Move-Looks-Likely.jpg",
-        "publishedAt": "2026-03-25T02:35:44Z",
-        "content": "Bitcoin price started a recovery wave above $69,200. BTC is now back above $70,000 and might aim for a steady increase if it clears $71,650.\r\n<ul><li>Bitcoin started a decent recovery wave above $69,… [+2159 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bitcoin, XRP Rallies Won’t Hold Until Oil Falls Toward $80, Expert Warns",
-        "description": "Brent crude slid nearly 12% on Monday to trade around $94, but market expert Sam Daodu warns that oil prices will need to fall further — toward the $85–$80 range — before potential rallies in Bitcoin (BTC) and XRP prices can be sustainable.  According to Daod…",
-        "url": "http://www.newsbtc.com/xrp-news/bitcoin-xrp-rallies-wont-hold-until-oil-falls-toward-80-expert-warns/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/Screenshot_804.jpg?fit=1257%2C722",
-        "publishedAt": "2026-03-25T02:00:15Z",
-        "content": "Brent crude slid nearly 12% on Monday to trade around $94, but market expert Sam Daodu warns that oil prices will need to fall further toward the $85$80 range before potential rallies in Bitcoin (BTC… [+3179 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Rising US treasury yields, war in Iran, rising inflation risk pressure Bitcoin price",
-        "description": "Bitcoin’s hold on $70,000 slips as rising treasury yields, inflation concerns and the risk of a prolonged war in Iran discourage investors.",
-        "url": "https://cointelegraph.com/markets/rising-us-treasury-yields-war-in-iran-rising-inflation-risk-pressure-bitcoin-price",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d21bb-cf78-703d-b26a-ac30eda9131f.jpg",
-        "publishedAt": "2026-03-24T23:12:13Z",
-        "content": "Key takeaways:\r\n<ul><li>Investors dumped gold and bonds for cash as war-driven oil spikes and inflation forced a defensive market stance.\r\n</li><li>Rising yields and a 20% rate hike chance signal a t… [+4129 chars]"
       }
     ]
   }
