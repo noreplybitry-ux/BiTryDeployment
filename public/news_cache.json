@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T07:17:40.312Z",
+  "timestamp": "2026-03-27T09:01:20.172Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Ethereum price drops below $2,200, but a bullish reversal is brewing",
+        "description": "Ethereum (ETH) price shows early signs of a potential bullish trend reversal. On-chain data suggests accumulation and weakening selling pressure. A break above $2,300 could trigger further upside momentum. Ethereum has slipped below the $2,200 mark, but the b…",
+        "url": "https://coinjournal.net/news/ethereum-price-drops-below-2200-but-a-bullish-reversal-is-brewing/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/ethereum-eth-price.png",
+        "publishedAt": "2026-03-26T08:56:06Z",
+        "content": "<ul><li>Ethereum (ETH) price shows early signs of a potential bullish trend reversal.</li><li>On-chain data suggests accumulation and weakening selling pressure.</li><li>A break above $2,300 could tr… [+3824 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "None Of The 30 Bitcoin Market Peak Indicators Have Been Hit, So Why Did The Price Crash?",
+        "description": "The Bitcoin price topped slightly above $126,000 back in October 2026 and is now down by over 40% since then. This move that has sent the cryptocurrency’s price below the $70,000 level multiple times since then, marking a possible entrance into the bear marke…",
+        "url": "http://www.newsbtc.com/news/bitcoin/30-bitcoin-market-peak-indicators/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-3-2026-09_49_03-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-26T08:30:04Z",
+        "content": "The Bitcoin price topped slightly above $126,000 back in October 2026 and is now down by over 40% since then. This move that has sent the cryptocurrencys price below the $70,000 level multiple times … [+2335 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +485,6 @@
         "urlToImage": null,
         "publishedAt": "2026-03-24T17:30:58Z",
         "content": "Ethereum whales are now back in profit as the ETH price continues to climb, defying the broader market downtrend. Data from the on-chain analytics platform CryptoQuant indicate that these whales are … [+2997 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor, James Van Straten",
-        "title": "Bitcoin slips below $70,000, Circle's 16% slide leads crypto stock sell-off",
-        "description": "Market participants are now pricing in rate hikes, and it could be weighing on risk assets.",
-        "url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-slips-below-usd70-000-circle-s-16-slide-leading-crypto-stock-sell-off",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ffa48d5820d6d5c59d11fcf220d3e890cb9b80a4-2070x1186.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-24T15:30:32Z",
-        "content": "Bitcoin BTC\r\n$69,096.50 slipped back toward $69,000 on Tuesday morning as a broader pullback in equities spilled over into crypto markets.\r\nAfter trading near $71,000 earlier in the session, BTC fell… [+2475 chars]"
       }
     ]
   }
