@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T20:46:57.007Z",
+  "timestamp": "2026-03-27T21:42:04.940Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin gained 655% the last time this supply in profit metric dropped to 50%",
+        "description": "Bitcoin’s total supply in profit metric fell below 50% in February, a threshold linked to previous BTC accumulation phases. Does data predict a similar outcome?",
+        "url": "https://cointelegraph.com/markets/bitcoin-gained-655percent-the-last-time-this-supply-in-profit-metric-dropped-to-50percent",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae3a2-0ed9-7b27-a323-5398befdc382",
+        "publishedAt": "2026-03-26T21:15:00Z",
+        "content": "The total Bitcoin (BTC) supply in profit stands at 60.6% on Thursday, continuing to move within a range historically associated with market cycle resets. The metric previously dropped to 50.8% on Feb… [+3927 chars]"
+      },
       {
         "source": {
           "id": null,
