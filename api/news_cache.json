@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T16:00:55.067Z",
+  "timestamp": "2026-03-27T17:53:03.838Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/bitcoin-cash-price.png",
         "publishedAt": "2026-03-25T08:04:19Z",
         "content": "<ul><li>Bitcoin price rebounds above $71,000 amid cautious market sentiment.</li><li>Exchange outflows suggest long-term accumulation by investors.</li><li>Geopolitical signals and Bitcoin transfers … [+2949 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Is Officially In A Bear Market And Is Headed Below $30,000, Analyst Warns",
-        "description": "One thing that has stood out about Bitcoin is how different the recent bull cycle was from other bull cycles. For example, even after the Bitcoin price surged to new all-time highs, the altcoins never followed, and therefore, there was no explosive altcoin se…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-headed-below-30000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-45.jpg?fit=640%2C359",
-        "publishedAt": "2026-03-25T07:30:03Z",
-        "content": "One thing that has stood out about Bitcoin is how different the recent bull cycle was from other bull cycles. For example, even after the Bitcoin price surged to new all-time highs, the altcoins neve… [+2270 chars]"
       }
     ]
   }
