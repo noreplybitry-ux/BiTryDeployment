@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T14:57:53.055Z",
+  "timestamp": "2026-03-27T16:00:55.067Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Coinbase launches token-backed down payments for Fannie Mae loans",
+        "description": "Coinbase and Better Home & Finance launched a structure that lets borrowers pledge Bitcoin or USDC to fund the cash down payment on a conforming mortgage tied to Fannie Mae-backed loans.",
+        "url": "https://cointelegraph.com/news/coinbase-launches-token-backed-down-payments-for-fannie-mae-loans",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c7c9c-93a2-7132-9a04-89565ceeb22b.jpg",
+        "publishedAt": "2026-03-26T15:06:17Z",
+        "content": "Crypto exchange Coinbase Global has launched a mortgage structure with Better Home &amp; Finance that lets qualified borrowers pledge digital assets held in Coinbase accounts to fund down payments on… [+4205 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Claudia Marcela Hernández",
+        "title": "Crypto for Advisors: The evolution of stablecoins",
+        "description": "From niche trading instrument to global financial infrastructure: How stablecoins are extending the US dollar’s reach and what advisors need to know.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/03/25/crypto-for-advisors-the-evolution-of-stablecoins",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/19afeff54d9d46683fd39220166eeafd8320851b-4507x3004.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-26T15:00:00Z",
+        "content": "In todays newsletter, Claudia Marcela Hernández analyzes how stablecoins have evolved past volatility-fixers to become the foundational settlement asset for global tokenized markets and cross-border … [+9746 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pngtree-45.jpg?fit=640%2C359",
         "publishedAt": "2026-03-25T07:30:03Z",
         "content": "One thing that has stood out about Bitcoin is how different the recent bull cycle was from other bull cycles. For example, even after the Bitcoin price surged to new all-time highs, the altcoins neve… [+2270 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Bitcoin exchange outflows show ‘genuine accumulation by investors’: Analyst",
-        "description": "Ongoing accumulation of Bitcoin is likely one of the factors behind why the cryptocurrency is trading in a tight range, say crypto analysts.",
-        "url": "https://cointelegraph.com/news/persistent-btc-exchange-outflow-suggests-genuine-accumulation-by-investors-analyst",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bc10f-398f-7102-a685-ceaff2cfc902.jpg",
-        "publishedAt": "2026-03-25T05:50:51Z",
-        "content": "The net outflow of Bitcoin from exchanges over the past month suggests that investors have started to accumulate the cryptocurrency, says a CryptoQuant analyst.\r\nMarch has been largely dominated by B… [+2677 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Recovery Firms, Bulls Prepare for Stronger Upside Push",
-        "description": "Solana found support at $85 and corrected some losses. SOL price is now consolidating above $90 and might aim for a steady increase. SOL price started a decent recovery wave above $88 and $90 against the US Dollar. The price is now trading above $90 and the 1…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-recovery-firms-85/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Recovery-Firms.jpg?fit=1366%2C745",
-        "publishedAt": "2026-03-25T05:28:02Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
