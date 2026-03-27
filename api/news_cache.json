@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-27T05:13:16.195Z",
+  "timestamp": "2026-03-27T07:17:40.312Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Bitcoin price drops below $70,000 after Iran truce buzz, Network Activity weakens",
+        "description": "Bitcoin price falls below $70,000 as network activity weakens. Declining transactions and addresses signal lower demand. Key support is at $69,400, while resistance stands near $71,600. Bitcoin price today hit a daily low of $69,914.54 after soaring above $71…",
+        "url": "https://coinjournal.net/news/bitcoin-price-drops-below-70000-after-iran-truce-buzz-network-activity-weakens/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/10/bitcoin-price-dump.png",
+        "publishedAt": "2026-03-26T07:06:23Z",
+        "content": "<ul><li>Bitcoin price falls below $70,000 as network activity weakens.</li><li>Declining transactions and addresses signal lower demand.</li><li>Key support is at $69,400, while resistance stands nea… [+4483 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Coinbase opposes latest crypto bill stablecoin compromise: Report",
+        "description": "Coinbase has told Senate lawmakers it is concerned about stablecoin yield provisions in the latest version of a crypto market structure bill that was pitched as a compromise, Punchbowl News reports.",
+        "url": "https://cointelegraph.com/news/coinbase-opposes-latest-crypto-bill-stablecoin-compromise-report",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bafde-7690-7c2d-a585-5ed00300856d.jpg",
+        "publishedAt": "2026-03-26T06:03:38Z",
+        "content": "Crypto exchange Coinbase is reportedly against the latest compromise over stablecoin yields that the Senate is looking to include in its crypto market structure bill.\r\nCoinbase representatives told S… [+2758 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Stalls in Range, Bulls Fail to Seize Momentum",
+        "description": "Dogecoin corrected some gains from the $0.0980 zone against the US Dollar. DOGE is now holding the $0.0940 support and might aim for a fresh increase. DOGE price started a fresh downside correction below $0.0955. The price is trading above the $0.0940 level a…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-stalls-in-range-0-094/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Stalls-in-Range-Bulls-Fail-to-Seize-Momentum.jpg?fit=1024%2C559",
+        "publishedAt": "2026-03-26T05:18:14Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,45 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ffa48d5820d6d5c59d11fcf220d3e890cb9b80a4-2070x1186.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-24T15:30:32Z",
         "content": "Bitcoin BTC\r\n$69,096.50 slipped back toward $69,000 on Tuesday morning as a broader pullback in equities spilled over into crypto markets.\r\nAfter trading near $71,000 earlier in the session, BTC fell… [+2475 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Bitcoin Holds $70K – Is The High‑Beta Era Over?",
-        "description": "Crypto continues to show resilience with bitcoin (BTC) steadily trading around $70-$71k after briefly dropping below the $70k mark over the weekend, outperforming prior Middle East‑driven sell‑offs where thin liquidity exaggerated downside. Related Reading: B…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-holds-70k-is-the-high%e2%80%91beta-era-over/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image45.png",
-        "publishedAt": "2026-03-24T14:55:27Z",
-        "content": "Crypto continues to show resilience with bitcoin (BTC) steadily trading around $70-$71k after briefly dropping below the $70k mark over the weekend, outperforming prior Middle Eastdriven selloffs whe… [+2745 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Ethereum price rally pauses at $2.2K: What will trigger breakout?",
-        "description": "A resurgence in institutional demand and spot ETF inflow return could put Ethereum price in a better position to overcome the next hurdle at $2,200.",
-        "url": "https://cointelegraph.com/markets/ethereum-price-rally-pauses-at-2-200-what-will-trigger-breakout",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-03/01956789-57c3-728c-8265-11d6397e5bb8",
-        "publishedAt": "2026-03-24T14:43:25Z",
-        "content": "Ethers (ETH) 9% rally on Monday stalled at $2,200 due to stiff overhead resistance and weak ETF demand. Still, technical and onchain setups suggested that upward momentum may increase as long as ETH … [+4310 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin PMI Cycle Is The Only Signal That Matters, Analyst Explains Why",
-        "description": "Bitcoin’s price action is looking uncertain on the surface, but one crypto analyst believes the real story is playing out far from the charts that most traders are watching. According to crypto analyst Crypto Tice, all of that Bitcoin price noise obscures a s…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-pmi-cycle-signal-matters/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-from-Pngtree-36.jpg?fit=960%2C717",
-        "publishedAt": "2026-03-24T13:30:37Z",
-        "content": "Bitcoins price action is looking uncertain on the surface, but one crypto analyst believes the real story is playing out far from the charts that most traders are watching. According to crypto analys… [+2727 chars]"
       }
     ]
   }
