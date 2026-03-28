@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T06:05:15.563Z",
+  "timestamp": "2026-03-28T07:48:33.449Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Bitcoin near $68K as fear spikes: Santiment sees buy signal",
+        "description": "Bitcoin price hovers near $68,500 but saw intraday lows of $68,000. Analysts say a textbook buy signal is flashing. Bulls could target $75,000-$80,000 next. Bitcoin continues to face headwinds, with ongoing tensions in the Iran conflict and the macro outlook …",
+        "url": "https://coinjournal.net/news/bitcoin-near-68k-as-fear-spikes-santiment-sees-buy-signal/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
+        "publishedAt": "2026-03-27T07:09:16Z",
+        "content": "<ul><li>Bitcoin price hovers near $68,500 but saw intraday lows of $68,000.</li><li>Analysts say a textbook buy signal is flashing.</li><li>Bulls could target $75,000-$80,000 next.</li></ul>Bitcoin c… [+3114 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vismaya V",
+        "title": "India Arrests Suspect Tied to Myanmar Crypto Scam Compounds",
+        "description": "The CBI said the man lured Indians with fake job offers before funneling them into crypto scam compounds in Myanmar's Myawaddy region.",
+        "url": "https://decrypt.co/362553/india-arrests-suspect-tied-to-myanmar-crypto-scam-compounds",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-india-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-03-27T06:05:55Z",
+        "content": "In brief\r\n<ul><li>Indias CBI arrests Mumbai-based facilitator linked to Southeast Asia scam compound trafficking network.</li><li>Victims were forced into crypto and online fraud operations inside My… [+3797 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1f1362ca8faeb9582aa796a20ed94760c858c0b3-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-25T15:39:32Z",
         "content": "Binance, the largest crypto exchange by volume traded, released guidelines placing tighter obligations on token issuers and liquidity providers.\r\nThe new rules require projects to disclose their mark… [+1400 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Ethereum Staking Ratio Hits Record 31.4% As Exchange Supply Crashes To 2016 Lows",
-        "description": "Ethereum is trading below $2,200. The market is volatile. And yet, quietly, the structural case for ETH has never looked more constrained on the supply side. A new CryptoQuant report reveals that 38.31 million ETH — roughly 31.4% of the total supply — is now …",
-        "url": "http://www.newsbtc.com/ethereum-news/ethereum-staking-ratio-hits-record-31-4-as-exchange-supply-crashes-to-2016-lows/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-11-1.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-03-25T15:00:31Z",
-        "content": "Ethereum is trading below $2,200. The market is volatile. And yet, quietly, the structural case for ETH has never looked more constrained on the supply side.\r\nA new CryptoQuant report reveals that 38… [+3407 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Marshall Islands basic income effort gains crypto-connected backers",
-        "description": "Despite an IMF warning regarding the potential risks, the Marshall Islands is proceeding with a partnership which could expand its digital sovereign bond to institutional markets.",
-        "url": "https://cointelegraph.com/news/company-marshall-islands-digital-sovereign-bond-ubi",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d217a-c186-7706-84d9-69c108af19fc.jpg",
-        "publishedAt": "2026-03-25T14:13:25Z",
-        "content": "The company behind the Republic of the Marshall Islands universal basic income (UBI) program using a US dollar-pegged sovereign financial instrument has attracted some significant crypto-tied backers… [+2851 chars]"
       }
     ]
   }
