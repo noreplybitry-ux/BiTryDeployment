@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T16:41:49.738Z",
+  "timestamp": "2026-03-28T17:36:08.667Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "If Bitcoin Should Be Worth $280,000 Right Now, What’s The Real Value Of Dogecoin And XRP?",
+        "description": "An interesting statement from Grant Cardone has led to a different kind of conversation. According to the popular American businessman, the Bitcoin price should be $280,000. His claim that Bitcoin should already be trading at $280,000 raises a deeper question…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-280000-dogecoin-xrp/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/11/DALL·E-2024-11-13-12.34.15-A-creative-digital-artwork-depicting-two-large-distinct-coins.-The-left-coin-is-a-shiny-vibrant-Dogecoin-prominently-featuring-a-jubilant-and-chari.png?fit=1792%2C1024",
+        "publishedAt": "2026-03-27T17:00:10Z",
+        "content": "An interesting statement from Grant Cardone has led to a different kind of conversation. According to the popular American businessman, the Bitcoin price should be $280,000. His claim that Bitcoin sh… [+2694 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bdbc5-c66e-79b9-baed-4568dac54cc3.jpg",
         "publishedAt": "2026-03-25T21:15:00Z",
         "content": "Ethers (ETH) liquid supply on the Ethereum network continues to tighten, with exchange netflows, rising staking participation, and declining exchange reserves all pointing to a shrinking pool of read… [+3370 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "The Bitcoin Coinbase Discount Is Back: History Says That Is Worth Watching",
-        "description": "Bitcoin is holding above $70,000. The number looks resilient. The geography behind it tells a more cautious story. An Arab Chain report tracking real-time exchange pricing has identified a spread that cuts against the bullish surface reading: Bitcoin is curre…",
-        "url": "http://www.newsbtc.com/bitcoin-news/the-bitcoin-coinbase-discount-is-back-history-says-that-is-worth-watching/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-13-1.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-03-25T21:00:35Z",
-        "content": "Bitcoin is holding above $70,000. The number looks resilient. The geography behind it tells a more cautious story.\r\nAn Arab Chain report tracking real-time exchange pricing has identified a spread th… [+3923 chars]"
       }
     ]
   }
