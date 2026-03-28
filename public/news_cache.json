@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T14:37:55.408Z",
+  "timestamp": "2026-03-28T15:37:42.252Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Cathie Wood's Ark Invest Dumps Meta, Nvidia and Bitcoin ETF Shares in Major Tech Sell-Off",
+        "description": "Cathie Wood's Ark Invest sold big chunks of its positions in American tech stocks and its own Bitcoin ETF as stocks and crypto slide.",
+        "url": "https://decrypt.co/362580/cathie-woods-ark-invest-dumps-meta-nvidia-bitcoin-etf-shares",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/cathie-wood-ark-invest-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-03-27T15:18:48Z",
+        "content": "In brief\r\n<ul><li>Ark Invest parted with nearly $41 million in META and $26 million in NVDA shares on Thursday.</li><li>Cathie Wood's firm also dumped around $11 million worth of shares in its Bitcoi… [+2965 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-24.jpg?fit=612%2C344",
         "publishedAt": "2026-03-25T20:00:42Z",
         "content": "Crypto analyst Crypto Patel has outlined a roadmap for how Bitcoin could rally to $300,000. The analyst also indicated that investors will have the opportunity to buy at lower levels, as he predicts … [+2439 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 3/25: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "description": "Analysts believe that Bitcoin is in deep value territory, and withdrawals from cryptocurrency exchanges suggest strong accumulation by investors.",
-        "url": "https://cointelegraph.com/markets/price-predictions-3-25-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d25f1-bc21-7aeb-a91b-6b64fb0407a5.jpg",
-        "publishedAt": "2026-03-25T18:44:00Z",
-        "content": "Bitcoin (BTC) continues to face significant resistance at the $72,000 level, but the bulls have kept up the pressure. Trader Daan Crypto Trades said in a post on X that BTC will have to cross and sta… [+8513 chars]"
       }
     ]
   }
