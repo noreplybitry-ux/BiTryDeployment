@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T13:07:38.730Z",
+  "timestamp": "2026-03-28T14:37:55.408Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin dips under $66K as oil sparks 'unsustainable' US inflation risk",
+        "description": "Bitcoin joined a risk-asset rout as oil-supply nerves sparked major US inflation warnings, with $70,000 in place as new BTC price resistance.",
+        "url": "https://cointelegraph.com/markets/bitcoin-dips-under-66k-oil-sparks-unsustainable-inflation-risk",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d2fbe-5daf-7a32-963a-5b65a65b7a1c.jpg",
+        "publishedAt": "2026-03-27T14:26:04Z",
+        "content": "Bitcoin (BTC) neared $66,000 at Fridays Wall Street open as analysis called US inflation trends objectively unsustainable.\r\nKey points:\r\n<ul><li>Bitcoin drops further on oil-supply woes as Iran close… [+3851 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d25f1-bc21-7aeb-a91b-6b64fb0407a5.jpg",
         "publishedAt": "2026-03-25T18:44:00Z",
         "content": "Bitcoin (BTC) continues to face significant resistance at the $72,000 level, but the bulls have kept up the pressure. Trader Daan Crypto Trades said in a post on X that BTC will have to cross and sta… [+8513 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Analyst Who Predicted Bitcoin $125,000 Top Reveals What To Expect Next",
-        "description": "A crypto analyst who correctly predicted Bitcoin’s (BTC) cycle peak around $125,000 has released a new report detailing fresh projections for the world’s largest cryptocurrency. In the update, the analyst maintains a largely bearish outlook, pointing to weake…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-what-to-expect-next/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-19-2026-08_33_10-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-25T18:00:22Z",
-        "content": "A crypto analyst who correctly predicted Bitcoins (BTC) cycle peak around $125,000 has released a new report detailing fresh projections for the worlds largest cryptocurrency. In the update, the anal… [+4284 chars]"
       }
     ]
   }
