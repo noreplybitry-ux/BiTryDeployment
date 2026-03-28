@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T11:34:04.024Z",
+  "timestamp": "2026-03-28T13:07:38.730Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin holders show ‘stronger’ conviction despite BTC price losing $68K level",
+        "description": "Analysts eye $65K-$66K support for a possible bounce, as surging exchange withdrawals and accelerated long-term holder buying support BTC’s recovery potential.",
+        "url": "https://cointelegraph.com/markets/bitcoin-holders-show-stronger-conviction-despite-btc-price-losing-68k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d2edc-19f2-7a72-b85b-f7bde67c5642.jpg",
+        "publishedAt": "2026-03-27T12:39:03Z",
+        "content": "Bitcoin (BTC) dropped toward $67,000 during the European trading session on Friday despite an increase in long-term buying. Exchange withdrawals also increased to 16-month highs, suggesting reduced i… [+4193 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-19-2026-08_33_10-AM.png?fit=1222%2C814",
         "publishedAt": "2026-03-25T18:00:22Z",
         "content": "A crypto analyst who correctly predicted Bitcoins (BTC) cycle peak around $125,000 has released a new report detailing fresh projections for the worlds largest cryptocurrency. In the update, the anal… [+4284 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Bitmine launches institutional Ethereum staking platform",
-        "description": "Bitmine Immersion Technologies launches MAVAN, an institutional Ethereum staking platform backed by over 3.1 million ETH, as demand for staking infrastructure grows.",
-        "url": "https://cointelegraph.com/news/bitmine-launches-mavan-an-institutional-ethereum-staking-platform",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b6983-aa71-74bf-a5c1-20c63f73244f.jpg",
-        "publishedAt": "2026-03-25T17:09:11Z",
-        "content": "Bitmine Immersion Technologies has launched MAVAN, an institutional-grade Ethereum staking platform that will run validator infrastructure for its own holdings and external clients. \r\nStaking involve… [+3107 chars]"
       }
     ]
   }
