@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T15:37:42.252Z",
+  "timestamp": "2026-03-28T16:41:49.738Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor, James Van Straten",
+        "title": "Crypto stocks battered as Nasdaq enters correction in $17 trillion market rout",
+        "description": "The Friday plunge fits into a pattern since the war in Iran broke out, with gains on Monday turning into losses by the end of the week.",
+        "url": "https://www.coindesk.com/markets/2026/03/27/crypto-stocks-battered-as-nasdaq-enters-correction-in-usd17-trillion-market-rout",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/536faa3865f82680b606c6a020d36f50a71b2582-876x632.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-27T16:00:04Z",
+        "content": "Crypto stocks are getting hit hard Friday as weakness in U.S. equities rippled through high-risk assets, driving bitcoin BTC\r\n$65,830.92 below $66,000.\r\nCrypto exchange Coinbase (COIN) and digital as… [+3600 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Untitled-design-13-1.jpg?fit=1792%2C1024",
         "publishedAt": "2026-03-25T21:00:35Z",
         "content": "Bitcoin is holding above $70,000. The number looks resilient. The geography behind it tells a more cautious story.\r\nAn Arab Chain report tracking real-time exchange pricing has identified a spread th… [+3923 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Roadmap To $300,000: Analyst Shares Step-By-Step Guide To The Top",
-        "description": "Crypto analyst Crypto Patel has outlined a roadmap for how Bitcoin could rally to $300,000. The analyst also indicated that investors will have the opportunity to buy at lower levels, as he predicts BTC will first drop to $44,000.  Roadmap For The Bitcoin Ral…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-roadmap-to-300000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-24.jpg?fit=612%2C344",
-        "publishedAt": "2026-03-25T20:00:42Z",
-        "content": "Crypto analyst Crypto Patel has outlined a roadmap for how Bitcoin could rally to $300,000. The analyst also indicated that investors will have the opportunity to buy at lower levels, as he predicts … [+2439 chars]"
       }
     ]
   }
