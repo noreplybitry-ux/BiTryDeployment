@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T04:59:02.005Z",
+  "timestamp": "2026-03-28T06:05:15.563Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Hits Key Support, Will Bulls Hold the Line?",
+        "description": "Solana failed to settle above $92 and extended losses. SOL price is now consolidating losses below $88 and might struggle to start a recovery wave. SOL price started a fresh decline below $90 and $88 against the US Dollar. The price is now trading below $88 a…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-hits-key-support-85/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Hits-Key-Support.jpg?fit=1024%2C559",
+        "publishedAt": "2026-03-27T05:08:56Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
