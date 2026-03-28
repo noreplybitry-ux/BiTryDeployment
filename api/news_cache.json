@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T19:35:16.890Z",
+  "timestamp": "2026-03-28T20:38:49.276Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/27: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
+        "description": "Charts show Bitcoin and altcoins hanging on to their last respective support levels as investors cut risk and wait to see how markets react to rising oil prices and the war in Iran.",
+        "url": "https://cointelegraph.com/markets/price-predictions-3-27-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d3059-88e7-7375-9b0c-00ba926e52f0.jpg",
+        "publishedAt": "2026-03-27T20:06:32Z",
+        "content": "Key points:\r\n<ul><li>Bitcoins fall below the $66,000 support heightens the risk of a drop to the $62,500 level.\r\n</li><li>Select major altcoins have broken below their immediate support levels, openi… [+8726 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Detroit set to enter Michigan‘s battle against Coinbase prediction markets",
+        "description": "As Coinbase continues with its lawsuits against gaming authorities in Michigan, Illinois and Connecticut, the city of Detroit said it would file an amicus brief relat",
+        "url": "https://cointelegraph.com/news/detroit-michigan-lawsuit-coinbase-prediction-market",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c2542-1ed5-74c5-beb0-99ba71c7e6d5.jpg",
+        "publishedAt": "2026-03-27T19:37:22Z",
+        "content": "Lawyers representing the US city of Detroit plan to file an amicus brief in Coinbase's lawsuit against Michigan, which argues that federal regulators should have authority in overseeing prediction ma… [+2872 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-48.jpg?fit=1280%2C853",
         "publishedAt": "2026-03-25T23:00:42Z",
         "content": "A crypto analyst has issued a bold long-term forecast for Bitcoin, predicting that a capital rotation out of gold and into Bitcoin will drive the asset to $800,000. This prediction is coming at a tim… [+2729 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Data points to accelerating Ether supply crunch: Will ETH price follow?",
-        "description": "The number of Ether staked continues to rise while ETH outflows from exchanges are increasing. Will the phenomenon have a positive or negative impact on ETH price?",
-        "url": "https://cointelegraph.com/markets/data-points-to-accelerating-ether-supply-crunch-will-eth-price-follow",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bdbc5-c66e-79b9-baed-4568dac54cc3.jpg",
-        "publishedAt": "2026-03-25T21:15:00Z",
-        "content": "Ethers (ETH) liquid supply on the Ethereum network continues to tighten, with exchange netflows, rising staking participation, and declining exchange reserves all pointing to a shrinking pool of read… [+3370 chars]"
       }
     ]
   }
