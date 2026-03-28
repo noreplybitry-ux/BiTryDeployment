@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-28T10:39:13.327Z",
+  "timestamp": "2026-03-28T11:34:04.024Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "JPMorgan Says Bitcoin Is Beating Gold And Silver During The Iran War",
+        "description": "JPMorgan says the Iran war has produced an unusual market split: bitcoin is showing signs of safe-haven demand while gold and silver, the traditional geopolitical hedges, have weakened under the pressure of outflows, profit-taking and deteriorating liquidity.…",
+        "url": "http://www.newsbtc.com/bitcoin-news/jpmorgan-bitcoin-beating-gold-silver-iran-war/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-27-2026-08_23_11-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-27T11:00:57Z",
+        "content": "JPMorgan says the Iran war has produced an unusual market split: bitcoin is showing signs of safe-haven demand while gold and silver, the traditional geopolitical hedges, have weakened under the pres… [+2946 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b6983-aa71-74bf-a5c1-20c63f73244f.jpg",
         "publishedAt": "2026-03-25T17:09:11Z",
         "content": "Bitmine Immersion Technologies has launched MAVAN, an institutional-grade Ethereum staking platform that will run validator infrastructure for its own holdings and external clients. \r\nStaking involve… [+3107 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin pinned under $72K as four network metrics show 'weaker demand'",
-        "description": "Bitcoin price remains stuck below $72,000, as investor distribution, low whale activity, and declining network growth cast doubt on BTC's short term prospects.",
-        "url": "https://cointelegraph.com/markets/bitcoin-pinned-under-74k-four-metrics-weaker-demand",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d25a8-1d4d-786d-9f20-d4d8e50f9c8a.jpg",
-        "publishedAt": "2026-03-25T16:24:08Z",
-        "content": "Bitcoin (BTC) price struggled to break above $72,000, as several key onchain metrics highlighted weakening demand for BTC, casting doubts on its upside potential.\r\nKey takeaways:\r\n<ul><li>Bitcoin inv… [+4898 chars]"
       }
     ]
   }
