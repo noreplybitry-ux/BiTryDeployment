@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-29T21:39:03.576Z",
+  "timestamp": "2026-03-29T22:38:11.821Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Cardano Needs A 695% Jump To Hit $2 — One Trader Says It’s Possible In Under A Week",
+        "description": "Cardano has been stuck below 30 cents for weeks, and its ranking among global cryptocurrencies has slipped to 12th place. Against that backdrop, a trader is now arguing the coin could still reach $2 — and sooner than most people think. Related Reading: Ethere…",
+        "url": "http://www.newsbtc.com/altcoin/cardano-needs-a-695-jump-to-hit-2-one-trader-says-its-possible-in-under-a-week/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-28T22:30:53Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bafde-7690-7c2d-a585-5ed00300856d.jpg",
         "publishedAt": "2026-03-26T06:03:38Z",
         "content": "Crypto exchange Coinbase is reportedly against the latest compromise over stablecoin yields that the Senate is looking to include in its crypto market structure bill.\r\nCoinbase representatives told S… [+2758 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Stalls in Range, Bulls Fail to Seize Momentum",
-        "description": "Dogecoin corrected some gains from the $0.0980 zone against the US Dollar. DOGE is now holding the $0.0940 support and might aim for a fresh increase. DOGE price started a fresh downside correction below $0.0955. The price is trading above the $0.0940 level a…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-stalls-in-range-0-094/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Stalls-in-Range-Bulls-Fail-to-Seize-Momentum.jpg?fit=1024%2C559",
-        "publishedAt": "2026-03-26T05:18:14Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
