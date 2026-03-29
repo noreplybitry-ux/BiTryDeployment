@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-29T08:52:09.921Z",
+  "timestamp": "2026-03-29T09:45:15.936Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Crypto Trader Predicts Bitcoin Price Will Hit $100,000 Again When This Happens",
+        "description": "The Bitcoin price has been trading below $100,000 for months now, and there has been no attempt to reclaim this level. Even now, the price continues to trade more than 40% below its all-time high, as massive sell-offs continue to push the price down. Amid thi…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-will-hit-100000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image7.png?fit=2848%2C1600",
+        "publishedAt": "2026-03-28T09:30:49Z",
+        "content": "The Bitcoin price has been trading below $100,000 for months now, and there has been no attempt to reclaim this level. Even now, the price continues to trade more than 40% below its all-time high, as… [+2200 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Struggles-At-Resistance.jpg?fit=1024%2C572",
         "publishedAt": "2026-03-26T03:58:04Z",
         "content": "Ethereum price started a recovery wave above the $2,120 zone. ETH is now consolidating above $2,140 and is struggling to clear the $2,200 resistance.\r\n<ul><li>Ethereum started a recovery wave above t… [+2129 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Hits Barriers, Can Bulls Overcome Key Resistance Levels?",
-        "description": "Bitcoin price started a recovery wave above $70,000. BTC is now consolidating above $70,200 and might aim for a steady increase if it clears $71,650. Bitcoin started a decent recovery wave above $69,800 and $70,200. The price is trading above $70,200 and the …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-hits-barriers-71200/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Defends-Support.jpg",
-        "publishedAt": "2026-03-26T02:51:22Z",
-        "content": "Bitcoin price started a recovery wave above $70,000. BTC is now consolidating above $70,200 and might aim for a steady increase if it clears $71,650.\r\n<ul><li>Bitcoin started a decent recovery wave a… [+2165 chars]"
       }
     ]
   }
