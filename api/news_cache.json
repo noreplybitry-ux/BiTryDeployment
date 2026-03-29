@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-29T09:45:15.936Z",
+  "timestamp": "2026-03-29T10:41:03.621Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Ethereum Sets User Record As Price Lags Far Behind Network Growth",
+        "description": "BlackRock’s staked Ethereum fund pulled in $155 million on its first day of trading — more than the firm’s own Bitcoin ETF managed at launch. That number tells one part of Ethereum’s story in early 2026. Related Reading: UK Slaps Sanctions On $20B Crypto Blac…",
+        "url": "http://www.newsbtc.com/altcoin/ethereum-sets-user-record-as-price-lags-far-behind-network-growth/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-28T10:30:09Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/Screenshot_735.jpg?fit=1263%2C721",
         "publishedAt": "2026-03-26T05:00:31Z",
         "content": "The markets second-largest cryptocurrency, Ethereum (ETH), surged nearly 3% on Wednesday, extending a short-term recovery that has brought the altcoin to the key $2,160 level. \r\nMarket analyst Ali Ma… [+2676 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Faces Downside Risk, Bears Prepare for Fresh Move",
-        "description": "Ethereum price started a recovery wave above the $2,120 zone. ETH is now consolidating above $2,140 and is struggling to clear the $2,200 resistance. Ethereum started a recovery wave above the $2,150 zone. The price is trading above $2,120 and the 100-hourly …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-faces-downside-risk-2065/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Struggles-At-Resistance.jpg?fit=1024%2C572",
-        "publishedAt": "2026-03-26T03:58:04Z",
-        "content": "Ethereum price started a recovery wave above the $2,120 zone. ETH is now consolidating above $2,140 and is struggling to clear the $2,200 resistance.\r\n<ul><li>Ethereum started a recovery wave above t… [+2129 chars]"
       }
     ]
   }
