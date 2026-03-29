@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-29T15:38:49.763Z",
+  "timestamp": "2026-03-29T16:42:31.013Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Sees Confident Buying From Smart Money Amid Dip – Details",
+        "description": "In the last week, Bitcoin prices fell to around $65,000, resulting in a net loss of 6.74%. This recent decline underlines the asset’s struggles in March, which, despite periods of attempted price breakout, has witnessed an equal or greater pullback, producing…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-sees-confident-buying-from-smart-money-amid-dip-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/photo-1745620984438-88cc43b52af4.jpg?fit=3000%2C1690",
+        "publishedAt": "2026-03-28T16:30:10Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
