@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-29T14:39:30.513Z",
+  "timestamp": "2026-03-29T15:38:49.763Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Crypto's future is bright in the context of AI's assault on software firms, says Kraken-backed investment firm",
+        "description": "Crypto’s latest bear cycle is a mere blip when compared with the existential threat AI now poses to traditional software services, says Ravi Tanuku, CEO of KRAKacquisition Corp.",
+        "url": "https://www.coindesk.com/business/2026/03/28/crypto-s-future-is-bright-in-the-context-of-ai-s-assault-on-software-firms-says-kraken-backed-investment-firm",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/59f97ee5dd392a98163de4faa4048f252722caeb-748x513.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-28T15:00:00Z",
+        "content": "Don't be fooled by the prolonged crypto bear market, the industry remains a sound investment and less at risk from replacement by AI than traditional software as a service (SaaS) operations, accordin… [+2427 chars]"
+      },
       {
         "source": {
           "id": null,
