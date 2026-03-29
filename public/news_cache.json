@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-29T17:37:53.052Z",
+  "timestamp": "2026-03-29T18:53:18.798Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Ethereum Price Falls Below Psychological $2,000 Support — What Next?",
+        "description": "After a show of resilience over the past few weeks, the Ethereum price finally gave way, falling below the $2,000 level for the first time since March 10th. The “King of Altcoins” succumbed to the downward pressure that spread across the global financial mark…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-falls-below-2000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/iStock-1360442132.jpg?fit=2109%2C1422",
+        "publishedAt": "2026-03-28T18:00:50Z",
+        "content": "After a show of resilience over the past few weeks, the Ethereum price finally gave way, falling below the $2,000 level for the first time since March 10th. The “King of Altcoins” succumbed to the do… [+2590 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-DOGE-Stalls-in-Range-Bulls-Fail-to-Seize-Momentum.jpg?fit=1024%2C559",
         "publishedAt": "2026-03-26T05:18:14Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Ethereum (ETH) May Be Reversing Course, Says Top Analyst; Watch These Key Resistances",
-        "description": "The market’s second-largest cryptocurrency, Ethereum (ETH), surged nearly 3% on Wednesday, extending a short-term recovery that has brought the altcoin to the key $2,160 level.  Market analyst Ali Martinez flagged the move as part of a potentially significant…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-eth-may-be-reversing-course-says-top-analyst-watch-these-key-resistances/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/Screenshot_735.jpg?fit=1263%2C721",
-        "publishedAt": "2026-03-26T05:00:31Z",
-        "content": "The markets second-largest cryptocurrency, Ethereum (ETH), surged nearly 3% on Wednesday, extending a short-term recovery that has brought the altcoin to the key $2,160 level. \r\nMarket analyst Ali Ma… [+2676 chars]"
       }
     ]
   }
