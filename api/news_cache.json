@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-30T06:01:58.901Z",
+  "timestamp": "2026-03-30T08:23:35.378Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c1ee5-bd55-7ef5-aba5-f3abc1821d07.jpg",
         "publishedAt": "2026-03-26T10:48:42Z",
         "content": "Bitcoin (BTC) sellers resumed their activity on Thursday as the BTC price slipped below the $70,000 mark.\r\nAnalysts said that Bitcoin showed signs of a bear market in its last stages, due to extreme … [+5091 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Ethereum price drops below $2,200, but a bullish reversal is brewing",
-        "description": "Ethereum (ETH) price shows early signs of a potential bullish trend reversal. On-chain data suggests accumulation and weakening selling pressure. A break above $2,300 could trigger further upside momentum. Ethereum has slipped below the $2,200 mark, but the b…",
-        "url": "https://coinjournal.net/news/ethereum-price-drops-below-2200-but-a-bullish-reversal-is-brewing/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/ethereum-eth-price.png",
-        "publishedAt": "2026-03-26T08:56:06Z",
-        "content": "<ul><li>Ethereum (ETH) price shows early signs of a potential bullish trend reversal.</li><li>On-chain data suggests accumulation and weakening selling pressure.</li><li>A break above $2,300 could tr… [+3824 chars]"
       }
     ]
   }
