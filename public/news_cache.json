@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-30T11:56:59.036Z",
+  "timestamp": "2026-03-30T13:54:48.529Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Price Holds Above STH Realized Price As Selling Pressure Thins Out – Details",
+        "description": "Bitcoin continues to move within the $66,000 range following the corrective wave that dominated the last trading week. The leading cryptocurrency remains in a bear market that began in October 2025, and has resulted in a 52% decline from the cycle’s all-time …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-holds-above-sth-realized-price-as-selling-pressure-thins-out-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/istockphoto-818871806-612x612-1.jpg?fit=900%2C600",
+        "publishedAt": "2026-03-29T13:00:16Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/01b078cd684ca9805f71cae842b6ed11cbf91ed4-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-26T11:41:06Z",
         "content": "U.S.-listed cryptocurrency exchange Coinbase (COIN) is working with Fannie Mae-approved mortgage firm Better Home &amp; Finance Holding Co. (BETR), to enable crypto holders to use their digital asset… [+3080 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin in ‘later stages’ of bear market: Watch these BTC price levels",
-        "description": "Bitcoin was down 44% from its $126,000 all-time highs as key onchain and technical indicators suggested BTC is entering the late phase of the bear market.",
-        "url": "https://cointelegraph.com/markets/bitcoin-in-later-stages-of-bear-market-watch-these-btc-price-levels",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c1ee5-bd55-7ef5-aba5-f3abc1821d07.jpg",
-        "publishedAt": "2026-03-26T10:48:42Z",
-        "content": "Bitcoin (BTC) sellers resumed their activity on Thursday as the BTC price slipped below the $70,000 mark.\r\nAnalysts said that Bitcoin showed signs of a bear market in its last stages, due to extreme … [+5091 chars]"
       }
     ]
   }
