@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-29T23:40:10.359Z",
+  "timestamp": "2026-03-30T03:19:00.813Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Short-Term Holders Capitulate As 22K BTC Flow To Exchanges",
+        "description": "The price of Bitcoin succumbed to bearish pressure and fell to around $65,500 on Friday, while the geopolitical tensions between the United States, Israel, and Iran seem to worsen. According to a recent on-chain evaluation, this latest price decline appears t…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-sth-capitulate-21k-btc-hit-exchanges/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/08/iStock-1258091878.jpg?fit=1257%2C835",
+        "publishedAt": "2026-03-29T00:00:53Z",
+        "content": "The price of Bitcoin succumbed to bearish pressure and fell to around $65,500 on Friday, while the geopolitical tensions between the United States, Israel, and Iran seem to worsen. According to a rec… [+2765 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,32 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-3-2026-09_49_03-AM.png?fit=1222%2C814",
         "publishedAt": "2026-03-26T08:30:04Z",
         "content": "The Bitcoin price topped slightly above $126,000 back in October 2026 and is now down by over 40% since then. This move that has sent the cryptocurrencys price below the $70,000 level multiple times … [+2335 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Bitcoin price drops below $70,000 after Iran truce buzz, Network Activity weakens",
-        "description": "Bitcoin price falls below $70,000 as network activity weakens. Declining transactions and addresses signal lower demand. Key support is at $69,400, while resistance stands near $71,600. Bitcoin price today hit a daily low of $69,914.54 after soaring above $71…",
-        "url": "https://coinjournal.net/news/bitcoin-price-drops-below-70000-after-iran-truce-buzz-network-activity-weakens/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/10/bitcoin-price-dump.png",
-        "publishedAt": "2026-03-26T07:06:23Z",
-        "content": "<ul><li>Bitcoin price falls below $70,000 as network activity weakens.</li><li>Declining transactions and addresses signal lower demand.</li><li>Key support is at $69,400, while resistance stands nea… [+4483 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "Coinbase opposes latest crypto bill stablecoin compromise: Report",
-        "description": "Coinbase has told Senate lawmakers it is concerned about stablecoin yield provisions in the latest version of a crypto market structure bill that was pitched as a compromise, Punchbowl News reports.",
-        "url": "https://cointelegraph.com/news/coinbase-opposes-latest-crypto-bill-stablecoin-compromise-report",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bafde-7690-7c2d-a585-5ed00300856d.jpg",
-        "publishedAt": "2026-03-26T06:03:38Z",
-        "content": "Crypto exchange Coinbase is reportedly against the latest compromise over stablecoin yields that the Senate is looking to include in its crypto market structure bill.\r\nCoinbase representatives told S… [+2758 chars]"
       }
     ]
   }
