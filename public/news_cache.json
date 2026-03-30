@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-30T15:10:44.143Z",
+  "timestamp": "2026-03-30T17:03:46.753Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Here’s Why Bitcoin Investors Must Protect Key $60,490 Level – Analyst",
+        "description": "Joao Wedson, popular market analyst and founder of analytics platform Alphractal, has shared a cautionary insight on the Bitcoin market involving potential developments with the Binance exchange reserves. Related Reading: Bitcoin Faces Familiar Crossroads As …",
+        "url": "http://www.newsbtc.com/news/bitcoin/heres-why-bitcoin-investors-must-protect-key-60490-level-analyst/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/istockphoto-877508718-612x612-1.jpg?fit=900%2C600",
+        "publishedAt": "2026-03-29T17:00:18Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cb690-6e2d-7aab-b50f-16892f448bd0.jpg",
         "publishedAt": "2026-03-26T13:09:50Z",
         "content": "The White Houses Office of Information and Regulatory Affairs (OIRA) has completed its review of a Department of Labor (DOL) proposal that could reshape how 401(k) fiduciaries evaluate alternative as… [+2476 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Accumulation Map Reveals Price Roadmap To $20,000",
-        "description": "Crypto analyst Crypto Patel has revealed an Ethereum accumulation roadmap indicating the altcoin could rally as high as $20,000. This comes as ETH continues to struggle around the $2,000 level amid the U.S.-Iran war, which has dragged on for almost a month no…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-roadmap-to-20000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-iStock-28.jpg?fit=612%2C408",
-        "publishedAt": "2026-03-26T12:00:31Z",
-        "content": "Crypto analyst Crypto Patel has revealed an Ethereum accumulation roadmap indicating the altcoin could rally as high as $20,000. This comes as ETH continues to struggle around the $2,000 level amid t… [+2745 chars]"
       }
     ]
   }
