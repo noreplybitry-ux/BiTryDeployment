@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-30T03:19:00.813Z",
+  "timestamp": "2026-03-30T06:01:58.901Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -472,19 +472,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/ethereum-eth-price.png",
         "publishedAt": "2026-03-26T08:56:06Z",
         "content": "<ul><li>Ethereum (ETH) price shows early signs of a potential bullish trend reversal.</li><li>On-chain data suggests accumulation and weakening selling pressure.</li><li>A break above $2,300 could tr… [+3824 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "None Of The 30 Bitcoin Market Peak Indicators Have Been Hit, So Why Did The Price Crash?",
-        "description": "The Bitcoin price topped slightly above $126,000 back in October 2026 and is now down by over 40% since then. This move that has sent the cryptocurrency’s price below the $70,000 level multiple times since then, marking a possible entrance into the bear marke…",
-        "url": "http://www.newsbtc.com/news/bitcoin/30-bitcoin-market-peak-indicators/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-3-2026-09_49_03-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-26T08:30:04Z",
-        "content": "The Bitcoin price topped slightly above $126,000 back in October 2026 and is now down by over 40% since then. This move that has sent the cryptocurrencys price below the $70,000 level multiple times … [+2335 chars]"
       }
     ]
   }
