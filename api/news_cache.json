@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-30T13:54:48.529Z",
+  "timestamp": "2026-03-30T15:10:44.143Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin ETFs Pull In $56B As CEO Pitches Crypto Over Gold",
+        "description": "Institutional money has been pouring into Bitcoin at a scale that would have seemed far-fetched just a few years ago. Since the launch of Bitcoin exchange-traded funds, roughly $56 billion has flowed in from asset managers around the world — a shift that Bitm…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-etfs-pull-in-56b-as-ceo-pitches-crypto-over-gold/",
+        "urlToImage": null,
+        "publishedAt": "2026-03-29T15:00:26Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-from-iStock-28.jpg?fit=612%2C408",
         "publishedAt": "2026-03-26T12:00:31Z",
         "content": "Crypto analyst Crypto Patel has revealed an Ethereum accumulation roadmap indicating the altcoin could rally as high as $20,000. This comes as ETH continues to struggle around the $2,000 level amid t… [+2745 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Coinbase, Fannie Mae bring crypto-backed mortgages to homebuyers",
-        "description": "The crypto exchange is working with financial technology mortgage firm Better, a Fannie Mae-approved mortgage seller.",
-        "url": "https://www.coindesk.com/business/2026/03/26/coinbase-fannie-mae-bring-crypto-backed-mortgages-to-homebuyers",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/01b078cd684ca9805f71cae842b6ed11cbf91ed4-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-26T11:41:06Z",
-        "content": "U.S.-listed cryptocurrency exchange Coinbase (COIN) is working with Fannie Mae-approved mortgage firm Better Home &amp; Finance Holding Co. (BETR), to enable crypto holders to use their digital asset… [+3080 chars]"
       }
     ]
   }
