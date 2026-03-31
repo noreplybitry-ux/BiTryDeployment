@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T22:40:40.539Z",
+  "timestamp": "2026-03-31T23:39:47.809Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
         "publishedAt": "2026-03-27T07:09:16Z",
         "content": "<ul><li>Bitcoin price hovers near $68,500 but saw intraday lows of $68,000.</li><li>Analysts say a textbook buy signal is flashing.</li><li>Bulls could target $75,000-$80,000 next.</li></ul>Bitcoin c… [+3114 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "India Arrests Suspect Tied to Myanmar Crypto Scam Compounds",
-        "description": "The CBI said the man lured Indians with fake job offers before funneling them into crypto scam compounds in Myanmar's Myawaddy region.",
-        "url": "https://decrypt.co/362553/india-arrests-suspect-tied-to-myanmar-crypto-scam-compounds",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-india-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-03-27T06:05:55Z",
-        "content": "In brief\r\n<ul><li>Indias CBI arrests Mumbai-based facilitator linked to Southeast Asia scam compound trafficking network.</li><li>Victims were forced into crypto and online fraud operations inside My… [+3797 chars]"
       }
     ]
   }
