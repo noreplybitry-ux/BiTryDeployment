@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T19:10:43.137Z",
+  "timestamp": "2026-03-31T20:51:07.774Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "XRP Price Alert: Expert Predicts $0.80 On Bitcoin’s Potential Retreat To $60,000",
+        "description": "The XRP price traded at around $1.30 on Monday as markets consolidated and Bitcoin (BTC) fought to hold above $67,000, but the calm belies meaningful downside risk if BTC revisits its key support at $60,000, according to market analyst Sam Daodu. Key Levels F…",
+        "url": "http://www.newsbtc.com/breaking-news-ticker/xrp-price-alert-expert-predicts-0-80-on-bitcoins-potential-retreat-to-60000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/image_yn22w4_y_1770308763306_raw.jpg",
+        "publishedAt": "2026-03-30T19:22:20Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
       {
         "source": {
           "id": null,
