@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T11:00:23.556Z",
+  "timestamp": "2026-03-31T11:57:20.641Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "These Bitcoin price predictions put $40K as the final bottom for BTC",
+        "description": "Bitcoin remains in a bear market despite a short-term bounce to $67,000 as several onchain metrics and pricing models suggest that the bottom may be at $40,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-predictions-40k-final-bottom-for-btc",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d3e58-a1bf-7670-b25f-21e3bd4afcb9.jpg",
+        "publishedAt": "2026-03-30T11:06:40Z",
+        "content": "Bitcoin (BTC) buyers made a tepid comeback on Monday, pushing BTC price to its intraday high of $67,860. Analysts said that Bitcoin remains in a bear market, with several metrics pointing to a potent… [+3864 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4c5823b1c33fe3a585f8b198bf7ff06536bfe5ae-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-26T20:20:21Z",
         "content": "GameStop's (GME) massive, $420 million bitcoin BTC\r\n$69,165.01 transfer earlier this year was not an exit but it's not holding the coins anymore either.\r\nIn its annual report filed Tuesday, the video… [+1836 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "OKX won’t rush IPO as exec warns poor listings hurt crypto industry",
-        "description": "OKX says it will delay going public until it can deliver consistent shareholder returns, even after a $25 billion valuation tied to its NYSE parent company deal.",
-        "url": "https://www.coindesk.com/business/2026/03/26/okx-says-it-won-t-go-public-until-it-can-deliver-returns-to-investors",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5a368961e979692daed505ba5828bb72f91a8d96-1600x844.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-26T19:32:11Z",
-        "content": "OKX does not plan to rush into public markets in the U.S., even as the crypto exchange pushes deeper into global expansion and tokenized finance.\r\nWe will go public when we have confidence that we ca… [+2940 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Expert Analyst Says Bitcoin Expansion Is Over, It Won’t Rally Until This Is Over",
-        "description": "Bitcoin’s next move is one of the most debated questions in the market right now. One side sees the current price structure as a base for a push to new all-time highs, pointing to strength around $70,000 and repeated rebounds above this price level. Another c…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-expansion-is-over/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-68-1.jpg?fit=612%2C408",
-        "publishedAt": "2026-03-26T18:00:31Z",
-        "content": "Bitcoins next move is one of the most debated questions in the market right now. One side sees the current price structure as a base for a push to new all-time highs, pointing to strength around $70,… [+2669 chars]"
       }
     ]
   }
