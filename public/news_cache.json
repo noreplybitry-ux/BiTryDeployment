@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T17:05:38.497Z",
+  "timestamp": "2026-03-31T19:10:43.137Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Stacy Elliott",
+        "title": "Coinbase, Robinhood and Figure Stocks Are 60% Off Their Peaks—Bernstein Says Buy the Dip",
+        "description": "Bernstein sees a buying opportunity in crypto stocks trading ~60% off their 2025 peaks, even as Q1 earnings look weak.",
+        "url": "https://decrypt.co/362727/coinbase-robinhood-figure-stocks-60-off-bernstein-says-buy-dip",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_flag-gID_7.png",
+        "publishedAt": "2026-03-30T19:06:21Z",
+        "content": "In brief\r\n<ul><li>Bernstein lowered its price targets on Coinbase to $330, Robinhood to $130, and Figure to $67, while keeping Outperform ratings on all three.</li><li>Coinbase spot volumes are track… [+2848 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Price Will Do A ‘Big Print’ If This Happens; Pundit Explains",
+        "description": "The Bitcoin price could be on the verge of a major surge as new discussions from market watchers warn that the next big print from policymakers is inevitable. They point to key catalysts, including geopolitical tensions, banking stress, and more, that could t…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-will-do-a-big-print/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-65.jpg?fit=1280%2C848",
+        "publishedAt": "2026-03-30T18:30:36Z",
+        "content": "The Bitcoin price could be on the verge of a major surge as new discussions from market watchers warn that the next big print from policymakers is inevitable. They point to key catalysts, includingge… [+3049 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Bitmine hits 4.73M ETH with biggest 2026 buy amid outflows",
+        "description": "Bitmine has increased its Ethereum (ETH) holdings to over 4.73 million. The company is adding to its ETH treasury strategy despite market struggles. Ethereum price holds near $2,000. Bitmine Immersion Technologies, led by Tom Lee, has accelerated its Ethereum…",
+        "url": "https://coinjournal.net/news/bitmine-hits-4-73m-eth-with-biggest-2026-buy-amid-outflows/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/ethereum-price-trading-laptop-chart.jpg.png",
+        "publishedAt": "2026-03-30T17:54:35Z",
+        "content": "<ul><li>Bitmine has increased its Ethereum (ETH) holdings to over 4.73 million.</li><li>The company is adding to its ETH treasury strategy despite market struggles.</li><li>Ethereum price holds near … [+2949 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Hits-Key-Support.jpg?fit=1024%2C559",
         "publishedAt": "2026-03-27T05:08:56Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Drops Near $2,020, Downside Pressure Continues to Build",
-        "description": "Ethereum price failed to clear the $2,200 zone and declined. ETH is now consolidating above $2,020 and might struggle to start a recovery wave. Ethereum started a fresh decline from the $2,200 zone. The price is trading below $2,120 and the 100-hourly Simple …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-drops-near-2020/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Drops-Near-2020.jpg?fit=1024%2C559",
-        "publishedAt": "2026-03-27T03:18:14Z",
-        "content": "Ethereum price failed to clear the $2,200 zone and declined. ETH is now consolidating above $2,020 and might struggle to start a recovery wave.\r\n<ul><li>Ethereum started a fresh decline from the $2,2… [+2149 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Breaks Below $70K, Sellers Eye Further Downside",
-        "description": "Bitcoin price failed to stay above $70,500 and declined further. BTC is now consolidating below $70,500 and might continue to move down. Bitcoin started a fresh decline from well above the $71,200 zone. The price is trading below $70,500 and the 100 hourly si…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-breaks-below-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Breaks-Below-70K.jpg",
-        "publishedAt": "2026-03-27T02:32:23Z",
-        "content": "Bitcoin price failed to stay above $70,500 and declined further. BTC is now consolidating below $70,500 and might continue to move down.\r\n<ul><li>Bitcoin started a fresh decline from well above the $… [+2218 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Ethereum Supply Tightens As Staking And Outflows Hit Record Highs",
-        "description": "Binance’s Ethereum reserves are sitting at their lowest point since 2020 — and that’s just one piece of a much bigger picture. Across the board, Ethereum held on exchanges has fallen to its lowest level since 2016, a shift driven by back-to-back withdrawals a…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereums-1-67b-outflow-could-be-the-spark-for-a-breakout-analyst/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_1e3f66.jpg?fit=4872%2C2740",
-        "publishedAt": "2026-03-27T02:30:28Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
