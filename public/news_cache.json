@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T07:25:36.463Z",
+  "timestamp": "2026-03-31T09:09:05.093Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Ethereum Could Hit $40,000 And Beat Bitcoin, Standard Chartered Says",
+        "description": "Standard Chartered’s Global Head of Digital Assets Research Geoffrey Kendrick said Ethereum could climb to $40,000 by 2030 and outperform Bitcoin along the way, arguing that the next wave of tokenization, stablecoin growth, and institutional blockchain buildo…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-40000-beat-bitcoin-standard-chartered/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-30-2026-09_13_23-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-30T08:30:20Z",
+        "content": "Standard Chartereds Global Head of Digital Assets Research Geoffrey Kendrick said Ethereum could climb to $40,000 by 2030 and outperform Bitcoin along the way, arguing that the next wave of tokenizat… [+4196 chars]"
+      },
       {
         "source": {
           "id": null,
