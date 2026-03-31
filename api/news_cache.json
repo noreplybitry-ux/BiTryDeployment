@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T21:46:44.866Z",
+  "timestamp": "2026-03-31T22:40:40.539Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 3/30: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, HYPE",
+        "description": "Bitcoin and altcoins attracted buyers near their respective range lows, but the current global macroeconomic and geopolitical scenarios limit the upside of crypto market rallies.",
+        "url": "https://cointelegraph.com/markets/price-predictions-3-30-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-hype",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d3fc3-106b-7812-a497-473230bb58a1.jpg",
+        "publishedAt": "2026-03-30T22:00:00Z",
+        "content": "Key points:\r\n<ul><li>Bitcoins recovery is expected to face selling near $69,000, but if the bulls prevail, a rally to $74,508 is possible.\r\n</li><li>Most major altcoins remain below their resistance … [+8563 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-india-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-03-27T06:05:55Z",
         "content": "In brief\r\n<ul><li>Indias CBI arrests Mumbai-based facilitator linked to Southeast Asia scam compound trafficking network.</li><li>Victims were forced into crypto and online fraud operations inside My… [+3797 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Hits Key Support, Will Bulls Hold the Line?",
-        "description": "Solana failed to settle above $92 and extended losses. SOL price is now consolidating losses below $88 and might struggle to start a recovery wave. SOL price started a fresh decline below $90 and $88 against the US Dollar. The price is now trading below $88 a…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-hits-key-support-85/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Solana-SOL-Hits-Key-Support.jpg?fit=1024%2C559",
-        "publishedAt": "2026-03-27T05:08:56Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
