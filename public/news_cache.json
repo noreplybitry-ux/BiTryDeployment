@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-30T23:41:43.660Z",
+  "timestamp": "2026-03-31T02:52:19.452Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Stalls Under $68,800, Resistance Caps Upside Again",
+        "description": "Bitcoin price failed to stay above $68,800 and declined further. BTC is now consolidating below $68,000 and might continue to move down. Bitcoin started a fresh decline from well above the $70,500 zone. The price is trading below $68,800 and the 100 hourly si…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-stalls-under-68800/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bounce-Looks-Hollow.jpg",
+        "publishedAt": "2026-03-30T02:31:07Z",
+        "content": "Bitcoin price failed to stay above $68,800 and declined further. BTC is now consolidating below $68,000 and might continue to move down.\r\n<ul><li>Bitcoin started a fresh decline from well above the $… [+2215 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image52.png",
         "publishedAt": "2026-03-26T13:13:04Z",
         "content": "The new Binance guidelines for market makers requires them to disclose information such as their identity and contract terms.\r\nOn Wednesday, the largest centralized crypto exchange in the world relea… [+3965 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "White House clears review of proposal to allow crypto in 401(k) retirement plans",
-        "description": "A review from the White House’s Office of Information cleared the Labor Department to move forward with its draft rule on including crypto and alternative assets into 401(k) retirement funds.",
-        "url": "https://cointelegraph.com/news/white-house-review-greenlights-crypto-401-k-plans",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cb690-6e2d-7aab-b50f-16892f448bd0.jpg",
-        "publishedAt": "2026-03-26T13:09:50Z",
-        "content": "The White Houses Office of Information and Regulatory Affairs (OIRA) has completed its review of a Department of Labor (DOL) proposal that could reshape how 401(k) fiduciaries evaluate alternative as… [+2476 chars]"
       }
     ]
   }
