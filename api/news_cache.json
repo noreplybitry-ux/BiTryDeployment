@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T13:55:28.284Z",
+  "timestamp": "2026-03-31T15:08:56.260Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Aaron Wood",
+        "title": "Bitcoin hashrate falls after Iran conflict, HOOD down 16%: Month in charts",
+        "description": "Yields for five-year US Treasury bonds are up 4%, putting a damper on Bitcoin price, which has ended the month much where it started.",
+        "url": "https://cointelegraph.com/features/bitcoin-hashrate-falls-iran-war-robinhood-month-charts",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b0f59-6087-733c-889f-0d608ec39d10",
+        "publishedAt": "2026-03-30T13:58:54Z",
+        "content": "This month, Bitcoins hashrate fell 6% after the US and Israel attacked Iran, highlighting Irans significant crypto mining activity.\r\nBitcoin price, meanwhile, remains lackluster. Higher 4% yields on … [+5195 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/a_1e3f66.jpg?fit=4872%2C2740",
         "publishedAt": "2026-03-27T02:30:28Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin gained 655% the last time this supply in profit metric dropped to 50%",
-        "description": "Bitcoin’s total supply in profit metric fell below 50% in February, a threshold linked to previous BTC accumulation phases. Does data predict a similar outcome?",
-        "url": "https://cointelegraph.com/markets/bitcoin-gained-655percent-the-last-time-this-supply-in-profit-metric-dropped-to-50percent",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae3a2-0ed9-7b27-a323-5398befdc382",
-        "publishedAt": "2026-03-26T21:15:00Z",
-        "content": "The total Bitcoin (BTC) supply in profit stands at 60.6% on Thursday, continuing to move within a range historically associated with market cycle resets. The metric previously dropped to 50.8% on Feb… [+3927 chars]"
       }
     ]
   }
