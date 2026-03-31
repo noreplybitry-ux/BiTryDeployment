@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T11:57:20.641Z",
+  "timestamp": "2026-03-31T13:55:28.284Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019ae3a2-0ed9-7b27-a323-5398befdc382",
         "publishedAt": "2026-03-26T21:15:00Z",
         "content": "The total Bitcoin (BTC) supply in profit stands at 60.6% on Thursday, continuing to move within a range historically associated with market cycle resets. The metric previously dropped to 50.8% on Feb… [+3927 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "GameStop turned its $368 million bitcoin stash into an options income play",
-        "description": "The video retailer sparked speculations of selling bitcoin after it transferred nearly all its coins to Coinbase Prime in January.",
-        "url": "https://www.coindesk.com/business/2026/03/26/gamestop-turned-its-usd368-million-bitcoin-stash-into-an-options-income-play",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4c5823b1c33fe3a585f8b198bf7ff06536bfe5ae-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-26T20:20:21Z",
-        "content": "GameStop's (GME) massive, $420 million bitcoin BTC\r\n$69,165.01 transfer earlier this year was not an exit but it's not holding the coins anymore either.\r\nIn its annual report filed Tuesday, the video… [+1836 chars]"
       }
     ]
   }
