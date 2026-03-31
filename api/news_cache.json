@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T02:52:19.452Z",
+  "timestamp": "2026-03-31T05:15:43.495Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin_gold2-gID_7.png",
         "publishedAt": "2026-03-26T14:53:47Z",
         "content": "Tether said Thursday that it has launched its gold-backed token XAUT on BNB Chain, expanding access to the dominant tokenized gold product after the precious metal soared to new price heights in rece… [+2263 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Binance Just Declared War On Quiet Market Makers —3 Red Flags Every Trader Should Watch",
-        "description": "The new Binance guidelines for market makers requires them to disclose information such as their identity and contract terms. Binance Tightens The Grip On Market Makers On Wednesday, the largest centralized crypto exchange in the world released a new set of g…",
-        "url": "http://www.newsbtc.com/breaking-news-ticker/binance-war-on-market-makers-3-red-flags-every-trader-should-watch/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image52.png",
-        "publishedAt": "2026-03-26T13:13:04Z",
-        "content": "The new Binance guidelines for market makers requires them to disclose information such as their identity and contract terms.\r\nOn Wednesday, the largest centralized crypto exchange in the world relea… [+3965 chars]"
       }
     ]
   }
