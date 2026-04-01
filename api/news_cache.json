@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T19:12:20.589Z",
+  "timestamp": "2026-04-01T20:53:22.171Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Latin America’s Mercado Libre Pulls the Plug on Its Crypto Coin",
+        "description": "Latin America's e-commerce giant Mercado Libre quietly killed its Mercado Coin loyalty token—pivoting to its own stablecoin.",
+        "url": "https://decrypt.co/362958/latin-america-mercado-libre-pulls-plug-crypto-coin",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-mercado-libre-gID_7.png",
+        "publishedAt": "2026-03-31T20:12:38Z",
+        "content": "In brief\r\n<ul><li>Mercado Libre killed Mercado Coin after a failed four-year experiment.</li><li>The company's stablecoin is replacing the Mercado Coin loyalty token.</li><li>Nubanks Nucoin collapse … [+3071 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Interactive Brokers expands crypto trading to retail investors in Europe",
+        "description": "Interactive Brokers has launched crypto trading for retail investors in the EEA, offering access to 11 digital assets alongside traditional investments on a single platform.",
+        "url": "https://cointelegraph.com/news/interactive-brokers-expands-crypto-trading-to-retail-investors-in-europe",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bbd7b-ba0f-7c18-9c0c-542da63caab7.jpg",
+        "publishedAt": "2026-03-31T19:48:11Z",
+        "content": "Interactive Brokers has launched crypto trading for retail investors in the European Economic Area (EEA), allowing eligible clients to buy and sell 11 digital assets, including Bitcoin and Ethereum, … [+2740 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d2f76-ba8b-735c-9a88-3a4a0a560fa9.jpg",
         "publishedAt": "2026-03-30T06:10:46Z",
         "content": "Ethereums native token, Ether (ETH), may decline 40% to $1,200 in the coming weeks, according to a fractal setup shared by analyst Leshka.eth.\r\nKey takeaways:\r\n<ul><li>Ethereum is mirroring a pattern… [+3672 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Stalls Under $68,800, Resistance Caps Upside Again",
-        "description": "Bitcoin price failed to stay above $68,800 and declined further. BTC is now consolidating below $68,000 and might continue to move down. Bitcoin started a fresh decline from well above the $70,500 zone. The price is trading below $68,800 and the 100 hourly si…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-stalls-under-68800/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bounce-Looks-Hollow.jpg",
-        "publishedAt": "2026-03-30T02:31:07Z",
-        "content": "Bitcoin price failed to stay above $68,800 and declined further. BTC is now consolidating below $68,000 and might continue to move down.\r\n<ul><li>Bitcoin started a fresh decline from well above the $… [+2215 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Here’s Why Bitcoin Investors Must Protect Key $60,490 Level – Analyst",
-        "description": "Joao Wedson, popular market analyst and founder of analytics platform Alphractal, has shared a cautionary insight on the Bitcoin market involving potential developments with the Binance exchange reserves. Related Reading: Bitcoin Faces Familiar Crossroads As …",
-        "url": "http://www.newsbtc.com/news/bitcoin/heres-why-bitcoin-investors-must-protect-key-60490-level-analyst/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/istockphoto-877508718-612x612-1.jpg?fit=900%2C600",
-        "publishedAt": "2026-03-29T17:00:18Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       }
     ]
   }
