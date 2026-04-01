@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T07:48:09.418Z",
+  "timestamp": "2026-04-01T09:14:49.529Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Crypto investment firm Keyrock valued at $1.1 billion in Series C led by SC Ventures",
+        "description": "The Brussels-based digital asset firm said the new capital will bolster its balance sheet and support expansion and acquisitions.",
+        "url": "https://www.coindesk.com/business/2026/03/31/crypto-investment-firm-keyrock-valued-at-usd1-1-billion-in-series-c-led-by-sc-ventures",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b812b8ada6cef71c702a746a86725e170bb18b15-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-31T08:30:00Z",
+        "content": "Keyrock, a Brussels-based digital asset services firm, has raised a Series C round led by SC Ventures, the venture arm of Standard Chartered, at a valuation of $1.1 billion, the company said in a pre… [+1405 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d3059-88e7-7375-9b0c-00ba926e52f0.jpg",
         "publishedAt": "2026-03-27T20:06:32Z",
         "content": "Key points:\r\n<ul><li>Bitcoins fall below the $66,000 support heightens the risk of a drop to the $62,500 level.\r\n</li><li>Select major altcoins have broken below their immediate support levels, openi… [+8726 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Detroit set to enter Michigan‘s battle against Coinbase prediction markets",
-        "description": "As Coinbase continues with its lawsuits against gaming authorities in Michigan, Illinois and Connecticut, the city of Detroit said it would file an amicus brief relat",
-        "url": "https://cointelegraph.com/news/detroit-michigan-lawsuit-coinbase-prediction-market",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c2542-1ed5-74c5-beb0-99ba71c7e6d5.jpg",
-        "publishedAt": "2026-03-27T19:37:22Z",
-        "content": "Lawyers representing the US city of Detroit plan to file an amicus brief in Coinbase's lawsuit against Michigan, which argues that federal regulators should have authority in overseeing prediction ma… [+2872 chars]"
       }
     ]
   }
