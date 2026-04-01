@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T03:23:10.479Z",
+  "timestamp": "2026-04-01T05:59:03.509Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Bitmine scoops $147M of ETH in its biggest week of buying this year",
+        "description": "Bitmine Immersion Technologies has extended its streak of increased Ether buying, acquiring 71,179 ETH as its chairman, Tom Lee, continues to predict that the crypto winter will end soon.",
+        "url": "https://cointelegraph.com/news/bitmine-extends-ether-buying-streak-five-weeks-147-million",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1d4c-1430-7245-aa36-ed2a4115f8a1.jpg",
+        "publishedAt": "2026-03-31T05:45:55Z",
+        "content": "Bitmine Immersion Technologies has extended its Ether buying streak into its fifth week, scooping up 71,179 Ether in its largest weekly purchase of 2026 so far. \r\nThe roughly $147 million Ether (ETH)… [+2885 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/536faa3865f82680b606c6a020d36f50a71b2582-876x632.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-27T16:00:04Z",
         "content": "Crypto stocks are getting hit hard Friday as weakness in U.S. equities rippled through high-risk assets, driving bitcoin BTC\r\n$65,830.92 below $66,000.\r\nCrypto exchange Coinbase (COIN) and digital as… [+3600 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Cathie Wood's Ark Invest Dumps Meta, Nvidia and Bitcoin ETF Shares in Major Tech Sell-Off",
-        "description": "Cathie Wood's Ark Invest sold big chunks of its positions in American tech stocks and its own Bitcoin ETF as stocks and crypto slide.",
-        "url": "https://decrypt.co/362580/cathie-woods-ark-invest-dumps-meta-nvidia-bitcoin-etf-shares",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/cathie-wood-ark-invest-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-03-27T15:18:48Z",
-        "content": "In brief\r\n<ul><li>Ark Invest parted with nearly $41 million in META and $26 million in NVDA shares on Thursday.</li><li>Cathie Wood's firm also dumped around $11 million worth of shares in its Bitcoi… [+2965 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin dips under $66K as oil sparks 'unsustainable' US inflation risk",
-        "description": "Bitcoin joined a risk-asset rout as oil-supply nerves sparked major US inflation warnings, with $70,000 in place as new BTC price resistance.",
-        "url": "https://cointelegraph.com/markets/bitcoin-dips-under-66k-oil-sparks-unsustainable-inflation-risk",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d2fbe-5daf-7a32-963a-5b65a65b7a1c.jpg",
-        "publishedAt": "2026-03-27T14:26:04Z",
-        "content": "Bitcoin (BTC) neared $66,000 at Fridays Wall Street open as analysis called US inflation trends objectively unsustainable.\r\nKey points:\r\n<ul><li>Bitcoin drops further on oil-supply woes as Iran close… [+3851 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin holders show ‘stronger’ conviction despite BTC price losing $68K level",
-        "description": "Analysts eye $65K-$66K support for a possible bounce, as surging exchange withdrawals and accelerated long-term holder buying support BTC’s recovery potential.",
-        "url": "https://cointelegraph.com/markets/bitcoin-holders-show-stronger-conviction-despite-btc-price-losing-68k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d2edc-19f2-7a72-b85b-f7bde67c5642.jpg",
-        "publishedAt": "2026-03-27T12:39:03Z",
-        "content": "Bitcoin (BTC) dropped toward $67,000 during the European trading session on Friday despite an increase in long-term buying. Exchange withdrawals also increased to 16-month highs, suggesting reduced i… [+4193 chars]"
       }
     ]
   }
