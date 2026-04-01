@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T17:03:13.345Z",
+  "timestamp": "2026-04-01T19:12:20.589Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Stacy Elliott",
+        "title": "Bitcoin, Crypto Stocks Climb on Reports That Iran's President Is 'Ready to End War'",
+        "description": "Stocks are surging while Bitcoin and Ethereum hit their highest prices in days after Iran's president said he's looking to end the conflict.",
+        "url": "https://decrypt.co/362913/bitcon-crypto-stocks-climb-reports-iranian-president-end-war",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
+        "publishedAt": "2026-03-31T19:08:05Z",
+        "content": "Crypto stocks and Bitcoin saw sudden gains Tuesday on multiple reports that Iranian President Masoud Pezeshkian is \"ready to end war.\"\r\nCrypto exchange Coinbase has gained nearly 9% since the opening… [+3232 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Clarity Act ‘not a gatekeeper’ for crypto innovation, WisdomTree exec says",
+        "description": "The asset manager says innovation can proceed under current SEC rules as the Clarity Act faces debate in Congress.",
+        "url": "https://www.coindesk.com/policy/2026/03/30/clarity-act-not-a-gatekeeper-for-crypto-innovation-wisdomtree-exec-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/976ce7e305132fada910cfe9bc3b0d8254ad588b-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-31T19:06:05Z",
+        "content": "WisdomTree does not see pending U.S. crypto legislation as a prerequisite for innovation, even as policymakers debate new rules for digital assets.\r\nI dont [think] it would inhibit anything that were… [+2537 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Antonio Oliveira",
+        "title": "Bitcoin traders forecast short-term downside even as BTC price chases $68K",
+        "description": "Bitcoin’s range-bound trading is expected to continue, but analysts’ projections versus technical charts highlight a discrepancy. Will bulls or bears prevail?",
+        "url": "https://cointelegraph.com/markets/bitcoin-traders-forecast-short-term-downside-even-as-btc-price-chases-68k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019adfcf-d2fa-72d8-abc1-5a1b9a935f44",
+        "publishedAt": "2026-03-31T17:40:22Z",
+        "content": "Bitcoins (BTC) consolidation extended into a fifth week since making a major low at $60,000 on Feb. 6, but the daily chart shows the range tightening as the price swings between its daily highs and l… [+2518 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/istockphoto-877508718-612x612-1.jpg?fit=900%2C600",
         "publishedAt": "2026-03-29T17:00:18Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin ETFs Pull In $56B As CEO Pitches Crypto Over Gold",
-        "description": "Institutional money has been pouring into Bitcoin at a scale that would have seemed far-fetched just a few years ago. Since the launch of Bitcoin exchange-traded funds, roughly $56 billion has flowed in from asset managers around the world — a shift that Bitm…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-etfs-pull-in-56b-as-ceo-pitches-crypto-over-gold/",
-        "urlToImage": null,
-        "publishedAt": "2026-03-29T15:00:26Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Price Holds Above STH Realized Price As Selling Pressure Thins Out – Details",
-        "description": "Bitcoin continues to move within the $66,000 range following the corrective wave that dominated the last trading week. The leading cryptocurrency remains in a bear market that began in October 2025, and has resulted in a 52% decline from the cycle’s all-time …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-holds-above-sth-realized-price-as-selling-pressure-thins-out-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/istockphoto-818871806-612x612-1.jpg?fit=900%2C600",
-        "publishedAt": "2026-03-29T13:00:16Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Traders Pile Into Bets Against Bitcoin Price — Is A Short Squeeze Looming?",
-        "description": "After declining to around $65,500 on Friday, Bitcoin appears to be recovering slowly this weekend. Having briefly reclaimed the $67,000 level on Saturday, March 28, the premier cryptocurrency seems to be enjoying a brewing bullish momentum. According to the l…",
-        "url": "http://www.newsbtc.com/news/bitcoin/traders-into-bets-against-bitcoin-price/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/2026-03-29-00.18.42.jpg",
-        "publishedAt": "2026-03-29T11:00:34Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
       }
     ]
   }
