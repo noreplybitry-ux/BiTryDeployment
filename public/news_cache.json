@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T11:04:15.427Z",
+  "timestamp": "2026-04-01T13:49:52.040Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Faces Fresh Pressure As Oil Crosses $104 For First Time In 4 Years",
+        "description": "Investors are currently sifting through a decade of market data to see if a massive spike in energy costs will sink Bitcoin and the crypto market. Related Reading: Bitcoin ETFs Pull In $56B As CEO Pitches Crypto Over Gold While many people focus on the immedi…",
+        "url": "http://www.newsbtc.com/news/bitcoin-faces-fresh-pressure-as-oil-crosses-104-for-first-time-in-4-years/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/oil.jpg?fit=1536%2C1024",
+        "publishedAt": "2026-03-31T13:30:31Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Is $450B in Bitcoin vulnerable to the quantum threat? Analysts weigh in",
+        "description": "BTC price will find it difficult to establish a new record high if Bitcoin developers don't take the quantum threats seriously, one analyst says.",
+        "url": "https://cointelegraph.com/markets/is-450-billion-dollars-bitcoin-vulnerable-to-quantum-threat",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c3f41-7551-7f9a-826e-6516e9505ba0.jpg",
+        "publishedAt": "2026-03-31T12:42:46Z",
+        "content": "A group of Bitcoin (BTC) wallets holding millions of coins could be vulnerable to future quantum attacks, research published by Google, Caltech, and quantum startup Oratomic shows. \r\nKey takeaways:\r\n… [+3730 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "XRP, SOL and ADA price outlook as BTC struggles ahead of key macro events",
+        "description": "XRP, Solana, and Cardano prices hover near $1.30, $80, and $0.24, respectively. Currently, BTC trades around $66,430 after retreating from highs of $68,000. Analysts say the week is heavy on macroeconomic data releases, and that’s likely to impact volatility.…",
+        "url": "https://coinjournal.net/news/xrp-sol-and-ada-price-outlook-as-btc-struggles-ahead-of-key-macro-events/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/traders-at-desk.png",
+        "publishedAt": "2026-03-31T12:39:04Z",
+        "content": "<ul><li>XRP, Solana, and Cardano prices hover near $1.30, $80, and $0.24, respectively.</li><li>Currently, BTC trades around $66,430 after retreating from highs of $68,000.</li><li>Analysts say the w… [+3973 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/iStock-1360442132.jpg?fit=2109%2C1422",
         "publishedAt": "2026-03-28T18:00:50Z",
         "content": "After a show of resilience over the past few weeks, the Ethereum price finally gave way, falling below the $2,000 level for the first time since March 10th. The “King of Altcoins” succumbed to the do… [+2590 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Sees Confident Buying From Smart Money Amid Dip – Details",
-        "description": "In the last week, Bitcoin prices fell to around $65,000, resulting in a net loss of 6.74%. This recent decline underlines the asset’s struggles in March, which, despite periods of attempted price breakout, has witnessed an equal or greater pullback, producing…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-sees-confident-buying-from-smart-money-amid-dip-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/photo-1745620984438-88cc43b52af4.jpg?fit=3000%2C1690",
-        "publishedAt": "2026-03-28T16:30:10Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Crypto's future is bright in the context of AI's assault on software firms, says Kraken-backed investment firm",
-        "description": "Crypto’s latest bear cycle is a mere blip when compared with the existential threat AI now poses to traditional software services, says Ravi Tanuku, CEO of KRAKacquisition Corp.",
-        "url": "https://www.coindesk.com/business/2026/03/28/crypto-s-future-is-bright-in-the-context-of-ai-s-assault-on-software-firms-says-kraken-backed-investment-firm",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/59f97ee5dd392a98163de4faa4048f252722caeb-748x513.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-28T15:00:00Z",
-        "content": "Don't be fooled by the prolonged crypto bear market, the industry remains a sound investment and less at risk from replacement by AI than traditional software as a service (SaaS) operations, accordin… [+2427 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Ethereum Sets User Record As Price Lags Far Behind Network Growth",
-        "description": "BlackRock’s staked Ethereum fund pulled in $155 million on its first day of trading — more than the firm’s own Bitcoin ETF managed at launch. That number tells one part of Ethereum’s story in early 2026. Related Reading: UK Slaps Sanctions On $20B Crypto Blac…",
-        "url": "http://www.newsbtc.com/altcoin/ethereum-sets-user-record-as-price-lags-far-behind-network-growth/",
-        "urlToImage": null,
-        "publishedAt": "2026-03-28T10:30:09Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
