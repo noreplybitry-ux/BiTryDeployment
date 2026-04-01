@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-03-31T23:39:47.809Z",
+  "timestamp": "2026-04-01T03:23:10.479Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Rebounds, But Weak Momentum Caps Further Gains",
+        "description": "Bitcoin price started a recovery wave above $67,000. BTC is now consolidating below $68,500 and might struggle to continue higher. Bitcoin started a recovery wave above $67,000 and $67,500. The price is trading above $67,500 and the 100 hourly simple moving a…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rebounds-68k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Tightens-Range.jpg",
+        "publishedAt": "2026-03-31T03:04:41Z",
+        "content": "Bitcoin price started a recovery wave above $67,000. BTC is now consolidating below $68,500 and might struggle to continue higher.\r\n<ul><li>Bitcoin started a recovery wave above $67,000 and $67,500.<… [+2110 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "What To Watch In Crypto This Week: Key Dates And Events",
+        "description": "The week opens with crypto markets focused on the macro backdrop: while several protocol-level events are scheduled, developments around the Iran conflict and Fed signaling are likely to remain the dominant drivers. Reuters reported Sunday that the Pentagon i…",
+        "url": "http://www.newsbtc.com/news/crypto-this-week-key-dates-events/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-30-2026-02_16_59-PM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-31T01:30:16Z",
+        "content": "The week opens with crypto markets focused on the macro backdrop: while several protocol-level events are scheduled, developments around the Iran conflict and Fed signaling are likely to remain the d… [+3841 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Oil prices hit 3-year high above $105: Will Bitcoin crash again?",
+        "description": "Oil prices soared to a near four-year high, and historical data suggests that Bitcoin price corrections tend to follow. Should traders expect another sell-off?",
+        "url": "https://cointelegraph.com/markets/oil-prices-hit-3-year-high-above-dollar105-will-bitcoin-crash-again",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d40dc-efa0-701d-9942-d832674e2626.jpg",
+        "publishedAt": "2026-03-31T01:27:21Z",
+        "content": "Key takeaways:\r\n<ul><li>$105 WTI crude often triggers Bitcoin price corrections, with history showing a 14% to 27% sell-off within weeks.\r\n</li><li>The BTC to oil correlation remains uncertain as eve… [+3124 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d2edc-19f2-7a72-b85b-f7bde67c5642.jpg",
         "publishedAt": "2026-03-27T12:39:03Z",
         "content": "Bitcoin (BTC) dropped toward $67,000 during the European trading session on Friday despite an increase in long-term buying. Exchange withdrawals also increased to 16-month highs, suggesting reduced i… [+4193 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "JPMorgan Says Bitcoin Is Beating Gold And Silver During The Iran War",
-        "description": "JPMorgan says the Iran war has produced an unusual market split: bitcoin is showing signs of safe-haven demand while gold and silver, the traditional geopolitical hedges, have weakened under the pressure of outflows, profit-taking and deteriorating liquidity.…",
-        "url": "http://www.newsbtc.com/bitcoin-news/jpmorgan-bitcoin-beating-gold-silver-iran-war/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-27-2026-08_23_11-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-27T11:00:57Z",
-        "content": "JPMorgan says the Iran war has produced an unusual market split: bitcoin is showing signs of safe-haven demand while gold and silver, the traditional geopolitical hedges, have weakened under the pres… [+2946 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Vietnam arrests ONUS-linked suspects in alleged crypto fraud case",
-        "description": "Vietnam detained ONUS-linked suspects in an alleged token fraud case as police described price manipulation, false promotions and centralized market control.",
-        "url": "https://cointelegraph.com/news/vietnam-arrests-onus-linked-suspects-crypto-fraud-probe",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c4562-54e2-7475-83cf-303833244418.JPG",
-        "publishedAt": "2026-03-27T10:25:06Z",
-        "content": "Vietnamese authorities have detained multiple ONUS-linked suspects after alleging they used false promotions and manipulated token trading to misappropriate investor funds through the crypto platform… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Bitcoin near $68K as fear spikes: Santiment sees buy signal",
-        "description": "Bitcoin price hovers near $68,500 but saw intraday lows of $68,000. Analysts say a textbook buy signal is flashing. Bulls could target $75,000-$80,000 next. Bitcoin continues to face headwinds, with ongoing tensions in the Iran conflict and the macro outlook …",
-        "url": "https://coinjournal.net/news/bitcoin-near-68k-as-fear-spikes-santiment-sees-buy-signal/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
-        "publishedAt": "2026-03-27T07:09:16Z",
-        "content": "<ul><li>Bitcoin price hovers near $68,500 but saw intraday lows of $68,000.</li><li>Analysts say a textbook buy signal is flashing.</li><li>Bulls could target $75,000-$80,000 next.</li></ul>Bitcoin c… [+3114 chars]"
       }
     ]
   }
