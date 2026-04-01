@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T13:49:52.040Z",
+  "timestamp": "2026-04-01T15:12:05.751Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin Sell-Offs Are Ramping Up As Price Struggles, But Where Is All That BTC Going To?",
+        "description": "Bitcoin has shed about $3,500 in value over recent days, slipping from above $70,000 earlier in March to around $66,500, as short-term holders take their exits. On one particularly turbulent day, about 22,000 BTC were moved to exchanges in a single session. Y…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-sell-offs-ramping-up/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-6-2026-02_18_32-PM.png?fit=1222%2C814",
+        "publishedAt": "2026-03-31T15:00:27Z",
+        "content": "Bitcoin has shed about $3,500 in value over recent days, slipping from above $70,000 earlier in March to around $66,500, as short-term holders take their exits. On one particularly turbulent day, abo… [+2810 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Mercado Libre shuts down Mercado Coin, ending its loyalty-driven crypto experiment",
+        "description": "Starting April 17, users will no longer be able to buy, sell or earn cashback in Mercado Coin, but can sell, spend, or have the token converted to local currency.",
+        "url": "https://www.coindesk.com/business/2026/03/31/mercado-libre-shuts-down-mercado-coin-ending-its-loyalty-driven-crypto-experiment",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d6843477d88ef478a29f7d7b1f95417c3f560b82-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-31T14:49:19Z",
+        "content": "E-commerce giant Mercado Libre (MELI) is pulling the plug on its homegrown cryptocurrency, Mercado Coin, nearly four years after introducing it to boost customer engagement across its platform.\r\nThe … [+1352 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/08/iStock-1258091878.jpg?fit=1257%2C835",
         "publishedAt": "2026-03-29T00:00:53Z",
         "content": "The price of Bitcoin succumbed to bearish pressure and fell to around $65,500 on Friday, while the geopolitical tensions between the United States, Israel, and Iran seem to worsen. According to a rec… [+2765 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Cardano Needs A 695% Jump To Hit $2 — One Trader Says It’s Possible In Under A Week",
-        "description": "Cardano has been stuck below 30 cents for weeks, and its ranking among global cryptocurrencies has slipped to 12th place. Against that backdrop, a trader is now arguing the coin could still reach $2 — and sooner than most people think. Related Reading: Ethere…",
-        "url": "http://www.newsbtc.com/altcoin/cardano-needs-a-695-jump-to-hit-2-one-trader-says-its-possible-in-under-a-week/",
-        "urlToImage": null,
-        "publishedAt": "2026-03-28T22:30:53Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Ethereum Price Falls Below Psychological $2,000 Support — What Next?",
-        "description": "After a show of resilience over the past few weeks, the Ethereum price finally gave way, falling below the $2,000 level for the first time since March 10th. The “King of Altcoins” succumbed to the downward pressure that spread across the global financial mark…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-falls-below-2000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/iStock-1360442132.jpg?fit=2109%2C1422",
-        "publishedAt": "2026-03-28T18:00:50Z",
-        "content": "After a show of resilience over the past few weeks, the Ethereum price finally gave way, falling below the $2,000 level for the first time since March 10th. The “King of Altcoins” succumbed to the do… [+2590 chars]"
       }
     ]
   }
