@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T22:46:05.786Z",
+  "timestamp": "2026-04-01T23:41:55.690Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Bitcoin enters the public bond market as Moody’s gives a first-of-its-kind crypto deal a rating",
+        "description": "A New Hampshire state authority is set to issue a first-of-its-kind bitcoin-backed bond with a Ba2 rating, marking an early test of how crypto can function as collateral inside traditional public finance markets.",
+        "url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-enters-the-public-bond-market-as-moody-s-gives-a-first-of-its-kind-crypto-deal-a-rating",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7f5e542f87e5115cb09fb74bc46c9377f6b37c64-5128x3333.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-03-31T22:58:55Z",
+        "content": "The New Hampshire Business Finance Authority is set to issue what appears to be the first rated bitcoin-backed bond of its kind, marking a step toward integrating crypto into traditional public finan… [+2068 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6b39e9bf4891a155515768dc7faca8ac257b84ad-1530x1020.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-30T10:30:23Z",
         "content": "More than half of cryptocurrency investors dont understand the fundamental concept of taxability when it comes to their digital asset holdings, according to a survey by the U.S.-listed crypto exchang… [+3104 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Ethereum Could Hit $40,000 And Beat Bitcoin, Standard Chartered Says",
-        "description": "Standard Chartered’s Global Head of Digital Assets Research Geoffrey Kendrick said Ethereum could climb to $40,000 by 2030 and outperform Bitcoin along the way, arguing that the next wave of tokenization, stablecoin growth, and institutional blockchain buildo…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-40000-beat-bitcoin-standard-chartered/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-30-2026-09_13_23-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-30T08:30:20Z",
-        "content": "Standard Chartereds Global Head of Digital Assets Research Geoffrey Kendrick said Ethereum could climb to $40,000 by 2030 and outperform Bitcoin along the way, arguing that the next wave of tokenizat… [+4196 chars]"
       }
     ]
   }
