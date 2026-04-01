@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T05:59:03.509Z",
+  "timestamp": "2026-04-01T07:48:09.418Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Shares A Good Way To Know When Ethereum Has Hit A Bottom",
+        "description": "With the Ethereum price struggling around the $2,000 support, the question of when the digital asset will hit a bottom has continued to linger among investors. Naturally, a bottom is largely based on the Bitcoin price, setting the tone for the entire market. …",
+        "url": "http://www.newsbtc.com/news/ethereum/when-ethereum-hit-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Poised-At-Critical-Threshold.jpg?fit=1024%2C559",
+        "publishedAt": "2026-03-31T07:30:45Z",
+        "content": "With the Ethereum price struggling around the $2,000 support, the question of when the digital asset will hit a bottom has continued to linger among investors. Naturally, a bottom is largely based on… [+2260 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +407,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c2542-1ed5-74c5-beb0-99ba71c7e6d5.jpg",
         "publishedAt": "2026-03-27T19:37:22Z",
         "content": "Lawyers representing the US city of Detroit plan to file an amicus brief in Coinbase's lawsuit against Michigan, which argues that federal regulators should have authority in overseeing prediction ma… [+2872 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "If Bitcoin Should Be Worth $280,000 Right Now, What’s The Real Value Of Dogecoin And XRP?",
-        "description": "An interesting statement from Grant Cardone has led to a different kind of conversation. According to the popular American businessman, the Bitcoin price should be $280,000. His claim that Bitcoin should already be trading at $280,000 raises a deeper question…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-280000-dogecoin-xrp/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/11/DALL·E-2024-11-13-12.34.15-A-creative-digital-artwork-depicting-two-large-distinct-coins.-The-left-coin-is-a-shiny-vibrant-Dogecoin-prominently-featuring-a-jubilant-and-chari.png?fit=1792%2C1024",
-        "publishedAt": "2026-03-27T17:00:10Z",
-        "content": "An interesting statement from Grant Cardone has led to a different kind of conversation. According to the popular American businessman, the Bitcoin price should be $280,000. His claim that Bitcoin sh… [+2694 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor, James Van Straten",
-        "title": "Crypto stocks battered as Nasdaq enters correction in $17 trillion market rout",
-        "description": "The Friday plunge fits into a pattern since the war in Iran broke out, with gains on Monday turning into losses by the end of the week.",
-        "url": "https://www.coindesk.com/markets/2026/03/27/crypto-stocks-battered-as-nasdaq-enters-correction-in-usd17-trillion-market-rout",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/536faa3865f82680b606c6a020d36f50a71b2582-876x632.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-27T16:00:04Z",
-        "content": "Crypto stocks are getting hit hard Friday as weakness in U.S. equities rippled through high-risk assets, driving bitcoin BTC\r\n$65,830.92 below $66,000.\r\nCrypto exchange Coinbase (COIN) and digital as… [+3600 chars]"
       }
     ]
   }
