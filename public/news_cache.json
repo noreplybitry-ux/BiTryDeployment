@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-02T17:02:28.125Z",
+  "timestamp": "2026-04-02T19:04:57.561Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "The Bitcoin Bottom: Pundit Reveals The 5 Phases To Know When The Bleed Has Ended",
+        "description": "A market expert has outlined five distinct phases in the Bitcoin (BTC) bear market that could indicate when the leading cryptocurrency has hit a bottom. The analysis concludes that the cryptocurrency could still face additional downward pressure before ultima…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bottom-the-5-phases/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image-1.png?fit=2848%2C1600",
+        "publishedAt": "2026-04-01T19:00:11Z",
+        "content": "A market expert has outlined five distinct phases in the Bitcoin (BTC) bear market that could indicate when the leading cryptocurrency has hit a bottom. The analysis concludes that the cryptocurrency… [+2864 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/1: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
+        "description": "Technical charts show Bitcoin and altcoins on the verge of a bullish trend reversal, but Bitcoin’s resistance at $69,000 could cap the current upward momentum.",
+        "url": "https://cointelegraph.com/markets/price-predictions-4-1-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d49eb-1e33-7f82-b4ee-40a28138eebb.jpg",
+        "publishedAt": "2026-04-01T18:43:54Z",
+        "content": "Key points:\r\n<ul><li>Buyers will have to sustain Bitcoin above $69,000 to gain the upper hand in the short term.\r\n</li><li>Select major altcoins may break above their near-term resistance, signaling … [+8713 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Warren Buffett bought $17B in US T-bills: A bad omen for Bitcoin price?",
+        "description": "Buffett called the recent stock dip “nothing” versus past 50% crashes, raising fresh questions about downside risks for Bitcoin and stocks in 2026.",
+        "url": "https://cointelegraph.com/markets/warren-buffett-bought-17b-in-us-t-bills-a-bad-omen-for-bitcoin-price",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d49c7-7a4f-7bfa-a675-5020f7d26360.jpg",
+        "publishedAt": "2026-04-01T17:49:18Z",
+        "content": "Warren Buffett, the legendary investor and chairman of Berkshire Hathaway, revealed on CNBC this week that his firm purchased approximately $17 billion in US Treasury bills at the latest auction. Is … [+3235 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Esperto-trader_in-arrivo-unimpennata-di-Bitcoin-a-220.000.png?fit=680%2C680",
         "publishedAt": "2026-03-31T10:30:38Z",
         "content": "The Bitcoin price is approaching a decisive moment, according to the head of a major crypto analytics firm. A clearly defined price threshold has been identified, and falling below it could accelerat… [+2936 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten, AI Boost",
-        "title": "David Bailey’s Nakamoto sells roughly 5% of its bitcoin holdings, offloading 284 BTC",
-        "description": "The sale underscores liquidity pressures as the company continues its pivot to a bitcoin treasury strategy.",
-        "url": "https://www.coindesk.com/markets/2026/03/31/david-bailey-s-nakamoto-sells-roughly-5-of-its-bitcoin-holdings-offloading-284-btc",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3e653e6039ba6c6faf851d6e0638d3b242e6345b-1920x1080.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-31T09:41:03Z",
-        "content": "Nakamoto Holdings (NAKA), a bitcoin BTC\r\n$66,371.41 firm founded by David Bailey, said it sold about 284 BTC for $20 million in March, marking a rare reduction in its holdings as it pivots toward a b… [+1285 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Crypto investment firm Keyrock valued at $1.1 billion in Series C led by SC Ventures",
-        "description": "The Brussels-based digital asset firm said the new capital will bolster its balance sheet and support expansion and acquisitions.",
-        "url": "https://www.coindesk.com/business/2026/03/31/crypto-investment-firm-keyrock-valued-at-usd1-1-billion-in-series-c-led-by-sc-ventures",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b812b8ada6cef71c702a746a86725e170bb18b15-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-31T08:30:00Z",
-        "content": "Keyrock, a Brussels-based digital asset services firm, has raised a Series C round led by SC Ventures, the venture arm of Standard Chartered, at a valuation of $1.1 billion, the company said in a pre… [+1405 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Shares A Good Way To Know When Ethereum Has Hit A Bottom",
-        "description": "With the Ethereum price struggling around the $2,000 support, the question of when the digital asset will hit a bottom has continued to linger among investors. Naturally, a bottom is largely based on the Bitcoin price, setting the tone for the entire market. …",
-        "url": "http://www.newsbtc.com/news/ethereum/when-ethereum-hit-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Poised-At-Critical-Threshold.jpg?fit=1024%2C559",
-        "publishedAt": "2026-03-31T07:30:45Z",
-        "content": "With the Ethereum price struggling around the $2,000 support, the question of when the digital asset will hit a bottom has continued to linger among investors. Naturally, a bottom is largely based on… [+2260 chars]"
       }
     ]
   }
