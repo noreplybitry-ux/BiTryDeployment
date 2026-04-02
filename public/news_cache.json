@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-02T05:08:32.955Z",
+  "timestamp": "2026-04-02T07:22:21.650Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Consolidates Below $0.10, Breakout Still Elusive",
+        "description": "Dogecoin started a recovery wave above the $0.0915 zone against the US Dollar. DOGE is now facing hurdles near $0.0930 and might struggle to continue higher. DOGE price started a recovery wave from $0.0890 and climbed above $0.0920. The price is trading above…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-consolidates-below-0-10/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Consolidates-Below-0.10.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-01T05:18:41Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
