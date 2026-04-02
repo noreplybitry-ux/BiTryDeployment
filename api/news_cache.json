@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-02T13:28:12.280Z",
+  "timestamp": "2026-04-02T15:03:45.479Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Franklin Templeton deepens crypto push with CoinFund spinoff deal",
+        "description": "Franklin Templeton has agreed to acquire CoinFund spinoff 250 Digital to launch Franklin Crypto, a dedicated crypto arm targeting institutional crypto investment management.",
+        "url": "https://cointelegraph.com/news/franklin-templeton-crypto-coinfund-spinoff-acquisition",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd440-4ebd-7022-8d7b-48b8f7b58e08.jpg",
+        "publishedAt": "2026-04-01T13:55:06Z",
+        "content": "Global asset manager Franklin Templeton is set to expand its crypto footprint by acquiring a spinoff of the crypto-native investment firm CoinFund.\r\nFranklin Templeton said Wednesday it plans to acqu… [+2395 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, Olivier Acuna",
+        "title": "Franklin Templeton launches crypto division with 250 Digital acquisition",
+        "description": "The asset manager is creating a new “Franklin Crypto” unit to expand beyond ETFs and target institutional demand for active digital asset strategies.",
+        "url": "https://www.coindesk.com/business/2026/04/01/franklin-templeton-launches-crypto-division-with-250-digital-acquisition",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a97fc9801a0e0b0521bcdd496d5e1fba5f0ef87e-3024x2319.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-01T13:47:35Z",
+        "content": "Wall Street asset management giant Franklin Templeton is launching a dedicated cryptocurrency division as it deepens its push into digital assets, anchored by a planned acquisition of crypto investme… [+1883 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1d4c-1430-7245-aa36-ed2a4115f8a1.jpg",
         "publishedAt": "2026-03-31T05:45:55Z",
         "content": "Bitmine Immersion Technologies has extended its Ether buying streak into its fifth week, scooping up 71,179 Ether in its largest weekly purchase of 2026 so far. \r\nThe roughly $147 million Ether (ETH)… [+2885 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Rebounds, But Weak Momentum Caps Further Gains",
-        "description": "Bitcoin price started a recovery wave above $67,000. BTC is now consolidating below $68,500 and might struggle to continue higher. Bitcoin started a recovery wave above $67,000 and $67,500. The price is trading above $67,500 and the 100 hourly simple moving a…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rebounds-68k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Tightens-Range.jpg",
-        "publishedAt": "2026-03-31T03:04:41Z",
-        "content": "Bitcoin price started a recovery wave above $67,000. BTC is now consolidating below $68,500 and might struggle to continue higher.\r\n<ul><li>Bitcoin started a recovery wave above $67,000 and $67,500.<… [+2110 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "What To Watch In Crypto This Week: Key Dates And Events",
-        "description": "The week opens with crypto markets focused on the macro backdrop: while several protocol-level events are scheduled, developments around the Iran conflict and Fed signaling are likely to remain the dominant drivers. Reuters reported Sunday that the Pentagon i…",
-        "url": "http://www.newsbtc.com/news/crypto-this-week-key-dates-events/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-30-2026-02_16_59-PM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-31T01:30:16Z",
-        "content": "The week opens with crypto markets focused on the macro backdrop: while several protocol-level events are scheduled, developments around the Iran conflict and Fed signaling are likely to remain the d… [+3841 chars]"
       }
     ]
   }
