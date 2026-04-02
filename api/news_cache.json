@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-02T15:03:45.479Z",
+  "timestamp": "2026-04-02T17:02:28.126Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Franklin Templeton to Buy CoinFund Spinoff, Build Out Crypto Investment Offering",
+        "description": "Global asset manager Franklin Templeton is acquiring a CoinFund spinoff to build out its own crypto wing, Franklin Crypto.",
+        "url": "https://decrypt.co/363031/franklin-templeton-coinfund-spinoff-crypto-investment",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/Franklin-Templeton-gID_7.jpg",
+        "publishedAt": "2026-04-01T15:30:09Z",
+        "content": "In brief\r\n<ul><li>Franklin Templeton is acquiring 250 Digital, a CoinFund spinoff, as it builds out its own crypto wing, Franklin Crypto. </li><li>The firm is bringing the 250 Digital team on board a… [+2551 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Poised-At-Critical-Threshold.jpg?fit=1024%2C559",
         "publishedAt": "2026-03-31T07:30:45Z",
         "content": "With the Ethereum price struggling around the $2,000 support, the question of when the digital asset will hit a bottom has continued to linger among investors. Naturally, a bottom is largely based on… [+2260 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Bitmine scoops $147M of ETH in its biggest week of buying this year",
-        "description": "Bitmine Immersion Technologies has extended its streak of increased Ether buying, acquiring 71,179 ETH as its chairman, Tom Lee, continues to predict that the crypto winter will end soon.",
-        "url": "https://cointelegraph.com/news/bitmine-extends-ether-buying-streak-five-weeks-147-million",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d1d4c-1430-7245-aa36-ed2a4115f8a1.jpg",
-        "publishedAt": "2026-03-31T05:45:55Z",
-        "content": "Bitmine Immersion Technologies has extended its Ether buying streak into its fifth week, scooping up 71,179 Ether in its largest weekly purchase of 2026 so far. \r\nThe roughly $147 million Ether (ETH)… [+2885 chars]"
       }
     ]
   }
