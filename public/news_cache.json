@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-01T23:41:55.690Z",
+  "timestamp": "2026-04-02T02:48:47.059Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Recovery at Risk, Sellers Prepare to Reassert Control",
+        "description": "Bitcoin price started a recovery wave above $67,500. BTC is now consolidating below $68,800 and might struggle to continue higher. Bitcoin started a recovery wave above $67,000 and $67,200. The price is trading above $67,000 and the 100 hourly simple moving a…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-at-risk-68500/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Recovery-at-Risk.jpg",
+        "publishedAt": "2026-04-01T02:39:43Z",
+        "content": "Bitcoin price started a recovery wave above $67,500. BTC is now consolidating below $68,800 and might struggle to continue higher.\r\n<ul><li>Bitcoin started a recovery wave above $67,000 and $67,200.<… [+2162 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Solana DEX volumes drop to 2024 lows: Will SOL hold $80 as support?",
+        "description": "Solana’s declining DEX volumes raise the likelihood of a SOL price correction to $75, but the network’s DApp revenue highlights its resilience.",
+        "url": "https://cointelegraph.com/markets/solana-dex-volumes-drop-to-2024-lows-will-sol-hold-80-as-support",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c6e39-0ace-778f-a018-d4cf5c106e03.jpg",
+        "publishedAt": "2026-04-01T01:00:00Z",
+        "content": "Key takeaways:\r\n<ul><li>Solana outperforms Ethereum in high-revenue DApps, providing a fundamental cushion against recent price drops.\r\n</li><li>Rising Ethereum Layer-2 dominance challenges SOL as tr… [+3373 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Mining Nationalized? US Senators Float Bold New Reserve-Backed Bill",
+        "description": "About 97% of the machines used to mine Bitcoin currently come from companies based in China. This heavy reliance on foreign technology has created a bottleneck at American ports and raised alarms about the long-term security of the network. Related Reading: B…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-mining-nationalized-us-senators-float-bold-new-reserve-backed-bill/",
+        "urlToImage": null,
+        "publishedAt": "2026-04-01T00:30:41Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d3e58-a1bf-7670-b25f-21e3bd4afcb9.jpg",
         "publishedAt": "2026-03-30T11:06:40Z",
         "content": "Bitcoin (BTC) buyers made a tepid comeback on Monday, pushing BTC price to its intraday high of $67,860. Analysts said that Bitcoin remains in a bear market, with several metrics pointing to a potent… [+3864 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Coinbase survey finds over half of customers don’t understand crypto tax",
-        "description": "The 2026 Crypto Tax Readiness Report, done with Cointracker, found that only 49% correctly understand that crypto is taxable anytime it is sold.",
-        "url": "https://www.coindesk.com/policy/2026/03/30/coinbase-survey-finds-over-half-of-customers-don-t-understand-crypto-tax",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6b39e9bf4891a155515768dc7faca8ac257b84ad-1530x1020.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-30T10:30:23Z",
-        "content": "More than half of cryptocurrency investors dont understand the fundamental concept of taxability when it comes to their digital asset holdings, according to a survey by the U.S.-listed crypto exchang… [+3104 chars]"
       }
     ]
   }
