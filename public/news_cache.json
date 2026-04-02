@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-02T20:41:44.810Z",
+  "timestamp": "2026-04-02T21:45:29.965Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "These Three Altcoins Just Got Leveraged Crypto ETFs",
+        "description": "Volatility Shares, the company that launched the first leveraged crypto fund in the U.S., is expanding its roster to smaller digital assets",
+        "url": "https://decrypt.co/363089/volatility-shares-everaged-crypto-etfs-three-altcoins",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_green-gID_7.png",
+        "publishedAt": "2026-04-01T21:08:22Z",
+        "content": "In brief\r\n<ul><li>Volatility Shares debuted leveraged ETFs for Cardano, Stellar, and Chainlink.</li><li>The offerings dovetail with others offered by the firm that established the first leveraged cry… [+3127 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Hyperliquid whale makes $80M bet on market crash: Is Bitcoin in trouble?",
+        "description": "A Hyperliquid DEX whale has placed an $80 million bet that Bitcoin will crash and oil will rally, but data show this trader has lost millions in the past.",
+        "url": "https://cointelegraph.com/markets/hyperliquid-whale-makes-dollar80m-bet-on-market-crash-is-bitcoin-in-trouble",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d4ac0-aa7f-75c9-bd64-98b35afd0752.jpg",
+        "publishedAt": "2026-04-01T21:00:08Z",
+        "content": "Key takeaways:\r\n<ul><li>A Hyperliquid whale placed an $80 million bet against Bitcoin and the S&amp;P 500 while going long on Brent crude oil prices.\r\n</li><li>The whales history of massive losses an… [+3774 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "EDX seeks OCC trust bank charter for institutional crypto custody",
+        "description": "The crypto exchange seeks a charter from the Office of the Comptroller of the Currency to separate custody from trading and expand services under a regulated banking framework.",
+        "url": "https://cointelegraph.com/news/citadel-backed-edx-national-trust-bank-charter",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d4a74-1d22-7d59-808d-3218c252dee0.jpg",
+        "publishedAt": "2026-04-01T20:44:04Z",
+        "content": "EDX Markets, an institutional crypto exchange, has applied to the US Office of the Comptroller of the Currency (OCC) to establish a national trust bank that would provide crypto custody, asset manage… [+2782 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c3f41-7551-7f9a-826e-6516e9505ba0.jpg",
         "publishedAt": "2026-03-31T12:42:46Z",
         "content": "A group of Bitcoin (BTC) wallets holding millions of coins could be vulnerable to future quantum attacks, research published by Google, Caltech, and quantum startup Oratomic shows. \r\nKey takeaways:\r\n… [+3730 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "XRP, SOL and ADA price outlook as BTC struggles ahead of key macro events",
-        "description": "XRP, Solana, and Cardano prices hover near $1.30, $80, and $0.24, respectively. Currently, BTC trades around $66,430 after retreating from highs of $68,000. Analysts say the week is heavy on macroeconomic data releases, and that’s likely to impact volatility.…",
-        "url": "https://coinjournal.net/news/xrp-sol-and-ada-price-outlook-as-btc-struggles-ahead-of-key-macro-events/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/traders-at-desk.png",
-        "publishedAt": "2026-03-31T12:39:04Z",
-        "content": "<ul><li>XRP, Solana, and Cardano prices hover near $1.30, $80, and $0.24, respectively.</li><li>Currently, BTC trades around $66,430 after retreating from highs of $68,000.</li><li>Analysts say the w… [+3973 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Bitcoin stalls near $66K: is a bigger drop coming this week?",
-        "description": "Bitcoin price tests $65,000 support amid oversold conditions and weak momentum. Rising US real yields and oil prices weigh on short-term buying pressure. Traders should watch the $68,400 resistance and $65,100 support for the next moves. Bitcoin (BTC) is show…",
-        "url": "https://coinjournal.net/news/bitcoin-stalls-near-66k-is-a-bigger-drop-coming-this-week/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/10/bitcoin-price-1.png",
-        "publishedAt": "2026-03-31T10:54:30Z",
-        "content": "<ul><li>Bitcoin price tests $65,000 support amid oversold conditions and weak momentum.</li><li>Rising US real yields and oil prices weigh on short-term buying pressure.</li><li>Traders should watch … [+3050 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Russia moves to narrow crypto trading to regulated intermediaries",
-        "description": "Russia approves new bills tightening oversight of crypto, requiring licensed intermediaries for trading and limiting retail purchases to $3,700 per year.",
-        "url": "https://cointelegraph.com/news/russia-limit-crypto-trade-regulated-intermediaries",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019d42f1-7c0f-70e2-b723-6b11b34baeb2.jpg",
-        "publishedAt": "2026-03-31T10:40:50Z",
-        "content": "Russias government has approved a package of draft bills that would channel domestic crypto trading through licensed intermediaries and sharply limit retail access.\r\nThe Finance Ministry said Monday … [+2687 chars]"
       }
     ]
   }
