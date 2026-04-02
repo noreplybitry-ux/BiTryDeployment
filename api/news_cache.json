@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-02T07:22:21.650Z",
+  "timestamp": "2026-04-02T09:06:31.454Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETFs post $1.3B in March inflows, first monthly gain of 2026",
+        "description": "US spot Bitcoin ETFs ended Q1 in the red, with about $500 million of net outflows despite March inflows, as sentiment remained weak amid geopolitical tensions.",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-1-3-billion-march-first-monthly-gain-2026",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019c0440-95fe-7c53-99b9-af211dce3f3c.jpg",
+        "publishedAt": "2026-04-01T08:55:56Z",
+        "content": "US spot Bitcoin exchange-traded funds (ETFs) finished the first quarter of 2026 with net outflows, even after March delivered the categorys first monthly inflows of the year.\r\nSpot Bitcoin (BTC) ETFs… [+2338 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/ethereum-price-trading-laptop-chart.jpg.png",
         "publishedAt": "2026-03-30T17:54:35Z",
         "content": "<ul><li>Bitmine has increased its Ethereum (ETH) holdings to over 4.73 million.</li><li>The company is adding to its ETH treasury strategy despite market struggles.</li><li>Ethereum price holds near … [+2949 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Aaron Wood",
-        "title": "Bitcoin hashrate falls after Iran conflict, HOOD down 16%: Month in charts",
-        "description": "Yields for five-year US Treasury bonds are up 4%, putting a damper on Bitcoin price, which has ended the month much where it started.",
-        "url": "https://cointelegraph.com/features/bitcoin-hashrate-falls-iran-war-robinhood-month-charts",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b0f59-6087-733c-889f-0d608ec39d10",
-        "publishedAt": "2026-03-30T13:58:54Z",
-        "content": "This month, Bitcoins hashrate fell 6% after the US and Israel attacked Iran, highlighting Irans significant crypto mining activity.\r\nBitcoin price, meanwhile, remains lackluster. Higher 4% yields on … [+5195 chars]"
       }
     ]
   }
