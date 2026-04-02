@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-02T22:38:13.552Z",
+  "timestamp": "2026-04-02T23:40:44.119Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Bitcoin Exchange Inflows Flash Rare Signal As Large Deposits Return",
+        "description": "On-chain data shows the average Bitcoin exchange deposit has ballooned to a significant size, a potential sign that whales are making inflows. Average Bitcoin Exchange Inflow Hits 2.62 BTC As pointed out by CryptoQuant community analyst Maartunn in an X post,…",
+        "url": "http://www.newsbtc.com/bitcoin-news/hong-kong-stablecoin-hsbc-standard-chartered/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/btc.png?fit=1228%2C819",
+        "publishedAt": "2026-04-01T23:00:13Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://s.yimg.com/os/en/coinspeaker_us_106/728990a424a4d6a89b80421ba785d2bb",
         "publishedAt": "2026-03-31T14:38:32Z",
         "content": "Bitmine Immersion Technologies (NYSE American: BMNR) disclosed on March 30, 2026 that its Ethereum treasury has reached 4.732 million ETH tokens, with combined crypto holdings, total cash of $961 mil… [+4648 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Faces Fresh Pressure As Oil Crosses $104 For First Time In 4 Years",
-        "description": "Investors are currently sifting through a decade of market data to see if a massive spike in energy costs will sink Bitcoin and the crypto market. Related Reading: Bitcoin ETFs Pull In $56B As CEO Pitches Crypto Over Gold While many people focus on the immedi…",
-        "url": "http://www.newsbtc.com/news/bitcoin-faces-fresh-pressure-as-oil-crosses-104-for-first-time-in-4-years/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/oil.jpg?fit=1536%2C1024",
-        "publishedAt": "2026-03-31T13:30:31Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
