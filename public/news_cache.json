@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T20:44:28.869Z",
+  "timestamp": "2026-04-03T21:40:44.169Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "USDC Stablecoin Issuer Circle Unveils New Token to Give Bitcoin More Utility",
+        "description": "Publicly traded stablecoin issuer Circle is launching a new token, cirBTC, its own wrapped Bitcoin alternative.",
+        "url": "https://decrypt.co/363199/usdc-stablecoin-issuer-circle-give-bitcoin-utility",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/USDC-decrypt-style-07-gID_7.png",
+        "publishedAt": "2026-04-02T21:04:47Z",
+        "content": "In brief\r\n<ul><li>Circle is launching cirBTC, a wrapped Bitcoin alternative designed to unlock Bitcoin utility for institutions and investors.</li><li>The token will first launch on Ethereum mainnet … [+2961 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d481f-1d58-7688-a2cb-1ca2bd675c86.jpg",
         "publishedAt": "2026-04-01T09:36:24Z",
         "content": "Three crypto executives extradited from Singapore appeared in federal court in Oakland on Monday as US prosecutors expanded a wash-trading case that has now charged 10 foreign nationals tied to four … [+2698 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Crypto asset manager CoinShares to list on Nasdaq after $1.2 billion SPAC deal",
-        "description": "The listing makes CoinShares the latest crypto firm to go public and follows similar moves by BitGo, Circle, Bullish, and Gemini in recent years.",
-        "url": "https://www.coindesk.com/business/2026/04/01/crypto-asset-manager-coinshares-to-list-on-nasdaq-after-usd1-2-billion-spac-deal",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c20171c317dbe6895c2392802cd9ddc953c072bb-1543x868.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-01T09:17:54Z",
-        "content": "CoinShares, a leading European digital asset manager with over $6 billion under management, is set to begin trading on the Nasdaq Stock Market under the ticker symbol CSHR.\r\nThe listing follows a $1.… [+1290 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETFs post $1.3B in March inflows, first monthly gain of 2026",
-        "description": "US spot Bitcoin ETFs ended Q1 in the red, with about $500 million of net outflows despite March inflows, as sentiment remained weak amid geopolitical tensions.",
-        "url": "https://cointelegraph.com/news/bitcoin-etf-1-3-billion-march-first-monthly-gain-2026",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019c0440-95fe-7c53-99b9-af211dce3f3c.jpg",
-        "publishedAt": "2026-04-01T08:55:56Z",
-        "content": "US spot Bitcoin exchange-traded funds (ETFs) finished the first quarter of 2026 with net outflows, even after March delivered the categorys first monthly inflows of the year.\r\nSpot Bitcoin (BTC) ETFs… [+2338 chars]"
       }
     ]
   }
