@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T11:41:44.503Z",
+  "timestamp": "2026-04-03T13:16:50.897Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Aaron Wood",
+        "title": "Canada’s bid to ban crypto donations highlights transparency issue",
+        "description": "Elections Canada and the Commissioner of Canada Elections have highlighted that digital payment methods can create transparency issues for campaign funding.",
+        "url": "https://cointelegraph.com/features/canada-ban-crypto-donations-transparency-issue",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019be4af-d95d-75c9-ba98-37b3e4448e4c.jpg",
+        "publishedAt": "2026-04-02T12:49:29Z",
+        "content": "A new bill in Canada, if passed, would ban political parties and other third parties in elections from accepting cryptocurrency donations in a bid to prevent election interference.\r\nThe Strong and Fr… [+6593 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-mercado-libre-gID_7.png",
         "publishedAt": "2026-03-31T20:12:38Z",
         "content": "In brief\r\n<ul><li>Mercado Libre killed Mercado Coin after a failed four-year experiment.</li><li>The company's stablecoin is replacing the Mercado Coin loyalty token.</li><li>Nubanks Nucoin collapse … [+3071 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Interactive Brokers expands crypto trading to retail investors in Europe",
-        "description": "Interactive Brokers has launched crypto trading for retail investors in the EEA, offering access to 11 digital assets alongside traditional investments on a single platform.",
-        "url": "https://cointelegraph.com/news/interactive-brokers-expands-crypto-trading-to-retail-investors-in-europe",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bbd7b-ba0f-7c18-9c0c-542da63caab7.jpg",
-        "publishedAt": "2026-03-31T19:48:11Z",
-        "content": "Interactive Brokers has launched crypto trading for retail investors in the European Economic Area (EEA), allowing eligible clients to buy and sell 11 digital assets, including Bitcoin and Ethereum, … [+2740 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Stacy Elliott",
-        "title": "Bitcoin, Crypto Stocks Climb on Reports That Iran's President Is 'Ready to End War'",
-        "description": "Stocks are surging while Bitcoin and Ethereum hit their highest prices in days after Iran's president said he's looking to end the conflict.",
-        "url": "https://decrypt.co/362913/bitcon-crypto-stocks-climb-reports-iranian-president-end-war",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
-        "publishedAt": "2026-03-31T19:08:05Z",
-        "content": "Crypto stocks and Bitcoin saw sudden gains Tuesday on multiple reports that Iranian President Masoud Pezeshkian is \"ready to end war.\"\r\nCrypto exchange Coinbase has gained nearly 9% since the opening… [+3232 chars]"
       }
     ]
   }
