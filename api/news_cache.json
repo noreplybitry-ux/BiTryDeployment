@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T15:44:45.565Z",
+  "timestamp": "2026-04-03T16:50:07.097Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Coinbase Gets Conditional Approval From Banking Regulator—But Isn't Launching a Bank",
+        "description": "Coinbase said Thursday that it is the latest crypto firm to secure a conditional bank charter from the Office of the Comptroller of the Currency.",
+        "url": "https://decrypt.co/363155/coinbase-conditional-approval-banking-regulator-isnt-launching-bank",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png",
+        "publishedAt": "2026-04-02T16:20:41Z",
+        "content": "Coinbase signaled on Thursday that it plans to refine its services after receiving conditional approval for a national trust bank charter from the Office of the Comptroller of the Currency (OCC).\r\nIn… [+2191 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin holders face $600B in unrealized losses as BTC price slips to $66K",
+        "description": "About 44% of Bitcoin's circulating supply trades underwater at $66,000 with weak spot demand weighing on market sentiment.",
+        "url": "https://cointelegraph.com/markets/bitcoin-holders-face-600b-unrealized-losses-btc-price-66k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd846-e69f-721e-ab5b-a9979c88e99c.jpg",
+        "publishedAt": "2026-04-02T15:47:44Z",
+        "content": "Bitcoin (BTC) traded at $66,450 on Thursday, a 47% drawdown from its all-time high of $126,000 reached in October 2025. As a result, many BTC holders are sitting on significant unrealized losses, und… [+4196 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Consolidates-Below-0.10.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-01T05:18:41Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Recovery Picks Up, Is a Breakout Now Brewing?",
-        "description": "Ethereum price started a steady recovery wave above $2,000. ETH is now consolidating above $2,050 and might aim for more gains. Ethereum started a decent upward move from the $1,935 zone. The price is trading above $2,020 and the 100-hourly Simple Moving Aver…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-recovery-picks-up-2050/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Recovery-Picks-Up.jpg",
-        "publishedAt": "2026-04-01T03:58:01Z",
-        "content": "Ethereum price started a steady recovery wave above $2,000. ETH is now consolidating above $2,050 and might aim for more gains.\r\n<ul><li>Ethereum started a decent upward move from the $1,935 zone.</l… [+2181 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Recovery at Risk, Sellers Prepare to Reassert Control",
-        "description": "Bitcoin price started a recovery wave above $67,500. BTC is now consolidating below $68,800 and might struggle to continue higher. Bitcoin started a recovery wave above $67,000 and $67,200. The price is trading above $67,000 and the 100 hourly simple moving a…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-at-risk-68500/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Recovery-at-Risk.jpg",
-        "publishedAt": "2026-04-01T02:39:43Z",
-        "content": "Bitcoin price started a recovery wave above $67,500. BTC is now consolidating below $68,800 and might struggle to continue higher.\r\n<ul><li>Bitcoin started a recovery wave above $67,000 and $67,200.<… [+2162 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Solana DEX volumes drop to 2024 lows: Will SOL hold $80 as support?",
-        "description": "Solana’s declining DEX volumes raise the likelihood of a SOL price correction to $75, but the network’s DApp revenue highlights its resilience.",
-        "url": "https://cointelegraph.com/markets/solana-dex-volumes-drop-to-2024-lows-will-sol-hold-80-as-support",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c6e39-0ace-778f-a018-d4cf5c106e03.jpg",
-        "publishedAt": "2026-04-01T01:00:00Z",
-        "content": "Key takeaways:\r\n<ul><li>Solana outperforms Ethereum in high-revenue DApps, providing a fundamental cushion against recent price drops.\r\n</li><li>Rising Ethereum Layer-2 dominance challenges SOL as tr… [+3373 chars]"
       }
     ]
   }
