@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-02T23:40:44.119Z",
+  "timestamp": "2026-04-03T02:51:14.035Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Recovery Slips, Sellers Tighten Grip on Market",
+        "description": "Bitcoin price started a recovery wave above $68,000. BTC is now struggling to surpass $68,800 and showing signs of a fresh decline. Bitcoin failed to settle above $68,800 and trimmed most gains. The price is trading below $67,200 and the 100 hourly simple mov…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-slips-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Recovery-Slips-Sellers-Tighten-Grip-on-Market.jpg",
+        "publishedAt": "2026-04-02T02:31:46Z",
+        "content": "Bitcoin price started a recovery wave above $68,000. BTC is now struggling to surpass $68,800 and showing signs of a fresh decline.\r\n<ul><li>Bitcoin failed to settle above $68,800 and trimmed most ga… [+2234 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Price Crash Update: Analyst Forecasts Fall To $600 If This Happens",
+        "description": "Ethereum is currently trading above $2,100 at the start of the new month, but one analyst believes the asset’s next major directional move is based on a single price level: one that, if broken, would invalidate years of macro analysis and cause a price collap…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-crash-update/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-iStock-53.jpg?fit=612%2C412",
+        "publishedAt": "2026-04-02T00:00:00Z",
+        "content": "Ethereum is currently trading above $2,100 at the start of the new month, but one analyst believes the asset’s next major directional move is based on a single price level: one that, if broken, would… [+2700 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-6-2026-02_18_32-PM.png?fit=1222%2C814",
         "publishedAt": "2026-03-31T15:00:27Z",
         "content": "Bitcoin has shed about $3,500 in value over recent days, slipping from above $70,000 earlier in March to around $66,500, as short-term holders take their exits. On one particularly turbulent day, abo… [+2810 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Mercado Libre shuts down Mercado Coin, ending its loyalty-driven crypto experiment",
-        "description": "Starting April 17, users will no longer be able to buy, sell or earn cashback in Mercado Coin, but can sell, spend, or have the token converted to local currency.",
-        "url": "https://www.coindesk.com/business/2026/03/31/mercado-libre-shuts-down-mercado-coin-ending-its-loyalty-driven-crypto-experiment",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d6843477d88ef478a29f7d7b1f95417c3f560b82-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-31T14:49:19Z",
-        "content": "E-commerce giant Mercado Libre (MELI) is pulling the plug on its homegrown cryptocurrency, Mercado Coin, nearly four years after introducing it to boost customer engagement across its platform.\r\nThe … [+1352 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Daniel Francis",
-        "title": "Bitmine Immersion Technologies Reports 4.732M ETH Treasury Holdings",
-        "description": "Bitmine Immersion Technologies (NYSE American: BMNR) disclosed on March 30, 2026 that its Ethereum treasury has reached 4.732 million ETH tokens, with...",
-        "url": "https://www.coinspeaker.com/bitmine-immersion-technologies-4732m-eth-treasury-holdings/",
-        "urlToImage": "https://s.yimg.com/os/en/coinspeaker_us_106/728990a424a4d6a89b80421ba785d2bb",
-        "publishedAt": "2026-03-31T14:38:32Z",
-        "content": "Bitmine Immersion Technologies (NYSE American: BMNR) disclosed on March 30, 2026 that its Ethereum treasury has reached 4.732 million ETH tokens, with combined crypto holdings, total cash of $961 mil… [+4648 chars]"
       }
     ]
   }
