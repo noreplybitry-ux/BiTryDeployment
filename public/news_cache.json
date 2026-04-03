@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T18:56:08.124Z",
+  "timestamp": "2026-04-03T19:42:33.230Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Price Headed To $120,000? Why This analyst Thinks It’s A Good Time To Buy",
+        "description": "Crypto analyst Minga has predicted that the Bitcoin price could rally past $120,000 to a new all-time high (ATH) of $190,000 in the next bull cycle. The analyst also indicated that now is a good time to buy as BTC approaches a bottom.  Analyst Gives Buy Signa…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-headed-to-120000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/XRP-from-Adobe-Stock-33.jpg?fit=388%2C240",
+        "publishedAt": "2026-04-02T19:30:10Z",
+        "content": "Crypto analyst Minga has predicted that the Bitcoin price could rally past $120,000 to a new all-time high (ATH) of $190,000 in the next bull cycle. The analyst also indicated that now is a good time… [+2415 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019c0440-95fe-7c53-99b9-af211dce3f3c.jpg",
         "publishedAt": "2026-04-01T08:55:56Z",
         "content": "US spot Bitcoin exchange-traded funds (ETFs) finished the first quarter of 2026 with net outflows, even after March delivered the categorys first monthly inflows of the year.\r\nSpot Bitcoin (BTC) ETFs… [+2338 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Consolidates Below $0.10, Breakout Still Elusive",
-        "description": "Dogecoin started a recovery wave above the $0.0915 zone against the US Dollar. DOGE is now facing hurdles near $0.0930 and might struggle to continue higher. DOGE price started a recovery wave from $0.0890 and climbed above $0.0920. The price is trading above…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-consolidates-below-0-10/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Consolidates-Below-0.10.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-01T05:18:41Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
