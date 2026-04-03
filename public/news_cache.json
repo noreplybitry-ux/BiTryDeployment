@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T10:51:20.153Z",
+  "timestamp": "2026-04-03T11:41:44.503Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin slips below $67k as ETF outflows curb risk appetite",
+        "description": "Key takeaways BTC is down 2%, erasing the recovery earlier this week, US-listed spot ETF recorded an outflow of $173.73 million on Wednesday, breaking its two days of inflow this week. Bitcoin faces continued losses amid weaker institutional demand Bitcoin (B…",
+        "url": "https://coinjournal.net/news/bitcoin-slips-below-67k-as-etf-outflows-curb-risk-appetite/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/ChatGPT-Image-Apr-2-2026-12_26_15-PM.png",
+        "publishedAt": "2026-04-02T11:28:22Z",
+        "content": "Key takeaways\r\n<ul><li>BTC is down 2%, erasing the recovery earlier this week,</li><li>US-listed spot ETF recorded an outflow of $173.73 million on Wednesday, breaking its two days of inflow this wee… [+3350 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
         "publishedAt": "2026-03-31T19:08:05Z",
         "content": "Crypto stocks and Bitcoin saw sudden gains Tuesday on multiple reports that Iranian President Masoud Pezeshkian is \"ready to end war.\"\r\nCrypto exchange Coinbase has gained nearly 9% since the opening… [+3232 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Clarity Act ‘not a gatekeeper’ for crypto innovation, WisdomTree exec says",
-        "description": "The asset manager says innovation can proceed under current SEC rules as the Clarity Act faces debate in Congress.",
-        "url": "https://www.coindesk.com/policy/2026/03/30/clarity-act-not-a-gatekeeper-for-crypto-innovation-wisdomtree-exec-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/976ce7e305132fada910cfe9bc3b0d8254ad588b-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-31T19:06:05Z",
-        "content": "WisdomTree does not see pending U.S. crypto legislation as a prerequisite for innovation, even as policymakers debate new rules for digital assets.\r\nI dont [think] it would inhibit anything that were… [+2537 chars]"
       }
     ]
   }
