@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T05:10:59.064Z",
+  "timestamp": "2026-04-03T07:19:12.089Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "National Trust Bank Bid: Citadel Securities-Backed Crypto Exchange Enters The Fray",
+        "description": "EDX Markets, the crypto exchange backed by Wall Street giant Citadel Securities, has applied to the Office of the Comptroller of the Currency (OCC) for a national trust bank charter, according to a public filing disclosed Wednesday.  The move comes as US regu…",
+        "url": "http://www.newsbtc.com/news/national-trust-bank-bid-citadel-securities-backed-crypto-exchange-enters-the-fray/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/Screenshot_794.jpg?fit=1270%2C724",
+        "publishedAt": "2026-04-02T06:00:55Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/976ce7e305132fada910cfe9bc3b0d8254ad588b-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-03-31T19:06:05Z",
         "content": "WisdomTree does not see pending U.S. crypto legislation as a prerequisite for innovation, even as policymakers debate new rules for digital assets.\r\nI dont [think] it would inhibit anything that were… [+2537 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Antonio Oliveira",
-        "title": "Bitcoin traders forecast short-term downside even as BTC price chases $68K",
-        "description": "Bitcoin’s range-bound trading is expected to continue, but analysts’ projections versus technical charts highlight a discrepancy. Will bulls or bears prevail?",
-        "url": "https://cointelegraph.com/markets/bitcoin-traders-forecast-short-term-downside-even-as-btc-price-chases-68k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019adfcf-d2fa-72d8-abc1-5a1b9a935f44",
-        "publishedAt": "2026-03-31T17:40:22Z",
-        "content": "Bitcoins (BTC) consolidation extended into a fifth week since making a major low at $60,000 on Feb. 6, but the daily chart shows the range tightening as the price swings between its daily highs and l… [+2518 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "20 Bitcoin Indicators Flash Bullish At The Same Time, And This Could Send Price To $150,000",
-        "description": "Crypto analyst Sweep has revealed that 20 Bitcoin indicators have flashed bullish at the same time, providing a bullish outlook for the leading crypto. Based on this development, the analyst has predicted that BTC could rally to $150,000, marking a new all-ti…",
-        "url": "http://www.newsbtc.com/news/bitcoin/20-bitcoin-indicators-bullish/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-20.jpg?fit=612%2C374",
-        "publishedAt": "2026-03-31T16:30:02Z",
-        "content": "Crypto analyst Sweep has revealed that 20 Bitcoin indicators have flashed bullish at the same time, providing a bullish outlook for the leading crypto. Based on this development, the analyst has pred… [+2692 chars]"
       }
     ]
   }
