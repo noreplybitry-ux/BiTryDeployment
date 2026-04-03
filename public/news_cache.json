@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T02:51:14.035Z",
+  "timestamp": "2026-04-03T05:10:59.064Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Cracks Lower, Traders Brace for Volatile Selloff",
+        "description": "Solana failed to settle above $85 and extended losses. SOL price is now consolidating losses below $80 and might struggle to start a recovery wave. SOL price started a fresh decline below $88 and $85 against the US Dollar. The price is now trading below $86 a…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-cracks-lower-80/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Breaks-Down.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-02T05:08:26Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Pressured at $2,150, Bulls Fight to Clear Hurdle",
+        "description": "Ethereum price started a steady recovery wave above $2,050. ETH is now struggling to clear $2,150 and might trim some gains in the near term. Ethereum started a decent upward move above the $2,020 zone. The price is trading above $2,050 and the 100-hourly Sim…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-pressured-at-2150/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Pressured-at-2150-Bulls-Fight-to-Clear-Hurdle.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-02T03:18:42Z",
+        "content": "Ethereum price started a steady recovery wave above $2,050. ETH is now struggling to clear $2,150 and might trim some gains in the near term.\r\n<ul><li>Ethereum started a decent upward move above the … [+2177 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-20.jpg?fit=612%2C374",
         "publishedAt": "2026-03-31T16:30:02Z",
         "content": "Crypto analyst Sweep has revealed that 20 Bitcoin indicators have flashed bullish at the same time, providing a bullish outlook for the leading crypto. Based on this development, the analyst has pred… [+2692 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin Sell-Offs Are Ramping Up As Price Struggles, But Where Is All That BTC Going To?",
-        "description": "Bitcoin has shed about $3,500 in value over recent days, slipping from above $70,000 earlier in March to around $66,500, as short-term holders take their exits. On one particularly turbulent day, about 22,000 BTC were moved to exchanges in a single session. Y…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-sell-offs-ramping-up/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-6-2026-02_18_32-PM.png?fit=1222%2C814",
-        "publishedAt": "2026-03-31T15:00:27Z",
-        "content": "Bitcoin has shed about $3,500 in value over recent days, slipping from above $70,000 earlier in March to around $66,500, as short-term holders take their exits. On one particularly turbulent day, abo… [+2810 chars]"
       }
     ]
   }
