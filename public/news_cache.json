@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T21:40:44.169Z",
+  "timestamp": "2026-04-03T22:40:18.253Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Are The Rising Oil Prices Bullish Or Bearish For The Bitcoin Price?",
+        "description": "The ongoing tensions in the Middle East continue to put immense pressure on Bitcoin and other risk assets. As investor sentiments turn increasingly cautious, analysts are weighing the potential impact of rising oil prices on Bitcoin. The overall outlook is no…",
+        "url": "http://www.newsbtc.com/bitcoin-news/oil-impact-on-bitcoin-price/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-23.jpg?fit=960%2C501",
+        "publishedAt": "2026-04-02T22:30:10Z",
+        "content": "The ongoing tensions in the Middle East continue to put immense pressure on Bitcoin and other risk assets. Asinvestorsentiments turn increasingly cautious, analysts are weighing the potential impact … [+2804 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Antonio Oliveira",
+        "title": "New Bitcoin price lows on the table until $76K becomes support",
+        "description": "Bitcoin’s data show a series of bearish trading patterns that could usher in new price lows if the key support at $60,000 fails to hold. Here’s why bulls need to take out $76,000.",
+        "url": "https://cointelegraph.com/markets/new-bitcoin-price-lows-on-the-table-until-76k-becomes-support",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b35d2-1dde-74d1-9f9f-265eec454e0b.jpg",
+        "publishedAt": "2026-04-02T22:30:00Z",
+        "content": "Bitcoins (BTC) range-bound trading within the $60,000 to $73,000 range is impressive, especially when considering the macroeconomic backdrop of Brent crude oil rising to levels not seen since 2008, a… [+3260 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
         "publishedAt": "2026-04-01T09:59:19Z",
         "content": "In brief\r\n<ul><li>The DOJ has charged 10 individuals connected to firms Gotbit, Vortex, Antier, and Contrarian with cryptocurrency market manipulation.</li><li>The charges stem from an FBI sting oper… [+2346 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "US brings 10 alleged crypto market manipulators to court after extradition",
-        "description": "Extraditions of executives from market makers Vortex, Contrarian, Gotbit and Antier mark the latest step in a multi‑agency effort targeting alleged “market‑manipulation‑as‑a‑service.”",
-        "url": "https://cointelegraph.com/news/us-brings-10-alleged-crypto-market-manipulators-oakland-court",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d481f-1d58-7688-a2cb-1ca2bd675c86.jpg",
-        "publishedAt": "2026-04-01T09:36:24Z",
-        "content": "Three crypto executives extradited from Singapore appeared in federal court in Oakland on Monday as US prosecutors expanded a wash-trading case that has now charged 10 foreign nationals tied to four … [+2698 chars]"
       }
     ]
   }
