@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T09:02:53.853Z",
+  "timestamp": "2026-04-03T10:51:20.153Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Predicts Bitcoin Price Is Headed To $121,000 In 2 Months, But There’s A Problem",
+        "description": "Bitcoin had initially lost the $100,000 level back in November 2025, and since then, the cryptocurrency has continued to trend below this psychological level, showing very little chance of breaking above it soon. Nevertheless, bullish sentiment has not comple…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-is-headed-121000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-17-2026-11_15_05-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-04-02T10:30:29Z",
+        "content": "Bitcoin had initially lost the $100,000 level back in November 2025, and since then, the cryptocurrency has continued to trend below this psychological level, showing very little chance of breaking a… [+2403 chars]"
+      },
       {
         "source": {
           "id": null,
