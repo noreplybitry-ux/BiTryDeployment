@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-03T14:51:17.744Z",
+  "timestamp": "2026-04-03T15:44:45.565Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Paul Frost-Smith",
+        "title": "Crypto for Advisors: Crypto custody’s evolution",
+        "description": "Beyond simple storage, the next era of institutional crypto will be defined by the real-time connectivity and mobility of digital assets across a fragmented market.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-for-advisors-crypto-custody-s-evolution",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6ff294d2535cf05ce9094ae6e96e140848553f8b-5680x3776.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-02T15:00:00Z",
+        "content": "In todays newsletter, Paul Frost-Smith, CEO of Komainu, covers how institutional crypto is converging with traditional finance, but speed can introduce risk if legal and compliance layers aren't alig… [+5974 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c6e39-0ace-778f-a018-d4cf5c106e03.jpg",
         "publishedAt": "2026-04-01T01:00:00Z",
         "content": "Key takeaways:\r\n<ul><li>Solana outperforms Ethereum in high-revenue DApps, providing a fundamental cushion against recent price drops.\r\n</li><li>Rising Ethereum Layer-2 dominance challenges SOL as tr… [+3373 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Mining Nationalized? US Senators Float Bold New Reserve-Backed Bill",
-        "description": "About 97% of the machines used to mine Bitcoin currently come from companies based in China. This heavy reliance on foreign technology has created a bottleneck at American ports and raised alarms about the long-term security of the network. Related Reading: B…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-mining-nationalized-us-senators-float-bold-new-reserve-backed-bill/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-01T00:30:41Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Bitcoin enters the public bond market as Moody’s gives a first-of-its-kind crypto deal a rating",
-        "description": "A New Hampshire state authority is set to issue a first-of-its-kind bitcoin-backed bond with a Ba2 rating, marking an early test of how crypto can function as collateral inside traditional public finance markets.",
-        "url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-enters-the-public-bond-market-as-moody-s-gives-a-first-of-its-kind-crypto-deal-a-rating",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7f5e542f87e5115cb09fb74bc46c9377f6b37c64-5128x3333.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-03-31T22:58:55Z",
-        "content": "The New Hampshire Business Finance Authority is set to issue what appears to be the first rated bitcoin-backed bond of its kind, marking a step toward integrating crypto into traditional public finan… [+2068 chars]"
       }
     ]
   }
