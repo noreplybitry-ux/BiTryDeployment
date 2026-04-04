@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-04T14:39:03.144Z",
+  "timestamp": "2026-04-04T15:38:21.919Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Predicts That Ethereum Price Is Headed For $10,000 Minimum",
+        "description": "A crypto analyst has made a bold projection, suggesting the Ethereum price could reach a staggering $10,000. According to him, this is the minimum level that ETH could read, underscoring his confidence in the cryptocurrency’s bullish outlook. The analyst has …",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-headed-for-10000/",
+        "urlToImage": null,
+        "publishedAt": "2026-04-03T15:30:05Z",
+        "content": "A crypto analyst has made a bold projection, suggesting the Ethereum price could reach a staggering $10,000. According to him, this is the minimum level that ETH could read, underscoring his confiden… [+2927 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/3: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
+        "description": "Bitcoin is attempting to form a bottom, but select analysts believe that the decline is not over yet and the $60,000 level may break down.",
+        "url": "https://cointelegraph.com/markets/price-predictions-4-3-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d53c4-0852-7b77-a9f8-958bcae59d18.jpg",
+        "publishedAt": "2026-04-03T14:39:20Z",
+        "content": "Key points:\r\n<ul><li>Buyers are attempting to maintain BTC above the $66,500 level, but several analysts believe that the $60,000 level may crack.\r\n</li><li>Some major altcoins risk breaking below th… [+8813 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +446,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d452cd81d39225d95bd70d9159f42a5ed0e10c3d-5712x4284.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-01T19:36:22Z",
         "content": "EDX Markets, the crypto exchange backed by Citadel Securities, has applied for a national trust bank charter, marking a new step in its push to serve institutional clients.\r\nThe exchange submitted it… [+1832 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "The Bitcoin Bottom: Pundit Reveals The 5 Phases To Know When The Bleed Has Ended",
-        "description": "A market expert has outlined five distinct phases in the Bitcoin (BTC) bear market that could indicate when the leading cryptocurrency has hit a bottom. The analysis concludes that the cryptocurrency could still face additional downward pressure before ultima…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bottom-the-5-phases/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image-1.png?fit=2848%2C1600",
-        "publishedAt": "2026-04-01T19:00:11Z",
-        "content": "A market expert has outlined five distinct phases in the Bitcoin (BTC) bear market that could indicate when the leading cryptocurrency has hit a bottom. The analysis concludes that the cryptocurrency… [+2864 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/1: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "description": "Technical charts show Bitcoin and altcoins on the verge of a bullish trend reversal, but Bitcoin’s resistance at $69,000 could cap the current upward momentum.",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-1-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d49eb-1e33-7f82-b4ee-40a28138eebb.jpg",
-        "publishedAt": "2026-04-01T18:43:54Z",
-        "content": "Key points:\r\n<ul><li>Buyers will have to sustain Bitcoin above $69,000 to gain the upper hand in the short term.\r\n</li><li>Select major altcoins may break above their near-term resistance, signaling … [+8713 chars]"
       }
     ]
   }
