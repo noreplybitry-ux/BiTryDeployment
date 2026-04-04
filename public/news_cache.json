@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-04T18:53:14.921Z",
+  "timestamp": "2026-04-04T19:36:17.984Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Schwab plans spot bitcoin, ether trading launch in first half of 2026",
+        "description": "The financial services giant with almost $12 trillion in client assets is moving closer to direct crypto trading, offering subscription for early access to the Schwab Crypto account.",
+        "url": "https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a21442eff19a21c8ee60573a273922898a3de5a1-5238x3486.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-03T19:18:00Z",
+        "content": "Brokerage services giant Charles Schwab plans to roll out spot cryptocurrency trading in the first half of 2026, pushing it deeper into digital assets. \r\n\"We remain on track to launch our spot crypto… [+1303 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-45.jpg?fit=612%2C408",
         "publishedAt": "2026-04-01T20:30:59Z",
         "content": "Crypto analyst Sykodelic has declared that the Bitcoin bleed is almost over and suggested that BTC is unlikely to drop to $40,000 as some experts predict. He alluded to the 2022 bottom to explain why… [+2533 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Citadel-backed EDX Markets applies for U.S. trust charter to expand institutional crypto services",
-        "description": "The Citadel-backed exchange is seeking approval to offer custody and asset services as institutional demand grows.",
-        "url": "https://www.coindesk.com/markets/2026/04/01/citadel-backed-edx-markets-applies-for-u-s-trust-charter-to-expand-institutional-crypto-services",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d452cd81d39225d95bd70d9159f42a5ed0e10c3d-5712x4284.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-01T19:36:22Z",
-        "content": "EDX Markets, the crypto exchange backed by Citadel Securities, has applied for a national trust bank charter, marking a new step in its push to serve institutional clients.\r\nThe exchange submitted it… [+1832 chars]"
       }
     ]
   }
