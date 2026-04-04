@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-04T19:36:17.984Z",
+  "timestamp": "2026-04-04T20:39:40.902Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Price To $80,000: How The February Bullish Trend Can Push It 20% Higher",
+        "description": "Crypto analyst Jordan has predicted that the Bitcoin price could rally to $80,000 in the short term. The analyst pointed to a February bullish trend that could spark this rally for the leading crypto.  Bitcoin Price Eyes Rally To $80,000 Based On This Trend I…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-to-80000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-86.jpg?fit=1280%2C731",
+        "publishedAt": "2026-04-03T20:00:01Z",
+        "content": "Crypto analyst Jordan has predicted that the Bitcoin price could rally to $80,000 in the short term. The analyst pointed to a February bullish trend that could spark this rally for the leading crypto… [+2402 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d4a74-1d22-7d59-808d-3218c252dee0.jpg",
         "publishedAt": "2026-04-01T20:44:04Z",
         "content": "EDX Markets, an institutional crypto exchange, has applied to the US Office of the Comptroller of the Currency (OCC) to establish a national trust bank that would provide crypto custody, asset manage… [+2782 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "The Bitcoin Bleed Is Almost Over, But Will Price Reach $40,000 Before Bouncing?",
-        "description": "Crypto analyst Sykodelic has declared that the Bitcoin bleed is almost over and suggested that BTC is unlikely to drop to $40,000 as some experts predict. He alluded to the 2022 bottom to explain why the leading crypto is likely to find a bottom soon and begi…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bleed-almost-over/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-45.jpg?fit=612%2C408",
-        "publishedAt": "2026-04-01T20:30:59Z",
-        "content": "Crypto analyst Sykodelic has declared that the Bitcoin bleed is almost over and suggested that BTC is unlikely to drop to $40,000 as some experts predict. He alluded to the 2022 bottom to explain why… [+2533 chars]"
       }
     ]
   }
