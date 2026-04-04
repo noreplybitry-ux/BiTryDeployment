@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-04T20:39:40.902Z",
+  "timestamp": "2026-04-04T21:37:38.406Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Charles Schwab Is Gearing Up to Offer Bitcoin, Ethereum Spot Trading",
+        "description": "Financial giant Charles Schwab is set to launch spot buying of Bitcoin and Ethereum by the end of the quarter, the firm said Friday.",
+        "url": "https://decrypt.co/363336/charles-schwab-bitcoin-ethereum-spot-trading",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-charles-schwab-gID_7.png",
+        "publishedAt": "2026-04-03T21:11:55Z",
+        "content": "In brief\r\n<ul><li>Charles Schwab is expected to launch spot buying of Bitcoin and Ethereum this quarter.</li><li>The firm will start with a limited rollout before an expanded release, CEO Rick Wurste… [+2534 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d4ac0-aa7f-75c9-bd64-98b35afd0752.jpg",
         "publishedAt": "2026-04-01T21:00:08Z",
         "content": "Key takeaways:\r\n<ul><li>A Hyperliquid whale placed an $80 million bet against Bitcoin and the S&amp;P 500 while going long on Brent crude oil prices.\r\n</li><li>The whales history of massive losses an… [+3774 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "EDX seeks OCC trust bank charter for institutional crypto custody",
-        "description": "The crypto exchange seeks a charter from the Office of the Comptroller of the Currency to separate custody from trading and expand services under a regulated banking framework.",
-        "url": "https://cointelegraph.com/news/citadel-backed-edx-national-trust-bank-charter",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d4a74-1d22-7d59-808d-3218c252dee0.jpg",
-        "publishedAt": "2026-04-01T20:44:04Z",
-        "content": "EDX Markets, an institutional crypto exchange, has applied to the US Office of the Comptroller of the Currency (OCC) to establish a national trust bank that would provide crypto custody, asset manage… [+2782 chars]"
       }
     ]
   }
