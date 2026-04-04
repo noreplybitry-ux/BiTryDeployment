@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-04T09:46:25.175Z",
+  "timestamp": "2026-04-04T10:40:27.691Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "ICBA Opposes OCC’s Conditional Nod For Coinbase National Trust Bank Charter",
+        "description": "The Office of the Comptroller of the Currency (OCC) granted Coinbase (COIN) a conditional approval for a national trust bank charter, a move that would place the crypto exchange among a small group of five digital-asset firms — including Ripple, Circle (CRCL)…",
+        "url": "http://www.newsbtc.com/news/coinbase/icba-opposes-occs-conditional-nod-for-coinbase-national-trust-bank-charter/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/image_ikZDZE2K_1769631819209_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-04-03T10:00:53Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d49eb-1e33-7f82-b4ee-40a28138eebb.jpg",
         "publishedAt": "2026-04-01T18:43:54Z",
         "content": "Key points:\r\n<ul><li>Buyers will have to sustain Bitcoin above $69,000 to gain the upper hand in the short term.\r\n</li><li>Select major altcoins may break above their near-term resistance, signaling … [+8713 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Warren Buffett bought $17B in US T-bills: A bad omen for Bitcoin price?",
-        "description": "Buffett called the recent stock dip “nothing” versus past 50% crashes, raising fresh questions about downside risks for Bitcoin and stocks in 2026.",
-        "url": "https://cointelegraph.com/markets/warren-buffett-bought-17b-in-us-t-bills-a-bad-omen-for-bitcoin-price",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d49c7-7a4f-7bfa-a675-5020f7d26360.jpg",
-        "publishedAt": "2026-04-01T17:49:18Z",
-        "content": "Warren Buffett, the legendary investor and chairman of Berkshire Hathaway, revealed on CNBC this week that his firm purchased approximately $17 billion in US Treasury bills at the latest auction. Is … [+3235 chars]"
       }
     ]
   }
