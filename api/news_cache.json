@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-04T02:41:55.405Z",
+  "timestamp": "2026-04-04T04:56:30.821Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Compression Deepens Near $2,000 — Volatility About To Explode?",
+        "description": "Ethereum is tightening into a critical zone near the $2,000 level as price action continues to compress without clear direction. With volatility steadily declining and pressure building on both sides, the current structure suggests that a decisive move, eithe…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-compression-deepens/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-Getty-Images-3.jpg?fit=612%2C408",
+        "publishedAt": "2026-04-03T04:00:12Z",
+        "content": "Ethereum is tightening into a critical zone near the $2,000 level as price action continues to compress without clear direction. With volatility steadily declining and pressure building on both sides… [+2745 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Extends Losses, $2,000 Support Faces Breakdown Risk",
+        "description": "Ethereum price failed to stay above $2,120 and extended losses. ETH is now struggling to stay above $2,040 and might continue to move down in the near term. Ethereum started a fresh decline from the $2,150 zone. The price is trading below $2,120 and the 100-h…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-extends-losses-2000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Extends-Losses-2000-Support-Faces-Breakdown-Risk.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-03T03:18:04Z",
+        "content": "Ethereum price failed to stay above $2,120 and extended losses. ETH is now struggling to stay above $2,040 and might continue to move down in the near term.\r\n<ul><li>Ethereum started a fresh decline … [+2184 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Teeters on Edge, Will Support Finally Snap?",
+        "description": "Bitcoin price started a fresh decline from the $69,250 zone. BTC is now struggling to stay above $66,000 and might extend losses in the near term. Bitcoin failed to settle above $68,000 and started a fresh decline. The price is trading below $67,000 and the 1…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-teeters-on-edge-68k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Teeters-on-Edge.jpg",
+        "publishedAt": "2026-04-03T02:51:15Z",
+        "content": "Bitcoin price started a fresh decline from the $69,250 zone. BTC is now struggling to stay above $66,000 and might extend losses in the near term.\r\n<ul><li>Bitcoin failed to settle above $68,000 and … [+2171 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +446,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a97fc9801a0e0b0521bcdd496d5e1fba5f0ef87e-3024x2319.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-01T13:47:35Z",
         "content": "Wall Street asset management giant Franklin Templeton is launching a dedicated cryptocurrency division as it deepens its push into digital assets, anchored by a planned acquisition of crypto investme… [+1883 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "Algorand, Stable Lead Double-Digit Altcoin Surge as Bitcoin Tops $69K",
-        "description": "Experts cite portfolio rebalancing and geopolitical easing as driving the crypto market rally, though caution persists.",
-        "url": "https://decrypt.co/363004/algorand-stable-lead-double-digit-altcoin-surge-as-bitcoin-tops-69k",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-04-01T11:59:14Z",
-        "content": "In brief\r\n<ul><li>Algorand, Provenance Blockchain and Stable jumped by double digits as Bitcoin rallied to an intraday high of $69,135, liquidating over $326M in positions.</li><li>The rally is drive… [+2837 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin snaps 5-month losing streak: Key BTC price levels to watch in April",
-        "description": "Bitcoin ended its longest monthly losing streak since 2018 with a green March candle, sparking hopes of a powerful rebound similar to past cycles.",
-        "url": "https://cointelegraph.com/markets/bitcoin-snaps-5-month-losing-streak-btc-price-levels-watch-in-april",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b1c67-e86c-7234-ae1a-cad4bae9e0a3.jpg",
-        "publishedAt": "2026-04-01T11:55:30Z",
-        "content": "Bitcoin (BTC) closed March in green, ending the longest monthly losing streak since 2018. Data suggests that the coming months may prove to be profitable for BTC.\r\nKey takeaways:\r\n<ul><li>Bitcoin end… [+4089 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "DOJ Charges 10 Foreign Nationals Over Crypto ‘Wash Trading’ Scheme",
-        "description": "Federal grand juries have indicted ten individuals tied to alleged pump-and-dump schemes, following an FBI undercover operation.",
-        "url": "https://decrypt.co/362999/doj-charges-10-foreign-nationals-over-crypto-wash-trading-scheme",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
-        "publishedAt": "2026-04-01T09:59:19Z",
-        "content": "In brief\r\n<ul><li>The DOJ has charged 10 individuals connected to firms Gotbit, Vortex, Antier, and Contrarian with cryptocurrency market manipulation.</li><li>The charges stem from an FBI sting oper… [+2346 chars]"
       }
     ]
   }
