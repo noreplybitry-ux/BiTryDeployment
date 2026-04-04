@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-04T04:56:30.821Z",
+  "timestamp": "2026-04-04T06:03:33.612Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Breakdown Risk Grows, Is a Sharp Decline Next?",
+        "description": "Dogecoin started a fresh decline below the $0.0920 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.0910 and $0.0920. DOGE price started a fresh decline below the $0.0920 level. The price is trading below the $0.0910…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-breakdown-risk-0-090/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Breakdown-Risk-Grows.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-03T05:08:53Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/Franklin-Templeton-gID_7.jpg",
         "publishedAt": "2026-04-01T15:30:09Z",
         "content": "In brief\r\n<ul><li>Franklin Templeton is acquiring 250 Digital, a CoinFund spinoff, as it builds out its own crypto wing, Franklin Crypto. </li><li>The firm is bringing the 250 Digital team on board a… [+2551 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Franklin Templeton deepens crypto push with CoinFund spinoff deal",
-        "description": "Franklin Templeton has agreed to acquire CoinFund spinoff 250 Digital to launch Franklin Crypto, a dedicated crypto arm targeting institutional crypto investment management.",
-        "url": "https://cointelegraph.com/news/franklin-templeton-crypto-coinfund-spinoff-acquisition",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd440-4ebd-7022-8d7b-48b8f7b58e08.jpg",
-        "publishedAt": "2026-04-01T13:55:06Z",
-        "content": "Global asset manager Franklin Templeton is set to expand its crypto footprint by acquiring a spinoff of the crypto-native investment firm CoinFund.\r\nFranklin Templeton said Wednesday it plans to acqu… [+2395 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun, Olivier Acuna",
-        "title": "Franklin Templeton launches crypto division with 250 Digital acquisition",
-        "description": "The asset manager is creating a new “Franklin Crypto” unit to expand beyond ETFs and target institutional demand for active digital asset strategies.",
-        "url": "https://www.coindesk.com/business/2026/04/01/franklin-templeton-launches-crypto-division-with-250-digital-acquisition",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a97fc9801a0e0b0521bcdd496d5e1fba5f0ef87e-3024x2319.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-01T13:47:35Z",
-        "content": "Wall Street asset management giant Franklin Templeton is launching a dedicated cryptocurrency division as it deepens its push into digital assets, anchored by a planned acquisition of crypto investme… [+1883 chars]"
       }
     ]
   }
