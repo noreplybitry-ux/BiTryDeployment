@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T17:38:11.505Z",
+  "timestamp": "2026-04-05T18:54:32.320Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Ethereum Foundation Nears 70,000 Staked ETH Target — Details",
+        "description": "On Friday, April 3rd, the Ethereum Foundation staked over 45,000 Ether (ETH) tokens on the smart contract platform. This latest staking action brings the total amount of ETH locked by the foundation to roughly 69,500 coins, about 500 Ethers short of the found…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-foundation-nears-70000-staked-eth-target-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/iStock-1353098829-1.jpg?fit=1254%2C837",
+        "publishedAt": "2026-04-04T18:30:18Z",
+        "content": "On Friday, April 3rd, the Ethereum Foundation staked over 45,000 Ether (ETH) tokens on the smart contract platform. This latest staking action brings the total amount of ETH locked by the foundation … [+2521 chars]"
+      },
       {
         "source": {
           "id": null,
