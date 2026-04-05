@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T18:54:32.320Z",
+  "timestamp": "2026-04-05T19:38:37.183Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Bitcoin tends to outperform gold and stocks after global shocks, Mercado Bitcoin finds",
+        "description": "The study analyzed 60-day windows after economic or geopolitical shocks and found that Bitcoin posted stronger returns than gold and the S&P 500 in each period.",
+        "url": "https://www.coindesk.com/markets/2026/03/30/bitcoin-tends-to-outperform-gold-and-stocks-after-global-shocks-mercado-bitcoin-finds",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/48af8cc044a788e30cbd99c6305fcfa64af2f408-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-04T18:56:03Z",
+        "content": "Bitcoin BTC\r\n$67,315.79 tends to outperform traditional safe haven assets like gold in the two months following major global crises, according to new analysis from Brazilian crypto exchange Mercado B… [+1720 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/Screenshot_794.jpg?fit=1270%2C724",
         "publishedAt": "2026-04-02T06:00:55Z",
         "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Cracks Lower, Traders Brace for Volatile Selloff",
-        "description": "Solana failed to settle above $85 and extended losses. SOL price is now consolidating losses below $80 and might struggle to start a recovery wave. SOL price started a fresh decline below $88 and $85 against the US Dollar. The price is now trading below $86 a…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-cracks-lower-80/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Breaks-Down.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-02T05:08:26Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
