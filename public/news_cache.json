@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T16:44:05.197Z",
+  "timestamp": "2026-04-05T17:38:11.505Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Breaks-Down.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-02T05:08:26Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Pressured at $2,150, Bulls Fight to Clear Hurdle",
-        "description": "Ethereum price started a steady recovery wave above $2,050. ETH is now struggling to clear $2,150 and might trim some gains in the near term. Ethereum started a decent upward move above the $2,020 zone. The price is trading above $2,050 and the 100-hourly Sim…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-pressured-at-2150/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Pressured-at-2150-Bulls-Fight-to-Clear-Hurdle.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-02T03:18:42Z",
-        "content": "Ethereum price started a steady recovery wave above $2,050. ETH is now struggling to clear $2,150 and might trim some gains in the near term.\r\n<ul><li>Ethereum started a decent upward move above the … [+2177 chars]"
       }
     ]
   }
