@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T20:41:11.691Z",
+  "timestamp": "2026-04-05T21:38:55.492Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Chainlink Price Lags Under $9: Large Binance Inflows Suggest Further Sell-Side Pressure",
+        "description": "The Chainlink price has failed to show any signs of bullish recovery since falling below the $10 level in early February. While these struggles have been spread across the general cryptocurrency market, there has rarely been any indication of optimism for LIN…",
+        "url": "http://www.newsbtc.com/news/chainlink/chainlink-price-lags-under-9-large-binance-inflows/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/02/premium_photo-1675490807291-240d95b3ecd9-1.jpeg?fit=3000%2C2000",
+        "publishedAt": "2026-04-04T21:30:44Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-17-2026-11_15_05-AM.png?fit=1222%2C814",
         "publishedAt": "2026-04-02T10:30:29Z",
         "content": "Bitcoin had initially lost the $100,000 level back in November 2025, and since then, the cryptocurrency has continued to trend below this psychological level, showing very little chance of breaking a… [+2403 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "National Trust Bank Bid: Citadel Securities-Backed Crypto Exchange Enters The Fray",
-        "description": "EDX Markets, the crypto exchange backed by Wall Street giant Citadel Securities, has applied to the Office of the Comptroller of the Currency (OCC) for a national trust bank charter, according to a public filing disclosed Wednesday.  The move comes as US regu…",
-        "url": "http://www.newsbtc.com/news/national-trust-bank-bid-citadel-securities-backed-crypto-exchange-enters-the-fray/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/Screenshot_794.jpg?fit=1270%2C724",
-        "publishedAt": "2026-04-02T06:00:55Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
       }
     ]
   }
