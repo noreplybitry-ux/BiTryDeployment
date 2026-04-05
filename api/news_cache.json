@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T21:38:55.492Z",
+  "timestamp": "2026-04-05T22:38:27.433Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Eyes Macro Bottom As Key Level Comes Into Focus: Analyst",
+        "description": "An interesting technical outlook frames the current Ethereum price action as a range-bound environment on the higher timeframe, where patience is going to dictate the next move.  The Ethereum price action is now at a sensitive zone, and according to crypto an…",
+        "url": "http://www.newsbtc.com/altcoin/ethereum-eyes-macro-bottom-as-key-level-comes-into-focus-analyst/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_988062.jpg?fit=5144%2C2893",
+        "publishedAt": "2026-04-04T22:30:43Z",
+        "content": "An interesting technical outlook frames the current Ethereum price action as a range-bound environment on the higher timeframe, where patience is going to dictate the next move. \r\nThe Ethereum price … [+2634 chars]"
+      },
       {
         "source": {
           "id": null,
