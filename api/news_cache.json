@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T13:10:43.461Z",
+  "timestamp": "2026-04-05T14:40:38.246Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Recovery-Slips-Sellers-Tighten-Grip-on-Market.jpg",
         "publishedAt": "2026-04-02T02:31:46Z",
         "content": "Bitcoin price started a recovery wave above $68,000. BTC is now struggling to surpass $68,800 and showing signs of a fresh decline.\r\n<ul><li>Bitcoin failed to settle above $68,800 and trimmed most ga… [+2234 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Price Crash Update: Analyst Forecasts Fall To $600 If This Happens",
-        "description": "Ethereum is currently trading above $2,100 at the start of the new month, but one analyst believes the asset’s next major directional move is based on a single price level: one that, if broken, would invalidate years of macro analysis and cause a price collap…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-crash-update/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-iStock-53.jpg?fit=612%2C412",
-        "publishedAt": "2026-04-02T00:00:00Z",
-        "content": "Ethereum is currently trading above $2,100 at the start of the new month, but one analyst believes the asset’s next major directional move is based on a single price level: one that, if broken, would… [+2700 chars]"
       }
     ]
   }
