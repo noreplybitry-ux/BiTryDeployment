@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T07:16:05.083Z",
+  "timestamp": "2026-04-05T08:53:09.223Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Rich Bitcoin traders lost $337M daily in first quarter of 2026",
+        "description": "Bitcoin whales and sharks have locked in $30.9 billion in BTC losses this year, resembling the 2022 bear market, as onchain data points to continued downside risk.",
+        "url": "https://cointelegraph.com/markets/rich-bitcoin-traders-lost-337m-daily-first-quarter-2026",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d531e-78ac-7cb9-810e-36e5c571db22.jpg",
+        "publishedAt": "2026-04-04T08:31:42Z",
+        "content": "Bitcoin (BTC) traders holding 10010,000 BTC realized losses at an average of $337 million per day in Q1 2026, the worst quarter since 2022, according to data from Glassnode.\r\nKey takeaways:\r\n<ul><li>… [+3380 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d4ada-e87c-73f7-b297-554b1d206342.jpg",
         "publishedAt": "2026-04-01T21:59:41Z",
         "content": "South Korea-based cryptocurrency exchange Bithumb is reportedly expecting its initial public offering (IPO) sometime after 2028, in another delay after restructuring and regulatory hurdles.\r\nAccordin… [+1863 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "These Three Altcoins Just Got Leveraged Crypto ETFs",
-        "description": "Volatility Shares, the company that launched the first leveraged crypto fund in the U.S., is expanding its roster to smaller digital assets",
-        "url": "https://decrypt.co/363089/volatility-shares-everaged-crypto-etfs-three-altcoins",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_green-gID_7.png",
-        "publishedAt": "2026-04-01T21:08:22Z",
-        "content": "In brief\r\n<ul><li>Volatility Shares debuted leveraged ETFs for Cardano, Stellar, and Chainlink.</li><li>The offerings dovetail with others offered by the firm that established the first leveraged cry… [+3127 chars]"
       }
     ]
   }
