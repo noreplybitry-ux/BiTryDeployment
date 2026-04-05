@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T11:36:20.944Z",
+  "timestamp": "2026-04-05T13:10:43.461Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Who Called Bitcoin Top Says Price Is Going To $200,000, But Should You Buy Now?",
+        "description": "Crypto analyst Doctor Profit, who called the Bitcoin top, has predicted that BTC could still rally to $200,000, marking a new all-time high (ATH) for the leading crypto. However, the analyst suggested now isn’t a good time to buy as BTC is still likely to dro…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-going-to-200000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-58.jpg?fit=1280%2C854",
+        "publishedAt": "2026-04-04T13:00:07Z",
+        "content": "Crypto analyst Doctor Profit, who called the Bitcoin top, has predicted that BTC could still rally to $200,000, marking a new all-time high (ATH) for the leading crypto. However, the analyst suggeste… [+2447 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Retail Activity Hits 9-Year Low — Here’s Why",
+        "description": "Amid the ongoing bear market, crypto analyst Darkfost reports that trading activity among Bitcoin retail investors has reached a new low, suggesting a notable decline in participation. However, broader on-chain data provides deeper context to this trend, poin…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-retail-activity-hits-9-year-low-heres-why/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/gold-bitcoins-cart-shop-cart-with-purchases-white-background-buying-bitcoin-conceptual_67340-1270.jpg?fit=900%2C599",
+        "publishedAt": "2026-04-04T12:00:14Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-iStock-53.jpg?fit=612%2C412",
         "publishedAt": "2026-04-02T00:00:00Z",
         "content": "Ethereum is currently trading above $2,100 at the start of the new month, but one analyst believes the asset’s next major directional move is based on a single price level: one that, if broken, would… [+2700 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Bitcoin Exchange Inflows Flash Rare Signal As Large Deposits Return",
-        "description": "On-chain data shows the average Bitcoin exchange deposit has ballooned to a significant size, a potential sign that whales are making inflows. Average Bitcoin Exchange Inflow Hits 2.62 BTC As pointed out by CryptoQuant community analyst Maartunn in an X post,…",
-        "url": "http://www.newsbtc.com/bitcoin-news/hong-kong-stablecoin-hsbc-standard-chartered/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/btc.png?fit=1228%2C819",
-        "publishedAt": "2026-04-01T23:00:13Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Crypto exchange Bithumb to delay IPO until after 2028: Report",
-        "description": "According to the company CFO, Bithumb was “strengthen[ing] accounting policies and internal controls” ahead of its IPO plans, already delayed from 2025.",
-        "url": "https://cointelegraph.com/news/crypto-exchange-bithumb-delay-ipo",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d4ada-e87c-73f7-b297-554b1d206342.jpg",
-        "publishedAt": "2026-04-01T21:59:41Z",
-        "content": "South Korea-based cryptocurrency exchange Bithumb is reportedly expecting its initial public offering (IPO) sometime after 2028, in another delay after restructuring and regulatory hurdles.\r\nAccordin… [+1863 chars]"
       }
     ]
   }
