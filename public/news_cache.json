@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T14:40:38.246Z",
+  "timestamp": "2026-04-05T15:39:21.363Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Who Is Really Selling Bitcoin? Analyst Uncovers The On-chain Dynamics",
+        "description": "Bitcoin traded within a range-bound spell throughout March, with prices briefly rallying to $75,000 before falling back within the boundaries of the $63,000-$71,000 range. However, despite this, Bitcoin price struggles within this consolidation phase; the und…",
+        "url": "http://www.newsbtc.com/news/bitcoin/who-is-really-selling-bitcoin-analyst-uncovers-the-on-chain-dynamics/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/GettyImages-1322813129-b8a8903d614241608b916accfe852246.jpg?fit=1500%2C1000",
+        "publishedAt": "2026-04-04T15:00:04Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Pressured-at-2150-Bulls-Fight-to-Clear-Hurdle.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-02T03:18:42Z",
         "content": "Ethereum price started a steady recovery wave above $2,050. ETH is now struggling to clear $2,150 and might trim some gains in the near term.\r\n<ul><li>Ethereum started a decent upward move above the … [+2177 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Recovery Slips, Sellers Tighten Grip on Market",
-        "description": "Bitcoin price started a recovery wave above $68,000. BTC is now struggling to surpass $68,800 and showing signs of a fresh decline. Bitcoin failed to settle above $68,800 and trimmed most gains. The price is trading below $67,200 and the 100 hourly simple mov…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-slips-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Recovery-Slips-Sellers-Tighten-Grip-on-Market.jpg",
-        "publishedAt": "2026-04-02T02:31:46Z",
-        "content": "Bitcoin price started a recovery wave above $68,000. BTC is now struggling to surpass $68,800 and showing signs of a fresh decline.\r\n<ul><li>Bitcoin failed to settle above $68,800 and trimmed most ga… [+2234 chars]"
       }
     ]
   }
