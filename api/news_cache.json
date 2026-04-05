@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T03:17:44.410Z",
+  "timestamp": "2026-04-05T05:47:17.910Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Senate Inquiry: Binance CEO Receives New Letter Amid Concerns Of Misrepresentations",
+        "description": "Senator Richard Blumenthal has escalated his scrutiny of Binance, sending a follow‑up letter on April 1 to co‑CEO Richard Teng that presses the crypto exchange to explain apparent discrepancies between its testimony to the Senate and subsequent media reportin…",
+        "url": "http://www.newsbtc.com/binance/senate-inquiry-binance-ceo-receives-new-letter-amid-concerns-of-misrepresentations/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_CrwdVeIc_1771010836489_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-04-04T05:00:15Z",
+        "content": "Senator Richard Blumenthal has escalated his scrutiny of Binance, sending a followup letter on April 1 to coCEO Richard Teng that presses the crypto exchange to explain apparent discrepancies between… [+3553 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_green-gID_7.png",
         "publishedAt": "2026-04-01T21:08:22Z",
         "content": "In brief\r\n<ul><li>Volatility Shares debuted leveraged ETFs for Cardano, Stellar, and Chainlink.</li><li>The offerings dovetail with others offered by the firm that established the first leveraged cry… [+3127 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Hyperliquid whale makes $80M bet on market crash: Is Bitcoin in trouble?",
-        "description": "A Hyperliquid DEX whale has placed an $80 million bet that Bitcoin will crash and oil will rally, but data show this trader has lost millions in the past.",
-        "url": "https://cointelegraph.com/markets/hyperliquid-whale-makes-dollar80m-bet-on-market-crash-is-bitcoin-in-trouble",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d4ac0-aa7f-75c9-bd64-98b35afd0752.jpg",
-        "publishedAt": "2026-04-01T21:00:08Z",
-        "content": "Key takeaways:\r\n<ul><li>A Hyperliquid whale placed an $80 million bet against Bitcoin and the S&amp;P 500 while going long on Brent crude oil prices.\r\n</li><li>The whales history of massive losses an… [+3774 chars]"
       }
     ]
   }
