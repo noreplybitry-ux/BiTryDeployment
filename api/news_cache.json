@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-05T23:40:46.991Z",
+  "timestamp": "2026-04-06T03:20:38.290Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Stalls At $66,000 As Market Quietly Prepares For A Downside Draw",
+        "description": "Bitcoin is showing signs of hesitation at the $66,000 level, with price action slipping into a tight, choppy range. Momentum on the upside continues to fade, and each attempt to push higher is met with weaker follow-through. Beneath the surface, liquidity rem…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-stalls-at-66000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-67.jpg?fit=1280%2C720",
+        "publishedAt": "2026-04-05T01:30:50Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/ChatGPT-Image-Apr-2-2026-12_26_15-PM.png",
         "publishedAt": "2026-04-02T11:28:22Z",
         "content": "Key takeaways\r\n<ul><li>BTC is down 2%, erasing the recovery earlier this week,</li><li>US-listed spot ETF recorded an outflow of $173.73 million on Wednesday, breaking its two days of inflow this wee… [+3350 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Predicts Bitcoin Price Is Headed To $121,000 In 2 Months, But There’s A Problem",
-        "description": "Bitcoin had initially lost the $100,000 level back in November 2025, and since then, the cryptocurrency has continued to trend below this psychological level, showing very little chance of breaking above it soon. Nevertheless, bullish sentiment has not comple…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-is-headed-121000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-17-2026-11_15_05-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-04-02T10:30:29Z",
-        "content": "Bitcoin had initially lost the $100,000 level back in November 2025, and since then, the cryptocurrency has continued to trend below this psychological level, showing very little chance of breaking a… [+2403 chars]"
       }
     ]
   }
