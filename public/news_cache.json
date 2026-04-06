@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-06T11:52:22.701Z",
+  "timestamp": "2026-04-06T13:23:15.229Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "New Bitcoin price lows 'matter of time' says trader with BTC stuck at $67K",
+        "description": "Bitcoin added downside BTC price warnings as Binance order-book data showed multiple investor classes selling coins into the weekend.",
+        "url": "https://cointelegraph.com/markets/new-bitcoin-price-lows-matter-of-time-says-trader-btc-stuck-67k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d5d72-6895-79ba-b6b3-34bcf05e6e50.jpg",
+        "publishedAt": "2026-04-05T11:54:02Z",
+        "content": "Bitcoin (BTC) circled $67,000 on Sunday as traders warned of hidden BTC price weakness.\r\nKey points:\r\n<ul><li>Bitcoin Bollinger Bands demand a volatile BTC price breakout after a slow weekend.\r\n</li>… [+2822 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e10fe6ba56883a11ab1e1240f1e64d5c330f946a-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-02T13:57:24Z",
         "content": "Crypto markets are stuck in a holding pattern as geopolitical tensions in the Middle East cloud an otherwise improving macro backdrop, according to crypto asset manager Grayscale.\r\n\"The war in Iran o… [+2941 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Analyst Says Bitcoin Closing 6 Red Monthly Candles Isn’t Bearish, What To Expect",
-        "description": "Bitcoin’s recent price structure has not been easy to sit through. The price action has spent months moving sideways to lower, printing a series of bearish monthly closes since October that have placed the crypto sentiment in fear. That kind of slow pressure …",
-        "url": "http://www.newsbtc.com/news/bitcoin/analyst-says-bitcoin-6-red/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Pixabay-7.jpg?fit=1280%2C905",
-        "publishedAt": "2026-04-02T13:30:14Z",
-        "content": "Bitcoins recent price structure has not been easy to sit through. The price action has spent months moving sideways to lower, printing a series of bearish monthly closes since October that have place… [+2948 chars]"
       }
     ]
   }
