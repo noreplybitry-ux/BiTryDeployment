@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-07T13:44:06.986Z",
+  "timestamp": "2026-04-07T15:16:18.727Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/6: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA",
+        "description": "Buyers are attempting to push Bitcoin above the $70,000 level, but some analysts believe the upside may be limited and a drop below the $60,000 support is likely.",
+        "url": "https://cointelegraph.com/markets/price-predictions-4-6-spx-dxy-btc-eth-bnb-xrp-sol-doge-hype-ada",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d633b-16c9-7d8b-b86e-72fc3fb5f00e.jpg",
+        "publishedAt": "2026-04-06T15:09:18Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin rose above the $70,000 level on Monday, but analysts remain skeptical, expecting a drop below the $60,000 support.\r\n</li><li>Several major altcoins have bounced off their… [+8662 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Analyst Who Called Bitcoin Price Crash Above $100,000 Predicts Crash To $29,000",
+        "description": "The Bitcoin price has surged back above $69,000 after experiencing a major decline last week. While the price appears to be rebounding from the downtrend, a market analyst has warned that the BTC could still face another price crash. After projecting its decl…",
+        "url": "http://www.newsbtc.com/news/bitcoin/analyst-bitcoin-crash-29000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/07/istockphoto-BTC-17.jpg?fit=612%2C381",
+        "publishedAt": "2026-04-06T15:00:09Z",
+        "content": "The Bitcoin price has surged back above $69,000 after experiencing a major decline last week. While theprice appears to be rebounding from the downtrend, a market analyst has warned that the BTC coul… [+2814 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,45 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-Getty-Images-3.jpg?fit=612%2C408",
         "publishedAt": "2026-04-03T04:00:12Z",
         "content": "Ethereum is tightening into a critical zone near the $2,000 level as price action continues to compress without clear direction. With volatility steadily declining and pressure building on both sides… [+2745 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Extends Losses, $2,000 Support Faces Breakdown Risk",
-        "description": "Ethereum price failed to stay above $2,120 and extended losses. ETH is now struggling to stay above $2,040 and might continue to move down in the near term. Ethereum started a fresh decline from the $2,150 zone. The price is trading below $2,120 and the 100-h…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-extends-losses-2000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Extends-Losses-2000-Support-Faces-Breakdown-Risk.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-03T03:18:04Z",
-        "content": "Ethereum price failed to stay above $2,120 and extended losses. ETH is now struggling to stay above $2,040 and might continue to move down in the near term.\r\n<ul><li>Ethereum started a fresh decline … [+2184 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Teeters on Edge, Will Support Finally Snap?",
-        "description": "Bitcoin price started a fresh decline from the $69,250 zone. BTC is now struggling to stay above $66,000 and might extend losses in the near term. Bitcoin failed to settle above $68,000 and started a fresh decline. The price is trading below $67,000 and the 1…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-teeters-on-edge-68k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Teeters-on-Edge.jpg",
-        "publishedAt": "2026-04-03T02:51:15Z",
-        "content": "Bitcoin price started a fresh decline from the $69,250 zone. BTC is now struggling to stay above $66,000 and might extend losses in the near term.\r\n<ul><li>Bitcoin failed to settle above $68,000 and … [+2171 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Are The Rising Oil Prices Bullish Or Bearish For The Bitcoin Price?",
-        "description": "The ongoing tensions in the Middle East continue to put immense pressure on Bitcoin and other risk assets. As investor sentiments turn increasingly cautious, analysts are weighing the potential impact of rising oil prices on Bitcoin. The overall outlook is no…",
-        "url": "http://www.newsbtc.com/bitcoin-news/oil-impact-on-bitcoin-price/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-23.jpg?fit=960%2C501",
-        "publishedAt": "2026-04-02T22:30:10Z",
-        "content": "The ongoing tensions in the Middle East continue to put immense pressure on Bitcoin and other risk assets. Asinvestorsentiments turn increasingly cautious, analysts are weighing the potential impact … [+2804 chars]"
       }
     ]
   }
