@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-07T09:11:33.166Z",
+  "timestamp": "2026-04-07T11:03:39.872Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -472,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b35d2-1dde-74d1-9f9f-265eec454e0b.jpg",
         "publishedAt": "2026-04-02T22:30:00Z",
         "content": "Bitcoins (BTC) range-bound trading within the $60,000 to $73,000 range is impressive, especially when considering the macroeconomic backdrop of Brent crude oil rising to levels not seen since 2008, a… [+3260 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "USDC Stablecoin Issuer Circle Unveils New Token to Give Bitcoin More Utility",
-        "description": "Publicly traded stablecoin issuer Circle is launching a new token, cirBTC, its own wrapped Bitcoin alternative.",
-        "url": "https://decrypt.co/363199/usdc-stablecoin-issuer-circle-give-bitcoin-utility",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/USDC-decrypt-style-07-gID_7.png",
-        "publishedAt": "2026-04-02T21:04:47Z",
-        "content": "In brief\r\n<ul><li>Circle is launching cirBTC, a wrapped Bitcoin alternative designed to unlock Bitcoin utility for institutions and investors.</li><li>The token will first launch on Ethereum mainnet … [+2961 chars]"
       }
     ]
   }
