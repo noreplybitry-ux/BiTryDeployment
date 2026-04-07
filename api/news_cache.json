@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-07T22:46:00.173Z",
+  "timestamp": "2026-04-07T23:42:57.625Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -30,6 +30,19 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d633b-16c9-7d8b-b86e-72fc3fb5f00e.jpg",
         "publishedAt": "2026-04-06T15:09:18Z",
         "content": "Key points:\r\n<ul><li>Bitcoin rose above the $70,000 level on Monday, but analysts remain skeptical, expecting a drop below the $60,000 support.\r\n</li><li>Several major altcoins have bounced off their… [+8662 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Balaha",
+        "title": "Binance Case Study: Bitcoin Price Is Decoupling From the Fed and ETFs in 2026",
+        "description": "Bitcoin price correlation with Binance Research‘s Global Easing Breadth Index, a composite tracking monetary policy direction across 41 central banks, has...",
+        "url": "https://cryptonews.com/news/bitcoin-decoupling-fed-etfs-2026/",
+        "urlToImage": "https://s.yimg.com/os/en/cryptonews_us_711/d806bae383fc373edf16b7c02fef35fc",
+        "publishedAt": "2026-04-06T15:03:57Z",
+        "content": "Bitcoin price correlation with Binance Research‘s Global Easing Breadth Index, a composite tracking monetary policy direction across 41 central banks, has flipped from +0.21 before spot ETF approval … [+6071 chars]"
       },
       {
         "source": {
