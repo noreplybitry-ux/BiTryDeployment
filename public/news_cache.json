@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-07T15:16:18.727Z",
+  "timestamp": "2026-04-07T17:08:49.979Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Breakdown-Risk-Grows.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-03T05:08:53Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Ethereum Compression Deepens Near $2,000 — Volatility About To Explode?",
-        "description": "Ethereum is tightening into a critical zone near the $2,000 level as price action continues to compress without clear direction. With volatility steadily declining and pressure building on both sides, the current structure suggests that a decisive move, eithe…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-compression-deepens/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-Getty-Images-3.jpg?fit=612%2C408",
-        "publishedAt": "2026-04-03T04:00:12Z",
-        "content": "Ethereum is tightening into a critical zone near the $2,000 level as price action continues to compress without clear direction. With volatility steadily declining and pressure building on both sides… [+2745 chars]"
       }
     ]
   }
