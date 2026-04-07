@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-07T02:54:06.564Z",
+  "timestamp": "2026-04-07T05:15:53.077Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Charges Higher, $2,150 Resistance Under Threat",
+        "description": "Ethereum price managed to stay above $2,020 and recovered losses. ETH is now rising and might attempt a move above the $2,150 resistance. Ethereum started a decent upward move above the $2,065 zone. The price is trading above $2,080 and the 100-hourly Simple …",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-charges-higher-2150/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Charges-Higher.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-06T04:08:01Z",
+        "content": "Ethereum price managed to stay above $2,020 and recovered losses. ETH is now rising and might attempt a move above the $2,150 resistance.\r\n<ul><li>Ethereum started a decent upward move above the $2,0… [+2059 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Rwanda swats Bybit’s P2P platform offering franc-to-crypto trading",
+        "description": "Rwanda’s central bank has warned its citizens that crypto trading and payments using the Rwandan franc are illegal after Bybit expanded its peer-to-peer offerings into the African country on Friday.",
+        "url": "https://cointelegraph.com/news/rwanda-swats-bybit-p2p-platform-offering-franc-to-crypto-trading",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c7611-1a44-7943-8fa4-c2a2f9b29176.jpg",
+        "publishedAt": "2026-04-06T03:06:34Z",
+        "content": "The National Bank of Rwanda (NBR) has warned the public that crypto payments and trades using the local currency remain illegal in the country after Bybit added support for the Rwandan franc for its … [+2222 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,45 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/USDC-decrypt-style-07-gID_7.png",
         "publishedAt": "2026-04-02T21:04:47Z",
         "content": "In brief\r\n<ul><li>Circle is launching cirBTC, a wrapped Bitcoin alternative designed to unlock Bitcoin utility for institutions and investors.</li><li>The token will first launch on Ethereum mainnet … [+2961 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Price Headed To $120,000? Why This analyst Thinks It’s A Good Time To Buy",
-        "description": "Crypto analyst Minga has predicted that the Bitcoin price could rally past $120,000 to a new all-time high (ATH) of $190,000 in the next bull cycle. The analyst also indicated that now is a good time to buy as BTC approaches a bottom.  Analyst Gives Buy Signa…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-headed-to-120000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/XRP-from-Adobe-Stock-33.jpg?fit=388%2C240",
-        "publishedAt": "2026-04-02T19:30:10Z",
-        "content": "Crypto analyst Minga has predicted that the Bitcoin price could rally past $120,000 to a new all-time high (ATH) of $190,000 in the next bull cycle. The analyst also indicated that now is a good time… [+2415 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "SoFi expands into institutional finance with integrated crypto services",
-        "description": "SoFi launches Big Business Banking, enabling companies to manage fiat and crypto within a single regulated system as institutions move toward integrated digital asset infrastructure.",
-        "url": "https://cointelegraph.com/news/sofi-institutional-banking-platform-crypto-services",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-02/019c4247-550c-7b9c-9f24-b634c887cb17.jpg",
-        "publishedAt": "2026-04-02T16:56:28Z",
-        "content": "Digital banking platform SoFi Technologies has launched Big Business Banking, a platform that allows companies to manage fiat and crypto transactions within a single regulated system.\r\nAccording to T… [+2766 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Coinbase Gets Conditional Approval From Banking Regulator—But Isn't Launching a Bank",
-        "description": "Coinbase said Thursday that it is the latest crypto firm to secure a conditional bank charter from the Office of the Comptroller of the Currency.",
-        "url": "https://decrypt.co/363155/coinbase-conditional-approval-banking-regulator-isnt-launching-bank",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png",
-        "publishedAt": "2026-04-02T16:20:41Z",
-        "content": "Coinbase signaled on Thursday that it plans to refine its services after receiving conditional approval for a national trust bank charter from the Office of the Comptroller of the Currency (OCC).\r\nIn… [+2191 chars]"
       }
     ]
   }
