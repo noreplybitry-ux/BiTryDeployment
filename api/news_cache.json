@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-07T17:08:49.980Z",
+  "timestamp": "2026-04-07T19:13:48.474Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Altcoin Resilience Signals 'Compelling Entry Points' for Crypto Markets: Grayscale",
+        "description": "Altcoins like Ethereum and Solana have plunged from all-time highs, but their recent resilience is a compelling sign, according to Grayscale.",
+        "url": "https://decrypt.co/363426/altcoin-resilience-compelling-entry-points-crypto-markets-grayscale",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_green-gID_7.png",
+        "publishedAt": "2026-04-06T18:27:54Z",
+        "content": "In brief\r\n<ul><li>Grayscales Zach Pandl thinks a bottom could be forming for the crypto markets leading altcoins, based on their recent resilience.</li><li>Despite macroeconomic uncertainties heighte… [+4045 chars]"
+      },
       {
         "source": {
           "id": null,
