@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T07:44:27.295Z",
+  "timestamp": "2026-04-08T09:10:50.170Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETF inflows hit $471M, highest since late February",
+        "description": "US spot Bitcoin ETFs posted $471 million in inflows, the largest since late February, with IBIT leading and Ether ETFs joining the recovery.",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-inflows-471-million-highest-since-february",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019b92cc-d609-7af6-b3a8-9b3f85736edf.jpg",
+        "publishedAt": "2026-04-07T08:55:03Z",
+        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) have renewed the pace of inflows, recording their largest daily flows in weeks.\r\nSpot Bitcoin (BTC) ETFs posted $471 million in inflows on Monday, … [+2025 chars]"
+      },
       {
         "source": {
           "id": null,
