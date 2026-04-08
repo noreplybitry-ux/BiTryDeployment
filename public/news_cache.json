@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T02:55:10.468Z",
+  "timestamp": "2026-04-08T05:18:47.953Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Under Threat, Downside Thrust Could Trigger Selloff",
+        "description": "Dogecoin started a fresh decline below the $0.0920 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.0920 and $0.0925. DOGE price started a fresh decline below the $0.0912 level. The price is trading below the $0.0905…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-under-threat-0-090/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Under-Threat-Downside-Thrust-Could-Trigger-Selloff.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-07T05:08:27Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Cools Off, But Structure Stays Firmly Supported",
+        "description": "Ethereum price extended gains above $2,150 before it faced sellers. ETH is now correcting gains and might find bids near the $2,080 zone. Ethereum started a decent upward move above the $2,120 zone. The price is trading above $2,100 and the 100-hourly Simple …",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-cools-off-2080/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Cools-Off-But-Structure-Stays-Firmly-Supported.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-07T03:08:55Z",
+        "content": "Ethereum price extended gains above $2,150 before it faced sellers. ETH is now correcting gains and might find bids near the $2,080 zone.\r\n<ul><li>Ethereum started a decent upward move above the $2,1… [+2149 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Reveals How To Trade The Bitcoin Cycle, Predicts When Price Will Hit $215,000",
+        "description": "A crypto analyst has presented a new roadmap for Bitcoin (BTC), outlining his interpretation of past events and forecasting the market’s next possible moves in the coming months. The analyst also shared insights into the market’s psychology during key periods…",
+        "url": "http://www.newsbtc.com/bitcoin-news/how-to-trade-bitcoin-cycle/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-49.jpg?fit=612%2C408",
+        "publishedAt": "2026-04-07T03:00:41Z",
+        "content": "A crypto analyst has presented a new roadmap for Bitcoin (BTC), outlining his interpretation of past events and forecasting the market’s next possible moves in the coming months. The analyst also sha… [+3381 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/image_ikZDZE2K_1769631819209_raw.jpg?fit=1024%2C1024",
         "publishedAt": "2026-04-03T10:00:53Z",
         "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "New Bitcoin Crash Ahead? Bloomberg Strategist Forecasts Return To $10,000 – Here’s Why",
-        "description": "Bloomberg senior strategist Mike McGlone has renewed a stark prediction for Bitcoin (BTC), arguing that the market’s leading cryptocurrency could resume a prolonged decline that takes it back toward $10,000.  Why McGlone Sees Bitcoin Heading Back To $10K In a…",
-        "url": "http://www.newsbtc.com/bitcoin-news/new-bitcoin-crash-ahead-bloomberg-strategist-forecasts-return-to-10000-heres-why/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/image_I70Uqjus_1770394322826_raw.jpg?fit=1024%2C1024",
-        "publishedAt": "2026-04-03T08:00:12Z",
-        "content": "Bloomberg senior strategist Mike McGlone has renewed a stark prediction for Bitcoin (BTC), arguing that the market’s leading cryptocurrency could resume a prolonged decline that takes it back toward … [+2858 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Stumbles Hard: The Worst Q1 In Years Raises Big Questions",
-        "description": "Bitcoin ended the first quarter of 2026 at $68,200 after falling 22% over the period, its weakest opening three months since 2018. The slide erased an early push higher that had briefly carried the cryptocurrency close to $95,000 before the market turned lowe…",
-        "url": "http://www.newsbtc.com/news/bitcoin-stumbles-hard-the-worst-q1-in-years-raises-big-questions/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-cryptocurrency-falling-in-q1-downward-red-.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-04-03T07:00:57Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
