@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T11:04:21.123Z",
+  "timestamp": "2026-04-08T13:46:29.861Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vismaya V",
+        "title": "$11.4B Lost to Crypto Scams in 2025: FBI Internet Crime Report",
+        "description": "Older Americans bore nearly 40% of all crypto fraud losses in 2025, as investment scams and crypto ATM fraud ran rampant.",
+        "url": "https://decrypt.co/363486/11-4b-lost-to-crypto-scams-in-2025-fbi-internet-crime-report",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-04-07T12:51:51Z",
+        "content": "In brief\r\n<ul><li>Crypto fraud losses hit $11.366 billion in 2025, a 22% increase from 2024's $9.3 billion.</li><li>Adults over 60 lost $4.4 billion, nearly 40% of all crypto fraud losses, and led al… [+5582 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Binance adds spot trading guardrails to limit abnormal executions",
+        "description": "Binance said it will roll out a spot trading rule on April 14, restricting executions outside a set range during periods of volatility and thin liquidity.",
+        "url": "https://cointelegraph.com/news/binance-adds-spot-trading-guardrails-to-limit-abnormal-executions",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6744-61c3-7312-9d8c-09138e76293f.jpg",
+        "publishedAt": "2026-04-07T11:52:21Z",
+        "content": "Update April 7, 2026, 12:27 pm UTC: This article has been updated to add comments from a Binance representative.\r\nCrypto exchange Binance is introducing a new spot trading feature that restricts orde… [+2685 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Bitcoin Whale Moves $20M to Binance Amid Broader Selling Pressure",
+        "description": "A Bitcoin whale transferred 300 BTC worth over $20 million to Binance Tuesday, potentially facing a $15 million loss.",
+        "url": "https://decrypt.co/363488/bitcoin-whale-moves-20m-to-binance-amid-broader-selling-pressure",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-whale-decrypt-style-03-gID_7.png",
+        "publishedAt": "2026-04-07T11:41:43Z",
+        "content": "In brief\r\n<ul><li>A Bitcoin whale moved 300 BTC worth more than $20 million to Binance Tuesday.</li><li>The transfer could represent a $15 million loss if sold at current prices, though alternative s… [+2185 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Crypto investment inflows rebound as XRP tops weekly gains of $224M",
+        "description": "Crypto ETPs drew $224 million in inflows last week as XRP led gains, while US ETFs lagged and Ether posted outflows amid mixed macro data and policy expectations.",
+        "url": "https://cointelegraph.com/news/crypto-etp-week-224-million-inflow-xrp-leads-gains",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cae57-80f1-7bec-b432-53c56cb196ff.jpg",
+        "publishedAt": "2026-04-07T11:30:54Z",
+        "content": "Cryptocurrency investment products recorded minor inflows last week despite mixed geopolitical signals and increasingly hawkish investor expectations.\r\nGlobal crypto exchange-traded products (ETPs) c… [+2205 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Ascending Channel Puts Price At $5,700, Analyst Reveals When To Sell",
+        "description": "Over time, the Ethereum price has been trending sideways with no definitive move in either direction. This trend has led to the formation of an ascending channel that could change the course of things for the second-largest cryptocurrency by market cap. If th…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-ascending-channel-sell/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-25-2026-11_06_40-AM.png?fit=1111%2C740",
+        "publishedAt": "2026-04-07T11:30:06Z",
+        "content": "Over time, the Ethereum price has been trending sideways with no definitive move in either direction. This trend has led to the formation of an ascending channel that could change the course of thing… [+2545 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,71 +498,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_CrwdVeIc_1771010836489_raw.jpg?fit=1024%2C1024",
         "publishedAt": "2026-04-04T05:00:15Z",
         "content": "Senator Richard Blumenthal has escalated his scrutiny of Binance, sending a followup letter on April 1 to coCEO Richard Teng that presses the crypto exchange to explain apparent discrepancies between… [+3553 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Charles Schwab Is Gearing Up to Offer Bitcoin, Ethereum Spot Trading",
-        "description": "Financial giant Charles Schwab is set to launch spot buying of Bitcoin and Ethereum by the end of the quarter, the firm said Friday.",
-        "url": "https://decrypt.co/363336/charles-schwab-bitcoin-ethereum-spot-trading",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-charles-schwab-gID_7.png",
-        "publishedAt": "2026-04-03T21:11:55Z",
-        "content": "In brief\r\n<ul><li>Charles Schwab is expected to launch spot buying of Bitcoin and Ethereum this quarter.</li><li>The firm will start with a limited rollout before an expanded release, CEO Rick Wurste… [+2534 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Price To $80,000: How The February Bullish Trend Can Push It 20% Higher",
-        "description": "Crypto analyst Jordan has predicted that the Bitcoin price could rally to $80,000 in the short term. The analyst pointed to a February bullish trend that could spark this rally for the leading crypto.  Bitcoin Price Eyes Rally To $80,000 Based On This Trend I…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-to-80000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-86.jpg?fit=1280%2C731",
-        "publishedAt": "2026-04-03T20:00:01Z",
-        "content": "Crypto analyst Jordan has predicted that the Bitcoin price could rally to $80,000 in the short term. The analyst pointed to a February bullish trend that could spark this rally for the leading crypto… [+2402 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Schwab plans spot bitcoin, ether trading launch in first half of 2026",
-        "description": "The financial services giant with almost $12 trillion in client assets is moving closer to direct crypto trading, offering subscription for early access to the Schwab Crypto account.",
-        "url": "https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a21442eff19a21c8ee60573a273922898a3de5a1-5238x3486.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-03T19:18:00Z",
-        "content": "Brokerage services giant Charles Schwab plans to roll out spot cryptocurrency trading in the first half of 2026, pushing it deeper into digital assets. \r\n\"We remain on track to launch our spot crypto… [+1303 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Predicts That Ethereum Price Is Headed For $10,000 Minimum",
-        "description": "A crypto analyst has made a bold projection, suggesting the Ethereum price could reach a staggering $10,000. According to him, this is the minimum level that ETH could read, underscoring his confidence in the cryptocurrency’s bullish outlook. The analyst has …",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-headed-for-10000/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-03T15:30:05Z",
-        "content": "A crypto analyst has made a bold projection, suggesting the Ethereum price could reach a staggering $10,000. According to him, this is the minimum level that ETH could read, underscoring his confiden… [+2927 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/3: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "description": "Bitcoin is attempting to form a bottom, but select analysts believe that the decline is not over yet and the $60,000 level may break down.",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-3-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d53c4-0852-7b77-a9f8-958bcae59d18.jpg",
-        "publishedAt": "2026-04-03T14:39:20Z",
-        "content": "Key points:\r\n<ul><li>Buyers are attempting to maintain BTC above the $66,500 level, but several analysts believe that the $60,000 level may crack.\r\n</li><li>Some major altcoins risk breaking below th… [+8813 chars]"
       }
     ]
   }
