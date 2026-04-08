@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T15:17:29.647Z",
+  "timestamp": "2026-04-08T17:12:02.029Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Rainbow Chart Says Price Is Ranging Above $60,000 For A Reason, Here’s Why",
+        "description": "Crypto analyst Kabuki has explained why the Bitcoin rainbow chart shows that the price range is above $60,000. The analyst noted that BTC is mirroring past cycles and suggested that a base may be forming soon for the leading crypto.  Bitcoin Rainbow Chart Sho…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-ranging-above-60000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-96.jpg?fit=1280%2C960",
+        "publishedAt": "2026-04-07T16:00:12Z",
+        "content": "Crypto analyst Kabuki has explained why the Bitcoin rainbow chart shows that the price range is above $60,000. The analyst noted that BTC is mirroring past cycles and suggested that a base may be for… [+2491 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/48af8cc044a788e30cbd99c6305fcfa64af2f408-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-04T18:56:03Z",
         "content": "Bitcoin BTC\r\n$67,315.79 tends to outperform traditional safe haven assets like gold in the two months following major global crises, according to new analysis from Brazilian crypto exchange Mercado B… [+1720 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Ethereum Foundation Nears 70,000 Staked ETH Target — Details",
-        "description": "On Friday, April 3rd, the Ethereum Foundation staked over 45,000 Ether (ETH) tokens on the smart contract platform. This latest staking action brings the total amount of ETH locked by the foundation to roughly 69,500 coins, about 500 Ethers short of the found…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-foundation-nears-70000-staked-eth-target-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/iStock-1353098829-1.jpg?fit=1254%2C837",
-        "publishedAt": "2026-04-04T18:30:18Z",
-        "content": "On Friday, April 3rd, the Ethereum Foundation staked over 45,000 Ether (ETH) tokens on the smart contract platform. This latest staking action brings the total amount of ETH locked by the foundation … [+2521 chars]"
       }
     ]
   }
