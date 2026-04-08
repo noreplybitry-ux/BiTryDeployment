@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T21:51:04.039Z",
+  "timestamp": "2026-04-08T22:49:53.529Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Can An Altcoin Season Come Again? Why Bitcoin Price Can’t Fall Below $40,000",
+        "description": "Bitcoin has been holding above $65,000 for over a month now, and this price level is starting to carry more weight than it seems on the surface. The current structure is no longer just about short-term volatility, but a question about whether the market is bu…",
+        "url": "http://www.newsbtc.com/news/bitcoin/altcoin-season-come-again/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Altcoin-from-Adobe-Stock.jpg?fit=639%2C360",
+        "publishedAt": "2026-04-07T22:00:13Z",
+        "content": "Bitcoin has been holding above $65,000 for over a month now, and this price level is starting to carry more weight than it seems on the surface. The current structure is no longer just about short-te… [+2656 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -471,19 +484,6 @@
         "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-stalls-at-66000/",
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-67.jpg?fit=1280%2C720",
         "publishedAt": "2026-04-05T01:30:50Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin And Ethereum Adoption Gets A Boost From Schwab Launch",
-        "description": "Adoption of Bitcoin and Ethereum is poised to take a significant step forward as Charles Schwab introduces direct trading for both assets on its platform. As one of the largest financial institutions in the world, managing trillions in client assets, Schwab’s…",
-        "url": "http://www.newsbtc.com/news/bitcoin-eth-adoption-boosts/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-and-Ethereum-from-Pexels.jpeg?fit=3301%2C2201",
-        "publishedAt": "2026-04-04T23:30:52Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
       }
     ]
