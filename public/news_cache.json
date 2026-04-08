@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T13:46:29.861Z",
+  "timestamp": "2026-04-08T15:17:29.647Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Americans’ losses to crypto scams rose to over $11 billion last year, FBI reports",
+        "description": "Victims faced rising losses per case as fraud schemes became more sophisticated and organized Authorities warn many operations are linked to transnational crime networks exploiting forced labor",
+        "url": "https://www.coindesk.com/business/2026/04/07/americans-losses-to-crypto-scams-rose-to-over-usd11-billion-last-year-fbi-reports",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/96c2e526f11153afc7f091c7065f050b14a058f7-4107x2310.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-07T15:06:32Z",
+        "content": "Americans reported $11.4 billion in losses tied to cryptocurrency scams last year, 22% more than in 2024, highlighting the growing scale of digital asset fraud, an FBI report revealed Tuesday.\r\nCrypt… [+1694 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "XRP ETFs Outpace Bitcoin as Crypto Funds Bounce Back After Down Week",
+        "description": "Bitcoin usually drives investment action around crypto ETFs, but last week, XRP led as overall crypto fund flows flipped positive.",
+        "url": "https://decrypt.co/363501/xrp-etfs-outpace-bitcoin-crypto-funds-bounce-back-down-week",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-04-07T14:56:18Z",
+        "content": "In brief\r\n<ul><li>Crypto investment products attracted $224 million in inflows last week, with XRP leading at $119.6 millionits largest weekly performance since mid-December.</li><li>Switzerland domi… [+2479 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Bitcoin price risks '$15K shakeout' in the next 5 months, BTC analyst warns",
+        "description": "Multiple Bitcoin indicators, including a bull-bear sentiment index and a realized price metric, point to a possible final BTC shakeout toward $54,000",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-risks-dollar15k-shakeout-next-5-months-btc-analyst-warns",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d67cc-d3c8-7477-87fb-4f21087b1282.jpg",
+        "publishedAt": "2026-04-07T14:02:45Z",
+        "content": "Bitcoin (BTC) is showing signs of the bear markets late stages but could see another leg lower in the coming months, says Joao Wedson, founder and CEO of on-chain analytics platform Alphractal.\r\nKey … [+2734 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Crypto's $224 million inflow rebound was led by mostly one country and XRP",
+        "description": "Switzerland accounted for 70% of global crypto ETP inflows last week with XRP products contributing more than half the total.",
+        "url": "https://www.coindesk.com/markets/2026/04/07/crypto-s-usd224-million-inflow-rebound-was-led-by-mostly-one-country-and-xrp",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a76c7f177c8cbd64af93e464e7ab3c85812de274-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-07T13:52:27Z",
+        "content": "Global crypto exchange-traded products drew $224 million in inflows last week after a $414 million outflow the week before, according to CoinShares. \r\nThe headline number looks like a recovery but a … [+2858 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,71 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/iStock-1353098829-1.jpg?fit=1254%2C837",
         "publishedAt": "2026-04-04T18:30:18Z",
         "content": "On Friday, April 3rd, the Ethereum Foundation staked over 45,000 Ether (ETH) tokens on the smart contract platform. This latest staking action brings the total amount of ETH locked by the foundation … [+2521 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Who Is Really Selling Bitcoin? Analyst Uncovers The On-chain Dynamics",
-        "description": "Bitcoin traded within a range-bound spell throughout March, with prices briefly rallying to $75,000 before falling back within the boundaries of the $63,000-$71,000 range. However, despite this, Bitcoin price struggles within this consolidation phase; the und…",
-        "url": "http://www.newsbtc.com/news/bitcoin/who-is-really-selling-bitcoin-analyst-uncovers-the-on-chain-dynamics/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/GettyImages-1322813129-b8a8903d614241608b916accfe852246.jpg?fit=1500%2C1000",
-        "publishedAt": "2026-04-04T15:00:04Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Who Called Bitcoin Top Says Price Is Going To $200,000, But Should You Buy Now?",
-        "description": "Crypto analyst Doctor Profit, who called the Bitcoin top, has predicted that BTC could still rally to $200,000, marking a new all-time high (ATH) for the leading crypto. However, the analyst suggested now isn’t a good time to buy as BTC is still likely to dro…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-going-to-200000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-58.jpg?fit=1280%2C854",
-        "publishedAt": "2026-04-04T13:00:07Z",
-        "content": "Crypto analyst Doctor Profit, who called the Bitcoin top, has predicted that BTC could still rally to $200,000, marking a new all-time high (ATH) for the leading crypto. However, the analyst suggeste… [+2447 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Retail Activity Hits 9-Year Low — Here’s Why",
-        "description": "Amid the ongoing bear market, crypto analyst Darkfost reports that trading activity among Bitcoin retail investors has reached a new low, suggesting a notable decline in participation. However, broader on-chain data provides deeper context to this trend, poin…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-retail-activity-hits-9-year-low-heres-why/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/gold-bitcoins-cart-shop-cart-with-purchases-white-background-buying-bitcoin-conceptual_67340-1270.jpg?fit=900%2C599",
-        "publishedAt": "2026-04-04T12:00:14Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Rich Bitcoin traders lost $337M daily in first quarter of 2026",
-        "description": "Bitcoin whales and sharks have locked in $30.9 billion in BTC losses this year, resembling the 2022 bear market, as onchain data points to continued downside risk.",
-        "url": "https://cointelegraph.com/markets/rich-bitcoin-traders-lost-337m-daily-first-quarter-2026",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d531e-78ac-7cb9-810e-36e5c571db22.jpg",
-        "publishedAt": "2026-04-04T08:31:42Z",
-        "content": "Bitcoin (BTC) traders holding 10010,000 BTC realized losses at an average of $337 million per day in Q1 2026, the worst quarter since 2022, according to data from Glassnode.\r\nKey takeaways:\r\n<ul><li>… [+3380 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Senate Inquiry: Binance CEO Receives New Letter Amid Concerns Of Misrepresentations",
-        "description": "Senator Richard Blumenthal has escalated his scrutiny of Binance, sending a follow‑up letter on April 1 to co‑CEO Richard Teng that presses the crypto exchange to explain apparent discrepancies between its testimony to the Senate and subsequent media reportin…",
-        "url": "http://www.newsbtc.com/binance/senate-inquiry-binance-ceo-receives-new-letter-amid-concerns-of-misrepresentations/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_CrwdVeIc_1771010836489_raw.jpg?fit=1024%2C1024",
-        "publishedAt": "2026-04-04T05:00:15Z",
-        "content": "Senator Richard Blumenthal has escalated his scrutiny of Binance, sending a followup letter on April 1 to coCEO Richard Teng that presses the crypto exchange to explain apparent discrepancies between… [+3553 chars]"
       }
     ]
   }
