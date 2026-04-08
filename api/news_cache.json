@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T19:26:03.760Z",
+  "timestamp": "2026-04-08T20:53:18.384Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Spot Bitcoin ETF inflows top $471M but BTC is pinned under $70K: Here’s why",
+        "description": "Bitcoin ETF inflows hit $471 million, but stress on digital asset treasuries, selling from miners, and the war in Iran are keeping BTC stuck below $70,000.",
+        "url": "https://cointelegraph.com/markets/spot-bitcoin-etf-inflows-top-dollar471m-but-btc-is-pinned-under-dollar70k-here-s-why",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6972-5937-76aa-872e-bf3b97d74a48.jpg",
+        "publishedAt": "2026-04-07T19:45:05Z",
+        "content": "Key takeaways:\r\n<ul><li>BTC failed to hold $70,000 despite strong ETF inflows as selling by public miners offset recent institutional buying.\r\n</li><li>Options markets reflect high demand for downsid… [+4041 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_988062.jpg?fit=5144%2C2893",
         "publishedAt": "2026-04-04T22:30:43Z",
         "content": "An interesting technical outlook frames the current Ethereum price action as a range-bound environment on the higher timeframe, where patience is going to dictate the next move. \r\nThe Ethereum price … [+2634 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Chainlink Price Lags Under $9: Large Binance Inflows Suggest Further Sell-Side Pressure",
-        "description": "The Chainlink price has failed to show any signs of bullish recovery since falling below the $10 level in early February. While these struggles have been spread across the general cryptocurrency market, there has rarely been any indication of optimism for LIN…",
-        "url": "http://www.newsbtc.com/news/chainlink/chainlink-price-lags-under-9-large-binance-inflows/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/02/premium_photo-1675490807291-240d95b3ecd9-1.jpeg?fit=3000%2C2000",
-        "publishedAt": "2026-04-04T21:30:44Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
       }
     ]
   }
