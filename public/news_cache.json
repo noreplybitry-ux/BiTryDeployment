@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T20:53:18.384Z",
+  "timestamp": "2026-04-08T21:51:04.039Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Solana Exchange Stabble Warns Users to Pull Liquidity After North Korean Hacker Scare",
+        "description": "A decentralized exchange on Solana urged its users to exit after a former executive was alleged to be a North Korean hacker.",
+        "url": "https://decrypt.co/363579/solana-exchange-stabble-warns-users-north-korean-hacker-scare",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
+        "publishedAt": "2026-04-07T21:20:34Z",
+        "content": "In brief\r\n<ul><li>Solana exchange Stabble urged users to pull liquidity after its former CTO was alleged to be a North Korean hacker.</li><li>The firm's total value locked dropped 62% in the wake of … [+2669 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-and-Ethereum-from-Pexels.jpeg?fit=3301%2C2201",
         "publishedAt": "2026-04-04T23:30:52Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Eyes Macro Bottom As Key Level Comes Into Focus: Analyst",
-        "description": "An interesting technical outlook frames the current Ethereum price action as a range-bound environment on the higher timeframe, where patience is going to dictate the next move.  The Ethereum price action is now at a sensitive zone, and according to crypto an…",
-        "url": "http://www.newsbtc.com/altcoin/ethereum-eyes-macro-bottom-as-key-level-comes-into-focus-analyst/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_988062.jpg?fit=5144%2C2893",
-        "publishedAt": "2026-04-04T22:30:43Z",
-        "content": "An interesting technical outlook frames the current Ethereum price action as a range-bound environment on the higher timeframe, where patience is going to dictate the next move. \r\nThe Ethereum price … [+2634 chars]"
       }
     ]
   }
