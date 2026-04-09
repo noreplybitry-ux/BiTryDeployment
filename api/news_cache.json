@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-04-09T02:49:58.929Z",
+  "timestamp": "2026-04-09T05:16:45.258Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Eyes $88 Break, Will Bulls Finally Push Higher?",
+        "description": "Solana started a fresh increase above the $82 zone. SOL price is now consolidating near $85 and might aim for more gains above the $88 zone. SOL price started a fresh upward move above the $82 and $85 levels against the US Dollar. The price is now trading abo…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-eyes-88-break/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Eyes-88-Break.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-08T05:08:18Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "South Korea Imposes 5-Minute Audit Rule On Crypto Platforms",
+        "description": "Bithumb has pushed its stock market listing past 2028, citing the need to overhaul its accounting systems and internal controls after a high-profile crypto payout error drew scrutiny from South Korean regulators. Related Reading: XRP Headed For A Price Shock,…",
+        "url": "http://www.newsbtc.com/news/south-korea-imposes-5-minute-audit-rule-on-crypto-platforms/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_626527.jpg?fit=1280%2C961",
+        "publishedAt": "2026-04-08T04:00:11Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Surges Over 5%, Bulls Ignite Strong Upside Momentum",
+        "description": "Ethereum price extended gains above $2,250 before it faced sellers. ETH is now correcting gains and might find bids near the $2,165 zone. Ethereum started a decent upward move above the $2,220 zone. The price is trading above $2,200 and the 100-hourly Simple …",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-surges-over-2200/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Surges-Over-5-Bulls-Ignite-Strong-Upside-Momentum.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-08T03:18:35Z",
+        "content": "Ethereum price extended gains above $2,250 before it faced sellers. ETH is now correcting gains and might find bids near the $2,165 zone.\r\n<ul><li>Ethereum started a decent upward move above the $2,2… [+2165 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Rubmar Garcia",
+        "title": "XRP Leads Crypto Funds $224M Rebound With Largest Weekly Inflows Since December",
+        "description": "Global crypto investment products bounced from the late-March sentiment downturn, with XRP funds and European investors stealing the spotlight from Bitcoin and US markets. Related Reading: Bitcoin Next Big Move In Mid-April? Analyst Explains Why ‘Decision Tim…",
+        "url": "http://www.newsbtc.com/news/xrp-leads-crypto-funds-224m-rebound-inflows/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/steven-lelham-atSaEOeE8Nk-unsplash.jpg?fit=1920%2C1013",
+        "publishedAt": "2026-04-08T03:00:08Z",
+        "content": "Global crypto investment products bounced from the late-March sentiment downturn, with XRP funds and European investors stealing the spotlight from Bitcoin and US markets.\r\nAccording to the latest Co… [+3374 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,58 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Jumps-8-Breakout-Hopes-Reignite-Across-Crypto-Markets.jpg",
         "publishedAt": "2026-04-06T02:42:50Z",
         "content": "Bitcoin price started a decent increase above the $68,000 zone. BTC is now showing positive signs and might gain further if it clears $69,250.\r\n<ul><li>Bitcoin gained pace for a move above the $67,50… [+2150 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Analyst Identifies $63,000 As Key Support For Next Bitcoin Move",
-        "description": "A popular crypto trader has come forward on the social media platform X to predict that the Bitcoin price might soon head further downwards to the $63,000 level. This prognosis is based on the liquidity dynamics that have, over the past few weeks, driven the …",
-        "url": "http://www.newsbtc.com/news/bitcoin/analyst-identifie-key-support-for-bitcoin-next-move/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/2025-11-22-03.31.11.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-05T18:30:27Z",
-        "content": "A popular crypto trader has come forward on the social media platform X to predict that the Bitcoin price might soon head further downwards to the $63,000 level. This prognosis is based on the liquid… [+3170 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Bitcoin and the US dollar have a 'symbiotic' relationship: BPI exec",
-        "description": "The US dollar and Bitcoin have a mutually beneficial relationship, driving demand in a reinforcing cycle, and strengthening the position of the US dollar.",
-        "url": "https://cointelegraph.com/news/bitcoin-us-dollar-symbiotic-relationship-bpi",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d5e6f-6a54-711a-941c-5950a5be9377.jpg",
-        "publishedAt": "2026-04-05T17:17:37Z",
-        "content": "US dollar-pegged stablecoins and Bitcoin (BTC) share a symbiotic relationship, mutually benefitting from rising adoption, according to Sam Lyman, head of research at Bitcoin Policy Institute (BPI), a… [+2552 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Ethereum Net Taker Volume Rises To Most Positive Level Since 2023 – Bullish Reversal Soon?",
-        "description": "The price of Ethereum has been hovering around $2,000 for nearly a month, with the technical structure showing no clear path to recovery. According to the latest on-chain data, the “King of Altcoin” is witnessing a rare signal that could mean that it is at th…",
-        "url": "http://www.newsbtc.com/news/ethereum-net-taker-volume-turns-positive/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/07/iStock-1333288705.jpg?fit=1243%2C843",
-        "publishedAt": "2026-04-05T14:30:42Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "New Bitcoin price lows 'matter of time' says trader with BTC stuck at $67K",
-        "description": "Bitcoin added downside BTC price warnings as Binance order-book data showed multiple investor classes selling coins into the weekend.",
-        "url": "https://cointelegraph.com/markets/new-bitcoin-price-lows-matter-of-time-says-trader-btc-stuck-67k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d5d72-6895-79ba-b6b3-34bcf05e6e50.jpg",
-        "publishedAt": "2026-04-05T11:54:02Z",
-        "content": "Bitcoin (BTC) circled $67,000 on Sunday as traders warned of hidden BTC price weakness.\r\nKey points:\r\n<ul><li>Bitcoin Bollinger Bands demand a volatile BTC price breakout after a slow weekend.\r\n</li>… [+2822 chars]"
       }
     ]
   }
