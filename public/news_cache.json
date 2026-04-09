@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-09T11:05:15.324Z",
+  "timestamp": "2026-04-09T13:57:31.443Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea tightens crypto withdrawal-delay exemptions after scam losses",
+        "description": "The Financial Services Commission said inconsistent exemption rules created loopholes that allowed funds to move quickly with minimal account history.",
+        "url": "https://cointelegraph.com/news/south-korea-tightens-crypto-withdrawal-delay-exemptions",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6c5e-8c3e-798d-b266-27c0a34b9141.jpg",
+        "publishedAt": "2026-04-08T12:37:42Z",
+        "content": "South Koreas financial regulator said it will tighten the exception rules under crypto exchanges withdrawal-delay system after finding that scam-linked accounts granted exemptions accounted for most … [+2538 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Thailand proposes tighter scrutiny of funders behind crypto firms",
+        "description": "Thailand’s SEC has proposed new rules to extend approval requirements to financiers behind major crypto shareholders to improve oversight and reduce money laundering risks.",
+        "url": "https://cointelegraph.com/news/thailand-sec-tighter-rules-crypto-funding",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6c91-ad8a-777a-8b7d-addee3cd272c.jpg",
+        "publishedAt": "2026-04-08T11:26:28Z",
+        "content": "Thailands securities regulator is seeking to curb money laundering and technology-related crimes by tightening funding rules for cryptocurrency companies.\r\nThe Securities and Exchange Commission of T… [+2443 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d633b-16c9-7d8b-b86e-72fc3fb5f00e.jpg",
         "publishedAt": "2026-04-06T15:09:18Z",
         "content": "Key points:\r\n<ul><li>Bitcoin rose above the $70,000 level on Monday, but analysts remain skeptical, expecting a drop below the $60,000 support.\r\n</li><li>Several major altcoins have bounced off their… [+8662 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Balaha",
-        "title": "Binance Case Study: Bitcoin Price Is Decoupling From the Fed and ETFs in 2026",
-        "description": "Bitcoin price correlation with Binance Research‘s Global Easing Breadth Index, a composite tracking monetary policy direction across 41 central banks, has...",
-        "url": "https://cryptonews.com/news/bitcoin-decoupling-fed-etfs-2026/",
-        "urlToImage": "https://s.yimg.com/os/en/cryptonews_us_711/d806bae383fc373edf16b7c02fef35fc",
-        "publishedAt": "2026-04-06T15:03:57Z",
-        "content": "Bitcoin price correlation with Binance Research‘s Global Easing Breadth Index, a composite tracking monetary policy direction across 41 central banks, has flipped from +0.21 before spot ETF approval … [+6071 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Analyst Who Called Bitcoin Price Crash Above $100,000 Predicts Crash To $29,000",
-        "description": "The Bitcoin price has surged back above $69,000 after experiencing a major decline last week. While the price appears to be rebounding from the downtrend, a market analyst has warned that the BTC could still face another price crash. After projecting its decl…",
-        "url": "http://www.newsbtc.com/news/bitcoin/analyst-bitcoin-crash-29000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/07/istockphoto-BTC-17.jpg?fit=612%2C381",
-        "publishedAt": "2026-04-06T15:00:09Z",
-        "content": "The Bitcoin price has surged back above $69,000 after experiencing a major decline last week. While theprice appears to be rebounding from the downtrend, a market analyst has warned that the BTC coul… [+2814 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Says Bitcoin Hasn’t Seen A True Bottoming Formation Yet, What This Means For Price",
-        "description": "Crypto analyst LP has declared that Bitcoin hasn’t seen a true bottoming formation yet, despite the price looking to form strong support at current levels. This comes as BTC looks to reclaim the psychological $70,000 amid talks of a ceasefire between the U.S.…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-true-bottoming-formation/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-16.jpg?fit=612%2C408",
-        "publishedAt": "2026-04-06T13:30:45Z",
-        "content": "Crypto analyst LP has declared that Bitcoin hasnt seen a true bottoming formation yet, despite the price looking to form strong support at current levels. This comes as BTC looks to reclaim the psych… [+2634 chars]"
       }
     ]
   }
