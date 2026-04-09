@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-09T15:45:11.451Z",
+  "timestamp": "2026-04-09T17:14:28.699Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Long-Term Holder Supply Turns Positive As Price Climbs Past $71,000",
+        "description": "Bitcoin’s long-term holder supply change has moved back into positive territory over the past 30 days, as the coin reclaims the $71,000 level today. The data point is getting attention because only 29% of long-term holder supply is now sitting in loss, still …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-long-term-holder-supply-turns-positive-as-price-climbs-past-71000/",
+        "urlToImage": null,
+        "publishedAt": "2026-04-08T16:30:18Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Bob Williams, Haidy Grigsby, Francisco Rodrigues",
+        "title": "Crypto Long & Short: Asia’s digital asset crackdown: accountability gets personal",
+        "description": "In this week’s Crypto Long & Short Newsletter, Bob Williams covers how stricter crypto regulations in Asia are putting more personal responsibility on senior leaders, making strong governance and D&O insurance essential. Then, the FBI’s Haidy Grigsby writes o…",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/04/08/crypto-long-and-short-asia-s-digital-asset-crackdown-accountability-gets-personal",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3df2450bd86ac04a6913743726db7297c9ac4482-5994x3372.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-08T15:50:35Z",
+        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Bob Williams on how stricter crypto regulations in Asia are putting more personal responsibility on senior leader… [+11334 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-49.jpg?fit=612%2C408",
         "publishedAt": "2026-04-07T03:00:41Z",
         "content": "A crypto analyst has presented a new roadmap for Bitcoin (BTC), outlining his interpretation of past events and forecasting the market’s next possible moves in the coming months. The analyst also sha… [+3381 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Rejected Above $70K, Bulls Lose Grip on Momentum",
-        "description": "Bitcoin price started a decent increase above the $68,800 zone. BTC is trimming gains and might revisit the $67,500 support zone. Bitcoin gained pace for a move above the $68,500 and $68,800 levels. The price is trading above $68,000 and the 100 hourly simple…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rejected-above-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Rejected-Above-70K.jpg",
-        "publishedAt": "2026-04-07T02:29:57Z",
-        "content": "Bitcoin price started a decent increase above the $68,800 zone. BTC is trimming gains and might revisit the $67,500 support zone.\r\n<ul><li>Bitcoin gained pace for a move above the $68,500 and $68,800… [+2185 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Altcoin Resilience Signals 'Compelling Entry Points' for Crypto Markets: Grayscale",
-        "description": "Altcoins like Ethereum and Solana have plunged from all-time highs, but their recent resilience is a compelling sign, according to Grayscale.",
-        "url": "https://decrypt.co/363426/altcoin-resilience-compelling-entry-points-crypto-markets-grayscale",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_green-gID_7.png",
-        "publishedAt": "2026-04-06T18:27:54Z",
-        "content": "In brief\r\n<ul><li>Grayscales Zach Pandl thinks a bottom could be forming for the crypto markets leading altcoins, based on their recent resilience.</li><li>Despite macroeconomic uncertainties heighte… [+4045 chars]"
       }
     ]
   }
