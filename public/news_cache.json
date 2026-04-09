@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-08T23:44:06.420Z",
+  "timestamp": "2026-04-09T02:49:58.929Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Jumps Amid Peace Talks, Risk Appetite Ignites Rally",
+        "description": "Bitcoin price started a strong increase above the $70,000 zone. BTC is consolidating gains and might aim for more gains above the $71,500 zone. Bitcoin gained pace for a move above the $69,500 and $70,500 levels. The price is trading above $70,000 and the 100…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-jumps-72k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Jumps-Amid-Peace-Talks-Risk-Appetite-Ignites-Rally.jpg",
+        "publishedAt": "2026-04-08T02:36:21Z",
+        "content": "Bitcoin price started a strong increase above the $70,000 zone. BTC is consolidating gains and might aim for more gains above the $71,500 zone.\r\n<ul><li>Bitcoin gained pace for a move above the $69,5… [+2193 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Iran’s Bitcoin hashrate falls 77% over the past quarter amid conflict",
+        "description": "The 30-day simple moving average of the global network hashrate has also declined, though an analyst says the slump is due to Bitcoin prices hurting mining profitability rather than conflict.",
+        "url": "https://cointelegraph.com/news/iran-bitcoin-hashrate-drop-results-mining-redistribution",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d662a-2045-7e4e-984d-ab47916bf5b4.jpg",
+        "publishedAt": "2026-04-08T00:07:11Z",
+        "content": "Irans hashrate has plummeted over the past quarter amid an ongoing conflict with the US and Israel, though the war itself has not dragged down global hashrate, according to a new report from Hashrate… [+3372 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Crypto billionaire to prison: CZ’s autobiography revisits turbulent Binance era",
+        "description": "Changpeng Zhao’s memoir recounts Binance’s rapid rise, regulatory scrutiny and prison sentence, offering a first-person account of crypto’s most turbulent era.",
+        "url": "https://cointelegraph.com/news/crypto-billionaire-cz-autobiography",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d699c-4c5d-71a9-9449-5e7e1fc0be8f.jpg",
+        "publishedAt": "2026-04-08T00:00:00Z",
+        "content": "Changpeng CZ Zhao became a household name in the cryptocurrency sector after founding Binance, the worlds largest crypto exchange. Following a series of legal and regulatory challenges that culminate… [+3180 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,58 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d5d72-6895-79ba-b6b3-34bcf05e6e50.jpg",
         "publishedAt": "2026-04-05T11:54:02Z",
         "content": "Bitcoin (BTC) circled $67,000 on Sunday as traders warned of hidden BTC price weakness.\r\nKey points:\r\n<ul><li>Bitcoin Bollinger Bands demand a volatile BTC price breakout after a slow weekend.\r\n</li>… [+2822 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin On-Chain Data Hints At Macro Bottom Near $47,960 – Details",
-        "description": "The Bitcoin bear market is now six months in and showing no signs of letting up. During this time, a cycle low of $60,000 was established, preceding the present consolidation action being seen. However, bearish sentiments remain at heightened levels, especial…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-on-chain-data-hints-at-macro-bottom-near-47960-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/istockphoto-1319893586-612x612-1.jpg?fit=900%2C491",
-        "publishedAt": "2026-04-05T10:30:48Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Sentiment Hits 5-Week Fear Level – Is A Reversal Coming?",
-        "description": "Bitcoin is entering the new week under a cloud of doubt, with social sentiment tilting to fear just as price action continues to stall below $66,800. Data from Santiment shows a noticeable change in crowd behavior, hinting that the market’s mood may be reachi…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-sentiment-hits-5-week-fear-level-is-a-reversal-coming/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-05T08:30:47Z",
-        "content": "Bitcoin is entering the new week under a cloud of doubt, with social sentiment tilting to fear just as price action continues to stall below $66,800.\r\nData from Santiment shows a noticeable change in… [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin LTH SOPR Indicates Concerning Capitulation Levels — What Does This Mean For Price?",
-        "description": "Prominent market analyst with the pseudonym RugaResearch has drawn attention to recent developments with Bitcoin long-term holders (LTH) Spent Output Ratio (SOPR), indicating that these key participants are exiting their positions at a significant loss. Relat…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-lth-sopr-indicates-concerning-capitulation-levels-what-does-this-mean-for-price/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/istockphoto-1344135727-612x612-1.jpg",
-        "publishedAt": "2026-04-05T06:30:00Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin Stalls At $66,000 As Market Quietly Prepares For A Downside Draw",
-        "description": "Bitcoin is showing signs of hesitation at the $66,000 level, with price action slipping into a tight, choppy range. Momentum on the upside continues to fade, and each attempt to push higher is met with weaker follow-through. Beneath the surface, liquidity rem…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-stalls-at-66000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-67.jpg?fit=1280%2C720",
-        "publishedAt": "2026-04-05T01:30:50Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
       }
     ]
   }
