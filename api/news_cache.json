@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-09T19:17:25.003Z",
+  "timestamp": "2026-04-09T20:58:32.479Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Range Analysis: Leverage Delta Flipping Signals Instability",
+        "description": "The current consolidation of Bitcoin is showing signs of a deeper shift rather than a typical range-bound market. While price action appears relatively stable within a defined range, leverage behavior tells a very different story. Instead of a clear direction…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-leverage-delta-flips/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-27.jpg?fit=1280%2C853",
+        "publishedAt": "2026-04-08T20:00:42Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
