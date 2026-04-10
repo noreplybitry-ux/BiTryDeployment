@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T11:53:12.240Z",
+  "timestamp": "2026-04-10T13:24:21.044Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,32 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-96.jpg?fit=1280%2C960",
         "publishedAt": "2026-04-07T16:00:12Z",
         "content": "Crypto analyst Kabuki has explained why the Bitcoin rainbow chart shows that the price range is above $60,000. The analyst noted that BTC is mirroring past cycles and suggested that a base may be for… [+2491 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Americans’ losses to crypto scams rose to over $11 billion last year, FBI reports",
-        "description": "Victims faced rising losses per case as fraud schemes became more sophisticated and organized Authorities warn many operations are linked to transnational crime networks exploiting forced labor",
-        "url": "https://www.coindesk.com/business/2026/04/07/americans-losses-to-crypto-scams-rose-to-over-usd11-billion-last-year-fbi-reports",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/96c2e526f11153afc7f091c7065f050b14a058f7-4107x2310.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-07T15:06:32Z",
-        "content": "Americans reported $11.4 billion in losses tied to cryptocurrency scams last year, 22% more than in 2024, highlighting the growing scale of digital asset fraud, an FBI report revealed Tuesday.\r\nCrypt… [+1694 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "XRP ETFs Outpace Bitcoin as Crypto Funds Bounce Back After Down Week",
-        "description": "Bitcoin usually drives investment action around crypto ETFs, but last week, XRP led as overall crypto fund flows flipped positive.",
-        "url": "https://decrypt.co/363501/xrp-etfs-outpace-bitcoin-crypto-funds-bounce-back-down-week",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-04-07T14:56:18Z",
-        "content": "In brief\r\n<ul><li>Crypto investment products attracted $224 million in inflows last week, with XRP leading at $119.6 millionits largest weekly performance since mid-December.</li><li>Switzerland domi… [+2479 chars]"
       }
     ]
   }
