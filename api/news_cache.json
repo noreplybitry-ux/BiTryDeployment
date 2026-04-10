@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T03:21:16.212Z",
+  "timestamp": "2026-04-10T06:01:48.848Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Turns Lower, Downside Risk Builds Rapidly",
+        "description": "Dogecoin corrected some gains from the $0.0960 zone against the US Dollar. DOGE is now holding the $0.0900 support and remains at risk of more losses. DOGE price started a fresh downside correction below $0.0950. The price is trading below the $0.0930 level a…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-turns-lower-0-0925/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Turns-Lower.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-09T05:48:57Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Iran’s Crypto Mining Sector Hit Hard As Hashrate Drops Nearly 80%",
+        "description": "The US, Russia and China together control over 65% of global Bitcoin hashrate, a reminder that mining power remains heavily concentrated even as local shocks push smaller markets up and down. Related Reading: Bitcoin Mood Sours To Levels Not Seen Since Late F…",
+        "url": "http://www.newsbtc.com/news/bitcoin/irans-crypto-mining-sector-hit-hard-as-hashrate-drops-nearly-80/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_2c5654.jpg?fit=3840%2C2160",
+        "publishedAt": "2026-04-09T04:00:11Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,71 +433,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-04-07T14:56:18Z",
         "content": "In brief\r\n<ul><li>Crypto investment products attracted $224 million in inflows last week, with XRP leading at $119.6 millionits largest weekly performance since mid-December.</li><li>Switzerland domi… [+2479 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Bitcoin price risks '$15K shakeout' in the next 5 months, BTC analyst warns",
-        "description": "Multiple Bitcoin indicators, including a bull-bear sentiment index and a realized price metric, point to a possible final BTC shakeout toward $54,000",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-risks-dollar15k-shakeout-next-5-months-btc-analyst-warns",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d67cc-d3c8-7477-87fb-4f21087b1282.jpg",
-        "publishedAt": "2026-04-07T14:02:45Z",
-        "content": "Bitcoin (BTC) is showing signs of the bear markets late stages but could see another leg lower in the coming months, says Joao Wedson, founder and CEO of on-chain analytics platform Alphractal.\r\nKey … [+2734 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Crypto's $224 million inflow rebound was led by mostly one country and XRP",
-        "description": "Switzerland accounted for 70% of global crypto ETP inflows last week with XRP products contributing more than half the total.",
-        "url": "https://www.coindesk.com/markets/2026/04/07/crypto-s-usd224-million-inflow-rebound-was-led-by-mostly-one-country-and-xrp",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a76c7f177c8cbd64af93e464e7ab3c85812de274-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-07T13:52:27Z",
-        "content": "Global crypto exchange-traded products drew $224 million in inflows last week after a $414 million outflow the week before, according to CoinShares. \r\nThe headline number looks like a recovery but a … [+2858 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "$11.4B Lost to Crypto Scams in 2025: FBI Internet Crime Report",
-        "description": "Older Americans bore nearly 40% of all crypto fraud losses in 2025, as investment scams and crypto ATM fraud ran rampant.",
-        "url": "https://decrypt.co/363486/11-4b-lost-to-crypto-scams-in-2025-fbi-internet-crime-report",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-04-07T12:51:51Z",
-        "content": "In brief\r\n<ul><li>Crypto fraud losses hit $11.366 billion in 2025, a 22% increase from 2024's $9.3 billion.</li><li>Adults over 60 lost $4.4 billion, nearly 40% of all crypto fraud losses, and led al… [+5582 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Binance adds spot trading guardrails to limit abnormal executions",
-        "description": "Binance said it will roll out a spot trading rule on April 14, restricting executions outside a set range during periods of volatility and thin liquidity.",
-        "url": "https://cointelegraph.com/news/binance-adds-spot-trading-guardrails-to-limit-abnormal-executions",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6744-61c3-7312-9d8c-09138e76293f.jpg",
-        "publishedAt": "2026-04-07T11:52:21Z",
-        "content": "Update April 7, 2026, 12:27 pm UTC: This article has been updated to add comments from a Binance representative.\r\nCrypto exchange Binance is introducing a new spot trading feature that restricts orde… [+2685 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Bitcoin Whale Moves $20M to Binance Amid Broader Selling Pressure",
-        "description": "A Bitcoin whale transferred 300 BTC worth over $20 million to Binance Tuesday, potentially facing a $15 million loss.",
-        "url": "https://decrypt.co/363488/bitcoin-whale-moves-20m-to-binance-amid-broader-selling-pressure",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-whale-decrypt-style-03-gID_7.png",
-        "publishedAt": "2026-04-07T11:41:43Z",
-        "content": "In brief\r\n<ul><li>A Bitcoin whale moved 300 BTC worth more than $20 million to Binance Tuesday.</li><li>The transfer could represent a $15 million loss if sold at current prices, though alternative s… [+2185 chars]"
       }
     ]
   }
