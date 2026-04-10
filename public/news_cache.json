@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-04-09T23:41:52.273Z",
+  "timestamp": "2026-04-10T03:21:16.212Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Clings to $2,120, Can Bulls Drive Fresh Surge?",
+        "description": "Ethereum price extended gains above $2,265 before it started a downside correction. ETH is now correcting gains and might find bids near the $2,120 zone. Ethereum started a decent upward move above the $2,250 zone. The price is trading above $2,150 and the 10…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-clings-to-2120/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Closes-Sub-2000-Support.jpg?fit=1024%2C572",
+        "publishedAt": "2026-04-09T03:18:11Z",
+        "content": "Ethereum price extended gains above $2,265 before it started a downside correction. ETH is now correcting gains and might find bids near the $2,120 zone.\r\n<ul><li>Ethereum started a decent upward mov… [+2182 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Golden Cross Trend Enters Flow State: Why The Next 2-3 Weeks Are Important",
+        "description": "Bitcoin (BTC) could be preparing for another major bull rally as a Golden Cross has recently appeared on the cryptocurrency’s Inter-exchange Flow Pulse (IFP). A crypto analyst who explained the significance of this occurrence notes that the timeline of this G…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-golden-cross-trend/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-9.jpg?fit=1280%2C853",
+        "publishedAt": "2026-04-09T03:00:50Z",
+        "content": "Bitcoin (BTC) could be preparing for another major bull rally as aGolden Cross has recently appeared on the cryptocurrencys Inter-exchange Flow Pulse (IFP). A crypto analyst who explained the signifi… [+2750 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Trims Gains, But Uptrend Still Holds Strong",
+        "description": "Bitcoin price started a strong increase above the $70,500 zone. BTC is consolidating gains and might aim for more gains above the $71,650 zone. Bitcoin gained pace for a move above the $70,500 and $71,500 levels. The price is trading above $70,200 and the 100…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-trims-gains-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Trims-Gains-But-Uptrend-Still-Holds-Strong.jpg",
+        "publishedAt": "2026-04-09T02:38:15Z",
+        "content": "Bitcoin price started a strong increase above the $70,500 zone. BTC is consolidating gains and might aim for more gains above the $71,650 zone.\r\n<ul><li>Bitcoin gained pace for a move above the $70,5… [+2227 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "When Will The Bitcoin Bull Run Start? Analyst Reveals The Markers That Will Show The Way",
+        "description": "A crypto analyst known as CrypFlow has outlined what he believes will certify the true start of the next Bitcoin bull run. According to the analyst, the flip into a bullish run does not begin at the bottom but only after key technical confirmations appear on …",
+        "url": "http://www.newsbtc.com/news/bitcoin/when-the-bitcoin-bull-run-start/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pngtree-24.jpg?fit=622%2C403",
+        "publishedAt": "2026-04-09T00:00:49Z",
+        "content": "A crypto analyst known as CrypFlow has outlined what he believes will certify the true start of the next Bitcoin bull run. According to the analyst, the flip into a bullish run does not begin at the … [+2807 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,71 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-whale-decrypt-style-03-gID_7.png",
         "publishedAt": "2026-04-07T11:41:43Z",
         "content": "In brief\r\n<ul><li>A Bitcoin whale moved 300 BTC worth more than $20 million to Binance Tuesday.</li><li>The transfer could represent a $15 million loss if sold at current prices, though alternative s… [+2185 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Crypto investment inflows rebound as XRP tops weekly gains of $224M",
-        "description": "Crypto ETPs drew $224 million in inflows last week as XRP led gains, while US ETFs lagged and Ether posted outflows amid mixed macro data and policy expectations.",
-        "url": "https://cointelegraph.com/news/crypto-etp-week-224-million-inflow-xrp-leads-gains",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cae57-80f1-7bec-b432-53c56cb196ff.jpg",
-        "publishedAt": "2026-04-07T11:30:54Z",
-        "content": "Cryptocurrency investment products recorded minor inflows last week despite mixed geopolitical signals and increasingly hawkish investor expectations.\r\nGlobal crypto exchange-traded products (ETPs) c… [+2205 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Ascending Channel Puts Price At $5,700, Analyst Reveals When To Sell",
-        "description": "Over time, the Ethereum price has been trending sideways with no definitive move in either direction. This trend has led to the formation of an ascending channel that could change the course of things for the second-largest cryptocurrency by market cap. If th…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-ascending-channel-sell/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/ChatGPT-Image-Feb-25-2026-11_06_40-AM.png?fit=1111%2C740",
-        "publishedAt": "2026-04-07T11:30:06Z",
-        "content": "Over time, the Ethereum price has been trending sideways with no definitive move in either direction. This trend has led to the formation of an ascending channel that could change the course of thing… [+2545 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Oliver Knight, Saksham Diwan",
-        "title": "Bitcoin price-drop speculation spurred by familiar price pattern",
-        "description": "BTC and ETH remain stuck in a two-month range as oil prices and Iran tensions weigh on sentiment, while AI and privacy tokens show surprising relative strength.",
-        "url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-price-drop-speculation-spurred-by-familiar-price-pattern",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2e3e9177b330cececd835b6feb3843b5d3c5a22f-2086x1112.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-07T10:53:02Z",
-        "content": "The crypto market is trading sluggishly within the range it has held for two months, with bitcoin BTC\r\n$68,298.71 changing hands at $69,000 and ether (ETH) at $2,130.\r\nThe range-bound pricing dates b… [+2874 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETF inflows hit $471M, highest since late February",
-        "description": "US spot Bitcoin ETFs posted $471 million in inflows, the largest since late February, with IBIT leading and Ether ETFs joining the recovery.",
-        "url": "https://cointelegraph.com/news/bitcoin-etf-inflows-471-million-highest-since-february",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019b92cc-d609-7af6-b3a8-9b3f85736edf.jpg",
-        "publishedAt": "2026-04-07T08:55:03Z",
-        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) have renewed the pace of inflows, recording their largest daily flows in weeks.\r\nSpot Bitcoin (BTC) ETFs posted $471 million in inflows on Monday, … [+2025 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Under Threat, Downside Thrust Could Trigger Selloff",
-        "description": "Dogecoin started a fresh decline below the $0.0920 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.0920 and $0.0925. DOGE price started a fresh decline below the $0.0912 level. The price is trading below the $0.0905…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-under-threat-0-090/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Under-Threat-Downside-Thrust-Could-Trigger-Selloff.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-07T05:08:27Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
