@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T22:44:02.807Z",
+  "timestamp": "2026-04-10T23:42:04.337Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "This Bitcoin Metric Has Predicted Every Cycle Bottom, But What Is It Saying Now?",
+        "description": "Bitcoin is back above $70,000 after a bruising first quarter, but there are still questions as to whether the asset has already established its cycle low or is still moving through a bottoming phase. A technical indicator following one interesting Bitcoin met…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-every-cycle-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-15.jpg?fit=1280%2C848",
+        "publishedAt": "2026-04-09T23:00:57Z",
+        "content": "Bitcoin is back above $70,000 after a bruising first quarter, but there are still questions as to whether the asset has already established its cycle low or is still moving through a bottoming phase.… [+2529 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/08/Screenshot_1194.jpg?fit=1250%2C707",
         "publishedAt": "2026-04-08T07:00:09Z",
         "content": "Ethereum (ETH) slid on Tuesday, trading just above $2,080 as the wider crypto market weakened a level well shy of a critical threshold identified by expert Ali Martinez as the trigger for a sustained… [+2866 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Eyes $88 Break, Will Bulls Finally Push Higher?",
-        "description": "Solana started a fresh increase above the $82 zone. SOL price is now consolidating near $85 and might aim for more gains above the $88 zone. SOL price started a fresh upward move above the $82 and $85 levels against the US Dollar. The price is now trading abo…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-eyes-88-break/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Eyes-88-Break.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-08T05:08:18Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
