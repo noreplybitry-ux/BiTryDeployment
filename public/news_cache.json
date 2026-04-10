@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T20:46:52.158Z",
+  "timestamp": "2026-04-10T21:46:24.203Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin rally extends toward $73K despite concerning US economic data",
+        "description": "Bitcoin continues to show strength even as US recession risks rise and the fragile ceasefire with Iran begins to show cracks.",
+        "url": "https://cointelegraph.com/markets/bitcoin-rally-extends-toward-73k-despite-concerning-us-economic-data",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d741a-a8af-71ae-ab57-d756d6063876.jpg",
+        "publishedAt": "2026-04-09T21:21:11Z",
+        "content": "Key takeaways:\r\n<ul><li>Bitcoin climbed to $72,000 as rising recession odds and a weak US dollar boosted the appeal of scarce financial assets.\r\n</li><li>Rising oil prices and a wobbly truce with Ira… [+3914 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, AI Boost",
+        "title": "These 3 crypto stocks could actually beat bitcoin ETFs, says TD Cowen",
+        "description": "Analyst Lance Vitanza is betting that digital asset treasury\"companies like Nakamoto, SharpLink and Strive can outperform standard crypto ETFs by aggressively stacking coins and capturing staking yields.",
+        "url": "https://www.coindesk.com/markets/2026/04/09/td-cowen-says-these-3-crypto-stocks-could-actually-beat-bitcoin-etfs",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/dfa2063dc4f9e727f19bc5e645672019bdc025de-4296x2864.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-09T20:48:49Z",
+        "content": "After declines of 90% or more in digital asset treasury companies Nakamoto (NAKA), Sharplink Gaming (SBET) and Strive (ASST), TD Cowen's Lance Vitanza is spotting value.\r\nHe argued that each could ou… [+2527 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Eyes-88-Break.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-08T05:08:18Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "South Korea Imposes 5-Minute Audit Rule On Crypto Platforms",
-        "description": "Bithumb has pushed its stock market listing past 2028, citing the need to overhaul its accounting systems and internal controls after a high-profile crypto payout error drew scrutiny from South Korean regulators. Related Reading: XRP Headed For A Price Shock,…",
-        "url": "http://www.newsbtc.com/news/south-korea-imposes-5-minute-audit-rule-on-crypto-platforms/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_626527.jpg?fit=1280%2C961",
-        "publishedAt": "2026-04-08T04:00:11Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Surges Over 5%, Bulls Ignite Strong Upside Momentum",
-        "description": "Ethereum price extended gains above $2,250 before it faced sellers. ETH is now correcting gains and might find bids near the $2,165 zone. Ethereum started a decent upward move above the $2,220 zone. The price is trading above $2,200 and the 100-hourly Simple …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-surges-over-2200/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Surges-Over-5-Bulls-Ignite-Strong-Upside-Momentum.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-08T03:18:35Z",
-        "content": "Ethereum price extended gains above $2,250 before it faced sellers. ETH is now correcting gains and might find bids near the $2,165 zone.\r\n<ul><li>Ethereum started a decent upward move above the $2,2… [+2165 chars]"
       }
     ]
   }
