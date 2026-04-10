@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T19:03:03.782Z",
+  "timestamp": "2026-04-10T20:46:52.158Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin ETF Era Expands As Morgan Stanley Debuts On NYSE",
+        "description": "Wall Street’s financial advisory machine now has a direct line to Bitcoin. Morgan Stanley Investment Management launched its spot Bitcoin exchange-traded fund on NYSE Arca on Tuesday, backed by a network of roughly 16,000 financial advisors who can steer clie…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-etf-era-expands-as-morgan-stanley-debuts-on-nyse/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_6b8ae6.jpg?fit=6763%2C4509",
+        "publishedAt": "2026-04-09T20:00:23Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Surges-Over-5-Bulls-Ignite-Strong-Upside-Momentum.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-08T03:18:35Z",
         "content": "Ethereum price extended gains above $2,250 before it faced sellers. ETH is now correcting gains and might find bids near the $2,165 zone.\r\n<ul><li>Ethereum started a decent upward move above the $2,2… [+2165 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Rubmar Garcia",
-        "title": "XRP Leads Crypto Funds $224M Rebound With Largest Weekly Inflows Since December",
-        "description": "Global crypto investment products bounced from the late-March sentiment downturn, with XRP funds and European investors stealing the spotlight from Bitcoin and US markets. Related Reading: Bitcoin Next Big Move In Mid-April? Analyst Explains Why ‘Decision Tim…",
-        "url": "http://www.newsbtc.com/news/xrp-leads-crypto-funds-224m-rebound-inflows/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/steven-lelham-atSaEOeE8Nk-unsplash.jpg?fit=1920%2C1013",
-        "publishedAt": "2026-04-08T03:00:08Z",
-        "content": "Global crypto investment products bounced from the late-March sentiment downturn, with XRP funds and European investors stealing the spotlight from Bitcoin and US markets.\r\nAccording to the latest Co… [+3374 chars]"
       }
     ]
   }
