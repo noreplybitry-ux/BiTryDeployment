@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T16:00:04.755Z",
+  "timestamp": "2026-04-10T17:02:23.487Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bloomberg Analyst Predicts This ‘Underdog’ Will Flip Bitcoin And Ethereum",
+        "description": "Bitcoin and Ethereum’s dominance is being directly challenged in a new outlook from Bloomberg Intelligence strategist Mike McGlone, who believes that an unexpected contender is positioning itself to overtake both. Tether USDT’s market cap is steadily closing …",
+        "url": "http://www.newsbtc.com/news/bitcoin/underdog-flip-bitcoin-ethereum/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Triumphant-dog-with-Bitcoin-and-Ethereum-Small.jpeg?fit=320%2C213",
+        "publishedAt": "2026-04-09T17:00:49Z",
+        "content": "Bitcoin and Ethereums dominance is being directly challenged in a new outlook from Bloomberg Intelligence strategist Mike McGlone, who believes that an unexpected contender is positioning itself to o… [+2872 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Binance rolls out prediction markets for app using Predict.fun",
+        "description": "The crypto exchange is mounting a challenge to platforms like Kalshi and Polymarket, offering ”gasless” trades as it seeks a share of the $20 billion prediction market.",
+        "url": "https://cointelegraph.com/news/binance-prediction-markets-app",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d72a2-5ebf-7895-9bc0-fb2958891ef9.jpg",
+        "publishedAt": "2026-04-09T16:34:33Z",
+        "content": "Binance Wallet has integrated prediction market features into its app, saying it will cover all trading and settlement transaction fees for users as it make a play for a piece of the $20 billion mark… [+2169 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d662a-2045-7e4e-984d-ab47916bf5b4.jpg",
         "publishedAt": "2026-04-08T00:07:11Z",
         "content": "Irans hashrate has plummeted over the past quarter amid an ongoing conflict with the US and Israel, though the war itself has not dragged down global hashrate, according to a new report from Hashrate… [+3372 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Crypto billionaire to prison: CZ’s autobiography revisits turbulent Binance era",
-        "description": "Changpeng Zhao’s memoir recounts Binance’s rapid rise, regulatory scrutiny and prison sentence, offering a first-person account of crypto’s most turbulent era.",
-        "url": "https://cointelegraph.com/news/crypto-billionaire-cz-autobiography",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d699c-4c5d-71a9-9449-5e7e1fc0be8f.jpg",
-        "publishedAt": "2026-04-08T00:00:00Z",
-        "content": "Changpeng CZ Zhao became a household name in the cryptocurrency sector after founding Binance, the worlds largest crypto exchange. Following a series of legal and regulatory challenges that culminate… [+3180 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Can An Altcoin Season Come Again? Why Bitcoin Price Can’t Fall Below $40,000",
-        "description": "Bitcoin has been holding above $65,000 for over a month now, and this price level is starting to carry more weight than it seems on the surface. The current structure is no longer just about short-term volatility, but a question about whether the market is bu…",
-        "url": "http://www.newsbtc.com/news/bitcoin/altcoin-season-come-again/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Altcoin-from-Adobe-Stock.jpg?fit=639%2C360",
-        "publishedAt": "2026-04-07T22:00:13Z",
-        "content": "Bitcoin has been holding above $65,000 for over a month now, and this price level is starting to carry more weight than it seems on the surface. The current structure is no longer just about short-te… [+2656 chars]"
       }
     ]
   }
