@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T08:23:37.603Z",
+  "timestamp": "2026-04-10T10:12:10.064Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Higher Before Lower: How Bitcoin Price Will Get To $240,000",
+        "description": "The current downtrend has put the Bitcoin price in an increasingly difficult position as bears push back on every recovery. Even now, the price continues to struggle to maintain an uptrend, but it has not deterred bulls from predicting higher prices. The gene…",
+        "url": "http://www.newsbtc.com/news/bitcoin/higher-before-lower-bitcoin/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-20.jpg?fit=612%2C374",
+        "publishedAt": "2026-04-09T08:30:10Z",
+        "content": "The current downtrend has put the Bitcoin price in an increasingly difficult position as bears push back on every recovery. Even now, the price continues to struggle to maintain an uptrend, but it ha… [+2194 chars]"
+      },
       {
         "source": {
           "id": null,
