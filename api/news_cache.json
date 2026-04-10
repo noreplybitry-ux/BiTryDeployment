@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T17:02:23.487Z",
+  "timestamp": "2026-04-10T19:03:03.782Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Old Bitcoin whales sold $271M in BTC: Is the crypto rally at stake?",
+        "description": "Dormant Bitcoin whales sold $271 million in BTC last week, but steady accumulation from other buyer cohorts shows the selling was absorbed. Are the bulls back in control?",
+        "url": "https://cointelegraph.com/markets/old-bitcoin-whales-sold-dollar271m-in-btc-is-the-crypto-rally-at-stake",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d729c-2df2-741f-99fd-0526e657de4e.jpg",
+        "publishedAt": "2026-04-09T18:41:24Z",
+        "content": "Data shows Bitcoin (BTC) investors who had held their positions for over seven years took profit last week by selling $271 million in BTC.\r\nA similar wave of OG whale selling in January coincided wit… [+3293 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Potential buyers are circling Winklevoss-backed crypto exchange Gemini",
+        "description": "Interested parties are considering buying select parts of the business, particularly its shuttered European operations, to secure regulatory licenses, rather than pursuing a full takeover.",
+        "url": "https://www.coindesk.com/business/2026/04/02/potential-buyers-are-circling-winklevoss-backed-crypto-exchange-gemini",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/401344804817aea2ba50a41ccdb2399c8dd863f2-1920x1080.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-09T17:05:40Z",
+        "content": "Potential buyers are evaluating an acquisition of parts of Gemini Space Station (GEMI), the crypto exchange backed by the billionaire Winklevoss twins, according to a person with direct knowledge of … [+3903 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/steven-lelham-atSaEOeE8Nk-unsplash.jpg?fit=1920%2C1013",
         "publishedAt": "2026-04-08T03:00:08Z",
         "content": "Global crypto investment products bounced from the late-March sentiment downturn, with XRP funds and European investors stealing the spotlight from Bitcoin and US markets.\r\nAccording to the latest Co… [+3374 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Jumps Amid Peace Talks, Risk Appetite Ignites Rally",
-        "description": "Bitcoin price started a strong increase above the $70,000 zone. BTC is consolidating gains and might aim for more gains above the $71,500 zone. Bitcoin gained pace for a move above the $69,500 and $70,500 levels. The price is trading above $70,000 and the 100…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-jumps-72k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Jumps-Amid-Peace-Talks-Risk-Appetite-Ignites-Rally.jpg",
-        "publishedAt": "2026-04-08T02:36:21Z",
-        "content": "Bitcoin price started a strong increase above the $70,000 zone. BTC is consolidating gains and might aim for more gains above the $71,500 zone.\r\n<ul><li>Bitcoin gained pace for a move above the $69,5… [+2193 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Iran’s Bitcoin hashrate falls 77% over the past quarter amid conflict",
-        "description": "The 30-day simple moving average of the global network hashrate has also declined, though an analyst says the slump is due to Bitcoin prices hurting mining profitability rather than conflict.",
-        "url": "https://cointelegraph.com/news/iran-bitcoin-hashrate-drop-results-mining-redistribution",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d662a-2045-7e4e-984d-ab47916bf5b4.jpg",
-        "publishedAt": "2026-04-08T00:07:11Z",
-        "content": "Irans hashrate has plummeted over the past quarter amid an ongoing conflict with the US and Israel, though the war itself has not dragged down global hashrate, according to a new report from Hashrate… [+3372 chars]"
       }
     ]
   }
