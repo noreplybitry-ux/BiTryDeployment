@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T10:41:36.758Z",
+  "timestamp": "2026-04-11T11:36:32.006Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Institutions' bitcoin positioning lacks conviction; CPI, Iran talks might help",
+        "description": "Institutions are betting on the bitcoin price hitting $80,000 through call options, but they are also buying downside protection.",
+        "url": "https://www.coindesk.com/daybook-us/2026/04/10/institutions-bitcoin-positioning-lacks-conviction-cpi-iran-talks-might-help",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/177293196d1f1a2e6bdf7bb9984e72e3943ef8a6-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-10T11:29:59Z",
+        "content": "Bitcoin's BTC\r\n$72,138.28 price may have rallied almost 7% since Sunday, but conviction remains weak, with the recovery stalling near $72,000 ahead of key binary risks, including Fridays U.S. inflati… [+3468 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Japan approves bill to classify crypto as financial assets",
+        "description": "Cryptocurrencies now fall under Japan’s securities-style financial laws. Insider trading rules and stricter disclosures will apply. Lower taxes may boost investor and institutional participation. Japan has taken a major step in reshaping how it treats cryptoc…",
+        "url": "https://coinjournal.net/news/japan-approves-bill-to-recognise-cryptocurrencies-as-financial-assets/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/Tokyo-skyline-at-sunset-with-Bitcoin.png",
+        "publishedAt": "2026-04-10T10:46:49Z",
+        "content": "<ul><li>Cryptocurrencies now fall under Japan’s securities-style financial laws.</li><li>Insider trading rules and stricter disclosures will apply.</li><li>Lower taxes may boost investor and institut… [+4604 chars]"
+      },
       {
         "source": {
           "id": null,
