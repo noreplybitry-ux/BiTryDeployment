@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T02:46:21.261Z",
+  "timestamp": "2026-04-11T05:00:43.271Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Holds Bullish Bias, Upside Continuation in Focus",
+        "description": "Ethereum price extended gains above $2,250 before it started a downside correction. ETH is now consolidating above $2,120 and might aim for a fresh increase. Ethereum started a decent upward move above the $2,220 zone. The price is trading above $2,180 and th…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-holds-bullish-2125/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Holds-Bullish-Bias-Upside-Continuation-in-Focus.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-10T03:18:52Z",
+        "content": "Ethereum price extended gains above $2,250 before it started a downside correction. ETH is now consolidating above $2,120 and might aim for a fresh increase.\r\n<ul><li>Ethereum started a decent upward… [+2186 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6c91-ad8a-777a-8b7d-addee3cd272c.jpg",
         "publishedAt": "2026-04-08T11:26:28Z",
         "content": "Thailands securities regulator is seeking to curb money laundering and technology-related crimes by tightening funding rules for cryptocurrency companies.\r\nThe Securities and Exchange Commission of T… [+2443 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Just Deviated From The Bearish Trend That Began In January And $86,000 Could Be Next",
-        "description": "Bitcoin has been in a bearish trend that spilled over from 2025 into the year 2026. This has persisted from January, and throughout the first quarter of the year, the Bitcoin price has continued to decline as a result. This trend, however, seems to be nearing…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-just-deviated-bearish/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-31-2026-01_24_53-PM.png?fit=1222%2C814",
-        "publishedAt": "2026-04-08T10:30:03Z",
-        "content": "Bitcoin has been in a bearish trend that spilled over from 2025 into the year 2026. This has persisted from January, and throughout the first quarter of the year, the Bitcoin price has continued to d… [+2392 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Solana price forecast: is $150 next amid US-Iran ceasefire?",
-        "description": "Solana price has gained in the past 24 hours as Bitcoin retests $72,000. The SOL token could rally to $150 amid the US-Iran ceasefire. However, continued weakness could allow bears to target $70 or lower. ​Solana’s latest rebound has revived bullish speculati…",
-        "url": "https://coinjournal.net/news/solana-price-forecast-is-150-next-amid-us-iran-ceasefire/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/trader-checks-crypto-price-chart-on-mobile.png",
-        "publishedAt": "2026-04-08T10:03:51Z",
-        "content": "<ul><li>Solana price has gained in the past 24 hours as Bitcoin retests $72,000.</li><li>The SOL token could rally to $150 amid the US-Iran ceasefire.</li><li>However, continued weakness could allow … [+2677 chars]"
       }
     ]
   }
