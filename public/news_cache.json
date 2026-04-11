@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T05:00:43.271Z",
+  "timestamp": "2026-04-11T07:08:17.271Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Martin Young",
+        "title": "Japan approves bill to classify crypto as financial instruments",
+        "description": "The Japanese Cabinet reclassified crypto as a financial instrument and will enforce insider trading bans and annual disclosure mandates for issuers.",
+        "url": "https://cointelegraph.com/news/japan-approves-bill-classify-cryptocurrencies-financial-instruments",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7604-9467-796e-9fb0-03c03fc43b3e.jpg",
+        "publishedAt": "2026-04-10T06:13:12Z",
+        "content": "The Japanese government amended the Financial Instruments and Exchange Act on Friday to classify crypto assets as financial instruments.\r\nThe amendment also bans insider trading and other activities … [+2041 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Maintains Strength, Gradual Gains Signal Bullish Bias",
+        "description": "Solana failed to stay above $85 and corrected some gains. SOL price is now consolidating and might aim for another increase above $85. SOL price started a downside correction below $84 against the US Dollar. The price is now trading above $82 and the 100-hour…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-maintains-strength-82-5/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Maintains-Strength.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-10T05:08:02Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6c5e-8c3e-798d-b266-27c0a34b9141.jpg",
         "publishedAt": "2026-04-08T12:37:42Z",
         "content": "South Koreas financial regulator said it will tighten the exception rules under crypto exchanges withdrawal-delay system after finding that scam-linked accounts granted exemptions accounted for most … [+2538 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Thailand proposes tighter scrutiny of funders behind crypto firms",
-        "description": "Thailand’s SEC has proposed new rules to extend approval requirements to financiers behind major crypto shareholders to improve oversight and reduce money laundering risks.",
-        "url": "https://cointelegraph.com/news/thailand-sec-tighter-rules-crypto-funding",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6c91-ad8a-777a-8b7d-addee3cd272c.jpg",
-        "publishedAt": "2026-04-08T11:26:28Z",
-        "content": "Thailands securities regulator is seeking to curb money laundering and technology-related crimes by tightening funding rules for cryptocurrency companies.\r\nThe Securities and Exchange Commission of T… [+2443 chars]"
       }
     ]
   }
