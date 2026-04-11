@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T15:39:26.893Z",
+  "timestamp": "2026-04-11T16:45:03.168Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "A Bitcoin Cautionary Tale: How This Popular Trader Went From $100 Million To Less Than $1,000",
+        "description": "Attention has again been drawn to the popular trader James Wynn, who went from a high of almost $100 million in profits to less than $1000 in his Hyperliquid account at the moment. The trader continues to trade Bitcoin and was recently liquidated as the marke…",
+        "url": "http://www.newsbtc.com/news/a-bitcoin-cautionary-tale/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-52.jpg?fit=612%2C408",
+        "publishedAt": "2026-04-10T16:00:43Z",
+        "content": "Attention has again been drawn to the popular trader James Wynn, who went from a high of almost $100 million in profits to less than $1000 in his Hyperliquid account at the moment. The trader continu… [+2563 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pngtree-24.jpg?fit=622%2C403",
         "publishedAt": "2026-04-09T00:00:49Z",
         "content": "A crypto analyst known as CrypFlow has outlined what he believes will certify the true start of the next Bitcoin bull run. According to the analyst, the flip into a bullish run does not begin at the … [+2807 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin Range Analysis: Leverage Delta Flipping Signals Instability",
-        "description": "The current consolidation of Bitcoin is showing signs of a deeper shift rather than a typical range-bound market. While price action appears relatively stable within a defined range, leverage behavior tells a very different story. Instead of a clear direction…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-leverage-delta-flips/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-27.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-08T20:00:42Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/8: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "description": "Bitcoin and altcoins continue to find new buyers near their range lows, and technical charts suggest that selling at the intraday highs is beginning to taper off. Are the bulls back in control?",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-8-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6dfa-5dce-7202-8d63-70cd3ba61b87.jpg",
-        "publishedAt": "2026-04-08T19:00:00Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin is showing signs of bottoming out, but some analysts believe a final shakeout below $60,000 is still possible over the next few months.\r\n</li><li>Several major altcoins a… [+8514 chars]"
       }
     ]
   }
