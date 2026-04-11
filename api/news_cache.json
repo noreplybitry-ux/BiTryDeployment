@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T17:37:50.637Z",
+  "timestamp": "2026-04-11T18:55:14.522Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/10: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
+        "description": "Bitcoin bulls spent the week stampeding toward a critical overhead resistance level, which, if breached, could restart the bull market in BTC and altcoins.",
+        "url": "https://cointelegraph.com/markets/price-predictions-4-10-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7837-53a6-7988-8a3f-ebe67a32d769.jpg",
+        "publishedAt": "2026-04-10T17:50:52Z",
+        "content": "Key points:\r\n<ul><li>Buyers are attempting to push Bitcoin toward the $76,000 level but are facing significant selling from the bears.\r\n</li><li>Several major altcoins are likely to pick up momentum … [+8918 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Trims-Gains-But-Uptrend-Still-Holds-Strong.jpg",
         "publishedAt": "2026-04-09T02:38:15Z",
         "content": "Bitcoin price started a strong increase above the $70,500 zone. BTC is consolidating gains and might aim for more gains above the $71,650 zone.\r\n<ul><li>Bitcoin gained pace for a move above the $70,5… [+2227 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "When Will The Bitcoin Bull Run Start? Analyst Reveals The Markers That Will Show The Way",
-        "description": "A crypto analyst known as CrypFlow has outlined what he believes will certify the true start of the next Bitcoin bull run. According to the analyst, the flip into a bullish run does not begin at the bottom but only after key technical confirmations appear on …",
-        "url": "http://www.newsbtc.com/news/bitcoin/when-the-bitcoin-bull-run-start/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pngtree-24.jpg?fit=622%2C403",
-        "publishedAt": "2026-04-09T00:00:49Z",
-        "content": "A crypto analyst known as CrypFlow has outlined what he believes will certify the true start of the next Bitcoin bull run. According to the analyst, the flip into a bullish run does not begin at the … [+2807 chars]"
       }
     ]
   }
