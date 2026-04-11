@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T11:36:32.006Z",
+  "timestamp": "2026-04-11T13:11:57.703Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Why A Bitcoin Price Breakdown To $50,000 Could Be Important For Long-Term Bullishness",
+        "description": "A crypto analyst has shared two interesting scenarios she believes that the Bitcoin price could follow, depending on the direction of its next moves. According to the analyst, a price breakdown to new lows near $50,000 could be bullish for BTC, suggesting the…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-breakdown-50000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/08/Bitcoin-crash-4.jpeg?fit=1792%2C1024",
+        "publishedAt": "2026-04-10T13:00:02Z",
+        "content": "A crypto analyst has shared two interesting scenarios she believes that the Bitcoin price could follow, depending on the direction of its next moves. According to the analyst,a price breakdown to new… [+2721 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Binance offers UAE staff temporary relocation as Middle East conflict disrupts region",
+        "description": "A spokesperson for the world's largest crypto exchange said Binance continues to operate seamlessly and serve its users without interruption.",
+        "url": "https://www.coindesk.com/business/2026/04/10/binance-offers-uae-staff-temporary-relocation-as-middle-east-conflict-disrupts-region",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1ee17e1310c5c6829bf97b25a87741f3300a9b59-3200x2133.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-10T12:48:41Z",
+        "content": "Binance offered its staff in the United Arab Emirates the option to temporarily relocate to Hong Kong, Tokyo, Kuala Lumpur and Bangkok amid regional tensions, the company told CoinDesk Friday.\r\nGiven… [+2023 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +446,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3df2450bd86ac04a6913743726db7297c9ac4482-5994x3372.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-08T15:50:35Z",
         "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Bob Williams on how stricter crypto regulations in Asia are putting more personal responsibility on senior leader… [+11334 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Standard Chartered is looking to take over crypto custody provider Zodia: Bloomberg",
-        "description": "While the British financial institution refused to comment on potential takeover plans, sources close to the matter revealed that plans are in place and could be announced as soon as this month.",
-        "url": "https://www.coindesk.com/business/2026/04/08/standard-chartered-is-looking-to-take-over-crypto-custody-provider-zodia-bloomberg",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/22cc5bf76c4ce39c3877a108b37d147f91546421-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-08T14:56:21Z",
-        "content": "Standard Chartered PLC is reportedly seeking to fully acquire Zodia Custody Ltd. to merge it with one of its digital asset divisions, sources close to the matter told Bloomberg on Wednesday.\r\nThe 're… [+2209 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin recovers as US and Iran Agree a Ceasefire Deal",
-        "description": "Key takeaways BTC is up 4% and is now trading above $71k. The rally could push Bitcoin’s price above $76k for the first time since March 16. Bitcoin and crypto market surge following U.S.-Iran ceasefire announcement Bitcoin (BTC), Ethereum (ETH), and the broa…",
-        "url": "https://coinjournal.net/news/bitcoin-recovers-as-us-and-iran-agree-a-ceasefire-deal/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/ChatGPT-Image-Apr-8-2026-02_56_36-PM.png",
-        "publishedAt": "2026-04-08T14:01:33Z",
-        "content": "Key takeaways\r\n<ul><li>BTC is up 4% and is now trading above $71k.</li><li>The rally could push Bitcoin’s price above $76k for the first time since March 16.</li></ul>Bitcoin and crypto market surge … [+2151 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Bitcoin Surged Overnight After Iran Ceasefire—This New 'AfterDark' ETF Would've Caught the Move",
-        "description": "Investors gained access to an ETF that’s designed to avoid the U.S. trading session, offering exposure to Bitcoin while Wall Street sleeps.",
-        "url": "https://decrypt.co/363636/bitcoin-surged-overnight-iran-ceasefire-afterdark-etf-wouldve-caught-move",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-moon-price-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-04-08T13:57:38Z",
-        "content": "In brief\r\n<ul><li>A fund debuted on the New York Stock Exchange that maintains exposure to Bitcoin only when the exchange is closed.</li><li>The funds debut follows consternation last year that Bitco… [+3334 chars]"
       }
     ]
   }
