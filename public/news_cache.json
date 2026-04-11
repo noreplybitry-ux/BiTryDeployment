@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-04-10T23:42:04.337Z",
+  "timestamp": "2026-04-11T02:46:21.261Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Sam Reynolds, AI Boost",
+        "title": "OKX and HashKey invest in new Vietnam exchange ahead of crypto licensing push",
+        "description": "The partnership will help the exchange meet Vietnam's $380 million capital requirement to enter a government pilot program aimed at licensing local platforms and curbing offshore trading.",
+        "url": "https://www.coindesk.com/markets/2026/04/10/okx-hashkey-back-usd380-million-vietnam-crypto-push-as-new-rules-near-rollout",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e6efdc3c14cfbc04d11ff5c1f248f2b87afdc852-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-10T02:35:25Z",
+        "content": "OKX Ventures and HashKey Capital are backing a new Vietnam-based crypto exchange as Hanoi accelerates efforts to bring one of the world's most active retail crypto markets under formal regulation.\r\nV… [+2155 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Turns Higher, Can It Print New Monthly Highs?",
+        "description": "Bitcoin price started a strong increase above the $71,500 zone. BTC is consolidating gains and might aim for more gains above the $73,250 zone. Bitcoin gained pace for a move above the $71,500 and $72,000 levels. The price is trading above $71,500 and the 100…",
+        "url": "http://www.newsbtc.com/analysis/eth/bitcoin-price-turns-higher-72k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Turns-Higher.jpg",
+        "publishedAt": "2026-04-10T02:30:30Z",
+        "content": "Bitcoin price started a strong increase above the $71,500 zone. BTC is consolidating gains and might aim for more gains above the $73,250 zone.\r\n<ul><li>Bitcoin gained pace for a move above the $71,5… [+2239 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "'Operation Atlantic': US and UK Team With Firms to Trace, Freeze Millions in Stolen Crypto",
+        "description": "Crypto firms like Coinbase and Kraken teamed up with government agencies to trace and freeze millions in funds tied to crypto scams and fraud.",
+        "url": "https://decrypt.co/363878/operation-atlantic-us-uk-agencies-trace-freeze-millions-stolen-crypto",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
+        "publishedAt": "2026-04-10T00:01:18Z",
+        "content": "In brief\r\n<ul><li>Crypto firms and government agencies teamed up in \"Operation Atlantic,\" designed to stop crypto fraud schemes and approval phishing campaigns. </li><li>The sprint led to $12 million… [+3054 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Ethereum’s $2.1B Leverage Flush Was Not a Breakdown Signal: Here Is What It Actually Was",
+        "description": "Ethereum is trading above $2,200. The recovery is real. And a CryptoQuant report has identified the structural event that made it possible — one that most participants were reading as a danger signal at the time it occurred. Related Reading: Aave Breakdown De…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereums-2-1b-leverage-flush-was-not-a-breakdown-signal-here-is-what-it-actually-was/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Untitled-design-55.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-04-10T00:00:45Z",
+        "content": "Ethereum is trading above $2,200. The recovery is real. And a CryptoQuant report has identified the structural event that made it possible one that most participants were reading as a danger signal a… [+4080 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +446,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/trader-checks-crypto-price-chart-on-mobile.png",
         "publishedAt": "2026-04-08T10:03:51Z",
         "content": "<ul><li>Solana price has gained in the past 24 hours as Bitcoin retests $72,000.</li><li>The SOL token could rally to $150 amid the US-Iran ceasefire.</li><li>However, continued weakness could allow … [+2677 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Ethereum (ETH) Outlook: $2,500 Break Could Trigger Major Rally — Expert’s Price Scenarios",
-        "description": "Ethereum (ETH) slid on Tuesday, trading just above $2,080 as the wider crypto market weakened — a level well shy of a critical threshold identified by expert Ali Martinez as the trigger for a sustained macro bull run.  In a breakdown shared on social media pl…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-eth-outlook-2500-break-could-trigger-major-rally-experts-price-scenarios/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/08/Screenshot_1194.jpg?fit=1250%2C707",
-        "publishedAt": "2026-04-08T07:00:09Z",
-        "content": "Ethereum (ETH) slid on Tuesday, trading just above $2,080 as the wider crypto market weakened a level well shy of a critical threshold identified by expert Ali Martinez as the trigger for a sustained… [+2866 chars]"
       }
     ]
   }
