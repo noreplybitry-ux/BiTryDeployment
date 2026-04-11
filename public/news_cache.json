@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T13:11:57.703Z",
+  "timestamp": "2026-04-11T14:41:26.736Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Bitcoin Breaks $73K as Strategy's STRC Bid Grows",
+        "description": "Strategy's STRC is buoying the Bitcoin bid, Galaxy stock is ripping, and Scott Bessent told the Senate to pass the Clarity Act—with Brian Armstrong chiming in.",
+        "url": "https://decrypt.co/363923/morning-minute-bitcoin-breaks-73k-strategy-strc-bid-grows",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
+        "publishedAt": "2026-04-10T14:04:43Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+9318 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Solana Gains Tokenized Stock Push As Traders Watch $1,000 Talk",
+        "description": "Securitize is set to issue a Currenc Group equity as a digital token on a public blockchain, with the shares expected to launch on both Ethereum and Solana. Related Reading: South Korea Imposes 5-Minute Audit Rule On Crypto Platforms The move puts Solana back…",
+        "url": "http://www.newsbtc.com/altcoin/solana-gains-tokenized-stock-push-as-traders-watch-1000-talk/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_0e998f.jpg?fit=3840%2C2160",
+        "publishedAt": "2026-04-10T14:00:01Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin analysis sees $55K BTC price 'iron bottom' by December 2026",
+        "description": "New BTC price analysis predicted that the bear market would bottom out later in the year, before beginning a \"two-year accumulation phase.\"",
+        "url": "https://cointelegraph.com/markets/bitcoin-analysis-sees-55k-btc-price-iron-bottom-by-december-2026",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d76c2-1a1e-7c18-bf5f-84fe8586e21e.jpg",
+        "publishedAt": "2026-04-10T13:54:32Z",
+        "content": "Bitcoin (BTC) should find a floor near $55,000 in the second half of 2026, a new prediction says.\r\nKey points:\r\n<ul><li>Bitcoins MVRV Z-score metric still needs to match old bear-market bottoms to si… [+3085 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6dfa-5dce-7202-8d63-70cd3ba61b87.jpg",
         "publishedAt": "2026-04-08T19:00:00Z",
         "content": "Key points:\r\n<ul><li>Bitcoin is showing signs of bottoming out, but some analysts believe a final shakeout below $60,000 is still possible over the next few months.\r\n</li><li>Several major altcoins a… [+8514 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin price chart targets $90K as traders ‘aggressively’ buy on Binance",
-        "description": "Bitcoin gained momentum as data showed buyers are starting to dominate volumes on Binance, with a $90,000 BTC price target on their radar.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-chart-targets-90k-aggressively-buy-on-binance",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d6d80-f317-7400-ab02-fdfffeb37279.jpg",
-        "publishedAt": "2026-04-08T17:43:14Z",
-        "content": "Market analysts say Bitcoins (BTC) is building up after its 7% rally above $72,000 on Tuesday, with bulls eyeing further gains to $90,000 amid improving macro sentiment. \r\nKey takeaways:\r\n<ul><li>BTC… [+4056 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Long-Term Holder Supply Turns Positive As Price Climbs Past $71,000",
-        "description": "Bitcoin’s long-term holder supply change has moved back into positive territory over the past 30 days, as the coin reclaims the $71,000 level today. The data point is getting attention because only 29% of long-term holder supply is now sitting in loss, still …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-long-term-holder-supply-turns-positive-as-price-climbs-past-71000/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-08T16:30:18Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Bob Williams, Haidy Grigsby, Francisco Rodrigues",
-        "title": "Crypto Long & Short: Asia’s digital asset crackdown: accountability gets personal",
-        "description": "In this week’s Crypto Long & Short Newsletter, Bob Williams covers how stricter crypto regulations in Asia are putting more personal responsibility on senior leaders, making strong governance and D&O insurance essential. Then, the FBI’s Haidy Grigsby writes o…",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/04/08/crypto-long-and-short-asia-s-digital-asset-crackdown-accountability-gets-personal",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3df2450bd86ac04a6913743726db7297c9ac4482-5994x3372.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-08T15:50:35Z",
-        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Bob Williams on how stricter crypto regulations in Asia are putting more personal responsibility on senior leader… [+11334 chars]"
       }
     ]
   }
