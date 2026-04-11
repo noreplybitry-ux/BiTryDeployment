@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T21:39:34.022Z",
+  "timestamp": "2026-04-11T22:39:02.502Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Bitcoin community weighs in on reports of Iran's crypto toll for oil ships",
+        "description": "The Bitcoin community reacts to reports that the Iranian government is now accepting Bitcoin for tolls from oil tankers passing through the Strait of Hormuz.",
+        "url": "https://cointelegraph.com/news/bitcoin-community-iran-crypto-toll-oil",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7925-e2eb-77a2-9eaf-da78d791f32d.jpg",
+        "publishedAt": "2026-04-10T21:42:24Z",
+        "content": "The Bitcoin (BTC) community is discussing the feasibility and implications of the Iranian government accepting BTC for tolls paid by oil tankers crossing the Strait of Hormuz, a critical shipping lan… [+2477 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-9.jpg?fit=1280%2C853",
         "publishedAt": "2026-04-09T03:00:50Z",
         "content": "Bitcoin (BTC) could be preparing for another major bull rally as aGolden Cross has recently appeared on the cryptocurrencys Inter-exchange Flow Pulse (IFP). A crypto analyst who explained the signifi… [+2750 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Trims Gains, But Uptrend Still Holds Strong",
-        "description": "Bitcoin price started a strong increase above the $70,500 zone. BTC is consolidating gains and might aim for more gains above the $71,650 zone. Bitcoin gained pace for a move above the $70,500 and $71,500 levels. The price is trading above $70,200 and the 100…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-trims-gains-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Trims-Gains-But-Uptrend-Still-Holds-Strong.jpg",
-        "publishedAt": "2026-04-09T02:38:15Z",
-        "content": "Bitcoin price started a strong increase above the $70,500 zone. BTC is consolidating gains and might aim for more gains above the $71,650 zone.\r\n<ul><li>Bitcoin gained pace for a move above the $70,5… [+2227 chars]"
       }
     ]
   }
