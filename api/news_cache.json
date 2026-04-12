@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-12T10:46:16.882Z",
+  "timestamp": "2026-04-12T11:38:28.908Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Surges 10% In A Week: Key Levels To Watch",
+        "description": "The Bitcoin price surged past $73,000 in the past week, indicating an improved investor risk appetite despite the overwhelming sentiment. This recent rally has been attributed to several factors, but most notably the announcement of a temporary ceasefire in t…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-surges-10-in-a-week-key-levels-to-watch/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-2865892_1280.jpg?fit=1280%2C853",
+        "publishedAt": "2026-04-11T11:00:47Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Turns-Lower.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-09T05:48:57Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Iran’s Crypto Mining Sector Hit Hard As Hashrate Drops Nearly 80%",
-        "description": "The US, Russia and China together control over 65% of global Bitcoin hashrate, a reminder that mining power remains heavily concentrated even as local shocks push smaller markets up and down. Related Reading: Bitcoin Mood Sours To Levels Not Seen Since Late F…",
-        "url": "http://www.newsbtc.com/news/bitcoin/irans-crypto-mining-sector-hit-hard-as-hashrate-drops-nearly-80/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_2c5654.jpg?fit=3840%2C2160",
-        "publishedAt": "2026-04-09T04:00:11Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
