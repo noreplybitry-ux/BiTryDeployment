@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-12T18:59:07.028Z",
+  "timestamp": "2026-04-12T19:47:20.694Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Crypto crashed six months ago: Have markets improved, or are bears still in charge?",
+        "description": "The October 2025 Bitcoin and altcoin crash may have ended the bull market, but its long-term impact on market health may have been overstated.",
+        "url": "https://cointelegraph.com/markets/crypto-crashed-six-months-ago-have-markets-improved-or-are-bears-still-in-charge",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7d84-d4d8-783a-92a7-0fbca752f3aa.jpg",
+        "publishedAt": "2026-04-11T19:33:32Z",
+        "content": "Key takeaways:\r\n<ul><li>Bitcoin orderbook depth has plummeted by 50% since September 2025, signaling a substantial decline in overall market liquidity.\r\n</li><li>Indicators suggest that the current m… [+4064 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Is About To Go ‘Parabolic’ – Analyst Signals Golden Triangle Formation",
+        "description": "An analyst on X has made a bold call on Ethereum, stating that the asset is on the verge of a parabolic move. The claim is based on a golden triangle formation on the chart, a setup that shows a breakout could be approaching for the leading altcoin. This appr…",
+        "url": "http://www.newsbtc.com/altcoin/ethereum-is-about-to-go-parabolic-analyst-signals-golden-triangle-formation/",
+        "urlToImage": null,
+        "publishedAt": "2026-04-11T19:30:09Z",
+        "content": "An analyst on X has made a bold call on Ethereum, stating that the asset is on the verge of a parabolic move. The claim is based on a golden triangle formation on the chart, a setup that shows a brea… [+2793 chars]"
+      },
       {
         "source": {
           "id": null,
