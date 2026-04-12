@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-12T07:38:09.512Z",
+  "timestamp": "2026-04-12T08:57:08.116Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin 23 Bar Theory: What Happens To The BTC Price If The Bottom Is In?",
+        "description": "Over the years, there have been different metrics, technicals, and ways in which investors have tried to predict the Bitcoin price bottom with each bear market. Some of these have reportedly done so with some accuracy, while others have seen a deviation. Rece…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-23-bar-theory-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-18-2026-08_15_49-AM.png?fit=1111%2C740",
+        "publishedAt": "2026-04-11T08:30:05Z",
+        "content": "Over the years, there have been different metrics, technicals, and ways in which investors have tried to predict the Bitcoin price bottom with each bear market. Some of these have reportedly done so … [+2263 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Closes-Sub-2000-Support.jpg?fit=1024%2C572",
         "publishedAt": "2026-04-09T03:18:11Z",
         "content": "Ethereum price extended gains above $2,265 before it started a downside correction. ETH is now correcting gains and might find bids near the $2,120 zone.\r\n<ul><li>Ethereum started a decent upward mov… [+2182 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Golden Cross Trend Enters Flow State: Why The Next 2-3 Weeks Are Important",
-        "description": "Bitcoin (BTC) could be preparing for another major bull rally as a Golden Cross has recently appeared on the cryptocurrency’s Inter-exchange Flow Pulse (IFP). A crypto analyst who explained the significance of this occurrence notes that the timeline of this G…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-golden-cross-trend/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-9.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-09T03:00:50Z",
-        "content": "Bitcoin (BTC) could be preparing for another major bull rally as aGolden Cross has recently appeared on the cryptocurrencys Inter-exchange Flow Pulse (IFP). A crypto analyst who explained the signifi… [+2750 chars]"
       }
     ]
   }
