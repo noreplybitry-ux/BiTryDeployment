@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-12T16:49:21.423Z",
+  "timestamp": "2026-04-12T17:40:40.831Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Flashes ‘Dangerous’ Macro Fractal – What To Expect For Price",
+        "description": "Bitcoin’s weekly chart is showing an uncomfortable comparison to one of the most brutal sell-offs in its history, and at least one analyst believes the worst may still be ahead.  This technical outlook is looking at the current price action as a mirror of the…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-flashes-dangerous-macro-fractal-what-to-expect-for-price/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_8fdd44.jpg?fit=5375%2C3583",
+        "publishedAt": "2026-04-11T17:30:01Z",
+        "content": "Bitcoin’s weekly chart is showing an uncomfortable comparison to one of the most brutal sell-offs in its history, and at least one analyst believes the worst may still be ahead. \r\nThis technical outl… [+2630 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, AI Boost",
+        "title": "The crypto honeymoon is over for now as analysts warn of a major first-quarter profit squeeze",
+        "description": "Several major investment firms have preemptively downgraded Coinbase and other platforms as a sharp drop in trading activity and falling token prices threaten to derail upcoming first-quarter earnings results.",
+        "url": "https://www.coindesk.com/markets/2026/04/11/the-crypto-honeymoon-is-over-for-now-as-analysts-warn-of-a-major-first-quarter-profit-squeeze",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/41fba73aa2a6d555b22a8525b287f3dd87350b4d-6655x4437.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-11T17:00:00Z",
+        "content": "Crypto trading has cooled in early 2026, and Wall Street analysts are racing to adjust their forecasts before companies report first-quarter earnings.\r\nNew research from Barclays and Oppenheimer show… [+4099 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7287-bdfc-7a81-a877-38ded99c9ea7.jpg",
         "publishedAt": "2026-04-09T13:57:14Z",
         "content": "Bitcoin (BTC) circled $71,000 at Thursdays Wall Street open after US inflation data conformed to expectations.\r\nKey points:\r\n<ul><li>Bitcoin waits for new catalysts as US PCE inflation data conforms … [+3292 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Higher Before Lower: How Bitcoin Price Will Get To $240,000",
-        "description": "The current downtrend has put the Bitcoin price in an increasingly difficult position as bears push back on every recovery. Even now, the price continues to struggle to maintain an uptrend, but it has not deterred bulls from predicting higher prices. The gene…",
-        "url": "http://www.newsbtc.com/news/bitcoin/higher-before-lower-bitcoin/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-from-Getty-Images-20.jpg?fit=612%2C374",
-        "publishedAt": "2026-04-09T08:30:10Z",
-        "content": "The current downtrend has put the Bitcoin price in an increasingly difficult position as bears push back on every recovery. Even now, the price continues to struggle to maintain an uptrend, but it ha… [+2194 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Bithumb launches legal action to recover 7 Bitcoin from payout error",
-        "description": "South Korean crypto exchange Bithumb has begun legal proceedings to recover 7 Bitcoin still missing from a February payout error that mistakenly sent 620,000 BTC to users.",
-        "url": "https://cointelegraph.com/news/bithumb-legal-action-recover-7-bitcoin",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd2c0-7c14-795d-9048-88a20c9ffce9.jpg",
-        "publishedAt": "2026-04-09T07:55:04Z",
-        "content": "South Korean crypto exchange Bithumb has begun legal proceedings to recover 7 Bitcoin still missing from a payout error that saw 620,000 BTC mistakenly distributed during a promotional event in Febru… [+2301 chars]"
       }
     ]
   }
