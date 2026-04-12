@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-11T23:41:49.734Z",
+  "timestamp": "2026-04-12T03:25:03.368Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Shares ‘Realistic’ Ethereum Price Targets For The Next 3 Years",
+        "description": "Crypto analyst Crypto Patel has shared realistic targets that the Ethereum price can reach in the next bull run. The analyst matched potential market caps to those of popular U.S. companies, noting that Ethereum has gone mainstream and could go head-to-head w…",
+        "url": "http://www.newsbtc.com/news/ethereum/realistic-ethereum-targets/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-iStock-7.jpg?fit=612%2C408",
+        "publishedAt": "2026-04-11T00:00:44Z",
+        "content": "Crypto analyst Crypto Patel has shared realistic targets that the Ethereum price can reach in the next bull run. The analyst matched potential market caps to those of popular U.S. companies, noting t… [+2389 chars]"
+      },
       {
         "source": {
           "id": null,
