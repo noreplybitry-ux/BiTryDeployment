@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-12T15:41:48.099Z",
+  "timestamp": "2026-04-12T16:49:21.423Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "'Not Going to Stop at Bitcoin': Morgan Stanley Weighs Tokenization, Tax Solutions in Crypto Push",
+        "description": "Morgan Stanley’s Amy Oldenburg signaled that the Wall Street giant’s crypto journey has a long way to go.",
+        "url": "https://decrypt.co/364030/not-going-stop-bitcoin-morgan-stanley-weighs-tokenization-tax-solutions",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png",
+        "publishedAt": "2026-04-11T16:33:12Z",
+        "content": "In brief\r\n<ul><li>Amy Oldenburg, head of digital-asset strategy at Morgan Stanley, sees a tokenized money-market fund as a natural path forward for its crypto roadmap.</li><li>Whats more, the investm… [+3631 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cd2c0-7c14-795d-9048-88a20c9ffce9.jpg",
         "publishedAt": "2026-04-09T07:55:04Z",
         "content": "South Korean crypto exchange Bithumb has begun legal proceedings to recover 7 Bitcoin still missing from a payout error that saw 620,000 BTC mistakenly distributed during a promotional event in Febru… [+2301 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Turns Lower, Downside Risk Builds Rapidly",
-        "description": "Dogecoin corrected some gains from the $0.0960 zone against the US Dollar. DOGE is now holding the $0.0900 support and remains at risk of more losses. DOGE price started a fresh downside correction below $0.0950. The price is trading below the $0.0930 level a…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-turns-lower-0-0925/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Turns-Lower.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-09T05:48:57Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
