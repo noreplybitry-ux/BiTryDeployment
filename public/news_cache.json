@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-12T08:57:08.116Z",
+  "timestamp": "2026-04-12T09:53:31.737Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Ethereum Steals The Spotlight As Capital Moves Away From Bitcoin",
+        "description": "Ethereum’s growing base of active users may be one reason investors are putting more money into it — and less into Bitcoin. Related Reading: Cardano In Danger Zone? Trader Drops ‘Time Bomb’ Claim Exchange Outflows Point To A Shift In Holding Behavior Data fro…",
+        "url": "http://www.newsbtc.com/ethereum-news/ethereum-steals-the-spotlight-as-capital-moves-away-from-bitcoin/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ethereum-logo-in-the-spotlight-dramatic-stage-ligh-1.jpeg?fit=1440%2C810",
+        "publishedAt": "2026-04-11T09:30:55Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_2c5654.jpg?fit=3840%2C2160",
         "publishedAt": "2026-04-09T04:00:11Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Clings to $2,120, Can Bulls Drive Fresh Surge?",
-        "description": "Ethereum price extended gains above $2,265 before it started a downside correction. ETH is now correcting gains and might find bids near the $2,120 zone. Ethereum started a decent upward move above the $2,250 zone. The price is trading above $2,150 and the 10…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-clings-to-2120/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Closes-Sub-2000-Support.jpg?fit=1024%2C572",
-        "publishedAt": "2026-04-09T03:18:11Z",
-        "content": "Ethereum price extended gains above $2,265 before it started a downside correction. ETH is now correcting gains and might find bids near the $2,120 zone.\r\n<ul><li>Ethereum started a decent upward mov… [+2182 chars]"
       }
     ]
   }
