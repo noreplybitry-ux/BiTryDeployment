@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-13T03:31:49.698Z",
+  "timestamp": "2026-04-13T06:21:02.247Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ciaran Lyons",
+        "title": "Bitcoin, Ether near levels that could signal trend reversal: Analyst",
+        "description": "Macro investor Jordi Visser told Anthony Pompliano that the crypto market could be in for a “sustainable” year if Bitcoin holds above $76,000 and Ether holds above $2,400.",
+        "url": "https://cointelegraph.com/news/bitcoin-ether-crypto-market-trend-reversal-macro-investor",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2024-11/019310b4-a41e-750b-8e75-b9694fc14fb9",
+        "publishedAt": "2026-04-12T05:26:55Z",
+        "content": "Bitcoin and Ether arent far from levels that could signal a trend reversal this year, despite a growing consensus across the industry calling for a bear market, according to macro analyst Jordi Visse… [+2138 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Funding Rate Enters Deep Negative Territory — What’s Next?",
+        "description": "The Bitcoin price has been one to watch over the past week, jumping by nearly 10% in less than seven days. According to the latest on-chain data, the bears might be in for an even longer ride as funding rates fall to critically low levels. BTC Bears At Risk O…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-funding-rate-enters-deep-negative-territory/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/2026-04-12-00.04.09.jpg",
+        "publishedAt": "2026-04-12T05:00:57Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d72a2-5ebf-7895-9bc0-fb2958891ef9.jpg",
         "publishedAt": "2026-04-09T16:34:33Z",
         "content": "Binance Wallet has integrated prediction market features into its app, saying it will cover all trading and settlement transaction fees for users as it make a play for a piece of the $20 billion mark… [+2169 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Says Bitcoin Has Printed A Historically Aggressive Recovery Setup, What To Expect",
-        "description": "Crypto analyst Cupra has revealed that Bitcoin has printed a historical aggressive recovery setup, signaling that a rally to the upside may be on the horizon. The analyst predicted that BTC could rally to a new all-time high (ATH) of $150,000 as the next bull…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-prints-recovery-setup/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-120.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-09T14:00:23Z",
-        "content": "Crypto analyst Cupra has revealed that Bitcoin has printed a historical aggressive recovery setup, signaling that a rally to the upside may be on the horizon. The analyst predicted that BTC could ral… [+2450 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price surfs US PCE inflation as trader keeps $80K BTC price target",
-        "description": "Bitcoin avoids major volatility after the first of the week's two key US inflation reports, while a trader sees a \"new upwards leg\" coming for BTC price action.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-surfs-us-pce-inflation-data-shifts-wartime-cpi",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7287-bdfc-7a81-a877-38ded99c9ea7.jpg",
-        "publishedAt": "2026-04-09T13:57:14Z",
-        "content": "Bitcoin (BTC) circled $71,000 at Thursdays Wall Street open after US inflation data conformed to expectations.\r\nKey points:\r\n<ul><li>Bitcoin waits for new catalysts as US PCE inflation data conforms … [+3292 chars]"
       }
     ]
   }
