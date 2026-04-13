@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-13T11:21:29.983Z",
+  "timestamp": "2026-04-13T13:54:32.878Z",
   "data": {
     "status": "ok",
     "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Poised For Bullish Breakout—But Only If This Key Condition Is Met",
+        "description": "Bitcoin traded as high as $73,000 following a 9% price rally in the past week. However, the broader market suggests the leading cryptocurrency is still stuck in a bear phase that’s been dragging on for more than six months. Interestingly, historical data sugg…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-poised-for-bullish-breakout-but-only-if-this-key-condition-is-met/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/stack-bitcoin-cryptocurrency-coins_1308-182297.jpg?fit=1200%2C543",
+        "publishedAt": "2026-04-12T12:00:31Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,19 +524,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Triumphant-dog-with-Bitcoin-and-Ethereum-Small.jpeg?fit=320%2C213",
         "publishedAt": "2026-04-09T17:00:49Z",
         "content": "Bitcoin and Ethereums dominance is being directly challenged in a new outlook from Bloomberg Intelligence strategist Mike McGlone, who believes that an unexpected contender is positioning itself to o… [+2872 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Binance rolls out prediction markets for app using Predict.fun",
-        "description": "The crypto exchange is mounting a challenge to platforms like Kalshi and Polymarket, offering ”gasless” trades as it seeks a share of the $20 billion prediction market.",
-        "url": "https://cointelegraph.com/news/binance-prediction-markets-app",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d72a2-5ebf-7895-9bc0-fb2958891ef9.jpg",
-        "publishedAt": "2026-04-09T16:34:33Z",
-        "content": "Binance Wallet has integrated prediction market features into its app, saying it will cover all trading and settlement transaction fees for users as it make a play for a piece of the $20 billion mark… [+2169 chars]"
       }
     ]
   }
