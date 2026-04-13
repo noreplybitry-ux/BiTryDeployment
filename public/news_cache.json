@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-13T13:54:32.878Z",
+  "timestamp": "2026-04-13T15:21:02.053Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 39,
     "articles": [
       {
         "source": {
@@ -511,19 +511,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/401344804817aea2ba50a41ccdb2399c8dd863f2-1920x1080.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-09T17:05:40Z",
         "content": "Potential buyers are evaluating an acquisition of parts of Gemini Space Station (GEMI), the crypto exchange backed by the billionaire Winklevoss twins, according to a person with direct knowledge of … [+3903 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bloomberg Analyst Predicts This ‘Underdog’ Will Flip Bitcoin And Ethereum",
-        "description": "Bitcoin and Ethereum’s dominance is being directly challenged in a new outlook from Bloomberg Intelligence strategist Mike McGlone, who believes that an unexpected contender is positioning itself to overtake both. Tether USDT’s market cap is steadily closing …",
-        "url": "http://www.newsbtc.com/news/bitcoin/underdog-flip-bitcoin-ethereum/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Triumphant-dog-with-Bitcoin-and-Ethereum-Small.jpeg?fit=320%2C213",
-        "publishedAt": "2026-04-09T17:00:49Z",
-        "content": "Bitcoin and Ethereums dominance is being directly challenged in a new outlook from Bloomberg Intelligence strategist Mike McGlone, who believes that an unexpected contender is positioning itself to o… [+2872 chars]"
       }
     ]
   }
