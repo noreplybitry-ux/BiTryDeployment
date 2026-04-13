@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-13T06:21:02.247Z",
+  "timestamp": "2026-04-13T09:04:47.829Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Binance Data Shows Aggressive XRP Accumulation — Breakout Next?",
+        "description": "The XRP price wasn’t particularly impressive over the past week, despite a bullish momentum into the crypto market. According to the latest on-chain data, the altcoin might be about to put this period of sluggish price action behind it, with a potential break…",
+        "url": "http://www.newsbtc.com/xrp-news/binance-data-reveals-aggressive-xrp-accumulation/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/2026-04-12-00.05.03.jpg?fit=1280%2C853",
+        "publishedAt": "2026-04-12T09:00:29Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
