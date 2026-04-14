@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T14:53:06.025Z",
+  "timestamp": "2026-04-14T16:13:36.041Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Crypto exchange Kraken targeted in extortion attempt but says there was no breach and no client funds at risk",
+        "description": "The firm said a criminal group is attempting to extort it over limited insider-related data access incidents affecting about 2,000 accounts. Kraken says it will not pay and is working with law enforcement.",
+        "url": "https://www.coindesk.com/business/2026/04/13/crypto-exchange-kraken-targeted-in-extortion-attempt-but-says-there-was-no-breach-and-no-client-funds-at-risk",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c2d1d6c9e47c3db1e4becaf1739fb8dce590d3b-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-13T15:58:20Z",
+        "content": "Disclosure &amp; Polices: CoinDesk is an award-winning media outlet that covers the cryptocurrency industry. Its journalists abide by a strict set of editorial policies. CoinDesk has adopted a set of… [+435 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "It’s Too Early For A Bitcoin Price Bottom, Here’s What You Should Be Looking At",
+        "description": "Bitcoin price may be showing signs of holding steady, but that alone does not confirm a bottom is in place. A recent post by crypto analyst @CryptoTice_ argues that the current market phase does not yet meet the conditions historically associated with a true …",
+        "url": "http://www.newsbtc.com/news/bitcoin/too-early-bitcoin-price-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/07/istockphoto-BTC-17.jpg?fit=612%2C381",
+        "publishedAt": "2026-04-13T15:00:36Z",
+        "content": "Bitcoin price may be showing signs of holding steady, but that alone does not confirm a bottom is in place. A recent post by crypto analyst @CryptoTice_ argues that the current market phase does not … [+2896 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,19 +524,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/08/Bitcoin-crash-4.jpeg?fit=1792%2C1024",
         "publishedAt": "2026-04-10T13:00:02Z",
         "content": "A crypto analyst has shared two interesting scenarios she believes that the Bitcoin price could follow, depending on the direction of its next moves. According to the analyst,a price breakdown to new… [+2721 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Binance offers UAE staff temporary relocation as Middle East conflict disrupts region",
-        "description": "A spokesperson for the world's largest crypto exchange said Binance continues to operate seamlessly and serve its users without interruption.",
-        "url": "https://www.coindesk.com/business/2026/04/10/binance-offers-uae-staff-temporary-relocation-as-middle-east-conflict-disrupts-region",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1ee17e1310c5c6829bf97b25a87741f3300a9b59-3200x2133.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-10T12:48:41Z",
-        "content": "Binance offered its staff in the United Arab Emirates the option to temporarily relocate to Hong Kong, Tokyo, Kuala Lumpur and Bangkok amid regional tensions, the company told CoinDesk Friday.\r\nGiven… [+2023 chars]"
       }
     ]
   }
