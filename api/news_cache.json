@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T10:20:06.625Z",
+  "timestamp": "2026-04-14T12:01:24.112Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea says API crypto trading now makes up 30% of market: Report",
+        "description": "South Korea’s FSS said API trading now makes up 30% of crypto turnover and warned it will crack down on abusive automated trading patterns, local media reported Monday.",
+        "url": "https://cointelegraph.com/news/south-korea-api-crypto-trading-30-percent-manipulation-risk",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8639-5307-72e5-8524-7426425c8b92.jpg",
+        "publishedAt": "2026-04-13T11:49:35Z",
+        "content": "South Koreas Financial Supervisory Service (FSS) said Monday that API-based trading now accounts for about 30% of crypto buy-and-sell turnover, warning that some traders are using automated tools to … [+2742 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Crypto ETPs see $1.1B inflows, strongest gains since January",
+        "description": "Crypto ETPs recorded $1.1 billion in inflows last week, led by Bitcoin and US spot ETFs, as easing US inflation data and geopolitical tensions supported demand.",
+        "url": "https://cointelegraph.com/news/crypto-etp-1-1-billion-inflows-strongest-gains-january",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8649-f471-7edf-837b-9f3760afd993.jpg",
+        "publishedAt": "2026-04-13T11:06:51Z",
+        "content": "Cryptocurrency investment products clocked significant inflows last week, marking their strongest weekly gains since January.\r\nGlobal crypto exchange-traded products (ETPs) logged $1.1 billion in inf… [+2286 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/Tokyo-skyline-at-sunset-with-Bitcoin.png",
         "publishedAt": "2026-04-10T10:46:49Z",
         "content": "<ul><li>Cryptocurrencies now fall under Japan’s securities-style financial laws.</li><li>Insider trading rules and stricter disclosures will apply.</li><li>Lower taxes may boost investor and institut… [+4604 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Japan approves bill to classify crypto as financial instruments",
-        "description": "The Japanese Cabinet reclassified crypto as a financial instrument and will enforce insider trading bans and annual disclosure mandates for issuers.",
-        "url": "https://cointelegraph.com/news/japan-approves-bill-classify-cryptocurrencies-financial-instruments",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7604-9467-796e-9fb0-03c03fc43b3e.jpg",
-        "publishedAt": "2026-04-10T06:13:12Z",
-        "content": "The Japanese government amended the Financial Instruments and Exchange Act on Friday to classify crypto assets as financial instruments.\r\nThe amendment also bans insider trading and other activities … [+2041 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Maintains Strength, Gradual Gains Signal Bullish Bias",
-        "description": "Solana failed to stay above $85 and corrected some gains. SOL price is now consolidating and might aim for another increase above $85. SOL price started a downside correction below $84 against the US Dollar. The price is now trading above $82 and the 100-hour…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-maintains-strength-82-5/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Maintains-Strength.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-10T05:08:02Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
