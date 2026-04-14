@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T18:09:26.860Z",
+  "timestamp": "2026-04-14T20:09:05.581Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/13: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA",
+        "description": "Bitcoin and altcoin charts highlight growing strength across the industry. Will geopolitics and US economic health concerns stand in the way of the rally?",
+        "url": "https://cointelegraph.com/markets/price-predictions-4-13-spx-dxy-btc-eth-bnb-xrp-sol-doge-hype-ada",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d87ab-3434-7ec8-8884-4a258b2f81b7.jpg",
+        "publishedAt": "2026-04-13T20:00:00Z",
+        "content": "Bitcoin (BTC) reclaimed the $72,000 level as bulls attempt to push the price closer to its multi-month range highs. While lower levels are attracting buyers, sustaining the higher levels might pose a… [+8380 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Retail Crypto Activity Hits 9-Year Low As Big Money Steps In",
+        "description": "Small investors have all but disappeared from Bitcoin trading. Data from CryptoQuant shows crypto inflows from accounts holding less than one BTC dropped to a record low on Binance earlier this month — the weakest retail participation in nine years. Related R…",
+        "url": "http://www.newsbtc.com/altcoin/retail-crypto-activity-hits-9-year-low-as-big-money-steps-in/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_ca0583.jpg?fit=1112%2C750",
+        "publishedAt": "2026-04-13T19:30:18Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-iStock-7.jpg?fit=612%2C408",
         "publishedAt": "2026-04-11T00:00:44Z",
         "content": "Crypto analyst Crypto Patel has shared realistic targets that the Ethereum price can reach in the next bull run. The analyst matched potential market caps to those of popular U.S. companies, noting t… [+2389 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Bitcoin community weighs in on reports of Iran's crypto toll for oil ships",
-        "description": "The Bitcoin community reacts to reports that the Iranian government is now accepting Bitcoin for tolls from oil tankers passing through the Strait of Hormuz.",
-        "url": "https://cointelegraph.com/news/bitcoin-community-iran-crypto-toll-oil",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7925-e2eb-77a2-9eaf-da78d791f32d.jpg",
-        "publishedAt": "2026-04-10T21:42:24Z",
-        "content": "The Bitcoin (BTC) community is discussing the feasibility and implications of the Iranian government accepting BTC for tolls paid by oil tankers crossing the Strait of Hormuz, a critical shipping lan… [+2477 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/10: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "description": "Bitcoin bulls spent the week stampeding toward a critical overhead resistance level, which, if breached, could restart the bull market in BTC and altcoins.",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-10-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7837-53a6-7988-8a3f-ebe67a32d769.jpg",
-        "publishedAt": "2026-04-10T17:50:52Z",
-        "content": "Key points:\r\n<ul><li>Buyers are attempting to push Bitcoin toward the $76,000 level but are facing significant selling from the bears.\r\n</li><li>Several major altcoins are likely to pick up momentum … [+8918 chars]"
       }
     ]
   }
