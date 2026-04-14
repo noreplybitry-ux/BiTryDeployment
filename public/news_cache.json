@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T03:21:28.253Z",
+  "timestamp": "2026-04-14T06:04:03.329Z",
   "data": {
     "status": "ok",
     "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Martin Young",
+        "title": "Institutions are in a crypto bull market as retail sits out: Exodus CEO",
+        "description": "Institutions are driving crypto’s bull run while retail activity hits a nine-year low on Binance amid cost-of-living pressures and macro uncertainty.",
+        "url": "https://cointelegraph.com/news/institutions-are-in-a-bull-market-and-retail-hasn-t-even-noticed-yet-exec",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d854c-afb9-72c9-a708-e6e631fbdfed.jpg",
+        "publishedAt": "2026-04-13T06:02:22Z",
+        "content": "Financial institutions have accelerated their participation in crypto markets this year, while retail investors have pulled out, said Exodus CEO JP Richardson on Sunday. \r\nThis might be the first cyc… [+2420 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Musician loses $420K Bitcoin 'retirement fund' via fake Ledger app",
+        "description": "American musician Garrett Dutton said he lost his $420,000 Bitcoin “retirement fund” after downloading a fake Ledger app from Apple’s App Store and giving his seed phrase away.",
+        "url": "https://cointelegraph.com/news/musician-loses-420k-bitcoin-retirement-fund-after-installing-fake-ledger-app",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8584-a6d1-7ea0-a93a-09d25443f374.jpg",
+        "publishedAt": "2026-04-13T05:56:49Z",
+        "content": "Garrett Dutton, an American musician better known as G. Love, said he lost $420,000 worth of Bitcoin after installing a malicious app impersonating the self-custody crypto app Ledger Live from Apples… [+1848 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Retreats, Can Bulls Reclaim Upside Momentum?",
+        "description": "Dogecoin started a fresh decline below the $0.0930 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.0925 and $0.0938. DOGE price started a fresh decline below the $0.0930 level. The price is trading below the $0.0920…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-retreats-0-0920/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Retreats.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-13T05:08:00Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Martin Young",
+        "title": "Bitcoin mining and AI may be on opposite decentralization paths: Reseacher",
+        "description": "Bitcoin mining is much more centralized than how it began, while AI may decentralize via edge computing, per Galaxy Research and Grand View Research data.",
+        "url": "https://cointelegraph.com/news/edge-computing-decentralize-ai-bitcoin-mining-centralizes",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d850b-005b-731f-b515-bb99b931c7f0.jpg",
+        "publishedAt": "2026-04-13T04:56:47Z",
+        "content": "Bitcoin mining runs the risk of becoming more centralized as time goes on, while artificial intelligence could be moving in the opposite direction, according to Galaxy Research head Alex Thorn.\r\nThor… [+2725 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Slips Below Support, Bears Seize Momentum",
+        "description": "Ethereum price started a fresh decline and traded below $2,250. ETH is now consolidating above $2,175 and might struggle to recover. Ethereum started a downside correction from the $2,330 zone. The price is trading below $2,220 and the 100-hourly Simple Movin…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-slips-below-2200/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Slips-Below-Support-Bears-Seize-Momentum.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-13T03:58:43Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,250. ETH is now consolidating above $2,175 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction from the $2,330 zo… [+2084 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,71 +524,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
         "publishedAt": "2026-04-10T00:01:18Z",
         "content": "In brief\r\n<ul><li>Crypto firms and government agencies teamed up in \"Operation Atlantic,\" designed to stop crypto fraud schemes and approval phishing campaigns. </li><li>The sprint led to $12 million… [+3054 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Ethereum’s $2.1B Leverage Flush Was Not a Breakdown Signal: Here Is What It Actually Was",
-        "description": "Ethereum is trading above $2,200. The recovery is real. And a CryptoQuant report has identified the structural event that made it possible — one that most participants were reading as a danger signal at the time it occurred. Related Reading: Aave Breakdown De…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereums-2-1b-leverage-flush-was-not-a-breakdown-signal-here-is-what-it-actually-was/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Untitled-design-55.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-04-10T00:00:45Z",
-        "content": "Ethereum is trading above $2,200. The recovery is real. And a CryptoQuant report has identified the structural event that made it possible one that most participants were reading as a danger signal a… [+4080 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "This Bitcoin Metric Has Predicted Every Cycle Bottom, But What Is It Saying Now?",
-        "description": "Bitcoin is back above $70,000 after a bruising first quarter, but there are still questions as to whether the asset has already established its cycle low or is still moving through a bottoming phase. A technical indicator following one interesting Bitcoin met…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-every-cycle-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-15.jpg?fit=1280%2C848",
-        "publishedAt": "2026-04-09T23:00:57Z",
-        "content": "Bitcoin is back above $70,000 after a bruising first quarter, but there are still questions as to whether the asset has already established its cycle low or is still moving through a bottoming phase.… [+2529 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin rally extends toward $73K despite concerning US economic data",
-        "description": "Bitcoin continues to show strength even as US recession risks rise and the fragile ceasefire with Iran begins to show cracks.",
-        "url": "https://cointelegraph.com/markets/bitcoin-rally-extends-toward-73k-despite-concerning-us-economic-data",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d741a-a8af-71ae-ab57-d756d6063876.jpg",
-        "publishedAt": "2026-04-09T21:21:11Z",
-        "content": "Key takeaways:\r\n<ul><li>Bitcoin climbed to $72,000 as rising recession odds and a weak US dollar boosted the appeal of scarce financial assets.\r\n</li><li>Rising oil prices and a wobbly truce with Ira… [+3914 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun, AI Boost",
-        "title": "These 3 crypto stocks could actually beat bitcoin ETFs, says TD Cowen",
-        "description": "Analyst Lance Vitanza is betting that digital asset treasury\"companies like Nakamoto, SharpLink and Strive can outperform standard crypto ETFs by aggressively stacking coins and capturing staking yields.",
-        "url": "https://www.coindesk.com/markets/2026/04/09/td-cowen-says-these-3-crypto-stocks-could-actually-beat-bitcoin-etfs",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/dfa2063dc4f9e727f19bc5e645672019bdc025de-4296x2864.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-09T20:48:49Z",
-        "content": "After declines of 90% or more in digital asset treasury companies Nakamoto (NAKA), Sharplink Gaming (SBET) and Strive (ASST), TD Cowen's Lance Vitanza is spotting value.\r\nHe argued that each could ou… [+2527 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin ETF Era Expands As Morgan Stanley Debuts On NYSE",
-        "description": "Wall Street’s financial advisory machine now has a direct line to Bitcoin. Morgan Stanley Investment Management launched its spot Bitcoin exchange-traded fund on NYSE Arca on Tuesday, backed by a network of roughly 16,000 financial advisors who can steer clie…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-etf-era-expands-as-morgan-stanley-debuts-on-nyse/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_6b8ae6.jpg?fit=6763%2C4509",
-        "publishedAt": "2026-04-09T20:00:23Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
