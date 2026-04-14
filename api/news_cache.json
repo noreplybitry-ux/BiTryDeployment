@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T08:46:36.012Z",
+  "timestamp": "2026-04-14T10:20:06.625Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Oil price surges 8% on Iran: Five things to know in Bitcoin this week",
+        "description": "Bitcoin preserved $70,000 at the weekly close as markets began reacting to a breakdown in US-Iran negotiations and blockade of the Strait of Hormuz.",
+        "url": "https://cointelegraph.com/markets/oil-price-surges-8percent-iran-five-things-bitcoin-this-week",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d85c5-666c-7a12-af0e-95aeee8d2936.jpg",
+        "publishedAt": "2026-04-13T08:47:32Z",
+        "content": "Bitcoin (BTC) starts the third week of April on a knife edge as the US-Iran war makes a comeback.\r\n<ul><li>A breakdown in US-Iran negotiations sends oil surging above $100 per barrel, with the Strait… [+8097 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,19 +511,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Maintains-Strength.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-10T05:08:02Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Holds Bullish Bias, Upside Continuation in Focus",
-        "description": "Ethereum price extended gains above $2,250 before it started a downside correction. ETH is now consolidating above $2,120 and might aim for a fresh increase. Ethereum started a decent upward move above the $2,220 zone. The price is trading above $2,180 and th…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-holds-bullish-2125/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Holds-Bullish-Bias-Upside-Continuation-in-Focus.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-10T03:18:52Z",
-        "content": "Ethereum price extended gains above $2,250 before it started a downside correction. ETH is now consolidating above $2,120 and might aim for a fresh increase.\r\n<ul><li>Ethereum started a decent upward… [+2186 chars]"
       }
     ]
   }
