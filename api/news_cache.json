@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T06:04:03.329Z",
+  "timestamp": "2026-04-14T08:46:36.012Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Bulls Must Hold This Level Or Price Could Crash To $65,000 Again",
+        "description": "Over the last week, the Bitcoin bulls looked to have taken control of the price, eventually pushing it back above $73,000 again. There has been a slowdown since then, with bears trying to retest the $70,000 level over the weekend. For now, the bulls are still…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bulls-must-hold-65000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-bulls-charge-through-flames.png?fit=1536%2C1024",
+        "publishedAt": "2026-04-13T07:00:50Z",
+        "content": "Over the last week, the Bitcoin bulls looked to have taken control of the price, eventually pushing it back above $73,000 again. There has been a slowdown since then, with bears trying to retest the … [+2313 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Alameda moves $16 million in Solana's SOL token for possible creditor distribution",
+        "description": "Alameda unstakes $16 million worth of Solana's SOL token, according to Arkham.",
+        "url": "https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2ed84b2e67185c91def23615bb78ff0e770a2dd7-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-13T06:58:56Z",
+        "content": "Bankrupt crypto exchange FTX's sister company Alameda Research \"unstaked\" roughly $16 million worth of Solana's SOL token and moved the same to an address linked to creditor repayments, according to … [+1559 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,45 +511,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Holds-Bullish-Bias-Upside-Continuation-in-Focus.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-10T03:18:52Z",
         "content": "Ethereum price extended gains above $2,250 before it started a downside correction. ETH is now consolidating above $2,120 and might aim for a fresh increase.\r\n<ul><li>Ethereum started a decent upward… [+2186 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Sam Reynolds, AI Boost",
-        "title": "OKX and HashKey invest in new Vietnam exchange ahead of crypto licensing push",
-        "description": "The partnership will help the exchange meet Vietnam's $380 million capital requirement to enter a government pilot program aimed at licensing local platforms and curbing offshore trading.",
-        "url": "https://www.coindesk.com/markets/2026/04/10/okx-hashkey-back-usd380-million-vietnam-crypto-push-as-new-rules-near-rollout",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e6efdc3c14cfbc04d11ff5c1f248f2b87afdc852-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-10T02:35:25Z",
-        "content": "OKX Ventures and HashKey Capital are backing a new Vietnam-based crypto exchange as Hanoi accelerates efforts to bring one of the world's most active retail crypto markets under formal regulation.\r\nV… [+2155 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Turns Higher, Can It Print New Monthly Highs?",
-        "description": "Bitcoin price started a strong increase above the $71,500 zone. BTC is consolidating gains and might aim for more gains above the $73,250 zone. Bitcoin gained pace for a move above the $71,500 and $72,000 levels. The price is trading above $71,500 and the 100…",
-        "url": "http://www.newsbtc.com/analysis/eth/bitcoin-price-turns-higher-72k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Turns-Higher.jpg",
-        "publishedAt": "2026-04-10T02:30:30Z",
-        "content": "Bitcoin price started a strong increase above the $71,500 zone. BTC is consolidating gains and might aim for more gains above the $73,250 zone.\r\n<ul><li>Bitcoin gained pace for a move above the $71,5… [+2239 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "'Operation Atlantic': US and UK Team With Firms to Trace, Freeze Millions in Stolen Crypto",
-        "description": "Crypto firms like Coinbase and Kraken teamed up with government agencies to trace and freeze millions in funds tied to crypto scams and fraud.",
-        "url": "https://decrypt.co/363878/operation-atlantic-us-uk-agencies-trace-freeze-millions-stolen-crypto",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
-        "publishedAt": "2026-04-10T00:01:18Z",
-        "content": "In brief\r\n<ul><li>Crypto firms and government agencies teamed up in \"Operation Atlantic,\" designed to stop crypto fraud schemes and approval phishing campaigns. </li><li>The sprint led to $12 million… [+3054 chars]"
       }
     ]
   }
