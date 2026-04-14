@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T20:09:05.581Z",
+  "timestamp": "2026-04-14T21:56:29.728Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Crypto.com Reveals $1 Million in CRO Fighter Bonuses for White House UFC Fight",
+        "description": "The crypto exchange will distribute a record $1 million Cronos (CRO) fighter bonus pool at the upcoming UFC fight at the White House.",
+        "url": "https://decrypt.co/364214/crypto-com-1-million-cro-fighter-bonuses-white-house-ufc-fight",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/White-House-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-04-13T21:31:02Z",
+        "content": "In brief\r\n<ul><li>Crypto.com will co-present UFC Freedom 250 at the White House on June 14, marking America's 250th birthday.</li><li>The exchange is creating a $1 million bonus pool in CRO tokens fo… [+2732 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Has Hit The Last Bull Trap, But The Accumulation Level Lies Much Lower",
+        "description": "A crypto analyst has announced that Bitcoin (BTC) has hit its last bull trap, signaling that the price of the flagship cryptocurrency could fall much further before a potential reversal begins. The analyst has shared a chart highlighting key accumulation area…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-hit-last-bull-trap/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-39.jpg?fit=1280%2C848",
+        "publishedAt": "2026-04-13T21:00:24Z",
+        "content": "A crypto analyst has announced that Bitcoin (BTC) has hit its last bull trap, signaling that the price of the flagship cryptocurrency could fall much further before a potential reversal begins. The a… [+2663 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,45 +498,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-2865892_1280.jpg?fit=1280%2C853",
         "publishedAt": "2026-04-11T11:00:47Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Ethereum Steals The Spotlight As Capital Moves Away From Bitcoin",
-        "description": "Ethereum’s growing base of active users may be one reason investors are putting more money into it — and less into Bitcoin. Related Reading: Cardano In Danger Zone? Trader Drops ‘Time Bomb’ Claim Exchange Outflows Point To A Shift In Holding Behavior Data fro…",
-        "url": "http://www.newsbtc.com/ethereum-news/ethereum-steals-the-spotlight-as-capital-moves-away-from-bitcoin/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ethereum-logo-in-the-spotlight-dramatic-stage-ligh-1.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-04-11T09:30:55Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin 23 Bar Theory: What Happens To The BTC Price If The Bottom Is In?",
-        "description": "Over the years, there have been different metrics, technicals, and ways in which investors have tried to predict the Bitcoin price bottom with each bear market. Some of these have reportedly done so with some accuracy, while others have seen a deviation. Rece…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-23-bar-theory-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-18-2026-08_15_49-AM.png?fit=1111%2C740",
-        "publishedAt": "2026-04-11T08:30:05Z",
-        "content": "Over the years, there have been different metrics, technicals, and ways in which investors have tried to predict the Bitcoin price bottom with each bear market. Some of these have reportedly done so … [+2263 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Shares ‘Realistic’ Ethereum Price Targets For The Next 3 Years",
-        "description": "Crypto analyst Crypto Patel has shared realistic targets that the Ethereum price can reach in the next bull run. The analyst matched potential market caps to those of popular U.S. companies, noting that Ethereum has gone mainstream and could go head-to-head w…",
-        "url": "http://www.newsbtc.com/news/ethereum/realistic-ethereum-targets/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-iStock-7.jpg?fit=612%2C408",
-        "publishedAt": "2026-04-11T00:00:44Z",
-        "content": "Crypto analyst Crypto Patel has shared realistic targets that the Ethereum price can reach in the next bull run. The analyst matched potential market caps to those of popular U.S. companies, noting t… [+2389 chars]"
       }
     ]
   }
