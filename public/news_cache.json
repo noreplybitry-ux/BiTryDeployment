@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T12:01:24.111Z",
+  "timestamp": "2026-04-14T14:53:06.025Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Relentless Sellers, War Volatility Keep Bitcoin Down",
+        "description": "Bitcoin fell over the weekend as Iran negotiations failed and sell pressure persists, while Morgan Stanley signaled growing crypto ambitions.",
+        "url": "https://decrypt.co/364107/morning-minute-relentless-sellers-war-volatility-keep-bitcoin-down",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
+        "publishedAt": "2026-04-13T14:05:31Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+9876 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin holds above $70K support as geopolitical tensions weigh on market sentiment",
+        "description": "Key takeaways BTC is down 1% in the last 24 hours and is now trading below $71,000. The ongoing geopolitical tensions and the inflation fears continue to weigh on market sentiments.  Bitcoin (BTC) is starting the week on shaky ground, hovering near the critic…",
+        "url": "https://coinjournal.net/news/bitcoin-holds-above-70k-support-as-geopolitical-tensions-weigh-on-market-sentiment/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/03/Bitcoin-price-drops-as-Iran-conflict-escalates.png",
+        "publishedAt": "2026-04-13T12:42:35Z",
+        "content": "Key takeaways\r\n<ul><li>BTC is down 1% in the last 24 hours and is now trading below $71,000.</li><li>The ongoing geopolitical tensions and the inflation fears continue to weigh on market sentiments. … [+2654 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1ee17e1310c5c6829bf97b25a87741f3300a9b59-3200x2133.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-10T12:48:41Z",
         "content": "Binance offered its staff in the United Arab Emirates the option to temporarily relocate to Hong Kong, Tokyo, Kuala Lumpur and Bangkok amid regional tensions, the company told CoinDesk Friday.\r\nGiven… [+2023 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Institutions' bitcoin positioning lacks conviction; CPI, Iran talks might help",
-        "description": "Institutions are betting on the bitcoin price hitting $80,000 through call options, but they are also buying downside protection.",
-        "url": "https://www.coindesk.com/daybook-us/2026/04/10/institutions-bitcoin-positioning-lacks-conviction-cpi-iran-talks-might-help",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/177293196d1f1a2e6bdf7bb9984e72e3943ef8a6-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-10T11:29:59Z",
-        "content": "Bitcoin's BTC\r\n$72,138.28 price may have rallied almost 7% since Sunday, but conviction remains weak, with the recovery stalling near $72,000 ahead of key binary risks, including Fridays U.S. inflati… [+3468 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Japan approves bill to classify crypto as financial assets",
-        "description": "Cryptocurrencies now fall under Japan’s securities-style financial laws. Insider trading rules and stricter disclosures will apply. Lower taxes may boost investor and institutional participation. Japan has taken a major step in reshaping how it treats cryptoc…",
-        "url": "https://coinjournal.net/news/japan-approves-bill-to-recognise-cryptocurrencies-as-financial-assets/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/Tokyo-skyline-at-sunset-with-Bitcoin.png",
-        "publishedAt": "2026-04-10T10:46:49Z",
-        "content": "<ul><li>Cryptocurrencies now fall under Japan’s securities-style financial laws.</li><li>Insider trading rules and stricter disclosures will apply.</li><li>Lower taxes may boost investor and institut… [+4604 chars]"
       }
     ]
   }
