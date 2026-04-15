@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-15T17:13:02.205Z",
+  "timestamp": "2026-04-15T19:26:59.540Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 25,
     "articles": [
       {
         "source": {
@@ -329,45 +329,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8649-f471-7edf-837b-9f3760afd993.jpg",
         "publishedAt": "2026-04-13T11:06:51Z",
         "content": "Cryptocurrency investment products clocked significant inflows last week, marking their strongest weekly gains since January.\r\nGlobal crypto exchange-traded products (ETPs) logged $1.1 billion in inf… [+2286 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Oil price surges 8% on Iran: Five things to know in Bitcoin this week",
-        "description": "Bitcoin preserved $70,000 at the weekly close as markets began reacting to a breakdown in US-Iran negotiations and blockade of the Strait of Hormuz.",
-        "url": "https://cointelegraph.com/markets/oil-price-surges-8percent-iran-five-things-bitcoin-this-week",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d85c5-666c-7a12-af0e-95aeee8d2936.jpg",
-        "publishedAt": "2026-04-13T08:47:32Z",
-        "content": "Bitcoin (BTC) starts the third week of April on a knife edge as the US-Iran war makes a comeback.\r\n<ul><li>A breakdown in US-Iran negotiations sends oil surging above $100 per barrel, with the Strait… [+8097 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Bulls Must Hold This Level Or Price Could Crash To $65,000 Again",
-        "description": "Over the last week, the Bitcoin bulls looked to have taken control of the price, eventually pushing it back above $73,000 again. There has been a slowdown since then, with bears trying to retest the $70,000 level over the weekend. For now, the bulls are still…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bulls-must-hold-65000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-bulls-charge-through-flames.png?fit=1536%2C1024",
-        "publishedAt": "2026-04-13T07:00:50Z",
-        "content": "Over the last week, the Bitcoin bulls looked to have taken control of the price, eventually pushing it back above $73,000 again. There has been a slowdown since then, with bears trying to retest the … [+2313 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Alameda moves $16 million in Solana's SOL token for possible creditor distribution",
-        "description": "Alameda unstakes $16 million worth of Solana's SOL token, according to Arkham.",
-        "url": "https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2ed84b2e67185c91def23615bb78ff0e770a2dd7-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-13T06:58:56Z",
-        "content": "Bankrupt crypto exchange FTX's sister company Alameda Research \"unstaked\" roughly $16 million worth of Solana's SOL token and moved the same to an address linked to creditor repayments, according to … [+1559 chars]"
       }
     ]
   }
