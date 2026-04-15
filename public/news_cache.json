@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-15T22:56:14.106Z",
+  "timestamp": "2026-04-15T23:52:28.082Z",
   "data": {
     "status": "ok",
     "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin shows ‘bull market behavior’ as chart pattern targets $90K",
+        "description": "Bitcoin briefly rallied above $76,000 as technical charts and new network data prove investors are returning to the market. Is $90,000 next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-shows-bull-market-behavior-as-chart-pattern-targets-dollar90k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8d23-a341-736d-a703-c56daae14e2c.jpg",
+        "publishedAt": "2026-04-14T23:15:00Z",
+        "content": "Market analysts say Bitcoin (BTC) is showing renewed bullish momentum after its 5% rally above $76,000 on Tuesday, with bulls eyeing further gains to $90,000 amid improving network activity.\r\nBitcoin… [+3524 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +329,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8639-5307-72e5-8524-7426425c8b92.jpg",
         "publishedAt": "2026-04-13T11:49:35Z",
         "content": "South Koreas Financial Supervisory Service (FSS) said Monday that API-based trading now accounts for about 30% of crypto buy-and-sell turnover, warning that some traders are using automated tools to … [+2742 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Crypto ETPs see $1.1B inflows, strongest gains since January",
-        "description": "Crypto ETPs recorded $1.1 billion in inflows last week, led by Bitcoin and US spot ETFs, as easing US inflation data and geopolitical tensions supported demand.",
-        "url": "https://cointelegraph.com/news/crypto-etp-1-1-billion-inflows-strongest-gains-january",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8649-f471-7edf-837b-9f3760afd993.jpg",
-        "publishedAt": "2026-04-13T11:06:51Z",
-        "content": "Cryptocurrency investment products clocked significant inflows last week, marking their strongest weekly gains since January.\r\nGlobal crypto exchange-traded products (ETPs) logged $1.1 billion in inf… [+2286 chars]"
       }
     ]
   }
