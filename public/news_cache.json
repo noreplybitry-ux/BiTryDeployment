@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-15T03:19:18.636Z",
+  "timestamp": "2026-04-15T06:03:59.733Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Knocks on $88, Bulls Aim for $100 Rally",
+        "description": "Solana started a fresh increase above the $85 zone. SOL price is now consolidating near $87 and might aim for more gains above the $90 zone. SOL price started a fresh upward move above the $82 and $85 levels against the US Dollar. The price is now trading abo…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-knocks-on-88/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Knocks-on-88-Bulls-Aim-for-100-Rally.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-14T04:48:28Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7d84-d4d8-783a-92a7-0fbca752f3aa.jpg",
         "publishedAt": "2026-04-11T19:33:32Z",
         "content": "Key takeaways:\r\n<ul><li>Bitcoin orderbook depth has plummeted by 50% since September 2025, signaling a substantial decline in overall market liquidity.\r\n</li><li>Indicators suggest that the current m… [+4064 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Is About To Go ‘Parabolic’ – Analyst Signals Golden Triangle Formation",
-        "description": "An analyst on X has made a bold call on Ethereum, stating that the asset is on the verge of a parabolic move. The claim is based on a golden triangle formation on the chart, a setup that shows a breakout could be approaching for the leading altcoin. This appr…",
-        "url": "http://www.newsbtc.com/altcoin/ethereum-is-about-to-go-parabolic-analyst-signals-golden-triangle-formation/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-11T19:30:09Z",
-        "content": "An analyst on X has made a bold call on Ethereum, stating that the asset is on the verge of a parabolic move. The claim is based on a golden triangle formation on the chart, a setup that shows a brea… [+2793 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price analysis sees new short squeeze as open interest nears $25B",
-        "description": "Bitcoin open interest hit five-week highs while funding rates mimicked the BTC price collapse below $60,000, leading analysis to predict a new short squeeze.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-new-short-squeeze-as-open-interest-nears-25b",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d7d5f-c38a-7815-b967-1eceddc9af3a.jpg",
-        "publishedAt": "2026-04-11T18:28:22Z",
-        "content": "Bitcoin (BTC) is due a classic short squeeze as open interest hits five-week highs, says new analysis.\r\nKey points:\r\n<ul><li>Bitcoin is seeing a combination of rising open interest and negative fundi… [+3357 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Flashes ‘Dangerous’ Macro Fractal – What To Expect For Price",
-        "description": "Bitcoin’s weekly chart is showing an uncomfortable comparison to one of the most brutal sell-offs in its history, and at least one analyst believes the worst may still be ahead.  This technical outlook is looking at the current price action as a mirror of the…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-flashes-dangerous-macro-fractal-what-to-expect-for-price/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_8fdd44.jpg?fit=5375%2C3583",
-        "publishedAt": "2026-04-11T17:30:01Z",
-        "content": "Bitcoin’s weekly chart is showing an uncomfortable comparison to one of the most brutal sell-offs in its history, and at least one analyst believes the worst may still be ahead. \r\nThis technical outl… [+2630 chars]"
       }
     ]
   }
