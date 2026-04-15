@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-15T13:59:43.245Z",
+  "timestamp": "2026-04-15T15:17:04.730Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Why Cantor Fitzgerald thinks Robinhood and Coinbase are the best ways to play the prediction market boom",
+        "description": "Cantor Fitzgerald says Robinhood and Coinbase are best positioned to dominate the prediction market space by leveraging their massive retail scale and existing trading infrastructure.",
+        "url": "https://www.coindesk.com/markets/2026/04/14/why-cantor-fitzgerald-thinks-robinhood-and-coinbase-are-the-best-ways-to-play-the-prediction-market-boom",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ee105911333cdb90a0ec47d96b2e0799b4722450-8192x5464.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-14T14:17:02Z",
+        "content": "Trading venues Robinhood (HOOD) and Coinbase (COIN) could emerge as the main public-market beneficiaries of the rapid rise in prediction markets, according to a new report from Cantor Fitzgerald.\r\nTh… [+2930 chars]"
+      },
       {
         "source": {
           "id": null,
