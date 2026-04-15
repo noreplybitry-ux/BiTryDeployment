@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-15T10:21:15.055Z",
+  "timestamp": "2026-04-15T11:59:09.819Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Hope For Iran Deal Sparks Risk-On Rally, Bitcoin Nears $75K",
+        "description": "A wave of forced liquidations swept through crypto markets on Tuesday as traders who had bet against Bitcoin and Ether were caught off guard by a sharp price surge tied to hopes of a US-Iran agreement. Related Reading: Dollar’s Shrinking Value Adds Fuel To XR…",
+        "url": "http://www.newsbtc.com/news/bitcoin/hope-for-iran-deal-sparks-risk-on-rally-bitcoin-nears-75k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_049b4e.jpg?fit=3790%2C2547",
+        "publishedAt": "2026-04-14T11:30:45Z",
+        "content": "A wave of forced liquidations swept through crypto markets on Tuesday as traders who had bet against Bitcoin and Ether were caught off guard by a sharp price surge tied to hopes of a US-Iran agreemen… [+2503 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley",
+        "title": "Deutsche Börse takes 1.5% stake in crypto exchange Kraken for $200 million",
+        "description": "Deutsche Börse teamed up with Kraken last December to bridge traditional and digital markets and help expedite institutional cryptocurrency adoption in Europe.",
+        "url": "https://www.coindesk.com/business/2026/04/14/deutsche-boerse-takes-1-5-stake-in-crypto-exchange-kraken-for-usd200-million",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c2d1d6c9e47c3db1e4becaf1739fb8dce590d3b-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-14T10:51:02Z",
+        "content": "Deutsche Börse (DB1), the owner of Frankfurt Stock Exchange and Xetra, took a $200 million stake in crypto exchange Kraken's parent Payward Inc., equivalent to a 1.5% stake in the company.\r\nThe trans… [+1467 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Oliver Knight, Omkar Godbole",
+        "title": "Bitcoin tests $75,000 as $200 million in shorts face liquidation risk",
+        "description": "Bitcoin price approaches $75,000 level with $200 million in shorts at risk of liquidation, rising open interest and shifting volatility dynamics in focus.",
+        "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-tests-usd75-000-as-usd200-million-in-shorts-face-liquidation-risk",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/83299b0f1b2743ee2c07c6cc358a814cd8734c91-2140x1126.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-14T10:30:00Z",
+        "content": "Bitcoin BTC\r\n$74,421.88 is pressing up against $75,000, a price it has repeatedly failed to surpass since early February, putting the broader crypto market on breakout watch after more than two month… [+3425 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,84 +381,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d850b-005b-731f-b515-bb99b931c7f0.jpg",
         "publishedAt": "2026-04-13T04:56:47Z",
         "content": "Bitcoin mining runs the risk of becoming more centralized as time goes on, while artificial intelligence could be moving in the opposite direction, according to Galaxy Research head Alex Thorn.\r\nThor… [+2725 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Slips Below Support, Bears Seize Momentum",
-        "description": "Ethereum price started a fresh decline and traded below $2,250. ETH is now consolidating above $2,175 and might struggle to recover. Ethereum started a downside correction from the $2,330 zone. The price is trading below $2,220 and the 100-hourly Simple Movin…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-slips-below-2200/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Slips-Below-Support-Bears-Seize-Momentum.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-13T03:58:43Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,250. ETH is now consolidating above $2,175 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction from the $2,330 zo… [+2084 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price at Risk Again as Peace Talks Collapse, Downside Looms",
-        "description": "Bitcoin price started a fresh decline from the $73,800 zone. BTC is consolidating and might struggle to stay above the $70,500 support. Bitcoin failed to stay above $72,500 and corrected gains. The price is trading below $72,000 and the 100 hourly simple movi…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-at-risk-again-70500/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-at-Risk-Again.jpg",
-        "publishedAt": "2026-04-13T02:38:47Z",
-        "content": "Bitcoin price started a fresh decline from the $73,800 zone. BTC is consolidating and might struggle to stay above the $70,500 support.\r\n<ul><li>Bitcoin failed to stay above $72,500 and corrected gai… [+2092 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price falls under $71K as US-Iran war tensions spark sell-off",
-        "description": "Bitcoin price sold off as negotiations to end the US-Iran war broke down and the Strait of Hormuz returned to the spotlight.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-under-dollar71k-as-us-iran-war-tensions-spark-sell-off",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8235-4d36-7af8-8428-4f9d09579e56.jpg",
-        "publishedAt": "2026-04-12T19:56:12Z",
-        "content": "Bitcoin (BTC) fell 3% to trade below $71,000 into Sundays weekly close after negotiations to end the US-Iran war broke down.\r\nKey points:\r\n<ul><li>Bitcoin shed its gains as negotiations between the U… [+3693 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Supply Map Reveals Key Support And Resistance Zones – Analyst",
-        "description": "According to market analyst Darkfost, Bitcoin’s price-based supply distribution is revealing critical zones that could define the asset’s near-term trajectory. This latest piece of important on-chain data is offering a clearer picture of where the market may …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-supply-map-reveals-key-support-and-resistance-zones-analyst/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-stack-golden-btc-cryptocurrency-600nw-2497564833.jpg?fit=900%2C675",
-        "publishedAt": "2026-04-12T16:00:09Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Poised For Bullish Breakout—But Only If This Key Condition Is Met",
-        "description": "Bitcoin traded as high as $73,000 following a 9% price rally in the past week. However, the broader market suggests the leading cryptocurrency is still stuck in a bear phase that’s been dragging on for more than six months. Interestingly, historical data sugg…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-poised-for-bullish-breakout-but-only-if-this-key-condition-is-met/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/stack-bitcoin-cryptocurrency-coins_1308-182297.jpg?fit=1200%2C543",
-        "publishedAt": "2026-04-12T12:00:31Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Binance Data Shows Aggressive XRP Accumulation — Breakout Next?",
-        "description": "The XRP price wasn’t particularly impressive over the past week, despite a bullish momentum into the crypto market. According to the latest on-chain data, the altcoin might be about to put this period of sluggish price action behind it, with a potential break…",
-        "url": "http://www.newsbtc.com/xrp-news/binance-data-reveals-aggressive-xrp-accumulation/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/2026-04-12-00.05.03.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-12T09:00:29Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
       }
     ]
   }
