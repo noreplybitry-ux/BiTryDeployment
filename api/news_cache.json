@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-14T23:50:32.768Z",
+  "timestamp": "2026-04-15T03:19:18.636Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Rockets 8%, Can Bulls Smash Through $2,400?",
+        "description": "Ethereum price started a fresh surge and traded above $2,350. ETH is now consolidating and might aim for more gains above $2,400. Ethereum started a steady increase from the $2,180 zone. The price is trading above $2,350 and the 100-hourly Simple Moving Avera…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rockets-2400/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Rockets-8.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-14T03:18:43Z",
+        "content": "Ethereum price started a fresh surge and traded above $2,350. ETH is now consolidating and might aim for more gains above $2,400.\r\n<ul><li>Ethereum started a steady increase from the $2,180 zone.</li… [+2133 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Smashes $74K Barrier, Rally Gains Strong Traction",
+        "description": "Bitcoin price started a fresh surge and cleared the $73,800 zone. BTC is consolidating and might aim for more gains above the $75,000 level. Bitcoin managed to stay above $72,000 and started a fresh increase. The price is trading above $74,000 and the 100 hou…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-smashes-74k-barrier/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Smashes-74K-Barrier-Rally-Gains-Strong-Traction.jpg",
+        "publishedAt": "2026-04-14T02:32:22Z",
+        "content": "Bitcoin price started a fresh surge and cleared the $73,800 zone. BTC is consolidating and might aim for more gains above the $75,000 level.\r\n<ul><li>Bitcoin managed to stay above $72,000 and started… [+2197 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,71 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_8fdd44.jpg?fit=5375%2C3583",
         "publishedAt": "2026-04-11T17:30:01Z",
         "content": "Bitcoin’s weekly chart is showing an uncomfortable comparison to one of the most brutal sell-offs in its history, and at least one analyst believes the worst may still be ahead. \r\nThis technical outl… [+2630 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun, AI Boost",
-        "title": "The crypto honeymoon is over for now as analysts warn of a major first-quarter profit squeeze",
-        "description": "Several major investment firms have preemptively downgraded Coinbase and other platforms as a sharp drop in trading activity and falling token prices threaten to derail upcoming first-quarter earnings results.",
-        "url": "https://www.coindesk.com/markets/2026/04/11/the-crypto-honeymoon-is-over-for-now-as-analysts-warn-of-a-major-first-quarter-profit-squeeze",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/41fba73aa2a6d555b22a8525b287f3dd87350b4d-6655x4437.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-11T17:00:00Z",
-        "content": "Crypto trading has cooled in early 2026, and Wall Street analysts are racing to adjust their forecasts before companies report first-quarter earnings.\r\nNew research from Barclays and Oppenheimer show… [+4099 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "'Not Going to Stop at Bitcoin': Morgan Stanley Weighs Tokenization, Tax Solutions in Crypto Push",
-        "description": "Morgan Stanley’s Amy Oldenburg signaled that the Wall Street giant’s crypto journey has a long way to go.",
-        "url": "https://decrypt.co/364030/not-going-stop-bitcoin-morgan-stanley-weighs-tokenization-tax-solutions",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png",
-        "publishedAt": "2026-04-11T16:33:12Z",
-        "content": "In brief\r\n<ul><li>Amy Oldenburg, head of digital-asset strategy at Morgan Stanley, sees a tokenized money-market fund as a natural path forward for its crypto roadmap.</li><li>Whats more, the investm… [+3631 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin’s $73K Rally Driven By US Investors, Analyst Says",
-        "description": "The Bitcoin price went into the weekend firing on all cylinders after the release of weaker-than-expected inflation data in the United States. Interestingly, an analyst has come forward with data and a fresh angle on the influence of the US on BTC and the gen…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-73k-rally-us-investors-major-driver/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/iStock-1310459406-1.jpg?fit=1257%2C835",
-        "publishedAt": "2026-04-11T15:30:15Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Reclaims $73,000 Mark But Traders Remain Unconvinced – Details",
-        "description": "In the past week, the Bitcoin market rose by almost 10%, representing a significant rally amid recent bearish struggles. Notably, the leading cryptocurrency has now reclaimed the $73,000 price zone for the first time since mid-March, translating to a mild bul…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-reclaims-73000-mark-but-traders-remain-unconvinced-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-2868703_1280.jpg?fit=1280%2C848",
-        "publishedAt": "2026-04-11T14:30:54Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Surges 10% In A Week: Key Levels To Watch",
-        "description": "The Bitcoin price surged past $73,000 in the past week, indicating an improved investor risk appetite despite the overwhelming sentiment. This recent rally has been attributed to several factors, but most notably the announcement of a temporary ceasefire in t…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-surges-10-in-a-week-key-levels-to-watch/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-2865892_1280.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-11T11:00:47Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       }
     ]
   }
