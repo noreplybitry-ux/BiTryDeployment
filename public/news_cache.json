@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-15T11:59:09.819Z",
+  "timestamp": "2026-04-15T13:59:43.245Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Deutsche Börse acquires 1.5% stake in Kraken crypto exchange",
+        "description": "Deutsche Börse invests $200M for a 1.5% stake in Kraken. The deal strengthens an already existing partnership that was first announced in late 2025. Focus is on building a unified financial infrastructure. Deutsche Börse has taken a 1.5% stake worth $200 mill…",
+        "url": "https://coinjournal.net/news/deutsche-borse-acquires-1-5-stake-in-kraken-crypto-exchange/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/Deutsche-Borse-and-Kraken-buildings-side-by-side.png",
+        "publishedAt": "2026-04-14T13:00:30Z",
+        "content": "<ul><li>Deutsche Börse invests $200M for a 1.5% stake in Kraken.</li><li>The deal strengthens an already existing partnership that was first announced in late 2025.</li><li>Focus is on building a uni… [+3538 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Bitcoin is closing in on $75,000 and analysts say a breakout could trigger a massive new rally",
+        "description": "Several crypto market experts including Mati Greenspan, former senior eToro market analyst, explain what might happen if bitcoin manages to hold $75,000 and if it does not.",
+        "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-hits-usd75-000-for-first-time-since-early-february-but-will-it-hold-and-what-it-means-if-it-does",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f62ed2bf92f721139b7c5aa523214c3e41bf66ef-4000x3000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-14T12:38:40Z",
+        "content": "Bitcoins approach toward $75,000 is drawing increased attention from analysts, who told CoinDesk the level could mark a key shift in the markets current rangebound structure.\r\nA clean break above $75… [+4511 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,58 +355,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2ed84b2e67185c91def23615bb78ff0e770a2dd7-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-13T06:58:56Z",
         "content": "Bankrupt crypto exchange FTX's sister company Alameda Research \"unstaked\" roughly $16 million worth of Solana's SOL token and moved the same to an address linked to creditor repayments, according to … [+1559 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Institutions are in a crypto bull market as retail sits out: Exodus CEO",
-        "description": "Institutions are driving crypto’s bull run while retail activity hits a nine-year low on Binance amid cost-of-living pressures and macro uncertainty.",
-        "url": "https://cointelegraph.com/news/institutions-are-in-a-bull-market-and-retail-hasn-t-even-noticed-yet-exec",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d854c-afb9-72c9-a708-e6e631fbdfed.jpg",
-        "publishedAt": "2026-04-13T06:02:22Z",
-        "content": "Financial institutions have accelerated their participation in crypto markets this year, while retail investors have pulled out, said Exodus CEO JP Richardson on Sunday. \r\nThis might be the first cyc… [+2420 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "Musician loses $420K Bitcoin 'retirement fund' via fake Ledger app",
-        "description": "American musician Garrett Dutton said he lost his $420,000 Bitcoin “retirement fund” after downloading a fake Ledger app from Apple’s App Store and giving his seed phrase away.",
-        "url": "https://cointelegraph.com/news/musician-loses-420k-bitcoin-retirement-fund-after-installing-fake-ledger-app",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8584-a6d1-7ea0-a93a-09d25443f374.jpg",
-        "publishedAt": "2026-04-13T05:56:49Z",
-        "content": "Garrett Dutton, an American musician better known as G. Love, said he lost $420,000 worth of Bitcoin after installing a malicious app impersonating the self-custody crypto app Ledger Live from Apples… [+1848 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Retreats, Can Bulls Reclaim Upside Momentum?",
-        "description": "Dogecoin started a fresh decline below the $0.0930 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.0925 and $0.0938. DOGE price started a fresh decline below the $0.0930 level. The price is trading below the $0.0920…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-retreats-0-0920/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Retreats.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-13T05:08:00Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Bitcoin mining and AI may be on opposite decentralization paths: Reseacher",
-        "description": "Bitcoin mining is much more centralized than how it began, while AI may decentralize via edge computing, per Galaxy Research and Grand View Research data.",
-        "url": "https://cointelegraph.com/news/edge-computing-decentralize-ai-bitcoin-mining-centralizes",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d850b-005b-731f-b515-bb99b931c7f0.jpg",
-        "publishedAt": "2026-04-13T04:56:47Z",
-        "content": "Bitcoin mining runs the risk of becoming more centralized as time goes on, while artificial intelligence could be moving in the opposite direction, according to Galaxy Research head Alex Thorn.\r\nThor… [+2725 chars]"
       }
     ]
   }
