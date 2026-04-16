@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-16T10:20:44.799Z",
+  "timestamp": "2026-04-16T12:01:52.389Z",
   "data": {
     "status": "ok",
     "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vismaya V",
+        "title": "Virginia Governor Signs Law Protecting Dormant Crypto From Forced Liquidation",
+        "description": "The legislation ensures unclaimed digital assets are held in their native form for at least one year before the state can move to sell them.",
+        "url": "https://decrypt.co/364426/virginia-governor-signs-law-protecting-dormant-crypto-from-forced-liquidation",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/cryptocurrency-world-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-04-15T11:13:03Z",
+        "content": "In brief\r\n<ul><li>Virginia's HB 798 extends unclaimed property rules to cover digital assets.</li><li>The law bars the state from liquidating dormant crypto for at least one year after delivery.</li>… [+3934 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,19 +303,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-39.jpg?fit=1280%2C848",
         "publishedAt": "2026-04-13T21:00:24Z",
         "content": "A crypto analyst has announced that Bitcoin (BTC) has hit its last bull trap, signaling that the price of the flagship cryptocurrency could fall much further before a potential reversal begins. The a… [+2663 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/13: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA",
-        "description": "Bitcoin and altcoin charts highlight growing strength across the industry. Will geopolitics and US economic health concerns stand in the way of the rally?",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-13-spx-dxy-btc-eth-bnb-xrp-sol-doge-hype-ada",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d87ab-3434-7ec8-8884-4a258b2f81b7.jpg",
-        "publishedAt": "2026-04-13T20:00:00Z",
-        "content": "Bitcoin (BTC) reclaimed the $72,000 level as bulls attempt to push the price closer to its multi-month range highs. While lower levels are attracting buyers, sustaining the higher levels might pose a… [+8380 chars]"
       }
     ]
   }
