@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-16T18:11:41.904Z",
+  "timestamp": "2026-04-16T20:03:25.133Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/15: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
+        "description": "A Bitcoin daily candlestick close above $76,000 would complete a bullish trend reversal and shift the bulls’ short-term price target to $84,000. Will altcoins follow the rally?",
+        "url": "https://cointelegraph.com/markets/price-predictions-4-15-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9214-0a90-763c-9ec9-176f9a36af03.jpg",
+        "publishedAt": "2026-04-15T18:51:43Z",
+        "content": "Key points:\r\n<ul><li>Bitcoins shallow pullback from the $76,000 resistance suggests that buyers are holding onto their positions, expecting the recovery to continue.\r\n</li><li>Select major altcoins a… [+8420 chars]"
+      },
       {
         "source": {
           "id": null,
