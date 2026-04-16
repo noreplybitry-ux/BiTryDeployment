@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-16T15:00:42.712Z",
+  "timestamp": "2026-04-16T16:46:34.886Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 22,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Tricia Gallagher, Francisco Rodrigues",
+        "title": "Crypto Long & Short: Fighting fraud in the digital age: why state-led identity is the future",
+        "description": "In this week’s Crypto Long & Short Newsletter, Tricia Gallagher writes how the fix for broken digital identity systems will need to be state-led and user-controlled.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/04/15/crypto-long-and-short-fighting-fraud-in-the-digital-age-why-state-led-identity-is-the-future",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/af5d3a2f14c5d8ab892fa58a445b272f2f7f1f88-5963x3975.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-15T16:00:44Z",
+        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Tricia Gallagher on how the fix for broken digital identity systems will need to be state-led and user-controlled… [+6589 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -277,32 +290,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bfb4779e9245468a88a2a948bb0e1677ae7e7858-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-14T08:49:36Z",
         "content": "Bitcoin BTC\r\n$74,666.25 analysts sounded bullish early this week and the market is proving them right. The cryptocurrency's price has hit four-week highs above $74,000.\r\nAs the rally continues, sever… [+3270 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Knocks on $88, Bulls Aim for $100 Rally",
-        "description": "Solana started a fresh increase above the $85 zone. SOL price is now consolidating near $87 and might aim for more gains above the $90 zone. SOL price started a fresh upward move above the $82 and $85 levels against the US Dollar. The price is now trading abo…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-knocks-on-88/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Knocks-on-88-Bulls-Aim-for-100-Rally.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-14T04:48:28Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Rockets 8%, Can Bulls Smash Through $2,400?",
-        "description": "Ethereum price started a fresh surge and traded above $2,350. ETH is now consolidating and might aim for more gains above $2,400. Ethereum started a steady increase from the $2,180 zone. The price is trading above $2,350 and the 100-hourly Simple Moving Avera…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rockets-2400/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Rockets-8.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-14T03:18:43Z",
-        "content": "Ethereum price started a fresh surge and traded above $2,350. ETH is now consolidating and might aim for more gains above $2,400.\r\n<ul><li>Ethereum started a steady increase from the $2,180 zone.</li… [+2133 chars]"
       }
     ]
   }
