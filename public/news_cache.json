@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-04-15T23:52:28.082Z",
+  "timestamp": "2026-04-16T03:27:58.716Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Rejected at $2,400, Is Another Breakout Attempt Coming?",
+        "description": "Ethereum price started a fresh surge and traded above $2,365. ETH is now consolidating and might aim for more gains if it clears $2,400. Ethereum started a steady increase above the $2,220 zone. The price is trading above $2,300 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rejected-at-2400/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Rejected-at-2400.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-15T03:08:51Z",
+        "content": "Ethereum price started a fresh surge and traded above $2,365. ETH is now consolidating and might aim for more gains if it clears $2,400.\r\n<ul><li>Ethereum started a steady increase above the $2,220 z… [+2045 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Price Has Not Reached Its Real Bottom, And A ‘Big Storm’ Is Coming",
+        "description": "While others argue that the Bitcoin price has already found its bottom and could be gearing up for a bullish reversal, one crypto analyst has rejected these claims, expecting further downside instead. According to Marmot, a crypto expert on X, Bitcoin has not…",
+        "url": "http://www.newsbtc.com/news/bitcoin/no-bitcoin-real-bottom-yet/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-6.jpg?fit=960%2C640",
+        "publishedAt": "2026-04-15T02:30:13Z",
+        "content": "While others argue that the Bitcoin price hasalready found its bottom and could be gearing up for a bullish reversal, one crypto analyst has rejected these claims, expecting further downside instead.… [+2836 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Cools Off, Bulls Prepare for Next Leg Higher",
+        "description": "Bitcoin price started a fresh surge and cleared the $74,200 zone. BTC is consolidating and might aim for more gains above the $75,500 level. Bitcoin managed to stay above $73,200 and started a fresh increase. The price is trading above $74,200 and the 100 hou…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-cools-off-74k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Cools-Off-Bulls-Prepare-for-Next-Leg-Higher.jpg",
+        "publishedAt": "2026-04-15T02:23:49Z",
+        "content": "Bitcoin price started a fresh surge and cleared the $74,200 zone. BTC is consolidating and might aim for more gains above the $75,500 level.\r\n<ul><li>Bitcoin managed to stay above $73,200 and started… [+2197 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Bitcoin Price Breaks Higher: What The Market Data Says Could Happen Next",
+        "description": "The Bitcoin price is bouncing back strongly amid growing hopes for a potential shift in the standoff between the US and Iran. So far, BTC has gained roughly 10% in the weekly time frame. This pushed the asset back toward the $76,000 area and briefly marked a …",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-breaks-higher-what-the-market-data-says-could-happen-next/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_HW6wNnl5_1776179982981_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-04-15T01:00:41Z",
+        "content": "The Bitcoin price is bouncing back strongly amid growing hopes for a potential shift in the standoff between the US and Iran. So far, BTC has gained roughly 10% in the weekly time frame. This pushed … [+2985 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,45 +342,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/07/istockphoto-BTC-17.jpg?fit=612%2C381",
         "publishedAt": "2026-04-13T15:00:36Z",
         "content": "Bitcoin price may be showing signs of holding steady, but that alone does not confirm a bottom is in place. A recent post by crypto analyst @CryptoTice_ argues that the current market phase does not … [+2896 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Relentless Sellers, War Volatility Keep Bitcoin Down",
-        "description": "Bitcoin fell over the weekend as Iran negotiations failed and sell pressure persists, while Morgan Stanley signaled growing crypto ambitions.",
-        "url": "https://decrypt.co/364107/morning-minute-relentless-sellers-war-volatility-keep-bitcoin-down",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
-        "publishedAt": "2026-04-13T14:05:31Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+9876 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin holds above $70K support as geopolitical tensions weigh on market sentiment",
-        "description": "Key takeaways BTC is down 1% in the last 24 hours and is now trading below $71,000. The ongoing geopolitical tensions and the inflation fears continue to weigh on market sentiments.  Bitcoin (BTC) is starting the week on shaky ground, hovering near the critic…",
-        "url": "https://coinjournal.net/news/bitcoin-holds-above-70k-support-as-geopolitical-tensions-weigh-on-market-sentiment/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/03/Bitcoin-price-drops-as-Iran-conflict-escalates.png",
-        "publishedAt": "2026-04-13T12:42:35Z",
-        "content": "Key takeaways\r\n<ul><li>BTC is down 1% in the last 24 hours and is now trading below $71,000.</li><li>The ongoing geopolitical tensions and the inflation fears continue to weigh on market sentiments. … [+2654 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "South Korea says API crypto trading now makes up 30% of market: Report",
-        "description": "South Korea’s FSS said API trading now makes up 30% of crypto turnover and warned it will crack down on abusive automated trading patterns, local media reported Monday.",
-        "url": "https://cointelegraph.com/news/south-korea-api-crypto-trading-30-percent-manipulation-risk",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8639-5307-72e5-8524-7426425c8b92.jpg",
-        "publishedAt": "2026-04-13T11:49:35Z",
-        "content": "South Koreas Financial Supervisory Service (FSS) said Monday that API-based trading now accounts for about 30% of crypto buy-and-sell turnover, warning that some traders are using automated tools to … [+2742 chars]"
       }
     ]
   }
