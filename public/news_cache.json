@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-16T22:50:33.944Z",
+  "timestamp": "2026-04-16T23:50:02.638Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin Signal That Has Predicted Every Bottom Before A Price Explosion Has Just Triggered Again",
+        "description": "Bitcoin may be approaching another pivotal point in its long-term market cycle, according to a recent analysis shared by crypto analyst @CryptoTice on X. The analyst argues that a time-based signal that historically appeared at major market bottoms has trigge…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-signal-every-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-bottom.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-15T23:00:52Z",
+        "content": "Bitcoin may be approaching another pivotal point in its long-term market cycle, according to a recent analysis shared by crypto analyst @CryptoTice on X. The analyst argues that a time-based signal t… [+3024 chars]"
+      },
       {
         "source": {
           "id": null,
