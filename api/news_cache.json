@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-16T12:01:52.389Z",
+  "timestamp": "2026-04-16T15:00:42.712Z",
   "data": {
     "status": "ok",
     "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "UK FCA seeks feedback on guidance for crypto rules ahead of 2027 rollout",
+        "description": "The UK financial regulator has launched a consultation on crypto rules covering stablecoins, trading and staking ahead of a broader UK crypto regime expected to take effect in 2027.",
+        "url": "https://cointelegraph.com/news/uk-fca-crypto-guidance-consultation-2027-rollout",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9150-6c4d-70ce-8c36-ac4dcdfb3f4c.jpg",
+        "publishedAt": "2026-04-15T14:37:33Z",
+        "content": "The United Kingdoms Financial Conduct Authority (FCA) said Wednesday it is consulting on guidance for the countrys future crypto regime, in the latest step toward a broader framework that is expected… [+2058 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Pakistan lifts seven-year ban, allowing banks to service crypto providers",
+        "description": "Pakistan sent a letter to all banks and financial regulatory firms notifying them that they may provide crypto services,, but remain barred from trading or holding crypto assets.",
+        "url": "https://www.coindesk.com/policy/2026/04/15/pakistan-lifts-seven-year-ban-allowing-banks-to-service-virtual-asset-providers",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c86fca7264b99fb579b158d54ecfbc66b857f78e-10410x5764.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-15T13:01:55Z",
+        "content": "Pakistans central bank notified all banks and financial institutions in the country that the ban on providing crypto services has been lifted.\r\nHowever, according to the new state bank rules, banks a… [+2015 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Ethereum price outlook: ETH faces 6% downside risk if $2,312 breaks",
+        "description": "Ethereum price falls to $2,325 on profit-taking after rising to $2,416. The repeated rejection at $2,360–$2,400 resistance weakens the overall momentum. Breaking below the key support at $2,312 could send ETH toward $2,173. After a rally that pushed Ethereum …",
+        "url": "https://coinjournal.net/news/ethereum-price-outlook-eth-faces-6-downside-risk-if-2312-breaks/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/ethereum.png",
+        "publishedAt": "2026-04-15T12:01:46Z",
+        "content": "<ul><li>Ethereum price falls to $2,325 on profit-taking after rising to $2,416.</li><li>The repeated rejection at $2,360–$2,400 resistance weakens the overall momentum.</li><li>Breaking below the key… [+2800 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -264,45 +303,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Rockets-8.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-14T03:18:43Z",
         "content": "Ethereum price started a fresh surge and traded above $2,350. ETH is now consolidating and might aim for more gains above $2,400.\r\n<ul><li>Ethereum started a steady increase from the $2,180 zone.</li… [+2133 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Smashes $74K Barrier, Rally Gains Strong Traction",
-        "description": "Bitcoin price started a fresh surge and cleared the $73,800 zone. BTC is consolidating and might aim for more gains above the $75,000 level. Bitcoin managed to stay above $72,000 and started a fresh increase. The price is trading above $74,000 and the 100 hou…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-smashes-74k-barrier/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Smashes-74K-Barrier-Rally-Gains-Strong-Traction.jpg",
-        "publishedAt": "2026-04-14T02:32:22Z",
-        "content": "Bitcoin price started a fresh surge and cleared the $73,800 zone. BTC is consolidating and might aim for more gains above the $75,000 level.\r\n<ul><li>Bitcoin managed to stay above $72,000 and started… [+2197 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Crypto.com Reveals $1 Million in CRO Fighter Bonuses for White House UFC Fight",
-        "description": "The crypto exchange will distribute a record $1 million Cronos (CRO) fighter bonus pool at the upcoming UFC fight at the White House.",
-        "url": "https://decrypt.co/364214/crypto-com-1-million-cro-fighter-bonuses-white-house-ufc-fight",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/White-House-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-04-13T21:31:02Z",
-        "content": "In brief\r\n<ul><li>Crypto.com will co-present UFC Freedom 250 at the White House on June 14, marking America's 250th birthday.</li><li>The exchange is creating a $1 million bonus pool in CRO tokens fo… [+2732 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Has Hit The Last Bull Trap, But The Accumulation Level Lies Much Lower",
-        "description": "A crypto analyst has announced that Bitcoin (BTC) has hit its last bull trap, signaling that the price of the flagship cryptocurrency could fall much further before a potential reversal begins. The analyst has shared a chart highlighting key accumulation area…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-hit-last-bull-trap/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-39.jpg?fit=1280%2C848",
-        "publishedAt": "2026-04-13T21:00:24Z",
-        "content": "A crypto analyst has announced that Bitcoin (BTC) has hit its last bull trap, signaling that the price of the flagship cryptocurrency could fall much further before a potential reversal begins. The a… [+2663 chars]"
       }
     ]
   }
