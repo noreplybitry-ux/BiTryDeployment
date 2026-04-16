@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-16T20:03:25.133Z",
+  "timestamp": "2026-04-16T21:51:32.857Z",
   "data": {
     "status": "ok",
     "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Bitcoin Could Rally Toward $78,000—Then Fall To New Lows In Q2, Top Analyst Predicts",
+        "description": "Bitcoin (BTC) is pressing up against a major decision point after failing to break above the $76,000 resistance level. Following consecutive rejections in that area, the cryptocurrency has shifted into consolidation once again.  Bitcoin Set For A ‘Final Push’…",
+        "url": "http://www.newsbtc.com/breaking-news-ticker/bitcoin-could-rally-toward-78000-then-fall-to-new-lows-in-q2-top-analyst-predicts/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_Fwd7Td3U_1776286762000_raw.jpg",
+        "publishedAt": "2026-04-15T21:43:12Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,19 +316,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c2d1d6c9e47c3db1e4becaf1739fb8dce590d3b-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-14T10:51:02Z",
         "content": "Deutsche Börse (DB1), the owner of Frankfurt Stock Exchange and Xetra, took a $200 million stake in crypto exchange Kraken's parent Payward Inc., equivalent to a 1.5% stake in the company.\r\nThe trans… [+1467 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Oliver Knight, Omkar Godbole",
-        "title": "Bitcoin tests $75,000 as $200 million in shorts face liquidation risk",
-        "description": "Bitcoin price approaches $75,000 level with $200 million in shorts at risk of liquidation, rising open interest and shifting volatility dynamics in focus.",
-        "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-tests-usd75-000-as-usd200-million-in-shorts-face-liquidation-risk",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/83299b0f1b2743ee2c07c6cc358a814cd8734c91-2140x1126.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-14T10:30:00Z",
-        "content": "Bitcoin BTC\r\n$74,421.88 is pressing up against $75,000, a price it has repeatedly failed to surpass since early February, putting the broader crypto market on breakout watch after more than two month… [+3425 chars]"
       }
     ]
   }
