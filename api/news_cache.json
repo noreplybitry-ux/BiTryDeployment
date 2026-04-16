@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-16T21:51:32.857Z",
+  "timestamp": "2026-04-16T22:50:33.945Z",
   "data": {
     "status": "ok",
     "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Don’t Celebrate Bitcoin Price Above $70,000, Analyst Says It’s “Very, Very Bad”",
+        "description": "Crypto market analyst Marmot has sounded the alarm on the latest Bitcoin price surge, warning that the cryptocurrency’s rally above $70,000 is a “very, very bad” signal. He argues that Bitcoin has not flipped into bullish territory, urging investors and trade…",
+        "url": "http://www.newsbtc.com/news/bitcoin/dont-celebrate-bitcoin-70000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-53.jpg?fit=612%2C382",
+        "publishedAt": "2026-04-15T22:00:02Z",
+        "content": "Crypto market analyst Marmot has sounded the alarm on the latest Bitcoin price surge, warning that the cryptocurrencys rally above $70,000 is a very, very bad signal. He argues that Bitcoin has not f… [+2677 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,19 +316,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_049b4e.jpg?fit=3790%2C2547",
         "publishedAt": "2026-04-14T11:30:45Z",
         "content": "A wave of forced liquidations swept through crypto markets on Tuesday as traders who had bet against Bitcoin and Ether were caught off guard by a sharp price surge tied to hopes of a US-Iran agreemen… [+2503 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley",
-        "title": "Deutsche Börse takes 1.5% stake in crypto exchange Kraken for $200 million",
-        "description": "Deutsche Börse teamed up with Kraken last December to bridge traditional and digital markets and help expedite institutional cryptocurrency adoption in Europe.",
-        "url": "https://www.coindesk.com/business/2026/04/14/deutsche-boerse-takes-1-5-stake-in-crypto-exchange-kraken-for-usd200-million",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c2d1d6c9e47c3db1e4becaf1739fb8dce590d3b-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-14T10:51:02Z",
-        "content": "Deutsche Börse (DB1), the owner of Frankfurt Stock Exchange and Xetra, took a $200 million stake in crypto exchange Kraken's parent Payward Inc., equivalent to a 1.5% stake in the company.\r\nThe trans… [+1467 chars]"
       }
     ]
   }
