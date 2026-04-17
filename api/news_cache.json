@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-17T10:17:45.095Z",
+  "timestamp": "2026-04-17T11:56:03.281Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin Bulls Eye $78,000, But Glassnode Urges Caution",
+        "description": "Bitcoin has climbed back toward a key on-chain resistance zone, but Glassnode says the move still looks more like a fragile rebound than the start of a fully convincing trend shift. In its latest The Week On-chain report, the analytics firm said Bitcoin was t…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-bulls-78000-glassnode-urges-caution/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-approaching-78000-resistance.png?fit=1536%2C1024",
+        "publishedAt": "2026-04-16T11:00:32Z",
+        "content": "Bitcoin has climbed back toward a key on-chain resistance zone, but Glassnode says the move still looks more like a fragile rebound than the start of a fully convincing trend shift. In its latest The… [+5446 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_HW6wNnl5_1776179982981_raw.jpg?fit=1024%2C1024",
         "publishedAt": "2026-04-15T01:00:41Z",
         "content": "The Bitcoin price is bouncing back strongly amid growing hopes for a potential shift in the standoff between the US and Iran. So far, BTC has gained roughly 10% in the weekly time frame. This pushed … [+2985 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin shows ‘bull market behavior’ as chart pattern targets $90K",
-        "description": "Bitcoin briefly rallied above $76,000 as technical charts and new network data prove investors are returning to the market. Is $90,000 next?",
-        "url": "https://cointelegraph.com/markets/bitcoin-shows-bull-market-behavior-as-chart-pattern-targets-dollar90k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8d23-a341-736d-a703-c56daae14e2c.jpg",
-        "publishedAt": "2026-04-14T23:15:00Z",
-        "content": "Market analysts say Bitcoin (BTC) is showing renewed bullish momentum after its 5% rally above $76,000 on Tuesday, with bulls eyeing further gains to $90,000 amid improving network activity.\r\nBitcoin… [+3524 chars]"
       }
     ]
   }
