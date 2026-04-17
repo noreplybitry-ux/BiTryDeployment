@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-17T17:57:39.819Z",
+  "timestamp": "2026-04-17T19:14:42.753Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Why Did The Bitcoin Price Rally Past $75,000 Despite The US-Iran War?",
+        "description": "Bitwise Chief Investment Officer (CIO) Matt Hougan has explained why the Bitcoin price has shown strength amid the US-Iran war, with the leading crypto rallying above $75,000. BTC is notably up over 12% since the war started, outperforming the stock market an…",
+        "url": "http://www.newsbtc.com/news/bitcoin/why-bitcoin-rally-past-75000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pngtree-7.png?fit=1200%2C673",
+        "publishedAt": "2026-04-16T18:00:42Z",
+        "content": "Bitwise Chief Investment Officer (CIO) Matt Hougan has explained why the Bitcoin price has shown strength amid the US-Iran war, with the leading crypto rallying above $75,000. BTC is notably up over … [+2612 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9089-f21b-724b-be6d-b79fbc14517a.jpg",
         "publishedAt": "2026-04-15T10:06:08Z",
         "content": "EToro said Wednesday it agreed to acquire self-custodial crypto wallet provider Zengo, deepening the trading platforms push into onchain products as digital assets remain central to its business.\r\nTh… [+2163 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Winklevoss Capital moves $43 million in bitcoin to custody after hitting lowest balance since 2012",
-        "description": "Arkham data shows 572 BTC moved from Gemini's hot wallet to Winklevoss custody addresses in two transactions in 17 hours, reversing part of last month's $128.5 million deposit.",
-        "url": "https://www.coindesk.com/markets/2026/04/15/winklevoss-capital-moves-usd43-million-in-bitcoin-to-custody-after-hitting-lowest-balance-since-2012",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f93a68faff56e9b07fbb81cf8ad37ba84d47c186-4920x2768.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-15T09:01:25Z",
-        "content": "Some 572 bitcoin worth $42.77 million moved from a Gemini hot wallet into wallets owned by Winklevoss Capital and custody wallets in the past 24 hours, according to Arkham Intelligence data, the firs… [+1409 chars]"
       }
     ]
   }
