@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-17T19:14:42.753Z",
+  "timestamp": "2026-04-17T20:54:22.111Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Russian Crypto Exchange Grinex Halts Trading, Alleging $13M Exploit by 'Western Special Services'",
+        "description": "Russian crypto exchange Grinex paused trading services after a $13 million exploit it says was conducted by \"foreign special services.\"",
+        "url": "https://decrypt.co/364656/russian-crypto-exchange-grinex-halts-trading-13m-exploit",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+        "publishedAt": "2026-04-16T20:35:39Z",
+        "content": "In brief\r\n<ul><li>Russian exchange Grinex says it was hacked for more than 1 billion rubles or greater than $13 million.</li><li>The exchange alleged the attack was an attempt to \"destabilize\" Russia… [+2856 chars]"
+      },
       {
         "source": {
           "id": null,
