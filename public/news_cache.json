@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-17T08:47:25.323Z",
+  "timestamp": "2026-04-17T10:17:45.095Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "The cheapest bitcoin ETF yet: Morgan Stanley uses 0.14% fee to draw $100 million in first week",
+        "description": "Morgan Stanley’s new MSBT fund has quickly attracted over $100 million by offering the market's lowest fees, sparking a fresh wave of competition from rivals like Goldman Sachs.",
+        "url": "https://www.coindesk.com/markets/2026/04/16/morgan-stanley-s-bitcoin-etf-reaches-usd100m-in-first-week-marking-the-bank-s-strongest-launch",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7bda05f218a0e908b37639579d1962cdf9fe311f-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-16T09:37:33Z",
+        "content": "Morgan Stanleys (MS) spot bitcoin exchange-traded fund (ETF), trading under the ticker MSBT, has drawn more than $100 million in inflows within its first week on the market, signaling strong early de… [+2591 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Retail Investors Are The Only Ones Panicking About Bitcoin, Here’s what The Big Dogs Are Doing",
+        "description": "Bitcoin has seen a lot of sell-offs recently that have contributed to the decline in its price. As a result, there has been a lot of panic in the market as the sentiment shifted deep into the negative. However, it seems like the larger investors are actually …",
+        "url": "http://www.newsbtc.com/news/bitcoin/retail-investors-bitcoin-big-dogs/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-investment-in-grand-finance-settings.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-16T09:30:47Z",
+        "content": "Bitcoin has seen a lot of sell-offs recently that have contributed to the decline in its price. As a result, there has been a lot of panic in the market as the sentiment shifted deep into the negativ… [+2378 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Crypto fund manager probed in the suspicious death of his fiancé’s death in Zanzibar",
+        "description": "The couple argued according to hotel staff and were separated. Despite confirming Ashly Robinson died by suicide, police said they are still investigating her death.",
+        "url": "https://www.coindesk.com/business/2026/04/16/crypto-fund-manager-probed-in-the-suspicious-death-of-his-fiance-s-death-in-zanzibar",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/910cc56e7171f85753f9a3f9629a2e27c588c472-3992x2992.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-16T09:21:09Z",
+        "content": "Joe McCann, founder of crypto investment firm Asymmetric, is being probed by authorities in Tanzania, following the the alleged death by suicide of his fiancé, U.S. influencer Ashly Robinson, during … [+2815 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +394,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d8d23-a341-736d-a703-c56daae14e2c.jpg",
         "publishedAt": "2026-04-14T23:15:00Z",
         "content": "Market analysts say Bitcoin (BTC) is showing renewed bullish momentum after its 5% rally above $76,000 on Tuesday, with bulls eyeing further gains to $90,000 amid improving network activity.\r\nBitcoin… [+3524 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Why Cantor Fitzgerald thinks Robinhood and Coinbase are the best ways to play the prediction market boom",
-        "description": "Cantor Fitzgerald says Robinhood and Coinbase are best positioned to dominate the prediction market space by leveraging their massive retail scale and existing trading infrastructure.",
-        "url": "https://www.coindesk.com/markets/2026/04/14/why-cantor-fitzgerald-thinks-robinhood-and-coinbase-are-the-best-ways-to-play-the-prediction-market-boom",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ee105911333cdb90a0ec47d96b2e0799b4722450-8192x5464.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-14T14:17:02Z",
-        "content": "Trading venues Robinhood (HOOD) and Coinbase (COIN) could emerge as the main public-market beneficiaries of the rapid rise in prediction markets, according to a new report from Cantor Fitzgerald.\r\nTh… [+2930 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Deutsche Börse acquires 1.5% stake in Kraken crypto exchange",
-        "description": "Deutsche Börse invests $200M for a 1.5% stake in Kraken. The deal strengthens an already existing partnership that was first announced in late 2025. Focus is on building a unified financial infrastructure. Deutsche Börse has taken a 1.5% stake worth $200 mill…",
-        "url": "https://coinjournal.net/news/deutsche-borse-acquires-1-5-stake-in-kraken-crypto-exchange/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/Deutsche-Borse-and-Kraken-buildings-side-by-side.png",
-        "publishedAt": "2026-04-14T13:00:30Z",
-        "content": "<ul><li>Deutsche Börse invests $200M for a 1.5% stake in Kraken.</li><li>The deal strengthens an already existing partnership that was first announced in late 2025.</li><li>Focus is on building a uni… [+3538 chars]"
       }
     ]
   }
