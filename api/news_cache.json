@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-04-17T03:22:38.416Z",
+  "timestamp": "2026-04-17T06:07:29.096Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Morgan Stanley’s Bitcoin fund overtakes WisdomTree after 6 trading days",
+        "description": "The Morgan Stanley Bitcoin Trust’s inflow of $19.3 million on Thursday pushed it past the WisdomTree Bitcoin Fund by total net flows despite launching just six trading days ago.",
+        "url": "https://cointelegraph.com/news/morgan-stanley-bitcoin-etf-sees-sixth-straight-inflow",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cbcdc-4932-7b3e-a639-4110bfd18163.jpg",
+        "publishedAt": "2026-04-16T06:02:21Z",
+        "content": "Morgan Stanleys new spot Bitcoin exchange-traded fund has just surpassed the WisdomTree Bitcoin Fund (WBTC) in total net inflows, despite launching just over a week ago. \r\nThe Morgan Stanley Bitcoin … [+2126 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Bitcoin Policy Institute Maps Out Strategy For US Stablecoin Supremacy Across 5 Policy Areas",
+        "description": "The Bitcoin Policy Institute (BPI) has released a new policy proposal for the United States aimed at establishing what it calls “stablecoin supremacy.” The proposal, published on Wednesday, is structured around five policy areas and comes on the heels of the …",
+        "url": "http://www.newsbtc.com/crypto/bitcoin-policy-institute-maps-out-strategy-for-us-stablecoin-supremacy-across-5-policy-areas/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_KlVeVyxd_1776277710252_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-04-16T06:00:37Z",
+        "content": "The Bitcoin Policy Institute (BPI) has released a new policy proposal for the United States aimed at establishing what it calls stablecoin supremacy. The proposal, published on Wednesday, is structur… [+4042 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Upside Builds, $90 Now Key Battleground",
+        "description": "Solana found support at $82.50 and corrected some losses. SOL price is now consolidating above $85 and might aim for a steady increase. SOL price started a decent recovery wave above $84 and $85 against the US Dollar. The price is now trading above $85 and th…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-upside-builds-90/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Solana-SOL-at-Crossroads.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-04-16T05:08:16Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin Price Alert: German State Could Take Control of Another 57,000 BTC",
+        "description": "A proposed court deal in the movie2k case could put another 57,000 Bitcoin within reach of the German state, reviving a supply-overhang story that the market thought had largely passed after Saxony’s 2024 Bitcoin liquidation. Local news MDR reported this week…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-german-state-control-another-57000-btc/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Germanys-Bitcoin-fortune-at-sunset.png?fit=1222%2C814",
+        "publishedAt": "2026-04-16T04:00:42Z",
+        "content": "A proposed court deal in the movie2k case could put another 57,000 Bitcoin within reach of the German state, reviving a supply-overhang story that the market thought had largely passed after Saxonys … [+3635 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +381,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/Deutsche-Borse-and-Kraken-buildings-side-by-side.png",
         "publishedAt": "2026-04-14T13:00:30Z",
         "content": "<ul><li>Deutsche Börse invests $200M for a 1.5% stake in Kraken.</li><li>The deal strengthens an already existing partnership that was first announced in late 2025.</li><li>Focus is on building a uni… [+3538 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Bitcoin is closing in on $75,000 and analysts say a breakout could trigger a massive new rally",
-        "description": "Several crypto market experts including Mati Greenspan, former senior eToro market analyst, explain what might happen if bitcoin manages to hold $75,000 and if it does not.",
-        "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-hits-usd75-000-for-first-time-since-early-february-but-will-it-hold-and-what-it-means-if-it-does",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f62ed2bf92f721139b7c5aa523214c3e41bf66ef-4000x3000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-14T12:38:40Z",
-        "content": "Bitcoins approach toward $75,000 is drawing increased attention from analysts, who told CoinDesk the level could mark a key shift in the markets current rangebound structure.\r\nA clean break above $75… [+4511 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Hope For Iran Deal Sparks Risk-On Rally, Bitcoin Nears $75K",
-        "description": "A wave of forced liquidations swept through crypto markets on Tuesday as traders who had bet against Bitcoin and Ether were caught off guard by a sharp price surge tied to hopes of a US-Iran agreement. Related Reading: Dollar’s Shrinking Value Adds Fuel To XR…",
-        "url": "http://www.newsbtc.com/news/bitcoin/hope-for-iran-deal-sparks-risk-on-rally-bitcoin-nears-75k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_049b4e.jpg?fit=3790%2C2547",
-        "publishedAt": "2026-04-14T11:30:45Z",
-        "content": "A wave of forced liquidations swept through crypto markets on Tuesday as traders who had bet against Bitcoin and Ether were caught off guard by a sharp price surge tied to hopes of a US-Iran agreemen… [+2503 chars]"
       }
     ]
   }
