@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-17T13:46:40.981Z",
+  "timestamp": "2026-04-17T15:03:54.141Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Hits $76K As Tech Stocks Push Wall Street To Fresh Records",
+        "description": "Fundstrat’s chief investment officer, Tom Lee, says the next big move in markets won’t be led by stocks — it’ll be driven by crypto. Speaking Wednesday on CNBC’s “Closing Bell,” Lee argued that Bitcoin and Ether are positioned to lead the next leg of the rall…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-hits-76k-as-tech-stocks-push-wall-street-to-fresh-records/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-price-hitting-76000-displayed-on-a-large-d.jpeg?fit=1440%2C816",
+        "publishedAt": "2026-04-16T14:00:04Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
