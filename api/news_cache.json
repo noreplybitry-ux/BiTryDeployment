@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-17T15:03:54.141Z",
+  "timestamp": "2026-04-17T16:59:16.854Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Zonda exchange says 4.5K BTC wallet inaccessible amid withdrawal crisis",
+        "description": "The CEO of the troubled Zonda exchange has disclosed a Bitcoin wallet holding around 4,500 BTC, but said the private keys were never transferred during a company handover.",
+        "url": "https://cointelegraph.com/news/zonda-crypto-4500-btc-wallet-inaccessible-withdrawal-crisis",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d96a3-b03e-709a-b049-b8a728b83e8e.jpg",
+        "publishedAt": "2026-04-16T15:48:12Z",
+        "content": "Crypto exchange Zonda said a cold wallet holding around 4,500 Bitcoin is currently inaccessible as the platform faces concerns over delayed withdrawals.\r\nZonda CEO Przemysaw Kral posted a video state… [+2993 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Stuck-Under-0.10-Bulls-Cant-Force-Break-Higher.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-15T05:08:49Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "SOL, ADA, DOGE pullback, bitcoin holds above $74,000 as Asia recoups Iran war losses",
-        "description": "China's CSI 300 joins Taiwan and Singapore in erasing war-related declines as US-Iran talk optimism keeps oil below $100; spot ETFs posted $471 million in single-day inflows last week.",
-        "url": "https://www.coindesk.com/markets/2026/04/15/sol-ada-doge-pullback-bitcoin-holds-above-usd74-000-as-asia-recoups-iran-war-losses",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c3ac40e216e0a2276cfec64adeb74b4e08399884-1919x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-15T04:04:19Z",
-        "content": "Bitcoin held above $74,000 on Wednesday as a wave of risk appetite swept through global markets, with Asian equities joining Wall Street benchmarks in fully recouping losses sustained since the US-Ir… [+1841 chars]"
       }
     ]
   }
