@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-17T23:46:49.570Z",
+  "timestamp": "2026-04-18T02:54:31.345Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Builds Strength, $75K Break Could Trigger Surge",
+        "description": "Bitcoin price started a fresh increase and cleared the $74,650 zone. BTC is consolidating and might aim for more gains above the $75,500 level. Bitcoin managed to stay above $73,500 and started a fresh increase. The price is trading above $74,200 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-builds-strength-75k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Attempts-Comeback.jpg",
+        "publishedAt": "2026-04-17T02:29:37Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $74,650 zone. BTC is consolidating and might aim for more gains above the $75,500 level.\r\n<ul><li>Bitcoin managed to stay above $73,500 and star… [+2136 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Crypto Analyst Says It’s Time To Swap Bitcoin For XRP, Here’s Why",
+        "description": "A crypto analyst has sparked fresh debate after warning investors to consider swapping their Bitcoin (BTC) for XRP. He argues that the shifting global reserve standards could reshape which digital assets gain institutional favor, potentially positioning XRP a…",
+        "url": "http://www.newsbtc.com/news/time-to-swap-bitcoin-for-xrp/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/XRP-And-Bitcoin-from-iStock-1.jpg?fit=612%2C408",
+        "publishedAt": "2026-04-17T00:00:43Z",
+        "content": "A crypto analyst has sparked fresh debate after warning investors to consider swapping their Bitcoin (BTC) for XRP. He argues that the shiftingglobal reserve standards could reshape which digital ass… [+2910 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Bitcoin eyes $90K as whales absorb 20x daily BTC supply in 30 days",
+        "description": "Bitcoin price has entered the breakout stage of a classic bullish reversal pattern and is now eyeing a run toward $90,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-eyes-dollar90k-as-whales-absorb-20x-daily-btc-supply-in-30-days",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9731-e6a2-700e-9d50-35881b44cbf1.jpg",
+        "publishedAt": "2026-04-17T00:00:00Z",
+        "content": "Bitcoin (BTC) appears on track to hit $90,000 in the coming weeks as whales accumulated about 20 times the cryptocurrencys daily new supply in the past weeks.\r\nKey takeaways:\r\n<ul><li>Whales bought r… [+2890 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +433,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/ethereum.png",
         "publishedAt": "2026-04-15T12:01:46Z",
         "content": "<ul><li>Ethereum price falls to $2,325 on profit-taking after rising to $2,416.</li><li>The repeated rejection at $2,360–$2,400 resistance weakens the overall momentum.</li><li>Breaking below the key… [+2800 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "Virginia Governor Signs Law Protecting Dormant Crypto From Forced Liquidation",
-        "description": "The legislation ensures unclaimed digital assets are held in their native form for at least one year before the state can move to sell them.",
-        "url": "https://decrypt.co/364426/virginia-governor-signs-law-protecting-dormant-crypto-from-forced-liquidation",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/cryptocurrency-world-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-04-15T11:13:03Z",
-        "content": "In brief\r\n<ul><li>Virginia's HB 798 extends unclaimed property rules to cover digital assets.</li><li>The law bars the state from liquidating dormant crypto for at least one year after delivery.</li>… [+3934 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "eToro to acquire Zengo in self-custody push as CEO predicts $250K Bitcoin",
-        "description": "eToro is set to acquire self-custodial wallet provider Zengo as the trading platform’s CEO predicted that Bitcoin will resume its rally to $250,000 after another quarter of the market slump.",
-        "url": "https://cointelegraph.com/news/etoro-acquires-zengo-self-custody-ceo-predicts-bitcoin-250k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9089-f21b-724b-be6d-b79fbc14517a.jpg",
-        "publishedAt": "2026-04-15T10:06:08Z",
-        "content": "EToro said Wednesday it agreed to acquire self-custodial crypto wallet provider Zengo, deepening the trading platforms push into onchain products as digital assets remain central to its business.\r\nTh… [+2163 chars]"
       }
     ]
   }
