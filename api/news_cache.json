@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-18T05:12:31.738Z",
+  "timestamp": "2026-04-18T07:17:50.124Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "This Indicator Used To Predict Bitcoin Bottoms Is Flashing Below $50,000",
+        "description": "There are many different indicators that analysts have used to predict the Bitcoin bottom in the past, and the Cumulative Value Days Destroyed (CVDD) is one of them. Mostly, these indicators are known for predicting the bottom because when they have appeared …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bottoms-below-50000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/06/Bitcoin-crash.jpeg?fit=1792%2C1024",
+        "publishedAt": "2026-04-17T06:30:13Z",
+        "content": "There are many different indicators that analysts have used to predict the Bitcoin bottom in the past, and the Cumulative Value Days Destroyed (CVDD) is one of them. Mostly, these indicators are know… [+2359 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Crypto in sustained winter as CEX volumes drop 39% in Q1: CoinGecko",
+        "description": "CoinGecko says a 40% decline in crypto exchange trading volumes, capped by a two-and-a-half-year monthly volume low in March, shows the crypto market is in a sustained winter lull.",
+        "url": "https://cointelegraph.com/news/crypto-sustained-winter-q1-cex-volumes-drop-coingecko",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9995-75aa-7b6b-b55e-45ef43c20a56.jpg",
+        "publishedAt": "2026-04-17T06:16:48Z",
+        "content": "The cryptocurrency market has entered a sustained crypto winter, according to CoinGecko, as spot trading volumes on centralized crypto exchanges rapidly fell over the first quarter of 2026.\r\nCrypto m… [+1981 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/ethereum-decrypt-style-06-gID_7.jpg",
         "publishedAt": "2026-04-15T17:17:41Z",
         "content": "In brief\r\n<ul><li>BitMine posted a net loss of more than $3.8 billion during the three-month stretch ending in February.</li><li>The firm attributes most of the losses to the unrealized or paper loss… [+2726 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Tricia Gallagher, Francisco Rodrigues",
-        "title": "Crypto Long & Short: Fighting fraud in the digital age: why state-led identity is the future",
-        "description": "In this week’s Crypto Long & Short Newsletter, Tricia Gallagher writes how the fix for broken digital identity systems will need to be state-led and user-controlled.",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/04/15/crypto-long-and-short-fighting-fraud-in-the-digital-age-why-state-led-identity-is-the-future",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/af5d3a2f14c5d8ab892fa58a445b272f2f7f1f88-5963x3975.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-15T16:00:44Z",
-        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Tricia Gallagher on how the fix for broken digital identity systems will need to be state-led and user-controlled… [+6589 chars]"
       }
     ]
   }
