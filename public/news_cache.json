@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-18T14:47:43.213Z",
+  "timestamp": "2026-04-18T15:42:33.134Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitwise Research Shows How Much Loss Your Bitcoin Incurs Depending On How Long You Hold",
+        "description": "Bitwise Research has shed light on how holding durations can impact the ROI and outcomes of Bitcoin (BTC) investments, revealing a major distinction between short-term risk and long-term performance. The data shows that while short holding periods carry signi…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitwise-research-bitcoin-loss/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-losses.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-17T15:30:19Z",
+        "content": "Bitwise Research has shed light on how holding durations can impact the ROI and outcomes ofBitcoin (BTC) investments, revealing a major distinction between short-term risk and long-term performance. … [+3047 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Germanys-Bitcoin-fortune-at-sunset.png?fit=1222%2C814",
         "publishedAt": "2026-04-16T04:00:42Z",
         "content": "A proposed court deal in the movie2k case could put another 57,000 Bitcoin within reach of the German state, reviving a supply-overhang story that the market thought had largely passed after Saxonys … [+3635 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Gears Up, Another Increase Could Be Imminent",
-        "description": "Ethereum price started a fresh increase and remained stable above $2,320. ETH is now consolidating and might aim for more gains if it clears $2,380. Ethereum started a steady increase above the $2,300 zone. The price is trading above $2,320 and the 100-hourly…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-gears-up-2300/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Attempts-Bounce.jpg?fit=1024%2C572",
-        "publishedAt": "2026-04-16T03:18:31Z",
-        "content": "Ethereum price started a fresh increase and remained stable above $2,320. ETH is now consolidating and might aim for more gains if it clears $2,380.\r\n<ul><li>Ethereum started a steady increase above … [+2159 chars]"
       }
     ]
   }
