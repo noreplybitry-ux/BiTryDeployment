@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-18T10:51:08.240Z",
+  "timestamp": "2026-04-18T11:39:44.434Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin, Ethereum Trading Expands As Charles Schwab Enters Crypto Market",
+        "description": "Charles Schwab is charging into the crypto space with fees lower than its closest rival — and a customer base that dwarfs most financial platforms in America. Related Reading: Bitcoin Pressure Builds As Miners Dump 32K BTC In Just 3 Months A Slow Roll, Not A …",
+        "url": "http://www.newsbtc.com/news/bitcoin-ethereum-trading-expands-as-charles-schwab-enters-crypto-market/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/conceptual-landscape-image-of-a-large-ornate-door-.jpeg?fit=1440%2C816",
+        "publishedAt": "2026-04-17T11:00:57Z",
+        "content": "Charles Schwab is charging into the crypto space with fees lower than its closest rival and a customer base that dwarfs most financial platforms in America.\r\nThe Texas-based brokerage has begun offer… [+2501 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9214-0a90-763c-9ec9-176f9a36af03.jpg",
         "publishedAt": "2026-04-15T18:51:43Z",
         "content": "Key points:\r\n<ul><li>Bitcoins shallow pullback from the $76,000 resistance suggests that buyers are holding onto their positions, expecting the recovery to continue.\r\n</li><li>Select major altcoins a… [+8420 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "The Protocol: Bitcoin proposal that could freeze quantum-related coins",
-        "description": "Also: AI agents & crypto payments, CoW Swap hijack, ZK proofs on XRPL.",
-        "url": "https://www.coindesk.com/tech/2026/04/15/the-protocol-bitcoin-proposal-that-could-freeze-quantum-related-coins",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9292fbf8f55ce589ec030c33a429ef4520f5141d-7008x4672.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-15T18:06:56Z",
-        "content": "BITCOIN PROPOSAL THAT COULD FREEZE QUANTUM-RELATED COINS: Bitcoin was built on a promise that no one can touch your coins without your private key. No government, no bank, nobody. That promise is now… [+9618 chars]"
       }
     ]
   }
