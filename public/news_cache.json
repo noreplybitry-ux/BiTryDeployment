@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-18T13:14:42.790Z",
+  "timestamp": "2026-04-18T14:47:43.213Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price quietly sets new 10-week high as trader sees $88K in weeks",
+        "description": "Bitcoin price rallied above $77,000 amid cooling geopolitical tensions and record-high back-to-back closes for the S&P 500.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-quietly-sets-new-10-week-high-as-trader-sees-88k-in-weeks",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9b5d-c9eb-7599-90f1-9ef95ff3f99b.jpg",
+        "publishedAt": "2026-04-17T13:52:38Z",
+        "content": "Bitcoin (BTC) refreshed February highs on Friday as attention focused on the upcoming weekly close and a longer-term rally to $88,000.\r\nKey points:\r\n<ul><li>Bitcoin hits its highest levels in ten wee… [+3704 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Aaron Wood",
+        "title": "Crypto execs ramp up security as wrench attacks increase",
+        "description": "So-called “wrench attacks” have plagued the crypto industry for over a decade, but in recent years, there has been a spate of high-profile kidnap and ransom attempts.",
+        "url": "https://cointelegraph.com/features/crypto-execs-ramp-security-wrench-attacks-increase",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9ba9-45fe-7318-b1c3-4e0b0929b211.jpg",
+        "publishedAt": "2026-04-17T13:45:01Z",
+        "content": "The frequency of kidnap and ransom attempts on prominent cryptocurrency executives has skyrocketed in recent years.\r\nReferred to, perhaps crudely, in the crypto community as a $5 wrench attack, these… [+6525 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Attempts-Bounce.jpg?fit=1024%2C572",
         "publishedAt": "2026-04-16T03:18:31Z",
         "content": "Ethereum price started a fresh increase and remained stable above $2,320. ETH is now consolidating and might aim for more gains if it clears $2,380.\r\n<ul><li>Ethereum started a steady increase above … [+2159 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Targets $75K Break, Is a New Rally Incoming?",
-        "description": "Bitcoin price started a fresh surge and cleared the $74,500 zone. BTC is consolidating and might aim for more gains above the $75,000 level. Bitcoin managed to stay above $73,500 and started a fresh increase. The price is trading above $74,000 and the 100 hou…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-targets-75k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Targets-75K-Break.jpg",
-        "publishedAt": "2026-04-16T02:32:19Z",
-        "content": "Bitcoin price started a fresh surge and cleared the $74,500 zone. BTC is consolidating and might aim for more gains above the $75,000 level.\r\n<ul><li>Bitcoin managed to stay above $73,500 and started… [+2164 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin Signal That Has Predicted Every Bottom Before A Price Explosion Has Just Triggered Again",
-        "description": "Bitcoin may be approaching another pivotal point in its long-term market cycle, according to a recent analysis shared by crypto analyst @CryptoTice on X. The analyst argues that a time-based signal that historically appeared at major market bottoms has trigge…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-signal-every-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-bottom.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-15T23:00:52Z",
-        "content": "Bitcoin may be approaching another pivotal point in its long-term market cycle, according to a recent analysis shared by crypto analyst @CryptoTice on X. The analyst argues that a time-based signal t… [+3024 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Don’t Celebrate Bitcoin Price Above $70,000, Analyst Says It’s “Very, Very Bad”",
-        "description": "Crypto market analyst Marmot has sounded the alarm on the latest Bitcoin price surge, warning that the cryptocurrency’s rally above $70,000 is a “very, very bad” signal. He argues that Bitcoin has not flipped into bullish territory, urging investors and trade…",
-        "url": "http://www.newsbtc.com/news/bitcoin/dont-celebrate-bitcoin-70000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-53.jpg?fit=612%2C382",
-        "publishedAt": "2026-04-15T22:00:02Z",
-        "content": "Crypto market analyst Marmot has sounded the alarm on the latest Bitcoin price surge, warning that the cryptocurrencys rally above $70,000 is a very, very bad signal. He argues that Bitcoin has not f… [+2677 chars]"
       }
     ]
   }
