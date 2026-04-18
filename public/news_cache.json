@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-18T20:43:59.181Z",
+  "timestamp": "2026-04-18T21:41:50.744Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Russia introduces bill to criminalize unregistered crypto services",
+        "description": "In a law introduced to Russia's State Duma on Friday, lawmakers proposed that entities engaged in certain crypto activities without a license could be subject to criminal penalties.",
+        "url": "https://cointelegraph.com/news/russia-criminalize-unregistered-crypto-services",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9d2d-057d-7c18-a160-e179a5656ad8.jpg",
+        "publishedAt": "2026-04-17T21:33:01Z",
+        "content": "Russias government submitted a bill to its parliaments lower house in an effort to amend the country's legal code to attach criminal liability for crypto services offered without regulatory approval … [+2059 chars]"
+      },
       {
         "source": {
           "id": null,
