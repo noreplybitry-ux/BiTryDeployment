@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-18T15:42:33.134Z",
+  "timestamp": "2026-04-18T16:51:07.663Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "US Government Moves Bitcoin Tied to $9 Billion Bitfinex Hack",
+        "description": "The U.S. government moved 8.2 Bitcoin, or greater than $600,000, that is linked to the $9 billion Bitfinex hack from 2016.",
+        "url": "https://decrypt.co/364730/us-government-moves-bitcoin-9-billion-bitfinex-hack",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-04-17T16:47:35Z",
+        "content": "In brief\r\n<ul><li>Blockchain data shows the U.S. government transferred more than $600,000 worth of Bitcoin connected to the 2016 Bitfinex hack. </li><li>The funds were transferred from a government … [+2544 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Solana-SOL-at-Crossroads.jpg?fit=1792%2C1024",
         "publishedAt": "2026-04-16T05:08:16Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Price Alert: German State Could Take Control of Another 57,000 BTC",
-        "description": "A proposed court deal in the movie2k case could put another 57,000 Bitcoin within reach of the German state, reviving a supply-overhang story that the market thought had largely passed after Saxony’s 2024 Bitcoin liquidation. Local news MDR reported this week…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-german-state-control-another-57000-btc/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Germanys-Bitcoin-fortune-at-sunset.png?fit=1222%2C814",
-        "publishedAt": "2026-04-16T04:00:42Z",
-        "content": "A proposed court deal in the movie2k case could put another 57,000 Bitcoin within reach of the German state, reviving a supply-overhang story that the market thought had largely passed after Saxonys … [+3635 chars]"
       }
     ]
   }
