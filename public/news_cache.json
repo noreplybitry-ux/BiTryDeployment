@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-18T11:39:44.434Z",
+  "timestamp": "2026-04-18T13:14:42.790Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vismaya V",
+        "title": "SEC Officials Push US Crypto Ambitions in Debut Podcast Episode",
+        "description": "The agency's chairman, Paul Atkins, sat down with two key commissioners to outline a shift away from enforcement.",
+        "url": "https://decrypt.co/364720/sec-officials-push-us-crypto-ambitions-in-debut-podcast-episode",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/paul-atkins-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-04-17T12:39:01Z",
+        "content": "In brief\r\n<ul><li>SEC Chair Paul Atkins launched a new podcast with Commissioners Hester Peirce and Mark Uyeda, outlining a pro-innovation crypto regulatory agenda.</li><li>The agency has dropped ove… [+4057 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Akash Girimath",
+        "title": "Negative Funding Rates Hit Yearly High as Bitcoin Tests $76K",
+        "description": "Bitcoin funding rates hit year-high negative levels, setting up a potential short squeeze—or bull trap—as its price tests $76K.",
+        "url": "https://decrypt.co/364713/negative-funding-rates-hit-yearly-high-as-bitcoin-tests-76k",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-decrypt-style-28-gID_7.png",
+        "publishedAt": "2026-04-17T12:04:10Z",
+        "content": "In brief\r\n<ul><li>Bitcoin funding rates have remained negative for over a month even as BTC touched $76,000, signaling heavy bearish positioning.</li><li>A potential uptrend could see Bitcoin revisit… [+3385 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-53.jpg?fit=612%2C382",
         "publishedAt": "2026-04-15T22:00:02Z",
         "content": "Crypto market analyst Marmot has sounded the alarm on the latest Bitcoin price surge, warning that the cryptocurrencys rally above $70,000 is a very, very bad signal. He argues that Bitcoin has not f… [+2677 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bitcoin Could Rally Toward $78,000—Then Fall To New Lows In Q2, Top Analyst Predicts",
-        "description": "Bitcoin (BTC) is pressing up against a major decision point after failing to break above the $76,000 resistance level. Following consecutive rejections in that area, the cryptocurrency has shifted into consolidation once again.  Bitcoin Set For A ‘Final Push’…",
-        "url": "http://www.newsbtc.com/breaking-news-ticker/bitcoin-could-rally-toward-78000-then-fall-to-new-lows-in-q2-top-analyst-predicts/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_Fwd7Td3U_1776286762000_raw.jpg",
-        "publishedAt": "2026-04-15T21:43:12Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/15: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "description": "A Bitcoin daily candlestick close above $76,000 would complete a bullish trend reversal and shift the bulls’ short-term price target to $84,000. Will altcoins follow the rally?",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-15-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9214-0a90-763c-9ec9-176f9a36af03.jpg",
-        "publishedAt": "2026-04-15T18:51:43Z",
-        "content": "Key points:\r\n<ul><li>Bitcoins shallow pullback from the $76,000 resistance suggests that buyers are holding onto their positions, expecting the recovery to continue.\r\n</li><li>Select major altcoins a… [+8420 chars]"
       }
     ]
   }
