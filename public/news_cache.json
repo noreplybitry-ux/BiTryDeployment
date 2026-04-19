@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T08:09:37.520Z",
+  "timestamp": "2026-04-19T09:53:19.917Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Ethereum Flips Major Resistance – Bulls Eye Return To $2,900",
+        "description": "Ethereum (ETH), the world’s largest altcoin, is up by over 3% in the past day, reflecting the current bullish momentum in the cryptocurrency market following the major relief over the US-Iran conflict. Notably, Iran’s Foreign Minister Abbas Araghchi announced…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-flips-major-resistance-bulls-eye-return-to-2900/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/51374775737_75db16e1d7_b.jpg",
+        "publishedAt": "2026-04-18T08:30:37Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-approaching-78000-resistance.png?fit=1536%2C1024",
         "publishedAt": "2026-04-16T11:00:32Z",
         "content": "Bitcoin has climbed back toward a key on-chain resistance zone, but Glassnode says the move still looks more like a fragile rebound than the start of a fully convincing trend shift. In its latest The… [+5446 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "The cheapest bitcoin ETF yet: Morgan Stanley uses 0.14% fee to draw $100 million in first week",
-        "description": "Morgan Stanley’s new MSBT fund has quickly attracted over $100 million by offering the market's lowest fees, sparking a fresh wave of competition from rivals like Goldman Sachs.",
-        "url": "https://www.coindesk.com/markets/2026/04/16/morgan-stanley-s-bitcoin-etf-reaches-usd100m-in-first-week-marking-the-bank-s-strongest-launch",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7bda05f218a0e908b37639579d1962cdf9fe311f-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-16T09:37:33Z",
-        "content": "Morgan Stanleys (MS) spot bitcoin exchange-traded fund (ETF), trading under the ticker MSBT, has drawn more than $100 million in inflows within its first week on the market, signaling strong early de… [+2591 chars]"
       }
     ]
   }
