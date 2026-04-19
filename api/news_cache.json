@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T10:47:55.734Z",
+  "timestamp": "2026-04-19T11:40:31.888Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Could See Short-Term Pullback Following Price Rebound — Analyst",
+        "description": "On April 17th, Bitcoin rose by 2.77%, after Iran declared the Strait of Hormuz commercially open for the rest of its 10-day ceasefire with the US. With the market anticipating further upward movement, an on-chain analysis suggests a retracement could be the n…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-could-see-short-term-pullback-following-price-rebound-analyst/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/photo-1631897641570-91326d87caf5.jpg?fit=3000%2C1894",
+        "publishedAt": "2026-04-18T11:30:11Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-resistance.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-04-16T12:30:04Z",
         "content": "The Bitcoin price is approaching a critical resistance zone as a crypto analyst warns of a potential volatility spike ahead. Apparently, an importantliquidity cluster is stuck to this key level, with… [+3158 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Bulls Eye $78,000, But Glassnode Urges Caution",
-        "description": "Bitcoin has climbed back toward a key on-chain resistance zone, but Glassnode says the move still looks more like a fragile rebound than the start of a fully convincing trend shift. In its latest The Week On-chain report, the analytics firm said Bitcoin was t…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-bulls-78000-glassnode-urges-caution/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-approaching-78000-resistance.png?fit=1536%2C1024",
-        "publishedAt": "2026-04-16T11:00:32Z",
-        "content": "Bitcoin has climbed back toward a key on-chain resistance zone, but Glassnode says the move still looks more like a fragile rebound than the start of a fully convincing trend shift. In its latest The… [+5446 chars]"
       }
     ]
   }
