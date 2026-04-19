@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T09:53:19.917Z",
+  "timestamp": "2026-04-19T10:47:55.734Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "When Will The Ethereum Price Hit $5,000 And $10,000?",
+        "description": "In the last bull run, when the Bitcoin price surged and crossed $100,000, the Ethereum price was expected to follow the same trajectory as it had in the past. But that was not the case, and the second-largest cryptocurrency by market cap was barely able to cr…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-hit-5000-10000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-from-Adobe-Stock-4.jpg?fit=527%2C360",
+        "publishedAt": "2026-04-18T10:00:03Z",
+        "content": "In the last bull run, when the Bitcoin price surged and crossed $100,000, the Ethereum price was expected to follow the same trajectory as it had in the past. But that was not the case, and the secon… [+2448 chars]"
+      },
       {
         "source": {
           "id": null,
