@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T19:00:27.885Z",
+  "timestamp": "2026-04-19T19:49:25.480Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Can Bitcoin Buyers Join The Breakout Party? Analyst Says Not Yet",
+        "description": "Bitcoin seems to have finally broken out of weeks of stagnation with an 11% rally, signaling a notable shift in its market momentum. Expectedly, this move has drawn renewed attention from various market participants who may be eager to re-enter the market. Ho…",
+        "url": "http://www.newsbtc.com/news/bitcoin/can-bitcoin-buyers-join-the-breakout-party/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/iStock-1361090527.jpg?fit=1232%2C852",
+        "publishedAt": "2026-04-18T19:00:38Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,32 +485,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d96a3-b03e-709a-b049-b8a728b83e8e.jpg",
         "publishedAt": "2026-04-16T15:48:12Z",
         "content": "Crypto exchange Zonda said a cold wallet holding around 4,500 Bitcoin is currently inaccessible as the platform faces concerns over delayed withdrawals.\r\nZonda CEO Przemysaw Kral posted a video state… [+2993 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Hits $76K As Tech Stocks Push Wall Street To Fresh Records",
-        "description": "Fundstrat’s chief investment officer, Tom Lee, says the next big move in markets won’t be led by stocks — it’ll be driven by crypto. Speaking Wednesday on CNBC’s “Closing Bell,” Lee argued that Bitcoin and Ether are positioned to lead the next leg of the rall…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-hits-76k-as-tech-stocks-push-wall-street-to-fresh-records/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-price-hitting-76000-displayed-on-a-large-d.jpeg?fit=1440%2C816",
-        "publishedAt": "2026-04-16T14:00:04Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Dilip Kumar Patairya",
-        "title": "Why Australia’s $17B crypto opportunity depends on regulation",
-        "description": "Australia could unlock an A$24B crypto and tokenization opportunity, but only if clear regulations, licensing rules and digital finance infrastructure are put in place.",
-        "url": "https://cointelegraph.com/features/australia-tokenized-finance-regulatory-framework",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d966c-c6a1-7b99-8272-2117742bccc5.jpg",
-        "publishedAt": "2026-04-16T13:26:21Z",
-        "content": "Key takeaways\r\n<ul><li>Australia could generate A$24 billion, or about $17 billion, annually from digital assets and tokenized finance. But that opportunity depends on whether policymakers establish … [+12539 chars]"
       }
     ]
   }
