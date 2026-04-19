@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T11:40:31.888Z",
+  "timestamp": "2026-04-19T13:14:51.829Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "Poland parliament fails again to override presidential veto on crypto bill",
+        "description": "Poland’s parliament has again failed to overturn President Karol Nawrocki’s veto of a crypto regulation bill, prolonging a political standoff over the country’s adoption of EU MiCA rules.",
+        "url": "https://cointelegraph.com/news/poland-parliament-fails-again-to-override-presidential-veto-crypto-bill",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019da05b-ef3f-7296-a082-2feb2fc09bdf.jpg",
+        "publishedAt": "2026-04-18T12:24:23Z",
+        "content": "Polands parliament has once again failed to overturn a presidential veto blocking a key crypto regulation bill, extending the political standoff over how the country should oversee digital assets.\r\nI… [+2839 chars]"
+      },
       {
         "source": {
           "id": null,
