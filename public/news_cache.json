@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T13:14:51.829Z",
+  "timestamp": "2026-04-19T14:48:05.508Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Says Bitcoin Is Going To $170,000: Here’s When To Buy And When To Sell",
+        "description": "Crypto analyst Hanzo has predicted that Bitcoin will rally to a new all-time high (ATH) of $170,000 in the next bull run. He also revealed what level investors should look to buy BTC in this bear market as they target this potential rally to $170,000.  Bitcoi…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-going-to-170000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-60.jpg?fit=1280%2C853",
+        "publishedAt": "2026-04-18T14:30:28Z",
+        "content": "Crypto analyst Hanzo has predicted that Bitcoin will rally to a new all-time high (ATH) of $170,000 in the next bull run. He also revealed what level investors should look to buy BTC in this bear mar… [+2369 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/105215b3687de656e0a3164125c633e5a9fbe72c-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-16T13:26:19Z",
         "content": "DoubleZero Foundation, a project building high-speed data infrastructure for blockchains like Solana, has rolled out a new platform to speed up how trading firms access crypto market data a sign of g… [+2408 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Here’s The Next Key Bitcoin Price Resistance To Worry About",
-        "description": "The Bitcoin price is approaching a critical resistance zone as a crypto analyst warns of a potential volatility spike ahead. Apparently, an important liquidity cluster is stuck to this key level, with market participants watching closely for a breakout or rej…",
-        "url": "http://www.newsbtc.com/news/bitcoin/next-key-bitcoin-price-resistance/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-resistance.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-16T12:30:04Z",
-        "content": "The Bitcoin price is approaching a critical resistance zone as a crypto analyst warns of a potential volatility spike ahead. Apparently, an importantliquidity cluster is stuck to this key level, with… [+3158 chars]"
       }
     ]
   }
