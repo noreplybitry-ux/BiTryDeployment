@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T03:29:53.737Z",
+  "timestamp": "2026-04-19T06:02:44.981Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Explosive Claim: Polish PM Accuses Crypto Firm Of Russian Mafia/Spy Links In Political Rivalry",
+        "description": "A fresh crypto controversy has flared up in Poland, with Prime Minister Donald Tusk accusing a crypto firm he says was formed with “Russian money” of backing political rivals and conservative events.  Tusk made the remarks in the Polish parliament on Friday, …",
+        "url": "http://www.newsbtc.com/crypto/explosive-claim-polish-pm-accuses-crypto-firm-of-russian-mafia-spy-links-in-political-rivalry/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_ZdDv2uH5_1776437547052_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-04-18T04:00:58Z",
+        "content": "A fresh crypto controversy has flared up in Poland, with Prime Minister Donald Tusk accusing a crypto firm he says was formed with Russian money of backing political rivals and conservative events. \r… [+3245 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7bda05f218a0e908b37639579d1962cdf9fe311f-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-16T09:37:33Z",
         "content": "Morgan Stanleys (MS) spot bitcoin exchange-traded fund (ETF), trading under the ticker MSBT, has drawn more than $100 million in inflows within its first week on the market, signaling strong early de… [+2591 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Retail Investors Are The Only Ones Panicking About Bitcoin, Here’s what The Big Dogs Are Doing",
-        "description": "Bitcoin has seen a lot of sell-offs recently that have contributed to the decline in its price. As a result, there has been a lot of panic in the market as the sentiment shifted deep into the negative. However, it seems like the larger investors are actually …",
-        "url": "http://www.newsbtc.com/news/bitcoin/retail-investors-bitcoin-big-dogs/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-investment-in-grand-finance-settings.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-16T09:30:47Z",
-        "content": "Bitcoin has seen a lot of sell-offs recently that have contributed to the decline in its price. As a result, there has been a lot of panic in the market as the sentiment shifted deep into the negativ… [+2378 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Crypto fund manager probed in the suspicious death of his fiancé’s death in Zanzibar",
-        "description": "The couple argued according to hotel staff and were separated. Despite confirming Ashly Robinson died by suicide, police said they are still investigating her death.",
-        "url": "https://www.coindesk.com/business/2026/04/16/crypto-fund-manager-probed-in-the-suspicious-death-of-his-fiance-s-death-in-zanzibar",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/910cc56e7171f85753f9a3f9629a2e27c588c472-3992x2992.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-16T09:21:09Z",
-        "content": "Joe McCann, founder of crypto investment firm Asymmetric, is being probed by authorities in Tanzania, following the the alleged death by suicide of his fiancé, U.S. influencer Ashly Robinson, during … [+2815 chars]"
       }
     ]
   }
