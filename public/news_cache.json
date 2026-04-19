@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T22:42:47.692Z",
+  "timestamp": "2026-04-19T23:43:47.359Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Breakout Confirmed, But Is It Real Or A Bull Trap?",
+        "description": "Bitcoin has confirmed a breakout from its macro downtrend on the linear chart, signaling a potential shift in broader market structure. However, with the price now sitting at a key resistance zone on the logarithmic chart, uncertainty remains. The coming sess…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-breakout-confirmed/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-69.jpg?fit=612%2C408",
+        "publishedAt": "2026-04-18T23:30:44Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
