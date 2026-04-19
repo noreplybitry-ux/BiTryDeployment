@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-19T15:42:47.912Z",
+  "timestamp": "2026-04-19T16:50:39.101Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Binance and Biget to probe RAVE’s 4,500% token surge as claims of insider-orchestrated rally grow",
+        "description": "Nearly 90% of RAVE's supply was concentrated in just three wallets, and millions of tokens were transferred to exchanges before the price surge.",
+        "url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fbd1652657bfb9351a33da786859d3bebdd22a69-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-18T16:46:46Z",
+        "content": "Binance and Bitget, two major cryptocurrency exchanges, have opened investigations into trading activity surrounding RaveDAOs RAVE token, after onchain sleuth ZachXBT alleged insiders engineered a la… [+3313 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "ADA Deja Vu? Cardano Price Surged 200% Last Time It Was At This Support Level",
+        "description": "The Cardano price has been a poor indicator of the positive momentum injected into the cryptocurrency market over the past week. Despite most large-cap altcoins surging on the back of easing macroeconomic pressure, the ADA token has barely been able to stage …",
+        "url": "http://www.newsbtc.com/news/cardano/cardano-price-surged-200-last-time/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/iStock-1336958377.jpeg?fit=2121%2C1414",
+        "publishedAt": "2026-04-18T16:00:29Z",
+        "content": "The Cardano price has been a poor indicator of the positive momentum injected into the cryptocurrency market over the past week. Despite most large-cap altcoins surging on the back of easing macroeco… [+2753 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +498,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d966c-c6a1-7b99-8272-2117742bccc5.jpg",
         "publishedAt": "2026-04-16T13:26:21Z",
         "content": "Key takeaways\r\n<ul><li>Australia could generate A$24 billion, or about $17 billion, annually from digital assets and tokenized finance. But that opportunity depends on whether policymakers establish … [+12539 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "Solana news (SOL): Wall Street tech is coming to crypto as DoubleZero rolls out high-speed data for blockchain",
-        "description": "The project, called DoubleZero Edge, offers a real-time feed of raw data from the Solana blockchain, giving traders faster access to information that can influence prices.",
-        "url": "https://www.coindesk.com/tech/2026/04/16/wall-street-trading-tech-is-coming-to-crypto-as-doublezero-rolls-out-high-speed-data-for-solana",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/105215b3687de656e0a3164125c633e5a9fbe72c-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-16T13:26:19Z",
-        "content": "DoubleZero Foundation, a project building high-speed data infrastructure for blockchains like Solana, has rolled out a new platform to speed up how trading firms access crypto market data a sign of g… [+2408 chars]"
       }
     ]
   }
