@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-20T15:22:48.910Z",
+  "timestamp": "2026-04-20T17:12:11.916Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Miner Pain Reaches Critical Threshold — Impact On Price",
+        "description": "According to data from a recent on-chain evaluation, the Bitcoin mining sector is once again flashing warning signals, as a key industry health metric now hovers above historically critical levels. In this scenario, the Bitcoin price stands a chance to regain…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-miner-pain-reaches-critical-threshold/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/iStock-1430765691.jpg?fit=1254%2C836",
+        "publishedAt": "2026-04-19T16:30:43Z",
+        "content": "According to data from a recent on-chain evaluation, the Bitcoin mining sector is once again flashing warning signals, as a key industry health metric now hovers above historically critical levels. I… [+2518 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/XRP-And-Bitcoin-from-iStock-1.jpg?fit=612%2C408",
         "publishedAt": "2026-04-17T00:00:43Z",
         "content": "A crypto analyst has sparked fresh debate after warning investors to consider swapping their Bitcoin (BTC) for XRP. He argues that the shiftingglobal reserve standards could reshape which digital ass… [+2910 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Bitcoin eyes $90K as whales absorb 20x daily BTC supply in 30 days",
-        "description": "Bitcoin price has entered the breakout stage of a classic bullish reversal pattern and is now eyeing a run toward $90,000.",
-        "url": "https://cointelegraph.com/markets/bitcoin-eyes-dollar90k-as-whales-absorb-20x-daily-btc-supply-in-30-days",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9731-e6a2-700e-9d50-35881b44cbf1.jpg",
-        "publishedAt": "2026-04-17T00:00:00Z",
-        "content": "Bitcoin (BTC) appears on track to hit $90,000 in the coming weeks as whales accumulated about 20 times the cryptocurrencys daily new supply in the past weeks.\r\nKey takeaways:\r\n<ul><li>Whales bought r… [+2890 chars]"
       }
     ]
   }
