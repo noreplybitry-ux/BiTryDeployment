@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-20T06:21:27.215Z",
+  "timestamp": "2026-04-20T09:10:32.138Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Shows Classic ‘Wall Of Worry’ Rally As Retail Lags Behind",
+        "description": "A recent on-chain analysis suggests that Bitcoin is once again showing divergence across its investor cohorts, specifically between institutional players and retail investors. According to this analysis, the Bitcoin price may have more room for growth than we…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-shows-classic-wall-of-worry-rally-as-retail-lags-behind/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-stock-exchange-profit-share-preview_81e28f.jpg",
+        "publishedAt": "2026-04-19T09:00:36Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
