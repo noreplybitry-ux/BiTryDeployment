@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-20T11:22:58.798Z",
+  "timestamp": "2026-04-20T13:57:04.975Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "This Pattern Suggests Ethereum Is In Accumulation Phase — What’s Next?",
+        "description": "The price of Ethereum has somewhat slowed down over the weekend after a breakdown of negotiations between the United States and Iran. However, the latest on-chain data suggests that this moment of uncertainty has barely impacted the market structure of the se…",
+        "url": "http://www.newsbtc.com/news/ethereum/this-pattern-ethereum-is-in-accumulation-phase/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1383710952.jpg?fit=2121%2C1414",
+        "publishedAt": "2026-04-19T13:00:10Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley, AI Boost",
+        "title": "Nomura study says 65% of institutional investors see crypto as a vital portfolio diversifier",
+        "description": "A new survey from Nomura and Laser Digital shows improving sentiment among institutional investors, as regulatory clarity and new products drive deeper engagement with digital assets.",
+        "url": "https://www.coindesk.com/business/2026/04/19/nomura-study-says-65-of-institutional-investors-see-crypto-as-a-vital-portfolio-diversifier",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/25090ff126224815eb4859930f8912dbba7ec186-7952x5304.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-19T13:00:00Z",
+        "content": "Institutional investors are warming to digital assets, with improving sentiment and broader use cases emerging as key drivers of adoption, according to a new survey from Tokyo-based bank Nomura and i… [+2105 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price drops to $75K as new Hormuz closure puts focus on oil",
+        "description": "Bitcoin foreshadows fresh market mayhem as it appears that the US-Iran war has returned, including the closure of the Strait of Hormuz oil route.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-75k-new-hormuz-closure-focus-oil",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019da5a5-c47f-7227-8e9c-a366ca0e1dee.jpg",
+        "publishedAt": "2026-04-19T12:27:28Z",
+        "content": "Bitcoin (BTC) sought to protect $75,000 into Sundays weekly close as crypto surfed fresh uncertainty over the US-Iran war.\r\nKey points:\r\n<ul><li>Bitcoin price action sinks from ten-week highs amid fe… [+3212 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,45 +498,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
         "publishedAt": "2026-04-16T20:35:39Z",
         "content": "In brief\r\n<ul><li>Russian exchange Grinex says it was hacked for more than 1 billion rubles or greater than $13 million.</li><li>The exchange alleged the attack was an attempt to \"destabilize\" Russia… [+2856 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Why Did The Bitcoin Price Rally Past $75,000 Despite The US-Iran War?",
-        "description": "Bitwise Chief Investment Officer (CIO) Matt Hougan has explained why the Bitcoin price has shown strength amid the US-Iran war, with the leading crypto rallying above $75,000. BTC is notably up over 12% since the war started, outperforming the stock market an…",
-        "url": "http://www.newsbtc.com/news/bitcoin/why-bitcoin-rally-past-75000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pngtree-7.png?fit=1200%2C673",
-        "publishedAt": "2026-04-16T18:00:42Z",
-        "content": "Bitwise Chief Investment Officer (CIO) Matt Hougan has explained why the Bitcoin price has shown strength amid the US-Iran war, with the leading crypto rallying above $75,000. BTC is notably up over … [+2612 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Callan Quinn",
-        "title": "Stack BTC CEO Steps Down as Farage-Linked Bitcoin Venture Reshuffles Leadership",
-        "description": "Reform UK leader Nigel Farage announced his backing of the company following its relaunch under the Stack BTC name in March.",
-        "url": "https://decrypt.co/364619/stack-btc-ceo-steps-down-as-farage-linked-bitcoin-venture-reshuffles-leadership",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/nigel-farage-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-04-16T17:43:22Z",
-        "content": "In brief\r\n<ul><li>Stack BTC CEO Jai Patel has exited the Bitcoin treasury firms board, with David Galan taking over as chief executive.</li><li>Reform UK leader Nigel Farage has invested around $291,… [+4860 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Charles Schwab to roll out spot Bitcoin, Ether trading for retail clients",
-        "description": "Schwab will introduce direct trading in the two biggest cryptos through a dedicated account, its first move into spot trading as it expands its digital asset offerings.",
-        "url": "https://cointelegraph.com/news/charles-schwab-to-roll-out-spot-bitcoin-ether-trading-for-retail-clients",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d970f-3a8e-7d14-8921-931b70a26336.jpg",
-        "publishedAt": "2026-04-16T17:18:01Z",
-        "content": "Charles Schwab, one of the largest US brokerage firms, will roll out spot cryptocurrency trading for retail clients in the coming weeks, starting with Bitcoin and Ether through a dedicated account li… [+2838 chars]"
       }
     ]
   }
