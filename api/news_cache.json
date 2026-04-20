@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-20T13:57:04.975Z",
+  "timestamp": "2026-04-20T15:22:48.910Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
       {
         "source": {
@@ -485,19 +485,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9731-e6a2-700e-9d50-35881b44cbf1.jpg",
         "publishedAt": "2026-04-17T00:00:00Z",
         "content": "Bitcoin (BTC) appears on track to hit $90,000 in the coming weeks as whales accumulated about 20 times the cryptocurrencys daily new supply in the past weeks.\r\nKey takeaways:\r\n<ul><li>Whales bought r… [+2890 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Russian Crypto Exchange Grinex Halts Trading, Alleging $13M Exploit by 'Western Special Services'",
-        "description": "Russian crypto exchange Grinex paused trading services after a $13 million exploit it says was conducted by \"foreign special services.\"",
-        "url": "https://decrypt.co/364656/russian-crypto-exchange-grinex-halts-trading-13m-exploit",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
-        "publishedAt": "2026-04-16T20:35:39Z",
-        "content": "In brief\r\n<ul><li>Russian exchange Grinex says it was hacked for more than 1 billion rubles or greater than $13 million.</li><li>The exchange alleged the attack was an attempt to \"destabilize\" Russia… [+2856 chars]"
       }
     ]
   }
