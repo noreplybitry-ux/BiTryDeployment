@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-21T12:02:40.924Z",
+  "timestamp": "2026-04-21T14:50:01.380Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Coinbase, Bybit said to be working together on tokenization, custody and distribution of U.S. stocks",
+        "description": "The talks do not involve any sort of stake acquisition or similar deal to enter the U.S., as was reported elsewhere last month.",
+        "url": "https://www.coindesk.com/business/2026/04/20/coinbase-bybit-said-to-be-working-together-on-tokenization-custody-and-distribution-of-u-s-stocks",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6e8ed1cd0f17a1509349ad7cb7c31b8324847527-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-20T13:44:30Z",
+        "content": "Crypto exchange Coinbase (COIN) is working with Bybit, one of the largest crypto trading platforms, to explore ways to tokenize, custody and distribute assets such as U.S. public and pre-IPO stocks, … [+1654 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin metrics line up bull signals with $78K the BTC price level to beat",
+        "description": "With $75,000 possibly the new floor, Bitcoin is giving hints that a BTC price breakout is about to begin, based on two classic technical indicators.",
+        "url": "https://cointelegraph.com/markets/bitcoin-metrics-line-up-bull-signals-78k-btc-price-level-beat",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019daac0-0622-7374-96ce-f85106fc4572.jpg",
+        "publishedAt": "2026-04-20T12:20:47Z",
+        "content": "Bitcoin (BTC) has recovered 25% from its multi-year low below $60,000, with momentum indicators flashing rare buy signals.\r\nKey takeaways:\r\n<ul><li>Bitcoins MACD and RSI indicators forecast a sharp B… [+3714 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Coinbase rolls out UK crypto-backed loans as FCA shapes rules",
+        "description": "Coinbase launched USDC loans for UK users backed by BTC, ETH and cbETH, expanding its borrowing product as Britain moves toward a crypto regulatory regime.",
+        "url": "https://cointelegraph.com/news/coinbase-crypto-backed-usdc-loans-uk-morpho-fca-rules",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019daa3d-1ac7-7d02-b806-53a8573cdd75.jpg",
+        "publishedAt": "2026-04-20T12:06:49Z",
+        "content": "Crypto exchange Coinbase has rolled out crypto-backed USDC loans for users in the United Kingdom, allowing users to borrow USDC against Bitcoin, Ether and Coinbase Wrapped Staked Ether (cbETH). The l… [+2296 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,45 +498,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9ba9-45fe-7318-b1c3-4e0b0929b211.jpg",
         "publishedAt": "2026-04-17T13:45:01Z",
         "content": "The frequency of kidnap and ransom attempts on prominent cryptocurrency executives has skyrocketed in recent years.\r\nReferred to, perhaps crudely, in the crypto community as a $5 wrench attack, these… [+6525 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "SEC Officials Push US Crypto Ambitions in Debut Podcast Episode",
-        "description": "The agency's chairman, Paul Atkins, sat down with two key commissioners to outline a shift away from enforcement.",
-        "url": "https://decrypt.co/364720/sec-officials-push-us-crypto-ambitions-in-debut-podcast-episode",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/paul-atkins-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-04-17T12:39:01Z",
-        "content": "In brief\r\n<ul><li>SEC Chair Paul Atkins launched a new podcast with Commissioners Hester Peirce and Mark Uyeda, outlining a pro-innovation crypto regulatory agenda.</li><li>The agency has dropped ove… [+4057 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "Negative Funding Rates Hit Yearly High as Bitcoin Tests $76K",
-        "description": "Bitcoin funding rates hit year-high negative levels, setting up a potential short squeeze—or bull trap—as its price tests $76K.",
-        "url": "https://decrypt.co/364713/negative-funding-rates-hit-yearly-high-as-bitcoin-tests-76k",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-decrypt-style-28-gID_7.png",
-        "publishedAt": "2026-04-17T12:04:10Z",
-        "content": "In brief\r\n<ul><li>Bitcoin funding rates have remained negative for over a month even as BTC touched $76,000, signaling heavy bearish positioning.</li><li>A potential uptrend could see Bitcoin revisit… [+3385 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin, Ethereum Trading Expands As Charles Schwab Enters Crypto Market",
-        "description": "Charles Schwab is charging into the crypto space with fees lower than its closest rival — and a customer base that dwarfs most financial platforms in America. Related Reading: Bitcoin Pressure Builds As Miners Dump 32K BTC In Just 3 Months A Slow Roll, Not A …",
-        "url": "http://www.newsbtc.com/news/bitcoin-ethereum-trading-expands-as-charles-schwab-enters-crypto-market/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/conceptual-landscape-image-of-a-large-ornate-door-.jpeg?fit=1440%2C816",
-        "publishedAt": "2026-04-17T11:00:57Z",
-        "content": "Charles Schwab is charging into the crypto space with fees lower than its closest rival and a customer base that dwarfs most financial platforms in America.\r\nThe Texas-based brokerage has begun offer… [+2501 chars]"
       }
     ]
   }
