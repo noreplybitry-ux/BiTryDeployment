@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-21T22:43:51.005Z",
+  "timestamp": "2026-04-21T23:40:30.479Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Sounds Bitcoin Warning: This Surge Above $78,000 Should Not Be Trusted",
+        "description": "The latest Bitcoin (BTC) price rebound above $78,000 has sparked renewed optimism across the market, as investor sentiment has flipped bullish. However, not all market watchers are convinced that the momentum will last. Crypto analyst Marmot is warning that t…",
+        "url": "http://www.newsbtc.com/news/bitcoin/analyst-sends-bitcoin-warning/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-72.jpg?fit=1280%2C848",
+        "publishedAt": "2026-04-20T23:30:18Z",
+        "content": "The latest Bitcoin (BTC) price rebound above $78,000 has sparked renewed optimism across the market, asinvestor sentiment has flipped bullish. However, not all market watchers are convinced that the … [+3156 chars]"
+      },
       {
         "source": {
           "id": null,
