@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-21T14:50:01.379Z",
+  "timestamp": "2026-04-21T16:14:28.817Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Coinbase Now Lets UK Users Borrow Against Their Bitcoin and Ethereum",
+        "description": "After launching crypto-backed loans in the U.S. last year, Coinbase has expanded the Bitcoin, Ethereum offering to U.K. users.",
+        "url": "https://decrypt.co/364890/coinbase-now-lets-uk-users-borrow-against-their-bitcoin-and-ethereum",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-04-20T15:29:41Z",
+        "content": "In brief\r\n<ul><li>Coinbase launched crypto-backed USDC lending for U.K. users on Monday.</li><li>Bitcoin holders can borrow up to $5 million in USDC, with Ethereum-backed loans capped at $1 million.<… [+1828 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin daily gains near 3% as stocks ignore US-Iran war threat, oil drops",
+        "description": "Bitcoin bulls avoided a correction as US markets opened, but analysis warned that Strategy was responsible for much of the latest BTC price strength.",
+        "url": "https://cointelegraph.com/markets/bitcoin-daily-gains-near-3-stocks-ignore-us-iran-war-threat-oil-drops",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019dab69-073c-7784-b797-7dc096c03aae.jpg",
+        "publishedAt": "2026-04-20T15:14:52Z",
+        "content": "Bitcoin (BTC) erased losses after Mondays Wall Street open as markets largely shrugged off the return of the US-Iran war.\r\nKey points:\r\n<ul><li>Bitcoin joins stocks in a muted reaction to the latest … [+3723 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,32 +498,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-losses.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-04-17T15:30:19Z",
         "content": "Bitwise Research has shed light on how holding durations can impact the ROI and outcomes ofBitcoin (BTC) investments, revealing a major distinction between short-term risk and long-term performance. … [+3047 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price quietly sets new 10-week high as trader sees $88K in weeks",
-        "description": "Bitcoin price rallied above $77,000 amid cooling geopolitical tensions and record-high back-to-back closes for the S&P 500.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-quietly-sets-new-10-week-high-as-trader-sees-88k-in-weeks",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9b5d-c9eb-7599-90f1-9ef95ff3f99b.jpg",
-        "publishedAt": "2026-04-17T13:52:38Z",
-        "content": "Bitcoin (BTC) refreshed February highs on Friday as attention focused on the upcoming weekly close and a longer-term rally to $88,000.\r\nKey points:\r\n<ul><li>Bitcoin hits its highest levels in ten wee… [+3704 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Aaron Wood",
-        "title": "Crypto execs ramp up security as wrench attacks increase",
-        "description": "So-called “wrench attacks” have plagued the crypto industry for over a decade, but in recent years, there has been a spate of high-profile kidnap and ransom attempts.",
-        "url": "https://cointelegraph.com/features/crypto-execs-ramp-security-wrench-attacks-increase",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9ba9-45fe-7318-b1c3-4e0b0929b211.jpg",
-        "publishedAt": "2026-04-17T13:45:01Z",
-        "content": "The frequency of kidnap and ransom attempts on prominent cryptocurrency executives has skyrocketed in recent years.\r\nReferred to, perhaps crudely, in the crypto community as a $5 wrench attack, these… [+6525 chars]"
       }
     ]
   }
