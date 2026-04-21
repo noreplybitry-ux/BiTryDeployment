@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-21T20:07:23.817Z",
+  "timestamp": "2026-04-21T21:51:51.868Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Bybit leads funding for Malaysia’s Hata dual-licensed crypto platform",
+        "description": "Bybit led an $8 million Series A round in Malaysia-based crypto exchange Hata, a dual-licensed platform, as the country expands its digital asset regulatory framework.",
+        "url": "https://cointelegraph.com/news/bybit-leads-8m-round-in-malaysian-crypto-exchange-hata",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019dac8d-2c59-79d9-8388-a354a6506754.jpg",
+        "publishedAt": "2026-04-20T21:05:36Z",
+        "content": "Bybit has led an $8 million Series A funding round in Hata, a dual-licensed digital asset exchange operating in Malaysia. The round also included participation from global family offices and follows … [+2818 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Rebounds Strongly — Can Bulls Drive Price Toward $79,000",
+        "description": "Bitcoin is showing renewed strength after a sharp rebound, signaling that buyers are stepping back in at key levels. With momentum building and price pushing higher, attention is now shifting toward the $79,000 resistance zone, where a breakout could confirm …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-rebounds-strongly/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-76.jpg?fit=1280%2C853",
+        "publishedAt": "2026-04-20T20:30:55Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9c65-faf0-76c0-95cd-9b9d7b23f386.jpg",
         "publishedAt": "2026-04-17T19:22:53Z",
         "content": "Connecticut Senator Richard Blumenthal questioned US authorities responsible for overseeing Binance about whether the company is complying with anti-money laundering laws and sanctions under its 2023… [+2186 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/17: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "description": "Bitcoin pole vaulted to $78,000 and altcoins soared after Iran said that the Strait of Hormuz was fully open. Will bulls be able to sustain the upward momentum?",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-17-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9c55-2a24-71b7-92c4-ec66541a84f1.jpg",
-        "publishedAt": "2026-04-17T17:37:07Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin soared above $76,000, opening the doors for a further rally toward $84,000.\r\n</li><li>Several major altcoins are showing strength, signaling broad-based buying by the bul… [+8666 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "13 Years Of Data Says Bitcoin Price Has Not Bottomed Yet, Analyst Explains The Trend",
-        "description": "Bitcoin is now printing green candlesticks on the weekly and daily timeframes, and this raises the question of whether the worst has already passed or maybe the floor is still months away.  An interesting analysis of Bitcoin’s price action over a multi-year t…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-has-not-bottomed-yet/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-4.jpg?fit=960%2C640",
-        "publishedAt": "2026-04-17T17:00:19Z",
-        "content": "Bitcoin is now printing green candlesticks on the weekly and daily timeframes, and this raises the question of whether the worst has already passed or maybe the floor is still months away. \r\nAn inter… [+2795 chars]"
       }
     ]
   }
