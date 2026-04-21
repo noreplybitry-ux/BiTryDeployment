@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-21T06:06:40.048Z",
+  "timestamp": "2026-04-21T08:55:24.476Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Says Ethereum Just Confirmed A ‘Turtle Soup’, Here’s What It Means",
+        "description": "The Ethereum price has followed Bitcoin’s trajectory recently, with the pump from last week eventually pushing the altcoin above $2,400. This was a welcome change for investors after a drawn-out downtrend. Now, the price has begun to stabilize, looking toward…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-just-turtle-soup/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-turtle-soup.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-20T07:00:03Z",
+        "content": "The Ethereum price has followed Bitcoins trajectory recently, with the pump from last week eventually pushing the altcoin above $2,400. This was a welcome change for investors after a drawn-out downt… [+2137 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Coinbase is testing AI agents that show up on Slack and email",
+        "description": "Brian Armstrong has now predicted that AI agents will not only transact onchain more than humans but will outnumber employees at his company very soon.",
+        "url": "https://cointelegraph.com/news/coinbase-introduces-two-ai-agents-assist-workers",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d74c6-2a86-7689-acb7-154d7eba7a89.jpg",
+        "publishedAt": "2026-04-20T06:07:01Z",
+        "content": "Coinbase CEO Brian Armstrong said the company has started testing AI agents on Slack and email to assist employees with work tasks, continuing the companys efforts to embed AI into its workflows. \r\nI… [+2327 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,32 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/06/Bitcoin-crash.jpeg?fit=1792%2C1024",
         "publishedAt": "2026-04-17T06:30:13Z",
         "content": "There are many different indicators that analysts have used to predict the Bitcoin bottom in the past, and the Cumulative Value Days Destroyed (CVDD) is one of them. Mostly, these indicators are know… [+2359 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "Crypto in sustained winter as CEX volumes drop 39% in Q1: CoinGecko",
-        "description": "CoinGecko says a 40% decline in crypto exchange trading volumes, capped by a two-and-a-half-year monthly volume low in March, shows the crypto market is in a sustained winter lull.",
-        "url": "https://cointelegraph.com/news/crypto-sustained-winter-q1-cex-volumes-drop-coingecko",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9995-75aa-7b6b-b55e-45ef43c20a56.jpg",
-        "publishedAt": "2026-04-17T06:16:48Z",
-        "content": "The cryptocurrency market has entered a sustained crypto winter, according to CoinGecko, as spot trading volumes on centralized crypto exchanges rapidly fell over the first quarter of 2026.\r\nCrypto m… [+1981 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Reattempts Breakout, Bulls Eye Strong Rally Move",
-        "description": "Dogecoin started a decent increase above $0.0950 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.10. DOGE price started a fresh increase above $0.0950 and $0.0975. The price is trading above the $0.0965 level and th…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-reattempts-breakout-0-10/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/06/Dogecoin-DOGE-Eyes-Upside.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-04-17T05:08:37Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
