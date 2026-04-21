@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-21T08:55:24.476Z",
+  "timestamp": "2026-04-21T10:22:11.019Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "BTC price due 'new highs:' Five things to know in Bitcoin this week",
+        "description": "Bitcoin saw a green weekly close despite renewed US-Iran war momentum, and a trader forecast that BTC price action would beat last week's local highs.",
+        "url": "https://cointelegraph.com/markets/btc-price-due-new-highs-five-things-bitcoin-this-week",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bbf3b-d302-75b1-be4c-a6712fd23db0.jpg",
+        "publishedAt": "2026-04-20T10:18:21Z",
+        "content": "Bitcoin (BTC) begins the last full week of April juggling fresh US-Iran war fears as resistance hurdles line up.\r\nKey points:\r\n<ul><li>Bitcoin stays green on weekly time frames with multiple nearby p… [+9922 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Here's how bitcoin's $7.9 billion April options expiry impact prices",
+        "description": "With the bitcoin price above max pain and heavy positioning at $75K, traders face a potential squeeze or pullback into \"max pain\" expiry.",
+        "url": "https://www.coindesk.com/markets/2026/04/20/here-s-how-bitcoin-s-usd7-9-billion-options-expiry-impact-prices",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a46fdc0eb758eaaa46dbb2c54a2f8a929843b634-6048x4024.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-20T09:53:12Z",
+        "content": "Bitcoin BTC\r\n$75,186.68 options worth roughly $7.9 billion are set to expire on Deribit this Friday, with positioning data pointing to $62,000 and $75,000 as key levels to watch out for. \r\nThe $75,00… [+2477 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Pulls Back Below $75K As Iran Tensions Rise Again",
+        "description": "The Crypto Fear & Greed Index crept up two points to 29 out of 100 on Monday — its highest reading since late January — but that number still signals fear among Bitcoin investors. Related Reading: Strategy Raises $1.76B War Chest As Saylor Signals Bigger Bitc…",
+        "url": "http://www.newsbtc.com/news/bitcoin-pulls-back-below-key-levels-as-iran-tensions-rise-again/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/conceptual-digital-art-of-bitcoin-and-war-showing-.jpeg",
+        "publishedAt": "2026-04-20T09:30:21Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,32 +498,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d9a8f-014c-7318-8d1e-1ec9f3bb8bc1.jpg",
         "publishedAt": "2026-04-17T10:26:23Z",
         "content": "Foundation, one of the better-known Ethereum-based non-fungible token (NFT) marketplaces of the 2021 boom, is shutting down after the sale that was supposed to keep it operating fell apart.\r\nKayvon T… [+3040 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Rallies On Fragile Peace Deal Between Israel And Lebanon",
-        "description": "Bitcoin traders are already betting the wider US-Iran ceasefire will hold. Data from prediction market Polymarket puts the odds of a permanent peace deal by April 22 at 23%. Related Reading: Bitcoin Rally Faces First Test At $76K As Sellers Step In: Analysts …",
-        "url": "http://www.newsbtc.com/news/bitcoin-rallies-on-fragile-peace-deal-between-israel-and-lebanon/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_ed7f9b.jpg?fit=1600%2C900",
-        "publishedAt": "2026-04-17T07:30:46Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "This Indicator Used To Predict Bitcoin Bottoms Is Flashing Below $50,000",
-        "description": "There are many different indicators that analysts have used to predict the Bitcoin bottom in the past, and the Cumulative Value Days Destroyed (CVDD) is one of them. Mostly, these indicators are known for predicting the bottom because when they have appeared …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bottoms-below-50000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/06/Bitcoin-crash.jpeg?fit=1792%2C1024",
-        "publishedAt": "2026-04-17T06:30:13Z",
-        "content": "There are many different indicators that analysts have used to predict the Bitcoin bottom in the past, and the Cumulative Value Days Destroyed (CVDD) is one of them. Mostly, these indicators are know… [+2359 chars]"
       }
     ]
   }
