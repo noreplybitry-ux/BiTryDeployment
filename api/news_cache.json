@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-21T03:23:38.033Z",
+  "timestamp": "2026-04-21T06:06:40.048Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Faces Another Rejection, Is A Deeper Correction Ahead?",
+        "description": "Solana failed to settle above $90 and extended losses. SOL price is now consolidating losses below $85 and might struggle to start a recovery wave. SOL price started a fresh decline below $88 and $85 against the US Dollar. The price is now trading below $85 a…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-faces-another-rejection-90/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Faces-Another-Rejection.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-20T05:08:08Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/06/Dogecoin-DOGE-Eyes-Upside.jpg?fit=1792%2C1024",
         "publishedAt": "2026-04-17T05:08:37Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Bitcoin bulls target $125,000 as U.S.-Iran peace talks trigger risk-on mood",
-        "description": "Funding rates at 2023 lows signal the market is heavily short against bitcoin, ZeroStack's Daniel Reis-Faria says, setting up conditions for a forced unwind if prices push higher.",
-        "url": "https://www.coindesk.com/markets/2026/04/17/bitcoin-bulls-target-usd125-000-as-u-s-iran-peace-talks-trigger-risk-on-mood",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/69af97327f32f98432d26ab0e79ca8f4a65e5e31-1500x997.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-17T03:52:56Z",
-        "content": "Bitcoin traded around $74,700 in Asian morning hours Friday, down 0.4% over 24 hours but still up 3.5% on the week, as a 10-day rally in global equities paused ahead of next week's U.S.-Iran ceasefir… [+3077 chars]"
       }
     ]
   }
