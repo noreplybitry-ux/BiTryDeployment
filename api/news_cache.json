@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-21T18:02:55.663Z",
+  "timestamp": "2026-04-21T20:07:23.817Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "One year under Paul Atkins, SEC's crypto stance shows break with past",
+        "description": "While the regulator under Atkins has dropped several cases against crypto companies, the SEC still awaits passage of a market structure bill to clarify its authority over crypto.",
+        "url": "https://cointelegraph.com/news/paul-atkins-one-year-sec-chair",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019dab77-2d38-7e4a-bd7c-816ad0a085b0.jpg",
+        "publishedAt": "2026-04-20T19:02:33Z",
+        "content": "Since Paul Atkins was sworn in as chair of the US Securities and Exchange Commission (SEC) on April 21, 2025, the agency has significantly changed its position on regulation and enforcement related t… [+2716 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/20: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA",
+        "description": "Bitcoin bulls retain control over the market, but charts show $80,000 is likely to remain a stiff overhead resistance. Will altcoins rally as BTC price consolidates?",
+        "url": "https://cointelegraph.com/markets/price-predictions-4-20-spx-dxy-btc-eth-bnb-xrp-sol-doge-hype-ada",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019dabd2-eecf-7401-a5ea-c34b1fb055c1.jpg",
+        "publishedAt": "2026-04-20T18:52:11Z",
+        "content": "Key points:\r\n<ul><li>Buyers aggressively bought into the dip in Bitcoin, indicating positive sentiment. That increases the possibility of a rally to $84,000.\r\n</li><li>Several major altcoins have pul… [+8546 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-4.jpg?fit=960%2C640",
         "publishedAt": "2026-04-17T17:00:19Z",
         "content": "Bitcoin is now printing green candlesticks on the weekly and daily timeframes, and this raises the question of whether the worst has already passed or maybe the floor is still months away. \r\nAn inter… [+2795 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "US Government Moves Bitcoin Tied to $9 Billion Bitfinex Hack",
-        "description": "The U.S. government moved 8.2 Bitcoin, or greater than $600,000, that is linked to the $9 billion Bitfinex hack from 2016.",
-        "url": "https://decrypt.co/364730/us-government-moves-bitcoin-9-billion-bitfinex-hack",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-04-17T16:47:35Z",
-        "content": "In brief\r\n<ul><li>Blockchain data shows the U.S. government transferred more than $600,000 worth of Bitcoin connected to the 2016 Bitfinex hack. </li><li>The funds were transferred from a government … [+2544 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitwise Research Shows How Much Loss Your Bitcoin Incurs Depending On How Long You Hold",
-        "description": "Bitwise Research has shed light on how holding durations can impact the ROI and outcomes of Bitcoin (BTC) investments, revealing a major distinction between short-term risk and long-term performance. The data shows that while short holding periods carry signi…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitwise-research-bitcoin-loss/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-losses.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-17T15:30:19Z",
-        "content": "Bitwise Research has shed light on how holding durations can impact the ROI and outcomes ofBitcoin (BTC) investments, revealing a major distinction between short-term risk and long-term performance. … [+3047 chars]"
       }
     ]
   }
