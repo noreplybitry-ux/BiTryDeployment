@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-22T16:13:07.225Z",
+  "timestamp": "2026-04-22T18:03:57.090Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin price rally 'in progress' but upside could be capped at $84K",
+        "description": "Bitcoin has rallied 26% from its $60,000 bottom, and new data points to an extended run toward $84,000 in the short term.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-rally-in-progress-but-upside-could-be-capped-at-84k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b35d2-1dde-74d1-9f9f-265eec454e0b.jpg",
+        "publishedAt": "2026-04-21T16:55:37Z",
+        "content": "Market analysts said Bitcoins (BTC) latest rally to $78,000 means that the uptrend has began, but the upside could be capped at $84,000, based on several key metrics.\r\nKey takeaways:\r\n<ul><li>Bitcoin… [+3187 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin regains $76K as Coinbase-driven demand sustains recovery",
+        "description": "A $517 million rise in spot volume led by Coinbase is helping Bitcoin reclaim $76,000, with steady inflows absorbing the weekend selling pressure.",
+        "url": "https://cointelegraph.com/markets/bitcoin-regains-76k-as-coinbase-driven-demand-sustains-recovery",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db033-732f-799a-b38b-eae2a68a1db4.jpg",
+        "publishedAt": "2026-04-21T16:40:31Z",
+        "content": "Bitcoin (BTC) rebounded above $76,000 on Tuesday, after the spot market demand on Coinbase exchange saw a second week of bullish volume trends.\r\nNet spot buy volume has climbed sharply over the past … [+3593 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,58 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Gives-Back-Gains-But-Structure-Remains-Bullish.jpg",
         "publishedAt": "2026-04-20T02:32:59Z",
         "content": "Bitcoin price started a fresh decline from the $78,400 zone. BTC is consolidating and might struggle to stay above the $73,500 support.\r\n<ul><li>Bitcoin failed to stay above $76,500 and corrected gai… [+2194 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Strategy Raises $1.76B War Chest As Saylor Signals Bigger Bitcoin Buy",
-        "description": "Michael Saylor’s company has already lined up the money. Now the question is how much Bitcoin it plans to buy with it. Related Reading: Alibaba AI Model Puts XRP Price Between $7 And $42 By Year-End Saylor’s Signal Fires Up The Market Strategy’s executive cha…",
-        "url": "http://www.newsbtc.com/news/strategy-raises-1-76b-war-chest-as-saylor-signals-bigger-bitcoin-buy/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a-massive-underground-bitcoin-vault-with-towering-.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-04-19T19:00:57Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Flips Key Resistance, ETF Demand Returns, Analysts Eye Next Leg Higher",
-        "description": "Ethereum is flashing a combination of technical and on-chain signals that analysts say could be the beginning of a meaningful recovery. For the first time in months, the structure of Ethereum’s price action appears to be shifting in the favor of bulls. The la…",
-        "url": "http://www.newsbtc.com/altcoin/ethereum-flips-key-resistance-etf-demand-returns-analysts-eye-next-leg-higher/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-19T18:00:17Z",
-        "content": "Ethereum is flashing a combination of technical and on-chain signals that analysts say could be the beginning of a meaningful recovery. For the first time in months, the structure of Ethereums price … [+2789 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Miner Pain Reaches Critical Threshold — Impact On Price",
-        "description": "According to data from a recent on-chain evaluation, the Bitcoin mining sector is once again flashing warning signals, as a key industry health metric now hovers above historically critical levels. In this scenario, the Bitcoin price stands a chance to regain…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-miner-pain-reaches-critical-threshold/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/iStock-1430765691.jpg?fit=1254%2C836",
-        "publishedAt": "2026-04-19T16:30:43Z",
-        "content": "According to data from a recent on-chain evaluation, the Bitcoin mining sector is once again flashing warning signals, as a key industry health metric now hovers above historically critical levels. I… [+2518 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "This Pattern Suggests Ethereum Is In Accumulation Phase — What’s Next?",
-        "description": "The price of Ethereum has somewhat slowed down over the weekend after a breakdown of negotiations between the United States and Iran. However, the latest on-chain data suggests that this moment of uncertainty has barely impacted the market structure of the se…",
-        "url": "http://www.newsbtc.com/news/ethereum/this-pattern-ethereum-is-in-accumulation-phase/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/iStock-1383710952.jpg?fit=2121%2C1414",
-        "publishedAt": "2026-04-19T13:00:10Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
       }
     ]
   }
