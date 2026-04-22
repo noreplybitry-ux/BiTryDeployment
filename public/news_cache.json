@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-22T20:08:37.063Z",
+  "timestamp": "2026-04-22T21:55:08.419Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Anthony Scaramucci Puts Bitcoin Market Cap At $21 Trillion, So How Much Will 1 BTC Be?",
+        "description": "Anthony Scaramucci, the financier and SkyBridge Capital founder who briefly served as White House communications director, has made a bold case for Bitcoin’s long-term value.  According to him, Bitcoin’s market cap is well on track to reach $21 trillion, and …",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-21-trillion-market-cap/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-88.jpg?fit=1280%2C848",
+        "publishedAt": "2026-04-21T21:30:20Z",
+        "content": "Anthony Scaramucci, the financier and SkyBridge Capital founder who briefly served as White House communications director, has made a bold case for Bitcoin’s long-term value. \r\nAccording to him, Bitc… [+2733 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Bipartisan PACE Act Introduced To Expand Crypto Firms’ Access To Fed Payment Services",
+        "description": "A new bipartisan bill introduced on Tuesday would give many fintech and crypto payment providers a clearer path to the US payment infrastructure.  The new measure, called the Payments Access and Consumer Efficiency (PACE) Act, is designed to create a national…",
+        "url": "http://www.newsbtc.com/news/bipartisan-pace-act-introduced-to-expand-crypto-firms-access-to-fed-payment-services/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image__KTXXNqS_1776796006926_raw.jpg",
+        "publishedAt": "2026-04-21T20:16:00Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a46fdc0eb758eaaa46dbb2c54a2f8a929843b634-6048x4024.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-20T09:53:12Z",
         "content": "Bitcoin BTC\r\n$75,186.68 options worth roughly $7.9 billion are set to expire on Deribit this Friday, with positioning data pointing to $62,000 and $75,000 as key levels to watch out for. \r\nThe $75,00… [+2477 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Pulls Back Below $75K As Iran Tensions Rise Again",
-        "description": "The Crypto Fear & Greed Index crept up two points to 29 out of 100 on Monday — its highest reading since late January — but that number still signals fear among Bitcoin investors. Related Reading: Strategy Raises $1.76B War Chest As Saylor Signals Bigger Bitc…",
-        "url": "http://www.newsbtc.com/news/bitcoin-pulls-back-below-key-levels-as-iran-tensions-rise-again/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/conceptual-digital-art-of-bitcoin-and-war-showing-.jpeg",
-        "publishedAt": "2026-04-20T09:30:21Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Says Ethereum Just Confirmed A ‘Turtle Soup’, Here’s What It Means",
-        "description": "The Ethereum price has followed Bitcoin’s trajectory recently, with the pump from last week eventually pushing the altcoin above $2,400. This was a welcome change for investors after a drawn-out downtrend. Now, the price has begun to stabilize, looking toward…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-just-turtle-soup/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-turtle-soup.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-20T07:00:03Z",
-        "content": "The Ethereum price has followed Bitcoins trajectory recently, with the pump from last week eventually pushing the altcoin above $2,400. This was a welcome change for investors after a drawn-out downt… [+2137 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "Coinbase is testing AI agents that show up on Slack and email",
-        "description": "Brian Armstrong has now predicted that AI agents will not only transact onchain more than humans but will outnumber employees at his company very soon.",
-        "url": "https://cointelegraph.com/news/coinbase-introduces-two-ai-agents-assist-workers",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d74c6-2a86-7689-acb7-154d7eba7a89.jpg",
-        "publishedAt": "2026-04-20T06:07:01Z",
-        "content": "Coinbase CEO Brian Armstrong said the company has started testing AI agents on Slack and email to assist employees with work tasks, continuing the companys efforts to embed AI into its workflows. \r\nI… [+2327 chars]"
       }
     ]
   }
