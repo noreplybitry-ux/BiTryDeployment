@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-04-22T12:02:16.537Z",
+  "timestamp": "2026-04-22T14:49:47.724Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "UK invites crypto giant Bybit to London to win over some of UAE’s innovation shine",
+        "description": "Bybit CEO Ben Zhou was invited to meetings in the U.K. this week with government-linked bodies including the FCA and House of Lords.",
+        "url": "https://www.coindesk.com/business/2026/04/21/uk-invites-crypto-giant-bybit-to-london-to-win-over-some-of-uae-s-innovation-shine",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8cd59e58d769c9d0c3ce77496cdaab720bffd0c8-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-21T14:25:45Z",
+        "content": "Economic development officials with links to the U.K. government invited Bybit leadership to London this week in what appears to be a bid to emulate the momentum of Dubai, where the cryptocurrency ex… [+2301 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, AI Boost",
+        "title": "European banks are at risk of losing customers to rivals with better crypto tools",
+        "description": "A new study found that while European investors find crypto complex, they are increasingly willing to switch banks to find a trusted partner that offers secure and regulated digital asset services.",
+        "url": "https://www.coindesk.com/business/2026/04/21/european-banks-are-at-risk-of-losing-customers-to-rivals-with-better-crypto-tools",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e0e7d56858850b6e7a6abc32a3772680fdc761b7-5504x3220.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-21T14:21:59Z",
+        "content": "A growing share of European investors may change banks to access better crypto services, according to a new study from Boerse Stuttgart Digital, signaling a shift in how digital assets are shaping re… [+2553 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea tax agency opens bidding for crypto tracing tool",
+        "description": "A procurement notice shows South Korea advancing crypto tax enforcement plans, with tighter oversight measures already underway across exchanges.",
+        "url": "https://cointelegraph.com/news/south-korea-crypto-tax-ai-monitoring-system-procurement",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019daf97-7ed0-7462-a08f-99ae0113add6.jpg",
+        "publishedAt": "2026-04-21T13:47:49Z",
+        "content": "South Koreas National Tax Service (NTS) has opened a tender for software licenses to track virtual asset transactions as part of tax evasion enforcement, according to a government procurement notice.… [+2102 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Crypto hackers stole $17B over past 10 years: DefiLlama",
+        "description": "Crypto hacks stole $17 billion over the past 10 years, driven by private key compromises and phishing attacks as smart contract security improved.",
+        "url": "https://cointelegraph.com/news/private-key-compromises-led-crypto-hack-losses-decade",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db004-ba74-7f2c-aa4c-23fb225feb0b.jpg",
+        "publishedAt": "2026-04-21T13:42:32Z",
+        "content": "Private key compromises are emerging as one of cryptos costliest attack vectors, with hackers stealing more than $17 billion across 518 recorded incidents over the past decade, according to data plat… [+3671 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "VIX drops 45% in three weeks: Is Bitcoin price ready to retake $80K?",
+        "description": "A falling VIX signals improving risk appetite, boosting Bitcoin’s chances of attracting fresh demand and breaking above the $80,000 level.",
+        "url": "https://cointelegraph.com/markets/vix-drops-45-precent-three-weeks-btc-price-retake-80k",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019dafe7-39c1-76be-af2e-f1e8930ae4f4.jpg",
+        "publishedAt": "2026-04-21T12:25:47Z",
+        "content": "The CBOE Volatility Index (VIX), a preferred Wall Street metric to measure investor sentiment and market risk, dropped by over 45% in under a month. For Bitcoin (BTC), this could be a significant bul… [+2866 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,71 +498,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-stock-exchange-profit-share-preview_81e28f.jpg",
         "publishedAt": "2026-04-19T09:00:36Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin Breakout Confirmed, But Is It Real Or A Bull Trap?",
-        "description": "Bitcoin has confirmed a breakout from its macro downtrend on the linear chart, signaling a potential shift in broader market structure. However, with the price now sitting at a key resistance zone on the logarithmic chart, uncertainty remains. The coming sess…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-breakout-confirmed/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-69.jpg?fit=612%2C408",
-        "publishedAt": "2026-04-18T23:30:44Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Can Bitcoin Buyers Join The Breakout Party? Analyst Says Not Yet",
-        "description": "Bitcoin seems to have finally broken out of weeks of stagnation with an 11% rally, signaling a notable shift in its market momentum. Expectedly, this move has drawn renewed attention from various market participants who may be eager to re-enter the market. Ho…",
-        "url": "http://www.newsbtc.com/news/bitcoin/can-bitcoin-buyers-join-the-breakout-party/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/iStock-1361090527.jpg?fit=1232%2C852",
-        "publishedAt": "2026-04-18T19:00:38Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Binance and Biget to probe RAVE’s 4,500% token surge as claims of insider-orchestrated rally grow",
-        "description": "Nearly 90% of RAVE's supply was concentrated in just three wallets, and millions of tokens were transferred to exchanges before the price surge.",
-        "url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fbd1652657bfb9351a33da786859d3bebdd22a69-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-18T16:46:46Z",
-        "content": "Binance and Bitget, two major cryptocurrency exchanges, have opened investigations into trading activity surrounding RaveDAOs RAVE token, after onchain sleuth ZachXBT alleged insiders engineered a la… [+3313 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "ADA Deja Vu? Cardano Price Surged 200% Last Time It Was At This Support Level",
-        "description": "The Cardano price has been a poor indicator of the positive momentum injected into the cryptocurrency market over the past week. Despite most large-cap altcoins surging on the back of easing macroeconomic pressure, the ADA token has barely been able to stage …",
-        "url": "http://www.newsbtc.com/news/cardano/cardano-price-surged-200-last-time/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/iStock-1336958377.jpeg?fit=2121%2C1414",
-        "publishedAt": "2026-04-18T16:00:29Z",
-        "content": "The Cardano price has been a poor indicator of the positive momentum injected into the cryptocurrency market over the past week. Despite most large-cap altcoins surging on the back of easing macroeco… [+2753 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Says Bitcoin Is Going To $170,000: Here’s When To Buy And When To Sell",
-        "description": "Crypto analyst Hanzo has predicted that Bitcoin will rally to a new all-time high (ATH) of $170,000 in the next bull run. He also revealed what level investors should look to buy BTC in this bear market as they target this potential rally to $170,000.  Bitcoi…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-going-to-170000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-60.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-18T14:30:28Z",
-        "content": "Crypto analyst Hanzo has predicted that Bitcoin will rally to a new all-time high (ATH) of $170,000 in the next bull run. He also revealed what level investors should look to buy BTC in this bear mar… [+2369 chars]"
       }
     ]
   }
