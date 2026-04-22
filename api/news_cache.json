@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-22T08:51:12.136Z",
+  "timestamp": "2026-04-22T10:23:02.236Z",
   "data": {
     "status": "ok",
     "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Philippines SEC warns on dYdX, six other unauthorized crypto platforms",
+        "description": "Promoters of flagged platforms may face fines of up to 5 million Philippine pesos ($89,000) or up to 21 years in prison under Philippine securities law.",
+        "url": "https://cointelegraph.com/news/philippines-sec-warns-dydx-crypto-platforms-investor-alert",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019daf19-d215-7ee3-8b87-1376dbb1c257.jpg",
+        "publishedAt": "2026-04-21T09:22:30Z",
+        "content": "The Philippine Securities and Exchange Commission (SEC) has issued a public investor alert warning Filipinos not to invest in dYdX and six other crypto trading platforms, saying they are not register… [+2418 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,19 +524,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/51374775737_75db16e1d7_b.jpg",
         "publishedAt": "2026-04-18T08:30:37Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Explosive Claim: Polish PM Accuses Crypto Firm Of Russian Mafia/Spy Links In Political Rivalry",
-        "description": "A fresh crypto controversy has flared up in Poland, with Prime Minister Donald Tusk accusing a crypto firm he says was formed with “Russian money” of backing political rivals and conservative events.  Tusk made the remarks in the Polish parliament on Friday, …",
-        "url": "http://www.newsbtc.com/crypto/explosive-claim-polish-pm-accuses-crypto-firm-of-russian-mafia-spy-links-in-political-rivalry/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_ZdDv2uH5_1776437547052_raw.jpg?fit=1024%2C1024",
-        "publishedAt": "2026-04-18T04:00:58Z",
-        "content": "A fresh crypto controversy has flared up in Poland, with Prime Minister Donald Tusk accusing a crypto firm he says was formed with Russian money of backing political rivals and conservative events. \r… [+3245 chars]"
       }
     ]
   }
