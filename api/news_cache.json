@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-22T18:03:57.090Z",
+  "timestamp": "2026-04-22T20:08:37.063Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Prediction markets are the new secret weapon for Coinbase and Robinhood growth",
+        "description": "Cantor Fitzgerald analysts said the market is treating recent trading slumps as old news, shifting focus instead toward prediction markets and new product launches to drive the next leg of growth for Coinbase and Robinhood.",
+        "url": "https://www.coindesk.com/markets/2026/04/21/prediction-markets-are-the-new-secret-weapon-for-coinbase-and-robinhood-growth",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-21T19:49:51Z",
+        "content": "Prediction markets are gaining traction as a new growth area for Coinbase (COIN) and Robinhood (HOOD), as investors look beyond a weak first quarter for crypto trading and focus on future products, a… [+3569 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019d74c6-2a86-7689-acb7-154d7eba7a89.jpg",
         "publishedAt": "2026-04-20T06:07:01Z",
         "content": "Coinbase CEO Brian Armstrong said the company has started testing AI agents on Slack and email to assist employees with work tasks, continuing the companys efforts to embed AI into its workflows. \r\nI… [+2327 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Faces Another Rejection, Is A Deeper Correction Ahead?",
-        "description": "Solana failed to settle above $90 and extended losses. SOL price is now consolidating losses below $85 and might struggle to start a recovery wave. SOL price started a fresh decline below $88 and $85 against the US Dollar. The price is now trading below $85 a…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-faces-another-rejection-90/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Faces-Another-Rejection.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-20T05:08:08Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Loses $2,350 Level, Traders Eye Rebound Signals",
-        "description": "Ethereum price started a fresh decline and traded below $2,350. ETH is now consolidating above $2,250 and might struggle to recover. Ethereum started a downside correction from the $2,465 zone. The price is trading below $2,350 and the 100-hourly Simple Movin…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-loses-2350/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Loses-2350-Level.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-20T03:08:25Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,350. ETH is now consolidating above $2,250 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction from the $2,465 zo… [+2091 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Gives Back Gains, But Structure Remains Bullish",
-        "description": "Bitcoin price started a fresh decline from the $78,400 zone. BTC is consolidating and might struggle to stay above the $73,500 support. Bitcoin failed to stay above $76,500 and corrected gains. The price is trading below $75,500 and the 100 hourly simple movi…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-gives-back-gains-75k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Gives-Back-Gains-But-Structure-Remains-Bullish.jpg",
-        "publishedAt": "2026-04-20T02:32:59Z",
-        "content": "Bitcoin price started a fresh decline from the $78,400 zone. BTC is consolidating and might struggle to stay above the $73,500 support.\r\n<ul><li>Bitcoin failed to stay above $76,500 and corrected gai… [+2194 chars]"
       }
     ]
   }
