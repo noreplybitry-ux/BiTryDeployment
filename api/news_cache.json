@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-22T10:23:02.236Z",
+  "timestamp": "2026-04-22T12:02:16.537Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, AI Boost",
+        "title": "Almost 80% of Japan's institutional investors plan to buy crypto within 3 years, survey finds",
+        "description": "A survey by Nomura reveals that roughly 80% of Japan's investment professionals plan to allocate up to 5% of their portfolios to digital assets by 2029.",
+        "url": "https://www.coindesk.com/markets/2026/04/21/almost-80-of-japanese-institutional-investors-are-eyeing-crypto-for-their-portfolios-by-2029",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d3c36f86c5d814d9ec493dae6d7fde7687526f38-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-21T11:44:35Z",
+        "content": "Attitudes to crypto investment in Japan are shifting from cautious interest to active portfolio planning, according to a survey by Nomura and its digital asset arm, Laser Digital, with almost 80% of … [+2739 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vismaya V",
+        "title": "Grandson of Mob Boss John Gotti Sentenced for Funneling Stolen COVID Funds Into Crypto",
+        "description": "The grandson of Gambino crime boss John Gotti pleaded guilty to wire fraud after funneling $420K in stolen pandemic relief funds into crypto.",
+        "url": "https://decrypt.co/365004/grandson-of-mob-boss-john-gotti-sentenced-for-funneling-stolen-covid-funds-into-crypto",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Jail-cell-2-gID_7.png",
+        "publishedAt": "2026-04-21T11:28:41Z",
+        "content": "In brief\r\n<ul><li>Carmine G. Agnello has been sentenced to 15 months in federal prison and ordered to repay $1.27M after defrauding the SBA's COVID-19 EIDL program.</li><li>Agnello, the grandson of G… [+4556 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,58 +498,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-60.jpg?fit=1280%2C853",
         "publishedAt": "2026-04-18T14:30:28Z",
         "content": "Crypto analyst Hanzo has predicted that Bitcoin will rally to a new all-time high (ATH) of $170,000 in the next bull run. He also revealed what level investors should look to buy BTC in this bear mar… [+2369 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Poland parliament fails again to override presidential veto on crypto bill",
-        "description": "Poland’s parliament has again failed to overturn President Karol Nawrocki’s veto of a crypto regulation bill, prolonging a political standoff over the country’s adoption of EU MiCA rules.",
-        "url": "https://cointelegraph.com/news/poland-parliament-fails-again-to-override-presidential-veto-crypto-bill",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019da05b-ef3f-7296-a082-2feb2fc09bdf.jpg",
-        "publishedAt": "2026-04-18T12:24:23Z",
-        "content": "Polands parliament has once again failed to overturn a presidential veto blocking a key crypto regulation bill, extending the political standoff over how the country should oversee digital assets.\r\nI… [+2839 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Could See Short-Term Pullback Following Price Rebound — Analyst",
-        "description": "On April 17th, Bitcoin rose by 2.77%, after Iran declared the Strait of Hormuz commercially open for the rest of its 10-day ceasefire with the US. With the market anticipating further upward movement, an on-chain analysis suggests a retracement could be the n…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-could-see-short-term-pullback-following-price-rebound-analyst/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/photo-1631897641570-91326d87caf5.jpg?fit=3000%2C1894",
-        "publishedAt": "2026-04-18T11:30:11Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "When Will The Ethereum Price Hit $5,000 And $10,000?",
-        "description": "In the last bull run, when the Bitcoin price surged and crossed $100,000, the Ethereum price was expected to follow the same trajectory as it had in the past. But that was not the case, and the second-largest cryptocurrency by market cap was barely able to cr…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-hit-5000-10000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-from-Adobe-Stock-4.jpg?fit=527%2C360",
-        "publishedAt": "2026-04-18T10:00:03Z",
-        "content": "In the last bull run, when the Bitcoin price surged and crossed $100,000, the Ethereum price was expected to follow the same trajectory as it had in the past. But that was not the case, and the secon… [+2448 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Ethereum Flips Major Resistance – Bulls Eye Return To $2,900",
-        "description": "Ethereum (ETH), the world’s largest altcoin, is up by over 3% in the past day, reflecting the current bullish momentum in the cryptocurrency market following the major relief over the US-Iran conflict. Notably, Iran’s Foreign Minister Abbas Araghchi announced…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-flips-major-resistance-bulls-eye-return-to-2900/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/51374775737_75db16e1d7_b.jpg",
-        "publishedAt": "2026-04-18T08:30:37Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       }
     ]
   }
