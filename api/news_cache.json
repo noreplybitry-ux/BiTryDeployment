@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-23T17:25:47.530Z",
+  "timestamp": "2026-04-23T19:21:09.975Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "UK’s Financial Conduct Authority Leads London Crackdown on Crypto Traders",
+        "description": "Multi-agency raid marks shift from warnings to physical enforcement as UK regulator finds zero legally registered P2P crypto traders.",
+        "url": "https://decrypt.co/365148/uk-financial-conduct-authority-leads-london-crackdown-crypto-traders",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/uk-fca-financial-conduct-authority-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-04-22T18:29:02Z",
+        "content": "In brief\r\n<ul><li>UK Financial Conduct Authority led multi-agency raids on eight London premises suspected of illegal P2P crypto trading.</li><li>Officers issued cease-and-desist orders requiring imm… [+3070 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Predicts Bitcoin Price Is Going To $200,000, Reveals When To Buy",
+        "description": "Bitcoin is back in a place where bold upside calls are starting to circulate again, and while short-term sentiment is still mixed, one analyst believes the cryptocurrency is setting up for a powerful move that sends the price action all the way to $200,000. T…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-going-to-200000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pngtree-34.jpg?fit=960%2C640",
+        "publishedAt": "2026-04-22T18:00:07Z",
+        "content": "Bitcoin is back in a place where bold upside calls are starting to circulate again, and while short-term sentiment is still mixed, one analyst believes the cryptocurrency is setting up for a powerful… [+2561 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Kraken calls for de minimus exemption on crypto taxes after 2025 reports",
+        "description": "Kraken called for an end to ”phantom” income reporting for staking and a de minimus exemption for crypto transactions to the IRS after announcing it issued 56 million forms in 2025.",
+        "url": "https://cointelegraph.com/news/kraken-de-minimus-exemption-crypto-taxes",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db5a6-ddb8-7479-a1d4-c8e9396c1b52.jpg",
+        "publishedAt": "2026-04-22T17:30:14Z",
+        "content": "Cryptocurrency exchange Kraken called for a change in US tax policy after reporting millions of cases of transactions worth less than $1 as part of its reporting requirements for 2025.\r\nIn a Wednesda… [+2212 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019daf97-7ed0-7462-a08f-99ae0113add6.jpg",
         "publishedAt": "2026-04-21T13:47:49Z",
         "content": "South Koreas National Tax Service (NTS) has opened a tender for software licenses to track virtual asset transactions as part of tax evasion enforcement, according to a government procurement notice.… [+2102 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Crypto hackers stole $17B over past 10 years: DefiLlama",
-        "description": "Crypto hacks stole $17 billion over the past 10 years, driven by private key compromises and phishing attacks as smart contract security improved.",
-        "url": "https://cointelegraph.com/news/private-key-compromises-led-crypto-hack-losses-decade",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db004-ba74-7f2c-aa4c-23fb225feb0b.jpg",
-        "publishedAt": "2026-04-21T13:42:32Z",
-        "content": "Private key compromises are emerging as one of cryptos costliest attack vectors, with hackers stealing more than $17 billion across 518 recorded incidents over the past decade, according to data plat… [+3671 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "VIX drops 45% in three weeks: Is Bitcoin price ready to retake $80K?",
-        "description": "A falling VIX signals improving risk appetite, boosting Bitcoin’s chances of attracting fresh demand and breaking above the $80,000 level.",
-        "url": "https://cointelegraph.com/markets/vix-drops-45-precent-three-weeks-btc-price-retake-80k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019dafe7-39c1-76be-af2e-f1e8930ae4f4.jpg",
-        "publishedAt": "2026-04-21T12:25:47Z",
-        "content": "The CBOE Volatility Index (VIX), a preferred Wall Street metric to measure investor sentiment and market risk, dropped by over 45% in under a month. For Bitcoin (BTC), this could be a significant bul… [+2866 chars]"
       }
     ]
   }
