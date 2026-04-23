@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-23T20:58:50.630Z",
+  "timestamp": "2026-04-23T21:56:18.674Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "$60,000 Is The Bottom: Bitcoin Analyst Predicts Lowest Level Before Run To $200,000",
+        "description": "A crypto analyst has presented a new analysis, forecasting Bitcoin’s (BTC) next all-time high and potential market bottom. According to the analyst, BTC’s long-term price outlook could depend heavily on where its current market bottom forms. The analysis draw…",
+        "url": "http://www.newsbtc.com/news/bitcoin/60000-is-the-bitcoin-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-111.jpg?fit=1280%2C848",
+        "publishedAt": "2026-04-22T21:00:11Z",
+        "content": "A crypto analyst has presented a new analysis, forecasting Bitcoins (BTC) next all-time high and potential market bottom. According to the analyst,BTCs long-term price outlook could depend heavily on… [+2922 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8cd59e58d769c9d0c3ce77496cdaab720bffd0c8-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-21T14:25:45Z",
         "content": "Economic development officials with links to the U.K. government invited Bybit leadership to London this week in what appears to be a bid to emulate the momentum of Dubai, where the cryptocurrency ex… [+2301 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun, AI Boost",
-        "title": "European banks are at risk of losing customers to rivals with better crypto tools",
-        "description": "A new study found that while European investors find crypto complex, they are increasingly willing to switch banks to find a trusted partner that offers secure and regulated digital asset services.",
-        "url": "https://www.coindesk.com/business/2026/04/21/european-banks-are-at-risk-of-losing-customers-to-rivals-with-better-crypto-tools",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e0e7d56858850b6e7a6abc32a3772680fdc761b7-5504x3220.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-21T14:21:59Z",
-        "content": "A growing share of European investors may change banks to access better crypto services, according to a new study from Boerse Stuttgart Digital, signaling a shift in how digital assets are shaping re… [+2553 chars]"
       }
     ]
   }
