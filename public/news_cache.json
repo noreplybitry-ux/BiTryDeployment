@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-22T23:51:59.601Z",
+  "timestamp": "2026-04-23T03:25:42.983Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Struggles To Gain Pace, Recovery Remains Fragile",
+        "description": "Ethereum price started a recovery wave above the $2,300 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance. Ethereum started a recovery wave from the $2,250 zone. The price is trading above $2,320 and the 100-hour…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-2365/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Struggles-To-Gain-Pace-Recovery-Remains-Fragile.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-22T03:08:48Z",
+        "content": "Ethereum price started a recovery wave above the $2,300 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance.\r\n<ul><li>Ethereum started a recovery wave fro… [+2070 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Rebound Accelerates, Traders Eye Strong Upside Continuation",
+        "description": "Bitcoin price started a recovery wave above the $75,000 zone. BTC is consolidating and might aim for more gains if it clears the $77,350 resistance zone. Bitcoin managed to form a base above $74,500 and started a recovery wave. The price is trading above $75,…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rebound-76k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Rebound-Accelerates-Traders-Eye-Strong-Upside-Continuation.jpg",
+        "publishedAt": "2026-04-22T02:26:23Z",
+        "content": "Bitcoin price started a recovery wave above the $75,000 zone. BTC is consolidating and might aim for more gains if it clears the $77,350 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2125 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +420,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019daa3d-1ac7-7d02-b806-53a8573cdd75.jpg",
         "publishedAt": "2026-04-20T12:06:49Z",
         "content": "Crypto exchange Coinbase has rolled out crypto-backed USDC loans for users in the United Kingdom, allowing users to borrow USDC against Bitcoin, Ether and Coinbase Wrapped Staked Ether (cbETH). The l… [+2296 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Crypto fund inflows hit $1.4B in second-strongest week since January",
-        "description": "Crypto investment products recorded $1.4 billion in inflows last week, with Bitcoin leading at $1.12 billion and Ether at $328 million, raising total AUM to $154.8 billion.",
-        "url": "https://cointelegraph.com/news/crypto-etp-1-4-billion-inflows-third-straight-week",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019daa63-6e46-7505-ae20-4bd214dc407f.jpg",
-        "publishedAt": "2026-04-20T11:12:45Z",
-        "content": "Cryptocurrency investment products logged another week of strong inflows on ceasefire optimism and a Bitcoin price breakout driving investor sentiment.\r\nCrypto exchange-traded products (ETPs) posted … [+2944 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "BTC price due 'new highs:' Five things to know in Bitcoin this week",
-        "description": "Bitcoin saw a green weekly close despite renewed US-Iran war momentum, and a trader forecast that BTC price action would beat last week's local highs.",
-        "url": "https://cointelegraph.com/markets/btc-price-due-new-highs-five-things-bitcoin-this-week",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-01/019bbf3b-d302-75b1-be4c-a6712fd23db0.jpg",
-        "publishedAt": "2026-04-20T10:18:21Z",
-        "content": "Bitcoin (BTC) begins the last full week of April juggling fresh US-Iran war fears as resistance hurdles line up.\r\nKey points:\r\n<ul><li>Bitcoin stays green on weekly time frames with multiple nearby p… [+9922 chars]"
       }
     ]
   }
