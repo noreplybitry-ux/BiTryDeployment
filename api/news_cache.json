@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-23T10:26:05.810Z",
+  "timestamp": "2026-04-23T12:02:21.495Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Power Laws Predicts When Price Will Hit $1,000,000",
+        "description": "A crypto analyst, Zynx, on the X (formerly Twitter) platform, has shown where the Bitcoin price might be headed over the next few years using the Bitcoin Power Law. This law shows a steady upward trajectory, putting into perspective the performance of Bitcoin…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-power-laws-1000000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-22T12:00:05Z",
+        "content": "A crypto analyst, Zynx, on the X (formerly Twitter) platform, has shown where the Bitcoin price might be headed over the next few years using the Bitcoin Power Law. This law shows a steady upward tra… [+2859 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "‘Powerful move’ looms for Bitcoin price, says Bollinger Bands indicator",
+        "description": "Bitcoin’s technical indicators predicted a significant move ahead for BTC, but the price must first break resistance at $80,000.",
+        "url": "https://cointelegraph.com/markets/powerful-move-looms-bitcoin-price-bollinger-bands-indicator",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db4ed-e884-778c-a3f2-8b0aea9d47a8.jpg",
+        "publishedAt": "2026-04-22T11:36:55Z",
+        "content": "Bitcoin (BTC) could see further upside volatility as several technical indicators suggested the BTC price was due for a powerful upward move.\r\nKey takeaways:\r\n<ul><li>Bitcoins Bollinger Bands indicat… [+3347 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin surges above $78k amid ceasefire extension and liquidity boost",
+        "description": "Key takeaways Bitcoin price rallies higher, trading above $78,000 on Wednesday after surging nearly 6% so far this week. US-listed spot ETF recorded a mild inflow of $11.84 million on Tuesday amid uncertainty over US-Iran peace talks. Bitcoin (BTC) extended i…",
+        "url": "https://coinjournal.net/news/bitcoin-surges-above-78k-amid-ceasefire-extension-and-liquidity-boost/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/ChatGPT-Image-Apr-22-2026-12_28_57-PM.png",
+        "publishedAt": "2026-04-22T11:34:57Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin price rallies higher, trading above $78,000 on Wednesday after surging nearly 6% so far this week.</li><li>US-listed spot ETF recorded a mild inflow of $11.84 million o… [+2602 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-76.jpg?fit=1280%2C853",
         "publishedAt": "2026-04-20T20:30:55Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "One year under Paul Atkins, SEC's crypto stance shows break with past",
-        "description": "While the regulator under Atkins has dropped several cases against crypto companies, the SEC still awaits passage of a market structure bill to clarify its authority over crypto.",
-        "url": "https://cointelegraph.com/news/paul-atkins-one-year-sec-chair",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019dab77-2d38-7e4a-bd7c-816ad0a085b0.jpg",
-        "publishedAt": "2026-04-20T19:02:33Z",
-        "content": "Since Paul Atkins was sworn in as chair of the US Securities and Exchange Commission (SEC) on April 21, 2025, the agency has significantly changed its position on regulation and enforcement related t… [+2716 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/20: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA",
-        "description": "Bitcoin bulls retain control over the market, but charts show $80,000 is likely to remain a stiff overhead resistance. Will altcoins rally as BTC price consolidates?",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-20-spx-dxy-btc-eth-bnb-xrp-sol-doge-hype-ada",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019dabd2-eecf-7401-a5ea-c34b1fb055c1.jpg",
-        "publishedAt": "2026-04-20T18:52:11Z",
-        "content": "Key points:\r\n<ul><li>Buyers aggressively bought into the dip in Bitcoin, indicating positive sentiment. That increases the possibility of a rally to $84,000.\r\n</li><li>Several major altcoins have pul… [+8546 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "Crypto Funds Add $1.4B as Bitcoin Clears Two-Month Range",
-        "description": "Bitcoin investment products accounted for $1.12 billion in inflows last week, as BTC hit its highest level since early February.",
-        "url": "https://decrypt.co/364907/crypto-funds-add-1-4b-as-bitcoin-clears-two-month-range",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png",
-        "publishedAt": "2026-04-20T16:41:30Z",
-        "content": "In brief\r\n<ul><li>Bitcoin funds led with $1.12 billion in weekly inflows as BTC cleared two-month highs, hitting $77,900 last week amid an improving geopolitical outlook.</li><li>Ethereum products al… [+3447 chars]"
       }
     ]
   }
