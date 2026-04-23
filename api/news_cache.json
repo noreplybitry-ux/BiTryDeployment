@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-23T19:21:09.975Z",
+  "timestamp": "2026-04-23T20:58:50.630Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e0e7d56858850b6e7a6abc32a3772680fdc761b7-5504x3220.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-21T14:21:59Z",
         "content": "A growing share of European investors may change banks to access better crypto services, according to a new study from Boerse Stuttgart Digital, signaling a shift in how digital assets are shaping re… [+2553 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "South Korea tax agency opens bidding for crypto tracing tool",
-        "description": "A procurement notice shows South Korea advancing crypto tax enforcement plans, with tighter oversight measures already underway across exchanges.",
-        "url": "https://cointelegraph.com/news/south-korea-crypto-tax-ai-monitoring-system-procurement",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019daf97-7ed0-7462-a08f-99ae0113add6.jpg",
-        "publishedAt": "2026-04-21T13:47:49Z",
-        "content": "South Koreas National Tax Service (NTS) has opened a tender for software licenses to track virtual asset transactions as part of tax evasion enforcement, according to a government procurement notice.… [+2102 chars]"
       }
     ]
   }
