@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-23T21:56:18.674Z",
+  "timestamp": "2026-04-23T22:56:15.563Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/22: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, XMR",
+        "description": "Bitcoin rally above the $78,333 resistance signals sustained buying by the bulls, clearing the path for a potential rally to $84,000.",
+        "url": "https://cointelegraph.com/markets/price-predictions-4-22-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-xmr",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db5c6-86be-7313-a24e-a8a49d7910a2.jpg",
+        "publishedAt": "2026-04-22T22:37:05Z",
+        "content": "Key points:\r\n<ul><li>Bitcoins rise above the $78,333 resistance opens the door for a rally to $84,000.\r\n</li><li>Several major altcoins are attempting to rise above their resistance levels, signaling… [+8102 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db027-ed37-759b-b0b7-00b8da49afa6.jpg",
         "publishedAt": "2026-04-21T15:00:00Z",
         "content": "Polands parliament, the Sejm, has yet to pass a domestic enabling act for the EUs regulations on cryptocurrencies. \r\nThe parliament has again failed to override a presidential veto on a key crypto re… [+7980 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "UK invites crypto giant Bybit to London to win over some of UAE’s innovation shine",
-        "description": "Bybit CEO Ben Zhou was invited to meetings in the U.K. this week with government-linked bodies including the FCA and House of Lords.",
-        "url": "https://www.coindesk.com/business/2026/04/21/uk-invites-crypto-giant-bybit-to-london-to-win-over-some-of-uae-s-innovation-shine",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8cd59e58d769c9d0c3ce77496cdaab720bffd0c8-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-21T14:25:45Z",
-        "content": "Economic development officials with links to the U.K. government invited Bybit leadership to London this week in what appears to be a bid to emulate the momentum of Dubai, where the cryptocurrency ex… [+2301 chars]"
       }
     ]
   }
