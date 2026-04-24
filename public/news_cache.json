@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T13:50:31.240Z",
+  "timestamp": "2026-04-24T15:13:34.727Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
       {
         "source": {
@@ -472,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Struggles-To-Gain-Pace-Recovery-Remains-Fragile.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-22T03:08:48Z",
         "content": "Ethereum price started a recovery wave above the $2,300 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance.\r\n<ul><li>Ethereum started a recovery wave fro… [+2070 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Rebound Accelerates, Traders Eye Strong Upside Continuation",
-        "description": "Bitcoin price started a recovery wave above the $75,000 zone. BTC is consolidating and might aim for more gains if it clears the $77,350 resistance zone. Bitcoin managed to form a base above $74,500 and started a recovery wave. The price is trading above $75,…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rebound-76k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Rebound-Accelerates-Traders-Eye-Strong-Upside-Continuation.jpg",
-        "publishedAt": "2026-04-22T02:26:23Z",
-        "content": "Bitcoin price started a recovery wave above the $75,000 zone. BTC is consolidating and might aim for more gains if it clears the $77,350 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2125 chars]"
       }
     ]
   }
