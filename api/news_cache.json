@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T20:56:40.907Z",
+  "timestamp": "2026-04-24T21:54:32.739Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Spot ETH ETF inflows hit 10-day streak: Will Ether rally to $3K next?",
+        "description": "Inflows to the spot Ether ETFs topped $633 million over the past 10-days, but are the flows significant enough to trigger a rally to $3,000?",
+        "url": "https://cointelegraph.com/markets/spot-eth-etf-inflows-hit-10-day-streak-will-ether-rally-to-3k-next",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-What-are-Ether-futures-ETFs-and-how-do-they-work.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-23T21:25:30Z",
+        "content": "Key takeaways:\r\n<ul><li>The spot ETH ETFs recorded ten consecutive days of net inflows, totaling $633 million.</li><li>Weekly DApps revenue on the Ethereum network fell to $13 million, following a br… [+3264 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Global crypto adoption slumps amid macro pressures, Turkey defies downtrend",
+        "description": "TRM Labs data shows a sharp drop in crypto trading volumes across advanced economies, while Turkey and sanctioned markets continued to drive adoption trends.",
+        "url": "https://cointelegraph.com/news/global-crypto-adoption-q1-2026-trm-labs-turkey-resilience",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Cryptocurrency%20Laws%20and%20Regulations%20in%20Turkey.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-23T21:21:36Z",
+        "content": "Global crypto adoption declined in the first quarter as retail activity weakened under mounting macroeconomic and geopolitical pressures, underscoring the sectors continued sensitivity to broader mar… [+2068 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db421-1d6c-7013-9a38-c7ece32abb08.jpg",
         "publishedAt": "2026-04-22T09:01:44Z",
         "content": "UK fintech platform Stratiphy has launched a new offering that gives investors a practical tax-free route back into crypto exchange-traded notes (ETNs) for UK investors after a series of regulatory s… [+2654 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole, AI Boost",
-        "title": "Chinese crypto mogul Li Lin’s private trading arm is set to move into a Hong Kong-listed wealth firm",
-        "description": "The transfer effectively moves part of Li’s private trading operation into a public company where he is the largest shareholder.",
-        "url": "https://www.coindesk.com/markets/2026/04/22/chinese-crypto-mogul-li-lin-s-private-trading-arm-is-set-to-move-into-a-hong-kong-listed-wealth-firm",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8b075d099e598ae6a929e4d56c9a2336b815d242-4709x3143.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-22T05:13:12Z",
-        "content": "Chinese crypto billionaire Li Lin's private trading empire will soon move into a Hong Kong-listed company he controls, in a move designed to cater to growing investor demand for digital assets. \r\nTha… [+1543 chars]"
       }
     ]
   }
