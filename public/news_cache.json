@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T19:02:14.577Z",
+  "timestamp": "2026-04-24T20:56:40.907Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Near Key Zone After 36% Gain – What’s Next?",
+        "description": "Ethereum has surged roughly 36% from its recent accumulation zone, pushing the price into a critical area where momentum often gets tested. With key resistance now in play and signs of hesitation emerging, the market is approaching a decisive moment that coul…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-near-key-zone/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-Getty-Images-16.jpg?fit=612%2C408",
+        "publishedAt": "2026-04-23T20:00:14Z",
+        "content": "Ethereum has surged roughly 36% from its recent accumulation zone, pushing the price into a critical area where momentum often gets tested. With key resistance now in play and signs of hesitation eme… [+2584 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8b075d099e598ae6a929e4d56c9a2336b815d242-4709x3143.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-22T05:13:12Z",
         "content": "Chinese crypto billionaire Li Lin's private trading empire will soon move into a Hong Kong-listed company he controls, in a move designed to cater to growing investor demand for digital assets. \r\nTha… [+1543 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Needs $0.10 Break Or Faces Fresh Downside Move",
-        "description": "Dogecoin started a recovery wave above the $0.0940 zone against the US Dollar. DOGE is now facing hurdles near $0.0975 and might struggle to continue higher. DOGE price started a recovery wave from $0.0925 and climbed above $0.0940. The price is trading above…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-needs-0-10-break/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/Dogecoin-dumps.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-04-22T05:08:14Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
