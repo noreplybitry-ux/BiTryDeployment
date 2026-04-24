@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T11:11:56.205Z",
+  "timestamp": "2026-04-24T13:50:31.240Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 37,
     "articles": [
       {
         "source": {
@@ -485,32 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Rebound-Accelerates-Traders-Eye-Strong-Upside-Continuation.jpg",
         "publishedAt": "2026-04-22T02:26:23Z",
         "content": "Bitcoin price started a recovery wave above the $75,000 zone. BTC is consolidating and might aim for more gains if it clears the $77,350 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2125 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jesse Hamilton",
-        "title": "Crypto's great hope in Senate's Clarity Act still has a path to survive tight calendar",
-        "description": "A sideshow stablecoin yield debate has dragged the market structure bill through months of delay, even as the Senate's available floor time diminishes for 2026.",
-        "url": "https://www.coindesk.com/news-analysis/2026/04/21/crypto-s-great-hope-in-senate-s-clarity-act-still-has-a-path-to-survive-tight-calendar",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d4649d77c0ce763888f08c6650f3ab76f44740af-5283x3522.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-21T22:45:47Z",
-        "content": "April appears to be a lost cause for the crypto Clarity Act, but a U.S. Senate committee hearing sometime in May could keep the critical market structure legislation alive, as long as it can reach a … [+6993 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Anthony Scaramucci Puts Bitcoin Market Cap At $21 Trillion, So How Much Will 1 BTC Be?",
-        "description": "Anthony Scaramucci, the financier and SkyBridge Capital founder who briefly served as White House communications director, has made a bold case for Bitcoin’s long-term value.  According to him, Bitcoin’s market cap is well on track to reach $21 trillion, and …",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-21-trillion-market-cap/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-88.jpg?fit=1280%2C848",
-        "publishedAt": "2026-04-21T21:30:20Z",
-        "content": "Anthony Scaramucci, the financier and SkyBridge Capital founder who briefly served as White House communications director, has made a bold case for Bitcoin’s long-term value. \r\nAccording to him, Bitc… [+2733 chars]"
       }
     ]
   }
