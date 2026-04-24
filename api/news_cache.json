@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T09:04:14.653Z",
+  "timestamp": "2026-04-24T11:11:56.205Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Blockchain Capital Seeks $700M for Two New Crypto Funds",
+        "description": "The venture capital firm aims to close the fundraising within five to six months, and is already deploying some of the new capital.",
+        "url": "https://decrypt.co/365237/blockchain-capital-seeks-700m-for-two-new-crypto-funds",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-04-23T11:01:21Z",
+        "content": "In brief\r\n<ul><li>Blockchain Capital is raising $700 million across two new funds, according to Bloomberg sources.</li><li>The venture capital firm is pursuing its seventh early-stage fund and second… [+2262 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten, AI Boost",
+        "title": "The DAT collapse: Pantera wants Satsuma to dump its bitcoin as shares crash 99%",
+        "description": "Pantera Capital is urging London-listed Satsuma Technology to liquidate its remaining bitcoin holdings and return cash to shareholders.",
+        "url": "https://www.coindesk.com/markets/2026/04/23/pantera-wants-satsuma-to-dump-its-bitcoin-as-shares-crash-99",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/838b328aa2e2930c1dcbb657893e5806017e6e39-1200x675.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-23T10:21:46Z",
+        "content": "Digital asset investment firm Pantera Capital is urging London-listed Satsuma Technology (SATS) to liquidate its remaining bitcoin BTC\r\n$77,500.23 holdings and return cash to shareholders, marking a … [+1421 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley",
+        "title": "Coinbase backer Blockchain Capital hunts $700 million for new funds",
+        "description": "The San Francisco-based firm is raising for its seventh early-stage fund and second growth fund, which are expected to be completed in the next five to six months.",
+        "url": "https://www.coindesk.com/business/2026/04/23/blockchain-capital-is-seeking-usd700-million-for-new-funds",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a4ce88d02ff7e4f1c81c1d4aa43ea8d446d8b3d6-2000x1125.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-23T09:59:50Z",
+        "content": "Cryptocurrency venture capital company Blockchain Capital is raising $700 million for two new funds, Bloomberg reported on Thursday.\r\nThe San Francisco-based firm is raising for its seventh early-sta… [+929 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +511,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-88.jpg?fit=1280%2C848",
         "publishedAt": "2026-04-21T21:30:20Z",
         "content": "Anthony Scaramucci, the financier and SkyBridge Capital founder who briefly served as White House communications director, has made a bold case for Bitcoin’s long-term value. \r\nAccording to him, Bitc… [+2733 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bipartisan PACE Act Introduced To Expand Crypto Firms’ Access To Fed Payment Services",
-        "description": "A new bipartisan bill introduced on Tuesday would give many fintech and crypto payment providers a clearer path to the US payment infrastructure.  The new measure, called the Payments Access and Consumer Efficiency (PACE) Act, is designed to create a national…",
-        "url": "http://www.newsbtc.com/news/bipartisan-pace-act-introduced-to-expand-crypto-firms-access-to-fed-payment-services/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image__KTXXNqS_1776796006926_raw.jpg",
-        "publishedAt": "2026-04-21T20:16:00Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
       }
     ]
   }
