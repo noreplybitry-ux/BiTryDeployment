@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-04-23T23:54:52.265Z",
+  "timestamp": "2026-04-24T03:28:16.726Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Rejected Above $2,400, Upside Momentum Starts To Fade",
+        "description": "Ethereum price started a fresh increase and remained stable above $2,350. ETH is now consolidating and might aim for more gains if it clears $2,425. Ethereum started a steady increase above the $2,380 zone. The price is trading above $2,350 and the 100-hourly…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rejected-2400/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Recovery-Picks-Up.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-23T03:18:47Z",
+        "content": "Ethereum price started a fresh increase and remained stable above $2,350. ETH is now consolidating and might aim for more gains if it clears $2,425.\r\n<ul><li>Ethereum started a steady increase above … [+2147 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Rally Nears $80K, Dips May Draw Fresh Buyers",
+        "description": "Bitcoin price started a fresh increase and cleared the $77,500 zone. BTC is consolidating and might aim for more gains above the $79,500 level. Bitcoin managed to stay above $76,500 and started a fresh increase. The price is trading above $77,200 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rally-nears-80k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Rally-Nears-80K.jpg",
+        "publishedAt": "2026-04-23T02:33:29Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $77,500 zone. BTC is consolidating and might aim for more gains above the $79,500 level.\r\n<ul><li>Bitcoin managed to stay above $76,500 and star… [+2192 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ciaran Lyons",
+        "title": "LONGITUDE recap: Adam Back on Satoshi, crypto regulation needs tweaks",
+        "description": "Blockstream’s Adam Back discusses why people think he’s Satoshi Nakamoto, while the CEO of OKX Europe said MiCA is “extremely beneficial” for the industry at the latest LONGITUDE event in Paris.",
+        "url": "https://cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db7ab-8c4d-74ab-8675-0bbe0dd1ca10.jpg",
+        "publishedAt": "2026-04-23T00:30:34Z",
+        "content": "Blockstream CEO Adam Back, the British cryptographer and inventor of Hashcash, said its flattering that people think hes Satoshi Nakamoto and was probably the result of his being a little too talkati… [+5974 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Four reasons why the crypto market is rallying today: Will bulls maintain control?",
+        "description": "Bitcoin and Ether surged as US liquidity measures and record spot ETF inflows offset investors’ recession fears and their concerns over the war in Iran.",
+        "url": "https://cointelegraph.com/markets/four-reasons-why-the-crypto-market-is-rallying-today-will-bulls-maintain-control",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db708-36c5-726b-aa78-a393483ee85f.jpg",
+        "publishedAt": "2026-04-23T00:30:00Z",
+        "content": "Key takeaways:\r\n<ul><li>US government bailout plans and currency swap lines with the UAE are easing global liquidity fears and lowering credit crisis risks.\r\n</li><li>Record Bitcoin ETF inflows and r… [+4263 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-21T19:49:51Z",
         "content": "Prediction markets are gaining traction as a new growth area for Coinbase (COIN) and Robinhood (HOOD), as investors look beyond a weak first quarter for crypto trading and focus on future products, a… [+3569 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin price rally 'in progress' but upside could be capped at $84K",
-        "description": "Bitcoin has rallied 26% from its $60,000 bottom, and new data points to an extended run toward $84,000 in the short term.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-rally-in-progress-but-upside-could-be-capped-at-84k",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2025-12/019b35d2-1dde-74d1-9f9f-265eec454e0b.jpg",
-        "publishedAt": "2026-04-21T16:55:37Z",
-        "content": "Market analysts said Bitcoins (BTC) latest rally to $78,000 means that the uptrend has began, but the upside could be capped at $84,000, based on several key metrics.\r\nKey takeaways:\r\n<ul><li>Bitcoin… [+3187 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin regains $76K as Coinbase-driven demand sustains recovery",
-        "description": "A $517 million rise in spot volume led by Coinbase is helping Bitcoin reclaim $76,000, with steady inflows absorbing the weekend selling pressure.",
-        "url": "https://cointelegraph.com/markets/bitcoin-regains-76k-as-coinbase-driven-demand-sustains-recovery",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db033-732f-799a-b38b-eae2a68a1db4.jpg",
-        "publishedAt": "2026-04-21T16:40:31Z",
-        "content": "Bitcoin (BTC) rebounded above $76,000 on Tuesday, after the spot market demand on Coinbase exchange saw a second week of bullish volume trends.\r\nNet spot buy volume has climbed sharply over the past … [+3593 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Bitget exchange brings pre-IPO tokens to masses starting with SpaceX on Solana",
-        "description": "The crypto exchange opens IPO Prime access with Republic to offer Solana-based tokens tied to private firms ahead of public listings.",
-        "url": "https://www.coindesk.com/business/2026/04/21/bitget-exchange-brings-pre-ipo-tokens-to-masses-starting-with-spacex-on-solana",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/97bf2e29eb3c1b7bbc38861e392cdd3baacfcacf-1919x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-21T15:25:32Z",
-        "content": "Crypto exchange Bitget rolled out a new platform offering tokenized exposure to private companies, starting with an asset linked to SpaceX, as firms push to bring early-stage investing onto blockchai… [+1485 chars]"
       }
     ]
   }
