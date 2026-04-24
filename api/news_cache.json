@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T06:12:38.236Z",
+  "timestamp": "2026-04-24T09:04:14.653Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Bull Cycle Is Right On Schedule: Analyst Reveals When The Bull Run Will Begin",
+        "description": "Over the years, Bitcoin has maintained a near-consistent bull cycle pattern, usually starting and ending in a similar number of days. As a result, using the previous cycle pattern has become a popular way to try to predict when the next bull market will start…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bull-cycle-on-schedule/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-bull.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-23T08:30:19Z",
+        "content": "Over the years, Bitcoin has maintained a near-consistent bull cycle pattern, usually starting and ending in a similar number of days. As a result, using the previous cycle pattern has become a popula… [+2273 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "OpenAI appears to be poaching Coinbase’s marketing team",
+        "description": "Six Coinbase senior marketing executives, including the exchange's former chief marketing officer, have jumped to OpenAI in the past year and a half.",
+        "url": "https://www.coindesk.com/business/2026/04/23/openai-appears-to-be-poaching-coinbase-s-marketing-team",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d2b4b82edc6ff0637b37466e20cadf90ebe36839-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-23T07:49:03Z",
+        "content": "It's no surprise that there's a general pivot from blockchain to artificial intelligence right now.\r\nEvery week brings another report of a company or person either leaving the cryptocurrency industry… [+3901 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image__KTXXNqS_1776796006926_raw.jpg",
         "publishedAt": "2026-04-21T20:16:00Z",
         "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Prediction markets are the new secret weapon for Coinbase and Robinhood growth",
-        "description": "Cantor Fitzgerald analysts said the market is treating recent trading slumps as old news, shifting focus instead toward prediction markets and new product launches to drive the next leg of growth for Coinbase and Robinhood.",
-        "url": "https://www.coindesk.com/markets/2026/04/21/prediction-markets-are-the-new-secret-weapon-for-coinbase-and-robinhood-growth",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-21T19:49:51Z",
-        "content": "Prediction markets are gaining traction as a new growth area for Coinbase (COIN) and Robinhood (HOOD), as investors look beyond a weak first quarter for crypto trading and focus on future products, a… [+3569 chars]"
       }
     ]
   }
