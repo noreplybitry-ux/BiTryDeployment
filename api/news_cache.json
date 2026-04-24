@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T15:13:34.727Z",
+  "timestamp": "2026-04-24T17:05:04.677Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/eth_2e46f3.png?fit=1672%2C941",
         "publishedAt": "2026-04-22T04:00:19Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Struggles To Gain Pace, Recovery Remains Fragile",
-        "description": "Ethereum price started a recovery wave above the $2,300 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance. Ethereum started a recovery wave from the $2,250 zone. The price is trading above $2,320 and the 100-hour…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-2365/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Struggles-To-Gain-Pace-Recovery-Remains-Fragile.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-22T03:08:48Z",
-        "content": "Ethereum price started a recovery wave above the $2,300 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance.\r\n<ul><li>Ethereum started a recovery wave fro… [+2070 chars]"
       }
     ]
   }
