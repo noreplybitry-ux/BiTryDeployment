@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T03:28:16.726Z",
+  "timestamp": "2026-04-24T06:12:38.236Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Rubmar Garcia",
+        "title": "Ethereum Faces ‘Moment Of Truth’ As Price Eyes $2,450 Resistance – Breakout Loading?",
+        "description": "Some crypto analysts have affirmed that Ethereum (ETH) is facing a pivotal moment as it retests a major resistance barrier that could make or break the King of Altcoin’s recovery dreams. Related Reading: Dogecoin ‘Launchpad’ Ready? Analysts Forecast Big DOGE …",
+        "url": "http://www.newsbtc.com/news/ethereum-price-eyes-2450-resistance-breakout/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/shutter-speed-wuG7LKcDx2w-unsplash.jpg?fit=1920%2C1080",
+        "publishedAt": "2026-04-23T06:00:02Z",
+        "content": "Some crypto analysts have affirmed that Ethereum (ETH) is facing a pivotal moment as it retests a major resistance barrier that could make or break the King of Altcoins recovery dreams.\r\nOn Wednesday… [+3307 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Strength Fades, Will Bulls Regain Momentum Soon?",
+        "description": "Solana failed to settle above $90 and corrected most gains. SOL price is now consolidating losses above $85 and might attempt another increase. SOL price started a fresh decline below $88 and $87 against the US Dollar. The price is now trading near $86 and th…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-strength-fades-90/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Solana-SOL-Fights.jpg?fit=2752%2C1536",
+        "publishedAt": "2026-04-23T05:48:24Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Market maker GSR launches first ETF tracking Bitcoin, Ether and Solana",
+        "description": "Crypto liquidity provider GSR launched its first crypto ETF on Wednesday, an actively managed multi-asset fund that recorded nearly $5 million in trading volume on its debut.",
+        "url": "https://cointelegraph.com/news/crypto-market-maker-gsr-launched-multi-asset-etf",
+        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf83f-49a6-723f-98df-ef3246bea8e1.jpg",
+        "publishedAt": "2026-04-23T04:46:54Z",
+        "content": "Institutional crypto trading platform GSR launched its first crypto exchange-traded fund on Wednesday, recording nearly $5 million in trading volume on its first trading day. \r\nThe GSR Crypto Core3 E… [+1915 chars]"
+      },
       {
         "source": {
           "id": null,
