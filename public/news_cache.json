@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T17:05:04.677Z",
+  "timestamp": "2026-04-24T19:02:14.577Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "XRP eyes retest of $1.50 as BTC, ETH show upside potential",
+        "description": "XRP price held support near $1.40 and could eye a retest of $1.50. Bitcoin and Ethereum continued to dictate sentiment. Cryptocurrencies are showing upside potential despite geopolitical headwinds. XRP is positioning for a crucial retest of the $1.50 resistan…",
+        "url": "https://coinjournal.net/news/xrp-eyes-retest-of-1-50-as-btc-eth-show-upside-potential/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/03/investor-viewing-xrp-cryptocurrency-logo-on-smartphone-screen.png",
+        "publishedAt": "2026-04-23T17:12:44Z",
+        "content": "<ul><li>XRP price held support near $1.40 and could eye a retest of $1.50.</li><li>Bitcoin and Ethereum continued to dictate sentiment.</li><li>Cryptocurrencies are showing upside potential despite g… [+2791 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/Dogecoin-dumps.jpg?fit=1792%2C1024",
         "publishedAt": "2026-04-22T05:08:14Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Ethereum Sees First SuperTrend Bullish Flip In Over A Year",
-        "description": "A cryptocurrency analyst has highlighted how the SuperTrend for the daily Ethereum price has seen its first bullish flip in over a year. Ethereum SuperTrend Is Now Giving A Buy Signal In a new post on X, analyst Ali Martinez has discussed the latest developme…",
-        "url": "http://www.newsbtc.com/ethereum-news/ethereum-first-supertrend-bullish-flip-year/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/eth_2e46f3.png?fit=1672%2C941",
-        "publishedAt": "2026-04-22T04:00:19Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       }
     ]
   }
