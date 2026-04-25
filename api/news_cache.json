@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-25T02:55:59.257Z",
+  "timestamp": "2026-04-25T05:19:47.487Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Turns Attractive—Bulls Aim Key Upside Break And Gains",
+        "description": "Dogecoin corrected some gains from the $0.0985 zone against the US Dollar. DOGE is now holding the $0.0950 support and might aim for a fresh upside. DOGE price started a fresh downside correction below $0.0965. The price is trading above the $0.0950 level and…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-turns-attractive-0-095/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Dogecoin-DOGE-Rebound-Hits-Resistance.jpg?fit=1024%2C572",
+        "publishedAt": "2026-04-24T05:08:13Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Upside Stalls, Another Decline Could Be Brewing",
+        "description": "Ethereum price started a fresh decline and traded below $2,350. ETH is now consolidating above $2,285 and might struggle to recover. Ethereum started a downside correction from the $2,425 zone. The price is trading below $2,365 and the 100-hourly Simple Movin…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-upside-stalls-2425/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Latest-Push-Raises-Question.jpg?fit=1024%2C572",
+        "publishedAt": "2026-04-24T03:18:37Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,350. ETH is now consolidating above $2,285 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction from the $2,425 zo… [+2109 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Analyst Predicts A 30% Bitcoin Price Crash To $50,000, Here’s When",
+        "description": "The question of whether the Bitcoin price has hit a final bottom remains a major topic of discussion, as analysts remain unconvinced that the flagship cryptocurrency has reached a definitive floor. A recent analysis by market expert Maxi Trades suggests Bitco…",
+        "url": "http://www.newsbtc.com/news/bitcoin/30-bitcoin-price-crash-50000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-price-50000.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-24T03:00:28Z",
+        "content": "The question of whether the Bitcoin price has hit a final bottom remains a major topic of discussion, as analysts remain unconvinced that the flagship cryptocurrency has reached a definitive floor. A… [+2599 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,58 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2da9a6b82dc390b2d695ea5aa81f501be1758c14-1920x1350.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-22T12:45:04Z",
         "content": "Crypto exchange Kraken says it filed 56 million crypto-transaction forms with the U.S. Internal Revenue Service (IRS) for the 2025 tax year. Roughly 18.5 million of them covered transactions worth le… [+3108 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Power Laws Predicts When Price Will Hit $1,000,000",
-        "description": "A crypto analyst, Zynx, on the X (formerly Twitter) platform, has shown where the Bitcoin price might be headed over the next few years using the Bitcoin Power Law. This law shows a steady upward trajectory, putting into perspective the performance of Bitcoin…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-power-laws-1000000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-22T12:00:05Z",
-        "content": "A crypto analyst, Zynx, on the X (formerly Twitter) platform, has shown where the Bitcoin price might be headed over the next few years using the Bitcoin Power Law. This law shows a steady upward tra… [+2859 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "‘Powerful move’ looms for Bitcoin price, says Bollinger Bands indicator",
-        "description": "Bitcoin’s technical indicators predicted a significant move ahead for BTC, but the price must first break resistance at $80,000.",
-        "url": "https://cointelegraph.com/markets/powerful-move-looms-bitcoin-price-bollinger-bands-indicator",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db4ed-e884-778c-a3f2-8b0aea9d47a8.jpg",
-        "publishedAt": "2026-04-22T11:36:55Z",
-        "content": "Bitcoin (BTC) could see further upside volatility as several technical indicators suggested the BTC price was due for a powerful upward move.\r\nKey takeaways:\r\n<ul><li>Bitcoins Bollinger Bands indicat… [+3347 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin surges above $78k amid ceasefire extension and liquidity boost",
-        "description": "Key takeaways Bitcoin price rallies higher, trading above $78,000 on Wednesday after surging nearly 6% so far this week. US-listed spot ETF recorded a mild inflow of $11.84 million on Tuesday amid uncertainty over US-Iran peace talks. Bitcoin (BTC) extended i…",
-        "url": "https://coinjournal.net/news/bitcoin-surges-above-78k-amid-ceasefire-extension-and-liquidity-boost/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/ChatGPT-Image-Apr-22-2026-12_28_57-PM.png",
-        "publishedAt": "2026-04-22T11:34:57Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin price rallies higher, trading above $78,000 on Wednesday after surging nearly 6% so far this week.</li><li>US-listed spot ETF recorded a mild inflow of $11.84 million o… [+2602 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin 'Bull Score' hits six-month high as 2022 bear-market fears linger",
-        "description": "Bitcoin price metrics saw a broad recovery in April, but analysis warns that the 2022 bear-market breakdown could still repeat.",
-        "url": "https://cointelegraph.com/markets/bitcoin-bull-score-hits-six-month-high-2022-bear-market-fears-linger",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db45d-bed4-7489-8095-685ff62db64a.jpg",
-        "publishedAt": "2026-04-22T10:10:02Z",
-        "content": "Bitcoin (BTC) price metrics are showing relief this month, but the risk of repeating the 2022 bear market remains.\r\nKey points:\r\n<ul><li>Bitcoins Bull Score Index combined price metric reaches its hi… [+3349 chars]"
       }
     ]
   }
