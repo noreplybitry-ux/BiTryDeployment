@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-24T23:47:13.200Z",
+  "timestamp": "2026-04-25T02:55:59.257Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Strengthens, Fresh Upside Targets Come Into View",
+        "description": "Bitcoin price started a fresh increase and cleared the $78,000 zone. BTC is consolidating and might aim for more gains above the $78,550 level. Bitcoin managed to stay above $77,000 and started a fresh increase. The price is trading above $77,800 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-strengthens-78k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Recovery-Attempts.jpg",
+        "publishedAt": "2026-04-24T02:30:54Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $78,000 zone. BTC is consolidating and might aim for more gains above the $78,550 level.\r\n<ul><li>Bitcoin managed to stay above $77,000 and star… [+2237 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db45d-bed4-7489-8095-685ff62db64a.jpg",
         "publishedAt": "2026-04-22T10:10:02Z",
         "content": "Bitcoin (BTC) price metrics are showing relief this month, but the risk of repeating the 2022 bear market remains.\r\nKey points:\r\n<ul><li>Bitcoins Bull Score Index combined price metric reaches its hi… [+3349 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Stratiphy reopens tax-free route to crypto ETNs for UK investors",
-        "description": "Stratiphy has relaunched crypto ETN access for UK investors through an ISA structure, reversing earlier restrictions that left no compliant route to tax-free crypto exposure.",
-        "url": "https://cointelegraph.com/news/stratiphy-crypto-etns-uk-isa-offering",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db421-1d6c-7013-9a38-c7ece32abb08.jpg",
-        "publishedAt": "2026-04-22T09:01:44Z",
-        "content": "UK fintech platform Stratiphy has launched a new offering that gives investors a practical tax-free route back into crypto exchange-traded notes (ETNs) for UK investors after a series of regulatory s… [+2654 chars]"
       }
     ]
   }
