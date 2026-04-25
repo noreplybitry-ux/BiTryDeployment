@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-25T17:43:21.835Z",
+  "timestamp": "2026-04-25T19:02:17.513Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-physical-coin-and-stacks-of-us-dollar-bill.jpeg?fit=1440%2C810",
         "publishedAt": "2026-04-22T17:00:11Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Bitcoin tops $79,000 as crypto rally gathers steam; Circle, Coinbase, Strategy lead",
-        "description": "BTC pushed to an 11-week high with dynamics for a short squeeze building, one analyst noted.",
-        "url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-tops-usd79-000-as-crypto-rally-gathers-steam-circle-coinbase-strategy-lead",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b5a104683f0f4af1ef854ac9322443489dc85d56-2066x1192.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-22T15:32:42Z",
-        "content": "Bitcoin BTC\r\n$78,896.80 climbed above $79,000 on Wednesday, hitting its strongest level since early February as a long-awaited breakout attempt gathered momentum.\r\nThe largest crypto rose 4.5% over t… [+2292 chars]"
       }
     ]
   }
