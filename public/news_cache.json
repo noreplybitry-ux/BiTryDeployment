@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-25T09:01:18.516Z",
+  "timestamp": "2026-04-25T10:50:24.949Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db505-d6a6-7a18-b167-4f13099aaaf2.jpg",
         "publishedAt": "2026-04-22T13:28:35Z",
         "content": "The European Unions Markets in Crypto Assets Regulation (MiCA) transition period is entering its final stretch, forcing smaller crypto firms across the EU to either secure authorization quickly or pr… [+5161 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Russia advances crypto bill that could pave way for criminal penalties",
-        "description": "Russian lawmakers passed a first reading of a bill regulating digital currency through licensed intermediaries, paving the way for criminal penalties for unlicensed activity.",
-        "url": "https://cointelegraph.com/news/russia-first-reading-crypto-bill-criminal-crackdown-crypto",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db4e2-1a8d-75c8-a958-380d6d769fb2.jpg",
-        "publishedAt": "2026-04-22T13:11:17Z",
-        "content": "Russias lower house of parliament passed a bill in first reading on Tuesday that would create the countrys core legal framework for digital currency, moving Moscow closer to a system that channels cr… [+3628 chars]"
       }
     ]
   }
