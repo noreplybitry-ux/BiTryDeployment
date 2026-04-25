@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-25T11:42:23.357Z",
+  "timestamp": "2026-04-25T13:18:03.820Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price set for best gains since Q4 2024 with $77.5K monthly close",
+        "description": "Bitcoin price action has one more week to go until it potentially achieves its biggest month's gains since late 2024.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-set-for-best-gains-since-q4-2024-with-77-5k-monthly-close?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "urlToImage": null,
+        "publishedAt": "2026-04-24T11:51:45Z",
+        "content": "Cointelegraph is committed to providing independent, high-quality journalism across the crypto, blockchain, AI, and fintech industries.\r\n All news, reviews, and analyses are produced with full journa… [+116 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c151829bd1ca34316d50eceea66281310d64eb0-3492x1964.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-22T14:11:20Z",
         "content": "Investors in the U.K. can once again hold cryptocurrency exchange-traded notes (ETNs) in a tax-free vehicle after fintech startup Stratiphy received approval to offer them in a special class of indiv… [+1887 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Binance.US cuts spot trading fees to near zero in push to undercut rivals",
-        "description": "Binance.US slashes spot fees to 0% maker and 0.02% taker for all users, undercutting rivals like Coinbase as Binance faces renewed US scrutiny over compliance and Iran-linked transactions.",
-        "url": "https://cointelegraph.com/news/binance-us-cuts-spot-trading-fees-to-near-zero-in-push-to-undercut-rivals",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db1d7-cf5e-73d6-8194-4240569241f9.jpg",
-        "publishedAt": "2026-04-22T14:00:00Z",
-        "content": "Binance.US has reduced spot trading fees to 0% for makers and 0.02% for takers across all trading pairs, extending near-zero pricing to all users without volume thresholds or subscription requirement… [+3313 chars]"
       }
     ]
   }
