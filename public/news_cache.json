@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-25T10:50:24.949Z",
+  "timestamp": "2026-04-25T11:42:23.357Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Will Ethereum Reach $250,000 Before Bitcoin? Here’s What Needs To Happen",
+        "description": "Etherealize, an institutional adoption and advocacy group backed by the Ethereum Foundation, has made a bold prediction, suggesting that ETH could one day reach $250,000 before Bitcoin (BTC). The group said that if Ethereum can capture a share of the combined…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-250000-before-bitcoin/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-bitcoin.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-24T11:30:42Z",
+        "content": "Etherealize, an institutional adoption and advocacy group backed by the Ethereum Foundation, has made a bold prediction, suggesting that ETH could one dayreach $250,000 before Bitcoin (BTC). The grou… [+3030 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +420,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db1d7-cf5e-73d6-8194-4240569241f9.jpg",
         "publishedAt": "2026-04-22T14:00:00Z",
         "content": "Binance.US has reduced spot trading fees to 0% for makers and 0.02% for takers across all trading pairs, extending near-zero pricing to all users without volume thresholds or subscription requirement… [+3313 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "UK cracks down on illegal peer-to-peer crypto trading in nationwide raids",
-        "description": "UK regulators intensify enforcement against unregistered crypto trading, targeting peer-to-peer operations and signaling stricter oversight of digital asset markets.",
-        "url": "https://cointelegraph.com/news/uk-fca-illegal-peer-to-peer-crypto-trading-raids",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db531-1299-75e0-8b81-2eeb9f1c5301.jpg",
-        "publishedAt": "2026-04-22T13:38:00Z",
-        "content": "The United Kingdoms Financial Conduct Authority (FCA) has raided multiple sites suspected of running illegal peer-to-peer (P2P) crypto trading operations.\r\nThe financial services and markets watchdog… [+2978 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Europe’s MiCA regime puts smaller crypto firms under pressure",
-        "description": "Smaller crypto companies across Europe face mounting compliance costs as MiCA moves from framework to enforcement, raising fears of market consolidation.",
-        "url": "https://cointelegraph.com/news/europe-mica-regime-smaller-crypto-firms",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db505-d6a6-7a18-b167-4f13099aaaf2.jpg",
-        "publishedAt": "2026-04-22T13:28:35Z",
-        "content": "The European Unions Markets in Crypto Assets Regulation (MiCA) transition period is entering its final stretch, forcing smaller crypto firms across the EU to either secure authorization quickly or pr… [+5161 chars]"
       }
     ]
   }
