@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-25T13:18:03.819Z",
+  "timestamp": "2026-04-25T14:50:42.608Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2bb224bfa288e79f5e3ee5873991c29fe31f5ebd-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-22T14:33:12Z",
         "content": "Crypto trading firm GSR has launched its first exchange-traded fund (ETF), entering a fast-growing segment of the digital asset market as investor demand for regulated crypto exposure continues to ri… [+2026 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley",
-        "title": "Tax-free bitcoin is back: How UK investors can avoid paying duty on crypto investments once more",
-        "description": "Stratiphy will offer access to three ETNs provided by 21Shares: those covering bitcoin, ether and one combining BTC and gold.",
-        "url": "https://www.coindesk.com/business/2026/04/22/tax-free-bitcoin-is-back-how-uk-investors-can-avoid-paying-duty-on-crypto-investments-once-more",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c151829bd1ca34316d50eceea66281310d64eb0-3492x1964.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-22T14:11:20Z",
-        "content": "Investors in the U.K. can once again hold cryptocurrency exchange-traded notes (ETNs) in a tax-free vehicle after fintech startup Stratiphy received approval to offer them in a special class of indiv… [+1887 chars]"
       }
     ]
   }
