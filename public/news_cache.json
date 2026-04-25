@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-25T05:19:47.487Z",
+  "timestamp": "2026-04-25T07:27:15.834Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "US DOJ strike force 'restrains' $701M in crypto in ongoing scam crackdown",
+        "description": "Besides freezing crypto, the strike force also seized a Telegram channel used to recruit unsuspecting job seekers and took down 503 fake crypto investment websites.",
+        "url": "https://cointelegraph.com/news/us-scam-center-task-force-restrains-crypto-in-southeast-asia-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "urlToImage": null,
+        "publishedAt": "2026-04-24T07:15:03Z",
+        "content": "Cointelegraph is committed to providing independent, high-quality journalism across the crypto, blockchain, AI, and fintech industries.\r\n All news, reviews, and analyses are produced with full journa… [+116 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +446,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db4e2-1a8d-75c8-a958-380d6d769fb2.jpg",
         "publishedAt": "2026-04-22T13:11:17Z",
         "content": "Russias lower house of parliament passed a bill in first reading on Tuesday that would create the countrys core legal framework for digital currency, moving Moscow closer to a system that channels cr… [+3628 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Bull Score Index Turns Neutral For First Time This Bear Market",
-        "description": "Bitcoin’s Bull Score Index has climbed back to 50, moving out of outright bearish territory and into what CryptoQuant’s Julio Moreno described as a neutral zone. In a post on X, the CryptoQuant head of research wrote: “First time in this bear market that the …",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-bull-score-neutral-first-time-bear-market/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ChatGPT-Image-22.-Apr.-2026-08_53_11.png?fit=1672%2C941",
-        "publishedAt": "2026-04-22T13:00:17Z",
-        "content": "Bitcoins Bull Score Index has climbed back to 50, moving out of outright bearish territory and into what CryptoQuants Julio Moreno described as a neutral zone.\r\nIn a post on X, the CryptoQuant head o… [+2674 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Kraken filed 56 million crypto tax forms for 2025. One-third were below $1",
-        "description": "The lack of a de minimis exemption for crypto payments and staking rewards taxed at receipt creates a huge reporting burden, the data shows.",
-        "url": "https://www.coindesk.com/policy/2026/04/22/kraken-filed-56-million-crypto-tax-forms-for-2025-one-third-were-below-usd1",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2da9a6b82dc390b2d695ea5aa81f501be1758c14-1920x1350.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-22T12:45:04Z",
-        "content": "Crypto exchange Kraken says it filed 56 million crypto-transaction forms with the U.S. Internal Revenue Service (IRS) for the 2025 tax year. Roughly 18.5 million of them covered transactions worth le… [+3108 chars]"
       }
     ]
   }
