@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-25T16:52:50.182Z",
+  "timestamp": "2026-04-25T17:43:21.835Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin stays 'stalled' at $78K as oil threatens new risk-asset squeeze",
+        "description": "Bitcoin and risk assets faced an uphill struggle after the S&P 500 hit new all-time highs as analysis warned that BTC price support was at risk.",
+        "url": "https://cointelegraph.com/markets/bitcoin-stays-stalled-at-78k-as-oil-threatens-new-risk-asset-squeeze",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Oil-Bitcoin-Petrol-1.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-24T16:55:44Z",
+        "content": "Bitcoin (BTC) stayed glued to $78,000 on Friday with markets awaiting clarity from the US-Iran war.\r\nKey points:\r\n<ul><li>Bitcoin stalls in its bid to recapture $80,000, as US stocks tread water.</li… [+2498 chars]"
+      },
       {
         "source": {
           "id": null,
