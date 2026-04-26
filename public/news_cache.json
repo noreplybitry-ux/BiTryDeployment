@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-26T10:56:24.734Z",
+  "timestamp": "2026-04-26T11:46:32.852Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin ‘Sharks’ Silently Accumulate Amid Market Uncertainty — Details",
+        "description": "Over the past 24 hours, Bitcoin, the flagship cryptocurrency, has declined by 0.9% after a trading week with little to no price action. Although the market’s next direction remains largely uncertain, a recent analysis has provided insight into underlying inve…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-sharks-silently-accumulate-amid-market-uncertainty-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/istockphoto-879153690-612x612-1.jpg?fit=1000%2C666",
+        "publishedAt": "2026-04-25T11:30:54Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/uk-fca-financial-conduct-authority-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-04-22T18:29:02Z",
         "content": "In brief\r\n<ul><li>UK Financial Conduct Authority led multi-agency raids on eight London premises suspected of illegal P2P crypto trading.</li><li>Officers issued cease-and-desist orders requiring imm… [+3070 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Predicts Bitcoin Price Is Going To $200,000, Reveals When To Buy",
-        "description": "Bitcoin is back in a place where bold upside calls are starting to circulate again, and while short-term sentiment is still mixed, one analyst believes the cryptocurrency is setting up for a powerful move that sends the price action all the way to $200,000. T…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-going-to-200000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pngtree-34.jpg?fit=960%2C640",
-        "publishedAt": "2026-04-22T18:00:07Z",
-        "content": "Bitcoin is back in a place where bold upside calls are starting to circulate again, and while short-term sentiment is still mixed, one analyst believes the cryptocurrency is setting up for a powerful… [+2561 chars]"
       }
     ]
   }
