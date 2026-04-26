@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-26T13:19:14.065Z",
+  "timestamp": "2026-04-26T14:52:59.356Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Solana Price Ready For A Big Move — Is It Time To Jump In?",
+        "description": "The Solana price had a mixed performance over the past week, initially rising toward $90 before falling back to just above $85. According to a popular analyst on X, the altcoin is currently trading in an interesting zone, which could set the stage for a big p…",
+        "url": "http://www.newsbtc.com/news/solana/solana-price-is-ready-for-a-big-move/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/2025-03-23-01.36.33.jpg?fit=960%2C640",
+        "publishedAt": "2026-04-25T14:00:14Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Lamine Brahimi",
+        "title": "Europe’s banks are going all in on crypto",
+        "description": "Brahimi explores the impact of European banks' integration of digital assets into their existing brokerage and payments infrastructure in the wake of MiCA.",
+        "url": "https://www.coindesk.com/opinion/2026/04/25/europe-s-banks-are-going-all-in-on-crypto",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/466dff0d9024b209f033f1347e4b55171bf08e12-1000x667.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-25T13:30:00Z",
+        "content": "Something important happened in Belgium earlier this year. KBC, the country's largest bank-insurance group, switched on regulated Bitcoin and Ether trading for retail investors through Bolero, its se… [+5727 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-111.jpg?fit=1280%2C848",
         "publishedAt": "2026-04-22T21:00:11Z",
         "content": "A crypto analyst has presented a new analysis, forecasting Bitcoins (BTC) next all-time high and potential market bottom. According to the analyst,BTCs long-term price outlook could depend heavily on… [+2922 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "UK’s Financial Conduct Authority Leads London Crackdown on Crypto Traders",
-        "description": "Multi-agency raid marks shift from warnings to physical enforcement as UK regulator finds zero legally registered P2P crypto traders.",
-        "url": "https://decrypt.co/365148/uk-financial-conduct-authority-leads-london-crackdown-crypto-traders",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/uk-fca-financial-conduct-authority-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-04-22T18:29:02Z",
-        "content": "In brief\r\n<ul><li>UK Financial Conduct Authority led multi-agency raids on eight London premises suspected of illegal P2P crypto trading.</li><li>Officers issued cease-and-desist orders requiring imm… [+3070 chars]"
       }
     ]
   }
