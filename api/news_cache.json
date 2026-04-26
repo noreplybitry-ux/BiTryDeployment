@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-26T22:47:15.620Z",
+  "timestamp": "2026-04-26T23:47:19.504Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db5c6-86be-7313-a24e-a8a49d7910a2.jpg",
         "publishedAt": "2026-04-22T22:37:05Z",
         "content": "Key points:\r\n<ul><li>Bitcoins rise above the $78,333 resistance opens the door for a rally to $84,000.\r\n</li><li>Several major altcoins are attempting to rise above their resistance levels, signaling… [+8102 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "$60,000 Is The Bottom: Bitcoin Analyst Predicts Lowest Level Before Run To $200,000",
-        "description": "A crypto analyst has presented a new analysis, forecasting Bitcoin’s (BTC) next all-time high and potential market bottom. According to the analyst, BTC’s long-term price outlook could depend heavily on where its current market bottom forms. The analysis draw…",
-        "url": "http://www.newsbtc.com/news/bitcoin/60000-is-the-bitcoin-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-111.jpg?fit=1280%2C848",
-        "publishedAt": "2026-04-22T21:00:11Z",
-        "content": "A crypto analyst has presented a new analysis, forecasting Bitcoins (BTC) next all-time high and potential market bottom. According to the analyst,BTCs long-term price outlook could depend heavily on… [+2922 chars]"
       }
     ]
   }
