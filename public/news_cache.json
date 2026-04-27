@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-27T09:24:15.148Z",
+  "timestamp": "2026-04-27T11:49:10.774Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db7ab-8c4d-74ab-8675-0bbe0dd1ca10.jpg",
         "publishedAt": "2026-04-23T00:30:34Z",
         "content": "Blockstream CEO Adam Back, the British cryptographer and inventor of Hashcash, said its flattering that people think hes Satoshi Nakamoto and was probably the result of his being a little too talkati… [+5974 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Four reasons why the crypto market is rallying today: Will bulls maintain control?",
-        "description": "Bitcoin and Ether surged as US liquidity measures and record spot ETF inflows offset investors’ recession fears and their concerns over the war in Iran.",
-        "url": "https://cointelegraph.com/markets/four-reasons-why-the-crypto-market-is-rallying-today-will-bulls-maintain-control",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db708-36c5-726b-aa78-a393483ee85f.jpg",
-        "publishedAt": "2026-04-23T00:30:00Z",
-        "content": "Key takeaways:\r\n<ul><li>US government bailout plans and currency swap lines with the UAE are easing global liquidity fears and lowering credit crisis risks.\r\n</li><li>Record Bitcoin ETF inflows and r… [+4263 chars]"
       }
     ]
   }
