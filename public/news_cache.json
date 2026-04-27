@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-27T14:08:58.004Z",
+  "timestamp": "2026-04-27T16:46:10.789Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Bitcoin whales build long positions as funding stays deeply negative",
+        "description": "Long bias from the largest perpetual traders on Hyperliquid has built steadily through February, March and April, with the position now leaning aggressively long as bitcoin tags $80,000 and US-Iran talks resume.",
+        "url": "https://www.coindesk.com/markets/2026/04/26/bitcoin-whales-build-long-positions-as-funding-stays-deeply-negative",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b84cc03a0757fa4a135a5267f8d8f07b962c3105-1280x720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-26T14:13:42Z",
+        "content": "The biggest traders on Hyperliquid have been building a long bitcoin BTC\r\n$78,115.85 position for two months, and the price chart is starting to break their way.\r\nGlassnode data shows whale positioni… [+1894 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Solana-SOL-Fights.jpg?fit=2752%2C1536",
         "publishedAt": "2026-04-23T05:48:24Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "Market maker GSR launches first ETF tracking Bitcoin, Ether and Solana",
-        "description": "Crypto liquidity provider GSR launched its first crypto ETF on Wednesday, an actively managed multi-asset fund that recorded nearly $5 million in trading volume on its debut.",
-        "url": "https://cointelegraph.com/news/crypto-market-maker-gsr-launched-multi-asset-etf",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf83f-49a6-723f-98df-ef3246bea8e1.jpg",
-        "publishedAt": "2026-04-23T04:46:54Z",
-        "content": "Institutional crypto trading platform GSR launched its first crypto exchange-traded fund on Wednesday, recording nearly $5 million in trading volume on its first trading day. \r\nThe GSR Crypto Core3 E… [+1915 chars]"
       }
     ]
   }
