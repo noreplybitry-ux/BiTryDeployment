@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-26T23:47:19.503Z",
+  "timestamp": "2026-04-27T03:38:49.430Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Price Wave Down To $40,000 Shows When The Bottom Will Begin",
+        "description": "According to a crypto analyst, the Bitcoin price remains firmly in a bear trend and could be preparing for another major crash to new lows. Using a wave structure, the expert mapped out BTC’s price action during this bearish phase, outlining how he sees the c…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-wave-down-to-40000-shows-when-the-bottom-will-begin/",
+        "urlToImage": null,
+        "publishedAt": "2026-04-26T02:00:54Z",
+        "content": "According to a crypto analyst, the Bitcoin price remains firmly in a bear trend and could be preparing for another major crash to new lows. Using a wave structure, the expert mapped out BTCs price ac… [+2974 chars]"
+      },
       {
         "source": {
           "id": null,
