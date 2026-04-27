@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-27T03:38:49.430Z",
+  "timestamp": "2026-04-27T06:33:24.813Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Stalls At $77K As Major On-Chain Resistance Kicks In – Details",
+        "description": "Bitcoin prices are consolidating around the $77,000 mark, following a net 2.12% in the last week. The maiden cryptocurrency has registered significant positive traction in April, rising from around $67,000 to its current price level in the last three weeks. H…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-stalls-at-77k-as-major-on-chain-resistance-kicks-in-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/cryptocurrency-bitcoin-golden-coin-background_1017-31505.jpg",
+        "publishedAt": "2026-04-26T06:00:02Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "The Ethereum Golden Triangle That Has Predicted Every Move Shows Where Price Is Headed",
+        "description": "A crypto analyst has identified a Golden Triangle, a rare structure that has been forming on the Ethereum (ETH) chart for almost nine years. According to the analyst, the Ethereum price has remained within this triangle during both bullish and bearish periods…",
+        "url": "http://www.newsbtc.com/altcoin/the-ethereum-golden-triangle-that-has-predicted-every-move-shows-where-price-is-headed/",
+        "urlToImage": null,
+        "publishedAt": "2026-04-26T04:00:25Z",
+        "content": "A crypto analyst has identified a Golden Triangle, a rare structure that has been forming on the Ethereum (ETH) chart for almost nine years. According to the analyst, the Ethereum price has remained … [+2870 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db708-36c5-726b-aa78-a393483ee85f.jpg",
         "publishedAt": "2026-04-23T00:30:00Z",
         "content": "Key takeaways:\r\n<ul><li>US government bailout plans and currency swap lines with the UAE are easing global liquidity fears and lowering credit crisis risks.\r\n</li><li>Record Bitcoin ETF inflows and r… [+4263 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/22: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, XMR",
-        "description": "Bitcoin rally above the $78,333 resistance signals sustained buying by the bulls, clearing the path for a potential rally to $84,000.",
-        "url": "https://cointelegraph.com/markets/price-predictions-4-22-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-xmr",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db5c6-86be-7313-a24e-a8a49d7910a2.jpg",
-        "publishedAt": "2026-04-22T22:37:05Z",
-        "content": "Key points:\r\n<ul><li>Bitcoins rise above the $78,333 resistance opens the door for a rally to $84,000.\r\n</li><li>Several major altcoins are attempting to rise above their resistance levels, signaling… [+8102 chars]"
       }
     ]
   }
