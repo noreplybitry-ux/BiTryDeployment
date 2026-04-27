@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-27T11:49:10.774Z",
+  "timestamp": "2026-04-27T14:08:58.004Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Who Called Bitcoin’s Top Correctly Now Predicting The Bottom",
+        "description": "Bitcoin has spent April staging a recovery from its March lows, briefly climbing back above $79,000. However, not everyone is convinced of the rebound, and some analysts believe the move is only a mid-bear-market rally before a deeper correction.  One such an…",
+        "url": "http://www.newsbtc.com/news/bitcoin/analyst-who-called-bitcoins-top-correctly-now-predicting-the-bottom/",
+        "urlToImage": null,
+        "publishedAt": "2026-04-26T14:00:54Z",
+        "content": "Bitcoin has spent April staging a recovery from its March lows, briefly climbing back above $79,000. However, not everyone is convinced of the rebound, and some analysts believe the move is only a mi… [+2611 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "Market conditions force 1 in 3 crypto traders to cut everyday spending: Survey",
+        "description": "A CEX.IO survey finds 36% of US crypto traders cut everyday spending as Bitcoin remains 40% below its 2025 peak, highlighting growing household financial strain.",
+        "url": "https://cointelegraph.com/news/market-conditions-force-1-in-3-crypto-traders-to-cut-everyday-spending-survey",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20How%20To%20File%20Taxes%20As%20A%20Forex%20Trader.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-26T13:48:35Z",
+        "content": "The recent crypto market downturn has forced more than one in three crypto traders to cut everyday spending, according to a new survey by CEX.IO.\r\nThe survey, conducted among 1,100 US-based active CE… [+2570 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,45 +394,6 @@
         "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-03/019cf83f-49a6-723f-98df-ef3246bea8e1.jpg",
         "publishedAt": "2026-04-23T04:46:54Z",
         "content": "Institutional crypto trading platform GSR launched its first crypto exchange-traded fund on Wednesday, recording nearly $5 million in trading volume on its first trading day. \r\nThe GSR Crypto Core3 E… [+1915 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Rejected Above $2,400, Upside Momentum Starts To Fade",
-        "description": "Ethereum price started a fresh increase and remained stable above $2,350. ETH is now consolidating and might aim for more gains if it clears $2,425. Ethereum started a steady increase above the $2,380 zone. The price is trading above $2,350 and the 100-hourly…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rejected-2400/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Recovery-Picks-Up.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-23T03:18:47Z",
-        "content": "Ethereum price started a fresh increase and remained stable above $2,350. ETH is now consolidating and might aim for more gains if it clears $2,425.\r\n<ul><li>Ethereum started a steady increase above … [+2147 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Rally Nears $80K, Dips May Draw Fresh Buyers",
-        "description": "Bitcoin price started a fresh increase and cleared the $77,500 zone. BTC is consolidating and might aim for more gains above the $79,500 level. Bitcoin managed to stay above $76,500 and started a fresh increase. The price is trading above $77,200 and the 100 …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-rally-nears-80k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Rally-Nears-80K.jpg",
-        "publishedAt": "2026-04-23T02:33:29Z",
-        "content": "Bitcoin price started a fresh increase and cleared the $77,500 zone. BTC is consolidating and might aim for more gains above the $79,500 level.\r\n<ul><li>Bitcoin managed to stay above $76,500 and star… [+2192 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ciaran Lyons",
-        "title": "LONGITUDE recap: Adam Back on Satoshi, crypto regulation needs tweaks",
-        "description": "Blockstream’s Adam Back discusses why people think he’s Satoshi Nakamoto, while the CEO of OKX Europe said MiCA is “extremely beneficial” for the industry at the latest LONGITUDE event in Paris.",
-        "url": "https://cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks",
-        "urlToImage": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-04/019db7ab-8c4d-74ab-8675-0bbe0dd1ca10.jpg",
-        "publishedAt": "2026-04-23T00:30:34Z",
-        "content": "Blockstream CEO Adam Back, the British cryptographer and inventor of Hashcash, said its flattering that people think hes Satoshi Nakamoto and was probably the result of his being a little too talkati… [+5974 chars]"
       }
     ]
   }
