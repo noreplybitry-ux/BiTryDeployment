@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-27T16:46:10.789Z",
+  "timestamp": "2026-04-27T18:07:02.033Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/shutter-speed-wuG7LKcDx2w-unsplash.jpg?fit=1920%2C1080",
         "publishedAt": "2026-04-23T06:00:02Z",
         "content": "Some crypto analysts have affirmed that Ethereum (ETH) is facing a pivotal moment as it retests a major resistance barrier that could make or break the King of Altcoins recovery dreams.\r\nOn Wednesday… [+3307 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Strength Fades, Will Bulls Regain Momentum Soon?",
-        "description": "Solana failed to settle above $90 and corrected most gains. SOL price is now consolidating losses above $85 and might attempt another increase. SOL price started a fresh decline below $88 and $87 against the US Dollar. The price is now trading near $86 and th…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-strength-fades-90/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Solana-SOL-Fights.jpg?fit=2752%2C1536",
-        "publishedAt": "2026-04-23T05:48:24Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
