@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-28T11:50:32.024Z",
+  "timestamp": "2026-04-28T14:27:22.647Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "First 21-week trend line reclaim since October 2025: Five things to know in Bitcoin this week",
+        "description": "Bitcoin price action sealed its first weekly candle close above a 21-week moving average trend line since it traded near $115,000 in October 2025.",
+        "url": "https://cointelegraph.com/markets/first-21-week-trend-line-reclaim-since-october-2025-five-things-to-know-in-bitcoin-this-week",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Top-news-of-the-week-5.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-27T12:11:46Z",
+        "content": "Bitcoin (BTC) counts down the final days of April with a fresh attack on $80,000 as price teases key breakouts.\r\n<ul><li>Bitcoin sees its first weekly close above a key trend line since October 2025.… [+8426 chars]"
+      },
       {
         "source": {
           "id": null,
