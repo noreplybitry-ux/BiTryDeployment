@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-28T20:22:00.876Z",
+  "timestamp": "2026-04-28T22:04:16.445Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Canada advances bill to ban crypto political donations",
+        "description": "Lawmakers look to push election reform that would block crypto campaign donations, even as Canada expands oversight of stablecoins and digital asset markets.",
+        "url": "https://cointelegraph.com/news/canada-advances-bill-ban-crypto-political-donations",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Quadratic%20funding%20The%20future%20of%20crowdfunding%2C%20explained.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-27T21:50:17Z",
+        "content": "Canada is moving closer to banning political donations made in cryptocurrency, as lawmakers in Ottawa tighten rules around how money flows into elections.\r\nThat's after a proposed law Bill C-25, the … [+1987 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin whale holdings hit five-month high: Is BTC headed to $80K next?",
+        "description": "Bitcoin whales and institutional investors buying put a support under BTC’s range lows, and while short-term downside risks remain, the market appears to be gearing up for a rally to $80,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-whale-holdings-hit-five-month-high-is-btc-headed-to-80k-next",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/whale%20market%20sea.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-27T21:44:05Z",
+        "content": "Bitcoin (BTC) whales holding between 1,000-10,000 BTC have increased their BTC exposure over the past five months, with the total balance reaching 3.09 million, a level last seen on November 11, 2025… [+3387 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Bitcoin rally shows signs of fatigue as key indicators turn bearish",
+        "description": "Cooling U.S. demand, elevated Bitfinex whale positioning and a key on chain rejection point to short term downside during the Las Vegas Bitcoin conference.",
+        "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-rally-shows-signs-of-fatigue-as-key-indicators-turn-bearish",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8a8d9c574defe9ae9c3d4b51c716eeca823101c7-2130x1736.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-27T21:00:00Z",
+        "content": "Bitcoins Sunday night rally stalled out near $79,400 and is beginning to show signs of fatigue, with several indicators pointing to potential short-term weakness as the price trades back around $77,0… [+1775 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-bitcoin.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-04-24T11:30:42Z",
         "content": "Etherealize, an institutional adoption and advocacy group backed by the Ethereum Foundation, has made a bold prediction, suggesting that ETH could one dayreach $250,000 before Bitcoin (BTC). The grou… [+3030 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "US DOJ strike force 'restrains' $701M in crypto in ongoing scam crackdown",
-        "description": "Besides freezing crypto, the strike force also seized a Telegram channel used to recruit unsuspecting job seekers and took down 503 fake crypto investment websites.",
-        "url": "https://cointelegraph.com/news/us-scam-center-task-force-restrains-crypto-in-southeast-asia-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "urlToImage": null,
-        "publishedAt": "2026-04-24T07:15:03Z",
-        "content": "Cointelegraph is committed to providing independent, high-quality journalism across the crypto, blockchain, AI, and fintech industries.\r\n All news, reviews, and analyses are produced with full journa… [+116 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Turns Attractive—Bulls Aim Key Upside Break And Gains",
-        "description": "Dogecoin corrected some gains from the $0.0985 zone against the US Dollar. DOGE is now holding the $0.0950 support and might aim for a fresh upside. DOGE price started a fresh downside correction below $0.0965. The price is trading above the $0.0950 level and…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-turns-attractive-0-095/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Dogecoin-DOGE-Rebound-Hits-Resistance.jpg?fit=1024%2C572",
-        "publishedAt": "2026-04-24T05:08:13Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
