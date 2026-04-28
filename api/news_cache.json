@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-28T22:04:16.445Z",
+  "timestamp": "2026-04-28T23:59:11.919Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Tracks Bitcoin Rally: Why A Surge to $3,400 Could Be The Beginning",
+        "description": "Ethereum is beginning to mirror Bitcoin’s bullish momentum, steadily climbing as market confidence strengthens. After weeks of consolidation, price action is now pressing against a key resistance zone, signaling that a breakout could be near. With momentum bu…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-tracks-bitcoin-rally/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-iStock-25.jpg?fit=612%2C405",
+        "publishedAt": "2026-04-27T23:00:36Z",
+        "content": "Ethereum is beginning to mirror Bitcoins bullish momentum, steadily climbing as market confidence strengthens. After weeks of consolidation, price action is now pressing against a key resistance zone… [+2808 chars]"
+      },
       {
         "source": {
           "id": null,
