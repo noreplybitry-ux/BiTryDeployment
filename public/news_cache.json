@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-27T23:02:46.680Z",
+  "timestamp": "2026-04-28T03:43:13.517Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Advances Toward $80K, Upside Break Now In Focus",
+        "description": "Bitcoin price started a fresh increase and cleared the $78,500 zone. BTC is consolidating and might aim for more gains above the $79,200 level. Bitcoin managed to stay above $76,000 and started a fresh increase. The price is trading above $78,000 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-advances-80k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-Price-Retests-Support.jpg",
+        "publishedAt": "2026-04-27T03:12:03Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $78,500 zone. BTC is consolidating and might aim for more gains above the $79,200 level.\r\n<ul><li>Bitcoin managed to stay above $76,000 and star… [+2225 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-bull.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-04-23T08:30:19Z",
         "content": "Over the years, Bitcoin has maintained a near-consistent bull cycle pattern, usually starting and ending in a similar number of days. As a result, using the previous cycle pattern has become a popula… [+2273 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "OpenAI appears to be poaching Coinbase’s marketing team",
-        "description": "Six Coinbase senior marketing executives, including the exchange's former chief marketing officer, have jumped to OpenAI in the past year and a half.",
-        "url": "https://www.coindesk.com/business/2026/04/23/openai-appears-to-be-poaching-coinbase-s-marketing-team",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d2b4b82edc6ff0637b37466e20cadf90ebe36839-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-23T07:49:03Z",
-        "content": "It's no surprise that there's a general pivot from blockchain to artificial intelligence right now.\r\nEvery week brings another report of a company or person either leaving the cryptocurrency industry… [+3901 chars]"
       }
     ]
   }
