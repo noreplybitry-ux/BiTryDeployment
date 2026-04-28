@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-28T16:57:23.419Z",
+  "timestamp": "2026-04-28T18:23:43.870Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Bitcoin pulls back to $76,600 as rising oil price and Iran risks stall the rally",
+        "description": "Short-term holder profit-taking is offsetting fresh demand from ETFs and Strategy, pointing to consolidation below $80,000, Bitfinex analysts said.",
+        "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-to-usd76-600-as-rising-oil-price-and-iran-risks-stall-the-rally",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2226f6b8d0697501e34614bf61a1ea94fccda406-1920x1344.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-27T17:17:25Z",
+        "content": "The bitcoin BTC\r\n$77,642.53 rally toward $80,000 didnt last long on Monday, with prices slipping back to $76,600 during the U.S. session as geopolitical tensions crept back into focus.\r\nAfter trading… [+2218 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Is Headed For $40,000: Analyst Reveals The Best Time To Buy BTC",
+        "description": "A crypto analyst has warned against giving in to the FOMO and buying Bitcoin (BTC) at new highs. He noted that although the cryptocurrency could continue its upward move and even push past $80,000, this does not necessarily signal the end of the broader bear …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-headed-for-40000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-56-1.jpg?fit=612%2C459",
+        "publishedAt": "2026-04-27T17:00:17Z",
+        "content": "A crypto analyst has warned against giving in to the FOMO and buying Bitcoin (BTC) at new highs. He noted that although the cryptocurrency could continue its upward move and even push past $80,000, t… [+3385 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/bitcoin-price-50000.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-04-24T03:00:28Z",
         "content": "The question of whether the Bitcoin price has hit a final bottom remains a major topic of discussion, as analysts remain unconvinced that the flagship cryptocurrency has reached a definitive floor. A… [+2599 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Strengthens, Fresh Upside Targets Come Into View",
-        "description": "Bitcoin price started a fresh increase and cleared the $78,000 zone. BTC is consolidating and might aim for more gains above the $78,550 level. Bitcoin managed to stay above $77,000 and started a fresh increase. The price is trading above $77,800 and the 100 …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-strengthens-78k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Recovery-Attempts.jpg",
-        "publishedAt": "2026-04-24T02:30:54Z",
-        "content": "Bitcoin price started a fresh increase and cleared the $78,000 zone. BTC is consolidating and might aim for more gains above the $78,550 level.\r\n<ul><li>Bitcoin managed to stay above $77,000 and star… [+2237 chars]"
       }
     ]
   }
