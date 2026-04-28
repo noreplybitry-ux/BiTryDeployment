@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-28T14:27:22.647Z",
+  "timestamp": "2026-04-28T16:57:23.419Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Crypto Exchange Gemini Launches Agentic Trading Feature for AI Agents",
+        "description": "Gemini has integrated AI models like Claude and ChatGPT to execute automated trading strategies via an open protocol.",
+        "url": "https://decrypt.co/365661/crypto-exchange-gemini-agentic-trading-feature-ai-agents",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/gemini-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-04-27T16:56:47Z",
+        "content": "In brief\r\n<ul><li>Gemini launched Agentic Trading, the first AI agent trading tool available directly through a regulated U.S.-based exchange.</li><li>Users can connect Claude, ChatGPT, and other AI … [+2531 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Fidelity Digital Assets says bitcoin is leading crypto market stabilization",
+        "description": "Despite muted prices to start the second quarter, the report said improving onchain metrics and network activity point to a market finding its footing.",
+        "url": "https://www.coindesk.com/markets/2026/04/27/fidelity-digital-assets-says-bitcoin-is-leading-crypto-market-stabilization",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/71df673d351b791c3005560c1b5760411dece6dd-1500x922.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-27T15:44:00Z",
+        "content": "The digital assets market entered the second quarter in consolidation mode, but Fidelity Digital Assets said underlying data points to early signs of stabilization beneath the surface.\r\nIn its Q2 202… [+2158 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Recovery-Attempts.jpg",
         "publishedAt": "2026-04-24T02:30:54Z",
         "content": "Bitcoin price started a fresh increase and cleared the $78,000 zone. BTC is consolidating and might aim for more gains above the $78,550 level.\r\n<ul><li>Bitcoin managed to stay above $77,000 and star… [+2237 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Spot ETH ETF inflows hit 10-day streak: Will Ether rally to $3K next?",
-        "description": "Inflows to the spot Ether ETFs topped $633 million over the past 10-days, but are the flows significant enough to trigger a rally to $3,000?",
-        "url": "https://cointelegraph.com/markets/spot-eth-etf-inflows-hit-10-day-streak-will-ether-rally-to-3k-next",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-What-are-Ether-futures-ETFs-and-how-do-they-work.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-23T21:25:30Z",
-        "content": "Key takeaways:\r\n<ul><li>The spot ETH ETFs recorded ten consecutive days of net inflows, totaling $633 million.</li><li>Weekly DApps revenue on the Ethereum network fell to $13 million, following a br… [+3264 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Global crypto adoption slumps amid macro pressures, Turkey defies downtrend",
-        "description": "TRM Labs data shows a sharp drop in crypto trading volumes across advanced economies, while Turkey and sanctioned markets continued to drive adoption trends.",
-        "url": "https://cointelegraph.com/news/global-crypto-adoption-q1-2026-trm-labs-turkey-resilience",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Cryptocurrency%20Laws%20and%20Regulations%20in%20Turkey.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-23T21:21:36Z",
-        "content": "Global crypto adoption declined in the first quarter as retail activity weakened under mounting macroeconomic and geopolitical pressures, underscoring the sectors continued sensitivity to broader mar… [+2068 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Ethereum Near Key Zone After 36% Gain – What’s Next?",
-        "description": "Ethereum has surged roughly 36% from its recent accumulation zone, pushing the price into a critical area where momentum often gets tested. With key resistance now in play and signs of hesitation emerging, the market is approaching a decisive moment that coul…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-near-key-zone/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-Getty-Images-16.jpg?fit=612%2C408",
-        "publishedAt": "2026-04-23T20:00:14Z",
-        "content": "Ethereum has surged roughly 36% from its recent accumulation zone, pushing the price into a critical area where momentum often gets tested. With key resistance now in play and signs of hesitation eme… [+2584 chars]"
       }
     ]
   }
