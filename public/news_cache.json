@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-28T09:27:50.880Z",
+  "timestamp": "2026-04-28T11:50:32.024Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin’s rally stalls below $80k: Check forecast",
+        "description": "TL;DR BTC briefly touched the $79k level during the late hours of Sunday. US-listed spot BTC ETFs recorded inflows of over $820 million last week, marking the fourth straight week of positive flows. Bitcoin (BTC) edges slightly lower on Monday, trading around…",
+        "url": "https://coinjournal.net/news/bitcoins-rally-stalls-below-80k-check-forecast/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/ChatGPT-Image-Apr-27-2026-12_04_15-PM.png",
+        "publishedAt": "2026-04-27T11:07:08Z",
+        "content": "TL;DR\r\n<ul><li>BTC briefly touched the $79k level during the late hours of Sunday.</li><li>US-listed spot BTC ETFs recorded inflows of over $820 million last week, marking the fourth straight week of… [+2718 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin leads $1.2B weekly inflows into crypto investment products",
+        "description": "Crypto ETPs see $1.2 billion inflows in fourth straight week as Bitcoin leads gains and blockchain equity ETFs hit record demand, CoinShares reported.",
+        "url": "https://cointelegraph.com/news/crypto-funds-1-2-billion-inflows-four-week-streak",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-10-top-inteprizes-that-became-involved-with-blockchain-ETF.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-27T10:58:36Z",
+        "content": "Cryptocurrency investment products continued their run of inflows last week as Bitcoin traded at its highest levels since early February.\r\nCrypto exchange-traded products (ETPs) recorded $1.2 billion… [+2342 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "EU’s largest measures against Russia yet include escalation of crypto sanctions evasion",
+        "description": "The European Union acknowledges Russia is increasingly reliant on cryptocurrency to circumvent the sanctions the Western nations have imposed against due to its war on Ukraine",
+        "url": "https://www.coindesk.com/policy/2026/04/27/eu-s-largest-measures-against-russia-yet-include-escalation-of-crypto-sanctions-evasion",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d81a5317fb779c1958e887b3b5fac0df3ce3bccd-5184x3456.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-27T10:42:48Z",
+        "content": "The European Union (EU) released its biggest package of sanctions in two years against Russia, describing the measures as far-reaching and restrictive. They specifically target crypto with a total ba… [+2239 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-from-Getty-Images-16.jpg?fit=612%2C408",
         "publishedAt": "2026-04-23T20:00:14Z",
         "content": "Ethereum has surged roughly 36% from its recent accumulation zone, pushing the price into a critical area where momentum often gets tested. With key resistance now in play and signs of hesitation eme… [+2584 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "XRP eyes retest of $1.50 as BTC, ETH show upside potential",
-        "description": "XRP price held support near $1.40 and could eye a retest of $1.50. Bitcoin and Ethereum continued to dictate sentiment. Cryptocurrencies are showing upside potential despite geopolitical headwinds. XRP is positioning for a crucial retest of the $1.50 resistan…",
-        "url": "https://coinjournal.net/news/xrp-eyes-retest-of-1-50-as-btc-eth-show-upside-potential/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/03/investor-viewing-xrp-cryptocurrency-logo-on-smartphone-screen.png",
-        "publishedAt": "2026-04-23T17:12:44Z",
-        "content": "<ul><li>XRP price held support near $1.40 and could eye a retest of $1.50.</li><li>Bitcoin and Ethereum continued to dictate sentiment.</li><li>Cryptocurrencies are showing upside potential despite g… [+2791 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Blockchain Capital Seeks $700M for Two New Crypto Funds",
-        "description": "The venture capital firm aims to close the fundraising within five to six months, and is already deploying some of the new capital.",
-        "url": "https://decrypt.co/365237/blockchain-capital-seeks-700m-for-two-new-crypto-funds",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-04-23T11:01:21Z",
-        "content": "In brief\r\n<ul><li>Blockchain Capital is raising $700 million across two new funds, according to Bloomberg sources.</li><li>The venture capital firm is pursuing its seventh early-stage fund and second… [+2262 chars]"
       }
     ]
   }
