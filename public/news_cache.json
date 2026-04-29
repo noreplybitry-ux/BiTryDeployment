@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-29T11:43:03.759Z",
+  "timestamp": "2026-04-29T14:13:20.593Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Here’s Why The Bitcoin And Ethereum Prices Have Been Rising And Falling Sharply",
+        "description": "Bitcoin and Ethereum have spent the past few weeks moving like assets caught between two powerful forces. On one side, institutional demand has returned through Spot ETFs, treasury purchases, and dip-buying from larger investors. On the other side, profit-tak…",
+        "url": "http://www.newsbtc.com/news/bitcoin-and-ethereum-prices-2/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-43.jpg?fit=612%2C408",
+        "publishedAt": "2026-04-28T14:00:51Z",
+        "content": "Bitcoin and Ethereum have spent the past few weeks moving like assets caught between two powerful forces. On one side, institutional demand has returned through Spot ETFs, treasury purchases, and dip… [+2904 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Is Ethereum safe above $2K? Traders are watching these ETH price levels",
+        "description": "Ethereum traders eye key ETH price support and resistance levels as onchain data reveals flipping $2,400 is key for Ether’s sustained recovery.",
+        "url": "https://cointelegraph.com/markets/is-ethereum-safe-above-2k-traders-are-watching-these-eth-price-levels",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/ETH%20cover%20April%2028.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-28T11:52:34Z",
+        "content": "Ether (ETH) analysts have mapped out key ETH price levels to watch over the next few weeks, with a focus on the $2,000 psychological level.\r\nKey takeaways:\r\n<ul><li>Dropping below the 200-day simple … [+2848 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +433,6 @@
         "urlToImage": null,
         "publishedAt": "2026-04-26T04:00:25Z",
         "content": "A crypto analyst has identified a Golden Triangle, a rare structure that has been forming on the Ethereum (ETH) chart for almost nine years. According to the analyst, the Ethereum price has remained … [+2870 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Price Wave Down To $40,000 Shows When The Bottom Will Begin",
-        "description": "According to a crypto analyst, the Bitcoin price remains firmly in a bear trend and could be preparing for another major crash to new lows. Using a wave structure, the expert mapped out BTC’s price action during this bearish phase, outlining how he sees the c…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-wave-down-to-40000-shows-when-the-bottom-will-begin/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-26T02:00:54Z",
-        "content": "According to a crypto analyst, the Bitcoin price remains firmly in a bear trend and could be preparing for another major crash to new lows. Using a wave structure, the expert mapped out BTCs price ac… [+2974 chars]"
       }
     ]
   }
