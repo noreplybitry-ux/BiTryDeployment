@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-29T03:56:46.047Z",
+  "timestamp": "2026-04-29T06:31:33.406Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Dorsey's Block unveils Bitcoin proof-of-reserves in transparency move",
+        "description": "Jack Dorsey’s Block has launched a proof-of-reserves feature for investors to verify the firm’s 8,883 Bitcoin treasury, while Cash App and Square users can also use it to verify funds.",
+        "url": "https://cointelegraph.com/news/jack-dorseys-block-unveils-btc-proof-of-reserves-in-transparency-move",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Jack%20Dorsey%20is%20wrong%20Bitcoin.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-28T06:05:15Z",
+        "content": "Online payments firm Block has launched proof-of-reserves for its corporate Bitcoin treasury and two of its flagship products, Cash App and Square, joining a growing list of crypto companies proving … [+2312 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Trends Higher, Larger Gains Could Be Ahead",
+        "description": "Dogecoin started a fresh increase from the $0.0970 zone against the US Dollar. DOGE is now facing hurdles near $0.0995 and might aim for a larger rally. DOGE price started a decent upward move above $0.0950 and $0.0985. The price is trading above the $0.0980 …",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-trends-higher-0-10/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Trends-Higher-Larger-Gains-Could-Be-Ahead.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-28T05:08:27Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/large-frozen-steel-vault-covered-in-ice-and-frost-.jpeg?fit=1440%2C810",
         "publishedAt": "2026-04-25T04:00:34Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin stays 'stalled' at $78K as oil threatens new risk-asset squeeze",
-        "description": "Bitcoin and risk assets faced an uphill struggle after the S&P 500 hit new all-time highs as analysis warned that BTC price support was at risk.",
-        "url": "https://cointelegraph.com/markets/bitcoin-stays-stalled-at-78k-as-oil-threatens-new-risk-asset-squeeze",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Oil-Bitcoin-Petrol-1.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-24T16:55:44Z",
-        "content": "Bitcoin (BTC) stayed glued to $78,000 on Friday with markets awaiting clarity from the US-Iran war.\r\nKey points:\r\n<ul><li>Bitcoin stalls in its bid to recapture $80,000, as US stocks tread water.</li… [+2498 chars]"
       }
     ]
   }
