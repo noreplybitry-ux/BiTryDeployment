@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-28T23:59:11.919Z",
+  "timestamp": "2026-04-29T03:56:46.047Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Drops Below $2,350, Recovery Hopes Start To Fade",
+        "description": "Ethereum price started a fresh decline and traded below $2,350. ETH is now consolidating above $2,265 and might struggle to recover. Ethereum started a downside correction from the $2,400 zone. The price is trading below $2,350 and the 100-hourly Simple Movin…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-drops-below-2350/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Drops-Below-2350-Recovery-Hopes-Start-To-Fade.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-28T03:18:14Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,350. ETH is now consolidating above $2,265 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction from the $2,400 zo… [+2137 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Turns Lower After Rejection, Downside Pressure Builds",
+        "description": "Bitcoin price started a fresh decline from the $79,500 zone. BTC is consolidating and might struggle to stay above the $76,500 support. Bitcoin failed to stay above $78,500 and corrected gains. The price is trading below $78,000 and the 100 hourly simple movi…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-turns-lower-78500/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Turns-Lower-After-Rejection-Downside-Pressure-Builds.jpg",
+        "publishedAt": "2026-04-28T02:19:30Z",
+        "content": "Bitcoin price started a fresh decline from the $79,500 zone. BTC is consolidating and might struggle to stay above the $76,500 support.\r\n<ul><li>Bitcoin failed to stay above $78,500 and corrected gai… [+2222 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Bitcoin Fear & Greed Turns Neutral For First Time Since January",
+        "description": "Data shows fear has faded among Bitcoin traders as the Fear & Greed Index has improved to the neutral territory for the first time since January. Bitcoin Fear & Greed Index Has Surged To A Value Of 47 The “Fear & Greed Index” is an indicator created by Altern…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-fear-greed-turns-neutral-since-january/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/btc_98727f.png?fit=1228%2C819",
+        "publishedAt": "2026-04-28T02:00:02Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +433,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Oil-Bitcoin-Petrol-1.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-24T16:55:44Z",
         "content": "Bitcoin (BTC) stayed glued to $78,000 on Friday with markets awaiting clarity from the US-Iran war.\r\nKey points:\r\n<ul><li>Bitcoin stalls in its bid to recapture $80,000, as US stocks tread water.</li… [+2498 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price set for best gains since Q4 2024 with $77.5K monthly close",
-        "description": "Bitcoin price action has one more week to go until it potentially achieves its biggest month's gains since late 2024.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-set-for-best-gains-since-q4-2024-with-77-5k-monthly-close?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "urlToImage": null,
-        "publishedAt": "2026-04-24T11:51:45Z",
-        "content": "Cointelegraph is committed to providing independent, high-quality journalism across the crypto, blockchain, AI, and fintech industries.\r\n All news, reviews, and analyses are produced with full journa… [+116 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Will Ethereum Reach $250,000 Before Bitcoin? Here’s What Needs To Happen",
-        "description": "Etherealize, an institutional adoption and advocacy group backed by the Ethereum Foundation, has made a bold prediction, suggesting that ETH could one day reach $250,000 before Bitcoin (BTC). The group said that if Ethereum can capture a share of the combined…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-250000-before-bitcoin/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-bitcoin.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-24T11:30:42Z",
-        "content": "Etherealize, an institutional adoption and advocacy group backed by the Ethereum Foundation, has made a bold prediction, suggesting that ETH could one dayreach $250,000 before Bitcoin (BTC). The grou… [+3030 chars]"
       }
     ]
   }
