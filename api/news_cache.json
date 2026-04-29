@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-29T06:31:33.406Z",
+  "timestamp": "2026-04-29T09:14:57.678Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/cryptocurrency-bitcoin-stock-growth-chart-shows-strong-increase-price-bitcoin_372999-2130.jpg",
         "publishedAt": "2026-04-25T08:30:30Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Tether Moves To Freeze $344 Million In Crypto Amid US Probe",
-        "description": "A wave of crypto hacks hitting decentralized finance platforms in April has renewed an old argument: should stablecoin companies step in when stolen money passes through their systems? That question is now front and center again after Tether, the world’s larg…",
-        "url": "http://www.newsbtc.com/news/tether-moves-to-freeze-344-million-in-crypto-amid-us-probe/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/large-frozen-steel-vault-covered-in-ice-and-frost-.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-04-25T04:00:34Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
