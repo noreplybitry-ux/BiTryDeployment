@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-29T20:14:34.321Z",
+  "timestamp": "2026-04-29T22:04:35.690Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Ethereum Price To Rally 100% In 2026: Here’s Where It Will Start And End",
+        "description": "Ethereum’s long stretch of sideways movement may be closer to resolution than most market participants expect. A higher time frame analysis shared by a TradingView analyst suggests the current structure is the final stage before a larger expansion that sees t…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-to-rally-100/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-price.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-28T21:30:27Z",
+        "content": "Ethereums long stretch of sideways movement may be closer to resolution than most market participants expect. A higher time frame analysis shared by a TradingView analyst suggests the current structu… [+2901 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Robinhood stock shrugs off a 47% crash in crypto revenue thanks to a massive surge in event betting",
+        "description": "While the trading platform’s crypto revenue tanked 47% to $134 million, a record-breaking surge in prediction market bets helped push overall revenue up 15% to $1.07 billion.",
+        "url": "https://www.coindesk.com/markets/2026/04/28/robinhood-stock-shrugs-off-a-47-crash-in-crypto-revenue-thanks-to-a-massive-surge-in-event-betting",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/444f7a787b146a0e468e858e32f1f9d80f6c9c32-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-28T20:28:00Z",
+        "content": "Robinhood (HOOD) reported a sharp decline in crypto trading revenue for the first quarter of 2026, even as growth in other parts of its business pushed overall revenue higher. \r\nCrypto-related revenu… [+1613 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Robinhood Shares Slide on 34% Decrease in Crypto Revenue",
+        "description": "Retail brokerage Robinhood's business has gotten a boost from prediction markets, though its crypto trading revenue fell in Q1.",
+        "url": "https://decrypt.co/365876/robinhood-shares-slide-34-decrease-crypto-revenue",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-04-28T20:26:00Z",
+        "content": "Robinhood reported its smallest quarterly profit in a year on Tuesday, highlighting the retail brokerages lingering exposure to retail traders whose engagement has shown signs of cooling alongside a … [+2742 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b84cc03a0757fa4a135a5267f8d8f07b962c3105-1280x720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-26T14:13:42Z",
         "content": "The biggest traders on Hyperliquid have been building a long bitcoin BTC\r\n$78,115.85 position for two months, and the price chart is starting to break their way.\r\nGlassnode data shows whale positioni… [+1894 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Who Called Bitcoin’s Top Correctly Now Predicting The Bottom",
-        "description": "Bitcoin has spent April staging a recovery from its March lows, briefly climbing back above $79,000. However, not everyone is convinced of the rebound, and some analysts believe the move is only a mid-bear-market rally before a deeper correction.  One such an…",
-        "url": "http://www.newsbtc.com/news/bitcoin/analyst-who-called-bitcoins-top-correctly-now-predicting-the-bottom/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-26T14:00:54Z",
-        "content": "Bitcoin has spent April staging a recovery from its March lows, briefly climbing back above $79,000. However, not everyone is convinced of the rebound, and some analysts believe the move is only a mi… [+2611 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Market conditions force 1 in 3 crypto traders to cut everyday spending: Survey",
-        "description": "A CEX.IO survey finds 36% of US crypto traders cut everyday spending as Bitcoin remains 40% below its 2025 peak, highlighting growing household financial strain.",
-        "url": "https://cointelegraph.com/news/market-conditions-force-1-in-3-crypto-traders-to-cut-everyday-spending-survey",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20How%20To%20File%20Taxes%20As%20A%20Forex%20Trader.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-26T13:48:35Z",
-        "content": "The recent crypto market downturn has forced more than one in three crypto traders to cut everyday spending, according to a new survey by CEX.IO.\r\nThe survey, conducted among 1,100 US-based active CE… [+2570 chars]"
       }
     ]
   }
