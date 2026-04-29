@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-29T18:16:17.370Z",
+  "timestamp": "2026-04-29T20:14:34.321Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin Coinbase Premium turns negative as BTC price drops, weekly losses top $829M",
+        "description": "Bitcoin price followed weakening US spot market demand as the Coinbase Premium Index turned negative for the first time in three weeks.",
+        "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-flashes-red-in-three-weeks-as-weekly-losses-top-793m",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20JAPAN%20Basic%20knowledge%20for%20beginners%20in%20stock%20investment2.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-28T19:56:21Z",
+        "content": "Bitcoins (BTC) Coinbase Premium Index has turned negative at -0.008 for the first time in three weeks, signaling a sharp reduction in US spot market demand and aligning with BTC's current price drop.… [+2274 chars]"
+      },
       {
         "source": {
           "id": null,
