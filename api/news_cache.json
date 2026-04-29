@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-29T14:13:20.594Z",
+  "timestamp": "2026-04-29T16:46:29.851Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price hits one-week low as $100 oil sparks fresh Asia crisis fears",
+        "description": "Bitcoin price downside returned to send BTC to one-week lows thanks to renewed concerns over global oil supplies focused on the Strait of Hormuz blockade.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-hits-one-week-low-as-100-oil-sparks-fresh-asia-crisis-fears",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/325234.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-28T16:07:44Z",
+        "content": "Bitcoin (BTC) headed to weekly lows after Tuesdays Wall Street open as oil-supply woes panicked global markets.\r\nKey points:\r\n<ul><li>Bitcoin continues its come down from recent highs as new oil fear… [+2861 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin price drops below $76K as onchain data sends mixed signals",
+        "description": "Bitcoin price retreated to $76,000 as macroeconomic and geopolitical fears rose, while rising spot CVD shows buying pressure returning despite weakening network activity and fundamentals.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-to-76k-as-onchain-data-sends-mixed-signals",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Crypto%20Trading%20Basics%20-%20A%20beginner's%20guide%20to%20cryptocurrency%20Order%20types1-1.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-28T15:37:33Z",
+        "content": "Bitcoin (BTC) fell below $76,000 on Tuesday after failing to break $80,000 as uncertainties surrounding the reopening of the Strait of Hormuz and macroeconomic conditions unnerved the market. Meanwhi… [+4408 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Can Bitcoin hit $250K this year? Traders say it may be time to ‘sell in May’",
+        "description": "Veteran trader Peter Brandt and other analysts question the $250,000 Bitcoin target, warning the current bear phase may not be over.",
+        "url": "https://cointelegraph.com/markets/can-bitcoin-hit-250k-this-year-top-btc-chart-watchers-weigh",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Markets%20pro%20trading%20strategy%20Bitcoin.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-28T14:43:59Z",
+        "content": "Bitcoin (BTC) is trading roughly 40% below its October 2025 record high near $126,000 despite its ongoing recovery.\r\nBTC/USD daily chart. Source: TradingView\r\nStill, some of the cryptocurrency's loud… [+3289 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +446,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20How%20To%20File%20Taxes%20As%20A%20Forex%20Trader.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-26T13:48:35Z",
         "content": "The recent crypto market downturn has forced more than one in three crypto traders to cut everyday spending, according to a new survey by CEX.IO.\r\nThe survey, conducted among 1,100 US-based active CE… [+2570 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Stalls At $77K As Major On-Chain Resistance Kicks In – Details",
-        "description": "Bitcoin prices are consolidating around the $77,000 mark, following a net 2.12% in the last week. The maiden cryptocurrency has registered significant positive traction in April, rising from around $67,000 to its current price level in the last three weeks. H…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-stalls-at-77k-as-major-on-chain-resistance-kicks-in-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/cryptocurrency-bitcoin-golden-coin-background_1017-31505.jpg",
-        "publishedAt": "2026-04-26T06:00:02Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "The Ethereum Golden Triangle That Has Predicted Every Move Shows Where Price Is Headed",
-        "description": "A crypto analyst has identified a Golden Triangle, a rare structure that has been forming on the Ethereum (ETH) chart for almost nine years. According to the analyst, the Ethereum price has remained within this triangle during both bullish and bearish periods…",
-        "url": "http://www.newsbtc.com/altcoin/the-ethereum-golden-triangle-that-has-predicted-every-move-shows-where-price-is-headed/",
-        "urlToImage": null,
-        "publishedAt": "2026-04-26T04:00:25Z",
-        "content": "A crypto analyst has identified a Golden Triangle, a rare structure that has been forming on the Ethereum (ETH) chart for almost nine years. According to the analyst, the Ethereum price has remained … [+2870 chars]"
       }
     ]
   }
