@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-30T06:36:34.785Z",
+  "timestamp": "2026-04-30T09:20:20.073Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin Hash Ribbons Flash Buy Signal, But This Time Comes With A Warning",
+        "description": "Bitcoin’s Hash Ribbons indicator has flashed another buy signal, reviving a historically watched miner-capitulation setup. But according to crypto analyst Darkfost, the signal may require more caution this cycle as miner activity becomes increasingly exposed …",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-hash-ribbons-flash-buy-signal-but-warning/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ChatGPT-Image-29.-Apr.-2026-08_26_02.png?fit=1222%2C687",
+        "publishedAt": "2026-04-29T08:30:41Z",
+        "content": "Bitcoins Hash Ribbons indicator has flashed another buy signal, reviving a historically watched miner-capitulation setup. But according to crypto analyst Darkfost, the signal may require more caution… [+3942 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,58 +472,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Top-news-of-the-week-5.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-27T12:11:46Z",
         "content": "Bitcoin (BTC) counts down the final days of April with a fresh attack on $80,000 as price teases key breakouts.\r\n<ul><li>Bitcoin sees its first weekly close above a key trend line since October 2025.… [+8426 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin’s rally stalls below $80k: Check forecast",
-        "description": "TL;DR BTC briefly touched the $79k level during the late hours of Sunday. US-listed spot BTC ETFs recorded inflows of over $820 million last week, marking the fourth straight week of positive flows. Bitcoin (BTC) edges slightly lower on Monday, trading around…",
-        "url": "https://coinjournal.net/news/bitcoins-rally-stalls-below-80k-check-forecast/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/ChatGPT-Image-Apr-27-2026-12_04_15-PM.png",
-        "publishedAt": "2026-04-27T11:07:08Z",
-        "content": "TL;DR\r\n<ul><li>BTC briefly touched the $79k level during the late hours of Sunday.</li><li>US-listed spot BTC ETFs recorded inflows of over $820 million last week, marking the fourth straight week of… [+2718 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin leads $1.2B weekly inflows into crypto investment products",
-        "description": "Crypto ETPs see $1.2 billion inflows in fourth straight week as Bitcoin leads gains and blockchain equity ETFs hit record demand, CoinShares reported.",
-        "url": "https://cointelegraph.com/news/crypto-funds-1-2-billion-inflows-four-week-streak",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-10-top-inteprizes-that-became-involved-with-blockchain-ETF.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-27T10:58:36Z",
-        "content": "Cryptocurrency investment products continued their run of inflows last week as Bitcoin traded at its highest levels since early February.\r\nCrypto exchange-traded products (ETPs) recorded $1.2 billion… [+2342 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "EU’s largest measures against Russia yet include escalation of crypto sanctions evasion",
-        "description": "The European Union acknowledges Russia is increasingly reliant on cryptocurrency to circumvent the sanctions the Western nations have imposed against due to its war on Ukraine",
-        "url": "https://www.coindesk.com/policy/2026/04/27/eu-s-largest-measures-against-russia-yet-include-escalation-of-crypto-sanctions-evasion",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d81a5317fb779c1958e887b3b5fac0df3ce3bccd-5184x3456.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-27T10:42:48Z",
-        "content": "The European Union (EU) released its biggest package of sanctions in two years against Russia, describing the measures as far-reaching and restrictive. They specifically target crypto with a total ba… [+2239 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Edges Up, Traders Watch For Sustained Upside Move",
-        "description": "Solana started a fresh increase above the $86 zone. SOL price is now consolidating above $87 and might aim for more gains above the $90 zone. SOL price started a fresh upward move above the $85 and $86 levels against the US Dollar. The price is now trading ab…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-edges-up-90/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Edges-Up-Traders-Watch-For-Sustained-Upside-Move.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-27T05:18:58Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
