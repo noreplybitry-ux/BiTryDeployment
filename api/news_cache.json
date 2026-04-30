@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-30T18:14:45.800Z",
+  "timestamp": "2026-04-30T20:13:07.549Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 4/29: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, XMR",
+        "description": "Technical charts show $76,000 is the line in the sand for Bitcoin’s newfound bull trend and investors’ confidence in select altcoins.",
+        "url": "https://cointelegraph.com/markets/price-predictions-429-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-xmr",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/town%20analys%20analysis%20analitics.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-29T19:39:32Z",
+        "content": "Key points:\r\n<ul><li>Buyers are struggling to sustain the BTC rebound, suggesting bears are attempting a comeback.</li><li>Several major altcoins risk breaking below their support levels, signaling a… [+7875 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Bitcoin slips to $75k as Fed holds rates, crypto stocks tumble",
+        "description": "Bitcoin dropped to lows of $74,958 before stabilizing above $75,000. The decline also coincided with tighter liquidity in traditional equity markets. Crypto stocks fell sharply as short‑term volatility hit risk assets. Bitcoin price briefly slipped to below $…",
+        "url": "https://coinjournal.net/news/bitcoin-slips-to-75k-as-fed-holds-rates-crypto-stocks-tumble/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/bitcoin-price-decline-chart-red-market.png",
+        "publishedAt": "2026-04-29T19:12:29Z",
+        "content": "<ul><li>Bitcoin dropped to lows of $74,958 before stabilizing above $75,000.</li><li>The decline also coincided with tighter liquidity in traditional equity markets.</li><li>Crypto stocks fell sharpl… [+2868 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin falls as traders cut risk ahead of FOMC: Will TradFi, spot ETF volumes bolster $70K support?",
+        "description": "Bitcoin price volatility tends to spike before and after the FOMC, a pattern that is playing out this week. Will institutional investor BTC buying protect the $70,000 support?",
+        "url": "https://cointelegraph.com/markets/bitcoin-stalls-under-76k-as-traders-risk-off-ahead-of-fomc",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Bitget%20research%20article%20350%2C000%20Crypto%20Currency%20Traders%20in%20Japan%20BitGet%20Research.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-29T18:38:30Z",
+        "content": "Bitcoin (BTC) fell from its local high at $79,500 as traders repositioned ahead of the Federal Open Market Committee (FOMC) meeting on Wednesday.\r\nHistorical data shows that since the start of 2025, … [+3185 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,58 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8a8d9c574defe9ae9c3d4b51c716eeca823101c7-2130x1736.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-27T21:00:00Z",
         "content": "Bitcoins Sunday night rally stalled out near $79,400 and is beginning to show signs of fatigue, with several indicators pointing to potential short-term weakness as the price trades back around $77,0… [+1775 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 4/27: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA",
-        "description": "Bitcoin is stuck between $76,000 and $79,500, and several major altcoins are also showing signs of consolidation in the near term.",
-        "url": "https://cointelegraph.com/markets/price-predictions-427-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/analysis%20tesla.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-27T19:59:19Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin continues to face resistance near $79,500, but the trajectory remains up as long as the price holds above $76,000.</li><li>Most major altcoins are not showing any directi… [+7760 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "EU sanctions target Russian crypto exchanges, stablecoins and CBDC",
-        "description": "The European Commission announced a package of measures against Russia, focusing on the energy and finance sectors, as the country allegedly attempts to evade sanctions imposed as a result of its war on Ukraine.",
-        "url": "https://cointelegraph.com/news/eu-sanctions-russia-crypto-exchanges-stablecoins-cbdc",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20What%20do%20EU's%20new%20sanctions%20mean%20for%20Russian%20crypto%20users.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-27T18:41:21Z",
-        "content": "The European Commission announced a package of crypto-related sanctions against Russia in response to the countrys military actions against Ukraine.\r\nIn a Thursday notice, the commission said the san… [+1856 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price slips under $77K as bulls battle for new 'macro-bullish shift'",
-        "description": "Bitcoin bulls struggled to maintain gains as the bull market support band became a key reclaim level to flip the BTC price trend.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-slips-under-77k-as-bulls-battle-for-new-macro-bullish-shift",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/bull22.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-27T18:35:04Z",
-        "content": "Bitcoin (BTC) fell more than 2% on Monday as US-Iran war nerves again guided macro markets.\r\nKey points:\r\n<ul><li>Bitcoin gave back early-week gains as its downside extended toward 3% on Monday.</li>… [+2760 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Bitcoin pulls back to $76,600 as rising oil price and Iran risks stall the rally",
-        "description": "Short-term holder profit-taking is offsetting fresh demand from ETFs and Strategy, pointing to consolidation below $80,000, Bitfinex analysts said.",
-        "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-to-usd76-600-as-rising-oil-price-and-iran-risks-stall-the-rally",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2226f6b8d0697501e34614bf61a1ea94fccda406-1920x1344.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-27T17:17:25Z",
-        "content": "The bitcoin BTC\r\n$77,642.53 rally toward $80,000 didnt last long on Monday, with prices slipping back to $76,600 during the U.S. session as geopolitical tensions crept back into focus.\r\nAfter trading… [+2218 chars]"
       }
     ]
   }
