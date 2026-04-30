@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-04-29T22:04:35.690Z",
+  "timestamp": "2026-04-30T00:00:02.259Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin rally falters as AI industry weakens and CLARITY Act approval odds fall",
+        "description": "AI company revenues, high oil prices, the war in Iran and delays in the CLARITY Act negotiations are adding pressure to Bitcoin’s short-term decline.",
+        "url": "https://cointelegraph.com/markets/bitcoin-rally-falters-as-ai-industry-weakens-and-clarity-act-approval-odds-fall",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/twin%20peaks%20price%20falling%20down%20red%20AI.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-28T23:47:37Z",
+        "content": "Key takeaways:\r\n<ul><li>Stalled progress on the CLARITY Act and hiccups in AI industry revenue weighed heavily on Bitcoin traders sentiment.</li><li>Global instability and US economic concerns may ad… [+2665 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-Price-Retests-Support.jpg",
         "publishedAt": "2026-04-27T03:12:03Z",
         "content": "Bitcoin price started a fresh increase and cleared the $78,500 zone. BTC is consolidating and might aim for more gains above the $79,200 level.\r\n<ul><li>Bitcoin managed to stay above $76,000 and star… [+2225 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Bitcoin whales build long positions as funding stays deeply negative",
-        "description": "Long bias from the largest perpetual traders on Hyperliquid has built steadily through February, March and April, with the position now leaning aggressively long as bitcoin tags $80,000 and US-Iran talks resume.",
-        "url": "https://www.coindesk.com/markets/2026/04/26/bitcoin-whales-build-long-positions-as-funding-stays-deeply-negative",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b84cc03a0757fa4a135a5267f8d8f07b962c3105-1280x720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-26T14:13:42Z",
-        "content": "The biggest traders on Hyperliquid have been building a long bitcoin BTC\r\n$78,115.85 position for two months, and the price chart is starting to break their way.\r\nGlassnode data shows whale positioni… [+1894 chars]"
       }
     ]
   }
