@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-04-30T11:42:48.408Z",
+  "timestamp": "2026-04-30T14:10:59.948Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/71df673d351b791c3005560c1b5760411dece6dd-1500x922.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-27T15:44:00Z",
         "content": "The digital assets market entered the second quarter in consolidation mode, but Fidelity Digital Assets said underlying data points to early signs of stabilization beneath the surface.\r\nIn its Q2 202… [+2158 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "First 21-week trend line reclaim since October 2025: Five things to know in Bitcoin this week",
-        "description": "Bitcoin price action sealed its first weekly candle close above a 21-week moving average trend line since it traded near $115,000 in October 2025.",
-        "url": "https://cointelegraph.com/markets/first-21-week-trend-line-reclaim-since-october-2025-five-things-to-know-in-bitcoin-this-week",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Top-news-of-the-week-5.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-27T12:11:46Z",
-        "content": "Bitcoin (BTC) counts down the final days of April with a fresh attack on $80,000 as price teases key breakouts.\r\n<ul><li>Bitcoin sees its first weekly close above a key trend line since October 2025.… [+8426 chars]"
       }
     ]
   }
