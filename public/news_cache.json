@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-04-30T14:10:59.948Z",
+  "timestamp": "2026-04-30T16:25:07.021Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vince Dioquino",
+        "title": "Polymarket Eyes US Return for Crypto Exchange as Lone CFTC Chair Weighs Approval​​​​​​​​​​​​​​​​",
+        "description": "With four of five CFTC commissioner seats vacant, the decision on whether to lift Polymarket's U.S. ban rests with Chair Michael Selig alone.",
+        "url": "https://decrypt.co/365970/polymarket-eyes-us-return-for-crypto-exchange-as-lone-cftc-chair-weighs-approval",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-04-29T15:01:02Z",
+        "content": "In brief\r\n<ul><li>Polymarket has reportedly approached the CFTC to lift the four-year ban on its main on-chain exchange.</li><li>The agencys only sitting commissioner, Chair Michael Selig, is positio… [+4534 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "MoonPay buys crypto security firm Sodot in $100M push into institutional crypto",
+        "description": "MoonPay has acquired Israel-based crypto security infrastructure provider Sodot, forming the foundation of its new institutional unit led by former CFTC Acting Chair Caroline Pham.",
+        "url": "https://cointelegraph.com/news/moonpay-acquires-sodot-institutional-crypto-infrastructure",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/crypto-payment-.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-29T14:25:12Z",
+        "content": "Crypto payments platform MoonPay is launching an institutional unit after acquiring Sodot, an Israeli crypto security infrastructure provider.\r\nMoonPay on Wednesday announced the acquisition of Sodot… [+2526 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/gemini-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-04-27T16:56:47Z",
         "content": "In brief\r\n<ul><li>Gemini launched Agentic Trading, the first AI agent trading tool available directly through a regulated U.S.-based exchange.</li><li>Users can connect Claude, ChatGPT, and other AI … [+2531 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Fidelity Digital Assets says bitcoin is leading crypto market stabilization",
-        "description": "Despite muted prices to start the second quarter, the report said improving onchain metrics and network activity point to a market finding its footing.",
-        "url": "https://www.coindesk.com/markets/2026/04/27/fidelity-digital-assets-says-bitcoin-is-leading-crypto-market-stabilization",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/71df673d351b791c3005560c1b5760411dece6dd-1500x922.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-27T15:44:00Z",
-        "content": "The digital assets market entered the second quarter in consolidation mode, but Fidelity Digital Assets said underlying data points to early signs of stabilization beneath the surface.\r\nIn its Q2 202… [+2158 chars]"
       }
     ]
   }
