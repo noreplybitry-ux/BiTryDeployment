@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-04-30T03:58:21.468Z",
+  "timestamp": "2026-04-30T06:36:34.785Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Rubmar Garcia",
+        "title": "Bitcoin Faces ‘Most Critical Week In Months’ Amid $76,000 Retest – Should Investors Worry?",
+        "description": "As Bitcoin (BTC) retests a critical support level, analysts have warned that the leading cryptocurrency is facing its most important week in months, which could make or break its recovery rally. Related Reading: Bitcoin Set For $88,000? Analysts Forecast May …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-most-critical-week-76000-retest-worry/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/kanchanara-Lta5b8mPytw-unsplash.jpeg?fit=1920%2C1277",
+        "publishedAt": "2026-04-29T06:00:58Z",
+        "content": "As Bitcoin (BTC) retests a critical support level, analysts have warned that the leading cryptocurrency is facing its most important week in months, which could make or break its recovery rally.\r\nOn … [+3093 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Rebound Feels Exhausted—Are Sellers Taking Over Again?",
+        "description": "Solana failed to settle above $86 and corrected most gains. SOL price is now consolidating losses above $82 and might attempt another increase. SOL price started a fresh decline below $86 and $85 against the US Dollar. The price is now trading below $85 and t…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-rebound-85/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Rebound-Feels-Exhausted.jpg?fit=1024%2C559",
+        "publishedAt": "2026-04-29T05:08:24Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Robinhood dips as Q1 earnings miss and crypto revenue, volume fall nearly 50%",
+        "description": "Robinhood shares fell nearly 10% in after-hours trading after the company’s $1.07 billion in revenue missed industry expectations, in part due to a sharp decline in crypto revenue.",
+        "url": "https://cointelegraph.com/news/robinhoods-prediction-market-drives-q1-revenue-as-crypto-takes-a-back-seat",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Japan%20Robin%20hood%20join%20trading%20platform.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-29T04:22:36Z",
+        "content": "Online trading platform Robinhood fell 9.4% in after-hours trading after its Q1 revenue missed analyst estimates, while crypto revenue and trading volume fell nearly 50% from a year ago. \r\nRobinhoods… [+2272 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,32 +511,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Edges-Up-Traders-Watch-For-Sustained-Upside-Move.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-27T05:18:58Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Climbs Gradually, Can Bulls Break $2,400 Barrier?",
-        "description": "Ethereum price started a fresh increase and remained stable above $2,365. ETH is now consolidating and might aim for more gains if it clears $2,400. Ethereum started a steady increase above the $2,365 zone. The price is trading above $2,370 and the 100-hourly…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-climbs-2400/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Climbs.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-27T03:48:11Z",
-        "content": "Ethereum price started a fresh increase and remained stable above $2,365. ETH is now consolidating and might aim for more gains if it clears $2,400.\r\n<ul><li>Ethereum started a steady increase above … [+2157 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Advances Toward $80K, Upside Break Now In Focus",
-        "description": "Bitcoin price started a fresh increase and cleared the $78,500 zone. BTC is consolidating and might aim for more gains above the $79,200 level. Bitcoin managed to stay above $76,000 and started a fresh increase. The price is trading above $78,000 and the 100 …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-advances-80k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-Price-Retests-Support.jpg",
-        "publishedAt": "2026-04-27T03:12:03Z",
-        "content": "Bitcoin price started a fresh increase and cleared the $78,500 zone. BTC is consolidating and might aim for more gains above the $79,200 level.\r\n<ul><li>Bitcoin managed to stay above $76,000 and star… [+2225 chars]"
       }
     ]
   }
