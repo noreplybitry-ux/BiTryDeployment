@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-01T19:19:38.223Z",
+  "timestamp": "2026-05-01T20:59:39.298Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Crash Is Coming: Pundit Says It’s Time To Sell All Your BTC",
+        "description": "A crypto analyst is sounding the alarm about Bitcoin (BTC), warning investors to sell their coins before the next price crash. According to the market expert, Bitcoin could be preparing for another major correction, but this time, it’s in the $40,000 range. C…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-crash-is-coming/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-46.jpg?fit=1280%2C853",
+        "publishedAt": "2026-04-30T20:30:45Z",
+        "content": "A crypto analyst is sounding the alarm about Bitcoin (BTC), warning investors to sell their coins before the next price crash. According to the market expert, Bitcoin could be preparing for another m… [+2702 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "From Cathie Wood to Cantor Fitzgerald, the big money is betting that Robinhood’s crypto slump is just a temporary speed bump",
+        "description": "Cathie Wood’s Ark Invest snapped up over 500,000 shares of Robinhood on Wednesday, joining a wave of analysts who believe a surge in April trading activity will outweigh a recent earnings disappointment.",
+        "url": "https://www.coindesk.com/markets/2026/04/30/from-cathie-wood-to-cantor-fitzgerald-the-big-money-is-betting-that-robinhood-s-crypto-slump-is-just-a-temporary-speed-bump",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/04dcac29907c5f042fa5216cd5e76b91a57d6d03-1440x810.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-04-30T19:30:05Z",
+        "content": "Robinhood's (HOOD) nearly 12% drop since its big earnings miss is being waived off by some big investors and Wall Street analysts. \r\nThe popular trading platform missed its first-quarter earnings and… [+3508 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +394,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/325234.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-28T16:07:44Z",
         "content": "Bitcoin (BTC) headed to weekly lows after Tuesdays Wall Street open as oil-supply woes panicked global markets.\r\nKey points:\r\n<ul><li>Bitcoin continues its come down from recent highs as new oil fear… [+2861 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin price drops below $76K as onchain data sends mixed signals",
-        "description": "Bitcoin price retreated to $76,000 as macroeconomic and geopolitical fears rose, while rising spot CVD shows buying pressure returning despite weakening network activity and fundamentals.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-to-76k-as-onchain-data-sends-mixed-signals",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Crypto%20Trading%20Basics%20-%20A%20beginner's%20guide%20to%20cryptocurrency%20Order%20types1-1.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-28T15:37:33Z",
-        "content": "Bitcoin (BTC) fell below $76,000 on Tuesday after failing to break $80,000 as uncertainties surrounding the reopening of the Strait of Hormuz and macroeconomic conditions unnerved the market. Meanwhi… [+4408 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Can Bitcoin hit $250K this year? Traders say it may be time to ‘sell in May’",
-        "description": "Veteran trader Peter Brandt and other analysts question the $250,000 Bitcoin target, warning the current bear phase may not be over.",
-        "url": "https://cointelegraph.com/markets/can-bitcoin-hit-250k-this-year-top-btc-chart-watchers-weigh",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Markets%20pro%20trading%20strategy%20Bitcoin.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-28T14:43:59Z",
-        "content": "Bitcoin (BTC) is trading roughly 40% below its October 2025 record high near $126,000 despite its ongoing recovery.\r\nBTC/USD daily chart. Source: TradingView\r\nStill, some of the cryptocurrency's loud… [+3289 chars]"
       }
     ]
   }
