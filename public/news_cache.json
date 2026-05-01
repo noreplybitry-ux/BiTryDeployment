@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-01T04:05:24.616Z",
+  "timestamp": "2026-05-01T07:28:18.499Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Jumps Past $0.10, Bulls Eye Extended Upside Move",
+        "description": "Dogecoin started a fresh increase from the $0.0950 zone against the US Dollar. DOGE is now facing hurdles near $0.1075 and might aim for a larger rally. DOGE price started a decent upward move above $0.100 and $0.1050. The price is trading above the $0.1040 l…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-jumps-past-0-10/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Rally-Isnt-Fading-Yet.jpg?fit=1024%2C572",
+        "publishedAt": "2026-04-30T05:08:18Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Dogecoin-DOGE-Trends-Higher-Larger-Gains-Could-Be-Ahead.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-28T05:08:27Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Drops Below $2,350, Recovery Hopes Start To Fade",
-        "description": "Ethereum price started a fresh decline and traded below $2,350. ETH is now consolidating above $2,265 and might struggle to recover. Ethereum started a downside correction from the $2,400 zone. The price is trading below $2,350 and the 100-hourly Simple Movin…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-drops-below-2350/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Drops-Below-2350-Recovery-Hopes-Start-To-Fade.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-28T03:18:14Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,350. ETH is now consolidating above $2,265 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction from the $2,400 zo… [+2137 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Turns Lower After Rejection, Downside Pressure Builds",
-        "description": "Bitcoin price started a fresh decline from the $79,500 zone. BTC is consolidating and might struggle to stay above the $76,500 support. Bitcoin failed to stay above $78,500 and corrected gains. The price is trading below $78,000 and the 100 hourly simple movi…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-turns-lower-78500/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Turns-Lower-After-Rejection-Downside-Pressure-Builds.jpg",
-        "publishedAt": "2026-04-28T02:19:30Z",
-        "content": "Bitcoin price started a fresh decline from the $79,500 zone. BTC is consolidating and might struggle to stay above the $76,500 support.\r\n<ul><li>Bitcoin failed to stay above $78,500 and corrected gai… [+2222 chars]"
       }
     ]
   }
