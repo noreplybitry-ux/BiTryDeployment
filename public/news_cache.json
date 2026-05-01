@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-01T15:01:51.598Z",
+  "timestamp": "2026-05-01T17:03:07.867Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin Coinbase Premium threatens bear flag repeat with BTC price at $76K",
+        "description": "Bitcoin price action risked repeating January's breakdown despite April being poised to offer the best monthly BTC price gains in a year.",
+        "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-threatens-bear-flag-repeat-with-btc-price-at-76k",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/bear%20crypto%20market1.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-30T16:01:22Z",
+        "content": "Bitcoin (BTC) rebounded above $76,000 at Thursdays Wall Street open while traders stayed bearish on the short-term BTC price outlook.\r\nKey points:\r\n<ul><li>Bitcoin's Coinbase Premium Index flips nega… [+2290 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +394,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Markets%20pro%20trading%20strategy%20Bitcoin.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-28T14:43:59Z",
         "content": "Bitcoin (BTC) is trading roughly 40% below its October 2025 record high near $126,000 despite its ongoing recovery.\r\nBTC/USD daily chart. Source: TradingView\r\nStill, some of the cryptocurrency's loud… [+3289 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Here’s Why The Bitcoin And Ethereum Prices Have Been Rising And Falling Sharply",
-        "description": "Bitcoin and Ethereum have spent the past few weeks moving like assets caught between two powerful forces. On one side, institutional demand has returned through Spot ETFs, treasury purchases, and dip-buying from larger investors. On the other side, profit-tak…",
-        "url": "http://www.newsbtc.com/news/bitcoin-and-ethereum-prices-2/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Getty-Images-43.jpg?fit=612%2C408",
-        "publishedAt": "2026-04-28T14:00:51Z",
-        "content": "Bitcoin and Ethereum have spent the past few weeks moving like assets caught between two powerful forces. On one side, institutional demand has returned through Spot ETFs, treasury purchases, and dip… [+2904 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Is Ethereum safe above $2K? Traders are watching these ETH price levels",
-        "description": "Ethereum traders eye key ETH price support and resistance levels as onchain data reveals flipping $2,400 is key for Ether’s sustained recovery.",
-        "url": "https://cointelegraph.com/markets/is-ethereum-safe-above-2k-traders-are-watching-these-eth-price-levels",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/ETH%20cover%20April%2028.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-28T11:52:34Z",
-        "content": "Ether (ETH) analysts have mapped out key ETH price levels to watch over the next few weeks, with a focus on the $2,000 psychological level.\r\nKey takeaways:\r\n<ul><li>Dropping below the 200-day simple … [+2848 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Enters Pensions: Millions Of Colombian Workers To Get Access",
-        "description": "Young workers between 18 and 45 are the target audience for a new Bitcoin investment product quietly launched last month by Porvenir, the largest pension fund administrator in Colombia. Related Reading: XRP Signals Imminent Breakout — Is A 10% Rally Coming? T…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-enters-pensions-millions-of-colombian-workers-to-get-access/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_38a9b2.jpg?fit=5667%2C3542",
-        "publishedAt": "2026-04-28T11:30:04Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
