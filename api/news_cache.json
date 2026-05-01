@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-01T13:40:17.330Z",
+  "timestamp": "2026-05-01T15:01:51.598Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin analysts explain why BTC price can’t take out $80K",
+        "description": "A large overhead supply cluster, increased profit-taking activity and the resumption of spot Bitcoin ETF outflows are key factors keeping BTC price pinned below $80,000.",
+        "url": "https://cointelegraph.com/markets/heres-why-bitcoin-analysts-say-btc-price-cant-take-out-80k",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/BTC%20cover%20April%2030.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-30T14:02:12Z",
+        "content": "Bitcoin (BTC) rebounded 32% to a 10-week high of $79,500 on April 22 from its sub-60,000 multi-year low. But recent buyers took advantage of the rally to exit as the price has since corrected to $76,… [+3418 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/a_38a9b2.jpg?fit=5667%2C3542",
         "publishedAt": "2026-04-28T11:30:04Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Fidelity Is Cautiously Bullish on Crypto",
-        "description": "Fidelity says crypto may finally be finding its floor, while the White House is teasing a major strategic Bitcoin reserve update.",
-        "url": "https://decrypt.co/365776/morning-minute-fidelity-is-cautiously-bullish-on-crypto",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/fidelity-bitcoin-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-04-28T11:28:49Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7026 chars]"
       }
     ]
   }
