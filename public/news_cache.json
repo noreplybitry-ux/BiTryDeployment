@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-01T20:59:39.298Z",
+  "timestamp": "2026-05-01T22:00:27.431Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Stablecoins overtake Bitcoin in Latin America crypto purchases — Bitso",
+        "description": "A Bitso report shows shifting user behavior as dollar-linked stablecoins gain traction for everyday financial use across Latin America’s inflation-hit economies.",
+        "url": "https://cointelegraph.com/news/stablecoins-surpass-bitcoin-latin-america-crypto-purchases-bitso-report",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Latin-America-is-ready-for-crypto-%E2%80%94-just-integrate-it-with-their-payment-systems21.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-04-30T21:12:00Z",
+        "content": "Digital asset adoption in Latin America is evolving, with more users now converting funds into stablecoins than into Bitcoin a shift that reflects growing pressure from local economic conditions.\r\nAc… [+2986 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20JAPAN%20Basic%20knowledge%20for%20beginners%20in%20stock%20investment2.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-28T19:56:21Z",
         "content": "Bitcoins (BTC) Coinbase Premium Index has turned negative at -0.008 for the first time in three weeks, signaling a sharp reduction in US spot market demand and aligning with BTC's current price drop.… [+2274 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price hits one-week low as $100 oil sparks fresh Asia crisis fears",
-        "description": "Bitcoin price downside returned to send BTC to one-week lows thanks to renewed concerns over global oil supplies focused on the Strait of Hormuz blockade.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-hits-one-week-low-as-100-oil-sparks-fresh-asia-crisis-fears",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/325234.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-28T16:07:44Z",
-        "content": "Bitcoin (BTC) headed to weekly lows after Tuesdays Wall Street open as oil-supply woes panicked global markets.\r\nKey points:\r\n<ul><li>Bitcoin continues its come down from recent highs as new oil fear… [+2861 chars]"
       }
     ]
   }
