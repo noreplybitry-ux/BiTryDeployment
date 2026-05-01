@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-01T11:12:44.210Z",
+  "timestamp": "2026-05-01T13:40:17.330Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Industry Expert Samson Mow Reveals When The Bitcoin Price Will Hit $1M",
+        "description": "Samson Mow, the CEO of Jan3, a BTC-focused tech company, has made a bold call, predicting that the Bitcoin price could eventually explode to $1 million per coin. Mow’s ambitious price forecast adds to the growing list of $1 million Bitcoin price projections b…",
+        "url": "http://www.newsbtc.com/news/bitcoin/samson-mow-bitcoin-price-1m/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-1M.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-04-30T13:00:28Z",
+        "content": "Samson Mow, the CEO of Jan3, a BTC-focused tech company, has made a bold call, predicting that the Bitcoin price could eventually explode to $1 million per coin. Mows ambitious price forecast adds to… [+2664 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Calls Local Bitcoin Top, Reveals Why The Price Is Headed Below $60,000",
+        "description": "Crypto analyst Kaz has called the local Bitcoin top, stating that the leading crypto has little room to the upside. The analyst also explained why BTC is now likely to drop below the psychological $60,000 level, which would mark a new low for the crypto asset…",
+        "url": "http://www.newsbtc.com/news/bitcoin/analyst-local-bitcoin-top/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-9-1.jpg?fit=1280%2C853",
+        "publishedAt": "2026-04-30T11:30:47Z",
+        "content": "Crypto analyst Kaz has called the local Bitcoin top, stating that the leading crypto has little room to the upside. The analyst also explained why BTC is now likely to drop below the psychological $6… [+2385 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/fidelity-bitcoin-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-04-28T11:28:49Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7026 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETFs snap nine-day inflow run as BTC slips below $77K",
-        "description": "US spot Bitcoin ETFs saw $263 million in outflows, snapping a nine-day inflow streak as BTC fell below $77,000 and sentiment weakened across crypto markets.",
-        "url": "https://cointelegraph.com/news/bitcoin-etf-end-nine-day-inflow-streak-btc-77k",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-BTC-performance-in-10-years-compared-with-other-assets.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-28T10:09:48Z",
-        "content": "US-listed spot Bitcoin exchange-traded funds posted their first net outflows in nine sessions as BTC slipped below $77,000 on Monday.\r\nBitcoin ETFs saw $263 million in net outflows on Monday, marking… [+2265 chars]"
       }
     ]
   }
