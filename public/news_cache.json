@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-02T17:53:17.648Z",
+  "timestamp": "2026-05-02T19:09:16.476Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/1: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, XMR",
+        "description": "Technical charts suggest that Bitcoin’s rally continuation is fully dependent on bulls securing a weekly close above $75,000.",
+        "url": "https://cointelegraph.com/markets/price-predictions-51-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-xmr",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/analysys%20analitics%20graph%20graffiti.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-01T19:07:51Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin will have to flip the $80,000 level into support to continue its up move to $84,000.</li><li>Several major altcoins are finding buyers at lower levels, but they will have… [+7936 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin Renko Mari-Ashi Reveals Where The Bottom Lies And When The Rise Will Begin Again",
+        "description": "A crypto analyst has shared more insights into the Bitcoin (BTC) price action using a rare Japanese chart pattern called the Renko Mari-Ashi. The chart shows that the Bitcoin price has formed a Double Bottom and could be on the verge of a major breakout. Addi…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-renko-mari-ashi-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-bottom.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-05-01T19:00:26Z",
+        "content": "A crypto analyst has shared more insights into the Bitcoin (BTC) price action using a rare Japanese chart pattern called the Renko Mari-Ashi. The chart shows that the Bitcoin price has formed a Doubl… [+2793 chars]"
+      },
       {
         "source": {
           "id": null,
