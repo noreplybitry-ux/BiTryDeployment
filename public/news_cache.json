@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-02T14:54:36.316Z",
+  "timestamp": "2026-05-02T15:54:03.276Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Akash Girimath",
+        "title": "Ethereum ETFs Shed $184M Over 4-Day Negative Streak",
+        "description": "Outflows from Ethereum ETFs extended to a 4-day streak as Bitcoin funds shed $490 million, even as the S&P 500 hit an all-time high.",
+        "url": "https://decrypt.co/366343/ethereum-etfs-shed-184m-over-4-day-negative-streak",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/ethereum-decrypt-style-08-scaled-gID_7.jpeg",
+        "publishedAt": "2026-05-01T15:47:39Z",
+        "content": "In brief\r\n<ul><li>Ethereum ETFs posted $184 million in outflows over four straight days through April 30.</li><li>Bitcoin ETFs also shed $476 million over the same period, but saw a $14.76 million in… [+2431 chars]"
+      },
       {
         "source": {
           "id": null,
