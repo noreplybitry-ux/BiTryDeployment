@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-02T10:03:02.988Z",
+  "timestamp": "2026-05-02T11:51:18.671Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "CEO Behind $4.7 Billion Crash Banned From Crypto, But How Will This Work?",
+        "description": "Celsius founder Alexander Mashinsky, who was responsible for the $4.7 billion 2022 crypto crash, has been banned from crypto. This forms part of a $10 million settlement with the Federal Trade Commission (FTC) while the crypto founder continues to serve a 12-…",
+        "url": "http://www.newsbtc.com/news/crash-banned-from-crypto/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Cryptocurrency-from-iStock-3.jpg?fit=612%2C409",
+        "publishedAt": "2026-05-01T11:30:24Z",
+        "content": "Celsius founder Alexander Mashinsky, who was responsible for the $4.7 billion 2022 crypto crash, has been banned from crypto. This forms part of a $10 million settlement with the Federal Trade Commis… [+2657 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
+        "description": "The Tokyo-based broker is betting big on crypto with plans in Singapore and a Visa partnership for bank cards that allows users to accumulate digital assets.",
+        "url": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/25090ff126224815eb4859930f8912dbba7ec186-7952x5304.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-01T11:11:32Z",
+        "content": "Japanese financial conglomerate SBI Holdings plans to acquire a stake in Bitbank, one of the countrys largest crypto exchanges.\r\nThe Tokyo-based broker submitted a letter of intent to Bitbank Co., Lt… [+1283 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ChatGPT-Image-29.-Apr.-2026-08_26_02.png?fit=1222%2C687",
         "publishedAt": "2026-04-29T08:30:41Z",
         "content": "Bitcoins Hash Ribbons indicator has flashed another buy signal, reviving a historically watched miner-capitulation setup. But according to crypto analyst Darkfost, the signal may require more caution… [+3942 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Rubmar Garcia",
-        "title": "Bitcoin Faces ‘Most Critical Week In Months’ Amid $76,000 Retest – Should Investors Worry?",
-        "description": "As Bitcoin (BTC) retests a critical support level, analysts have warned that the leading cryptocurrency is facing its most important week in months, which could make or break its recovery rally. Related Reading: Bitcoin Set For $88,000? Analysts Forecast May …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-most-critical-week-76000-retest-worry/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/kanchanara-Lta5b8mPytw-unsplash.jpeg?fit=1920%2C1277",
-        "publishedAt": "2026-04-29T06:00:58Z",
-        "content": "As Bitcoin (BTC) retests a critical support level, analysts have warned that the leading cryptocurrency is facing its most important week in months, which could make or break its recovery rally.\r\nOn … [+3093 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Rebound Feels Exhausted—Are Sellers Taking Over Again?",
-        "description": "Solana failed to settle above $86 and corrected most gains. SOL price is now consolidating losses above $82 and might attempt another increase. SOL price started a fresh decline below $86 and $85 against the US Dollar. The price is now trading below $85 and t…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-rebound-85/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Rebound-Feels-Exhausted.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-29T05:08:24Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
