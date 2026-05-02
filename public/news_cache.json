@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-02T03:28:22.153Z",
+  "timestamp": "2026-05-02T06:12:02.424Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Rebounds Again, Buyers Target Next Upside Leg",
+        "description": "Solana found support at $81.40 and corrected some losses. SOL price is now consolidating above $83.50 and might aim for a steady increase. SOL price started a decent recovery wave above $82 and $83.50 against the US Dollar. The price is now trading near $84 a…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-rebounds-again-85/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Rebounds-Again.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-01T05:08:44Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Dips-Under-76500-Sellers-Push-For-Deeper-Pullback.jpg",
         "publishedAt": "2026-04-29T02:44:42Z",
         "content": "Bitcoin price started a fresh decline below the $78,500 zone. BTC is consolidating and might struggle to stay above the $75,500 support.\r\n<ul><li>Bitcoin failed to stay above $77,500 and corrected ga… [+2219 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin rally falters as AI industry weakens and CLARITY Act approval odds fall",
-        "description": "AI company revenues, high oil prices, the war in Iran and delays in the CLARITY Act negotiations are adding pressure to Bitcoin’s short-term decline.",
-        "url": "https://cointelegraph.com/markets/bitcoin-rally-falters-as-ai-industry-weakens-and-clarity-act-approval-odds-fall",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/twin%20peaks%20price%20falling%20down%20red%20AI.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-28T23:47:37Z",
-        "content": "Key takeaways:\r\n<ul><li>Stalled progress on the CLARITY Act and hiccups in AI industry revenue weighed heavily on Bitcoin traders sentiment.</li><li>Global instability and US economic concerns may ad… [+2665 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Ethereum Price To Rally 100% In 2026: Here’s Where It Will Start And End",
-        "description": "Ethereum’s long stretch of sideways movement may be closer to resolution than most market participants expect. A higher time frame analysis shared by a TradingView analyst suggests the current structure is the final stage before a larger expansion that sees t…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-to-rally-100/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-price.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-28T21:30:27Z",
-        "content": "Ethereums long stretch of sideways movement may be closer to resolution than most market participants expect. A higher time frame analysis shared by a TradingView analyst suggests the current structu… [+2901 chars]"
       }
     ]
   }
