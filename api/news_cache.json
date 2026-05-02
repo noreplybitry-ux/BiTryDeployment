@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-02T08:23:52.784Z",
+  "timestamp": "2026-05-02T10:03:02.988Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "SBI eyes Bitbank deal as Japan’s crypto exchange market consolidates",
+        "description": "SBI Holdings is in discussions to make Bitbank a subsidiary, adding to its push to acquire crypto exchanges amid improving regulatory clarity in Japan.",
+        "url": "https://cointelegraph.com/news/sbi-seeks-to-make-bitbank-a-subsidiary-in-japan-crypto-consolidation-push",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Kucoin%20and%20ACRS-2.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-01T09:39:34Z",
+        "content": "Tokyo-based SBI Holdings has opened talks to acquire shares in cryptocurrency exchange Bitbank and make it a consolidated subsidiary, extending its push to consolidate regulated crypto trading platfo… [+3259 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Solana-SOL-Rebound-Feels-Exhausted.jpg?fit=1024%2C559",
         "publishedAt": "2026-04-29T05:08:24Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "Robinhood dips as Q1 earnings miss and crypto revenue, volume fall nearly 50%",
-        "description": "Robinhood shares fell nearly 10% in after-hours trading after the company’s $1.07 billion in revenue missed industry expectations, in part due to a sharp decline in crypto revenue.",
-        "url": "https://cointelegraph.com/news/robinhoods-prediction-market-drives-q1-revenue-as-crypto-takes-a-back-seat",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Japan%20Robin%20hood%20join%20trading%20platform.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-29T04:22:36Z",
-        "content": "Online trading platform Robinhood fell 9.4% in after-hours trading after its Q1 revenue missed analyst estimates, while crypto revenue and trading volume fell nearly 50% from a year ago. \r\nRobinhoods… [+2272 chars]"
       }
     ]
   }
