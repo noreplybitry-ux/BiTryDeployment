@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-02T06:12:02.424Z",
+  "timestamp": "2026-05-02T08:23:52.784Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,32 +355,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Japan%20Robin%20hood%20join%20trading%20platform.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-29T04:22:36Z",
         "content": "Online trading platform Robinhood fell 9.4% in after-hours trading after its Q1 revenue missed analyst estimates, while crypto revenue and trading volume fell nearly 50% from a year ago. \r\nRobinhoods… [+2272 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Pulls Back To $2,250, Traders Watch For Reaction",
-        "description": "Ethereum price started a fresh decline and traded below $2,300. ETH is now consolidating above $2,250 and might struggle to recover. Ethereum started a downside correction below the $2,320 zone. The price is trading below $2,320 and the 100-hourly Simple Movi…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-pulls-back-to-2250/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Pulls-Back-To-2250.jpg?fit=1024%2C559",
-        "publishedAt": "2026-04-29T03:18:24Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,300. ETH is now consolidating above $2,250 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction below the $2,320 z… [+2138 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Dips Under $76,500, Sellers Push For Deeper Pullback",
-        "description": "Bitcoin price started a fresh decline below the $78,500 zone. BTC is consolidating and might struggle to stay above the $75,500 support. Bitcoin failed to stay above $77,500 and corrected gains. The price is trading below $77,000 and the 100 hourly simple mov…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-dips-under-76500/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Dips-Under-76500-Sellers-Push-For-Deeper-Pullback.jpg",
-        "publishedAt": "2026-04-29T02:44:42Z",
-        "content": "Bitcoin price started a fresh decline below the $78,500 zone. BTC is consolidating and might struggle to stay above the $75,500 support.\r\n<ul><li>Bitcoin failed to stay above $77,500 and corrected ga… [+2219 chars]"
       }
     ]
   }
