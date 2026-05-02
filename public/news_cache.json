@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-01T23:01:29.203Z",
+  "timestamp": "2026-05-02T03:28:22.153Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Holds Losses Under $2,300, Recovery Momentum Still Weak",
+        "description": "Ethereum price started a fresh decline and traded below $2,250. ETH is now consolidating above $2,220 and might struggle to recover. Ethereum started a downside correction below the $2,265 zone. The price is trading below $2,280 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-holds-losses-2220/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Holds-Losses-Under-2300.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-01T03:18:23Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,250. ETH is now consolidating above $2,220 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction below the $2,265 z… [+2139 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Recovery Near Resistance, Breakout Or Rejection Next?",
+        "description": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $76,750 resistance zone. Bitcoin managed to form a base above $75,000 and started a recovery wave. The price is trading below $77,…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-near-resistance-77k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Recovery-Near-Resistance.jpg",
+        "publishedAt": "2026-05-01T02:59:41Z",
+        "content": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $76,750 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2192 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Spot Bitcoin ETF outflows top $490M: Is BTC’s rally losing momentum?",
+        "description": "Spot Bitcoin ETF outflows reached $490 million as crypto investors considered the impact of high oil prices, Big Tech earnings and a shortfall in AI industry growth metrics.",
+        "url": "https://cointelegraph.com/markets/spot-bitcoin-etf-outflows-top-490m-is-btcs-rally-losing-momentum",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20What%20are%20inflows%20and%20outflows%20on%20crypto%20exchanges%20bitcoin.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-01T02:15:18Z",
+        "content": "Key takeaways:\r\n<ul><li>Spot Bitcoin ETFs saw $490 million in net outflows over three days, signaling a recent dip in institutional demand.</li><li>Rising inflation is eroding real yields on fixed in… [+2944 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-price.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-04-28T21:30:27Z",
         "content": "Ethereums long stretch of sideways movement may be closer to resolution than most market participants expect. A higher time frame analysis shared by a TradingView analyst suggests the current structu… [+2901 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Robinhood stock shrugs off a 47% crash in crypto revenue thanks to a massive surge in event betting",
-        "description": "While the trading platform’s crypto revenue tanked 47% to $134 million, a record-breaking surge in prediction market bets helped push overall revenue up 15% to $1.07 billion.",
-        "url": "https://www.coindesk.com/markets/2026/04/28/robinhood-stock-shrugs-off-a-47-crash-in-crypto-revenue-thanks-to-a-massive-surge-in-event-betting",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/444f7a787b146a0e468e858e32f1f9d80f6c9c32-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-28T20:28:00Z",
-        "content": "Robinhood (HOOD) reported a sharp decline in crypto trading revenue for the first quarter of 2026, even as growth in other parts of its business pushed overall revenue higher. \r\nCrypto-related revenu… [+1613 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Robinhood Shares Slide on 34% Decrease in Crypto Revenue",
-        "description": "Retail brokerage Robinhood's business has gotten a boost from prediction markets, though its crypto trading revenue fell in Q1.",
-        "url": "https://decrypt.co/365876/robinhood-shares-slide-34-decrease-crypto-revenue",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-04-28T20:26:00Z",
-        "content": "Robinhood reported its smallest quarterly profit in a year on Tuesday, highlighting the retail brokerages lingering exposure to retail traders whose engagement has shown signs of cooling alongside a … [+2742 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin Coinbase Premium turns negative as BTC price drops, weekly losses top $829M",
-        "description": "Bitcoin price followed weakening US spot market demand as the Coinbase Premium Index turned negative for the first time in three weeks.",
-        "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-flashes-red-in-three-weeks-as-weekly-losses-top-793m",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20JAPAN%20Basic%20knowledge%20for%20beginners%20in%20stock%20investment2.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-28T19:56:21Z",
-        "content": "Bitcoins (BTC) Coinbase Premium Index has turned negative at -0.008 for the first time in three weeks, signaling a sharp reduction in US spot market demand and aligning with BTC's current price drop.… [+2274 chars]"
       }
     ]
   }
