@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-02T13:24:31.000Z",
+  "timestamp": "2026-05-02T14:54:36.316Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Crypto VC funding plunges to $659M in April, hits near two-year low",
+        "description": "Crypto VC funding plunged to a low last seen in July 2024,  signaling a capital contraction for early-stage cryptocurrency companies seeking investment.",
+        "url": "https://cointelegraph.com/news/crypto-vc-funding-plunges-to-659m-in-april-to-2024-lows",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20What%20are%20funding%20rates%20in%20crypto%20markets-1.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-01T13:53:26Z",
+        "content": "Crypto venture capitalist (VC) funding plunged to a near two-year low in April as investors pulled back from crypto start-ups and early-stage companies.\r\nCrypto VC funding fell to $659 million across… [+2138 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/crypto-payment-.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-29T14:25:12Z",
         "content": "Crypto payments platform MoonPay is launching an institutional unit after acquiring Sodot, an Israeli crypto security infrastructure provider.\r\nMoonPay on Wednesday announced the acquisition of Sodot… [+2526 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Hash Ribbons Flash Buy Signal, But This Time Comes With A Warning",
-        "description": "Bitcoin’s Hash Ribbons indicator has flashed another buy signal, reviving a historically watched miner-capitulation setup. But according to crypto analyst Darkfost, the signal may require more caution this cycle as miner activity becomes increasingly exposed …",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-hash-ribbons-flash-buy-signal-but-warning/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ChatGPT-Image-29.-Apr.-2026-08_26_02.png?fit=1222%2C687",
-        "publishedAt": "2026-04-29T08:30:41Z",
-        "content": "Bitcoins Hash Ribbons indicator has flashed another buy signal, reviving a historically watched miner-capitulation setup. But according to crypto analyst Darkfost, the signal may require more caution… [+3942 chars]"
       }
     ]
   }
