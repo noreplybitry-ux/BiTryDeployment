@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-03T15:54:13.715Z",
+  "timestamp": "2026-05-03T16:58:16.208Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
+        "description": "The ban applies to fintechs and payment firms, closing the back-end payment rail for cross-border flows, but individual crypto investors can still buy and hold assets.",
+        "url": "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a010b6e8d5d9fab88360e6939414f5b12c6bf695-1920x1272.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-02T16:56:08Z",
+        "content": "Brazil's central bank has banned electronic foreign exchange (eFX) providers from using stablecoins, bitcoin or other cryptocurrencies to settle overseas remittances.\r\nBCB Resolution No. 561, publish… [+2431 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/bitcoin-price-decline-chart-red-market.png",
         "publishedAt": "2026-04-29T19:12:29Z",
         "content": "<ul><li>Bitcoin dropped to lows of $74,958 before stabilizing above $75,000.</li><li>The decline also coincided with tighter liquidity in traditional equity markets.</li><li>Crypto stocks fell sharpl… [+2868 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin falls as traders cut risk ahead of FOMC: Will TradFi, spot ETF volumes bolster $70K support?",
-        "description": "Bitcoin price volatility tends to spike before and after the FOMC, a pattern that is playing out this week. Will institutional investor BTC buying protect the $70,000 support?",
-        "url": "https://cointelegraph.com/markets/bitcoin-stalls-under-76k-as-traders-risk-off-ahead-of-fomc",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Bitget%20research%20article%20350%2C000%20Crypto%20Currency%20Traders%20in%20Japan%20BitGet%20Research.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-29T18:38:30Z",
-        "content": "Bitcoin (BTC) fell from its local high at $79,500 as traders repositioned ahead of the Federal Open Market Committee (FOMC) meeting on Wednesday.\r\nHistorical data shows that since the start of 2025, … [+3185 chars]"
       }
     ]
   }
