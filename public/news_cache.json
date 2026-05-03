@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-02T23:53:08.586Z",
+  "timestamp": "2026-05-03T03:49:12.247Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Bitcoin DATs Capitulate—Could This Rare Signal Mark A Bottom?",
+        "description": "Data shows the Bitcoin treasury companies have shown an inflection recently, something that has turned out to be bullish in the past. Last Two Bitcoin Treasury Capitulation Inflections Led To Bullish Action In a new post on X, Capriole Investments founder Cha…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-dats-capitulate-rare-signal-a-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/btc.png?fit=1382%2C921",
+        "publishedAt": "2026-05-02T03:00:33Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
