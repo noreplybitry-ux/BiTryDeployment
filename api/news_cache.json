@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-03T14:54:09.099Z",
+  "timestamp": "2026-05-03T15:54:13.715Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Apparent Demand Remains Weak — What This Says About Price Recovery",
+        "description": "The Bitcoin price had quite an interesting performance over the past week, cruising to a new high above the $79,000 high early on before crashing to as low as $75,500 on the last day of April. However, the premier cryptocurrency has had a somewhat bright star…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-apparent-demand-remains-weak/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-1305092068.jpg?fit=1322%2C793",
+        "publishedAt": "2026-05-02T15:00:43Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
