@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-03T06:31:33.014Z",
+  "timestamp": "2026-05-03T08:51:07.054Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Bitget%20research%20article%20350%2C000%20Crypto%20Currency%20Traders%20in%20Japan%20BitGet%20Research.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-29T18:38:30Z",
         "content": "Bitcoin (BTC) fell from its local high at $79,500 as traders repositioned ahead of the Federal Open Market Committee (FOMC) meeting on Wednesday.\r\nHistorical data shows that since the start of 2025, … [+3185 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vince Dioquino",
-        "title": "Polymarket Eyes US Return for Crypto Exchange as Lone CFTC Chair Weighs Approval​​​​​​​​​​​​​​​​",
-        "description": "With four of five CFTC commissioner seats vacant, the decision on whether to lift Polymarket's U.S. ban rests with Chair Michael Selig alone.",
-        "url": "https://decrypt.co/365970/polymarket-eyes-us-return-for-crypto-exchange-as-lone-cftc-chair-weighs-approval",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-04-29T15:01:02Z",
-        "content": "In brief\r\n<ul><li>Polymarket has reportedly approached the CFTC to lift the four-year ban on its main on-chain exchange.</li><li>The agencys only sitting commissioner, Chair Michael Selig, is positio… [+4534 chars]"
       }
     ]
   }
