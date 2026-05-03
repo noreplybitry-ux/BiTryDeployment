@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-03T17:54:53.015Z",
+  "timestamp": "2026-05-03T19:08:40.149Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Price Yet To Bottom Based On MVRV Bands — $43K Still Possible?",
+        "description": "The Bitcoin price enjoyed a modest recovery on Friday, the start of May. Alongside its technically bullish structure, this auspicious beginning tells a story about Bitcoin’s chances of performing impressively in the coming weeks. Yet, the flagship cryptocurre…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-yet-to-bottom-based-on-mvrv-bands/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/01/iStock-502544320.jpeg?fit=1254%2C836",
+        "publishedAt": "2026-05-02T18:00:27Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/town%20analys%20analysis%20analitics.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-29T19:39:32Z",
         "content": "Key points:\r\n<ul><li>Buyers are struggling to sustain the BTC rebound, suggesting bears are attempting a comeback.</li><li>Several major altcoins risk breaking below their support levels, signaling a… [+7875 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Bitcoin slips to $75k as Fed holds rates, crypto stocks tumble",
-        "description": "Bitcoin dropped to lows of $74,958 before stabilizing above $75,000. The decline also coincided with tighter liquidity in traditional equity markets. Crypto stocks fell sharply as short‑term volatility hit risk assets. Bitcoin price briefly slipped to below $…",
-        "url": "https://coinjournal.net/news/bitcoin-slips-to-75k-as-fed-holds-rates-crypto-stocks-tumble/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/bitcoin-price-decline-chart-red-market.png",
-        "publishedAt": "2026-04-29T19:12:29Z",
-        "content": "<ul><li>Bitcoin dropped to lows of $74,958 before stabilizing above $75,000.</li><li>The decline also coincided with tighter liquidity in traditional equity markets.</li><li>Crypto stocks fell sharpl… [+2868 chars]"
       }
     ]
   }
