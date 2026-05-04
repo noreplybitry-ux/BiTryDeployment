@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-04T16:52:16.536Z",
+  "timestamp": "2026-05-04T18:19:49.298Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin At A Transitional Phase? Bull Score Index Signals Uncertain Momentum",
+        "description": "The Bitcoin market appears to be at a critical phase, as evidenced by data from a recent on-chain evaluation. According to this latest analysis, the Bitcoin price shows few signs of a clear directional trend, with uncertainty as the prevailing structure. Rela…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-at-a-transitional-phase-bull-score-index-signals-uncertain-momentum/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/istockphoto-1317452510-612x612-1.jpg?fit=900%2C563",
+        "publishedAt": "2026-05-03T18:00:05Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Weakness-Grows-Traders-Brace-For-Further-Downside.jpg",
         "publishedAt": "2026-04-30T02:31:25Z",
         "content": "Bitcoin price started a fresh decline below the $76,500 zone. BTC is consolidating and might struggle to stay above the $75,000 support.\r\n<ul><li>Bitcoin failed to stay above $76,500 and extended los… [+2196 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Why The Bitcoin Price Could Hit $68,000 Again",
-        "description": "The Bitcoin price is currently sitting on a key support trendline that could determine its next major move. According to a crypto analyst, a breakout from this level could lead to two possible scenarios. On the bullish side, the cryptocurrency could extend it…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-could-hit-68000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-30T00:00:31Z",
-        "content": "The Bitcoin price is currently sitting on a key support trendline that could determine its next major move. According to a crypto analyst, a breakout from this level could lead to two possible scenar… [+2658 chars]"
       }
     ]
   }
