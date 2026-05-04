@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-04T09:26:26.552Z",
+  "timestamp": "2026-05-04T11:54:58.420Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "Iran’s largest crypto exchange founded by sons of family tied to supreme leaders: Reuters",
+        "description": "Nobitex’s founders are linked to an influential Iranian family tied to supreme leaders, as the exchange continues processing billions amid sanctions and war.",
+        "url": "https://cointelegraph.com/news/irans-largest-crypto-exchange-founded-by-sons-of-family-tied-to-supreme-leaders-reuters",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Crypto-market-trading-1323.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-03T11:12:56Z",
+        "content": "Nobitex, Irans biggest crypto exchange, was founded by two brothers from one of the Islamic Republics most influential families with ties to the supreme leaders, according to a Reuters investigation.… [+2929 chars]"
+      },
       {
         "source": {
           "id": null,
