@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-05T20:12:28.334Z",
+  "timestamp": "2026-05-05T22:05:14.785Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "GameStop's $55.5 billion eBay takeover bid puts its $368 million bitcoin stash in the crosshairs",
+        "description": "The video game retailer’s proposed acquisition plan revives question on whether its $368 million bitcoin stash could be sold to fund the expansion.",
+        "url": "https://www.coindesk.com/business/2026/05/04/gamestop-s-usd55-5-billion-ebay-takeover-bid-puts-its-usd368-million-bitcoin-stash-in-the-crosshairs",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6b8b930143b2c3841a702edb24488a36b869083c-3934x2213.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-04T20:16:04Z",
+        "content": "GameStop (GME) is aiming for a major expansion with a proposed $55.5 billion acquisition of online marketplace eBay (EBAY), raising fresh questions about whether its bitcoin BTC\r\n$80,322.05 holdings … [+1964 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Rebounds-Again.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-01T05:08:44Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Holds Losses Under $2,300, Recovery Momentum Still Weak",
-        "description": "Ethereum price started a fresh decline and traded below $2,250. ETH is now consolidating above $2,220 and might struggle to recover. Ethereum started a downside correction below the $2,265 zone. The price is trading below $2,280 and the 100-hourly Simple Movi…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-holds-losses-2220/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Holds-Losses-Under-2300.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-01T03:18:23Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,250. ETH is now consolidating above $2,220 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction below the $2,265 z… [+2139 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Recovery Near Resistance, Breakout Or Rejection Next?",
-        "description": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $76,750 resistance zone. Bitcoin managed to form a base above $75,000 and started a recovery wave. The price is trading below $77,…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-near-resistance-77k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Recovery-Near-Resistance.jpg",
-        "publishedAt": "2026-05-01T02:59:41Z",
-        "content": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $76,750 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2192 chars]"
       }
     ]
   }
