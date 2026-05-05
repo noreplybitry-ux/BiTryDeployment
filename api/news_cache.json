@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-05T06:22:54.421Z",
+  "timestamp": "2026-05-05T09:11:09.336Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ChatGPT-Image-30.-Apr.-2026-09_40_48.png?fit=1672%2C941",
         "publishedAt": "2026-04-30T08:00:33Z",
         "content": "Fidelity Digital Assets says Bitcoins latest drawdown has pushed the market into a zone that has historically aligned with accumulation phases, even as its momentum signal remains negative and broade… [+4118 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Jumps Past $0.10, Bulls Eye Extended Upside Move",
-        "description": "Dogecoin started a fresh increase from the $0.0950 zone against the US Dollar. DOGE is now facing hurdles near $0.1075 and might aim for a larger rally. DOGE price started a decent upward move above $0.100 and $0.1050. The price is trading above the $0.1040 l…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-jumps-past-0-10/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Rally-Isnt-Fading-Yet.jpg?fit=1024%2C572",
-        "publishedAt": "2026-04-30T05:08:18Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
