@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-05-05T11:20:01.643Z",
+  "timestamp": "2026-05-05T16:45:35.291Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin Price Expansion To $97,000 Is Only Being Blocked By One Pesky Retest",
+        "description": "The latest Bitcoin move has brought bulls back into control of the short-term chart, but the setup is not as straightforward as a clean breakout into higher prices. The 4-hour structure shows momentum building, trendline support holding, and buyers pushing th…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-expansion-97000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-price.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-05-04T15:00:17Z",
+        "content": "The latest Bitcoin move has brought bulls back into control of the short-term chart, but the setup is not as straightforward as a clean breakout into higher prices. The 4-hour structure shows momentu… [+2783 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Bitcoin price eyes $96K as institutions absorb 500% of daily BTC supply",
+        "description": "BTC tends to gain around 24% in the month after institutional demand absorbs more than 500% of the daily mined supply, signaling strong upside potential.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-96k-as-institutions-absorb-500-of-daily-btc-supply",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/B-man-growth-falling32-1.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-04T13:21:59Z",
+        "content": "Bitcoin (BTC) may rally toward $96,000 by June as institutions absorb more than five times the daily mined BTC supply, according to Capriole Investments founder Charles Edwards.\r\nBTC price averages 2… [+2704 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Bitcoin Clears $80K, Reverses on Iran Missile Strike",
+        "description": "Bitcoin rallied above $80,000 overnight before selling off on reports of a U.S. warship struck by Iranian missiles. Plus, Clarity Act odds spiked after a new compromise on stablecoin yield.",
+        "url": "https://decrypt.co/366623/morning-minute-bitcoin-clears-80k-reverses-iran-missile-strike",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
+        "publishedAt": "2026-05-04T13:19:36Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7821 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea crypto sector warns AML proposal goes too far: Report",
+        "description": "Crypto industry body DAXA said the proposed rules could push suspicious transaction reports from South Korea’s five largest exchanges to more than 5.4 million a year, Yonhap reported.",
+        "url": "https://cointelegraph.com/news/south-koreas-crypto-exchanges-push-bank-on-10m-won-reporting-rule-report",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Crypto-on-corporate-balance-sheets-What%E2%80%99s-the-risk-and-reward-1.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-04T12:31:47Z",
+        "content": "South Koreas crypto industry has reportedly warned that proposed Anti-Money Laundering (AML) rule changes could create operational confusion by forcing virtual asset service providers (VASPs) to repo… [+2965 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "This Signal Has Predicted Every Bitcoin Bottom, Here’s What It’s Saying Now",
+        "description": "Crypto analyst Tice has pointed to a signal that has predicted every Bitcoin bottom in each bear cycle. Based on this, the analyst suggested that the flagship crypto may again be forming a bottom just as the price looks to break above the psychological $80,00…",
+        "url": "http://www.newsbtc.com/news/bitcoin/every-bitcoin-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-133.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-04T12:00:31Z",
+        "content": "Crypto analyst Tice has pointed to a signal that has predicted every Bitcoin bottom in each bear cycle. Based on this, the analyst suggested that the flagship crypto may again be forming a bottom jus… [+2440 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,84 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/04dcac29907c5f042fa5216cd5e76b91a57d6d03-1440x810.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-04-30T19:30:05Z",
         "content": "Robinhood's (HOOD) nearly 12% drop since its big earnings miss is being waived off by some big investors and Wall Street analysts. \r\nThe popular trading platform missed its first-quarter earnings and… [+3508 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin Coinbase Premium threatens bear flag repeat with BTC price at $76K",
-        "description": "Bitcoin price action risked repeating January's breakdown despite April being poised to offer the best monthly BTC price gains in a year.",
-        "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-threatens-bear-flag-repeat-with-btc-price-at-76k",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/bear%20crypto%20market1.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-30T16:01:22Z",
-        "content": "Bitcoin (BTC) rebounded above $76,000 at Thursdays Wall Street open while traders stayed bearish on the short-term BTC price outlook.\r\nKey points:\r\n<ul><li>Bitcoin's Coinbase Premium Index flips nega… [+2290 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin analysts explain why BTC price can’t take out $80K",
-        "description": "A large overhead supply cluster, increased profit-taking activity and the resumption of spot Bitcoin ETF outflows are key factors keeping BTC price pinned below $80,000.",
-        "url": "https://cointelegraph.com/markets/heres-why-bitcoin-analysts-say-btc-price-cant-take-out-80k",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/BTC%20cover%20April%2030.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-30T14:02:12Z",
-        "content": "Bitcoin (BTC) rebounded 32% to a 10-week high of $79,500 on April 22 from its sub-60,000 multi-year low. But recent buyers took advantage of the rally to exit as the price has since corrected to $76,… [+3418 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Industry Expert Samson Mow Reveals When The Bitcoin Price Will Hit $1M",
-        "description": "Samson Mow, the CEO of Jan3, a BTC-focused tech company, has made a bold call, predicting that the Bitcoin price could eventually explode to $1 million per coin. Mow’s ambitious price forecast adds to the growing list of $1 million Bitcoin price projections b…",
-        "url": "http://www.newsbtc.com/news/bitcoin/samson-mow-bitcoin-price-1m/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-1M.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-04-30T13:00:28Z",
-        "content": "Samson Mow, the CEO of Jan3, a BTC-focused tech company, has made a bold call, predicting that the Bitcoin price could eventually explode to $1 million per coin. Mows ambitious price forecast adds to… [+2664 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Calls Local Bitcoin Top, Reveals Why The Price Is Headed Below $60,000",
-        "description": "Crypto analyst Kaz has called the local Bitcoin top, stating that the leading crypto has little room to the upside. The analyst also explained why BTC is now likely to drop below the psychological $60,000 level, which would mark a new low for the crypto asset…",
-        "url": "http://www.newsbtc.com/news/bitcoin/analyst-local-bitcoin-top/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-9-1.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-30T11:30:47Z",
-        "content": "Crypto analyst Kaz has called the local Bitcoin top, stating that the leading crypto has little room to the upside. The analyst also explained why BTC is now likely to drop below the psychological $6… [+2385 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin eyes $75K after 'most hawkish' FOMC as oil hits highest since 2022",
-        "description": "Bitcoin price action remained weak as the US-Iran war delivered a Fed meeting that was the \"most hawkish in years\" and oil neared four-year highs.",
-        "url": "https://cointelegraph.com/markets/bitcoin-eyes-75k-after-most-hawkish-fomc-as-oil-hits-highest-since-2022",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Oil%20Bitcoin%20Coin%20Ant%20Blockchain%20Sky%20Platform%20Production.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-30T09:19:28Z",
-        "content": "Bitcoin (BTC) failed to recover new support on Thursday as oil hit its highest levels in nearly four years.\r\nKey points:\r\n<ul><li>Bitcoin struggles to recoup recent lost ground as geopolitical factor… [+3004 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Fidelity Flags Bitcoin Price Zone That Historically Marked Accumulation",
-        "description": "Fidelity Digital Assets says Bitcoin’s latest drawdown has pushed the market into a zone that has historically aligned with accumulation phases, even as its momentum signal remains negative and broader crypto risk appetite stays narrow. In its Signals Report …",
-        "url": "http://www.newsbtc.com/bitcoin-news/fidelity-bitcoin-price-zone-accumulation/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ChatGPT-Image-30.-Apr.-2026-09_40_48.png?fit=1672%2C941",
-        "publishedAt": "2026-04-30T08:00:33Z",
-        "content": "Fidelity Digital Assets says Bitcoins latest drawdown has pushed the market into a zone that has historically aligned with accumulation phases, even as its momentum signal remains negative and broade… [+4118 chars]"
       }
     ]
   }
