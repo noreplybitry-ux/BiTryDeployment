@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-05T18:15:47.295Z",
+  "timestamp": "2026-05-05T20:12:28.334Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Does The Ethereum 300% Boost In Capacity Mean Price Can Rise 3x To $6,000?",
+        "description": "The upcoming Ethereum scaling upgrade is drawing attention across the market, raising a critical question about whether a major leap in network capacity can translate into equally strong price growth. The idea sounds straightforward, but the relationship betw…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-300-boost-3x-6000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-price.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-05-04T19:30:18Z",
+        "content": "The upcoming Ethereum scaling upgrade is drawing attention across the market, raising a critical question about whether a major leap in network capacity can translate into equally strong price growth… [+3021 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/4: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA",
+        "description": "Bitcoin has broken above the $79,500 level, backed by solid buying by institutional investors. Will the altcoins also follow?",
+        "url": "https://cointelegraph.com/markets/price-predictions-54-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/price%20analysis%20earth%20(1).jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-04T18:39:10Z",
+        "content": "Key points:\r\n<ul><li>Bitcoins rally through $79,500 opens the door to a move toward $84,000.</li><li>Ether, Dogecoin and Hyperliquid are showing strength, but the other major altcoins are yet to pick… [+7875 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Recovery-Near-Resistance.jpg",
         "publishedAt": "2026-05-01T02:59:41Z",
         "content": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $76,750 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2192 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Spot Bitcoin ETF outflows top $490M: Is BTC’s rally losing momentum?",
-        "description": "Spot Bitcoin ETF outflows reached $490 million as crypto investors considered the impact of high oil prices, Big Tech earnings and a shortfall in AI industry growth metrics.",
-        "url": "https://cointelegraph.com/markets/spot-bitcoin-etf-outflows-top-490m-is-btcs-rally-losing-momentum",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20What%20are%20inflows%20and%20outflows%20on%20crypto%20exchanges%20bitcoin.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-01T02:15:18Z",
-        "content": "Key takeaways:\r\n<ul><li>Spot Bitcoin ETFs saw $490 million in net outflows over three days, signaling a recent dip in institutional demand.</li><li>Rising inflation is eroding real yields on fixed in… [+2944 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Stablecoins overtake Bitcoin in Latin America crypto purchases — Bitso",
-        "description": "A Bitso report shows shifting user behavior as dollar-linked stablecoins gain traction for everyday financial use across Latin America’s inflation-hit economies.",
-        "url": "https://cointelegraph.com/news/stablecoins-surpass-bitcoin-latin-america-crypto-purchases-bitso-report",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Latin-America-is-ready-for-crypto-%E2%80%94-just-integrate-it-with-their-payment-systems21.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-30T21:12:00Z",
-        "content": "Digital asset adoption in Latin America is evolving, with more users now converting funds into stablecoins than into Bitcoin a shift that reflects growing pressure from local economic conditions.\r\nAc… [+2986 chars]"
       }
     ]
   }
