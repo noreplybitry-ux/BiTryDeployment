@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-05T16:45:35.291Z",
+  "timestamp": "2026-05-05T18:15:47.295Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Nears Structural Shift Amid Changing Market Conditions — What This Means",
+        "description": "Bitcoin is undergoing a notable transformation as shifting market conditions redefine how the asset behaves and is valued. Once dominated by retail speculation and predictable halving-driven cycles, BTC is now entering a more mature phase shaped by broader fi…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-nears-structural-shift/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-70.jpg?fit=612%2C402",
+        "publishedAt": "2026-05-04T18:00:45Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Circle, Coinbase lead crypto stocks rally amid Clarity Act progress, bitcoin hitting $80,000",
+        "description": "The market is starting to price in potential winners as stablecoin yield compromise opens path for passing key U.S. digital asset regulation, one analyst said.",
+        "url": "https://www.coindesk.com/markets/2026/05/04/circle-coinbase-lead-crypto-stock-rally-amid-clarity-act-progress-bitcoin-above-usd80-000",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/024ae1afdc1672e747814cc0546828b965ecf695-5162x3441.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-04T17:34:28Z",
+        "content": "Crypto-related stocks rallied Monday, led by Circle (CRCL) and Coinbase (COIN), as progress on U.S. digital asset legislation and bitcoin BTC\r\n$80,373.48 breaking above $80,000 lifted sentiment acros… [+2484 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Latin-America-is-ready-for-crypto-%E2%80%94-just-integrate-it-with-their-payment-systems21.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-04-30T21:12:00Z",
         "content": "Digital asset adoption in Latin America is evolving, with more users now converting funds into stablecoins than into Bitcoin a shift that reflects growing pressure from local economic conditions.\r\nAc… [+2986 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Crash Is Coming: Pundit Says It’s Time To Sell All Your BTC",
-        "description": "A crypto analyst is sounding the alarm about Bitcoin (BTC), warning investors to sell their coins before the next price crash. According to the market expert, Bitcoin could be preparing for another major correction, but this time, it’s in the $40,000 range. C…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-crash-is-coming/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-from-Pixabay-46.jpg?fit=1280%2C853",
-        "publishedAt": "2026-04-30T20:30:45Z",
-        "content": "A crypto analyst is sounding the alarm about Bitcoin (BTC), warning investors to sell their coins before the next price crash. According to the market expert, Bitcoin could be preparing for another m… [+2702 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "From Cathie Wood to Cantor Fitzgerald, the big money is betting that Robinhood’s crypto slump is just a temporary speed bump",
-        "description": "Cathie Wood’s Ark Invest snapped up over 500,000 shares of Robinhood on Wednesday, joining a wave of analysts who believe a surge in April trading activity will outweigh a recent earnings disappointment.",
-        "url": "https://www.coindesk.com/markets/2026/04/30/from-cathie-wood-to-cantor-fitzgerald-the-big-money-is-betting-that-robinhood-s-crypto-slump-is-just-a-temporary-speed-bump",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/04dcac29907c5f042fa5216cd5e76b91a57d6d03-1440x810.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-04-30T19:30:05Z",
-        "content": "Robinhood's (HOOD) nearly 12% drop since its big earnings miss is being waived off by some big investors and Wall Street analysts. \r\nThe popular trading platform missed its first-quarter earnings and… [+3508 chars]"
       }
     ]
   }
