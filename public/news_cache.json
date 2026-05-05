@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-05T22:05:14.785Z",
+  "timestamp": "2026-05-05T23:54:42.246Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Long-Dormant Bitcoin Whale Transfers 11,300 BTC, Sparking Market Speculation",
+        "description": "The Bitcoin weekly chart is sitting at a crossroads. The price is pushing against a resistance zone between $78,000 and $80,000 — a level that analysts say could determine whether the market shifts direction or slides further down. Related Reading: XRP Bulls …",
+        "url": "http://www.newsbtc.com/news/bitcoin/long-dormant-bitcoin-whale-transfers-11300-btc-sparking-market-speculation/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-whale-concept-massive-whale-swimming-in-di.jpeg?fit=1440%2C810",
+        "publishedAt": "2026-05-04T22:30:14Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
