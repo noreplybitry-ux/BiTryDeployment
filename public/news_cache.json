@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-05T03:43:03.750Z",
+  "timestamp": "2026-05-05T06:22:54.421Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Lifts Further, Momentum Points To More Gains",
+        "description": "Dogecoin started a decent increase above $0.1050 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.1150. DOGE price started a fresh increase above $0.1150 and $0.120. The price is trading above the $0.1085 level and t…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-lifts-further-0-1120/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/Dogecoin-DOGE-Attempts-Rebound.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-05-04T05:18:07Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Rally-Isnt-Fading-Yet.jpg?fit=1024%2C572",
         "publishedAt": "2026-04-30T05:08:18Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "US, UAE and China joint effort dismantles 9 crypto scam centers",
-        "description": "In another police action, European police arrested ten people and took down three scam centers, estimated to have stolen over $58 million from victims around the world.",
-        "url": "https://cointelegraph.com/news/fbi-dubai-and-china-make-mass-arrests-dismantle-crypto-scam-centres",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Blockchain%20Security%20Preventing%20Fraud%20on%20the%20Distributed%20Ledger%20Technology.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-04-30T03:31:48Z",
-        "content": "A Dubai police-led international crackdown on scam rings last week resulted in the arrest of 276 individuals and the shutdown of at least nine crypto scam centers, the US Department of Justice reveal… [+2977 chars]"
       }
     ]
   }
