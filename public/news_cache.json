@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-06T03:42:07.299Z",
+  "timestamp": "2026-05-06T06:35:36.996Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Range-Bound Below $90, Control Battle Intensifies",
+        "description": "Solana started a fresh increase from the $83.50 zone. SOL price is now consolidating and might aim for more gains above the $85.50 zone. SOL price started a fresh upward move above the $83 and $84 levels against the US Dollar. The price is now trading above $…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-range-bound-below-90/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Solana-SOL-Loses-80-Floor.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-05T05:08:15Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin Seasonality Flashes Bullish May Signal After Two Green Months",
+        "description": "Bitcoin’s May setup is drawing fresh attention after two consecutive green months, with Trader_XO pointing to seasonality data that leaves BTC on the edge of a rare three-month streak. The question is whether the historical pattern has real market weight this…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-seasonality-bullish-may/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-4.-Mai-2026-14_42_53.png?fit=1222%2C687",
+        "publishedAt": "2026-05-05T05:00:53Z",
+        "content": "Bitcoins May setup is drawing fresh attention after two consecutive green months, with Trader_XO pointing to seasonality data that leaves BTC on the edge of a rare three-month streak. The question is… [+3256 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/25090ff126224815eb4859930f8912dbba7ec186-7952x5304.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-01T11:11:32Z",
         "content": "Japanese financial conglomerate SBI Holdings plans to acquire a stake in Bitbank, one of the countrys largest crypto exchanges.\r\nThe Tokyo-based broker submitted a letter of intent to Bitbank Co., Lt… [+1283 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "SBI eyes Bitbank deal as Japan’s crypto exchange market consolidates",
-        "description": "SBI Holdings is in discussions to make Bitbank a subsidiary, adding to its push to acquire crypto exchanges amid improving regulatory clarity in Japan.",
-        "url": "https://cointelegraph.com/news/sbi-seeks-to-make-bitbank-a-subsidiary-in-japan-crypto-consolidation-push",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Kucoin%20and%20ACRS-2.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-01T09:39:34Z",
-        "content": "Tokyo-based SBI Holdings has opened talks to acquire shares in cryptocurrency exchange Bitbank and make it a consolidated subsidiary, extending its push to consolidate regulated crypto trading platfo… [+3259 chars]"
       }
     ]
   }
