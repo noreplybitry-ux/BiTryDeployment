@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-06T06:35:36.996Z",
+  "timestamp": "2026-05-06T09:29:07.671Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Rubmar Garcia",
+        "title": "Bitcoin Targets $86,000 After Key EMA Reclaim: Is The Next Rally Here?",
+        "description": "A crypto market analyst has shared the key levels to watch as Bitcoin (BTC) confirms a key level as support for the first time in months, opening the door to a continuation of its April recovery rally. Related Reading: This Signal Has Predicted Every Bitcoin …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-86000-key-ema-reclaim-next-rally/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/kanchanara-7E3QGntO66M-unsplash.jpeg?fit=1920%2C1277",
+        "publishedAt": "2026-05-05T08:00:18Z",
+        "content": "A crypto market analyst has shared the key levels to watch as Bitcoin (BTC) confirms a key level as support for the first time in months, opening the door to a continuation of its April recovery rall… [+3183 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Cryptocurrency-from-iStock-3.jpg?fit=612%2C409",
         "publishedAt": "2026-05-01T11:30:24Z",
         "content": "Celsius founder Alexander Mashinsky, who was responsible for the $4.7 billion 2022 crypto crash, has been banned from crypto. This forms part of a $10 million settlement with the Federal Trade Commis… [+2657 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
-        "description": "The Tokyo-based broker is betting big on crypto with plans in Singapore and a Visa partnership for bank cards that allows users to accumulate digital assets.",
-        "url": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/25090ff126224815eb4859930f8912dbba7ec186-7952x5304.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-01T11:11:32Z",
-        "content": "Japanese financial conglomerate SBI Holdings plans to acquire a stake in Bitbank, one of the countrys largest crypto exchanges.\r\nThe Tokyo-based broker submitted a letter of intent to Bitbank Co., Lt… [+1283 chars]"
       }
     ]
   }
