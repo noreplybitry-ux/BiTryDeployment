@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-06T20:27:49.439Z",
+  "timestamp": "2026-05-06T22:02:11.981Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Kraken eyes IPO as it partners with MoneyGram to bridge crypto-to-cash gap",
+        "description": "Payward and Kraken co-CEO Arjun Sethi says the exchange is “80% ready” to go public, as a new partnership with MoneyGram aims to expand access to digital assets by solving last-mile cash conversion.",
+        "url": "https://www.coindesk.com/business/2026/05/05/kraken-eyes-ipo-as-it-partners-with-moneygram-to-bridge-crypto-to-cash-gap",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c6a8d9e5fa0a7902d01bc64094e514fa9a1ac32b-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-05T21:29:15Z",
+        "content": "Miami Beach, FL Arjun Sethi, co-CEO of Payward and Kraken, said the crypto exchange is about 80% ready to go public, underscoring the firm's IPO ambitions as the company rolls out a new partnership w… [+1932 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "How Solana Exchange Drift Plans to Repay Users After $295 Million Crypto Hack",
+        "description": "Solana's Drift Protocol says most of the stolen funds linked to North Korean hackers remain traceable—and it has a plan to make victims whole.",
+        "url": "https://decrypt.co/366897/how-solana-exchange-drift-repay-users-295-million-crypto-hack",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-05-05T21:25:23Z",
+        "content": "In brief\r\n<ul><li>Solana-based Drift Protocol was hacked on April 1, with $295 million in user funds drained by attackers linked to North Korea.</li><li>Drift Protocol will issue recovery tokens to a… [+3078 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin short liquidations push BTC to multi-month highs: Is $90K next?",
+        "description": "A three-wave short squeeze and Bitcoin’s rising open interest near $80,000 highlight a growing imbalance that could accelerate BTC’s rally to new monthly highs.",
+        "url": "https://cointelegraph.com/markets/bitcoin-eyes-clear-path-to-90k-as-79b-shorts-unwind-since-february",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Bitcoin-vs-Gold-Who-Wins-the-Rally-(1).jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-05T21:13:22Z",
+        "content": "Bitcoin (BTC) may have a clear path to $90,000 after $7.9 billion in short liquidations in February put pressure on the bears. Data show liquidations came in three waves that extended from February t… [+3587 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
         "publishedAt": "2026-05-04T13:19:36Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7821 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "South Korea crypto sector warns AML proposal goes too far: Report",
-        "description": "Crypto industry body DAXA said the proposed rules could push suspicious transaction reports from South Korea’s five largest exchanges to more than 5.4 million a year, Yonhap reported.",
-        "url": "https://cointelegraph.com/news/south-koreas-crypto-exchanges-push-bank-on-10m-won-reporting-rule-report",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Crypto-on-corporate-balance-sheets-What%E2%80%99s-the-risk-and-reward-1.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-04T12:31:47Z",
-        "content": "South Koreas crypto industry has reportedly warned that proposed Anti-Money Laundering (AML) rule changes could create operational confusion by forcing virtual asset service providers (VASPs) to repo… [+2965 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "This Signal Has Predicted Every Bitcoin Bottom, Here’s What It’s Saying Now",
-        "description": "Crypto analyst Tice has pointed to a signal that has predicted every Bitcoin bottom in each bear cycle. Based on this, the analyst suggested that the flagship crypto may again be forming a bottom just as the price looks to break above the psychological $80,00…",
-        "url": "http://www.newsbtc.com/news/bitcoin/every-bitcoin-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-133.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-04T12:00:31Z",
-        "content": "Crypto analyst Tice has pointed to a signal that has predicted every Bitcoin bottom in each bear cycle. Based on this, the analyst suggested that the flagship crypto may again be forming a bottom jus… [+2440 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Lifts Further, Momentum Points To More Gains",
-        "description": "Dogecoin started a decent increase above $0.1050 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.1150. DOGE price started a fresh increase above $0.1150 and $0.120. The price is trading above the $0.1085 level and t…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-lifts-further-0-1120/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/Dogecoin-DOGE-Attempts-Rebound.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-05-04T05:18:07Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
