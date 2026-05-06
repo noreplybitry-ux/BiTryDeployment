@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-06T18:22:11.170Z",
+  "timestamp": "2026-05-06T20:27:49.440Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Strategy posts $12.54 billion Q1 loss on declining bitcoin price",
+        "description": "The price of bitcoin fell from about $87,000 to $68,000 during the first three months of 2026.",
+        "url": "https://www.coindesk.com/markets/2026/05/05/strategy-posts-usd12-54-billion-q1-loss-on-declining-bitcoin-price",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d00d58cb37e792985dd1a2d7a5b976dca32d84c0-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-05T20:06:30Z",
+        "content": "Strategy (MSTR) reported a net loss of $12.54 billion in the first quarter of 2026, as bitcoin BTC\r\n$81,660.38 fell from around $87,000 on Jan. 1 to roughly $68,000 by March 31.\r\nSince the start of t… [+837 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Bitcoin extends gains to $81,500 as tokenization push lifts Bullish, Galaxy, Centrifuge",
+        "description": "Crypto market momentum could extend further unless geopolitical risks flare up again, one analyst said.",
+        "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-extends-gains-to-usd81-500-as-tokenization-push-lifts-bullish-galaxy-centrifuge",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9f1df2afc8ef8ac855c56afef93e582035d9d9fb-2120x1164.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-05T18:52:16Z",
+        "content": "Bitcoin BTC\r\n$81,660.38 pushed higher Tuesday, climbing to $81,500 to its strongest level since January as the latest leg of the rally spread beyond major tokens into tokenization-focused plays.\r\nThe… [+2551 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/Dogecoin-DOGE-Attempts-Rebound.jpg?fit=1792%2C1024",
         "publishedAt": "2026-05-04T05:18:07Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Tracks Bitcoin Rally, Targets Crucial Break Higher",
-        "description": "Ethereum price started a fresh increase and remained stable above $2,350. ETH is now consolidating and might aim for more gains if it clears $2,400. Ethereum started a steady increase above the $2,350 zone. The price is trading above $2,365 and the 100-hourly…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-tracks-bitcoin-2350/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Surges-Over-5-Bulls-Ignite-Strong-Upside-Momentum.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-04T03:28:48Z",
-        "content": "Ethereum price started a fresh increase and remained stable above $2,350. ETH is now consolidating and might aim for more gains if it clears $2,400.\r\n<ul><li>Ethereum started a steady increase above … [+2157 chars]"
       }
     ]
   }
