@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-05T23:54:42.246Z",
+  "timestamp": "2026-05-06T03:42:07.299Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Coiling Tight, Explosive Move Could Trigger Anytime",
+        "description": "Ethereum price started a fresh increase and remained stable above $2,355. ETH is now consolidating and might aim for more gains if it clears $2,400. Ethereum started a steady increase above the $2,365 zone. The price is trading above $2,350 and the 100-hourly…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-coiling-tight-2400/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Coiling-Tight.png",
+        "publishedAt": "2026-05-05T03:28:32Z",
+        "content": "Ethereum price started a fresh increase and remained stable above $2,355. ETH is now consolidating and might aim for more gains if it clears $2,400.\r\n<ul><li>Ethereum started a steady increase above … [+2163 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Holds Firm Near Highs, More Gains Could Follow",
+        "description": "Bitcoin price started a fresh increase and cleared the $80,500 zone. BTC is consolidating and might aim for more gains above the $81,200 level. Bitcoin managed to stay above $78,500 and started a fresh increase. The price is trading above $78,800 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-holds-firm-78k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Aims-Higher.png",
+        "publishedAt": "2026-05-05T02:52:19Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $80,500 zone. BTC is consolidating and might aim for more gains above the $81,200 level.\r\n<ul><li>Bitcoin managed to stay above $78,500 and star… [+2156 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Kucoin%20and%20ACRS-2.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-01T09:39:34Z",
         "content": "Tokyo-based SBI Holdings has opened talks to acquire shares in cryptocurrency exchange Bitbank and make it a consolidated subsidiary, extending its push to consolidate regulated crypto trading platfo… [+3259 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Rebounds Again, Buyers Target Next Upside Leg",
-        "description": "Solana found support at $81.40 and corrected some losses. SOL price is now consolidating above $83.50 and might aim for a steady increase. SOL price started a decent recovery wave above $82 and $83.50 against the US Dollar. The price is now trading near $84 a…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-rebounds-again-85/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Rebounds-Again.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-01T05:08:44Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
