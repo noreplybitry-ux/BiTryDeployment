@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-06T14:28:38.048Z",
+  "timestamp": "2026-05-06T16:47:02.702Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Bitcoin ETFs Draw Investment Surge After Brief Lull Threatens Winning Streak",
+        "description": "Bitcoin funds are flying high again after a short-lived stretch of outflows nearly wrecked their recent run of green weeks.",
+        "url": "https://decrypt.co/366796/bitcoin-etfs-draw-investment-surge-lull-threatens-winning-streak",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-05-05T15:01:30Z",
+        "content": "In brief\r\n<ul><li>Crypto investment products recorded $117.8 million in inflows for the fifth consecutive positive week, the smallest of the streak.</li><li>Four consecutive days of outflows from Mon… [+2709 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Margaux Nijkerk",
+        "title": "Jito Labs launches self-custody trading tool as activity heats up on Solana",
+        "description": "JTX is the company’s first product built specifically for traders. It allows users to trade tokens on Solana while maintaining self-custody.",
+        "url": "https://www.coindesk.com/tech/2026/05/05/jito-labs-launches-jtx-as-self-custody-trading-heats-up-on-solana",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a46fdc0eb758eaaa46dbb2c54a2f8a929843b634-6048x4024.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-05T15:00:00Z",
+        "content": "Jito Labs, a core infrastructure provider on Solana, has unveiled JTX, a new crypto trading platform aimed at bringing more advanced trading tools to the blockchain.\r\nAnnounced at the Solana Accelera… [+1758 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +446,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b0bf991adc381647215947e7018aee302387112d-3057x2038.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-04T00:30:00Z",
         "content": "Morgan Stanley expects bitcoin to reach U.S. bank balance sheets, though key hurdles remain, according to Amy Oldenburg, the banks head of digital asset strategy.\r\nSpeaking at the Bitcoin Conference … [+2897 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin At A Transitional Phase? Bull Score Index Signals Uncertain Momentum",
-        "description": "The Bitcoin market appears to be at a critical phase, as evidenced by data from a recent on-chain evaluation. According to this latest analysis, the Bitcoin price shows few signs of a clear directional trend, with uncertainty as the prevailing structure. Rela…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-at-a-transitional-phase-bull-score-index-signals-uncertain-momentum/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/istockphoto-1317452510-612x612-1.jpg?fit=900%2C563",
-        "publishedAt": "2026-05-03T18:00:05Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Iran’s largest crypto exchange founded by sons of family tied to supreme leaders: Reuters",
-        "description": "Nobitex’s founders are linked to an influential Iranian family tied to supreme leaders, as the exchange continues processing billions amid sanctions and war.",
-        "url": "https://cointelegraph.com/news/irans-largest-crypto-exchange-founded-by-sons-of-family-tied-to-supreme-leaders-reuters",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Crypto-market-trading-1323.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-03T11:12:56Z",
-        "content": "Nobitex, Irans biggest crypto exchange, was founded by two brothers from one of the Islamic Republics most influential families with ties to the supreme leaders, according to a Reuters investigation.… [+2929 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "New York forces Uphold to pay $5M over fraudulent crypto investment scheme",
-        "description": "New York AG Letitia James has secured $5 million from crypto platform Uphold for promoting CredEarn, a fraudulent savings product that hid risky lending practices.",
-        "url": "https://cointelegraph.com/news/new-york-forces-uphold-to-pay-5m-over-fraudulent-crypto-investment-scheme",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/mask.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-03T08:56:10Z",
-        "content": "New York Attorney General Letitia James has secured more than $5 million from cryptocurrency platform Uphold over its role in promoting a fraudulent investment product.\r\nThe settlement centers around… [+2357 chars]"
       }
     ]
   }
