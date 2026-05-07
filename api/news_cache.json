@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-07T22:06:12.519Z",
+  "timestamp": "2026-05-07T23:58:23.506Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bullish Signal? Crypto Funds Log 5th Consecutive Week Of Inflows",
+        "description": "US spot Bitcoin ETFs kicked off this week with $532 million in single-day crypto inflows on Monday, led by BlackRock’s IBIT at $335 million and Fidelity’s FBTC at $184 million. That strong start followed a week that nearly ended in the red — saved only by a m…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bullish-signal-crypto-funds-log-5th-consecutive-week-of-inflows/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bulls-running-wild-concept-powerful-bulls-charging.jpeg?fit=1440%2C810",
+        "publishedAt": "2026-05-06T22:30:36Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Crypto%20backed%20by%20precious%20things.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-05T13:25:23Z",
         "content": "Digital asset investment products recorded $117.8 million in inflows last week, marking a fifth consecutive week of gains after a late-week rebound reversed earlier outflows.\r\nCrypto exchange-traded … [+2168 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "Coinbase Cuts 14% of Staff Amid Crypto 'Down Market,' AI Adoption: CEO",
-        "description": "The crypto exchange is restructuring around artificial intelligence and flattening its org chart, CEO Brian Armstrong said.",
-        "url": "https://decrypt.co/366765/coinbase-cuts-14-of-staff-amid-crypto-down-market-ai-adoption-ceo",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/brian-armstrong-coinbase-decrypt-style-2-gID_7.png",
-        "publishedAt": "2026-05-05T12:18:41Z",
-        "content": "In brief\r\n<ul><li>Coinbase is cutting roughly 14% of its workforce, CEO Brian Armstrong announced Tuesday, citing crypto \"down market\" and AI-driven productivity shifts.</li><li>Armstrong said the ex… [+4066 chars]"
       }
     ]
   }
