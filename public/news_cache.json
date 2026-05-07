@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-06T23:55:51.636Z",
+  "timestamp": "2026-05-07T03:42:00.531Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price On Verge Of Breakout, Can Bulls Seize Control?",
+        "description": "Ethereum price started a fresh increase and remained stable above $2,360. ETH is now consolidating and might aim for more gains if it clears $2,400. Ethereum started a steady increase above the $2,360 zone. The price is trading above $2,355 and the 100-hourly…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-on-verge-of-breakout-2400/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Upside-Story-Isnt-Finished-Yet.jpg?fit=1024%2C572",
+        "publishedAt": "2026-05-06T03:28:48Z",
+        "content": "Ethereum price started a fresh increase and remained stable above $2,360. ETH is now consolidating and might aim for more gains if it clears $2,400.\r\n<ul><li>Ethereum started a steady increase above … [+2163 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Keeps $80K Support, Can Bulls Extend Rally Soon?",
+        "description": "Bitcoin price started a fresh increase and cleared the $80,800 zone. BTC is consolidating and might aim for more gains above the $81,500 level. Bitcoin managed to stay above $80,000 and started a fresh increase. The price is trading above $80,500 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-keeps-80k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Extends-Surge.jpg",
+        "publishedAt": "2026-05-06T03:01:29Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $80,800 zone. BTC is consolidating and might aim for more gains above the $81,500 level.\r\n<ul><li>Bitcoin managed to stay above $80,000 and star… [+2156 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Dogecoin’s XRP Fractal Just Put A Date On The Next ATH Run: Analyst",
+        "description": "Dogecoin may not be finished with its multi-year compression phase if a new XRP fractal chart from analyst Charting Guy continues to track. The setup suggests DOGE’s next decisive run toward a prior-cycle high could arrive around mid-2028, with the chart mapp…",
+        "url": "http://www.newsbtc.com/news/dogecoin/dogecoin-xrp-fractal-date-next-ath-run-analyst/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-5.-Mai-2026-14_05_23.png?fit=1222%2C687",
+        "publishedAt": "2026-05-06T00:30:41Z",
+        "content": "Dogecoin may not be finished with its multi-year compression phase if a new XRP fractal chart from analyst Charting Guy continues to track. The setup suggests DOGEs next decisive run toward a prior-c… [+3079 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-price.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-05-04T15:00:17Z",
         "content": "The latest Bitcoin move has brought bulls back into control of the short-term chart, but the setup is not as straightforward as a clean breakout into higher prices. The 4-hour structure shows momentu… [+2783 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Bitcoin price eyes $96K as institutions absorb 500% of daily BTC supply",
-        "description": "BTC tends to gain around 24% in the month after institutional demand absorbs more than 500% of the daily mined supply, signaling strong upside potential.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-96k-as-institutions-absorb-500-of-daily-btc-supply",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/B-man-growth-falling32-1.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-04T13:21:59Z",
-        "content": "Bitcoin (BTC) may rally toward $96,000 by June as institutions absorb more than five times the daily mined BTC supply, according to Capriole Investments founder Charles Edwards.\r\nBTC price averages 2… [+2704 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Bitcoin Clears $80K, Reverses on Iran Missile Strike",
-        "description": "Bitcoin rallied above $80,000 overnight before selling off on reports of a U.S. warship struck by Iranian missiles. Plus, Clarity Act odds spiked after a new compromise on stablecoin yield.",
-        "url": "https://decrypt.co/366623/morning-minute-bitcoin-clears-80k-reverses-iran-missile-strike",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-05-04T13:19:36Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7821 chars]"
       }
     ]
   }
