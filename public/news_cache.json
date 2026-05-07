@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-07T11:53:00.686Z",
+  "timestamp": "2026-05-07T14:30:06.376Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Cardano price forecast: what does surge to $0.27 mean for ADA?",
+        "description": "Cardano price was up 5% as bulls broke above $0.27 amid Bitcoin’s surge. Bullish RSI at 66 and rising open interest signal breakout potential. Support could be at $0.25 and $0.23, while $0.30 and 200 EMA near $0.40 are next resistance levels. Cardano (ADA) tr…",
+        "url": "https://coinjournal.net/news/cardano-price-forecast-what-does-surge-to-0-27-mean-for-ada/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/03/Cardano-tokens-lying-on-a-table.png",
+        "publishedAt": "2026-05-06T12:59:55Z",
+        "content": "<ul><li>Cardano price was up 5% as bulls broke above $0.27 amid Bitcoin’s surge.</li><li>Bullish RSI at 66 and rising open interest signal breakout potential.</li><li>Support could be at $0.25 and $0… [+2707 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole, AI Boost",
+        "title": "Morgan Stanley brings crypto trading with lower fees than rivals",
+        "description": "The bank is rolling out crypto trading on E*Trade with lower fees than Coinbase, Robinhood and Schwab, according to Bloomberg.",
+        "url": "https://www.coindesk.com/markets/2026/05/06/morgan-stanley-brings-crypto-trading-with-lower-fees-than-rivals",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7bda05f218a0e908b37639579d1962cdf9fe311f-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-06T12:39:37Z",
+        "content": "Morgan Stanley is expanding its digital assets push by rolling out crypto trading on its E*Trade platform, positioning the offering as a lower-cost option to established retail crypto services.\r\nThe … [+1427 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Mapping The Bitcoin Price Crash To $63,000: Why BTC Must Reclaim This Level",
+        "description": "Crypto analyst Sherlock has revealed how a Bitcoin price crash to $63,000 could play out. He highlighted key levels to watch and zones where traders should look to short BTC in preparation for this potential downtrend.  Key Levels To Watch With Bitcoin Price …",
+        "url": "http://www.newsbtc.com/news/bitcoin/mapping-bitcoin-price-crash/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-40.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-06T12:30:30Z",
+        "content": "Crypto analyst Sherlock has revealed how a Bitcoin price crash to $63,000 could play out. He highlighted key levels to watch and zones where traders should look to short BTC in preparation for this p… [+2511 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin short-term holder cost basis eyes $92K as next price target",
+        "description": "Bitcoin’s onchain data suggests that the upside may not be over for BTC price, but resistance at $84,000 could delay the recovery.",
+        "url": "https://cointelegraph.com/markets/bitcoins-sth-cost-basis-suggests-92k-is-the-next-stop-for-btc-price",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/An%20in-depth%20look%20at%20Bitcoin%20index.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-06T12:10:38Z",
+        "content": "Bitcoin (BTC) buyers resumed their activity during the early Asian trading hours on Wednesday, pushing the price to a new multi-month high of $82,240.\r\nOnchain indicators, including the short-term ho… [+3959 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,71 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6d8345ab102c51714055bd408fc49095d52d1019-4000x1868.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-05T10:25:00Z",
         "content": "Bullish (BLSH), CoinDesk's parent company, has agreed to acquire transfer agent and shareholder services firm Equiniti in a $4.2 billion deal that would fold a core piece of traditional market infras… [+5346 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Why is Crypto Up Today? Bitcoin Price Faces ‘Real Test’ At This Key Level",
-        "description": "Bitcoin and major cryptocurrencies have staged a notable recovery over the past two weeks, with BTC climbing back toward the $80,000 area from lows near $75,000 — a move underpinned by renewed institutional demand and easing geopolitical risk, according to th…",
-        "url": "http://www.newsbtc.com/bitcoin-news/why-is-crypto-up-today-bitcoin-price-faces-real-test-at-this-key-level/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-price-bitcoin-btc-btcusd.jpg",
-        "publishedAt": "2026-05-05T10:06:11Z",
-        "content": "Bitcoin and major cryptocurrencies have staged a notable recovery over the past two weeks, with BTC climbing back toward the $80,000 area from lows near $75,000 a move underpinned by renewed institut… [+3491 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Rubmar Garcia",
-        "title": "Bitcoin Targets $86,000 After Key EMA Reclaim: Is The Next Rally Here?",
-        "description": "A crypto market analyst has shared the key levels to watch as Bitcoin (BTC) confirms a key level as support for the first time in months, opening the door to a continuation of its April recovery rally. Related Reading: This Signal Has Predicted Every Bitcoin …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-86000-key-ema-reclaim-next-rally/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/kanchanara-7E3QGntO66M-unsplash.jpeg?fit=1920%2C1277",
-        "publishedAt": "2026-05-05T08:00:18Z",
-        "content": "A crypto market analyst has shared the key levels to watch as Bitcoin (BTC) confirms a key level as support for the first time in months, opening the door to a continuation of its April recovery rall… [+3183 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Range-Bound Below $90, Control Battle Intensifies",
-        "description": "Solana started a fresh increase from the $83.50 zone. SOL price is now consolidating and might aim for more gains above the $85.50 zone. SOL price started a fresh upward move above the $83 and $84 levels against the US Dollar. The price is now trading above $…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-range-bound-below-90/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Solana-SOL-Loses-80-Floor.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-05T05:08:15Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Seasonality Flashes Bullish May Signal After Two Green Months",
-        "description": "Bitcoin’s May setup is drawing fresh attention after two consecutive green months, with Trader_XO pointing to seasonality data that leaves BTC on the edge of a rare three-month streak. The question is whether the historical pattern has real market weight this…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-seasonality-bullish-may/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-4.-Mai-2026-14_42_53.png?fit=1222%2C687",
-        "publishedAt": "2026-05-05T05:00:53Z",
-        "content": "Bitcoins May setup is drawing fresh attention after two consecutive green months, with Trader_XO pointing to seasonality data that leaves BTC on the edge of a rare three-month streak. The question is… [+3256 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Coiling Tight, Explosive Move Could Trigger Anytime",
-        "description": "Ethereum price started a fresh increase and remained stable above $2,355. ETH is now consolidating and might aim for more gains if it clears $2,400. Ethereum started a steady increase above the $2,365 zone. The price is trading above $2,350 and the 100-hourly…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-coiling-tight-2400/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Coiling-Tight.png",
-        "publishedAt": "2026-05-05T03:28:32Z",
-        "content": "Ethereum price started a fresh increase and remained stable above $2,355. ETH is now consolidating and might aim for more gains if it clears $2,400.\r\n<ul><li>Ethereum started a steady increase above … [+2163 chars]"
       }
     ]
   }
