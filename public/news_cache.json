@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-07T14:30:06.376Z",
+  "timestamp": "2026-05-07T16:56:55.428Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin Has Entered Its ‘Most Dangerous Quarter,’ And This Expert Is Warning Investors",
+        "description": "The Bitcoin recovery above $80,000 has brought some sort of confidence back into the crypto market, but a crypto expert is warning that the timing of the rebound may be more dangerous than it looks. As noted by the expert, who goes by the name Crypto Patel on…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-most-dangerous-quarter/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-dangerous.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-05-06T15:30:44Z",
+        "content": "The Bitcoin recovery above $80,000 has brought some sort of confidence back into the crypto market, but a crypto expert is warning that the timing of the rebound may be more dangerous than it looks. … [+2740 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Morgan Stanley takes on crypto trading rivals with E*Trade pilot",
+        "description": "Morgan Stanley’s cryptocurrency trading pilot is emerging as a competitive rival to some of the largest crypto exchanges in terms of trading fees.",
+        "url": "https://cointelegraph.com/news/morgan-stanley-emerges-as-crypto-exchange-competitor-with-low-fee-trading-pilot",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Moon-Bitcoin1-1.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-06T15:08:47Z",
+        "content": "Morgan Stanley has rolled out a cryptocurrency trading pilot on its E*Trade platform, charging lower basic retail fees than some of the largest US crypto and brokerage platforms.\r\nThe Wall Street ban… [+2022 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +368,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Bitcoin%20is%20now%20bigger.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-05T11:16:09Z",
         "content": "Bitcoin (BTC) rose as much as 2% over the past 24 hours to an intraday high of $81,300 on Tuesday. This brings the weekly and 30-day gains to 5% and 21%, respectively.\r\nThis rally was accompanied by … [+3088 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Solana, TRON, XRP, and BNB Make Debut at Moscow Exchange, These Top Altcoins Will Follow",
-        "description": "Russia’s Moscow Exchange (MOEX) will begin publishing four new cryptocurrency indexes — tracking Solana, XRP, TRON, and BNB — starting May 13, 2026, marking the first time the country’s leading securities exchange has extended its regulated crypto benchmark s…",
-        "url": "http://www.newsbtc.com/news/solana-tron-xrp-and-bnb-make-debut-at-moscow-exchange-these-top-altcoins-will-follow/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/solana-sol-solusd-tron-trx-trxusd-xrp-xrpusd-.jpg",
-        "publishedAt": "2026-05-05T10:34:07Z",
-        "content": "Russia’s Moscow Exchange (MOEX) will begin publishing four new cryptocurrency indexes tracking Solana, XRP, TRON, and BNB starting May 13, 2026, marking the first time the country’s leading securitie… [+3228 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Iran Launches Missiles At UAE — Bitcoin Price Barely Blinks",
-        "description": "A fire broke out at a petroleum facility in Fujairah after Iran launched four ballistic missiles at the UAE, confirming what many feared — the fragile ceasefire between Iran and the US was fracturing in real time. Related Reading: Satoshi’s 22,000 Wallets Cou…",
-        "url": "http://www.newsbtc.com/news/iran-launches-missiles-at-uae-bitcoin-price-barely-blinks/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-and-missile-attack-concept-golden-bitcoin-.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-05-05T10:30:59Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Crypto platform Bullish to buy Equiniti for $4.2 billion, building tokenized securities infrastructure",
-        "description": "The deal brings a regulated transfer agent into the Bullish stack, expanding the firm's end-to-end tokenization capabilities.",
-        "url": "https://www.coindesk.com/business/2026/05/05/crypto-platform-bullish-to-buy-equiniti-for-usd4-25-billion-building-tokenized-securities-infrastructure",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6d8345ab102c51714055bd408fc49095d52d1019-4000x1868.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-05T10:25:00Z",
-        "content": "Bullish (BLSH), CoinDesk's parent company, has agreed to acquire transfer agent and shareholder services firm Equiniti in a $4.2 billion deal that would fold a core piece of traditional market infras… [+5346 chars]"
       }
     ]
   }
