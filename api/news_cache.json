@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-07T18:49:54.022Z",
+  "timestamp": "2026-05-07T20:19:05.004Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Sander Lutz",
+        "title": "Bittrex Wants Its $24 Million Settlement Back, Now That the SEC Is Pro-Crypto",
+        "description": "Now-shuttered crypto exchange Bittrex settled with the SEC back in 2023 after being accused of offering illegally unregistered securities.",
+        "url": "https://decrypt.co/367038/bittrex-wants-24-million-settlement-back-sec-pro-crypto",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/SEC2-gID_7.jpg",
+        "publishedAt": "2026-05-06T19:31:48Z",
+        "content": "In brief\r\n<ul><li>Defunct exchange Bittrex is asking a federal judge to undo its 2023 settlement with the SEC.</li><li>The company argues the SEC has since reversed its stance on crypto, undermining … [+2609 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/brian-armstrong-coinbase-decrypt-style-2-gID_7.png",
         "publishedAt": "2026-05-05T12:18:41Z",
         "content": "In brief\r\n<ul><li>Coinbase is cutting roughly 14% of its workforce, CEO Brian Armstrong announced Tuesday, citing crypto \"down market\" and AI-driven productivity shifts.</li><li>Armstrong said the ex… [+4066 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Closes 2 Green Monthly Candles: Here’s What Historical Data Says Is Coming Next",
-        "description": "Crypto analyst Max has cited historical data to provide insights into what could be next for Bitcoin, noting that it has closed two consecutive monthly candles in the green. Based on this historical data, BTC may be heading for a red month, except if this bea…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-2-green-candles/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-135.jpg?fit=1280%2C815",
-        "publishedAt": "2026-05-05T12:00:25Z",
-        "content": "Crypto analyst Max has cited historical data to provide insights into what could be next for Bitcoin, noting that it has closed two consecutive monthly candles in the green. Based on this historical … [+2498 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Standard Chartered expands further into crypto with stake in GSR at $1 billion valuation",
-        "description": "SC Ventures, Standard Chartered’s venture capital division takes a $150 million stake in crypto trading firm GSR at a valuation of more than $1 billion, according to Bloomberg.",
-        "url": "https://www.coindesk.com/business/2026/05/05/standard-chartered-expands-further-into-crypto-with-stake-in-gsr-at-usd1-billion-valuation",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/340d393dde0aee90bc02178a19a6f92588da4886-3200x1800.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-05T12:00:17Z",
-        "content": "Standard Chartered PLCs (STAN) venture capital division SC Ventures invested in GSR, as the London-based multinational bank seeks to further expand its digital asset services, the crypto capital mark… [+1718 chars]"
       }
     ]
   }
