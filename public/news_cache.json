@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-07T03:42:00.531Z",
+  "timestamp": "2026-05-07T06:42:40.820Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Strengthens, Traders Watch For Sustained Upside",
+        "description": "Dogecoin started a decent increase above $0.1080 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.1165. DOGE price started a fresh increase above $0.1120 and $0.1150. The price is trading above the $0.1120 level and …",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-strengthens-0-1120/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Dogecoin-DOGE-Rebound-Hits-Resistance.jpg?fit=1024%2C572",
+        "publishedAt": "2026-05-06T05:08:22Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/024ae1afdc1672e747814cc0546828b965ecf695-5162x3441.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-04T17:34:28Z",
         "content": "Crypto-related stocks rallied Monday, led by Circle (CRCL) and Coinbase (COIN), as progress on U.S. digital asset legislation and bitcoin BTC\r\n$80,373.48 breaking above $80,000 lifted sentiment acros… [+2484 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin Price Expansion To $97,000 Is Only Being Blocked By One Pesky Retest",
-        "description": "The latest Bitcoin move has brought bulls back into control of the short-term chart, but the setup is not as straightforward as a clean breakout into higher prices. The 4-hour structure shows momentum building, trendline support holding, and buyers pushing th…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-expansion-97000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-price.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-05-04T15:00:17Z",
-        "content": "The latest Bitcoin move has brought bulls back into control of the short-term chart, but the setup is not as straightforward as a clean breakout into higher prices. The 4-hour structure shows momentu… [+2783 chars]"
       }
     ]
   }
