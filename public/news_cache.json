@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-07T09:39:09.842Z",
+  "timestamp": "2026-05-07T11:53:00.686Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin can crash to $50K if 'most critical' bear market test fails: Analysis",
+        "description": "Bitcoin price analysis says that bulls must break through the $84,000 zone to avoid a potential correction to new bear market lows.",
+        "url": "https://cointelegraph.com/markets/bitcoin-can-crash-to-50k-if-most-critical-bear-market-test-fails-analysis",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Bear%20bang%20reg%20falling%20crypto%20bitcoin.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-06T11:20:30Z",
+        "content": "Bitcoin (BTC) is approaching its most critical resistance hurdle of the bear market, new BTC price analysis says.\r\nKey points:\r\n<ul><li>Bitcoin has arguably its most important resistance battle at $8… [+2716 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Coiling-Tight.png",
         "publishedAt": "2026-05-05T03:28:32Z",
         "content": "Ethereum price started a fresh increase and remained stable above $2,355. ETH is now consolidating and might aim for more gains if it clears $2,400.\r\n<ul><li>Ethereum started a steady increase above … [+2163 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Holds Firm Near Highs, More Gains Could Follow",
-        "description": "Bitcoin price started a fresh increase and cleared the $80,500 zone. BTC is consolidating and might aim for more gains above the $81,200 level. Bitcoin managed to stay above $78,500 and started a fresh increase. The price is trading above $78,800 and the 100 …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-holds-firm-78k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Aims-Higher.png",
-        "publishedAt": "2026-05-05T02:52:19Z",
-        "content": "Bitcoin price started a fresh increase and cleared the $80,500 zone. BTC is consolidating and might aim for more gains above the $81,200 level.\r\n<ul><li>Bitcoin managed to stay above $78,500 and star… [+2156 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Long-Dormant Bitcoin Whale Transfers 11,300 BTC, Sparking Market Speculation",
-        "description": "The Bitcoin weekly chart is sitting at a crossroads. The price is pushing against a resistance zone between $78,000 and $80,000 — a level that analysts say could determine whether the market shifts direction or slides further down. Related Reading: XRP Bulls …",
-        "url": "http://www.newsbtc.com/news/bitcoin/long-dormant-bitcoin-whale-transfers-11300-btc-sparking-market-speculation/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-whale-concept-massive-whale-swimming-in-di.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-05-04T22:30:14Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "GameStop's $55.5 billion eBay takeover bid puts its $368 million bitcoin stash in the crosshairs",
-        "description": "The video game retailer’s proposed acquisition plan revives question on whether its $368 million bitcoin stash could be sold to fund the expansion.",
-        "url": "https://www.coindesk.com/business/2026/05/04/gamestop-s-usd55-5-billion-ebay-takeover-bid-puts-its-usd368-million-bitcoin-stash-in-the-crosshairs",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6b8b930143b2c3841a702edb24488a36b869083c-3934x2213.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-04T20:16:04Z",
-        "content": "GameStop (GME) is aiming for a major expansion with a proposed $55.5 billion acquisition of online marketplace eBay (EBAY), raising fresh questions about whether its bitcoin BTC\r\n$80,322.05 holdings … [+1964 chars]"
       }
     ]
   }
