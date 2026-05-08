@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-05-08T03:47:40.111Z",
+  "timestamp": "2026-05-08T06:02:20.954Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Strength Improves, $90 Resistance Keeps Traders Cautious",
+        "description": "Solana started a fresh increase above the $86 zone. SOL price is now consolidating near $88 and might aim for more gains above the $90 zone. SOL price started a fresh upward move above the $85 and $86 levels against the US Dollar. The price is now trading abo…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-strength-improves-90/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Solana-SOL-Holds-Support-Post-Gains.jpg?fit=1024%2C572",
+        "publishedAt": "2026-05-07T05:48:14Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "BNY, world's largest custody bank, expands crypto services in Abu Dhabi",
+        "description": "The Wall Street giant, which oversees $59 trillion in client assets, teamed up with Finstreet and ADI Foundation for digital asset infrastructure.",
+        "url": "https://www.coindesk.com/business/2026/05/07/bny-world-s-largest-custody-bank-expands-crypto-services-in-abu-dhabi",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1df79087776a232721826d2559a0e7004de05895-2724x1532.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-07T05:30:00Z",
+        "content": "BNY, the world's largest custodian overseeing $59 trillion of assets, is expanding its digital asset custody business to the United Arab Emirates through local partners.\r\nAccording to a Thursday pres… [+2279 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Struggles To Hold Strength, Downside Risks Build",
+        "description": "Ethereum price started a fresh increase and remained stable above $2,380. ETH is now correcting gains and might decline if it trades below $2,300. Ethereum started a downside correction from the $2,420 zone. The price is trading below $2,350 and the 100-hourl…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-2400/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rejected-Again-Market-Watches-Key-Support-Closely.jpg?fit=1408%2C768",
+        "publishedAt": "2026-05-07T04:48:33Z",
+        "content": "Ethereum price started a fresh increase and remained stable above $2,380. ETH is now correcting gains and might decline if it trades below $2,300.\r\n<ul><li>Ethereum started a downside correction from… [+2211 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Dogecoin slides 4%, bitcoin rally pauses as Iran ceasefire optimism lifts equities",
+        "description": "Crypto majors took a breather Thursday after a strong run, with bitcoin holding around $81,000 and ether slipping below $2,330 as global equities pushed to fresh records on hopes of a US-Iran deal.",
+        "url": "https://www.coindesk.com/markets/2026/05/07/dogecoin-slides-4-bitcoin-rally-pauses-as-iran-ceasefire-optimism-lifts-equities",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f456c8ffc9ab2b603ddbba9f8613cb0a168723e2-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-07T04:33:44Z",
+        "content": "The crypto rally took a pit stop on Thursday while equities kept zooming higher.\r\nBitcoin BTC\r\n$82,164.36traded at $80,945 in Asian hours, down 0.7% over 24 hours but still up 6.9% on the week. Ether… [+2701 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Gains Fade After Strong Rally Push Sparks Profit-Taking",
+        "description": "Bitcoin price started a fresh increase and cleared the $81,200 zone. BTC is consolidating and might aim for more gains above the $82,500 level. Bitcoin managed to stay above $80,200 and started a fresh increase. The price is trading above $80,800 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-gains-82500/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Stability.jpg",
+        "publishedAt": "2026-05-07T03:49:17Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $81,200 zone. BTC is consolidating and might aim for more gains above the $82,500 level.\r\n<ul><li>Bitcoin managed to stay above $80,200 and star… [+2201 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,58 +368,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
         "publishedAt": "2026-05-05T15:01:30Z",
         "content": "In brief\r\n<ul><li>Crypto investment products recorded $117.8 million in inflows for the fifth consecutive positive week, the smallest of the streak.</li><li>Four consecutive days of outflows from Mon… [+2709 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "Jito Labs launches self-custody trading tool as activity heats up on Solana",
-        "description": "JTX is the company’s first product built specifically for traders. It allows users to trade tokens on Solana while maintaining self-custody.",
-        "url": "https://www.coindesk.com/tech/2026/05/05/jito-labs-launches-jtx-as-self-custody-trading-heats-up-on-solana",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a46fdc0eb758eaaa46dbb2c54a2f8a929843b634-6048x4024.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-05T15:00:00Z",
-        "content": "Jito Labs, a core infrastructure provider on Solana, has unveiled JTX, a new crypto trading platform aimed at bringing more advanced trading tools to the blockchain.\r\nAnnounced at the Solana Accelera… [+1758 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Hayward",
-        "title": "Andreessen Horowitz Raises $2.2 Billion to Fund Next Wave of Crypto Startups",
-        "description": "Andreessen Horowitz's latest fund signals institutional confidence in crypto as the investment landscape shows signs of recovery.",
-        "url": "https://decrypt.co/366788/andreessen-horowitz-raises-2-2-billion-fund-crypto-startups",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/bitcoin-dollar-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-05-05T14:06:11Z",
-        "content": "In brief\r\n<ul><li>Andreessen Horowitz raised $2.2 billion for Crypto Fund 5, bringing its total crypto investment vehicles to $9.8 billion.</li><li>The fund is smaller than a16z's record $4.5 billion… [+3006 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Coinbase cuts 14% of workforce, citing market slump and AI shift",
-        "description": "Brian Armstrong said Coinbase will flatten management layers and require leaders to work as “player-coaches” under the new structure.",
-        "url": "https://cointelegraph.com/news/coinbase-cuts-14-of-workforce-citing-market-slump-and-ai-shift",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Unemployment%20Insurance%20Explained.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-05T13:36:54Z",
-        "content": "Update May 5, 2026, 1:30 pm UTC: This article has been updated to add information from an SEC filing. \r\nCoinbase will cut about 14% of its workforce, or roughly 700 jobs, as CEO Brian Armstrong moves… [+2665 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Crypto products post 5th straight week of inflows despite mid-week selloff",
-        "description": "Digital asset investment products recorded $117.8 million in inflows last week, their fifth straight positive week, as a $737 million Friday session offset $619 million in mid-week outflows.",
-        "url": "https://cointelegraph.com/news/crypto-products-post-5th-straight-week-of-inflows-despite-mid-week-selloff",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Crypto%20backed%20by%20precious%20things.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-05T13:25:23Z",
-        "content": "Digital asset investment products recorded $117.8 million in inflows last week, marking a fifth consecutive week of gains after a late-week rebound reversed earlier outflows.\r\nCrypto exchange-traded … [+2168 chars]"
       }
     ]
   }
