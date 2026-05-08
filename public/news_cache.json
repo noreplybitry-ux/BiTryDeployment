@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-08T18:14:12.758Z",
+  "timestamp": "2026-05-08T20:09:23.097Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "CZ floats Binance.US revival to give U.S. users access to global crypto liquidity",
+        "description": "Zhao positioned BNB Chain as the optimal payments rail for automated transactions between AI agents, noting that current U.S. policies are improving for crypto.",
+        "url": "https://www.coindesk.com/business/2026/05/07/cz-floats-binance-us-revival-to-give-u-s-users-access-to-global-crypto-liquidity",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d3b0012ee91ace25714d9cd726e345705bb5bdd1-3000x1688.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-07T18:48:01Z",
+        "content": "Miami Binance founder Changpeng \"CZ\" Zhao said a revived Binance.US is one possible path for giving American crypto traders access to better prices.\r\nBinance wants to help restore U.S. users access t… [+3020 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "21Shares Debuts First ETF Focused on Canton Network Crypto Token",
+        "description": "The Nasdaq-listed fund offers exposure to Canton Coin, native token of the privacy-focused institutional blockchain network.",
+        "url": "https://decrypt.co/367153/21shares-first-etf-focused-canton-network-crypto-token",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/etf-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-05-07T18:45:41Z",
+        "content": "In brief\r\n<ul><li>21Shares launched the Canton Network ETF (TCAN), the first U.S. ETF offering direct exposure to Canton Coin.</li><li>The ETF provides institutional investors access to Canton Networ… [+3009 chars]"
+      },
       {
         "source": {
           "id": null,
