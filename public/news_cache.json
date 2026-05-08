@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-08T12:12:24.629Z",
+  "timestamp": "2026-05-08T14:56:35.383Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Polygon reduces block time to 1.75 seconds as payments push accelerates",
+        "description": "Polygon delivered its first block time reduction upgrade since genesis, as the network seeks to position for more high-frequency applications such as private stablecoin payments.",
+        "url": "https://cointelegraph.com/news/polygon-reduces-block-production-time-175-second",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Cube%20blockchain%20science%20scientist%20(1).jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-07T14:49:54Z",
+        "content": "Blockchain layer-2 (L2) network Polygon reduced its average block time by 250 milliseconds to 1.75 seconds, marking its first block-time reduction since genesis as the network pushes deeper into stab… [+2576 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Uptrend Still Healthy, But Volume Divergence Raises Questions",
+        "description": "Bitcoin continues to maintain a strong bullish structure, with price action steadily grinding higher across multiple timeframes. While bulls remain in control for now, the growing divergence between price and volume could signal slowing momentum and increase …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-uptrend-still-healthy/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-20.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-07T13:30:17Z",
+        "content": "Bitcoin continues to maintain a strong bullish structure, with price action steadily grinding higher across multiple timeframes. While bulls remain in control for now, the growing divergence between … [+2779 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "VanEck’s Sigel sees Bitcoin reaching $1M within five years",
+        "description": "VanEck’s Matthew Sigel says Bitcoin could reach $1 million within five years, comparing its adoption curve to the video game industry’s mainstream rise.",
+        "url": "https://cointelegraph.com/news/bitcoin-1-million-five-years-vaneck-prediction",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/bitcoin%20prediction%20future%20futurama%20paper.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-07T12:51:19Z",
+        "content": "Matthew Sigel, head of digital assets research at investment manager VanEck, said he sees Bitcoin (BTC) reaching seven figures within the next five years.\r\nBitcoin going up for us is the base case. W… [+2883 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,58 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Upside-Story-Isnt-Finished-Yet.jpg?fit=1024%2C572",
         "publishedAt": "2026-05-06T03:28:48Z",
         "content": "Ethereum price started a fresh increase and remained stable above $2,360. ETH is now consolidating and might aim for more gains if it clears $2,400.\r\n<ul><li>Ethereum started a steady increase above … [+2163 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Keeps $80K Support, Can Bulls Extend Rally Soon?",
-        "description": "Bitcoin price started a fresh increase and cleared the $80,800 zone. BTC is consolidating and might aim for more gains above the $81,500 level. Bitcoin managed to stay above $80,000 and started a fresh increase. The price is trading above $80,500 and the 100 …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-keeps-80k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Extends-Surge.jpg",
-        "publishedAt": "2026-05-06T03:01:29Z",
-        "content": "Bitcoin price started a fresh increase and cleared the $80,800 zone. BTC is consolidating and might aim for more gains above the $81,500 level.\r\n<ul><li>Bitcoin managed to stay above $80,000 and star… [+2156 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Dogecoin’s XRP Fractal Just Put A Date On The Next ATH Run: Analyst",
-        "description": "Dogecoin may not be finished with its multi-year compression phase if a new XRP fractal chart from analyst Charting Guy continues to track. The setup suggests DOGE’s next decisive run toward a prior-cycle high could arrive around mid-2028, with the chart mapp…",
-        "url": "http://www.newsbtc.com/news/dogecoin/dogecoin-xrp-fractal-date-next-ath-run-analyst/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-5.-Mai-2026-14_05_23.png?fit=1222%2C687",
-        "publishedAt": "2026-05-06T00:30:41Z",
-        "content": "Dogecoin may not be finished with its multi-year compression phase if a new XRP fractal chart from analyst Charting Guy continues to track. The setup suggests DOGEs next decisive run toward a prior-c… [+3079 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Forward Industries, RockawayX back OnRe to build onchain reinsurance on Solana",
-        "description": "Investors back a model that moves insurance risk and capital flows onto blockchain rails, as onchain reinsurance looks to attract institutional participation.",
-        "url": "https://cointelegraph.com/news/forward-industries-rockawayx-onre-solana-reinsurance",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-What-is-VanEck%E2%80%99s-Onchain-Economy-ETF-(NODE)-and-how-does-it-work.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-05T22:20:15Z",
-        "content": "Forward Industries and crypto investment company RockawayX have co-led a strategic investment in OnRe, a startup building reinsurance infrastructure on the Solana blockchain, in a move aimed at bring… [+2597 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Kraken eyes IPO as it partners with MoneyGram to bridge crypto-to-cash gap",
-        "description": "Payward and Kraken co-CEO Arjun Sethi says the exchange is “80% ready” to go public, as a new partnership with MoneyGram aims to expand access to digital assets by solving last-mile cash conversion.",
-        "url": "https://www.coindesk.com/business/2026/05/05/kraken-eyes-ipo-as-it-partners-with-moneygram-to-bridge-crypto-to-cash-gap",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c6a8d9e5fa0a7902d01bc64094e514fa9a1ac32b-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-05T21:29:15Z",
-        "content": "Miami Beach, FL Arjun Sethi, co-CEO of Payward and Kraken, said the crypto exchange is about 80% ready to go public, underscoring the firm's IPO ambitions as the company rolls out a new partnership w… [+1932 chars]"
       }
     ]
   }
