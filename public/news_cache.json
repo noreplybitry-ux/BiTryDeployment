@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-08T20:09:23.097Z",
+  "timestamp": "2026-05-08T22:02:31.230Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Andrew Hayward",
+        "title": "Coinbase Shares Slide as Crypto Giant Reports $394 Million Q1 Loss",
+        "description": "Crypto exchange Coinbase reported a consecutive quarterly loss as transaction revenue plummeted 40% amid a volatile market.",
+        "url": "https://decrypt.co/367216/coinbase-shares-slide-crypto-giant-reports-394-million-q1-loss",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_flag-gID_7.png",
+        "publishedAt": "2026-05-07T21:24:36Z",
+        "content": "In brief\r\n<ul><li>Coinbase posted a $394 million Q1 net loss, marking its second consecutive quarterly loss.</li><li>Net revenue fell 31% to $1.4 billion, missing analyst expectations as crypto tradi… [+3187 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Fund managers double down on Bitcoin as crypto sentiment rebounds — CoinShares",
+        "description": "Institutional investors are gradually increasing crypto exposure as Bitcoin leads allocation preferences amid rising fund inflows and improving market sentiment.",
+        "url": "https://cointelegraph.com/news/fund-managers-boost-bitcoin-exposure-crypto-sentiment-rebounds-coinshares",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/space_black%20hole_money%20bitcoin2%20(1).jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-07T20:55:08Z",
+        "content": "Fund managers are warming back up to digital assets, with Bitcoin continuing to dominate allocation preferences even as broader crypto sentiment improves, according to a new survey by CoinShares.\r\nTh… [+2675 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Coinbase stock drops 4% after surprise 1Q miss as crypto trading slows",
+        "description": "The crypto platform missed earnings and revenue estimates as falling digital asset prices weighed on trading activity and investor sentiment.",
+        "url": "https://www.coindesk.com/markets/2026/05/07/coinbase-stock-drops-4-after-surprise-1q-miss-as-crypto-trading-slows",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3a9eec4547a8b835a4a4de35dbdd3a67dcaa6b2f-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-07T20:51:35Z",
+        "content": "Coinbase (COIN) shares fell more than 5% in after-hours trading Thursday after the crypto platform reported weaker-than-expected first-quarter results as falling crypto prices weighed on trading acti… [+2097 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +446,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/An%20in-depth%20look%20at%20Bitcoin%20index.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-06T12:10:38Z",
         "content": "Bitcoin (BTC) buyers resumed their activity during the early Asian trading hours on Wednesday, pushing the price to a new multi-month high of $82,240.\r\nOnchain indicators, including the short-term ho… [+3959 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin can crash to $50K if 'most critical' bear market test fails: Analysis",
-        "description": "Bitcoin price analysis says that bulls must break through the $84,000 zone to avoid a potential correction to new bear market lows.",
-        "url": "https://cointelegraph.com/markets/bitcoin-can-crash-to-50k-if-most-critical-bear-market-test-fails-analysis",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Bear%20bang%20reg%20falling%20crypto%20bitcoin.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-06T11:20:30Z",
-        "content": "Bitcoin (BTC) is approaching its most critical resistance hurdle of the bear market, new BTC price analysis says.\r\nKey points:\r\n<ul><li>Bitcoin has arguably its most important resistance battle at $8… [+2716 chars]"
       }
     ]
   }
