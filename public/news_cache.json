@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-08T16:20:36.355Z",
+  "timestamp": "2026-05-08T18:14:12.758Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Faces Massive Long Liquidation Imbalance As $15 Billion Sits Below Price",
+        "description": "Bitcoin is approaching a critical juncture as market data reveals a massive long liquidation imbalance, with an estimated $15 billion in leveraged positions sitting below the current price. This concentration of downside liquidity creates a high-risk environm…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-liquidation-imbalance/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-118.jpg?fit=1280%2C848",
+        "publishedAt": "2026-05-07T18:00:17Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Bitcoin ending May above $76,000 would confirm new bull market, Tom Lee says",
+        "description": "Tokenization and AI agentic finance are the main narratives driving the next bull cycle in crypto, Lee said at Consensus 2026.",
+        "url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-ending-may-above-usd76-000-would-confirm-new-bull-market-tom-lee-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9d7bd39b2982649e7e43cc0537c507eb62abc21c-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-07T16:44:16Z",
+        "content": "The crypto bear market is likely over, arguing that a fresh cycle driven by tokenization and artificial intelligence-powered financial services is beginning to take shape, said Tom Lee, chairman of B… [+2930 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "If The Bitcoin Price Crosses $400,000, Will The Solana Price Reach $1,500?",
+        "description": "A crypto analyst has projected explosive price targets for both the Bitcoin price and the Solana price. According to the forecast, if Bitcoin surpasses $400,000, Solana could be trading around $1,500 at the same time. The basis of this projection rests on the…",
+        "url": "http://www.newsbtc.com/news/solana/bitcoin-400000-solana-1500/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pngtree-40.png?fit=1200%2C800",
+        "publishedAt": "2026-05-07T16:30:54Z",
+        "content": "A crypto analyst has projected explosive price targets for both the Bitcoin price and the Solana price. According to the forecast, if Bitcoin surpasses $400,000, Solana could be trading around $1,500… [+3172 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +394,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Bear%20bang%20reg%20falling%20crypto%20bitcoin.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-06T11:20:30Z",
         "content": "Bitcoin (BTC) is approaching its most critical resistance hurdle of the bear market, new BTC price analysis says.\r\nKey points:\r\n<ul><li>Bitcoin has arguably its most important resistance battle at $8… [+2716 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Strengthens, Traders Watch For Sustained Upside",
-        "description": "Dogecoin started a decent increase above $0.1080 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.1165. DOGE price started a fresh increase above $0.1120 and $0.1150. The price is trading above the $0.1120 level and …",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-strengthens-0-1120/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Dogecoin-DOGE-Rebound-Hits-Resistance.jpg?fit=1024%2C572",
-        "publishedAt": "2026-05-06T05:08:22Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
