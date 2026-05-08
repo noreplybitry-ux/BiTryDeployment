@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-08T08:24:12.966Z",
+  "timestamp": "2026-05-08T10:42:33.635Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "Core Scientific sold $208 million of bitcoin in Q1 as AI pivot continues",
+        "description": "The firm's AI pivot relies on a 590 MW contract expansion with CoreWeave, projected for $10.2 billion in revenue over 12 years.",
+        "url": "https://www.coindesk.com/business/2026/05/07/core-scientific-sold-usd208-million-of-bitcoin-in-q1-as-ai-pivot-continues",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e4ca7bbcf33940ac3a79675ca9923d61aeededd5-1920x1077.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-07T10:08:15Z",
+        "content": "Core Scientific (CORZ) reported a $347.2 million first-quarter loss even as revenue rose to $115.2 million, as the former bitcoin mining heavyweight sold 2,385 bitcoin for $208.3 million and wrote do… [+2009 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Bithumb enters Vietnam crypto license race with SSI Digital deal",
+        "description": "Bithumb’s tie-up with SSI Digital positions it for Vietnam’s strict crypto exchange pilot as competition for scarce licenses heats up and scrutiny mounts at home.",
+        "url": "https://cointelegraph.com/news/bithumb-moves-vietnams-crypto-exchange-race-ssi-digital-tie-up",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/2312341-3.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-07T08:58:53Z",
+        "content": "South Korean crypto exchange Bithumb is expanding its overseas push through a new partnership in Vietnam as the country moves toward licensing its first domestic digital asset trading platforms.\r\nBit… [+3234 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,45 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
         "publishedAt": "2026-05-05T21:25:23Z",
         "content": "In brief\r\n<ul><li>Solana-based Drift Protocol was hacked on April 1, with $295 million in user funds drained by attackers linked to North Korea.</li><li>Drift Protocol will issue recovery tokens to a… [+3078 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin short liquidations push BTC to multi-month highs: Is $90K next?",
-        "description": "A three-wave short squeeze and Bitcoin’s rising open interest near $80,000 highlight a growing imbalance that could accelerate BTC’s rally to new monthly highs.",
-        "url": "https://cointelegraph.com/markets/bitcoin-eyes-clear-path-to-90k-as-79b-shorts-unwind-since-february",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI-Bitcoin-vs-Gold-Who-Wins-the-Rally-(1).jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-05T21:13:22Z",
-        "content": "Bitcoin (BTC) may have a clear path to $90,000 after $7.9 billion in short liquidations in February put pressure on the bears. Data show liquidations came in three waves that extended from February t… [+3587 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Strategy posts $12.54 billion Q1 loss on declining bitcoin price",
-        "description": "The price of bitcoin fell from about $87,000 to $68,000 during the first three months of 2026.",
-        "url": "https://www.coindesk.com/markets/2026/05/05/strategy-posts-usd12-54-billion-q1-loss-on-declining-bitcoin-price",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d00d58cb37e792985dd1a2d7a5b976dca32d84c0-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-05T20:06:30Z",
-        "content": "Strategy (MSTR) reported a net loss of $12.54 billion in the first quarter of 2026, as bitcoin BTC\r\n$81,660.38 fell from around $87,000 on Jan. 1 to roughly $68,000 by March 31.\r\nSince the start of t… [+837 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Bitcoin extends gains to $81,500 as tokenization push lifts Bullish, Galaxy, Centrifuge",
-        "description": "Crypto market momentum could extend further unless geopolitical risks flare up again, one analyst said.",
-        "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-extends-gains-to-usd81-500-as-tokenization-push-lifts-bullish-galaxy-centrifuge",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9f1df2afc8ef8ac855c56afef93e582035d9d9fb-2120x1164.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-05T18:52:16Z",
-        "content": "Bitcoin BTC\r\n$81,660.38 pushed higher Tuesday, climbing to $81,500 to its strongest level since January as the latest leg of the rally spread beyond major tokens into tokenization-focused plays.\r\nThe… [+2551 chars]"
       }
     ]
   }
