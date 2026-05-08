@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-08T10:42:33.635Z",
+  "timestamp": "2026-05-08T12:12:24.629Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Morgan Stanley Is Coming for Coinbase",
+        "description": "Morgan Stanley just launched crypto trading on ETrade, while the White House wants the Clarity Act signed by July 4.",
+        "url": "https://decrypt.co/367069/morning-minute-morgan-stanley-is-coming-for-coinbase",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png",
+        "publishedAt": "2026-05-07T11:35:21Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8395 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Purge of millions of crypto tokens underway, BTC needs it for sustainable bull cycle: Ben Cowen",
+        "description": "Researcher and market analyst Ben Cowen says the purge of millions of altcoins is already underway and is necessary for a sustainable bitcoin bull market to be in place.",
+        "url": "https://www.coindesk.com/markets/2026/05/07/purge-of-millions-of-crypto-tokens-underway-btc-needs-it-for-sustainable-bull-cycle-ben-cowen",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a63acd47852ba011bc655fb44db8d5af16180542-3024x4032.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-07T11:29:06Z",
+        "content": "The urgent need for a mass extinction of junk coins from the crypto market is not at all a new topic. Cardano Founder Charles Hoskinson and Ethereum co-founder Vitalik Buterin predicted that over 90%… [+4628 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c6a8d9e5fa0a7902d01bc64094e514fa9a1ac32b-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-05T21:29:15Z",
         "content": "Miami Beach, FL Arjun Sethi, co-CEO of Payward and Kraken, said the crypto exchange is about 80% ready to go public, underscoring the firm's IPO ambitions as the company rolls out a new partnership w… [+1932 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "How Solana Exchange Drift Plans to Repay Users After $295 Million Crypto Hack",
-        "description": "Solana's Drift Protocol says most of the stolen funds linked to North Korean hackers remain traceable—and it has a plan to make victims whole.",
-        "url": "https://decrypt.co/366897/how-solana-exchange-drift-repay-users-295-million-crypto-hack",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-05-05T21:25:23Z",
-        "content": "In brief\r\n<ul><li>Solana-based Drift Protocol was hacked on April 1, with $295 million in user funds drained by attackers linked to North Korea.</li><li>Drift Protocol will issue recovery tokens to a… [+3078 chars]"
       }
     ]
   }
