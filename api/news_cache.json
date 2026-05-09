@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T11:54:51.979Z",
+  "timestamp": "2026-05-09T13:38:45.676Z",
   "data": {
     "status": "ok",
-    "totalResults": 41,
+    "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Coinbase bulls point to crypto legislation and stablecoins after earnings miss",
+        "description": "Analysts say Coinbase’s long-term growth may depend more on stablecoins and U.S. crypto legislation than a rebound in trading activity.",
+        "url": "https://www.coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3d14ee5efae01770bbbc627c6ecb94cb0e826a8d-4027x2265.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-08T13:21:13Z",
+        "content": "Coinbases (COIN) weak first-quarter earnings report sparked another divide on Wall Street over whether the crypto platform is building a more durable business or remains tied to cryptos boom-and-bust… [+3211 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Revolut users report Bitcoin price glitch showing BTC at 2 cents",
+        "description": "Revolut users reported Bitcoin briefly dropping to $39,900 alongside apparent crypto price glitches, with experts pointing to a likely data feed or liquidity issue.",
+        "url": "https://cointelegraph.com/news/btc-flash-crash-alerts-at-revolut-users-report-extreme-price-glitches-in-multiple-assets",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-market-volatility-price-analysis-analytics-up-down-trampoline-btc.jpg",
+        "publishedAt": "2026-05-08T12:30:16Z",
+        "content": "Revolut users reported that the app briefly displayed Bitcoin prices plunging to around $39,900 on Friday, while some traders also received notifications suggesting extreme price moves, including tha… [+3199 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Ethereum To $10,000? Analyst Says ETH Must Clear This Level First",
+        "description": "Ethereum’s latest rebound has brought the $10,000 bull-market debate back into focus, but crypto analyst Kevin (Kev Capital TA) says ETH has not yet confirmed a higher-timeframe trend reversal. In a May 7 market update, the analyst argued that Ethereum remain…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-to-10000-analystmust-clear-this-level/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-8.-Mai-2026-11_49_16.png?fit=1222%2C687",
+        "publishedAt": "2026-05-08T12:30:09Z",
+        "content": "Ethereums latest rebound has brought the $10,000 bull-market debate back into focus, but crypto analyst Kevin (Kev Capital TA) says ETH has not yet confirmed a higher-timeframe trend reversal. In a M… [+3529 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,32 +550,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f456c8ffc9ab2b603ddbba9f8613cb0a168723e2-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-07T04:33:44Z",
         "content": "The crypto rally took a pit stop on Thursday while equities kept zooming higher.\r\nBitcoin BTC\r\n$82,164.36traded at $80,945 in Asian hours, down 0.7% over 24 hours but still up 6.9% on the week. Ether… [+2701 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Gains Fade After Strong Rally Push Sparks Profit-Taking",
-        "description": "Bitcoin price started a fresh increase and cleared the $81,200 zone. BTC is consolidating and might aim for more gains above the $82,500 level. Bitcoin managed to stay above $80,200 and started a fresh increase. The price is trading above $80,800 and the 100 …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-gains-82500/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Stability.jpg",
-        "publishedAt": "2026-05-07T03:49:17Z",
-        "content": "Bitcoin price started a fresh increase and cleared the $81,200 zone. BTC is consolidating and might aim for more gains above the $82,500 level.\r\n<ul><li>Bitcoin managed to stay above $80,200 and star… [+2201 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bullish Signal? Crypto Funds Log 5th Consecutive Week Of Inflows",
-        "description": "US spot Bitcoin ETFs kicked off this week with $532 million in single-day crypto inflows on Monday, led by BlackRock’s IBIT at $335 million and Fidelity’s FBTC at $184 million. That strong start followed a week that nearly ended in the red — saved only by a m…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bullish-signal-crypto-funds-log-5th-consecutive-week-of-inflows/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bulls-running-wild-concept-powerful-bulls-charging.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-05-06T22:30:36Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
