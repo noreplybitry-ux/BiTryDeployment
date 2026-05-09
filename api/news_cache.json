@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T16:00:51.993Z",
+  "timestamp": "2026-05-09T17:54:06.226Z",
   "data": {
     "status": "ok",
-    "totalResults": 43,
+    "totalResults": 44,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Analyst Predicts Bitcoin Price Will Top $320,000 After ‘Cleanest Signal’ Emerged",
+        "description": "The Bitcoin price has once again entered the spotlight after a market analyst argued that a major cyclical signal has already appeared, potentially setting the stage for a move toward $320,000. According to a post by @CryptoTice on X, the recent market struct…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-will-top-320000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/07/istockphoto-BTC-17.jpg?fit=612%2C381",
+        "publishedAt": "2026-05-08T17:00:37Z",
+        "content": "The Bitcoin price has once again entered the spotlight after a market analyst argued that a major cyclical signal has already appeared, potentially setting the stage for a move toward $320,000. Accor… [+2826 chars]"
+      },
       {
         "source": {
           "id": null,
