@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T14:57:57.883Z",
+  "timestamp": "2026-05-09T16:00:51.993Z",
   "data": {
     "status": "ok",
     "totalResults": 43,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Coinbase Outage Disrupts Crypto Trading and Transfers Amid Amazon Service Failure",
+        "description": "Coinbase says Amazon Web Services failures across multiple availability zones caused an extended outage on its platform.",
+        "url": "https://decrypt.co/367268/coinbase-outage-disrupts-crypto-trading-transfers-amazon-failure",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-05-08T15:33:46Z",
+        "content": "In brief\r\n<ul><li>Coinbase users reported widespread issues with trading, fund transfers, and the mobile app on Thursday night.</li><li>The exchange said AWS failures in the US-EAST-1 region affected… [+2717 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -550,19 +563,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1df79087776a232721826d2559a0e7004de05895-2724x1532.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-07T05:30:00Z",
         "content": "BNY, the world's largest custodian overseeing $59 trillion of assets, is expanding its digital asset custody business to the United Arab Emirates through local partners.\r\nAccording to a Thursday pres… [+2279 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Struggles To Hold Strength, Downside Risks Build",
-        "description": "Ethereum price started a fresh increase and remained stable above $2,380. ETH is now correcting gains and might decline if it trades below $2,300. Ethereum started a downside correction from the $2,420 zone. The price is trading below $2,350 and the 100-hourl…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-2400/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rejected-Again-Market-Watches-Key-Support-Closely.jpg?fit=1408%2C768",
-        "publishedAt": "2026-05-07T04:48:33Z",
-        "content": "Ethereum price started a fresh increase and remained stable above $2,380. ETH is now correcting gains and might decline if it trades below $2,300.\r\n<ul><li>Ethereum started a downside correction from… [+2211 chars]"
       }
     ]
   }
