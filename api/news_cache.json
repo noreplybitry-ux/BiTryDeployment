@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T08:45:11.820Z",
+  "timestamp": "2026-05-09T10:11:38.617Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "This 1 Chart Explains Why Bitcoin Is Winning And Ethereum Is Losing Right Now",
+        "description": "On-chain analytics firm CryptoQuant has identified a significant divergence in the demand structures driving Bitcoin and Ethereum’s recoveries in 2026, with Bitcoin attracting sustained institutional spot buying while Ethereum’s price stability reflects reduc…",
+        "url": "http://www.newsbtc.com/bitcoin-news/this-1-chart-explains-why-bitcoin-is-winning-and-ethereum-is-losing-right-now/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-btc-btcusd-ethereum-eth-ethusd.jpg?fit=1168%2C784",
+        "publishedAt": "2026-05-08T10:00:55Z",
+        "content": "On-chain analytics firm CryptoQuant has identified a significant divergence in the demand structures driving Bitcoin and Ethereum’s recoveries in 2026, with Bitcoin attracting sustained institutional… [+2928 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Bitcoin shows 2-cent price on Revolut as users report apparent BTC display glitch",
+        "description": "Screenshots showed BTC briefly far below global market prices, though it remains unclear whether any trades were executed at those levels or whether the move was a display issue.",
+        "url": "https://www.coindesk.com/markets/2026/05/08/bitcoin-shows-2-cent-price-on-revolut-as-users-report-apparent-btc-display-glitch",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4637db76f365d8528dc11c5f8ac8652b691b71a4-3926x3081.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-08T09:39:13Z",
+        "content": "Some Revolut users saw bitcoin briefly display far below market prices on Friday, with app charts showing a sudden plunge before snapping back near prevailing levels, in what appeared to be either a … [+2103 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/SEC2-gID_7.jpg",
         "publishedAt": "2026-05-06T19:31:48Z",
         "content": "In brief\r\n<ul><li>Defunct exchange Bittrex is asking a federal judge to undo its 2023 settlement with the SEC.</li><li>The company argues the SEC has since reversed its stance on crypto, undermining … [+2609 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/6: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, ZEC",
-        "description": "Bitcoin sellers may show up if BTC hits $84,000, but altcoin charts continue to predict new price highs.",
-        "url": "https://cointelegraph.com/markets/price-predictions-56-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-zec",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Analys-Analytics-Price-Analysis-Motorcycle-City-Neon-Cyberpunk2.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-06T17:34:51Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin is expected to face selling at $84,000, but a shallow pullback increases the likelihood of an upside breakout.</li><li>Several major altcoins are showing strength at lowe… [+8026 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Says Bitcoin Is Set To Close This Month In The Red, Here’s Why",
-        "description": "Bitcoin’s recovery attempt has carried it back above $80,000 for the first time since late January 2026, giving bulls a reason to argue that the worst of the recent correction has passed. However, one crypto analyst believes the move is running directly into …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-to-see-red-month/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-44.jpg?fit=612%2C434",
-        "publishedAt": "2026-05-06T17:00:30Z",
-        "content": "Bitcoins recovery attempt has carried it back above $80,000 for the first time since late January 2026, giving bulls a reason to argue that the worst of the recent correction has passed. However, one… [+2740 chars]"
       }
     ]
   }
