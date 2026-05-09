@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T17:54:06.226Z",
+  "timestamp": "2026-05-09T19:11:58.097Z",
   "data": {
     "status": "ok",
-    "totalResults": 44,
+    "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/8: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+        "description": "Bitcoin continues to find buyers on each dip, but charts suggest traders may struggle to overcome the $84,000-$92,000 resistance cluster.",
+        "url": "https://cointelegraph.com/markets/price-predictions-58-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analys-analytics-organ-music-girl.jpg",
+        "publishedAt": "2026-05-08T19:03:52Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin needs to hold above $78,000 to avoid a trend reversal and return to $80,000 as resistance.</li><li>Altcoin buyers have left the scene, keeping in step with Bitcoin's slig… [+8008 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -537,45 +550,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Can%20Metaverse%20technology%20enhance%20human-AI%20efficiency-1.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-07T07:00:00Z",
         "content": "Amazon Web Services has integrated Coinbases x402 payments protocol and wallet infrastructure into Amazon Bedrock AgentCore, allowing agents to make USDC micropayments and access services autonomousl… [+2660 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Bitwise enters tokenized funds via Superstate’s crypto carry vehicle",
-        "description": "Bitwise plans to take over Superstate’s tokenized crypto carry fund as active onchain investment products and yield-focused crypto strategies expand.",
-        "url": "https://cointelegraph.com/news/bitwise-enters-tokenized-funds-through-superstates-crypto-carry-vehicle",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Cryptocurrencies%20has%20been%20listed%20an%20exchange-traded%20note%20in%20Europe%20Bitwise-1.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T07:00:00Z",
-        "content": "Bitwise Asset Management plans to take over management of Superstates tokenized crypto carry fund, marking the crypto asset managers entry into tokenized investment products.\r\nThe fund, currently cal… [+3025 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Strength Improves, $90 Resistance Keeps Traders Cautious",
-        "description": "Solana started a fresh increase above the $86 zone. SOL price is now consolidating near $88 and might aim for more gains above the $90 zone. SOL price started a fresh upward move above the $85 and $86 levels against the US Dollar. The price is now trading abo…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-strength-improves-90/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Solana-SOL-Holds-Support-Post-Gains.jpg?fit=1024%2C572",
-        "publishedAt": "2026-05-07T05:48:14Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "BNY, world's largest custody bank, expands crypto services in Abu Dhabi",
-        "description": "The Wall Street giant, which oversees $59 trillion in client assets, teamed up with Finstreet and ADI Foundation for digital asset infrastructure.",
-        "url": "https://www.coindesk.com/business/2026/05/07/bny-world-s-largest-custody-bank-expands-crypto-services-in-abu-dhabi",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1df79087776a232721826d2559a0e7004de05895-2724x1532.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-07T05:30:00Z",
-        "content": "BNY, the world's largest custodian overseeing $59 trillion of assets, is expanding its digital asset custody business to the United Arab Emirates through local partners.\r\nAccording to a Thursday pres… [+2279 chars]"
       }
     ]
   }
