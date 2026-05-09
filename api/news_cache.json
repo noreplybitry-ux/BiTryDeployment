@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T13:38:45.676Z",
+  "timestamp": "2026-05-09T14:57:57.883Z",
   "data": {
     "status": "ok",
-    "totalResults": 42,
+    "totalResults": 43,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Andrew Hayward",
+        "title": "Bitcoin Price Crashes Near Zero on Revolut, Blamed on Third-Party Service Disruption",
+        "description": "Bitcoin briefly plummeted to about 2 cents on Revolut due to what the financial platform described as a third-party service disruption.",
+        "url": "https://decrypt.co/367258/bitcoin-price-crashes-near-zero-revolut-third-party-disruption",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
+        "publishedAt": "2026-05-08T14:29:52Z",
+        "content": "In brief\r\n<ul><li>Bitcoin briefly displayed a price of $0.019 on Revolut overnighta 99.99% drop from its actual trading level near $79,000.</li><li>The glitch didnt last long, but push notifications … [+2352 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Australian police seize $4.1M in Bitcoin tied to darknet market",
+        "description": "NSW Police seized 52.3 Bitcoin worth about $4.1 million in a darknet marketplace probe, as AUSTRAC expands crypto AML supervision.",
+        "url": "https://cointelegraph.com/news/australian-police-seize-41m-bitcoin-largest-dark-net-bust",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/laundry-washing-crypto-aml-cops-regulation-crime-1.jpg",
+        "publishedAt": "2026-05-08T13:56:57Z",
+        "content": "Cybercrime detectives in Australia seized 52 Bitcoin valued at 5.7 million Australian dollars ($4.1 million) in what they said is one of Australia's largest crackdowns on an illegal darknet marketpla… [+3058 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -537,19 +563,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Rejected-Again-Market-Watches-Key-Support-Closely.jpg?fit=1408%2C768",
         "publishedAt": "2026-05-07T04:48:33Z",
         "content": "Ethereum price started a fresh increase and remained stable above $2,380. ETH is now correcting gains and might decline if it trades below $2,300.\r\n<ul><li>Ethereum started a downside correction from… [+2211 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Dogecoin slides 4%, bitcoin rally pauses as Iran ceasefire optimism lifts equities",
-        "description": "Crypto majors took a breather Thursday after a strong run, with bitcoin holding around $81,000 and ether slipping below $2,330 as global equities pushed to fresh records on hopes of a US-Iran deal.",
-        "url": "https://www.coindesk.com/markets/2026/05/07/dogecoin-slides-4-bitcoin-rally-pauses-as-iran-ceasefire-optimism-lifts-equities",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f456c8ffc9ab2b603ddbba9f8613cb0a168723e2-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-07T04:33:44Z",
-        "content": "The crypto rally took a pit stop on Thursday while equities kept zooming higher.\r\nBitcoin BTC\r\n$82,164.36traded at $80,945 in Asian hours, down 0.7% over 24 hours but still up 6.9% on the week. Ether… [+2701 chars]"
       }
     ]
   }
