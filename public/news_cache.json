@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T19:11:58.097Z",
+  "timestamp": "2026-05-09T20:52:42.974Z",
   "data": {
     "status": "ok",
-    "totalResults": 42,
+    "totalResults": 40,
     "articles": [
       {
         "source": {
@@ -524,32 +524,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e4ca7bbcf33940ac3a79675ca9923d61aeededd5-1920x1077.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-07T10:08:15Z",
         "content": "Core Scientific (CORZ) reported a $347.2 million first-quarter loss even as revenue rose to $115.2 million, as the former bitcoin mining heavyweight sold 2,385 bitcoin for $208.3 million and wrote do… [+2009 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Bithumb enters Vietnam crypto license race with SSI Digital deal",
-        "description": "Bithumb’s tie-up with SSI Digital positions it for Vietnam’s strict crypto exchange pilot as competition for scarce licenses heats up and scrutiny mounts at home.",
-        "url": "https://cointelegraph.com/news/bithumb-moves-vietnams-crypto-exchange-race-ssi-digital-tie-up",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/2312341-3.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T08:58:53Z",
-        "content": "South Korean crypto exchange Bithumb is expanding its overseas push through a new partnership in Vietnam as the country moves toward licensing its first domestic digital asset trading platforms.\r\nBit… [+3234 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Coinbase and AWS launch USDC payment rails for AI agents",
-        "description": "The integration allows AI agents built on Amazon Bedrock AgentCore to make USDC micropayments and access services autonomously using Coinbase’s x402 protocol.",
-        "url": "https://cointelegraph.com/news/aws-and-coinbase-launch-crypto-payment-infrastructure-for-ai-agents",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Can%20Metaverse%20technology%20enhance%20human-AI%20efficiency-1.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T07:00:00Z",
-        "content": "Amazon Web Services has integrated Coinbases x402 payments protocol and wallet infrastructure into Amazon Bedrock AgentCore, allowing agents to make USDC micropayments and access services autonomousl… [+2660 chars]"
       }
     ]
   }
