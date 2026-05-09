@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T10:11:38.617Z",
+  "timestamp": "2026-05-09T11:54:51.979Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Coinbase Misses Earnings on Surprise Loss",
+        "description": "Coinbase missed earnings, but one of its newest businesses is scaling incredibly fast—and Tom Lee may finally be slowing his Ethereum buying.",
+        "url": "https://decrypt.co/367241/morning-minute-coinbase-misses-earnings-on-surprise-loss",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-05-08T11:52:46Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7485 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Coinbase blames AWS for hours-long crypto trading outage",
+        "description": "Coinbase says the outage has been fully resolved but that it will investigate the incident fully.",
+        "url": "https://www.coindesk.com/business/2026/05/08/coinbase-disruption-tied-to-aws-outage-draws-criticism-amid-staff-layoffs-and-q1-losses",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/078429b34ba84d8c8190c735090cbbb25e64ecec-4032x2268.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-08T11:29:04Z",
+        "content": "Coinbase (COIN) reported a multi-hour disruption to crypto trading on Thursday, which the Nasdaq-listed exchange attributed to an outage at Amazon Web Services. The incident drew criticism as Coinbas… [+2890 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "AUSTRAC Launches Supervision Campaigns as Australia's Crypto Regulatory Reforms Kick In",
+        "description": "The campaigns target over-the-counter operators and local exchanges as new laws expand oversight to custody and brokerage services.",
+        "url": "https://decrypt.co/367236/austrac-launches-supervision-campaigns-as-australias-crypto-regulatory-reforms-kick-in",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Sydney-gID_7.jpg",
+        "publishedAt": "2026-05-08T10:13:11Z",
+        "content": "In brief\r\n<ul><li>AUSTRAC has launched two targeted supervisory campaigns into Australia's virtual assets sector as new regulatory reforms take effect.</li><li>The campaigns assess money laundering r… [+3487 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,19 +537,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bulls-running-wild-concept-powerful-bulls-charging.jpeg?fit=1440%2C810",
         "publishedAt": "2026-05-06T22:30:36Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Sander Lutz",
-        "title": "Bittrex Wants Its $24 Million Settlement Back, Now That the SEC Is Pro-Crypto",
-        "description": "Now-shuttered crypto exchange Bittrex settled with the SEC back in 2023 after being accused of offering illegally unregistered securities.",
-        "url": "https://decrypt.co/367038/bittrex-wants-24-million-settlement-back-sec-pro-crypto",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/SEC2-gID_7.jpg",
-        "publishedAt": "2026-05-06T19:31:48Z",
-        "content": "In brief\r\n<ul><li>Defunct exchange Bittrex is asking a federal judge to undo its 2023 settlement with the SEC.</li><li>The company argues the SEC has since reversed its stance on crypto, undermining … [+2609 chars]"
       }
     ]
   }
