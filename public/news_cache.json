@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T03:50:49.505Z",
+  "timestamp": "2026-05-09T06:21:33.899Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Is Bitcoin’s drop to $79K a bear trap as Hormuz tensions escalate?",
+        "description": "Bitcoin retreated amid clashes in the Strait of Hormuz and rising oil prices. Analysts argue that a limited appetite for full‑scale escalation caps downside risk. Bulls aim for a rebound toward $82,000, but bears could target a breakdown below $78,000. Bitcoi…",
+        "url": "https://coinjournal.net/news/is-bitcoins-drop-to-79k-a-bear-trap-as-hormuz-tensions-escalate/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
+        "publishedAt": "2026-05-08T06:14:23Z",
+        "content": "<ul><li>Bitcoin retreated amid clashes in the Strait of Hormuz and rising oil prices.</li><li>Analysts argue that a limited appetite for full‑scale escalation caps downside risk.</li><li>Bulls aim fo… [+2965 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Extends Decline As $2,220 Support Comes Into Play",
+        "description": "Ethereum price started a downside correction below $2,350. ETH is now showing a few bearish signs and might decline further if it trades below $2,265. Ethereum started a downside correction below the $2,365 zone. The price is trading below $2,320 and the 100-…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-extends-decline-2265/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Sinks.jpg",
+        "publishedAt": "2026-05-08T04:58:13Z",
+        "content": "Ethereum price started a downside correction below $2,350. ETH is now showing a few bearish signs and might decline further if it trades below $2,265.\r\n<ul><li>Ethereum started a downside correction … [+2093 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Gives Up Part Of Rally, Sellers Reappear Near Highs",
+        "description": "Bitcoin price started a fresh decline below the $81,200 zone. BTC is correcting gains and might struggle to stay above the $78,800 support. Bitcoin failed to stay above $80,500 and extended losses. The price is trading below $81,000 and the 100 hourly simple …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-gives-up-80k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bounce-Looks-Hollow.jpg",
+        "publishedAt": "2026-05-08T04:22:33Z",
+        "content": "Bitcoin price started a fresh decline below the $81,200 zone. BTC is correcting gains and might struggle to stay above the $78,800 support.\r\n<ul><li>Bitcoin failed to stay above $80,500 and extended … [+2077 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Coinbase shares slide on $400M Q1 loss, revenue miss",
+        "description": "Coinbase shares dropped 4.7% after hours on Thursday after the crypto exchange posted its second consecutive quarterly loss and missed Wall Street’s revenue expectations.",
+        "url": "https://cointelegraph.com/news/coinbase-shares-slide-q1-loss-revenue-miss",
+        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Crypto%20Reporting%20Failures%20Can%20Be%20Expensive%2C%20Even%20Criminal3.jpg?prefix=media%2Farticle-covers",
+        "publishedAt": "2026-05-08T04:12:44Z",
+        "content": "Coinbase shares slid Thursday after the US crypto exchange reported a steep first-quarter loss while revenue missed Wall Street expectations.\r\nCoinbase reported a net loss of $394.1 million in Q1, it… [+2708 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,45 +498,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Moon-Bitcoin1-1.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-06T15:08:47Z",
         "content": "Morgan Stanley has rolled out a cryptocurrency trading pilot on its E*Trade platform, charging lower basic retail fees than some of the largest US crypto and brokerage platforms.\r\nThe Wall Street ban… [+2022 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Cardano price forecast: what does surge to $0.27 mean for ADA?",
-        "description": "Cardano price was up 5% as bulls broke above $0.27 amid Bitcoin’s surge. Bullish RSI at 66 and rising open interest signal breakout potential. Support could be at $0.25 and $0.23, while $0.30 and 200 EMA near $0.40 are next resistance levels. Cardano (ADA) tr…",
-        "url": "https://coinjournal.net/news/cardano-price-forecast-what-does-surge-to-0-27-mean-for-ada/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/03/Cardano-tokens-lying-on-a-table.png",
-        "publishedAt": "2026-05-06T12:59:55Z",
-        "content": "<ul><li>Cardano price was up 5% as bulls broke above $0.27 amid Bitcoin’s surge.</li><li>Bullish RSI at 66 and rising open interest signal breakout potential.</li><li>Support could be at $0.25 and $0… [+2707 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole, AI Boost",
-        "title": "Morgan Stanley brings crypto trading with lower fees than rivals",
-        "description": "The bank is rolling out crypto trading on E*Trade with lower fees than Coinbase, Robinhood and Schwab, according to Bloomberg.",
-        "url": "https://www.coindesk.com/markets/2026/05/06/morgan-stanley-brings-crypto-trading-with-lower-fees-than-rivals",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7bda05f218a0e908b37639579d1962cdf9fe311f-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-06T12:39:37Z",
-        "content": "Morgan Stanley is expanding its digital assets push by rolling out crypto trading on its E*Trade platform, positioning the offering as a lower-cost option to established retail crypto services.\r\nThe … [+1427 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Mapping The Bitcoin Price Crash To $63,000: Why BTC Must Reclaim This Level",
-        "description": "Crypto analyst Sherlock has revealed how a Bitcoin price crash to $63,000 could play out. He highlighted key levels to watch and zones where traders should look to short BTC in preparation for this potential downtrend.  Key Levels To Watch With Bitcoin Price …",
-        "url": "http://www.newsbtc.com/news/bitcoin/mapping-bitcoin-price-crash/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-40.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-06T12:30:30Z",
-        "content": "Crypto analyst Sherlock has revealed how a Bitcoin price crash to $63,000 could play out. He highlighted key levels to watch and zones where traders should look to short BTC in preparation for this p… [+2511 chars]"
       }
     ]
   }
