@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-10T13:48:05.338Z",
+  "timestamp": "2026-05-10T14:59:02.455Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Chainlink Price Surges Above $10 For First Time Since January — Details",
+        "description": "The cryptocurrency market has seen increased commentary about the imminence of an altcoin season over the past week, with the Chainlink price performance a major contributor to the conversation. The LINK token, which has had a rough ride this year, seems to h…",
+        "url": "http://www.newsbtc.com/news/chainlink/chainlink-price-surges-above-10-for-first-time-since-january/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/04/iStock-1145882183.jpg?fit=1310%2C801",
+        "publishedAt": "2026-05-09T14:00:06Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
