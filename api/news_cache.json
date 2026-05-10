@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-10T17:55:45.185Z",
+  "timestamp": "2026-05-10T19:13:31.426Z",
   "data": {
     "status": "ok",
     "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "The CLARITY Act will help reshore the crypto industry in the US — Attorney",
+        "description": "Passing the CLARITY crypto market structure bill will help bring crypto companies and projects back to the United States, according to a crypto industry attorney.",
+        "url": "https://cointelegraph.com/news/clarity-act-reshore-crypto-industry-us",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-us-crypto-bills-compared-stable-act-vs-genius-act-2.jpg",
+        "publishedAt": "2026-05-09T19:00:05Z",
+        "content": "Passing the Digital Asset Market Clarity Act of 2025, also known as CLARITY, will help to reshore the crypto industry in the United States, according to Bill Hughes, the senior counsel and director o… [+2383 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Drops To 2 Cents! Revolut Users Report Massive BTC Price Glitch",
+        "description": "A third-party provider failure caused Revolut’s app to show wildly inaccurate crypto prices on Friday, the company confirmed, after users flooded social media with screenshots of Bitcoin listed at just 2 cents. Related Reading: Bitcoin Supply Shock: 100,000 B…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-drops-to-2-cents-revolut-users-report-massive-btc-price-glitch/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_cbc960.jpg?fit=1280%2C720",
+        "publishedAt": "2026-05-09T18:30:22Z",
+        "content": "A third-party provider failure caused Revolut’s app to show wildly inaccurate crypto prices on Friday, the company confirmed, after users flooded social media with screenshots of Bitcoin listed at ju… [+3394 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,32 +537,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Crypto%20glossary%20tax.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-07T15:27:31Z",
         "content": "Germany is preparing to change how it taxes Bitcoin and other cryptocurrencies from 2027, potentially ending one of Europes most generous long-term holding exemptions as it seeks to raise additional … [+4579 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Andy Baehr",
-        "title": "Crypto for Advisors: beneath the crypto surface",
-        "description": "Beneath the stalled market, advisors and long-term investors  are quietly building durable crypto allocations and are becoming more comfortable investing in this asset class.",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/05/06/crypto-for-advisors-beneath-the-crypto-surface",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/eca3a206b5e3c180535cc1b1255646836c011553-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-07T15:00:00Z",
-        "content": "In todays newsletter, Andy Baehr from GSR examines how, beneath the stalled market, advisors are quietly building durable crypto allocations, moving beyond BTC and gaining more comfort in this asset … [+11999 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Polygon reduces block time to 1.75 seconds as payments push accelerates",
-        "description": "Polygon delivered its first block time reduction upgrade since genesis, as the network seeks to position for more high-frequency applications such as private stablecoin payments.",
-        "url": "https://cointelegraph.com/news/polygon-reduces-block-production-time-175-second",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Cube%20blockchain%20science%20scientist%20(1).jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T14:49:54Z",
-        "content": "Blockchain layer-2 (L2) network Polygon reduced its average block time by 250 milliseconds to 1.75 seconds, marking its first block-time reduction since genesis as the network pushes deeper into stab… [+2576 chars]"
       }
     ]
   }
