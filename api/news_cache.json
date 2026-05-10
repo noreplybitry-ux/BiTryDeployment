@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-10T22:55:07.138Z",
+  "timestamp": "2026-05-10T23:58:02.422Z",
   "data": {
     "status": "ok",
     "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "8 Months To Go: Here’s How Bitcoin Could Trend In 2026 – Analyst",
+        "description": "Bitcoin is presently trading above $80,000, as market bulls sustain the rebound from early April. However, the flagship cryptocurrency remains firmly in bear-market territory, down roughly 37.5% from its all-time high. Amid the ongoing rally, crypto analyst A…",
+        "url": "http://www.newsbtc.com/news/bitcoin/8-months-to-go-heres-how-bitcoin-could-trend-in-2026-analyst/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/crypto-bitcoin-btc-background-bitcoin-bitcoin-3d-bitcoins-bitcoin-symbol_994023-13489.jpg?fit=900%2C675",
+        "publishedAt": "2026-05-09T23:00:34Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -524,19 +537,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pngtree-40.png?fit=1200%2C800",
         "publishedAt": "2026-05-07T16:30:54Z",
         "content": "A crypto analyst has projected explosive price targets for both the Bitcoin price and the Solana price. According to the forecast, if Bitcoin surpasses $400,000, Solana could be trading around $1,500… [+3172 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Germany weighs 2027 crypto tax overhaul as one-year holding rule under threat",
-        "description": "Germany plans to “tax cryptocurrencies differently” from 2027, potentially targeting its one-year tax-free holding rule as it pursues extra crypto tax revenue and tougher enforcement.",
-        "url": "https://cointelegraph.com/news/germany-signals-2027-crypto-tax-overhaul-one-year-holding-perk-under-threat",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Crypto%20glossary%20tax.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T15:27:31Z",
-        "content": "Germany is preparing to change how it taxes Bitcoin and other cryptocurrencies from 2027, potentially ending one of Europes most generous long-term holding exemptions as it seeks to raise additional … [+4579 chars]"
       }
     ]
   }
