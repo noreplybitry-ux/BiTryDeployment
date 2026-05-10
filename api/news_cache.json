@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-10T03:51:36.386Z",
+  "timestamp": "2026-05-10T06:38:06.455Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Sam Reynolds",
+        "title": "Judge clears path for Aave to move $71 million in ETH linked to North Korea hack",
+        "description": "Judge Margaret Garnett allowed frozen exploit funds on Arbitrum to move to Aave, but the legal freeze follows the assets as terrorism plaintiffs continue their claim.",
+        "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6ef2a61db600f1771a21a17e7e34caf2b701a33b-1500x989.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-09T04:16:36Z",
+        "content": "A Manhattan federal judge has cleared the way for Aaves recovery effort to move forward after last months North Korea-linked rsETH exploit, allowing $71 million in frozen ether to be transferred out … [+2508 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,19 +511,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-20.jpg?fit=1280%2C853",
         "publishedAt": "2026-05-07T13:30:17Z",
         "content": "Bitcoin continues to maintain a strong bullish structure, with price action steadily grinding higher across multiple timeframes. While bulls remain in control for now, the growing divergence between … [+2779 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "VanEck’s Sigel sees Bitcoin reaching $1M within five years",
-        "description": "VanEck’s Matthew Sigel says Bitcoin could reach $1 million within five years, comparing its adoption curve to the video game industry’s mainstream rise.",
-        "url": "https://cointelegraph.com/news/bitcoin-1-million-five-years-vaneck-prediction",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/bitcoin%20prediction%20future%20futurama%20paper.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T12:51:19Z",
-        "content": "Matthew Sigel, head of digital assets research at investment manager VanEck, said he sees Bitcoin (BTC) reaching seven figures within the next five years.\r\nBitcoin going up for us is the base case. W… [+2883 chars]"
       }
     ]
   }
