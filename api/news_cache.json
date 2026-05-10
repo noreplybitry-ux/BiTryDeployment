@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-10T16:03:10.845Z",
+  "timestamp": "2026-05-10T17:55:45.185Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by",
+        "title": "The Nobitex dilemma: How Iran's biggest crypto exchange stays off the OFAC blacklist",
+        "description": "Iran entered the final night of February 2026 under a near-total internet shutdown. In the wake of a joint strike by the United States and Israel, Tehran almost completely severed the country's connection to the global internet — likely leaving only users on …",
+        "url": "https://cointelegraph.com/features/the-nobitex-dilemma-how-irans-biggest-crypto-exchange-stays-off-the-ofac-blacklist",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/unnamed.jpg",
+        "publishedAt": "2026-05-09T17:42:09Z",
+        "content": "Irans internet formally remained part of global routing, but user activity fell almost to zero. That points to a managed restriction on citizens access to the external network. Source: IODA.\r\nBut in … [+8678 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Miners Bag Profit: 3,400 BTC Flow Out Of Reserves Since April",
+        "description": "The price of Bitcoin has been relatively stable since the start of April, showing strong efforts to reclaim former highs. In its latest recovery attempt, the premier cryptocurrency finally returned above $80,000 for the first time since early February. Unsurp…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-miners-bag-profit-3400-btc-of-reserves/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/2026-05-09-01.52.45.jpg?fit=1280%2C720",
+        "publishedAt": "2026-05-09T17:00:30Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,19 +537,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/Cube%20blockchain%20science%20scientist%20(1).jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-07T14:49:54Z",
         "content": "Blockchain layer-2 (L2) network Polygon reduced its average block time by 250 milliseconds to 1.75 seconds, marking its first block-time reduction since genesis as the network pushes deeper into stab… [+2576 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin Uptrend Still Healthy, But Volume Divergence Raises Questions",
-        "description": "Bitcoin continues to maintain a strong bullish structure, with price action steadily grinding higher across multiple timeframes. While bulls remain in control for now, the growing divergence between price and volume could signal slowing momentum and increase …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-uptrend-still-healthy/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-20.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-07T13:30:17Z",
-        "content": "Bitcoin continues to maintain a strong bullish structure, with price action steadily grinding higher across multiple timeframes. While bulls remain in control for now, the growing divergence between … [+2779 chars]"
       }
     ]
   }
