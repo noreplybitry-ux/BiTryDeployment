@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-09T23:55:29.621Z",
+  "timestamp": "2026-05-10T03:51:36.386Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin stalls as BTC ETF outflows hit $268M: Will new Fed chair restore the rally?",
+        "description": "Rising Bitcoin ETF outflows and liquidations signal short-term caution, but a weak DXY and the eventual appointment of a new Fed chair could resume the rally.",
+        "url": "https://cointelegraph.com/markets/bitcoin-stalls-as-btc-etf-outflows-hit-268m-will-new-fed-chair-restore-the-rally",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/teaching-bitcoin-board-fed-2.jpg",
+        "publishedAt": "2026-05-08T23:57:31Z",
+        "content": "Key takeaways:\r\n<ul><li>A weakening US dollar and higher government debt favor scarce assets, even as spot Bitcoin ETF outflows and low retail demand spark some concern.</li><li>Traders expect Kevin … [+3458 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,32 +511,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/bitcoin%20prediction%20future%20futurama%20paper.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-07T12:51:19Z",
         "content": "Matthew Sigel, head of digital assets research at investment manager VanEck, said he sees Bitcoin (BTC) reaching seven figures within the next five years.\r\nBitcoin going up for us is the base case. W… [+2883 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Morgan Stanley Is Coming for Coinbase",
-        "description": "Morgan Stanley just launched crypto trading on ETrade, while the White House wants the Clarity Act signed by July 4.",
-        "url": "https://decrypt.co/367069/morning-minute-morgan-stanley-is-coming-for-coinbase",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png",
-        "publishedAt": "2026-05-07T11:35:21Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8395 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Purge of millions of crypto tokens underway, BTC needs it for sustainable bull cycle: Ben Cowen",
-        "description": "Researcher and market analyst Ben Cowen says the purge of millions of altcoins is already underway and is necessary for a sustainable bitcoin bull market to be in place.",
-        "url": "https://www.coindesk.com/markets/2026/05/07/purge-of-millions-of-crypto-tokens-underway-btc-needs-it-for-sustainable-bull-cycle-ben-cowen",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a63acd47852ba011bc655fb44db8d5af16180542-3024x4032.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-07T11:29:06Z",
-        "content": "The urgent need for a mass extinction of junk coins from the crypto market is not at all a new topic. Cardano Founder Charles Hoskinson and Ethereum co-founder Vitalik Buterin predicted that over 90%… [+4628 chars]"
       }
     ]
   }
