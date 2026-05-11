@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-11T12:16:31.661Z",
+  "timestamp": "2026-05-11T16:05:38.630Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
       {
         "source": {
@@ -485,19 +485,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%2010k%20report.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-07T22:30:00Z",
         "content": "The CLARITY crypto market structure bill could see a markup in the US Senate Banking Committee as early as next week, according to Kara Calvert, the vice president of US policy at crypto exchange Coi… [+2511 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Hayward",
-        "title": "Coinbase Shares Slide as Crypto Giant Reports $394 Million Q1 Loss",
-        "description": "Crypto exchange Coinbase reported a consecutive quarterly loss as transaction revenue plummeted 40% amid a volatile market.",
-        "url": "https://decrypt.co/367216/coinbase-shares-slide-crypto-giant-reports-394-million-q1-loss",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_flag-gID_7.png",
-        "publishedAt": "2026-05-07T21:24:36Z",
-        "content": "In brief\r\n<ul><li>Coinbase posted a $394 million Q1 net loss, marking its second consecutive quarterly loss.</li><li>Net revenue fell 31% to $1.4 billion, missing analyst expectations as crypto tradi… [+3187 chars]"
       }
     ]
   }
