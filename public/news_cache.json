@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-11T08:27:51.794Z",
+  "timestamp": "2026-05-11T12:16:31.661Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "USDT On Ethereum Sees Largest Exchange Outflow Since February — Details",
+        "description": "According to the latest on-chain data, the Ethereum-native iteration of USDT, the world’s largest stablecoin, has just witnessed its largest exchange outflow in recent months. 1.29 Billion USDT Flow Out Of Crypto Exchanges In a May 9th post on the X platform,…",
+        "url": "http://www.newsbtc.com/news/usdt-ethereum-see-largest-exchange-outflow/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/iStock-1402102628.jpg?fit=1254%2C836",
+        "publishedAt": "2026-05-10T12:00:51Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Why Analysts Believe Ethereum Can Reach $15,000 This Cycle",
+        "description": "Ethereum is trading just above $2,330, a price that, on the monthly chart, is sitting just above within a long accumulation zone. However, recent market dynamics show that Ethereum is destined for far higher prices than $2,300 this cycle, and this is not only…",
+        "url": "http://www.newsbtc.com/altcoin/why-analysts-believe-ethereum-can-reach-15000-this-cycle/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_3d9760.jpg",
+        "publishedAt": "2026-05-10T08:30:28Z",
+        "content": "Ethereum is trading just above $2,330, a price that, on the monthly chart, is sitting just above within a long accumulation zone.\r\nHowever, recent market dynamics show that Ethereum is destined for f… [+2891 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,45 +498,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_flag-gID_7.png",
         "publishedAt": "2026-05-07T21:24:36Z",
         "content": "In brief\r\n<ul><li>Coinbase posted a $394 million Q1 net loss, marking its second consecutive quarterly loss.</li><li>Net revenue fell 31% to $1.4 billion, missing analyst expectations as crypto tradi… [+3187 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Fund managers double down on Bitcoin as crypto sentiment rebounds — CoinShares",
-        "description": "Institutional investors are gradually increasing crypto exposure as Bitcoin leads allocation preferences amid rising fund inflows and improving market sentiment.",
-        "url": "https://cointelegraph.com/news/fund-managers-boost-bitcoin-exposure-crypto-sentiment-rebounds-coinshares",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/space_black%20hole_money%20bitcoin2%20(1).jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T20:55:08Z",
-        "content": "Fund managers are warming back up to digital assets, with Bitcoin continuing to dominate allocation preferences even as broader crypto sentiment improves, according to a new survey by CoinShares.\r\nTh… [+2675 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Coinbase stock drops 4% after surprise 1Q miss as crypto trading slows",
-        "description": "The crypto platform missed earnings and revenue estimates as falling digital asset prices weighed on trading activity and investor sentiment.",
-        "url": "https://www.coindesk.com/markets/2026/05/07/coinbase-stock-drops-4-after-surprise-1q-miss-as-crypto-trading-slows",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3a9eec4547a8b835a4a4de35dbdd3a67dcaa6b2f-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-07T20:51:35Z",
-        "content": "Coinbase (COIN) shares fell more than 5% in after-hours trading Thursday after the crypto platform reported weaker-than-expected first-quarter results as falling crypto prices weighed on trading acti… [+2097 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, AI Boost",
-        "title": "CZ floats Binance.US revival to give U.S. users access to global crypto liquidity",
-        "description": "Zhao positioned BNB Chain as the optimal payments rail for automated transactions between AI agents, noting that current U.S. policies are improving for crypto.",
-        "url": "https://www.coindesk.com/business/2026/05/07/cz-floats-binance-us-revival-to-give-u-s-users-access-to-global-crypto-liquidity",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d3b0012ee91ace25714d9cd726e345705bb5bdd1-3000x1688.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-07T18:48:01Z",
-        "content": "Miami Binance founder Changpeng \"CZ\" Zhao said a revived Binance.US is one possible path for giving American crypto traders access to better prices.\r\nBinance wants to help restore U.S. users access t… [+3020 chars]"
       }
     ]
   }
