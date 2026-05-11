@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-10T23:58:02.422Z",
+  "timestamp": "2026-05-11T04:17:01.897Z",
   "data": {
     "status": "ok",
-    "totalResults": 41,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "XRP Whale-Retail Spread On Binance Falls To 2024 Levels — What’s Happening?",
+        "description": "The XRP price remains range-bound as it has been over the past couple of weeks. As of the time of writing, the XRP price has appreciated by 1.86% over the past day, yet it has been unable to break above the $1.60 resistance. However, despite this apparent ine…",
+        "url": "http://www.newsbtc.com/analysis/xrp/xrp-whale-retail-spread-on-binance-falls-to-2024-levels-whats-happening/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/gold-ripple-xrp-coin-black-background-454343992.jpg?fit=800%2C534",
+        "publishedAt": "2026-05-10T01:00:45Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Predicts Biggest Bitcoin Bull Trap Of The Cycle, Calls Out 50% Crash To $42,000",
+        "description": "Bitcoin’s price recovery is not a new beginning: it is a familiar ending. That is the warning from a crypto analyst, who is of the notion that the current Bitcoin price action is playing out a bull trap the market has seen before and that the setup is pointin…",
+        "url": "http://www.newsbtc.com/news/bitcoin/analyst-predicts-biggest-bitcoin-bull-trap-of-the-cycle-calls-out-50-crash-to-42000/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-10T00:00:07Z",
+        "content": "Bitcoin’s price recovery is not a new beginning: it is a familiar ending. That is the warning from a crypto analyst, who is of the notion that the current Bitcoin price action is playing out a bull t… [+2698 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,58 +511,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d3b0012ee91ace25714d9cd726e345705bb5bdd1-3000x1688.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-07T18:48:01Z",
         "content": "Miami Binance founder Changpeng \"CZ\" Zhao said a revived Binance.US is one possible path for giving American crypto traders access to better prices.\r\nBinance wants to help restore U.S. users access t… [+3020 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "21Shares Debuts First ETF Focused on Canton Network Crypto Token",
-        "description": "The Nasdaq-listed fund offers exposure to Canton Coin, native token of the privacy-focused institutional blockchain network.",
-        "url": "https://decrypt.co/367153/21shares-first-etf-focused-canton-network-crypto-token",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/etf-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-05-07T18:45:41Z",
-        "content": "In brief\r\n<ul><li>21Shares launched the Canton Network ETF (TCAN), the first U.S. ETF offering direct exposure to Canton Coin.</li><li>The ETF provides institutional investors access to Canton Networ… [+3009 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin Faces Massive Long Liquidation Imbalance As $15 Billion Sits Below Price",
-        "description": "Bitcoin is approaching a critical juncture as market data reveals a massive long liquidation imbalance, with an estimated $15 billion in leveraged positions sitting below the current price. This concentration of downside liquidity creates a high-risk environm…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-liquidation-imbalance/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-118.jpg?fit=1280%2C848",
-        "publishedAt": "2026-05-07T18:00:17Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Bitcoin ending May above $76,000 would confirm new bull market, Tom Lee says",
-        "description": "Tokenization and AI agentic finance are the main narratives driving the next bull cycle in crypto, Lee said at Consensus 2026.",
-        "url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-ending-may-above-usd76-000-would-confirm-new-bull-market-tom-lee-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9d7bd39b2982649e7e43cc0537c507eb62abc21c-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-07T16:44:16Z",
-        "content": "The crypto bear market is likely over, arguing that a fresh cycle driven by tokenization and artificial intelligence-powered financial services is beginning to take shape, said Tom Lee, chairman of B… [+2930 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "If The Bitcoin Price Crosses $400,000, Will The Solana Price Reach $1,500?",
-        "description": "A crypto analyst has projected explosive price targets for both the Bitcoin price and the Solana price. According to the forecast, if Bitcoin surpasses $400,000, Solana could be trading around $1,500 at the same time. The basis of this projection rests on the…",
-        "url": "http://www.newsbtc.com/news/solana/bitcoin-400000-solana-1500/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pngtree-40.png?fit=1200%2C800",
-        "publishedAt": "2026-05-07T16:30:54Z",
-        "content": "A crypto analyst has projected explosive price targets for both the Bitcoin price and the Solana price. According to the forecast, if Bitcoin surpasses $400,000, Solana could be trading around $1,500… [+3172 chars]"
       }
     ]
   }
