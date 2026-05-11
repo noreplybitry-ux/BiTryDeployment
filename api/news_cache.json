@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-11T16:05:38.630Z",
+  "timestamp": "2026-05-11T19:00:56.523Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Ethereum down 35% versus Bitcoin in a year: Will the ETH price downtrend continue?",
+        "description": "Ethereum’s ongoing downtrend against Bitcoin mirrors the bearish structure seen in 2024–2025, raising the risk of another 40% decline.",
+        "url": "https://cointelegraph.com/markets/ethereum-down-35-versus-bitcoin-in-year-will-eth-downtrend-continue",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-vs-ethereum-key-differences-between-btc-and-eth-1.jpg",
+        "publishedAt": "2026-05-10T16:13:27Z",
+        "content": "Ethereums native token, Ether (ETH), has fallen more than 35% against Bitcoin (BTC) over the past year, and the downtrend may still have further to go.\r\nKey takeaways:\r\n<ul><li>ETH may plunge another… [+2464 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/regulation%20Binance.jpg?prefix=media%2Farticle-covers",
         "publishedAt": "2026-05-07T22:55:00Z",
         "content": "Update (May 7 at 9:47 PM UTC): This article has been updated to include a statement from Binance.\r\nThe US Department of the Treasury reportedly demanded that Binance follow a monitoring program put i… [+2624 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "CLARITY Act markup could happen as early as next week: Coinbase exec",
-        "description": "The provisions in the crypto market structure bill are still under review by the banking and crypto lobbies as a new poll shows bipartisan voter support for the legislation.",
-        "url": "https://cointelegraph.com/news/clarity-act-markup-could-happen-as-early-as-next-week-coinbase-exec",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%2010k%20report.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T22:30:00Z",
-        "content": "The CLARITY crypto market structure bill could see a markup in the US Senate Banking Committee as early as next week, according to Kara Calvert, the vice president of US policy at crypto exchange Coi… [+2511 chars]"
       }
     ]
   }
