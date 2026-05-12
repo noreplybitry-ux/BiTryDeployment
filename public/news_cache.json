@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T04:40:22.306Z",
+  "timestamp": "2026-05-12T07:47:00.376Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Breakout Setup Strengthens As Bulls Regain Full Control",
+        "description": "Solana started a fresh increase above the $90 zone. SOL price is now consolidating and might aim for more gains above the $96 zone. SOL price started a fresh upward move above the $90 and $92 levels against the US Dollar. The price is now trading above $92 an…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-breakout-setup-strengthens-96/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Breakout-Setup-Strengthens-As-Bulls-Regain-Full-Control.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-11T05:28:23Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,58 +446,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
         "publishedAt": "2026-05-08T06:14:23Z",
         "content": "<ul><li>Bitcoin retreated amid clashes in the Strait of Hormuz and rising oil prices.</li><li>Analysts argue that a limited appetite for full‑scale escalation caps downside risk.</li><li>Bulls aim fo… [+2965 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Extends Decline As $2,220 Support Comes Into Play",
-        "description": "Ethereum price started a downside correction below $2,350. ETH is now showing a few bearish signs and might decline further if it trades below $2,265. Ethereum started a downside correction below the $2,365 zone. The price is trading below $2,320 and the 100-…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-extends-decline-2265/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Sinks.jpg",
-        "publishedAt": "2026-05-08T04:58:13Z",
-        "content": "Ethereum price started a downside correction below $2,350. ETH is now showing a few bearish signs and might decline further if it trades below $2,265.\r\n<ul><li>Ethereum started a downside correction … [+2093 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Gives Up Part Of Rally, Sellers Reappear Near Highs",
-        "description": "Bitcoin price started a fresh decline below the $81,200 zone. BTC is correcting gains and might struggle to stay above the $78,800 support. Bitcoin failed to stay above $80,500 and extended losses. The price is trading below $81,000 and the 100 hourly simple …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-gives-up-80k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bounce-Looks-Hollow.jpg",
-        "publishedAt": "2026-05-08T04:22:33Z",
-        "content": "Bitcoin price started a fresh decline below the $81,200 zone. BTC is correcting gains and might struggle to stay above the $78,800 support.\r\n<ul><li>Bitcoin failed to stay above $80,500 and extended … [+2077 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "Coinbase shares slide on $400M Q1 loss, revenue miss",
-        "description": "Coinbase shares dropped 4.7% after hours on Thursday after the crypto exchange posted its second consecutive quarterly loss and missed Wall Street’s revenue expectations.",
-        "url": "https://cointelegraph.com/news/coinbase-shares-slide-q1-loss-revenue-miss",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Crypto%20Reporting%20Failures%20Can%20Be%20Expensive%2C%20Even%20Criminal3.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-08T04:12:44Z",
-        "content": "Coinbase shares slid Thursday after the US crypto exchange reported a steep first-quarter loss while revenue missed Wall Street expectations.\r\nCoinbase reported a net loss of $394.1 million in Q1, it… [+2708 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "XRP Market Now Controlled By Whales? Dominance Reaches 91% On Binance",
-        "description": "US spot XRP exchange-traded funds recorded net inflows of $11.28 million on Tuesday, marking their second consecutive positive day — a streak that coincides with a sharp shift in who is actually moving XRP off centralized exchanges. Related Reading: Bitcoin E…",
-        "url": "http://www.newsbtc.com/news/xrp-market-now-controlled-by-whales-dominance-reaches-91-on-binance/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/majestic-whales-breaching-in-the-ocean-dramatic-se.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-05-08T00:00:05Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
