@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T19:00:53.368Z",
+  "timestamp": "2026-05-12T21:23:50.495Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Strategy May Be Buying Bitcoin Again Despite Q1 Sell Talk",
+        "description": "Strategy CEO Phong Le said last week that Bitcoin’s daily trading volume — averaging more than $60 billion — is large enough to absorb the company’s $1.5 billion in annual dividend payments without moving the market. Related Reading: Nearly 80% Of Bitcoin Sup…",
+        "url": "http://www.newsbtc.com/bitcoin-news/strategy-may-be-buying-bitcoin-again-despite-q1-sell-talk/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_6113d0.jpg?fit=2000%2C1200",
+        "publishedAt": "2026-05-11T20:30:18Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "'A big nothing burger': A Q&A with Strategy's Michael Saylor on selling bitcoin",
+        "description": "Michael Saylor sat down with CoinDesk on selling bitcoin for dividends, retiring debt with STRC proceeds, and why critics who say Strategy buys the weekly top are missing the point.",
+        "url": "https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b7a99614202ed28b61d1994d9d008c5549d6458b-3552x1970.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-11T20:21:44Z",
+        "content": "When Strategy (MSTR), the largest publicly traded company holding bitcoin, first floated the idea of selling its bitcoin stash to fund its dividend obligations during its recent earnings call, it rai… [+7126 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/11: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA",
+        "description": "Bitcoin looks set for another blockbuster week, but potential resistance at $84,000 could complicate the rally. Will altcoin consolidation continue?",
+        "url": "https://cointelegraph.com/markets/price-predictions-511-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analytics-welding.jpg",
+        "publishedAt": "2026-05-11T20:12:42Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin is struggling to rise above $84,000, but the bulls remain in control as long as the price remains above the 20-day EMA.</li><li>Several major altcoins have pulled back, i… [+8229 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1a8f3f67a420ee637817030b7657f3a5a53e7171-2168x1172.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-08T20:59:25Z",
         "content": "With bitcoin holding above $80,000 and stocks pushing to fresh record highs, risk appetite spilled deeper into crypto markets Friday, lifting altcoins and blockchain infrastructure plays.\r\nSolana (SO… [+1971 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/8: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
-        "description": "Bitcoin continues to find buyers on each dip, but charts suggest traders may struggle to overcome the $84,000-$92,000 resistance cluster.",
-        "url": "https://cointelegraph.com/markets/price-predictions-58-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analys-analytics-organ-music-girl.jpg",
-        "publishedAt": "2026-05-08T19:03:52Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin needs to hold above $78,000 to avoid a trend reversal and return to $80,000 as resistance.</li><li>Altcoin buyers have left the scene, keeping in step with Bitcoin's slig… [+8008 chars]"
       }
     ]
   }
