@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T10:38:02.674Z",
+  "timestamp": "2026-05-12T13:08:10.487Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Crypto funds log $858M in sixth straight week of inflows: CoinShares",
+        "description": "Crypto ETPs drew $858 million in inflows last week, led by Bitcoin with $706 million, as sentiment improved and short-BTC funds saw $14 million of outflows.",
+        "url": "https://cointelegraph.com/news/crypto-funds-six-week-inflow-streak-4-9-billion-coinshares",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-biggest-investment-funds-in-crypto.jpg",
+        "publishedAt": "2026-05-11T11:31:47Z",
+        "content": "Cryptocurrency investment products recorded a sixth straight week of inflows in their longest streak since April to July 2025, totaling $4.9 billion, as improving sentiment around US crypto legislati… [+2803 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vismaya V",
+        "title": "Crypto Funds Add $858M as Clarity Act Drives Market Optimism",
+        "description": "Digital asset inflows peak at a six-week high as a Senate stablecoin deal stokes institutional appetite across Bitcoin and altcoins.",
+        "url": "https://decrypt.co/367382/crypto-funds-add-858m-as-clarity-act-drives-market-optimism",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/cryptocurrency-world-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-05-11T11:31:38Z",
+        "content": "In brief\r\n<ul><li>Digital asset investment products attracted $857.9 million last week, the largest single-week total since April 24, according to CoinShares.</li><li>Bitcoin led with $706.1 million,… [+3934 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Michael Saylor’s latest tax strategy echoes Strategy’s 2022 bitcoin sale",
+        "description": "Michael Saylor confirmed the company was prepared to sell bitcoin, reviving a tax loss harvesting strategy first used in 2022.",
+        "url": "https://www.coindesk.com/markets/2026/05/11/michael-saylor-s-latest-tax-strategy-echoes-strategy-s-2022-bitcoin-sale",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/024d211d615916fbb53501cbb63dc60c856cab12-6000x3376.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-11T10:57:18Z",
+        "content": "Disclosure: The author of this story owns shares in Strategy (MSTR).\r\nWhen executive chairman Michael Saylor confirmed on Strategys (MSTR) Q1 2026 earnings call on May 6 that the company was prepared… [+2145 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,58 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-05-08T11:52:46Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7485 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Coinbase blames AWS for hours-long crypto trading outage",
-        "description": "Coinbase says the outage has been fully resolved but that it will investigate the incident fully.",
-        "url": "https://www.coindesk.com/business/2026/05/08/coinbase-disruption-tied-to-aws-outage-draws-criticism-amid-staff-layoffs-and-q1-losses",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/078429b34ba84d8c8190c735090cbbb25e64ecec-4032x2268.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-08T11:29:04Z",
-        "content": "Coinbase (COIN) reported a multi-hour disruption to crypto trading on Thursday, which the Nasdaq-listed exchange attributed to an outage at Amazon Web Services. The incident drew criticism as Coinbas… [+2890 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "AUSTRAC Launches Supervision Campaigns as Australia's Crypto Regulatory Reforms Kick In",
-        "description": "The campaigns target over-the-counter operators and local exchanges as new laws expand oversight to custody and brokerage services.",
-        "url": "https://decrypt.co/367236/austrac-launches-supervision-campaigns-as-australias-crypto-regulatory-reforms-kick-in",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Sydney-gID_7.jpg",
-        "publishedAt": "2026-05-08T10:13:11Z",
-        "content": "In brief\r\n<ul><li>AUSTRAC has launched two targeted supervisory campaigns into Australia's virtual assets sector as new regulatory reforms take effect.</li><li>The campaigns assess money laundering r… [+3487 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "This 1 Chart Explains Why Bitcoin Is Winning And Ethereum Is Losing Right Now",
-        "description": "On-chain analytics firm CryptoQuant has identified a significant divergence in the demand structures driving Bitcoin and Ethereum’s recoveries in 2026, with Bitcoin attracting sustained institutional spot buying while Ethereum’s price stability reflects reduc…",
-        "url": "http://www.newsbtc.com/bitcoin-news/this-1-chart-explains-why-bitcoin-is-winning-and-ethereum-is-losing-right-now/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-btc-btcusd-ethereum-eth-ethusd.jpg?fit=1168%2C784",
-        "publishedAt": "2026-05-08T10:00:55Z",
-        "content": "On-chain analytics firm CryptoQuant has identified a significant divergence in the demand structures driving Bitcoin and Ethereum’s recoveries in 2026, with Bitcoin attracting sustained institutional… [+2928 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Bitcoin shows 2-cent price on Revolut as users report apparent BTC display glitch",
-        "description": "Screenshots showed BTC briefly far below global market prices, though it remains unclear whether any trades were executed at those levels or whether the move was a display issue.",
-        "url": "https://www.coindesk.com/markets/2026/05/08/bitcoin-shows-2-cent-price-on-revolut-as-users-report-apparent-btc-display-glitch",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4637db76f365d8528dc11c5f8ac8652b691b71a4-3926x3081.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-08T09:39:13Z",
-        "content": "Some Revolut users saw bitcoin briefly display far below market prices on Friday, with app charts showing a sudden plunge before snapping back near prevailing levels, in what appeared to be either a … [+2103 chars]"
       }
     ]
   }
