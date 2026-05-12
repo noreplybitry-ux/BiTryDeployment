@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T00:03:38.271Z",
+  "timestamp": "2026-05-12T04:40:22.306Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Tries To Extend Gains, $2,420 Stands In The Way",
+        "description": "Ethereum price started a fresh increase above the $2,320 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance. Ethereum started a decent upward move from the $2,265 zone. The price is trading above $2,320 and the 10…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-tries-to-extend-gains-2420/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Tries-To-Extend-Gains.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-11T03:18:37Z",
+        "content": "Ethereum price started a fresh increase above the $2,320 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance.\r\n<ul><li>Ethereum started a decent upward mo… [+2078 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Gains Renewed Strength, Market Eyes Bullish Breakout",
+        "description": "Bitcoin price started a fresh increase and cleared the $81,500 zone. BTC is consolidating and might aim for more gains above the $82,450 level. Bitcoin managed to stay above $79,200 and started a fresh increase. The price is trading above $80,750 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-gains-renewed-strength-80k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Bitcoin-Price-Jumps-8-Breakout-Hopes-Reignite-Across-Crypto-Markets.jpg",
+        "publishedAt": "2026-05-11T02:51:50Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $81,500 zone. BTC is consolidating and might aim for more gains above the $82,450 level.\r\n<ul><li>Bitcoin managed to stay above $79,200 and star… [+2203 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,32 +485,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/majestic-whales-breaching-in-the-ocean-dramatic-se.jpeg?fit=1440%2C810",
         "publishedAt": "2026-05-08T00:00:05Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin bulls target $115K by December: Does data back the expectation?",
-        "description": "$1.85 billion in Bitcoin call options target a $115,000 BTC price by the end of 2026, but how realistic are traders’ expectations?",
-        "url": "https://cointelegraph.com/markets/bitcoin-bulls-target-115k-by-december-does-data-back-the-expectation",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Is%20the%202021%20bull%20run%20much%20like%20what%20happened%20in%202017%20and%2013-3.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T23:56:15Z",
-        "content": "Key takeaways:\r\n<ul><li>Half of the $6 billion in Bitcoin options open interest is tied to long-shot strategies used for hedging and neutral price strategies.</li><li>The 9% put (sell) options premiu… [+2812 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "US Treasury ‘privately demanded’ Binance comply with monitoring deal: Report",
-        "description": "Binance’s alleged ties to Iran-linked entities are again under scrutiny after US Treasury Department officials reportedly  pressed the crypto exchange on its adherence to a 2023 settlement, requiring monitoring.",
-        "url": "https://cointelegraph.com/news/us-treasury-binance-monitoring-program-reminder",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/regulation%20Binance.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-07T22:55:00Z",
-        "content": "Update (May 7 at 9:47 PM UTC): This article has been updated to include a statement from Binance.\r\nThe US Department of the Treasury reportedly demanded that Binance follow a monitoring program put i… [+2624 chars]"
       }
     ]
   }
