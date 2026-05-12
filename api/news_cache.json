@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T13:08:10.487Z",
+  "timestamp": "2026-05-12T16:25:11.733Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin Forms The Same Pattern That Previously Led To A 400% Rally",
+        "description": "A chart shared on May 7, 2026, by analyst @CryptoTice highlights a technical formation that mirrors the setup seen ahead of Bitcoin’s surge from roughly $17,000 to $69,000. According to the analysis, the same structural signals have appeared again on the long…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-forms-pattern-400-rally/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-400.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-05-11T16:00:54Z",
+        "content": "A chart shared on May 7, 2026, by analyst @CryptoTice highlights a technical formation that mirrors the setup seen ahead of Bitcoins surge from roughly $17,000 to $69,000. According to the analysis, … [+2918 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,71 +368,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
         "publishedAt": "2026-05-08T14:29:52Z",
         "content": "In brief\r\n<ul><li>Bitcoin briefly displayed a price of $0.019 on Revolut overnighta 99.99% drop from its actual trading level near $79,000.</li><li>The glitch didnt last long, but push notifications … [+2352 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Australian police seize $4.1M in Bitcoin tied to darknet market",
-        "description": "NSW Police seized 52.3 Bitcoin worth about $4.1 million in a darknet marketplace probe, as AUSTRAC expands crypto AML supervision.",
-        "url": "https://cointelegraph.com/news/australian-police-seize-41m-bitcoin-largest-dark-net-bust",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/laundry-washing-crypto-aml-cops-regulation-crime-1.jpg",
-        "publishedAt": "2026-05-08T13:56:57Z",
-        "content": "Cybercrime detectives in Australia seized 52 Bitcoin valued at 5.7 million Australian dollars ($4.1 million) in what they said is one of Australia's largest crackdowns on an illegal darknet marketpla… [+3058 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Coinbase bulls point to crypto legislation and stablecoins after earnings miss",
-        "description": "Analysts say Coinbase’s long-term growth may depend more on stablecoins and U.S. crypto legislation than a rebound in trading activity.",
-        "url": "https://www.coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3d14ee5efae01770bbbc627c6ecb94cb0e826a8d-4027x2265.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-08T13:21:13Z",
-        "content": "Coinbases (COIN) weak first-quarter earnings report sparked another divide on Wall Street over whether the crypto platform is building a more durable business or remains tied to cryptos boom-and-bust… [+3211 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Revolut users report Bitcoin price glitch showing BTC at 2 cents",
-        "description": "Revolut users reported Bitcoin briefly dropping to $39,900 alongside apparent crypto price glitches, with experts pointing to a likely data feed or liquidity issue.",
-        "url": "https://cointelegraph.com/news/btc-flash-crash-alerts-at-revolut-users-report-extreme-price-glitches-in-multiple-assets",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-market-volatility-price-analysis-analytics-up-down-trampoline-btc.jpg",
-        "publishedAt": "2026-05-08T12:30:16Z",
-        "content": "Revolut users reported that the app briefly displayed Bitcoin prices plunging to around $39,900 on Friday, while some traders also received notifications suggesting extreme price moves, including tha… [+3199 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Ethereum To $10,000? Analyst Says ETH Must Clear This Level First",
-        "description": "Ethereum’s latest rebound has brought the $10,000 bull-market debate back into focus, but crypto analyst Kevin (Kev Capital TA) says ETH has not yet confirmed a higher-timeframe trend reversal. In a May 7 market update, the analyst argued that Ethereum remain…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-to-10000-analystmust-clear-this-level/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-8.-Mai-2026-11_49_16.png?fit=1222%2C687",
-        "publishedAt": "2026-05-08T12:30:09Z",
-        "content": "Ethereums latest rebound has brought the $10,000 bull-market debate back into focus, but crypto analyst Kevin (Kev Capital TA) says ETH has not yet confirmed a higher-timeframe trend reversal. In a M… [+3529 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Coinbase Misses Earnings on Surprise Loss",
-        "description": "Coinbase missed earnings, but one of its newest businesses is scaling incredibly fast—and Tom Lee may finally be slowing his Ethereum buying.",
-        "url": "https://decrypt.co/367241/morning-minute-coinbase-misses-earnings-on-surprise-loss",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-05-08T11:52:46Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+7485 chars]"
       }
     ]
   }
