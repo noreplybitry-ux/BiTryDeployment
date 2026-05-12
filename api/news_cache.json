@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T21:23:50.495Z",
+  "timestamp": "2026-05-12T23:07:10.565Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Ethics remain a sticking point as crypto market structure bill goes to markup",
+        "description": "The fight over ethics provisions in a digital asset market structure bill could head to the floor of the US Senate even if the legislation were to advance a committee markup this week.",
+        "url": "https://cointelegraph.com/news/ethics-democrats-market-structure-clarity-bill-markup",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-report-suggests-women-underrepresented-on-crypto-market-structure-sec.jpg",
+        "publishedAt": "2026-05-11T22:20:00Z",
+        "content": "With lawmakers on the US Senate Banking Committee set to consider a markup on a cryptocurrency market structure bill this week, some Democrats are holding the line and potentially their votes on ethi… [+3343 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Can Bitcoin Price Cross $200,000? Pundit Reveals 3-Year Roadmap For Success",
+        "description": "A crypto analyst has laid out a bold Bitcoin price forecast for the next three years, predicting an ultimate target above $200,000 by 2028. In the analysis, he outlines several key catalysts expected to drive BTC toward these projected milestones each year. T…",
+        "url": "http://www.newsbtc.com/bitcoin-news/can-bitcoin-price-cross-200000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-33.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-11T22:00:08Z",
+        "content": "A crypto analyst has laid out a bold Bitcoin price forecast for the next three years, predicting an ultimate target above $200,000 by 2028. In the analysis, he outlines several key catalysts expected… [+3693 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/teaching-bitcoin-board-fed-2.jpg",
         "publishedAt": "2026-05-08T23:57:31Z",
         "content": "Key takeaways:\r\n<ul><li>A weakening US dollar and higher government debt favor scarce assets, even as spot Bitcoin ETF outflows and low retail demand spark some concern.</li><li>Traders expect Kevin … [+3458 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Coinbase rebounds as altcoins surge with bitcoin holding above $80,000",
-        "description": "Tokenization and digital asset-infrastructure stocks climbed as SEC Chair Paul Atkins signaled support for onchain finance rules.",
-        "url": "https://www.coindesk.com/markets/2026/05/08/coinbase-rebounds-as-altcoins-surge-with-bitcoin-holding-above-usd80-000",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1a8f3f67a420ee637817030b7657f3a5a53e7171-2168x1172.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-08T20:59:25Z",
-        "content": "With bitcoin holding above $80,000 and stocks pushing to fresh record highs, risk appetite spilled deeper into crypto markets Friday, lifting altcoins and blockchain infrastructure plays.\r\nSolana (SO… [+1971 chars]"
       }
     ]
   }
