@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T16:25:11.733Z",
+  "timestamp": "2026-05-12T19:00:53.368Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Binance Says AI Defenses Blocked $10.5 Billion in Crypto Fraud Over 15 Months",
+        "description": "Binance, the world's largest crypto exchange, says it has deployed more than 100 AI models to counter a surge in AI-powered scams.",
+        "url": "https://decrypt.co/367469/binance-ai-defenses-blocked-10-5-billion-crypto-fraud",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-05-11T18:25:54Z",
+        "content": "In brief\r\n<ul><li>Crypto scams hit $17 billion in 2025, as AI makes attacks cheaper and more convincing than ever.</li><li>Binance says 100+ AI models helped block $10.5 billion in fraud and intercep… [+2866 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Why the TradFi takeover of crypto might not be the death blow analysts expect",
+        "description": "Gate’s CBO argues that Bloomberg’s warning of a TradFi takeover is \"oversimplified,\" noting that global exchanges evolved past fee-only models years ago.",
+        "url": "https://www.coindesk.com/business/2026/05/11/why-the-tradfi-takeover-of-crypto-might-not-be-the-death-blow-analysts-expect",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-11T16:29:48Z",
+        "content": "Immediately after Morgan Stanley announced it was rolling out E*Trade, charging a mere 50 basis points undercutting established rivals Coinbase, Robinhood and Schwab, Bloomberg analyst Eric Balchunas… [+3601 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,45 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analys-analytics-organ-music-girl.jpg",
         "publishedAt": "2026-05-08T19:03:52Z",
         "content": "Key points:\r\n<ul><li>Bitcoin needs to hold above $78,000 to avoid a trend reversal and return to $80,000 as resistance.</li><li>Altcoin buyers have left the scene, keeping in step with Bitcoin's slig… [+8008 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Analyst Predicts Bitcoin Price Will Top $320,000 After ‘Cleanest Signal’ Emerged",
-        "description": "The Bitcoin price has once again entered the spotlight after a market analyst argued that a major cyclical signal has already appeared, potentially setting the stage for a move toward $320,000. According to a post by @CryptoTice on X, the recent market struct…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-will-top-320000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/07/istockphoto-BTC-17.jpg?fit=612%2C381",
-        "publishedAt": "2026-05-08T17:00:37Z",
-        "content": "The Bitcoin price has once again entered the spotlight after a market analyst argued that a major cyclical signal has already appeared, potentially setting the stage for a move toward $320,000. Accor… [+2826 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Coinbase Outage Disrupts Crypto Trading and Transfers Amid Amazon Service Failure",
-        "description": "Coinbase says Amazon Web Services failures across multiple availability zones caused an extended outage on its platform.",
-        "url": "https://decrypt.co/367268/coinbase-outage-disrupts-crypto-trading-transfers-amazon-failure",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-05-08T15:33:46Z",
-        "content": "In brief\r\n<ul><li>Coinbase users reported widespread issues with trading, fund transfers, and the mobile app on Thursday night.</li><li>The exchange said AWS failures in the US-EAST-1 region affected… [+2717 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Hayward",
-        "title": "Bitcoin Price Crashes Near Zero on Revolut, Blamed on Third-Party Service Disruption",
-        "description": "Bitcoin briefly plummeted to about 2 cents on Revolut due to what the financial platform described as a third-party service disruption.",
-        "url": "https://decrypt.co/367258/bitcoin-price-crashes-near-zero-revolut-third-party-disruption",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-05-08T14:29:52Z",
-        "content": "In brief\r\n<ul><li>Bitcoin briefly displayed a price of $0.019 on Revolut overnighta 99.99% drop from its actual trading level near $79,000.</li><li>The glitch didnt last long, but push notifications … [+2352 chars]"
       }
     ]
   }
