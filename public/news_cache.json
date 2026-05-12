@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T07:47:00.376Z",
+  "timestamp": "2026-05-12T10:38:02.674Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Ethereum Analyst Sets $24,000 Full Parabolic Target, Here’s The Roadmap",
+        "description": "A crypto analyst has just predicted multiple bullish price targets for Ethereum (ETH), but expecting a major dip to critical support levels first before a sharp rally toward $6,000. From there, he outlines a roadmap to much higher targets, with $24,000 set as…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-24000-parabolic-target/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-24000.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-05-11T10:30:54Z",
+        "content": "A crypto analyst has just predicted multiple bullish price targets for Ethereum (ETH), but expecting a major dip to critical support levels first before a sharp rally toward $6,000. From there, he ou… [+2722 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "This Bitcoin price level will be 'end of the bears' if broken, says analyst",
+        "description": "Bitcoin’s rejection at the 200-day EMA mirrors past 25% and 36% BTC sell-offs, fueling fears of another drop toward $60,000.",
+        "url": "https://cointelegraph.com/markets/this-bitcoin-price-level-will-be-end-of-bears-if-broken-analyst",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/coma-crypto-market-falling-bitcoin.jpg",
+        "publishedAt": "2026-05-11T09:04:14Z",
+        "content": "Bitcoin (BTC) has climbed roughly 40% from its February lows, bringing the price back to a critical resistance zone that could determine whether the bear market continues or finally ends.\r\nKey takeaw… [+3067 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin Flashes Signal With 186% Average One-Year Return",
+        "description": "Bitcoin has triggered another daily Kumo breakout, putting a historically bullish technical signal back in focus. Analyst Josh Olszewicz, who posts as CarpeNoctom, shared a chart on X tracking BTC’s forward performance after every daily Kumo breakout since 20…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-signal-186-average-one-year-return/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-11.-Mai-2026-08_32_02.png?fit=1333%2C750",
+        "publishedAt": "2026-05-11T08:00:58Z",
+        "content": "Bitcoin has triggered another daily Kumo breakout, putting a historically bullish technical signal back in focus. Analyst Josh Olszewicz, who posts as CarpeNoctom, shared a chart on X tracking BTCs f… [+2860 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,58 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4637db76f365d8528dc11c5f8ac8652b691b71a4-3926x3081.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-08T09:39:13Z",
         "content": "Some Revolut users saw bitcoin briefly display far below market prices on Friday, with app charts showing a sudden plunge before snapping back near prevailing levels, in what appeared to be either a … [+2103 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Zcash gains 70% in a week amid growing interest in crypto privacy",
-        "description": "Zcash has surged over the past week as traders rotated into privacy-focused cryptocurrencies over growing concerns about artificial intelligence, surveillance, and tighter regulations.",
-        "url": "https://cointelegraph.com/news/zcash-price-surges-privacy-coins-ai-surveillance-concerns",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20Zcash%20Digital%20blockchain%20and%20other%20blockchain%20funds.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-08T07:35:07Z",
-        "content": "Privacy-focused cryptocurrency Zcash (ZEC) has spiked by more than 70% over the past week as crypto traders have been paying closer attention to privacy-focused projects.\r\nZcash traded at about $346 … [+2728 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Back Under Pressure, Rebound Chances Face Big Test",
-        "description": "Dogecoin started a fresh decline below the $0.1120 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.1085 and $0.1115. DOGE price started a fresh decline below the $0.110 level. The price is trading below the $0.110 l…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-back-under-pressure-0-10/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/04/Dogecoin-DOGE-at-Risk-of-More-Losses.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-05-08T06:28:05Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "AWS Northern Virginia data center overheats, impacting Coinbase",
-        "description": "AWS says an overheating issue at its Northern Virginia data center has disrupted trading on Coinbase and impacted other major platforms, including FanDuel.",
-        "url": "https://cointelegraph.com/news/aws-data-center-overheating-impacting-coinbase-others",
-        "urlToImage": "https://payload.cointelegraph.com/api/article-covers/file/HI%20The%20rise%20of%20major%20institutions%20is%20inevitable%20data%20centers.jpg?prefix=media%2Farticle-covers",
-        "publishedAt": "2026-05-08T06:25:52Z",
-        "content": "Amazons cloud unit said on Friday it is working to restore normal temperature levels at its Northern Virginia data center, which has impacted trading on Coinbase and other websites.\r\nWe are observing… [+1437 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Is Bitcoin’s drop to $79K a bear trap as Hormuz tensions escalate?",
-        "description": "Bitcoin retreated amid clashes in the Strait of Hormuz and rising oil prices. Analysts argue that a limited appetite for full‑scale escalation caps downside risk. Bulls aim for a rebound toward $82,000, but bears could target a breakdown below $78,000. Bitcoi…",
-        "url": "https://coinjournal.net/news/is-bitcoins-drop-to-79k-a-bear-trap-as-hormuz-tensions-escalate/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
-        "publishedAt": "2026-05-08T06:14:23Z",
-        "content": "<ul><li>Bitcoin retreated amid clashes in the Strait of Hormuz and rising oil prices.</li><li>Analysts argue that a limited appetite for full‑scale escalation caps downside risk.</li><li>Bulls aim fo… [+2965 chars]"
       }
     ]
   }
