@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-05-13T12:08:46.880Z",
+  "timestamp": "2026-05-13T15:46:13.308Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Binance's chief marketing officer Rachel Conlan to leave the exchange",
+        "description": "Eowyn Chen, former CEO of Trust Wallet, will serve as her interim replacement.",
+        "url": "https://www.coindesk.com/business/2026/05/12/binance-s-chief-marketing-officer-rachel-conlan-is-leaving-the-exchange",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6f665e4a0e21533ba1ae35082f90ab33da2cadc9-2724x1550.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-12T15:25:46Z",
+        "content": "Rachel Conlan, the chief marketing officer (CMO) at Binance, the worlds largest cryptocurrency exchange, said she is leaving the company next month after three years helping to build the brand.\r\nEowy… [+1900 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Bitcoin whale 'still short' BTC despite facing $13M in losses",
+        "description": "A growing cluster of bearish indicators points to a possible Bitcoin pullback toward $71,000, potentially easing the whale’s $13 million net losses.",
+        "url": "https://cointelegraph.com/markets/bitcoin-bear-down-13m-btc-short-analysts-predict-new-bull-market",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/whale-influence-bitcoin-price.jpg",
+        "publishedAt": "2026-05-12T13:56:05Z",
+        "content": "A Bitcoin (BTC) whale is now down about $13 million as BTC price has rebounded by around 40% from its February lows. However, the trader continues to stand by the short position.\r\nKey takeaways:\r\n<ul… [+3779 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Four signs that Bitcoin has recovered to ‘full’ bullish momentum",
+        "description": "Bitcoin’s momentum is expanding as strong onchain activity, recovering stablecoin liquidity and \"real\" spot demand signal sustained upside.",
+        "url": "https://cointelegraph.com/markets/four-signs-bitcoin-recovered-full-bullish-momentum",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysic-analytics-coat-of-arms-red-green-bull-bear1.jpg",
+        "publishedAt": "2026-05-12T13:32:06Z",
+        "content": "Market analysts said Bitcoins (BTC) upside remained intact despite the 2.5% correction from its multi-month high of $82,800 reached on May 6.\r\nKey takeaways:\r\n<ul><li>Bitcoin has successfully re-ente… [+5448 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Elliptic raises $120 million backed by Nasdaq, Deutsche Bank as AI reshapes crypto security",
+        "description": "The crypto analytics firm plans to expand its AI-powered monitoring tools as stablecoins and tokenized finance grow rapidly, CEO Simone Maini said.",
+        "url": "https://www.coindesk.com/business/2026/05/12/elliptic-raises-usd120-million-backed-by-nasdaq-deutsche-bank-as-ai-reshapes-crypto-security",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a791ca2de15f678b124689e311ac232b0a8197e8-3507x1972.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-12T13:30:00Z",
+        "content": "Blockchain analytics firm Elliptic said it raised $120 million in fresh funding from investors including Nasdaq Ventures and Deutsche Bank as financial institutions ramp up spending on crypto complia… [+2453 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Advertorial",
+        "title": "Istanbul Blockchain Week returns in June 2026 amid surging crypto adoption in Türkiye",
+        "description": "Istanbul Blockchain Week, organized by Web3 marketing agency EAK Digital is set to return for its fifth edition on June 2nd-3rd, 2026, at the Hilton Bomonti Hotel.",
+        "url": "https://cointelegraph.com/press-releases/istanbul-blockchain-week-returns-in-june-2026-amid-surging-crypto-adoption-in-trkiye",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/pr-7.jpg",
+        "publishedAt": "2026-05-12T12:56:36Z",
+        "content": "Istanbul, Türkiye, April 12, 2026 Istanbul Blockchain Week, organized by Web3 marketing agency EAK Digital is set to return for its fifth edition on June 2nd-3rd, 2026, at the Hilton Bomonti Hotel. F… [+3379 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,71 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-vs-ethereum-key-differences-between-btc-and-eth-1.jpg",
         "publishedAt": "2026-05-10T16:13:27Z",
         "content": "Ethereums native token, Ether (ETH), has fallen more than 35% against Bitcoin (BTC) over the past year, and the downtrend may still have further to go.\r\nKey takeaways:\r\n<ul><li>ETH may plunge another… [+2464 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "USDT On Ethereum Sees Largest Exchange Outflow Since February — Details",
-        "description": "According to the latest on-chain data, the Ethereum-native iteration of USDT, the world’s largest stablecoin, has just witnessed its largest exchange outflow in recent months. 1.29 Billion USDT Flow Out Of Crypto Exchanges In a May 9th post on the X platform,…",
-        "url": "http://www.newsbtc.com/news/usdt-ethereum-see-largest-exchange-outflow/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/iStock-1402102628.jpg?fit=1254%2C836",
-        "publishedAt": "2026-05-10T12:00:51Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Why Analysts Believe Ethereum Can Reach $15,000 This Cycle",
-        "description": "Ethereum is trading just above $2,330, a price that, on the monthly chart, is sitting just above within a long accumulation zone. However, recent market dynamics show that Ethereum is destined for far higher prices than $2,300 this cycle, and this is not only…",
-        "url": "http://www.newsbtc.com/altcoin/why-analysts-believe-ethereum-can-reach-15000-this-cycle/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_3d9760.jpg",
-        "publishedAt": "2026-05-10T08:30:28Z",
-        "content": "Ethereum is trading just above $2,330, a price that, on the monthly chart, is sitting just above within a long accumulation zone.\r\nHowever, recent market dynamics show that Ethereum is destined for f… [+2891 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "XRP Whale-Retail Spread On Binance Falls To 2024 Levels — What’s Happening?",
-        "description": "The XRP price remains range-bound as it has been over the past couple of weeks. As of the time of writing, the XRP price has appreciated by 1.86% over the past day, yet it has been unable to break above the $1.60 resistance. However, despite this apparent ine…",
-        "url": "http://www.newsbtc.com/analysis/xrp/xrp-whale-retail-spread-on-binance-falls-to-2024-levels-whats-happening/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/gold-ripple-xrp-coin-black-background-454343992.jpg?fit=800%2C534",
-        "publishedAt": "2026-05-10T01:00:45Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Predicts Biggest Bitcoin Bull Trap Of The Cycle, Calls Out 50% Crash To $42,000",
-        "description": "Bitcoin’s price recovery is not a new beginning: it is a familiar ending. That is the warning from a crypto analyst, who is of the notion that the current Bitcoin price action is playing out a bull trap the market has seen before and that the setup is pointin…",
-        "url": "http://www.newsbtc.com/news/bitcoin/analyst-predicts-biggest-bitcoin-bull-trap-of-the-cycle-calls-out-50-crash-to-42000/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-10T00:00:07Z",
-        "content": "Bitcoin’s price recovery is not a new beginning: it is a familiar ending. That is the warning from a crypto analyst, who is of the notion that the current Bitcoin price action is playing out a bull t… [+2698 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "8 Months To Go: Here’s How Bitcoin Could Trend In 2026 – Analyst",
-        "description": "Bitcoin is presently trading above $80,000, as market bulls sustain the rebound from early April. However, the flagship cryptocurrency remains firmly in bear-market territory, down roughly 37.5% from its all-time high. Amid the ongoing rally, crypto analyst A…",
-        "url": "http://www.newsbtc.com/news/bitcoin/8-months-to-go-heres-how-bitcoin-could-trend-in-2026-analyst/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/crypto-bitcoin-btc-background-bitcoin-bitcoin-3d-bitcoins-bitcoin-symbol_994023-13489.jpg?fit=900%2C675",
-        "publishedAt": "2026-05-09T23:00:34Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       }
     ]
   }
