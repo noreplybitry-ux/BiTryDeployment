@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-13T06:52:06.023Z",
+  "timestamp": "2026-05-13T09:48:27.810Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brian Quarmby",
+        "title": "Binance says AI-powered security thwarted $10B in fraud since 2025",
+        "description": "Binance says it intercepted 22.9 million scam attempts in the first quarter of 2026 alone, saving $1.98 billion, as AI-powered deepfakes and phishing bots increasingly target crypto users.",
+        "url": "https://cointelegraph.com/news/binance-ai-powered-security-stopped-10b-fraud-since-2025",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-china-exit-scam-alice.jpg",
+        "publishedAt": "2026-05-12T07:22:38Z",
+        "content": "Crypto exchange Binance says its artificial intelligence-based security tools have helped prevent the loss of more than $10 billion worth of user funds from scams and fraud between 2025 to March 2026… [+2010 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Rubmar Garcia",
+        "title": "Crypto Funds Extend Six-Week Streak With $858M Inflows On CLARITY Act Progress",
+        "description": "Global crypto funds have extended their positive streak into a sixth straight week amid growing rally conviction and a boost from improving sentiment around the CLARITY Act ahead of its long‑delayed Senate Banking markup. Related Reading: Bitcoin Price Gains …",
+        "url": "http://www.newsbtc.com/news/crypto-funds-six-week-streak-clarity-act/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/the-drink-5w9AqmYJjUQ-unsplash.jpg?fit=1920%2C1314",
+        "publishedAt": "2026-05-12T07:00:12Z",
+        "content": "Global crypto funds have extended their positive streak into a sixth straight week amid growing rally conviction and a boost from improving sentiment around the CLARITY Act ahead of its longdelayed S… [+3457 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-us-crypto-bills-compared-stable-act-vs-genius-act-2.jpg",
         "publishedAt": "2026-05-09T19:00:05Z",
         "content": "Passing the Digital Asset Market Clarity Act of 2025, also known as CLARITY, will help to reshore the crypto industry in the United States, according to Bill Hughes, the senior counsel and director o… [+2383 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Drops To 2 Cents! Revolut Users Report Massive BTC Price Glitch",
-        "description": "A third-party provider failure caused Revolut’s app to show wildly inaccurate crypto prices on Friday, the company confirmed, after users flooded social media with screenshots of Bitcoin listed at just 2 cents. Related Reading: Bitcoin Supply Shock: 100,000 B…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-drops-to-2-cents-revolut-users-report-massive-btc-price-glitch/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_cbc960.jpg?fit=1280%2C720",
-        "publishedAt": "2026-05-09T18:30:22Z",
-        "content": "A third-party provider failure caused Revolut’s app to show wildly inaccurate crypto prices on Friday, the company confirmed, after users flooded social media with screenshots of Bitcoin listed at ju… [+3394 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by",
-        "title": "The Nobitex dilemma: How Iran's biggest crypto exchange stays off the OFAC blacklist",
-        "description": "Iran entered the final night of February 2026 under a near-total internet shutdown. In the wake of a joint strike by the United States and Israel, Tehran almost completely severed the country's connection to the global internet — likely leaving only users on …",
-        "url": "https://cointelegraph.com/features/the-nobitex-dilemma-how-irans-biggest-crypto-exchange-stays-off-the-ofac-blacklist",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/unnamed.jpg",
-        "publishedAt": "2026-05-09T17:42:09Z",
-        "content": "Irans internet formally remained part of global routing, but user activity fell almost to zero. That points to a managed restriction on citizens access to the external network. Source: IODA.\r\nBut in … [+8678 chars]"
       }
     ]
   }
