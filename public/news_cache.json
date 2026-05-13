@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-13T09:48:27.810Z",
+  "timestamp": "2026-05-13T12:08:46.880Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/crypto-bitcoin-btc-background-bitcoin-bitcoin-3d-bitcoins-bitcoin-symbol_994023-13489.jpg?fit=900%2C675",
         "publishedAt": "2026-05-09T23:00:34Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "The CLARITY Act will help reshore the crypto industry in the US — Attorney",
-        "description": "Passing the CLARITY crypto market structure bill will help bring crypto companies and projects back to the United States, according to a crypto industry attorney.",
-        "url": "https://cointelegraph.com/news/clarity-act-reshore-crypto-industry-us",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-us-crypto-bills-compared-stable-act-vs-genius-act-2.jpg",
-        "publishedAt": "2026-05-09T19:00:05Z",
-        "content": "Passing the Digital Asset Market Clarity Act of 2025, also known as CLARITY, will help to reshore the crypto industry in the United States, according to Bill Hughes, the senior counsel and director o… [+2383 chars]"
       }
     ]
   }
