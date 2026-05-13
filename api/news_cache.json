@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-12T23:07:10.565Z",
+  "timestamp": "2026-05-13T03:54:53.827Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Rejected Near $2,400 Again, Sellers Defend Key Barrier",
+        "description": "Ethereum price started a downside correction from $2,380. ETH is now showing a few bearish signs and might decline further if it trades below $2,300. Ethereum started a downside correction below the $2,360 zone. The price is trading below $2,350 and the 100-h…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rejected-near-2400-again/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Rejected-Near-2400-Again.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-12T03:08:09Z",
+        "content": "Ethereum price started a downside correction from $2,380. ETH is now showing a few bearish signs and might decline further if it trades below $2,300.\r\n<ul><li>Ethereum started a downside correction b… [+2091 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Eyes $82K Break, Bulls Prepare For Bigger Rally",
+        "description": "Bitcoin price started a downside correction from the $82,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $82,000. Bitcoin failed to stay above $81,500 and extended losses. The price is trading above $80,500 and the 100 hourly si…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-eyes-82k-break/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Eyes-82K-Break.jpg",
+        "publishedAt": "2026-05-12T02:35:43Z",
+        "content": "Bitcoin price started a downside correction from the $82,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $82,000.\r\n<ul><li>Bitcoin failed to stay above $81,500 and exte… [+2120 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6ef2a61db600f1771a21a17e7e34caf2b701a33b-1500x989.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-09T04:16:36Z",
         "content": "A Manhattan federal judge has cleared the way for Aaves recovery effort to move forward after last months North Korea-linked rsETH exploit, allowing $71 million in frozen ether to be transferred out … [+2508 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin stalls as BTC ETF outflows hit $268M: Will new Fed chair restore the rally?",
-        "description": "Rising Bitcoin ETF outflows and liquidations signal short-term caution, but a weak DXY and the eventual appointment of a new Fed chair could resume the rally.",
-        "url": "https://cointelegraph.com/markets/bitcoin-stalls-as-btc-etf-outflows-hit-268m-will-new-fed-chair-restore-the-rally",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/teaching-bitcoin-board-fed-2.jpg",
-        "publishedAt": "2026-05-08T23:57:31Z",
-        "content": "Key takeaways:\r\n<ul><li>A weakening US dollar and higher government debt favor scarce assets, even as spot Bitcoin ETF outflows and low retail demand spark some concern.</li><li>Traders expect Kevin … [+3458 chars]"
       }
     ]
   }
