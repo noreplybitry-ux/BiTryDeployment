@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-13T03:54:53.827Z",
+  "timestamp": "2026-05-13T06:52:06.023Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Slows Near $0.1120, Bulls Face Crucial Test",
+        "description": "Dogecoin started a fresh increase from the $0.1050 zone against the US Dollar. DOGE is now facing hurdles near $0.1120 and might aim for a larger rally. DOGE price started a decent upward move above $0.1080 and $0.1085. The price is trading above the $0.1090 …",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-slows-near-0-1120/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Slows-Near-0.1120.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-12T04:48:56Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,45 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/unnamed.jpg",
         "publishedAt": "2026-05-09T17:42:09Z",
         "content": "Irans internet formally remained part of global routing, but user activity fell almost to zero. That points to a managed restriction on citizens access to the external network. Source: IODA.\r\nBut in … [+8678 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Miners Bag Profit: 3,400 BTC Flow Out Of Reserves Since April",
-        "description": "The price of Bitcoin has been relatively stable since the start of April, showing strong efforts to reclaim former highs. In its latest recovery attempt, the premier cryptocurrency finally returned above $80,000 for the first time since early February. Unsurp…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-miners-bag-profit-3400-btc-of-reserves/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/2026-05-09-01.52.45.jpg?fit=1280%2C720",
-        "publishedAt": "2026-05-09T17:00:30Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Chainlink Price Surges Above $10 For First Time Since January — Details",
-        "description": "The cryptocurrency market has seen increased commentary about the imminence of an altcoin season over the past week, with the Chainlink price performance a major contributor to the conversation. The LINK token, which has had a rough ride this year, seems to h…",
-        "url": "http://www.newsbtc.com/news/chainlink/chainlink-price-surges-above-10-for-first-time-since-january/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/04/iStock-1145882183.jpg?fit=1310%2C801",
-        "publishedAt": "2026-05-09T14:00:06Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Sam Reynolds",
-        "title": "Judge clears path for Aave to move $71 million in ETH linked to North Korea hack",
-        "description": "Judge Margaret Garnett allowed frozen exploit funds on Arbitrum to move to Aave, but the legal freeze follows the assets as terrorism plaintiffs continue their claim.",
-        "url": "https://www.coindesk.com/policy/2026/05/09/judge-clears-path-for-aave-to-move-usd71-million-in-eth-linked-to-north-korea-hack",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6ef2a61db600f1771a21a17e7e34caf2b701a33b-1500x989.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-09T04:16:36Z",
-        "content": "A Manhattan federal judge has cleared the way for Aaves recovery effort to move forward after last months North Korea-linked rsETH exploit, allowing $71 million in frozen ether to be transferred out … [+2508 chars]"
       }
     ]
   }
