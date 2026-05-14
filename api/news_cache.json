@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-14T10:25:27.120Z",
+  "timestamp": "2026-05-14T12:57:00.826Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin rebounds slightly above $81k amid institutional caution",
+        "description": "Key takeaways Bitcoin recovers slightly on Wednesday after finding support below $80,000. US-listed spot ETF saw outflows of $233 million on Tuesday, Bitcoin finds support at a key level Bitcoin (BTC) has slightly rebounded and is currently trading above $81,…",
+        "url": "https://coinjournal.net/news/bitcoin-rebounds-slightly-above-81k-amid-institutional-caution/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-13-2026-12_46_31-PM.png",
+        "publishedAt": "2026-05-13T11:48:51Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin recovers slightly on Wednesday after finding support below $80,000.</li><li>US-listed spot ETF saw outflows of $233 million on Tuesday,</li></ul>Bitcoin finds support a… [+2781 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price repeating move with 77% all-time high odds within year: Analyst",
+        "description": "Bitcoin reduces its drop from all-time highs to 35% in a move that sparked new BTC price all-time highs \"within a year\" on seven occasions in the past.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-repeats-move-with-77-all-time-high-odds-within-a-year",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/market-consolidation-bitcoin.jpg",
+        "publishedAt": "2026-05-13T10:58:38Z",
+        "content": "Bitcoin may have a roughly 77% chance of reaching new all-time highs within a year if historical BTC price patterns repeat.\r\nKey points:\r\n<ul><li>Bitcoin reduces its drawdown from all-time highs from… [+2515 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Vietnam eyes Q3 launch for regulated crypto asset market: Report",
+        "description": "Vietnam’s deputy minister of finance reportedly said the country is planning to launch its regulated cryptocurrency market in the third quarter of 2026 to answer the growing demand for digital assets.",
+        "url": "https://cointelegraph.com/news/vietnam-plans-crypto-market-launch-q3",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-dexs-closing-down-or-re-launching-1.jpg",
+        "publishedAt": "2026-05-13T10:49:01Z",
+        "content": "Vietnam could see the first official activity in its regulated crypto asset market as early as the third quarter of 2026, Deputy Minister of Finance Nguyen Duc Chi said at the Digital Trust in Financ… [+2423 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Jane Street slashes Bitcoin ETF holdings, adds Ether funds in Q1 2026",
+        "description": "Jane Street reduced Bitcoin ETF positions in Q1 2026 while increasing Ether ETF exposure and shifting holdings across crypto equities including Strategy.",
+        "url": "https://cointelegraph.com/news/jane-street-slashes-bitcoin-etfs-adds-ether-funds-q1-2026",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-comparison-bitcoin-vs-ethereum-etf.jpg",
+        "publishedAt": "2026-05-13T10:32:13Z",
+        "content": "Wall Street market maker Jane Street reduced its exposure to Bitcoin exchange-traded funds (ETFs) in the first quarter of 2026 while increasing positions in Ether funds.\r\nJane Street cut major Bitcoi… [+2994 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-400.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-05-11T16:00:54Z",
         "content": "A chart shared on May 7, 2026, by analyst @CryptoTice highlights a technical formation that mirrors the setup seen ahead of Bitcoins surge from roughly $17,000 to $69,000. According to the analysis, … [+2918 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Crypto funds log $858M in sixth straight week of inflows: CoinShares",
-        "description": "Crypto ETPs drew $858 million in inflows last week, led by Bitcoin with $706 million, as sentiment improved and short-BTC funds saw $14 million of outflows.",
-        "url": "https://cointelegraph.com/news/crypto-funds-six-week-inflow-streak-4-9-billion-coinshares",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-biggest-investment-funds-in-crypto.jpg",
-        "publishedAt": "2026-05-11T11:31:47Z",
-        "content": "Cryptocurrency investment products recorded a sixth straight week of inflows in their longest streak since April to July 2025, totaling $4.9 billion, as improving sentiment around US crypto legislati… [+2803 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "Crypto Funds Add $858M as Clarity Act Drives Market Optimism",
-        "description": "Digital asset inflows peak at a six-week high as a Senate stablecoin deal stokes institutional appetite across Bitcoin and altcoins.",
-        "url": "https://decrypt.co/367382/crypto-funds-add-858m-as-clarity-act-drives-market-optimism",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/cryptocurrency-world-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-05-11T11:31:38Z",
-        "content": "In brief\r\n<ul><li>Digital asset investment products attracted $857.9 million last week, the largest single-week total since April 24, according to CoinShares.</li><li>Bitcoin led with $706.1 million,… [+3934 chars]"
       }
     ]
   }
