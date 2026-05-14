@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-14T04:50:28.893Z",
+  "timestamp": "2026-05-14T07:46:51.569Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Mysterious Bitcoin Whale Transfers $40 Billion After Years Of Silence",
+        "description": "Eight Satoshi-era wallets moved 10,000 Bitcoin each in July last year, triggering waves of speculation across crypto markets. Now, another old wallet has come back to life — and traders are watching closely. Related Reading: Swiss Bitcoin Reserve Effort Withd…",
+        "url": "http://www.newsbtc.com/news/bitcoin/mysterious-bitcoin-whale-transfers-40-billion-after-years-of-silence/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_2f1d83.jpg?fit=6150%2C4100",
+        "publishedAt": "2026-05-13T05:30:29Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Dips Modestly, But Traders Still Expect Bigger Move",
+        "description": "Solana failed to stay above $96 and corrected some gains. SOL price is now consolidating and might aim for another increase above $98. SOL price started a downside correction below $96 against the US Dollar. The price is now trading above $94 and the 100-hour…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-dips-modestly-95/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Dips-Modestly-But-Traders-Still-Expect-Bigger-Move.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-13T05:08:09Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-24000.jpeg?fit=1536%2C1024",
         "publishedAt": "2026-05-11T10:30:54Z",
         "content": "A crypto analyst has just predicted multiple bullish price targets for Ethereum (ETH), but expecting a major dip to critical support levels first before a sharp rally toward $6,000. From there, he ou… [+2722 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "This Bitcoin price level will be 'end of the bears' if broken, says analyst",
-        "description": "Bitcoin’s rejection at the 200-day EMA mirrors past 25% and 36% BTC sell-offs, fueling fears of another drop toward $60,000.",
-        "url": "https://cointelegraph.com/markets/this-bitcoin-price-level-will-be-end-of-bears-if-broken-analyst",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/coma-crypto-market-falling-bitcoin.jpg",
-        "publishedAt": "2026-05-11T09:04:14Z",
-        "content": "Bitcoin (BTC) has climbed roughly 40% from its February lows, bringing the price back to a critical resistance zone that could determine whether the bear market continues or finally ends.\r\nKey takeaw… [+3067 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Flashes Signal With 186% Average One-Year Return",
-        "description": "Bitcoin has triggered another daily Kumo breakout, putting a historically bullish technical signal back in focus. Analyst Josh Olszewicz, who posts as CarpeNoctom, shared a chart on X tracking BTC’s forward performance after every daily Kumo breakout since 20…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-signal-186-average-one-year-return/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-11.-Mai-2026-08_32_02.png?fit=1333%2C750",
-        "publishedAt": "2026-05-11T08:00:58Z",
-        "content": "Bitcoin has triggered another daily Kumo breakout, putting a historically bullish technical signal back in focus. Analyst Josh Olszewicz, who posts as CarpeNoctom, shared a chart on X tracking BTCs f… [+2860 chars]"
       }
     ]
   }
