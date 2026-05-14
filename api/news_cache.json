@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-14T07:46:51.569Z",
+  "timestamp": "2026-05-14T10:25:27.120Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley",
+        "title": "Charles Schwab begins U.S. rollout of spot crypto trading for retail customers",
+        "description": "An initial group of clients can now trade bitcoin and ether on the Schwab Crypto platform.",
+        "url": "https://www.coindesk.com/business/2026/05/13/charles-schwab-begins-rollout-of-spot-crypto-trading-for-retail",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d322c8261bb4dcd2eade53454b78734f6ff32bcd-5000x3750.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-13T10:24:25Z",
+        "content": "Charles Schwab, the brokerage giant that manages around $12 trillion in client assets, began the rollout of its spot cryptocurrency trading service for retail customers in the U.S.\r\nAn initial group … [+833 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Crypto Firm Exodus Drains 63% Of Its Bitcoin Reserves As Q1 Loss Doubled Year Over Year",
+        "description": "Exodus Movement sold more than 1,000 Bitcoin in the first three months of 2026 to fund a push into financial technology, raising $73 million in the process. Related Reading: Bitcoin Bulls Awaken As Rare Golden Cross Signal Flashes On Charts The crypto wallet …",
+        "url": "http://www.newsbtc.com/bitcoin-news/crypto-firm-exodus-drains-63-of-its-bitcoin-reserves-as-q1-loss-doubled-year-over-year/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_381fd9.jpg?fit=1500%2C1000",
+        "publishedAt": "2026-05-13T10:00:33Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "EToro profits rise as commodities boom offsets crypto trading slump",
+        "description": "EToro posted its strongest quarter as a public company, with net income up 37% to $82 million, but crypto trade volumes fell 32% in April.",
+        "url": "https://cointelegraph.com/news/etoros-net-income-jumps-37-on-commodities-surge-crypto-trades-drop-32",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-bitcoin-on-etoro-1.jpg",
+        "publishedAt": "2026-05-13T08:48:35Z",
+        "content": "EToro reported first-quarter net income of $82 million, up 37% from a year earlier, as a surge in commodities trading offset weaker crypto activity.\r\nNet income rose 37% year-over-year to $82 million… [+2456 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/cryptocurrency-world-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-05-11T11:31:38Z",
         "content": "In brief\r\n<ul><li>Digital asset investment products attracted $857.9 million last week, the largest single-week total since April 24, according to CoinShares.</li><li>Bitcoin led with $706.1 million,… [+3934 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Michael Saylor’s latest tax strategy echoes Strategy’s 2022 bitcoin sale",
-        "description": "Michael Saylor confirmed the company was prepared to sell bitcoin, reviving a tax loss harvesting strategy first used in 2022.",
-        "url": "https://www.coindesk.com/markets/2026/05/11/michael-saylor-s-latest-tax-strategy-echoes-strategy-s-2022-bitcoin-sale",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/024d211d615916fbb53501cbb63dc60c856cab12-6000x3376.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-11T10:57:18Z",
-        "content": "Disclosure: The author of this story owns shares in Strategy (MSTR).\r\nWhen executive chairman Michael Saylor confirmed on Strategys (MSTR) Q1 2026 earnings call on May 6 that the company was prepared… [+2145 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Ethereum Analyst Sets $24,000 Full Parabolic Target, Here’s The Roadmap",
-        "description": "A crypto analyst has just predicted multiple bullish price targets for Ethereum (ETH), but expecting a major dip to critical support levels first before a sharp rally toward $6,000. From there, he outlines a roadmap to much higher targets, with $24,000 set as…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-24000-parabolic-target/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-24000.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-05-11T10:30:54Z",
-        "content": "A crypto analyst has just predicted multiple bullish price targets for Ethereum (ETH), but expecting a major dip to critical support levels first before a sharp rally toward $6,000. From there, he ou… [+2722 chars]"
       }
     ]
   }
