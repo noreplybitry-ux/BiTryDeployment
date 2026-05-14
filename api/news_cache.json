@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-14T15:26:05.225Z",
+  "timestamp": "2026-05-14T17:57:58.849Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Margaux Nijkerk",
+        "title": "The Protocol: Solana’s ‘Alpenglow’ upgrade is live for testing",
+        "description": "Also: LayerZero apology, Ronin layer-2 transition and ‘Clear Signing’",
+        "url": "https://www.coindesk.com/tech/2026/05/13/the-protocol-solana-s-alpenglow-upgrade-is-live-for-testing",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b19fea6ba8d91933fbd0aa045661baca984f3247-4080x2720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-13T16:48:39Z",
+        "content": "\"ALPENGLOW\" UPGRADE LIVE FOR TESTING ON SOLANA: Solana developer Anza said that Alpenglow, the networks biggest proposed consensus overhaul to date, is live on a community test cluster, marking a maj… [+8337 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price targets $79K as US PPI inflation hits highest since 2022",
+        "description": "Bitcoin heads toward weekly lows as US PPI inflation data sees its highest levels since 2022, raising concerns of financial tightening by the Fed next.",
+        "url": "https://cointelegraph.com/markets/bitcoin-risks-80k-loss-us-ppi-inflation-hits-highest-since-2022",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/analytics-red-market-falling-drop-bitcoin.jpg",
+        "publishedAt": "2026-05-13T15:46:25Z",
+        "content": "Bitcoin (BTC) fell below $80,000 into Wednesdays Wall Street open as US inflation data continued to alarm.\r\nKey points:\r\n<ul><li>Bitcoin price action sees fresh downside pressure thanks to US PPI inf… [+3253 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Dovile Silenskyte, Joshua de Vos, Francisco Rodrigues",
+        "title": "Crypto Long & Short: Bitcoin vs. gold: 26% relative undervaluation",
+        "description": "In this week’s Crypto Long & Short Newsletter, Dovile Silenskyte provides an alternative to the “bitcoin as a risk asset” narrative. Then, Joshua de Vos shares insights and analysis on global exchanges.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/05/13/crypto-long-and-short-bitcoin-vs-gold-26-relative-undervaluation",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8daa6365814ead8fb4770fb5480e82e664612718-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-13T15:44:26Z",
+        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Dovile Silenskyte provides an alternative to the bitcoin as a risk asset narrative.</li><li>Joshua de Vos shares … [+11000 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b7a99614202ed28b61d1994d9d008c5549d6458b-3552x1970.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-11T20:21:44Z",
         "content": "When Strategy (MSTR), the largest publicly traded company holding bitcoin, first floated the idea of selling its bitcoin stash to fund its dividend obligations during its recent earnings call, it rai… [+7126 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/11: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA",
-        "description": "Bitcoin looks set for another blockbuster week, but potential resistance at $84,000 could complicate the rally. Will altcoin consolidation continue?",
-        "url": "https://cointelegraph.com/markets/price-predictions-511-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analytics-welding.jpg",
-        "publishedAt": "2026-05-11T20:12:42Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin is struggling to rise above $84,000, but the bulls remain in control as long as the price remains above the 20-day EMA.</li><li>Several major altcoins have pulled back, i… [+8229 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Binance Says AI Defenses Blocked $10.5 Billion in Crypto Fraud Over 15 Months",
-        "description": "Binance, the world's largest crypto exchange, says it has deployed more than 100 AI models to counter a surge in AI-powered scams.",
-        "url": "https://decrypt.co/367469/binance-ai-defenses-blocked-10-5-billion-crypto-fraud",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-05-11T18:25:54Z",
-        "content": "In brief\r\n<ul><li>Crypto scams hit $17 billion in 2025, as AI makes attacks cheaper and more convincing than ever.</li><li>Binance says 100+ AI models helped block $10.5 billion in fraud and intercep… [+2866 chars]"
       }
     ]
   }
