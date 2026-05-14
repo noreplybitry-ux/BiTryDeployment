@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-05-14T00:07:36.343Z",
+  "timestamp": "2026-05-14T04:50:28.893Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Iran war, AI spending could push Bitcoin back to $126K this year: Hayes",
+        "description": "Arthur Hayes says rising AI spending and the Iran war could trigger more money printing by China and the US, creating favorable conditions for Bitcoin and the wider crypto market to rally.",
+        "url": "https://cointelegraph.com/news/arthur-hayes-bitcoin-ai-race-iran-war-money-printing-126k",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/green-bang-bitcoin-up.jpg",
+        "publishedAt": "2026-05-13T04:10:05Z",
+        "content": "The ongoing war in Iran and the race to dominate the AI sector will result in money printing that could benefit the crypto ecosystem and push Bitcoin back to its all-time high this year, according to… [+2594 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Slides Back To $2,250, Traders Watch Crucial Support",
+        "description": "Ethereum price started a fresh decline and traded below $2,300. ETH is now consolidating above $2,250 and might struggle to recover. Ethereum started a downside correction below the $2,280 zone. The price is trading below $2,300 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-slides-back-2250/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Slides-Back-To-2250.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-13T03:18:56Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,300. ETH is now consolidating above $2,250 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction below the $2,280 z… [+2159 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Recovery Gains Pace, Can Rally Momentum Return?",
+        "description": "Bitcoin price started a recovery wave above the $80,500 zone. BTC is consolidating and might aim for more gains if it clears the $81,500 resistance zone. Bitcoin managed to form a base above $80,000 and started a recovery wave. The price is trading above $80,…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-gains-pace-82k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Recovery-Gains-Pace.jpg",
+        "publishedAt": "2026-05-13T02:41:06Z",
+        "content": "Bitcoin price started a recovery wave above the $80,500 zone. BTC is consolidating and might aim for more gains if it clears the $81,500 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2197 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Strategy Boosts Bitcoin Position With Fresh $206M STRC Injection",
+        "description": "Peter Schiff thinks Strategy executive chairman and co-founder Michael Saylor is misleading retirees. The outspoken economist fired off a warning on X, asking how the SEC could allow Saylor to publicly describe STRC as suitable for retired investors whose mai…",
+        "url": "http://www.newsbtc.com/news/bitcoin/strategy-boosts-bitcoin-position-with-fresh-206m-strc-injection/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_24cebf.png?fit=762%2C457",
+        "publishedAt": "2026-05-13T02:30:13Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Here’s Why The Bitcoin Price Has Risen 37% Since April And What Could Threaten The Rally",
+        "description": "The massive surge in the Bitcoin price since April 2026 is still viewed as part of a broader bear market phase, according to on-chain analytics platform CryptoQuant. While some market experts believe the rebound could signal a new bull run, CryptoQuant’s unre…",
+        "url": "http://www.newsbtc.com/news/bitcoin/why-bitcoin-has-risen-37/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-14.jpg?fit=1280%2C847",
+        "publishedAt": "2026-05-13T01:00:54Z",
+        "content": "The massive surge in the Bitcoin price since April 2026 is still viewed as part of a broader bear market phase, according to on-chain analytics platform CryptoQuant. While some market experts believe… [+3088 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-11.-Mai-2026-08_32_02.png?fit=1333%2C750",
         "publishedAt": "2026-05-11T08:00:58Z",
         "content": "Bitcoin has triggered another daily Kumo breakout, putting a historically bullish technical signal back in focus. Analyst Josh Olszewicz, who posts as CarpeNoctom, shared a chart on X tracking BTCs f… [+2860 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Breakout Setup Strengthens As Bulls Regain Full Control",
-        "description": "Solana started a fresh increase above the $90 zone. SOL price is now consolidating and might aim for more gains above the $96 zone. SOL price started a fresh upward move above the $90 and $92 levels against the US Dollar. The price is now trading above $92 an…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-breakout-setup-strengthens-96/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Breakout-Setup-Strengthens-As-Bulls-Regain-Full-Control.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-11T05:28:23Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
