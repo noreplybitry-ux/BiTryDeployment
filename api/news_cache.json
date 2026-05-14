@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-13T22:18:16.141Z",
+  "timestamp": "2026-05-14T00:07:36.343Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,19 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Breakout-Setup-Strengthens-As-Bulls-Regain-Full-Control.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-11T05:28:23Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Tries To Extend Gains, $2,420 Stands In The Way",
-        "description": "Ethereum price started a fresh increase above the $2,320 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance. Ethereum started a decent upward move from the $2,265 zone. The price is trading above $2,320 and the 10…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-tries-to-extend-gains-2420/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Tries-To-Extend-Gains.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-11T03:18:37Z",
-        "content": "Ethereum price started a fresh increase above the $2,320 zone. ETH is now consolidating and might struggle to continue higher above the $2,385 resistance.\r\n<ul><li>Ethereum started a decent upward mo… [+2078 chars]"
       }
     ]
   }
