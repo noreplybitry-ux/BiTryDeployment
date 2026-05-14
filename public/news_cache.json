@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-14T17:57:58.849Z",
+  "timestamp": "2026-05-14T19:57:16.790Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Whale shorts $70M in crypto and tech: Should Bitcoin traders worry?",
+        "description": "Despite short-term bearish bets from a successful Hyperliquid whale, a growing US Fed balance sheet and rising inflation support Bitcoin in the long term.",
+        "url": "https://cointelegraph.com/markets/whale-shorts-70m-in-crypto-tech-should-bitcoin-traders-worry",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-cover-imagereview-of-margex.jpg",
+        "publishedAt": "2026-05-13T19:44:43Z",
+        "content": "Key takeaways:\r\n<ul><li>A successful Hyperliquid whale opened a $70 million short position, but data suggests this is a technical move.</li><li>Rising oil prices and Fed liquidity injections could de… [+3673 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/13: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+        "description": "Bitcoin’s break below $79,000 may deepen the pullback, which could intensify the selling in several major altcoins.",
+        "url": "https://cointelegraph.com/markets/price-predictions-513-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-geologist-museum.jpg",
+        "publishedAt": "2026-05-13T18:09:17Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin has reached a crucial support, as a break below the $79,000 level may deepen the pullback.</li><li>Several major altcoins are facing selling pressure, indicating that the… [+8368 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Bitcoin Just Entered A Deceptive Territory, Here’s What You Should Know",
+        "description": "Bitcoin’s recent price behavior has been everything the bulls hoped for, and that may be precisely the problem. Since bottoming out around $63,000 in early April, Bitcoin has posted a sequence of higher highs and higher lows and has now reclaimed $80,000. The…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-deceptive-territory/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-05-13T18:00:31Z",
+        "content": "Bitcoin’s recent price behavior has been everything the bulls hoped for, and that may be precisely the problem. Since bottoming out around $63,000 in early April, Bitcoin has posted a sequence of hig… [+2763 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,58 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Eyes-82K-Break.jpg",
         "publishedAt": "2026-05-12T02:35:43Z",
         "content": "Bitcoin price started a downside correction from the $82,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $82,000.\r\n<ul><li>Bitcoin failed to stay above $81,500 and exte… [+2120 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Ethics remain a sticking point as crypto market structure bill goes to markup",
-        "description": "The fight over ethics provisions in a digital asset market structure bill could head to the floor of the US Senate even if the legislation were to advance a committee markup this week.",
-        "url": "https://cointelegraph.com/news/ethics-democrats-market-structure-clarity-bill-markup",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-report-suggests-women-underrepresented-on-crypto-market-structure-sec.jpg",
-        "publishedAt": "2026-05-11T22:20:00Z",
-        "content": "With lawmakers on the US Senate Banking Committee set to consider a markup on a cryptocurrency market structure bill this week, some Democrats are holding the line and potentially their votes on ethi… [+3343 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Can Bitcoin Price Cross $200,000? Pundit Reveals 3-Year Roadmap For Success",
-        "description": "A crypto analyst has laid out a bold Bitcoin price forecast for the next three years, predicting an ultimate target above $200,000 by 2028. In the analysis, he outlines several key catalysts expected to drive BTC toward these projected milestones each year. T…",
-        "url": "http://www.newsbtc.com/bitcoin-news/can-bitcoin-price-cross-200000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-33.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-11T22:00:08Z",
-        "content": "A crypto analyst has laid out a bold Bitcoin price forecast for the next three years, predicting an ultimate target above $200,000 by 2028. In the analysis, he outlines several key catalysts expected… [+3693 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Strategy May Be Buying Bitcoin Again Despite Q1 Sell Talk",
-        "description": "Strategy CEO Phong Le said last week that Bitcoin’s daily trading volume — averaging more than $60 billion — is large enough to absorb the company’s $1.5 billion in annual dividend payments without moving the market. Related Reading: Nearly 80% Of Bitcoin Sup…",
-        "url": "http://www.newsbtc.com/bitcoin-news/strategy-may-be-buying-bitcoin-again-despite-q1-sell-talk/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_6113d0.jpg?fit=2000%2C1200",
-        "publishedAt": "2026-05-11T20:30:18Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "'A big nothing burger': A Q&A with Strategy's Michael Saylor on selling bitcoin",
-        "description": "Michael Saylor sat down with CoinDesk on selling bitcoin for dividends, retiring debt with STRC proceeds, and why critics who say Strategy buys the weekly top are missing the point.",
-        "url": "https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b7a99614202ed28b61d1994d9d008c5549d6458b-3552x1970.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-11T20:21:44Z",
-        "content": "When Strategy (MSTR), the largest publicly traded company holding bitcoin, first floated the idea of selling its bitcoin stash to fund its dividend obligations during its recent earnings call, it rai… [+7126 chars]"
       }
     ]
   }
