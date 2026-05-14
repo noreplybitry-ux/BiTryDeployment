@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-14T12:57:00.826Z",
+  "timestamp": "2026-05-14T15:26:05.225Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Ethereum Open Interest Rises While Price Pulls Back: Short Squeeze Setup?",
+        "description": "Data shows the Ethereum Open Interest has surged alongside the latest retrace in the asset’s price. Here’s what this could mean for the cryptocurrency. Ethereum Open Interest Has Seen A Rise Recently As highlighted by analyst Maartunn in an X post, the Ethere…",
+        "url": "http://www.newsbtc.com/ethereum-news/ethereum-open-interest-rises-price-short-squeeze/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/eth.png?fit=1170%2C658",
+        "publishedAt": "2026-05-13T14:00:47Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Metaplanet Q1 profit jumps, but Bitcoin losses hit bottom line",
+        "description": "Metaplanet posted strong Q1 operating income driven by Bitcoin options revenue, but swung to a $728 million loss as BTC price declines triggered valuation markdowns.",
+        "url": "https://cointelegraph.com/news/metaplanet-reports-strong-q1-operating-income-wider-loss-on-bitcoin-revaluation",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-the-bitcoin-boom-the-future-of-the-company-balance-sheet.jpg",
+        "publishedAt": "2026-05-13T13:10:42Z",
+        "content": "Tokyo-listed Metaplanet reported first-quarter operating income Wednesday of 2.27 billion Japanese yen (roughly $14.38 million) on net sales of about $19.5 million, implying an operating margin of 73… [+2600 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
         "publishedAt": "2026-05-11T18:25:54Z",
         "content": "In brief\r\n<ul><li>Crypto scams hit $17 billion in 2025, as AI makes attacks cheaper and more convincing than ever.</li><li>Binance says 100+ AI models helped block $10.5 billion in fraud and intercep… [+2866 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Why the TradFi takeover of crypto might not be the death blow analysts expect",
-        "description": "Gate’s CBO argues that Bloomberg’s warning of a TradFi takeover is \"oversimplified,\" noting that global exchanges evolved past fee-only models years ago.",
-        "url": "https://www.coindesk.com/business/2026/05/11/why-the-tradfi-takeover-of-crypto-might-not-be-the-death-blow-analysts-expect",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-11T16:29:48Z",
-        "content": "Immediately after Morgan Stanley announced it was rolling out E*Trade, charging a mere 50 basis points undercutting established rivals Coinbase, Robinhood and Schwab, Bloomberg analyst Eric Balchunas… [+3601 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin Forms The Same Pattern That Previously Led To A 400% Rally",
-        "description": "A chart shared on May 7, 2026, by analyst @CryptoTice highlights a technical formation that mirrors the setup seen ahead of Bitcoin’s surge from roughly $17,000 to $69,000. According to the analysis, the same structural signals have appeared again on the long…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-forms-pattern-400-rally/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-400.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-05-11T16:00:54Z",
-        "content": "A chart shared on May 7, 2026, by analyst @CryptoTice highlights a technical formation that mirrors the setup seen ahead of Bitcoins surge from roughly $17,000 to $69,000. According to the analysis, … [+2918 chars]"
       }
     ]
   }
