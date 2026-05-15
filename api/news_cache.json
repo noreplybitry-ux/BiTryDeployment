@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-15T18:24:41.275Z",
+  "timestamp": "2026-05-15T20:18:24.153Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin trades at a 'discount' on Coinbase: Is a $76K retest next?",
+        "description": "Bitcoin’s $79,000 defense proves that the Coinbase discount is driven by stablecoin volatility rather than a lack of institutional demand.",
+        "url": "https://cointelegraph.com/markets/bitcoin-trades-discount-coinbase-is-76k-retest-next",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-risk-vs-reward-investing-in-bitcoin-at-an-all-time-high.jpg",
+        "publishedAt": "2026-05-14T19:42:44Z",
+        "content": "Key takeaways:\r\n<ul><li>The Coinbase Bitcoin discount likely stems from stablecoin outflows rather than actual institutional sell pressure.</li><li>Strategy continues buying Bitcoin as the market hol… [+3474 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Crypto losses from North Korea hackers in 2025 rose 51% YoY: Report",
+        "description": "The cybersecurity threats from North Korea are perpetrated by a myriad of small hacker groups deploying malware and executing social engineering scams.",
+        "url": "https://cointelegraph.com/news/losses-dprk-hacks-2025-rose-51-year-over-year",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-how-31-north-korean-developers-fooled-top-crypto-companies-and-stole-680k.jpg",
+        "publishedAt": "2026-05-14T19:01:17Z",
+        "content": "North Korea (DPRK) state-affiliated hackers and threat actors were responsible for more than $2 billion in crypto losses in 2025, a 51% year-over-year increase, despite fewer attacks carried out by t… [+2474 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +433,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/green-bang-bitcoin-up.jpg",
         "publishedAt": "2026-05-13T04:10:05Z",
         "content": "The ongoing war in Iran and the race to dominate the AI sector will result in money printing that could benefit the crypto ecosystem and push Bitcoin back to its all-time high this year, according to… [+2594 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Slides Back To $2,250, Traders Watch Crucial Support",
-        "description": "Ethereum price started a fresh decline and traded below $2,300. ETH is now consolidating above $2,250 and might struggle to recover. Ethereum started a downside correction below the $2,280 zone. The price is trading below $2,300 and the 100-hourly Simple Movi…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-slides-back-2250/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Slides-Back-To-2250.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-13T03:18:56Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,300. ETH is now consolidating above $2,250 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction below the $2,280 z… [+2159 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Recovery Gains Pace, Can Rally Momentum Return?",
-        "description": "Bitcoin price started a recovery wave above the $80,500 zone. BTC is consolidating and might aim for more gains if it clears the $81,500 resistance zone. Bitcoin managed to form a base above $80,000 and started a recovery wave. The price is trading above $80,…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-gains-pace-82k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Recovery-Gains-Pace.jpg",
-        "publishedAt": "2026-05-13T02:41:06Z",
-        "content": "Bitcoin price started a recovery wave above the $80,500 zone. BTC is consolidating and might aim for more gains if it clears the $81,500 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2197 chars]"
       }
     ]
   }
