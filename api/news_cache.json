@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-15T10:31:44.349Z",
+  "timestamp": "2026-05-15T13:01:43.664Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Ethereum Leverage Tells Two Different Stories On Binance And OKX: Traders Face A Fragile Setup",
+        "description": "Ethereum is consolidating between $2,250 and $2,450 as the market searches for the catalyst or the structural shift that forces a decisive move in either direction. The price is holding but not breaking — and CryptoQuant analyst MorenoDV has identified a dive…",
+        "url": "http://www.newsbtc.com/ethereum-news/ethereum-leverage-tells-two-different-stories-on-binance-and-okx-traders-face-a-fragile-setup/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-4.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-05-14T13:00:55Z",
+        "content": "Ethereum is consolidating between $2,250 and $2,450 as the market searches for the catalyst or the structural shift that forces a decisive move in either direction. The price is holding but not break… [+4783 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Analysts are watching these Bitcoin price levels ahead of CLARITY Act vote",
+        "description": "Will Bitcoin price finally break $82,000 after the Senate Banking Committee’s markup vote on the CLARITY Act or will it slide toward the $74,000-$76,000 range?",
+        "url": "https://cointelegraph.com/markets/analysts-these-bitcoin-price-levels-ahead-clarity-act-vote",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price.jpg",
+        "publishedAt": "2026-05-14T12:14:53Z",
+        "content": "Bitcoin (BTC) bulls made another attempt to reclaim the $80,000 level on Thursday, as traders expect price swings before and after the CLARITY Act vote.\r\nKey takeaways:\r\n<ul><li>Odds of the CLARITY A… [+4147 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "JPMorgan lifts Bitcoin ETF exposure in Q1, led by BlackRock’s IBIT",
+        "description": "JPMorgan boosted its IBIT stake to 8.3 million shares in Q1 2026 while expanding Bitcoin ETF exposure, adding Solana funds and clearing XRP positions.",
+        "url": "https://cointelegraph.com/news/jpmorgan-bitcoin-etf-buy-blackrock-ibit-q1-2026",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-etf-is-now-superior-over-dollar-1.jpg",
+        "publishedAt": "2026-05-14T11:22:22Z",
+        "content": "JPMorgan Chase increased its reported holdings in several Bitcoin exchange-traded funds (ETFs) in the first quarter, led by a 174% jump in its position in BlackRocks iShares Bitcoin Trust (IBIT), acc… [+3055 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin struggles below $80,000 amid institutional withdrawal",
+        "description": "Key takeaways Bitcoin has dipped below $80,000 after being rejected by the key 200-day EMA supply zone. US-listed spot ETFs recorded an outflow of $635 million on Wednesday. Bitcoin (BTC) fell below $80,000 on Thursday after failing to overcome a key overhead…",
+        "url": "https://coinjournal.net/news/bitcoin-struggles-below-80000-amid-institutional-withdrawal/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-14-2026-12_06_34-PM.png",
+        "publishedAt": "2026-05-14T11:19:39Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin has dipped below $80,000 after being rejected by the key 200-day EMA supply zone.</li><li>US-listed spot ETFs recorded an outflow of $635 million on Wednesday.</li></ul… [+2730 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,58 +446,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6f665e4a0e21533ba1ae35082f90ab33da2cadc9-2724x1550.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-12T15:25:46Z",
         "content": "Rachel Conlan, the chief marketing officer (CMO) at Binance, the worlds largest cryptocurrency exchange, said she is leaving the company next month after three years helping to build the brand.\r\nEowy… [+1900 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Bitcoin whale 'still short' BTC despite facing $13M in losses",
-        "description": "A growing cluster of bearish indicators points to a possible Bitcoin pullback toward $71,000, potentially easing the whale’s $13 million net losses.",
-        "url": "https://cointelegraph.com/markets/bitcoin-bear-down-13m-btc-short-analysts-predict-new-bull-market",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/whale-influence-bitcoin-price.jpg",
-        "publishedAt": "2026-05-12T13:56:05Z",
-        "content": "A Bitcoin (BTC) whale is now down about $13 million as BTC price has rebounded by around 40% from its February lows. However, the trader continues to stand by the short position.\r\nKey takeaways:\r\n<ul… [+3779 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Four signs that Bitcoin has recovered to ‘full’ bullish momentum",
-        "description": "Bitcoin’s momentum is expanding as strong onchain activity, recovering stablecoin liquidity and \"real\" spot demand signal sustained upside.",
-        "url": "https://cointelegraph.com/markets/four-signs-bitcoin-recovered-full-bullish-momentum",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysic-analytics-coat-of-arms-red-green-bull-bear1.jpg",
-        "publishedAt": "2026-05-12T13:32:06Z",
-        "content": "Market analysts said Bitcoins (BTC) upside remained intact despite the 2.5% correction from its multi-month high of $82,800 reached on May 6.\r\nKey takeaways:\r\n<ul><li>Bitcoin has successfully re-ente… [+5448 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Elliptic raises $120 million backed by Nasdaq, Deutsche Bank as AI reshapes crypto security",
-        "description": "The crypto analytics firm plans to expand its AI-powered monitoring tools as stablecoins and tokenized finance grow rapidly, CEO Simone Maini said.",
-        "url": "https://www.coindesk.com/business/2026/05/12/elliptic-raises-usd120-million-backed-by-nasdaq-deutsche-bank-as-ai-reshapes-crypto-security",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a791ca2de15f678b124689e311ac232b0a8197e8-3507x1972.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-12T13:30:00Z",
-        "content": "Blockchain analytics firm Elliptic said it raised $120 million in fresh funding from investors including Nasdaq Ventures and Deutsche Bank as financial institutions ramp up spending on crypto complia… [+2453 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Advertorial",
-        "title": "Istanbul Blockchain Week returns in June 2026 amid surging crypto adoption in Türkiye",
-        "description": "Istanbul Blockchain Week, organized by Web3 marketing agency EAK Digital is set to return for its fifth edition on June 2nd-3rd, 2026, at the Hilton Bomonti Hotel.",
-        "url": "https://cointelegraph.com/press-releases/istanbul-blockchain-week-returns-in-june-2026-amid-surging-crypto-adoption-in-trkiye",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/pr-7.jpg",
-        "publishedAt": "2026-05-12T12:56:36Z",
-        "content": "Istanbul, Türkiye, April 12, 2026 Istanbul Blockchain Week, organized by Web3 marketing agency EAK Digital is set to return for its fifth edition on June 2nd-3rd, 2026, at the Hilton Bomonti Hotel. F… [+3379 chars]"
       }
     ]
   }
