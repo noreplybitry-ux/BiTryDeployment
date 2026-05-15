@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-14T23:01:53.383Z",
+  "timestamp": "2026-05-15T03:58:28.031Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Miner MARA Stock Under Pressure Following $1.5 Billion Bitcoin Sell-Off",
+        "description": "MARA Holdings still has in its coffers 35,303 Bitcoin valued at roughly $2.84 billion, making it the fourth largest corporate Bitcoin holder in the world. But that position comes after the company sold a significant chunk of its reserves — and investors took …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-miner-mara-stock-under-pressure-following-1-5-billion-bitcoin-sell-off/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-14T03:30:05Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Flashes Weakness Signals, Pullback Fears Start Rising",
+        "description": "Ethereum price started a fresh decline and traded below $2,265. ETH is now consolidating above $2,220 and might struggle to recover. Ethereum started a downside correction below the $2,265 zone. The price is trading below $2,280 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-flashes-weakness-2320/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Flashes-Weakness-Signals.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-14T03:08:13Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,265. ETH is now consolidating above $2,220 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction below the $2,265 z… [+2156 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Dips Further Below $80K—Bears Tighten Grip On Market",
+        "description": "Bitcoin price started a fresh decline below the $80,500 zone. BTC is consolidating and might struggle to stay above the $78,800 support. Bitcoin failed to stay above $80,500 and extended losses. The price is trading below $80,000 and the 100 hourly simple mov…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-dips-further-below-80k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Dips-Further-Below-80K.jpg",
+        "publishedAt": "2026-05-14T02:37:55Z",
+        "content": "Bitcoin price started a fresh decline below the $80,500 zone. BTC is consolidating and might struggle to stay above the $78,800 support.\r\n<ul><li>Bitcoin failed to stay above $80,500 and extended los… [+2195 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Slows-Near-0.1120.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-12T04:48:56Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Rejected Near $2,400 Again, Sellers Defend Key Barrier",
-        "description": "Ethereum price started a downside correction from $2,380. ETH is now showing a few bearish signs and might decline further if it trades below $2,300. Ethereum started a downside correction below the $2,360 zone. The price is trading below $2,350 and the 100-h…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rejected-near-2400-again/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Rejected-Near-2400-Again.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-12T03:08:09Z",
-        "content": "Ethereum price started a downside correction from $2,380. ETH is now showing a few bearish signs and might decline further if it trades below $2,300.\r\n<ul><li>Ethereum started a downside correction b… [+2091 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Eyes $82K Break, Bulls Prepare For Bigger Rally",
-        "description": "Bitcoin price started a downside correction from the $82,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $82,000. Bitcoin failed to stay above $81,500 and extended losses. The price is trading above $80,500 and the 100 hourly si…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-eyes-82k-break/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Eyes-82K-Break.jpg",
-        "publishedAt": "2026-05-12T02:35:43Z",
-        "content": "Bitcoin price started a downside correction from the $82,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $82,000.\r\n<ul><li>Bitcoin failed to stay above $81,500 and exte… [+2120 chars]"
       }
     ]
   }
