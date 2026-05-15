@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-15T07:30:52.488Z",
+  "timestamp": "2026-05-15T10:31:44.349Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Jane Street Cuts Bitcoin ETF Exposure By 71%: Why This Could Be Bullish",
+        "description": "Jane Street sharply reduced its Bitcoin ETF exposure in the first quarter of 2026, cutting reported holdings in BlackRock’s IBIT and Fidelity’s FBTC while increasing positions in Ether ETFs and several crypto-linked equities. The move has revived speculation …",
+        "url": "http://www.newsbtc.com/bitcoin-news/jane-street-cuts-bitcoin-etf-exposure/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-14.-Mai-2026-09_12_14.png?fit=1222%2C687",
+        "publishedAt": "2026-05-14T08:10:51Z",
+        "content": "Jane Street sharply reduced its Bitcoin ETF exposure in the first quarter of 2026, cutting reported holdings in BlackRocks IBIT and Fidelitys FBTC while increasing positions in Ether ETFs and several… [+4503 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/pr-7.jpg",
         "publishedAt": "2026-05-12T12:56:36Z",
         "content": "Istanbul, Türkiye, April 12, 2026 Istanbul Blockchain Week, organized by Web3 marketing agency EAK Digital is set to return for its fifth edition on June 2nd-3rd, 2026, at the Hilton Bomonti Hotel. F… [+3379 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brian Quarmby",
-        "title": "Binance says AI-powered security thwarted $10B in fraud since 2025",
-        "description": "Binance says it intercepted 22.9 million scam attempts in the first quarter of 2026 alone, saving $1.98 billion, as AI-powered deepfakes and phishing bots increasingly target crypto users.",
-        "url": "https://cointelegraph.com/news/binance-ai-powered-security-stopped-10b-fraud-since-2025",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-china-exit-scam-alice.jpg",
-        "publishedAt": "2026-05-12T07:22:38Z",
-        "content": "Crypto exchange Binance says its artificial intelligence-based security tools have helped prevent the loss of more than $10 billion worth of user funds from scams and fraud between 2025 to March 2026… [+2010 chars]"
       }
     ]
   }
