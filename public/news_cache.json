@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-15T03:58:28.031Z",
+  "timestamp": "2026-05-15T07:30:52.488Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Breaks Away From Pack As Momentum Turns Aggressive",
+        "description": "Dogecoin started a decent increase above $0.1125 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.1155. DOGE price started a fresh increase above $0.1120 and $0.1135. The price is trading above the $0.1120 level and …",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-breaks-away-0-1120/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Breaks-Away-From-Pack-As-Momentum-Turns-Aggressive.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-14T04:48:00Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-china-exit-scam-alice.jpg",
         "publishedAt": "2026-05-12T07:22:38Z",
         "content": "Crypto exchange Binance says its artificial intelligence-based security tools have helped prevent the loss of more than $10 billion worth of user funds from scams and fraud between 2025 to March 2026… [+2010 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Rubmar Garcia",
-        "title": "Crypto Funds Extend Six-Week Streak With $858M Inflows On CLARITY Act Progress",
-        "description": "Global crypto funds have extended their positive streak into a sixth straight week amid growing rally conviction and a boost from improving sentiment around the CLARITY Act ahead of its long‑delayed Senate Banking markup. Related Reading: Bitcoin Price Gains …",
-        "url": "http://www.newsbtc.com/news/crypto-funds-six-week-streak-clarity-act/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/the-drink-5w9AqmYJjUQ-unsplash.jpg?fit=1920%2C1314",
-        "publishedAt": "2026-05-12T07:00:12Z",
-        "content": "Global crypto funds have extended their positive streak into a sixth straight week amid growing rally conviction and a boost from improving sentiment around the CLARITY Act ahead of its longdelayed S… [+3457 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Slows Near $0.1120, Bulls Face Crucial Test",
-        "description": "Dogecoin started a fresh increase from the $0.1050 zone against the US Dollar. DOGE is now facing hurdles near $0.1120 and might aim for a larger rally. DOGE price started a decent upward move above $0.1080 and $0.1085. The price is trading above the $0.1090 …",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-slows-near-0-1120/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Slows-Near-0.1120.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-12T04:48:56Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
