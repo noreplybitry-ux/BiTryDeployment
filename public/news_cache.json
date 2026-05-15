@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-15T13:01:43.664Z",
+  "timestamp": "2026-05-15T16:05:43.333Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin holds key support for $85K breakout as S&P 500 hits new all-time high",
+        "description": "Bitcoin entered recovery mode after inflation-induced losses, while US stocks shook off macro data with broader risk appetite \"skyrocketing.\"",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-support-for-85k-breakout-sp-500-new-all-time-high",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/gym-up-bitcoin-eth-1.jpg",
+        "publishedAt": "2026-05-14T15:52:40Z",
+        "content": "Bitcoin (BTC) touched $80,000 around Thursdays Wall Street open as US stocks hit fresh all-time highs and oil retested $100.\r\nKey points:\r\n<ul><li>Bitcoin rebounded to $80,000 while US stock markets … [+2829 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Bullish Shares Dip on Earnings Miss, $605 Million Loss as Value of Crypto Holdings Fell",
+        "description": "Bullish shares fell Thursday after the company reported a first-quarter loss alongside disappointing subscriptions and services revenue.",
+        "url": "https://decrypt.co/367857/bullish-shares-dip-earnings-miss-605-million-loss",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-05-14T15:42:33Z",
+        "content": "In brief\r\n<ul><li>Bullish reported Q1 2026 adjusted revenue of $92.8 million, falling short of the $94.1 million analyst consensus.</li><li>Net losses expanded to $604.9 million, largely driven by $5… [+2859 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Kraken to replace LayerZero with Chainlink to bridge assets across blockchains",
+        "description": "The decision sees a total of over $3 billion in total value locked migrating after a $292 million LayerZero-powered bridge exploit involving Kelp.",
+        "url": "https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c2d1d6c9e47c3db1e4becaf1739fb8dce590d3b-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-14T15:17:00Z",
+        "content": "Kraken said it will replace LayerZero, a protocol for moving crypto assets across blockchains, with Chainlinks equivalent after the $292 million bridge exploit that hit liquid restaking protocol Kelp… [+1500 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-14.jpg?fit=1280%2C847",
         "publishedAt": "2026-05-13T01:00:54Z",
         "content": "The massive surge in the Bitcoin price since April 2026 is still viewed as part of a broader bear market phase, according to on-chain analytics platform CryptoQuant. While some market experts believe… [+3088 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Is Not Dead: Why Market Experts Are Still Predicting A Rise Above $10,000",
-        "description": "Ethereum’s price has lagged behind Bitcoin at key moments, retail confidence is low, and every failed breakout has given critics another reason to argue that ETH has lost its place. However, some market experts are not buying that idea.  One of those market e…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-is-not-dead/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/XRP-from-Adobe-Stock-31.jpg?fit=361%2C240",
-        "publishedAt": "2026-05-12T20:30:53Z",
-        "content": "Ethereum’s price has lagged behind Bitcoin at key moments, retail confidence is low, and every failed breakout has given critics another reason to argue that ETH has lost its place. However, some mar… [+2711 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "DTCC to use Chainlink to power 24/7 collateral management network",
-        "description": "The world’s largest post-trade infrastructure provider will integrate Chainlink technology into its tokenized collateral platform ahead of a Q4 2026 launch.",
-        "url": "https://cointelegraph.com/news/dtcc-to-use-chainlink-to-power-247-collateral-management-network",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-what-is-chainlink-a-beginners-guide-to-the-cross-chain-interoperability-protocol3.jpg",
-        "publishedAt": "2026-05-12T18:45:10Z",
-        "content": "The Depository Trust &amp; Clearing Corporation (DTCC) will integrate Chainlink infrastructure into its collateral management platform ahead of a planned fourth-quarter 2026 launch as it aims to supp… [+2929 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Binance's chief marketing officer Rachel Conlan to leave the exchange",
-        "description": "Eowyn Chen, former CEO of Trust Wallet, will serve as her interim replacement.",
-        "url": "https://www.coindesk.com/business/2026/05/12/binance-s-chief-marketing-officer-rachel-conlan-is-leaving-the-exchange",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6f665e4a0e21533ba1ae35082f90ab33da2cadc9-2724x1550.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-12T15:25:46Z",
-        "content": "Rachel Conlan, the chief marketing officer (CMO) at Binance, the worlds largest cryptocurrency exchange, said she is leaving the company next month after three years helping to build the brand.\r\nEowy… [+1900 chars]"
       }
     ]
   }
