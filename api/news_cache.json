@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-16T03:54:16.053Z",
+  "timestamp": "2026-05-16T06:26:33.221Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Buyers Stay Active, Though Resistance Keeps Pressure High",
+        "description": "Solana found support at $90 and corrected some losses. SOL price is now consolidating below $94 and might struggle to continue higher. SOL price started a decent recovery wave above $91 and $92 against the US Dollar. The price is now trading below $94 and the…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-buyers-stay-active-90/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Buyers-Stay-Active-Though-Resistance-Keeps-Pressure-High.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-15T05:08:41Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "XRP Price Dominates Crypto Market As Bitcoin And Ethereum Lag Behind",
+        "description": "XRP price started a steady increase above $1.50. The price is now consolidating gains and might aim for more gains above the $1.520 zone. XRP price started a steady increase above the $1.50 zone. The price is now trading above $1.480 and the 100-hourly Simple…",
+        "url": "http://www.newsbtc.com/analysis/xrp/xrp-price-dominates-crypto-market-1-50/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/XRP-Price-Dominates-Crypto-Market-As-Bitcoin-And-Ethereum-Lag-Behind.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-15T04:08:04Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +420,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-comparison-bitcoin-vs-ethereum-etf.jpg",
         "publishedAt": "2026-05-13T10:32:13Z",
         "content": "Wall Street market maker Jane Street reduced its exposure to Bitcoin exchange-traded funds (ETFs) in the first quarter of 2026 while increasing positions in Ether funds.\r\nJane Street cut major Bitcoi… [+2994 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley",
-        "title": "Charles Schwab begins U.S. rollout of spot crypto trading for retail customers",
-        "description": "An initial group of clients can now trade bitcoin and ether on the Schwab Crypto platform.",
-        "url": "https://www.coindesk.com/business/2026/05/13/charles-schwab-begins-rollout-of-spot-crypto-trading-for-retail",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d322c8261bb4dcd2eade53454b78734f6ff32bcd-5000x3750.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-13T10:24:25Z",
-        "content": "Charles Schwab, the brokerage giant that manages around $12 trillion in client assets, began the rollout of its spot cryptocurrency trading service for retail customers in the U.S.\r\nAn initial group … [+833 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Crypto Firm Exodus Drains 63% Of Its Bitcoin Reserves As Q1 Loss Doubled Year Over Year",
-        "description": "Exodus Movement sold more than 1,000 Bitcoin in the first three months of 2026 to fund a push into financial technology, raising $73 million in the process. Related Reading: Bitcoin Bulls Awaken As Rare Golden Cross Signal Flashes On Charts The crypto wallet …",
-        "url": "http://www.newsbtc.com/bitcoin-news/crypto-firm-exodus-drains-63-of-its-bitcoin-reserves-as-q1-loss-doubled-year-over-year/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_381fd9.jpg?fit=1500%2C1000",
-        "publishedAt": "2026-05-13T10:00:33Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "EToro profits rise as commodities boom offsets crypto trading slump",
-        "description": "EToro posted its strongest quarter as a public company, with net income up 37% to $82 million, but crypto trade volumes fell 32% in April.",
-        "url": "https://cointelegraph.com/news/etoros-net-income-jumps-37-on-commodities-surge-crypto-trades-drop-32",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-bitcoin-on-etoro-1.jpg",
-        "publishedAt": "2026-05-13T08:48:35Z",
-        "content": "EToro reported first-quarter net income of $82 million, up 37% from a year earlier, as a surge in commodities trading offset weaker crypto activity.\r\nNet income rose 37% year-over-year to $82 million… [+2456 chars]"
       }
     ]
   }
