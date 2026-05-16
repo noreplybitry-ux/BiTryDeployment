@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-16T08:50:56.746Z",
+  "timestamp": "2026-05-16T10:20:43.361Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,32 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/eth.png?fit=1170%2C658",
         "publishedAt": "2026-05-13T14:00:47Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Metaplanet Q1 profit jumps, but Bitcoin losses hit bottom line",
-        "description": "Metaplanet posted strong Q1 operating income driven by Bitcoin options revenue, but swung to a $728 million loss as BTC price declines triggered valuation markdowns.",
-        "url": "https://cointelegraph.com/news/metaplanet-reports-strong-q1-operating-income-wider-loss-on-bitcoin-revaluation",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-the-bitcoin-boom-the-future-of-the-company-balance-sheet.jpg",
-        "publishedAt": "2026-05-13T13:10:42Z",
-        "content": "Tokyo-listed Metaplanet reported first-quarter operating income Wednesday of 2.27 billion Japanese yen (roughly $14.38 million) on net sales of about $19.5 million, implying an operating margin of 73… [+2600 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin rebounds slightly above $81k amid institutional caution",
-        "description": "Key takeaways Bitcoin recovers slightly on Wednesday after finding support below $80,000. US-listed spot ETF saw outflows of $233 million on Tuesday, Bitcoin finds support at a key level Bitcoin (BTC) has slightly rebounded and is currently trading above $81,…",
-        "url": "https://coinjournal.net/news/bitcoin-rebounds-slightly-above-81k-amid-institutional-caution/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-13-2026-12_46_31-PM.png",
-        "publishedAt": "2026-05-13T11:48:51Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin recovers slightly on Wednesday after finding support below $80,000.</li><li>US-listed spot ETF saw outflows of $233 million on Tuesday,</li></ul>Bitcoin finds support a… [+2781 chars]"
       }
     ]
   }
