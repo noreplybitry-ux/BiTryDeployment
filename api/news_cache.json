@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-16T17:04:25.416Z",
+  "timestamp": "2026-05-16T19:13:26.859Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/15: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+        "description": "Bitcoin remains positive as long as the price stays above $76,000, but several major altcoins are threatening to turn negative in the short term.",
+        "url": "https://cointelegraph.com/markets/price-predictions-515-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analytics-analysis-future-city-5-element.jpg",
+        "publishedAt": "2026-05-15T18:09:38Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin is struggling to reach the $84,000 level, but a minor positive is that the bulls have not allowed the price to skid to the $76,000 support.</li><li>Select major altcoins … [+8276 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "What’s Going On With Ethereum And Why Is Price Moving This Way?",
+        "description": "Ethereum has been moving sideways in recent weeks, leaving traders questioning why momentum keeps stalling despite multiple upward pushes. According to an analysis shared by an analyst on X, the answer lies in a specific technical level that the asset has rep…",
+        "url": "http://www.newsbtc.com/news/ethereum/whats-going-on-with-ethereum/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-20-2026-08_43_02-AM.png?fit=1222%2C814",
+        "publishedAt": "2026-05-15T17:30:52Z",
+        "content": "Ethereum has been moving sideways in recent weeks, leaving traders questioning why momentum keeps stalling despite multiple upward pushes. According to an analysis shared by an analyst on X, the answ… [+3001 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Myanmar’s military government proposes life in prison for crypto scammers",
+        "description": "The text of Myanmar’s Anti-Online Fraud Bill said that anyone who was convicted of committing “digital currency fraud” could face from ten years to life in prison, and possibly the death penalty.",
+        "url": "https://cointelegraph.com/news/myanmar-government-life-death-crypto-scammers",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-prisoner-with-handcuffs.jpg",
+        "publishedAt": "2026-05-15T17:08:51Z",
+        "content": "The military government of Myanmar released the text of a bill aimed at combating online fraudsters, with several penalties related to cryptocurrencies and scam centers.\r\nAccording to the text of the… [+2568 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,45 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Breaks-Away-From-Pack-As-Momentum-Turns-Aggressive.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-14T04:48:00Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Miner MARA Stock Under Pressure Following $1.5 Billion Bitcoin Sell-Off",
-        "description": "MARA Holdings still has in its coffers 35,303 Bitcoin valued at roughly $2.84 billion, making it the fourth largest corporate Bitcoin holder in the world. But that position comes after the company sold a significant chunk of its reserves — and investors took …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-miner-mara-stock-under-pressure-following-1-5-billion-bitcoin-sell-off/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-14T03:30:05Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Flashes Weakness Signals, Pullback Fears Start Rising",
-        "description": "Ethereum price started a fresh decline and traded below $2,265. ETH is now consolidating above $2,220 and might struggle to recover. Ethereum started a downside correction below the $2,265 zone. The price is trading below $2,280 and the 100-hourly Simple Movi…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-flashes-weakness-2320/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Flashes-Weakness-Signals.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-14T03:08:13Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,265. ETH is now consolidating above $2,220 and might struggle to recover.\r\n<ul><li>Ethereum started a downside correction below the $2,265 z… [+2156 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Dips Further Below $80K—Bears Tighten Grip On Market",
-        "description": "Bitcoin price started a fresh decline below the $80,500 zone. BTC is consolidating and might struggle to stay above the $78,800 support. Bitcoin failed to stay above $80,500 and extended losses. The price is trading below $80,000 and the 100 hourly simple mov…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-dips-further-below-80k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Dips-Further-Below-80K.jpg",
-        "publishedAt": "2026-05-14T02:37:55Z",
-        "content": "Bitcoin price started a fresh decline below the $80,500 zone. BTC is consolidating and might struggle to stay above the $78,800 support.\r\n<ul><li>Bitcoin failed to stay above $80,500 and extended los… [+2195 chars]"
       }
     ]
   }
