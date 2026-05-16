@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-16T06:26:33.221Z",
+  "timestamp": "2026-05-16T08:50:56.746Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "XRP nears $1.50 as Senate crypto vote and whale buying fuel fresh optimism",
+        "description": "XRP surged to intraday highs near $1.55 on renewed optimism. Senate Banking Committee approved the Digital Asset Market Clarity Act in a 15-9 vote. XRP price could target a breakout as the market cheers the regulatory milestone. XRP price rose to near $1.55 o…",
+        "url": "https://coinjournal.net/news/xrp-nears-1-50-as-senate-crypto-vote-and-whale-buying-fuel-fresh-optimism/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/05/image-3.png",
+        "publishedAt": "2026-05-15T08:33:22Z",
+        "content": "<ul><li>XRP surged to intraday highs near $1.55 on renewed optimism.</li><li>Senate Banking Committee approved the Digital Asset Market Clarity Act in a 15-9 vote.</li><li>XRP price could target a br… [+3278 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Australia’s proposed CGT changes could discourage long-term crypto holding",
+        "description": "Australia’s proposed capital gains tax reforms could significantly increase tax bills for crypto investors, which analysts speculate could reshape trading and investment strategies way from holding and more toward more frequent trading.",
+        "url": "https://cointelegraph.com/news/australia-crypto-cgt-tax-changes-investors-profit-impact",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-crypto-regulation-in-australia-issues-and-solutions.jpg",
+        "publishedAt": "2026-05-15T07:15:07Z",
+        "content": "Australias proposed changes to capital gains tax could lead to smaller profits for cryptocurrency traders, especially low-income earners, and could discourage patient investing, according to several … [+4357 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Martin Young",
+        "title": "Kraken joins LayerZero exodus as it switches to Chainlink CCIP",
+        "description": "LayerZero has come under scrutiny since it was exploited in April, as crypto protocols reevaluate their cross-chain providers and seek safer alternatives.",
+        "url": "https://cointelegraph.com/news/kraken-joins-layerzero-exodus-switching-chainlink-ccip",
+        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/blockchain-cubes-crypto2.jpg",
+        "publishedAt": "2026-05-15T07:10:56Z",
+        "content": "Crypto exchange Kraken announced Thursday that it changed its cross-chain provider from LayerZero to Chainlinks Cross-Chain Interoperability Protocol, joining a number of protocols that have made the… [+2910 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +420,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-13-2026-12_46_31-PM.png",
         "publishedAt": "2026-05-13T11:48:51Z",
         "content": "Key takeaways\r\n<ul><li>Bitcoin recovers slightly on Wednesday after finding support below $80,000.</li><li>US-listed spot ETF saw outflows of $233 million on Tuesday,</li></ul>Bitcoin finds support a… [+2781 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price repeating move with 77% all-time high odds within year: Analyst",
-        "description": "Bitcoin reduces its drop from all-time highs to 35% in a move that sparked new BTC price all-time highs \"within a year\" on seven occasions in the past.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-repeats-move-with-77-all-time-high-odds-within-a-year",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/market-consolidation-bitcoin.jpg",
-        "publishedAt": "2026-05-13T10:58:38Z",
-        "content": "Bitcoin may have a roughly 77% chance of reaching new all-time highs within a year if historical BTC price patterns repeat.\r\nKey points:\r\n<ul><li>Bitcoin reduces its drawdown from all-time highs from… [+2515 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Vietnam eyes Q3 launch for regulated crypto asset market: Report",
-        "description": "Vietnam’s deputy minister of finance reportedly said the country is planning to launch its regulated cryptocurrency market in the third quarter of 2026 to answer the growing demand for digital assets.",
-        "url": "https://cointelegraph.com/news/vietnam-plans-crypto-market-launch-q3",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-dexs-closing-down-or-re-launching-1.jpg",
-        "publishedAt": "2026-05-13T10:49:01Z",
-        "content": "Vietnam could see the first official activity in its regulated crypto asset market as early as the third quarter of 2026, Deputy Minister of Finance Nguyen Duc Chi said at the Digital Trust in Financ… [+2423 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Jane Street slashes Bitcoin ETF holdings, adds Ether funds in Q1 2026",
-        "description": "Jane Street reduced Bitcoin ETF positions in Q1 2026 while increasing Ether ETF exposure and shifting holdings across crypto equities including Strategy.",
-        "url": "https://cointelegraph.com/news/jane-street-slashes-bitcoin-etfs-adds-ether-funds-q1-2026",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-comparison-bitcoin-vs-ethereum-etf.jpg",
-        "publishedAt": "2026-05-13T10:32:13Z",
-        "content": "Wall Street market maker Jane Street reduced its exposure to Bitcoin exchange-traded funds (ETFs) in the first quarter of 2026 while increasing positions in Ether funds.\r\nJane Street cut major Bitcoi… [+2994 chars]"
       }
     ]
   }
