@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-15T23:58:05.556Z",
+  "timestamp": "2026-05-16T03:54:16.053Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Trapped Below $2,320, Recovery Hopes Start Fading",
+        "description": "Ethereum price started a recovery wave above the $2,280 zone. ETH is now consolidating and might struggle to continue higher above the $2,320 resistance. Ethereum started a recovery wave from the $2,235 zone. The price is trading below $2,300 and the 100-hour…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-trapped-below-2320/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Trapped-Below-2320-Recovery-Hopes-Start-Fading.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-15T02:58:11Z",
+        "content": "Ethereum price started a recovery wave above the $2,280 zone. ETH is now consolidating and might struggle to continue higher above the $2,320 resistance.\r\n<ul><li>Ethereum started a recovery wave fro… [+2159 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Spikes Higher, But Consolidation Pattern Remains Intact",
+        "description": "Bitcoin price started a fresh increase and cleared the $80,500 zone. BTC is consolidating and might aim for more gains above the $82,000 level. Bitcoin managed to stay above $78,800 and started a fresh increase. The price is trading above $80,500 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-spikes-higher-82k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Spikes-Higher-But-Consolidation-Pattern-Remains-Intact.jpg",
+        "publishedAt": "2026-05-15T02:15:41Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $80,500 zone. BTC is consolidating and might aim for more gains above the $82,000 level.\r\n<ul><li>Bitcoin managed to stay above $78,800 and star… [+2196 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Why The $65,000 Region Is Important As Bitcoin Gears Up To Face Massive Resistance At These Levels",
+        "description": "Bitcoin’s latest push has run into a difficult stretch, with the price falling back under the $80,000 mark in the past 24 hours. This context gives more weight to a new quarterly chart analysis that places the most important levels much lower than the current…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-65000-is-important/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-16.jpg?fit=612%2C408",
+        "publishedAt": "2026-05-15T01:00:00Z",
+        "content": "Bitcoins latest push has run into a difficult stretch, with the price falling back under the $80,000 mark in the past 24 hours. This context gives more weight to a new quarterly chart analysis that p… [+2600 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +433,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-bitcoin-on-etoro-1.jpg",
         "publishedAt": "2026-05-13T08:48:35Z",
         "content": "EToro reported first-quarter net income of $82 million, up 37% from a year earlier, as a surge in commodities trading offset weaker crypto activity.\r\nNet income rose 37% year-over-year to $82 million… [+2456 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Mysterious Bitcoin Whale Transfers $40 Billion After Years Of Silence",
-        "description": "Eight Satoshi-era wallets moved 10,000 Bitcoin each in July last year, triggering waves of speculation across crypto markets. Now, another old wallet has come back to life — and traders are watching closely. Related Reading: Swiss Bitcoin Reserve Effort Withd…",
-        "url": "http://www.newsbtc.com/news/bitcoin/mysterious-bitcoin-whale-transfers-40-billion-after-years-of-silence/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_2f1d83.jpg?fit=6150%2C4100",
-        "publishedAt": "2026-05-13T05:30:29Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Dips Modestly, But Traders Still Expect Bigger Move",
-        "description": "Solana failed to stay above $96 and corrected some gains. SOL price is now consolidating and might aim for another increase above $98. SOL price started a downside correction below $96 against the US Dollar. The price is now trading above $94 and the 100-hour…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-dips-modestly-95/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Dips-Modestly-But-Traders-Still-Expect-Bigger-Move.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-13T05:08:09Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Iran war, AI spending could push Bitcoin back to $126K this year: Hayes",
-        "description": "Arthur Hayes says rising AI spending and the Iran war could trigger more money printing by China and the US, creating favorable conditions for Bitcoin and the wider crypto market to rally.",
-        "url": "https://cointelegraph.com/news/arthur-hayes-bitcoin-ai-race-iran-war-money-printing-126k",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/green-bang-bitcoin-up.jpg",
-        "publishedAt": "2026-05-13T04:10:05Z",
-        "content": "The ongoing war in Iran and the race to dominate the AI sector will result in money printing that could benefit the crypto ecosystem and push Bitcoin back to its all-time high this year, according to… [+2594 chars]"
       }
     ]
   }
