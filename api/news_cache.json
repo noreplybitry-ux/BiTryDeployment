@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-16T20:56:45.355Z",
+  "timestamp": "2026-05-16T21:57:08.481Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,19 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-14.-Mai-2026-09_12_14.png?fit=1222%2C687",
         "publishedAt": "2026-05-14T08:10:51Z",
         "content": "Jane Street sharply reduced its Bitcoin ETF exposure in the first quarter of 2026, cutting reported holdings in BlackRocks IBIT and Fidelitys FBTC while increasing positions in Ether ETFs and several… [+4503 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Breaks Away From Pack As Momentum Turns Aggressive",
-        "description": "Dogecoin started a decent increase above $0.1125 against the US Dollar. DOGE is now consolidating and might aim for an upside break above $0.1155. DOGE price started a fresh increase above $0.1120 and $0.1135. The price is trading above the $0.1120 level and …",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-breaks-away-0-1120/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Breaks-Away-From-Pack-As-Momentum-Turns-Aggressive.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-14T04:48:00Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
