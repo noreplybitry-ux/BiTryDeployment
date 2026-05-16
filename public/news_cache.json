@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-16T15:02:18.779Z",
+  "timestamp": "2026-05-16T17:04:25.416Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price dives under $79K as US bond market triggers 3% BTC price rout",
+        "description": "Bitcoin joined stocks in a sell-off over US bond yields as BTC price action eyed its lowest levels for May after giving up gains.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-dives-under-79k-us-bond-market-triggers-3-btc-price-rout",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bollinger-band-explained2.jpg",
+        "publishedAt": "2026-05-15T15:21:21Z",
+        "content": "Bitcoin (BTC) fell below $80,000 at Fridays Wall Street open as analysis tied risk-asset weakness to US bond markets.\r\nKey points:\r\n<ul><li>Bitcoin eyes its lowest levels of May as concerns over US b… [+2867 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Dips-Further-Below-80K.jpg",
         "publishedAt": "2026-05-14T02:37:55Z",
         "content": "Bitcoin price started a fresh decline below the $80,500 zone. BTC is consolidating and might struggle to stay above the $78,800 support.\r\n<ul><li>Bitcoin failed to stay above $80,500 and extended los… [+2195 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Whale shorts $70M in crypto and tech: Should Bitcoin traders worry?",
-        "description": "Despite short-term bearish bets from a successful Hyperliquid whale, a growing US Fed balance sheet and rising inflation support Bitcoin in the long term.",
-        "url": "https://cointelegraph.com/markets/whale-shorts-70m-in-crypto-tech-should-bitcoin-traders-worry",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-cover-imagereview-of-margex.jpg",
-        "publishedAt": "2026-05-13T19:44:43Z",
-        "content": "Key takeaways:\r\n<ul><li>A successful Hyperliquid whale opened a $70 million short position, but data suggests this is a technical move.</li><li>Rising oil prices and Fed liquidity injections could de… [+3673 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/13: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
-        "description": "Bitcoin’s break below $79,000 may deepen the pullback, which could intensify the selling in several major altcoins.",
-        "url": "https://cointelegraph.com/markets/price-predictions-513-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-geologist-museum.jpg",
-        "publishedAt": "2026-05-13T18:09:17Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin has reached a crucial support, as a break below the $79,000 level may deepen the pullback.</li><li>Several major altcoins are facing selling pressure, indicating that the… [+8368 chars]"
       }
     ]
   }
