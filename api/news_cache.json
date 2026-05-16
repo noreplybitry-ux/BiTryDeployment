@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-16T13:45:42.068Z",
+  "timestamp": "2026-05-16T15:02:18.779Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Price Reaching $4,000 Isn’t A Moonshot, Here’s What It Is",
+        "description": "Crypto analyst Tice has declared that an Ethereum price rally to $4,000 isn’t a moonshot but one that is bound to happen. This came as he revealed that he was accumulating ETH based on the technicals, which point to a buy sentiment.  Analyst Reveals Ethereum …",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-reaching-4000/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-15T14:30:26Z",
+        "content": "Crypto analyst Tice has declared that an Ethereum price rally to $4,000 isnt a moonshot but one that is bound to happen. This came as he revealed that he was accumulating ETH based on the technicals,… [+2524 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Gemini Stock Jumps on Revenue Rise, $100M Bitcoin Investment From Winklevoss Capital",
+        "description": "Crypto exchange Gemini secured a $100 million Bitcoin investment from its founders’ fund, and revealed a 42% YOY Q1 revenue bump.",
+        "url": "https://decrypt.co/367978/gemini-stock-jumps-revenue-rise-100m-bitcoin-investment-winklevoss",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-05-15T14:11:42Z",
+        "content": "In brief\r\n<ul><li>Gemini reported Q1 2026 revenue of $50.3 million, up 42% year-over-year.</li><li>The crypto exchange secured a $100 million strategic investment from Winklevoss Capital Fund at $14 … [+2767 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +381,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-geologist-museum.jpg",
         "publishedAt": "2026-05-13T18:09:17Z",
         "content": "Key points:\r\n<ul><li>Bitcoin has reached a crucial support, as a break below the $79,000 level may deepen the pullback.</li><li>Several major altcoins are facing selling pressure, indicating that the… [+8368 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Bitcoin Just Entered A Deceptive Territory, Here’s What You Should Know",
-        "description": "Bitcoin’s recent price behavior has been everything the bulls hoped for, and that may be precisely the problem. Since bottoming out around $63,000 in early April, Bitcoin has posted a sequence of higher highs and higher lows and has now reclaimed $80,000. The…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-deceptive-territory/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-05-13T18:00:31Z",
-        "content": "Bitcoin’s recent price behavior has been everything the bulls hoped for, and that may be precisely the problem. Since bottoming out around $63,000 in early April, Bitcoin has posted a sequence of hig… [+2763 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "The Protocol: Solana’s ‘Alpenglow’ upgrade is live for testing",
-        "description": "Also: LayerZero apology, Ronin layer-2 transition and ‘Clear Signing’",
-        "url": "https://www.coindesk.com/tech/2026/05/13/the-protocol-solana-s-alpenglow-upgrade-is-live-for-testing",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b19fea6ba8d91933fbd0aa045661baca984f3247-4080x2720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-13T16:48:39Z",
-        "content": "\"ALPENGLOW\" UPGRADE LIVE FOR TESTING ON SOLANA: Solana developer Anza said that Alpenglow, the networks biggest proposed consensus overhaul to date, is live on a community test cluster, marking a maj… [+8337 chars]"
       }
     ]
   }
