@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-17T19:17:19.749Z",
+  "timestamp": "2026-05-17T21:00:38.692Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Why Bitcoin Price Could Be Forming A Consolidation Structure Around $80,000",
+        "description": "The Bitcoin price has surged towards the $80,000 mark over the past few weeks, signaling an ongoing resurgence from the bear-market lows observed in the first quarter of 2026. However, the premier cryptocurrency appears to have run out of the bullish impetus …",
+        "url": "http://www.newsbtc.com/news/bitcoin/why-bitcoin-price-could-be-forming-consolidation/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-1255216496.jpg?fit=1254%2C836",
+        "publishedAt": "2026-05-16T21:00:17Z",
+        "content": "The Bitcoin price has surged towards the $80,000 mark over the past few weeks, signaling an ongoing resurgence from the bear-market lows observed in the first quarter of 2026. However, the premier cr… [+2739 chars]"
+      },
       {
         "source": {
           "id": null,
