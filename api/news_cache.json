@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-17T15:02:15.994Z",
+  "timestamp": "2026-05-17T17:03:25.015Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Solana Eyes $117 Breakout — If Bulls Can Crush This Key Resistance",
+        "description": "The Solana price has struggled to shake off its early-year woes despite a slightly improved general market climate in recent weeks. After falling from a nearly $150 valuation in the first quarter of 2026, the altcoin has been stuck within a consolidation rang…",
+        "url": "http://www.newsbtc.com/news/solana/solana-price-could-be-on-its-way-to-117/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/2025-03-23-01.36.33.jpg?fit=960%2C640",
+        "publishedAt": "2026-05-16T17:00:38Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
