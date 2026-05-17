@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-17T04:16:05.606Z",
+  "timestamp": "2026-05-17T07:36:05.874Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Power Law Forecasts Price Bottom Of $42,800 – Details",
+        "description": "Bitcoin’s price performance in the last week saw a slowdown to the asset’s relief rally that began in early April. According to data from CoinMarketCap, the market price declined by 1.45% in a range-bound week, during which bulls failed to overcome a key resi…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-power-law-forecasts-price-bottom-of-42800-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-photo-5980743.jpeg",
+        "publishedAt": "2026-05-16T07:00:40Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Ethereum Sell Signal That Last Preceded A 63% Drop Flashes Again",
+        "description": "Ethereum has seen a Tom Demark (TD) Sequential sell signal on its weekly chart, something that last led to a major drawdown for the asset. Ethereum Has Seen A TD Sequential Sell Signal In a new post on X, analyst Ali Martinez has highlighted a TD Sequential s…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-sell-last-preceded-63-drop-flashes-again/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/eth_290cc5.png?fit=1152%2C768",
+        "publishedAt": "2026-05-16T05:00:25Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +355,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price.jpg",
         "publishedAt": "2026-05-14T12:14:53Z",
         "content": "Bitcoin (BTC) bulls made another attempt to reclaim the $80,000 level on Thursday, as traders expect price swings before and after the CLARITY Act vote.\r\nKey takeaways:\r\n<ul><li>Odds of the CLARITY A… [+4147 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "JPMorgan lifts Bitcoin ETF exposure in Q1, led by BlackRock’s IBIT",
-        "description": "JPMorgan boosted its IBIT stake to 8.3 million shares in Q1 2026 while expanding Bitcoin ETF exposure, adding Solana funds and clearing XRP positions.",
-        "url": "https://cointelegraph.com/news/jpmorgan-bitcoin-etf-buy-blackrock-ibit-q1-2026",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-etf-is-now-superior-over-dollar-1.jpg",
-        "publishedAt": "2026-05-14T11:22:22Z",
-        "content": "JPMorgan Chase increased its reported holdings in several Bitcoin exchange-traded funds (ETFs) in the first quarter, led by a 174% jump in its position in BlackRocks iShares Bitcoin Trust (IBIT), acc… [+3055 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin struggles below $80,000 amid institutional withdrawal",
-        "description": "Key takeaways Bitcoin has dipped below $80,000 after being rejected by the key 200-day EMA supply zone. US-listed spot ETFs recorded an outflow of $635 million on Wednesday. Bitcoin (BTC) fell below $80,000 on Thursday after failing to overcome a key overhead…",
-        "url": "https://coinjournal.net/news/bitcoin-struggles-below-80000-amid-institutional-withdrawal/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-14-2026-12_06_34-PM.png",
-        "publishedAt": "2026-05-14T11:19:39Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin has dipped below $80,000 after being rejected by the key 200-day EMA supply zone.</li><li>US-listed spot ETFs recorded an outflow of $635 million on Wednesday.</li></ul… [+2730 chars]"
       }
     ]
   }
