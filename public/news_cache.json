@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-17T00:00:26.395Z",
+  "timestamp": "2026-05-17T04:16:05.606Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Is Zcash The Next Bitcoin? Investors Rush Into The Privacy Coin Narrative",
+        "description": "Arthur Hayes has a new favorite coin — and it is not Bitcoin. The veteran crypto investor recently revealed that Zcash has become one of his largest crypto holdings outside of Bitcoin, a disclosure that has drawn fresh attention to a cryptocurrency that many …",
+        "url": "http://www.newsbtc.com/altcoin/is-zcash-the-next-bitcoin-investors-rush-into-the-privacy-coin-narrative/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_872607.jpg?fit=1125%2C750",
+        "publishedAt": "2026-05-16T02:00:23Z",
+        "content": "Arthur Hayes has a new favorite coin and it is not Bitcoin. The veteran crypto investor recently revealed that Zcash has become one of his largest crypto holdings outside of Bitcoin, a disclosure tha… [+2660 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-14-2026-12_06_34-PM.png",
         "publishedAt": "2026-05-14T11:19:39Z",
         "content": "Key takeaways\r\n<ul><li>Bitcoin has dipped below $80,000 after being rejected by the key 200-day EMA supply zone.</li><li>US-listed spot ETFs recorded an outflow of $635 million on Wednesday.</li></ul… [+2730 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Jane Street Cuts Bitcoin ETF Exposure By 71%: Why This Could Be Bullish",
-        "description": "Jane Street sharply reduced its Bitcoin ETF exposure in the first quarter of 2026, cutting reported holdings in BlackRock’s IBIT and Fidelity’s FBTC while increasing positions in Ether ETFs and several crypto-linked equities. The move has revived speculation …",
-        "url": "http://www.newsbtc.com/bitcoin-news/jane-street-cuts-bitcoin-etf-exposure/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-14.-Mai-2026-09_12_14.png?fit=1222%2C687",
-        "publishedAt": "2026-05-14T08:10:51Z",
-        "content": "Jane Street sharply reduced its Bitcoin ETF exposure in the first quarter of 2026, cutting reported holdings in BlackRocks IBIT and Fidelitys FBTC while increasing positions in Ether ETFs and several… [+4503 chars]"
       }
     ]
   }
