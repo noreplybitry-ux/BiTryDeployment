@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-17T17:03:25.015Z",
+  "timestamp": "2026-05-17T19:17:19.749Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Says Don’t Buy Bitcoin Until This Happens",
+        "description": "Crypto analyst Gargoyle has advised market participants not to buy Bitcoin until it sees high volume, which could mark the bottom. This comes amid BTC’s recent drop below the psychological $80,000 level, with the leading crypto at risk of another decline.  An…",
+        "url": "http://www.newsbtc.com/news/bitcoin/dont-buy-bitcoin-until-this/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-57.jpg?fit=612%2C491",
+        "publishedAt": "2026-05-16T19:00:47Z",
+        "content": "Crypto analyst Gargoyle has advised market participants not to buy Bitcoin until it sees high volume, which could mark the bottom. This comes amid BTCs recent drop below the psychological $80,000 lev… [+2569 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin analysis sees 'bear trap' as BTC price passes two-week lows under $78K",
+        "description": "Bitcoin fell below $78,000 for the first time since the start of May, but traders refused to give up hope of a BTC price rebound coming next.",
+        "url": "https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bear-crypto-market1-2.jpg",
+        "publishedAt": "2026-05-16T17:07:39Z",
+        "content": "Bitcoin (BTC) circled $78,000 on Saturday after geopolitical headwinds erased most of its May gains.\r\nKey points:\r\n<ul><li>Bitcoin falls below $78,000 for the first time since the start of May.</li><… [+2989 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c2d1d6c9e47c3db1e4becaf1739fb8dce590d3b-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-14T15:17:00Z",
         "content": "Kraken said it will replace LayerZero, a protocol for moving crypto assets across blockchains, with Chainlinks equivalent after the $292 million bridge exploit that hit liquid restaking protocol Kelp… [+1500 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Ethereum Leverage Tells Two Different Stories On Binance And OKX: Traders Face A Fragile Setup",
-        "description": "Ethereum is consolidating between $2,250 and $2,450 as the market searches for the catalyst or the structural shift that forces a decisive move in either direction. The price is holding but not breaking — and CryptoQuant analyst MorenoDV has identified a dive…",
-        "url": "http://www.newsbtc.com/ethereum-news/ethereum-leverage-tells-two-different-stories-on-binance-and-okx-traders-face-a-fragile-setup/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-4.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-05-14T13:00:55Z",
-        "content": "Ethereum is consolidating between $2,250 and $2,450 as the market searches for the catalyst or the structural shift that forces a decisive move in either direction. The price is holding but not break… [+4783 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Analysts are watching these Bitcoin price levels ahead of CLARITY Act vote",
-        "description": "Will Bitcoin price finally break $82,000 after the Senate Banking Committee’s markup vote on the CLARITY Act or will it slide toward the $74,000-$76,000 range?",
-        "url": "https://cointelegraph.com/markets/analysts-these-bitcoin-price-levels-ahead-clarity-act-vote",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price.jpg",
-        "publishedAt": "2026-05-14T12:14:53Z",
-        "content": "Bitcoin (BTC) bulls made another attempt to reclaim the $80,000 level on Thursday, as traders expect price swings before and after the CLARITY Act vote.\r\nKey takeaways:\r\n<ul><li>Odds of the CLARITY A… [+4147 chars]"
       }
     ]
   }
