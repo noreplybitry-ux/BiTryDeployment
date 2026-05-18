@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-18T17:32:08.978Z",
+  "timestamp": "2026-05-18T19:51:29.244Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Binance Records $1.5 Billion Stablecoin Net Inflow Amid Highly Reactive Market",
+        "description": "Recent on-chain data indicate the Binance exchange has registered a high volatility in stablecoin inflows in recent days. This observation can be linked to the general market’s choppiness during this period, driven by Bitcoin’s price movements. Pseudonymous r…",
+        "url": "http://www.newsbtc.com/stablecoin/binance-records-1-5-billion-stablecoin-net-inflow-amid-highly-reactive-market/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/shutterstock_2139614619.jpg?fit=1000%2C562",
+        "publishedAt": "2026-05-17T18:00:10Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-79.jpg?fit=960%2C540",
         "publishedAt": "2026-05-14T17:30:00Z",
         "content": "Crypto analyst Xanrox has advised market participants against buying Bitcoin, warning that a crash is looming for the leading crypto. Instead, the analyst advised buying altcoins, which are likely to… [+2579 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin holds key support for $85K breakout as S&P 500 hits new all-time high",
-        "description": "Bitcoin entered recovery mode after inflation-induced losses, while US stocks shook off macro data with broader risk appetite \"skyrocketing.\"",
-        "url": "https://cointelegraph.com/markets/bitcoin-holds-support-for-85k-breakout-sp-500-new-all-time-high",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/gym-up-bitcoin-eth-1.jpg",
-        "publishedAt": "2026-05-14T15:52:40Z",
-        "content": "Bitcoin (BTC) touched $80,000 around Thursdays Wall Street open as US stocks hit fresh all-time highs and oil retested $100.\r\nKey points:\r\n<ul><li>Bitcoin rebounded to $80,000 while US stock markets … [+2829 chars]"
       }
     ]
   }
