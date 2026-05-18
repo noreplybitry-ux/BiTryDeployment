@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-18T10:16:28.225Z",
+  "timestamp": "2026-05-18T14:33:58.132Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin LTH Supply Climbs Back To August 2025 Levels As 316K BTC Move Into Strong Hands",
+        "description": "Bitcoin’s latest on-chain picture is beginning to look less like panic and more like patience. Data from CryptoQuant, highlighted by crypto analyst Darkfost, shows that long-term holder supply has climbed back to 15.26 million BTC, returning to a level last s…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-lth-supply-climbs-back-to-august-2025-levels-as-316k-btc-move-into-strong-hands/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-17T14:00:32Z",
+        "content": "Bitcoins latest on-chain picture is beginning to look less like panic and more like patience. Data from CryptoQuant, highlighted by crypto analyst Darkfost, shows that long-term holder supply has cli… [+3190 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin’s Fall To $78K Could Be A Bear Trap — Here’s Why",
+        "description": "After springing back to life on the back of positive CLARITY Act development, the price of Bitcoin has been relatively quiet over the past few days. The premier cryptocurrency, which had been dancing around $82,000, is now barely above $78,000. According to a…",
+        "url": "http://www.newsbtc.com/news/bitcoin-fall-to-78k-could-be-a-bear-trap/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/2026-05-17-10.17.57.jpg",
+        "publishedAt": "2026-05-17T12:00:18Z",
+        "content": "After springing back to life on the back of positive CLARITY Act development, the price of Bitcoin has been relatively quiet over the past few days. The premier cryptocurrency, which had been dancing… [+2519 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "SBI, Rakuten, Nomura line up to launch crypto investment trusts: Report",
+        "description": "SBI Securities and Rakuten Securities are already developing crypto investment trusts in-house, while Nomura, Daiwa, and SMBC are preparing to follow as Japan moves to allow crypto-holding funds by 2028.",
+        "url": "https://cointelegraph.com/news/sbi-rakuten-nomura-line-up-to-launch-crypto-investment-trusts-report",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-launch-a-crypto-token-on-a-decentralized-exchange.jpg",
+        "publishedAt": "2026-05-17T10:51:22Z",
+        "content": "Japans major brokerages are preparing to bring crypto investment trusts to retail investors, with SBI Securities and Rakuten Securities already developing products in-house, while others like Nomura … [+2429 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +420,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/gym-up-bitcoin-eth-1.jpg",
         "publishedAt": "2026-05-14T15:52:40Z",
         "content": "Bitcoin (BTC) touched $80,000 around Thursdays Wall Street open as US stocks hit fresh all-time highs and oil retested $100.\r\nKey points:\r\n<ul><li>Bitcoin rebounded to $80,000 while US stock markets … [+2829 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Bullish Shares Dip on Earnings Miss, $605 Million Loss as Value of Crypto Holdings Fell",
-        "description": "Bullish shares fell Thursday after the company reported a first-quarter loss alongside disappointing subscriptions and services revenue.",
-        "url": "https://decrypt.co/367857/bullish-shares-dip-earnings-miss-605-million-loss",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-05-14T15:42:33Z",
-        "content": "In brief\r\n<ul><li>Bullish reported Q1 2026 adjusted revenue of $92.8 million, falling short of the $94.1 million analyst consensus.</li><li>Net losses expanded to $604.9 million, largely driven by $5… [+2859 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Kraken to replace LayerZero with Chainlink to bridge assets across blockchains",
-        "description": "The decision sees a total of over $3 billion in total value locked migrating after a $292 million LayerZero-powered bridge exploit involving Kelp.",
-        "url": "https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8c2d1d6c9e47c3db1e4becaf1739fb8dce590d3b-3600x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-14T15:17:00Z",
-        "content": "Kraken said it will replace LayerZero, a protocol for moving crypto assets across blockchains, with Chainlinks equivalent after the $292 million bridge exploit that hit liquid restaking protocol Kelp… [+1500 chars]"
       }
     ]
   }
