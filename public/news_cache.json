@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-18T23:09:38.524Z",
+  "timestamp": "2026-05-19T04:05:13.028Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-risk-vs-reward-investing-in-bitcoin-at-an-all-time-high.jpg",
         "publishedAt": "2026-05-14T19:42:44Z",
         "content": "Key takeaways:\r\n<ul><li>The Coinbase Bitcoin discount likely stems from stablecoin outflows rather than actual institutional sell pressure.</li><li>Strategy continues buying Bitcoin as the market hol… [+3474 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Crypto losses from North Korea hackers in 2025 rose 51% YoY: Report",
-        "description": "The cybersecurity threats from North Korea are perpetrated by a myriad of small hacker groups deploying malware and executing social engineering scams.",
-        "url": "https://cointelegraph.com/news/losses-dprk-hacks-2025-rose-51-year-over-year",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-how-31-north-korean-developers-fooled-top-crypto-companies-and-stole-680k.jpg",
-        "publishedAt": "2026-05-14T19:01:17Z",
-        "content": "North Korea (DPRK) state-affiliated hackers and threat actors were responsible for more than $2 billion in crypto losses in 2025, a 51% year-over-year increase, despite fewer attacks carried out by t… [+2474 chars]"
       }
     ]
   }
