@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-19T08:31:54.345Z",
+  "timestamp": "2026-05-19T12:15:04.302Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "XRP Ledger’s 121% RWA Surge Is Leaving Solana And BNB Chain Behind — Here’s The Data",
+        "description": "The XRP Ledger has recorded a 120.97% surge in distributed real-world asset value over the past 30 days, with total represented RWA value on the network climbing to $2.43 billion — a 71.24% increase in the same period — according to live data from RWA.xyz, th…",
+        "url": "http://www.newsbtc.com/news/ripple/xrp-ledgers-121-rwa-surge-is-leaving-solana-and-bnb-chain-behind-heres-the-data/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/xrp-xrpusd-ripple.jpg",
+        "publishedAt": "2026-05-18T11:07:47Z",
+        "content": "The XRP Ledger has recorded a 120.97% surge in distributed real-world asset value over the past 30 days, with total represented RWA value on the network climbing to $2.43 billion a 71.24% increase in… [+3407 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "BTC price ‘bull trap’ at $76.5K? Five things to know in Bitcoin this week",
+        "description": "Bitcoin started the week with a dip toward new May lows as ongoing BTC price pressures included \"collapsing\" US bond markets.",
+        "url": "https://cointelegraph.com/markets/btc-price-bull-trap-76-5k-five-things-bitcoin-this-week",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-bull-trap-and-how-to-identify-it-crypto-bitcoin.jpg",
+        "publishedAt": "2026-05-18T10:23:31Z",
+        "content": "Bitcoin (BTC) starts a new week under pressure as support levels fade and macro gloom intensifies.\r\nKey points:\r\n<ul><li>Bitcoin falls below a key 21-week trend line after the weekly close, but hopes… [+8720 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Meme coins remain under pressure as Dogecoin extends losses",
+        "description": "Key takeaways Dogecoin extends its correction on Monday as memecoins record huge losses. DOGE could drop below $0.10 if the bearish trend persists.  Memecoins record huge losses The cryptocurrency market opened the new weekly candle bearish, with Bitcoin (BTC…",
+        "url": "https://coinjournal.net/news/meme-coins-remain-under-pressure-as-dogecoin-extends-losses/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_20_11-AM.png",
+        "publishedAt": "2026-05-18T09:21:56Z",
+        "content": "Key takeaways\r\n<ul><li>Dogecoin extends its correction on Monday as memecoins record huge losses.</li><li>DOGE could drop below $0.10 if the bearish trend persists. </li></ul>Memecoins record huge lo… [+2240 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin slides below $76,800 as ETF outflows and inflation fears pressure crypto markets",
+        "description": "Key takeaways BTC dips lower for a fourth straight day on Monday after losing nearly 6% the previous week. US-listed BTC spot ETFs record a weekly outflow of $1 billion, the highest in three months. Bitcoin (BTC) remained under pressure on Monday, trading bel…",
+        "url": "https://coinjournal.net/news/bitcoin-slides-below-76800-as-etf-outflows-and-inflation-fears-pressure-crypto-markets/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_06_04-AM.png",
+        "publishedAt": "2026-05-18T09:11:36Z",
+        "content": "Key takeaways\r\n<ul><li>BTC dips lower for a fourth straight day on Monday after losing nearly 6% the previous week.</li><li>US-listed BTC spot ETFs record a weekly outflow of $1 billion, the highest … [+3452 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +407,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-crypto-regulation-in-australia-issues-and-solutions.jpg",
         "publishedAt": "2026-05-15T07:15:07Z",
         "content": "Australias proposed changes to capital gains tax could lead to smaller profits for cryptocurrency traders, especially low-income earners, and could discourage patient investing, according to several … [+4357 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Kraken joins LayerZero exodus as it switches to Chainlink CCIP",
-        "description": "LayerZero has come under scrutiny since it was exploited in April, as crypto protocols reevaluate their cross-chain providers and seek safer alternatives.",
-        "url": "https://cointelegraph.com/news/kraken-joins-layerzero-exodus-switching-chainlink-ccip",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/blockchain-cubes-crypto2.jpg",
-        "publishedAt": "2026-05-15T07:10:56Z",
-        "content": "Crypto exchange Kraken announced Thursday that it changed its cross-chain provider from LayerZero to Chainlinks Cross-Chain Interoperability Protocol, joining a number of protocols that have made the… [+2910 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Buyers Stay Active, Though Resistance Keeps Pressure High",
-        "description": "Solana found support at $90 and corrected some losses. SOL price is now consolidating below $94 and might struggle to continue higher. SOL price started a decent recovery wave above $91 and $92 against the US Dollar. The price is now trading below $94 and the…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-buyers-stay-active-90/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Buyers-Stay-Active-Though-Resistance-Keeps-Pressure-High.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-15T05:08:41Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "XRP Price Dominates Crypto Market As Bitcoin And Ethereum Lag Behind",
-        "description": "XRP price started a steady increase above $1.50. The price is now consolidating gains and might aim for more gains above the $1.520 zone. XRP price started a steady increase above the $1.50 zone. The price is now trading above $1.480 and the 100-hourly Simple…",
-        "url": "http://www.newsbtc.com/analysis/xrp/xrp-price-dominates-crypto-market-1-50/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/XRP-Price-Dominates-Crypto-Market-As-Bitcoin-And-Ethereum-Lag-Behind.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-15T04:08:04Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
