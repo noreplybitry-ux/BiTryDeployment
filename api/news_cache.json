@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-19T16:26:20.760Z",
+  "timestamp": "2026-05-19T19:05:38.984Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/18: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA",
+        "description": "Bitcoin dropped to the crucial $76,000 support level while large-cap altcoins sold off sharply. Do technical charts suggest that traders will buy the dip?",
+        "url": "https://cointelegraph.com/markets/price-predictions-518-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-screen-red-fall32.jpg",
+        "publishedAt": "2026-05-18T17:58:29Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin has pulled back to the $76,000 level, a crucial near-term support level to watch.</li><li>Several major altcoins have broken below their near-term support levels, indicat… [+7998 chars]"
+      },
       {
         "source": {
           "id": null,
