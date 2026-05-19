@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-19T21:25:05.508Z",
+  "timestamp": "2026-05-19T23:09:33.930Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin lost its hold on $80K, but three events may send it back sooner than markets expect",
+        "description": "Bitcoin positions itself for a rally above $80,000 after Strategy's $2 billion BTC buy, crumbling investor confidence in the US Treasury and a potential US-Iran deal.",
+        "url": "https://cointelegraph.com/markets/bitcoin-lost-its-hold-on-80k-but-three-events-may-send-it-back-sooner-than-markets-expect",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-impermanent-loss-and-how-to-avoid-it2-2.jpg",
+        "publishedAt": "2026-05-18T21:47:48Z",
+        "content": "Key takeaways:\r\n<ul><li>Aggressive Bitcoin buying by Strategy helped to offset the recent leveraged long liquidations.</li><li>Rising bond yields and a heavy US government debt burden are driving inv… [+3394 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/crypto-bitcoin-falling2.jpg",
         "publishedAt": "2026-05-15T12:49:42Z",
         "content": "Bitcoins (BTC) Thursday rally to $82,000, buoyed by the Senate Banking Committee's advancement of the CLARITY Act, has stalled amid stiff overhead resistance and weakening ETF demand. Still, analysts… [+3587 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin risks ‘next downtrend’ as traders diverge on fate of $82K resistance",
-        "description": "Bitcoin traders split between a \"massive catch-up\" with stocks and the start of its \"next downtrend\" as BTC price action failed to flip $82,000 to support.",
-        "url": "https://cointelegraph.com/markets/bitcoin-risks-next-downtrend-traders-diverge-fate-82k-resistance",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-beyond-bitcoin-he-future-of-digital-assets-bitcoin-price.jpg",
-        "publishedAt": "2026-05-15T11:49:05Z",
-        "content": "Bitcoin (BTC) risks starting its next downtrend as bulls fail to break beyond $82,000, the latest analysis warns.\r\nKey points:\r\n<ul><li>Bitcoin traders are beginning to sway toward a support retest o… [+2548 chars]"
       }
     ]
   }
