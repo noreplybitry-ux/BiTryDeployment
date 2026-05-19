@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-19T12:15:04.302Z",
+  "timestamp": "2026-05-19T16:26:20.759Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Andrew Hayward",
+        "title": "Bitcoin, Ethereum ETFs Bleed as Crypto Funds Shed $1.07 Billion, Ending 6-Week Win Streak",
+        "description": "Bitcoin ETFs bore the brunt of a geopolitically driven sell-off, CoinShares said, though altcoin funds largely held their ground.",
+        "url": "https://decrypt.co/368183/bitcoin-ethereum-etfs-bleed-crypto-funds-shed-1-billion",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-05-18T16:00:29Z",
+        "content": "In brief\r\n<ul><li>Iran tensions ended a six-week inflow streak with $1.07 billion in outflows, led by Bitcoin and Ethereum.</li><li>The sell-off was almost entirely American; European markets held fi… [+2166 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Ethereum traders say bears ‘in control’ after ETH price drop to $2K",
+        "description": "Ether price fell sharply below $2,100 as increasing sell pressure on Binance and persistent ETF outflows fueled bearish momentum.",
+        "url": "https://cointelegraph.com/markets/ethereum-traders-say-bears-in-control-eth-price-drop-2k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bear-market-14.jpg",
+        "publishedAt": "2026-05-18T15:36:04Z",
+        "content": "Ether (ETH) dropped sharply after rejection at $2,400 last week, dropping as low as $2,100 on Monday, indicating that bears are back in control, according to new analysis.\r\nKey takeaways:\r\n<ul><li>Et… [+3835 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-beyond-bitcoin-he-future-of-digital-assets-bitcoin-price.jpg",
         "publishedAt": "2026-05-15T11:49:05Z",
         "content": "Bitcoin (BTC) risks starting its next downtrend as bulls fail to break beyond $82,000, the latest analysis warns.\r\nKey points:\r\n<ul><li>Bitcoin traders are beginning to sway toward a support retest o… [+2548 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "XRP nears $1.50 as Senate crypto vote and whale buying fuel fresh optimism",
-        "description": "XRP surged to intraday highs near $1.55 on renewed optimism. Senate Banking Committee approved the Digital Asset Market Clarity Act in a 15-9 vote. XRP price could target a breakout as the market cheers the regulatory milestone. XRP price rose to near $1.55 o…",
-        "url": "https://coinjournal.net/news/xrp-nears-1-50-as-senate-crypto-vote-and-whale-buying-fuel-fresh-optimism/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/05/image-3.png",
-        "publishedAt": "2026-05-15T08:33:22Z",
-        "content": "<ul><li>XRP surged to intraday highs near $1.55 on renewed optimism.</li><li>Senate Banking Committee approved the Digital Asset Market Clarity Act in a 15-9 vote.</li><li>XRP price could target a br… [+3278 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Australia’s proposed CGT changes could discourage long-term crypto holding",
-        "description": "Australia’s proposed capital gains tax reforms could significantly increase tax bills for crypto investors, which analysts speculate could reshape trading and investment strategies way from holding and more toward more frequent trading.",
-        "url": "https://cointelegraph.com/news/australia-crypto-cgt-tax-changes-investors-profit-impact",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/hi-crypto-regulation-in-australia-issues-and-solutions.jpg",
-        "publishedAt": "2026-05-15T07:15:07Z",
-        "content": "Australias proposed changes to capital gains tax could lead to smaller profits for cryptocurrency traders, especially low-income earners, and could discourage patient investing, according to several … [+4357 chars]"
       }
     ]
   }
