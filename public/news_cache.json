@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-19T23:09:33.930Z",
+  "timestamp": "2026-05-20T04:06:12.148Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Weakness Persists, Traders Brace For Possible $75K Test",
+        "description": "Bitcoin price started a fresh decline below the $77,500 zone. BTC is consolidating and might struggle to stay above the $76,000 support. Bitcoin failed to stay above $77,500 and extended losses. The price is trading below $77,000 and the 100 hourly simple mov…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-weakness-persists-75k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bleeds-Lower.jpg",
+        "publishedAt": "2026-05-19T03:09:37Z",
+        "content": "Bitcoin price started a fresh decline below the $77,500 zone. BTC is consolidating and might struggle to stay above the $76,000 support.\r\n<ul><li>Bitcoin failed to stay above $77,500 and extended los… [+2196 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Meets Geopolitics: Iran Launches Crypto Insurance For Ships In The Strait Of Hormuz",
+        "description": "Nearly 20% of the world’s oil supply moves through the Strait of Hormuz. Iran now wants a cut of it — not by force, but through Bitcoin. Related Reading: XRP Will Go ‘Higher, Much Higher,’ Analyst Says, Betting On Explosive Breakout A Platform Built Around Ge…",
+        "url": "http://www.newsbtc.com/news/bitcoin-meets-geopolitics-iran-launches-crypto-insurance-for-ships-in-the-strait-of-hormuz/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-19T03:00:46Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +420,6 @@
         "urlToImage": null,
         "publishedAt": "2026-05-15T14:30:26Z",
         "content": "Crypto analyst Tice has declared that an Ethereum price rally to $4,000 isnt a moonshot but one that is bound to happen. This came as he revealed that he was accumulating ETH based on the technicals,… [+2524 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Gemini Stock Jumps on Revenue Rise, $100M Bitcoin Investment From Winklevoss Capital",
-        "description": "Crypto exchange Gemini secured a $100 million Bitcoin investment from its founders’ fund, and revealed a 42% YOY Q1 revenue bump.",
-        "url": "https://decrypt.co/367978/gemini-stock-jumps-revenue-rise-100m-bitcoin-investment-winklevoss",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-05-15T14:11:42Z",
-        "content": "In brief\r\n<ul><li>Gemini reported Q1 2026 revenue of $50.3 million, up 42% year-over-year.</li><li>The crypto exchange secured a $100 million strategic investment from Winklevoss Capital Fund at $14 … [+2767 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin stalls above $80K despite CLARITY Act pass: What will trigger a breakout?",
-        "description": "Bitcoin analysts believe BTC price has room to go higher in the short term if resistance at $82,000-$84,000 is overcome and ETFs see strong inflows again.",
-        "url": "https://cointelegraph.com/markets/bitcoin-stalls-80k-despite-clarity-act-pass-what-will-trigger-breakout",
-        "urlToImage": "https://resizer.ctmedia.io/cdn-cgi/image/width=1280,format=auto,quality=80,onerror=redirect/https://s3-images.ctmedia.io/media/article-covers/crypto-bitcoin-falling2.jpg",
-        "publishedAt": "2026-05-15T12:49:42Z",
-        "content": "Bitcoins (BTC) Thursday rally to $82,000, buoyed by the Senate Banking Committee's advancement of the CLARITY Act, has stalled amid stiff overhead resistance and weakening ETF demand. Still, analysts… [+3587 chars]"
       }
     ]
   }
