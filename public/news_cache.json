@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-20T21:01:48.106Z",
+  "timestamp": "2026-05-20T23:17:46.630Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "After Nearly a Decade, Gary Gensler's Poster Child for Crypto Compliance Executes Its First Trade",
+        "description": "After weathering years of industry skepticism and navigating a shifting regulatory landscape, Prometheum executed its first crypto trades.",
+        "url": "https://decrypt.co/368409/gary-gensler-poster-child-crypto-compliance-executes-first-trade",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/gary-gensler-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-05-19T22:01:04Z",
+        "content": "In brief\r\n<ul><li>Nearly a decade after its founding and raising $100 million, Prometheum has officially executed its first crypto trades.</li><li>Co-CEO Aaron Kaplan argues the platform dovetails wi… [+3741 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/2025-05-03-03.53.01.jpg",
         "publishedAt": "2026-05-17T08:00:40Z",
         "content": "Over the past few weeks, Bitcoin has struggled to break above the $82,000 price resistance and now trades near $78,000. While the integrity of either of these zones carries significant yet different … [+3074 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Why Bitcoin Price Could Be Forming A Consolidation Structure Around $80,000",
-        "description": "The Bitcoin price has surged towards the $80,000 mark over the past few weeks, signaling an ongoing resurgence from the bear-market lows observed in the first quarter of 2026. However, the premier cryptocurrency appears to have run out of the bullish impetus …",
-        "url": "http://www.newsbtc.com/news/bitcoin/why-bitcoin-price-could-be-forming-consolidation/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-1255216496.jpg?fit=1254%2C836",
-        "publishedAt": "2026-05-16T21:00:17Z",
-        "content": "The Bitcoin price has surged towards the $80,000 mark over the past few weeks, signaling an ongoing resurgence from the bear-market lows observed in the first quarter of 2026. However, the premier cr… [+2739 chars]"
       }
     ]
   }
