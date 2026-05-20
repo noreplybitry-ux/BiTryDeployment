@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-20T15:37:09.532Z",
+  "timestamp": "2026-05-20T18:23:33.192Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price stays under $77K as US bond yields near 20-year highs",
+        "description": "BTC price stayed pinned below $77,000 amid rising US bond yields and oil prices, with market analysts saying Bitcoin is now at a \"crucial level of support.\"",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-stays-under-77k-as-us-bond-yields-near-20-year-highs",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/coinbitcoin-heightlowpricefall.jpg",
+        "publishedAt": "2026-05-19T16:00:27Z",
+        "content": "Bitcoin (BTC) consolidated near month-to-date lows on Tuesday as surging US bonds punished stocks and safe havens.\r\nKey points:\r\n<ul><li>Bitcoin joins risk assets feeling the pressure from skyrocketi… [+2492 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/2025-03-23-01.36.33.jpg?fit=960%2C640",
         "publishedAt": "2026-05-16T17:00:38Z",
         "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Power Law Forecasts Price Bottom Of $42,800 – Details",
-        "description": "Bitcoin’s price performance in the last week saw a slowdown to the asset’s relief rally that began in early April. According to data from CoinMarketCap, the market price declined by 1.45% in a range-bound week, during which bulls failed to overcome a key resi…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-power-law-forecasts-price-bottom-of-42800-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-photo-5980743.jpeg",
-        "publishedAt": "2026-05-16T07:00:40Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       }
     ]
   }
