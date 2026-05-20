@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-20T11:52:01.035Z",
+  "timestamp": "2026-05-20T15:37:09.532Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Recent Bitcoin holders sell $770M BTC at a loss amid $65K BTC price calls",
+        "description": "More than 10,000 Bitcoin have been sold at a loss by short-term holders in recent days, adding fuel to analysts’ predictions that BTC price will fall to $65,000.",
+        "url": "https://cointelegraph.com/markets/recent-bitcoin-holders-sell-770m-btc-at-a-loss-amid-65k-btc-price-calls",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-is-bitcoin-the-new-safe-haven-during-trade-wars-1.jpg",
+        "publishedAt": "2026-05-19T14:19:38Z",
+        "content": "Bitcoin (BTC) price dropped to $76,500 on Monday, erasing nearly all of this months gains as fresh US-Iran war tensions soured the crypto market sentiment. This has led investors and traders to reeva… [+4654 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Historical Data Shows How Many Days Are Left Until Bitcoin Price Hits New ATH Above $120,000",
+        "description": "Crypto analyst Cyclop has provided insights into when the Bitcoin price could hit a new all-time high (ATH) above $120,000. This came as the analyst alluded to historical data indicating that BTC could bottom in this bear cycle by the last quarter of this yea…",
+        "url": "http://www.newsbtc.com/news/bitcoin/when-bitcoin-will-hit-new-ath/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-70-1.jpg?fit=612%2C402",
+        "publishedAt": "2026-05-19T13:30:18Z",
+        "content": "Crypto analyst Cyclop has provided insights into when the Bitcoin price could hit a new all-time high (ATH) above $120,000. This came as the analyst alluded to historical data indicating that BTC cou… [+2471 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "South Korean funeral company records $33M unrealized loss on leveraged ETH ETFs",
+        "description": "South Korea’s seventh-largest mutual aid company is currently sitting on a $33 million paper loss on its leveraged Ether ETF investment, following the crypto market downturn.",
+        "url": "https://cointelegraph.com/news/south-korean-funeral-company-customer-funds-eth-etfs-unrealized-loss",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-maker-releases-report-on-its-the-epic-crash-of-march-12.jpg",
+        "publishedAt": "2026-05-19T13:23:52Z",
+        "content": "South Korean funeral service company Bumo Sarang is sitting on roughly 49.3 billion won ($32.7 million) in unrealized losses after investing about $40 million in customer funds into leveraged crypto … [+2231 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Analyst Says Roadmap For Bitcoin To Reach $500,000 Is Complete, Here’s Why",
+        "description": "Bitcoin’s long-term chart has produced another interesting price projection, as crypto analyst Crypto Tice is pointing out a technical roadmap needed for a rally to $500,000. This Bitcoin price forecast is based on a broad ascending channel that has guided th…",
+        "url": "http://www.newsbtc.com/news/bitcoin/oadmap-for-bitcoin-to-500000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-500000.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-05-19T12:00:16Z",
+        "content": "Bitcoins long-term chart has produced another interesting price projection, as crypto analyst Crypto Tice is pointing out a technical roadmap needed for a rally to $500,000. This Bitcoin price foreca… [+2818 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-photo-5980743.jpeg",
         "publishedAt": "2026-05-16T07:00:40Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Ethereum Sell Signal That Last Preceded A 63% Drop Flashes Again",
-        "description": "Ethereum has seen a Tom Demark (TD) Sequential sell signal on its weekly chart, something that last led to a major drawdown for the asset. Ethereum Has Seen A TD Sequential Sell Signal In a new post on X, analyst Ali Martinez has highlighted a TD Sequential s…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-sell-last-preceded-63-drop-flashes-again/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/eth_290cc5.png?fit=1152%2C768",
-        "publishedAt": "2026-05-16T05:00:25Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Is Zcash The Next Bitcoin? Investors Rush Into The Privacy Coin Narrative",
-        "description": "Arthur Hayes has a new favorite coin — and it is not Bitcoin. The veteran crypto investor recently revealed that Zcash has become one of his largest crypto holdings outside of Bitcoin, a disclosure that has drawn fresh attention to a cryptocurrency that many …",
-        "url": "http://www.newsbtc.com/altcoin/is-zcash-the-next-bitcoin-investors-rush-into-the-privacy-coin-narrative/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_872607.jpg?fit=1125%2C750",
-        "publishedAt": "2026-05-16T02:00:23Z",
-        "content": "Arthur Hayes has a new favorite coin and it is not Bitcoin. The veteran crypto investor recently revealed that Zcash has become one of his largest crypto holdings outside of Bitcoin, a disclosure tha… [+2660 chars]"
       }
     ]
   }
