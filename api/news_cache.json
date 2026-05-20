@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-20T18:23:33.192Z",
+  "timestamp": "2026-05-20T21:01:48.106Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Bitcoin Hits ‘Wall Of Resistance,’ CryptoQuant Research Head Warns",
+        "description": "Bitcoin’s latest rally has run into a major technical and on-chain resistance zone, with CryptoQuant research head Julio Moreno warning that several indicators now point to elevated correction risk after a sharp rebound from April lows. Moreno said CryptoQuan…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-wall-of-resistance-cryptoquant-research-head/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-19.-Mai-2026-13_39_09.png?fit=1333%2C750",
+        "publishedAt": "2026-05-19T21:00:03Z",
+        "content": "Bitcoins latest rally has run into a major technical and on-chain resistance zone, with CryptoQuant research head Julio Moreno warning that several indicators now point to elevated correction risk af… [+3845 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Bitcoin’s 2026 Market Structure Reveals A Problem Hidden Beneath ETF Growth",
+        "description": "Bitcoin has lost the $80,000 level as selling pressure and market uncertainty combine to test the resilience of a recovery that had been building since the April lows. The breakdown is significant, and XWIN Research Japan has published a structural analysis t…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoins-2026-market-structure-reveals-a-problem-hidden-beneath-etf-growth/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-18.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-05-19T19:30:27Z",
+        "content": "Bitcoin has lost the $80,000 level as selling pressure and market uncertainty combine to test the resilience of a recovery that had been building since the April lows. The breakdown is significant, a… [+4986 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/iStock-1255216496.jpg?fit=1254%2C836",
         "publishedAt": "2026-05-16T21:00:17Z",
         "content": "The Bitcoin price has surged towards the $80,000 mark over the past few weeks, signaling an ongoing resurgence from the bear-market lows observed in the first quarter of 2026. However, the premier cr… [+2739 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Says Don’t Buy Bitcoin Until This Happens",
-        "description": "Crypto analyst Gargoyle has advised market participants not to buy Bitcoin until it sees high volume, which could mark the bottom. This comes amid BTC’s recent drop below the psychological $80,000 level, with the leading crypto at risk of another decline.  An…",
-        "url": "http://www.newsbtc.com/news/bitcoin/dont-buy-bitcoin-until-this/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-57.jpg?fit=612%2C491",
-        "publishedAt": "2026-05-16T19:00:47Z",
-        "content": "Crypto analyst Gargoyle has advised market participants not to buy Bitcoin until it sees high volume, which could mark the bottom. This comes amid BTCs recent drop below the psychological $80,000 lev… [+2569 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin analysis sees 'bear trap' as BTC price passes two-week lows under $78K",
-        "description": "Bitcoin fell below $78,000 for the first time since the start of May, but traders refused to give up hope of a BTC price rebound coming next.",
-        "url": "https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bear-crypto-market1-2.jpg",
-        "publishedAt": "2026-05-16T17:07:39Z",
-        "content": "Bitcoin (BTC) circled $78,000 on Saturday after geopolitical headwinds erased most of its May gains.\r\nKey points:\r\n<ul><li>Bitcoin falls below $78,000 for the first time since the start of May.</li><… [+2989 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Solana Eyes $117 Breakout — If Bulls Can Crush This Key Resistance",
-        "description": "The Solana price has struggled to shake off its early-year woes despite a slightly improved general market climate in recent weeks. After falling from a nearly $150 valuation in the first quarter of 2026, the altcoin has been stuck within a consolidation rang…",
-        "url": "http://www.newsbtc.com/news/solana/solana-price-could-be-on-its-way-to-117/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/03/2025-03-23-01.36.33.jpg?fit=960%2C640",
-        "publishedAt": "2026-05-16T17:00:38Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
       }
     ]
   }
