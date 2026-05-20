@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-20T04:06:12.148Z",
+  "timestamp": "2026-05-20T08:29:50.303Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Slow Bleed Continues, Key $0.10 Support Comes Into Focus",
+        "description": "Dogecoin started a fresh decline below the $0.1080 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.1065 and $0.1075. DOGE price started a fresh decline below the $0.1080 level. The price is trading below the $0.1075…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-slow-bleed-0-10/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Bulls-Make-A-Move.jpg?fit=1024%2C572",
+        "publishedAt": "2026-05-19T07:08:46Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Rubmar Garcia",
+        "title": "Bitcoin Rally On The Line: Analyst Explains Why This Weekly Close Is Critical",
+        "description": "Bitcoin (BTC) sits at a technical crossroads after losing a crucial support level, leading some market observers to suggest that this week’s price will be decisive for whether the flagship crypto can reclaim upside momentum or extend its recent losses. Relate…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-rally-this-weekly-close-is-critical/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/ashwini-chaudhary-monty-dm2i1JUr2iY-unsplash.jpg?fit=1920%2C1489",
+        "publishedAt": "2026-05-19T07:00:42Z",
+        "content": "Bitcoin (BTC) sits at a technical crossroads after losing a crucial support level, leading some market observers to suggest that this weeks price will be decisive for whether the flagship crypto can … [+3472 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Stabilizes After Selloff, But Bears Still Hold Advantage",
+        "description": "Ethereum price started a fresh decline and traded below $2,120. ETH is now consolidating above $2,050 and might struggle to recover. Ethereum remained in a bearish zone after a sharp decline. The price is trading below $2,165 and the 100-hourly Simple Moving …",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-stabilizes-2050/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Stabilizes-After-Selloff-But-Bears-Still-Hold-Advantage.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-19T05:48:18Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,120. ETH is now consolidating above $2,050 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a sharp decline… [+2158 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,58 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analytics-analysis-future-city-5-element.jpg",
         "publishedAt": "2026-05-15T18:09:38Z",
         "content": "Key points:\r\n<ul><li>Bitcoin is struggling to reach the $84,000 level, but a minor positive is that the bulls have not allowed the price to skid to the $76,000 support.</li><li>Select major altcoins … [+8276 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "What’s Going On With Ethereum And Why Is Price Moving This Way?",
-        "description": "Ethereum has been moving sideways in recent weeks, leaving traders questioning why momentum keeps stalling despite multiple upward pushes. According to an analysis shared by an analyst on X, the answer lies in a specific technical level that the asset has rep…",
-        "url": "http://www.newsbtc.com/news/ethereum/whats-going-on-with-ethereum/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/ChatGPT-Image-Apr-20-2026-08_43_02-AM.png?fit=1222%2C814",
-        "publishedAt": "2026-05-15T17:30:52Z",
-        "content": "Ethereum has been moving sideways in recent weeks, leaving traders questioning why momentum keeps stalling despite multiple upward pushes. According to an analysis shared by an analyst on X, the answ… [+3001 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Myanmar’s military government proposes life in prison for crypto scammers",
-        "description": "The text of Myanmar’s Anti-Online Fraud Bill said that anyone who was convicted of committing “digital currency fraud” could face from ten years to life in prison, and possibly the death penalty.",
-        "url": "https://cointelegraph.com/news/myanmar-government-life-death-crypto-scammers",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-prisoner-with-handcuffs.jpg",
-        "publishedAt": "2026-05-15T17:08:51Z",
-        "content": "The military government of Myanmar released the text of a bill aimed at combating online fraudsters, with several penalties related to cryptocurrencies and scam centers.\r\nAccording to the text of the… [+2568 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price dives under $79K as US bond market triggers 3% BTC price rout",
-        "description": "Bitcoin joined stocks in a sell-off over US bond yields as BTC price action eyed its lowest levels for May after giving up gains.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-dives-under-79k-us-bond-market-triggers-3-btc-price-rout",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bollinger-band-explained2.jpg",
-        "publishedAt": "2026-05-15T15:21:21Z",
-        "content": "Bitcoin (BTC) fell below $80,000 at Fridays Wall Street open as analysis tied risk-asset weakness to US bond markets.\r\nKey points:\r\n<ul><li>Bitcoin eyes its lowest levels of May as concerns over US b… [+2867 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Price Reaching $4,000 Isn’t A Moonshot, Here’s What It Is",
-        "description": "Crypto analyst Tice has declared that an Ethereum price rally to $4,000 isn’t a moonshot but one that is bound to happen. This came as he revealed that he was accumulating ETH based on the technicals, which point to a buy sentiment.  Analyst Reveals Ethereum …",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-reaching-4000/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-15T14:30:26Z",
-        "content": "Crypto analyst Tice has declared that an Ethereum price rally to $4,000 isnt a moonshot but one that is bound to happen. This came as he revealed that he was accumulating ETH based on the technicals,… [+2524 chars]"
       }
     ]
   }
