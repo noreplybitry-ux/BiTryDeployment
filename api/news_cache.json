@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-21T08:37:16.616Z",
+  "timestamp": "2026-05-21T12:20:38.966Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin’s ‘momentum is fading’: Traders have these support levels in mind",
+        "description": "Bitcoin momentum is fading following drop to $76,000 as analysts warn a loss of key support at $74,000-$76,000 could trigger a deeper BTC price correction.",
+        "url": "https://cointelegraph.com/markets/bitcoins-momentum-is-fading-traders-have-these-support-levels-in-mind",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-charts-101-how-to-read-cryptocurrency-charts-bitcoin.jpg",
+        "publishedAt": "2026-05-20T11:40:51Z",
+        "content": "Market analysts say Bitcoin (BTC) is showing momentum exhaustion after its 8% drop from multi-month highs above $82,000, with bulls expected to defend key crucial support levels. \r\nKey takeaways:\r\n<u… [+3334 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "South Carolina governor signs bill protecting Bitcoin miners, banning CBDC",
+        "description": "South Carolina has passed S. Bill 163, banning state agencies from accepting CBDCs, protecting crypto self-custody rights, and exempting Bitcoin miners from money transmitter licensing requirements.",
+        "url": "https://cointelegraph.com/news/south-carolina-governor-signs-bill-protecting-bitcoin-miners-banning-cbdc",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-nodes-vs-miners-key-differences.jpg",
+        "publishedAt": "2026-05-20T11:21:32Z",
+        "content": "South Carolina Governor Henry McMaster signed Senate Bill 163 into law on Tuesday, advancing one of the most crypto-friendly state-level frameworks in the country.\r\nThe bill, which previously passed … [+2260 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Zcash Soars 88% In 30 Days: Is ZEC The Stealth Winner Of This Crypto Cycle?",
+        "description": "BitMEX co-founder Arthur Hayes has suggested that Zcash (ZEC) could eventually reach 10% of Bitcoin’s market capitalization, a long-term bullish thesis on privacy coins rather than a near-term price forecast. Based on ZEC’s circulating supply of around 16 mil…",
+        "url": "http://www.newsbtc.com/news/zcash-breakout-brewing-analysts-see-88-upside-for-zec/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/A_e4eba3.png?fit=2000%2C1000",
+        "publishedAt": "2026-05-20T10:00:01Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,45 +368,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_20_11-AM.png",
         "publishedAt": "2026-05-18T09:21:56Z",
         "content": "Key takeaways\r\n<ul><li>Dogecoin extends its correction on Monday as memecoins record huge losses.</li><li>DOGE could drop below $0.10 if the bearish trend persists. </li></ul>Memecoins record huge lo… [+2240 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin slides below $76,800 as ETF outflows and inflation fears pressure crypto markets",
-        "description": "Key takeaways BTC dips lower for a fourth straight day on Monday after losing nearly 6% the previous week. US-listed BTC spot ETFs record a weekly outflow of $1 billion, the highest in three months. Bitcoin (BTC) remained under pressure on Monday, trading bel…",
-        "url": "https://coinjournal.net/news/bitcoin-slides-below-76800-as-etf-outflows-and-inflation-fears-pressure-crypto-markets/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_06_04-AM.png",
-        "publishedAt": "2026-05-18T09:11:36Z",
-        "content": "Key takeaways\r\n<ul><li>BTC dips lower for a fourth straight day on Monday after losing nearly 6% the previous week.</li><li>US-listed BTC spot ETFs record a weekly outflow of $1 billion, the highest … [+3452 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Tumbles Hard, Bears Tighten Grip On Market Momentum",
-        "description": "Ethereum price started a fresh decline and traded below $2,050. ETH is now consolidating below $2,150 and might struggle to recover. Ethereum started a downside extension below the $2,150 zone. The price is trading below $2,150 and the 100-hourly Simple Movin…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-tumbles-hard-2150/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Slips-Into-Danger-Zone.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-18T06:58:56Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,050. ETH is now consolidating below $2,150 and might struggle to recover.\r\n<ul><li>Ethereum started a downside extension below the $2,150 zo… [+2146 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Extends Decline, Downside Pressure Builds Aggressively",
-        "description": "Bitcoin price started a fresh decline below the $78,500 zone. BTC is consolidating and might struggle to stay above the $76,500 support. Bitcoin failed to stay above $78,500 and extended losses. The price is trading below $78,000 and the 100 hourly simple mov…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-extends-decline-78k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Recovery-at-Risk.jpg",
-        "publishedAt": "2026-05-18T06:27:52Z",
-        "content": "Bitcoin price started a fresh decline below the $78,500 zone. BTC is consolidating and might struggle to stay above the $76,500 support.\r\n<ul><li>Bitcoin failed to stay above $78,500 and extended los… [+2196 chars]"
       }
     ]
   }
