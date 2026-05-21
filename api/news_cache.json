@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-20T23:17:46.630Z",
+  "timestamp": "2026-05-21T04:15:04.848Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Bounce Looks Fragile, Another Selloff May Be Brewing",
+        "description": "Ethereum price started a recovery wave above the $2,100 zone. ETH is now consolidating and might struggle to continue higher above the $2,150 resistance. Ethereum started a recovery wave from the $2,075 zone. The price is trading below $2,120 and the 100-hour…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-bounce-looks-fragile-2150/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-2200-Collapse.jpg?fit=1024%2C572",
+        "publishedAt": "2026-05-20T03:08:35Z",
+        "content": "Ethereum price started a recovery wave above the $2,100 zone. ETH is now consolidating and might struggle to continue higher above the $2,150 resistance.\r\n<ul><li>Ethereum started a recovery wave fro… [+2122 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Stabilizes Above $76K, Traders Await Next Major Move",
+        "description": "Bitcoin price started a fresh decline below the $76,800 zone. BTC is consolidating and might struggle to stay above the $76,000 support. Bitcoin failed to stay above $77,000 and extended losses. The price is trading below $77,200 and the 100 hourly simple mov…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-stabilizes-above-76k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Recovery-Slips-Sellers-Tighten-Grip-on-Market.jpg",
+        "publishedAt": "2026-05-20T02:15:54Z",
+        "content": "Bitcoin price started a fresh decline below the $76,800 zone. BTC is consolidating and might struggle to stay above the $76,000 support.\r\n<ul><li>Bitcoin failed to stay above $77,000 and extended los… [+2190 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "USDC Exchange Inflows Hit $350M—Traders Buying The Bitcoin Dip?",
+        "description": "On-chain data shows USDC exchange inflows have witnessed a spike after the latest Bitcoin pullback, a potential sign that traders are looking to buy the dip. USDC Exchange Inflows Have Spiked To $350 Million As pointed out by on-chain analyst Maartunn in an X…",
+        "url": "http://www.newsbtc.com/bitcoin-news/usdc-exchange-inflows-350m-buying-bitcoin-dip/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/usdc.png?fit=1105%2C737",
+        "publishedAt": "2026-05-20T01:30:40Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,84 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_eb15ac.jpg?fit=3233%2C2155",
         "publishedAt": "2026-05-17T20:00:48Z",
         "content": "On-chain data is pointing to another interesting accumulation move by Tom Lee’s BitMine Immersion Technologies, with a whale tracker flagging a $197.64 million Ethereum purchase routed through four n… [+3076 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Binance Records $1.5 Billion Stablecoin Net Inflow Amid Highly Reactive Market",
-        "description": "Recent on-chain data indicate the Binance exchange has registered a high volatility in stablecoin inflows in recent days. This observation can be linked to the general market’s choppiness during this period, driven by Bitcoin’s price movements. Pseudonymous r…",
-        "url": "http://www.newsbtc.com/stablecoin/binance-records-1-5-billion-stablecoin-net-inflow-amid-highly-reactive-market/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/shutterstock_2139614619.jpg?fit=1000%2C562",
-        "publishedAt": "2026-05-17T18:00:10Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin LTH Supply Climbs Back To August 2025 Levels As 316K BTC Move Into Strong Hands",
-        "description": "Bitcoin’s latest on-chain picture is beginning to look less like panic and more like patience. Data from CryptoQuant, highlighted by crypto analyst Darkfost, shows that long-term holder supply has climbed back to 15.26 million BTC, returning to a level last s…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-lth-supply-climbs-back-to-august-2025-levels-as-316k-btc-move-into-strong-hands/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-17T14:00:32Z",
-        "content": "Bitcoins latest on-chain picture is beginning to look less like panic and more like patience. Data from CryptoQuant, highlighted by crypto analyst Darkfost, shows that long-term holder supply has cli… [+3190 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin’s Fall To $78K Could Be A Bear Trap — Here’s Why",
-        "description": "After springing back to life on the back of positive CLARITY Act development, the price of Bitcoin has been relatively quiet over the past few days. The premier cryptocurrency, which had been dancing around $82,000, is now barely above $78,000. According to a…",
-        "url": "http://www.newsbtc.com/news/bitcoin-fall-to-78k-could-be-a-bear-trap/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/2026-05-17-10.17.57.jpg",
-        "publishedAt": "2026-05-17T12:00:18Z",
-        "content": "After springing back to life on the back of positive CLARITY Act development, the price of Bitcoin has been relatively quiet over the past few days. The premier cryptocurrency, which had been dancing… [+2519 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "SBI, Rakuten, Nomura line up to launch crypto investment trusts: Report",
-        "description": "SBI Securities and Rakuten Securities are already developing crypto investment trusts in-house, while Nomura, Daiwa, and SMBC are preparing to follow as Japan moves to allow crypto-holding funds by 2028.",
-        "url": "https://cointelegraph.com/news/sbi-rakuten-nomura-line-up-to-launch-crypto-investment-trusts-report",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-launch-a-crypto-token-on-a-decentralized-exchange.jpg",
-        "publishedAt": "2026-05-17T10:51:22Z",
-        "content": "Japans major brokerages are preparing to bring crypto investment trusts to retail investors, with SBI Securities and Rakuten Securities already developing products in-house, while others like Nomura … [+2429 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Italy’s largest bank more than doubles crypto holdings to $235M in Q1: Report",
-        "description": "Intesa Sanpaolo grew its crypto holdings from $100 million to $235 million in Q1 2026, making first-time moves into Ethereum and XRP while nearly exiting Solana entirely.",
-        "url": "https://cointelegraph.com/news/italys-largest-bank-more-than-doubles-crypto-holdings-to-235m-in-q1-report",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/digital-bank.jpg",
-        "publishedAt": "2026-05-17T08:31:02Z",
-        "content": "Intesa Sanpaolo, Italys largest bank, more than doubled its crypto exposure in the first quarter of 2026, with holdings climbing from approximately $100 million at the end of 2025 to around $235 mill… [+2648 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin At A Crossroads: These Are The Major Factors At Play",
-        "description": "Over the past few weeks, Bitcoin has struggled to break above the $82,000 price resistance and now trades near $78,000. While the integrity of either of these zones carries significant yet different implications for the flagship cryptocurrency’s growth, a cry…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-at-a-crossroads-these-are-the-major-factors-at-play/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/2025-05-03-03.53.01.jpg",
-        "publishedAt": "2026-05-17T08:00:40Z",
-        "content": "Over the past few weeks, Bitcoin has struggled to break above the $82,000 price resistance and now trades near $78,000. While the integrity of either of these zones carries significant yet different … [+3074 chars]"
       }
     ]
   }
