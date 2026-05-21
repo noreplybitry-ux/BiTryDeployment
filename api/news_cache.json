@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-21T16:19:06.293Z",
+  "timestamp": "2026-05-21T19:01:52.207Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Crypto custody firm Copper is looking to sell the company for $500 million",
+        "description": "Cantor Fitzgerald has been appointed to help with the sale, according to sources.",
+        "url": "https://www.coindesk.com/business/2026/05/20/crypto-custody-firm-copper-is-looking-to-sale-the-company-for-usd500-million",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bde2c5f424b0f4b56edfc76ae278cc3190749d62-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-20T17:08:37Z",
+        "content": "Cryptocurrency custody firm Copper has been out shopping itself, seeking a buyer willing to pay about $500 million for the platform, according to two people familiar with the matter.\r\nWall Street inv… [+1921 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Ethereum retests $2,100, but could ETH crash amid technical breakdown?",
+        "description": "Ethereum is testing the $2,140 level after an intraweek low near $2,070. A technical breakdown raises the risk of a sharp decline to $1,350, CryptoQuant notes. Bullish catalysts could include regulatory clarity and continued institutional demand. Ethereum (ET…",
+        "url": "https://coinjournal.net/news/ethereum-retests-2100-but-could-eth-crash-amid-technical-breakdown/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/ethereum-price-decline-market-volatility.png",
+        "publishedAt": "2026-05-20T16:47:51Z",
+        "content": "<ul><li>Ethereum is testing the $2,140 level after an intraweek low near $2,070.</li><li>A technical breakdown raises the risk of a sharp decline to $1,350, CryptoQuant notes.</li><li>Bullish catalys… [+3424 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Margaux Nijkerk",
+        "title": "The Protocol: Ethereum Foundation's high-profile departures spark fresh debate",
+        "description": "Also: Citi on quantum computing and bitcoin, Jump Crypto’s Firedancer, and Vitalik Buterin on AI verification",
+        "url": "https://www.coindesk.com/tech/2026/05/20/the-protocol-ethereum-foundation-s-high-profile-departures-spark-fresh-debate",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d3c8c77fb49ccb3f7f4e42c2161b20a186f89dd0-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-20T16:37:52Z",
+        "content": "ETHEREUM COMMUNITY RESPONDS TO EF DEPARTURES: A wave of departures from the Ethereum Foundation (EF) is reigniting a debate inside the crypto industry: What is going on at the main steward behind Eth… [+11460 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +381,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
         "publishedAt": "2026-05-18T16:00:29Z",
         "content": "In brief\r\n<ul><li>Iran tensions ended a six-week inflow streak with $1.07 billion in outflows, led by Bitcoin and Ethereum.</li><li>The sell-off was almost entirely American; European markets held fi… [+2166 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Ethereum traders say bears ‘in control’ after ETH price drop to $2K",
-        "description": "Ether price fell sharply below $2,100 as increasing sell pressure on Binance and persistent ETF outflows fueled bearish momentum.",
-        "url": "https://cointelegraph.com/markets/ethereum-traders-say-bears-in-control-eth-price-drop-2k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bear-market-14.jpg",
-        "publishedAt": "2026-05-18T15:36:04Z",
-        "content": "Ether (ETH) dropped sharply after rejection at $2,400 last week, dropping as low as $2,100 on Monday, indicating that bears are back in control, according to new analysis.\r\nKey takeaways:\r\n<ul><li>Et… [+3835 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "XRP Ledger’s 121% RWA Surge Is Leaving Solana And BNB Chain Behind — Here’s The Data",
-        "description": "The XRP Ledger has recorded a 120.97% surge in distributed real-world asset value over the past 30 days, with total represented RWA value on the network climbing to $2.43 billion — a 71.24% increase in the same period — according to live data from RWA.xyz, th…",
-        "url": "http://www.newsbtc.com/news/ripple/xrp-ledgers-121-rwa-surge-is-leaving-solana-and-bnb-chain-behind-heres-the-data/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/xrp-xrpusd-ripple.jpg",
-        "publishedAt": "2026-05-18T11:07:47Z",
-        "content": "The XRP Ledger has recorded a 120.97% surge in distributed real-world asset value over the past 30 days, with total represented RWA value on the network climbing to $2.43 billion a 71.24% increase in… [+3407 chars]"
       }
     ]
   }
