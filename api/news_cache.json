@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-21T19:01:52.207Z",
+  "timestamp": "2026-05-21T21:40:50.219Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Coinbase expands branded stablecoin infrastructure business with Flipcash USDF launch",
+        "description": "The launch marks Coinbase’s latest push into white-label stablecoin infrastructure for businesses building branded digital payment and settlement systems.",
+        "url": "https://cointelegraph.com/news/coinbase-powers-flipcash-stablecoin-launch-with-usdc-backed-usdf-on-solana",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-the-stablecoin-trilemma.jpg",
+        "publishedAt": "2026-05-20T21:37:09Z",
+        "content": "Coinbase launched USDF with Flipcash, a Solana-based stablecoin backed 1:1 by Circle's USD Coin, as the crypto exchange expands its infrastructure business for companies issuing branded digital curre… [+2775 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin rallies through $77K despite spot BTC ETF outflows topping $2B",
+        "description": "Bitcoin finds footing above $77,000 despite investors’ worry over BigTech earnings results and billion-dollar outflows from the BTC ETFs.",
+        "url": "https://cointelegraph.com/markets/bitcoin-rallies-through-77k-despite-spot-btc-etf-outflows-topping-2b",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-hong-kong-and-bitcoin.jpg",
+        "publishedAt": "2026-05-20T21:22:03Z",
+        "content": "Key takeaways:\r\n<ul><li>$2 billion in spot Bitcoin ETF outflows spark downside fears, but this metric is typically backward-looking.</li><li>A sustained discount on stablecoins in China signals broad… [+3574 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Pullback Deepens, But Key Structure Still Signals Bullish Hope",
+        "description": "Ethereum’s recent pullback has added pressure to the market, but the broader technical structure continues to show signs of resilience. Despite the decline, ETH remains above several critical support zones, keeping hopes alive that the long-term bullish trend…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-signals-bullish-hope/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-iStock-48.jpg?fit=612%2C408",
+        "publishedAt": "2026-05-20T21:00:50Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/20: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+        "description": "Bitcoin looks on track for a rally toward $80,000 while HYPE, ZEC and a handful of altcoins are pushing toward their range highs.",
+        "url": "https://cointelegraph.com/markets/price-predictions-520-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysis-analitycs-doctor-experiement-scienticts-anatomy-lab.jpg",
+        "publishedAt": "2026-05-20T19:36:38Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin is at a critical juncture, as a close below $76,000 may deepen the pullback toward $70,000.</li><li>HYPE and ZEC are in an up move, but most other major altcoins are stru… [+8020 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +394,6 @@
         "urlToImage": null,
         "publishedAt": "2026-05-19T03:00:46Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin lost its hold on $80K, but three events may send it back sooner than markets expect",
-        "description": "Bitcoin positions itself for a rally above $80,000 after Strategy's $2 billion BTC buy, crumbling investor confidence in the US Treasury and a potential US-Iran deal.",
-        "url": "https://cointelegraph.com/markets/bitcoin-lost-its-hold-on-80k-but-three-events-may-send-it-back-sooner-than-markets-expect",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-impermanent-loss-and-how-to-avoid-it2-2.jpg",
-        "publishedAt": "2026-05-18T21:47:48Z",
-        "content": "Key takeaways:\r\n<ul><li>Aggressive Bitcoin buying by Strategy helped to offset the recent leveraged long liquidations.</li><li>Rising bond yields and a heavy US government debt burden are driving inv… [+3394 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/18: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA",
-        "description": "Bitcoin dropped to the crucial $76,000 support level while large-cap altcoins sold off sharply. Do technical charts suggest that traders will buy the dip?",
-        "url": "https://cointelegraph.com/markets/price-predictions-518-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-screen-red-fall32.jpg",
-        "publishedAt": "2026-05-18T17:58:29Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin has pulled back to the $76,000 level, a crucial near-term support level to watch.</li><li>Several major altcoins have broken below their near-term support levels, indicat… [+7998 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Hayward",
-        "title": "Bitcoin, Ethereum ETFs Bleed as Crypto Funds Shed $1.07 Billion, Ending 6-Week Win Streak",
-        "description": "Bitcoin ETFs bore the brunt of a geopolitically driven sell-off, CoinShares said, though altcoin funds largely held their ground.",
-        "url": "https://decrypt.co/368183/bitcoin-ethereum-etfs-bleed-crypto-funds-shed-1-billion",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-05-18T16:00:29Z",
-        "content": "In brief\r\n<ul><li>Iran tensions ended a six-week inflow streak with $1.07 billion in outflows, led by Bitcoin and Ethereum.</li><li>The sell-off was almost entirely American; European markets held fi… [+2166 chars]"
       }
     ]
   }
