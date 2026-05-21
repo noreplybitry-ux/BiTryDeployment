@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-21T12:20:38.966Z",
+  "timestamp": "2026-05-21T16:19:06.293Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "South Carolina Passes Law Banning CBDCs While Protecting Crypto Users, Bitcoin Miners",
+        "description": "The crypto-friendly legislation was signed into law on Tuesday, granting protections to crypto users, developers, and Bitcoin miners.",
+        "url": "https://decrypt.co/368455/south-carolina-law-banning-cbdc-protecting-crypto-users-bitcoin-miners",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-05-20T15:08:53Z",
+        "content": "In brief\r\n<ul><li>Senate Bill 163 was signed into law by South Carolina Governor Henry McMaster on Tuesday. </li><li>The bill effectively bans the use of CBDCs in the state and protects authorities f… [+2400 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "This Bitcoin price model targets ‘conservative’ $255K by year-end",
+        "description": "Bitcoin Decay Channel puts BTC’s conservative year-end range at $90,000–$255,000, with its 2027 range extending to $308,000.",
+        "url": "https://cointelegraph.com/markets/this-bitcoin-price-model-targets-conservative-255k-by-year-end",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/cyber-trader-screen-bitcoin.jpg",
+        "publishedAt": "2026-05-20T13:08:01Z",
+        "content": "Bitcoin (BTC) is down roughly 40% from its October 2025 record high, but a long-term valuation model suggests the cryptocurrency could erase the entire decline and rally to as high as $255,000 by yea… [+2778 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/xrp-xrpusd-ripple.jpg",
         "publishedAt": "2026-05-18T11:07:47Z",
         "content": "The XRP Ledger has recorded a 120.97% surge in distributed real-world asset value over the past 30 days, with total represented RWA value on the network climbing to $2.43 billion a 71.24% increase in… [+3407 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "BTC price ‘bull trap’ at $76.5K? Five things to know in Bitcoin this week",
-        "description": "Bitcoin started the week with a dip toward new May lows as ongoing BTC price pressures included \"collapsing\" US bond markets.",
-        "url": "https://cointelegraph.com/markets/btc-price-bull-trap-76-5k-five-things-bitcoin-this-week",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-bull-trap-and-how-to-identify-it-crypto-bitcoin.jpg",
-        "publishedAt": "2026-05-18T10:23:31Z",
-        "content": "Bitcoin (BTC) starts a new week under pressure as support levels fade and macro gloom intensifies.\r\nKey points:\r\n<ul><li>Bitcoin falls below a key 21-week trend line after the weekly close, but hopes… [+8720 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Meme coins remain under pressure as Dogecoin extends losses",
-        "description": "Key takeaways Dogecoin extends its correction on Monday as memecoins record huge losses. DOGE could drop below $0.10 if the bearish trend persists.  Memecoins record huge losses The cryptocurrency market opened the new weekly candle bearish, with Bitcoin (BTC…",
-        "url": "https://coinjournal.net/news/meme-coins-remain-under-pressure-as-dogecoin-extends-losses/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_20_11-AM.png",
-        "publishedAt": "2026-05-18T09:21:56Z",
-        "content": "Key takeaways\r\n<ul><li>Dogecoin extends its correction on Monday as memecoins record huge losses.</li><li>DOGE could drop below $0.10 if the bearish trend persists. </li></ul>Memecoins record huge lo… [+2240 chars]"
       }
     ]
   }
