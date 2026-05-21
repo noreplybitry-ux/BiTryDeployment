@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-21T21:40:50.219Z",
+  "timestamp": "2026-05-21T23:08:04.107Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Key Bitcoin price metric used by bulls falls to six-week low, but there’s a silver lining",
+        "description": "Bitcoin traders cashed out $1.14 billion in short-term profit as the BTC Coinbase premium dropped to a 6-week low, but technical data showed buyers were active near the range lows.",
+        "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-slidse-to-six-week-lows-but-there-is-a-silver-lining",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-vs-stocks-coinbase-bitcoin2.jpg",
+        "publishedAt": "2026-05-20T22:53:48Z",
+        "content": "Bitcoin (BTC) demand on Coinbase points to early signs of market stabilization as BTC reclaimed the upper bounds of its range highs. The 14-day trend of the Coinbase Premium Index has remained in an … [+3178 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Here’s How High The Ethereum Price Would Be if It Matches The Market Cap Of Gold",
+        "description": "A crypto analyst has shared a new report from Etherealize, a leading crypto research firm, which projects how high the Ethereum price could reach if its market capitalization were to match that of gold. The expert believes that, beyond price action, the Ether…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-with-gold-market-cap/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-Pexels-2.jpg?fit=5184%2C2916",
+        "publishedAt": "2026-05-20T22:30:49Z",
+        "content": "A crypto analyst has shared a new report from Etherealize, a leading crypto research firm, which projects how high the Ethereum price could reach if its market capitalization were to match that of go… [+3089 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Missouri AG sues crypto ATM operator CoinFlip ‘for enabling scams’",
+        "description": "The Missouri Attorney General sued crypto ATM and kiosk operator CoinFlip on Wednesday, attempting to enjoin the company from operating in the state and asking for up to $1.8 million in civil penalties.",
+        "url": "https://cointelegraph.com/news/missouri-attorney-general-lawsuit-coinflip-scams",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/judge-law-court-1.jpg",
+        "publishedAt": "2026-05-20T22:03:44Z",
+        "content": "Missouri is suing the company behind cryptocurrency ATM operator CoinFlip for knowingly facilitating fraudulent transactions and profiting from them, in the latest move by a US state authority target… [+1975 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bleeds-Lower.jpg",
         "publishedAt": "2026-05-19T03:09:37Z",
         "content": "Bitcoin price started a fresh decline below the $77,500 zone. BTC is consolidating and might struggle to stay above the $76,000 support.\r\n<ul><li>Bitcoin failed to stay above $77,500 and extended los… [+2196 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Meets Geopolitics: Iran Launches Crypto Insurance For Ships In The Strait Of Hormuz",
-        "description": "Nearly 20% of the world’s oil supply moves through the Strait of Hormuz. Iran now wants a cut of it — not by force, but through Bitcoin. Related Reading: XRP Will Go ‘Higher, Much Higher,’ Analyst Says, Betting On Explosive Breakout A Platform Built Around Ge…",
-        "url": "http://www.newsbtc.com/news/bitcoin-meets-geopolitics-iran-launches-crypto-insurance-for-ships-in-the-strait-of-hormuz/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-19T03:00:46Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
