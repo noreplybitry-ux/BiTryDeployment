@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-21T04:15:04.848Z",
+  "timestamp": "2026-05-21T08:37:16.616Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Bitwise calls HYPE ‘most mispriced’ crypto despite 77% rise this year",
+        "description": "Crypto investors have underestimated Hyperliquid’s token, HYPE, valuing the platform as a crypto exchange instead of an all-encompassing finance app, says Bitwise’s Matt Hougan.",
+        "url": "https://cointelegraph.com/news/bitwise-says-hyperliquid-most-mispriced-crypto-despite-77-rise-this-year",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/man-with-holo-graphics-bitwise.jpg",
+        "publishedAt": "2026-05-20T07:37:19Z",
+        "content": "Crypto asset manager Bitwise has called Hyperliquid one of the most mispriced assets in crypto today, despite its outperformance so far this year.\r\nHyperliquid is one of the most important crypto pro… [+2191 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Drops Into Bearish Zone, Key Supports Come Under Threat",
+        "description": "Solana failed to settle above $92 and corrected most gains. SOL price is now consolidating losses above $84 and might attempt another increase. SOL price started a fresh decline below $90 and $88 against the US Dollar. The price is now trading below $87 and t…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-drops-into-bearish-zone-key-supports-come-under-threat/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Solana-SOL-Loses-80-Floor.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-20T04:48:49Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Recovery-at-Risk.jpg",
         "publishedAt": "2026-05-18T06:27:52Z",
         "content": "Bitcoin price started a fresh decline below the $78,500 zone. BTC is consolidating and might struggle to stay above the $76,500 support.\r\n<ul><li>Bitcoin failed to stay above $78,500 and extended los… [+2196 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Analysts debate whether Bitcoin is in a ‘sell in May’ bear market setup",
-        "description": "Some analysts argue that a comparatively broadened, institutionalized buyer base for crypto today may prevent a repeat of the drawdowns seen in May 2018 and May 2022.",
-        "url": "https://cointelegraph.com/news/sell-in-may-historical-pattern-could-see-btc-back-at-33k-analyst",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/eosethereummarketfallbigwave-new.jpg",
-        "publishedAt": "2026-05-18T05:06:21Z",
-        "content": "Crypto analysts are divided over whether markets will see a major Bitcoin sell-off in May, a pattern that has emerged in the last two bear markets during US mid-term election years. \r\nIn May 2018, Bi… [+2912 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "BitMine Buys Another $197 Million In Ethereum As Tom Lee’s 5% ETH Strategy Presses On",
-        "description": "On-chain data is pointing to another interesting accumulation move by Tom Lee’s BitMine Immersion Technologies, with a whale tracker flagging a $197.64 million Ethereum purchase routed through four newly created wallets. Related Reading: XRP Records Biggest S…",
-        "url": "http://www.newsbtc.com/altcoin/bitmine-buys-another-197-million-in-ethereum-as-tom-lees-5-eth-strategy-presses-on/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_eb15ac.jpg?fit=3233%2C2155",
-        "publishedAt": "2026-05-17T20:00:48Z",
-        "content": "On-chain data is pointing to another interesting accumulation move by Tom Lee’s BitMine Immersion Technologies, with a whale tracker flagging a $197.64 million Ethereum purchase routed through four n… [+3076 chars]"
       }
     ]
   }
