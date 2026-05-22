@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-22T11:48:50.807Z",
+  "timestamp": "2026-05-22T14:50:19.620Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/coinbitcoin-heightlowpricefall.jpg",
         "publishedAt": "2026-05-19T16:00:27Z",
         "content": "Bitcoin (BTC) consolidated near month-to-date lows on Tuesday as surging US bonds punished stocks and safe havens.\r\nKey points:\r\n<ul><li>Bitcoin joins risk assets feeling the pressure from skyrocketi… [+2492 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Recent Bitcoin holders sell $770M BTC at a loss amid $65K BTC price calls",
-        "description": "More than 10,000 Bitcoin have been sold at a loss by short-term holders in recent days, adding fuel to analysts’ predictions that BTC price will fall to $65,000.",
-        "url": "https://cointelegraph.com/markets/recent-bitcoin-holders-sell-770m-btc-at-a-loss-amid-65k-btc-price-calls",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-is-bitcoin-the-new-safe-haven-during-trade-wars-1.jpg",
-        "publishedAt": "2026-05-19T14:19:38Z",
-        "content": "Bitcoin (BTC) price dropped to $76,500 on Monday, erasing nearly all of this months gains as fresh US-Iran war tensions soured the crypto market sentiment. This has led investors and traders to reeva… [+4654 chars]"
       }
     ]
   }
