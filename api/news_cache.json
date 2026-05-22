@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-22T14:50:19.620Z",
+  "timestamp": "2026-05-22T17:12:00.866Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Crypto Exchange Kraken Secures VARA License to Launch in Dubai",
+        "description": "Dubai's Virtual Asset Regulatory Authority granted Kraken’s parent company preliminary broker-dealer and investment management authorization.",
+        "url": "https://decrypt.co/368643/crypto-exchange-kraken-secures-vara-license-launch-dubai",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/kraken-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-05-21T16:32:58Z",
+        "content": "In brief\r\n<ul><li>Payward, Kraken's parent company, secured preliminary regulatory approval from Dubai's Virtual Asset Regulatory Authority (VARA).</li><li>Services will include spot and margin tradi… [+3186 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Sarah Cummings",
+        "title": "Crypto for Advisors: Crypto Products",
+        "description": "Advisors need to assess ETP custody, sponsor profiles, and fees. Read expert advice on bitcoin-backed loans, including margin call risks and when to sell vs. borrow.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-for-advisors-crypto-products",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/87ba76a24148691504a7e8e4b6821430f3f53503-3574x2010.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-21T15:00:00Z",
+        "content": "In todays newsletter, Sarah Cummings from Morgan Stanley Investment Management provides insights and considerations when assessing crypto exchange-traded funds.\r\nThen, in Ask an Expert, Ryan Tannahil… [+5231 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Crypto Exchange Blockchain.com Files for IPO in the US",
+        "description": "Long-running crypto exchange Blockchain.com has confidentially filed to take its business public via the U.S. markets.",
+        "url": "https://decrypt.co/368608/crypto-exchange-blockchain-com-files-ipo-us",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/IPOs2-gID_7.jpg",
+        "publishedAt": "2026-05-21T14:58:19Z",
+        "content": "In brief\r\n<ul><li>U.K.-based Blockchain.com is seeking an initial public offering via the U.S. equity markets. </li><li>Details about how much it is seeking to raise and what price point it will offe… [+2274 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "IG Europe taps Bitpanda to expand crypto trading across Europe",
+        "description": "IG Europe has partnered with Bitpanda to offer crypto trading to European investors, using the Austrian exchange’s liquidity and technology infrastructure.",
+        "url": "https://cointelegraph.com/news/ig-europe-taps-bitpanda-to-expand-crypto-trading-across-the-bloc",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-big-banks-think-new-furniture-is-innovation-but-they-are-wrong.jpg",
+        "publishedAt": "2026-05-21T14:50:23Z",
+        "content": "IG Europe has partnered with Bitpanda to offer crypto for European investors, using the Austrian exchanges infrastructure for liquidity, trading connectivity and market data.\r\nIGs push to bring spot … [+2394 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-19.-Mai-2026-13_39_09.png?fit=1333%2C750",
         "publishedAt": "2026-05-19T21:00:03Z",
         "content": "Bitcoins latest rally has run into a major technical and on-chain resistance zone, with CryptoQuant research head Julio Moreno warning that several indicators now point to elevated correction risk af… [+3845 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Bitcoin’s 2026 Market Structure Reveals A Problem Hidden Beneath ETF Growth",
-        "description": "Bitcoin has lost the $80,000 level as selling pressure and market uncertainty combine to test the resilience of a recovery that had been building since the April lows. The breakdown is significant, and XWIN Research Japan has published a structural analysis t…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoins-2026-market-structure-reveals-a-problem-hidden-beneath-etf-growth/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-18.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-05-19T19:30:27Z",
-        "content": "Bitcoin has lost the $80,000 level as selling pressure and market uncertainty combine to test the resilience of a recovery that had been building since the April lows. The breakdown is significant, a… [+4986 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price stays under $77K as US bond yields near 20-year highs",
-        "description": "BTC price stayed pinned below $77,000 amid rising US bond yields and oil prices, with market analysts saying Bitcoin is now at a \"crucial level of support.\"",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-stays-under-77k-as-us-bond-yields-near-20-year-highs",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/coinbitcoin-heightlowpricefall.jpg",
-        "publishedAt": "2026-05-19T16:00:27Z",
-        "content": "Bitcoin (BTC) consolidated near month-to-date lows on Tuesday as surging US bonds punished stocks and safe havens.\r\nKey points:\r\n<ul><li>Bitcoin joins risk assets feeling the pressure from skyrocketi… [+2492 chars]"
       }
     ]
   }
