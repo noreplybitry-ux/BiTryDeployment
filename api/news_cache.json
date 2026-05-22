@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-21T23:08:04.107Z",
+  "timestamp": "2026-05-22T04:10:02.310Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Bounce Weakens, Downside Risks Begin Rising Again",
+        "description": "Bitcoin price started a recovery wave above the $76,800 zone. BTC is consolidating and might aim for more gains if it clears the $78,300 resistance zone. Bitcoin managed to form a base above $76,000 and started a recovery wave. The price is trading above $77,…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-bounce-weakens-76k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Bounce-Weakens.jpg",
+        "publishedAt": "2026-05-21T03:22:46Z",
+        "content": "Bitcoin price started a recovery wave above the $76,800 zone. BTC is consolidating and might aim for more gains if it clears the $78,300 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2148 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Stabilizes-After-Selloff-But-Bears-Still-Hold-Advantage.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-19T05:48:18Z",
         "content": "Ethereum price started a fresh decline and traded below $2,120. ETH is now consolidating above $2,050 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a sharp decline… [+2158 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Weakness Persists, Traders Brace For Possible $75K Test",
-        "description": "Bitcoin price started a fresh decline below the $77,500 zone. BTC is consolidating and might struggle to stay above the $76,000 support. Bitcoin failed to stay above $77,500 and extended losses. The price is trading below $77,000 and the 100 hourly simple mov…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-weakness-persists-75k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bleeds-Lower.jpg",
-        "publishedAt": "2026-05-19T03:09:37Z",
-        "content": "Bitcoin price started a fresh decline below the $77,500 zone. BTC is consolidating and might struggle to stay above the $76,000 support.\r\n<ul><li>Bitcoin failed to stay above $77,500 and extended los… [+2196 chars]"
       }
     ]
   }
