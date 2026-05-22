@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-22T17:12:00.866Z",
+  "timestamp": "2026-05-22T19:55:55.624Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Petition to scrap South Korea's crypto tax reaches 50K threshold",
+        "description": "A petition opposing a 22% tax on crypto investment gains in South Korea has gained the necessary amount of signatures for a review by South Korean officials.",
+        "url": "https://cointelegraph.com/news/petition-scrap-south-korea-crypto-tax-50k-threshold",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hand-documents-magnifier-increase.jpg",
+        "publishedAt": "2026-05-21T18:44:45Z",
+        "content": "A petition to scrap a 22% tax on crypto investment gains in South Korea reached the 50,000-signature threshold required for the countrys Finance and Economic Planning Committee to review objections t… [+2331 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/usdc.png?fit=1105%2C737",
         "publishedAt": "2026-05-20T01:30:40Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "After Nearly a Decade, Gary Gensler's Poster Child for Crypto Compliance Executes Its First Trade",
-        "description": "After weathering years of industry skepticism and navigating a shifting regulatory landscape, Prometheum executed its first crypto trades.",
-        "url": "https://decrypt.co/368409/gary-gensler-poster-child-crypto-compliance-executes-first-trade",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/gary-gensler-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-05-19T22:01:04Z",
-        "content": "In brief\r\n<ul><li>Nearly a decade after its founding and raising $100 million, Prometheum has officially executed its first crypto trades.</li><li>Co-CEO Aaron Kaplan argues the platform dovetails wi… [+3741 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "Bitcoin Hits ‘Wall Of Resistance,’ CryptoQuant Research Head Warns",
-        "description": "Bitcoin’s latest rally has run into a major technical and on-chain resistance zone, with CryptoQuant research head Julio Moreno warning that several indicators now point to elevated correction risk after a sharp rebound from April lows. Moreno said CryptoQuan…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-wall-of-resistance-cryptoquant-research-head/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-19.-Mai-2026-13_39_09.png?fit=1333%2C750",
-        "publishedAt": "2026-05-19T21:00:03Z",
-        "content": "Bitcoins latest rally has run into a major technical and on-chain resistance zone, with CryptoQuant research head Julio Moreno warning that several indicators now point to elevated correction risk af… [+3845 chars]"
       }
     ]
   }
