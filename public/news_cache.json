@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-22T21:17:28.850Z",
+  "timestamp": "2026-05-22T23:07:24.523Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin longs soar despite weak US macroeconomic data: Is $82K BTC next?",
+        "description": "Data shows Bitcoin traders cutting short positions and going long despite concerning US macroeconomic data emerging. Is a rally toward $82,000 next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-longs-soar-despite-weak-us-macroeconomic-data-is-82k-btc-next",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-a-follow-up-on-tesla-purchasing-15-in-btc-what-does-this-mean-for-the-market-and-adoption-1.jpg",
+        "publishedAt": "2026-05-21T23:07:13Z",
+        "content": "Key takeaways:\r\n<ul><li>Top traders boosted their Bitcoin long-to-short ratios, strengthening the $76,000 support floor.</li><li>Macroeconomic pressures and persistent Bitcoin ETF outflows are cappin… [+3244 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Solana-SOL-Loses-80-Floor.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-20T04:48:49Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Bounce Looks Fragile, Another Selloff May Be Brewing",
-        "description": "Ethereum price started a recovery wave above the $2,100 zone. ETH is now consolidating and might struggle to continue higher above the $2,150 resistance. Ethereum started a recovery wave from the $2,075 zone. The price is trading below $2,120 and the 100-hour…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-bounce-looks-fragile-2150/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-2200-Collapse.jpg?fit=1024%2C572",
-        "publishedAt": "2026-05-20T03:08:35Z",
-        "content": "Ethereum price started a recovery wave above the $2,100 zone. ETH is now consolidating and might struggle to continue higher above the $2,150 resistance.\r\n<ul><li>Ethereum started a recovery wave fro… [+2122 chars]"
       }
     ]
   }
