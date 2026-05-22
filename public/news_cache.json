@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-22T08:25:04.247Z",
+  "timestamp": "2026-05-22T11:48:50.807Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Millionaire Businessman Reveals Where The Real Crypto Value Is, And It’s Not Bitcoin",
+        "description": "Millionaire businessman Kevin O’Leary has indicated that stablecoins are more valuable than Bitcoin because of their role in the global financial system. He also highlighted the “big opportunity” as one of the layer-1 networks could be the biggest beneficiary…",
+        "url": "http://www.newsbtc.com/news/bitcoin/real-crypto-value-not-bitcoin/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-106.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-21T11:30:52Z",
+        "content": "Millionaire businessman Kevin OLeary has indicated that stablecoins are more valuable than Bitcoin because of their role in the global financial system. He also highlighted the big opportunity as one… [+2768 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Washington Takes Fresh Aim At Crypto Taxes With New IRS Review Bill",
+        "description": "Kraken sent 56 million tax forms to the Internal Revenue Service last year. Nearly a third covered transactions worth less than a dollar. More than 75% were for trades under $50. Those numbers, cited by the crypto exchange last month, have added weight to a g…",
+        "url": "http://www.newsbtc.com/news/washington-takes-fresh-aim-at-crypto-taxes-with-new-irs-review-bill/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-21T09:30:34Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley",
+        "title": "TradFi giant IG to expand crypto trading across Europe through Bitpanda",
+        "description": "The London-listed trading giant is broadening its digital asset offering after debuting spot crypto trading for U.K. retail customers last year.",
+        "url": "https://www.coindesk.com/business/2026/05/20/tradfi-giant-ig-to-expand-crypto-trading-across-europe-through-bitpanda",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/56b0ad2c1dff074225ab2d2506ee96ebdc13f859-4032x2268.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-21T08:58:31Z",
+        "content": "Trading giant IG (IGG), which started offering cryptocurrency trading in the U.K. a year ago, said it plans to expand the service across Europe, without giving a time scale.\r\nThe European division of… [+931 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,58 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-is-bitcoin-the-new-safe-haven-during-trade-wars-1.jpg",
         "publishedAt": "2026-05-19T14:19:38Z",
         "content": "Bitcoin (BTC) price dropped to $76,500 on Monday, erasing nearly all of this months gains as fresh US-Iran war tensions soured the crypto market sentiment. This has led investors and traders to reeva… [+4654 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Historical Data Shows How Many Days Are Left Until Bitcoin Price Hits New ATH Above $120,000",
-        "description": "Crypto analyst Cyclop has provided insights into when the Bitcoin price could hit a new all-time high (ATH) above $120,000. This came as the analyst alluded to historical data indicating that BTC could bottom in this bear cycle by the last quarter of this yea…",
-        "url": "http://www.newsbtc.com/news/bitcoin/when-bitcoin-will-hit-new-ath/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-70-1.jpg?fit=612%2C402",
-        "publishedAt": "2026-05-19T13:30:18Z",
-        "content": "Crypto analyst Cyclop has provided insights into when the Bitcoin price could hit a new all-time high (ATH) above $120,000. This came as the analyst alluded to historical data indicating that BTC cou… [+2471 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "South Korean funeral company records $33M unrealized loss on leveraged ETH ETFs",
-        "description": "South Korea’s seventh-largest mutual aid company is currently sitting on a $33 million paper loss on its leveraged Ether ETF investment, following the crypto market downturn.",
-        "url": "https://cointelegraph.com/news/south-korean-funeral-company-customer-funds-eth-etfs-unrealized-loss",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-maker-releases-report-on-its-the-epic-crash-of-march-12.jpg",
-        "publishedAt": "2026-05-19T13:23:52Z",
-        "content": "South Korean funeral service company Bumo Sarang is sitting on roughly 49.3 billion won ($32.7 million) in unrealized losses after investing about $40 million in customer funds into leveraged crypto … [+2231 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Analyst Says Roadmap For Bitcoin To Reach $500,000 Is Complete, Here’s Why",
-        "description": "Bitcoin’s long-term chart has produced another interesting price projection, as crypto analyst Crypto Tice is pointing out a technical roadmap needed for a rally to $500,000. This Bitcoin price forecast is based on a broad ascending channel that has guided th…",
-        "url": "http://www.newsbtc.com/news/bitcoin/oadmap-for-bitcoin-to-500000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-500000.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-05-19T12:00:16Z",
-        "content": "Bitcoins long-term chart has produced another interesting price projection, as crypto analyst Crypto Tice is pointing out a technical roadmap needed for a rally to $500,000. This Bitcoin price foreca… [+2818 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Slow Bleed Continues, Key $0.10 Support Comes Into Focus",
-        "description": "Dogecoin started a fresh decline below the $0.1080 zone against the US Dollar. DOGE is now consolidating losses and might face hurdles near $0.1065 and $0.1075. DOGE price started a fresh decline below the $0.1080 level. The price is trading below the $0.1075…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-slow-bleed-0-10/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Bulls-Make-A-Move.jpg?fit=1024%2C572",
-        "publishedAt": "2026-05-19T07:08:46Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
