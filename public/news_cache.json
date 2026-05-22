@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-22T04:10:02.310Z",
+  "timestamp": "2026-05-22T08:25:04.247Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Faces Fresh Downside Risk, Sellers Stay Aggressive",
+        "description": "Dogecoin started a recovery wave above the $0.1040 zone against the US Dollar. DOGE is now facing hurdles near $0.1075 and might struggle to continue higher. DOGE price started a recovery wave from $0.1020 and climbed above $0.1040. The price is trading below…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-faces-fresh-downside-risk-0-1075/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Faces-Fresh-Downside-Risk.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-21T05:48:31Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Encounters Fresh Resistance, Bulls Lose Some Momentum",
+        "description": "Ethereum price started a recovery wave above the $2,110 zone. ETH is now consolidating and might struggle to continue higher above the $2,150 resistance. Ethereum started a recovery wave above the $2,120 zone. The price is trading below $2,140 and the 100-hou…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-encounters-resistance-2150/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Encounters-Fresh-Resistance.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-21T04:28:49Z",
+        "content": "Ethereum price started a recovery wave above the $2,110 zone. ETH is now consolidating and might struggle to continue higher above the $2,150 resistance.\r\n<ul><li>Ethereum started a recovery wave abo… [+2058 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Bulls-Make-A-Move.jpg?fit=1024%2C572",
         "publishedAt": "2026-05-19T07:08:46Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Rubmar Garcia",
-        "title": "Bitcoin Rally On The Line: Analyst Explains Why This Weekly Close Is Critical",
-        "description": "Bitcoin (BTC) sits at a technical crossroads after losing a crucial support level, leading some market observers to suggest that this week’s price will be decisive for whether the flagship crypto can reclaim upside momentum or extend its recent losses. Relate…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-rally-this-weekly-close-is-critical/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/05/ashwini-chaudhary-monty-dm2i1JUr2iY-unsplash.jpg?fit=1920%2C1489",
-        "publishedAt": "2026-05-19T07:00:42Z",
-        "content": "Bitcoin (BTC) sits at a technical crossroads after losing a crucial support level, leading some market observers to suggest that this weeks price will be decisive for whether the flagship crypto can … [+3472 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Stabilizes After Selloff, But Bears Still Hold Advantage",
-        "description": "Ethereum price started a fresh decline and traded below $2,120. ETH is now consolidating above $2,050 and might struggle to recover. Ethereum remained in a bearish zone after a sharp decline. The price is trading below $2,165 and the 100-hourly Simple Moving …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-stabilizes-2050/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Stabilizes-After-Selloff-But-Bears-Still-Hold-Advantage.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-19T05:48:18Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,120. ETH is now consolidating above $2,050 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a sharp decline… [+2158 chars]"
       }
     ]
   }
