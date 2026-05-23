@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-22T23:07:24.523Z",
+  "timestamp": "2026-05-23T03:49:24.335Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Eyes Breakout Move, Traders Watch Key Resistance Closely",
+        "description": "Ethereum price started a recovery wave above the $2,120 zone. ETH is now consolidating and might rally if there is a clear move above the $2,150 resistance. Ethereum started a recovery wave above the $2,125 zone. The price is trading below $2,150 and the 100-…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-eyes-breakout-2150/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Eyes-Breakout-Move.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-22T03:08:55Z",
+        "content": "Ethereum price started a recovery wave above the $2,120 zone. ETH is now consolidating and might rally if there is a clear move above the $2,150 resistance.\r\n<ul><li>Ethereum started a recovery wave … [+2089 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Consolidates Near Lows As Market Searches For Direction",
+        "description": "Bitcoin price started a recovery wave above the $77,000 zone. BTC is consolidating and might aim for more gains if it clears the $78,000 resistance zone. Bitcoin managed to form a base above $76,200 and started a recovery wave. The price is trading above $77,…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-consolidates-78k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Consolidates.jpg",
+        "publishedAt": "2026-05-22T02:54:07Z",
+        "content": "Bitcoin price started a recovery wave above the $77,000 zone. BTC is consolidating and might aim for more gains if it clears the $78,000 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2178 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Treasury Company Nakamoto Takes Action To Prevent Stock Slide",
+        "description": "Nakamoto sold 284 Bitcoin on the last day of March just to keep the lights on. That detail, buried in the company’s first-quarter financial results, tells the story of where one of the country’s Bitcoin treasury companies now stands. Related Reading: Crypto A…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-treasury-company-nakamoto-takes-action-to-prevent-stock-slide/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-22T02:00:17Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Bitcoin Miners Warn No Bottom Yet, CryptoQuant Says—What On-Chain Metrics Reveal",
+        "description": "Bitcoin (BTC) is trapped in its new consolidation band, holding between about $76,000 and $78,500. That range has now become the market’s near-term battlefield, with BTC roughly 38% below its all-time highs.  While this sideways action may appear stable, a ne…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-miners-warn-no-bottom-yet-cryptoquant-says-what-on-chain-metrics-reveal/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/image_Vtmdbjdl_1779394179571_raw.jpg",
+        "publishedAt": "2026-05-22T01:30:55Z",
+        "content": "Bitcoin (BTC) is trapped in its new consolidation band, holding between about $76,000 and $78,500. That range has now become the markets near-term battlefield, with BTC roughly 38% below its all-time… [+3142 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/man-with-holo-graphics-bitwise.jpg",
         "publishedAt": "2026-05-20T07:37:19Z",
         "content": "Crypto asset manager Bitwise has called Hyperliquid one of the most mispriced assets in crypto today, despite its outperformance so far this year.\r\nHyperliquid is one of the most important crypto pro… [+2191 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Drops Into Bearish Zone, Key Supports Come Under Threat",
-        "description": "Solana failed to settle above $92 and corrected most gains. SOL price is now consolidating losses above $84 and might attempt another increase. SOL price started a fresh decline below $90 and $88 against the US Dollar. The price is now trading below $87 and t…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-drops-into-bearish-zone-key-supports-come-under-threat/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Solana-SOL-Loses-80-Floor.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-20T04:48:49Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
