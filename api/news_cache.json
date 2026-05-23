@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-23T15:06:09.166Z",
+  "timestamp": "2026-05-23T17:07:56.827Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Crypto Is Growing Up—Why Some Everyday Traders Are Moving On",
+        "description": "Muted volatility, political shifts, and Wall Street dominance are driving increasingly jaded retail traders out of crypto.",
+        "url": "https://decrypt.co/368746/crypto-growing-up-why-everyday-traders-moving-on",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/bitcoin-dollar-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-05-22T16:54:02Z",
+        "content": "In brief\r\n<ul><li>Institutional giants now dominate market flows, potentially dampening the wild, rapid price swings that retail speculators crave.</li><li>In the first quarter, Coinbases consumer vo… [+5242 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Crypto Biz: Institutions tighten their grip on Bitcoin, AI and prediction markets",
+        "description": "Institutional crypto adoption continues to expand as Tether increases its Bitcoin exposure, Bitcoin miners pivot toward AI infrastructure and Polymarket partners with Nasdaq — despite $1 billion in crypto fund outflows driven by geopolitical tensions.",
+        "url": "https://cointelegraph.com/news/institutional-crypto-adoption-tether-bitcoin-ai-polymarket-outflows",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-gate-io-3.jpg",
+        "publishedAt": "2026-05-22T16:02:30Z",
+        "content": "Institutional adoption continued to reshape the digital asset market this week, even as geopolitical tensions reminded investors that crypto remains sensitive to broader macro conditions.\r\nDigital as… [+4683 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price falls under $77K as Dow Jones hits new all-time highs",
+        "description": "Bitcoin suffers from continuing weak US demand as BTC price action heads lower despite US stock markets breaking into price discovery.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-under-77k-as-dow-jones-hits-new-all-time-highs",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/red-down-falling-car-bitcoin.jpg",
+        "publishedAt": "2026-05-22T15:40:15Z",
+        "content": "Bitcoin (BTC) faced familiar selling pressure on Friday as US stock markets began setting fresh record highs.\r\nKey points:\r\n<ul><li>Bitcoin and crypto markets diverge from US stocks, with the Dow Jon… [+2557 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,58 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-iStock-48.jpg?fit=612%2C408",
         "publishedAt": "2026-05-20T21:00:50Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/20: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
-        "description": "Bitcoin looks on track for a rally toward $80,000 while HYPE, ZEC and a handful of altcoins are pushing toward their range highs.",
-        "url": "https://cointelegraph.com/markets/price-predictions-520-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysis-analitycs-doctor-experiement-scienticts-anatomy-lab.jpg",
-        "publishedAt": "2026-05-20T19:36:38Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin is at a critical juncture, as a close below $76,000 may deepen the pullback toward $70,000.</li><li>HYPE and ZEC are in an up move, but most other major altcoins are stru… [+8020 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Crypto custody firm Copper is looking to sell the company for $500 million",
-        "description": "Cantor Fitzgerald has been appointed to help with the sale, according to sources.",
-        "url": "https://www.coindesk.com/business/2026/05/20/crypto-custody-firm-copper-is-looking-to-sale-the-company-for-usd500-million",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/bde2c5f424b0f4b56edfc76ae278cc3190749d62-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-20T17:08:37Z",
-        "content": "Cryptocurrency custody firm Copper has been out shopping itself, seeking a buyer willing to pay about $500 million for the platform, according to two people familiar with the matter.\r\nWall Street inv… [+1921 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Ethereum retests $2,100, but could ETH crash amid technical breakdown?",
-        "description": "Ethereum is testing the $2,140 level after an intraweek low near $2,070. A technical breakdown raises the risk of a sharp decline to $1,350, CryptoQuant notes. Bullish catalysts could include regulatory clarity and continued institutional demand. Ethereum (ET…",
-        "url": "https://coinjournal.net/news/ethereum-retests-2100-but-could-eth-crash-amid-technical-breakdown/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/ethereum-price-decline-market-volatility.png",
-        "publishedAt": "2026-05-20T16:47:51Z",
-        "content": "<ul><li>Ethereum is testing the $2,140 level after an intraweek low near $2,070.</li><li>A technical breakdown raises the risk of a sharp decline to $1,350, CryptoQuant notes.</li><li>Bullish catalys… [+3424 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "The Protocol: Ethereum Foundation's high-profile departures spark fresh debate",
-        "description": "Also: Citi on quantum computing and bitcoin, Jump Crypto’s Firedancer, and Vitalik Buterin on AI verification",
-        "url": "https://www.coindesk.com/tech/2026/05/20/the-protocol-ethereum-foundation-s-high-profile-departures-spark-fresh-debate",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d3c8c77fb49ccb3f7f4e42c2161b20a186f89dd0-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-20T16:37:52Z",
-        "content": "ETHEREUM COMMUNITY RESPONDS TO EF DEPARTURES: A wave of departures from the Ethereum Foundation (EF) is reigniting a debate inside the crypto industry: What is going on at the main steward behind Eth… [+11460 chars]"
       }
     ]
   }
