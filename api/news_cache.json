@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-23T03:49:24.335Z",
+  "timestamp": "2026-05-23T06:38:18.296Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Rebound Faces Major Test Near Key Resistance Zone",
+        "description": "Solana found support at $83.50 and corrected some losses. SOL price is now consolidating below $88.50 and might struggle to continue higher. SOL price started a decent recovery wave above $85 and $86 against the US Dollar. The price is now trading above $86 a…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-rebound-faces-major-test-88-50/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Rebound-Faces-Major-Test.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-22T05:08:52Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "5 crypto firms wind down this week amid ongoing market slump",
+        "description": "Fantasy.top, Everclear and ZERO Network announced they were winding down on Thursday, adding to a growing list of crypto companies that have closed this year.",
+        "url": "https://cointelegraph.com/news/5-crypto-firms-wind-down-this-week-amid-ongoing-market-slump",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-coinflares-exit-and-the-future-of-cloud-mining.jpg",
+        "publishedAt": "2026-05-22T03:59:57Z",
+        "content": "At least five crypto companies have shuttered this week as a prolonged downturn in the crypto market has put downward pressure on user activity and investor funding. \r\nCrypto trading card platform Fa… [+3898 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-nodes-vs-miners-key-differences.jpg",
         "publishedAt": "2026-05-20T11:21:32Z",
         "content": "South Carolina Governor Henry McMaster signed Senate Bill 163 into law on Tuesday, advancing one of the most crypto-friendly state-level frameworks in the country.\r\nThe bill, which previously passed … [+2260 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Zcash Soars 88% In 30 Days: Is ZEC The Stealth Winner Of This Crypto Cycle?",
-        "description": "BitMEX co-founder Arthur Hayes has suggested that Zcash (ZEC) could eventually reach 10% of Bitcoin’s market capitalization, a long-term bullish thesis on privacy coins rather than a near-term price forecast. Based on ZEC’s circulating supply of around 16 mil…",
-        "url": "http://www.newsbtc.com/news/zcash-breakout-brewing-analysts-see-88-upside-for-zec/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/A_e4eba3.png?fit=2000%2C1000",
-        "publishedAt": "2026-05-20T10:00:01Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "Bitwise calls HYPE ‘most mispriced’ crypto despite 77% rise this year",
-        "description": "Crypto investors have underestimated Hyperliquid’s token, HYPE, valuing the platform as a crypto exchange instead of an all-encompassing finance app, says Bitwise’s Matt Hougan.",
-        "url": "https://cointelegraph.com/news/bitwise-says-hyperliquid-most-mispriced-crypto-despite-77-rise-this-year",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/man-with-holo-graphics-bitwise.jpg",
-        "publishedAt": "2026-05-20T07:37:19Z",
-        "content": "Crypto asset manager Bitwise has called Hyperliquid one of the most mispriced assets in crypto today, despite its outperformance so far this year.\r\nHyperliquid is one of the most important crypto pro… [+2191 chars]"
       }
     ]
   }
