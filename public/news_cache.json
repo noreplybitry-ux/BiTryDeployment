@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-23T19:19:18.002Z",
+  "timestamp": "2026-05-23T21:00:15.158Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Robinhood Crypto COO Tanya Denisova is leaving company amid revenue slowdown",
+        "description": "Robinhood Crypto COO Tanya Denisova is leaving the firm after more than five years, as the trading platform navigates a sharp decline in crypto revenue and works to lessen its dependence on digital asset market cycles.",
+        "url": "https://www.coindesk.com/business/2026/05/22/robinhood-crypto-coo-tanya-denisova-is-leaving-company-amid-revenue-slowdown",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/cb0bf014fcfb96a3b856413652b97154bb22a97e-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-22T19:40:15Z",
+        "content": "Tanya Denisova, chief operating officer of Robinhood Crypto, is leaving the firm, according to two people with knowledge of the matter.\r\nDenisova had been employed by the popular trading platform for… [+1541 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/22: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+        "description": "Bitcoin sold off to $76,000, giving bears an opportunity to reclaim control of the crypto market. Meanwhile, altcoins like HYPE charted new highs.",
+        "url": "https://cointelegraph.com/markets/price-predictions-522-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-geologist-museum-1.jpg",
+        "publishedAt": "2026-05-22T19:33:51Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin has dipped below $77,000, signaling that the bears are poised to seize control.</li><li>Altcoins are a mixed bag, with some attempting to push through the overhead resist… [+7928 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/judge-law-court-1.jpg",
         "publishedAt": "2026-05-20T22:03:44Z",
         "content": "Missouri is suing the company behind cryptocurrency ATM operator CoinFlip for knowingly facilitating fraudulent transactions and profiting from them, in the latest move by a US state authority target… [+1975 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Coinbase expands branded stablecoin infrastructure business with Flipcash USDF launch",
-        "description": "The launch marks Coinbase’s latest push into white-label stablecoin infrastructure for businesses building branded digital payment and settlement systems.",
-        "url": "https://cointelegraph.com/news/coinbase-powers-flipcash-stablecoin-launch-with-usdc-backed-usdf-on-solana",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-the-stablecoin-trilemma.jpg",
-        "publishedAt": "2026-05-20T21:37:09Z",
-        "content": "Coinbase launched USDF with Flipcash, a Solana-based stablecoin backed 1:1 by Circle's USD Coin, as the crypto exchange expands its infrastructure business for companies issuing branded digital curre… [+2775 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin rallies through $77K despite spot BTC ETF outflows topping $2B",
-        "description": "Bitcoin finds footing above $77,000 despite investors’ worry over BigTech earnings results and billion-dollar outflows from the BTC ETFs.",
-        "url": "https://cointelegraph.com/markets/bitcoin-rallies-through-77k-despite-spot-btc-etf-outflows-topping-2b",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-hong-kong-and-bitcoin.jpg",
-        "publishedAt": "2026-05-20T21:22:03Z",
-        "content": "Key takeaways:\r\n<ul><li>$2 billion in spot Bitcoin ETF outflows spark downside fears, but this metric is typically backward-looking.</li><li>A sustained discount on stablecoins in China signals broad… [+3574 chars]"
       }
     ]
   }
