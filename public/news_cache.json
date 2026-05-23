@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-23T13:48:51.593Z",
+  "timestamp": "2026-05-23T15:06:09.166Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d3c8c77fb49ccb3f7f4e42c2161b20a186f89dd0-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-20T16:37:52Z",
         "content": "ETHEREUM COMMUNITY RESPONDS TO EF DEPARTURES: A wave of departures from the Ethereum Foundation (EF) is reigniting a debate inside the crypto industry: What is going on at the main steward behind Eth… [+11460 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "South Carolina Passes Law Banning CBDCs While Protecting Crypto Users, Bitcoin Miners",
-        "description": "The crypto-friendly legislation was signed into law on Tuesday, granting protections to crypto users, developers, and Bitcoin miners.",
-        "url": "https://decrypt.co/368455/south-carolina-law-banning-cbdc-protecting-crypto-users-bitcoin-miners",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-05-20T15:08:53Z",
-        "content": "In brief\r\n<ul><li>Senate Bill 163 was signed into law by South Carolina Governor Henry McMaster on Tuesday. </li><li>The bill effectively bans the use of CBDCs in the state and protects authorities f… [+2400 chars]"
       }
     ]
   }
