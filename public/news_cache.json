@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-23T17:07:56.827Z",
+  "timestamp": "2026-05-23T19:19:18.002Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jesse Hamilton",
+        "title": "SEC Commissioner Peirce counters views that crypto rule will foster synthetic tokens",
+        "description": "Hester Peirce, the commissioner behind the SEC's Crypto Task Force, made statements on the now-delayed proposal, perhaps tamping down mistaken beliefs.",
+        "url": "https://www.coindesk.com/news-analysis/2026/05/22/sec-commissioner-peirce-counters-views-that-crypto-rule-will-foster-synthetic-tokens",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/facaa2fb18c3e0eac299cf2f40a828bb6705036d-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-22T18:20:32Z",
+        "content": "The long-awaited U.S. Securities and Exchange Commission rule to begin allowing tokenization of securities a change that could have profound effects on the financial markets has been facing the conte… [+3588 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-hong-kong-and-bitcoin.jpg",
         "publishedAt": "2026-05-20T21:22:03Z",
         "content": "Key takeaways:\r\n<ul><li>$2 billion in spot Bitcoin ETF outflows spark downside fears, but this metric is typically backward-looking.</li><li>A sustained discount on stablecoins in China signals broad… [+3574 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Ethereum Pullback Deepens, But Key Structure Still Signals Bullish Hope",
-        "description": "Ethereum’s recent pullback has added pressure to the market, but the broader technical structure continues to show signs of resilience. Despite the decline, ETH remains above several critical support zones, keeping hopes alive that the long-term bullish trend…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-signals-bullish-hope/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-iStock-48.jpg?fit=612%2C408",
-        "publishedAt": "2026-05-20T21:00:50Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
       }
     ]
   }
