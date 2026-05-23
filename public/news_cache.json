@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-23T06:38:18.295Z",
+  "timestamp": "2026-05-23T09:05:43.931Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Saylor Says Bitcoin Could Triple S&P 500 Returns: ‘We Expect 30%’",
+        "description": "Michael Saylor is calling $60,000 Bitcoin’s floor. The Strategy co-founder made the claim during a Thursday appearance on CNBC’s Squawk Box, saying the asset is now entering what he described as a “spring phase” — backed by solid support levels and a favorabl…",
+        "url": "http://www.newsbtc.com/news/bitcoin-vs-sp-500-michael-saylor-bets-big-on-crypto-winning-long-term/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-22T09:00:17Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price record 90-day uptrend 'resembles bull market rally:' New analysis",
+        "description": "Bitcoin rallied for 90 days after its dip below $60,000, breaking the record for the longest uptrend within a bear market in BTC price history.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-record-90-day-uptrend-resembles-bull-market-rally-new-analysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/greenish-green-bitcoin-grow-up-2.jpg",
+        "publishedAt": "2026-05-22T08:12:28Z",
+        "content": "Bitcoin (BTC) has trended up for 90 days and is seeing a bull market rally, analysis says.\r\nKey points:\r\n<ul><li>Bitcoin has trended up for 90 days within its bear market something that has never hap… [+2388 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-charts-101-how-to-read-cryptocurrency-charts-bitcoin.jpg",
         "publishedAt": "2026-05-20T11:40:51Z",
         "content": "Market analysts say Bitcoin (BTC) is showing momentum exhaustion after its 8% drop from multi-month highs above $82,000, with bulls expected to defend key crucial support levels. \r\nKey takeaways:\r\n<u… [+3334 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "South Carolina governor signs bill protecting Bitcoin miners, banning CBDC",
-        "description": "South Carolina has passed S. Bill 163, banning state agencies from accepting CBDCs, protecting crypto self-custody rights, and exempting Bitcoin miners from money transmitter licensing requirements.",
-        "url": "https://cointelegraph.com/news/south-carolina-governor-signs-bill-protecting-bitcoin-miners-banning-cbdc",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-nodes-vs-miners-key-differences.jpg",
-        "publishedAt": "2026-05-20T11:21:32Z",
-        "content": "South Carolina Governor Henry McMaster signed Senate Bill 163 into law on Tuesday, advancing one of the most crypto-friendly state-level frameworks in the country.\r\nThe bill, which previously passed … [+2260 chars]"
       }
     ]
   }
