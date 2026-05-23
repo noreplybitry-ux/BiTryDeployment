@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-23T11:17:22.094Z",
+  "timestamp": "2026-05-23T13:48:51.593Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Price Breaks 14-Year Support For The First Time In History, Analyst Predicts $50,000 Target",
+        "description": "Crypto analyst Phila has predicted that the Bitcoin price could see a massive decline to $55,000 after breaking a 14-year support level. This comes amid BTC’s fall below the psychological $80,000 level, with the leading crypto now at risk of dropping to new l…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-breaks-14-year-support/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-62.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-22T13:30:03Z",
+        "content": "Crypto analyst Phila has predicted that the Bitcoin price could see a massive decline to $55,000 after breaking a 14-year support level. This comes amid BTCs fall below the psychological $80,000 leve… [+2398 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
         "publishedAt": "2026-05-20T15:08:53Z",
         "content": "In brief\r\n<ul><li>Senate Bill 163 was signed into law by South Carolina Governor Henry McMaster on Tuesday. </li><li>The bill effectively bans the use of CBDCs in the state and protects authorities f… [+2400 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "This Bitcoin price model targets ‘conservative’ $255K by year-end",
-        "description": "Bitcoin Decay Channel puts BTC’s conservative year-end range at $90,000–$255,000, with its 2027 range extending to $308,000.",
-        "url": "https://cointelegraph.com/markets/this-bitcoin-price-model-targets-conservative-255k-by-year-end",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/cyber-trader-screen-bitcoin.jpg",
-        "publishedAt": "2026-05-20T13:08:01Z",
-        "content": "Bitcoin (BTC) is down roughly 40% from its October 2025 record high, but a long-term valuation model suggests the cryptocurrency could erase the entire decline and rally to as high as $255,000 by yea… [+2778 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin’s ‘momentum is fading’: Traders have these support levels in mind",
-        "description": "Bitcoin momentum is fading following drop to $76,000 as analysts warn a loss of key support at $74,000-$76,000 could trigger a deeper BTC price correction.",
-        "url": "https://cointelegraph.com/markets/bitcoins-momentum-is-fading-traders-have-these-support-levels-in-mind",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-charts-101-how-to-read-cryptocurrency-charts-bitcoin.jpg",
-        "publishedAt": "2026-05-20T11:40:51Z",
-        "content": "Market analysts say Bitcoin (BTC) is showing momentum exhaustion after its 8% drop from multi-month highs above $82,000, with bulls expected to defend key crucial support levels. \r\nKey takeaways:\r\n<u… [+3334 chars]"
       }
     ]
   }
