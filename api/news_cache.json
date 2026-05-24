@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-24T08:37:38.302Z",
+  "timestamp": "2026-05-24T10:45:13.697Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "This Bitcoin Momentum Signal Preceded Last October’s Crash — Another Downturn Incoming?",
+        "description": "After a steep downturn in early February, the Bitcoin price saw a significant turnaround over the following two months. While the month of May initially continued on this positive note, the premier cryptocurrency seems to have cooled off over the past week — …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-momentum-signal-preceded-last-october-crash/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/iStock-1305769484.jpg?fit=2250%2C1332",
+        "publishedAt": "2026-05-23T10:00:04Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
