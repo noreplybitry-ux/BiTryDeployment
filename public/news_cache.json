@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-24T14:27:47.388Z",
+  "timestamp": "2026-05-24T16:05:24.701Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,32 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-106.jpg?fit=1280%2C853",
         "publishedAt": "2026-05-21T11:30:52Z",
         "content": "Millionaire businessman Kevin OLeary has indicated that stablecoins are more valuable than Bitcoin because of their role in the global financial system. He also highlighted the big opportunity as one… [+2768 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Washington Takes Fresh Aim At Crypto Taxes With New IRS Review Bill",
-        "description": "Kraken sent 56 million tax forms to the Internal Revenue Service last year. Nearly a third covered transactions worth less than a dollar. More than 75% were for trades under $50. Those numbers, cited by the crypto exchange last month, have added weight to a g…",
-        "url": "http://www.newsbtc.com/news/washington-takes-fresh-aim-at-crypto-taxes-with-new-irs-review-bill/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-21T09:30:34Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley",
-        "title": "TradFi giant IG to expand crypto trading across Europe through Bitpanda",
-        "description": "The London-listed trading giant is broadening its digital asset offering after debuting spot crypto trading for U.K. retail customers last year.",
-        "url": "https://www.coindesk.com/business/2026/05/20/tradfi-giant-ig-to-expand-crypto-trading-across-europe-through-bitpanda",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/56b0ad2c1dff074225ab2d2506ee96ebdc13f859-4032x2268.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-21T08:58:31Z",
-        "content": "Trading giant IG (IGG), which started offering cryptocurrency trading in the U.K. a year ago, said it plans to expand the service across Europe, without giving a time scale.\r\nThe European division of… [+931 chars]"
       }
     ]
   }
