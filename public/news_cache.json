@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-24T10:45:13.697Z",
+  "timestamp": "2026-05-24T12:03:56.557Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Historical Performance Says Bitcoin Price Will Not Bottom Until It Touches This Level",
+        "description": "Crypto analyst Chain Mind has indicated that the Bitcoin price has yet to bottom. He alluded to historical performance, which shows that BTC has never bottomed without touching the EMA 300.  Bitcoin Price Unlikely To Bottom Before Touching This Level In an X …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-will-not-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-56.jpg?fit=612%2C459",
+        "publishedAt": "2026-05-23T11:30:05Z",
+        "content": "Crypto analyst Chain Mind has indicated that the Bitcoin price has yet to bottom. He alluded to historical performance, which shows that BTC has never bottomed without touching the EMA 300. \r\nIn an X… [+2403 chars]"
+      },
       {
         "source": {
           "id": null,
