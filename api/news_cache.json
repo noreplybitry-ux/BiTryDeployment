@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-23T22:03:13.829Z",
+  "timestamp": "2026-05-24T00:02:28.943Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Bitcoin 'Pizza Day' was 16 years ago, here's how much that BTC is worth today",
+        "description": "Laszlo Hanyecz's 2010 post, offering 10,000 BTC in exchange for two pizzas delivered to his home, marked the first recorded commercial BTC payment.",
+        "url": "https://cointelegraph.com/news/bitcoin-pizza-day-those-10k-btc-worth-today",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-famous-pizza-day-where-you-could-buy-pizza-with-btc-in-2018.jpg",
+        "publishedAt": "2026-05-22T23:16:38Z",
+        "content": "The Bitcoin community celebrated the 16th anniversary of Pizza Day on Friday, marking the first recorded commercial Bitcoin transaction, in which real-world goods were purchased with Bitcoin.\r\nIn May… [+2235 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Could Chainlink (LINK) Triple In 5 Years? Why A $20B Market Cap Is Possible",
+        "description": "Chainlink (LINK) has spent much of the past year in a holding pattern, lingering around the 18th largest cryptocurrency by market capitalization and pulling back roughly 43% year-to-date.  Still, zooming out on LINK’s longer-term picture, the oracle’s native …",
+        "url": "http://www.newsbtc.com/breaking-news-ticker/could-chainlink-link-triple-in-5-years-why-a-20b-market-cap-is-possible/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/Screenshot_1288.jpg",
+        "publishedAt": "2026-05-22T23:09:21Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Macro Prediction Shows What To Expect Next",
+        "description": "A crypto expert has shared her macro prediction for Ethereum (ETH), warning of an imminent price crash that could see the second-largest cryptocurrency plummet to as low as $800, or even $400 per coin. While this would represent a massive bearish move given E…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-macro-prediction/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pngtree-45-1.jpg?fit=640%2C359",
+        "publishedAt": "2026-05-22T22:30:04Z",
+        "content": "A crypto expert has shared her macro prediction for Ethereum (ETH), warning of an imminent price crash that could see the second-largest cryptocurrency plummet to as low as $800, or even $400 per coi… [+2978 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Bounce-Weakens.jpg",
         "publishedAt": "2026-05-21T03:22:46Z",
         "content": "Bitcoin price started a recovery wave above the $76,800 zone. BTC is consolidating and might aim for more gains if it clears the $78,300 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2148 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Key Bitcoin price metric used by bulls falls to six-week low, but there’s a silver lining",
-        "description": "Bitcoin traders cashed out $1.14 billion in short-term profit as the BTC Coinbase premium dropped to a 6-week low, but technical data showed buyers were active near the range lows.",
-        "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-slidse-to-six-week-lows-but-there-is-a-silver-lining",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-vs-stocks-coinbase-bitcoin2.jpg",
-        "publishedAt": "2026-05-20T22:53:48Z",
-        "content": "Bitcoin (BTC) demand on Coinbase points to early signs of market stabilization as BTC reclaimed the upper bounds of its range highs. The 14-day trend of the Coinbase Premium Index has remained in an … [+3178 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Here’s How High The Ethereum Price Would Be if It Matches The Market Cap Of Gold",
-        "description": "A crypto analyst has shared a new report from Etherealize, a leading crypto research firm, which projects how high the Ethereum price could reach if its market capitalization were to match that of gold. The expert believes that, beyond price action, the Ether…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-with-gold-market-cap/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-Pexels-2.jpg?fit=5184%2C2916",
-        "publishedAt": "2026-05-20T22:30:49Z",
-        "content": "A crypto analyst has shared a new report from Etherealize, a leading crypto research firm, which projects how high the Ethereum price could reach if its market capitalization were to match that of go… [+3089 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Missouri AG sues crypto ATM operator CoinFlip ‘for enabling scams’",
-        "description": "The Missouri Attorney General sued crypto ATM and kiosk operator CoinFlip on Wednesday, attempting to enjoin the company from operating in the state and asking for up to $1.8 million in civil penalties.",
-        "url": "https://cointelegraph.com/news/missouri-attorney-general-lawsuit-coinflip-scams",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/judge-law-court-1.jpg",
-        "publishedAt": "2026-05-20T22:03:44Z",
-        "content": "Missouri is suing the company behind cryptocurrency ATM operator CoinFlip for knowingly facilitating fraudulent transactions and profiting from them, in the latest move by a US state authority target… [+1975 chars]"
       }
     ]
   }
