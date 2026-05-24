@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-24T05:05:19.963Z",
+  "timestamp": "2026-05-24T08:37:38.302Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Forms Risky Head-And-Shoulders Pattern, Points To $44K Target",
+        "description": "Bitcoin is experiencing a steady decline, as prices dipped below $60,000 in the past week. The leading cryptocurrency has struggled to sustain upside momentum after multiple rejections at the $82,000 price level over the last month. Meanwhile, analysts remain…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-forms-risky-head-and-shoulders-pattern-points-to-44k-target/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/boitcoin-background-4k.jpg",
+        "publishedAt": "2026-05-23T08:00:56Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin And Ethereum Sharpe Ratio Diverge — What This Means",
+        "description": "A crypto founder and pundit recently took to the social media platform X to highlight a notable divergence between the Ethereum and Bitcoin markets. According to the analyst, the world’s leading cryptocurrencies could be nearing levels that would soon reverse…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-and-ethereum-sharpe-ratio-diverge/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/06/iStock-912157946.jpg",
+        "publishedAt": "2026-05-23T07:00:10Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Faces-Fresh-Downside-Risk.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-21T05:48:31Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Encounters Fresh Resistance, Bulls Lose Some Momentum",
-        "description": "Ethereum price started a recovery wave above the $2,110 zone. ETH is now consolidating and might struggle to continue higher above the $2,150 resistance. Ethereum started a recovery wave above the $2,120 zone. The price is trading below $2,140 and the 100-hou…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-encounters-resistance-2150/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Encounters-Fresh-Resistance.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-21T04:28:49Z",
-        "content": "Ethereum price started a recovery wave above the $2,110 zone. ETH is now consolidating and might struggle to continue higher above the $2,150 resistance.\r\n<ul><li>Ethereum started a recovery wave abo… [+2058 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Bounce Weakens, Downside Risks Begin Rising Again",
-        "description": "Bitcoin price started a recovery wave above the $76,800 zone. BTC is consolidating and might aim for more gains if it clears the $78,300 resistance zone. Bitcoin managed to form a base above $76,000 and started a recovery wave. The price is trading above $77,…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-bounce-weakens-76k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Bounce-Weakens.jpg",
-        "publishedAt": "2026-05-21T03:22:46Z",
-        "content": "Bitcoin price started a recovery wave above the $76,800 zone. BTC is consolidating and might aim for more gains if it clears the $78,300 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2148 chars]"
       }
     ]
   }
