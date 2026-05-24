@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-24T12:03:56.557Z",
+  "timestamp": "2026-05-24T14:27:47.388Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Struggles To Reclaim Key Cost Basis As Realized Losses Climb — Details",
+        "description": "Since the past week, the Bitcoin price has traded below the cost basis of one of its most reactive investor groups. Based on recent on-chain information, the world’s largest cryptocurrency might face further trouble if its price fails to reclaim this crucial …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-struggles-to-reclaim-key-cost-basis-as-realized-losses-climb-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/0x0.jpg?fit=1920%2C1280",
+        "publishedAt": "2026-05-23T14:00:23Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "History Shows Bitcoin ETF Outflows Favor Accumulation, Says Santiment",
+        "description": "Six straight days of outflows from US spot Bitcoin ETFs — totaling $1.26 billion — are drawing attention not for the losses they represent, but for what history suggests might come next. What The Data Shows Blockchain analytics firm Santiment says these outfl…",
+        "url": "http://www.newsbtc.com/bitcoin-news/history-shows-bitcoin-etf-outflows-favor-accumulation-says-santiment/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-23T13:00:09Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/56b0ad2c1dff074225ab2d2506ee96ebdc13f859-4032x2268.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-21T08:58:31Z",
         "content": "Trading giant IG (IGG), which started offering cryptocurrency trading in the U.K. a year ago, said it plans to expand the service across Europe, without giving a time scale.\r\nThe European division of… [+931 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Faces Fresh Downside Risk, Sellers Stay Aggressive",
-        "description": "Dogecoin started a recovery wave above the $0.1040 zone against the US Dollar. DOGE is now facing hurdles near $0.1075 and might struggle to continue higher. DOGE price started a recovery wave from $0.1020 and climbed above $0.1040. The price is trading below…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-faces-fresh-downside-risk-0-1075/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Faces-Fresh-Downside-Risk.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-21T05:48:31Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
