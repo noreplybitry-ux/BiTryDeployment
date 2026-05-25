@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-25T13:33:22.963Z",
+  "timestamp": "2026-05-25T16:25:48.853Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin LTH Supply Surge Does Not Reflect Real Demand — Here’s Why",
+        "description": "The price of Bitcoin seemed set for another round of pain over the weekend after falling below the psychological $75,000 level on Saturday morning. However, the premier cryptocurrency has somewhat recovered and is looking to reclaim $77,000 as of this writing…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-lth-supply-surge-does-not-reflect-real-demand/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/2025-11-22-03.31.11.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-24T15:00:21Z",
+        "content": "The price of Bitcoin seemed set for another round of pain over the weekend after falling below the psychological $75,000 level on Saturday morning. However, the premier cryptocurrency has somewhat re… [+2645 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley, AI Boost",
+        "title": "A massive $1 trillion hidden market is waiting to be unlocked in bitcoin, says new report",
+        "description": "Ledn forecasts the bitcoin-backed lending market could grow to $1 trillion within a decade as new research highlights strong borrower demand.",
+        "url": "https://www.coindesk.com/business/2026/05/22/ledn",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b5d61433a7938f2a44279c76d6a4b0aa0600e1eb-1920x1227.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-24T15:00:00Z",
+        "content": "Crypto lender Ledn says the consumer bitcoin-backed loan market could grow nearly 300-fold to as much as $1 trillion within the next decade, as demand for borrowing against digital assets far outpace… [+2455 chars]"
+      },
       {
         "source": {
           "id": null,
