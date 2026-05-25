@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-25T09:01:25.580Z",
+  "timestamp": "2026-05-25T13:33:22.963Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Crypto rails are becoming the default payment layer for AI agents, report says",
+        "description": "A new report from Keyrock says stablecoins on blockchain rails are becoming the go-to payment layer for AI agents as traditional card rails struggle to handle micropayments.",
+        "url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c4b55ff67ef1d065e3e2e556ba0209a416b27d44-2048x1365.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-24T13:00:00Z",
+        "content": "Artificial intelligence (AI) agents autonomously spending money online is still a tiny market, but some of the world's largest tech, payments and crypto firms are already racing to build the infrastr… [+3142 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Ethereum Pullbacks Spark Accumulation Activity – Here’s Why",
+        "description": "Over the past two weeks, the Ethereum price has trended downward, sparking fears of another prolonged correction. However, data from a recent on-chain analysis indicate that the long-term bullish case for Ethereum remains quite strong. Related Reading: Solana…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-pullbacks-spark-accumulation-activity-heres-why/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-davidmcbee-730552.jpg?fit=4032%2C3024",
+        "publishedAt": "2026-05-24T11:00:59Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-big-banks-think-new-furniture-is-innovation-but-they-are-wrong.jpg",
         "publishedAt": "2026-05-21T14:50:23Z",
         "content": "IG Europe has partnered with Bitpanda to offer crypto for European investors, using the Austrian exchanges infrastructure for liquidity, trading connectivity and market data.\r\nIGs push to bring spot … [+2394 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Millionaire Businessman Reveals Where The Real Crypto Value Is, And It’s Not Bitcoin",
-        "description": "Millionaire businessman Kevin O’Leary has indicated that stablecoins are more valuable than Bitcoin because of their role in the global financial system. He also highlighted the “big opportunity” as one of the layer-1 networks could be the biggest beneficiary…",
-        "url": "http://www.newsbtc.com/news/bitcoin/real-crypto-value-not-bitcoin/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-106.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-21T11:30:52Z",
-        "content": "Millionaire businessman Kevin OLeary has indicated that stablecoins are more valuable than Bitcoin because of their role in the global financial system. He also highlighted the big opportunity as one… [+2768 chars]"
       }
     ]
   }
