@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-25T18:47:05.982Z",
+  "timestamp": "2026-05-25T20:24:39.624Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Price Could Fall To $72.5K Before Next Rebound — Here’s Why",
+        "description": "After a terrible start to the weekend, the Bitcoin price jumped back to life on the back of news of a potential agreement between the United States and Iran. However, ignoring the potential impact of fresh geopolitical news or events, the current price struct…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-could-fall-to-72-5k-before-next-rebound/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/iStock-1345520605.jpg?fit=1254%2C836",
+        "publishedAt": "2026-05-24T19:00:00Z",
+        "content": "After a terrible start to the weekend, the Bitcoin price jumped back to life on the back of news of a potential agreement between the United States and Iran. However, ignoring the potential impact of… [+2543 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/IPOs2-gID_7.jpg",
         "publishedAt": "2026-05-21T14:58:19Z",
         "content": "In brief\r\n<ul><li>U.K.-based Blockchain.com is seeking an initial public offering via the U.S. equity markets. </li><li>Details about how much it is seeking to raise and what price point it will offe… [+2274 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "IG Europe taps Bitpanda to expand crypto trading across Europe",
-        "description": "IG Europe has partnered with Bitpanda to offer crypto trading to European investors, using the Austrian exchange’s liquidity and technology infrastructure.",
-        "url": "https://cointelegraph.com/news/ig-europe-taps-bitpanda-to-expand-crypto-trading-across-the-bloc",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-big-banks-think-new-furniture-is-innovation-but-they-are-wrong.jpg",
-        "publishedAt": "2026-05-21T14:50:23Z",
-        "content": "IG Europe has partnered with Bitpanda to offer crypto for European investors, using the Austrian exchanges infrastructure for liquidity, trading connectivity and market data.\r\nIGs push to bring spot … [+2394 chars]"
       }
     ]
   }
