@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-26T13:57:02.724Z",
+  "timestamp": "2026-05-26T17:31:03.033Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Coinbase CEO’s finance wishlist mirrors company’s product roadmap",
+        "description": "Brian Armstrong's wishlist for upgrading global finance aligns with the exchange's push into stocks, prediction markets and stablecoin payments, though some priorities remain aspirational.",
+        "url": "https://cointelegraph.com/news/coinbase-ceo-finance-wishlist-mirrors-companys-product-roadmap",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-who-is-brian-armstrong-profile-and-biography-1.jpg",
+        "publishedAt": "2026-05-25T14:28:12Z",
+        "content": "Brian Armstrong posted an eight-point blueprint for upgrading global finance Monday, which closely tracks Coinbases expansion into stocks, prediction markets and stablecoin infrastructure, as the exc… [+4161 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Rebound-Faces-Major-Test.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-22T05:08:52Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "5 crypto firms wind down this week amid ongoing market slump",
-        "description": "Fantasy.top, Everclear and ZERO Network announced they were winding down on Thursday, adding to a growing list of crypto companies that have closed this year.",
-        "url": "https://cointelegraph.com/news/5-crypto-firms-wind-down-this-week-amid-ongoing-market-slump",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-coinflares-exit-and-the-future-of-cloud-mining.jpg",
-        "publishedAt": "2026-05-22T03:59:57Z",
-        "content": "At least five crypto companies have shuttered this week as a prolonged downturn in the crypto market has put downward pressure on user activity and investor funding. \r\nCrypto trading card platform Fa… [+3898 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Eyes Breakout Move, Traders Watch Key Resistance Closely",
-        "description": "Ethereum price started a recovery wave above the $2,120 zone. ETH is now consolidating and might rally if there is a clear move above the $2,150 resistance. Ethereum started a recovery wave above the $2,125 zone. The price is trading below $2,150 and the 100-…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-eyes-breakout-2150/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Eyes-Breakout-Move.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-22T03:08:55Z",
-        "content": "Ethereum price started a recovery wave above the $2,120 zone. ETH is now consolidating and might rally if there is a clear move above the $2,150 resistance.\r\n<ul><li>Ethereum started a recovery wave … [+2089 chars]"
       }
     ]
   }
