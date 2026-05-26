@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-26T10:07:08.525Z",
+  "timestamp": "2026-05-26T13:57:02.724Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "BTC price to attack $80K shorts on Iran peace deal: Five things to know in Bitcoin this week",
+        "description": "Bitcoin traders predicted a short squeeze to $80,000, but a lack of overall demand and the return of leverage sparked warnings of more liquidation events to come.",
+        "url": "https://cointelegraph.com/markets/btc-price-tipped-to-attack-80k-shorts-on-iran-peace-deal-five-things-to-know-in-bitcoin-this-week",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-prediction-market-iran-bitcoin.jpg",
+        "publishedAt": "2026-05-25T12:00:02Z",
+        "content": "Bitcoin (BTC) starts the final week of May with traders optimistic about an $80,000 rebound will it end up as a liquidity grab?\r\n<ul><li>Bitcoin recovers from its trip to monthly lows as shorts above… [+8356 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Prometheum bets Wall Street distribution is the missing link for tokenized securities",
+        "description": "Crypto has solved tokenization, but not distribution and Prometheum says broker-dealers and RIAs are the key to bringing digital assets into mainstream finance.",
+        "url": "https://www.coindesk.com/business/2026/05/25/prometheum-bets-wall-street-distribution-is-the-missing-link-for-tokenized-securities",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/254961a3adc7c5698b4ba47d0de96c8605400978-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-25T12:00:00Z",
+        "content": "Prometheum is betting that the next phase of tokenized finance will be won not by crypto exchanges, but by traditional broker-dealers and registered investment advisers (RIAs).\r\n\"The story of tokeniz… [+5800 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "American Mega Bank Is Dumping Its Ethereum Holdings, Here’s What It’s Buying",
+        "description": "Ethereum is losing ground inside one of America’s largest banking portfolios as Bank of America sharply pivots toward Bitcoin-linked investment products. Fresh SEC filings from the banking giant reveal a noticeable reshuffling of its crypto exposure during th…",
+        "url": "http://www.newsbtc.com/news/ethereum/mega-bank-dumping-ethereum/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-dump.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-05-25T10:30:48Z",
+        "content": "Ethereum is losing ground inside one of Americas largest banking portfolios as Bank of America sharply pivots toward Bitcoin-linked investment products. Fresh SEC filings from the banking giant revea… [+3240 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,45 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Eyes-Breakout-Move.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-22T03:08:55Z",
         "content": "Ethereum price started a recovery wave above the $2,120 zone. ETH is now consolidating and might rally if there is a clear move above the $2,150 resistance.\r\n<ul><li>Ethereum started a recovery wave … [+2089 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Consolidates Near Lows As Market Searches For Direction",
-        "description": "Bitcoin price started a recovery wave above the $77,000 zone. BTC is consolidating and might aim for more gains if it clears the $78,000 resistance zone. Bitcoin managed to form a base above $76,200 and started a recovery wave. The price is trading above $77,…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-consolidates-78k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Consolidates.jpg",
-        "publishedAt": "2026-05-22T02:54:07Z",
-        "content": "Bitcoin price started a recovery wave above the $77,000 zone. BTC is consolidating and might aim for more gains if it clears the $78,000 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2178 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Treasury Company Nakamoto Takes Action To Prevent Stock Slide",
-        "description": "Nakamoto sold 284 Bitcoin on the last day of March just to keep the lights on. That detail, buried in the company’s first-quarter financial results, tells the story of where one of the country’s Bitcoin treasury companies now stands. Related Reading: Crypto A…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-treasury-company-nakamoto-takes-action-to-prevent-stock-slide/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-22T02:00:17Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bitcoin Miners Warn No Bottom Yet, CryptoQuant Says—What On-Chain Metrics Reveal",
-        "description": "Bitcoin (BTC) is trapped in its new consolidation band, holding between about $76,000 and $78,500. That range has now become the market’s near-term battlefield, with BTC roughly 38% below its all-time highs.  While this sideways action may appear stable, a ne…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-miners-warn-no-bottom-yet-cryptoquant-says-what-on-chain-metrics-reveal/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/image_Vtmdbjdl_1779394179571_raw.jpg",
-        "publishedAt": "2026-05-22T01:30:55Z",
-        "content": "Bitcoin (BTC) is trapped in its new consolidation band, holding between about $76,000 and $78,500. That range has now become the markets near-term battlefield, with BTC roughly 38% below its all-time… [+3142 chars]"
       }
     ]
   }
