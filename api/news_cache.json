@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-26T00:11:11.818Z",
+  "timestamp": "2026-05-26T05:07:08.834Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Climbs Into Resistance As Bears Defend Critical Levels",
+        "description": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $77,450 resistance zone. Bitcoin managed to form a base above $76,000 and started a recovery wave. The price is trading above $76,…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-climbs-into-resistance-77k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Climbs-Into-Resistance-As-Bears-Defend-Critical-Levels.jpg",
+        "publishedAt": "2026-05-25T03:13:58Z",
+        "content": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $77,450 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2174 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,32 +472,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hand-documents-magnifier-increase.jpg",
         "publishedAt": "2026-05-21T18:44:45Z",
         "content": "A petition to scrap a 22% tax on crypto investment gains in South Korea reached the 50,000-signature threshold required for the countrys Finance and Economic Planning Committee to review objections t… [+2331 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Crypto Exchange Kraken Secures VARA License to Launch in Dubai",
-        "description": "Dubai's Virtual Asset Regulatory Authority granted Kraken’s parent company preliminary broker-dealer and investment management authorization.",
-        "url": "https://decrypt.co/368643/crypto-exchange-kraken-secures-vara-license-launch-dubai",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/kraken-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-05-21T16:32:58Z",
-        "content": "In brief\r\n<ul><li>Payward, Kraken's parent company, secured preliminary regulatory approval from Dubai's Virtual Asset Regulatory Authority (VARA).</li><li>Services will include spot and margin tradi… [+3186 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Sarah Cummings",
-        "title": "Crypto for Advisors: Crypto Products",
-        "description": "Advisors need to assess ETP custody, sponsor profiles, and fees. Read expert advice on bitcoin-backed loans, including margin call risks and when to sell vs. borrow.",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-for-advisors-crypto-products",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/87ba76a24148691504a7e8e4b6821430f3f53503-3574x2010.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-21T15:00:00Z",
-        "content": "In todays newsletter, Sarah Cummings from Morgan Stanley Investment Management provides insights and considerations when assessing crypto exchange-traded funds.\r\nThen, in Ask an Expert, Ryan Tannahil… [+5231 chars]"
       }
     ]
   }
