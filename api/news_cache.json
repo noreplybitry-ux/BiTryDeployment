@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-25T22:12:39.400Z",
+  "timestamp": "2026-05-26T00:11:11.818Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Soaring bond prices signal 'structural' shift and Bitcoin 'supercycle': Analyst",
+        "description": "Fixed-income investors are in a \"panic\" as government securities, once seen as low-risk, begin to crack, according to BitMEX researcher Shang Wu.",
+        "url": "https://cointelegraph.com/news/soaring-bond-prices-structural-shift-bitcoin-supercycle",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/sponsor-screen-traid23.jpg",
+        "publishedAt": "2026-05-24T22:12:55Z",
+        "content": "Rising government bond yields signal a coming structural shift that will create a Bitcoin supercycle of rising prices, as investors flee debasing assets for one that cannot be inflated, according to … [+2165 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/87ba76a24148691504a7e8e4b6821430f3f53503-3574x2010.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-21T15:00:00Z",
         "content": "In todays newsletter, Sarah Cummings from Morgan Stanley Investment Management provides insights and considerations when assessing crypto exchange-traded funds.\r\nThen, in Ask an Expert, Ryan Tannahil… [+5231 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Crypto Exchange Blockchain.com Files for IPO in the US",
-        "description": "Long-running crypto exchange Blockchain.com has confidentially filed to take its business public via the U.S. markets.",
-        "url": "https://decrypt.co/368608/crypto-exchange-blockchain-com-files-ipo-us",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/IPOs2-gID_7.jpg",
-        "publishedAt": "2026-05-21T14:58:19Z",
-        "content": "In brief\r\n<ul><li>U.K.-based Blockchain.com is seeking an initial public offering via the U.S. equity markets. </li><li>Details about how much it is seeking to raise and what price point it will offe… [+2274 chars]"
       }
     ]
   }
