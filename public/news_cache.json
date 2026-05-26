@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-26T05:07:08.834Z",
+  "timestamp": "2026-05-26T10:07:08.525Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Bitcoin price prediction: BTC faces critical resistance at $78,000 as ETF outflows mount",
+        "description": "Bitcoin ETFs posted $1.25 billion in weekly net outflows. BTC must clear $78,152 to sustain bullish momentum. Strategy paused Bitcoin purchases despite holding 843,738 BTC. Bitcoin (BTC) continued to trade near the $77,000 level on Monday amid growing institu…",
+        "url": "https://coinjournal.net/news/bitcoin-price-prediction-btc-faces-critical-resistance-at-78000-as-etf-outflows-mount/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
+        "publishedAt": "2026-05-25T09:16:57Z",
+        "content": "<ul><li>Bitcoin ETFs posted $1.25 billion in weekly net outflows.</li><li>BTC must clear $78,152 to sustain bullish momentum.</li><li>Strategy paused Bitcoin purchases despite holding 843,738 BTC.</l… [+4368 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Bounce Under Threat As Resistance Caps Further Gains",
+        "description": "Dogecoin started a recovery wave above the $0.10 zone against the US Dollar. DOGE is now facing hurdles near $0.1050 and might struggle to continue higher. DOGE price started a recovery wave from $0.10 and climbed above $0.1020. The price is trading below the…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-bounce-under-threat-0-1050/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Bulls-Make-A-Move.jpg?fit=1024%2C572",
+        "publishedAt": "2026-05-25T06:28:07Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "‘Developed ecosystem’ based on crypto has sprung up for AI agents: Report",
+        "description": "AI-powered agents settled $73 million across 176 million transactions, with the concept becoming a reality in the last 12 months, according to a new report from Keyrock.",
+        "url": "https://cointelegraph.com/news/ai-agents-using-stablecoins-as-default-settlement-layer-keyrock",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-market-turns-its-attention-to-stablecoin-regulation-1.jpg",
+        "publishedAt": "2026-05-25T05:41:44Z",
+        "content": "Artificial intelligence agents settling payments have gone from concept to reality in the last 12 months, with $73 million settled across 176 million transactions from May last year through April 202… [+2793 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Builds Momentum For Another Bullish Surge Ahead",
+        "description": "Ethereum price started a downside correction from $2,150. ETH must clear the $2,120 and $2,150 resistance levels to continue higher. Ethereum started a downside correction below the $2,125 zone. The price is trading above $2,100 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-builds-momentum-2150/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Upside-Heats-Up.jpg?fit=1408%2C768",
+        "publishedAt": "2026-05-25T05:28:02Z",
+        "content": "Ethereum price started a downside correction from $2,150. ETH must clear the $2,120 and $2,150 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $2,125 z… [+2089 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,58 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/image_Vtmdbjdl_1779394179571_raw.jpg",
         "publishedAt": "2026-05-22T01:30:55Z",
         "content": "Bitcoin (BTC) is trapped in its new consolidation band, holding between about $76,000 and $78,500. That range has now become the markets near-term battlefield, with BTC roughly 38% below its all-time… [+3142 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin longs soar despite weak US macroeconomic data: Is $82K BTC next?",
-        "description": "Data shows Bitcoin traders cutting short positions and going long despite concerning US macroeconomic data emerging. Is a rally toward $82,000 next?",
-        "url": "https://cointelegraph.com/markets/bitcoin-longs-soar-despite-weak-us-macroeconomic-data-is-82k-btc-next",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-a-follow-up-on-tesla-purchasing-15-in-btc-what-does-this-mean-for-the-market-and-adoption-1.jpg",
-        "publishedAt": "2026-05-21T23:07:13Z",
-        "content": "Key takeaways:\r\n<ul><li>Top traders boosted their Bitcoin long-to-short ratios, strengthening the $76,000 support floor.</li><li>Macroeconomic pressures and persistent Bitcoin ETF outflows are cappin… [+3244 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Chance of new Bitcoin lows ‘extremely slim’ as long-term holders’ supply tops 15M BTC",
-        "description": "Data suggest Bitcoin’s chance of dropping below $60,000 again is slim to none, thanks to longer-term investors holding more than 71% of the asset’s total supply.",
-        "url": "https://cointelegraph.com/markets/new-bitcoin-lows-look-extremely-slim-as-long-term-holders-add-supply",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-price-market.jpg",
-        "publishedAt": "2026-05-21T20:39:54Z",
-        "content": "The chance of Bitcoin (BTC) falling below $60,000 is extremely slim, according to data showing that BTC long-term holders increased their holdings to 71.6% of the total supply. In addition to this da… [+2755 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "If You’re Looking To Bitcoin Above $90,000, This Analyst Says To Watch This Bearish OB Level",
-        "description": "A crypto analyst is urging traders and investors to keep a close eye on a bearish Order Block (OB) level on the Bitcoin (BTC) price chart. According to the expert, this OB level sits within a critical zone near $90,000, which could determine BTC’s next direct…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-above-90000-path/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-12-1.jpg?fit=612%2C344",
-        "publishedAt": "2026-05-21T20:30:52Z",
-        "content": "A crypto analyst is urging traders and investors to keep a close eye on a bearish Order Block (OB) level on the Bitcoin (BTC) price chart. According to the expert, this OB level sits within a critica… [+2846 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Petition to scrap South Korea's crypto tax reaches 50K threshold",
-        "description": "A petition opposing a 22% tax on crypto investment gains in South Korea has gained the necessary amount of signatures for a review by South Korean officials.",
-        "url": "https://cointelegraph.com/news/petition-scrap-south-korea-crypto-tax-50k-threshold",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hand-documents-magnifier-increase.jpg",
-        "publishedAt": "2026-05-21T18:44:45Z",
-        "content": "A petition to scrap a 22% tax on crypto investment gains in South Korea reached the 50,000-signature threshold required for the countrys Finance and Economic Planning Committee to review objections t… [+2331 chars]"
       }
     ]
   }
