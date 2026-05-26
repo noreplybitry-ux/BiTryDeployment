@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-26T17:31:03.033Z",
+  "timestamp": "2026-05-26T20:16:57.886Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Tom Lee Outlines Liquidity Catalyst for Ethereum Firm BitMine Following Russell Index Update",
+        "description": "The Ethereum-buying firm owns 3.8% of the digital asset’s supply.",
+        "url": "https://decrypt.co/368971/tom-lee-iquidity-ethereum-bitmine-russell-index",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-gID_7.jpg",
+        "publishedAt": "2026-05-25T20:06:04Z",
+        "content": "In brief\r\n<ul><li>BitMine Immersion Technologies is set to join the large-cap Russell 1000 Index on June 26, comfortably clearing a $5.7 billion large-cap threshold.</li><li>The inclusion is expected… [+3265 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/greenish-green-bitcoin-grow-up-2.jpg",
         "publishedAt": "2026-05-22T08:12:28Z",
         "content": "Bitcoin (BTC) has trended up for 90 days and is seeing a bull market rally, analysis says.\r\nKey points:\r\n<ul><li>Bitcoin has trended up for 90 days within its bear market something that has never hap… [+2388 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Rebound Faces Major Test Near Key Resistance Zone",
-        "description": "Solana found support at $83.50 and corrected some losses. SOL price is now consolidating below $88.50 and might struggle to continue higher. SOL price started a decent recovery wave above $85 and $86 against the US Dollar. The price is now trading above $86 a…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-rebound-faces-major-test-88-50/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Rebound-Faces-Major-Test.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-22T05:08:52Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
