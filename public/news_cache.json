@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-27T05:21:25.223Z",
+  "timestamp": "2026-05-27T10:05:17.054Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Ethereum Price Roadmap For The Rest Of 2026: Bull, Base, And Bear Scenarios Unpacked",
+        "description": "Ethereum (ETH) has struggled through the first quarter of the year and the opening stretch of the second, but it has managed to hold a crucial line near the $2,000 mark.  A new report from market expert Sam Daodu breaks down three potential paths for ETH for …",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-roadmap-for-the-rest-of-2026-bull-base-and-bear-scenarios-unpacked/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_RqChPnWj_1777303873637_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-05-26T07:00:16Z",
+        "content": "Ethereum (ETH) has struggled through the first quarter of the year and the opening stretch of the second, but it has managed to hold a crucial line near the $2,000 mark. \r\nA new report from market ex… [+2796 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Trims Recent Gains, Market Sentiment Turns Fragile Again",
+        "description": "Solana failed to stay above $86 and corrected some gains. SOL price is now consolidating and might aim for another increase if it stays above $82.50. SOL price started a downside correction below $85 against the US Dollar. The price is now trading below $85 a…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-trims-recent-gains-85/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Trims-Recent-Gains-Market-Sentiment-Turns-Fragile-Again.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-26T05:58:38Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,45 +485,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-geologist-museum-1.jpg",
         "publishedAt": "2026-05-22T19:33:51Z",
         "content": "Key points:\r\n<ul><li>Bitcoin has dipped below $77,000, signaling that the bears are poised to seize control.</li><li>Altcoins are a mixed bag, with some attempting to push through the overhead resist… [+7928 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jesse Hamilton",
-        "title": "SEC Commissioner Peirce counters views that crypto rule will foster synthetic tokens",
-        "description": "Hester Peirce, the commissioner behind the SEC's Crypto Task Force, made statements on the now-delayed proposal, perhaps tamping down mistaken beliefs.",
-        "url": "https://www.coindesk.com/news-analysis/2026/05/22/sec-commissioner-peirce-counters-views-that-crypto-rule-will-foster-synthetic-tokens",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/facaa2fb18c3e0eac299cf2f40a828bb6705036d-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-22T18:20:32Z",
-        "content": "The long-awaited U.S. Securities and Exchange Commission rule to begin allowing tokenization of securities a change that could have profound effects on the financial markets has been facing the conte… [+3588 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Crypto Is Growing Up—Why Some Everyday Traders Are Moving On",
-        "description": "Muted volatility, political shifts, and Wall Street dominance are driving increasingly jaded retail traders out of crypto.",
-        "url": "https://decrypt.co/368746/crypto-growing-up-why-everyday-traders-moving-on",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/bitcoin-dollar-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-05-22T16:54:02Z",
-        "content": "In brief\r\n<ul><li>Institutional giants now dominate market flows, potentially dampening the wild, rapid price swings that retail speculators crave.</li><li>In the first quarter, Coinbases consumer vo… [+5242 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Crypto Biz: Institutions tighten their grip on Bitcoin, AI and prediction markets",
-        "description": "Institutional crypto adoption continues to expand as Tether increases its Bitcoin exposure, Bitcoin miners pivot toward AI infrastructure and Polymarket partners with Nasdaq — despite $1 billion in crypto fund outflows driven by geopolitical tensions.",
-        "url": "https://cointelegraph.com/news/institutional-crypto-adoption-tether-bitcoin-ai-polymarket-outflows",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-gate-io-3.jpg",
-        "publishedAt": "2026-05-22T16:02:30Z",
-        "content": "Institutional adoption continued to reshape the digital asset market this week, even as geopolitical tensions reminded investors that crypto remains sensitive to broader macro conditions.\r\nDigital as… [+4683 chars]"
       }
     ]
   }
