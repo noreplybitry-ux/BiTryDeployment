@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-27T14:30:12.887Z",
+  "timestamp": "2026-05-27T18:04:57.557Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "UK sanctions Huobi and ruble stablecoin issuer in crackdown on Russia crypto networks",
+        "description": "Britain applied banking-style sanctions to crypto exchanges for the first time, requiring U.K. financial firms to freeze funds and trace transactions.",
+        "url": "https://www.coindesk.com/business/2026/05/26/uk-sanctions-huobi-and-ruble-stablecoin-issuer-in-crackdown-on-russia-crypto-networks",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-26T17:33:35Z",
+        "content": "The United Kingdom has imposed sanctions on a group of cryptocurrency exchanges, payment firms and individuals accused of helping Russia evade Western restrictions and finance its war in Ukraine, inc… [+2536 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_58f702.jpg?fit=1027%2C591",
         "publishedAt": "2026-05-23T21:00:45Z",
         "content": "Ethereum (ETH) has been under heavy selling pressure in recent weeks, leaving many retail investors uncertain about when to enter the market. However, Lingrid, a TradingView crypto expert, has steppe… [+3165 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Struggles To Reclaim Key Cost Basis As Realized Losses Climb — Details",
-        "description": "Since the past week, the Bitcoin price has traded below the cost basis of one of its most reactive investor groups. Based on recent on-chain information, the world’s largest cryptocurrency might face further trouble if its price fails to reclaim this crucial …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-struggles-to-reclaim-key-cost-basis-as-realized-losses-climb-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/0x0.jpg?fit=1920%2C1280",
-        "publishedAt": "2026-05-23T14:00:23Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "History Shows Bitcoin ETF Outflows Favor Accumulation, Says Santiment",
-        "description": "Six straight days of outflows from US spot Bitcoin ETFs — totaling $1.26 billion — are drawing attention not for the losses they represent, but for what history suggests might come next. What The Data Shows Blockchain analytics firm Santiment says these outfl…",
-        "url": "http://www.newsbtc.com/bitcoin-news/history-shows-bitcoin-etf-outflows-favor-accumulation-says-santiment/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-23T13:00:09Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Historical Performance Says Bitcoin Price Will Not Bottom Until It Touches This Level",
-        "description": "Crypto analyst Chain Mind has indicated that the Bitcoin price has yet to bottom. He alluded to historical performance, which shows that BTC has never bottomed without touching the EMA 300.  Bitcoin Price Unlikely To Bottom Before Touching This Level In an X …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-will-not-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-56.jpg?fit=612%2C459",
-        "publishedAt": "2026-05-23T11:30:05Z",
-        "content": "Crypto analyst Chain Mind has indicated that the Bitcoin price has yet to bottom. He alluded to historical performance, which shows that BTC has never bottomed without touching the EMA 300. \r\nIn an X… [+2403 chars]"
       }
     ]
   }
