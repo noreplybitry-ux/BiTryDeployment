@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-27T10:05:17.054Z",
+  "timestamp": "2026-05-27T14:30:12.887Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Ethereum treasury firms lean on staking as ETF pressure builds: Report",
+        "description": "Bitget executive Ignacio Aguirre said spot ETFs matter but are not the only factor pressuring ETH treasury valuations, citing dilution and market sentiment.",
+        "url": "https://cointelegraph.com/news/eth-treasury-firms-staking-revenue-etfs-dat-report",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/staked-ethereum-hits-eth-high.jpg",
+        "publishedAt": "2026-05-26T14:00:00Z",
+        "content": "Ethereum treasury companies are under pressure to generate revenue from staking and other yield strategies as spot crypto exchange-traded funds (ETFs) weaken the appeal of public companies that simpl… [+3623 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Binance eyes Philippines return through SEC sandbox partnership",
+        "description": "BlockShoals will serve as the approved local intermediary while Binance provides technology, security and compliance support.",
+        "url": "https://cointelegraph.com/news/binance-philippines-return-sec-sandbox-blockshoals",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-icos-return-on-investment2.jpg",
+        "publishedAt": "2026-05-26T12:07:03Z",
+        "content": "Crypto exchange Binance is partnering with fintech company BlockShoals Technologies in what the platform described as its first formal market-entry approach in the Philippines, through local partners… [+2448 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Crypto funds bleed $1.47B as risk-off sentiment deepens",
+        "description": "Crypto ETPs logged $1.47 billion of outflows last week as Bitcoin funds led losses, while nine altcoin ETPs still attracted inflows of more than $1 million.",
+        "url": "https://cointelegraph.com/news/crypto-etps-147-billion-outflows-risk-off-broadens-coinshares",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-inflows-and-outflows-on-crypto-exchanges.jpg",
+        "publishedAt": "2026-05-26T11:01:46Z",
+        "content": "Crypto investment products recorded $1.47 billion in outflows last week, extending a second straight week of withdrawals as Bitcoin funds led the decline, according to CoinShares.\r\nCrypto exchange-tr… [+2278 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Ethereum price chart targets $1.8K as total value locked hits 13-month lows",
+        "description": "Ether price eyes a 14% drop to $1,800 as it trades in a classic bearish pattern amid declining total value locked on the Ethereum network.",
+        "url": "https://cointelegraph.com/markets/ethereum-price-chart-targets-18k-as-total-value-locked-hits-13-month-lows",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/ethereum-newspaper-3.jpg",
+        "publishedAt": "2026-05-26T10:33:45Z",
+        "content": "Ethers (ETH) price printed a bear pennant on the daily chart, a technical chart formation associated with strong downward momentum. Could a weakening technical setup and a decline in total value lock… [+3124 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,110 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-56.jpg?fit=612%2C459",
         "publishedAt": "2026-05-23T11:30:05Z",
         "content": "Crypto analyst Chain Mind has indicated that the Bitcoin price has yet to bottom. He alluded to historical performance, which shows that BTC has never bottomed without touching the EMA 300. \r\nIn an X… [+2403 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "This Bitcoin Momentum Signal Preceded Last October’s Crash — Another Downturn Incoming?",
-        "description": "After a steep downturn in early February, the Bitcoin price saw a significant turnaround over the following two months. While the month of May initially continued on this positive note, the premier cryptocurrency seems to have cooled off over the past week — …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-momentum-signal-preceded-last-october-crash/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/iStock-1305769484.jpg?fit=2250%2C1332",
-        "publishedAt": "2026-05-23T10:00:04Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Forms Risky Head-And-Shoulders Pattern, Points To $44K Target",
-        "description": "Bitcoin is experiencing a steady decline, as prices dipped below $60,000 in the past week. The leading cryptocurrency has struggled to sustain upside momentum after multiple rejections at the $82,000 price level over the last month. Meanwhile, analysts remain…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-forms-risky-head-and-shoulders-pattern-points-to-44k-target/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/boitcoin-background-4k.jpg",
-        "publishedAt": "2026-05-23T08:00:56Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin And Ethereum Sharpe Ratio Diverge — What This Means",
-        "description": "A crypto founder and pundit recently took to the social media platform X to highlight a notable divergence between the Ethereum and Bitcoin markets. According to the analyst, the world’s leading cryptocurrencies could be nearing levels that would soon reverse…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-and-ethereum-sharpe-ratio-diverge/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/06/iStock-912157946.jpg",
-        "publishedAt": "2026-05-23T07:00:10Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Bitcoin 'Pizza Day' was 16 years ago, here's how much that BTC is worth today",
-        "description": "Laszlo Hanyecz's 2010 post, offering 10,000 BTC in exchange for two pizzas delivered to his home, marked the first recorded commercial BTC payment.",
-        "url": "https://cointelegraph.com/news/bitcoin-pizza-day-those-10k-btc-worth-today",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-famous-pizza-day-where-you-could-buy-pizza-with-btc-in-2018.jpg",
-        "publishedAt": "2026-05-22T23:16:38Z",
-        "content": "The Bitcoin community celebrated the 16th anniversary of Pizza Day on Friday, marking the first recorded commercial Bitcoin transaction, in which real-world goods were purchased with Bitcoin.\r\nIn May… [+2235 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Could Chainlink (LINK) Triple In 5 Years? Why A $20B Market Cap Is Possible",
-        "description": "Chainlink (LINK) has spent much of the past year in a holding pattern, lingering around the 18th largest cryptocurrency by market capitalization and pulling back roughly 43% year-to-date.  Still, zooming out on LINK’s longer-term picture, the oracle’s native …",
-        "url": "http://www.newsbtc.com/breaking-news-ticker/could-chainlink-link-triple-in-5-years-why-a-20b-market-cap-is-possible/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/09/Screenshot_1288.jpg",
-        "publishedAt": "2026-05-22T23:09:21Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Macro Prediction Shows What To Expect Next",
-        "description": "A crypto expert has shared her macro prediction for Ethereum (ETH), warning of an imminent price crash that could see the second-largest cryptocurrency plummet to as low as $800, or even $400 per coin. While this would represent a massive bearish move given E…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-macro-prediction/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pngtree-45-1.jpg?fit=640%2C359",
-        "publishedAt": "2026-05-22T22:30:04Z",
-        "content": "A crypto expert has shared her macro prediction for Ethereum (ETH), warning of an imminent price crash that could see the second-largest cryptocurrency plummet to as low as $800, or even $400 per coi… [+2978 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Robinhood Crypto COO Tanya Denisova is leaving company amid revenue slowdown",
-        "description": "Robinhood Crypto COO Tanya Denisova is leaving the firm after more than five years, as the trading platform navigates a sharp decline in crypto revenue and works to lessen its dependence on digital asset market cycles.",
-        "url": "https://www.coindesk.com/business/2026/05/22/robinhood-crypto-coo-tanya-denisova-is-leaving-company-amid-revenue-slowdown",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/cb0bf014fcfb96a3b856413652b97154bb22a97e-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-22T19:40:15Z",
-        "content": "Tanya Denisova, chief operating officer of Robinhood Crypto, is leaving the firm, according to two people with knowledge of the matter.\r\nDenisova had been employed by the popular trading platform for… [+1541 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/22: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
-        "description": "Bitcoin sold off to $76,000, giving bears an opportunity to reclaim control of the crypto market. Meanwhile, altcoins like HYPE charted new highs.",
-        "url": "https://cointelegraph.com/markets/price-predictions-522-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-geologist-museum-1.jpg",
-        "publishedAt": "2026-05-22T19:33:51Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin has dipped below $77,000, signaling that the bears are poised to seize control.</li><li>Altcoins are a mixed bag, with some attempting to push through the overhead resist… [+7928 chars]"
       }
     ]
   }
