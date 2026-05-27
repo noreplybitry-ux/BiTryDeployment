@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-27T00:13:49.723Z",
+  "timestamp": "2026-05-27T05:21:25.223Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Buying Pressure Softens, Traders Turn Increasingly Cautious",
+        "description": "Ethereum price started a downside correction from $2,120. ETH must clear the $2,110 and $2,120 resistance levels to continue higher. Ethereum started a downside correction below the $2,110 zone. The price is trading below $2,095 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-buying-pressure-softens-2150/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Buying-Pressure-Softens.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-26T04:48:39Z",
+        "content": "Ethereum price started a downside correction from $2,120. ETH must clear the $2,110 and $2,120 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $2,110 z… [+2097 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Recovery Looks Fragile, Another Drop May Follow Soon",
+        "description": "Bitcoin price started a downside correction from the $78,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $78,000. Bitcoin failed to stay above $77,500 and extended losses. The price is trading below $77,000 and the 100 hourly si…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-looks-fragile-78k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Recovery-Looks-Fragile-Another-Drop-May-Follow-Soon.jpg",
+        "publishedAt": "2026-05-26T04:27:12Z",
+        "content": "Bitcoin price started a downside correction from the $78,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $78,000.\r\n<ul><li>Bitcoin failed to stay above $77,500 and exte… [+2110 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin volatility falls to 8-month low: Is a BTC breakout imminent?",
+        "description": "Bitcoin’s low volatility could be reflective of institutions holding BTC and issuing stocks to buy more, or a sign that most traders expect prolonged price consolidation.",
+        "url": "https://cointelegraph.com/markets/bitcoin-volatility-falls-to-8-month-low-is-a-btc-breakout-imminent",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-market-volatility-bitcoin.jpg",
+        "publishedAt": "2026-05-26T02:59:45Z",
+        "content": "Key takeaways:\r\n<ul><li>Bitcoin's implied volatility plunged to a multi-month low, signaling that traders expect further price consolidation.</li><li>Excessive confidence among Bitcoin bears could ca… [+3076 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin holds $77K as stocks rally, global tensions cool: Are BTC bulls back?",
+        "description": "Declining oil prices and the chance for peace in the Middle East could create a path for Bitcoin to rally to $82,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-77k-as-stocks-rally-global-tensions-cool-are-btc-bulls-back",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bull-or-bear-how-sec-actions-correlate-with-market-prices2.jpg",
+        "publishedAt": "2026-05-26T01:31:39Z",
+        "content": "Key takeaways:\r\n<ul><li>Declining oil prices boosted global stock markets, helping lift Bitcoin back to $77,000 amid reduced inflation fears.</li><li>$2.66 billion spot Bitcoin ETF outflows have kept… [+3047 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +498,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-gate-io-3.jpg",
         "publishedAt": "2026-05-22T16:02:30Z",
         "content": "Institutional adoption continued to reshape the digital asset market this week, even as geopolitical tensions reminded investors that crypto remains sensitive to broader macro conditions.\r\nDigital as… [+4683 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price falls under $77K as Dow Jones hits new all-time highs",
-        "description": "Bitcoin suffers from continuing weak US demand as BTC price action heads lower despite US stock markets breaking into price discovery.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-under-77k-as-dow-jones-hits-new-all-time-highs",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/red-down-falling-car-bitcoin.jpg",
-        "publishedAt": "2026-05-22T15:40:15Z",
-        "content": "Bitcoin (BTC) faced familiar selling pressure on Friday as US stock markets began setting fresh record highs.\r\nKey points:\r\n<ul><li>Bitcoin and crypto markets diverge from US stocks, with the Dow Jon… [+2557 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Price Breaks 14-Year Support For The First Time In History, Analyst Predicts $50,000 Target",
-        "description": "Crypto analyst Phila has predicted that the Bitcoin price could see a massive decline to $55,000 after breaking a 14-year support level. This comes amid BTC’s fall below the psychological $80,000 level, with the leading crypto now at risk of dropping to new l…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-breaks-14-year-support/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-62.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-22T13:30:03Z",
-        "content": "Crypto analyst Phila has predicted that the Bitcoin price could see a massive decline to $55,000 after breaking a 14-year support level. This comes amid BTCs fall below the psychological $80,000 leve… [+2398 chars]"
       }
     ]
   }
