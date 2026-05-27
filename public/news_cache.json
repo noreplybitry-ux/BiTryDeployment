@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-26T22:23:54.155Z",
+  "timestamp": "2026-05-27T00:13:49.723Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Bull Strategy Chooses Bonds In Unexpected Pivot",
+        "description": "Strategy currently holds 843,738 BTC valued at around $65 billion, making it one of the largest corporate holders of the cryptocurrency in the world. The company paid roughly $63 billion to acquire that stash, leaving it sitting on about $1.50 billion in unre…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bull-strategy-chooses-bonds-in-unexpected-pivot/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-26T00:00:03Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/25: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ZEC",
+        "description": "Bitcoin’s weekend bounce shows strong demand at lower levels, but holding $78,000 may remain a challenge for the bulls.",
+        "url": "https://cointelegraph.com/markets/price-predictions-525-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-zec",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analys-analytics-price-analysis-motorcycle-city-neon-cyberpunk.jpg",
+        "publishedAt": "2026-05-25T23:34:12Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin needs to cross and maintain above $78,000 to start a stronger recovery toward $84,000.</li><li>HYPE and ZEC remain strong while other major altcoins struggle to rise abov… [+8180 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "The Bitcoin Billion-Dollar Dump: Here’s Why The BTC Price Keeps Crashing",
+        "description": "Crypto pundit Ardizor has alleged that several crypto firms appear to be dumping Bitcoin, which is why the BTC price keeps crashing. The leading crypto had crashed over the weekend but is now recovering on hopes of a U.S.-Iran deal. Why The BTC Price Keeps Cr…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-billion-dollar-dump/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-42.jpg?fit=612%2C408",
+        "publishedAt": "2026-05-25T22:30:06Z",
+        "content": "Crypto pundit Ardizor has alleged that several crypto firms appear to be dumping Bitcoin, which is why the BTC price keeps crashing. The leading crypto had crashed over the weekend but is now recover… [+2805 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-62.jpg?fit=1280%2C853",
         "publishedAt": "2026-05-22T13:30:03Z",
         "content": "Crypto analyst Phila has predicted that the Bitcoin price could see a massive decline to $55,000 after breaking a 14-year support level. This comes amid BTCs fall below the psychological $80,000 leve… [+2398 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Saylor Says Bitcoin Could Triple S&P 500 Returns: ‘We Expect 30%’",
-        "description": "Michael Saylor is calling $60,000 Bitcoin’s floor. The Strategy co-founder made the claim during a Thursday appearance on CNBC’s Squawk Box, saying the asset is now entering what he described as a “spring phase” — backed by solid support levels and a favorabl…",
-        "url": "http://www.newsbtc.com/news/bitcoin-vs-sp-500-michael-saylor-bets-big-on-crypto-winning-long-term/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-22T09:00:17Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price record 90-day uptrend 'resembles bull market rally:' New analysis",
-        "description": "Bitcoin rallied for 90 days after its dip below $60,000, breaking the record for the longest uptrend within a bear market in BTC price history.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-record-90-day-uptrend-resembles-bull-market-rally-new-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/greenish-green-bitcoin-grow-up-2.jpg",
-        "publishedAt": "2026-05-22T08:12:28Z",
-        "content": "Bitcoin (BTC) has trended up for 90 days and is seeing a bull market rally, analysis says.\r\nKey points:\r\n<ul><li>Bitcoin has trended up for 90 days within its bear market something that has never hap… [+2388 chars]"
       }
     ]
   }
