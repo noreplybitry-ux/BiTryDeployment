@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-28T19:41:36.892Z",
+  "timestamp": "2026-05-28T22:00:07.376Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-inflows-and-outflows-on-crypto-exchanges.jpg",
         "publishedAt": "2026-05-26T11:01:46Z",
         "content": "Crypto investment products recorded $1.47 billion in outflows last week, extending a second straight week of withdrawals as Bitcoin funds led the decline, according to CoinShares.\r\nCrypto exchange-tr… [+2278 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Ethereum price chart targets $1.8K as total value locked hits 13-month lows",
-        "description": "Ether price eyes a 14% drop to $1,800 as it trades in a classic bearish pattern amid declining total value locked on the Ethereum network.",
-        "url": "https://cointelegraph.com/markets/ethereum-price-chart-targets-18k-as-total-value-locked-hits-13-month-lows",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/ethereum-newspaper-3.jpg",
-        "publishedAt": "2026-05-26T10:33:45Z",
-        "content": "Ethers (ETH) price printed a bear pennant on the daily chart, a technical chart formation associated with strong downward momentum. Could a weakening technical setup and a decline in total value lock… [+3124 chars]"
       }
     ]
   }
