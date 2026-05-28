@@ -1,10 +1,88 @@
 {
   "version": 3,
-  "timestamp": "2026-05-28T04:08:44.412Z",
+  "timestamp": "2026-05-28T08:47:09.974Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Whale alert: Someone dumped $1.29 billion of BlackRock's bitcoin ETF in a dark pool trade",
+        "description": "The big sale happened amid a broader continued exodus from U.S.-listed spot bitcoin ETFs.",
+        "url": "https://www.coindesk.com/markets/2026/05/27/whale-alert-someone-dumped-usd1-29-billion-of-blackrock-s-bitcoin-etf-in-a-dark-pool-trade",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b84cc03a0757fa4a135a5267f8d8f07b962c3105-1280x720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-27T08:40:44Z",
+        "content": "As investors pulled millions of dollars out of U.S.-listed spot crypto exchange-traded funds (ETFs) on Tuesday, one move stood out. \r\nA single investor dumped over a billion dollars-worth of shares i… [+1982 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Sharplink, Forward Industries among crypto firms considered for Russell indexes",
+        "description": "Sharplink, Gemini, Bitmine and Galaxy Digital were all included in preliminary lists for possible inclusion on Russell indexes tracking the largest companies in the US.",
+        "url": "https://cointelegraph.com/news/sharplink-forward-industries-among-crypto-firms-considered-for-russell-indexes",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-the-grayscale-bitcoin-trust0-1.jpg",
+        "publishedAt": "2026-05-27T06:27:54Z",
+        "content": "A range of crypto companies have been included in a preliminary list for potential inclusion in the Russell 3000 index, including treasury firms Sharplink and Forward Industries, along with crypto ex… [+2279 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Under Pressure Again As Bears Eye Lower Levels",
+        "description": "Dogecoin corrected some gains from the $0.1050 zone against the US Dollar. DOGE is now holding the $0.10 support but could extend losses. DOGE price started a fresh downside correction below $0.1020. The price is trading below the $0.1020 level and the 100-ho…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-under-pressure-0-1020/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Under-Pressure-Again-As-Bears-Eye-Lower-Levels.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-27T06:18:22Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Bitcoin’s recent drop coincides with $1.3B ‘dark pool’ ETF sale: Analyst",
+        "description": "Galaxy Digital’s Alex Thorn says a $1.3 billion sale of BlackRock’s Bitcoin ETF was the largest he has seen on a dark pool, or private trading platform.",
+        "url": "https://cointelegraph.com/news/bitcoin-fall-coincides-billion-dollar-ibit-sale-dark-pool",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-crypto-market-is-falling-bitcoin-1.jpg",
+        "publishedAt": "2026-05-27T05:54:03Z",
+        "content": "An unknown traders $1.3 billion sale of shares in BlackRocks Bitcoin exchange-traded fund on Tuesday has coincided with a steep fall in the price of Bitcoin immediately after the sale, according to a… [+2008 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Martin Young",
+        "title": "Base launches new tool to connect crypto wallets to AI agents",
+        "description": "AI models will be able to transfer funds, swap tokens, check balances and review transaction history with a new tool from Base.",
+        "url": "https://cointelegraph.com/news/base-launches-mcp-ttol-to-connect-crypto-wallets-to-ai-agents",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-base-coinbase-l2-network.jpg",
+        "publishedAt": "2026-05-27T04:49:13Z",
+        "content": "Base, the Ethereum layer-2 blockchain from crypto exchange Coinbase, has launched a tool to connect Base accounts to artificial intelligence agents for blockchain operations.\r\nBase said on Tuesday th… [+2521 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Struggles Near Key Levels As Market Sentiment Weakens",
+        "description": "Ethereum price started a fresh decline and traded below $2,080. ETH is now consolidating above $2,050 and might struggle to recover. Ethereum remained in a bearish zone after a fresh decline. The price is trading below $2,100 and the 100-hourly Simple Moving …",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-near-2050/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Stabilizes-After-Selloff.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-27T04:48:38Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,080. ETH is now consolidating above $2,050 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decline… [+2143 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,84 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-prediction-market-iran-bitcoin.jpg",
         "publishedAt": "2026-05-25T12:00:02Z",
         "content": "Bitcoin (BTC) starts the final week of May with traders optimistic about an $80,000 rebound will it end up as a liquidity grab?\r\n<ul><li>Bitcoin recovers from its trip to monthly lows as shorts above… [+8356 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Prometheum bets Wall Street distribution is the missing link for tokenized securities",
-        "description": "Crypto has solved tokenization, but not distribution and Prometheum says broker-dealers and RIAs are the key to bringing digital assets into mainstream finance.",
-        "url": "https://www.coindesk.com/business/2026/05/25/prometheum-bets-wall-street-distribution-is-the-missing-link-for-tokenized-securities",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/254961a3adc7c5698b4ba47d0de96c8605400978-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-25T12:00:00Z",
-        "content": "Prometheum is betting that the next phase of tokenized finance will be won not by crypto exchanges, but by traditional broker-dealers and registered investment advisers (RIAs).\r\n\"The story of tokeniz… [+5800 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "American Mega Bank Is Dumping Its Ethereum Holdings, Here’s What It’s Buying",
-        "description": "Ethereum is losing ground inside one of America’s largest banking portfolios as Bank of America sharply pivots toward Bitcoin-linked investment products. Fresh SEC filings from the banking giant reveal a noticeable reshuffling of its crypto exposure during th…",
-        "url": "http://www.newsbtc.com/news/ethereum/mega-bank-dumping-ethereum/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-dump.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-05-25T10:30:48Z",
-        "content": "Ethereum is losing ground inside one of Americas largest banking portfolios as Bank of America sharply pivots toward Bitcoin-linked investment products. Fresh SEC filings from the banking giant revea… [+3240 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Bitcoin price prediction: BTC faces critical resistance at $78,000 as ETF outflows mount",
-        "description": "Bitcoin ETFs posted $1.25 billion in weekly net outflows. BTC must clear $78,152 to sustain bullish momentum. Strategy paused Bitcoin purchases despite holding 843,738 BTC. Bitcoin (BTC) continued to trade near the $77,000 level on Monday amid growing institu…",
-        "url": "https://coinjournal.net/news/bitcoin-price-prediction-btc-faces-critical-resistance-at-78000-as-etf-outflows-mount/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
-        "publishedAt": "2026-05-25T09:16:57Z",
-        "content": "<ul><li>Bitcoin ETFs posted $1.25 billion in weekly net outflows.</li><li>BTC must clear $78,152 to sustain bullish momentum.</li><li>Strategy paused Bitcoin purchases despite holding 843,738 BTC.</l… [+4368 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Bounce Under Threat As Resistance Caps Further Gains",
-        "description": "Dogecoin started a recovery wave above the $0.10 zone against the US Dollar. DOGE is now facing hurdles near $0.1050 and might struggle to continue higher. DOGE price started a recovery wave from $0.10 and climbed above $0.1020. The price is trading below the…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-bounce-under-threat-0-1050/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Bulls-Make-A-Move.jpg?fit=1024%2C572",
-        "publishedAt": "2026-05-25T06:28:07Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "‘Developed ecosystem’ based on crypto has sprung up for AI agents: Report",
-        "description": "AI-powered agents settled $73 million across 176 million transactions, with the concept becoming a reality in the last 12 months, according to a new report from Keyrock.",
-        "url": "https://cointelegraph.com/news/ai-agents-using-stablecoins-as-default-settlement-layer-keyrock",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-market-turns-its-attention-to-stablecoin-regulation-1.jpg",
-        "publishedAt": "2026-05-25T05:41:44Z",
-        "content": "Artificial intelligence agents settling payments have gone from concept to reality in the last 12 months, with $73 million settled across 176 million transactions from May last year through April 202… [+2793 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Builds Momentum For Another Bullish Surge Ahead",
-        "description": "Ethereum price started a downside correction from $2,150. ETH must clear the $2,120 and $2,150 resistance levels to continue higher. Ethereum started a downside correction below the $2,125 zone. The price is trading above $2,100 and the 100-hourly Simple Movi…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-builds-momentum-2150/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Upside-Heats-Up.jpg?fit=1408%2C768",
-        "publishedAt": "2026-05-25T05:28:02Z",
-        "content": "Ethereum price started a downside correction from $2,150. ETH must clear the $2,120 and $2,150 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $2,125 z… [+2089 chars]"
       }
     ]
   }
