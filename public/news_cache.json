@@ -1,10 +1,88 @@
 {
   "version": 3,
-  "timestamp": "2026-05-28T12:34:17.250Z",
+  "timestamp": "2026-05-28T16:58:14.419Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price threatens $75K loss as US-Iran peace progress sparks new stocks records",
+        "description": "Bitcoin disappointed bulls by dropping below $75,000 on Iran peace deal reports while US stocks hit new all-time highs and oil saw one-month lows on Hormuz hopes.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-threatens-75k-loss-as-us-iran-peace-progress-sparks-new-stocks-records",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/road-sign-renovation-regulation-changes-bitcoin-welcome22-3.jpg",
+        "publishedAt": "2026-05-27T16:47:05Z",
+        "content": "Bitcoin (BTC) fell back below $75,000 at Wednesdays Wall Street open as relief over a US-Iran peace deal bypassed crypto.\r\nKey points:\r\n<ul><li>Bitcoin continues to diverge from US stocks despite goo… [+3252 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Crypto IPOs could create massive $1 trillion market amid tokenization wave, Jefferies says",
+        "description": "The Wall Street investment bank expects a massive wave of crypto and blockchain public listings over the next two years as institutional investors shift their focus from speculative trading to real-world financial infrastructure.",
+        "url": "https://www.coindesk.com/markets/2026/05/27/crypto-ipos-could-create-massive-usd1-trillion-market-amid-tokenization-wave-jefferies-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8961da2a19cbb5d7f579a29d5596e658f9eb6619-5627x3752.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-27T15:35:15Z",
+        "content": "Jefferies said it expects a new wave of crypto and blockchain-related public listings as institutional adoption of digital asset infrastructure accelerates across Wall Street and the payments industr… [+4841 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Bitcoin price shrugs off $1.3B BlackRock ETF block sale",
+        "description": "Bitcoin’s price stayed firm despite a massive $1.3 billion block sale executed by a mysterious BlackRock ETF holder, which analysts called a sign of large-scale institutional de-risking.",
+        "url": "https://cointelegraph.com/news/bitcoin-price-shrugs-13b-blackrock-etf-block-sale",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-etf-1.jpg",
+        "publishedAt": "2026-05-27T14:24:37Z",
+        "content": "A roughly $1.3 billion block trade in BlackRocks iShares Bitcoin Trust (IBIT) tested liquidity in the largest spot Bitcoin exchange-traded fund (ETF) as Bitcoin products faced a fresh stretch of outf… [+2350 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Major crypto exchanges increase transfer scrutiny with HTX over UK sanctions",
+        "description": "The UK sanctioned crypto exchange HTX due to alleged ties to Russian sanctions evasion networks and illicit financial activity.",
+        "url": "https://www.coindesk.com/business/2026/05/27/major-crypto-exchanges-increase-transfer-scrutiny-with-htx-over-uk-sanctions",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e32c73c877e257ea0e665dae0d3fa751d19cf3cc-1920x1231.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-27T13:37:42Z",
+        "content": "Several major cryptocurrency exchanges warned users this week that transfers involving HTX could face additional compliance checks after the United Kingdom sanctioned the exchange over alleged ties t… [+2803 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Margaux Nijkerk",
+        "title": "Solana DEX Orca launches new marketplace for tokenized real-world assets",
+        "description": "The launch comes as crypto companies increasingly focus on tokenizing traditional financial assets, a market many in the industry see as a major growth opportunity.",
+        "url": "https://www.coindesk.com/business/2026/05/27/solana-dex-orca-launches-new-marketplace-for-tokenized-real-world-assets",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e356d653a3a292e3c3fa3112178a7fe53ccfb692-1500x739.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-27T13:00:00Z",
+        "content": "Orca, one of the biggest decentralized exchanges on Solana, is launching new infrastructure aimed at bringing regulated real-world assets onchain, as crypto firms push deeper into tokenized stocks, c… [+1797 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "China’s top court to study rules for crypto and AI cases",
+        "description": "China's Supreme People's Court said it will research new judicial guidelines tied to virtual currency and AI-generated content cases, as part of a broader push to support its digital economy.",
+        "url": "https://cointelegraph.com/news/china-supreme-court-formulate-rules-digital-currency-ai",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/lawsuit-litigation-court1.jpg",
+        "publishedAt": "2026-05-27T12:58:46Z",
+        "content": "Chinas Supreme Peoples Court (SPC) said it will study new adjudication rules for virtual currency and cross-border finance cases as part of a broader push to clarify how courts handle digital economy… [+2785 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,97 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Buying-Pressure-Softens.jpg?fit=1024%2C559",
         "publishedAt": "2026-05-26T04:48:39Z",
         "content": "Ethereum price started a downside correction from $2,120. ETH must clear the $2,110 and $2,120 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $2,110 z… [+2097 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Recovery Looks Fragile, Another Drop May Follow Soon",
-        "description": "Bitcoin price started a downside correction from the $78,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $78,000. Bitcoin failed to stay above $77,500 and extended losses. The price is trading below $77,000 and the 100 hourly si…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-recovery-looks-fragile-78k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Recovery-Looks-Fragile-Another-Drop-May-Follow-Soon.jpg",
-        "publishedAt": "2026-05-26T04:27:12Z",
-        "content": "Bitcoin price started a downside correction from the $78,000 zone. BTC is consolidating and might aim for a fresh increase if it clears $78,000.\r\n<ul><li>Bitcoin failed to stay above $77,500 and exte… [+2110 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin volatility falls to 8-month low: Is a BTC breakout imminent?",
-        "description": "Bitcoin’s low volatility could be reflective of institutions holding BTC and issuing stocks to buy more, or a sign that most traders expect prolonged price consolidation.",
-        "url": "https://cointelegraph.com/markets/bitcoin-volatility-falls-to-8-month-low-is-a-btc-breakout-imminent",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-market-volatility-bitcoin.jpg",
-        "publishedAt": "2026-05-26T02:59:45Z",
-        "content": "Key takeaways:\r\n<ul><li>Bitcoin's implied volatility plunged to a multi-month low, signaling that traders expect further price consolidation.</li><li>Excessive confidence among Bitcoin bears could ca… [+3076 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin holds $77K as stocks rally, global tensions cool: Are BTC bulls back?",
-        "description": "Declining oil prices and the chance for peace in the Middle East could create a path for Bitcoin to rally to $82,000.",
-        "url": "https://cointelegraph.com/markets/bitcoin-holds-77k-as-stocks-rally-global-tensions-cool-are-btc-bulls-back",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bull-or-bear-how-sec-actions-correlate-with-market-prices2.jpg",
-        "publishedAt": "2026-05-26T01:31:39Z",
-        "content": "Key takeaways:\r\n<ul><li>Declining oil prices boosted global stock markets, helping lift Bitcoin back to $77,000 amid reduced inflation fears.</li><li>$2.66 billion spot Bitcoin ETF outflows have kept… [+3047 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Bull Strategy Chooses Bonds In Unexpected Pivot",
-        "description": "Strategy currently holds 843,738 BTC valued at around $65 billion, making it one of the largest corporate holders of the cryptocurrency in the world. The company paid roughly $63 billion to acquire that stash, leaving it sitting on about $1.50 billion in unre…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bull-strategy-chooses-bonds-in-unexpected-pivot/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-26T00:00:03Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/25: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ZEC",
-        "description": "Bitcoin’s weekend bounce shows strong demand at lower levels, but holding $78,000 may remain a challenge for the bulls.",
-        "url": "https://cointelegraph.com/markets/price-predictions-525-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-zec",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analys-analytics-price-analysis-motorcycle-city-neon-cyberpunk.jpg",
-        "publishedAt": "2026-05-25T23:34:12Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin needs to cross and maintain above $78,000 to start a stronger recovery toward $84,000.</li><li>HYPE and ZEC remain strong while other major altcoins struggle to rise abov… [+8180 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "The Bitcoin Billion-Dollar Dump: Here’s Why The BTC Price Keeps Crashing",
-        "description": "Crypto pundit Ardizor has alleged that several crypto firms appear to be dumping Bitcoin, which is why the BTC price keeps crashing. The leading crypto had crashed over the weekend but is now recovering on hopes of a U.S.-Iran deal. Why The BTC Price Keeps Cr…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-billion-dollar-dump/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-42.jpg?fit=612%2C408",
-        "publishedAt": "2026-05-25T22:30:06Z",
-        "content": "Crypto pundit Ardizor has alleged that several crypto firms appear to be dumping Bitcoin, which is why the BTC price keeps crashing. The leading crypto had crashed over the weekend but is now recover… [+2805 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Tom Lee Outlines Liquidity Catalyst for Ethereum Firm BitMine Following Russell Index Update",
-        "description": "The Ethereum-buying firm owns 3.8% of the digital asset’s supply.",
-        "url": "https://decrypt.co/368971/tom-lee-iquidity-ethereum-bitmine-russell-index",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-gID_7.jpg",
-        "publishedAt": "2026-05-25T20:06:04Z",
-        "content": "In brief\r\n<ul><li>BitMine Immersion Technologies is set to join the large-cap Russell 1000 Index on June 26, comfortably clearing a $5.7 billion large-cap threshold.</li><li>The inclusion is expected… [+3265 chars]"
       }
     ]
   }
