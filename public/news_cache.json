@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-05-28T16:58:14.419Z",
+  "timestamp": "2026-05-28T19:41:36.892Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Hyperliquid Enters Top 10 Crypto With New ATH, But How High Will It Be If It Overtakes Ethereum?",
+        "description": "Hyperliquid (HYPE) recently broke into the top 10 cryptocurrencies by market capitalization, sitting alongside top players like Bitcoin (BTC) and Ethereum (ETH), after its price surged past $50 and set a new all-time high. Now, on-chain analytics platforms ar…",
+        "url": "http://www.newsbtc.com/news/hyperliquid-in-top-10-crypto/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Hyperliquid-from-Medium-1.png?fit=1200%2C600",
+        "publishedAt": "2026-05-27T19:30:16Z",
+        "content": "Hyperliquid (HYPE) recently broke into the top 10 cryptocurrencies by market capitalization, sitting alongside top players like Bitcoin (BTC) and Ethereum (ETH), after its price surged past $50 and s… [+3073 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Rakesh Upadhyay",
+        "title": "Price predictions 5/27: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ZEC, ADA, XMR",
+        "description": "Bitcoin briefly lost the $75,000 level after net flows into spot BTC ETFs turned negative. Do technical charts point to a BTC and altcoin recovery?",
+        "url": "https://cointelegraph.com/markets/price-predictions-527-btc-eth-bnb-xrp-sol-doge-hype-zec-ada-xmr",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-trade-cryptocurrencies-2.jpg",
+        "publishedAt": "2026-05-27T18:28:39Z",
+        "content": "Key points:\r\n<ul><li>Bitcoin is under pressure as net outflows from the BTC ETFs highlight a shift in institutional investor sentiment.</li><li>Most major altcoins look weak, suggesting the bears are… [+8214 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Mastercard secures New York BitLicense for crypto operations",
+        "description": "Mastercard has obtained a New York BitLicense to expand its regulated digital asset operations, including stablecoin and tokenized payment infrastructure.",
+        "url": "https://cointelegraph.com/news/mastercard-secures-new-york-bitlicense-for-crypto-operations",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitlicense-approval-shines-fresh-light-on-new-york-crypto-relationship.jpg",
+        "publishedAt": "2026-05-27T18:05:55Z",
+        "content": "Mastercards US transaction services unit has received a BitLicense from the New York State Department of Financial Services (NYDFS), allowing the payments giant to conduct regulated digital asset bus… [+2386 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Bitcoin retests support below $75,000 as downside pressure holds",
+        "description": "Bitcoin price fell to below $75,000 on Wednesday, touching $74,600. ETF outflows and broader market headwinds mean downside pressure remains. Analysts say the current price outlook includes a “dangerous divergence”. Bitcoin briefly dipped below the $75,000 ma…",
+        "url": "https://coinjournal.net/news/bitcoin-retests-support-below-75000-as-downside-pressure-holds/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/bitcoin-price-decline-chart-red-market.png",
+        "publishedAt": "2026-05-27T17:54:49Z",
+        "content": "<ul><li>Bitcoin price fell to below $75,000 on Wednesday, touching $74,600.</li><li>ETF outflows and broader market headwinds mean downside pressure remains.</li><li>Analysts say the current price ou… [+3489 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "SoFi Launches SoFiUSD Stablecoin Across Ethereum and Solana",
+        "description": "SoFi is making its SoFiUSD token available to members, marking a milestone in the convergence of regulated banking and blockchain.",
+        "url": "https://decrypt.co/369187/sofi-launches-sofiusd-stablecoin-ethereum-solana",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-05-27T17:08:09Z",
+        "content": "In brief\r\n<ul><li>SoFi launched SoFiUSD, the first stablecoin issued by a U.S. national bank available directly inside a consumer banking app, accessible to nearly 15 million members.</li><li>The tok… [+2356 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,45 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/ethereum-newspaper-3.jpg",
         "publishedAt": "2026-05-26T10:33:45Z",
         "content": "Ethers (ETH) price printed a bear pennant on the daily chart, a technical chart formation associated with strong downward momentum. Could a weakening technical setup and a decline in total value lock… [+3124 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Ethereum Price Roadmap For The Rest Of 2026: Bull, Base, And Bear Scenarios Unpacked",
-        "description": "Ethereum (ETH) has struggled through the first quarter of the year and the opening stretch of the second, but it has managed to hold a crucial line near the $2,000 mark.  A new report from market expert Sam Daodu breaks down three potential paths for ETH for …",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-roadmap-for-the-rest-of-2026-bull-base-and-bear-scenarios-unpacked/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_RqChPnWj_1777303873637_raw.jpg?fit=1024%2C1024",
-        "publishedAt": "2026-05-26T07:00:16Z",
-        "content": "Ethereum (ETH) has struggled through the first quarter of the year and the opening stretch of the second, but it has managed to hold a crucial line near the $2,000 mark. \r\nA new report from market ex… [+2796 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Trims Recent Gains, Market Sentiment Turns Fragile Again",
-        "description": "Solana failed to stay above $86 and corrected some gains. SOL price is now consolidating and might aim for another increase if it stays above $82.50. SOL price started a downside correction below $85 against the US Dollar. The price is now trading below $85 a…",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-trims-recent-gains-85/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Trims-Recent-Gains-Market-Sentiment-Turns-Fragile-Again.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-26T05:58:38Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Buying Pressure Softens, Traders Turn Increasingly Cautious",
-        "description": "Ethereum price started a downside correction from $2,120. ETH must clear the $2,110 and $2,120 resistance levels to continue higher. Ethereum started a downside correction below the $2,110 zone. The price is trading below $2,095 and the 100-hourly Simple Movi…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-buying-pressure-softens-2150/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Buying-Pressure-Softens.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-26T04:48:39Z",
-        "content": "Ethereum price started a downside correction from $2,120. ETH must clear the $2,110 and $2,120 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $2,110 z… [+2097 chars]"
       }
     ]
   }
