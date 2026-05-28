@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-28T08:47:09.974Z",
+  "timestamp": "2026-05-28T12:34:17.250Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Crypto Market Sees $1.46B Fund Exodus As Traders Turn Cautious",
+        "description": "Short Bitcoin products attracted $10 million in fresh money last week — a sign that some traders were actively betting against the world’s largest cryptocurrency as broader selling took hold across global crypto funds. Related Reading: Bitcoin Bull Thesis Goe…",
+        "url": "http://www.newsbtc.com/news/crypto-market-sees-1-47b-fund-exodus-as-traders-turn-cautious/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_7957bb.jpg?fit=6000%2C4000",
+        "publishedAt": "2026-05-27T12:00:04Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin analysis eyes sharp rebound after BTC collapses below M2 supply 'fair value'",
+        "description": "Bitcoin remained trapped \"massively below\" its \"fair\" level, as dictated by global liquidity trends and gold ratio, the latest BTC price analysis says.",
+        "url": "https://cointelegraph.com/markets/bitcoin-analysis-eyes-sharp-rebound-after-btc-collapses-below-m2-supply-fair-value",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-markets-volatility-rollercoaster-bitcoin.jpg",
+        "publishedAt": "2026-05-27T11:07:34Z",
+        "content": "Bitcoin (BTC) is completely mispriced to the downside in 2026 compared to global liquidity, new analysis argues.\r\nKey points:\r\n<ul><li>Bitcoin price weakness relative to global liquidity hits levels … [+3007 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "SoFi brings bank-issued stablecoin to 15 million users in crypto push",
+        "description": "The fintech platform says its dollar-backed stablecoin will let members trade, transfer and eventually earn yield through its banking app.",
+        "url": "https://www.coindesk.com/business/2026/05/27/sofi-brings-bank-issued-stablecoin-to-15-million-users-in-crypto-push",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6729e1c305b50c141cc3d56e8ad78bb80d24b6e7-1500x968.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-27T11:00:00Z",
+        "content": "SoFi has rolled out its dollar-backed stablecoin, SoFiUSD, to users of its banking app, becoming the first U.S. national bank to offer a stablecoin directly to retail customers on a public blockchain… [+2006 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Sam Reynolds",
+        "title": "Crypto exchange HTX rejects U.K. sanction allegations, says it refused ruble stablecoin listing",
+        "description": "U.K. authorities sanctioned HTX, saying there were \"reasonable grounds to suspect\" the crypto exchange was helping Russia by cooperating with ruble stablecoin A7A5.",
+        "url": "https://www.coindesk.com/markets/2026/05/27/crypto-exchange-htx-rejects-u-k-sanction-allegations-says-it-refused-ruble-stablecoin-listing",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/592f4ee1d9e2f8430b3620a6e1bcb91aec6f4d11-1000x667.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-27T09:58:06Z",
+        "content": "Crypto exchange HTX rejected U.K. claims it helped Russia's illicit financial infrastructure\" used for moving funds and sustaining the country's war in Ukraine, saying it refused a listing applicatio… [+1780 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-gID_7.jpg",
         "publishedAt": "2026-05-25T20:06:04Z",
         "content": "In brief\r\n<ul><li>BitMine Immersion Technologies is set to join the large-cap Russell 1000 Index on June 26, comfortably clearing a $5.7 billion large-cap threshold.</li><li>The inclusion is expected… [+3265 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Coinbase CEO’s finance wishlist mirrors company’s product roadmap",
-        "description": "Brian Armstrong's wishlist for upgrading global finance aligns with the exchange's push into stocks, prediction markets and stablecoin payments, though some priorities remain aspirational.",
-        "url": "https://cointelegraph.com/news/coinbase-ceo-finance-wishlist-mirrors-companys-product-roadmap",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-who-is-brian-armstrong-profile-and-biography-1.jpg",
-        "publishedAt": "2026-05-25T14:28:12Z",
-        "content": "Brian Armstrong posted an eight-point blueprint for upgrading global finance Monday, which closely tracks Coinbases expansion into stocks, prediction markets and stablecoin infrastructure, as the exc… [+4161 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "BTC price to attack $80K shorts on Iran peace deal: Five things to know in Bitcoin this week",
-        "description": "Bitcoin traders predicted a short squeeze to $80,000, but a lack of overall demand and the return of leverage sparked warnings of more liquidation events to come.",
-        "url": "https://cointelegraph.com/markets/btc-price-tipped-to-attack-80k-shorts-on-iran-peace-deal-five-things-to-know-in-bitcoin-this-week",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-prediction-market-iran-bitcoin.jpg",
-        "publishedAt": "2026-05-25T12:00:02Z",
-        "content": "Bitcoin (BTC) starts the final week of May with traders optimistic about an $80,000 rebound will it end up as a liquidity grab?\r\n<ul><li>Bitcoin recovers from its trip to monthly lows as shorts above… [+8356 chars]"
       }
     ]
   }
