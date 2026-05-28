@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-05-27T23:21:32.301Z",
+  "timestamp": "2026-05-28T04:08:44.412Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Tom Lee predicts supercycle amid Bitmine’s largest Ethereum buy in 2026",
+        "description": "Bitmine resumed buying more than 100,000 Ether as Chairman Tom Lee predicted an impending crypto supercycle fueled by AI agents and Wall Street interest in tokenization.",
+        "url": "https://cointelegraph.com/news/bitmine-buys-111k-ethereum-as-tom-lee-predicts-supercycle",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-ethereum-with-bitmine.jpg",
+        "publishedAt": "2026-05-27T03:11:59Z",
+        "content": "The Ether buying company Bitmine Immersion Technologies has made its biggest purchase so far in 2026 as its chairman, Tom Lee, doubled down on the idea of an impending crypto supercycle.\r\nLee said Tu… [+2398 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Downtrend Gains Pace, Recovery Hopes Continue To Fade",
+        "description": "Bitcoin price started a downside correction from the $77,800 zone. BTC is showing bearish signs and might continue lower below $75,500. Bitcoin failed to stay above $77,000 and extended losses. The price is trading below $76,800 and the 100 hourly simple movi…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-downtrend-gains-pace-76k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Downtrend-Gains-Pace-Recovery-Hopes-Continue-To-Fade.jpg",
+        "publishedAt": "2026-05-27T03:00:36Z",
+        "content": "Bitcoin price started a downside correction from the $77,800 zone. BTC is showing bearish signs and might continue lower below $75,500.\r\n<ul><li>Bitcoin failed to stay above $77,000 and extended loss… [+2119 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Ethereum Staking Record Meets On-Chain Collapse: Analyst Explains What’s Holding ETH Price",
+        "description": "Ethereum has lost the $2,100 level as selling pressure overwhelms a recovery that has been struggling to find structural support since the mid-May highs. The decline is uncomfortable — but a CryptoOnchain analysis has identified a contradiction in the network…",
+        "url": "http://www.newsbtc.com/ethereum-news/ethereum-staking-record-meets-on-chain-collapse-analyst-explains-whats-holding-eth-price/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-37.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-05-27T01:30:21Z",
+        "content": "Ethereum has lost the $2,100 level as selling pressure overwhelms a recovery that has been struggling to find structural support since the mid-May highs. The decline is uncomfortable but a CryptoOnch… [+4923 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Ethereum (ETH) Next Rally Could Start With These Two Triggers, Top Analyst Says",
+        "description": "Over the past fourteen days, Ethereum (ETH) has retraced by roughly 9%, and it is now probing the key psychological $2,000 support. Amid this weakening phase, technical analyst Ali Martinez pointed to what he described as “two triggers” that could potentially…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-eth-next-rally-could-start-with-these-two-triggers-top-analyst-says/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/08/Screenshot_1194.jpg",
+        "publishedAt": "2026-05-27T00:19:30Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Predicts Bitcoin Price Crash To $52,000 After H&S Formation",
+        "description": "The Bitcoin price is under renewed pressure as a crypto analyst warns the market could be heading for a sharp correction toward $52,000. According to the analyst, a Head and Shoulders formation has appeared on the chart, a technical pattern often associated w…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-crash-to-52000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-39.jpg?fit=612%2C408",
+        "publishedAt": "2026-05-27T00:00:27Z",
+        "content": "The Bitcoin price is under renewed pressure as a crypto analyst warns the market could be heading for a sharp correction toward $52,000. According to the analyst, a Head and Shoulders formation has a… [+3207 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,84 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Upside-Heats-Up.jpg?fit=1408%2C768",
         "publishedAt": "2026-05-25T05:28:02Z",
         "content": "Ethereum price started a downside correction from $2,150. ETH must clear the $2,120 and $2,150 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $2,125 z… [+2089 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Climbs Into Resistance As Bears Defend Critical Levels",
-        "description": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $77,450 resistance zone. Bitcoin managed to form a base above $76,000 and started a recovery wave. The price is trading above $76,…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-climbs-into-resistance-77k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Climbs-Into-Resistance-As-Bears-Defend-Critical-Levels.jpg",
-        "publishedAt": "2026-05-25T03:13:58Z",
-        "content": "Bitcoin price started a recovery wave above the $76,500 zone. BTC is consolidating and might aim for more gains if it clears the $77,450 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2174 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Soaring bond prices signal 'structural' shift and Bitcoin 'supercycle': Analyst",
-        "description": "Fixed-income investors are in a \"panic\" as government securities, once seen as low-risk, begin to crack, according to BitMEX researcher Shang Wu.",
-        "url": "https://cointelegraph.com/news/soaring-bond-prices-structural-shift-bitcoin-supercycle",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/sponsor-screen-traid23.jpg",
-        "publishedAt": "2026-05-24T22:12:55Z",
-        "content": "Rising government bond yields signal a coming structural shift that will create a Bitcoin supercycle of rising prices, as investors flee debasing assets for one that cannot be inflated, according to … [+2165 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Price Could Fall To $72.5K Before Next Rebound — Here’s Why",
-        "description": "After a terrible start to the weekend, the Bitcoin price jumped back to life on the back of news of a potential agreement between the United States and Iran. However, ignoring the potential impact of fresh geopolitical news or events, the current price struct…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-could-fall-to-72-5k-before-next-rebound/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/iStock-1345520605.jpg?fit=1254%2C836",
-        "publishedAt": "2026-05-24T19:00:00Z",
-        "content": "After a terrible start to the weekend, the Bitcoin price jumped back to life on the back of news of a potential agreement between the United States and Iran. However, ignoring the potential impact of… [+2543 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin LTH Supply Surge Does Not Reflect Real Demand — Here’s Why",
-        "description": "The price of Bitcoin seemed set for another round of pain over the weekend after falling below the psychological $75,000 level on Saturday morning. However, the premier cryptocurrency has somewhat recovered and is looking to reclaim $77,000 as of this writing…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-lth-supply-surge-does-not-reflect-real-demand/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/2025-11-22-03.31.11.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-24T15:00:21Z",
-        "content": "The price of Bitcoin seemed set for another round of pain over the weekend after falling below the psychological $75,000 level on Saturday morning. However, the premier cryptocurrency has somewhat re… [+2645 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, AI Boost",
-        "title": "A massive $1 trillion hidden market is waiting to be unlocked in bitcoin, says new report",
-        "description": "Ledn forecasts the bitcoin-backed lending market could grow to $1 trillion within a decade as new research highlights strong borrower demand.",
-        "url": "https://www.coindesk.com/business/2026/05/22/ledn",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b5d61433a7938f2a44279c76d6a4b0aa0600e1eb-1920x1227.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-24T15:00:00Z",
-        "content": "Crypto lender Ledn says the consumer bitcoin-backed loan market could grow nearly 300-fold to as much as $1 trillion within the next decade, as demand for borrowing against digital assets far outpace… [+2455 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Crypto rails are becoming the default payment layer for AI agents, report says",
-        "description": "A new report from Keyrock says stablecoins on blockchain rails are becoming the go-to payment layer for AI agents as traditional card rails struggle to handle micropayments.",
-        "url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c4b55ff67ef1d065e3e2e556ba0209a416b27d44-2048x1365.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-24T13:00:00Z",
-        "content": "Artificial intelligence (AI) agents autonomously spending money online is still a tiny market, but some of the world's largest tech, payments and crypto firms are already racing to build the infrastr… [+3142 chars]"
       }
     ]
   }
