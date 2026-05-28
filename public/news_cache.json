@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-28T22:00:07.376Z",
+  "timestamp": "2026-05-28T23:37:53.710Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Vince Quill",
+        "title": "Crypto card monthly transaction volume surges 230% from 2025",
+        "description": "Crypto-linked debit and credit cards continue to surge in popularity as fintech companies and traditional payment service providers collaborate on new products that blur the line between onchain and traditional transactions.",
+        "url": "https://cointelegraph.com/news/crypto-card-monthly-volume-surge-230-one-year",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-ethereum-credit.jpg",
+        "publishedAt": "2026-05-27T22:30:59Z",
+        "content": "Monthly payment volume on crypto-linked debit and credit cards is up about 230% over last year, amid a proliferation of crypto-related payment products.\r\nCumulative volume on crypto-linked payment ca… [+2319 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-icos-return-on-investment2.jpg",
         "publishedAt": "2026-05-26T12:07:03Z",
         "content": "Crypto exchange Binance is partnering with fintech company BlockShoals Technologies in what the platform described as its first formal market-entry approach in the Philippines, through local partners… [+2448 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Crypto funds bleed $1.47B as risk-off sentiment deepens",
-        "description": "Crypto ETPs logged $1.47 billion of outflows last week as Bitcoin funds led losses, while nine altcoin ETPs still attracted inflows of more than $1 million.",
-        "url": "https://cointelegraph.com/news/crypto-etps-147-billion-outflows-risk-off-broadens-coinshares",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-inflows-and-outflows-on-crypto-exchanges.jpg",
-        "publishedAt": "2026-05-26T11:01:46Z",
-        "content": "Crypto investment products recorded $1.47 billion in outflows last week, extending a second straight week of withdrawals as Bitcoin funds led the decline, according to CoinShares.\r\nCrypto exchange-tr… [+2278 chars]"
       }
     ]
   }
