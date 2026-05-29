@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-05-29T04:10:33.956Z",
+  "timestamp": "2026-05-29T08:45:32.478Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "BNB joins US spot ETF market through VanEck’s VBNB launch",
+        "description": "The physically backed fund gives US investors exchange-traded exposure to the Binance-linked cryptocurrency through traditional brokerage accounts.",
+        "url": "https://cointelegraph.com/news/bnb-enters-us-spot-etf-market-through-vanecks-vbnb-launch",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-south-korea-victory-report-on-crypto.jpg",
+        "publishedAt": "2026-05-28T07:00:00Z",
+        "content": "VanEck launched the first US spot BNB exchange-traded fund on Thursday, giving investors regulated exposure to the Binance-linked cryptocurrency through traditional brokerage accounts.\r\nThe ETF, trad… [+2360 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Antonio Oliveira",
+        "title": "Bitcoin funding spike shows longs defending $70K: Will ETF outflows reverse bulls’ efforts?",
+        "description": "$1.5 billion in weekly Bitcoin ETF outflows and traders’ inability to defend BTC’s $75,000 support have provided bears with a path to $70,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-spike-shows-longs-defending-75k-will-etf-outflows-reverse-bulls-efforts",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-newscrypto-bitcoin-1.jpg",
+        "publishedAt": "2026-05-28T05:09:22Z",
+        "content": "Bitcoins (BTC) rising funding rate and aggregated open interest suggest bullish investors are opening longs in an attempt to defend the range lows and an important support at $70,000, but another day… [+2940 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Plunges Lower, Market Sentiment Turns Sharply Bearish",
+        "description": "Solana failed to settle above $85 and trimmed most gains. SOL price is now consolidating losses above $80 and might continue to move down. SOL price started a fresh decline below $84 and $82 against the US Dollar. The price is now trading below $82 and the 10…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-plunges-lower-80/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Solana-SOL-Plunges-Lower-Market-Sentiment-Turns-Sharply-Bearish.jpg?fit=1024%2C572",
+        "publishedAt": "2026-05-28T05:08:44Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin’s 4-Year Rhythm Is Still Playing Out, Says Crypto CEO",
+        "description": "A countertrend rally that pushed Bitcoin to $82,800 has done little to change one analyst’s bearish outlook — because he says the bounce itself is proof the pattern is repeating. Related Reading: When Bitcoin Gets Ignored, It Tends To Rally The Hardest, Analy…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoins-4-year-rhythm-is-still-playing-out-says-crypto-ceo/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_f1289c.jpg?fit=6000%2C4000",
+        "publishedAt": "2026-05-28T05:00:16Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/08/Screenshot_1194.jpg",
         "publishedAt": "2026-05-27T00:19:30Z",
         "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Predicts Bitcoin Price Crash To $52,000 After H&S Formation",
-        "description": "The Bitcoin price is under renewed pressure as a crypto analyst warns the market could be heading for a sharp correction toward $52,000. According to the analyst, a Head and Shoulders formation has appeared on the chart, a technical pattern often associated w…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-crash-to-52000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-39.jpg?fit=612%2C408",
-        "publishedAt": "2026-05-27T00:00:27Z",
-        "content": "The Bitcoin price is under renewed pressure as a crypto analyst warns the market could be heading for a sharp correction toward $52,000. According to the analyst, a Head and Shoulders formation has a… [+3207 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "UK authorities sanction HTX crypto exchange over support for Russia",
-        "description": "The UK announced sanctions against HTX, formerly Huobi Global, as part of a crypto-focused package in response to Russia’s government using “dark networks and shadow financial systems to bypass legal restrictions.”",
-        "url": "https://cointelegraph.com/news/uk-sanctions-htx-huobi-russia-support",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/courtvssam.jpg",
-        "publishedAt": "2026-05-26T18:41:07Z",
-        "content": "The UK government has added cryptocurrency exchange HTX to its list of sanctioned entities over its support of Russia.\r\nOn Tuesday, UK authorities said that there were reasonable grounds to suspect H… [+1971 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Sander Lutz",
-        "title": "UK Issues Sanctions Against Justin Sun's HTX, Other Crypto Firms Over Alleged Russia Ties",
-        "description": "British financial institutions are now barred from doing business with the exchanges—and may face penalties for interacting with crypto transactions that pass through them.",
-        "url": "https://decrypt.co/369047/uk-issues-sanctions-against-justin-sun-htx-crypto-firms-russia-ties",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/UK-Parliament-gID_7.jpg",
-        "publishedAt": "2026-05-26T18:15:34Z",
-        "content": "In brief\r\n<ul><li>The U.K. sanctioned HTX and other crypto firms over alleged ties to Russian sanctions evasion networks.</li><li>British institutions are now barred from doing business with HTX, and… [+2744 chars]"
       }
     ]
   }
