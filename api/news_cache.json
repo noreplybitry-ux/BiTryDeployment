@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-05-29T08:45:32.478Z",
+  "timestamp": "2026-05-29T12:20:26.843Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Mystery Bitcoin burn destroys 107 BTC worth about $8.5M",
+        "description": "An unknown entity burned $8.5 million worth of Bitcoin after 12 years of holding, rendering the BTC unspendable, despite its price increasing by 12,700%.",
+        "url": "https://cointelegraph.com/news/unknown-sender-burns-107-btc-unexplained-bitcoin-transfer",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-buyback-and-burn-what-does-it-mean-in-crypto.jpg",
+        "publishedAt": "2026-05-28T12:09:09Z",
+        "content": "An unknown entity burned 107 Bitcoin, worth about $8.5 million at the time, effectively removing them from spendable circulation and sparking numerous theories after holding the funds for over 12 yea… [+2305 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Samsung Just Bet $408 Million On South Korea’s Top Crypto Exchange — And It’s Not Alone",
+        "description": "Three Samsung affiliates — Samsung Securities, Samsung SDS, and Samsung Card — announced on May 28 the combined acquisition of a 4% stake in Dunamu, the operator of South Korea’s dominant crypto exchange Upbit, for approximately 612.8 billion won or $408 mill…",
+        "url": "http://www.newsbtc.com/news/samsung-just-bet-408-million-on-south-koreas-top-crypto-exchange-and-its-not-alone/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/crypto-bitcoin-btc-btcusd-samsung.jpg",
+        "publishedAt": "2026-05-28T11:50:07Z",
+        "content": "Three Samsung affiliates Samsung Securities, Samsung SDS, and Samsung Card announced on May 28 the combined acquisition of a 4% stake in Dunamu, the operator of South Korea’s dominant crypto exchange… [+3141 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley",
+        "title": "Samsung units to buy $408 million stake in South Korea’s biggest crypto exchange",
+        "description": "Samsung Securities is set to take a 2% stake in Dunamu, worth over $200 million, from affiliates of technology conglomerate Kakao.",
+        "url": "https://www.coindesk.com/business/2026/05/28/samsung-is-buying-a-usd446-million-stake-in-south-korea-s-biggest-crypto-exchange",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/92fba9ae708df4525504459ed30eca21098fc57a-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-28T10:55:19Z",
+        "content": "Three Samsung affiliates agreed to buy a 4% stake in Dunamu, the operator of South Korea's largest cryptocurrency exchange, Upbit, for a total of 612.8 billion won ($408 million), the Korea Herald re… [+1364 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Crypto liquidations hit $935M as Bitcoin price dips to $72.6K",
+        "description": "Over $935 million was wiped out across the crypto market as traders shifted their focus to $70,000 as the last line of defense for Bitcoin.",
+        "url": "https://cointelegraph.com/markets/crypto-liquidations-hit-935m-as-bitcoin-price-dips-to-726k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-cover-may-28.jpg",
+        "publishedAt": "2026-05-28T09:44:14Z",
+        "content": "Bitcoin (BTC) sold off into the early Asian Trading session on Thursday as the drop to $72,600 produced significant liquidation of leveraged positions across the crypto market.\r\nKey takeaways:\r\n<ul><… [+4005 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Bitcoin drops to $73K amid renewed US strikes on Iran and ETF outflows",
+        "description": "Bitcoin (BTC) is down to around $73K amid ETF outflows and geopolitical tension. Over $2B in ETF outflows and $900M liquidations added selling pressure. The key support sits at $72,650 with RSI near oversold levels at 34.82. Bitcoin slipped below the $73,000 …",
+        "url": "https://coinjournal.net/news/bitcoin-drops-to-73k-amid-renewed-us-strikes-on-iran-and-etf-outflows/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/bitcoin-price-decline-chart-red-market.png",
+        "publishedAt": "2026-05-28T09:11:21Z",
+        "content": "<ul><li>Bitcoin (BTC) is down to around $73K amid ETF outflows and geopolitical tension.</li><li>Over $2B in ETF outflows and $900M liquidations added selling pressure.</li><li>The key support sits a… [+4360 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,71 +472,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-base-coinbase-l2-network.jpg",
         "publishedAt": "2026-05-27T04:49:13Z",
         "content": "Base, the Ethereum layer-2 blockchain from crypto exchange Coinbase, has launched a tool to connect Base accounts to artificial intelligence agents for blockchain operations.\r\nBase said on Tuesday th… [+2521 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Struggles Near Key Levels As Market Sentiment Weakens",
-        "description": "Ethereum price started a fresh decline and traded below $2,080. ETH is now consolidating above $2,050 and might struggle to recover. Ethereum remained in a bearish zone after a fresh decline. The price is trading below $2,100 and the 100-hourly Simple Moving …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-near-2050/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Stabilizes-After-Selloff.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-27T04:48:38Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,080. ETH is now consolidating above $2,050 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decline… [+2143 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Tom Lee predicts supercycle amid Bitmine’s largest Ethereum buy in 2026",
-        "description": "Bitmine resumed buying more than 100,000 Ether as Chairman Tom Lee predicted an impending crypto supercycle fueled by AI agents and Wall Street interest in tokenization.",
-        "url": "https://cointelegraph.com/news/bitmine-buys-111k-ethereum-as-tom-lee-predicts-supercycle",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-ethereum-with-bitmine.jpg",
-        "publishedAt": "2026-05-27T03:11:59Z",
-        "content": "The Ether buying company Bitmine Immersion Technologies has made its biggest purchase so far in 2026 as its chairman, Tom Lee, doubled down on the idea of an impending crypto supercycle.\r\nLee said Tu… [+2398 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Downtrend Gains Pace, Recovery Hopes Continue To Fade",
-        "description": "Bitcoin price started a downside correction from the $77,800 zone. BTC is showing bearish signs and might continue lower below $75,500. Bitcoin failed to stay above $77,000 and extended losses. The price is trading below $76,800 and the 100 hourly simple movi…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-downtrend-gains-pace-76k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Downtrend-Gains-Pace-Recovery-Hopes-Continue-To-Fade.jpg",
-        "publishedAt": "2026-05-27T03:00:36Z",
-        "content": "Bitcoin price started a downside correction from the $77,800 zone. BTC is showing bearish signs and might continue lower below $75,500.\r\n<ul><li>Bitcoin failed to stay above $77,000 and extended loss… [+2119 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Ethereum Staking Record Meets On-Chain Collapse: Analyst Explains What’s Holding ETH Price",
-        "description": "Ethereum has lost the $2,100 level as selling pressure overwhelms a recovery that has been struggling to find structural support since the mid-May highs. The decline is uncomfortable — but a CryptoOnchain analysis has identified a contradiction in the network…",
-        "url": "http://www.newsbtc.com/ethereum-news/ethereum-staking-record-meets-on-chain-collapse-analyst-explains-whats-holding-eth-price/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-37.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-05-27T01:30:21Z",
-        "content": "Ethereum has lost the $2,100 level as selling pressure overwhelms a recovery that has been struggling to find structural support since the mid-May highs. The decline is uncomfortable but a CryptoOnch… [+4923 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Ethereum (ETH) Next Rally Could Start With These Two Triggers, Top Analyst Says",
-        "description": "Over the past fourteen days, Ethereum (ETH) has retraced by roughly 9%, and it is now probing the key psychological $2,000 support. Amid this weakening phase, technical analyst Ali Martinez pointed to what he described as “two triggers” that could potentially…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-eth-next-rally-could-start-with-these-two-triggers-top-analyst-says/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/08/Screenshot_1194.jpg",
-        "publishedAt": "2026-05-27T00:19:30Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
       }
     ]
   }
