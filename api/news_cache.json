@@ -1,10 +1,88 @@
 {
   "version": 3,
-  "timestamp": "2026-05-28T23:37:53.710Z",
+  "timestamp": "2026-05-29T04:10:33.956Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Struggles Near Key Levels As Market Sentiment Weakens",
+        "description": "Ethereum price started a fresh decline and traded below $2,050. ETH is now consolidating above $2,000 and might struggle to recover. Ethereum remained in a bearish zone after a fresh decline below $2,080. The price is trading below $2,050 and the 100-hourly S…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-2090/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Struggles-Near-Key-Levels-As-Market-Sentiment-Weakens.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-28T03:08:21Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,050. ETH is now consolidating above $2,000 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decline… [+2134 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Kraken rolls out Bitcoin vault product for holders to earn yield",
+        "description": "Kraken has launched a Bitcoin vault that lets users earn up to 2.5% yearly yield on their Bitcoin, which attracted $30 million in deposits within the first 10 hours of launch.",
+        "url": "https://cointelegraph.com/news/kraken-rolls-out-bitcoin-vault-for-holders-to-earn-yield",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-kraken-review-your-new-go-to-crypto-exchange-bitcoin.jpg",
+        "publishedAt": "2026-05-28T02:50:41Z",
+        "content": "Crypto exchange Kraken has launched a non-custodial Bitcoin product, giving a 2.5% yearly yield, adding to the companys yield product offerings amid a rising investor demand for crypto reward product… [+1627 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Extends Decline Rapidly As Key Supports Collapse",
+        "description": "Bitcoin price started a fresh decline below the $75,500 zone. BTC is consolidating and might struggle to stay above the $74,000 support. Bitcoin failed to stay above $76,000 and extended losses. The price is trading below $75,500 and the 100 hourly simple mov…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-extends-decline-74k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Extends-Decline-Rapidly-As-Key-Supports-Collapse.jpg",
+        "publishedAt": "2026-05-28T02:31:06Z",
+        "content": "Bitcoin price started a fresh decline below the $75,500 zone. BTC is consolidating and might struggle to stay above the $74,000 support.\r\n<ul><li>Bitcoin failed to stay above $76,000 and extended los… [+2191 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin falls further as BTC miners pivot to AI, pro-crypto legislation stalls",
+        "description": "Bitcoin fell below $74,000 even as US stock markets rallied to new all-time highs. Will a hawkish Fed and investor interest in AI deepen the sell off?",
+        "url": "https://cointelegraph.com/markets/bitcoin-falls-further-as-btc-miners-pivot-to-ai-pro-crypto-legislation-stalls",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/nurse-price-fall-new3-1.jpg",
+        "publishedAt": "2026-05-28T01:35:49Z",
+        "content": "Key takeaways:\r\n<ul><li>Bitcoins drop below $75,000 marks a sharp decoupling from a record-breaking stock market fueled by the AI boom.</li><li>Crypto trader sentiment remains weak as key US regulato… [+3408 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Drop Linked To Hidden $1.3 Billion ETF Trade, Analyst Reveals",
+        "description": "Eight straight days. That is how long US spot Bitcoin ETFs have been bleeding money, with more than $2 billion in net outflows recorded since May 14 — and Tuesday’s session added another ugly chapter to that streak. Related Reading: HYPE Price Breakout Ignite…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-drop-linked-to-hidden-1-3b-etf-trade-analyst-reveals/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-28T01:00:32Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "This Bitcoin Pattern Could Repeat Itself, But The Bottom Could Lie Below $50,000",
+        "description": "Bitcoin is showing a monthly momentum signal that has appeared near several major cycle lows, which raises the possibility that the current correction is entering its final stage.  The setup is based on the monthly logarithmic MACD histogram, where previous B…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bottom-below-50000-2/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-17.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-28T00:00:15Z",
+        "content": "Bitcoin is showing a monthly momentum signal that has appeared near several major cycle lows, which raises the possibility that the current correction is entering its final stage. \r\nThe setup is base… [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/UK-Parliament-gID_7.jpg",
         "publishedAt": "2026-05-26T18:15:34Z",
         "content": "In brief\r\n<ul><li>The U.K. sanctioned HTX and other crypto firms over alleged ties to Russian sanctions evasion networks.</li><li>British institutions are now barred from doing business with HTX, and… [+2744 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "UK sanctions Huobi and ruble stablecoin issuer in crackdown on Russia crypto networks",
-        "description": "Britain applied banking-style sanctions to crypto exchanges for the first time, requiring U.K. financial firms to freeze funds and trace transactions.",
-        "url": "https://www.coindesk.com/business/2026/05/26/uk-sanctions-huobi-and-ruble-stablecoin-issuer-in-crackdown-on-russia-crypto-networks",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-26T17:33:35Z",
-        "content": "The United Kingdom has imposed sanctions on a group of cryptocurrency exchanges, payment firms and individuals accused of helping Russia evade Western restrictions and finance its war in Ukraine, inc… [+2536 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Ethereum treasury firms lean on staking as ETF pressure builds: Report",
-        "description": "Bitget executive Ignacio Aguirre said spot ETFs matter but are not the only factor pressuring ETH treasury valuations, citing dilution and market sentiment.",
-        "url": "https://cointelegraph.com/news/eth-treasury-firms-staking-revenue-etfs-dat-report",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/staked-ethereum-hits-eth-high.jpg",
-        "publishedAt": "2026-05-26T14:00:00Z",
-        "content": "Ethereum treasury companies are under pressure to generate revenue from staking and other yield strategies as spot crypto exchange-traded funds (ETFs) weaken the appeal of public companies that simpl… [+3623 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Binance eyes Philippines return through SEC sandbox partnership",
-        "description": "BlockShoals will serve as the approved local intermediary while Binance provides technology, security and compliance support.",
-        "url": "https://cointelegraph.com/news/binance-philippines-return-sec-sandbox-blockshoals",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-icos-return-on-investment2.jpg",
-        "publishedAt": "2026-05-26T12:07:03Z",
-        "content": "Crypto exchange Binance is partnering with fintech company BlockShoals Technologies in what the platform described as its first formal market-entry approach in the Philippines, through local partners… [+2448 chars]"
       }
     ]
   }
