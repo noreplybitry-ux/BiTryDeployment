@@ -1,10 +1,101 @@
 {
   "version": 3,
-  "timestamp": "2026-05-29T12:20:26.843Z",
+  "timestamp": "2026-05-29T16:47:18.696Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Bitcoin Traders Increasingly Convinced Price Will Fall Below $70K by End of May",
+        "description": "Prediction market odds are rising for Bitcoin to drop below $70,000 in the next few days following a dip to a six-week low price.",
+        "url": "https://decrypt.co/369328/bitcoin-traders-convinced-price-fall-below-70k-end-may",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "publishedAt": "2026-05-28T15:21:43Z",
+        "content": "In brief\r\n<ul><li>Odds of Bitcoin falling below $70,000 before the end of May have risen on Polymarket and Myriad. </li><li>Nevertheless, traders still believe it will hold the line, with odds of it … [+2531 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "US Strikes Iran In Fresh Attacks, Expert Says Get Your Money Out Of Bitcoin Now!",
+        "description": "The US-Iran war has again escalated with fresh strikes from both sides, a development that has now dampened hopes of an imminent peace deal. This has caused another significant decline in Bitcoin’s price, with an expert urging market participants to remove th…",
+        "url": "http://www.newsbtc.com/bitcoin-news/money-out-of-bitcoin-now/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-27.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-28T15:00:40Z",
+        "content": "The US-Iran war has again escalated with fresh strikes from both sides, a development that has now dampened hopes of an imminent peace deal. This has caused another significant decline in Bitcoins pr… [+2472 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Hassan Ahmed",
+        "title": "Crypto Long & Short: Asia’s regulated crypto future",
+        "description": "Asia's adoption of crypto and stablecoins is driving regulated growth in payments and remittances. Learn how Singapore, Hong Kong, India, and Korea are leading the way.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/05/27/crypto-long-and-short-asia-s-regulated-crypto-future",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/95e013f3feaa37c1b2c61c1bb1e53456bd1a0ed1-8368x4712.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-28T15:00:00Z",
+        "content": "In todays newsletter, Hassan Ahmed outlines the state of crypto, stablecoins and regulations in Asia, comparing growth to regions with clarity.\r\nThen, in Ask an Expert, Xin Yan, CEO of Sign, answers … [+8486 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "StanChart says Ethereum price will catch up to bullish internal metrics",
+        "description": "Standard Chartered reaffirms bullish Ether price targets, citing strong network fundamentals even as ETH trades 57% below its 2025 peak and fund flows turn negative.",
+        "url": "https://cointelegraph.com/news/standard-chartered-says-ethereums-onchain-metrics-are-improving-eth-price-underperforms",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/eth-20-staking3.jpg",
+        "publishedAt": "2026-05-28T14:26:25Z",
+        "content": "Standard Chartered says Ethereums network activity remains close to record levels even as Ether (ETH) trades far below last years highs, arguing that the gap between usage and price could eventually … [+4317 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Asset manager Grayscale delays IPO plans as crypto listing boom loses steam",
+        "description": "Grayscale’s decision to delay its IPO highlights the growing caution across the crypto industry as volatile markets and weak investor demand weigh on public listing plans.",
+        "url": "https://www.coindesk.com/business/2026/05/28/asset-manager-grayscale-delays-ipo-plans-as-crypto-listing-boom-loses-steam",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b2034d1d5f8c717412f14142cf096c717d35493d-1477x831.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-28T13:36:11Z",
+        "content": "Asset management giant Grayscale is the latest crypto firm to delay its plans to go public due to market conditions, according to a person with knowledge of the matter.\r\nThe Stamford-based investment… [+2318 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Crypto Majors Slide on Iran Escalations, ETF Outflows",
+        "description": "Massive ETF outflows just sent crypto sharply lower. Jefferies says the next crypto IPO wave could create a $1T public market.",
+        "url": "https://decrypt.co/369258/morning-minute-crypto-majors-slide-on-iran-escalations-etf-outflows",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-05-28T12:32:55Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8410 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "BlackRock Bitcoin ETF sees near-record outflows as BTC dips below $75K",
+        "description": "US spot Bitcoin ETFs have flipped back to $596 million in net outflows year to date as BlackRock IBIT posted near-record outflows of about $528 million in a single day.",
+        "url": "https://cointelegraph.com/news/blackrocks-bitcoin-etf-ibit-near-record-outflows-btc-dip",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/dollardambawaterfallmoneyfiat1.jpg",
+        "publishedAt": "2026-05-28T12:22:53Z",
+        "content": "BlackRocks spot Bitcoin exchange-traded fund (ETF) posted its second-largest daily outflow on record as US Bitcoin funds extended an eight-day redemption streak during a sharp pullback in the cryptoc… [+2764 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,123 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/lawsuit-litigation-court1.jpg",
         "publishedAt": "2026-05-27T12:58:46Z",
         "content": "Chinas Supreme Peoples Court (SPC) said it will study new adjudication rules for virtual currency and cross-border finance cases as part of a broader push to clarify how courts handle digital economy… [+2785 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Crypto Market Sees $1.46B Fund Exodus As Traders Turn Cautious",
-        "description": "Short Bitcoin products attracted $10 million in fresh money last week — a sign that some traders were actively betting against the world’s largest cryptocurrency as broader selling took hold across global crypto funds. Related Reading: Bitcoin Bull Thesis Goe…",
-        "url": "http://www.newsbtc.com/news/crypto-market-sees-1-47b-fund-exodus-as-traders-turn-cautious/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_7957bb.jpg?fit=6000%2C4000",
-        "publishedAt": "2026-05-27T12:00:04Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin analysis eyes sharp rebound after BTC collapses below M2 supply 'fair value'",
-        "description": "Bitcoin remained trapped \"massively below\" its \"fair\" level, as dictated by global liquidity trends and gold ratio, the latest BTC price analysis says.",
-        "url": "https://cointelegraph.com/markets/bitcoin-analysis-eyes-sharp-rebound-after-btc-collapses-below-m2-supply-fair-value",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-markets-volatility-rollercoaster-bitcoin.jpg",
-        "publishedAt": "2026-05-27T11:07:34Z",
-        "content": "Bitcoin (BTC) is completely mispriced to the downside in 2026 compared to global liquidity, new analysis argues.\r\nKey points:\r\n<ul><li>Bitcoin price weakness relative to global liquidity hits levels … [+3007 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "SoFi brings bank-issued stablecoin to 15 million users in crypto push",
-        "description": "The fintech platform says its dollar-backed stablecoin will let members trade, transfer and eventually earn yield through its banking app.",
-        "url": "https://www.coindesk.com/business/2026/05/27/sofi-brings-bank-issued-stablecoin-to-15-million-users-in-crypto-push",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6729e1c305b50c141cc3d56e8ad78bb80d24b6e7-1500x968.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-27T11:00:00Z",
-        "content": "SoFi has rolled out its dollar-backed stablecoin, SoFiUSD, to users of its banking app, becoming the first U.S. national bank to offer a stablecoin directly to retail customers on a public blockchain… [+2006 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Sam Reynolds",
-        "title": "Crypto exchange HTX rejects U.K. sanction allegations, says it refused ruble stablecoin listing",
-        "description": "U.K. authorities sanctioned HTX, saying there were \"reasonable grounds to suspect\" the crypto exchange was helping Russia by cooperating with ruble stablecoin A7A5.",
-        "url": "https://www.coindesk.com/markets/2026/05/27/crypto-exchange-htx-rejects-u-k-sanction-allegations-says-it-refused-ruble-stablecoin-listing",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/592f4ee1d9e2f8430b3620a6e1bcb91aec6f4d11-1000x667.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-27T09:58:06Z",
-        "content": "Crypto exchange HTX rejected U.K. claims it helped Russia's illicit financial infrastructure\" used for moving funds and sustaining the country's war in Ukraine, saying it refused a listing applicatio… [+1780 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Whale alert: Someone dumped $1.29 billion of BlackRock's bitcoin ETF in a dark pool trade",
-        "description": "The big sale happened amid a broader continued exodus from U.S.-listed spot bitcoin ETFs.",
-        "url": "https://www.coindesk.com/markets/2026/05/27/whale-alert-someone-dumped-usd1-29-billion-of-blackrock-s-bitcoin-etf-in-a-dark-pool-trade",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b84cc03a0757fa4a135a5267f8d8f07b962c3105-1280x720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-27T08:40:44Z",
-        "content": "As investors pulled millions of dollars out of U.S.-listed spot crypto exchange-traded funds (ETFs) on Tuesday, one move stood out. \r\nA single investor dumped over a billion dollars-worth of shares i… [+1982 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Stephen Katte",
-        "title": "Sharplink, Forward Industries among crypto firms considered for Russell indexes",
-        "description": "Sharplink, Gemini, Bitmine and Galaxy Digital were all included in preliminary lists for possible inclusion on Russell indexes tracking the largest companies in the US.",
-        "url": "https://cointelegraph.com/news/sharplink-forward-industries-among-crypto-firms-considered-for-russell-indexes",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-the-grayscale-bitcoin-trust0-1.jpg",
-        "publishedAt": "2026-05-27T06:27:54Z",
-        "content": "A range of crypto companies have been included in a preliminary list for potential inclusion in the Russell 3000 index, including treasury firms Sharplink and Forward Industries, along with crypto ex… [+2279 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Under Pressure Again As Bears Eye Lower Levels",
-        "description": "Dogecoin corrected some gains from the $0.1050 zone against the US Dollar. DOGE is now holding the $0.10 support but could extend losses. DOGE price started a fresh downside correction below $0.1020. The price is trading below the $0.1020 level and the 100-ho…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-under-pressure-0-1020/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Dogecoin-DOGE-Under-Pressure-Again-As-Bears-Eye-Lower-Levels.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-27T06:18:22Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "Bitcoin’s recent drop coincides with $1.3B ‘dark pool’ ETF sale: Analyst",
-        "description": "Galaxy Digital’s Alex Thorn says a $1.3 billion sale of BlackRock’s Bitcoin ETF was the largest he has seen on a dark pool, or private trading platform.",
-        "url": "https://cointelegraph.com/news/bitcoin-fall-coincides-billion-dollar-ibit-sale-dark-pool",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-crypto-market-is-falling-bitcoin-1.jpg",
-        "publishedAt": "2026-05-27T05:54:03Z",
-        "content": "An unknown traders $1.3 billion sale of shares in BlackRocks Bitcoin exchange-traded fund on Tuesday has coincided with a steep fall in the price of Bitcoin immediately after the sale, according to a… [+2008 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Base launches new tool to connect crypto wallets to AI agents",
-        "description": "AI models will be able to transfer funds, swap tokens, check balances and review transaction history with a new tool from Base.",
-        "url": "https://cointelegraph.com/news/base-launches-mcp-ttol-to-connect-crypto-wallets-to-ai-agents",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-base-coinbase-l2-network.jpg",
-        "publishedAt": "2026-05-27T04:49:13Z",
-        "content": "Base, the Ethereum layer-2 blockchain from crypto exchange Coinbase, has launched a tool to connect Base accounts to artificial intelligence agents for blockchain operations.\r\nBase said on Tuesday th… [+2521 chars]"
       }
     ]
   }
