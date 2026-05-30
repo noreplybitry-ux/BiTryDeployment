@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-30T03:56:30.098Z",
+  "timestamp": "2026-05-30T06:52:09.984Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Can’t Catch A Break—Bears Keep Swinging",
+        "description": "Dogecoin started a recovery wave above the $0.0980 zone against the US Dollar. DOGE is now facing hurdles near $0.1010 and might struggle to continue higher. DOGE price started a recovery wave from $0.0965 and climbed above $0.0990. The price is trading below…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-cant-catch-a-break-0-10/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Meets-Resistance-and-Hesitates.jpg?fit=1024%2C572",
+        "publishedAt": "2026-05-29T05:28:14Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": null,
         "publishedAt": "2026-05-28T01:00:32Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "This Bitcoin Pattern Could Repeat Itself, But The Bottom Could Lie Below $50,000",
-        "description": "Bitcoin is showing a monthly momentum signal that has appeared near several major cycle lows, which raises the possibility that the current correction is entering its final stage.  The setup is based on the monthly logarithmic MACD histogram, where previous B…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bottom-below-50000-2/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-17.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-28T00:00:15Z",
-        "content": "Bitcoin is showing a monthly momentum signal that has appeared near several major cycle lows, which raises the possibility that the current correction is entering its final stage. \r\nThe setup is base… [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Vince Quill",
-        "title": "Crypto card monthly transaction volume surges 230% from 2025",
-        "description": "Crypto-linked debit and credit cards continue to surge in popularity as fintech companies and traditional payment service providers collaborate on new products that blur the line between onchain and traditional transactions.",
-        "url": "https://cointelegraph.com/news/crypto-card-monthly-volume-surge-230-one-year",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-ethereum-credit.jpg",
-        "publishedAt": "2026-05-27T22:30:59Z",
-        "content": "Monthly payment volume on crypto-linked debit and credit cards is up about 230% over last year, amid a proliferation of crypto-related payment products.\r\nCumulative volume on crypto-linked payment ca… [+2319 chars]"
       }
     ]
   }
