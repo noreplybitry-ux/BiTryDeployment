@@ -1,10 +1,88 @@
 {
   "version": 3,
-  "timestamp": "2026-05-29T23:19:47.744Z",
+  "timestamp": "2026-05-30T03:56:30.098Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin’s trapped under $74K while $9B options expiry looms: Are bears back in control?",
+        "description": "Bears hold the upper hand for Friday's $9 billion options expiry, keeping Bitcoin under pressure amid heavy ETF outflows and corporate selling",
+        "url": "https://cointelegraph.com/markets/bitcoins-trapped-under-74k-while-9b-options-expiry-looms-are-bears-back-in-control",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-notes-from-the-brink-rhyme-and-reason-in-a-bear-market-3.jpg",
+        "publishedAt": "2026-05-29T03:44:40Z",
+        "content": "Key takeaways:\r\n<ul><li>Bears gained a major edge ahead of Friday's $9 billion options expiry, especially if Bitcoin price stays below $74,000.</li><li>Spot Bitcoin ETF outflows and corporate BTC bal… [+2937 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Warning Signals Strengthen, Downside Risks Stay Elevated",
+        "description": "Ethereum price started a fresh decline and traded below $2,020. ETH is now consolidating near $2,000 and might struggle to recover. Ethereum remained in a bearish zone after a fresh decline below $2,020. The price is trading below $2,020 and the 100-hourly Si…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-warning-signals-2k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Warning-Signals-Strengthen.jpg?fit=1024%2C559",
+        "publishedAt": "2026-05-29T03:18:31Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,020. ETH is now consolidating near $2,000 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decline … [+2152 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Dip Attracts Big Money: Cardone Capital Buys $9.5M More BTC",
+        "description": "Around 80% of investors in one of Cardone Capital’s funds had no Bitcoin exposure before the company began shifting its strategy — a detail founder and CEO Grant Cardone himself revealed at the 2026 Consensus conference in Miami earlier this month. Related Re…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-dip-attracts-big-money-cardone-capital-buys-10m-more-btc/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_367ff5.jpg?fit=3999%2C2666",
+        "publishedAt": "2026-05-29T03:00:16Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Extends Decline Rapidly As Key Supports Paves Way",
+        "description": "Bitcoin price started a fresh decline below the $74,000 zone. BTC is consolidating and might struggle to stay above the $72,000 support. Bitcoin failed to stay above $75,000 and extended losses. The price is trading below $74,000 and the 100 hourly simple mov…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-extends-decline-73k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Extends-Decline.jpg",
+        "publishedAt": "2026-05-29T02:40:49Z",
+        "content": "Bitcoin price started a fresh decline below the $74,000 zone. BTC is consolidating and might struggle to stay above the $72,000 support.\r\n<ul><li>Bitcoin failed to stay above $75,000 and extended los… [+2191 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Breakdown Deepens: Can ETH Hold The Crucial $1,930 Lifeline?",
+        "description": "Ethereum remains under heavy pressure after slipping below a major support level, reinforcing the growing bearish outlook across the market. With fear-driven sentiment increasing and sellers maintaining control, the $1,930 level has now emerged as the most cr…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-breakdown-deepens-2/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-iStock-57.jpg?fit=612%2C408",
+        "publishedAt": "2026-05-29T02:00:02Z",
+        "content": "Ethereum remains under heavy pressure after slipping below a major support level, reinforcing the growing bearish outlook across the market. With fear-driven sentiment increasing and sellers maintain… [+2811 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Bearish Flag Goes Up As Expert Analyst Predicts A Massive Crash To $44,000",
+        "description": "Bitcoin’s anticipated recovery above is looking increasingly bleak due to the formation of a bearish flag. The leading cryptocurrency has fallen further below $74,000 in the past 24 hours, and one analyst believes the latest move is only another stage in a mu…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bearish-flag-up/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-19.jpg?fit=612%2C393",
+        "publishedAt": "2026-05-29T00:00:41Z",
+        "content": "Bitcoin’s anticipated recovery above is looking increasingly bleak due to the formation of a bearish flag. The leading cryptocurrency has fallen further below $74,000 in the past 24 hours, and one an… [+2739 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,97 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-ethereum-credit.jpg",
         "publishedAt": "2026-05-27T22:30:59Z",
         "content": "Monthly payment volume on crypto-linked debit and credit cards is up about 230% over last year, amid a proliferation of crypto-related payment products.\r\nCumulative volume on crypto-linked payment ca… [+2319 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Hyperliquid Enters Top 10 Crypto With New ATH, But How High Will It Be If It Overtakes Ethereum?",
-        "description": "Hyperliquid (HYPE) recently broke into the top 10 cryptocurrencies by market capitalization, sitting alongside top players like Bitcoin (BTC) and Ethereum (ETH), after its price surged past $50 and set a new all-time high. Now, on-chain analytics platforms ar…",
-        "url": "http://www.newsbtc.com/news/hyperliquid-in-top-10-crypto/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Hyperliquid-from-Medium-1.png?fit=1200%2C600",
-        "publishedAt": "2026-05-27T19:30:16Z",
-        "content": "Hyperliquid (HYPE) recently broke into the top 10 cryptocurrencies by market capitalization, sitting alongside top players like Bitcoin (BTC) and Ethereum (ETH), after its price surged past $50 and s… [+3073 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 5/27: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ZEC, ADA, XMR",
-        "description": "Bitcoin briefly lost the $75,000 level after net flows into spot BTC ETFs turned negative. Do technical charts point to a BTC and altcoin recovery?",
-        "url": "https://cointelegraph.com/markets/price-predictions-527-btc-eth-bnb-xrp-sol-doge-hype-zec-ada-xmr",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-trade-cryptocurrencies-2.jpg",
-        "publishedAt": "2026-05-27T18:28:39Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin is under pressure as net outflows from the BTC ETFs highlight a shift in institutional investor sentiment.</li><li>Most major altcoins look weak, suggesting the bears are… [+8214 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Mastercard secures New York BitLicense for crypto operations",
-        "description": "Mastercard has obtained a New York BitLicense to expand its regulated digital asset operations, including stablecoin and tokenized payment infrastructure.",
-        "url": "https://cointelegraph.com/news/mastercard-secures-new-york-bitlicense-for-crypto-operations",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitlicense-approval-shines-fresh-light-on-new-york-crypto-relationship.jpg",
-        "publishedAt": "2026-05-27T18:05:55Z",
-        "content": "Mastercards US transaction services unit has received a BitLicense from the New York State Department of Financial Services (NYDFS), allowing the payments giant to conduct regulated digital asset bus… [+2386 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Bitcoin retests support below $75,000 as downside pressure holds",
-        "description": "Bitcoin price fell to below $75,000 on Wednesday, touching $74,600. ETF outflows and broader market headwinds mean downside pressure remains. Analysts say the current price outlook includes a “dangerous divergence”. Bitcoin briefly dipped below the $75,000 ma…",
-        "url": "https://coinjournal.net/news/bitcoin-retests-support-below-75000-as-downside-pressure-holds/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/bitcoin-price-decline-chart-red-market.png",
-        "publishedAt": "2026-05-27T17:54:49Z",
-        "content": "<ul><li>Bitcoin price fell to below $75,000 on Wednesday, touching $74,600.</li><li>ETF outflows and broader market headwinds mean downside pressure remains.</li><li>Analysts say the current price ou… [+3489 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "SoFi Launches SoFiUSD Stablecoin Across Ethereum and Solana",
-        "description": "SoFi is making its SoFiUSD token available to members, marking a milestone in the convergence of regulated banking and blockchain.",
-        "url": "https://decrypt.co/369187/sofi-launches-sofiusd-stablecoin-ethereum-solana",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-05-27T17:08:09Z",
-        "content": "In brief\r\n<ul><li>SoFi launched SoFiUSD, the first stablecoin issued by a U.S. national bank available directly inside a consumer banking app, accessible to nearly 15 million members.</li><li>The tok… [+2356 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price threatens $75K loss as US-Iran peace progress sparks new stocks records",
-        "description": "Bitcoin disappointed bulls by dropping below $75,000 on Iran peace deal reports while US stocks hit new all-time highs and oil saw one-month lows on Hormuz hopes.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-threatens-75k-loss-as-us-iran-peace-progress-sparks-new-stocks-records",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/road-sign-renovation-regulation-changes-bitcoin-welcome22-3.jpg",
-        "publishedAt": "2026-05-27T16:47:05Z",
-        "content": "Bitcoin (BTC) fell back below $75,000 at Wednesdays Wall Street open as relief over a US-Iran peace deal bypassed crypto.\r\nKey points:\r\n<ul><li>Bitcoin continues to diverge from US stocks despite goo… [+3252 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Crypto IPOs could create massive $1 trillion market amid tokenization wave, Jefferies says",
-        "description": "The Wall Street investment bank expects a massive wave of crypto and blockchain public listings over the next two years as institutional investors shift their focus from speculative trading to real-world financial infrastructure.",
-        "url": "https://www.coindesk.com/markets/2026/05/27/crypto-ipos-could-create-massive-usd1-trillion-market-amid-tokenization-wave-jefferies-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8961da2a19cbb5d7f579a29d5596e658f9eb6619-5627x3752.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-27T15:35:15Z",
-        "content": "Jefferies said it expects a new wave of crypto and blockchain-related public listings as institutional adoption of digital asset infrastructure accelerates across Wall Street and the payments industr… [+4841 chars]"
       }
     ]
   }
