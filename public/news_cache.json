@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-30T13:52:02.396Z",
+  "timestamp": "2026-05-30T15:14:26.592Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Benson Toti",
+        "title": "Bitcoin price outlook amid 9-day streak of ETF outflows",
+        "description": "Bitcoin held near $73,000 but risks crashing lower as risks linger. Spot Bitcoin ETFs saw net outflows of $229 million for a nine-day negative streak. On-chain metrics show whale balances flat for months, signaling reduced accumulation. Bitcoin traded near $7…",
+        "url": "https://coinjournal.net/news/bitcoin-price-outlook-amid-9-day-streak-of-etf-outflows/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/01/Bitcoin-extends-its-consolidation.jpg",
+        "publishedAt": "2026-05-29T14:20:32Z",
+        "content": "<ul><li>Bitcoin held near $73,000 but risks crashing lower as risks linger.</li><li>Spot Bitcoin ETFs saw net outflows of $229 million for a nine-day negative streak.</li><li>On-chain metrics show wh… [+4121 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-kraken-review-your-new-go-to-crypto-exchange-bitcoin.jpg",
         "publishedAt": "2026-05-28T02:50:41Z",
         "content": "Crypto exchange Kraken has launched a non-custodial Bitcoin product, giving a 2.5% yearly yield, adding to the companys yield product offerings amid a rising investor demand for crypto reward product… [+1627 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Extends Decline Rapidly As Key Supports Collapse",
-        "description": "Bitcoin price started a fresh decline below the $75,500 zone. BTC is consolidating and might struggle to stay above the $74,000 support. Bitcoin failed to stay above $76,000 and extended losses. The price is trading below $75,500 and the 100 hourly simple mov…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-extends-decline-74k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Extends-Decline-Rapidly-As-Key-Supports-Collapse.jpg",
-        "publishedAt": "2026-05-28T02:31:06Z",
-        "content": "Bitcoin price started a fresh decline below the $75,500 zone. BTC is consolidating and might struggle to stay above the $74,000 support.\r\n<ul><li>Bitcoin failed to stay above $76,000 and extended los… [+2191 chars]"
       }
     ]
   }
