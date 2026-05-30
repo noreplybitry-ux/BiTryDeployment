@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-30T06:52:09.984Z",
+  "timestamp": "2026-05-30T09:23:19.211Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/nurse-price-fall-new3-1.jpg",
         "publishedAt": "2026-05-28T01:35:49Z",
         "content": "Key takeaways:\r\n<ul><li>Bitcoins drop below $75,000 marks a sharp decoupling from a record-breaking stock market fueled by the AI boom.</li><li>Crypto trader sentiment remains weak as key US regulato… [+3408 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Drop Linked To Hidden $1.3 Billion ETF Trade, Analyst Reveals",
-        "description": "Eight straight days. That is how long US spot Bitcoin ETFs have been bleeding money, with more than $2 billion in net outflows recorded since May 14 — and Tuesday’s session added another ugly chapter to that streak. Related Reading: HYPE Price Breakout Ignite…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-drop-linked-to-hidden-1-3b-etf-trade-analyst-reveals/",
-        "urlToImage": null,
-        "publishedAt": "2026-05-28T01:00:32Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
