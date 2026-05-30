@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-30T15:14:26.592Z",
+  "timestamp": "2026-05-30T17:15:15.590Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin plums new six-week lows as analyst eyes BTC price dip 'end' at $72K",
+        "description": "Bitcoin saw its lowest levels since the middle of April as BTC price action continued ot diverge from thriving US stock markets.",
+        "url": "https://cointelegraph.com/markets/bitcoin-plums-new-six-week-lows-as-analyst-eyes-btc-price-dip-end-at-72k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-marketspro-one-stop-institutional-grade-crypto-intelligence-dashboard-bitcoin-1.jpg",
+        "publishedAt": "2026-05-29T17:03:12Z",
+        "content": "Bitcoin (BTC) deepened six-week lows at Fridays Wall Street open as US stock markets diverged to all-time highs.\r\nKey points:\r\n<ul><li>Bitcoin sinks closer to $72,000 as analysis eyes \"crucial\" BTC p… [+3268 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_f1289c.jpg?fit=6000%2C4000",
         "publishedAt": "2026-05-28T05:00:16Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Struggles Near Key Levels As Market Sentiment Weakens",
-        "description": "Ethereum price started a fresh decline and traded below $2,050. ETH is now consolidating above $2,000 and might struggle to recover. Ethereum remained in a bearish zone after a fresh decline below $2,080. The price is trading below $2,050 and the 100-hourly S…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-struggles-2090/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Struggles-Near-Key-Levels-As-Market-Sentiment-Weakens.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-28T03:08:21Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,050. ETH is now consolidating above $2,000 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decline… [+2134 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "Kraken rolls out Bitcoin vault product for holders to earn yield",
-        "description": "Kraken has launched a Bitcoin vault that lets users earn up to 2.5% yearly yield on their Bitcoin, which attracted $30 million in deposits within the first 10 hours of launch.",
-        "url": "https://cointelegraph.com/news/kraken-rolls-out-bitcoin-vault-for-holders-to-earn-yield",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-kraken-review-your-new-go-to-crypto-exchange-bitcoin.jpg",
-        "publishedAt": "2026-05-28T02:50:41Z",
-        "content": "Crypto exchange Kraken has launched a non-custodial Bitcoin product, giving a 2.5% yearly yield, adding to the companys yield product offerings amid a rising investor demand for crypto reward product… [+1627 chars]"
       }
     ]
   }
