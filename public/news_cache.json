@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-30T09:23:19.211Z",
+  "timestamp": "2026-05-30T11:25:32.562Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Extends-Decline-Rapidly-As-Key-Supports-Collapse.jpg",
         "publishedAt": "2026-05-28T02:31:06Z",
         "content": "Bitcoin price started a fresh decline below the $75,500 zone. BTC is consolidating and might struggle to stay above the $74,000 support.\r\n<ul><li>Bitcoin failed to stay above $76,000 and extended los… [+2191 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin falls further as BTC miners pivot to AI, pro-crypto legislation stalls",
-        "description": "Bitcoin fell below $74,000 even as US stock markets rallied to new all-time highs. Will a hawkish Fed and investor interest in AI deepen the sell off?",
-        "url": "https://cointelegraph.com/markets/bitcoin-falls-further-as-btc-miners-pivot-to-ai-pro-crypto-legislation-stalls",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/nurse-price-fall-new3-1.jpg",
-        "publishedAt": "2026-05-28T01:35:49Z",
-        "content": "Key takeaways:\r\n<ul><li>Bitcoins drop below $75,000 marks a sharp decoupling from a record-breaking stock market fueled by the AI boom.</li><li>Crypto trader sentiment remains weak as key US regulato… [+3408 chars]"
       }
     ]
   }
