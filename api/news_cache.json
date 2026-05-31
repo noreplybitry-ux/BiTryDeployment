@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-31T21:07:18.651Z",
+  "timestamp": "2026-05-31T23:06:21.594Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Short-Term Holders Move 107,760 BTC In A Single Day — Details",
+        "description": "According to historical data, the price of Bitcoin has never posted three consecutive months of positive performance in a bear-market year. This trend is about to continue in 2026, with May looking likely to end in the red for BTC after optimistic performance…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-short-term-holders-move-107760-btc-in-a-single-day-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/iStock-1224361225.jpg?fit=1243%2C843",
+        "publishedAt": "2026-05-30T23:00:28Z",
+        "content": "According to historical data, the price of Bitcoin has never posted three consecutive months of positive performance in a bear-market year. This trend is about to continue in 2026, with May looking l… [+2876 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/eth-20-staking3.jpg",
         "publishedAt": "2026-05-28T14:26:25Z",
         "content": "Standard Chartered says Ethereums network activity remains close to record levels even as Ether (ETH) trades far below last years highs, arguing that the gap between usage and price could eventually … [+4317 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Asset manager Grayscale delays IPO plans as crypto listing boom loses steam",
-        "description": "Grayscale’s decision to delay its IPO highlights the growing caution across the crypto industry as volatile markets and weak investor demand weigh on public listing plans.",
-        "url": "https://www.coindesk.com/business/2026/05/28/asset-manager-grayscale-delays-ipo-plans-as-crypto-listing-boom-loses-steam",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b2034d1d5f8c717412f14142cf096c717d35493d-1477x831.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-28T13:36:11Z",
-        "content": "Asset management giant Grayscale is the latest crypto firm to delay its plans to go public due to market conditions, according to a person with knowledge of the matter.\r\nThe Stamford-based investment… [+2318 chars]"
       }
     ]
   }
