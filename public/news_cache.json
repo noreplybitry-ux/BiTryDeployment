@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-31T17:14:39.729Z",
+  "timestamp": "2026-05-31T19:24:59.693Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-05-28T12:32:55Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8410 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "BlackRock Bitcoin ETF sees near-record outflows as BTC dips below $75K",
-        "description": "US spot Bitcoin ETFs have flipped back to $596 million in net outflows year to date as BlackRock IBIT posted near-record outflows of about $528 million in a single day.",
-        "url": "https://cointelegraph.com/news/blackrocks-bitcoin-etf-ibit-near-record-outflows-btc-dip",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/dollardambawaterfallmoneyfiat1.jpg",
-        "publishedAt": "2026-05-28T12:22:53Z",
-        "content": "BlackRocks spot Bitcoin exchange-traded fund (ETF) posted its second-largest daily outflow on record as US Bitcoin funds extended an eight-day redemption streak during a sharp pullback in the cryptoc… [+2764 chars]"
       }
     ]
   }
