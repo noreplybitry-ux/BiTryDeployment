@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-05-30T23:04:03.198Z",
+  "timestamp": "2026-05-31T04:21:44.291Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Buy Side Explodes: XRP Liquidity 7x Heavier Than Sells On Coinbase",
+        "description": "Traders watching Stellar’s 40% weekly surge are now turning their attention to XRP, asking whether the older and larger token could be next. The two assets share a long history of moving in tandem, and some analysts say the setup is starting to look familiar.…",
+        "url": "http://www.newsbtc.com/news/buy-side-explodes-xrp-liquidity-7x-heavier-than-sells-on-coinbase/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_d63c91.jpg?fit=1500%2C1082",
+        "publishedAt": "2026-05-30T04:00:29Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Ethereum Price Falls, But Whales Push Holdings To 10-Week High",
+        "description": "On-chain data shows large wallets on the Ethereum network have continued to accumulate despite the price decline that the asset has faced. Ethereum Holders With At Least 100,000 ETH Now Control 22% Of Supply According to data from on-chain analytics firm Sant…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-falls-whales-push-holdings-10-high/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/eth_4bb1ed.png?fit=1152%2C768",
+        "publishedAt": "2026-05-30T03:00:51Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/bitcoin-price-decline-chart-red-market.png",
         "publishedAt": "2026-05-28T09:11:21Z",
         "content": "<ul><li>Bitcoin (BTC) is down to around $73K amid ETF outflows and geopolitical tension.</li><li>Over $2B in ETF outflows and $900M liquidations added selling pressure.</li><li>The key support sits a… [+4360 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "BNB joins US spot ETF market through VanEck’s VBNB launch",
-        "description": "The physically backed fund gives US investors exchange-traded exposure to the Binance-linked cryptocurrency through traditional brokerage accounts.",
-        "url": "https://cointelegraph.com/news/bnb-enters-us-spot-etf-market-through-vanecks-vbnb-launch",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-south-korea-victory-report-on-crypto.jpg",
-        "publishedAt": "2026-05-28T07:00:00Z",
-        "content": "VanEck launched the first US spot BNB exchange-traded fund on Thursday, giving investors regulated exposure to the Binance-linked cryptocurrency through traditional brokerage accounts.\r\nThe ETF, trad… [+2360 chars]"
       }
     ]
   }
