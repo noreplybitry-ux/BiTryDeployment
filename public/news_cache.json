@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-31T15:22:51.123Z",
+  "timestamp": "2026-05-31T17:14:39.729Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin Records $40B+ In Capital Outflows As ‘Humpback’ Whales Intensify Selling – Details",
+        "description": "Over the last week, the Bitcoin price has continued to see sustained selling pressure, with the flagship cryptocurrency trading around $73,400. According to recent on-chain data, changes in key market structures suggest Bitcoin might remain in this bearish st…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-records-40b-in-capital-outflows-as-humpback-whales-intensify-selling-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-jakubzerdzicki-31600249.jpg?fit=3000%2C2000",
+        "publishedAt": "2026-05-30T17:00:45Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/dollardambawaterfallmoneyfiat1.jpg",
         "publishedAt": "2026-05-28T12:22:53Z",
         "content": "BlackRocks spot Bitcoin exchange-traded fund (ETF) posted its second-largest daily outflow on record as US Bitcoin funds extended an eight-day redemption streak during a sharp pullback in the cryptoc… [+2764 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Mystery Bitcoin burn destroys 107 BTC worth about $8.5M",
-        "description": "An unknown entity burned $8.5 million worth of Bitcoin after 12 years of holding, rendering the BTC unspendable, despite its price increasing by 12,700%.",
-        "url": "https://cointelegraph.com/news/unknown-sender-burns-107-btc-unexplained-bitcoin-transfer",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-buyback-and-burn-what-does-it-mean-in-crypto.jpg",
-        "publishedAt": "2026-05-28T12:09:09Z",
-        "content": "An unknown entity burned 107 Bitcoin, worth about $8.5 million at the time, effectively removing them from spendable circulation and sparking numerous theories after holding the funds for over 12 yea… [+2305 chars]"
       }
     ]
   }
