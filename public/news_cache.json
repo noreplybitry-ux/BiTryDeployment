@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-31T13:57:44.311Z",
+  "timestamp": "2026-05-31T15:22:51.123Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Enters Buy Zone That Previously Led To A 660% And 1,700% Rally",
+        "description": "Crypto pundit Vivek has revealed that Bitcoin has entered a buy zone that led to parabolic rallies in the previous bull cycles. This comes as analysts predict that BTC risks dropping to the psychological $70,000 level, with the leading crypto showing weakness…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-enters-buy-zone/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-20-1.jpg?fit=1280%2C853",
+        "publishedAt": "2026-05-30T14:00:12Z",
+        "content": "Crypto pundit Vivek has revealed that Bitcoin has entered a buy zone that led to parabolic rallies in the previous bull cycles. This comes as analysts predict that BTC risks dropping to the psycholog… [+2409 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-buyback-and-burn-what-does-it-mean-in-crypto.jpg",
         "publishedAt": "2026-05-28T12:09:09Z",
         "content": "An unknown entity burned 107 Bitcoin, worth about $8.5 million at the time, effectively removing them from spendable circulation and sparking numerous theories after holding the funds for over 12 yea… [+2305 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Samsung Just Bet $408 Million On South Korea’s Top Crypto Exchange — And It’s Not Alone",
-        "description": "Three Samsung affiliates — Samsung Securities, Samsung SDS, and Samsung Card — announced on May 28 the combined acquisition of a 4% stake in Dunamu, the operator of South Korea’s dominant crypto exchange Upbit, for approximately 612.8 billion won or $408 mill…",
-        "url": "http://www.newsbtc.com/news/samsung-just-bet-408-million-on-south-koreas-top-crypto-exchange-and-its-not-alone/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/crypto-bitcoin-btc-btcusd-samsung.jpg",
-        "publishedAt": "2026-05-28T11:50:07Z",
-        "content": "Three Samsung affiliates Samsung Securities, Samsung SDS, and Samsung Card announced on May 28 the combined acquisition of a 4% stake in Dunamu, the operator of South Korea’s dominant crypto exchange… [+3141 chars]"
       }
     ]
   }
