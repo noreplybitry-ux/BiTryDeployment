@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-05-31T19:24:59.693Z",
+  "timestamp": "2026-05-31T21:07:18.651Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,19 +355,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b2034d1d5f8c717412f14142cf096c717d35493d-1477x831.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-05-28T13:36:11Z",
         "content": "Asset management giant Grayscale is the latest crypto firm to delay its plans to go public due to market conditions, according to a person with knowledge of the matter.\r\nThe Stamford-based investment… [+2318 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Crypto Majors Slide on Iran Escalations, ETF Outflows",
-        "description": "Massive ETF outflows just sent crypto sharply lower. Jefferies says the next crypto IPO wave could create a $1T public market.",
-        "url": "https://decrypt.co/369258/morning-minute-crypto-majors-slide-on-iran-escalations-etf-outflows",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-05-28T12:32:55Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8410 chars]"
       }
     ]
   }
