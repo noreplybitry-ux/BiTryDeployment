@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-05-31T11:02:52.244Z",
+  "timestamp": "2026-05-31T13:57:44.311Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin ETFs Register $4 Billion Outflows In 3 Weeks – Why This Is A Bullish Signal",
+        "description": "Following its bullish performance at the start of Q2 2026, the Bitcoin spot ETFs market has slumped into negative momentum in recent weeks, in line with the broader price correction. Data from ETF tracker shows that total net outflows for May stand at $2.30 b…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-etfs-register-4-billion-outflows-in-3-weeks-why-this-is-a-bullish-signal/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-alesiakozik-6771008.jpg?fit=1000%2C666",
+        "publishedAt": "2026-05-30T13:00:38Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "When the market is bad, we build: Inside Binance’s bold 2030 master plan",
+        "description": "Established crypto firms will merge with traditional finance, but neither Wall Street bankers nor corporate giants will take over the crypto industry, said Binance’s Head of VIP and Institutional, Catherine Chen.",
+        "url": "https://www.coindesk.com/business/2026/05/26/when-the-market-is-bad-we-build-inside-binance-s-bold-2030-master-plan",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/035764bcc2d39ba3ef197f0f607304beed427692-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-30T13:00:00Z",
+        "content": "The crypto market is struggling, competitors are either passing through hard times or pivoting to other areas, while Binance is building with eyes on increasing its active user base ten-fold to 3 bil… [+4279 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Nearly $1 Billion In Iranian Crypto Falls Into US Hands",
+        "description": "Some Iranian crypto wallet owners may not even know yet that their money is gone. Treasury Secretary Scott Bessent disclosed Friday that the US has quietly seized roughly $1 billion in digital assets tied to Iran, a figure that has nearly tripled from earlier…",
+        "url": "http://www.newsbtc.com/news/nearly-1-billion-in-iranian-crypto-falls-into-us-hands/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_6774e5.jpg?fit=3000%2C2003",
+        "publishedAt": "2026-05-30T11:30:55Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/crypto-bitcoin-btc-btcusd-samsung.jpg",
         "publishedAt": "2026-05-28T11:50:07Z",
         "content": "Three Samsung affiliates Samsung Securities, Samsung SDS, and Samsung Card announced on May 28 the combined acquisition of a 4% stake in Dunamu, the operator of South Korea’s dominant crypto exchange… [+3141 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley",
-        "title": "Samsung units to buy $408 million stake in South Korea’s biggest crypto exchange",
-        "description": "Samsung Securities is set to take a 2% stake in Dunamu, worth over $200 million, from affiliates of technology conglomerate Kakao.",
-        "url": "https://www.coindesk.com/business/2026/05/28/samsung-is-buying-a-usd446-million-stake-in-south-korea-s-biggest-crypto-exchange",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/92fba9ae708df4525504459ed30eca21098fc57a-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-28T10:55:19Z",
-        "content": "Three Samsung affiliates agreed to buy a 4% stake in Dunamu, the operator of South Korea's largest cryptocurrency exchange, Upbit, for a total of 612.8 billion won ($408 million), the Korea Herald re… [+1364 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Crypto liquidations hit $935M as Bitcoin price dips to $72.6K",
-        "description": "Over $935 million was wiped out across the crypto market as traders shifted their focus to $70,000 as the last line of defense for Bitcoin.",
-        "url": "https://cointelegraph.com/markets/crypto-liquidations-hit-935m-as-bitcoin-price-dips-to-726k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-cover-may-28.jpg",
-        "publishedAt": "2026-05-28T09:44:14Z",
-        "content": "Bitcoin (BTC) sold off into the early Asian Trading session on Thursday as the drop to $72,600 produced significant liquidation of leveraged positions across the crypto market.\r\nKey takeaways:\r\n<ul><… [+4005 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Bitcoin drops to $73K amid renewed US strikes on Iran and ETF outflows",
-        "description": "Bitcoin (BTC) is down to around $73K amid ETF outflows and geopolitical tension. Over $2B in ETF outflows and $900M liquidations added selling pressure. The key support sits at $72,650 with RSI near oversold levels at 34.82. Bitcoin slipped below the $73,000 …",
-        "url": "https://coinjournal.net/news/bitcoin-drops-to-73k-amid-renewed-us-strikes-on-iran-and-etf-outflows/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/04/bitcoin-price-decline-chart-red-market.png",
-        "publishedAt": "2026-05-28T09:11:21Z",
-        "content": "<ul><li>Bitcoin (BTC) is down to around $73K amid ETF outflows and geopolitical tension.</li><li>Over $2B in ETF outflows and $900M liquidations added selling pressure.</li><li>The key support sits a… [+4360 chars]"
       }
     ]
   }
