@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-01T16:42:48.805Z",
+  "timestamp": "2026-06-01T20:58:50.293Z",
   "data": {
     "status": "ok",
     "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Cardano Price Could Close May Below This Multi-Year Support — What’s Next?",
+        "description": "After hitting its cycle high last August, the Cardano price has continued in a downward slope toward lows not seen since 2024. Despite the calls of an altseason early into May, the ADA token has erased all the gains realized at the beginning of the month. Int…",
+        "url": "http://www.newsbtc.com/news/cardano-price-below-multi-year-support/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/05/Cardano-1536x997-1.jpg?fit=1536%2C997",
+        "publishedAt": "2026-05-31T19:00:25Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +329,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_RqChPnWj_1777303873637_raw.jpg",
         "publishedAt": "2026-05-28T18:30:54Z",
         "content": "Ethereum (ETH) has followed Bitcoin (BTC) and much of the wider crypto market lower over the past 48 hours, dropping below the key $2,000 support level and reigniting concerns among some investors th… [+3118 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Bitcoin Traders Increasingly Convinced Price Will Fall Below $70K by End of May",
-        "description": "Prediction market odds are rising for Bitcoin to drop below $70,000 in the next few days following a dip to a six-week low price.",
-        "url": "https://decrypt.co/369328/bitcoin-traders-convinced-price-fall-below-70k-end-may",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
-        "publishedAt": "2026-05-28T15:21:43Z",
-        "content": "In brief\r\n<ul><li>Odds of Bitcoin falling below $70,000 before the end of May have risen on Polymarket and Myriad. </li><li>Nevertheless, traders still believe it will hold the line, with odds of it … [+2531 chars]"
       }
     ]
   }
