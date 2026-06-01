@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-01T04:50:42.701Z",
+  "timestamp": "2026-06-01T10:26:11.598Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 25,
     "articles": [
       {
         "source": {
@@ -329,32 +329,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-27.jpg?fit=1280%2C853",
         "publishedAt": "2026-05-28T15:00:40Z",
         "content": "The US-Iran war has again escalated with fresh strikes from both sides, a development that has now dampened hopes of an imminent peace deal. This has caused another significant decline in Bitcoins pr… [+2472 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Hassan Ahmed",
-        "title": "Crypto Long & Short: Asia’s regulated crypto future",
-        "description": "Asia's adoption of crypto and stablecoins is driving regulated growth in payments and remittances. Learn how Singapore, Hong Kong, India, and Korea are leading the way.",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/05/27/crypto-long-and-short-asia-s-regulated-crypto-future",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/95e013f3feaa37c1b2c61c1bb1e53456bd1a0ed1-8368x4712.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-28T15:00:00Z",
-        "content": "In todays newsletter, Hassan Ahmed outlines the state of crypto, stablecoins and regulations in Asia, comparing growth to regions with clarity.\r\nThen, in Ask an Expert, Xin Yan, CEO of Sign, answers … [+8486 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Bitcoin News: BTC Price Drops Below $73,000 as US-Iran Tensions Trigger ETF Outflows",
-        "description": "Bitcoin News: BTC price broke below $73,000 on Thursday as Iran’s Islamic Revolutionary Guard Corps targeted a US airbase in Kuwait, triggering a broad risk-...",
-        "url": "https://cryptonews.com/news/bitcoin-drops-73000-us-iran-etf-outflows/",
-        "urlToImage": "https://s.yimg.com/os/en/cryptonews_us_711/8b986f3c682fb0ba169674518416be35",
-        "publishedAt": "2026-05-28T14:47:23Z",
-        "content": "Bitcoin News: BTC price broke below $73,000 on Thursday as Iran’s Islamic Revolutionary Guard Corps targeted a US airbase in Kuwait, triggering a broad risk-off wave across global markets.\r\nThe geopo… [+4400 chars]"
       }
     ]
   }
