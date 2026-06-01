@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-05-31T23:06:21.594Z",
+  "timestamp": "2026-06-01T04:50:42.701Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Why The Bitcoin Price Won’t Hit $100,000 Again This Year",
+        "description": "Bitcoin’s return to $100,000 is still a popular target across the market for 2026, but one bearish outlook argues that the move is becoming less realistic with the price action weakening below the $80,000 price level. This bearish outlook came from a crypto a…",
+        "url": "http://www.newsbtc.com/news/bitcoin/why-the-bitcoin-price-wont-hit-100000-again-this-year/",
+        "urlToImage": null,
+        "publishedAt": "2026-05-31T02:00:53Z",
+        "content": "Bitcoins return to $100,000 is still a popular target across the market for 2026, but one bearish outlook argues that the move is becoming less realistic with the price action weakening below the $80… [+2523 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://s.yimg.com/os/en/cryptonews_us_711/8b986f3c682fb0ba169674518416be35",
         "publishedAt": "2026-05-28T14:47:23Z",
         "content": "Bitcoin News: BTC price broke below $73,000 on Thursday as Iran’s Islamic Revolutionary Guard Corps targeted a US airbase in Kuwait, triggering a broad risk-off wave across global markets.\r\nThe geopo… [+4400 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "StanChart says Ethereum price will catch up to bullish internal metrics",
-        "description": "Standard Chartered reaffirms bullish Ether price targets, citing strong network fundamentals even as ETH trades 57% below its 2025 peak and fund flows turn negative.",
-        "url": "https://cointelegraph.com/news/standard-chartered-says-ethereums-onchain-metrics-are-improving-eth-price-underperforms",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/eth-20-staking3.jpg",
-        "publishedAt": "2026-05-28T14:26:25Z",
-        "content": "Standard Chartered says Ethereums network activity remains close to record levels even as Ether (ETH) trades far below last years highs, arguing that the gap between usage and price could eventually … [+4317 chars]"
       }
     ]
   }
