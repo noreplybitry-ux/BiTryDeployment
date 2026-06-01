@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-01T10:26:11.598Z",
+  "timestamp": "2026-06-01T16:42:48.805Z",
   "data": {
     "status": "ok",
     "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Bitcoin price targets $78K as BTC holders defend 'strongest near-term support'",
+        "description": "Bitcoin’s bounce from a key holder cost-basis level has improved the case for further upside, with historical data pointing to $101,000 as a potential best-case target.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-rebound-targets-78k-as-short-term-holders-defend-support",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/swing-price-market-btc-bitcoin-2.jpg",
+        "publishedAt": "2026-05-31T12:39:47Z",
+        "content": "Bitcoin (BTC) is rebounding from a key on-chain support zone, putting the $78,000 level back in focus for bulls.\r\nKey takeaways:\r\n<ul><li>BTC is eyeing a rebound to $78,200, the realized price of BTC… [+2972 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +329,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
         "publishedAt": "2026-05-28T15:21:43Z",
         "content": "In brief\r\n<ul><li>Odds of Bitcoin falling below $70,000 before the end of May have risen on Polymarket and Myriad. </li><li>Nevertheless, traders still believe it will hold the line, with odds of it … [+2531 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "US Strikes Iran In Fresh Attacks, Expert Says Get Your Money Out Of Bitcoin Now!",
-        "description": "The US-Iran war has again escalated with fresh strikes from both sides, a development that has now dampened hopes of an imminent peace deal. This has caused another significant decline in Bitcoin’s price, with an expert urging market participants to remove th…",
-        "url": "http://www.newsbtc.com/bitcoin-news/money-out-of-bitcoin-now/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-27.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-28T15:00:40Z",
-        "content": "The US-Iran war has again escalated with fresh strikes from both sides, a development that has now dampened hopes of an imminent peace deal. This has caused another significant decline in Bitcoins pr… [+2472 chars]"
       }
     ]
   }
