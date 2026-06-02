@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-06-02T09:13:12.792Z",
+  "timestamp": "2026-06-02T14:11:06.098Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Advertorial",
+        "title": "Crypto meets Wall Street: MEXC unveils 'RealStocks' with 0-fee U.S. equity trading and real dividends",
+        "description": "MEXC, a leading 0-fee cross-asset trading platform, today announced the official launch of 'RealStocks.'",
+        "url": "https://cointelegraph.com/press-releases/crypto-meets-wall-street-mexc-unveils-realstocks-with-0-fee-us-equity-trading-and-real-dividends",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/235213.jpg",
+        "publishedAt": "2026-06-01T12:40:48Z",
+        "content": "Mutsamudu, Comoros, June 1, 2026MEXC, a leading 0-fee cross-asset trading platform, today announced the official launch of 'RealStocks.' This innovative equity product is now accessible to eligible u… [+4829 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETPs post largest 2026 outflow as crypto funds bleed $1.67B",
+        "description": "Crypto ETPs see $1.67 billion in outflows as the US dominates selling, Bitcoin funds log a record 2026 exit, and altcoin participation narrows sharply across markets, according to CoinShares.",
+        "url": "https://cointelegraph.com/news/crypto-etps-bleed-1-67-billion-altcoin-participation-collapse",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-vc-funding-rates-in-crypto-markets.jpg",
+        "publishedAt": "2026-06-01T11:50:13Z",
+        "content": "Crypto investment products extended losses to three straight weeks last week amid ongoing selling pressure in markets and limited institutional demand.\r\nCrypto exchange-traded products (ETPs) recorde… [+2779 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Trend That Has Held For 15 Years Shows When To Expect The Bottom And When $400,000 Will Happen",
+        "description": "Crypto analyst Blade has pointed to a Bitcoin trend that could signal when the leading crypto could find a bottom in this bear market cycle. The analyst also suggested that BTC could rally to as high as $400,000 in the next bull market.  Bitcoin Trend Which P…",
+        "url": "http://www.newsbtc.com/news/bitcoin/when-to-expect-bitcoin-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-59.jpg?fit=612%2C436",
+        "publishedAt": "2026-06-01T11:30:33Z",
+        "content": "Crypto analyst Blade has pointed to a Bitcoin trend that could signal when the leading crypto could find a bottom in this bear market cycle. The analyst also suggested that BTC could rally to as high… [+2402 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Binance adds US stock trading in push beyond crypto",
+        "description": "Binance exchange launched commission-free trading for 7,000 US-listed stocks and ETFs as more crypto platforms push towards “super app” ambitions.",
+        "url": "https://cointelegraph.com/news/binance-launches-tokenized-stocks-245-trading",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-ondo-finance-plans-to-bring-tokenized-us-stocks-to-solana.jpg",
+        "publishedAt": "2026-06-01T11:30:08Z",
+        "content": "Binance has launched US equities trading for eligible users and plans to add tokenized stocks as part of a broader push to expand beyond crypto.\r\nUsers will be able to trade more than 7,000 stocks an… [+3035 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Coinbase Launches Direct Indian Rupee Deposit and Withdrawal Rails",
+        "description": "The U.S. exchange has established direct rupee trading rails for Indian customers after securing regulatory clearance.",
+        "url": "https://decrypt.co/369580/coinbase-launches-direct-indian-rupee-deposit-and-withdrawal-rails",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-06-01T11:11:26Z",
+        "content": "In brief\r\n<ul><li>Coinbase has launched direct Indian rupee deposit and withdrawal rails through India's Immediate Payment Service.</li><li>The exchange has established dedicated INR order books for … [+3398 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -264,84 +329,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/01/Bitcoin-extends-its-consolidation.jpg",
         "publishedAt": "2026-05-29T14:20:32Z",
         "content": "<ul><li>Bitcoin held near $73,000 but risks crashing lower as risks linger.</li><li>Spot Bitcoin ETFs saw net outflows of $229 million for a nine-day negative streak.</li><li>On-chain metrics show wh… [+4121 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Can’t Catch A Break—Bears Keep Swinging",
-        "description": "Dogecoin started a recovery wave above the $0.0980 zone against the US Dollar. DOGE is now facing hurdles near $0.1010 and might struggle to continue higher. DOGE price started a recovery wave from $0.0965 and climbed above $0.0990. The price is trading below…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-cant-catch-a-break-0-10/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Meets-Resistance-and-Hesitates.jpg?fit=1024%2C572",
-        "publishedAt": "2026-05-29T05:28:14Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin’s trapped under $74K while $9B options expiry looms: Are bears back in control?",
-        "description": "Bears hold the upper hand for Friday's $9 billion options expiry, keeping Bitcoin under pressure amid heavy ETF outflows and corporate selling",
-        "url": "https://cointelegraph.com/markets/bitcoins-trapped-under-74k-while-9b-options-expiry-looms-are-bears-back-in-control",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-notes-from-the-brink-rhyme-and-reason-in-a-bear-market-3.jpg",
-        "publishedAt": "2026-05-29T03:44:40Z",
-        "content": "Key takeaways:\r\n<ul><li>Bears gained a major edge ahead of Friday's $9 billion options expiry, especially if Bitcoin price stays below $74,000.</li><li>Spot Bitcoin ETF outflows and corporate BTC bal… [+2937 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Warning Signals Strengthen, Downside Risks Stay Elevated",
-        "description": "Ethereum price started a fresh decline and traded below $2,020. ETH is now consolidating near $2,000 and might struggle to recover. Ethereum remained in a bearish zone after a fresh decline below $2,020. The price is trading below $2,020 and the 100-hourly Si…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-warning-signals-2k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-Price-Warning-Signals-Strengthen.jpg?fit=1024%2C559",
-        "publishedAt": "2026-05-29T03:18:31Z",
-        "content": "Ethereum price started a fresh decline and traded below $2,020. ETH is now consolidating near $2,000 and might struggle to recover.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decline … [+2152 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Dip Attracts Big Money: Cardone Capital Buys $9.5M More BTC",
-        "description": "Around 80% of investors in one of Cardone Capital’s funds had no Bitcoin exposure before the company began shifting its strategy — a detail founder and CEO Grant Cardone himself revealed at the 2026 Consensus conference in Miami earlier this month. Related Re…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-dip-attracts-big-money-cardone-capital-buys-10m-more-btc/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_367ff5.jpg?fit=3999%2C2666",
-        "publishedAt": "2026-05-29T03:00:16Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Extends Decline Rapidly As Key Supports Paves Way",
-        "description": "Bitcoin price started a fresh decline below the $74,000 zone. BTC is consolidating and might struggle to stay above the $72,000 support. Bitcoin failed to stay above $75,000 and extended losses. The price is trading below $74,000 and the 100 hourly simple mov…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-extends-decline-73k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Extends-Decline.jpg",
-        "publishedAt": "2026-05-29T02:40:49Z",
-        "content": "Bitcoin price started a fresh decline below the $74,000 zone. BTC is consolidating and might struggle to stay above the $72,000 support.\r\n<ul><li>Bitcoin failed to stay above $75,000 and extended los… [+2191 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Ethereum Breakdown Deepens: Can ETH Hold The Crucial $1,930 Lifeline?",
-        "description": "Ethereum remains under heavy pressure after slipping below a major support level, reinforcing the growing bearish outlook across the market. With fear-driven sentiment increasing and sellers maintaining control, the $1,930 level has now emerged as the most cr…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-breakdown-deepens-2/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-iStock-57.jpg?fit=612%2C408",
-        "publishedAt": "2026-05-29T02:00:02Z",
-        "content": "Ethereum remains under heavy pressure after slipping below a major support level, reinforcing the growing bearish outlook across the market. With fear-driven sentiment increasing and sellers maintain… [+2811 chars]"
       }
     ]
   }
