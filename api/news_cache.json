@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-02T14:11:06.098Z",
+  "timestamp": "2026-06-02T18:45:22.944Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, AI Boost",
+        "title": "Crypto funds suffer second-largest outflows of 2026 while XRP and HYPE attract inflows",
+        "description": "Investors pulled $1.67 billion from digital asset investment products last week, with bitcoin funds posting their largest weekly outflow of the year, according to a recent report from CoinShares.",
+        "url": "https://www.coindesk.com/markets/2026/06/01/crypto-funds-suffer-second-largest-outflows-of-2026-while-xrp-and-hype-attract-inflows",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f84a9af95d2e707c92c9152b260c498874be2af9-8660x5773.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-01T17:59:06Z",
+        "content": "Crypto investment products recorded their second-largest weekly outflow of 2026 by the end of May, with investors pulling $1.67 billion from digital asset funds as geopolitical tensions and a broader… [+2468 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin Outlook Hinges On A Handful Of Critical Price Zones",
+        "description": "Bitcoin is approaching a pivotal moment, with several key support and resistance levels set to determine its next major move. While bulls are fighting to maintain critical price zones and preserve the broader recovery structure, bears continue to pressure the…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-critical-price-zones/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-20.jpg?fit=612%2C374",
+        "publishedAt": "2026-06-01T17:30:54Z",
+        "content": "Bitcoin is approaching a pivotal moment, with several key support and resistance levels set to determine its next major move. While bulls are fighting to maintain critical price zones and preserve th… [+2752 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Michael Saylor breaks silence after Strategy sells $2.5 million in bitcoin",
+        "description": "Michael Saylor says Strategy aims to make STRC the world's best credit instrument after the company sold bitcoin to help fund preferred stock distributions",
+        "url": "https://www.coindesk.com/markets/2026/06/01/michael-saylor-breaks-silence-after-strategy-sells-usd2-5-million-in-bitcoin",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/059cfed16c68dadf3d82ac9759ee1fc05224f4cb-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-01T16:06:23Z",
+        "content": "Disclosure: The author of this story owns shares in Strategy (MSTR).\r\nStrategy (MSTR) Executive Chairman Michael Saylor appeared to underscore the company's focus on its perpetual preferred stock, ma… [+1597 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Vismaya V",
+        "title": "Binance Opens Access to 7,000 US Stocks, Prepares Tokenized 'bStocks' Rollout",
+        "description": "Binance opened equities trading and previewed \"bStocks,\" with experts split over whether tokenization unlocks growth or layers on new risk.",
+        "url": "https://decrypt.co/369603/binance-opens-access-to-7000-us-stocks-prepares-tokenized-bstocks-rollout",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+        "publishedAt": "2026-06-01T14:33:49Z",
+        "content": "In brief\r\n<ul><li>Binance will let non-U.S. users trade more than 7,000 U.S. stocks and ETFs with zero commission and fractional buys from $5, according to co-CEO Richard Teng.</li><li>The exchange p… [+4693 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-marketspro-one-stop-institutional-grade-crypto-intelligence-dashboard-bitcoin-1.jpg",
         "publishedAt": "2026-05-29T17:03:12Z",
         "content": "Bitcoin (BTC) deepened six-week lows at Fridays Wall Street open as US stock markets diverged to all-time highs.\r\nKey points:\r\n<ul><li>Bitcoin sinks closer to $72,000 as analysis eyes \"crucial\" BTC p… [+3268 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Bitcoin price outlook amid 9-day streak of ETF outflows",
-        "description": "Bitcoin held near $73,000 but risks crashing lower as risks linger. Spot Bitcoin ETFs saw net outflows of $229 million for a nine-day negative streak. On-chain metrics show whale balances flat for months, signaling reduced accumulation. Bitcoin traded near $7…",
-        "url": "https://coinjournal.net/news/bitcoin-price-outlook-amid-9-day-streak-of-etf-outflows/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/01/Bitcoin-extends-its-consolidation.jpg",
-        "publishedAt": "2026-05-29T14:20:32Z",
-        "content": "<ul><li>Bitcoin held near $73,000 but risks crashing lower as risks linger.</li><li>Spot Bitcoin ETFs saw net outflows of $229 million for a nine-day negative streak.</li><li>On-chain metrics show wh… [+4121 chars]"
       }
     ]
   }
