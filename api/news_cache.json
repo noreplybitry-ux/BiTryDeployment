@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-02T04:39:52.753Z",
+  "timestamp": "2026-06-02T09:13:12.792Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Bitwise completes takeover of Superstate's $259M crypto carry fund",
+        "description": "Bitwise completed its takeover of Superstate’s Crypto Carry Fund, a tokenized investment vehicle that uses market-neutral crypto trading strategies to generate yield.",
+        "url": "https://cointelegraph.com/news/bitwise-takes-over-259m-tokenized-crypto-carry-fund-from-superstate",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-crypto-deriv-could-change-the-industry-in-2024.jpg",
+        "publishedAt": "2026-06-01T07:00:00Z",
+        "content": "Bitwise completed its takeover ofSuperstate's Crypto Carry Fund (USCC), giving the asset manager control of a tokenized investment vehicle that uses market-neutral crypto trading strategies to genera… [+2554 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Anchorage rolls out platform to reduce crypto trading counterparty risk",
+        "description": "The crypto bank's new CMS platform lets institutions trade on crypto venues while keeping assets in regulated custody and reducing pre-funded accounts.",
+        "url": "https://cointelegraph.com/news/anchorage-launches-settlement-network-for-institutional-crypto-trading",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-dex-explained1.jpg",
+        "publishedAt": "2026-06-01T07:00:00Z",
+        "content": "Anchorage Digital launched a settlement platform that allows institutions to trade on crypto venues while keeping assets in custody at its federally regulated bank, which it said will help manage cou… [+2443 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "BNB Extended Price Target Says $780 Is Coming, But What About $1,000?",
+        "description": "BNB’s growth trajectory over the years has reflected the performance of the Binance crypto exchange, rising as the exchange grew. This has propelled it to become one of the largest cryptocurrencies by market cap, and with the market picking up again, expectat…",
+        "url": "http://www.newsbtc.com/analysis/bnb/bnb-extended-price-target-1000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/binance_1200x680_500kb_v2.jpg?fit=1200%2C680",
+        "publishedAt": "2026-06-01T06:30:34Z",
+        "content": "Scott Matherson is a prominent crypto writer at NewsBTC with a knack for capturing the pulse of the market, covering pivotal shifts, technological advancements, and regulatory changes with precision.… [+3106 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,32 +342,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-iStock-57.jpg?fit=612%2C408",
         "publishedAt": "2026-05-29T02:00:02Z",
         "content": "Ethereum remains under heavy pressure after slipping below a major support level, reinforcing the growing bearish outlook across the market. With fear-driven sentiment increasing and sellers maintain… [+2811 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Bearish Flag Goes Up As Expert Analyst Predicts A Massive Crash To $44,000",
-        "description": "Bitcoin’s anticipated recovery above is looking increasingly bleak due to the formation of a bearish flag. The leading cryptocurrency has fallen further below $74,000 in the past 24 hours, and one analyst believes the latest move is only another stage in a mu…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-bearish-flag-up/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Getty-Images-19.jpg?fit=612%2C393",
-        "publishedAt": "2026-05-29T00:00:41Z",
-        "content": "Bitcoin’s anticipated recovery above is looking increasingly bleak due to the formation of a bearish flag. The leading cryptocurrency has fallen further below $74,000 in the past 24 hours, and one an… [+2739 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin enters cooldown phase under $75K as ‘active distribution’ rises",
-        "description": "Bitcoin’s slide toward $73,000 triggered active distribution signals, but lowered realized losses and weak spot volumes point to easing sell pressure.",
-        "url": "https://cointelegraph.com/markets/bitcoin-enters-cooling-off-phase-under-75k-with-active-distribution-on-the-rise",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-cooling-inflation-historically-affects-bitcoin-narratives-and-price-behavior.jpg",
-        "publishedAt": "2026-05-28T20:42:52Z",
-        "content": "Bitcoin's drop below $73,000 on Wednesday marks a short-term turning point for the market, as multiple BTC distribution signals point toward rising sell-side pressure. \r\nWhile the increasing chance o… [+3421 chars]"
       }
     ]
   }
