@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-01T23:06:39.221Z",
+  "timestamp": "2026-06-02T04:39:52.753Z",
   "data": {
     "status": "ok",
     "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Slide May Not Be Over Yet—More Losses Loom",
+        "description": "Ethereum price started a fresh decline and traded below $2,000. ETH is now consolidating near $2,000 and might continue to move down. Ethereum remained in a bearish zone after a fresh decline below $2,010. The price is trading below $2,010 and the 100-hourly …",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-slide-2000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Cracks-2000.jpg?fit=1024%2C559",
+        "publishedAt": "2026-06-01T03:18:22Z",
+        "content": "Ethereum price started a fresh decline and traded below $2,000. ETH is now consolidating near $2,000 and might continue to move down.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh declin… [+2230 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Teeters Near The Edge As Bears Eye Another Breakdown",
+        "description": "Bitcoin price started a fresh decline below the $73,800 zone. BTC is consolidating and might continue to move down if it dips below $72,500. Bitcoin failed to stay above $74,200 and extended losses. The price is trading below $73,800 and the 100 hourly simple…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-teeters-near-74k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Bitcoin-Price-Breakdown.jpg",
+        "publishedAt": "2026-06-01T02:48:52Z",
+        "content": "Bitcoin price started a fresh decline below the $73,800 zone. BTC is consolidating and might continue to move down if it dips below $72,500.\r\n<ul><li>Bitcoin failed to stay above $74,200 and extended… [+2251 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Coinbase makes a major play for India’s booming $3 billion crypto market with local currency launch",
+        "description": "Coinbase announces INR rails to make the platform fully accessible to Indian retail traders.",
+        "url": "https://www.coindesk.com/markets/2026/05/31/coinbase-makes-a-major-play-for-india-s-booming-usd3-billion-crypto-market-with-local-currency-launch",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/51d936a75a196d53e2b331064e17b53e0b075f4c-728x423.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-05-31T23:30:00Z",
+        "content": "Nasdaq-listed Coinbase exchange announced Monday a major market move: the launch of direct rails for Indian rupees (INR).\r\nStarting June 1, 2026, the exchange's Indian customers can deposit and withd… [+3302 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,45 +329,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-cooling-inflation-historically-affects-bitcoin-narratives-and-price-behavior.jpg",
         "publishedAt": "2026-05-28T20:42:52Z",
         "content": "Bitcoin's drop below $73,000 on Wednesday marks a short-term turning point for the market, as multiple BTC distribution signals point toward rising sell-side pressure. \r\nWhile the increasing chance o… [+3421 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Treasury Secretary Urges CLARITY Act Passage, Saying The US Should Be Home For Crypto",
-        "description": "On Thursday, Treasury Secretary Scott Bessent urged Congress to pass the CLARITY Act, a bill that would provide the crypto industry with a regulatory framework and the long-awaited clarity it needs regarding the classification of digital assets.  Bessent Pres…",
-        "url": "http://www.newsbtc.com/crypto/treasury-secretary-urges-clarity-act-passage-saying-the-us-should-be-home-for-crypto/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/image_WWrCXf2R_1778103452783_raw.jpg",
-        "publishedAt": "2026-05-28T20:33:49Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Crypto trading firm FalconX confidentially files with SEC for IPO, hires bankers",
-        "description": "FalconX has hired Cantor and other bankers to advise on a potential IPO and confidentially filed draft paperwork with the SEC, though the listing is not expected until later this year amid volatile market conditions.",
-        "url": "https://www.coindesk.com/business/2026/05/28/crypto-trading-firm-falconx-confidentially-files-with-sec-for-ipo-hires-bankers",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/38aee79cab59a25bddb2ecd5cdc315881254baff-3024x2113.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-28T19:53:38Z",
-        "content": "Crypto trading firm FalconX has confidentially filed a draft S-1 registration statement with the Securities and Exchange Commission (SEC), the initial step toward a potential public listing, accordin… [+2156 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Ethereum (ETH) Drops Below $2,000—Why Standard Chartered Still Expects $40,000 By 2030",
-        "description": "Ethereum (ETH) has followed Bitcoin (BTC) and much of the wider crypto market lower over the past 48 hours, dropping below the key $2,000 support level and reigniting concerns among some investors that a longer bear phase could be underway.  Even with the rec…",
-        "url": "http://www.newsbtc.com/breaking-news-ticker/ethereum-eth-drops-below-2000-why-standard-chartered-still-expects-40000-by-2030/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/image_RqChPnWj_1777303873637_raw.jpg",
-        "publishedAt": "2026-05-28T18:30:54Z",
-        "content": "Ethereum (ETH) has followed Bitcoin (BTC) and much of the wider crypto market lower over the past 48 hours, dropping below the key $2,000 support level and reigniting concerns among some investors th… [+3118 chars]"
       }
     ]
   }
