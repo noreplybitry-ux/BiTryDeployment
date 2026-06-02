@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-02T18:45:22.943Z",
+  "timestamp": "2026-06-02T21:52:45.423Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Crypto investment firm Keyrock is acquiring bankrupt lender Blockfills",
+        "description": "The Brussels-based digital asset services firm plans to purchase BlockFills months after the Chicago-based company filed for Chapter 11 bankruptcy, if a court approves.",
+        "url": "https://www.coindesk.com/business/2026/06/01/crypto-investment-firm-keyrock-is-acquiring-bankrupt-lender-blockfills",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/36131f663bac2a575475bac36ff388961161adc2-3000x1688.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-01T20:48:19Z",
+        "content": "Keyrock, a Brussels-based digital asset services firm, is in the process of acquiring bankrupt crypto trading and lending firm Blockfills, according to two people with knowledge of the matter.\r\nA Key… [+3532 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin volatility is down 56% but analysts still expect up to 20% BTC price move",
+        "description": "Bitcoin’s realized volatility dropped to multi-year lows, while large holders are accumulating. Analysts say a 10% to 20% move may occur once BTC’s price compression ends.",
+        "url": "https://cointelegraph.com/markets/bitcoin-volatility-down-56-as-btc-analysts-eye-10-20-move",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-market-volatility-bitcoin-1.jpg",
+        "publishedAt": "2026-06-01T20:34:46Z",
+        "content": "Bitcoin's realized volatility has fallen to 17.2%, one of its lowest levels in recent months. Multiple Bitcoin analysts have said that long periods of price compression, alongside declining volatilit… [+3469 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/eth_4bb1ed.png?fit=1152%2C768",
         "publishedAt": "2026-05-30T03:00:51Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vince Dioquino",
-        "title": "NYSE Parent Isn't 'Freaked Out' by Hyperliquid—It's Learning From the Crypto Perps Giant",
-        "description": "Intercontinental Exchange CEO Jeffrey Sprecher said his company and Hyperliquid are learning from each other as crypto perps gain ground.",
-        "url": "https://decrypt.co/369497/nyse-parent-isnt-freaked-out-hyperliquid-learning-crypto-perps",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Hyperliquid-DecryptStyle-scaled-gID_7.jpg",
-        "publishedAt": "2026-05-29T18:14:59Z",
-        "content": "In brief\r\n<ul><li>ICE and Hyperliquid are learning from each others models and operations, ICE CEO Jeffrey Sprecher said.</li><li>Sprecher said SpaceX perps may test whether crypto prices matter befo… [+4502 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin plums new six-week lows as analyst eyes BTC price dip 'end' at $72K",
-        "description": "Bitcoin saw its lowest levels since the middle of April as BTC price action continued ot diverge from thriving US stock markets.",
-        "url": "https://cointelegraph.com/markets/bitcoin-plums-new-six-week-lows-as-analyst-eyes-btc-price-dip-end-at-72k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-marketspro-one-stop-institutional-grade-crypto-intelligence-dashboard-bitcoin-1.jpg",
-        "publishedAt": "2026-05-29T17:03:12Z",
-        "content": "Bitcoin (BTC) deepened six-week lows at Fridays Wall Street open as US stock markets diverged to all-time highs.\r\nKey points:\r\n<ul><li>Bitcoin sinks closer to $72,000 as analysis eyes \"crucial\" BTC p… [+3268 chars]"
       }
     ]
   }
