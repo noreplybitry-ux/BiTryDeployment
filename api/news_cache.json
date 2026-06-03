@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-03T04:48:49.740Z",
+  "timestamp": "2026-06-03T09:58:02.246Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Amin Haqshanas",
+        "title": "Mt. Gox moves $739M in Bitcoin from cold wallets: Arkham",
+        "description": "Mt. Gox’s first onchain movement in over two months raises fresh questions about creditor distributions  that could add selling pressure to a market already shaken by Strategy's first Bitcoin sale since 2022.",
+        "url": "https://cointelegraph.com/news/mt-gox-moves-739m-in-bitcoin-for-first-time-since-march",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/mtgox1.jpg",
+        "publishedAt": "2026-06-02T09:35:48Z",
+        "content": "Defunct Japanese crypto exchange Mt. Gox moved roughly $739 million worth of Bitcoin from its cold wallets early Tuesday, its first onchain movement in over two months, according to Arkham Intelligen… [+2395 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "The Bitcoin Retracement Rally And The Resistance Level That Could End It All",
+        "description": "Bitcoin saw its price retrace after initially moving upwards and clearing the resistance at $80,000. Eventually, though, the price ended up hitting major resistance at $82,000 and falling back downward. Now, the Bitcoin price seems to be stuck in a sideways m…",
+        "url": "http://www.newsbtc.com/news/bitcoin/the-bitcoin-retracement-rally/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin_cadeed.jpeg?fit=1536%2C1024",
+        "publishedAt": "2026-06-02T09:30:12Z",
+        "content": "Bitcoin saw its price retrace after initially moving upwards and clearing the resistance at $80,000. Eventually, though, the price ended up hitting major resistance at $82,000 and falling back downwa… [+1940 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price falls under $70K as crypto markets liquidate $800M",
+        "description": "Bitcoin continues June with a dip below $70,000, its first since mid-April, as crypto markets spark $800 million in liquidations over 24 hours.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-under-70k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/b-man-growth-falling-1.jpg",
+        "publishedAt": "2026-06-02T08:55:20Z",
+        "content": "Bitcoin (BTC) traded below $70,000 for the first time in two months on Tuesday as sellers stayed in control.\r\nKey points:\r\n<ul><li>Bitcoin drops under $70,000 to new two-month lows.</li><li>Analysis … [+2746 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Mt. Gox moves 10,422 bitcoin worth $739 million to a new wallet as deadline nears",
+        "description": "The 04:47 UTC Bitcoin block 952,072 transaction moved coins from Mt. Gox cold storage into a freshly generated address, with a smaller 116-bitcoin slice routed to the defunct exchange's hot wallet.",
+        "url": "https://www.coindesk.com/markets/2026/06/02/mt-gox-moves-10-422-bitcoin-worth-usd739-million-to-a-new-wallet-as-deadline-nears",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2e2f4d0033938e24189ea3f19906bc804998644b-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-02T06:15:02Z",
+        "content": "Defunct bitcoin exchange Mt. Gox moved 10,422.65 bitcoin BTC\r\n$70,166.74 worth roughly $739 million to a new wallet at 04:47 UTC on Tuesday, marking the largest single transfer in months and its bigg… [+1482 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,45 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/iStock-1224361225.jpg?fit=1243%2C843",
         "publishedAt": "2026-05-30T23:00:28Z",
         "content": "According to historical data, the price of Bitcoin has never posted three consecutive months of positive performance in a bear-market year. This trend is about to continue in 2026, with May looking l… [+2876 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin Records $40B+ In Capital Outflows As ‘Humpback’ Whales Intensify Selling – Details",
-        "description": "Over the last week, the Bitcoin price has continued to see sustained selling pressure, with the flagship cryptocurrency trading around $73,400. According to recent on-chain data, changes in key market structures suggest Bitcoin might remain in this bearish st…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-records-40b-in-capital-outflows-as-humpback-whales-intensify-selling-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-jakubzerdzicki-31600249.jpg?fit=3000%2C2000",
-        "publishedAt": "2026-05-30T17:00:45Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Enters Buy Zone That Previously Led To A 660% And 1,700% Rally",
-        "description": "Crypto pundit Vivek has revealed that Bitcoin has entered a buy zone that led to parabolic rallies in the previous bull cycles. This comes as analysts predict that BTC risks dropping to the psychological $70,000 level, with the leading crypto showing weakness…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-enters-buy-zone/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-from-Pixabay-20-1.jpg?fit=1280%2C853",
-        "publishedAt": "2026-05-30T14:00:12Z",
-        "content": "Crypto pundit Vivek has revealed that Bitcoin has entered a buy zone that led to parabolic rallies in the previous bull cycles. This comes as analysts predict that BTC risks dropping to the psycholog… [+2409 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin ETFs Register $4 Billion Outflows In 3 Weeks – Why This Is A Bullish Signal",
-        "description": "Following its bullish performance at the start of Q2 2026, the Bitcoin spot ETFs market has slumped into negative momentum in recent weeks, in line with the broader price correction. Data from ETF tracker shows that total net outflows for May stand at $2.30 b…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-etfs-register-4-billion-outflows-in-3-weeks-why-this-is-a-bullish-signal/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-alesiakozik-6771008.jpg?fit=1000%2C666",
-        "publishedAt": "2026-05-30T13:00:38Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
       }
     ]
   }
