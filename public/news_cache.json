@@ -1,10 +1,88 @@
 {
   "version": 3,
-  "timestamp": "2026-06-03T18:50:27.340Z",
+  "timestamp": "2026-06-03T21:54:28.434Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Crypto correction vaporized $176B in investor funds: Are bears back in control?",
+        "description": "The crypto crash reflects heavy ETF outflows, massive capital rotation into AI stocks and expectations of higher interest rates for longer.",
+        "url": "https://cointelegraph.com/markets/crypto-correction-vaporized-176b-in-investor-funds-are-bears-back-in-control",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-market-correction-vs-bear-market-key-differences-explained.jpg",
+        "publishedAt": "2026-06-02T21:16:33Z",
+        "content": "Key takeaways:\r\n<ul><li>Bitcoin's sharp 8% drop triggered $1.5 billion in forced liquidations, ending a tight two-month small-cap correlation.</li><li>Worsening market sentiment was driven by $2.1 bi… [+3169 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Strategy Shares Fall for Second Straight Day After $56 Billion Bitcoin Giant Sells BTC",
+        "description": "Shares in the leading Bitcoin treasury firm Strategy (MSTR) are now more than 70% off their 52-week high after the company sold BTC.",
+        "url": "https://decrypt.co/369788/strategy-shares-fall-second-straight-day-bitcoin-giant-sells-btc",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-06-02T20:43:39Z",
+        "content": "In brief\r\n<ul><li>Shares in Strategy (MSTR) closed down more than 9% on Tuesday, one day after selling Bitcoin for the first time since 2022.</li><li>TD Cowen maintained a $400 price target on Monday… [+2448 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Crypto In 401(k)s: Senators Sanders, Warren Letter Warns $14 Trillion At Risk From DOL Proposal",
+        "description": "Democrats in Congress are pressing back against a US Department of Labor (DOL) proposal that could significantly expand how Americans can use 401(k) retirement accounts—particularly by allowing allocations to crypto assets.  In a letter shared with The Guardi…",
+        "url": "http://www.newsbtc.com/news/crypto-in-401ks-senators-sanders-warren-letter-warns-14-trillion-at-risk-from-dol-proposal/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_qboVy8uB_1780428922708_raw.jpg",
+        "publishedAt": "2026-06-02T20:19:52Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
+        "description": "Coinbase Ventures, the exchange's venture arm, bought Ethena tokens on the open market as the protocol is set to roll out a Coinbase integration next week.",
+        "url": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-02T20:09:53Z",
+        "content": "Coinbase Ventures, the investment arm of crypto exchange Coinbase (COIN), said it had backed Ethena (ENA), buying the protocol's token on the open market as the two firms prepare to launch a new onch… [+3247 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Coinbase invests in ProShares ETF tailored for stablecoin reserve assets",
+        "description": "The exchange has invested an undisclosed amount in ProShares’ Treasury-focused ETF built for the post-GENIUS era as lawmakers debate whether stablecoin issuers can offer yield-bearing products.",
+        "url": "https://cointelegraph.com/news/coinbase-invests-proshares-etf-tailored-stablecoin-reserve-assets",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-china-is-pumping-money-out-of-the-us-with-bitcoin-2.jpg",
+        "publishedAt": "2026-06-02T20:09:26Z",
+        "content": "Crypto exchange Coinbase has invested in ProShares' stablecoin-focused money market fund, betting that demand for stablecoin reserve-management products will grow as the recently enacted GENIUS Act f… [+3030 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Where Does Bitcoin Go From Here? This Is What the Charts Say",
+        "description": "Bitcoin just had its worst day since April. The death cross is in effect, and prediction markets are bearish.",
+        "url": "https://decrypt.co/369750/bitcoin-price-next-charts-technical-analysis",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "publishedAt": "2026-06-02T19:15:29Z",
+        "content": "In brief\r\n<ul><li>Bitcoin dropped nearly 6% today to $67,287its lowest level since Aprilas macro fear and institutional selling hit in the same session.</li><li>U.S. spot Bitcoin ETFs bled $2.43 bill… [+6286 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,71 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-20.jpg?fit=612%2C374",
         "publishedAt": "2026-06-01T17:30:54Z",
         "content": "Bitcoin is approaching a pivotal moment, with several key support and resistance levels set to determine its next major move. While bulls are fighting to maintain critical price zones and preserve th… [+2752 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Michael Saylor breaks silence after Strategy sells $2.5 million in bitcoin",
-        "description": "Michael Saylor says Strategy aims to make STRC the world's best credit instrument after the company sold bitcoin to help fund preferred stock distributions",
-        "url": "https://www.coindesk.com/markets/2026/06/01/michael-saylor-breaks-silence-after-strategy-sells-usd2-5-million-in-bitcoin",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/059cfed16c68dadf3d82ac9759ee1fc05224f4cb-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-01T16:06:23Z",
-        "content": "Disclosure: The author of this story owns shares in Strategy (MSTR).\r\nStrategy (MSTR) Executive Chairman Michael Saylor appeared to underscore the company's focus on its perpetual preferred stock, ma… [+1597 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "Binance Opens Access to 7,000 US Stocks, Prepares Tokenized 'bStocks' Rollout",
-        "description": "Binance opened equities trading and previewed \"bStocks,\" with experts split over whether tokenization unlocks growth or layers on new risk.",
-        "url": "https://decrypt.co/369603/binance-opens-access-to-7000-us-stocks-prepares-tokenized-bstocks-rollout",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
-        "publishedAt": "2026-06-01T14:33:49Z",
-        "content": "In brief\r\n<ul><li>Binance will let non-U.S. users trade more than 7,000 U.S. stocks and ETFs with zero commission and fractional buys from $5, according to co-CEO Richard Teng.</li><li>The exchange p… [+4693 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Advertorial",
-        "title": "Crypto meets Wall Street: MEXC unveils 'RealStocks' with 0-fee U.S. equity trading and real dividends",
-        "description": "MEXC, a leading 0-fee cross-asset trading platform, today announced the official launch of 'RealStocks.'",
-        "url": "https://cointelegraph.com/press-releases/crypto-meets-wall-street-mexc-unveils-realstocks-with-0-fee-us-equity-trading-and-real-dividends",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/235213.jpg",
-        "publishedAt": "2026-06-01T12:40:48Z",
-        "content": "Mutsamudu, Comoros, June 1, 2026MEXC, a leading 0-fee cross-asset trading platform, today announced the official launch of 'RealStocks.' This innovative equity product is now accessible to eligible u… [+4829 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETPs post largest 2026 outflow as crypto funds bleed $1.67B",
-        "description": "Crypto ETPs see $1.67 billion in outflows as the US dominates selling, Bitcoin funds log a record 2026 exit, and altcoin participation narrows sharply across markets, according to CoinShares.",
-        "url": "https://cointelegraph.com/news/crypto-etps-bleed-1-67-billion-altcoin-participation-collapse",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-vc-funding-rates-in-crypto-markets.jpg",
-        "publishedAt": "2026-06-01T11:50:13Z",
-        "content": "Crypto investment products extended losses to three straight weeks last week amid ongoing selling pressure in markets and limited institutional demand.\r\nCrypto exchange-traded products (ETPs) recorde… [+2779 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Trend That Has Held For 15 Years Shows When To Expect The Bottom And When $400,000 Will Happen",
-        "description": "Crypto analyst Blade has pointed to a Bitcoin trend that could signal when the leading crypto could find a bottom in this bear market cycle. The analyst also suggested that BTC could rally to as high as $400,000 in the next bull market.  Bitcoin Trend Which P…",
-        "url": "http://www.newsbtc.com/news/bitcoin/when-to-expect-bitcoin-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-59.jpg?fit=612%2C436",
-        "publishedAt": "2026-06-01T11:30:33Z",
-        "content": "Crypto analyst Blade has pointed to a Bitcoin trend that could signal when the leading crypto could find a bottom in this bear market cycle. The analyst also suggested that BTC could rally to as high… [+2402 chars]"
       }
     ]
   }
