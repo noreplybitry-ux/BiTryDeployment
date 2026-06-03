@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-02T23:52:01.937Z",
+  "timestamp": "2026-06-03T04:48:49.740Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Risks Slipping Deeper Into The Red As Momentum Fades",
+        "description": "Solana failed to settle above $84 and trimmed most gains. SOL price is now consolidating losses above $78 and might continue to move down. SOL price started a fresh decline below $82 and $81.20 against the US Dollar. The price is now trading below $81.20 and …",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-risks-slipping-80/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Solana-SOL-At-Risk-of-Fresh-Bearish-Wave.jpg?fit=1024%2C572",
+        "publishedAt": "2026-06-02T04:28:27Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price $2,000 Floor Gives Way As Selling Pressure Persists",
+        "description": "Ethereum price started a fresh decline and traded below $1,980. ETH is now consolidating below $2,000 and might continue to move down. Ethereum remained in a bearish zone after a fresh decline below $2,000. The price is trading below $2,000 and the 100-hourly…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-2000-floor-gives-way/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Ethereum-Price-Falls-Back.jpg?fit=1024%2C559",
+        "publishedAt": "2026-06-02T02:28:37Z",
+        "content": "Ethereum price started a fresh decline and traded below $1,980. ETH is now consolidating below $2,000 and might continue to move down.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decli… [+2192 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Cracks Lower, Opening The Door To More Pain",
+        "description": "Bitcoin price started a fresh decline below the $72,500 zone. BTC is consolidating and might continue to move down if it dips below $70,500. Bitcoin failed to stay above $73,500 and extended losses. The price is trading below $72,500 and the 100 hourly simple…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-cracks-lower-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bleeds-Lower.jpg",
+        "publishedAt": "2026-06-02T01:22:04Z",
+        "content": "Bitcoin price started a fresh decline below the $72,500 zone. BTC is consolidating and might continue to move down if it dips below $70,500.\r\n<ul><li>Bitcoin failed to stay above $73,500 and extended… [+2196 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,58 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/pexels-alesiakozik-6771008.jpg?fit=1000%2C666",
         "publishedAt": "2026-05-30T13:00:38Z",
         "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "When the market is bad, we build: Inside Binance’s bold 2030 master plan",
-        "description": "Established crypto firms will merge with traditional finance, but neither Wall Street bankers nor corporate giants will take over the crypto industry, said Binance’s Head of VIP and Institutional, Catherine Chen.",
-        "url": "https://www.coindesk.com/business/2026/05/26/when-the-market-is-bad-we-build-inside-binance-s-bold-2030-master-plan",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/035764bcc2d39ba3ef197f0f607304beed427692-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-05-30T13:00:00Z",
-        "content": "The crypto market is struggling, competitors are either passing through hard times or pivoting to other areas, while Binance is building with eyes on increasing its active user base ten-fold to 3 bil… [+4279 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Nearly $1 Billion In Iranian Crypto Falls Into US Hands",
-        "description": "Some Iranian crypto wallet owners may not even know yet that their money is gone. Treasury Secretary Scott Bessent disclosed Friday that the US has quietly seized roughly $1 billion in digital assets tied to Iran, a figure that has nearly tripled from earlier…",
-        "url": "http://www.newsbtc.com/news/nearly-1-billion-in-iranian-crypto-falls-into-us-hands/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_6774e5.jpg?fit=3000%2C2003",
-        "publishedAt": "2026-05-30T11:30:55Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Buy Side Explodes: XRP Liquidity 7x Heavier Than Sells On Coinbase",
-        "description": "Traders watching Stellar’s 40% weekly surge are now turning their attention to XRP, asking whether the older and larger token could be next. The two assets share a long history of moving in tandem, and some analysts say the setup is starting to look familiar.…",
-        "url": "http://www.newsbtc.com/news/buy-side-explodes-xrp-liquidity-7x-heavier-than-sells-on-coinbase/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/a_d63c91.jpg?fit=1500%2C1082",
-        "publishedAt": "2026-05-30T04:00:29Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Ethereum Price Falls, But Whales Push Holdings To 10-Week High",
-        "description": "On-chain data shows large wallets on the Ethereum network have continued to accumulate despite the price decline that the asset has faced. Ethereum Holders With At Least 100,000 ETH Now Control 22% Of Supply According to data from on-chain analytics firm Sant…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-price-falls-whales-push-holdings-10-high/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/eth_4bb1ed.png?fit=1152%2C768",
-        "publishedAt": "2026-05-30T03:00:51Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       }
     ]
   }
