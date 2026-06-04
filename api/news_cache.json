@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-06-03T23:49:30.272Z",
+  "timestamp": "2026-06-04T04:43:07.015Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "$12.6 Trillion Schwab Targets Mid-2027 Crypto Trading Rollout For Advisors",
+        "description": "Charles Schwab is preparing to push deeper into crypto by targeting a 2027 rollout of spot trading, transfer, and custody capabilities for financial advisors on its custody platform. The move would bring direct digital asset access closer to one of the larges…",
+        "url": "http://www.newsbtc.com/news/schwab-mid-2027-crypto-rollout-advisors/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-2.-Juni-2026-14_14_28.png?fit=1333%2C750",
+        "publishedAt": "2026-06-03T03:00:03Z",
+        "content": "Charles Schwab is preparing to push deeper into crypto by targeting a 2027 rollout of spot trading, transfer, and custody capabilities for financial advisors on its custody platform. The move would b… [+3283 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Bitcoin Crash Explained: Binance Research Blames Outflows Toward US Equities",
+        "description": "The broader crypto market has endured one of its toughest weeks of the year, with $1.5 billion in liquidations recorded since Monday alone. The pressure intensified as Bitcoin (BTC) slipped back below the $67,000 level for the first time since April, a move t…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-crash-explained-binance-research-blames-outflows-toward-us-equities/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_LbGK90l3_1780453224049_raw.jpg",
+        "publishedAt": "2026-06-03T02:30:57Z",
+        "content": "The broader crypto market has endured one of its toughest weeks of the year, with $1.5 billion in liquidations recorded since Monday alone. The pressure intensified as Bitcoin (BTC) slipped back belo… [+2756 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Crypto Treasury Flows Lose Steam, Marking Deepest Drop Since 2024",
+        "description": "Bitcoin carried nearly all of May’s inflows. Monthly flows into crypto treasury companies dropped to $180 million for the month, the weakest level since October 2024, and Bitcoin-linked firms accounted for almost all of it with $177 million. Smaller additions…",
+        "url": "http://www.newsbtc.com/news/crypto-treasury-flows-lose-steam-marking-deepest-drop-since-2024/",
+        "urlToImage": null,
+        "publishedAt": "2026-06-03T02:00:37Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Gets Crushed To $1,840 Amid Relentless Selling Pressure",
+        "description": "Ethereum price started a fresh decline and traded below $1,950. ETH is now consolidating below $1,920 and might continue to move down. Ethereum remained in a bearish zone after a fresh decline below $1,950. The price is trading below $1,950 and the 100-hourly…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-gets-crushed-1840/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Ethereum-Price-Flashes-Bearish-Bias.jpg?fit=1024%2C572",
+        "publishedAt": "2026-06-03T01:58:38Z",
+        "content": "Ethereum price started a fresh decline and traded below $1,950. ETH is now consolidating below $1,920 and might continue to move down.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decli… [+2124 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price In Freefall As Panic Sweeps Through The Market",
+        "description": "Bitcoin price started a fresh decline below the $70,000 zone. BTC is consolidating and might continue to move down if it dips below $66,000. Bitcoin failed to stay above $70,500 and extended losses. The price is trading below $70,000 and the 100 hourly simple…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-in-freefall-70k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-Price-Weakens-Further.jpg",
+        "publishedAt": "2026-06-03T01:14:16Z",
+        "content": "Bitcoin price started a fresh decline below the $70,000 zone. BTC is consolidating and might continue to move down if it dips below $66,000.\r\n<ul><li>Bitcoin failed to stay above $70,500 and extended… [+2197 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bleeds-Lower.jpg",
         "publishedAt": "2026-06-02T01:22:04Z",
         "content": "Bitcoin price started a fresh decline below the $72,500 zone. BTC is consolidating and might continue to move down if it dips below $70,500.\r\n<ul><li>Bitcoin failed to stay above $73,500 and extended… [+2196 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Crypto investment firm Keyrock is acquiring bankrupt lender Blockfills",
-        "description": "The Brussels-based digital asset services firm plans to purchase BlockFills months after the Chicago-based company filed for Chapter 11 bankruptcy, if a court approves.",
-        "url": "https://www.coindesk.com/business/2026/06/01/crypto-investment-firm-keyrock-is-acquiring-bankrupt-lender-blockfills",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/36131f663bac2a575475bac36ff388961161adc2-3000x1688.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-01T20:48:19Z",
-        "content": "Keyrock, a Brussels-based digital asset services firm, is in the process of acquiring bankrupt crypto trading and lending firm Blockfills, according to two people with knowledge of the matter.\r\nA Key… [+3532 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin volatility is down 56% but analysts still expect up to 20% BTC price move",
-        "description": "Bitcoin’s realized volatility dropped to multi-year lows, while large holders are accumulating. Analysts say a 10% to 20% move may occur once BTC’s price compression ends.",
-        "url": "https://cointelegraph.com/markets/bitcoin-volatility-down-56-as-btc-analysts-eye-10-20-move",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-market-volatility-bitcoin-1.jpg",
-        "publishedAt": "2026-06-01T20:34:46Z",
-        "content": "Bitcoin's realized volatility has fallen to 17.2%, one of its lowest levels in recent months. Multiple Bitcoin analysts have said that long periods of price compression, alongside declining volatilit… [+3469 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun, AI Boost",
-        "title": "Crypto funds suffer second-largest outflows of 2026 while XRP and HYPE attract inflows",
-        "description": "Investors pulled $1.67 billion from digital asset investment products last week, with bitcoin funds posting their largest weekly outflow of the year, according to a recent report from CoinShares.",
-        "url": "https://www.coindesk.com/markets/2026/06/01/crypto-funds-suffer-second-largest-outflows-of-2026-while-xrp-and-hype-attract-inflows",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f84a9af95d2e707c92c9152b260c498874be2af9-8660x5773.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-01T17:59:06Z",
-        "content": "Crypto investment products recorded their second-largest weekly outflow of 2026 by the end of May, with investors pulling $1.67 billion from digital asset funds as geopolitical tensions and a broader… [+2468 chars]"
       }
     ]
   }
