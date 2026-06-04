@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-06-04T12:05:45.079Z",
+  "timestamp": "2026-06-04T16:23:20.454Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Alex Tapscott, Aisha Hunt",
+        "title": "Crypto Long & Short: What about the American consumer?",
+        "description": "In this week's Crypto Long & Short, Alex Tapscott on the stalling of the CLARITY Act and how it's impacting the average American consumer. Then, Aisha Hunt writes that crypto will grow by upgrading Wall Street’s trusted products rather than replacing them.",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/06/03/crypto-long-and-short-what-about-the-american-consumer",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7af860474a30480e57de30f681ca9abb796d2a0d-5520x3680.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-03T16:13:51Z",
+        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Alex Tapscott on the stalling of the CLARITY Act and how its impacting the average American consumer.</li><li>Ais… [+10606 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Binance discloses revenue-sharing deal with Alpaca",
+        "description": "A Binance legal document disclosed a revenue-sharing agreement with Alpaca, which includes sharing 50% of the stock custodian’s order flow revenue with the cryptocurrency exchange.",
+        "url": "https://cointelegraph.com/news/binance-partnership-tokenized-stock-custodian-alpaca",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-experienced-traders-prefer-to-trade-on-desktop-computers-a-new-study-reveals3.jpg",
+        "publishedAt": "2026-06-03T15:05:30Z",
+        "content": "Binance disclosed a revenue-sharing arrangement with custodian and brokerage infrastructure API provider Alpaca, which has become a major infrastructure provider in the custody of tokenized US stocks… [+2764 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Binance to end NFT support on exchange, shift service to wallet",
+        "description": "Binance exchange said it will move NFT support from its exchange to its non-custodial wallet and offered users 30 days to migrate their NFTs.",
+        "url": "https://cointelegraph.com/news/binance-exchange-halt-nft-services-binance-wallet",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-binance-delisting-bitcoin-sv322.jpg",
+        "publishedAt": "2026-06-03T14:47:23Z",
+        "content": "Binance announced it is shutting down support for non-fungible tokens on Binance Exchange and moving NFT management to its self-custodial cryptocurrency wallet, Binance Wallet. \r\nThe exchange said th… [+2035 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Here’s Why The Bitcoin Price Is Crashing And What To Expect Next",
+        "description": "The Bitcoin price has suffered a significant crash, falling from above the psychological $70,000 this week. Crypto pundit Nobler cited why the leading crypto was crashing, while analyst Chiefy revealed what to expect next from BTC.  Why The Bitcoin Price Is C…",
+        "url": "http://www.newsbtc.com/news/bitcoin/why-bitcoin-price-is-crashing/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-9.jpg?fit=1280%2C853",
+        "publishedAt": "2026-06-03T14:30:50Z",
+        "content": "The Bitcoin price has suffered a significant crash, falling from above the psychological $70,000 this week. Crypto pundit Nobler cited why the leading crypto was crashing, while analyst Chiefy reveal… [+2644 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Bitcoin Falls Below $67k as MSTR Plummets",
+        "description": "The fallout from Saylor’s first Bitcoin sale in years keeps spreading, while Bernie Sanders and Elizabeth Warren want crypto out of your 401(k).",
+        "url": "https://decrypt.co/369839/morning-minute-bitcoin-falls-below-67k-as-mstr-plummets",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
+        "publishedAt": "2026-06-03T12:47:43Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8433 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,84 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-06-02T12:14:51Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+6382 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin back in ‘distribution phase’ as extreme fear grips crypto market",
-        "description": "Bitcoin slips below $70,000 as rising losses, exchange inflows and extreme fear signal a renewed distribution phase.",
-        "url": "https://cointelegraph.com/markets/bitcoin-back-in-distribution-phase-as-fear-grips-crypto-market",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/btc-cover-june-2.jpg",
-        "publishedAt": "2026-06-02T11:09:56Z",
-        "content": "Bitcoin (BTC) sellers took control during the European trading session on Tuesday as the BTC/USD pair slipped below the $70,000 mark for the first time since April.\r\nAnalysts said that Bitcoin has en… [+4075 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Benson Toti",
-        "title": "Bitcoin crashes below $70K as ETF exodus and Mt. Gox fears intensify",
-        "description": "Bitcoin price has dipped to under $70,000 for the first time since early April. Negative triggers include ETF outflows, corporate sales, and large on‑chain transfers. With macro and geopolitical volatility persisting, bulls may struggle to reclaim recent high…",
-        "url": "https://coinjournal.net/news/bitcoin-crashes-below-70k-as-etf-exodus-and-mt-gox-fears-intensify/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/Bitcoin-price-outlook.png",
-        "publishedAt": "2026-06-02T10:47:34Z",
-        "content": "<ul><li>Bitcoin price has dipped to under $70,000 for the first time since early April.</li><li>Negative triggers include ETF outflows, corporate sales, and large on‑chain transfers.</li><li>With mac… [+3147 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Robinhood Just Acquired Canada’s Biggest Crypto Platform — And Brought 300,000 New Customers With It",
-        "description": "Robinhood Markets has closed its acquisition of WonderFi, a Canadian leader in digital asset products and services, marking the US trading platform’s formal entry into Canada and pushing its total international funded customer base past 1 million for the firs…",
-        "url": "http://www.newsbtc.com/news/robinhood-just-acquired-canadas-biggest-crypto-platform-and-brought-300000-new-customers-with-it/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/robinhood_crypto_bitcoin_btc_btcusd_50.png",
-        "publishedAt": "2026-06-02T10:06:54Z",
-        "content": "Robinhood Markets has closed its acquisition of WonderFi, a Canadian leader in digital asset products and services, marking the US trading platform’s formal entry into Canada and pushing its total in… [+2913 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Amin Haqshanas",
-        "title": "Mt. Gox moves $739M in Bitcoin from cold wallets: Arkham",
-        "description": "Mt. Gox’s first onchain movement in over two months raises fresh questions about creditor distributions  that could add selling pressure to a market already shaken by Strategy's first Bitcoin sale since 2022.",
-        "url": "https://cointelegraph.com/news/mt-gox-moves-739m-in-bitcoin-for-first-time-since-march",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/mtgox1.jpg",
-        "publishedAt": "2026-06-02T09:35:48Z",
-        "content": "Defunct Japanese crypto exchange Mt. Gox moved roughly $739 million worth of Bitcoin from its cold wallets early Tuesday, its first onchain movement in over two months, according to Arkham Intelligen… [+2395 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "The Bitcoin Retracement Rally And The Resistance Level That Could End It All",
-        "description": "Bitcoin saw its price retrace after initially moving upwards and clearing the resistance at $80,000. Eventually, though, the price ended up hitting major resistance at $82,000 and falling back downward. Now, the Bitcoin price seems to be stuck in a sideways m…",
-        "url": "http://www.newsbtc.com/news/bitcoin/the-bitcoin-retracement-rally/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin_cadeed.jpeg?fit=1536%2C1024",
-        "publishedAt": "2026-06-02T09:30:12Z",
-        "content": "Bitcoin saw its price retrace after initially moving upwards and clearing the resistance at $80,000. Eventually, though, the price ended up hitting major resistance at $82,000 and falling back downwa… [+1940 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price falls under $70K as crypto markets liquidate $800M",
-        "description": "Bitcoin continues June with a dip below $70,000, its first since mid-April, as crypto markets spark $800 million in liquidations over 24 hours.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-under-70k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/b-man-growth-falling-1.jpg",
-        "publishedAt": "2026-06-02T08:55:20Z",
-        "content": "Bitcoin (BTC) traded below $70,000 for the first time in two months on Tuesday as sellers stayed in control.\r\nKey points:\r\n<ul><li>Bitcoin drops under $70,000 to new two-month lows.</li><li>Analysis … [+2746 chars]"
       }
     ]
   }
