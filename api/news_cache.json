@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-04T08:54:08.564Z",
+  "timestamp": "2026-06-04T12:05:45.079Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Bitcoin hits Power Law level low that historically precedes a rebound",
+        "description": "The power law model shows BTC trading at one of its deepest discounts relative to trend, a level previously seen during the March 2020 crash and FTX collapse.",
+        "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-hits-power-law-level-low-that-historically-precedes-a-rebound",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c8f10304209001032cc2df38ebb6f22b4479aae6-1920x963.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-03T12:01:45Z",
+        "content": "After briefly falling below $66,000 on Wednesday, bitcoin BTC\r\n$66,899.95 is trading near the bottom of the Power Law corridor, a level that has historically come shortly before rebounds in the price… [+1299 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nancy Lubale",
+        "title": "Bitcoin's crash to $65K triggers $1.8B in crypto liquidations",
+        "description": "Bitcoin plunged to nine-week lows around $65,000, wiping out $1.8 billion in crypto positions and raising fears of a deeper move toward $60,000.",
+        "url": "https://cointelegraph.com/markets/bitcoins-crash-to-65k-triggers-18b-in-crypto-liquidations",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/twin-peaks-price-falling-down-red-new211.jpg",
+        "publishedAt": "2026-06-03T10:48:51Z",
+        "content": "Bitcoin (BTC) has dropped 8% to a nine-week low of $65,360 from Tuesdays high of $71,300 amid increasing geopolitical risks surrounding the US-Iran war.\r\nKey takeaways:\r\n<ul><li>Bitcoin slipped to $6… [+3458 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/b-man-growth-falling-1.jpg",
         "publishedAt": "2026-06-02T08:55:20Z",
         "content": "Bitcoin (BTC) traded below $70,000 for the first time in two months on Tuesday as sellers stayed in control.\r\nKey points:\r\n<ul><li>Bitcoin drops under $70,000 to new two-month lows.</li><li>Analysis … [+2746 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Mt. Gox moves 10,422 bitcoin worth $739 million to a new wallet as deadline nears",
-        "description": "The 04:47 UTC Bitcoin block 952,072 transaction moved coins from Mt. Gox cold storage into a freshly generated address, with a smaller 116-bitcoin slice routed to the defunct exchange's hot wallet.",
-        "url": "https://www.coindesk.com/markets/2026/06/02/mt-gox-moves-10-422-bitcoin-worth-usd739-million-to-a-new-wallet-as-deadline-nears",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2e2f4d0033938e24189ea3f19906bc804998644b-1440x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-02T06:15:02Z",
-        "content": "Defunct bitcoin exchange Mt. Gox moved 10,422.65 bitcoin BTC\r\n$70,166.74 worth roughly $739 million to a new wallet at 04:47 UTC on Tuesday, marking the largest single transfer in months and its bigg… [+1482 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Solana (SOL) Risks Slipping Deeper Into The Red As Momentum Fades",
-        "description": "Solana failed to settle above $84 and trimmed most gains. SOL price is now consolidating losses above $78 and might continue to move down. SOL price started a fresh decline below $82 and $81.20 against the US Dollar. The price is now trading below $81.20 and …",
-        "url": "http://www.newsbtc.com/analysis/solana-sol-risks-slipping-80/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Solana-SOL-At-Risk-of-Fresh-Bearish-Wave.jpg?fit=1024%2C572",
-        "publishedAt": "2026-06-02T04:28:27Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
