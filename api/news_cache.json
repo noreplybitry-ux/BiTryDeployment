@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-04T21:46:32.656Z",
+  "timestamp": "2026-06-04T23:13:46.891Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "‘Coldest Crypto Winter Ever’: Bloomberg’s Weisenthal Lists 12 Reasons",
+        "description": "Bloomberg’s Joe Weisenthal has revived and expanded his argument that crypto is stuck in what he calls the “coldest crypto winter ever,” pointing to a 12-part case that goes beyond price action and into market psychology, capital rotation, regulation, AI and …",
+        "url": "http://www.newsbtc.com/news/coldest-crypto-winter-ever-weisenthal-12-reasons/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-3.-Juni-2026-12_15_13.png?fit=1333%2C750",
+        "publishedAt": "2026-06-03T22:00:53Z",
+        "content": "Bloombergs Joe Weisenthal has revived and expanded his argument that crypto is stuck in what he calls the coldest crypto winter ever, pointing to a 12-part case that goes beyond price action and into… [+4228 chars]"
+      },
       {
         "source": {
           "id": null,
