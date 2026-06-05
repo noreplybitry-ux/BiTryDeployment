@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-04T23:13:46.891Z",
+  "timestamp": "2026-06-05T04:17:20.546Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "XRP Price Takes Another Hit As Bitcoin-Led Weakness Spreads Across Crypto",
+        "description": "XRP price extended losses and traded below $1.20. The price is now consolidating losses and faces hurdles near $1.1920 and $1.1950. XRP price started another decline and traded below the $1.20 zone. The price is now trading below $1.20 and the 100-hourly Simp…",
+        "url": "http://www.newsbtc.com/analysis/xrp/xrp-price-takes-another-hit-1-15/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/XRP-Price-Trims-Upside.jpg?fit=1024%2C572",
+        "publishedAt": "2026-06-04T03:58:14Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Plunges Under $1,800, Leaving Bulls On The Ropes",
+        "description": "Ethereum price started a fresh decline and traded below $1,800. ETH is now consolidating below $1,800 and might continue to move down. Ethereum remained in a bearish zone after a fresh decline below $1,840. The price is trading below $1,800 and the 100-hourly…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-plunges-1800/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Ethereum-Sheds.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-06-04T02:38:39Z",
+        "content": "Ethereum price started a fresh decline and traded below $1,800. ETH is now consolidating below $1,800 and might continue to move down.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decli… [+2117 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price 10% Selloff Sparks Fears Of A Deeper Breakdown",
+        "description": "Bitcoin price started a fresh decline below the $68,000 zone. BTC is down over 10% and might continue to move down if it dips below $62,000. Bitcoin failed to stay above $68,500 and extended losses. The price is trading below $65,000 and the 100 hourly simple…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-10-selloff-62k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bounce-Looks-Hollow.jpg",
+        "publishedAt": "2026-06-04T01:56:20Z",
+        "content": "Bitcoin price started a fresh decline below the $68,000 zone. BTC is down over 10% and might continue to move down if it dips below $62,000.\r\n<ul><li>Bitcoin failed to stay above $68,500 and extended… [+2194 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Ethereum Weakness May Be Final Phase Before Next Market Expansion",
+        "description": "Ethereum is being watched for what one analyst sees as a possible last stretch of weakness before a larger move higher. The call centers on the coin’s three-day chart, where traders are following support closely as the market works through a fresh round of co…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-weakness-may-be-final-phase-before-next-market-expansion/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_605bec.jpg?fit=1278%2C720",
+        "publishedAt": "2026-06-04T01:00:35Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,58 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_MTBrWsI2_1780416356787_raw.jpg",
         "publishedAt": "2026-06-02T16:11:51Z",
         "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Ethereum Signals Strength As Citigroup Eyes $5.5 Trillion Tokenized Asset Boom",
-        "description": "Ethereum’s funding rate climbed to its highest level since August 23, 2025 on May 31, even as the token slipped below the $2,000 mark. The move pointed to heavy long positioning, and that crowding showed up again on June 1 when about $84 million in long ETH b…",
-        "url": "http://www.newsbtc.com/altcoin/ethereum-signals-strength-as-citigroup-eyes-5-5t-tokenized-asset-boom/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-02T15:00:36Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "HIVE Bitcoin holdings drop by 331 BTC in Q1, reports record $298M revenue",
-        "description": "HIVE Digital Technologies reported 150 Bitcoin in treasury after a quarterly decline of 331 BTC, while annual revenue climbed to $297.8 million.",
-        "url": "https://cointelegraph.com/news/hive-sells-331-btc-q1-record-298-million-revenue",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-wealthfront-and-how-it-works.jpg",
-        "publishedAt": "2026-06-02T14:14:02Z",
-        "content": "Canadian Bitcoin miner HIVE Digital Technologies Bitcoin holdings fell by 331 BTC in the latest quarter, even as the miner reported a sharp rise in annual revenue from Bitcoin mining and high-perform… [+2305 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Steve Bailey",
-        "title": "How to better understand bitcoin’s perpetual identity crisis",
-        "description": "Here, Bailey unpacks the uncertainty surrounding the original cryptocurrency’s nature, which creates inconsistent market behavior.",
-        "url": "https://www.coindesk.com/opinion/2026/06/02/how-to-better-understand-bitcoin-s-perpetual-identity-crisis",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e92b7aae00410ca8e015474b9b2c6d42dad8ff33-4000x3000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-02T14:08:52Z",
-        "content": "Bitcoin occupies a fascinating classification gray zone: part commodity, part currency, part technology asset, part macro hedge. Far from being a mere philosophical curiosity, that ambiguity is the d… [+6077 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Moves Into Accumulation Zone That Will Send It On Next All-Time High Run To $250,000",
-        "description": "Crypto analyst Aralez has revealed that Bitcoin is entering an accumulation zone that could propel it to a new all-time high (ATH). The analyst signaled that BTC could rally to as high as $250,000 in the next bull market.  Analyst Reveals Bitcoin Entering Maj…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-accumulation-zone/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-60.jpg?fit=1280%2C853",
-        "publishedAt": "2026-06-02T13:30:32Z",
-        "content": "Crypto analyst Aralez has revealed that Bitcoin is entering an accumulation zone that could propel it to a new all-time high (ATH). The analyst signaled that BTC could rally to as high as $250,000 in… [+2437 chars]"
       }
     ]
   }
