@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-05T16:01:51.120Z",
+  "timestamp": "2026-06-05T19:00:01.227Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "James Halver",
+        "title": "Standard Chartered Just Issued A Bitcoin Warning — And The 3 Triggers Are Already In Motion",
+        "description": "Standard Chartered’s head of digital assets research, Geoff Kendrick, has outlined three specific scenarios that stand between Bitcoin and a new market low — a sobering analysis arriving as Bitcoin trades near $62,562, its lowest level since the February lows…",
+        "url": "http://www.newsbtc.com/bitcoin-news/standard-chartered-just-issued-a-bitcoin-warning-and-the-3-triggers-are-already-in-motion/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-btc-btcusd-.jpg?fit=1168%2C784",
+        "publishedAt": "2026-06-04T18:00:26Z",
+        "content": "Standard Chartered’s head of digital assets research, Geoff Kendrick, has outlined three specific scenarios that stand between Bitcoin and a new market low a sobering analysis arriving as Bitcoin tra… [+3223 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Crypto Billionaires Donate $9.4M to Farage’s Reform UK in Q1",
+        "description": "Tether investor Christopher Harborne and BitMEX co-founder Ben Delo’s outspent Britain's traditional political donors.",
+        "url": "https://decrypt.co/370059/crypto-billionaires-donate-9-4m-to-farages-reform-uk-in-q1",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg",
+        "publishedAt": "2026-06-04T17:20:39Z",
+        "content": "In brief\r\nTether billionaire Christopher Harborne donated another £3 million to Reform UK in the first quarter of the year.\r\nBitMEX co-founder Ben Delo donated a further £4 million across two donatio… [+3668 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Why It’s Time To Start Paying Attention To Solana Before It Stages A Repeat Of 2024",
+        "description": "Crypto analyst Crypto Patel has made a bullish case for Solana, explaining why it is time to start paying attention to the crypto asset. This came as he noted that SOL has printed 8 consecutive red monthly candles for the first time in its history.  Why It Is…",
+        "url": "http://www.newsbtc.com/news/solana/pay-attention-to-solana/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Solana-from-Adobe-Stock-18.jpg?fit=583%2C360",
+        "publishedAt": "2026-06-04T16:30:11Z",
+        "content": "Crypto analyst Crypto Patel has made a bullish case for Solana, explaining why it is time to start paying attention to the crypto asset. This came as he noted that SOL has printed 8 consecutive red m… [+2477 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,71 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/btc.png?fit=1152%2C768",
         "publishedAt": "2026-06-03T05:00:37Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "$12.6 Trillion Schwab Targets Mid-2027 Crypto Trading Rollout For Advisors",
-        "description": "Charles Schwab is preparing to push deeper into crypto by targeting a 2027 rollout of spot trading, transfer, and custody capabilities for financial advisors on its custody platform. The move would bring direct digital asset access closer to one of the larges…",
-        "url": "http://www.newsbtc.com/news/schwab-mid-2027-crypto-rollout-advisors/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-2.-Juni-2026-14_14_28.png?fit=1333%2C750",
-        "publishedAt": "2026-06-03T03:00:03Z",
-        "content": "Charles Schwab is preparing to push deeper into crypto by targeting a 2027 rollout of spot trading, transfer, and custody capabilities for financial advisors on its custody platform. The move would b… [+3283 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bitcoin Crash Explained: Binance Research Blames Outflows Toward US Equities",
-        "description": "The broader crypto market has endured one of its toughest weeks of the year, with $1.5 billion in liquidations recorded since Monday alone. The pressure intensified as Bitcoin (BTC) slipped back below the $67,000 level for the first time since April, a move t…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-crash-explained-binance-research-blames-outflows-toward-us-equities/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_LbGK90l3_1780453224049_raw.jpg",
-        "publishedAt": "2026-06-03T02:30:57Z",
-        "content": "The broader crypto market has endured one of its toughest weeks of the year, with $1.5 billion in liquidations recorded since Monday alone. The pressure intensified as Bitcoin (BTC) slipped back belo… [+2756 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Crypto Treasury Flows Lose Steam, Marking Deepest Drop Since 2024",
-        "description": "Bitcoin carried nearly all of May’s inflows. Monthly flows into crypto treasury companies dropped to $180 million for the month, the weakest level since October 2024, and Bitcoin-linked firms accounted for almost all of it with $177 million. Smaller additions…",
-        "url": "http://www.newsbtc.com/news/crypto-treasury-flows-lose-steam-marking-deepest-drop-since-2024/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-03T02:00:37Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Gets Crushed To $1,840 Amid Relentless Selling Pressure",
-        "description": "Ethereum price started a fresh decline and traded below $1,950. ETH is now consolidating below $1,920 and might continue to move down. Ethereum remained in a bearish zone after a fresh decline below $1,950. The price is trading below $1,950 and the 100-hourly…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-gets-crushed-1840/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Ethereum-Price-Flashes-Bearish-Bias.jpg?fit=1024%2C572",
-        "publishedAt": "2026-06-03T01:58:38Z",
-        "content": "Ethereum price started a fresh decline and traded below $1,950. ETH is now consolidating below $1,920 and might continue to move down.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decli… [+2124 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price In Freefall As Panic Sweeps Through The Market",
-        "description": "Bitcoin price started a fresh decline below the $70,000 zone. BTC is consolidating and might continue to move down if it dips below $66,000. Bitcoin failed to stay above $70,500 and extended losses. The price is trading below $70,000 and the 100 hourly simple…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-in-freefall-70k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-Price-Weakens-Further.jpg",
-        "publishedAt": "2026-06-03T01:14:16Z",
-        "content": "Bitcoin price started a fresh decline below the $70,000 zone. BTC is consolidating and might continue to move down if it dips below $66,000.\r\n<ul><li>Bitcoin failed to stay above $70,500 and extended… [+2197 chars]"
       }
     ]
   }
