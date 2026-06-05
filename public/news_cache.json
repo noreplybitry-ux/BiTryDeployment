@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-05T12:13:00.610Z",
+  "timestamp": "2026-06-05T16:01:51.120Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "DOJ Task Force Freezes $3.8M in Illicit Crypto—With Help From Coinbase, SpaceX and Meta",
+        "description": "Some of America's biggest companies helped squash crypto fraud stemming from organized crime in Southeast Asia.",
+        "url": "https://decrypt.co/370005/doj-task-force-freezes-3-8m-illicit-crypto-help-fcoinbase-spacex-meta",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+        "publishedAt": "2026-06-04T15:44:31Z",
+        "content": "In brief\r\n<ul><li>Private sector firms like Coinbase, Apple, and SpaceX collaborated with government agencies to help curb crypto fraud.</li><li>The collaboration led to more than $3.8 million in fro… [+2822 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "British Teen Sanctioned By Russia After Alleging Crypto Use to Evade Sanctions",
+        "description": "The teenager's research into Russia’s alleged illicit crypto flows appears to have prompted Moscow's retaliation.",
+        "url": "https://decrypt.co/370002/british-teen-sanctioned-russia-alleging-crypto-evade-sanctions",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/russia-moscow-red-square-kremlin-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-06-04T14:27:40Z",
+        "content": "In brief\r\n<ul><li>A 17-year-old British student was sanctioned by Russia's Foreign Ministry along with four other British nationals.</li><li>The student is believed to be the youngest person ever san… [+3158 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin’s $60K Range Seen As Potential Long-Term Accumulation Zone, Analyst Says",
+        "description": "A heavy wave of US Treasury issuance, a $250 billion IPO pipeline, and a shift in big tech cash toward AI spending are among the pressures Jamie Coutts says could keep markets tight for a while longer. The Real Vision chief crypto analyst still thinks Bitcoin…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoins-60k-range-seen-as-potential-long-term-accumulation-zone-analyst-says/",
+        "urlToImage": null,
+        "publishedAt": "2026-06-04T14:00:11Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,84 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/Bitcoin-Price-Weakens-Further.jpg",
         "publishedAt": "2026-06-03T01:14:16Z",
         "content": "Bitcoin price started a fresh decline below the $70,000 zone. BTC is consolidating and might continue to move down if it dips below $66,000.\r\n<ul><li>Bitcoin failed to stay above $70,500 and extended… [+2197 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Crypto correction vaporized $176B in investor funds: Are bears back in control?",
-        "description": "The crypto crash reflects heavy ETF outflows, massive capital rotation into AI stocks and expectations of higher interest rates for longer.",
-        "url": "https://cointelegraph.com/markets/crypto-correction-vaporized-176b-in-investor-funds-are-bears-back-in-control",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-market-correction-vs-bear-market-key-differences-explained.jpg",
-        "publishedAt": "2026-06-02T21:16:33Z",
-        "content": "Key takeaways:\r\n<ul><li>Bitcoin's sharp 8% drop triggered $1.5 billion in forced liquidations, ending a tight two-month small-cap correlation.</li><li>Worsening market sentiment was driven by $2.1 bi… [+3169 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Strategy Shares Fall for Second Straight Day After $56 Billion Bitcoin Giant Sells BTC",
-        "description": "Shares in the leading Bitcoin treasury firm Strategy (MSTR) are now more than 70% off their 52-week high after the company sold BTC.",
-        "url": "https://decrypt.co/369788/strategy-shares-fall-second-straight-day-bitcoin-giant-sells-btc",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-06-02T20:43:39Z",
-        "content": "In brief\r\n<ul><li>Shares in Strategy (MSTR) closed down more than 9% on Tuesday, one day after selling Bitcoin for the first time since 2022.</li><li>TD Cowen maintained a $400 price target on Monday… [+2448 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Crypto In 401(k)s: Senators Sanders, Warren Letter Warns $14 Trillion At Risk From DOL Proposal",
-        "description": "Democrats in Congress are pressing back against a US Department of Labor (DOL) proposal that could significantly expand how Americans can use 401(k) retirement accounts—particularly by allowing allocations to crypto assets.  In a letter shared with The Guardi…",
-        "url": "http://www.newsbtc.com/news/crypto-in-401ks-senators-sanders-warren-letter-warns-14-trillion-at-risk-from-dol-proposal/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_qboVy8uB_1780428922708_raw.jpg",
-        "publishedAt": "2026-06-02T20:19:52Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
-        "description": "Coinbase Ventures, the exchange's venture arm, bought Ethena tokens on the open market as the protocol is set to roll out a Coinbase integration next week.",
-        "url": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-02T20:09:53Z",
-        "content": "Coinbase Ventures, the investment arm of crypto exchange Coinbase (COIN), said it had backed Ethena (ENA), buying the protocol's token on the open market as the two firms prepare to launch a new onch… [+3247 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Coinbase invests in ProShares ETF tailored for stablecoin reserve assets",
-        "description": "The exchange has invested an undisclosed amount in ProShares’ Treasury-focused ETF built for the post-GENIUS era as lawmakers debate whether stablecoin issuers can offer yield-bearing products.",
-        "url": "https://cointelegraph.com/news/coinbase-invests-proshares-etf-tailored-stablecoin-reserve-assets",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-china-is-pumping-money-out-of-the-us-with-bitcoin-2.jpg",
-        "publishedAt": "2026-06-02T20:09:26Z",
-        "content": "Crypto exchange Coinbase has invested in ProShares' stablecoin-focused money market fund, betting that demand for stablecoin reserve-management products will grow as the recently enacted GENIUS Act f… [+3030 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Where Does Bitcoin Go From Here? This Is What the Charts Say",
-        "description": "Bitcoin just had its worst day since April. The death cross is in effect, and prediction markets are bearish.",
-        "url": "https://decrypt.co/369750/bitcoin-price-next-charts-technical-analysis",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
-        "publishedAt": "2026-06-02T19:15:29Z",
-        "content": "In brief\r\n<ul><li>Bitcoin dropped nearly 6% today to $67,287its lowest level since Aprilas macro fear and institutional selling hit in the same session.</li><li>U.S. spot Bitcoin ETFs bled $2.43 bill… [+6286 chars]"
       }
     ]
   }
