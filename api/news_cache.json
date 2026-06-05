@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-05T19:00:01.227Z",
+  "timestamp": "2026-06-05T20:52:24.270Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin fell 21% after Strategy’s debt buyback news— Is a Terra Luna-style doom loop next?",
+        "description": "Bitcoin price collapsed as Strategy faced tighter liquidity conditions and paused its BTC buying. Is it time to jump ship, or buy the dip?",
+        "url": "https://cointelegraph.com/markets/bitcoin-fell-21-after-strategys-debt-buyback-news-is-a-terra-luna-style-doom-loop-next",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-red2.jpg",
+        "publishedAt": "2026-06-04T20:37:58Z",
+        "content": "Key takeaways:\r\n<ul><li>Strategy faces tighter short-term liquidity, but its conservative 11% net leverage protects it from forced BTC liquidations.</li><li>A Bitcoin rally above $70,000 remains unli… [+3333 chars]"
+      },
       {
         "source": {
           "id": null,
