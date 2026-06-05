@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-05T04:17:20.546Z",
+  "timestamp": "2026-06-05T08:46:35.531Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Stephen Katte",
+        "title": "Coinbase freezes $3M tied to Southeast Asia crypto fraud networks",
+        "description": "Tech firms and global law enforcement have disrupted scam networks in Southeast Asia, frozen millions in crypto and targeted over 1.4 million fraudulent accounts.",
+        "url": "https://cointelegraph.com/news/tech-fbi-crypto-scam-crackdown-southeast-asia",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-banks-and-blockchain.jpeg",
+        "publishedAt": "2026-06-04T05:14:31Z",
+        "content": "Crypto exchange Coinbase said it froze more than $3 million in cryptocurrency tied to a global operation targeting cyber-enabled crypto scam networks in Southeast Asia. \r\nThe operation was part of Di… [+2745 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Jake Simmons",
+        "title": "Crypto Is A ‘Failed’ Asset Class, Says Renowned Economist",
+        "description": "Economist and macro trader Alex Krüger has argued that “crypto” has largely failed as an asset class, even as blockchain-based adoption accelerates across stablecoins, tokenization, prediction markets, perps, AI and privacy-focused assets. In a post on X, Krü…",
+        "url": "http://www.newsbtc.com/news/crypto-failed-asset-class-renowned-economist/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-3.-Juni-2026-14_42_31.png?fit=1333%2C750",
+        "publishedAt": "2026-06-04T05:00:42Z",
+        "content": "Economist and macro trader Alex Krüger has argued that crypto has largely failed as an asset class, even as blockchain-based adoption accelerates across stablecoins, tokenization, prediction markets,… [+4579 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-fall.jpeg?fit=1280%2C853",
         "publishedAt": "2026-06-02T16:30:59Z",
         "content": "Bitcoins latest price action has given bearish analysts more reason to argue that the cryptocurrency is still moving through a deeper correction. Bitcoin has fallen back to $70,000, and selling press… [+2685 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "XRP drops below $1.25 amid crypto market selloff",
-        "description": "Key takeaways XRP has dropped below $1.25 after three straight days of losses, its lowest level since February 6. The bearish performance comes as the broader crypto markets remain under pressure from geopolitical tensions.  Ripple’s XRP has dropped below the…",
-        "url": "https://coinjournal.net/news/xrp-drops-below-1-25-amid-crypto-market-selloff/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/02/bittensor-tao-price-volatility-mobile-trading.png",
-        "publishedAt": "2026-06-02T16:25:31Z",
-        "content": "Key takeaways\r\n<ul><li>XRP has dropped below $1.25 after three straight days of losses, its lowest level since February 6.</li><li>The bearish performance comes as the broader crypto markets remain u… [+2473 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Bitcoin Price Falls To $67,000 And Breaks The Map For Bulls—Here’s What Happens Next",
-        "description": "The Bitcoin price fell hard on Tuesday, hitting $67,289—its lowest level since April—reshaping sentiment toward a more bearish outlook as bulls lose key support zones. CoinGecko data shows the selloff isn’t isolated to one timeframe. Bitcoin has retraced acro…",
-        "url": "http://www.newsbtc.com/breaking-news-ticker/bitcoin-price-falls-to-67000-and-breaks-the-map-for-bulls-heres-what-happens-next/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_MTBrWsI2_1780416356787_raw.jpg",
-        "publishedAt": "2026-06-02T16:11:51Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
       }
     ]
   }
