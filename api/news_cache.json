@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-05T20:52:24.270Z",
+  "timestamp": "2026-06-05T22:19:25.235Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-users-in-iran-sanctions.jpg",
         "publishedAt": "2026-06-03T06:12:44Z",
         "content": "The US Treasury has sanctioned four Iranian crypto exchanges, including the countrys largest, Nobitex, marking the latest effort in its campaign called Economic Fury that aims to cut Iran off from th… [+2527 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Bitcoin Bulls Crushed: Sub-$70,000 Crash Flushes $428M In Longs",
-        "description": "Data shows bullish bets related to Bitcoin have suffered a massive amount of liquidations as the asset’s price has plunged below the $70,000 mark. Bitcoin Falls Below $70,000 For The First Time Since April Following up on the bearish tone set during the secon…",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-plunge-70000-442m-long-liquidations/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/btc.png?fit=1152%2C768",
-        "publishedAt": "2026-06-03T05:00:37Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       }
     ]
   }
