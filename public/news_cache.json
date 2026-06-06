@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T14:46:16.850Z",
+  "timestamp": "2026-06-06T16:11:44.122Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Strategy’s Leveraged Bitcoin Model Is Under Strain, Researchers Warn",
+        "description": "Grayscale’s head of research says Strategy’s leveraged business model has come under pressure, and that pressure could make it harder for the company to keep adding Bitcoin to its holdings. Related Reading: Bitmine Seeks $300M Raise To Accelerate Ethereum Acc…",
+        "url": "http://www.newsbtc.com/news/strategys-leveraged-bitcoin-model-is-under-strain-researchers-warn/",
+        "urlToImage": null,
+        "publishedAt": "2026-06-05T15:00:03Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/ethereum-decrypt-style-08-scaled-gID_7.jpeg",
         "publishedAt": "2026-06-03T18:31:54Z",
         "content": "In brief\r\n<ul><li>Ethereum dropped 8% today alone, crashing through the $2,000 psychological support zone and hitting an intraday low near $1,814.</li><li>On Myriad, traders are now betting ETH reach… [+6253 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "As Oil Moves Higher, Bitcoin Sinks to Lowest Price Since March",
-        "description": "Bitcoin fell to a more than two-month low alongside U.S. stocks after Middle East skirmishes pushed bond yields and oil prices higher.",
-        "url": "https://decrypt.co/369925/oil-moves-higher-bitcoin-sinks-lowest-price-since-march",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/bitcoin-oil-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-06-03T18:25:14Z",
-        "content": "In brief\r\n<ul><li>Crypto fell alongside U.S. stocks as renewed military conflict in the Middle East pushed Brent crude to a 12-day high of $96 per barrel.</li><li>Rising energy costs pushed the U.S. … [+2969 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "Strategy Wanted to 'Inoculate' the Bitcoin Market—Has Its BTC Sale Backfired?",
-        "description": "With STRC trading under $100, experts are at odds over whether the sale has exposed a “structural crack” in Strategy’s Bitcoin flywheel.",
-        "url": "https://decrypt.co/369904/strategy-wanted-to-inoculate-the-bitcoin-market-has-its-btc-sale-backfired",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/michael-saylor-microstrategy-youtube-gID_7.png",
-        "publishedAt": "2026-06-03T16:35:13Z",
-        "content": "In brief\r\n<ul><li>Strategys decision to retire $1.5 billion in debt and purchase 24,869 BTC drained its corporate cash reserves right before a monthly dividend payout.</li><li>The Bitcoin treasury fi… [+5885 chars]"
       }
     ]
   }
