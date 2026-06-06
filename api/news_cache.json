@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T12:09:36.904Z",
+  "timestamp": "2026-06-06T14:46:16.850Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Here’s How High The Bitcoin Price Will Climb If It Breaks The Current Bear Trend",
+        "description": "Bitcoin has spent the better part of the past several weeks delivering a painful lesson to bulls. The largest cryptocurrency by market capitalization has shed more than 22% over the past month, slicing through support levels that many traders had considered e…",
+        "url": "http://www.newsbtc.com/news/bitcoin/how-high-bitcoin-price-will-climb/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/bitcoin-bulls-bears.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-06-05T13:30:28Z",
+        "content": "Bitcoin has spent the better part of the past several weeks delivering a painful lesson to bulls. The largest cryptocurrency by market capitalization has shed more than 22% over the past month, slici… [+2813 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin needs one more thing to happen to spark BTC price 'rally:' Analysis",
+        "description": "Bitcoin whales flipped to support a BTC price rebound, but analysis warned that the Coinbase and Kimchi Premium still needed to return.",
+        "url": "https://cointelegraph.com/markets/bitcoin-needs-one-more-thing-to-happen-to-spark-btc-price-rally-analysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-239383-btc-price-pauses-90k-what-will-trigger-new-year-rally.jpg",
+        "publishedAt": "2026-06-05T13:00:00Z",
+        "content": "Bitcoin (BTC) has fulfilled two of three key conditions to spark the next BTC price rally, new analysis says.\r\nKey points:\r\n<ul><li>Bitcoin whales on Hyperliquid and Bitfinex are already pointing to … [+2240 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "How low can Bitcoin price go if $60K support fails?",
+        "description": "Bitcoin’s downside targets cluster near $50,000, but a larger weekly bearish setup puts a deeper correction toward $33,000 on the radar.",
+        "url": "https://cointelegraph.com/markets/how-low-can-bitcoin-price-go-if-60k-support-fails",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-250429-bitcoin-options-market-structure-leans-toward-60k-retest-in-february.jpg",
+        "publishedAt": "2026-06-05T12:24:23Z",
+        "content": "Bitcoin (BTC) is heading for its worst weekly performance since November 2022, down around 15% week-to-date as of Friday.\r\nBTC/USD weekly chart Source: TradingView\r\nBTC was trading near $62,500 after… [+3519 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,58 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/michael-saylor-microstrategy-youtube-gID_7.png",
         "publishedAt": "2026-06-03T16:35:13Z",
         "content": "In brief\r\n<ul><li>Strategys decision to retire $1.5 billion in debt and purchase 24,869 BTC drained its corporate cash reserves right before a monthly dividend payout.</li><li>The Bitcoin treasury fi… [+5885 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Alex Tapscott, Aisha Hunt",
-        "title": "Crypto Long & Short: What about the American consumer?",
-        "description": "In this week's Crypto Long & Short, Alex Tapscott on the stalling of the CLARITY Act and how it's impacting the average American consumer. Then, Aisha Hunt writes that crypto will grow by upgrading Wall Street’s trusted products rather than replacing them.",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/06/03/crypto-long-and-short-what-about-the-american-consumer",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7af860474a30480e57de30f681ca9abb796d2a0d-5520x3680.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-03T16:13:51Z",
-        "content": "Welcome to our institutional newsletter, Crypto Long &amp; Short. This week:\r\n<ul><li>Alex Tapscott on the stalling of the CLARITY Act and how its impacting the average American consumer.</li><li>Ais… [+10606 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Binance discloses revenue-sharing deal with Alpaca",
-        "description": "A Binance legal document disclosed a revenue-sharing agreement with Alpaca, which includes sharing 50% of the stock custodian’s order flow revenue with the cryptocurrency exchange.",
-        "url": "https://cointelegraph.com/news/binance-partnership-tokenized-stock-custodian-alpaca",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-experienced-traders-prefer-to-trade-on-desktop-computers-a-new-study-reveals3.jpg",
-        "publishedAt": "2026-06-03T15:05:30Z",
-        "content": "Binance disclosed a revenue-sharing arrangement with custodian and brokerage infrastructure API provider Alpaca, which has become a major infrastructure provider in the custody of tokenized US stocks… [+2764 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Binance to end NFT support on exchange, shift service to wallet",
-        "description": "Binance exchange said it will move NFT support from its exchange to its non-custodial wallet and offered users 30 days to migrate their NFTs.",
-        "url": "https://cointelegraph.com/news/binance-exchange-halt-nft-services-binance-wallet",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-binance-delisting-bitcoin-sv322.jpg",
-        "publishedAt": "2026-06-03T14:47:23Z",
-        "content": "Binance announced it is shutting down support for non-fungible tokens on Binance Exchange and moving NFT management to its self-custodial cryptocurrency wallet, Binance Wallet. \r\nThe exchange said th… [+2035 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Here’s Why The Bitcoin Price Is Crashing And What To Expect Next",
-        "description": "The Bitcoin price has suffered a significant crash, falling from above the psychological $70,000 this week. Crypto pundit Nobler cited why the leading crypto was crashing, while analyst Chiefy revealed what to expect next from BTC.  Why The Bitcoin Price Is C…",
-        "url": "http://www.newsbtc.com/news/bitcoin/why-bitcoin-price-is-crashing/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-9.jpg?fit=1280%2C853",
-        "publishedAt": "2026-06-03T14:30:50Z",
-        "content": "The Bitcoin price has suffered a significant crash, falling from above the psychological $70,000 this week. Crypto pundit Nobler cited why the leading crypto was crashing, while analyst Chiefy reveal… [+2644 chars]"
       }
     ]
   }
