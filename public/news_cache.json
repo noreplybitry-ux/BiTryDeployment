@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T16:11:44.122Z",
+  "timestamp": "2026-06-06T18:11:53.491Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Are Institutions Crashing The Bitcoin Price On Purpose? Here’s What People Are Saying",
+        "description": "Crypto pundit Ash Crypto has drawn attention to speculations about how institutions could be crashing the Bitcoin price on purpose. This comes as the Bitcoin ETFs continue to record massive outflows, which have caused this latest decline for the leading crypt…",
+        "url": "http://www.newsbtc.com/news/bitcoin/institutions-crashing-bitcoin/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pngtree-7.png?fit=1200%2C673",
+        "publishedAt": "2026-06-05T18:00:16Z",
+        "content": "Crypto pundit Ash Crypto has drawn attention to speculations about how institutions could be crashing the Bitcoin price on purpose. This comes as the Bitcoin ETFs continue to record massive outflows,… [+2536 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-from-Pixabay-3.jpg?fit=1280%2C848",
         "publishedAt": "2026-06-03T20:30:52Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Why Ethereum Could Tank Another 25% Before Finding a Bottom: Analysis",
-        "description": "ETH just crashed below $2,000 and is now trading near $1,841. Prediction markets place a 71% chance on a drop to $1,500—and the charts aren't pushing back.",
-        "url": "https://decrypt.co/369926/ethereum-eth-price-25-percent-bottom-technical-analysis",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/ethereum-decrypt-style-08-scaled-gID_7.jpeg",
-        "publishedAt": "2026-06-03T18:31:54Z",
-        "content": "In brief\r\n<ul><li>Ethereum dropped 8% today alone, crashing through the $2,000 psychological support zone and hitting an intraday low near $1,814.</li><li>On Myriad, traders are now betting ETH reach… [+6253 chars]"
       }
     ]
   }
