@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T18:11:53.491Z",
+  "timestamp": "2026-06-06T20:13:55.374Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Why diehard bitcoin purists aren’t sweating the massive price crash that wiped out $200 billion",
+        "description": "Mati Greenspan, Michael Saylor and Jameson Lopp blamed the AI boom for draining capital from bitcoin. Meanwhile, Jack Mallers refrained from sharing an outlook but recommended buying the dip.",
+        "url": "https://www.coindesk.com/markets/2026/06/05/why-diehard-bitcoin-purists-aren-t-sweating-the-massive-price-crash-that-wiped-out-usd200-billion",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e7400343674854cadfca863a6d772265170e3fe3-7680x4320.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-05T19:27:20Z",
+        "content": "Hardcore bitcoin purists haven't lost faith in the world's largest digital currency, despite it losing nearly 17% of its value, marking the worst weekly performance since July 2024 and wiping out abo… [+5672 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-3.-Juni-2026-12_15_13.png?fit=1333%2C750",
         "publishedAt": "2026-06-03T22:00:53Z",
         "content": "Bloombergs Joe Weisenthal has revived and expanded his argument that crypto is stuck in what he calls the coldest crypto winter ever, pointing to a 12-part case that goes beyond price action and into… [+4228 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Rakesh Upadhyay",
-        "title": "Price predictions 6/3: BTC, ETH, BNB, XRP, SOL, HYPE, DOGE, ZEC, ADA, XLM",
-        "description": "Bitcoin is at risk of a drop below $65,000, but buyers are expected to mount a strong defense as the price nears the crucial $60,000 level.",
-        "url": "https://cointelegraph.com/markets/price-predictions-63-btc-eth-bnb-xrp-sol-hype-doge-zec-ada-xlm",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/analysis-analytics-work-office-openspace-graph.jpg",
-        "publishedAt": "2026-06-03T21:05:56Z",
-        "content": "Key points:\r\n<ul><li>Bitcoin risks falling below $65,000, but lower levels are likely to attract solid buying by the bulls.</li><li>HYPE, ZEC and XLM look strong on the charts while other major altco… [+8216 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Ethereum’s Multi-Year Support Test Could Shape Its Next Big Move",
-        "description": "Ethereum is currently trading at a pivotal zone where long-term support and emerging bullish momentum are converging. With buyers attempting to defend a key multi-year trendline, the coming sessions could prove decisive for the asset’s broader outlook. A succ…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereums-multi-year-support-test/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-from-Pixabay-3.jpg?fit=1280%2C848",
-        "publishedAt": "2026-06-03T20:30:52Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
       }
     ]
   }
