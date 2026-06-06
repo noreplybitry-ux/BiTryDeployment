@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T07:52:21.883Z",
+  "timestamp": "2026-06-06T10:10:45.233Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Dogecoin Has Entered A Historically Red Month And The Result Could Be Catastrophic",
+        "description": "In the 13 years that Dogecoin has been in existence, it has seen some interesting trends across various months. However, each month has had its fair share of greens and reds, but the month of June has mostly defied this. With Dogecoin mostly ending June in th…",
+        "url": "http://www.newsbtc.com/news/dogecoin/dogecoin-historically-red-month/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-from-Peakpx-6.jpg?fit=800%2C533",
+        "publishedAt": "2026-06-05T09:30:20Z",
+        "content": "In the 13 years that Dogecoin has been in existence, it has seen some interesting trends across various months. However, each month has had its fair share of greens and reds, but the month of June ha… [+2015 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Rubmar Garcia",
+        "title": "Bitcoin Price In ’Vulnerable Position’ As 2022 Playbook Repeats – Is $54,000 Next?",
+        "description": "While Bitcoin (BTC) trades at its lowest levels in months, some market watchers have warned that the leading crypto may be preparing for another major drop as it retests a critical technical area that has historically marked a turning point. Related Reading: …",
+        "url": "http://www.newsbtc.com/news/bitcoin-vulnerable-position-2022-playbook-repeats/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/10/michael-fortsch-AA5sf7WTv10-unsplash-1.jpg?fit=1920%2C1280",
+        "publishedAt": "2026-06-05T08:00:31Z",
+        "content": "While Bitcoin (BTC) trades at its lowest levels in months, some market watchers have warned that the leading crypto may be preparing for another major drop as it retests a critical technical area tha… [+3161 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-9.jpg?fit=1280%2C853",
         "publishedAt": "2026-06-03T14:30:50Z",
         "content": "The Bitcoin price has suffered a significant crash, falling from above the psychological $70,000 this week. Crypto pundit Nobler cited why the leading crypto was crashing, while analyst Chiefy reveal… [+2644 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Bitcoin Falls Below $67k as MSTR Plummets",
-        "description": "The fallout from Saylor’s first Bitcoin sale in years keeps spreading, while Bernie Sanders and Elizabeth Warren want crypto out of your 401(k).",
-        "url": "https://decrypt.co/369839/morning-minute-bitcoin-falls-below-67k-as-mstr-plummets",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-06-03T12:47:43Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8433 chars]"
       }
     ]
   }
