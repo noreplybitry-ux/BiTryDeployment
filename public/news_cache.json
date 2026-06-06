@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T00:13:23.538Z",
+  "timestamp": "2026-06-06T04:57:55.530Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Bitcoin Price Back At $63,000 Despite 1.2 Million BTC Absorption",
+        "description": "Data shows the spot ETFs and Strategy have absorbed more Bitcoin than Satoshi’s stack since the asset was last at $63,000, yet the asset has returned to the same level. Bitcoin Could Be Headed Toward The Realized Price In a new post on X, CryptoQuant founder …",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-63000-1-2-million-btc-absorption/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/btc_fdddc0.png?fit=1152%2C768",
+        "publishedAt": "2026-06-05T04:00:33Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Downtrend May Not Be Over—Sub-$1,700 Levels Loom",
+        "description": "Ethereum price started a fresh decline and traded below $1,750. ETH is now consolidating below $1,750 and might continue to move down. Ethereum remained in a bearish zone after a fresh decline below $1,800. The price is trading below $1,780 and the 100-hourly…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-downtrend-1700/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Crashes-6.jpg?fit=1024%2C559",
+        "publishedAt": "2026-06-05T03:28:36Z",
+        "content": "Ethereum price started a fresh decline and traded below $1,750. ETH is now consolidating below $1,750 and might continue to move down.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decli… [+2117 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitmine Seeks $300M Raise To Accelerate Ethereum Accumulation Strategy",
+        "description": "BitMine Immersion Technologies is seeking $300 million through a preferred stock sale that would pay a 9.5% annual dividend and, if approved, be listed on the New York Stock Exchange. The filing gives the Tom Lee-led company fresh money it can use to add more…",
+        "url": "http://www.newsbtc.com/news/ethereum/bitmine-seeks-300m-raise-to-accelerate-ethereum-accumulation-strategy/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_1b668e.jpg?fit=5184%2C3564",
+        "publishedAt": "2026-06-05T03:00:46Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Pain Isn’t Over Yet As Selling Pressure Persists",
+        "description": "Bitcoin price started a fresh decline below the $65,000 zone. BTC is showing bearish signs and might continue to move down if it dips below $62,000. Bitcoin failed to stay above $65,500 and extended losses. The price is trading below $64,000 and the 100 hourl…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-pain-isnt-over-62k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Sinks-to-New-Weekly-Low-Bulls-Lose-Key-Support.jpg",
+        "publishedAt": "2026-06-05T02:30:08Z",
+        "content": "Bitcoin price started a fresh decline below the $65,000 zone. BTC is showing bearish signs and might continue to move down if it dips below $62,000.\r\n<ul><li>Bitcoin failed to stay above $65,500 and … [+2199 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Has The Bitcoin Crash Ended After Falling Below $70,000?",
+        "description": "Bitcoin (BTC) has crashed below $70,000, underperforming the already weak crypto market as selling pressure tests price action. Market analyst Crypto Patel noted that he had anticipated this significant drop, citing BTC’s fragile price structure and persisten…",
+        "url": "http://www.newsbtc.com/news/bitcoin/has-the-bitcoin-crash-ended/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-69.jpg?fit=612%2C408",
+        "publishedAt": "2026-06-05T01:30:12Z",
+        "content": "Bitcoin (BTC) has crashed below $70,000, underperforming the already weak crypto market as selling pressure tests price action. Market analyst Crypto Patel noted that he had anticipated this signific… [+2575 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c8f10304209001032cc2df38ebb6f22b4479aae6-1920x963.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-03T12:01:45Z",
         "content": "After briefly falling below $66,000 on Wednesday, bitcoin BTC\r\n$66,899.95 is trading near the bottom of the Power Law corridor, a level that has historically come shortly before rebounds in the price… [+1299 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nancy Lubale",
-        "title": "Bitcoin's crash to $65K triggers $1.8B in crypto liquidations",
-        "description": "Bitcoin plunged to nine-week lows around $65,000, wiping out $1.8 billion in crypto positions and raising fears of a deeper move toward $60,000.",
-        "url": "https://cointelegraph.com/markets/bitcoins-crash-to-65k-triggers-18b-in-crypto-liquidations",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/twin-peaks-price-falling-down-red-new211.jpg",
-        "publishedAt": "2026-06-03T10:48:51Z",
-        "content": "Bitcoin (BTC) has dropped 8% to a nine-week low of $65,360 from Tuesdays high of $71,300 amid increasing geopolitical risks surrounding the US-Iran war.\r\nKey takeaways:\r\n<ul><li>Bitcoin slipped to $6… [+3458 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Brayden Lindrea",
-        "title": "US Treasury issues sanctions on Iran, targets 4 crypto exchanges",
-        "description": "The sanctions come four days after Treasury Secretary Scott Bessent said the US had seized nearly $1 billion in crypto from Iranian crypto exchanges and wallets since late February.",
-        "url": "https://cointelegraph.com/news/us-sanctions-irans-top-crypto-exchange-as-war-rages-on",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-users-in-iran-sanctions.jpg",
-        "publishedAt": "2026-06-03T06:12:44Z",
-        "content": "The US Treasury has sanctioned four Iranian crypto exchanges, including the countrys largest, Nobitex, marking the latest effort in its campaign called Economic Fury that aims to cut Iran off from th… [+2527 chars]"
       }
     ]
   }
