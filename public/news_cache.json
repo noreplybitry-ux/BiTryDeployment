@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T04:57:55.530Z",
+  "timestamp": "2026-06-06T07:52:21.883Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Crypto billionaires bankroll Nigel Farage's pro-crypto party",
+        "description": "Tether-linked billionaire Christopher Harborne and BitMEX co-founder Ben Delo donated $9.4 million to Nigel Farage’s Reform UK in the first quarter.",
+        "url": "https://cointelegraph.com/news/crypto-billionaires-bankroll-reform-uk-more-than-other-parties",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-fundraising-101-a-beginners-guide-on-raising-funds-using-cryptocurrencies-uk.jpg",
+        "publishedAt": "2026-06-05T07:02:59Z",
+        "content": "Nigel Farages Reform UK received 7 million British pounds ($9.4 million) from two crypto billionaires this year, with total funds raised outstripping all other political parties.\r\nThe party received … [+1954 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Ronaldo Marquez",
+        "title": "Coinbase Reveals First Mortgage With Bitcoin Collateral Under Fannie Mae Coverage",
+        "description": "Nearly four months after crypto exchange Coinbase and the Federal National Mortgage Association—better known as Fannie Mae—announced their partnership, the companies have now disclosed what they describe as the first-ever mortgage backed by crypto collateral.…",
+        "url": "http://www.newsbtc.com/news/coinbase-reveals-first-mortgage-with-bitcoin-collateral-under-fannie-mae-coverage/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_xy4INP0h_1780626753962_raw.jpg",
+        "publishedAt": "2026-06-05T05:30:47Z",
+        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
         "publishedAt": "2026-06-03T12:47:43Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8433 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Bitcoin hits Power Law level low that historically precedes a rebound",
-        "description": "The power law model shows BTC trading at one of its deepest discounts relative to trend, a level previously seen during the March 2020 crash and FTX collapse.",
-        "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-hits-power-law-level-low-that-historically-precedes-a-rebound",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c8f10304209001032cc2df38ebb6f22b4479aae6-1920x963.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-03T12:01:45Z",
-        "content": "After briefly falling below $66,000 on Wednesday, bitcoin BTC\r\n$66,899.95 is trading near the bottom of the Power Law corridor, a level that has historically come shortly before rebounds in the price… [+1299 chars]"
       }
     ]
   }
