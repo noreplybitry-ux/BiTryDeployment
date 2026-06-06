@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T20:13:55.374Z",
+  "timestamp": "2026-06-06T22:08:27.083Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bounce-Looks-Hollow.jpg",
         "publishedAt": "2026-06-04T01:56:20Z",
         "content": "Bitcoin price started a fresh decline below the $68,000 zone. BTC is down over 10% and might continue to move down if it dips below $62,000.\r\n<ul><li>Bitcoin failed to stay above $68,500 and extended… [+2194 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Ethereum Weakness May Be Final Phase Before Next Market Expansion",
-        "description": "Ethereum is being watched for what one analyst sees as a possible last stretch of weakness before a larger move higher. The call centers on the coin’s three-day chart, where traders are following support closely as the market works through a fresh round of co…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-weakness-may-be-final-phase-before-next-market-expansion/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_605bec.jpg?fit=1278%2C720",
-        "publishedAt": "2026-06-04T01:00:35Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Jake Simmons",
-        "title": "‘Coldest Crypto Winter Ever’: Bloomberg’s Weisenthal Lists 12 Reasons",
-        "description": "Bloomberg’s Joe Weisenthal has revived and expanded his argument that crypto is stuck in what he calls the “coldest crypto winter ever,” pointing to a 12-part case that goes beyond price action and into market psychology, capital rotation, regulation, AI and …",
-        "url": "http://www.newsbtc.com/news/coldest-crypto-winter-ever-weisenthal-12-reasons/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-3.-Juni-2026-12_15_13.png?fit=1333%2C750",
-        "publishedAt": "2026-06-03T22:00:53Z",
-        "content": "Bloombergs Joe Weisenthal has revived and expanded his argument that crypto is stuck in what he calls the coldest crypto winter ever, pointing to a 12-part case that goes beyond price action and into… [+4228 chars]"
       }
     ]
   }
