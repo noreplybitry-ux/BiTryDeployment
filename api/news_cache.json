@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-06T22:08:27.083Z",
+  "timestamp": "2026-06-07T00:10:28.977Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin’s Crash Has Broken Below A 4-Month Support, But There’s Still One More Play Left",
+        "description": "Bitcoin (BTC) has been in a sharp downtrend over the past two weeks, facing steady declines as selling pressure, market volatility, and negative sentiment weigh on its price. During one of its recent market crashes, a crypto analyst noted that BTC had officia…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-loses-4-month-support/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pngtree-36.jpg?fit=960%2C717",
+        "publishedAt": "2026-06-05T22:30:15Z",
+        "content": "Bitcoin (BTC) has been in a sharp downtrend over the past two weeks, facing steady declines as selling pressure, market volatility, and negative sentiment weigh on its price. During one of its recent… [+2961 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/XRP-Price-Trims-Upside.jpg?fit=1024%2C572",
         "publishedAt": "2026-06-04T03:58:14Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Plunges Under $1,800, Leaving Bulls On The Ropes",
-        "description": "Ethereum price started a fresh decline and traded below $1,800. ETH is now consolidating below $1,800 and might continue to move down. Ethereum remained in a bearish zone after a fresh decline below $1,840. The price is trading below $1,800 and the 100-hourly…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-plunges-1800/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Ethereum-Sheds.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-06-04T02:38:39Z",
-        "content": "Ethereum price started a fresh decline and traded below $1,800. ETH is now consolidating below $1,800 and might continue to move down.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decli… [+2117 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price 10% Selloff Sparks Fears Of A Deeper Breakdown",
-        "description": "Bitcoin price started a fresh decline below the $68,000 zone. BTC is down over 10% and might continue to move down if it dips below $62,000. Bitcoin failed to stay above $68,500 and extended losses. The price is trading below $65,000 and the 100 hourly simple…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-10-selloff-62k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Bounce-Looks-Hollow.jpg",
-        "publishedAt": "2026-06-04T01:56:20Z",
-        "content": "Bitcoin price started a fresh decline below the $68,000 zone. BTC is down over 10% and might continue to move down if it dips below $62,000.\r\n<ul><li>Bitcoin failed to stay above $68,500 and extended… [+2194 chars]"
       }
     ]
   }
