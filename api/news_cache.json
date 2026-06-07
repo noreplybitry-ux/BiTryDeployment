@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-07T14:05:55.293Z",
+  "timestamp": "2026-06-07T16:21:52.431Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Price Under Bearish Pressure For 48 Straight Days On Binance",
+        "description": "The Bitcoin price faced overwhelming bearish pressure this past week, but it appears that this bearish story has been building up for much longer than was apparent in BTC’s previous price action. According to a recent on-chain analysis, the Bitcoin price has …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-under-bearish-pressure-for-48-days/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/iStock-1386847296.jpg?fit=2121%2C1414",
+        "publishedAt": "2026-06-06T15:30:58Z",
+        "content": "The Bitcoin price faced overwhelming bearish pressure this past week, but it appears that this bearish story has been building up for much longer than was apparent in BTC’s previous price action. Acc… [+2877 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "A crypto pioneer who turned a $20 million family stake into a billion-dollar fund doubles down on bitcoin",
+        "description": "Sourcing initial capital from his mother to build a $1 billion crypto empire, DFG CEO James Wo says market metrics do not support Tom Lee’s $250,000 ether prediction.",
+        "url": "https://www.coindesk.com/business/2026/06/06/a-crypto-pioneer-who-turned-a-usd20-million-family-stake-into-a-billion-dollar-fund-doubles-down-on-bitcoin",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c5d8433cb8991feb405cb67f964737e13634e4b5-1280x960.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-06T15:00:00Z",
+        "content": "James Wo, the founder and chief executive of crypto investment firm DFG, says bitcoin remains the dominant institutional asset in crypto and ether is unlikely to reach the same status anytime soon.\r\n… [+4166 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": null,
         "publishedAt": "2026-06-04T14:00:11Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price just tagged 200-week trend line that defined 2022 bear market",
-        "description": "Bitcoin brought back the trend line that functioned as resistance in the 2022 bear market, with BTC price RSI approaching its lowest in six years.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-just-tagged-200-week-trend-line-that-defined-2022-bear-market",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bear-crypto-running-1.jpg",
-        "publishedAt": "2026-06-04T11:46:15Z",
-        "content": "Bitcoin (BTC) has tagged a key bear-market trend line with its drop to four-month lows, with a decent chance of a rebound next.\r\nKey points:\r\n<ul><li>Bitcoin revisits its 200-week simple moving avera… [+2719 chars]"
       }
     ]
   }
