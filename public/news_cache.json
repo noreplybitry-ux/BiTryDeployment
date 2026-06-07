@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-07T00:10:28.977Z",
+  "timestamp": "2026-06-07T05:26:54.219Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Cardano Crashes To 5-Year Lows As Hoskinson’s Warning Sparks Market Panic",
+        "description": "Cardano has come under intense pressure after plunging to its lowest price level in over five years, triggering a wave of fear across the cryptocurrency market. The sharp decline follows growing concerns about the ecosystem’s future after founder Charles Hosk…",
+        "url": "http://www.newsbtc.com/news/cardano/cardano-crashes-to-5-year-lows/",
+        "urlToImage": null,
+        "publishedAt": "2026-06-06T04:00:00Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
