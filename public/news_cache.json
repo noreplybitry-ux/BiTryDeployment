@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-08T11:11:06.920Z",
+  "timestamp": "2026-06-08T16:04:14.380Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Abra’s Bill Barhydt says Wall Street’s next crypto bet is tokenization",
+        "description": "As Abra prepares for a Nasdaq debut, CEO Bill Barhydt is betting tokenized yield products and onchain lending will drive the next phase of crypto wealth management.",
+        "url": "https://www.coindesk.com/business/2026/06/07/abra-s-bill-barhydt-says-wall-street-s-next-crypto-bet-is-tokenization",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6570e52df49f9de52d4cc142d7558eb9b52af7df-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-07T15:00:00Z",
+        "content": "Bill Barhydt built Abra around a simple idea: Crypto should function like a bank.\r\nIn 2018, Abra became one of the first companies to offer what Barhydt describes as a full crypto banking service, al… [+3389 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin’s Worst Week Since FTX Raises The Question: Is The Bottom Already In?",
+        "description": "Bitcoin closed the week of June 5, 2026 down by almost 20%, its highest single-week percentage decline since the collapse of FTX in November 2022. The last time the market saw a candle this red, it was during the cycle bottom.  This time, however, the current…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoins-worst-week-since-ftx-raises-the-question-is-the-bottom-already-in/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_220cb6.jpg?fit=1200%2C627",
+        "publishedAt": "2026-06-07T14:00:44Z",
+        "content": "Bitcoin closed the week of June 5, 2026 down by almost 20%, its highest single-week percentage decline since the collapse of FTX in November 2022. The last time the market saw a candle this red, it w… [+2687 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-btc-btcusd-.jpg?fit=1168%2C784",
         "publishedAt": "2026-06-04T18:00:26Z",
         "content": "Standard Chartered’s head of digital assets research, Geoff Kendrick, has outlined three specific scenarios that stand between Bitcoin and a new market low a sobering analysis arriving as Bitcoin tra… [+3223 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Crypto Billionaires Donate $9.4M to Farage’s Reform UK in Q1",
-        "description": "Tether investor Christopher Harborne and BitMEX co-founder Ben Delo’s outspent Britain's traditional political donors.",
-        "url": "https://decrypt.co/370059/crypto-billionaires-donate-9-4m-to-farages-reform-uk-in-q1",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg",
-        "publishedAt": "2026-06-04T17:20:39Z",
-        "content": "In brief\r\nTether billionaire Christopher Harborne donated another £3 million to Reform UK in the first quarter of the year.\r\nBitMEX co-founder Ben Delo donated a further £4 million across two donatio… [+3668 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Why It’s Time To Start Paying Attention To Solana Before It Stages A Repeat Of 2024",
-        "description": "Crypto analyst Crypto Patel has made a bullish case for Solana, explaining why it is time to start paying attention to the crypto asset. This came as he noted that SOL has printed 8 consecutive red monthly candles for the first time in its history.  Why It Is…",
-        "url": "http://www.newsbtc.com/news/solana/pay-attention-to-solana/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Solana-from-Adobe-Stock-18.jpg?fit=583%2C360",
-        "publishedAt": "2026-06-04T16:30:11Z",
-        "content": "Crypto analyst Crypto Patel has made a bullish case for Solana, explaining why it is time to start paying attention to the crypto asset. This came as he noted that SOL has printed 8 consecutive red m… [+2477 chars]"
       }
     ]
   }
