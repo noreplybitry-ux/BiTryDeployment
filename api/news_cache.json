@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-08T21:54:45.502Z",
+  "timestamp": "2026-06-08T23:15:50.178Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum’s RSI Just Hit Its Lowest Level In History, And That May Be Exactly The Point",
+        "description": "Ethereum’s latest price crash has pushed the cryptocurrency below $1,800, placing its monthly chart under pressure at a time when the entire crypto market sentiment has turned heavily bearish. There is also another weakness coming from the monthly RSI, which …",
+        "url": "http://www.newsbtc.com/altcoin/ethereums-rsi-just-hit-its-lowest-level-in-history-and-that-may-be-exactly-the-point/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_2c981e.jpg?fit=1920%2C1080",
+        "publishedAt": "2026-06-07T22:00:14Z",
+        "content": "Ethereums latest price crash has pushed the cryptocurrency below $1,800, placing its monthly chart under pressure at a time when the entire crypto market sentiment has turned heavily bearish. There i… [+2577 chars]"
+      },
       {
         "source": {
           "id": null,
