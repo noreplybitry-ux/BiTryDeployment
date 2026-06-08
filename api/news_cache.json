@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-08T00:15:36.287Z",
+  "timestamp": "2026-06-08T05:56:17.375Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Price Plunges To $59K, Sparking Fears Of Deeper Decline",
+        "description": "Capital rotation into artificial intelligence may have played a bigger role in Bitcoin’s latest selloff than most market watchers initially assumed. Michael Saylor, whose company Strategy recently sold a portion of its Bitcoin holdings, pushed back on critici…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-crashes-to-59k-sparking-fears-of-deeper-decline/",
+        "urlToImage": null,
+        "publishedAt": "2026-06-07T04:00:03Z",
+        "content": "Capital rotation into artificial intelligence may have played a bigger role in Bitcoin’s latest selloff than most market watchers initially assumed.\r\nMichael Saylor, whose company Strategy recently s… [+2299 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Bitcoin CVDD Data Points To Possible Bottom Amid Market Mayhem – Detail",
+        "description": "Bitcoin price performance in June has gotten off to a rocky start, with prices now down 50% from the market’s all-time high. In the last week alone, the premier cryptocurrency has declined by 16%, forcing the price to around $60,000 for the first time since F…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-cvdd-data-points-to-possible-bottom-amid-market-mayhem-detail/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/nice-france-october-14-2024-600nw-2530456961.jpg?fit=1000%2C666",
+        "publishedAt": "2026-06-07T02:00:35Z",
+        "content": "Bitcoin price performance in June has gotten off to a rocky start, with prices now down 50% from the market’s all-time high. In the last week alone, the premier cryptocurrency has declined by 16%, fo… [+2972 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Breakdown Warning: This Key Level Could Trigger More Downtrend",
+        "description": "Ethereum is approaching a critical technical crossroads as bearish momentum continues to weigh on price action. With a major support zone now under intense pressure, traders are closely watching whether bulls can defend this level or if a breakdown will open …",
+        "url": "http://www.newsbtc.com/news/fantom/ethereum-breakdown-warning/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-from-Getty-Images-37.jpg?fit=612%2C407",
+        "publishedAt": "2026-06-07T01:00:05Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Solana-from-Adobe-Stock-18.jpg?fit=583%2C360",
         "publishedAt": "2026-06-04T16:30:11Z",
         "content": "Crypto analyst Crypto Patel has made a bullish case for Solana, explaining why it is time to start paying attention to the crypto asset. This came as he noted that SOL has printed 8 consecutive red m… [+2477 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "DOJ Task Force Freezes $3.8M in Illicit Crypto—With Help From Coinbase, SpaceX and Meta",
-        "description": "Some of America's biggest companies helped squash crypto fraud stemming from organized crime in Southeast Asia.",
-        "url": "https://decrypt.co/370005/doj-task-force-freezes-3-8m-illicit-crypto-help-fcoinbase-spacex-meta",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
-        "publishedAt": "2026-06-04T15:44:31Z",
-        "content": "In brief\r\n<ul><li>Private sector firms like Coinbase, Apple, and SpaceX collaborated with government agencies to help curb crypto fraud.</li><li>The collaboration led to more than $3.8 million in fro… [+2822 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "British Teen Sanctioned By Russia After Alleging Crypto Use to Evade Sanctions",
-        "description": "The teenager's research into Russia’s alleged illicit crypto flows appears to have prompted Moscow's retaliation.",
-        "url": "https://decrypt.co/370002/british-teen-sanctioned-russia-alleging-crypto-evade-sanctions",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/russia-moscow-red-square-kremlin-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-06-04T14:27:40Z",
-        "content": "In brief\r\n<ul><li>A 17-year-old British student was sanctioned by Russia's Foreign Ministry along with four other British nationals.</li><li>The student is believed to be the youngest person ever san… [+3158 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin’s $60K Range Seen As Potential Long-Term Accumulation Zone, Analyst Says",
-        "description": "A heavy wave of US Treasury issuance, a $250 billion IPO pipeline, and a shift in big tech cash toward AI spending are among the pressures Jamie Coutts says could keep markets tight for a while longer. The Real Vision chief crypto analyst still thinks Bitcoin…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoins-60k-range-seen-as-potential-long-term-accumulation-zone-analyst-says/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-04T14:00:11Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
