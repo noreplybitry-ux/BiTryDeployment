@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-07T22:10:06.392Z",
+  "timestamp": "2026-06-08T00:15:36.287Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Semilore Faleti",
+        "title": "Ethereum Exchange Inflows Climb To 4-Month High – What This Means For Price",
+        "description": "Over the past week, the Ethereum price declined significantly, following Bitcoin’s downturn towards $59,000. As the second-largest cryptocurrency’s price dropped to $1,505, data from a recent on-chain analysis reveal an underlying shift in activity across exc…",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-exchange-inflows-climb-to-4-month-high-what-this-means-for-price/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/pexels-photo-14911408.jpg?fit=3243%2C2162",
+        "publishedAt": "2026-06-06T23:00:29Z",
+        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
+      },
       {
         "source": {
           "id": null,
