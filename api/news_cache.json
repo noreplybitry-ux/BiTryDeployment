@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-08T16:04:14.380Z",
+  "timestamp": "2026-06-08T19:24:40.063Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin’s “Electrical Cost” Suggests Possible Bear Market Floor Near $50,000 — Analyst",
+        "description": "Bitcoin’s bearish structure over the past few weeks has raised clear concerns about the flagship cryptocurrency’s future. Amid these concerns are speculations concerning its trajectory, some of which point to bottoms as low as $25,000. However, an on-chain an…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoins-electrical-cost-suggests-possible-bear-market-floor/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/iStock-1314199360-1.jpg?fit=1254%2C836",
+        "publishedAt": "2026-06-07T18:00:55Z",
+        "content": "Bitcoin’s bearish structure over the past few weeks has raised clear concerns about the flagship cryptocurrencys future. Amid these concerns are speculations concerning its trajectory, some of which … [+2783 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-red2.jpg",
         "publishedAt": "2026-06-04T20:37:58Z",
         "content": "Key takeaways:\r\n<ul><li>Strategy faces tighter short-term liquidity, but its conservative 11% net leverage protects it from forced BTC liquidations.</li><li>A Bitcoin rally above $70,000 remains unli… [+3333 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "James Halver",
-        "title": "Standard Chartered Just Issued A Bitcoin Warning — And The 3 Triggers Are Already In Motion",
-        "description": "Standard Chartered’s head of digital assets research, Geoff Kendrick, has outlined three specific scenarios that stand between Bitcoin and a new market low — a sobering analysis arriving as Bitcoin trades near $62,562, its lowest level since the February lows…",
-        "url": "http://www.newsbtc.com/bitcoin-news/standard-chartered-just-issued-a-bitcoin-warning-and-the-3-triggers-are-already-in-motion/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/bitcoin-btc-btcusd-.jpg?fit=1168%2C784",
-        "publishedAt": "2026-06-04T18:00:26Z",
-        "content": "Standard Chartered’s head of digital assets research, Geoff Kendrick, has outlined three specific scenarios that stand between Bitcoin and a new market low a sobering analysis arriving as Bitcoin tra… [+3223 chars]"
       }
     ]
   }
