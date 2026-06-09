@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-09T19:19:49.308Z",
+  "timestamp": "2026-06-09T21:51:22.452Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Bitcoin Is 'Boring' AI-Hungry Retail Investors, But Bernstein Still Sees $150K This Year",
+        "description": "Bitcoin is down about 50% from its peak, but Wall Street researchers argue the selloff reflects a maturing asset, not a dying one.",
+        "url": "https://decrypt.co/370434/bitcoin-boring-ai-hungry-retail-investors-bernstein-150k",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-decrypt-style-25-gID_7.png",
+        "publishedAt": "2026-06-08T19:46:06Z",
+        "content": "In brief\r\n<ul><li>Retail investors are hungry for AI stocks, making the declining Bitcoin look boring by comparison, Bernstein said Monday.</li><li>Bernstein argues the low retail activity reflects a… [+2783 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Bitcoin Recovery Needs This To Happen, Glassnode Analyst Reveals",
+        "description": "The lead research analyst at Glassnode has highlighted how the Bitcoin supply clustered at the top levels might have to shift down before a sustained recovery can take shape. Bitcoin Cost Basis Distribution Shows Massive Supply Above $80,000 In a new post on …",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-recovery-happen-glassnode-analyst-reveals/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/btc_517701.png?fit=1152%2C768",
+        "publishedAt": "2026-06-08T19:30:14Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e7400343674854cadfca863a6d772265170e3fe3-7680x4320.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-05T19:27:20Z",
         "content": "Hardcore bitcoin purists haven't lost faith in the world's largest digital currency, despite it losing nearly 17% of its value, marking the worst weekly performance since July 2024 and wiping out abo… [+5672 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Are Institutions Crashing The Bitcoin Price On Purpose? Here’s What People Are Saying",
-        "description": "Crypto pundit Ash Crypto has drawn attention to speculations about how institutions could be crashing the Bitcoin price on purpose. This comes as the Bitcoin ETFs continue to record massive outflows, which have caused this latest decline for the leading crypt…",
-        "url": "http://www.newsbtc.com/news/bitcoin/institutions-crashing-bitcoin/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pngtree-7.png?fit=1200%2C673",
-        "publishedAt": "2026-06-05T18:00:16Z",
-        "content": "Crypto pundit Ash Crypto has drawn attention to speculations about how institutions could be crashing the Bitcoin price on purpose. This comes as the Bitcoin ETFs continue to record massive outflows,… [+2536 chars]"
       }
     ]
   }
