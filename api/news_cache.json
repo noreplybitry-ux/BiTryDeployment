@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-09T04:03:10.229Z",
+  "timestamp": "2026-06-09T08:33:45.368Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Trader Says Something Extremely Bad Is Coming Today, Here’s What",
+        "description": "Over the weekend, the Bitcoin price suffered a major crash, moving below $60,000 for the first time in this cycle. In contrast, there has been some recovery, with the price moving above $62,000 on Sunday, as investors moved back into the market. However, this…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-trader-something-bad/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-silver.jpeg?w=750",
+        "publishedAt": "2026-06-08T06:00:28Z",
+        "content": "Over the weekend, the Bitcoin price suffered a major crash, moving below $60,000 for the first time in this cycle. In contrast, there has been some recovery, with the price moving above $62,000 on Su… [+1994 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-fundraising-101-a-beginners-guide-on-raising-funds-using-cryptocurrencies-uk.jpg",
         "publishedAt": "2026-06-05T07:02:59Z",
         "content": "Nigel Farages Reform UK received 7 million British pounds ($9.4 million) from two crypto billionaires this year, with total funds raised outstripping all other political parties.\r\nThe party received … [+1954 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Ronaldo Marquez",
-        "title": "Coinbase Reveals First Mortgage With Bitcoin Collateral Under Fannie Mae Coverage",
-        "description": "Nearly four months after crypto exchange Coinbase and the Federal National Mortgage Association—better known as Fannie Mae—announced their partnership, the companies have now disclosed what they describe as the first-ever mortgage backed by crypto collateral.…",
-        "url": "http://www.newsbtc.com/news/coinbase-reveals-first-mortgage-with-bitcoin-collateral-under-fannie-mae-coverage/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_xy4INP0h_1780626753962_raw.jpg",
-        "publishedAt": "2026-06-05T05:30:47Z",
-        "content": "Ronaldo is an experienced crypto enthusiast dedicated to the nascent and ever-evolving industry. With over five years of extensive research and unwavering dedication, he has cultivated a profound int… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Bitcoin Price Back At $63,000 Despite 1.2 Million BTC Absorption",
-        "description": "Data shows the spot ETFs and Strategy have absorbed more Bitcoin than Satoshi’s stack since the asset was last at $63,000, yet the asset has returned to the same level. Bitcoin Could Be Headed Toward The Realized Price In a new post on X, CryptoQuant founder …",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-price-63000-1-2-million-btc-absorption/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/btc_fdddc0.png?fit=1152%2C768",
-        "publishedAt": "2026-06-05T04:00:33Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       }
     ]
   }
