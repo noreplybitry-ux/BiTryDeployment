@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-09T16:07:18.655Z",
+  "timestamp": "2026-06-09T19:19:49.308Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "'Best thesis' for Bitcoin accumulation surfaces despite current downside risk: Analyst",
+        "description": "Record-low Bitcoin RSI readings and whale accumulation highlight a generational buying opportunity, even as analysts still expect BTC to fall below $60,000.",
+        "url": "https://cointelegraph.com/markets/best-thesis-for-bitcoin-accumulation-surfaces-despite-downside-risk-analyst",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bungee-jumping-bitcoin.jpg",
+        "publishedAt": "2026-06-08T18:11:29Z",
+        "content": "Bitcoin's (BTC) lowest-ever readings on the daily and two-week relative strength index (RSI) are coinciding with steady accumulation across several investor cohorts, strengthening what one analyst ca… [+3108 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pngtree-7.png?fit=1200%2C673",
         "publishedAt": "2026-06-05T18:00:16Z",
         "content": "Crypto pundit Ash Crypto has drawn attention to speculations about how institutions could be crashing the Bitcoin price on purpose. This comes as the Bitcoin ETFs continue to record massive outflows,… [+2536 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Strategy’s Leveraged Bitcoin Model Is Under Strain, Researchers Warn",
-        "description": "Grayscale’s head of research says Strategy’s leveraged business model has come under pressure, and that pressure could make it harder for the company to keep adding Bitcoin to its holdings. Related Reading: Bitmine Seeks $300M Raise To Accelerate Ethereum Acc…",
-        "url": "http://www.newsbtc.com/news/strategys-leveraged-bitcoin-model-is-under-strain-researchers-warn/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-05T15:00:03Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
       }
     ]
   }
