@@ -1,10 +1,88 @@
 {
   "version": 3,
-  "timestamp": "2026-06-09T12:08:46.105Z",
+  "timestamp": "2026-06-09T16:07:18.655Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price $60K support not yet safe as more macro headwinds stack up",
+        "description": "Bitcoin has macro hurdles \"tapping it on the shoulder,\" says BTC price analysis with $60,000 still under suspicion as support.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-60k-support-not-yet-safe-as-more-macro-headwinds-stack-up",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-211825-bitcoin-s-future-bear-market-bottom-could-be-dollar60k-data.jpg",
+        "publishedAt": "2026-06-08T15:17:15Z",
+        "content": "Bitcoin (BTC) approached intraday highs ahead of Mondays Wall Street open, with $60,000 holding as key support.\r\nKey points:\r\n<ul><li>Bitcoin avoids another retest of $60,000 as Wall Street returns, … [+2652 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Analyst Charts Ethereum Long-Term Roadmap To $16,000 – There’s No Need To Panic",
+        "description": "Ethereum’s crash below $1,500 over the weekend has pushed sentiment into one of its most fearful phases since the previous bear market, but crypto analyst Crypto Patel believes the current selloff should be viewed through a longer lens. The analyst’s roadmap …",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-roadmap-to-16000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-price.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-06-08T15:00:52Z",
+        "content": "Ethereums crash below $1,500 over the weekend has pushed sentiment into one of its most fearful phases since the previous bear market, but crypto analyst Crypto Patel believes the current selloff sho… [+2651 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Bitcoin price eyes $90K as FTX-era BTC bullish divergence flashes again",
+        "description": "Bitcoin flashes only its second weekly bullish divergence on record, a signal that previously preceded a 755% BTC price rally.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-90k-as-ftx-era-btc-bullish-divergence-flashes-again",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-241294-bitcoin-bulls-chase-dollar91k-as-early-2026-rally-finds-sustained-volume.jpg",
+        "publishedAt": "2026-06-08T14:30:28Z",
+        "content": "Bitcoin (BTC) is showing a rare divergence between its falling prices and rising momentum, a setup that last appeared around the FTX-era market bottom. \r\nKey takeaways:\r\n<ul><li>Bitcoin's second week… [+3198 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Strategy buys 1,550 Bitcoin after controversial 32 BTC sale",
+        "description": "Strategy purchased 1,550 Bitcoin for $101.3 million, lifting its total holdings to 845,256 BTC and resuming accumulation after last week's controversial sale.",
+        "url": "https://cointelegraph.com/news/strategy-resumes-bitcoin-purchases-1550-btc-buy",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-saylors-strategy-keeps-buying-bitcoin-the-long-term-bet-explained-2.jpg",
+        "publishedAt": "2026-06-08T13:45:48Z",
+        "content": "Strategy purchased 1,550 Bitcoin for approximately $101.3 million last week, bringing its total holdings to 845,256 BTC.\r\nThe company paid an average price of $65,332 per Bitcoin for the purchase, ac… [+2029 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Has The Bitcoin Price Crash Ended Or Is This Just The Beginning? Analyst Answers",
+        "description": "Following Bitcoin’s rebound from last week’s dip below $59,000, the market is now weighing whether the recent price crash has finally run its course or if a deeper correction is still ahead. While the recovery has provided some relief across the crypto market…",
+        "url": "http://www.newsbtc.com/news/bitcoin/has-bitcoin-price-crash-ended/",
+        "urlToImage": null,
+        "publishedAt": "2026-06-08T13:30:41Z",
+        "content": "Following Bitcoin’s rebound from last week’s dip below $59,000, the market is now weighing whether the recent price crash has finally run its course or if a deeper correction is still ahead. While th… [+3136 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Strategy buys 1,550 bitcoin, first time since selling $2.5 million worth of BTC",
+        "description": "Strategy adds bitcoin and cash after raising $181 million through stock sales.",
+        "url": "https://www.coindesk.com/markets/2026/06/08/strategy-buys-1-550-bitcoin-boosts-cash-reserves-to-usd1-billion",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4d8ef340932caf33afa9389ca53934171415b336-4785x3190.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-08T12:12:45Z",
+        "content": "Strategy (MSTR) acquired 1,550 bitcoin for approximately $101 million, increasing its total holdings to 845,256 BTC, according to a Monday announcement from Executive Chairman Michael Saylor.\r\nThe pu… [+909 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,97 +394,6 @@
         "urlToImage": null,
         "publishedAt": "2026-06-05T15:00:03Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Here’s How High The Bitcoin Price Will Climb If It Breaks The Current Bear Trend",
-        "description": "Bitcoin has spent the better part of the past several weeks delivering a painful lesson to bulls. The largest cryptocurrency by market capitalization has shed more than 22% over the past month, slicing through support levels that many traders had considered e…",
-        "url": "http://www.newsbtc.com/news/bitcoin/how-high-bitcoin-price-will-climb/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/bitcoin-bulls-bears.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-06-05T13:30:28Z",
-        "content": "Bitcoin has spent the better part of the past several weeks delivering a painful lesson to bulls. The largest cryptocurrency by market capitalization has shed more than 22% over the past month, slici… [+2813 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin needs one more thing to happen to spark BTC price 'rally:' Analysis",
-        "description": "Bitcoin whales flipped to support a BTC price rebound, but analysis warned that the Coinbase and Kimchi Premium still needed to return.",
-        "url": "https://cointelegraph.com/markets/bitcoin-needs-one-more-thing-to-happen-to-spark-btc-price-rally-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-239383-btc-price-pauses-90k-what-will-trigger-new-year-rally.jpg",
-        "publishedAt": "2026-06-05T13:00:00Z",
-        "content": "Bitcoin (BTC) has fulfilled two of three key conditions to spark the next BTC price rally, new analysis says.\r\nKey points:\r\n<ul><li>Bitcoin whales on Hyperliquid and Bitfinex are already pointing to … [+2240 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "How low can Bitcoin price go if $60K support fails?",
-        "description": "Bitcoin’s downside targets cluster near $50,000, but a larger weekly bearish setup puts a deeper correction toward $33,000 on the radar.",
-        "url": "https://cointelegraph.com/markets/how-low-can-bitcoin-price-go-if-60k-support-fails",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-250429-bitcoin-options-market-structure-leans-toward-60k-retest-in-february.jpg",
-        "publishedAt": "2026-06-05T12:24:23Z",
-        "content": "Bitcoin (BTC) is heading for its worst weekly performance since November 2022, down around 15% week-to-date as of Friday.\r\nBTC/USD weekly chart Source: TradingView\r\nBTC was trading near $62,500 after… [+3519 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Faces Pressure As Investors Rotate Capital Into AI Buildout: Saylor",
-        "description": "Bitcoin spot ETFs have now recorded net outflows in 17 of the last 19 days, with investors pulling a combined $5.6 billion from the products during that stretch. Taking Stock Of The Damage The numbers have pushed year-to-date flows for US-traded Bitcoin ETFs …",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-faces-pressure-as-investors-rotate-capital-into-ai-buildout-saylor/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_1734ef.jpg?fit=1200%2C627",
-        "publishedAt": "2026-06-05T10:30:29Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Dogecoin Has Entered A Historically Red Month And The Result Could Be Catastrophic",
-        "description": "In the 13 years that Dogecoin has been in existence, it has seen some interesting trends across various months. However, each month has had its fair share of greens and reds, but the month of June has mostly defied this. With Dogecoin mostly ending June in th…",
-        "url": "http://www.newsbtc.com/news/dogecoin/dogecoin-historically-red-month/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Dogecoin-from-Peakpx-6.jpg?fit=800%2C533",
-        "publishedAt": "2026-06-05T09:30:20Z",
-        "content": "In the 13 years that Dogecoin has been in existence, it has seen some interesting trends across various months. However, each month has had its fair share of greens and reds, but the month of June ha… [+2015 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Rubmar Garcia",
-        "title": "Bitcoin Price In ’Vulnerable Position’ As 2022 Playbook Repeats – Is $54,000 Next?",
-        "description": "While Bitcoin (BTC) trades at its lowest levels in months, some market watchers have warned that the leading crypto may be preparing for another major drop as it retests a critical technical area that has historically marked a turning point. Related Reading: …",
-        "url": "http://www.newsbtc.com/news/bitcoin-vulnerable-position-2022-playbook-repeats/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/10/michael-fortsch-AA5sf7WTv10-unsplash-1.jpg?fit=1920%2C1280",
-        "publishedAt": "2026-06-05T08:00:31Z",
-        "content": "While Bitcoin (BTC) trades at its lowest levels in months, some market watchers have warned that the leading crypto may be preparing for another major drop as it retests a critical technical area tha… [+3161 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "Crypto billionaires bankroll Nigel Farage's pro-crypto party",
-        "description": "Tether-linked billionaire Christopher Harborne and BitMEX co-founder Ben Delo donated $9.4 million to Nigel Farage’s Reform UK in the first quarter.",
-        "url": "https://cointelegraph.com/news/crypto-billionaires-bankroll-reform-uk-more-than-other-parties",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-fundraising-101-a-beginners-guide-on-raising-funds-using-cryptocurrencies-uk.jpg",
-        "publishedAt": "2026-06-05T07:02:59Z",
-        "content": "Nigel Farages Reform UK received 7 million British pounds ($9.4 million) from two crypto billionaires this year, with total funds raised outstripping all other political parties.\r\nThe party received … [+1954 chars]"
       }
     ]
   }
