@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-08T23:15:50.178Z",
+  "timestamp": "2026-06-09T04:03:10.229Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Stages A Recovery Attempt After A Brutal Selloff",
+        "description": "Dogecoin started a recovery wave above the $0.0820 zone against the US Dollar. DOGE is now facing hurdles near $0.090 and might struggle to continue higher. DOGE price started a recovery wave from $0.0775 and climbed above $0.0820. The price is trading below …",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-stages-recovery-0-090/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Dogecoin-DOGE-Recovery-Capped.jpg?fit=1024%2C559",
+        "publishedAt": "2026-06-08T03:28:29Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Mounts An Impressive Recovery As Market Mood Shifts",
+        "description": "Ethereum price started a recovery wave above the $1,600 zone. ETH is now consolidating and might rally if there is a clear move above the $1,750 resistance. Ethereum started a recovery wave above the $1,600 zone. The price is trading above $1,620 and the 100-…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-mounts-an-impressive-recovery/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Cools-Off-But-Structure-Stays-Firmly-Supported.jpg?fit=1024%2C559",
+        "publishedAt": "2026-06-08T01:28:38Z",
+        "content": "Ethereum price started a recovery wave above the $1,600 zone. ETH is now consolidating and might rally if there is a clear move above the $1,750 resistance.\r\n<ul><li>Ethereum started a recovery wave … [+2060 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Fights Back—Is The Worst Finally Over?",
+        "description": "Bitcoin price started a recovery wave above the $62,000 zone. BTC is consolidating and might aim for more gains if it clears the $64,500 resistance zone. Bitcoin managed to form a base above $60,000 and started a recovery wave. The price is trading above $62,…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-fights-back-60k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Trims-Gains-But-Uptrend-Still-Holds-Strong.jpg",
+        "publishedAt": "2026-06-08T00:59:12Z",
+        "content": "Bitcoin price started a recovery wave above the $62,000 zone. BTC is consolidating and might aim for more gains if it clears the $64,500 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2192 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Opeyemi Sule",
+        "title": "Bitcoin Supply In Loss Crosses Critical Threshold — Bullish Reversal Next?",
+        "description": "After days of steep downward movement, the price of Bitcoin appears to have found a somewhat reliable anchor around the $60,000 region. However, recent on-chain data suggests that the premier cryptocurrency might not be down for long, with a bullish reversal …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-supply-in-loss-crosses-critical-threshold/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/iStock-1316231784.jpg?fit=2016%2C1486",
+        "publishedAt": "2026-06-08T00:00:19Z",
+        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,71 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/btc_fdddc0.png?fit=1152%2C768",
         "publishedAt": "2026-06-05T04:00:33Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Downtrend May Not Be Over—Sub-$1,700 Levels Loom",
-        "description": "Ethereum price started a fresh decline and traded below $1,750. ETH is now consolidating below $1,750 and might continue to move down. Ethereum remained in a bearish zone after a fresh decline below $1,800. The price is trading below $1,780 and the 100-hourly…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-downtrend-1700/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Crashes-6.jpg?fit=1024%2C559",
-        "publishedAt": "2026-06-05T03:28:36Z",
-        "content": "Ethereum price started a fresh decline and traded below $1,750. ETH is now consolidating below $1,750 and might continue to move down.\r\n<ul><li>Ethereum remained in a bearish zone after a fresh decli… [+2117 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitmine Seeks $300M Raise To Accelerate Ethereum Accumulation Strategy",
-        "description": "BitMine Immersion Technologies is seeking $300 million through a preferred stock sale that would pay a 9.5% annual dividend and, if approved, be listed on the New York Stock Exchange. The filing gives the Tom Lee-led company fresh money it can use to add more…",
-        "url": "http://www.newsbtc.com/news/ethereum/bitmine-seeks-300m-raise-to-accelerate-ethereum-accumulation-strategy/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_1b668e.jpg?fit=5184%2C3564",
-        "publishedAt": "2026-06-05T03:00:46Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Pain Isn’t Over Yet As Selling Pressure Persists",
-        "description": "Bitcoin price started a fresh decline below the $65,000 zone. BTC is showing bearish signs and might continue to move down if it dips below $62,000. Bitcoin failed to stay above $65,500 and extended losses. The price is trading below $64,000 and the 100 hourl…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-pain-isnt-over-62k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Bitcoin-Price-Sinks-to-New-Weekly-Low-Bulls-Lose-Key-Support.jpg",
-        "publishedAt": "2026-06-05T02:30:08Z",
-        "content": "Bitcoin price started a fresh decline below the $65,000 zone. BTC is showing bearish signs and might continue to move down if it dips below $62,000.\r\n<ul><li>Bitcoin failed to stay above $65,500 and … [+2199 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Has The Bitcoin Crash Ended After Falling Below $70,000?",
-        "description": "Bitcoin (BTC) has crashed below $70,000, underperforming the already weak crypto market as selling pressure tests price action. Market analyst Crypto Patel noted that he had anticipated this significant drop, citing BTC’s fragile price structure and persisten…",
-        "url": "http://www.newsbtc.com/news/bitcoin/has-the-bitcoin-crash-ended/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-69.jpg?fit=612%2C408",
-        "publishedAt": "2026-06-05T01:30:12Z",
-        "content": "Bitcoin (BTC) has crashed below $70,000, underperforming the already weak crypto market as selling pressure tests price action. Market analyst Crypto Patel noted that he had anticipated this signific… [+2575 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin fell 21% after Strategy’s debt buyback news— Is a Terra Luna-style doom loop next?",
-        "description": "Bitcoin price collapsed as Strategy faced tighter liquidity conditions and paused its BTC buying. Is it time to jump ship, or buy the dip?",
-        "url": "https://cointelegraph.com/markets/bitcoin-fell-21-after-strategys-debt-buyback-news-is-a-terra-luna-style-doom-loop-next",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-red2.jpg",
-        "publishedAt": "2026-06-04T20:37:58Z",
-        "content": "Key takeaways:\r\n<ul><li>Strategy faces tighter short-term liquidity, but its conservative 11% net leverage protects it from forced BTC liquidations.</li><li>A Bitcoin rally above $70,000 remains unli… [+3333 chars]"
       }
     ]
   }
