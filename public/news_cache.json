@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-10T16:39:12.695Z",
+  "timestamp": "2026-06-10T19:38:23.619Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin may act as a ‘canary in the coal mine’ as risk-off pressure spreads: Bitwise",
+        "description": "Bitwise says Bitcoin may be signaling wider weakness across risk assets as rising Treasury yields and $72 billion in stablecoin reserves present a mixed liquidity picture.",
+        "url": "https://cointelegraph.com/markets/bitcoin-may-act-as-a-canary-in-the-coal-mine-as-risk-off-pressure-spreads-bitwise",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-232405-how-u-s-bitcoin-mines-are-choking-the-grid-bitmain-at-the-center-of-the-storm.jpg",
+        "publishedAt": "2026-06-09T17:48:44Z",
+        "content": "Bitcoins (BTC) recent performance may be less about crypto market weakness and more about its position at the front of the risk curve. Asset management firm Bitwise said that BTC often acts as a cana… [+3440 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Bitcoin’s Rise May Have Little To Do With The Latest Purchase News",
+        "description": "Bitcoin’s latest upward move has sparked debate among market participants, and some believe the rally may have little to do with the purchase announcement that received the most attention. While the acquisition is generally viewed as constructive for the broa…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-and-latest-purchase-news/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-31.jpg?fit=1280%2C848",
+        "publishedAt": "2026-06-09T17:30:44Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Trims-Gains-But-Uptrend-Still-Holds-Strong.jpg",
         "publishedAt": "2026-06-08T00:59:12Z",
         "content": "Bitcoin price started a recovery wave above the $62,000 zone. BTC is consolidating and might aim for more gains if it clears the $64,500 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2192 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Supply In Loss Crosses Critical Threshold — Bullish Reversal Next?",
-        "description": "After days of steep downward movement, the price of Bitcoin appears to have found a somewhat reliable anchor around the $60,000 region. However, recent on-chain data suggests that the premier cryptocurrency might not be down for long, with a bullish reversal …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-supply-in-loss-crosses-critical-threshold/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/10/iStock-1316231784.jpg?fit=2016%2C1486",
-        "publishedAt": "2026-06-08T00:00:19Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum’s RSI Just Hit Its Lowest Level In History, And That May Be Exactly The Point",
-        "description": "Ethereum’s latest price crash has pushed the cryptocurrency below $1,800, placing its monthly chart under pressure at a time when the entire crypto market sentiment has turned heavily bearish. There is also another weakness coming from the monthly RSI, which …",
-        "url": "http://www.newsbtc.com/altcoin/ethereums-rsi-just-hit-its-lowest-level-in-history-and-that-may-be-exactly-the-point/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_2c981e.jpg?fit=1920%2C1080",
-        "publishedAt": "2026-06-07T22:00:14Z",
-        "content": "Ethereums latest price crash has pushed the cryptocurrency below $1,800, placing its monthly chart under pressure at a time when the entire crypto market sentiment has turned heavily bearish. There i… [+2577 chars]"
       }
     ]
   }
