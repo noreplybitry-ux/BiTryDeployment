@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-10T08:53:54.037Z",
+  "timestamp": "2026-06-10T12:27:44.119Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Akash Girimath",
+        "title": "This is Bitcoin's Shallowest Bear Market—But is the Bottom In?",
+        "description": "Bitcoin is down 50% from its all-time high in the shallowest bear market to date—but analysts caution that the bottom isn't in yet.",
+        "url": "https://decrypt.co/370495/this-is-bitcoins-shallowest-bear-market-but-is-the-bottom-in",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bear-market-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-06-09T12:06:13Z",
+        "content": "In brief\r\n<ul><li>Bitcoin's 50% drawdown from its $126,000 all-time high is its shallowest to date, compared to 2012s 90% correction.</li><li>Analysts point to ETF outflows and macro tightening as si… [+4133 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "SBI Shinsei links bank deposits to crypto rewards in Japan: Nikkei",
+        "description": "SBI will give out vouchers that can be redeemed for Bitcoin, Ether or XRP through SBI VC Trade, linking bank savings with the group’s crypto exchange arm.",
+        "url": "https://cointelegraph.com/news/sbi-shinsei-bank-crypto-vouchers-deposit-interest-japan",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-world-bank-initiatives-sbi-holdings.jpg",
+        "publishedAt": "2026-06-09T10:32:48Z",
+        "content": "SBI Shinsei Bank will reportedly launch a service that rewards deposit customers with cryptocurrency exchange vouchers based on their account balances.\r\nAccording to a Nikkei report, customers will r… [+2065 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Ethereum price forecast as BitMine buys 126,971 ETH: has ETH bottomed?",
+        "description": "BitMine tripled its weekly ETH buy to 126,971 tokens, now holding 4.59% of supply. Only 11% of ETH supply is in threefold profit, the lowest reading since Feb 2017. A weekly close below $1,500 could push ETH toward the $1,000 support zone. The Ethereum price …",
+        "url": "https://coinjournal.net/news/ethereum-price-forecast-as-bitmine-buys-126971-eth-has-eth-bottomed/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/ethereum-eth-price.png",
+        "publishedAt": "2026-06-09T10:27:08Z",
+        "content": "<ul><li>BitMine tripled its weekly ETH buy to 126,971 tokens, now holding 4.59% of supply.</li><li>Only 11% of ETH supply is in threefold profit, the lowest reading since Feb 2017.</li><li>A weekly c… [+4806 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "USDT's flashing a golden cross and that may be bad news for bitcoin",
+        "description": "Tether's dominance rate has flashed a bullish golden crossover in a sign of caution for the broader market.",
+        "url": "https://www.coindesk.com/markets/2026/06/09/usdt-s-flashing-a-golden-cross-and-that-may-be-bad-news-for-bitcoin",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8e8af44b57d72fd522a98e20bbffce3f34b6ee48-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-09T09:27:02Z",
+        "content": "A popular signal that confirms sustained bullish shifts in market momentum just appeared on the dominance chart for Tether's USDT, the world's largest stablecoin by market capitalization.\r\nThat may n… [+2730 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,84 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_220cb6.jpg?fit=1200%2C627",
         "publishedAt": "2026-06-07T14:00:44Z",
         "content": "Bitcoin closed the week of June 5, 2026 down by almost 20%, its highest single-week percentage decline since the collapse of FTX in November 2022. The last time the market saw a candle this red, it w… [+2687 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Price Plunges To $59K, Sparking Fears Of Deeper Decline",
-        "description": "Capital rotation into artificial intelligence may have played a bigger role in Bitcoin’s latest selloff than most market watchers initially assumed. Michael Saylor, whose company Strategy recently sold a portion of its Bitcoin holdings, pushed back on critici…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-crashes-to-59k-sparking-fears-of-deeper-decline/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-07T04:00:03Z",
-        "content": "Capital rotation into artificial intelligence may have played a bigger role in Bitcoin’s latest selloff than most market watchers initially assumed.\r\nMichael Saylor, whose company Strategy recently s… [+2299 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Bitcoin CVDD Data Points To Possible Bottom Amid Market Mayhem – Detail",
-        "description": "Bitcoin price performance in June has gotten off to a rocky start, with prices now down 50% from the market’s all-time high. In the last week alone, the premier cryptocurrency has declined by 16%, forcing the price to around $60,000 for the first time since F…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-cvdd-data-points-to-possible-bottom-amid-market-mayhem-detail/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/nice-france-october-14-2024-600nw-2530456961.jpg?fit=1000%2C666",
-        "publishedAt": "2026-06-07T02:00:35Z",
-        "content": "Bitcoin price performance in June has gotten off to a rocky start, with prices now down 50% from the market’s all-time high. In the last week alone, the premier cryptocurrency has declined by 16%, fo… [+2972 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Ethereum Breakdown Warning: This Key Level Could Trigger More Downtrend",
-        "description": "Ethereum is approaching a critical technical crossroads as bearish momentum continues to weigh on price action. With a major support zone now under intense pressure, traders are closely watching whether bulls can defend this level or if a breakdown will open …",
-        "url": "http://www.newsbtc.com/news/fantom/ethereum-breakdown-warning/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-from-Getty-Images-37.jpg?fit=612%2C407",
-        "publishedAt": "2026-06-07T01:00:05Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Semilore Faleti",
-        "title": "Ethereum Exchange Inflows Climb To 4-Month High – What This Means For Price",
-        "description": "Over the past week, the Ethereum price declined significantly, following Bitcoin’s downturn towards $59,000. As the second-largest cryptocurrency’s price dropped to $1,505, data from a recent on-chain analysis reveal an underlying shift in activity across exc…",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-exchange-inflows-climb-to-4-month-high-what-this-means-for-price/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/pexels-photo-14911408.jpg?fit=3243%2C2162",
-        "publishedAt": "2026-06-06T23:00:29Z",
-        "content": "Semilore Faleti is a cryptocurrency writer specialized in the field of journalism and content creation. While he started out writing on several subjects, Semilore soon found a knack for cracking down… [+3189 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Predicts When Bitcoin Price Will Reach $100,000 In 2026",
-        "description": "A crypto analyst has shared a detailed forecast outlining when Bitcoin could regain bullish momentum and climb back toward $100,000. The expert mapped out the asset’s expected monthly price targets throughout 2026, highlighting periods of sharp sell-offs and …",
-        "url": "http://www.newsbtc.com/news/bitcoin/analyst-predicts-when-the-bitcoin-price-will-reach-100000-in-2026/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-06T21:30:19Z",
-        "content": "A crypto analyst has shared a detailed forecast outlining when Bitcoin could regain bullish momentum and climb back toward $100,000. The expert mapped out the asset’s expected monthly price targets t… [+2951 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Bitcoin Price Under Bearish Pressure For 48 Straight Days On Binance",
-        "description": "The Bitcoin price faced overwhelming bearish pressure this past week, but it appears that this bearish story has been building up for much longer than was apparent in BTC’s previous price action. According to a recent on-chain analysis, the Bitcoin price has …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-under-bearish-pressure-for-48-days/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/iStock-1386847296.jpg?fit=2121%2C1414",
-        "publishedAt": "2026-06-06T15:30:58Z",
-        "content": "The Bitcoin price faced overwhelming bearish pressure this past week, but it appears that this bearish story has been building up for much longer than was apparent in BTC’s previous price action. Acc… [+2877 chars]"
       }
     ]
   }
