@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-10T19:38:23.619Z",
+  "timestamp": "2026-06-10T22:08:55.469Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Seattle-Area Man Gets Prison for Laundering Foreign Fraud Funds With Bitcoin, Ethereum",
+        "description": "The fraudster took in nearly $100 million from victims before laundering funds via Bitcoin, Ethereum, and stablecoins.",
+        "url": "https://decrypt.co/370576/seattle-man-prison-laundering-foreign-fraud-funds-bitcoin-ethereum",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/jail_decrypt_style_01-gID_7.png",
+        "publishedAt": "2026-06-09T20:26:11Z",
+        "content": "In brief\r\n<ul><li>A 47-year old man from the Seattle area helped defraud investors of nearly $100 million, prosecutors said.</li><li>Victims thought they were investing in oil and gas, but funds were… [+2570 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Dogecoin-DOGE-Recovery-Capped.jpg?fit=1024%2C559",
         "publishedAt": "2026-06-08T03:28:29Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Mounts An Impressive Recovery As Market Mood Shifts",
-        "description": "Ethereum price started a recovery wave above the $1,600 zone. ETH is now consolidating and might rally if there is a clear move above the $1,750 resistance. Ethereum started a recovery wave above the $1,600 zone. The price is trading above $1,620 and the 100-…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-mounts-an-impressive-recovery/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Cools-Off-But-Structure-Stays-Firmly-Supported.jpg?fit=1024%2C559",
-        "publishedAt": "2026-06-08T01:28:38Z",
-        "content": "Ethereum price started a recovery wave above the $1,600 zone. ETH is now consolidating and might rally if there is a clear move above the $1,750 resistance.\r\n<ul><li>Ethereum started a recovery wave … [+2060 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Fights Back—Is The Worst Finally Over?",
-        "description": "Bitcoin price started a recovery wave above the $62,000 zone. BTC is consolidating and might aim for more gains if it clears the $64,500 resistance zone. Bitcoin managed to form a base above $60,000 and started a recovery wave. The price is trading above $62,…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-fights-back-60k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Trims-Gains-But-Uptrend-Still-Holds-Strong.jpg",
-        "publishedAt": "2026-06-08T00:59:12Z",
-        "content": "Bitcoin price started a recovery wave above the $62,000 zone. BTC is consolidating and might aim for more gains if it clears the $64,500 resistance zone.\r\n<ul><li>Bitcoin managed to form a base above… [+2192 chars]"
       }
     ]
   }
