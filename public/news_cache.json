@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-06-10T04:14:53.604Z",
+  "timestamp": "2026-06-10T08:53:54.037Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Coinbase and Cardless unveil credit card backed by stablecoins",
+        "description": "The stablecoin-secured card is for situations where a credit card cannot be approved on an unsecured basis.",
+        "url": "https://www.coindesk.com/business/2026/06/09/coinbase-and-cardless-unveil-credit-card-backed-by-stablecoins",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9411c764a451101a37d939489f6f10515a33d0a9-3244x1825.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-09T08:04:59Z",
+        "content": "Cardless, a firm that has facilitated credit cards for brands like Qatar Airways and Alibaba, said it developed a payment card in conjunction with crypto exchange Coinbase (COIN) for stablecoin holde… [+1239 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Saylor blamed AI for bitcoin crash. Arca has one word for that: Nonsense",
+        "description": "Arca is blaming Strategy's sale of 32 BTC for last week's BTC crash, not AI capital rotation, as Strategy's Saylor claimed.",
+        "url": "https://www.coindesk.com/markets/2026/06/09/saylor-blamed-ai-for-bitcoin-crash-arca-has-one-word-for-that-nonsense",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0339788ec6da49e65916e89c4bf0f137635275cd-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-09T05:35:39Z",
+        "content": "While bitcoin BTC\r\n$63,347.54-holder listed firm Strategy's chairman Michael Saylor blamed the AI boom for last week's bitcoin selloff, crypto investment firm Arca is pointing the finger squarely at … [+3338 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum remains under pressure after double-digit weekly losses",
+        "description": "Key takeaways Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week. The broader crypto market remains under pressure following last week’s massive dump. The cryptocurrency market starts the week on a weak fo…",
+        "url": "https://coinjournal.net/news/ethereum-remains-under-pressure-after-double-digit-weekly-losses-2/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-19-2026-11_29_48-AM.png",
+        "publishedAt": "2026-06-09T05:28:34Z",
+        "content": "Key takeaways\r\n<ul><li>Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week.</li><li>The broader crypto market remains under pressure following las… [+2419 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum remains under pressure after double-digit weekly losses",
+        "description": "Key takeaways Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week. The broader crypto market remains under pressure following last week’s massive dump. The cryptocurrency market starts the week on a weak fo…",
+        "url": "https://coinjournal.net/news/ethereum-remains-under-pressure-after-double-digit-weekly-losses/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_06_04-AM.png",
+        "publishedAt": "2026-06-09T05:22:09Z",
+        "content": "Key takeaways\r\n<ul><li>Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week.</li><li>The broader crypto market remains under pressure following las… [+2419 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "UK financial regulator floats allowing 10% crypto allocations for retail funds",
+        "description": "The UK’s market regulator has proposed allowing some retail funds to allocate up to 10% to crypto products, closing a regulatory gap after it allowed individual investors to buy them.",
+        "url": "https://cointelegraph.com/news/uk-fca-floats-allowing-10-crypto-allocations-for-retail-funds",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-revival-of-general-partnerships-in-the-age-of-tokenomics-fca.jpg",
+        "publishedAt": "2026-06-09T04:40:43Z",
+        "content": "The UKs Financial Conduct Authority has proposed allowing some authorized investment funds to hold up to a 10% allocation of crypto exchange-traded notes, closing a regulatory gap between retail inve… [+2757 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,84 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/iStock-1386847296.jpg?fit=2121%2C1414",
         "publishedAt": "2026-06-06T15:30:58Z",
         "content": "The Bitcoin price faced overwhelming bearish pressure this past week, but it appears that this bearish story has been building up for much longer than was apparent in BTC’s previous price action. Acc… [+2877 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "A crypto pioneer who turned a $20 million family stake into a billion-dollar fund doubles down on bitcoin",
-        "description": "Sourcing initial capital from his mother to build a $1 billion crypto empire, DFG CEO James Wo says market metrics do not support Tom Lee’s $250,000 ether prediction.",
-        "url": "https://www.coindesk.com/business/2026/06/06/a-crypto-pioneer-who-turned-a-usd20-million-family-stake-into-a-billion-dollar-fund-doubles-down-on-bitcoin",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c5d8433cb8991feb405cb67f964737e13634e4b5-1280x960.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-06T15:00:00Z",
-        "content": "James Wo, the founder and chief executive of crypto investment firm DFG, says bitcoin remains the dominant institutional asset in crypto and ether is unlikely to reach the same status anytime soon.\r\n… [+4166 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Opeyemi Sule",
-        "title": "Cardano Price Could Be Heading To $0.10 — Crypto Founder Offers Insight",
-        "description": "The cryptocurrency market has been riddled with significant selling pressure over the past week, with the Cardano price taking one of the largest hits among large-cap assets. According to CoinGecko data, the altcoin has lost more than 30% of its value in the …",
-        "url": "http://www.newsbtc.com/news/cardano/cardano-price-could-be-heading-to-0-1/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/04/iStock-1336958377.jpeg?fit=2121%2C1414",
-        "publishedAt": "2026-06-06T11:00:40Z",
-        "content": "Opeyemi is a proficient writer and enthusiast in the exciting and unique cryptocurrency realm. While the digital asset industry was not his first choice, he has remained absolutely drawn since making… [+2777 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Analyst Who Predicted the Bitcoin Crash Says Price Could Reach $40,000, Here’s When",
-        "description": "The Bitcoin price recovery back in May 2026 triggered a renewed wave of bullish optimism. But despite the rising prices, there are some who did not give in to the bullish wave, picking a more conservative stance on the cryptocurrency. With the new month, thos…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-crash-could-reach-40000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-crash.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-06-06T09:30:53Z",
-        "content": "The Bitcoin price recovery back in May 2026 triggered a renewed wave of bullish optimism. But despite the rising prices, there are some who did not give in to the bullish wave, picking a more conserv… [+2301 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Dogecoin Tests Channel Floor Again: Breakdown Or Rebound?",
-        "description": "A cryptocurrency analyst has pointed out how Dogecoin has returned to the support level of a Parallel Channel following the latest market decline. Dogecoin Is Potentially Following A Parallel Channel In a new post on X, analyst Ali Martinez has talked about h…",
-        "url": "http://www.newsbtc.com/news/dogecoin/dogecoin-tests-channel-floor-breakdown-rebound/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/doge.png?fit=1228%2C819",
-        "publishedAt": "2026-06-06T06:00:41Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Cardano Crashes To 5-Year Lows As Hoskinson’s Warning Sparks Market Panic",
-        "description": "Cardano has come under intense pressure after plunging to its lowest price level in over five years, triggering a wave of fear across the cryptocurrency market. The sharp decline follows growing concerns about the ecosystem’s future after founder Charles Hosk…",
-        "url": "http://www.newsbtc.com/news/cardano/cardano-crashes-to-5-year-lows/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-06T04:00:00Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin’s Crash Has Broken Below A 4-Month Support, But There’s Still One More Play Left",
-        "description": "Bitcoin (BTC) has been in a sharp downtrend over the past two weeks, facing steady declines as selling pressure, market volatility, and negative sentiment weigh on its price. During one of its recent market crashes, a crypto analyst noted that BTC had officia…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-loses-4-month-support/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pngtree-36.jpg?fit=960%2C717",
-        "publishedAt": "2026-06-05T22:30:15Z",
-        "content": "Bitcoin (BTC) has been in a sharp downtrend over the past two weeks, facing steady declines as selling pressure, market volatility, and negative sentiment weigh on its price. During one of its recent… [+2961 chars]"
       }
     ]
   }
