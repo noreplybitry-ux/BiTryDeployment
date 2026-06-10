@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-09T23:20:51.822Z",
+  "timestamp": "2026-06-10T04:14:53.604Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Rebound Runs Out Of Fuel Near Key Resistance",
+        "description": "Ethereum price started a recovery wave above the $1,620 zone. ETH is now consolidating and struggling to continue higher above the $1,700 resistance. Ethereum started a recovery wave above the $1,620 zone. The price is trading below $1,680 and the 100-hourly …",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rebound-runs-out-of-fuel-1700/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Stuck-Under-2050-Bulls-Seek-Recovery-Catalyst.jpg?fit=1024%2C559",
+        "publishedAt": "2026-06-09T01:48:32Z",
+        "content": "Ethereum price started a recovery wave above the $1,620 zone. ETH is now consolidating and struggling to continue higher above the $1,700 resistance.\r\n<ul><li>Ethereum started a recovery wave above t… [+2152 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Stumbles Near $64K—Was The Rebound Just A Trap?",
+        "description": "Bitcoin price started a recovery wave above the $62,500 zone. BTC is consolidating and might aim for more gains if it clears the $64,000 resistance zone. Bitcoin started a recovery wave and climbed above $62,000. The price is trading above $62,200 and the 100…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-stumbles-near-64k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Rebound-Accelerates-Traders-Eye-Strong-Upside-Continuation.jpg",
+        "publishedAt": "2026-06-09T01:07:27Z",
+        "content": "Bitcoin price started a recovery wave above the $62,500 zone. BTC is consolidating and might aim for more gains if it clears the $64,000 resistance zone.\r\n<ul><li>Bitcoin started a recovery wave and … [+2201 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Ethereum OG Nails The Crash: Sells $188M, Buys Back Lower",
+        "description": "Ethereum has reclaimed the $1,650 level after the massive drop that defined last week’s market action — a recovery attempt that has provided some relief after a correction that tested the resolve of even the most conviction-driven holders. The bounce is welco…",
+        "url": "http://www.newsbtc.com/ethereum-news/ethereum-og-nails-the-crash-sells-188m-buys-back-lower/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-73.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-06-09T00:00:58Z",
+        "content": "Ethereum has reclaimed the $1,650 level after the massive drop that defined last week’s market action a recovery attempt that has provided some relief after a correction that tested the resolve of ev… [+4043 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pngtree-36.jpg?fit=960%2C717",
         "publishedAt": "2026-06-05T22:30:15Z",
         "content": "Bitcoin (BTC) has been in a sharp downtrend over the past two weeks, facing steady declines as selling pressure, market volatility, and negative sentiment weigh on its price. During one of its recent… [+2961 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Why diehard bitcoin purists aren’t sweating the massive price crash that wiped out $200 billion",
-        "description": "Mati Greenspan, Michael Saylor and Jameson Lopp blamed the AI boom for draining capital from bitcoin. Meanwhile, Jack Mallers refrained from sharing an outlook but recommended buying the dip.",
-        "url": "https://www.coindesk.com/markets/2026/06/05/why-diehard-bitcoin-purists-aren-t-sweating-the-massive-price-crash-that-wiped-out-usd200-billion",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e7400343674854cadfca863a6d772265170e3fe3-7680x4320.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-05T19:27:20Z",
-        "content": "Hardcore bitcoin purists haven't lost faith in the world's largest digital currency, despite it losing nearly 17% of its value, marking the worst weekly performance since July 2024 and wiping out abo… [+5672 chars]"
       }
     ]
   }
