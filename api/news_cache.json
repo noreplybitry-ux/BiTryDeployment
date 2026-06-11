@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-11T21:25:32.704Z",
+  "timestamp": "2026-06-11T23:41:20.642Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Bitcoin Obituaries Keep Coming—CZ Isn’t Buying It",
+        "description": "Bitcoin fell to its lowest weekly close since the second half of 2024 last week, capping a stretch that has now stripped more than 8% of its value in seven days and pulled the broader crypto market to levels not seen since early in the year. Related Reading: …",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-obituaries-keep-coming-cz-isnt-buying-it/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_d3e508.jpg?fit=4547%2C3075",
+        "publishedAt": "2026-06-10T22:30:06Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -354,19 +367,6 @@
         "url": "https://coinjournal.net/news/ethereum-remains-under-pressure-after-double-digit-weekly-losses-2/",
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-19-2026-11_29_48-AM.png",
         "publishedAt": "2026-06-09T05:28:34Z",
-        "content": "Key takeaways\r\n<ul><li>Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week.</li><li>The broader crypto market remains under pressure following las… [+2419 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Ethereum remains under pressure after double-digit weekly losses",
-        "description": "Key takeaways Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week. The broader crypto market remains under pressure following last week’s massive dump. The cryptocurrency market starts the week on a weak fo…",
-        "url": "https://coinjournal.net/news/ethereum-remains-under-pressure-after-double-digit-weekly-losses/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_06_04-AM.png",
-        "publishedAt": "2026-06-09T05:22:09Z",
         "content": "Key takeaways\r\n<ul><li>Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week.</li><li>The broader crypto market remains under pressure following las… [+2419 chars]"
       }
     ]
