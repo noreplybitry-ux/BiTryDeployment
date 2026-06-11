@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-11T18:20:20.076Z",
+  "timestamp": "2026-06-11T21:25:32.704Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "UK crypto advocates launch campaign against banks blocking exchange transfers",
+        "description": "Stand With Crypto UK is urging its 286,000 members to challenge bank restrictions on transfers to crypto exchanges, citing data showing 40% of transactions face blocks or limits.",
+        "url": "https://cointelegraph.com/news/uk-crypto-advocates-launch-campaign-against-banks-blocking-exchange-transfers",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-trade-crypto-in-uk-fca.jpg",
+        "publishedAt": "2026-06-10T18:55:00Z",
+        "content": "Stand With Crypto UK is urging its 286,000 members to challenge British banks restricting transfers to cryptocurrency exchanges, arguing that blanket limits on transactions to regulated platforms are… [+3089 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Pending Bank of Japan rate decision may impact Bitcoin price: Should traders prepare?",
+        "description": "Bitcoin’s average price response to Bank of Japan rate hikes was a 22.5% sell-off. Will BOJ’s upcoming policy decision trigger another BTC price crash?",
+        "url": "https://cointelegraph.com/markets/can-bitcoin-avoid-another-sell-off-after-a-bank-of-japan-rate-hike",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-217039-weekly-review-and-outlook-or-fed-cuts-interest-rates-by-25-basis-points.jpg",
+        "publishedAt": "2026-06-10T18:41:15Z",
+        "content": "Since 2024, Bitcoin (BTC) has posted four major corrections after interest rate hikes by the Bank of Japan (BOJ), with declines ranging from 18% to 28%. This dynamic places renewed attention on the B… [+4181 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +368,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_06_04-AM.png",
         "publishedAt": "2026-06-09T05:22:09Z",
         "content": "Key takeaways\r\n<ul><li>Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week.</li><li>The broader crypto market remains under pressure following las… [+2419 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "UK financial regulator floats allowing 10% crypto allocations for retail funds",
-        "description": "The UK’s market regulator has proposed allowing some retail funds to allocate up to 10% to crypto products, closing a regulatory gap after it allowed individual investors to buy them.",
-        "url": "https://cointelegraph.com/news/uk-fca-floats-allowing-10-crypto-allocations-for-retail-funds",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-revival-of-general-partnerships-in-the-age-of-tokenomics-fca.jpg",
-        "publishedAt": "2026-06-09T04:40:43Z",
-        "content": "The UKs Financial Conduct Authority has proposed allowing some authorized investment funds to hold up to a 10% allocation of crypto exchange-traded notes, closing a regulatory gap between retail inve… [+2757 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Rebound Runs Out Of Fuel Near Key Resistance",
-        "description": "Ethereum price started a recovery wave above the $1,620 zone. ETH is now consolidating and struggling to continue higher above the $1,700 resistance. Ethereum started a recovery wave above the $1,620 zone. The price is trading below $1,680 and the 100-hourly …",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rebound-runs-out-of-fuel-1700/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Stuck-Under-2050-Bulls-Seek-Recovery-Catalyst.jpg?fit=1024%2C559",
-        "publishedAt": "2026-06-09T01:48:32Z",
-        "content": "Ethereum price started a recovery wave above the $1,620 zone. ETH is now consolidating and struggling to continue higher above the $1,700 resistance.\r\n<ul><li>Ethereum started a recovery wave above t… [+2152 chars]"
       }
     ]
   }
