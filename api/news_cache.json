@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-11T10:47:11.960Z",
+  "timestamp": "2026-06-11T14:43:15.093Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Crypto outflows are sentiment shock, not structural crisis: CoinShares' Butterfill",
+        "description": "CoinShares’ research head James Butterfill said crypto outflows reflect a sentiment shock rather than a structural crisis as ETF redemptions, rate fears and AI rotation pressure markets.",
+        "url": "https://cointelegraph.com/news/crypto-outflows-sentiment-shock-structural-crisis-coinshares",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/aquapark-falling-market-red-3.jpg",
+        "publishedAt": "2026-06-10T14:08:44Z",
+        "content": "Cryptocurrency market outflows reflect a sentiment shock, as geopolitics, rate expectations and capital rotation into artificial intelligence weigh on digital assets, according to James Butterfill, h… [+2066 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Delaware Advances Bill to Ban ‘Predatory’ Bitcoin ATMs",
+        "description": "Lawmakers have advanced legislation that would ban all cryptocurrency kiosks statewide, with physical removal mandated within 90 days.",
+        "url": "https://decrypt.co/370638/delaware-advances-bill-to-ban-predatory-bitcoin-atms",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-atm-decrypt-style-1-scaled-gID_7.jpg",
+        "publishedAt": "2026-06-10T13:52:31Z",
+        "content": "In brief\r\n<ul><li>Delaware lawmakers have advanced House Bill 441 to ban cryptocurrency kiosks statewide.</li><li>If passed, the bill would require existing machines to go offline immediately and be … [+3089 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Bitcoin price may slide toward $30K as institutions dump 450% of daily BTC supply",
+        "description": "Bitcoin’s institutional support is weakening as ETFs and corporates dump almost 2,000 BTC daily and Strategy’s buying loses momentum.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-may-slip-under-30k-as-institutions-dump-450-of-daily-btc-supply",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-market-correction-vs-bear-market-btc.jpg",
+        "publishedAt": "2026-06-10T13:11:03Z",
+        "content": "Bitcoin (BTC) faced renewed risks of a breakdown toward $30,000, according to a new analysis, as institutional demand turned deeply negative.\r\nKey takeaways:\r\n<ul><li>Data shows institutions are offl… [+3022 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/btc_517701.png?fit=1152%2C768",
         "publishedAt": "2026-06-08T19:30:14Z",
         "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "'Best thesis' for Bitcoin accumulation surfaces despite current downside risk: Analyst",
-        "description": "Record-low Bitcoin RSI readings and whale accumulation highlight a generational buying opportunity, even as analysts still expect BTC to fall below $60,000.",
-        "url": "https://cointelegraph.com/markets/best-thesis-for-bitcoin-accumulation-surfaces-despite-downside-risk-analyst",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bungee-jumping-bitcoin.jpg",
-        "publishedAt": "2026-06-08T18:11:29Z",
-        "content": "Bitcoin's (BTC) lowest-ever readings on the daily and two-week relative strength index (RSI) are coinciding with steady accumulation across several investor cohorts, strengthening what one analyst ca… [+3108 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price $60K support not yet safe as more macro headwinds stack up",
-        "description": "Bitcoin has macro hurdles \"tapping it on the shoulder,\" says BTC price analysis with $60,000 still under suspicion as support.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-60k-support-not-yet-safe-as-more-macro-headwinds-stack-up",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-211825-bitcoin-s-future-bear-market-bottom-could-be-dollar60k-data.jpg",
-        "publishedAt": "2026-06-08T15:17:15Z",
-        "content": "Bitcoin (BTC) approached intraday highs ahead of Mondays Wall Street open, with $60,000 holding as key support.\r\nKey points:\r\n<ul><li>Bitcoin avoids another retest of $60,000 as Wall Street returns, … [+2652 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Analyst Charts Ethereum Long-Term Roadmap To $16,000 – There’s No Need To Panic",
-        "description": "Ethereum’s crash below $1,500 over the weekend has pushed sentiment into one of its most fearful phases since the previous bear market, but crypto analyst Crypto Patel believes the current selloff should be viewed through a longer lens. The analyst’s roadmap …",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-roadmap-to-16000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-price.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-06-08T15:00:52Z",
-        "content": "Ethereums crash below $1,500 over the weekend has pushed sentiment into one of its most fearful phases since the previous bear market, but crypto analyst Crypto Patel believes the current selloff sho… [+2651 chars]"
       }
     ]
   }
