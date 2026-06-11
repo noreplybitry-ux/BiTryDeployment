@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-11T00:21:29.988Z",
+  "timestamp": "2026-06-11T05:55:12.901Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Solana (SOL) Back On The Defensive—Can Bulls Prevent Another Drop?",
+        "description": "Solana failed to stay above $67 and corrected some gains. SOL price is moving lower and might aim for another increase if it stays above $63.00. SOL price started a downside correction below $66 against the US Dollar. The price is now trading below $65 and th…",
+        "url": "http://www.newsbtc.com/analysis/solana-sol-back-defensive-65/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Solana-SOL-Slips-Further.jpg?fit=1024%2C572",
+        "publishedAt": "2026-06-10T05:28:33Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Looks Vulnerable Again After A Failed Recovery Attempt",
+        "description": "Ethereum price started a downside correction from $1,720. ETH must clear the $1,670 and $1,700 resistance levels to continue higher. Ethereum started a downside correction below the $1,620 zone. The price is trading below $1,665 and the 100-hourly Simple Movi…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-looks-vulnerable-1650/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Closes-Sub-2000-Support.jpg?fit=1024%2C572",
+        "publishedAt": "2026-06-10T03:48:51Z",
+        "content": "Ethereum price started a downside correction from $1,720. ETH must clear the $1,670 and $1,700 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $1,620 z… [+2088 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Back Under Pressure After Recovery Hopes Fade",
+        "description": "Bitcoin price started a downside correction from the $64,600 zone. BTC is showing bearish signs and might continue lower below $61,200. Bitcoin failed to stay above $64,000 and extended losses. The price is trading below $62,800 and the 100 hourly simple movi…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-back-under-pressure-60k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Teeters-on-Edge.jpg",
+        "publishedAt": "2026-06-10T03:13:52Z",
+        "content": "Bitcoin price started a downside correction from the $64,600 zone. BTC is showing bearish signs and might continue lower below $61,200.\r\n<ul><li>Bitcoin failed to stay above $64,000 and extended loss… [+2121 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Bitcoin Flashes One Of Its Rarest Demand Signals In Six Years – Details",
+        "description": "Bitcoin is holding above $62,000 after the massive drop that defined last week’s market action and erased months of recovery progress in a matter of days. The price is stabilizing — but analyst MorenoDV has published a demand analysis that places the current …",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-flashes-one-of-its-rarest-demand-signals-in-six-years-details/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-77.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-06-10T02:30:04Z",
+        "content": "Bitcoin is holding above $62,000 after the massive drop that defined last week’s market action and erased months of recovery progress in a matter of days. The price is stabilizing but analyst MorenoD… [+4753 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4d8ef340932caf33afa9389ca53934171415b336-4785x3190.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-08T12:12:45Z",
         "content": "Strategy (MSTR) acquired 1,550 bitcoin for approximately $101 million, increasing its total holdings to 845,256 BTC, according to a Monday announcement from Executive Chairman Michael Saylor.\r\nThe pu… [+909 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Trader Says Something Extremely Bad Is Coming Today, Here’s What",
-        "description": "Over the weekend, the Bitcoin price suffered a major crash, moving below $60,000 for the first time in this cycle. In contrast, there has been some recovery, with the price moving above $62,000 on Sunday, as investors moved back into the market. However, this…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-trader-something-bad/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-silver.jpeg?w=750",
-        "publishedAt": "2026-06-08T06:00:28Z",
-        "content": "Over the weekend, the Bitcoin price suffered a major crash, moving below $60,000 for the first time in this cycle. In contrast, there has been some recovery, with the price moving above $62,000 on Su… [+1994 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Stages A Recovery Attempt After A Brutal Selloff",
-        "description": "Dogecoin started a recovery wave above the $0.0820 zone against the US Dollar. DOGE is now facing hurdles near $0.090 and might struggle to continue higher. DOGE price started a recovery wave from $0.0775 and climbed above $0.0820. The price is trading below …",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-stages-recovery-0-090/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Dogecoin-DOGE-Recovery-Capped.jpg?fit=1024%2C559",
-        "publishedAt": "2026-06-08T03:28:29Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
