@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-11T05:55:12.901Z",
+  "timestamp": "2026-06-11T10:47:11.960Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Years In The Making: Why The Bitcoin Price Is Headed To $220,000",
+        "description": "Bitcoin has been forming a pattern for years now, and even with the uncertain price movements, this pattern has now finally be completed. This was explained by crypto analyst Bitcoin Teddy on the X social media platform, showing this pattern, how it was forme…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-headed-to-220000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-12.-Mai-2026-15_50_57.png?fit=1222%2C814",
+        "publishedAt": "2026-06-10T08:00:08Z",
+        "content": "Bitcoin has been forming a pattern for years now, and even with the uncertain price movements, this pattern has now finally be completed. This was explained by crypto analyst Bitcoin Teddy on the X s… [+1973 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,58 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-price.jpeg?fit=1280%2C853",
         "publishedAt": "2026-06-08T15:00:52Z",
         "content": "Ethereums crash below $1,500 over the weekend has pushed sentiment into one of its most fearful phases since the previous bear market, but crypto analyst Crypto Patel believes the current selloff sho… [+2651 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Bitcoin price eyes $90K as FTX-era BTC bullish divergence flashes again",
-        "description": "Bitcoin flashes only its second weekly bullish divergence on record, a signal that previously preceded a 755% BTC price rally.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-90k-as-ftx-era-btc-bullish-divergence-flashes-again",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-241294-bitcoin-bulls-chase-dollar91k-as-early-2026-rally-finds-sustained-volume.jpg",
-        "publishedAt": "2026-06-08T14:30:28Z",
-        "content": "Bitcoin (BTC) is showing a rare divergence between its falling prices and rising momentum, a setup that last appeared around the FTX-era market bottom. \r\nKey takeaways:\r\n<ul><li>Bitcoin's second week… [+3198 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Strategy buys 1,550 Bitcoin after controversial 32 BTC sale",
-        "description": "Strategy purchased 1,550 Bitcoin for $101.3 million, lifting its total holdings to 845,256 BTC and resuming accumulation after last week's controversial sale.",
-        "url": "https://cointelegraph.com/news/strategy-resumes-bitcoin-purchases-1550-btc-buy",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-saylors-strategy-keeps-buying-bitcoin-the-long-term-bet-explained-2.jpg",
-        "publishedAt": "2026-06-08T13:45:48Z",
-        "content": "Strategy purchased 1,550 Bitcoin for approximately $101.3 million last week, bringing its total holdings to 845,256 BTC.\r\nThe company paid an average price of $65,332 per Bitcoin for the purchase, ac… [+2029 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Has The Bitcoin Price Crash Ended Or Is This Just The Beginning? Analyst Answers",
-        "description": "Following Bitcoin’s rebound from last week’s dip below $59,000, the market is now weighing whether the recent price crash has finally run its course or if a deeper correction is still ahead. While the recovery has provided some relief across the crypto market…",
-        "url": "http://www.newsbtc.com/news/bitcoin/has-bitcoin-price-crash-ended/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-08T13:30:41Z",
-        "content": "Following Bitcoin’s rebound from last week’s dip below $59,000, the market is now weighing whether the recent price crash has finally run its course or if a deeper correction is still ahead. While th… [+3136 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Strategy buys 1,550 bitcoin, first time since selling $2.5 million worth of BTC",
-        "description": "Strategy adds bitcoin and cash after raising $181 million through stock sales.",
-        "url": "https://www.coindesk.com/markets/2026/06/08/strategy-buys-1-550-bitcoin-boosts-cash-reserves-to-usd1-billion",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4d8ef340932caf33afa9389ca53934171415b336-4785x3190.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-08T12:12:45Z",
-        "content": "Strategy (MSTR) acquired 1,550 bitcoin for approximately $101 million, increasing its total holdings to 845,256 BTC, according to a Monday announcement from Executive Chairman Michael Saylor.\r\nThe pu… [+909 chars]"
       }
     ]
   }
