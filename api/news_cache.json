@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-11T14:43:15.093Z",
+  "timestamp": "2026-06-11T18:20:20.077Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Crypto Analyst Gives Timeframe For When The Bitcoin Price Will Hit $200,000",
+        "description": "The Bitcoin price could be on track to reach $200,000 within the next one to two years, according to crypto analyst @CryptoTice_. Backed by a long-term cycle chart, the analyst argues that Bitcoin is once again moving through a familiar historical pattern, pl…",
+        "url": "http://www.newsbtc.com/news/bitcoin/when-bitcoin-price-hit-200000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-200000.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-06-10T18:00:20Z",
+        "content": "The Bitcoin price could be on track to reach $200,000 within the next one to two years, according to crypto analyst @CryptoTice_. Backed by a long-term cycle chart, the analyst argues that Bitcoin is… [+2791 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Mastercard Enables AI Agent Payments With Help From Crypto Giants Like Coinbase, Ripple",
+        "description": "Mastercard's Agent Pay for Machines is designed to let AI buy services and settle transactions using cards, bank accounts, and stablecoins.",
+        "url": "https://decrypt.co/370660/mastercard-enables-ai-agent-payments-crypto-giants-coinbase-ripple",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/mastercard-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-06-10T16:50:47Z",
+        "content": "In brief\r\n<ul><li>Mastercard launched Agent Pay for Machines, a platform for autonomous AI-driven payments.</li><li>The company said the service supports machine-to-machine transactions, including mi… [+2492 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Price Is Headed To $150,000 In These 4 Scenarios Shared By This Analyst",
+        "description": "Crypto analyst Crypto Lens has predicted that the Bitcoin price could rally to a new all-time high (ATH) of $150,000. This came as he outlined four scenarios that will build toward this rally to a new ATH by next year.  Bitcoin Price To Still Rally To $150,00…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-headed-to-150000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-38.jpg?fit=1280%2C800",
+        "publishedAt": "2026-06-10T15:00:34Z",
+        "content": "Crypto analyst Crypto Lens has predicted that the Bitcoin price could rally to a new all-time high (ATH) of $150,000. This came as he outlined four scenarios that will build toward this rally to a ne… [+2249 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,58 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/Ethereum-Price-Stuck-Under-2050-Bulls-Seek-Recovery-Catalyst.jpg?fit=1024%2C559",
         "publishedAt": "2026-06-09T01:48:32Z",
         "content": "Ethereum price started a recovery wave above the $1,620 zone. ETH is now consolidating and struggling to continue higher above the $1,700 resistance.\r\n<ul><li>Ethereum started a recovery wave above t… [+2152 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Stumbles Near $64K—Was The Rebound Just A Trap?",
-        "description": "Bitcoin price started a recovery wave above the $62,500 zone. BTC is consolidating and might aim for more gains if it clears the $64,000 resistance zone. Bitcoin started a recovery wave and climbed above $62,000. The price is trading above $62,200 and the 100…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-stumbles-near-64k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Rebound-Accelerates-Traders-Eye-Strong-Upside-Continuation.jpg",
-        "publishedAt": "2026-06-09T01:07:27Z",
-        "content": "Bitcoin price started a recovery wave above the $62,500 zone. BTC is consolidating and might aim for more gains if it clears the $64,000 resistance zone.\r\n<ul><li>Bitcoin started a recovery wave and … [+2201 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Ethereum OG Nails The Crash: Sells $188M, Buys Back Lower",
-        "description": "Ethereum has reclaimed the $1,650 level after the massive drop that defined last week’s market action — a recovery attempt that has provided some relief after a correction that tested the resolve of even the most conviction-driven holders. The bounce is welco…",
-        "url": "http://www.newsbtc.com/ethereum-news/ethereum-og-nails-the-crash-sells-188m-buys-back-lower/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-73.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-06-09T00:00:58Z",
-        "content": "Ethereum has reclaimed the $1,650 level after the massive drop that defined last week’s market action a recovery attempt that has provided some relief after a correction that tested the resolve of ev… [+4043 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Bitcoin Is 'Boring' AI-Hungry Retail Investors, But Bernstein Still Sees $150K This Year",
-        "description": "Bitcoin is down about 50% from its peak, but Wall Street researchers argue the selloff reflects a maturing asset, not a dying one.",
-        "url": "https://decrypt.co/370434/bitcoin-boring-ai-hungry-retail-investors-bernstein-150k",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-decrypt-style-25-gID_7.png",
-        "publishedAt": "2026-06-08T19:46:06Z",
-        "content": "In brief\r\n<ul><li>Retail investors are hungry for AI stocks, making the declining Bitcoin look boring by comparison, Bernstein said Monday.</li><li>Bernstein argues the low retail activity reflects a… [+2783 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Bitcoin Recovery Needs This To Happen, Glassnode Analyst Reveals",
-        "description": "The lead research analyst at Glassnode has highlighted how the Bitcoin supply clustered at the top levels might have to shift down before a sustained recovery can take shape. Bitcoin Cost Basis Distribution Shows Massive Supply Above $80,000 In a new post on …",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-recovery-happen-glassnode-analyst-reveals/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/btc_517701.png?fit=1152%2C768",
-        "publishedAt": "2026-06-08T19:30:14Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       }
     ]
   }
