@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-12T16:47:34.406Z",
+  "timestamp": "2026-06-12T19:10:44.774Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Analyst Predicts Bitcoin Price Has Entered The Final Bear Market Phase",
+        "description": "A crypto analyst has stated that the Bitcoin price remains firmly in a bear market, projecting more volatility and pain ahead for the world’s largest cryptocurrency. The expert also noted that BTC has entered the final phase of this bearish stage, a period wh…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-final-bear-market-phase/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-11.jpg?fit=612%2C408",
+        "publishedAt": "2026-06-11T18:30:17Z",
+        "content": "A crypto analyst has stated that the Bitcoin price remains firmly in a bear market, projecting more volatility and pain ahead for the worlds largest cryptocurrency. The expert also noted that BTC has… [+3026 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Godspower Owie",
+        "title": "Ethereum Nears 200 Million Non-Empty Wallets Despite Market Uncertainty",
+        "description": "Despite persistent market uncertainty and bearish sentiment across parts of the cryptocurrency sector, Ethereum is approaching a significant adoption milestone, with the number of non-empty wallets nearing 200 million. While price fluctuations often dominate …",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-nears-200-million-wallets/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-from-Getty-Images-26.jpg?fit=612%2C408",
+        "publishedAt": "2026-06-11T17:00:08Z",
+        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,45 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-31.jpg?fit=1280%2C848",
         "publishedAt": "2026-06-09T17:30:44Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "What The Bitcoin Price Is Doing Now After Bouncing From $59,000",
-        "description": "Crypto analyst Ardi has drawn attention to an interesting dynamic amid the Bitcoin price bounce from a recent low of around $59,000. Based on his analysis, the BTC bottom has likely not formed, with the leading crypto set to fall to new lows.  Analyst Explain…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-after-bouncing-from-59000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-5.jpg?fit=1280%2C853",
-        "publishedAt": "2026-06-09T16:00:14Z",
-        "content": "Crypto analyst Ardi has drawn attention to an interesting dynamic amid the Bitcoin price bounce from a recent low of around $59,000. Based on his analysis, the BTC bottom has likely not formed, with … [+2603 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price slips toward $62K local lows as bear-market history keeps repeating",
-        "description": "Bitcoin bear market analysis showed copycat BTC price moves ongoing despite new hopes of a US-Iran peace deal.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-slips-toward-62k-local-lows-as-bear-market-history-keeps-repeating",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bear-bang-reg-falling-bitcoin.jpg",
-        "publishedAt": "2026-06-09T15:05:28Z",
-        "content": "Bitcoin (BTC) hit week-to-date lows at Tuesday's Wall Street open as analysis put $65,000 as bulls level to beat.\r\nKey points:\r\n<ul><li>Bitcoin needs to revisit $65,000 for bulls to take charge, says… [+2729 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Bitcoin bottom? These four charts hint at BTC price dropping to $50K",
-        "description": "A $50,000 Bitcoin price target remains in play despite BTC maintaining above $60,000 support for now, as multiple indicators warn the bottom may not be in.",
-        "url": "https://cointelegraph.com/markets/bitcoin-bottom-these-four-charts-hint-at-btc-price-dropping-to-50k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-bitcoin-treasury-stocks-fall-faster-than-the-assets-they-hold-1.jpg",
-        "publishedAt": "2026-06-09T14:33:53Z",
-        "content": "Bitcoin (BTC) bulls successfully defended the $60,000 psychological support during last weeks 13% correction. \r\nBTC/USD daily chart. Source: TradingView\r\nHowever, the rebound has not fully erased dow… [+4672 chars]"
       }
     ]
   }
