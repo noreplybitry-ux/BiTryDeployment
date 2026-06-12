@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-12T13:30:15.763Z",
+  "timestamp": "2026-06-12T16:47:34.406Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Bitcoin Has Never Broken This Line Before And Price Just Touched It Again",
+        "description": "Crypto analyst Crypto Rover has pointed to a trendline that Bitcoin has never broken below in every market cycle. The leading crypto has now touched this trendline, providing optimism that it could bounce from that level as it did in previous bear cycles. Bit…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-unbroken-key-line/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-19.jpg?fit=612%2C393",
+        "publishedAt": "2026-06-11T14:00:17Z",
+        "content": "Crypto analyst Crypto Rover has pointed to a trendline that Bitcoin has never broken below in every market cycle. The leading crypto has now touched this trendline, providing optimism that it could b… [+2545 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Margaux Nijkerk",
+        "title": "SpaceX stock is coming to Solana on the same day it lists on Nasdaq",
+        "description": "The firms making that possible say eligible shares can also be converted back into tokens, creating a bridge between traditional brokerage accounts and blockchain-based markets.",
+        "url": "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9f49c07fc596bf0c2db50c23c38cfbe175dcb9cd-2048x1365.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-11T14:00:00Z",
+        "content": "SpaceX (SPCX) shares will begin trading on Solana the same day the company is expected to list on Nasdaq, according to Sunrise, a tokenization infrastructure provider, and Backpack Securities, a regu… [+1633 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-bitcoin-treasury-stocks-fall-faster-than-the-assets-they-hold-1.jpg",
         "publishedAt": "2026-06-09T14:33:53Z",
         "content": "Bitcoin (BTC) bulls successfully defended the $60,000 psychological support during last weeks 13% correction. \r\nBTC/USD daily chart. Source: TradingView\r\nHowever, the rebound has not fully erased dow… [+4672 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Blockchain researchers warn HTX sanctions may blur crypto risk signals",
-        "description": "Researchers say broad HTX tainting could freeze legitimate users and make compliance tools less useful for tracing illicit funds.",
-        "url": "https://cointelegraph.com/news/blockchain-researchers-htx-sanctions-crypto-risk-signals",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-for-the-crypto-industry-supporting-sanctions-is-an-opportunity-to-rebrand.jpg",
-        "publishedAt": "2026-06-09T14:22:11Z",
-        "content": "Blockchain researchers have raised concerns about the United Kingdom's sanctions against crypto exchange HTX, arguing that the move may have created broad collateral damage across the industry's comp… [+2132 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Akash Girimath",
-        "title": "This is Bitcoin's Shallowest Bear Market—But is the Bottom In?",
-        "description": "Bitcoin is down 50% from its all-time high in the shallowest bear market to date—but analysts caution that the bottom isn't in yet.",
-        "url": "https://decrypt.co/370495/this-is-bitcoins-shallowest-bear-market-but-is-the-bottom-in",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bear-market-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-06-09T12:06:13Z",
-        "content": "In brief\r\n<ul><li>Bitcoin's 50% drawdown from its $126,000 all-time high is its shallowest to date, compared to 2012s 90% correction.</li><li>Analysts point to ETF outflows and macro tightening as si… [+4133 chars]"
       }
     ]
   }
