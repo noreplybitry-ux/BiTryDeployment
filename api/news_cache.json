@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-12T04:39:33.259Z",
+  "timestamp": "2026-06-12T09:03:20.870Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Philippines' central bank says Binance and its local partner lack licenses to operate",
+        "description": "Binance and its local partner do not hold the necessary license required to operate in the country, the Philippine central bank said, according to a local media report.",
+        "url": "https://www.coindesk.com/policy/2026/06/11/philippines-central-bank-says-binance-and-its-local-partner-lack-licenses-to-operate",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b0c4e35cc37acbbd2deffb1aa8985ccde816eaf9-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-11T08:49:47Z",
+        "content": "Binance is trying to enter the Philippines market through a local partner. Regulators are making clear it won't be simple.\r\nThe country's central bank said neither the world's largest crypto exchange… [+1667 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "TradFi advisors want stablecoins, tokenization over Bitcoin: Bitwise",
+        "description": "Advisors to finance giants have “expressed much more curiosity” in stablecoins and tokenization over Bitcoin, suggesting those areas will soon see increased investment, says Bitwise.",
+        "url": "https://cointelegraph.com/news/tradfi-advisors-want-stablecoins-tokenization-over-bitcoin-bitwise",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-is-it-gold-money-or-something-else3.jpg",
+        "publishedAt": "2026-06-11T07:01:31Z",
+        "content": "Advisors to some of the largest financial institutions are taking more of an interest in stablecoins and tokenization than in Bitcoin, which could help pull crypto out of its current slump, said Bitw… [+2661 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Cardano’s Oldest Holders Are Moving Again — Here’s What The Data Shows",
+        "description": "About 16 million ADA left exchanges for self-custody wallets in a single 24-hour window, according to Coinglass spot flow data — a shift that points to quiet Cardano accumulation while prices remain under pressure. Related Reading: The Bitcoin Rally Has A Pro…",
+        "url": "http://www.newsbtc.com/news/cardanos-oldest-holders-are-moving-again-heres-what-the-data-shows/",
+        "urlToImage": null,
+        "publishedAt": "2026-06-11T06:00:10Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "It's not just bitcoin ETFs. Corporate BTC buying has dried up too",
+        "description": "ETF outflows have dominated the narrative but corporate bitcoin treasuries have gone quiet too, compounding the demand-side weakness.",
+        "url": "https://www.coindesk.com/markets/2026/06/11/it-s-not-just-bitcoin-etfs-corporate-btc-buying-has-dried-up-too",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a5d0f75b04392e25a31f206a3e9a16e752cb4a2c-2872x1915.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-11T05:16:18Z",
+        "content": "Bitcoin BTC\r\n$62,566.23 has lost buyers on two fronts.\r\nThe exodus from spot ETFs as a catalyst for the recent bitcoin price swoon is well documented. Less discussed is the equally steep drop in buyi… [+1761 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,45 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-world-bank-initiatives-sbi-holdings.jpg",
         "publishedAt": "2026-06-09T10:32:48Z",
         "content": "SBI Shinsei Bank will reportedly launch a service that rewards deposit customers with cryptocurrency exchange vouchers based on their account balances.\r\nAccording to a Nikkei report, customers will r… [+2065 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Ethereum price forecast as BitMine buys 126,971 ETH: has ETH bottomed?",
-        "description": "BitMine tripled its weekly ETH buy to 126,971 tokens, now holding 4.59% of supply. Only 11% of ETH supply is in threefold profit, the lowest reading since Feb 2017. A weekly close below $1,500 could push ETH toward the $1,000 support zone. The Ethereum price …",
-        "url": "https://coinjournal.net/news/ethereum-price-forecast-as-bitmine-buys-126971-eth-has-eth-bottomed/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/07/ethereum-eth-price.png",
-        "publishedAt": "2026-06-09T10:27:08Z",
-        "content": "<ul><li>BitMine tripled its weekly ETH buy to 126,971 tokens, now holding 4.59% of supply.</li><li>Only 11% of ETH supply is in threefold profit, the lowest reading since Feb 2017.</li><li>A weekly c… [+4806 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "USDT's flashing a golden cross and that may be bad news for bitcoin",
-        "description": "Tether's dominance rate has flashed a bullish golden crossover in a sign of caution for the broader market.",
-        "url": "https://www.coindesk.com/markets/2026/06/09/usdt-s-flashing-a-golden-cross-and-that-may-be-bad-news-for-bitcoin",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8e8af44b57d72fd522a98e20bbffce3f34b6ee48-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-09T09:27:02Z",
-        "content": "A popular signal that confirms sustained bullish shifts in market momentum just appeared on the dominance chart for Tether's USDT, the world's largest stablecoin by market capitalization.\r\nThat may n… [+2730 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Coinbase and Cardless unveil credit card backed by stablecoins",
-        "description": "The stablecoin-secured card is for situations where a credit card cannot be approved on an unsecured basis.",
-        "url": "https://www.coindesk.com/business/2026/06/09/coinbase-and-cardless-unveil-credit-card-backed-by-stablecoins",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9411c764a451101a37d939489f6f10515a33d0a9-3244x1825.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-09T08:04:59Z",
-        "content": "Cardless, a firm that has facilitated credit cards for brands like Qatar Airways and Alibaba, said it developed a payment card in conjunction with crypto exchange Coinbase (COIN) for stablecoin holde… [+1239 chars]"
       }
     ]
   }
