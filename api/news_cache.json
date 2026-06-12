@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-12T19:10:44.774Z",
+  "timestamp": "2026-06-12T21:53:56.723Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Coinbase Launches Tool That Lets AI Agents Trade Crypto and Make Payments for Users",
+        "description": "Coinbase's new product allows AI agents to execute crypto trades, payments, and portfolio management tasks within user-defined limits.",
+        "url": "https://decrypt.co/370835/coinbase-tool-ai-agents-trade-crypto-make-payments",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-06-11T19:29:44Z",
+        "content": "In brief\r\n<ul><li>Coinbase unveiled Coinbase for Agents, which connects AI agents directly to user accounts.</li><li>The product allows agents to trade crypto, make payments, and manage portfolios wi… [+3432 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-232405-how-u-s-bitcoin-mines-are-choking-the-grid-bitmain-at-the-center-of-the-storm.jpg",
         "publishedAt": "2026-06-09T17:48:44Z",
         "content": "Bitcoins (BTC) recent performance may be less about crypto market weakness and more about its position at the front of the risk curve. Asset management firm Bitwise said that BTC often acts as a cana… [+3440 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Godspower Owie",
-        "title": "Bitcoin’s Rise May Have Little To Do With The Latest Purchase News",
-        "description": "Bitcoin’s latest upward move has sparked debate among market participants, and some believe the rally may have little to do with the purchase announcement that received the most attention. While the acquisition is generally viewed as constructive for the broa…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-and-latest-purchase-news/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-31.jpg?fit=1280%2C848",
-        "publishedAt": "2026-06-09T17:30:44Z",
-        "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
       }
     ]
   }
