@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-06-11T23:41:20.642Z",
+  "timestamp": "2026-06-12T04:39:33.259Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sebastian Villafuerte",
+        "title": "Bitcoin Whales Bought The $60K Dip As Retail Capitulated – Over 11,000 BTC Leave Exchanges",
+        "description": "Bitcoin is struggling below $62,000 as selling pressure and fear continue to define the market environment. The uncertainty is real — but top analyst Woominkyu has published an on-chain analysis that reveals what was actually happening during the most intense…",
+        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-whales-bought-the-60k-dip-as-retail-capitulated-over-11000-btc-leave-exchanges/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-83.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-06-11T04:00:56Z",
+        "content": "Bitcoin is struggling below $62,000 as selling pressure and fear continue to define the market environment. The uncertainty is real but top analyst Woominkyu has published an on-chain analysis that r… [+4570 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Could Spark A Fresh Upswing While Above $1,550",
+        "description": "Ethereum price started a downside correction below $1,665. ETH must clear the $1,650 and $1,720 resistance levels to continue higher. Ethereum started a downside correction below the $1,650 zone. The price is trading below $1,650 and the 100-hourly Simple Mov…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-could-spark-upswing-1550/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/11/Ethereum-Price-Declines-Again.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-06-11T03:58:22Z",
+        "content": "Ethereum price started a downside correction below $1,665. ETH must clear the $1,650 and $1,720 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $1,650 … [+2086 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Delaware, New Jersey advance bills banning crypto ATMs",
+        "description": "Lawmakers in Delaware and New Jersey have advanced laws that would completely ban crypto ATMs, a measure that has only been enacted in three US states.",
+        "url": "https://cointelegraph.com/news/delaware-new-jersey-advance-bills-banning-crypto-atms",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-us-crypto-bills-compared-bills.jpg",
+        "publishedAt": "2026-06-11T03:18:43Z",
+        "content": "Delaware and New Jersey have both advanced legislation to ban cryptocurrency ATMs in what is becoming a growing trend across US states, with lawmakers concerned that the kiosks are overwhelmingly use… [+3195 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Hovers Above $60K As Traders Search For Direction",
+        "description": "Bitcoin price started a fresh decline below the $62,500 zone. BTC is showing bearish signs and might continue to move down if it dips below $61,200. Bitcoin failed to stay above $63,200 and extended losses. The price is trading below $62,500 and the 100 hourl…",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-hovers-above-60k/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Bitcoin-Price-Downtrend-Gains-Pace-Recovery-Hopes-Continue-To-Fade.jpg",
+        "publishedAt": "2026-06-11T03:09:33Z",
+        "content": "Bitcoin price started a fresh decline below the $62,500 zone. BTC is showing bearish signs and might continue to move down if it dips below $61,200.\r\n<ul><li>Bitcoin failed to stay above $63,200 and … [+2240 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Christian Encila",
+        "title": "Crypto Hackers Drain Over $36M From Protocols Using Unverified Contracts",
+        "description": "A crypto hacker who drained $26 million from Ethereum-based protocol Truebit in January had likely practiced the technique on smaller targets first, according to blockchain analytics firm Chainalysis. Related Reading: The Bitcoin Rally Has A Problem: Demand I…",
+        "url": "http://www.newsbtc.com/news/crypto-hackers-drain-over-36m-from-protocols-using-unverified-contracts/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_89235e.jpg?fit=1920%2C1080",
+        "publishedAt": "2026-06-11T03:00:44Z",
+        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9411c764a451101a37d939489f6f10515a33d0a9-3244x1825.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-09T08:04:59Z",
         "content": "Cardless, a firm that has facilitated credit cards for brands like Qatar Airways and Alibaba, said it developed a payment card in conjunction with crypto exchange Coinbase (COIN) for stablecoin holde… [+1239 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Saylor blamed AI for bitcoin crash. Arca has one word for that: Nonsense",
-        "description": "Arca is blaming Strategy's sale of 32 BTC for last week's BTC crash, not AI capital rotation, as Strategy's Saylor claimed.",
-        "url": "https://www.coindesk.com/markets/2026/06/09/saylor-blamed-ai-for-bitcoin-crash-arca-has-one-word-for-that-nonsense",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0339788ec6da49e65916e89c4bf0f137635275cd-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-09T05:35:39Z",
-        "content": "While bitcoin BTC\r\n$63,347.54-holder listed firm Strategy's chairman Michael Saylor blamed the AI boom for last week's bitcoin selloff, crypto investment firm Arca is pointing the finger squarely at … [+3338 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Ethereum remains under pressure after double-digit weekly losses",
-        "description": "Key takeaways Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week. The broader crypto market remains under pressure following last week’s massive dump. The cryptocurrency market starts the week on a weak fo…",
-        "url": "https://coinjournal.net/news/ethereum-remains-under-pressure-after-double-digit-weekly-losses-2/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-19-2026-11_29_48-AM.png",
-        "publishedAt": "2026-06-09T05:28:34Z",
-        "content": "Key takeaways\r\n<ul><li>Ethereum continues its downtrend after breaking key support levels and testing a low of $1,505 last week.</li><li>The broader crypto market remains under pressure following las… [+2419 chars]"
       }
     ]
   }
