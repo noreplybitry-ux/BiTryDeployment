@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-12T09:03:20.869Z",
+  "timestamp": "2026-06-12T13:30:15.763Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Hungary to reverse crypto trading crackdown after EU scrutiny",
+        "description": "Hungary’s government said it will unwind crypto trading restrictions that required approved validation for conversions and exposed users and service providers to criminal liability.",
+        "url": "https://cointelegraph.com/news/hungary-decriminalize-crypto-trading-prison-terms",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-hungarys-crypto-crackdown-avoid-this-mistake-or-face-2-years-in-jail.jpg",
+        "publishedAt": "2026-06-11T12:52:15Z",
+        "content": "Hungary is set to decriminalize crypto trading, reversing restrictions that imposed potential jail terms for certain crypto-to-fiat and crypto-to-crypto transactions, according to Tisza government sp… [+3188 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Sandra White",
+        "title": "Why The Bitcoin Price Could Mark A Generational Bottom And Rise Over 200%",
+        "description": "Bitcoin’s investor sentiment is in ruins, but buried inside the wreckage, a technical signal that has appeared only at the most consequential turning points in Bitcoin’s history has just fired again. This technical argument, which is built around Bitcoin’s Re…",
+        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-generational-bottom/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/bitcoin-bottom.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-06-11T12:30:35Z",
+        "content": "Bitcoin’s investor sentiment is in ruins, but buried inside the wreckage, a technical signal that has appeared only at the most consequential turning points in Bitcoin’s history has just fired again.… [+2723 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole, Shaurya Malwa",
+        "title": "Bitcoin advances, holds above key technical level that ether, solana can't break through",
+        "description": "BTC's dominance rate has risen from last week's low, a sign of renewed capital flowing into the largest cryptocurrency as major altcoins struggle.",
+        "url": "https://www.coindesk.com/markets/2026/06/11/bitcoin-advances-holds-above-key-technical-level-that-ether-solana-can-t-break-through",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/52f0f2e25ac03c42dc6b3ba111b1458e3cf3f9db-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-11T10:45:05Z",
+        "content": "Bitcoin BTC\r\n$63,101.63 rose Thursday, and its share of the total crypto market, its dominance rate, gained alongside a meteoric rise in a lesser-known cryptocurrency.\r\nThe BTC price advanced 2.4% in… [+3925 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Scott Matherson",
+        "title": "Ethereum Exchange Reserves Lose 475,000, Is The Red Month Of June A Time To Buy?",
+        "description": "The Ethereum price decline seems to have opened up the opportunity for fast accumulation among investors over the last week. This comes as data shows a significant amount of the cryptocurrency actually being moved out of the wallets of centralized exchanges. …",
+        "url": "http://www.newsbtc.com/news/ethereum/ethereum-exchange-reserves/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-market-squeeze-surge-explosion.png?fit=1333%2C888",
+        "publishedAt": "2026-06-11T09:30:20Z",
+        "content": "The Ethereum price decline seems to have opened up the opportunity for fast accumulation among investors over the last week. This comes as data shows a significant amount of the cryptocurrency actual… [+2258 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bear-market-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-06-09T12:06:13Z",
         "content": "In brief\r\n<ul><li>Bitcoin's 50% drawdown from its $126,000 all-time high is its shallowest to date, compared to 2012s 90% correction.</li><li>Analysts point to ETF outflows and macro tightening as si… [+4133 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "SBI Shinsei links bank deposits to crypto rewards in Japan: Nikkei",
-        "description": "SBI will give out vouchers that can be redeemed for Bitcoin, Ether or XRP through SBI VC Trade, linking bank savings with the group’s crypto exchange arm.",
-        "url": "https://cointelegraph.com/news/sbi-shinsei-bank-crypto-vouchers-deposit-interest-japan",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-world-bank-initiatives-sbi-holdings.jpg",
-        "publishedAt": "2026-06-09T10:32:48Z",
-        "content": "SBI Shinsei Bank will reportedly launch a service that rewards deposit customers with cryptocurrency exchange vouchers based on their account balances.\r\nAccording to a Nikkei report, customers will r… [+2065 chars]"
       }
     ]
   }
