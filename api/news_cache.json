@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-13T16:19:24.371Z",
+  "timestamp": "2026-06-13T18:13:39.488Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Bitcoin hit bottom at $59,000 marking end to the crypto winter, says Standard Chartered analyst",
+        "description": "Senior market analyst Geoffrey Kendrick pointed to the SpaceX IPO and a potential U.S.-Iran peace deal as the dual catalysts ending the recent crypto sell-off.",
+        "url": "https://www.coindesk.com/markets/2026/06/12/bitcoin-hit-bottom-at-usd59-000-marking-end-to-the-crypto-winter-says-standard-chartered-analyst",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/635098a63fd9f1666a72fdfb7fee8ca9adedf6a2-4032x2268.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-12T18:09:06Z",
+        "content": "The cryptocurrency market reached its definitive bottom for the currency cycle, Standard Chartered Analyst Geoffrey Kendrick said in a note on Friday.\r\nThe cycle low is now locked in at $59,000 for b… [+907 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-market-correction-vs-bear-market-btc.jpg",
         "publishedAt": "2026-06-10T13:11:03Z",
         "content": "Bitcoin (BTC) faced renewed risks of a breakdown toward $30,000, according to a new analysis, as institutional demand turned deeply negative.\r\nKey takeaways:\r\n<ul><li>Data shows institutions are offl… [+3022 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Years In The Making: Why The Bitcoin Price Is Headed To $220,000",
-        "description": "Bitcoin has been forming a pattern for years now, and even with the uncertain price movements, this pattern has now finally be completed. This was explained by crypto analyst Bitcoin Teddy on the X social media platform, showing this pattern, how it was forme…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-headed-to-220000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-12.-Mai-2026-15_50_57.png?fit=1222%2C814",
-        "publishedAt": "2026-06-10T08:00:08Z",
-        "content": "Bitcoin has been forming a pattern for years now, and even with the uncertain price movements, this pattern has now finally be completed. This was explained by crypto analyst Bitcoin Teddy on the X s… [+1973 chars]"
       }
     ]
   }
