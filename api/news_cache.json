@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-13T04:18:47.626Z",
+  "timestamp": "2026-06-13T08:26:00.373Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "There's one simple way to tell whether bitcoin has really bottomed. Right now, it hasn't.",
+        "description": "Bitcoin's weekly RSI contains a critical level that has reliably separated bull and bear market regimes across multiple cycoles. And right now the indicator has yet to clear that line.",
+        "url": "https://www.coindesk.com/markets/2026/06/12/there-s-one-simple-way-to-tell-whether-bitcoin-has-really-bottomed-right-now-it-hasn-t",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/58f9ff1c92ee9fd91f3cbf0e64fe3c96ce047971-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-12T07:57:47Z",
+        "content": "Crypto traders, having seen bitcoin BTC\r\n$62,895.02, the largest cryptocurrency, bounce overnight to $64,000 from recent lows under $60,000, may be wondering whether the bottom has been hit and a fre… [+996 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Coinbase launches tool letting AI agents make payments and trade crypto",
+        "description": "Coinbase for Agents will let users of the crypto exchange manage their holdings “without the constant manual oversight” and can autonomously perform a range of tasks.",
+        "url": "https://cointelegraph.com/news/coinbase-launches-tool-letting-ai-agents-make-payments-and-trade-crypto",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-coinbase-transaction-ai.jpg",
+        "publishedAt": "2026-06-12T04:19:03Z",
+        "content": "Crypto exchange Coinbase has launched a tool that allows artificial intelligence agents to make payments and trade crypto on behalf of users, as crypto companies look to ride a wave of interest in AI… [+3252 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-77.jpg?fit=1792%2C1024",
         "publishedAt": "2026-06-10T02:30:04Z",
         "content": "Bitcoin is holding above $62,000 after the massive drop that defined last week’s market action and erased months of recovery progress in a matter of days. The price is stabilizing but analyst MorenoD… [+4753 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Seattle-Area Man Gets Prison for Laundering Foreign Fraud Funds With Bitcoin, Ethereum",
-        "description": "The fraudster took in nearly $100 million from victims before laundering funds via Bitcoin, Ethereum, and stablecoins.",
-        "url": "https://decrypt.co/370576/seattle-man-prison-laundering-foreign-fraud-funds-bitcoin-ethereum",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/jail_decrypt_style_01-gID_7.png",
-        "publishedAt": "2026-06-09T20:26:11Z",
-        "content": "In brief\r\n<ul><li>A 47-year old man from the Seattle area helped defraud investors of nearly $100 million, prosecutors said.</li><li>Victims thought they were investing in oil and gas, but funds were… [+2570 chars]"
       }
     ]
   }
