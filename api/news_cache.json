@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-13T08:26:00.373Z",
+  "timestamp": "2026-06-13T11:20:13.783Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Teeters-on-Edge.jpg",
         "publishedAt": "2026-06-10T03:13:52Z",
         "content": "Bitcoin price started a downside correction from the $64,600 zone. BTC is showing bearish signs and might continue lower below $61,200.\r\n<ul><li>Bitcoin failed to stay above $64,000 and extended loss… [+2121 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sebastian Villafuerte",
-        "title": "Bitcoin Flashes One Of Its Rarest Demand Signals In Six Years – Details",
-        "description": "Bitcoin is holding above $62,000 after the massive drop that defined last week’s market action and erased months of recovery progress in a matter of days. The price is stabilizing — but analyst MorenoDV has published a demand analysis that places the current …",
-        "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-flashes-one-of-its-rarest-demand-signals-in-six-years-details/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-77.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-06-10T02:30:04Z",
-        "content": "Bitcoin is holding above $62,000 after the massive drop that defined last week’s market action and erased months of recovery progress in a matter of days. The price is stabilizing but analyst MorenoD… [+4753 chars]"
       }
     ]
   }
