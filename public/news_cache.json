@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-13T11:20:13.782Z",
+  "timestamp": "2026-06-13T14:11:52.585Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Polish president vetoes crypto bill for third time ahead of MiCA deadline",
+        "description": "Polish President Karol Nawrocki vetoed a bill to implement MiCA for the third time, just weeks before the end of the EU crypto framework's transitional period.",
+        "url": "https://cointelegraph.com/news/polish-president-vetoes-crypto-bill-third-time-mica-deadline",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/policymaker-bill-poland.jpg",
+        "publishedAt": "2026-06-12T13:25:53Z",
+        "content": "Polish President Karol Nawrocki vetoed a cryptocurrency regulatory bill for the third time, which sought to implement Europe's Markets in Crypto Assets Regulation (MiCA) in the country.\r\nNawrocki sai… [+2180 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/Ethereum-Price-Closes-Sub-2000-Support.jpg?fit=1024%2C572",
         "publishedAt": "2026-06-10T03:48:51Z",
         "content": "Ethereum price started a downside correction from $1,720. ETH must clear the $1,670 and $1,700 resistance levels to continue higher.\r\n<ul><li>Ethereum started a downside correction below the $1,620 z… [+2088 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Back Under Pressure After Recovery Hopes Fade",
-        "description": "Bitcoin price started a downside correction from the $64,600 zone. BTC is showing bearish signs and might continue lower below $61,200. Bitcoin failed to stay above $64,000 and extended losses. The price is trading below $62,800 and the 100 hourly simple movi…",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-back-under-pressure-60k/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Teeters-on-Edge.jpg",
-        "publishedAt": "2026-06-10T03:13:52Z",
-        "content": "Bitcoin price started a downside correction from the $64,600 zone. BTC is showing bearish signs and might continue lower below $61,200.\r\n<ul><li>Bitcoin failed to stay above $64,000 and extended loss… [+2121 chars]"
       }
     ]
   }
