@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-12T23:23:14.434Z",
+  "timestamp": "2026-06-13T04:18:47.626Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Keshav Verma",
+        "title": "Crypto Volume Drops To 2-Year Low—Is A Relief Rally Next?",
+        "description": "On-chain data shows trading volume in the crypto sector has slumped to the lowest level in two years, a sign that investors have turned their attention away from the market. Crypto Trading Volume Has Seen A Notable Decline In a new post on X, on-chain analyti…",
+        "url": "http://www.newsbtc.com/news/crypto-volume-drops-to-2-year-low-relief-rally/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/crypto.png?fit=1312%2C874",
+        "publishedAt": "2026-06-12T02:00:10Z",
+        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/jail_decrypt_style_01-gID_7.png",
         "publishedAt": "2026-06-09T20:26:11Z",
         "content": "In brief\r\n<ul><li>A 47-year old man from the Seattle area helped defraud investors of nearly $100 million, prosecutors said.</li><li>Victims thought they were investing in oil and gas, but funds were… [+2570 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin may act as a ‘canary in the coal mine’ as risk-off pressure spreads: Bitwise",
-        "description": "Bitwise says Bitcoin may be signaling wider weakness across risk assets as rising Treasury yields and $72 billion in stablecoin reserves present a mixed liquidity picture.",
-        "url": "https://cointelegraph.com/markets/bitcoin-may-act-as-a-canary-in-the-coal-mine-as-risk-off-pressure-spreads-bitwise",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-232405-how-u-s-bitcoin-mines-are-choking-the-grid-bitmain-at-the-center-of-the-storm.jpg",
-        "publishedAt": "2026-06-09T17:48:44Z",
-        "content": "Bitcoins (BTC) recent performance may be less about crypto market weakness and more about its position at the front of the risk curve. Asset management firm Bitwise said that BTC often acts as a cana… [+3440 chars]"
       }
     ]
   }
