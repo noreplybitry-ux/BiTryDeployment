@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-14T00:14:10.728Z",
+  "timestamp": "2026-06-14T05:55:39.215Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Cointelegraph",
+        "title": "Major crypto exchanges cancel SpaceX IPO allocations, promising refunds",
+        "description": "Elon Musk’s SpaceX completed its landmark IPO on the Nasdaq on Friday, but crypto users seeking tokenized exposure to the IPO were left empty-handed after allocations fell through.",
+        "url": "https://cointelegraph.com/news/major-crypto-exchanges-cancel-spacex-ipo-allocations-promising-refunds",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-defi-projects-should-end-up-in-decentralized-governance-spacex-ipo.jpg",
+        "publishedAt": "2026-06-13T02:17:55Z",
+        "content": "Crypto trading platforms Bybit, Binance, Bitget Wallet and MEXC canceled their tokenized SpaceX IPO campaigns and offered refunds for users as SpaceX went public on the Nasdaq on Friday. \r\nSpaceXs IP… [+1637 chars]"
+      },
       {
         "source": {
           "id": null,
