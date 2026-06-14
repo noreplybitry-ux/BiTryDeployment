@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-14T09:45:38.142Z",
+  "timestamp": "2026-06-14T12:02:11.888Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Deribit Analysts Say Wall Street Has Reshaped Bitcoin Volatility And Liquidity",
+        "description": "Deribit Insights says spot Bitcoin ETFs, options growth and institutional market makers have changed BTC volatility, liquidity and basis trades.",
+        "url": "http://www.newsbtc.com/news/deribit-analysts-say-wall-street-has-reshaped-bitcoin-volatility-and-liquidity/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_TCuRkhB2_1780514567180_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-06-13T10:00:03Z",
+        "content": "<ul><li>Deribit Insights says Wall Street participation has changed Bitcoins market structure.</li><li>The episode points to lower volatility, compressed basis trades and stronger institutional marke… [+3072 chars]"
+      },
       {
         "source": {
           "id": null,
