@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-15T12:28:35.598Z",
+  "timestamp": "2026-06-15T17:58:37.076Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Wall Street and crypto are crashing into each other as tokenized treasury markets hit $14.6 billion",
+        "description": "Not all crypto exchange executives agree, but the data does not lie: centralized exchange trading volumes dropped more than 11% to $4.61 trillion, their lowest since late 2024.",
+        "url": "https://www.coindesk.com/markets/2026/06/11/wall-street-and-crypto-are-crashing-into-each-other-as-tokenized-treasury-markets-hit-usd14-6-billion",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ee75b495953416ed9160ebd740f67ea4c78d4495-7250x4836.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-14T13:00:00Z",
+        "content": "A significant transformation is currently underway across the established cryptocurrency market. The top crypto exchanges are morphing into multi-asset financial platforms, breaking down the traditio… [+1561 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,19 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-atm-decrypt-style-1-scaled-gID_7.jpg",
         "publishedAt": "2026-06-10T13:52:31Z",
         "content": "In brief\r\n<ul><li>Delaware lawmakers have advanced House Bill 441 to ban cryptocurrency kiosks statewide.</li><li>If passed, the bill would require existing machines to go offline immediately and be … [+3089 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Bitcoin price may slide toward $30K as institutions dump 450% of daily BTC supply",
-        "description": "Bitcoin’s institutional support is weakening as ETFs and corporates dump almost 2,000 BTC daily and Strategy’s buying loses momentum.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-may-slip-under-30k-as-institutions-dump-450-of-daily-btc-supply",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-market-correction-vs-bear-market-btc.jpg",
-        "publishedAt": "2026-06-10T13:11:03Z",
-        "content": "Bitcoin (BTC) faced renewed risks of a breakdown toward $30,000, according to a new analysis, as institutional demand turned deeply negative.\r\nKey takeaways:\r\n<ul><li>Data shows institutions are offl… [+3022 chars]"
       }
     ]
   }
