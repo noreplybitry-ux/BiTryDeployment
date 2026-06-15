@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-15T17:58:37.076Z",
+  "timestamp": "2026-06-15T21:12:29.422Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Cointelegraph",
+        "title": "StanChart looks for 3 signs of BTC bottom, including Strategy’s Monday news",
+        "description": "Standard Chartered Geoff Kendrick on Friday told clients that he believes crypto asset prices have seen the low in the current cycle and he is looking for confirmation in three indicators, including Strategy’s reporting that it bought more Bitcoin last week.",
+        "url": "https://cointelegraph.com/news/stanchart-looks-for-3-signs-of-btc-bottom-including-strategys-monday-news",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-saylors-strategy-keeps-buying-bitcoin-the-long-term-bet-explained-2.jpg",
+        "publishedAt": "2026-06-14T19:05:46Z",
+        "content": "Standard Chartered analyst Geoff Kendrick on Friday told clients that he believes crypto asset prices have seen the low in the current cycle and he is looking for confirmation in three indicators: St… [+2446 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-38.jpg?fit=1280%2C800",
         "publishedAt": "2026-06-10T15:00:34Z",
         "content": "Crypto analyst Crypto Lens has predicted that the Bitcoin price could rally to a new all-time high (ATH) of $150,000. This came as he outlined four scenarios that will build toward this rally to a ne… [+2249 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Crypto outflows are sentiment shock, not structural crisis: CoinShares' Butterfill",
-        "description": "CoinShares’ research head James Butterfill said crypto outflows reflect a sentiment shock rather than a structural crisis as ETF redemptions, rate fears and AI rotation pressure markets.",
-        "url": "https://cointelegraph.com/news/crypto-outflows-sentiment-shock-structural-crisis-coinshares",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/aquapark-falling-market-red-3.jpg",
-        "publishedAt": "2026-06-10T14:08:44Z",
-        "content": "Cryptocurrency market outflows reflect a sentiment shock, as geopolitics, rate expectations and capital rotation into artificial intelligence weigh on digital assets, according to James Butterfill, h… [+2066 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Delaware Advances Bill to Ban ‘Predatory’ Bitcoin ATMs",
-        "description": "Lawmakers have advanced legislation that would ban all cryptocurrency kiosks statewide, with physical removal mandated within 90 days.",
-        "url": "https://decrypt.co/370638/delaware-advances-bill-to-ban-predatory-bitcoin-atms",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-atm-decrypt-style-1-scaled-gID_7.jpg",
-        "publishedAt": "2026-06-10T13:52:31Z",
-        "content": "In brief\r\n<ul><li>Delaware lawmakers have advanced House Bill 441 to ban cryptocurrency kiosks statewide.</li><li>If passed, the bill would require existing machines to go offline immediately and be … [+3089 chars]"
       }
     ]
   }
