@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-15T23:50:05.502Z",
+  "timestamp": "2026-06-16T05:03:16.123Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Ethereum Price Rebound Gains Traction After Clearing Key Hurdles",
+        "description": "Ethereum price started a fresh increase and remained stable above $1,680. ETH is now correcting gains and might continue higher if it clears $1,750. Ethereum started a decent upward move above the $1,620 resistance. The price is trading above $1,680 and the 1…",
+        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rebound-1720/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Cools-Off-But-Structure-Stays-Firmly-Supported.jpg?fit=1024%2C559",
+        "publishedAt": "2026-06-15T03:48:04Z",
+        "content": "Ethereum price started a fresh increase and remained stable above $1,680. ETH is now correcting gains and might continue higher if it clears $1,750.\r\n<ul><li>Ethereum started a decent upward move abo… [+2175 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Bitcoin Price Reclaims $65,000 With Conviction—Is A Bigger Rally Next?",
+        "description": "Bitcoin price started a fresh increase and cleared the $64,500 zone. BTC is consolidating and might aim for more gains above the $66,200 level. Bitcoin managed to stay above $62,500 and started a fresh increase. The price is trading above $64,500 and the 100 …",
+        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-reclaims-65000/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Turns-Higher.jpg",
+        "publishedAt": "2026-06-15T03:02:05Z",
+        "content": "Bitcoin price started a fresh increase and cleared the $64,500 zone. BTC is consolidating and might aim for more gains above the $66,200 level.\r\n<ul><li>Bitcoin managed to stay above $62,500 and star… [+2158 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/mastercard-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-06-10T16:50:47Z",
         "content": "In brief\r\n<ul><li>Mastercard launched Agent Pay for Machines, a platform for autonomous AI-driven payments.</li><li>The company said the service supports machine-to-machine transactions, including mi… [+2492 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Price Is Headed To $150,000 In These 4 Scenarios Shared By This Analyst",
-        "description": "Crypto analyst Crypto Lens has predicted that the Bitcoin price could rally to a new all-time high (ATH) of $150,000. This came as he outlined four scenarios that will build toward this rally to a new ATH by next year.  Bitcoin Price To Still Rally To $150,00…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-is-headed-to-150000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Pixabay-38.jpg?fit=1280%2C800",
-        "publishedAt": "2026-06-10T15:00:34Z",
-        "content": "Crypto analyst Crypto Lens has predicted that the Bitcoin price could rally to a new all-time high (ATH) of $150,000. This came as he outlined four scenarios that will build toward this rally to a ne… [+2249 chars]"
       }
     ]
   }
