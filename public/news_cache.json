@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-16T05:03:16.123Z",
+  "timestamp": "2026-06-16T11:22:13.218Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Can BTC rebound to $69K as oil price plunges? Five things to know in Bitcoin this week",
+        "description": "Bitcoin gained bullish short-term BTC price targets with $69,000 on the radar thanks to the US-Iran peace deal, due to be signed in the coming days.",
+        "url": "https://cointelegraph.com/markets/can-btc-rebound-to-69k-as-oil-price-plunges-five-things-to-know-in-bitcoin-this-week",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/oil-bitcoin-petrol-iran-1.jpg",
+        "publishedAt": "2026-06-15T10:14:39Z",
+        "content": "Bitcoin (BTC) starts the third week of June with a spring in its step as the US-Iran peace deal sends risk assets higher.\r\nKey points:\r\n<ul><li>Bitcoin price action targets $66,000 as US stock future… [+7507 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitcoin Mining Difficulty Drops 10% As Miners Get Rare Relief",
+        "description": "Bitcoin’s latest difficulty adjustment gave miners some breathing room after a slower-than-usual period for the network.",
+        "url": "http://www.newsbtc.com/news/bitcoin-mining-difficulty-drops-10-as-miners-get-rare-relief/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/09/Bitcoin-mining.png",
+        "publishedAt": "2026-06-15T09:12:52Z",
+        "content": "Bitcoin miners just got a rare bit of relief.\r\n<ul><li>Bitcoin mining difficulty has fallen by just over 10%, one of the largest downward adjustments in the networks history.</li><li>The move makes i… [+3555 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Aayush Jindal",
+        "title": "Dogecoin (DOGE) Recovery Gains Traction—Can It Unlock Bigger Gains?",
+        "description": "Dogecoin started a fresh increase from the $0.0850 zone against the US Dollar. DOGE is now facing hurdles near $0.090 and might aim for a larger rally. DOGE price started a decent upward move above $0.0850 and $0.0880. The price is trading above the $0.0870 l…",
+        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-recovery-gains-traction-0-080/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Rebound-Looks-Fragile.jpg?fit=1024%2C572",
+        "publishedAt": "2026-06-15T06:08:53Z",
+        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,71 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_89235e.jpg?fit=1920%2C1080",
         "publishedAt": "2026-06-11T03:00:44Z",
         "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Bitcoin Obituaries Keep Coming—CZ Isn’t Buying It",
-        "description": "Bitcoin fell to its lowest weekly close since the second half of 2024 last week, capping a stretch that has now stripped more than 8% of its value in seven days and pulled the broader crypto market to levels not seen since early in the year. Related Reading: …",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-obituaries-keep-coming-cz-isnt-buying-it/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/a_d3e508.jpg?fit=4547%2C3075",
-        "publishedAt": "2026-06-10T22:30:06Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "UK crypto advocates launch campaign against banks blocking exchange transfers",
-        "description": "Stand With Crypto UK is urging its 286,000 members to challenge bank restrictions on transfers to crypto exchanges, citing data showing 40% of transactions face blocks or limits.",
-        "url": "https://cointelegraph.com/news/uk-crypto-advocates-launch-campaign-against-banks-blocking-exchange-transfers",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-trade-crypto-in-uk-fca.jpg",
-        "publishedAt": "2026-06-10T18:55:00Z",
-        "content": "Stand With Crypto UK is urging its 286,000 members to challenge British banks restricting transfers to cryptocurrency exchanges, arguing that blanket limits on transactions to regulated platforms are… [+3089 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Pending Bank of Japan rate decision may impact Bitcoin price: Should traders prepare?",
-        "description": "Bitcoin’s average price response to Bank of Japan rate hikes was a 22.5% sell-off. Will BOJ’s upcoming policy decision trigger another BTC price crash?",
-        "url": "https://cointelegraph.com/markets/can-bitcoin-avoid-another-sell-off-after-a-bank-of-japan-rate-hike",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-217039-weekly-review-and-outlook-or-fed-cuts-interest-rates-by-25-basis-points.jpg",
-        "publishedAt": "2026-06-10T18:41:15Z",
-        "content": "Since 2024, Bitcoin (BTC) has posted four major corrections after interest rate hikes by the Bank of Japan (BOJ), with declines ranging from 18% to 28%. This dynamic places renewed attention on the B… [+4181 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Crypto Analyst Gives Timeframe For When The Bitcoin Price Will Hit $200,000",
-        "description": "The Bitcoin price could be on track to reach $200,000 within the next one to two years, according to crypto analyst @CryptoTice_. Backed by a long-term cycle chart, the analyst argues that Bitcoin is once again moving through a familiar historical pattern, pl…",
-        "url": "http://www.newsbtc.com/news/bitcoin/when-bitcoin-price-hit-200000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-200000.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-06-10T18:00:20Z",
-        "content": "The Bitcoin price could be on track to reach $200,000 within the next one to two years, according to crypto analyst @CryptoTice_. Backed by a long-term cycle chart, the analyst argues that Bitcoin is… [+2791 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Mastercard Enables AI Agent Payments With Help From Crypto Giants Like Coinbase, Ripple",
-        "description": "Mastercard's Agent Pay for Machines is designed to let AI buy services and settle transactions using cards, bank accounts, and stablecoins.",
-        "url": "https://decrypt.co/370660/mastercard-enables-ai-agent-payments-crypto-giants-coinbase-ripple",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/mastercard-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-06-10T16:50:47Z",
-        "content": "In brief\r\n<ul><li>Mastercard launched Agent Pay for Machines, a platform for autonomous AI-driven payments.</li><li>The company said the service supports machine-to-machine transactions, including mi… [+2492 chars]"
       }
     ]
   }
