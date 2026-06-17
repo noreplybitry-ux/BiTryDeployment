@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-17T19:28:17.569Z",
+  "timestamp": "2026-06-17T22:05:36.350Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Crypto Exchange Binance Will Be Rejected for EU Regulatory License: Reuters",
+        "description": "Binance said it believes it is compliant as a regulatory deadline in the European Union nears—and a report says it's likely to lose access.",
+        "url": "https://decrypt.co/371343/binance-rejected-eu-regulatory-license-reuters",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+        "publishedAt": "2026-06-16T20:25:52Z",
+        "content": "In brief\r\n<ul><li>A report from Reuters cites sources saying that the firm's MiCA application will be denied in the European Union.</li><li>Binance said Tuesday that it believes it is operating in co… [+2508 chars]"
+      },
       {
         "source": {
           "id": null,
