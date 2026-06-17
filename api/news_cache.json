@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-17T13:45:17.312Z",
+  "timestamp": "2026-06-17T16:57:17.598Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Turner Wright",
+        "title": "Binance says it considers EU license compliant amid reports of potential rejection",
+        "description": "Without specifically calling out a report on Binance’s EU license, the crypto exchange warned that any rejection forcing it to delay activities in the region could “weaken liquidity” and present other potential risks.",
+        "url": "https://cointelegraph.com/news/binance-response-mica-european-union-license",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/europe-binance.jpg",
+        "publishedAt": "2026-06-16T16:24:39Z",
+        "content": "Cryptocurrency exchange Binance, whose application under the European Unions Markets in Crypto Assets (MiCA) framework is under consideration, has generally deferred responding to a report that the c… [+2504 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, AI Boost",
+        "title": "Coinbase to join tokenized stock race with onchain shares, dividend payments",
+        "description": "The crypto exchange said investors will own the shares and receive dividends, underscoring growing momentum behind tokenized securities.",
+        "url": "https://www.coindesk.com/business/2026/06/16/coinbase-to-join-tokenized-stock-race-with-onchain-shares-dividend-payments",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9268abf5db9f7f161c113bf2b5b24faee1de23c2-7008x4672.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-16T15:03:21Z",
+        "content": "Coinbase (COIN) said it plans to introduce tokenized stocks backed one-for-one by underlying U.S. equities, joining the growing competition among crypto firms and traditional financial companies to b… [+1057 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Binance says its European regulatory application is compliant despite report of Greek rejection",
+        "description": "An EU crypto license application by the world’s largest crypto exchange is set to be rejected by the Greek regulator HCMC, according to a report from Reuters.",
+        "url": "https://www.coindesk.com/policy/2026/06/16/binance-says-its-european-regulatory-application-is-fully-compliant-despite-report-of-greek-rejection",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7fbb8826aec1d65a8179a17cd1a5cab330c9bd7a-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-16T14:55:35Z",
+        "content": "Binance, the worlds largest cryptocurrency exchange, may be unable to serve customers in Europe if its regulatory license application in Greece is turned down, as Reuters reported on Tuesday.\r\nBinanc… [+889 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/52f0f2e25ac03c42dc6b3ba111b1458e3cf3f9db-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-11T10:45:05Z",
         "content": "Bitcoin BTC\r\n$63,101.63 rose Thursday, and its share of the total crypto market, its dominance rate, gained alongside a meteoric rise in a lesser-known cryptocurrency.\r\nThe BTC price advanced 2.4% in… [+3925 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Ethereum Exchange Reserves Lose 475,000, Is The Red Month Of June A Time To Buy?",
-        "description": "The Ethereum price decline seems to have opened up the opportunity for fast accumulation among investors over the last week. This comes as data shows a significant amount of the cryptocurrency actually being moved out of the wallets of centralized exchanges. …",
-        "url": "http://www.newsbtc.com/news/ethereum/ethereum-exchange-reserves/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-market-squeeze-surge-explosion.png?fit=1333%2C888",
-        "publishedAt": "2026-06-11T09:30:20Z",
-        "content": "The Ethereum price decline seems to have opened up the opportunity for fast accumulation among investors over the last week. This comes as data shows a significant amount of the cryptocurrency actual… [+2258 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Philippines' central bank says Binance and its local partner lack licenses to operate",
-        "description": "Binance and its local partner do not hold the necessary license required to operate in the country, the Philippine central bank said, according to a local media report.",
-        "url": "https://www.coindesk.com/policy/2026/06/11/philippines-central-bank-says-binance-and-its-local-partner-lack-licenses-to-operate",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b0c4e35cc37acbbd2deffb1aa8985ccde816eaf9-6000x4000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-11T08:49:47Z",
-        "content": "Binance is trying to enter the Philippines market through a local partner. Regulators are making clear it won't be simple.\r\nThe country's central bank said neither the world's largest crypto exchange… [+1667 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "TradFi advisors want stablecoins, tokenization over Bitcoin: Bitwise",
-        "description": "Advisors to finance giants have “expressed much more curiosity” in stablecoins and tokenization over Bitcoin, suggesting those areas will soon see increased investment, says Bitwise.",
-        "url": "https://cointelegraph.com/news/tradfi-advisors-want-stablecoins-tokenization-over-bitcoin-bitwise",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-is-it-gold-money-or-something-else3.jpg",
-        "publishedAt": "2026-06-11T07:01:31Z",
-        "content": "Advisors to some of the largest financial institutions are taking more of an interest in stablecoins and tokenization than in Bitcoin, which could help pull crypto out of its current slump, said Bitw… [+2661 chars]"
       }
     ]
   }
