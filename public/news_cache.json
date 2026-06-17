@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-17T09:53:42.813Z",
+  "timestamp": "2026-06-17T13:45:17.311Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,32 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-is-it-gold-money-or-something-else3.jpg",
         "publishedAt": "2026-06-11T07:01:31Z",
         "content": "Advisors to some of the largest financial institutions are taking more of an interest in stablecoins and tokenization than in Bitcoin, which could help pull crypto out of its current slump, said Bitw… [+2661 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Christian Encila",
-        "title": "Cardano’s Oldest Holders Are Moving Again — Here’s What The Data Shows",
-        "description": "About 16 million ADA left exchanges for self-custody wallets in a single 24-hour window, according to Coinglass spot flow data — a shift that points to quiet Cardano accumulation while prices remain under pressure. Related Reading: The Bitcoin Rally Has A Pro…",
-        "url": "http://www.newsbtc.com/news/cardanos-oldest-holders-are-moving-again-heres-what-the-data-shows/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-11T06:00:10Z",
-        "content": "They say journalists never truly clock out. But for Christian, that's not just a metaphor, it's a lifestyle. By day, he navigates the ever-shifting tides of the cryptocurrency market, wielding words … [+2792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "It's not just bitcoin ETFs. Corporate BTC buying has dried up too",
-        "description": "ETF outflows have dominated the narrative but corporate bitcoin treasuries have gone quiet too, compounding the demand-side weakness.",
-        "url": "https://www.coindesk.com/markets/2026/06/11/it-s-not-just-bitcoin-etfs-corporate-btc-buying-has-dried-up-too",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a5d0f75b04392e25a31f206a3e9a16e752cb4a2c-2872x1915.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-11T05:16:18Z",
-        "content": "Bitcoin BTC\r\n$62,566.23 has lost buyers on two fronts.\r\nThe exodus from spot ETFs as a catalyst for the recent bitcoin price swoon is well documented. Less discussed is the equally steep drop in buyi… [+1761 chars]"
       }
     ]
   }
