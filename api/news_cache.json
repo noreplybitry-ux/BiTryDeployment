@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-17T16:57:17.598Z",
+  "timestamp": "2026-06-17T19:28:17.569Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Sam Bourgi",
+        "title": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
+        "description": "The crypto exchange is deepening its push into traditional finance by enabling ACATS stock transfers and expanding trading products beyond digital assets.",
+        "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-237325-coinbase-stock-trading-prediction-markets-in-everything-app-push.jpg",
+        "publishedAt": "2026-06-16T19:01:00Z",
+        "content": "Coinbase is allowing users to transfer existing stock portfolios onto its platform, marking another step in the companys push beyond cryptocurrency trading and toward becoming a full-service financia… [+2631 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "7 Ways Businesses Are Using Crypto Swap APIs",
+        "description": "Real-world case studies show how the best crypto swap APIs help wallets, aggregators, and protocols improve onboarding and retention.",
+        "url": "https://decrypt.co/370811/7-ways-businesses-are-using-crypto-swap-apis",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/api-image-gID_7.jpg",
+        "publishedAt": "2026-06-16T17:02:11Z",
+        "content": "In brief\r\n<ul><li>Crypto swap APIs let businesses add token exchange inside their own apps, pulling liquidity from an outside provider without building exchange infrastructure.</li><li>Partner case s… [+11095 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,71 +342,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Ethereum-from-Getty-Images-26.jpg?fit=612%2C408",
         "publishedAt": "2026-06-11T17:00:08Z",
         "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Scott Matherson",
-        "title": "Bitcoin Has Never Broken This Line Before And Price Just Touched It Again",
-        "description": "Crypto analyst Crypto Rover has pointed to a trendline that Bitcoin has never broken below in every market cycle. The leading crypto has now touched this trendline, providing optimism that it could bounce from that level as it did in previous bear cycles. Bit…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-unbroken-key-line/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin-from-Getty-Images-19.jpg?fit=612%2C393",
-        "publishedAt": "2026-06-11T14:00:17Z",
-        "content": "Crypto analyst Crypto Rover has pointed to a trendline that Bitcoin has never broken below in every market cycle. The leading crypto has now touched this trendline, providing optimism that it could b… [+2545 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Margaux Nijkerk",
-        "title": "SpaceX stock is coming to Solana on the same day it lists on Nasdaq",
-        "description": "The firms making that possible say eligible shares can also be converted back into tokens, creating a bridge between traditional brokerage accounts and blockchain-based markets.",
-        "url": "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9f49c07fc596bf0c2db50c23c38cfbe175dcb9cd-2048x1365.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-11T14:00:00Z",
-        "content": "SpaceX (SPCX) shares will begin trading on Solana the same day the company is expected to list on Nasdaq, according to Sunrise, a tokenization infrastructure provider, and Backpack Securities, a regu… [+1633 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Hungary to reverse crypto trading crackdown after EU scrutiny",
-        "description": "Hungary’s government said it will unwind crypto trading restrictions that required approved validation for conversions and exposed users and service providers to criminal liability.",
-        "url": "https://cointelegraph.com/news/hungary-decriminalize-crypto-trading-prison-terms",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-hungarys-crypto-crackdown-avoid-this-mistake-or-face-2-years-in-jail.jpg",
-        "publishedAt": "2026-06-11T12:52:15Z",
-        "content": "Hungary is set to decriminalize crypto trading, reversing restrictions that imposed potential jail terms for certain crypto-to-fiat and crypto-to-crypto transactions, according to Tisza government sp… [+3188 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Sandra White",
-        "title": "Why The Bitcoin Price Could Mark A Generational Bottom And Rise Over 200%",
-        "description": "Bitcoin’s investor sentiment is in ruins, but buried inside the wreckage, a technical signal that has appeared only at the most consequential turning points in Bitcoin’s history has just fired again. This technical argument, which is built around Bitcoin’s Re…",
-        "url": "http://www.newsbtc.com/news/bitcoin/bitcoin-price-generational-bottom/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/bitcoin-bottom.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-06-11T12:30:35Z",
-        "content": "Bitcoin’s investor sentiment is in ruins, but buried inside the wreckage, a technical signal that has appeared only at the most consequential turning points in Bitcoin’s history has just fired again.… [+2723 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole, Shaurya Malwa",
-        "title": "Bitcoin advances, holds above key technical level that ether, solana can't break through",
-        "description": "BTC's dominance rate has risen from last week's low, a sign of renewed capital flowing into the largest cryptocurrency as major altcoins struggle.",
-        "url": "https://www.coindesk.com/markets/2026/06/11/bitcoin-advances-holds-above-key-technical-level-that-ether-solana-can-t-break-through",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/52f0f2e25ac03c42dc6b3ba111b1458e3cf3f9db-1500x1000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-11T10:45:05Z",
-        "content": "Bitcoin BTC\r\n$63,101.63 rose Thursday, and its share of the total crypto market, its dominance rate, gained alongside a meteoric rise in a lesser-known cryptocurrency.\r\nThe BTC price advanced 2.4% in… [+3925 chars]"
       }
     ]
   }
