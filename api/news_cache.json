@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-18T10:44:01.342Z",
+  "timestamp": "2026-06-18T14:14:06.715Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Mexican billionaire with 70% of his investment portfolio in bitcoin says it's better than real estate",
+        "description": "Ricardo Salinas Pliego, whose net worth is estimated at roughly $5 billion, is a hardcore bitcoin maximalist who told his wife to mortgage her house to buy bitcoin.",
+        "url": "https://www.coindesk.com/business/2026/06/17/mexican-billionaire-with-70-of-his-investment-portfolio-in-bitcoin-says-it-s-better-than-real-estate",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a92aff64d1e40e3369dc3161086327fe5d45fb7f-1920x1080.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-17T14:00:00Z",
+        "content": "For most people, the biggest investment, their nest egg, is their home equity. Find a way to transform that into some kind of bitcoin exposure to a larger or to a smaller degree, he said. So then you… [+1066 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Coinbase Pushes to Become 'Everything Exchange' With Stocks, Perps, and AI",
+        "description": "The wall between crypto and TradFi continues to break down as Coinbase ushers in non-crypto products.",
+        "url": "https://decrypt.co/371396/morning-minute-coinbase-pushes-to-become-everything-exchange-with-stocks-perps-and-ai",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png",
+        "publishedAt": "2026-06-17T12:18:44Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+6457 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Yashu Gola",
+        "title": "Bitcoin is setting up 'meaningful floors' in $60K–$70K range: Analyst",
+        "description": "Bitcoin’s $6000–$70,000 cost-basis cluster hints at a bottom, but a bearish daily flag keeps BTC exposed to a deeper selloff toward $50,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-is-setting-up-meaningful-floors-in-60k70k-range-analyst",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-make-a-profit-when-bitcoin-prices-are-stagnant.jpg",
+        "publishedAt": "2026-06-17T11:02:08Z",
+        "content": "Bitcoin (BTC) showed signs of bottoming inside the $60,000$70,000 range on Wednesday, according to on-chain data shared by a quant analyst. \r\nKey takeaways:\r\n<ul><li>Nearly 20% of BTC supply now sits… [+3254 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -277,58 +316,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/gamestop-logo-decrypt-style-03-gID_7.png",
         "publishedAt": "2026-06-12T15:02:28Z",
         "content": "In brief\r\n<ul><li>GameStop renewed an options deal that ties up nearly all its Bitcoin with Coinbase Credit.</li><li>The pledged coins no longer count as a direct holding and sit below their cost.</l… [+3254 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Polish president vetoes crypto bill for third time ahead of MiCA deadline",
-        "description": "Polish President Karol Nawrocki vetoed a bill to implement MiCA for the third time, just weeks before the end of the EU crypto framework's transitional period.",
-        "url": "https://cointelegraph.com/news/polish-president-vetoes-crypto-bill-third-time-mica-deadline",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/policymaker-bill-poland.jpg",
-        "publishedAt": "2026-06-12T13:25:53Z",
-        "content": "Polish President Karol Nawrocki vetoed a cryptocurrency regulatory bill for the third time, which sought to implement Europe's Markets in Crypto Assets Regulation (MiCA) in the country.\r\nNawrocki sai… [+2180 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "There's one simple way to tell whether bitcoin has really bottomed. Right now, it hasn't.",
-        "description": "Bitcoin's weekly RSI contains a critical level that has reliably separated bull and bear market regimes across multiple cycoles. And right now the indicator has yet to clear that line.",
-        "url": "https://www.coindesk.com/markets/2026/06/12/there-s-one-simple-way-to-tell-whether-bitcoin-has-really-bottomed-right-now-it-hasn-t",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/58f9ff1c92ee9fd91f3cbf0e64fe3c96ce047971-1280x853.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-12T07:57:47Z",
-        "content": "Crypto traders, having seen bitcoin BTC\r\n$62,895.02, the largest cryptocurrency, bounce overnight to $64,000 from recent lows under $60,000, may be wondering whether the bottom has been hit and a fre… [+996 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "Coinbase launches tool letting AI agents make payments and trade crypto",
-        "description": "Coinbase for Agents will let users of the crypto exchange manage their holdings “without the constant manual oversight” and can autonomously perform a range of tasks.",
-        "url": "https://cointelegraph.com/news/coinbase-launches-tool-letting-ai-agents-make-payments-and-trade-crypto",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-coinbase-transaction-ai.jpg",
-        "publishedAt": "2026-06-12T04:19:03Z",
-        "content": "Crypto exchange Coinbase has launched a tool that allows artificial intelligence agents to make payments and trade crypto on behalf of users, as crypto companies look to ride a wave of interest in AI… [+3252 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Keshav Verma",
-        "title": "Crypto Volume Drops To 2-Year Low—Is A Relief Rally Next?",
-        "description": "On-chain data shows trading volume in the crypto sector has slumped to the lowest level in two years, a sign that investors have turned their attention away from the market. Crypto Trading Volume Has Seen A Notable Decline In a new post on X, on-chain analyti…",
-        "url": "http://www.newsbtc.com/news/crypto-volume-drops-to-2-year-low-relief-rally/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/crypto.png?fit=1312%2C874",
-        "publishedAt": "2026-06-12T02:00:10Z",
-        "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has … [+2820 chars]"
       }
     ]
   }
