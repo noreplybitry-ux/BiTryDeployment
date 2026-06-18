@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-18T21:23:36.134Z",
+  "timestamp": "2026-06-18T23:49:21.513Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 24,
     "articles": [
       {
         "source": {
@@ -316,19 +316,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-saylors-strategy-keeps-buying-bitcoin-the-long-term-bet-explained-2.jpg",
         "publishedAt": "2026-06-14T19:05:46Z",
         "content": "Standard Chartered analyst Geoff Kendrick on Friday told clients that he believes crypto asset prices have seen the low in the current cycle and he is looking for confirmation in three indicators: St… [+2446 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Wall Street and crypto are crashing into each other as tokenized treasury markets hit $14.6 billion",
-        "description": "Not all crypto exchange executives agree, but the data does not lie: centralized exchange trading volumes dropped more than 11% to $4.61 trillion, their lowest since late 2024.",
-        "url": "https://www.coindesk.com/markets/2026/06/11/wall-street-and-crypto-are-crashing-into-each-other-as-tokenized-treasury-markets-hit-usd14-6-billion",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ee75b495953416ed9160ebd740f67ea4c78d4495-7250x4836.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-14T13:00:00Z",
-        "content": "A significant transformation is currently underway across the established cryptocurrency market. The top crypto exchanges are morphing into multi-asset financial platforms, breaking down the traditio… [+1561 chars]"
       }
     ]
   }
