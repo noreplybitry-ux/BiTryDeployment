@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-18T14:14:06.715Z",
+  "timestamp": "2026-06-18T18:07:59.416Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Florida Man 'Bitcoin Rodney' Pleads Guilty Over $1.8 Billion HyperFund Crypto Fraud",
+        "description": "A Miami-based man who went by the name “Bitcoin Rodney” pleaded guilty for his role in what prosecutors said was a massive global fraud.",
+        "url": "https://decrypt.co/371420/florida-man-bitcoin-rodney-pleads-guilty-1-8-billion-crypto-fraud",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-06-17T15:37:41Z",
+        "content": "In brief\r\n<ul><li>Rodney Burton pleaded guilty to conspiring to run an unlicensed money-transmitting business tied to an alleged $1.8 billion crypto fraud scheme.</li><li>Burton personally received m… [+2482 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "William Suberg",
+        "title": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
+        "description": "Bitcoin circled $65,000 after downside BTC price pressure into the FOMC meeting as analysis warned over the impact of Strategy potentially selling more BTC in the future.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-strategyb-1.jpg",
+        "publishedAt": "2026-06-17T14:49:02Z",
+        "content": "Bitcoin (BTC) bounced off week-to-date lows into Wednesdays Wall Street open as corporate sell pressure returned to the radar.\r\nKey points:\r\n<ul><li>Bitcoin sees a new low for the current weekly cand… [+3258 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Andrew Hayward",
+        "title": "'Rapidly Evolving': Benchmark Analyst Bullish on Coinbase After Stocks, Options Moves",
+        "description": "Benchmark-StoneX reiterated a $270 price target for COIN—60% higher than Coinbase’s current share price—following an array of product announcements.",
+        "url": "https://decrypt.co/371414/rapidly-evolving-benchmark-analyst-bullish-coinbase-stocks-options",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_flag-gID_7.png",
+        "publishedAt": "2026-06-17T14:47:53Z",
+        "content": "In brief\r\n<ul><li>Benchmark-StoneX reiterated a $270 price target for Coinbase (COIN) on Wednesday, a 60% boost from the current price.</li><li>The bullish projection followed an event where Coinbase… [+2595 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,32 +329,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/635098a63fd9f1666a72fdfb7fee8ca9adedf6a2-4032x2268.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-12T18:09:06Z",
         "content": "The cryptocurrency market reached its definitive bottom for the currency cycle, Standard Chartered Analyst Geoffrey Kendrick said in a note on Friday.\r\nThe cycle low is now locked in at $59,000 for b… [+907 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "AI Boost",
-        "title": "VanEck bets BNB’s real-world usage can stand out in a crowded crypto ETF market",
-        "description": "VanEck says BNB’s user activity and revenue generation make it a stronger long-term crypto investment case than many blockchain projects still selling a vision.",
-        "url": "https://www.coindesk.com/markets/2026/06/12/vaneck-bets-bnb-s-real-world-usage-can-stand-out-in-a-crowded-crypto-etf-market",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/591ebb1d6a707d8b8d862afa4610b4958bd2ccaf-1540x864.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-12T16:05:31Z",
-        "content": "Latest developments: VanEck recently launched the first U.S. spot BNB ETF, trading under the ticker VBNB on Nasdaq.\r\n<ul><li>The fund gives investors exposure to BNB through traditional brokerage acc… [+1345 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vince Dioquino",
-        "title": "GameStop Renews Bitcoin Deal That Did Little for Its Record Quarter",
-        "description": "The retailer rolled its Coinbase options deal forward in late May, keeping nearly all its Bitcoin tied up for upfront cash.",
-        "url": "https://decrypt.co/370905/gamestop-renews-bitcoin-deal-that-did-little-for-its-record-quarter",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/gamestop-logo-decrypt-style-03-gID_7.png",
-        "publishedAt": "2026-06-12T15:02:28Z",
-        "content": "In brief\r\n<ul><li>GameStop renewed an options deal that ties up nearly all its Bitcoin with Coinbase Credit.</li><li>The pledged coins no longer count as a direct holding and sit below their cost.</l… [+3254 chars]"
       }
     ]
   }
