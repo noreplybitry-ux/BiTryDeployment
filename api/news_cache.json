@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-19T16:34:10.462Z",
+  "timestamp": "2026-06-19T19:00:23.479Z",
   "data": {
     "status": "ok",
-    "totalResults": 22,
+    "totalResults": 21,
     "articles": [
       {
         "source": {
@@ -277,19 +277,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Manilla-gID_7.jpg",
         "publishedAt": "2026-06-15T11:27:19Z",
         "content": "In brief\r\n<ul><li>The BSP has ordered all Virtual Asset Service Providers to build \"a robust due diligence and accreditation process\" before listing or trading any virtual asset on their platforms.</… [+4610 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Can BTC rebound to $69K as oil price plunges? Five things to know in Bitcoin this week",
-        "description": "Bitcoin gained bullish short-term BTC price targets with $69,000 on the radar thanks to the US-Iran peace deal, due to be signed in the coming days.",
-        "url": "https://cointelegraph.com/markets/can-btc-rebound-to-69k-as-oil-price-plunges-five-things-to-know-in-bitcoin-this-week",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/oil-bitcoin-petrol-iran-1.jpg",
-        "publishedAt": "2026-06-15T10:14:39Z",
-        "content": "Bitcoin (BTC) starts the third week of June with a spring in its step as the US-Iran peace deal sends risk assets higher.\r\nKey points:\r\n<ul><li>Bitcoin price action targets $66,000 as US stock future… [+7507 chars]"
       }
     ]
   }
