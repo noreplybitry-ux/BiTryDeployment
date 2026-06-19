@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-19T04:58:18.863Z",
+  "timestamp": "2026-06-19T09:48:32.229Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Buying bitcoin below its 200-week average has historically delivered over 100% in median returns, Kraken says",
+        "description": "Bitcoin's recent dips below its 200-week moving average have historically produced median returns over 100% within a year, with minimal drawdown pain for buyers, according to Kraken.",
+        "url": "https://www.coindesk.com/markets/2026/06/18/buying-bitcoin-below-its-200-week-average-has-historically-delivered-over-100-in-median-returns-kraken-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b19fea6ba8d91933fbd0aa045661baca984f3247-4080x2720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-18T05:08:05Z",
+        "content": "Bitcoin BTC\r\n$63,874.70 has recently been flirting with a level that has historically proved a near-perfect entry point for bulls, generating handsome returns, crypto exchange Kraken's Chief Economis… [+841 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,32 +303,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Rebound-Looks-Fragile.jpg?fit=1024%2C572",
         "publishedAt": "2026-06-15T06:08:53Z",
         "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Ethereum Price Rebound Gains Traction After Clearing Key Hurdles",
-        "description": "Ethereum price started a fresh increase and remained stable above $1,680. ETH is now correcting gains and might continue higher if it clears $1,750. Ethereum started a decent upward move above the $1,620 resistance. The price is trading above $1,680 and the 1…",
-        "url": "http://www.newsbtc.com/analysis/eth/ethereum-price-rebound-1720/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Ethereum-Price-Cools-Off-But-Structure-Stays-Firmly-Supported.jpg?fit=1024%2C559",
-        "publishedAt": "2026-06-15T03:48:04Z",
-        "content": "Ethereum price started a fresh increase and remained stable above $1,680. ETH is now correcting gains and might continue higher if it clears $1,750.\r\n<ul><li>Ethereum started a decent upward move abo… [+2175 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Bitcoin Price Reclaims $65,000 With Conviction—Is A Bigger Rally Next?",
-        "description": "Bitcoin price started a fresh increase and cleared the $64,500 zone. BTC is consolidating and might aim for more gains above the $66,200 level. Bitcoin managed to stay above $62,500 and started a fresh increase. The price is trading above $64,500 and the 100 …",
-        "url": "http://www.newsbtc.com/analysis/btc/bitcoin-price-reclaims-65000/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Turns-Higher.jpg",
-        "publishedAt": "2026-06-15T03:02:05Z",
-        "content": "Bitcoin price started a fresh increase and cleared the $64,500 zone. BTC is consolidating and might aim for more gains above the $66,200 level.\r\n<ul><li>Bitcoin managed to stay above $62,500 and star… [+2158 chars]"
       }
     ]
   }
