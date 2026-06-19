@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-19T19:00:23.479Z",
+  "timestamp": "2026-06-19T20:42:55.130Z",
   "data": {
     "status": "ok",
     "totalResults": 21,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Europe's Crypto Firms Face Squeeze as MiCA Transition Period End Looms",
+        "description": "As the MiCA grace period closes, only a fraction of registered firms hold full licenses, setting up the prospect of a wave of consolidation.",
+        "url": "https://decrypt.co/371561/europes-crypto-firms-face-squeeze-mica-transition-period-end-looms",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/eu-flag-gID_7.jpg",
+        "publishedAt": "2026-06-18T19:26:10Z",
+        "content": "In brief\r\n<ul><li>The EU's MiCA transition period ends July 1, closing the window for crypto firms to operate under old national regimes without a bloc-wide license.</li><li>Just 200 or so firms have… [+4426 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -264,19 +277,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-risk-vs-reward-investing-in-bitcoin-at-an-all-time-high-1.jpg",
         "publishedAt": "2026-06-15T16:18:14Z",
         "content": "Bitcoin (BTC) chart technicals suggest that the BTC price rebound to $100,000 may still happen by September. \r\nBTC/USD daily chart. Source: TradingView\r\nKey takeaways: \r\n<ul><li>Bitcoin is painting a… [+4062 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Vismaya V",
-        "title": "Philippines Issues Stricter Crypto Listing Rules, Bans Privacy Coins",
-        "description": "The Philippines' central bank has tightened crypto oversight with new rules governing how exchanges assess and monitor digital assets.",
-        "url": "https://decrypt.co/371124/philippines-issues-stricter-crypto-listing-rules-bans-privacy-coins",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Manilla-gID_7.jpg",
-        "publishedAt": "2026-06-15T11:27:19Z",
-        "content": "In brief\r\n<ul><li>The BSP has ordered all Virtual Asset Service Providers to build \"a robust due diligence and accreditation process\" before listing or trading any virtual asset on their platforms.</… [+4610 chars]"
       }
     ]
   }
