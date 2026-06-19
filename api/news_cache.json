@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-19T09:48:32.229Z",
+  "timestamp": "2026-06-19T13:38:14.709Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 21,
     "articles": [
       {
         "source": {
@@ -277,32 +277,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/oil-bitcoin-petrol-iran-1.jpg",
         "publishedAt": "2026-06-15T10:14:39Z",
         "content": "Bitcoin (BTC) starts the third week of June with a spring in its step as the US-Iran peace deal sends risk assets higher.\r\nKey points:\r\n<ul><li>Bitcoin price action targets $66,000 as US stock future… [+7507 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Bitcoin Mining Difficulty Drops 10% As Miners Get Rare Relief",
-        "description": "Bitcoin’s latest difficulty adjustment gave miners some breathing room after a slower-than-usual period for the network.",
-        "url": "http://www.newsbtc.com/news/bitcoin-mining-difficulty-drops-10-as-miners-get-rare-relief/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/09/Bitcoin-mining.png",
-        "publishedAt": "2026-06-15T09:12:52Z",
-        "content": "Bitcoin miners just got a rare bit of relief.\r\n<ul><li>Bitcoin mining difficulty has fallen by just over 10%, one of the largest downward adjustments in the networks history.</li><li>The move makes i… [+3555 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "Aayush Jindal",
-        "title": "Dogecoin (DOGE) Recovery Gains Traction—Can It Unlock Bigger Gains?",
-        "description": "Dogecoin started a fresh increase from the $0.0850 zone against the US Dollar. DOGE is now facing hurdles near $0.090 and might aim for a larger rally. DOGE price started a decent upward move above $0.0850 and $0.0880. The price is trading above the $0.0870 l…",
-        "url": "http://www.newsbtc.com/analysis/doge/dogecoin-doge-recovery-gains-traction-0-080/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/Dogecoin-DOGE-Rebound-Looks-Fragile.jpg?fit=1024%2C572",
-        "publishedAt": "2026-06-15T06:08:53Z",
-        "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien… [+3011 chars]"
       }
     ]
   }
