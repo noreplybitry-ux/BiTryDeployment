@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-18T23:49:21.513Z",
+  "timestamp": "2026-06-19T04:58:18.863Z",
   "data": {
     "status": "ok",
     "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Binance Targets EU Regulatory License As MiCA Deadline Puts Exchanges Under Pressure",
+        "description": "The Binance EU licensing path is under scrutiny as MiCA raises pressure on crypto exchanges to secure authorization and protect user continuity.",
+        "url": "http://www.newsbtc.com/news/binance-targets-eu-regulatory-license-as-mica-deadline-puts-exchanges-under/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image24.png?fit=1024%2C1024",
+        "publishedAt": "2026-06-18T03:00:55Z",
+        "content": "The Binance European regulatory path is back in focus as the MiCA deadline approaches, with the exchanges EU licensing strategy becoming a key test of how global crypto platforms adapt to the blocs n… [+3216 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,19 +316,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-Price-Turns-Higher.jpg",
         "publishedAt": "2026-06-15T03:02:05Z",
         "content": "Bitcoin price started a fresh increase and cleared the $64,500 zone. BTC is consolidating and might aim for more gains above the $66,200 level.\r\n<ul><li>Bitcoin managed to stay above $62,500 and star… [+2158 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Cointelegraph",
-        "title": "StanChart looks for 3 signs of BTC bottom, including Strategy’s Monday news",
-        "description": "Standard Chartered Geoff Kendrick on Friday told clients that he believes crypto asset prices have seen the low in the current cycle and he is looking for confirmation in three indicators, including Strategy’s reporting that it bought more Bitcoin last week.",
-        "url": "https://cointelegraph.com/news/stanchart-looks-for-3-signs-of-btc-bottom-including-strategys-monday-news",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-saylors-strategy-keeps-buying-bitcoin-the-long-term-bet-explained-2.jpg",
-        "publishedAt": "2026-06-14T19:05:46Z",
-        "content": "Standard Chartered analyst Geoff Kendrick on Friday told clients that he believes crypto asset prices have seen the low in the current cycle and he is looking for confirmation in three indicators: St… [+2446 chars]"
       }
     ]
   }
