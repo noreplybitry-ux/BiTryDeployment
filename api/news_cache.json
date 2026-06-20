@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-20T09:27:20.848Z",
+  "timestamp": "2026-06-20T12:01:49.469Z",
   "data": {
     "status": "ok",
-    "totalResults": 21,
+    "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Zcash dips 4% as broader crypto market remains bearish",
+        "description": "Key takeaways ZEC is still struggling under the $477-$500 zone.  Although momentum indicators show signs of stabilization, Zcash remains vulnerable to further downside as investors react to persistent macroeconomic uncertainty and rising rate-hike expectation…",
+        "url": "https://coinjournal.net/news/zcash-dips-4-as-broader-crypto-market-remains-bearish/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/06/ChatGPT-Image-Jun-19-2026-12_12_25-PM.png",
+        "publishedAt": "2026-06-19T11:13:43Z",
+        "content": "Key takeaways\r\n<ul><li>ZEC is still struggling under the $477-$500 zone. </li><li>Although momentum indicators show signs of stabilization, Zcash remains vulnerable to further downside as investors r… [+2559 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Monero extends losses as Fed hawkishness weighs on the crypto market",
+        "description": "Key takeaways XMR is down 2% and could record further losses in the near term The Fed’s hawkishness weighs on the broader crypto market. Privacy coins remain under pressure amid weak risk appetite Monero (XMR) continued its downward trajectory on Friday as be…",
+        "url": "https://coinjournal.net/news/monero-extends-losses-as-fed-hawkishness-weighs-on-the-crypto-market/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/06/ChatGPT-Image-Jun-19-2026-12_01_39-PM.png",
+        "publishedAt": "2026-06-19T11:03:22Z",
+        "content": "Key takeaways\r\n<ul><li>XMR is down 2% and could record further losses in the near term</li><li>The Fed’s hawkishness weighs on the broader crypto market.</li></ul>Privacy coins remain under pressure … [+2898 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "William Suberg",
+        "title": "Bitcoin tipped for Q3 'macro bottom' near $50K as major liquidity grab looms",
+        "description": "Bitcoin may end its macro downtrend with a bottom above $50,000 in a classic liquidity grab, a new prediction suggests as \"aggressive\" shorting returns to Binance.",
+        "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-q3-macro-bottom-near-50k-as-major-liquidity-grab-looms",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/sad-bitcoin-crypto-river-3.jpg",
+        "publishedAt": "2026-06-19T10:44:28Z",
+        "content": "Bitcoin (BTC) could reach its new macro bottom by September, as price action continues to surprise traders.\r\nKey points:\r\n<ul><li>Bitcoin may \"front run\" exchange order-book liquidity to produce a be… [+2395 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Franklin Templeton Files for ETFs That Funnel Stock Dividends Into Bitcoin",
+        "description": "The asset manager's two proposed \"Bitcoin DRIP\" funds would hold U.S. stocks and reinvest dividends into Bitcoin, a novel ETF structure.",
+        "url": "https://decrypt.co/371656/franklin-templeton-files-for-etfs-that-funnel-stock-dividends-into-bitcoin",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/Franklin-Templeton-gID_7.jpg",
+        "publishedAt": "2026-06-19T10:01:57Z",
+        "content": "In brief\r\n<ul><li>Franklin Templeton filed with the SEC on Thursday for two ETFs that would hold baskets of U.S. stocks and steer the dividends into Bitcoin.</li><li>The funds track new VettaFi \"Bitc… [+2875 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -251,32 +303,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9268abf5db9f7f161c113bf2b5b24faee1de23c2-7008x4672.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-16T15:03:21Z",
         "content": "Coinbase (COIN) said it plans to introduce tokenized stocks backed one-for-one by underlying U.S. equities, joining the growing competition among crypto firms and traditional financial companies to b… [+1057 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Binance says its European regulatory application is compliant despite report of Greek rejection",
-        "description": "An EU crypto license application by the world’s largest crypto exchange is set to be rejected by the Greek regulator HCMC, according to a report from Reuters.",
-        "url": "https://www.coindesk.com/policy/2026/06/16/binance-says-its-european-regulatory-application-is-fully-compliant-despite-report-of-greek-rejection",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7fbb8826aec1d65a8179a17cd1a5cab330c9bd7a-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-16T14:55:35Z",
-        "content": "Binance, the worlds largest cryptocurrency exchange, may be unable to serve customers in Europe if its regulatory license application in Greece is turned down, as Reuters reported on Tuesday.\r\nBinanc… [+889 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "These Bitcoin charts show how BTC price could hit $100K before October",
-        "description": "Bitcoin price rebound from $60,000 support may extend as BTC forms a double bottom and bullish RSI divergence, but whale inflows and a bear flag pose risks.",
-        "url": "https://cointelegraph.com/markets/these-bitcoin-charts-show-how-btc-price-could-hit-100k-before-october",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-risk-vs-reward-investing-in-bitcoin-at-an-all-time-high-1.jpg",
-        "publishedAt": "2026-06-15T16:18:14Z",
-        "content": "Bitcoin (BTC) chart technicals suggest that the BTC price rebound to $100,000 may still happen by September. \r\nBTC/USD daily chart. Source: TradingView\r\nKey takeaways: \r\n<ul><li>Bitcoin is painting a… [+4062 chars]"
       }
     ]
   }
