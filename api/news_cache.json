@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-21T16:49:12.849Z",
+  "timestamp": "2026-06-21T18:21:54.472Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 22,
     "articles": [
       {
         "source": {
@@ -290,19 +290,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
         "publishedAt": "2026-06-16T20:25:52Z",
         "content": "In brief\r\n<ul><li>A report from Reuters cites sources saying that the firm's MiCA application will be denied in the European Union.</li><li>Binance said Tuesday that it believes it is operating in co… [+2508 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Sam Bourgi",
-        "title": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
-        "description": "The crypto exchange is deepening its push into traditional finance by enabling ACATS stock transfers and expanding trading products beyond digital assets.",
-        "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-237325-coinbase-stock-trading-prediction-markets-in-everything-app-push.jpg",
-        "publishedAt": "2026-06-16T19:01:00Z",
-        "content": "Coinbase is allowing users to transfer existing stock portfolios onto its platform, marking another step in the companys push beyond cryptocurrency trading and toward becoming a full-service financia… [+2631 chars]"
       }
     ]
   }
