@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-23T12:38:32.297Z",
+  "timestamp": "2026-06-23T15:54:44.250Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "William Suberg",
+        "title": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "description": "Bitcoin rebounds as oil slips toward new multimonth lows on Iran trading permission, but analysis warns over Monday forming the week's high for BTC price action.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/oil-bitcoin-petrol-fuel.jpg",
+        "publishedAt": "2026-06-22T15:48:49Z",
+        "content": "Bitcoin (BTC) passed $65,000 at Mondays Wall Street open as exchange order-book liquidity dictated price moves.\r\nKey points:\r\n<ul><li>Bitcoin hits a new week-to-date high despite US stocks rolling ov… [+2648 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,32 +316,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-strategyb-1.jpg",
         "publishedAt": "2026-06-17T14:49:02Z",
         "content": "Bitcoin (BTC) bounced off week-to-date lows into Wednesdays Wall Street open as corporate sell pressure returned to the radar.\r\nKey points:\r\n<ul><li>Bitcoin sees a new low for the current weekly cand… [+3258 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Andrew Hayward",
-        "title": "'Rapidly Evolving': Benchmark Analyst Bullish on Coinbase After Stocks, Options Moves",
-        "description": "Benchmark-StoneX reiterated a $270 price target for COIN—60% higher than Coinbase’s current share price—following an array of product announcements.",
-        "url": "https://decrypt.co/371414/rapidly-evolving-benchmark-analyst-bullish-coinbase-stocks-options",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_flag-gID_7.png",
-        "publishedAt": "2026-06-17T14:47:53Z",
-        "content": "In brief\r\n<ul><li>Benchmark-StoneX reiterated a $270 price target for Coinbase (COIN) on Wednesday, a 60% boost from the current price.</li><li>The bullish projection followed an event where Coinbase… [+2595 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Mexican billionaire with 70% of his investment portfolio in bitcoin says it's better than real estate",
-        "description": "Ricardo Salinas Pliego, whose net worth is estimated at roughly $5 billion, is a hardcore bitcoin maximalist who told his wife to mortgage her house to buy bitcoin.",
-        "url": "https://www.coindesk.com/business/2026/06/17/mexican-billionaire-with-70-of-his-investment-portfolio-in-bitcoin-says-it-s-better-than-real-estate",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a92aff64d1e40e3369dc3161086327fe5d45fb7f-1920x1080.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-17T14:00:00Z",
-        "content": "For most people, the biggest investment, their nest egg, is their home equity. Find a way to transform that into some kind of bitcoin exposure to a larger or to a smaller degree, he said. So then you… [+1066 chars]"
       }
     ]
   }
