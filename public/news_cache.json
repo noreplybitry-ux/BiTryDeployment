@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-23T18:03:49.131Z",
+  "timestamp": "2026-06-23T21:02:50.089Z",
   "data": {
     "status": "ok",
     "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Nate Kostar",
+        "title": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
+        "description": "The new unit arrives amid rapid growth in tokenized assets, with Franklin Templeton's onchain product suite expanding from roughly $768 million to more than $2.5 billion over the past year.",
+        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/handshake-agreement-partnership-merger.png",
+        "publishedAt": "2026-06-22T20:36:53Z",
+        "content": "Global asset manager Franklin Templeton has completed its acquisition of crypto asset manager 250 Digital, closing a deal first announced in April and expanding its digital asset business with a new … [+2688 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,19 +303,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-08-gID_7.png",
         "publishedAt": "2026-06-17T19:17:37Z",
         "content": "In brief\r\n<ul><li>Trace Finance raised a $32 million Series A round led by CoinFund, with backing from Coinbase Ventures, Haun Ventures, and more.</li><li>The funding comes as Brazil reclassifies cro… [+3081 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Florida Man 'Bitcoin Rodney' Pleads Guilty Over $1.8 Billion HyperFund Crypto Fraud",
-        "description": "A Miami-based man who went by the name “Bitcoin Rodney” pleaded guilty for his role in what prosecutors said was a massive global fraud.",
-        "url": "https://decrypt.co/371420/florida-man-bitcoin-rodney-pleads-guilty-1-8-billion-crypto-fraud",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-06-17T15:37:41Z",
-        "content": "In brief\r\n<ul><li>Rodney Burton pleaded guilty to conspiring to run an unlicensed money-transmitting business tied to an alleged $1.8 billion crypto fraud scheme.</li><li>Burton personally received m… [+2482 chars]"
       }
     ]
   }
