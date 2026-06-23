@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-23T15:54:44.250Z",
+  "timestamp": "2026-06-23T18:03:49.131Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 23,
     "articles": [
       {
         "source": {
@@ -303,19 +303,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
         "publishedAt": "2026-06-17T15:37:41Z",
         "content": "In brief\r\n<ul><li>Rodney Burton pleaded guilty to conspiring to run an unlicensed money-transmitting business tied to an alleged $1.8 billion crypto fraud scheme.</li><li>Burton personally received m… [+2482 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "William Suberg",
-        "title": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
-        "description": "Bitcoin circled $65,000 after downside BTC price pressure into the FOMC meeting as analysis warned over the impact of Strategy potentially selling more BTC in the future.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-strategyb-1.jpg",
-        "publishedAt": "2026-06-17T14:49:02Z",
-        "content": "Bitcoin (BTC) bounced off week-to-date lows into Wednesdays Wall Street open as corporate sell pressure returned to the radar.\r\nKey points:\r\n<ul><li>Bitcoin sees a new low for the current weekly cand… [+3258 chars]"
       }
     ]
   }
