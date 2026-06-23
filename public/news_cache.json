@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-23T05:07:04.560Z",
+  "timestamp": "2026-06-23T09:53:07.358Z",
   "data": {
     "status": "ok",
     "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Bitcoin price may be headed to $54,000, says analyst who forecast October's all-time high",
+        "description": "Doctor Profit, a widely followed crypto analyst, says bitcoin is forming a “bear flag” pattern.",
+        "url": "https://www.coindesk.com/markets/2026/06/22/bitcoin-price-may-be-headed-to-usd54-000-says-analyst-who-forecast-october-s-all-time-high",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a188c78c65397976904078eac59897272644525e-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-22T09:19:24Z",
+        "content": "A hawkish Fed. Rising bond yields. Concerns about Strategy (MSTR). Bitcoin BTC\r\n$64,156.16 already has plenty working against it. Now an ominous chart pattern is adding to the uncertainty.\r\nThe patte… [+898 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,19 +303,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png",
         "publishedAt": "2026-06-17T12:18:44Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+6457 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Yashu Gola",
-        "title": "Bitcoin is setting up 'meaningful floors' in $60K–$70K range: Analyst",
-        "description": "Bitcoin’s $6000–$70,000 cost-basis cluster hints at a bottom, but a bearish daily flag keeps BTC exposed to a deeper selloff toward $50,000.",
-        "url": "https://cointelegraph.com/markets/bitcoin-is-setting-up-meaningful-floors-in-60k70k-range-analyst",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-make-a-profit-when-bitcoin-prices-are-stagnant.jpg",
-        "publishedAt": "2026-06-17T11:02:08Z",
-        "content": "Bitcoin (BTC) showed signs of bottoming inside the $60,000$70,000 range on Wednesday, according to on-chain data shared by a quant analyst. \r\nKey takeaways:\r\n<ul><li>Nearly 20% of BTC supply now sits… [+3254 chars]"
       }
     ]
   }
