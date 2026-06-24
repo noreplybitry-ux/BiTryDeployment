@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-24T11:48:57.734Z",
+  "timestamp": "2026-06-24T14:43:21.672Z",
   "data": {
     "status": "ok",
     "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Yashu Gola",
+        "title": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
+        "description": "SpaceX’s $600 billion wipeout rattles tech markets, putting Bitcoin’s $60,000 support at risk as traders brace for a deeper BTC sell-off.",
+        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-elon-musks-net-worth-breakdown-tesla-spacex-and-cryptocurrency-holdings-explained.jpg",
+        "publishedAt": "2026-06-23T14:38:32Z",
+        "content": "Bitcoin (BTC) has dropped over 8% from its June high near $67,255, putting the $60,000 support level back in focus.\r\nBTC/USD daily chart. Source: TradingView\r\nKey takeaways:\r\n<ul><li>The SpaceX-led t… [+2793 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Franklin Templeton closes 250 Digital acquisition deal and sets up new Franklin Crypto division",
+        "description": "The $1.7 trillion asset manager did not disclose the amount paid for the acquisition of 250 Digital but revealed its plans for a new corporate division exclusively for crypto investments.",
+        "url": "https://www.coindesk.com/business/2026/06/23/franklin-templeton-closes-250-digital-acquisition-deal-and-sets-up-new-franklin-crypto-division",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6e449fbe8cd234bda47b7df1be0cb3240b2dccaf-4898x2755.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-23T12:35:57Z",
+        "content": "The $1.7 trillion asset manager Franklin Templeton is establishing a new dedicated active crypto investment management arm through acquisition of 250 Digital.\r\nFranklin Templeton has established Fran… [+1039 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin remains under pressure below $63K as US-Iran negotiation uncertainty persists",
+        "description": "Key takeaways Bitcoin remained under pressure after Iran announced that it would not permit inspectors from the International Atomic Energy Agency (IAEA) to access its damaged nuclear facilities,  The leading cryptocurrency has dropped to the $62,300 level, d…",
+        "url": "https://coinjournal.net/news/bitcoin-remains-under-pressure-below-63k-as-us-iran-negotiation-uncertainty-persists/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_06_04-AM.png",
+        "publishedAt": "2026-06-23T12:26:30Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin remained under pressure after Iran announced that it would not permit inspectors from the International Atomic Energy Agency (IAEA) to access its damaged nuclear facili… [+3929 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Fomo's $75M Raise Shows Big VCs Are Still Betting on Consumer Crypto",
+        "description": "Crypto majors are selling off as big Tech gets routed; Saylor is hoarding cash; and ETH heavyweights team up to fund R&D with ETHLabs.",
+        "url": "https://decrypt.co/371851/morning-minute-fomos-75m-raise-shows-big-vcs-are-still-betting-on-consumer-crypto",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_red-gID_7.png",
+        "publishedAt": "2026-06-23T12:23:09Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8144 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -251,58 +303,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-gathering-up-price-prediction-for-post-halving.jpg",
         "publishedAt": "2026-06-18T14:46:56Z",
         "content": "A viral social media post is reviving an alleged Bitcoin prediction that appears to have called several major BTC price levels from 2019 through 2024, with one final target remaining: $145,000 by Oct… [+3451 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Buying bitcoin below its 200-week average has historically delivered over 100% in median returns, Kraken says",
-        "description": "Bitcoin's recent dips below its 200-week moving average have historically produced median returns over 100% within a year, with minimal drawdown pain for buyers, according to Kraken.",
-        "url": "https://www.coindesk.com/markets/2026/06/18/buying-bitcoin-below-its-200-week-average-has-historically-delivered-over-100-in-median-returns-kraken-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b19fea6ba8d91933fbd0aa045661baca984f3247-4080x2720.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-18T05:08:05Z",
-        "content": "Bitcoin BTC\r\n$63,874.70 has recently been flirting with a level that has historically proved a near-perfect entry point for bulls, generating handsome returns, crypto exchange Kraken's Chief Economis… [+841 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Binance Targets EU Regulatory License As MiCA Deadline Puts Exchanges Under Pressure",
-        "description": "The Binance EU licensing path is under scrutiny as MiCA raises pressure on crypto exchanges to secure authorization and protect user continuity.",
-        "url": "http://www.newsbtc.com/news/binance-targets-eu-regulatory-license-as-mica-deadline-puts-exchanges-under/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/03/generated_image24.png?fit=1024%2C1024",
-        "publishedAt": "2026-06-18T03:00:55Z",
-        "content": "The Binance European regulatory path is back in focus as the MiCA deadline approaches, with the exchanges EU licensing strategy becoming a key test of how global crypto platforms adapt to the blocs n… [+3216 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Biraajmaan Tamuly",
-        "title": "Bitcoin capitulation ‘twice as weak’ after spot liquidity turns supportive: Glassnode",
-        "description": "Bitcoin’s realized losses fell by 46% as increasing bid-side liquidity points to easing sell pressure. Can bulls push BTC price back above $70,000?",
-        "url": "https://cointelegraph.com/markets/bitcoin-capitulation-twice-as-weak-as-spot-liquidity-turns-supportive-glassnode",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-246514-bitcoin-price-may-drop-below-64k-veteran-campaign-selling.jpg",
-        "publishedAt": "2026-06-17T20:26:13Z",
-        "content": "Bitcoin's (BTC) latest bout of panic selling produced significantly smaller realized losses than those seen during the February correction. Realized losses peaked at $1.4 billion during the June decl… [+2767 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Ethereum Price Defends $1,800 As Traders Brace For Kevin Warsh’s Debut Fed Meeting",
-        "description": "Ethereum is holding near $1,800 as traders watch the Fed decision, dot plot, and Kevin Warsh’s first major policy signal as chair.",
-        "url": "http://www.newsbtc.com/news/eth-price-defends-1800-kevin-warsh-debut-fed-meeting/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-iStock-4.jpg?fit=612%2C408",
-        "publishedAt": "2026-06-17T20:00:32Z",
-        "content": "Ethereum is holding close to the $1,800 area as traders wait for the Federal Reserves June decision, with the market watching not only the rate call but also what Chair Kevin Warsh says about inflati… [+3333 chars]"
       }
     ]
   }
