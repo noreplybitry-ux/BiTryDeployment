@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-24T14:43:21.672Z",
+  "timestamp": "2026-06-24T17:08:52.370Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Bitcoin Tests Two-Week Low at $62K as Tech Stocks Waver on Wall Street",
+        "description": "Investors are digesting a hawkish Fed, with risk-off sentiment driving a sell-off in AI and crypto",
+        "url": "https://decrypt.co/371867/bitcoin-tests-two-week-low-at-62k-as-tech-stocks-waver-on-wall-street",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/decrypt-style-wall-street-gID_7.png",
+        "publishedAt": "2026-06-23T15:54:07Z",
+        "content": "In brief\r\n<ul><li>Bitcoin fell in sympathy with tech stocks on Tuesday, hitting a two-week low as investors appeared to fixate on expectations of rate hikes.</li><li>The weakness follows a frenetic r… [+3745 chars]"
+      },
       {
         "source": {
           "id": null,
