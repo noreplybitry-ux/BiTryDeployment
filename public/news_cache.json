@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-24T21:27:02.103Z",
+  "timestamp": "2026-06-24T23:10:57.663Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "KOSPI Shock Sends Fresh Warning Across Bitcoin And Risk Assets",
+        "description": "South Korea’s KOSPI suffered a near-10% drop after regulators warned over leveraged ETF risk tied to major chip stocks. The move matters for crypto because",
+        "url": "http://www.newsbtc.com/news/kospi-shock-sends-fresh-warning-across-bitcoin-and-risk-assets/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/bitcoin-drought-concept-a-vast-cracked-desert-land.jpeg?fit=1440%2C810",
+        "publishedAt": "2026-06-23T23:00:47Z",
+        "content": "<ul><li>South Koreas KOSPI suffered a near-10% drop after regulators warned over leveraged ETF risk tied to major chip stocks.</li><li>The move matters for crypto because Bitcoin has been trading lik… [+3335 chars]"
+      },
       {
         "source": {
           "id": null,
