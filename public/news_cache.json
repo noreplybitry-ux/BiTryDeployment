@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-24T08:25:55.414Z",
+  "timestamp": "2026-06-24T11:48:57.733Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 23,
     "articles": [
       {
         "source": {
@@ -303,19 +303,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Ethereum-from-iStock-4.jpg?fit=612%2C408",
         "publishedAt": "2026-06-17T20:00:32Z",
         "content": "Ethereum is holding close to the $1,800 area as traders wait for the Federal Reserves June decision, with the market watching not only the rate call but also what Chair Kevin Warsh says about inflati… [+3333 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "CoinFund, Coinbase Back Stablecoin Payments Startup Trace Finance in $32 Million Raise",
-        "description": "Stablecoin infrastructure firm Trace Finance said Wednesday that it raised a $32 million Series A round to help expand its reach.",
-        "url": "https://decrypt.co/371453/coinfund-coinbase-back-stablecoin-payments-startup-trace-32-million",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-08-gID_7.png",
-        "publishedAt": "2026-06-17T19:17:37Z",
-        "content": "In brief\r\n<ul><li>Trace Finance raised a $32 million Series A round led by CoinFund, with backing from Coinbase Ventures, Haun Ventures, and more.</li><li>The funding comes as Brazil reclassifies cro… [+3081 chars]"
       }
     ]
   }
