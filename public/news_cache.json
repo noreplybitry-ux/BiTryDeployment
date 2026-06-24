@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-24T04:04:43.304Z",
+  "timestamp": "2026-06-24T08:25:55.414Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Bitcoin price has limited downside, likely near bottom, contrarian indicator suggests",
+        "description": "The bitcoin price's long-term moving averages are set to flash a bearish signal soon. That's good news for the bulls.",
+        "url": "https://www.coindesk.com/markets/2026/06/23/bitcoin-price-has-limited-downside-likely-near-bottom-contrarian-indicator-suggests",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fa9a57cc5484d26b73c041ec8292daf50fd1b5db-2860x1488.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-23T08:24:00Z",
+        "content": "Critics would argue that three past instances aren't enough to draw a definite conclusion. While that is true, the contrarian record of the bear cross is consistent with the reputation of ultra-long-… [+1150 chars]"
+      },
       {
         "source": {
           "id": null,
