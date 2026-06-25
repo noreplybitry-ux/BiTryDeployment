@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-25T11:43:42.934Z",
+  "timestamp": "2026-06-25T14:42:45.665Z",
   "data": {
     "status": "ok",
-    "totalResults": 21,
+    "totalResults": 22,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Ezra Reguerra",
+        "title": "Binance eyes alternative EU licensing route if Greek bid fails: Report",
+        "description": "Binance reportedly plans to seek authorization in another EU jurisdiction as the MiCA deadline approaches, with unlicensed crypto firms expected to wind down activities in the bloc.",
+        "url": "https://cointelegraph.com/news/binance-eu-license-greece-mica-setback",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-binance-standard-an-overview.jpg",
+        "publishedAt": "2026-06-24T13:12:25Z",
+        "content": "Crypto exchange Binance reportedly plans to seek a different route to authorization in the European Union after its licensing application in Greece encountered a setback.\r\nSpeaking to Reuters, Gillia… [+3220 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Nikhilesh De",
+        "title": "CZ, Binance founder, wants to clear up 'misunderstandings' about who he is",
+        "description": "The former CEO of the world's largest crypto exchange is seeking to redefine himself to the world on his own terms.",
+        "url": "https://www.coindesk.com/policy/2026/06/23/cz-binance-founder-wants-to-clear-up-misunderstandings-about-who-he-is",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/538e1125f745bde246e3f5a6eaf31f694d01215b-3000x1688.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-24T13:00:00Z",
+        "content": "\"Binance.US has a CEO, Binance.com has two co-CEOs,\" he said. \"They almost never talk to each other. Actually, I don't think they ever talk to each other. So, yes, two independent teams. Binance.US d… [+1099 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "DOJ Seizes Huione Infrastructure Linked to Billions in Crypto Laundering",
+        "description": "The seizure hits a cloud account that powered Huione Guarantee, a Telegram marketplace tied to billions in Southeast Asian scam proceeds.",
+        "url": "https://decrypt.co/371950/doj-seizes-huione-infrastructure-linked-to-billions-in-crypto-laundering",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/department-of-justice-doj-decrypt-style-scaled-gID_7.jpg",
+        "publishedAt": "2026-06-24T11:49:27Z",
+        "content": "In brief\r\n<ul><li>The U.S. Justice Department seized a cloud computing account that hosted backend infrastructure for subsidiaries of Cambodia's Huione Group, which it called \"one of the world's most… [+3689 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -251,32 +290,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-243058-bitcoin-spot-traders-lose-ground-as-btc-bears-defend-dollar98k.jpg",
         "publishedAt": "2026-06-19T17:38:09Z",
         "content": "Bitcoin (BTC) is once again approaching its yearly low near $59,000 after a failed recovery attempt left bulls unable to reclaim key resistance levels. BTC traders are now anticipating new lows for 2… [+3329 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Yashu Gola",
-        "title": "Andrew Tate loses nearly $86,000 longing and shorting Bitcoin",
-        "description": "Andrew Tate’s Hyperliquid wallet shows over $803,800 in all-time perps losses after repeated crypto WLFI liquidations.",
-        "url": "https://cointelegraph.com/markets/andrew-tate-loses-nearly-86000-longing-and-shorting-bitcoin",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/dollardambawaterfallmoneyfiat-bitcoin.jpg",
-        "publishedAt": "2026-06-19T15:05:10Z",
-        "content": "Andrew Tate, founder of the Real World, a company that sells online education courses on trading, lost nearly $100,000 while betting on Bitcoin (BTC) between Wednesday and Thursday.\r\nKey takeaways:\r\n… [+2187 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Ezra Reguerra",
-        "title": "Binance can serve Philippine traders under SEC framework, BlockShoals says",
-        "description": "BlockShoals’ head of legal clarified that Binance can offer crypto trading access in the Philippines but cannot handle peso services without a BSP-licensed VASP.",
-        "url": "https://cointelegraph.com/news/blockshoals-binance-regulatory-status-philippines",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bookphilippines.jpg",
-        "publishedAt": "2026-06-19T12:15:20Z",
-        "content": "Binance is allowed to provide crypto trading access to users in the Philippines through its arrangement with BlockShoals Technologies, but neither company is authorized to handle peso transfers or pe… [+3065 chars]"
       }
     ]
   }
