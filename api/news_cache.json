@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-25T08:26:17.759Z",
+  "timestamp": "2026-06-25T11:43:42.934Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 21,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley, AI Boost",
+        "title": "YZi Labs ends proxy war with BNB treasury company CEA Industries",
+        "description": "YZi Labs says it is nearing a settlement with BNB treasury company CEA Industries after launching what it describes as the first activist shareholder campaign in the crypto treasury sector.",
+        "url": "https://www.coindesk.com/business/2026/06/22/yzi-labs-nears-settlement-in-activist-campaign-at-bnb-treasury-firm-cea-industries",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4608a93b3b2bc72544ef1c63b27a70af363796d0-8256x5504.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-24T10:47:12Z",
+        "content": "YZi rejected suggestions that the settlement amounts to a takeover, a person close to the settlement told CoinDesk in an interview, describing it instead as a governance reset intended to unlock shar… [+1234 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum reclaims $1,650 as Ethereum Foundation cuts 20% of workforce",
+        "description": "Key takeaways The Ethereum Foundation has reduced its workforce by 20% following the completion of a major reorganization. ETH is up by 1% and is now trading above $1,650. The Ethereum Foundation (EF) has completed a broad organizational restructuring that in…",
+        "url": "https://coinjournal.net/news/ethereum-reclaims-1650-as-ethereum-foundation-cuts-20-of-workforce/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/06/ChatGPT-Image-Jun-24-2026-10_57_14-AM.png",
+        "publishedAt": "2026-06-24T10:00:36Z",
+        "content": "Key takeaways\r\n<ul><li>The Ethereum Foundation has reduced its workforce by 20% following the completion of a major reorganization.</li><li>ETH is up by 1% and is now trading above $1,650.</li></ul>T… [+3077 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -251,71 +277,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bookphilippines.jpg",
         "publishedAt": "2026-06-19T12:15:20Z",
         "content": "Binance is allowed to provide crypto trading access to users in the Philippines through its arrangement with BlockShoals Technologies, but neither company is authorized to handle peso transfers or pe… [+3065 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Zcash dips 4% as broader crypto market remains bearish",
-        "description": "Key takeaways ZEC is still struggling under the $477-$500 zone.  Although momentum indicators show signs of stabilization, Zcash remains vulnerable to further downside as investors react to persistent macroeconomic uncertainty and rising rate-hike expectation…",
-        "url": "https://coinjournal.net/news/zcash-dips-4-as-broader-crypto-market-remains-bearish/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/06/ChatGPT-Image-Jun-19-2026-12_12_25-PM.png",
-        "publishedAt": "2026-06-19T11:13:43Z",
-        "content": "Key takeaways\r\n<ul><li>ZEC is still struggling under the $477-$500 zone. </li><li>Although momentum indicators show signs of stabilization, Zcash remains vulnerable to further downside as investors r… [+2559 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Monero extends losses as Fed hawkishness weighs on the crypto market",
-        "description": "Key takeaways XMR is down 2% and could record further losses in the near term The Fed’s hawkishness weighs on the broader crypto market. Privacy coins remain under pressure amid weak risk appetite Monero (XMR) continued its downward trajectory on Friday as be…",
-        "url": "https://coinjournal.net/news/monero-extends-losses-as-fed-hawkishness-weighs-on-the-crypto-market/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/06/ChatGPT-Image-Jun-19-2026-12_01_39-PM.png",
-        "publishedAt": "2026-06-19T11:03:22Z",
-        "content": "Key takeaways\r\n<ul><li>XMR is down 2% and could record further losses in the near term</li><li>The Fed’s hawkishness weighs on the broader crypto market.</li></ul>Privacy coins remain under pressure … [+2898 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "William Suberg",
-        "title": "Bitcoin tipped for Q3 'macro bottom' near $50K as major liquidity grab looms",
-        "description": "Bitcoin may end its macro downtrend with a bottom above $50,000 in a classic liquidity grab, a new prediction suggests as \"aggressive\" shorting returns to Binance.",
-        "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-q3-macro-bottom-near-50k-as-major-liquidity-grab-looms",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/sad-bitcoin-crypto-river-3.jpg",
-        "publishedAt": "2026-06-19T10:44:28Z",
-        "content": "Bitcoin (BTC) could reach its new macro bottom by September, as price action continues to surprise traders.\r\nKey points:\r\n<ul><li>Bitcoin may \"front run\" exchange order-book liquidity to produce a be… [+2395 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Franklin Templeton Files for ETFs That Funnel Stock Dividends Into Bitcoin",
-        "description": "The asset manager's two proposed \"Bitcoin DRIP\" funds would hold U.S. stocks and reinvest dividends into Bitcoin, a novel ETF structure.",
-        "url": "https://decrypt.co/371656/franklin-templeton-files-for-etfs-that-funnel-stock-dividends-into-bitcoin",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/Franklin-Templeton-gID_7.jpg",
-        "publishedAt": "2026-06-19T10:01:57Z",
-        "content": "In brief\r\n<ul><li>Franklin Templeton filed with the SEC on Thursday for two ETFs that would hold baskets of U.S. stocks and steer the dividends into Bitcoin.</li><li>The funds track new VettaFi \"Bitc… [+2875 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Europe's Crypto Firms Face Squeeze as MiCA Transition Period End Looms",
-        "description": "As the MiCA grace period closes, only a fraction of registered firms hold full licenses, setting up the prospect of a wave of consolidation.",
-        "url": "https://decrypt.co/371561/europes-crypto-firms-face-squeeze-mica-transition-period-end-looms",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/eu-flag-gID_7.jpg",
-        "publishedAt": "2026-06-18T19:26:10Z",
-        "content": "In brief\r\n<ul><li>The EU's MiCA transition period ends July 1, closing the window for crypto firms to operate under old national regimes without a bloc-wide license.</li><li>Just 200 or so firms have… [+4426 chars]"
       }
     ]
   }
