@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-25T17:17:11.861Z",
+  "timestamp": "2026-06-25T20:09:07.254Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Binance Withdraws MiCA License Application in Greece, Leaving EU Users in Limbo",
+        "description": "Crypto exchange Binance formally withdrew its MiCA license application in Greece, one week after a report said it would be denied.",
+        "url": "https://decrypt.co/371990/binance-withdraws-mica-license-application-greece-eu-users-limbo",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+        "publishedAt": "2026-06-24T17:37:52Z",
+        "content": "In brief\r\n<ul><li>Binance said Wednesday that it formally withdrew its Markets in Crypto Assets (MiCA) license application in Greece. </li><li>Instead, the crypto exchange will seek license approval … [+2885 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Binance withdraws Greek MiCA bid but vows to remain in Europe",
+        "description": "The crypto giant must find a home base in the EU by July 1 or regulators will force the company to shut down operations for millions of regional users.",
+        "url": "https://www.coindesk.com/policy/2026/06/24/binance-withdraws-greek-mica-bid-but-vows-to-remain-in-europe",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2525adad1cb5953ca2fa403eed869e80e89d9022-2400x1368.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-24T17:18:08Z",
+        "content": "Binance has withdrawn its application for a Markets in Crypto-Assets (MiCA) license in Greece and will seek authorization in another European Union country, the crypto exchange said Wednesday via sev… [+954 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Binance withdraws Greek MiCA bid, seeks alternative EU license",
+        "description": "The crypto giant must find a home base in the EU by July 1 or regulators will force the company to shut down operations for millions of regional users.",
+        "url": "https://www.coindesk.com/policy/2026/06/24/binance-withdraws-greek-mica-bid-seeks-alternative-eu-license",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2525adad1cb5953ca2fa403eed869e80e89d9022-2400x1368.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-24T17:18:08Z",
+        "content": "Binance has withdrawn its application for a Markets in Crypto-Assets (MiCA) license in Greece and will seek authorization in another European Union country, the crypto exchange said Wednesday via sev… [+954 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -277,32 +316,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a188c78c65397976904078eac59897272644525e-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-22T09:19:24Z",
         "content": "A hawkish Fed. Rising bond yields. Concerns about Strategy (MSTR). Bitcoin BTC\r\n$64,156.16 already has plenty working against it. Now an ominous chart pattern is adding to the uncertainty.\r\nThe patte… [+898 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Yashu Gola",
-        "title": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
-        "description": "Bitcoin’s drop to $23,980 remains the worst-case scenario as weaker ETF flows and low US demand show big investors are still cautious.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-opinion-20-of-all-bitcoin-lost-how-can-this-be-and-what-follows-from-it.jpg",
-        "publishedAt": "2026-06-21T14:21:06Z",
-        "content": "Bitcoin (BTC) could tumble by over 60% to under $24,000 in 2026, according to technical analyst Jesse Olson, if the stock market experiences a major crash. \r\nKey takeaways:\r\n<ul><li>A US stock market… [+3048 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Ezra Reguerra",
-        "title": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
-        "description": "A Japanese corporate pension fund serving about 1,200 small and medium-sized businesses plans to allocate roughly 1% of its assets to crypto as part of a currency diversification strategy.",
-        "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/skjapan.jpg",
-        "publishedAt": "2026-06-21T08:54:41Z",
-        "content": "A Japanese corporate pension fund serving about 1,200 small and medium-sized businesses plans to allocate roughly 1% of its assets to cryptocurrency during fiscal 2026.\r\nAccording to Nikkei, the Nati… [+2008 chars]"
       }
     ]
   }
