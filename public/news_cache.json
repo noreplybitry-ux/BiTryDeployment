@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-25T14:42:45.665Z",
+  "timestamp": "2026-06-25T17:17:11.861Z",
   "data": {
     "status": "ok",
-    "totalResults": 22,
+    "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "William Suberg",
+        "title": "Bitcoin falls under $60K, but traders anticipate 15% bounce",
+        "description": "Bitcoin traders still see a BTC price relief bounce taking the market toward $70,000 despite heavy shorting and a trip toward range lows.",
+        "url": "https://cointelegraph.com/markets/bitcoin-hits-2-week-lows",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-246799-what-crashed-bitcoin-three-theories-btc-trip-below-60k.jpg",
+        "publishedAt": "2026-06-24T17:06:46Z",
+        "content": "Bitcoin (BTC) hit new two-week lows at Wednesdays Wall Street open as traders predicted a rally to a \"poor\" lower high.\r\nKey points:\r\n<ul><li>Bitcoin price action edges closer to range lows, which tr… [+2275 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Bitcoin Hasn't Broken the 4-Year Cycle Yet, Says 21Shares as BTC Dives Below $60K",
+        "description": "As Bitcoin falls below the $60,000 mark, 21Shares said that its prediction that BTC breaks the historical four-year cycle hasn't come true.",
+        "url": "https://decrypt.co/371985/bitcoin-hasnt-broken-4-year-cycle-yet-21shares",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-06-24T16:59:23Z",
+        "content": "In brief\r\n<ul><li>21Shares predicted that Bitcoin's four-year cycle would fall in 2026, but conceded that it hasn't yet.</li><li>The firm indicated the market cycle has changed, however, pointing to … [+3203 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "South Korean Officials Meet With US SEC, Weigh Unified Crypto Rules Amid Local Scandals",
+        "description": "Following a series of setbacks for South Korea, a delegation from one of Asia's most active crypto markets met with the SEC's task force.",
+        "url": "https://decrypt.co/371970/south-korean-officials-meet-us-sec-unified-crypto-rules-scandals",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-south-korea-won-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-06-24T16:11:15Z",
+        "content": "In brief\r\n<ul><li>The SEC's crypto task force hosted a joint coalition of South Korean officials, legal experts, and industry leaders.</li><li>The meeting outline underscores that U.S. regulatory cho… [+3426 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -264,32 +303,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/skjapan.jpg",
         "publishedAt": "2026-06-21T08:54:41Z",
         "content": "A Japanese corporate pension fund serving about 1,200 small and medium-sized businesses plans to allocate roughly 1% of its assets to cryptocurrency during fiscal 2026.\r\nAccording to Nikkei, the Nati… [+2008 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Brazil’s Crypto Market Tops $318B, Chainalysis Flags Money Laundering Risk",
-        "description": "Chainalysis's latest report shows Brazil's crypto market reaching $318B, while highlighting escalating money laundering risks and the need for enhanced compliance.",
-        "url": "http://www.newsbtc.com/news/07-brazil-crypto-market-hits-318b-crime-risks/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2020/06/brazil-bitcoin-shutterstock_758500030-scaled.jpg",
-        "publishedAt": "2026-06-21T07:32:54Z",
-        "content": "Brazil’s cryptocurrency market has reached a staggering $318 billion in on-chain value over a year, but this rapid growth comes with a significant warning from blockchain analytics firm Chainalysis. … [+2476 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Biraajmaan Tamuly",
-        "title": "Bitcoin traders expect new lows but data cautions against overly bearish bias",
-        "description": "A concentrated liquidity pocket below $59,000 raises the chance of a Bitcoin price sell-off to new 2026 lows, but data suggests bulls will absorb the dip.",
-        "url": "https://cointelegraph.com/markets/bitcoin-eyes-new-yearly-lows-as-traders-warn-not-to-get-too-bearish-here",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-243058-bitcoin-spot-traders-lose-ground-as-btc-bears-defend-dollar98k.jpg",
-        "publishedAt": "2026-06-19T17:38:09Z",
-        "content": "Bitcoin (BTC) is once again approaching its yearly low near $59,000 after a failed recovery attempt left bulls unable to reclaim key resistance levels. BTC traders are now anticipating new lows for 2… [+3329 chars]"
       }
     ]
   }
