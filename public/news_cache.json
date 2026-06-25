@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-25T04:04:51.901Z",
+  "timestamp": "2026-06-25T08:26:17.759Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 24,
     "articles": [
       {
         "source": {
@@ -316,19 +316,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/eu-flag-gID_7.jpg",
         "publishedAt": "2026-06-18T19:26:10Z",
         "content": "In brief\r\n<ul><li>The EU's MiCA transition period ends July 1, closing the window for crypto firms to operate under old national regimes without a bloc-wide license.</li><li>Just 200 or so firms have… [+4426 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Yashu Gola",
-        "title": "Bitcoin to $145K by October? Why this 'crazy accurate' 4chan prediction is sketchy",
-        "description": "A viral 4chan Bitcoin prediction appears to have nailed past BTC prices, but edited targets and impossible supply claims weaken its $145,000 call.",
-        "url": "https://cointelegraph.com/markets/bitcoin-to-145k-by-october-why-this-crazy-accurate-4chan-prediction-is-sketchy",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-gathering-up-price-prediction-for-post-halving.jpg",
-        "publishedAt": "2026-06-18T14:46:56Z",
-        "content": "A viral social media post is reviving an alleged Bitcoin prediction that appears to have called several major BTC price levels from 2019 through 2024, with one final target remaining: $145,000 by Oct… [+3451 chars]"
       }
     ]
   }
