@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-26T12:16:09.701Z",
+  "timestamp": "2026-06-26T15:26:37.104Z",
   "data": {
     "status": "ok",
-    "totalResults": 22,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Dilip Kumar Patairya",
+        "title": "Why Wall Street values some crypto firms for AI power, not just crypto",
+        "description": "Why are some crypto firms being valued like AI companies? Galaxy Digital’s rally suggests Wall Street may care more about power and data centers than crypto exposure.",
+        "url": "https://cointelegraph.com/learn/galaxy-digital-ai-infrastructure-valuation",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-213298-galaxy-digital-stock-tokenized-solana.jpg",
+        "publishedAt": "2026-06-25T15:00:00Z",
+        "content": "<ol><li>Power over tokens: Why AI is changing crypto valuations\r\n</li></ol>For a long time, the value of crypto companies was closely tied to traditional indicators such as trading volumes, digital a… [+10555 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Ezra Reguerra",
+        "title": "SBI to acquire Bitbank in $289M deal creating Japan's biggest crypto exchange",
+        "description": "The Japanese financial conglomerate plans to take full control of Bitbank as it expands an ecosystem spanning crypto trading, stablecoins, tokenization and blockchain infrastructure.",
+        "url": "https://cointelegraph.com/news/sbi-acquire-bitbank-289-million-deal",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-sponsored-illustration-for-z502.jpg",
+        "publishedAt": "2026-06-25T13:08:11Z",
+        "content": "Japans SBI Holdings has signed agreements to acquire full control of crypto exchange Bitbank through a 46.7 billion Japanese yen ($289 million) transaction, advancing a deal first disclosed in May th… [+2485 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jesse Hamilton",
+        "title": "Post-prison CZ says time behind bars didn't hurt the billionaire's business after Binance",
+        "description": "The pardoned ex-CEO called prison a character-building \"plus\" as he's pursued a venture-capital career, despite his majority stake in the world's biggest crypto exchange.",
+        "url": "https://www.coindesk.com/policy/2026/06/24/post-prison-cz-says-time-behind-bars-didn-t-hurt-the-billionaire-s-business-after-binance",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d45e7f2db766263ab05444c4f73e3e0579efb6fd-1821x1024.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-25T13:00:00Z",
+        "content": "\"I don't hold grudges or anything, right? I just want to help to grow crypto anywhere in the world, and to do that, we need to help grow crypto in America.\"\r\nThe Canadian national said he won't parti… [+983 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -277,19 +316,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fa9a57cc5484d26b73c041ec8292daf50fd1b5db-2860x1488.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-23T08:24:00Z",
         "content": "Critics would argue that three past instances aren't enough to draw a definite conclusion. While that is true, the contrarian record of the bear cross is consistent with the reputation of ultra-long-… [+1150 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Nate Kostar",
-        "title": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "description": "The new unit arrives amid rapid growth in tokenized assets, with Franklin Templeton's onchain product suite expanding from roughly $768 million to more than $2.5 billion over the past year.",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/handshake-agreement-partnership-merger.png",
-        "publishedAt": "2026-06-22T20:36:53Z",
-        "content": "Global asset manager Franklin Templeton has completed its acquisition of crypto asset manager 250 Digital, closing a deal first announced in April and expanding its digital asset business with a new … [+2688 chars]"
       }
     ]
   }
