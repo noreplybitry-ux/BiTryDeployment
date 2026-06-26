@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-26T17:55:28.284Z",
+  "timestamp": "2026-06-26T19:58:19.662Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Biraajmaan Tamuly",
+        "title": "Bitcoin may fall lower but BTC power-law frames crash to $58K as ‘normal’",
+        "description": "Bitcoin's drop to $58,000 shifted attention from panic selling to a key support-and-resistance level where bid liquidity is poised to be absorbed.",
+        "url": "https://cointelegraph.com/markets/key-bitcoin-price-levels-after-btc-power-law-says-58k-is-normal",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-238240-battle-between-bitcoin-bulls-and-bears-continues-in-2026-here-s-the-levels-to-wa.jpg",
+        "publishedAt": "2026-06-25T19:51:35Z",
+        "content": "Bitcoins (BTC) drop to $58,000 has pushed the price into a zone that long-term power-law models have historically associated with cycle bottoms. The data does not confirm a bottom range, though it sh… [+3893 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "SBI Holdings Says $289 Million Bitbank Deal Will Make It Japan's Largest Crypto Exchange",
+        "description": "SBI Holdings has agreed to a nearly $289 million deal to acquire crypto exchange Bitbank, pending regulatory approval.",
+        "url": "https://decrypt.co/372117/sbi-holdings-289-million-bitbank-deal-japan-largest-crypto-exchange",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-yen-decrypt-style-new-gID_7.jpg",
+        "publishedAt": "2026-06-25T19:42:54Z",
+        "content": "In brief\r\n<ul><li>SBI Holdings is buying Tokyo crypto exchange Bitbank for about $289 million, making it a wholly owned subsidiary.</li><li>Combined with SBI VC Trade, it'll hold $6.8 billion in asse… [+2309 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Coinbase-Backed Ethereum Network Base Recovers After Block Production Issue",
+        "description": "Ethereum layer-2 network Base was down for more than two hours as it ran into an issue with block production ahead of a planned upgrade.",
+        "url": "https://decrypt.co/372110/coinbase-ethereum-network-base-recovers-block-production-issue",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/base-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-06-25T19:19:05Z",
+        "content": "In brief\r\n<ul><li>Base was down for more than two hours on Thursday after an issue arose that halted block production.</li><li>The network is back up and running, and the network is still moving forw… [+2445 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "CoinEx Denies 'Knowledge' of Aiding Sanctioned Iran Crypto Market in $3.8 Billion Disconnect",
+        "description": "TRM Labs said it uncovered over $3.84 billion in crypto flows between CoinEx and a web of more than 60 sanctioned Iranian platforms.",
+        "url": "https://decrypt.co/372104/coinex-denies-knowledge-aiding-sanctioned-iran-crypto-market",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-06-25T18:49:21Z",
+        "content": "In brief\r\n<ul><li>TRM Labs said it uncovered over $3.84 billion in crypto flows between CoinEx and more than 60 sanctioned Iranian platforms over a seven-year period.</li><li>The exchange rejected th… [+3234 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,32 +342,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/bitcoin-drought-concept-a-vast-cracked-desert-land.jpeg?fit=1440%2C810",
         "publishedAt": "2026-06-23T23:00:47Z",
         "content": "<ul><li>South Koreas KOSPI suffered a near-10% drop after regulators warned over leveraged ETF risk tied to major chip stocks.</li><li>The move matters for crypto because Bitcoin has been trading lik… [+3335 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "Bitcoin Tests Two-Week Low at $62K as Tech Stocks Waver on Wall Street",
-        "description": "Investors are digesting a hawkish Fed, with risk-off sentiment driving a sell-off in AI and crypto",
-        "url": "https://decrypt.co/371867/bitcoin-tests-two-week-low-at-62k-as-tech-stocks-waver-on-wall-street",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/decrypt-style-wall-street-gID_7.png",
-        "publishedAt": "2026-06-23T15:54:07Z",
-        "content": "In brief\r\n<ul><li>Bitcoin fell in sympathy with tech stocks on Tuesday, hitting a two-week low as investors appeared to fixate on expectations of rate hikes.</li><li>The weakness follows a frenetic r… [+3745 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Yashu Gola",
-        "title": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "description": "SpaceX’s $600 billion wipeout rattles tech markets, putting Bitcoin’s $60,000 support at risk as traders brace for a deeper BTC sell-off.",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-elon-musks-net-worth-breakdown-tesla-spacex-and-cryptocurrency-holdings-explained.jpg",
-        "publishedAt": "2026-06-23T14:38:32Z",
-        "content": "Bitcoin (BTC) has dropped over 8% from its June high near $67,255, putting the $60,000 support level back in focus.\r\nBTC/USD daily chart. Source: TradingView\r\nKey takeaways:\r\n<ul><li>The SpaceX-led t… [+2793 chars]"
       }
     ]
   }
