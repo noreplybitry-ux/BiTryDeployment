@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-26T05:13:21.335Z",
+  "timestamp": "2026-06-26T09:37:52.197Z",
   "data": {
     "status": "ok",
     "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Helen Partz",
+        "title": "Polish crypto exchange Kanga secures MiCA license in Latvia",
+        "description": "Poland-founded crypto exchange Kanga has secured a Class 3 MiCA license in Latvia, enabling EU-wide crypto services as Polish lawmakers debate framework's implementation.",
+        "url": "https://cointelegraph.com/news/poland-kanga-secures-mica-license-latvia",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/license-approved.jpg",
+        "publishedAt": "2026-06-25T08:24:41Z",
+        "content": "Kanga, a crypto exchange founded in Poland, said it has obtained a Markets in Crypto-Assets Regulation (MiCA) license in Latvia, allowing it to passport its services across the European Union.\r\nThe e… [+2240 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,19 +303,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-digitized-europe-the-shift-to-a-cashless-world2.jpg",
         "publishedAt": "2026-06-22T12:26:58Z",
         "content": "Euro-denominated trading accounts for only a small share of Binance's activity, as the exchange faces uncertainty over its European licensing prospects under the Markets in Crypto-Assets Regulation (… [+2594 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Toss Bank And Solana Foundation Team Up On Stablecoin Remittance Test",
-        "description": "South Korea’s Toss Bank and Solana Foundation will test stablecoin-based remittance infrastructure through a phased proof-of-concept.",
-        "url": "http://www.newsbtc.com/news/toss-bank-and-solana-foundation-team-up-on-stablecoin-remittance-test/",
-        "urlToImage": null,
-        "publishedAt": "2026-06-22T10:33:32Z",
-        "content": "South Koreas Toss Bank has signed a memorandum of understanding with the Solana Foundation to test blockchain-based global remittance infrastructure, adding another traditional finance name to the gr… [+3020 chars]"
       }
     ]
   }
