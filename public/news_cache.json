@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-26T09:37:52.197Z",
+  "timestamp": "2026-06-26T12:16:09.701Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 22,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley, AI Boost",
+        "title": "CoinEx denies claims it served as $3.84 billion gateway to sanctioned Iranian crypto firms",
+        "description": "Blockchain analysts TRM Labs says CoinEx facilitated more than $3.8 billion in blockchain-traced flows with sanctioned Iranian crypto entities. CoinEx disputes the findings.",
+        "url": "https://www.coindesk.com/policy/2026/06/25/coinex-denies-claims-it-served-as-usd3-84-billion-gateway-to-sanctioned-iranian-crypto-firms",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f1989cca173a6179b4bf2c5e784f3cb6ef51c75a-1000x668.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-25T10:56:58Z",
+        "content": "Blockchain intelligence firm TRM Labs said CoinEx served as a gateway for the crypto sector in Iran, having traced more than $3.84 billion in flows between the exchange and sanctioned Iranian entitie… [+949 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -277,32 +290,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/handshake-agreement-partnership-merger.png",
         "publishedAt": "2026-06-22T20:36:53Z",
         "content": "Global asset manager Franklin Templeton has completed its acquisition of crypto asset manager 250 Digital, closing a deal first announced in April and expanding its digital asset business with a new … [+2688 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "William Suberg",
-        "title": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "description": "Bitcoin rebounds as oil slips toward new multimonth lows on Iran trading permission, but analysis warns over Monday forming the week's high for BTC price action.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/oil-bitcoin-petrol-fuel.jpg",
-        "publishedAt": "2026-06-22T15:48:49Z",
-        "content": "Bitcoin (BTC) passed $65,000 at Mondays Wall Street open as exchange order-book liquidity dictated price moves.\r\nKey points:\r\n<ul><li>Bitcoin hits a new week-to-date high despite US stocks rolling ov… [+2648 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Helen Partz",
-        "title": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
-        "description": "Euro-denominated trading accounts for around 1% of Binance's spot volume, according to CryptoQuant data, as the exchange faces uncertainty ahead of MiCA's July 1 deadline.",
-        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-digitized-europe-the-shift-to-a-cashless-world2.jpg",
-        "publishedAt": "2026-06-22T12:26:58Z",
-        "content": "Euro-denominated trading accounts for only a small share of Binance's activity, as the exchange faces uncertainty over its European licensing prospects under the Markets in Crypto-Assets Regulation (… [+2594 chars]"
       }
     ]
   }
