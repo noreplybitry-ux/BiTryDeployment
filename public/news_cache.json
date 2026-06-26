@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-26T19:58:19.662Z",
+  "timestamp": "2026-06-26T21:25:33.765Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Nate Kostar",
+        "title": "Bitcoin options traders hedge downside as uncertainty lingers, Anchorage says",
+        "description": "Anchorage Digital’s latest analysis shows Bitcoin options traders remain defensive as near-term uncertainty persists, though markets are not pricing an extreme downside scenario for Strategy.",
+        "url": "https://cointelegraph.com/news/bitcoin-options-traders-hedge-downside-as-uncertainty-lingers-anchorage-says",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-sp-bitcoin-funding-stays-negative.png",
+        "publishedAt": "2026-06-25T20:10:41Z",
+        "content": "Bitcoin options traders remain heavily positioned for downside protection, with both crypto-native and exchange-traded fund investors showing elevated demand for downside hedges, according to new res… [+3012 chars]"
+      },
       {
         "source": {
           "id": null,
