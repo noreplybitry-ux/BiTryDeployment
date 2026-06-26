@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-06-26T15:26:37.104Z",
+  "timestamp": "2026-06-26T17:55:28.284Z",
   "data": {
     "status": "ok",
     "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Sam Bourgi",
+        "title": "21shares trims 2026 crypto forecasts despite institutional adoption gains",
+        "description": "Asset manager 21shares sees crypto infrastructure advancing faster than prices, as ETFs, stablecoins and prediction markets mature while several 2026 targets slip.",
+        "url": "https://cointelegraph.com/news/21shares-trims-2026-crypto-forecasts-etf-adoption",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-image-for-evergreenguide-about-crypto-price-prediction.jpg",
+        "publishedAt": "2026-06-25T17:00:58Z",
+        "content": "Asset manager 21shares has scaled back several of its bullish forecasts for the crypto industry this year, saying institutional adoption continues to strengthen even as weak market conditions and mut… [+3784 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Nate Kostar",
+        "title": "Kraken, Maple launch onchain warehouse facility for crypto-backed institutional loans",
+        "description": "Kraken's new facility with Maple brings a traditional warehouse financing model onchain, allowing the exchange to expand its institutional crypto lending business using blockchain-based structured credit.",
+        "url": "https://cointelegraph.com/news/kraken-maple-launch-onchain-warehouse-facility-for-crypto-backed-institutional-loans",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/dollar-fiat-money-bitcoin.jpg",
+        "publishedAt": "2026-06-25T16:41:47Z",
+        "content": "Crypto exchange Kraken and onchain asset manager Maple have launched an onchain warehouse financing facility for crypto-backed loans, applying a lending structure widely used in traditional credit ma… [+2837 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "TRM Labs Says CoinEx Processed $3.84 Billion In Iran-Linked Crypto Flows",
+        "description": "TRM Labs says CoinEx processed billions in Iran-linked crypto flows, putting exchange compliance and sanctions screening back under the spotlight.",
+        "url": "http://www.newsbtc.com/news/trm-labs-says-coinex-processed-3-84-billion-in-iran-linked-crypto-flows/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2021/12/106911087-16263029762021-07-12t182451z_1049474836_rc26jo9ua1af_rtrmadp_0_fintech-crypto-flows-scaled.jpeg?fit=2560%2C1603",
+        "publishedAt": "2026-06-25T16:00:11Z",
+        "content": "TRM Labs says CoinEx processed billions in Iran-linked crypto flows, putting exchange compliance and sanctions screening back under the spotlight.\r\n<ul><li>TRM Labs traced $3.84 billion in Iran-linke… [+3607 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Polish Crypto Exchange Kanga Obtains Latvian MiCA License For EU Expansion",
+        "description": "Polish-founded crypto exchange Kanga has reportedly obtained a Latvian MiCA license, giving it a passporting route across the EU.",
+        "url": "http://www.newsbtc.com/news/polish-crypto-exchange-kanga-obtains-latvian-mica-license-for-eu-expansion/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2018/02/eu-flag-2108026_1280.jpg",
+        "publishedAt": "2026-06-25T15:46:51Z",
+        "content": "Polish-founded crypto exchange Kanga has reportedly secured a Latvian MiCA license, giving the company a regulatory route to offer crypto-asset services across the European Union under the blocs new … [+3111 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -264,58 +316,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-elon-musks-net-worth-breakdown-tesla-spacex-and-cryptocurrency-holdings-explained.jpg",
         "publishedAt": "2026-06-23T14:38:32Z",
         "content": "Bitcoin (BTC) has dropped over 8% from its June high near $67,255, putting the $60,000 support level back in focus.\r\nBTC/USD daily chart. Source: TradingView\r\nKey takeaways:\r\n<ul><li>The SpaceX-led t… [+2793 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Franklin Templeton closes 250 Digital acquisition deal and sets up new Franklin Crypto division",
-        "description": "The $1.7 trillion asset manager did not disclose the amount paid for the acquisition of 250 Digital but revealed its plans for a new corporate division exclusively for crypto investments.",
-        "url": "https://www.coindesk.com/business/2026/06/23/franklin-templeton-closes-250-digital-acquisition-deal-and-sets-up-new-franklin-crypto-division",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6e449fbe8cd234bda47b7df1be0cb3240b2dccaf-4898x2755.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-23T12:35:57Z",
-        "content": "The $1.7 trillion asset manager Franklin Templeton is establishing a new dedicated active crypto investment management arm through acquisition of 250 Digital.\r\nFranklin Templeton has established Fran… [+1039 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin remains under pressure below $63K as US-Iran negotiation uncertainty persists",
-        "description": "Key takeaways Bitcoin remained under pressure after Iran announced that it would not permit inspectors from the International Atomic Energy Agency (IAEA) to access its damaged nuclear facilities,  The leading cryptocurrency has dropped to the $62,300 level, d…",
-        "url": "https://coinjournal.net/news/bitcoin-remains-under-pressure-below-63k-as-us-iran-negotiation-uncertainty-persists/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/ChatGPT-Image-May-18-2026-10_06_04-AM.png",
-        "publishedAt": "2026-06-23T12:26:30Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin remained under pressure after Iran announced that it would not permit inspectors from the International Atomic Energy Agency (IAEA) to access its damaged nuclear facili… [+3929 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Fomo's $75M Raise Shows Big VCs Are Still Betting on Consumer Crypto",
-        "description": "Crypto majors are selling off as big Tech gets routed; Saylor is hoarding cash; and ETH heavyweights team up to fund R&D with ETHLabs.",
-        "url": "https://decrypt.co/371851/morning-minute-fomos-75m-raise-shows-big-vcs-are-still-betting-on-consumer-crypto",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_red-gID_7.png",
-        "publishedAt": "2026-06-23T12:23:09Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show co… [+8144 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Bitcoin price has limited downside, likely near bottom, contrarian indicator suggests",
-        "description": "The bitcoin price's long-term moving averages are set to flash a bearish signal soon. That's good news for the bulls.",
-        "url": "https://www.coindesk.com/markets/2026/06/23/bitcoin-price-has-limited-downside-likely-near-bottom-contrarian-indicator-suggests",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/fa9a57cc5484d26b73c041ec8292daf50fd1b5db-2860x1488.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-23T08:24:00Z",
-        "content": "Critics would argue that three past instances aren't enough to draw a definite conclusion. While that is true, the contrarian record of the bear cross is consistent with the reputation of ultra-long-… [+1150 chars]"
       }
     ]
   }
