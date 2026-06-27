@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-27T16:10:01.812Z",
+  "timestamp": "2026-06-27T18:09:12.698Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Sander Lutz",
+        "title": "Spanish Regulator Says No Extensions for EU Crypto Deadline as Binance Remains Unlicensed",
+        "description": "Crypto firms operating in the European Union will be forced to cease operations if they do not obtain a MiCA license by July 1.",
+        "url": "https://decrypt.co/372230/spanish-regulator-no-extensions-eu-crypto-deadline-binance",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+        "publishedAt": "2026-06-26T18:02:22Z",
+        "content": "In brief\r\n<ul><li>Spain's securities regulator said there will be no extension to the EU's July 1 MiCA licensing deadline for crypto firms.</li><li>Binance, still unlicensed after withdrawing its app… [+2449 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/department-of-justice-doj-decrypt-style-scaled-gID_7.jpg",
         "publishedAt": "2026-06-24T11:49:27Z",
         "content": "In brief\r\n<ul><li>The U.S. Justice Department seized a cloud computing account that hosted backend infrastructure for subsidiaries of Cambodia's Huione Group, which it called \"one of the world's most… [+3689 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, AI Boost",
-        "title": "YZi Labs ends proxy war with BNB treasury company CEA Industries",
-        "description": "YZi Labs says it is nearing a settlement with BNB treasury company CEA Industries after launching what it describes as the first activist shareholder campaign in the crypto treasury sector.",
-        "url": "https://www.coindesk.com/business/2026/06/22/yzi-labs-nears-settlement-in-activist-campaign-at-bnb-treasury-firm-cea-industries",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4608a93b3b2bc72544ef1c63b27a70af363796d0-8256x5504.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-24T10:47:12Z",
-        "content": "YZi rejected suggestions that the settlement amounts to a takeover, a person close to the settlement told CoinDesk in an interview, describing it instead as a governance reset intended to unlock shar… [+1234 chars]"
       }
     ]
   }
