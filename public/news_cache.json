@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-26T23:13:32.376Z",
+  "timestamp": "2026-06-27T03:58:01.568Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Jesse Coghlan",
+        "title": "Crypto infrastructure firm BitGo lays off 15% of staff",
+        "description": "BitGo has laid off about 15% of its staff, an estimated 90 people, as the crypto infrastructure firm aims to focus on stablecoins and AI-backed infrastructure.",
+        "url": "https://cointelegraph.com/news/crypto-infrastructure-firm-bitgo-lays-off-15-of-staff",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-box.jpg",
+        "publishedAt": "2026-06-26T00:41:02Z",
+        "content": "Crypto infrastructure company BitGo Holdings laid off about 15% of its staff on Thursday as its CEO pledged to focus the company on areas including trading, stablecoins and artificial intelligence-po… [+2203 chars]"
+      },
       {
         "source": {
           "id": null,
