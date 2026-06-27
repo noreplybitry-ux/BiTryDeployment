@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-27T14:46:16.768Z",
+  "timestamp": "2026-06-27T16:10:01.812Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin makes first sub-$60K close since Q3 2024 as tech stocks enter ‘deep bear market’",
+        "description": "Bitcoin risked turning $60,000 into resistance as BTC price weakness persisted following another tech-driven sell-off in Asian stock markets.",
+        "url": "https://cointelegraph.com/markets/bitcoin-sees-first-close-below-60k-since-q3-2024-with-tech-stocks-in-deep-bear-market-zone",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-254743-bitcoin-nearly-overtakes-dollar74k-as-data-suggests-bear-market-is-not-over.jpg",
+        "publishedAt": "2026-06-26T15:55:56Z",
+        "content": "Bitcoin (BTC) struggled to reclaim $60,000 on Friday amid continued global market volatility.\r\nKey points:\r\n<ul><li>Bitcoin closes below $60,000 on daily time frames for the first time since Septembe… [+3282 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "André Beganski",
+        "title": "Strategy's Saylor Acknowledges 'Volatility Test' as STRC Hits New Low on Bitcoin Weakness",
+        "description": "Strategy’s flagship preferred stock tumbled again when U.S. markets opened, setting another record low as Bitcoin lingered below $60,000.",
+        "url": "https://decrypt.co/372189/strategy-saylor-volatility-test-strc-new-low-bitcoin-weakness",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png",
+        "publishedAt": "2026-06-26T15:33:49Z",
+        "content": "In brief\r\n<ul><li>Strategys flagship preferred stock drifted further away from its $100 par value, setting another record low as Bitcoins price steadied.</li><li>Analysts have grown increasingly fixa… [+3812 chars]"
+      },
       {
         "source": {
           "id": null,
