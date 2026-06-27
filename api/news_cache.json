@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-27T18:09:12.698Z",
+  "timestamp": "2026-06-27T20:12:25.426Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Spain regulator rules out extension for non-MiCA compliant crypto companies",
+        "description": "With the Markets in Crypto-Assets, or MiCA, deadline approaching in a matter of days for crypto companies with EU-based users, one Spanish regulator has ruled out any exemptions or extensions.",
+        "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/cryptocurrency-coin-pressure-machine-regulation-government-law-mica-1.jpg",
+        "publishedAt": "2026-06-26T19:20:33Z",
+        "content": "The chair of the Spanish National Securities Market Commission reportedly said that there would be no extensions or waivers for crypto companies that did not receive approval to operate in European U… [+2274 chars]"
+      },
       {
         "source": {
           "id": null,
