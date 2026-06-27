@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-27T07:23:47.103Z",
+  "timestamp": "2026-06-27T10:14:37.298Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/06/ChatGPT-Image-Jun-24-2026-10_57_14-AM.png",
         "publishedAt": "2026-06-24T10:00:36Z",
         "content": "Key takeaways\r\n<ul><li>The Ethereum Foundation has reduced its workforce by 20% following the completion of a major reorganization.</li><li>ETH is up by 1% and is now trading above $1,650.</li></ul>T… [+3077 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "KOSPI Shock Sends Fresh Warning Across Bitcoin And Risk Assets",
-        "description": "South Korea’s KOSPI suffered a near-10% drop after regulators warned over leveraged ETF risk tied to major chip stocks. The move matters for crypto because",
-        "url": "http://www.newsbtc.com/news/kospi-shock-sends-fresh-warning-across-bitcoin-and-risk-assets/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/bitcoin-drought-concept-a-vast-cracked-desert-land.jpeg?fit=1440%2C810",
-        "publishedAt": "2026-06-23T23:00:47Z",
-        "content": "<ul><li>South Koreas KOSPI suffered a near-10% drop after regulators warned over leveraged ETF risk tied to major chip stocks.</li><li>The move matters for crypto because Bitcoin has been trading lik… [+3335 chars]"
       }
     ]
   }
