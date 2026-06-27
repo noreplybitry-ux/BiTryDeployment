@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-27T03:58:01.568Z",
+  "timestamp": "2026-06-27T07:23:47.103Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Jesse Coghlan",
+        "title": "Coinbase's Base resumes block production after 2-hour outage",
+        "description": "The Coinbase-backed blockchain Base returned online after two hours of downtime due to a consensus problem that prevented the creation of new blocks.",
+        "url": "https://cointelegraph.com/news/coinbases-blockchain-base-back-online-after-2-hour-outage",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/red-down-falling-car1.png",
+        "publishedAt": "2026-06-26T05:10:44Z",
+        "content": "Base, the blockchain backed by crypto exchange Coinbase, has returned online after the network suffered nearly a two-hour outage due to a consensus issue that halted block production.\r\nBase posted to… [+1826 chars]"
+      },
       {
         "source": {
           "id": null,
