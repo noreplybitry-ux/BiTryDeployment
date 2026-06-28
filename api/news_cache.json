@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-28T11:49:50.303Z",
+  "timestamp": "2026-06-28T14:00:47.557Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitcoin Reclaims Key Support as On-Chain Data Signals Cooler Whale Selling",
+        "description": "Bitcoin Reclaims Key Support as On-Chain Data Signals Cooler Whale Selling: key Bitcoin market levels, on-chain context, risk notes, and what traders are w",
+        "url": "http://www.newsbtc.com/news/bitcoin-reclaims-key-support-as-on-chain-data-signals-cooler-whale-selling/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2022/11/pexels-photo-6770845.jpeg?fit=1000%2C1500",
+        "publishedAt": "2026-06-27T13:15:00Z",
+        "content": "TL;DR\r\n<ul><li>Bitcoin recently rebounded from the $58,000 area and was validated near $60,326.78 in the supplied market check.</li><li>Whale sell pressure is described as cooling, even as broader ri… [+3098 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/538e1125f745bde246e3f5a6eaf31f694d01215b-3000x1688.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-24T13:00:00Z",
         "content": "\"Binance.US has a CEO, Binance.com has two co-CEOs,\" he said. \"They almost never talk to each other. Actually, I don't think they ever talk to each other. So, yes, two independent teams. Binance.US d… [+1099 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "DOJ Seizes Huione Infrastructure Linked to Billions in Crypto Laundering",
-        "description": "The seizure hits a cloud account that powered Huione Guarantee, a Telegram marketplace tied to billions in Southeast Asian scam proceeds.",
-        "url": "https://decrypt.co/371950/doj-seizes-huione-infrastructure-linked-to-billions-in-crypto-laundering",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/department-of-justice-doj-decrypt-style-scaled-gID_7.jpg",
-        "publishedAt": "2026-06-24T11:49:27Z",
-        "content": "In brief\r\n<ul><li>The U.S. Justice Department seized a cloud computing account that hosted backend infrastructure for subsidiaries of Cambodia's Huione Group, which it called \"one of the world's most… [+3689 chars]"
       }
     ]
   }
