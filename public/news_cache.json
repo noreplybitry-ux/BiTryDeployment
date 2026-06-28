@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-28T18:08:48.170Z",
+  "timestamp": "2026-06-28T20:16:57.307Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Biraajmaan Tamuly",
+        "title": "Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss",
+        "description": "Nearly 50,000 BTC shifted to exchanges at a loss while short-term Bitcoin holders' stress level reached 2-year highs. Is BTC headed toward new lows?",
+        "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-247810-bitcoin-bulls-blitz-dollar69k-as-retail-traders-pressure-short-positioning.jpg",
+        "publishedAt": "2026-06-27T19:27:44Z",
+        "content": "Bitcoin (BTC) is showing fresh signs of short-term holder capitulation after roughly 50,000 BTC moved to exchanges at a loss over the past day. At the same time, the market capitalization of short-te… [+4463 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-binance-standard-an-overview.jpg",
         "publishedAt": "2026-06-24T13:12:25Z",
         "content": "Crypto exchange Binance reportedly plans to seek a different route to authorization in the European Union after its licensing application in Greece encountered a setback.\r\nSpeaking to Reuters, Gillia… [+3220 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Nikhilesh De",
-        "title": "CZ, Binance founder, wants to clear up 'misunderstandings' about who he is",
-        "description": "The former CEO of the world's largest crypto exchange is seeking to redefine himself to the world on his own terms.",
-        "url": "https://www.coindesk.com/policy/2026/06/23/cz-binance-founder-wants-to-clear-up-misunderstandings-about-who-he-is",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/538e1125f745bde246e3f5a6eaf31f694d01215b-3000x1688.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-24T13:00:00Z",
-        "content": "\"Binance.US has a CEO, Binance.com has two co-CEOs,\" he said. \"They almost never talk to each other. Actually, I don't think they ever talk to each other. So, yes, two independent teams. Binance.US d… [+1099 chars]"
       }
     ]
   }
