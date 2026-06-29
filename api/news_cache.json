@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-29T15:59:27.466Z",
+  "timestamp": "2026-06-29T18:18:30.433Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yashu Gola",
+        "title": "Will Bitcoin price recover in July?",
+        "description": "Bitcoin’s past July gains and heavy short bets point to a rally toward $75,000, but a break below key support keeps the risk of $55,000 in play.",
+        "url": "https://cointelegraph.com/markets/will-bitcoin-price-recover-in-july",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-197722-bitcoin-price-trending-back-new-highs-before-july-analysis.jpg",
+        "publishedAt": "2026-06-28T16:12:57Z",
+        "content": "Bitcoin (BTC) is heading for its worst monthly loss since mid-2022, with BTC down roughly 18.5% in June as price struggles to hold the psychological $60,000 support level. \r\nBTC/USD monthly chart. So… [+3749 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-06-24T16:59:23Z",
         "content": "In brief\r\n<ul><li>21Shares predicted that Bitcoin's four-year cycle would fall in 2026, but conceded that it hasn't yet.</li><li>The firm indicated the market cycle has changed, however, pointing to … [+3203 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "South Korean Officials Meet With US SEC, Weigh Unified Crypto Rules Amid Local Scandals",
-        "description": "Following a series of setbacks for South Korea, a delegation from one of Asia's most active crypto markets met with the SEC's task force.",
-        "url": "https://decrypt.co/371970/south-korean-officials-meet-us-sec-unified-crypto-rules-scandals",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-south-korea-won-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-06-24T16:11:15Z",
-        "content": "In brief\r\n<ul><li>The SEC's crypto task force hosted a joint coalition of South Korean officials, legal experts, and industry leaders.</li><li>The meeting outline underscores that U.S. regulatory cho… [+3426 chars]"
       }
     ]
   }
