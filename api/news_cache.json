@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-06-29T18:18:30.433Z",
+  "timestamp": "2026-06-29T20:50:54.276Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Nikhilesh De",
+        "title": "CZ wants to make the U.S. the 'capital of crypto': State of Crypto",
+        "description": "The Binance founder shared his views on a variety of topics in an exclusive interview with CoinDesk earlier this month.",
+        "url": "https://www.coindesk.com/policy/2026/06/28/cz-wants-to-make-the-u-s-the-capital-of-crypto-state-of-crypto",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/88e8ebbc12dd32475c37257a3dddf7d1b2fdd935-3000x1687.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-28T19:30:00Z",
+        "content": "CZ told CoinDesk over the course of two interviews that he saw multiple causes for crypto's 2026 bear market including investors moving funds to AI, geopolitical events and the usual four-year crypto… [+995 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-246799-what-crashed-bitcoin-three-theories-btc-trip-below-60k.jpg",
         "publishedAt": "2026-06-24T17:06:46Z",
         "content": "Bitcoin (BTC) hit new two-week lows at Wednesdays Wall Street open as traders predicted a rally to a \"poor\" lower high.\r\nKey points:\r\n<ul><li>Bitcoin price action edges closer to range lows, which tr… [+2275 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Bitcoin Hasn't Broken the 4-Year Cycle Yet, Says 21Shares as BTC Dives Below $60K",
-        "description": "As Bitcoin falls below the $60,000 mark, 21Shares said that its prediction that BTC breaks the historical four-year cycle hasn't come true.",
-        "url": "https://decrypt.co/371985/bitcoin-hasnt-broken-4-year-cycle-yet-21shares",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-06-24T16:59:23Z",
-        "content": "In brief\r\n<ul><li>21Shares predicted that Bitcoin's four-year cycle would fall in 2026, but conceded that it hasn't yet.</li><li>The firm indicated the market cycle has changed, however, pointing to … [+3203 chars]"
       }
     ]
   }
