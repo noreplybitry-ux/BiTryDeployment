@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-29T11:10:36.642Z",
+  "timestamp": "2026-06-29T15:59:27.466Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Michael Saylor teases more bitcoin buying even as Strategy stock continues to fall",
+        "description": "The crypto bull shrugged off market skepticism by sharing a chart of the company's $50 billion stash and teasing that they are going to need more data points.",
+        "url": "https://www.coindesk.com/markets/2026/06/28/michael-saylor-teases-more-bitcoin-buying-even-as-strategy-stock-continues-to-fall",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0339788ec6da49e65916e89c4bf0f137635275cd-720x406.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-28T15:02:43Z",
+        "content": "Michael Saylor shared a StrategyTracker chart on X this Sunday showing Strategy holds 847,363 bitcoin valued at $50.88 billion as of June 28, 2026, with 113 purchase events and an average cost basis … [+1117 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "SBI's $289 million Bitbank deal is symptomatic of Japan's crypto consolidation: Architect Partners",
+        "description": "The investment bank said the purchase of Japanese crypto exchange Bitbank is a bet on regulated scale as sweeping reforms reshape the country's digital asset market.",
+        "url": "https://www.coindesk.com/business/2026/06/28/sbi-s-usd289-million-bitbank-deal-is-symptomatic-of-japan-s-crypto-consolidation-architect-partners",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9a12f071722174853c9625a894931ff37321e344-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-28T15:00:00Z",
+        "content": "SBI Holdings is a financial services group with businesses spanning securities, banking, insurance, asset management and venture investing with a market capitalization of about $11 billion. The Tokyo… [+1735 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "US Spot Bitcoin ETFs Log $1.79 Billion Weekly Net Outflows",
+        "description": "US Spot Bitcoin ETFs Log $1.79 Billion Weekly Net Outflows: key Bitcoin ETF outflows context, verified claims, market impact, and risk notes for crypto rea",
+        "url": "http://www.newsbtc.com/news/us-spot-bitcoin-etfs-log-1-79-billion-weekly-net-outflows-2/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2022/11/pexels-photo-6770845.jpeg?fit=1000%2C1500",
+        "publishedAt": "2026-06-28T14:45:00Z",
+        "content": "TL;DR\r\n<ul><li>U.S. spot Bitcoin ETFs recorded roughly $1.79 billion in weekly net outflows during the trading week ending June 26.</li><li>The outflow stretch was described in the validated discover… [+2864 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-south-korea-won-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-06-24T16:11:15Z",
         "content": "In brief\r\n<ul><li>The SEC's crypto task force hosted a joint coalition of South Korean officials, legal experts, and industry leaders.</li><li>The meeting outline underscores that U.S. regulatory cho… [+3426 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Ezra Reguerra",
-        "title": "Binance eyes alternative EU licensing route if Greek bid fails: Report",
-        "description": "Binance reportedly plans to seek authorization in another EU jurisdiction as the MiCA deadline approaches, with unlicensed crypto firms expected to wind down activities in the bloc.",
-        "url": "https://cointelegraph.com/news/binance-eu-license-greece-mica-setback",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-binance-standard-an-overview.jpg",
-        "publishedAt": "2026-06-24T13:12:25Z",
-        "content": "Crypto exchange Binance reportedly plans to seek a different route to authorization in the European Union after its licensing application in Greece encountered a setback.\r\nSpeaking to Reuters, Gillia… [+3220 chars]"
       }
     ]
   }
