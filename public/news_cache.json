@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-29T22:13:19.213Z",
+  "timestamp": "2026-06-30T00:11:14.595Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2525adad1cb5953ca2fa403eed869e80e89d9022-2400x1368.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-24T17:18:08Z",
         "content": "Binance has withdrawn its application for a Markets in Crypto-Assets (MiCA) license in Greece and will seek authorization in another European Union country, the crypto exchange said Wednesday via sev… [+954 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "William Suberg",
-        "title": "Bitcoin falls under $60K, but traders anticipate 15% bounce",
-        "description": "Bitcoin traders still see a BTC price relief bounce taking the market toward $70,000 despite heavy shorting and a trip toward range lows.",
-        "url": "https://cointelegraph.com/markets/bitcoin-hits-2-week-lows",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-246799-what-crashed-bitcoin-three-theories-btc-trip-below-60k.jpg",
-        "publishedAt": "2026-06-24T17:06:46Z",
-        "content": "Bitcoin (BTC) hit new two-week lows at Wednesdays Wall Street open as traders predicted a rally to a \"poor\" lower high.\r\nKey points:\r\n<ul><li>Bitcoin price action edges closer to range lows, which tr… [+2275 chars]"
       }
     ]
   }
