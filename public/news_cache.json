@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-30T05:09:39.273Z",
+  "timestamp": "2026-06-30T09:50:42.735Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Kiwoom eyes Bithumb stake as Korean brokerages push into crypto: Report",
+        "description": "Kiwoom Securities is reportedly seeking to acquire a stake in crypto exchange Bithumb, as more brokerage firms race to secure a stake in the industry ahead of the FSC’s new regulatory reforms in July.",
+        "url": "https://cointelegraph.com/news/kiwoom-stake-bithumb-exchange",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-south-korea-staking-lending-service.jpg",
+        "publishedAt": "2026-06-29T09:40:31Z",
+        "content": "South Korean brokerage Kiwoom Securities is reportedly in talks to buy a stake in Bithumb, making it the latest traditional financial firm in the country to seek exposure to a local crypto exchange.\r… [+2497 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Crypto exchange BitMEX removes CEO, CFO and head of growth",
+        "description": "The firm’s global general counsel, Peter Wilkinson, has taken over as CEO from Stephan Lutz.",
+        "url": "https://www.coindesk.com/business/2026/06/29/crypto-exchange-bitmex-removes-ceo-cfo-and-head-of-growth",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/71a75482873773279251b19c3a9a322fd3443694-1920x1080.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-29T07:03:51Z",
+        "content": "BitMEX, the troubled cryptocurrency exchange reportedly looking for a buyer, has cleared out its executive team, removing chief executive Stephan Lutz, chief financial officer Ina Steiner, and chief … [+1108 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +433,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
         "publishedAt": "2026-06-24T17:37:52Z",
         "content": "In brief\r\n<ul><li>Binance said Wednesday that it formally withdrew its Markets in Crypto Assets (MiCA) license application in Greece. </li><li>Instead, the crypto exchange will seek license approval … [+2885 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Binance withdraws Greek MiCA bid but vows to remain in Europe",
-        "description": "The crypto giant must find a home base in the EU by July 1 or regulators will force the company to shut down operations for millions of regional users.",
-        "url": "https://www.coindesk.com/policy/2026/06/24/binance-withdraws-greek-mica-bid-but-vows-to-remain-in-europe",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2525adad1cb5953ca2fa403eed869e80e89d9022-2400x1368.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-24T17:18:08Z",
-        "content": "Binance has withdrawn its application for a Markets in Crypto-Assets (MiCA) license in Greece and will seek authorization in another European Union country, the crypto exchange said Wednesday via sev… [+954 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Binance withdraws Greek MiCA bid, seeks alternative EU license",
-        "description": "The crypto giant must find a home base in the EU by July 1 or regulators will force the company to shut down operations for millions of regional users.",
-        "url": "https://www.coindesk.com/policy/2026/06/24/binance-withdraws-greek-mica-bid-seeks-alternative-eu-license",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2525adad1cb5953ca2fa403eed869e80e89d9022-2400x1368.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-24T17:18:08Z",
-        "content": "Binance has withdrawn its application for a Markets in Crypto-Assets (MiCA) license in Greece and will seek authorization in another European Union country, the crypto exchange said Wednesday via sev… [+954 chars]"
       }
     ]
   }
