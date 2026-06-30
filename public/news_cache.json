@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-06-30T15:33:39.681Z",
+  "timestamp": "2026-06-30T18:02:16.704Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin balances $60K tightrope as US stocks rebound on fresh Iran peace deal hopes",
+        "description": "Bitcoin diverges from US stocks again as BTC price support at $60,000 stays absent despite US-Iran peace hopes boosting equities to start the week.",
+        "url": "https://cointelegraph.com/markets/bitcoin-fails-60k-reclaim-as-us-stocks-rebound-on-new-iran-peace-hopes",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-267115-how-volatility-futures-are-redefining-risk-in-bitcoin.jpg",
+        "publishedAt": "2026-06-29T17:44:49Z",
+        "content": "Bitcoin (BTC) struggled near $60,000 around Mondays Wall Street open as bulls increasingly risked a support/resistance flip.\r\nKey points:\r\n<ul><li>Bitcoin bulls face an uphill struggle to flip $60,00… [+3694 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Coinbase, Kraken and OKX move to swoop up EU users affected by MiCA restrictions",
+        "description": "Several exchanges that have already been authorized by EU regulators are attempting to bring in users from companies unlicensed under the Markets in Crypto-Assets rules, offering transfer bonuses and prizes.",
+        "url": "https://cointelegraph.com/news/coinbase-okx-kraken-eu-users-mica",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-heres-what-you-pay-for-using-crypto-mica-eu.jpg",
+        "publishedAt": "2026-06-29T17:42:39Z",
+        "content": "Cryptocurrency exchanges already approved to operate in European Union member states under the soon-to-be enforced Markets in Crypto-Assets (MiCA) framework are incentivizing users from companies tha… [+2844 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "BlackRock’s IBIT Reportedly Surpasses Fidelity In Bitcoin ETF Assets",
+        "description": "BlackRock's iShares Bitcoin Trust reportedly surpassed Fidelity in assets under management, reinforcing IBIT's lead in the Bitcoin ETF market.",
+        "url": "http://www.newsbtc.com/news/blackrocks-ibit-reportedly-surpasses-fidelity-in-bitcoin-etf-assets-2/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/06/stocks-897x598-1.jpg?fit=897%2C598",
+        "publishedAt": "2026-06-29T16:15:00Z",
+        "content": "For more details, visit the official Cryptobriefing platform.\r\n<ul><li>BlackRocks iShares Bitcoin Trust, known as IBIT, has reportedly surpassed Fidelity in assets under management.</li><li>The shift… [+3005 chars]"
+      },
       {
         "source": {
           "id": null,
