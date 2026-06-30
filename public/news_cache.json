@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-06-30T18:02:16.704Z",
+  "timestamp": "2026-06-30T20:59:33.917Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitcoin put-call ratio hits 1-year high: Are bears preparing for drop to $55K?",
+        "description": "Rising demand for put options and persistent ETF outflows highlight Bitcoin's weakness despite lower oil prices.",
+        "url": "https://cointelegraph.com/markets/bitcoin-put-call-ratio-hits-1-year-high-are-bears-preparing-for-drop-to-55k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-191991-bitcoin-bears-analysis-dismisses-btc-price-double-top.jpg",
+        "publishedAt": "2026-06-29T19:41:04Z",
+        "content": "Key takeaways:\r\n<ul><li>An extreme Bitcoin put-call options imbalance and a 19% delta skew reveal heavy hedging against downside price swings.</li><li>Strategys cash hoard eases short-term debt fears… [+3218 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Is in a Fight at $60K—Here's What the Charts Say",
+        "description": "BTC kissed $58,800 and bounced. The daily chart is deep in bear territory, and prediction markets are betting on further pain before a rebound.",
+        "url": "https://decrypt.co/372321/bitcoin-price-fight-60k-what-the-charts-say",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
+        "publishedAt": "2026-06-29T18:40:24Z",
+        "content": "In brief\r\n<ul><li>The Bitcoin daily price chart shows an RSI of 34, ADX of 36.9 trending bearish, a death-cross EMA setup, showing an organized decline.</li><li>The $58,035 support level held on Mond… [+4136 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d45e7f2db766263ab05444c4f73e3e0579efb6fd-1821x1024.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-25T13:00:00Z",
         "content": "\"I don't hold grudges or anything, right? I just want to help to grow crypto anywhere in the world, and to do that, we need to help grow crypto in America.\"\r\nThe Canadian national said he won't parti… [+983 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley, AI Boost",
-        "title": "CoinEx denies claims it served as $3.84 billion gateway to sanctioned Iranian crypto firms",
-        "description": "Blockchain analysts TRM Labs says CoinEx facilitated more than $3.8 billion in blockchain-traced flows with sanctioned Iranian crypto entities. CoinEx disputes the findings.",
-        "url": "https://www.coindesk.com/policy/2026/06/25/coinex-denies-claims-it-served-as-usd3-84-billion-gateway-to-sanctioned-iranian-crypto-firms",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f1989cca173a6179b4bf2c5e784f3cb6ef51c75a-1000x668.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-25T10:56:58Z",
-        "content": "Blockchain intelligence firm TRM Labs said CoinEx served as a gateway for the crypto sector in Iran, having traced more than $3.84 billion in flows between the exchange and sanctioned Iranian entitie… [+949 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Helen Partz",
-        "title": "Polish crypto exchange Kanga secures MiCA license in Latvia",
-        "description": "Poland-founded crypto exchange Kanga has secured a Class 3 MiCA license in Latvia, enabling EU-wide crypto services as Polish lawmakers debate framework's implementation.",
-        "url": "https://cointelegraph.com/news/poland-kanga-secures-mica-license-latvia",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/license-approved.jpg",
-        "publishedAt": "2026-06-25T08:24:41Z",
-        "content": "Kanga, a crypto exchange founded in Poland, said it has obtained a Markets in Crypto-Assets Regulation (MiCA) license in Latvia, allowing it to passport its services across the European Union.\r\nThe e… [+2240 chars]"
       }
     ]
   }
