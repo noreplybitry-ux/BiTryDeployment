@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-06-30T09:50:42.735Z",
+  "timestamp": "2026-06-30T12:14:26.364Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
         "publishedAt": "2026-06-24T20:50:14Z",
         "content": "In brief\r\n<ul><li>Bitcoin fell to its lowest point in 21 months, dragging down leading altcoins and crypto stocks with it.</li><li>The weakness appears to be linked to a risk-off move in semiconducto… [+3544 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Binance Withdraws MiCA License Application in Greece, Leaving EU Users in Limbo",
-        "description": "Crypto exchange Binance formally withdrew its MiCA license application in Greece, one week after a report said it would be denied.",
-        "url": "https://decrypt.co/371990/binance-withdraws-mica-license-application-greece-eu-users-limbo",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
-        "publishedAt": "2026-06-24T17:37:52Z",
-        "content": "In brief\r\n<ul><li>Binance said Wednesday that it formally withdrew its Markets in Crypto Assets (MiCA) license application in Greece. </li><li>Instead, the crypto exchange will seek license approval … [+2885 chars]"
       }
     ]
   }
