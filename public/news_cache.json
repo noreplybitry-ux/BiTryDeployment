@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-07-01T05:26:57.461Z",
+  "timestamp": "2026-07-01T09:59:43.222Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "SEC wins $5.5 million default judgment over alleged fake crypto platform NanoBit",
+        "description": "The group built trust via WhatsApp, then misappropriated user funds to Hong Kong bank accounts instead of executing any actual crypto trades.",
+        "url": "https://www.coindesk.com/policy/2026/06/30/sec-wins-usd5-5-million-default-judgment-over-alleged-fake-crypto-platform-nanobit",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/98bc6ee335a20769da0bc251a374c4869a66cb43-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-30T09:54:50Z",
+        "content": "A federal judge in New York entered a $5.5 million default judgment against NanoBit Limited and five related defendants over an alleged relationship-investment scam built on a fake crypto trading pla… [+1057 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "'47 Ronin' Director Gets 30 Months for Spending Netflix's $11M on Dogecoin",
+        "description": "Carl Rinsch gambled Netflix's $11 million on stock options and Dogecoin, then spent the winnings on luxury cars and watches.",
+        "url": "https://decrypt.co/372391/47-ronin-director-gets-30-months-for-spending-netflixs-11m-on-dogecoin",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Jail-cell-2-gID_7.png",
+        "publishedAt": "2026-06-30T09:20:00Z",
+        "content": "In brief\r\n<ul><li>Director Carl Rinsch was sentenced Monday to 30 months in prison for defrauding Netflix of $11 million meant to finish a sci-fi series he never delivered.</li><li>Rinsch lost millio… [+3152 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "Australia’s crypto travel rule is coming into effect: Here’s what's changing",
+        "description": "Australia will implement a travel rule for crypto starting Wednesday, with regulated exchanges required to ask for additional information on all transfers to and from their platforms.",
+        "url": "https://cointelegraph.com/news/australias-crypto-travel-rule-takes-effect-on-july-1-whats-changing",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/australia-crypto-market-adoption-traveller-tourist.jpg",
+        "publishedAt": "2026-06-30T06:29:02Z",
+        "content": "Crypto exchange users in Australia will soon face stricter rules on all transfers as the countrys travel rule is set to come into force on Wednesday, aligning it with similar rules in the EU, US and … [+3137 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Cathie Wood’s ARK adds $43.5M in crypto stocks amid market dip",
+        "description": "ARK Invest has purchased $43.5 million worth of shares in Coinbase, Circle and other crypto companies over the past three trading days, taking advantage of the latest market dip.",
+        "url": "https://cointelegraph.com/news/cathie-woods-ark-scoops-up-43m-worth-of-crypto-stocks-amid-market-dip",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-low-latency-is-important-for-cryptocurrency-exchanges-etf.jpg",
+        "publishedAt": "2026-06-30T05:49:50Z",
+        "content": "Tech-focused asset manager ARK Invest has capitalized on the recent crypto market downturn, buying a combined $43.5 million worth of shares in crypto firms such as Coinbase and Circle over the past t… [+1765 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/dollar-fiat-money-bitcoin.jpg",
         "publishedAt": "2026-06-25T16:41:47Z",
         "content": "Crypto exchange Kraken and onchain asset manager Maple have launched an onchain warehouse financing facility for crypto-backed loans, applying a lending structure widely used in traditional credit ma… [+2837 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "TRM Labs Says CoinEx Processed $3.84 Billion In Iran-Linked Crypto Flows",
-        "description": "TRM Labs says CoinEx processed billions in Iran-linked crypto flows, putting exchange compliance and sanctions screening back under the spotlight.",
-        "url": "http://www.newsbtc.com/news/trm-labs-says-coinex-processed-3-84-billion-in-iran-linked-crypto-flows/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2021/12/106911087-16263029762021-07-12t182451z_1049474836_rc26jo9ua1af_rtrmadp_0_fintech-crypto-flows-scaled.jpeg?fit=2560%2C1603",
-        "publishedAt": "2026-06-25T16:00:11Z",
-        "content": "TRM Labs says CoinEx processed billions in Iran-linked crypto flows, putting exchange compliance and sanctions screening back under the spotlight.\r\n<ul><li>TRM Labs traced $3.84 billion in Iran-linke… [+3607 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Polish Crypto Exchange Kanga Obtains Latvian MiCA License For EU Expansion",
-        "description": "Polish-founded crypto exchange Kanga has reportedly obtained a Latvian MiCA license, giving it a passporting route across the EU.",
-        "url": "http://www.newsbtc.com/news/polish-crypto-exchange-kanga-obtains-latvian-mica-license-for-eu-expansion/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2018/02/eu-flag-2108026_1280.jpg",
-        "publishedAt": "2026-06-25T15:46:51Z",
-        "content": "Polish-founded crypto exchange Kanga has reportedly secured a Latvian MiCA license, giving the company a regulatory route to offer crypto-asset services across the European Union under the blocs new … [+3111 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Dilip Kumar Patairya",
-        "title": "Why Wall Street values some crypto firms for AI power, not just crypto",
-        "description": "Why are some crypto firms being valued like AI companies? Galaxy Digital’s rally suggests Wall Street may care more about power and data centers than crypto exposure.",
-        "url": "https://cointelegraph.com/learn/galaxy-digital-ai-infrastructure-valuation",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-213298-galaxy-digital-stock-tokenized-solana.jpg",
-        "publishedAt": "2026-06-25T15:00:00Z",
-        "content": "<ol><li>Power over tokens: Why AI is changing crypto valuations\r\n</li></ol>For a long time, the value of crypto companies was closely tied to traditional indicators such as trading volumes, digital a… [+10555 chars]"
       }
     ]
   }
