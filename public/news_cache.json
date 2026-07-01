@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-01T20:49:49.014Z",
+  "timestamp": "2026-07-01T22:22:05.555Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin just $5K away from ‘best investment opportunity’ of bear market",
+        "description": "Bitcoin's recent selloff brought it within 10% of its realized price — a line that has marked the bottoming zone in Bitcoin's previous bear markets.",
+        "url": "https://cointelegraph.com/markets/bitcoin-is-just-a-5k-drop-away-from-its-best-investment-opportunity-analysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-226789-bitcoin-scrapes-new-lows-as-tech-stocks-drop-data-forecasts-btc-dip-below-dollar.jpg",
+        "publishedAt": "2026-06-30T21:49:08Z",
+        "content": "Bitcoin (BTC) is fast approaching a buying level that analysts describe as a top investment opportunity.\r\nKey points:\r\n<ul><li>Bitcoin only needs to dip another $5,000 to hit a buy-in level that has … [+2504 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?",
+        "description": "Tokenization and RWA TVL growth highlight Ethereum’s fundamentals, but stagnant DApps and spot ETF outflows keep the pressure on ETH price.",
+        "url": "https://cointelegraph.com/markets/bitmine-ether-buys-eclipsed-by-345m-eth-etf-345m-outflows-is-sub-15k-next",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-251386-ethereum-price-drops-1-8k-data-eth-bears-not-done-yet.jpg",
+        "publishedAt": "2026-06-30T21:16:47Z",
+        "content": "Key takeaways:\r\n<ul><li>The Spot Ether ETF outflows overwhelmed BitMines ETH accumulation, raising the chance of a drop below the $1,500 support.</li><li>Falling DApps revenue and weak staking yields… [+3361 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Binance, Changpeng Zhao Sued for $200M by British Investors: Reuters",
+        "description": "Crypto exchange Binance and its founder were sued for nearly $200 million in a new lawsuit filed in the United Kingdom.",
+        "url": "https://decrypt.co/372452/binance-changpeng-zhao-sued-200-million-british-investors-reuters",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Binanace-CZ-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-06-30T21:16:18Z",
+        "content": "In brief\r\n<ul><li>Changpeng \"CZ\" Zhao and Binance were named in a lawsuit seeking nearly $200 million in the U.K. </li><li>The suit alleges the firm offered risky financial products without appropria… [+2303 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,45 +472,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-238240-battle-between-bitcoin-bulls-and-bears-continues-in-2026-here-s-the-levels-to-wa.jpg",
         "publishedAt": "2026-06-25T19:51:35Z",
         "content": "Bitcoins (BTC) drop to $58,000 has pushed the price into a zone that long-term power-law models have historically associated with cycle bottoms. The data does not confirm a bottom range, though it sh… [+3893 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "SBI Holdings Says $289 Million Bitbank Deal Will Make It Japan's Largest Crypto Exchange",
-        "description": "SBI Holdings has agreed to a nearly $289 million deal to acquire crypto exchange Bitbank, pending regulatory approval.",
-        "url": "https://decrypt.co/372117/sbi-holdings-289-million-bitbank-deal-japan-largest-crypto-exchange",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-yen-decrypt-style-new-gID_7.jpg",
-        "publishedAt": "2026-06-25T19:42:54Z",
-        "content": "In brief\r\n<ul><li>SBI Holdings is buying Tokyo crypto exchange Bitbank for about $289 million, making it a wholly owned subsidiary.</li><li>Combined with SBI VC Trade, it'll hold $6.8 billion in asse… [+2309 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Coinbase-Backed Ethereum Network Base Recovers After Block Production Issue",
-        "description": "Ethereum layer-2 network Base was down for more than two hours as it ran into an issue with block production ahead of a planned upgrade.",
-        "url": "https://decrypt.co/372110/coinbase-ethereum-network-base-recovers-block-production-issue",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/base-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-06-25T19:19:05Z",
-        "content": "In brief\r\n<ul><li>Base was down for more than two hours on Thursday after an issue arose that halted block production.</li><li>The network is back up and running, and the network is still moving forw… [+2445 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "André Beganski",
-        "title": "CoinEx Denies 'Knowledge' of Aiding Sanctioned Iran Crypto Market in $3.8 Billion Disconnect",
-        "description": "TRM Labs said it uncovered over $3.84 billion in crypto flows between CoinEx and a web of more than 60 sanctioned Iranian platforms.",
-        "url": "https://decrypt.co/372104/coinex-denies-knowledge-aiding-sanctioned-iran-crypto-market",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-06-25T18:49:21Z",
-        "content": "In brief\r\n<ul><li>TRM Labs said it uncovered over $3.84 billion in crypto flows between CoinEx and more than 60 sanctioned Iranian platforms over a seven-year period.</li><li>The exchange rejected th… [+3234 chars]"
       }
     ]
   }
