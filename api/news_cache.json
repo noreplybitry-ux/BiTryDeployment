@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-01T15:47:05.693Z",
+  "timestamp": "2026-07-01T18:03:02.324Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Artem G",
+        "title": "AI’s power crunch turns Bitcoin miners’ grid access into an asset",
+        "description": "AI data centers are straining power grids, turning Bitcoin miners’ energized sites into valuable infrastructure for HPC and cloud deals.",
+        "url": "https://cointelegraph.com/features/bitcoin-miners-ai-data-centers-power-infrastructure",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-power-in-energy-and-how-new-technologies-can-shift-bitcoin-1.jpg",
+        "publishedAt": "2026-06-30T17:44:31Z",
+        "content": "By the end of 2025, the power capacity tied to artificial intelligence data centers worldwide had reached about 29.6 gigawatts (GW), enough to run all of New York state at peak demand, according to S… [+6438 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg",
         "publishedAt": "2026-06-25T18:49:21Z",
         "content": "In brief\r\n<ul><li>TRM Labs said it uncovered over $3.84 billion in crypto flows between CoinEx and more than 60 sanctioned Iranian platforms over a seven-year period.</li><li>The exchange rejected th… [+3234 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Sam Bourgi",
-        "title": "21shares trims 2026 crypto forecasts despite institutional adoption gains",
-        "description": "Asset manager 21shares sees crypto infrastructure advancing faster than prices, as ETFs, stablecoins and prediction markets mature while several 2026 targets slip.",
-        "url": "https://cointelegraph.com/news/21shares-trims-2026-crypto-forecasts-etf-adoption",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-image-for-evergreenguide-about-crypto-price-prediction.jpg",
-        "publishedAt": "2026-06-25T17:00:58Z",
-        "content": "Asset manager 21shares has scaled back several of its bullish forecasts for the crypto industry this year, saying institutional adoption continues to strengthen even as weak market conditions and mut… [+3784 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Nate Kostar",
-        "title": "Kraken, Maple launch onchain warehouse facility for crypto-backed institutional loans",
-        "description": "Kraken's new facility with Maple brings a traditional warehouse financing model onchain, allowing the exchange to expand its institutional crypto lending business using blockchain-based structured credit.",
-        "url": "https://cointelegraph.com/news/kraken-maple-launch-onchain-warehouse-facility-for-crypto-backed-institutional-loans",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/dollar-fiat-money-bitcoin.jpg",
-        "publishedAt": "2026-06-25T16:41:47Z",
-        "content": "Crypto exchange Kraken and onchain asset manager Maple have launched an onchain warehouse financing facility for crypto-backed loans, applying a lending structure widely used in traditional credit ma… [+2837 chars]"
       }
     ]
   }
