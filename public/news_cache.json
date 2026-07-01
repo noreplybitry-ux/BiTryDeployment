@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-01T18:03:02.324Z",
+  "timestamp": "2026-07-01T20:49:49.014Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
+        "description": "Bitcoin faced downside pressure as the US dollar hit its highest levels against the Japanese yen since 1986, while BTC price analysis revealed \"capitulation\" by 2025 top-buyers.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-slumps-to-near-58k-as-us-dollar-hits-40-year-high-against-yen",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-201145-japan-remixpoint-ceo-salary-bitcoin.jpg",
+        "publishedAt": "2026-06-30T18:17:56Z",
+        "content": "Bitcoin (BTC) fell toward $58,000 around Tuesdays Wall Street open as the clock ticked down to a brutal quarterly close.\r\nKey points:\r\n<ul><li>US stocks' Q2 gains leave Bitcoin far behind as bulls nu… [+3750 chars]"
+      },
       {
         "source": {
           "id": null,
