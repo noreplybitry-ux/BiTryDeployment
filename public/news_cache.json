@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-01T12:42:42.408Z",
+  "timestamp": "2026-07-01T15:47:05.693Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
+        "description": "The bank said the bill faces major hurdles, with passage boosting institutional crypto adoption and delays prolonging regulatory uncertainty.",
+        "url": "https://www.coindesk.com/policy/2026/06/30/jefferies-warns-of-crypto-market-volatility-as-clarity-act-faces-senate-test",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9a03886b63f9f486ffe9b1e5246f92bf2b612c49-1500x998.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-06-30T14:41:59Z",
+        "content": "The Clarity Act is widely viewed as the crypto industry's most important market structure bill because it would establish clear rules for when digital assets are regulated as securities by the Securi… [+1383 chars]"
+      },
       {
         "source": {
           "id": null,
