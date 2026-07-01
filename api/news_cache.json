@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-01T00:13:12.256Z",
+  "timestamp": "2026-07-01T05:26:57.462Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Martin Young",
+        "title": "Sovereign funds see Bitcoin discount as entry point: MidChains CEO",
+        "description": "It sends “a very clear signal” to other institutions that may be sitting on the sidelines and looking at these larger funds as leaders, said MidChains CEO Basil Al Askari.",
+        "url": "https://cointelegraph.com/news/sovereign-funds-see-bitcoin-discount-as-entry-point-midchains-ceo-says",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-are-governments-implementing-the-guidelines-bitcoin.jpg",
+        "publishedAt": "2026-06-30T03:53:34Z",
+        "content": "Sovereign wealth funds have been accumulating spot Bitcoin, a sign that Bitcoins current price level is becoming attractive to institutional investors, according to MidChains CEO Basil Al Askari.\r\nWh… [+2513 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-213298-galaxy-digital-stock-tokenized-solana.jpg",
         "publishedAt": "2026-06-25T15:00:00Z",
         "content": "<ol><li>Power over tokens: Why AI is changing crypto valuations\r\n</li></ol>For a long time, the value of crypto companies was closely tied to traditional indicators such as trading volumes, digital a… [+10555 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Ezra Reguerra",
-        "title": "SBI to acquire Bitbank in $289M deal creating Japan's biggest crypto exchange",
-        "description": "The Japanese financial conglomerate plans to take full control of Bitbank as it expands an ecosystem spanning crypto trading, stablecoins, tokenization and blockchain infrastructure.",
-        "url": "https://cointelegraph.com/news/sbi-acquire-bitbank-289-million-deal",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-sponsored-illustration-for-z502.jpg",
-        "publishedAt": "2026-06-25T13:08:11Z",
-        "content": "Japans SBI Holdings has signed agreements to acquire full control of crypto exchange Bitbank through a 46.7 billion Japanese yen ($289 million) transaction, advancing a deal first disclosed in May th… [+2485 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jesse Hamilton",
-        "title": "Post-prison CZ says time behind bars didn't hurt the billionaire's business after Binance",
-        "description": "The pardoned ex-CEO called prison a character-building \"plus\" as he's pursued a venture-capital career, despite his majority stake in the world's biggest crypto exchange.",
-        "url": "https://www.coindesk.com/policy/2026/06/24/post-prison-cz-says-time-behind-bars-didn-t-hurt-the-billionaire-s-business-after-binance",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d45e7f2db766263ab05444c4f73e3e0579efb6fd-1821x1024.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-25T13:00:00Z",
-        "content": "\"I don't hold grudges or anything, right? I just want to help to grow crypto anywhere in the world, and to do that, we need to help grow crypto in America.\"\r\nThe Canadian national said he won't parti… [+983 chars]"
       }
     ]
   }
