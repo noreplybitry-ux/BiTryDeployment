@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-02T00:14:17.044Z",
+  "timestamp": "2026-07-02T05:02:37.588Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jesse Coghlan",
+        "title": "‘47 Ronin’ director who gambled Netflix funds on crypto gets 30 months",
+        "description": "Carl Rinsch will serve two and a half years in prison for taking money meant for a Netflix show to buy Dogecoin, stocks and luxury goods.",
+        "url": "https://cointelegraph.com/news/47-ronin-director-who-gambled-netflix-funds-on-crypto-gets-30-months",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/arrest-police-crime-prison-jail-imprisonment-man-person2.jpg",
+        "publishedAt": "2026-07-01T03:47:30Z",
+        "content": "Hollywood director Carl Rinsch has been sentenced to two and a half years in prison for defrauding Netflix out of $11 million, which he spent on crypto, stocks and luxury goods.\r\nA Manhattan federal … [+3642 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,32 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/red-down-falling-car1.png",
         "publishedAt": "2026-06-26T05:10:44Z",
         "content": "Base, the blockchain backed by crypto exchange Coinbase, has returned online after the network suffered nearly a two-hour outage due to a consensus issue that halted block production.\r\nBase posted to… [+1826 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Jesse Coghlan",
-        "title": "Crypto infrastructure firm BitGo lays off 15% of staff",
-        "description": "BitGo has laid off about 15% of its staff, an estimated 90 people, as the crypto infrastructure firm aims to focus on stablecoins and AI-backed infrastructure.",
-        "url": "https://cointelegraph.com/news/crypto-infrastructure-firm-bitgo-lays-off-15-of-staff",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-box.jpg",
-        "publishedAt": "2026-06-26T00:41:02Z",
-        "content": "Crypto infrastructure company BitGo Holdings laid off about 15% of its staff on Thursday as its CEO pledged to focus the company on areas including trading, stablecoins and artificial intelligence-po… [+2203 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Nate Kostar",
-        "title": "Bitcoin options traders hedge downside as uncertainty lingers, Anchorage says",
-        "description": "Anchorage Digital’s latest analysis shows Bitcoin options traders remain defensive as near-term uncertainty persists, though markets are not pricing an extreme downside scenario for Strategy.",
-        "url": "https://cointelegraph.com/news/bitcoin-options-traders-hedge-downside-as-uncertainty-lingers-anchorage-says",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-sp-bitcoin-funding-stays-negative.png",
-        "publishedAt": "2026-06-25T20:10:41Z",
-        "content": "Bitcoin options traders remain heavily positioned for downside protection, with both crypto-native and exchange-traded fund investors showing elevated demand for downside hedges, according to new res… [+3012 chars]"
       }
     ]
   }
