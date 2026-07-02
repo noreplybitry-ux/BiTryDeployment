@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-01T22:22:05.555Z",
+  "timestamp": "2026-07-02T00:14:17.044Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-sp-bitcoin-funding-stays-negative.png",
         "publishedAt": "2026-06-25T20:10:41Z",
         "content": "Bitcoin options traders remain heavily positioned for downside protection, with both crypto-native and exchange-traded fund investors showing elevated demand for downside hedges, according to new res… [+3012 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Biraajmaan Tamuly",
-        "title": "Bitcoin may fall lower but BTC power-law frames crash to $58K as ‘normal’",
-        "description": "Bitcoin's drop to $58,000 shifted attention from panic selling to a key support-and-resistance level where bid liquidity is poised to be absorbed.",
-        "url": "https://cointelegraph.com/markets/key-bitcoin-price-levels-after-btc-power-law-says-58k-is-normal",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-238240-battle-between-bitcoin-bulls-and-bears-continues-in-2026-here-s-the-levels-to-wa.jpg",
-        "publishedAt": "2026-06-25T19:51:35Z",
-        "content": "Bitcoins (BTC) drop to $58,000 has pushed the price into a zone that long-term power-law models have historically associated with cycle bottoms. The data does not confirm a bottom range, though it sh… [+3893 chars]"
       }
     ]
   }
