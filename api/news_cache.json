@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-02T17:55:55.064Z",
+  "timestamp": "2026-07-02T19:41:05.441Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "USDC And Bitcoin Lead $850 Million Exchange Outflow Wave",
+        "description": "Centralized exchanges reportedly saw notable 24-hour withdrawals led by USDC and Bitcoin as traders moved funds off platforms.",
+        "url": "http://www.newsbtc.com/news/usdc-and-bitcoin-lead-850-million-exchange-outflow-wave/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/05/iStock-485863805.jpg?fit=2120%2C1415",
+        "publishedAt": "2026-07-01T19:15:00Z",
+        "content": "Crypto exchange balances saw a notable withdrawal wave heading into July 1, with USDC and Bitcoin leading approximately $850 million in net outflows from centralized platforms. The move adds another … [+3255 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2022/11/pexels-photo-6770845.jpeg?fit=1000%2C1500",
         "publishedAt": "2026-06-27T13:15:00Z",
         "content": "TL;DR\r\n<ul><li>Bitcoin recently rebounded from the $58,000 area and was validated near $60,326.78 in the supplied market check.</li><li>Whale sell pressure is described as cooling, even as broader ri… [+3098 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Spain regulator rules out extension for non-MiCA compliant crypto companies",
-        "description": "With the Markets in Crypto-Assets, or MiCA, deadline approaching in a matter of days for crypto companies with EU-based users, one Spanish regulator has ruled out any exemptions or extensions.",
-        "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/cryptocurrency-coin-pressure-machine-regulation-government-law-mica-1.jpg",
-        "publishedAt": "2026-06-26T19:20:33Z",
-        "content": "The chair of the Spanish National Securities Market Commission reportedly said that there would be no extensions or waivers for crypto companies that did not receive approval to operate in European U… [+2274 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Sander Lutz",
-        "title": "Spanish Regulator Says No Extensions for EU Crypto Deadline as Binance Remains Unlicensed",
-        "description": "Crypto firms operating in the European Union will be forced to cease operations if they do not obtain a MiCA license by July 1.",
-        "url": "https://decrypt.co/372230/spanish-regulator-no-extensions-eu-crypto-deadline-binance",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
-        "publishedAt": "2026-06-26T18:02:22Z",
-        "content": "In brief\r\n<ul><li>Spain's securities regulator said there will be no extension to the EU's July 1 MiCA licensing deadline for crypto firms.</li><li>Binance, still unlicensed after withdrawing its app… [+2449 chars]"
       }
     ]
   }
