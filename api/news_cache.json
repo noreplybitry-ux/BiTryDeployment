@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-02T09:22:33.150Z",
+  "timestamp": "2026-07-02T12:12:12.160Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley",
+        "title": "Ark Invest bought more than $75 million of crypto shares during June bloodbath",
+        "description": "The Cathie Wood-led investment firm has a tendency to \"buy the dip,\" loading up on shares in cryptocurrency companies at times when their prices are depressed.",
+        "url": "https://www.coindesk.com/markets/2026/07/01/ark-invest-bought-more-than-usd75-million-of-crypto-shares-during-june-bloodbath",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6ccf18504f2934569339f68665f855f679f37378-4312x2426.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-01T11:42:22Z",
+        "content": "Ark Invest has a tendency to load up on shares in cryptocurrency companies when their prices are depressed, and June was no exception.\r\nBitcoin BTC\r\n$58,551.99, the largest cryptocurrency, recorded i… [+918 chars]"
+      },
       {
         "source": {
           "id": null,
