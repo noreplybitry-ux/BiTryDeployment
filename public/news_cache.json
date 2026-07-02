@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-02T19:41:05.441Z",
+  "timestamp": "2026-07-02T21:15:01.938Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Robinhood Launches 'AI-Native' Ethereum Layer-2 Network, Tokenized Stock Trading",
+        "description": "Brokerage and crypto exchange Robinhood opened the public mainnet for its Arbitrum-powered Ethereum layer-2 network on Wednesday.",
+        "url": "https://decrypt.co/372614/robinhood-ai-native-ethereum-layer-2-network-tokenized-stock-trading",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-07-01T20:56:38Z",
+        "content": "In brief\r\n<ul><li>Robinhood launched the public mainnet of Robinhood Chain, an \"AI-native\" Ethereum layer-2 network.</li><li>The chain further bridges the firm's traditional financial offerings with … [+2606 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Cointelegraph",
+        "title": "Bitcoin bounces off 21-month low, but leverage data signals caution: Was $57K the bottom?",
+        "description": "Bitcoin found its footing after bulls took steps to reclaim the $60,000 level, but data casts doubt on whether it will flip back to support.",
+        "url": "https://cointelegraph.com/markets/bitcoin-bounces-off-21-month-low-but-leverage-data-signals-caution-was-57k-the-bottom",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-213733-bitcoin-bear-market-in-october-with-50k-bottom-target-analysis.jpg",
+        "publishedAt": "2026-07-01T20:27:49Z",
+        "content": "Bitcoin (BTC) traded as high as $60,200 on Wednesday, up about 2.7% over the past 24 hours after falling to a 21-month low of $57,737 earlier in the session. Ether (ETH) and Solana (SOL) also gained,… [+2520 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-247810-bitcoin-bulls-blitz-dollar69k-as-retail-traders-pressure-short-positioning.jpg",
         "publishedAt": "2026-06-27T19:27:44Z",
         "content": "Bitcoin (BTC) is showing fresh signs of short-term holder capitulation after roughly 50,000 BTC moved to exchanges at a loss over the past day. At the same time, the market capitalization of short-te… [+4463 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Bitcoin Reclaims Key Support as On-Chain Data Signals Cooler Whale Selling",
-        "description": "Bitcoin Reclaims Key Support as On-Chain Data Signals Cooler Whale Selling: key Bitcoin market levels, on-chain context, risk notes, and what traders are w",
-        "url": "http://www.newsbtc.com/news/bitcoin-reclaims-key-support-as-on-chain-data-signals-cooler-whale-selling/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2022/11/pexels-photo-6770845.jpeg?fit=1000%2C1500",
-        "publishedAt": "2026-06-27T13:15:00Z",
-        "content": "TL;DR\r\n<ul><li>Bitcoin recently rebounded from the $58,000 area and was validated near $60,326.78 in the supplied market check.</li><li>Whale sell pressure is described as cooling, even as broader ri… [+3098 chars]"
       }
     ]
   }
