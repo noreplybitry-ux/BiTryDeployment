@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-02T12:12:12.160Z",
+  "timestamp": "2026-07-02T15:21:23.177Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,32 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png",
         "publishedAt": "2026-06-26T15:33:49Z",
         "content": "In brief\r\n<ul><li>Strategys flagship preferred stock drifted further away from its $100 par value, setting another record low as Bitcoins price steadied.</li><li>Analysts have grown increasingly fixa… [+3812 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "What Binance’s EU exit means for the BNB token price",
-        "description": "Binance will halt services for EU users after MiCA setback. BNB token price has fallen 13.2% over the past month. Bitcoin miner inflows to Binance hit a four-month high. BNB token remained under pressure on Friday as investors weighed Binance’s regulatory set…",
-        "url": "https://coinjournal.net/news/what-binances-eu-exit-means-for-the-bnb-token-price/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/10/20251014_1811_Binance-Market-Volatility_simple_compose_01k7hbrf6gerevzmcrc0rec4wn.png",
-        "publishedAt": "2026-06-26T10:55:16Z",
-        "content": "<ul><li>Binance will halt services for EU users after MiCA setback.</li><li>BNB token price has fallen 13.2% over the past month.</li><li>Bitcoin miner inflows to Binance hit a four-month high.</li><… [+4227 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
-        "description": "A day after withdrawing its MiCA license application in Greece and saying it is ‘not leaving Europe,’ Binance notified users across the European Union that it will suspend some services.",
-        "url": "https://www.coindesk.com/policy/2026/06/26/binance-tells-eu-users-it-will-no-longer-provide-services-after-failing-to-secure-mica-license",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e0e7d56858850b6e7a6abc32a3772680fdc761b7-5504x3220.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-26T10:19:22Z",
-        "content": "Binance, the world's largest crypto exchange by trading volume, told customers in the European Union (EU) it is suspending some services because it will not have a Markets in Crypto-Assets (MiCA) lic… [+1006 chars]"
       }
     ]
   }
