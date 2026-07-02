@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-02T05:02:37.588Z",
+  "timestamp": "2026-07-02T09:22:33.150Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e0e7d56858850b6e7a6abc32a3772680fdc761b7-5504x3220.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-26T10:19:22Z",
         "content": "Binance, the world's largest crypto exchange by trading volume, told customers in the European Union (EU) it is suspending some services because it will not have a Markets in Crypto-Assets (MiCA) lic… [+1006 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Jesse Coghlan",
-        "title": "Coinbase's Base resumes block production after 2-hour outage",
-        "description": "The Coinbase-backed blockchain Base returned online after two hours of downtime due to a consensus problem that prevented the creation of new blocks.",
-        "url": "https://cointelegraph.com/news/coinbases-blockchain-base-back-online-after-2-hour-outage",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/red-down-falling-car1.png",
-        "publishedAt": "2026-06-26T05:10:44Z",
-        "content": "Base, the blockchain backed by crypto exchange Coinbase, has returned online after the network suffered nearly a two-hour outage due to a consensus issue that halted block production.\r\nBase posted to… [+1826 chars]"
       }
     ]
   }
