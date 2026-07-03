@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-03T15:20:16.755Z",
+  "timestamp": "2026-07-03T17:38:42.450Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitcoin Reclaims $61,000 as Dovish Inflation Outlook Softens Market Fear",
+        "description": "Bitcoin Reclaims $61,000 as Dovish Inflation Outlook Softens Market Fear — what the latest source material shows and why it matters for crypto markets.",
+        "url": "http://www.newsbtc.com/news/bitcoin-reclaims-61-000-as-dovish-inflation-outlook-softens-market-fear/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2022/11/pexels-photo-6770845.jpeg?fit=1000%2C1500",
+        "publishedAt": "2026-07-02T17:00:00Z",
+        "content": "The headline number is useful, but the real story is what it says about positioning. Bitcoin Reclaims $61,000 as Dovish Inflation Outlook Softens Market Fear gives NewsBTC readers a clean angle on Bi… [+3261 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/88e8ebbc12dd32475c37257a3dddf7d1b2fdd935-3000x1687.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-06-28T19:30:00Z",
         "content": "CZ told CoinDesk over the course of two interviews that he saw multiple causes for crypto's 2026 bear market including investors moving funds to AI, geopolitical events and the usual four-year crypto… [+995 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yashu Gola",
-        "title": "Will Bitcoin price recover in July?",
-        "description": "Bitcoin’s past July gains and heavy short bets point to a rally toward $75,000, but a break below key support keeps the risk of $55,000 in play.",
-        "url": "https://cointelegraph.com/markets/will-bitcoin-price-recover-in-july",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-197722-bitcoin-price-trending-back-new-highs-before-july-analysis.jpg",
-        "publishedAt": "2026-06-28T16:12:57Z",
-        "content": "Bitcoin (BTC) is heading for its worst monthly loss since mid-2022, with BTC down roughly 18.5% in June as price struggles to hold the psychological $60,000 support level. \r\nBTC/USD monthly chart. So… [+3749 chars]"
       }
     ]
   }
