@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-03T03:47:36.984Z",
+  "timestamp": "2026-07-03T07:28:03.028Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2022/11/pexels-photo-6770845.jpeg?fit=1000%2C1500",
         "publishedAt": "2026-06-28T14:45:00Z",
         "content": "TL;DR\r\n<ul><li>U.S. spot Bitcoin ETFs recorded roughly $1.79 billion in weekly net outflows during the trading week ending June 26.</li><li>The outflow stretch was described in the validated discover… [+2864 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Biraajmaan Tamuly",
-        "title": "Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss",
-        "description": "Nearly 50,000 BTC shifted to exchanges at a loss while short-term Bitcoin holders' stress level reached 2-year highs. Is BTC headed toward new lows?",
-        "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-247810-bitcoin-bulls-blitz-dollar69k-as-retail-traders-pressure-short-positioning.jpg",
-        "publishedAt": "2026-06-27T19:27:44Z",
-        "content": "Bitcoin (BTC) is showing fresh signs of short-term holder capitulation after roughly 50,000 BTC moved to exchanges at a loss over the past day. At the same time, the market capitalization of short-te… [+4463 chars]"
       }
     ]
   }
