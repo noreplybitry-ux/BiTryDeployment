@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-04T17:13:08.330Z",
+  "timestamp": "2026-07-04T19:22:29.849Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
         "publishedAt": "2026-06-29T18:40:24Z",
         "content": "In brief\r\n<ul><li>The Bitcoin daily price chart shows an RSI of 34, ADX of 36.9 trending bearish, a death-cross EMA setup, showing an organized decline.</li><li>The $58,035 support level held on Mond… [+4136 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin balances $60K tightrope as US stocks rebound on fresh Iran peace deal hopes",
-        "description": "Bitcoin diverges from US stocks again as BTC price support at $60,000 stays absent despite US-Iran peace hopes boosting equities to start the week.",
-        "url": "https://cointelegraph.com/markets/bitcoin-fails-60k-reclaim-as-us-stocks-rebound-on-new-iran-peace-hopes",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-267115-how-volatility-futures-are-redefining-risk-in-bitcoin.jpg",
-        "publishedAt": "2026-06-29T17:44:49Z",
-        "content": "Bitcoin (BTC) struggled near $60,000 around Mondays Wall Street open as bulls increasingly risked a support/resistance flip.\r\nKey points:\r\n<ul><li>Bitcoin bulls face an uphill struggle to flip $60,00… [+3694 chars]"
       }
     ]
   }
