@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-04T15:10:55.435Z",
+  "timestamp": "2026-07-04T17:13:08.330Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price tags $62.3K nine-day high after global stocks hit historic record",
+        "description": "Bitcoin set new highs for July after the Dow Jones and global stocks market cap set new all-time highs before the US Independence Day holiday.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-tags-623k-nine-day-high-after-global-stocks-hit-historic-record",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-ipo-stocks-explained2.jpg",
+        "publishedAt": "2026-07-03T15:11:30Z",
+        "content": "Bitcoin (BTC) saw new July highs on Friday as bulls kept pushing over the US holiday period.\r\nKey points:\r\n<ul><li>Bitcoin sustains upside momentum as BTC price action nears its 200-week moving avera… [+2556 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-267115-how-volatility-futures-are-redefining-risk-in-bitcoin.jpg",
         "publishedAt": "2026-06-29T17:44:49Z",
         "content": "Bitcoin (BTC) struggled near $60,000 around Mondays Wall Street open as bulls increasingly risked a support/resistance flip.\r\nKey points:\r\n<ul><li>Bitcoin bulls face an uphill struggle to flip $60,00… [+3694 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Coinbase, Kraken and OKX move to swoop up EU users affected by MiCA restrictions",
-        "description": "Several exchanges that have already been authorized by EU regulators are attempting to bring in users from companies unlicensed under the Markets in Crypto-Assets rules, offering transfer bonuses and prizes.",
-        "url": "https://cointelegraph.com/news/coinbase-okx-kraken-eu-users-mica",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-heres-what-you-pay-for-using-crypto-mica-eu.jpg",
-        "publishedAt": "2026-06-29T17:42:39Z",
-        "content": "Cryptocurrency exchanges already approved to operate in European Union member states under the soon-to-be enforced Markets in Crypto-Assets (MiCA) framework are incentivizing users from companies tha… [+2844 chars]"
       }
     ]
   }
