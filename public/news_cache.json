@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-04T11:37:44.813Z",
+  "timestamp": "2026-07-04T13:45:53.355Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Farage Reported to UK Standards Watchdog Over Alleged Crypto Lobbying",
+        "description": "A Labour MP says the Reform leader pressed the Bank of England on policy that could enrich his biggest donor, a major Tether investor.",
+        "url": "https://decrypt.co/372726/farage-reported-to-uk-standards-watchdog-over-alleged-crypto-lobbying",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/nigel-farage-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-07-03T13:06:56Z",
+        "content": "In brief\r\n<ul><li>Labour MP Phil Brickell has reported Nigel Farage to the Parliamentary Commissioner for Standards, alleging he lobbied the Bank of England on crypto policy that could benefit his bi… [+4207 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
+        "description": "U.S. institutional demand had its worst month ever in June. Large holders absorbed the selling, marking a divergence that has shown up near past cycle bottoms.",
+        "url": "https://www.coindesk.com/markets/2026/07/03/bitcoin-whales-bought-270-000-btc-in-two-weeks-even-as-etfs-bled-a-record-usd4-billion",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b53d077c4e5949d0efd6629978ef575ece087f83-2400x1350.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-03T11:45:33Z",
+        "content": "Large bitcoin holders bought more than 270,000 bitcoin BTC\r\n$61,903.56 ($16.7 billion) over the past two weeks, stepping in as U.S. institutions pulled money out at a record pace.\r\nU.S. spot bitcoin … [+838 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-heres-what-you-pay-for-using-crypto-mica-eu.jpg",
         "publishedAt": "2026-06-29T17:42:39Z",
         "content": "Cryptocurrency exchanges already approved to operate in European Union member states under the soon-to-be enforced Markets in Crypto-Assets (MiCA) framework are incentivizing users from companies tha… [+2844 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "BlackRock’s IBIT Reportedly Surpasses Fidelity In Bitcoin ETF Assets",
-        "description": "BlackRock's iShares Bitcoin Trust reportedly surpassed Fidelity in assets under management, reinforcing IBIT's lead in the Bitcoin ETF market.",
-        "url": "http://www.newsbtc.com/news/blackrocks-ibit-reportedly-surpasses-fidelity-in-bitcoin-etf-assets-2/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/06/stocks-897x598-1.jpg?fit=897%2C598",
-        "publishedAt": "2026-06-29T16:15:00Z",
-        "content": "For more details, visit the official Cryptobriefing platform.\r\n<ul><li>BlackRocks iShares Bitcoin Trust, known as IBIT, has reportedly surpassed Fidelity in assets under management.</li><li>The shift… [+3005 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Nikhilesh De",
-        "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing",
-        "description": "The blockchain analysis company published a proposed ontology for how investigators can identify clusters of crypto addresses and link them together.",
-        "url": "https://www.coindesk.com/policy/2026/06/29/crypto-analytics-firm-chainalysis-proposes-standards-for-blockchain-tracing",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/156b6115bb9e78bd98097290ad7a37a91e8db494-6000x3376.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-29T15:07:49Z",
-        "content": "The ontology lays out how Chainalysis views the role of attribution to these clusters, presenting a two-tier structure; the first tier \"defines the structural graph,\" while the second assesses how co… [+1167 chars]"
       }
     ]
   }
