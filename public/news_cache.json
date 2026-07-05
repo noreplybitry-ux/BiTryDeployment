@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-05T12:20:44.137Z",
+  "timestamp": "2026-07-05T14:47:50.754Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
+        "description": "Bitcoin price strength could \"break\" the entire downtrend if the reversal pattern completed, John Bollinger suggested in light of the BTC rebound.",
+        "url": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-layoffs-mount-as-exchanges-continue-to-be-ravaged-by-the-prevailing-bear-market-bitcoin-1.jpg",
+        "publishedAt": "2026-07-04T13:09:16Z",
+        "content": "Bitcoin (BTC) is completing a perfectly fractal reversal pattern that a well-known analyst hopes could end the bear market.\r\nKey points:\r\n<ul><li>Bitcoin is on the final leg of what could become a ma… [+2514 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-are-governments-implementing-the-guidelines-bitcoin.jpg",
         "publishedAt": "2026-06-30T03:53:34Z",
         "content": "Sovereign wealth funds have been accumulating spot Bitcoin, a sign that Bitcoins current price level is becoming attractive to institutional investors, according to MidChains CEO Basil Al Askari.\r\nWh… [+2513 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitcoin put-call ratio hits 1-year high: Are bears preparing for drop to $55K?",
-        "description": "Rising demand for put options and persistent ETF outflows highlight Bitcoin's weakness despite lower oil prices.",
-        "url": "https://cointelegraph.com/markets/bitcoin-put-call-ratio-hits-1-year-high-are-bears-preparing-for-drop-to-55k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-191991-bitcoin-bears-analysis-dismisses-btc-price-double-top.jpg",
-        "publishedAt": "2026-06-29T19:41:04Z",
-        "content": "Key takeaways:\r\n<ul><li>An extreme Bitcoin put-call options imbalance and a 19% delta skew reveal heavy hedging against downside price swings.</li><li>Strategys cash hoard eases short-term debt fears… [+3218 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Is in a Fight at $60K—Here's What the Charts Say",
-        "description": "BTC kissed $58,800 and bounced. The daily chart is deep in bear territory, and prediction markets are betting on further pain before a rebound.",
-        "url": "https://decrypt.co/372321/bitcoin-price-fight-60k-what-the-charts-say",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
-        "publishedAt": "2026-06-29T18:40:24Z",
-        "content": "In brief\r\n<ul><li>The Bitcoin daily price chart shows an RSI of 34, ADX of 36.9 trending bearish, a death-cross EMA setup, showing an organized decline.</li><li>The $58,035 support level held on Mond… [+4136 chars]"
       }
     ]
   }
