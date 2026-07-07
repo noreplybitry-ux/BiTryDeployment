@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-07T11:56:16.417Z",
+  "timestamp": "2026-07-07T14:52:57.421Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Strategy sells 3,588 Bitcoin for $216M to fund dividends, keeps $2.55B reserve intact",
+        "description": "Strategy sold 3,588 Bitcoin to fund dividends and replenish its US dollar reserve, while Bernstein said the company remains unlikely to become a forced seller.",
+        "url": "https://cointelegraph.com/news/strategy-sells-bitcoin-bernstein-btc-target",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-supply-michael-saylor-2.jpg",
+        "publishedAt": "2026-07-06T12:59:04Z",
+        "content": "Michael Saylor's Strategy sold 3,588 Bitcoin (BTC) to fund preferred stock dividend payments and replenish its cash reserves.\r\nStrategy sold the Bitcoin for $216 million, reducing its total holdings … [+2484 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Belgian regulator flags six unauthorized crypto providers after MiCA deadline",
+        "description": "Belgium’s FSMA warned consumers about six crypto-asset service providers it added to a fraudulent CASP list days after the EU’s MiCA transitional period expired.",
+        "url": "https://cointelegraph.com/news/belgium-unauthorized-crypto-firms-mica-deadline",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/european-union-eu-european-parliament-brussels-1.jpg",
+        "publishedAt": "2026-07-06T12:15:20Z",
+        "content": "Belgiums financial markets regulator warned consumers against six crypto-asset service providers (CASPs) it said were operating in the country without authorization, days after the European Unions Ma… [+2217 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-power-in-energy-and-how-new-technologies-can-shift-bitcoin-1.jpg",
         "publishedAt": "2026-06-30T17:44:31Z",
         "content": "By the end of 2025, the power capacity tied to artificial intelligence data centers worldwide had reached about 29.6 gigawatts (GW), enough to run all of New York state at peak demand, according to S… [+6438 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
-        "description": "The bank said the bill faces major hurdles, with passage boosting institutional crypto adoption and delays prolonging regulatory uncertainty.",
-        "url": "https://www.coindesk.com/policy/2026/06/30/jefferies-warns-of-crypto-market-volatility-as-clarity-act-faces-senate-test",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/9a03886b63f9f486ffe9b1e5246f92bf2b612c49-1500x998.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-06-30T14:41:59Z",
-        "content": "The Clarity Act is widely viewed as the crypto industry's most important market structure bill because it would establish clear rules for when digital assets are regulated as securities by the Securi… [+1383 chars]"
       }
     ]
   }
