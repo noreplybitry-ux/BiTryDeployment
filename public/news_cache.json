@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-06T22:18:51.821Z",
+  "timestamp": "2026-07-07T00:14:16.029Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Dubai tops Asian crypto hubs, India isolates banks from crypto: Asia Express",
+        "description": "SBI Crypto shuts 12th largest Bitcoin mining pool, India's central bank to firewall banks from crypto, Dubai overtakes Singapore and Hong Kong for licensed crypto firms. Asia Express.",
+        "url": "https://cointelegraph.com/features/asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-3.jpg",
+        "publishedAt": "2026-07-05T23:35:03Z",
+        "content": "India's central bank revives push to isolate banks from crypto: Report\r\nThe Indian central bank reportedly urged lawmakers to keep banks insulated from crypto and private stablecoins while preserving… [+8621 chars]"
+      },
       {
         "source": {
           "id": null,
