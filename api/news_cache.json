@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-07T14:52:57.421Z",
+  "timestamp": "2026-07-07T17:22:16.498Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price falls up to 4% on Strategy BTC sale as trader sees Summer 2022 repeat",
+        "description": "Bitcoin wiped out much of its latest gains thanks to a market reaction to Strategy's 3,600 BTC sell-off, but analysis eyed a potential buy announcement in the coming days.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-on-strategy-btc-sales",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-bitcoin-escrow-services-and-how-do-they-work-strategyb-1.jpg",
+        "publishedAt": "2026-07-06T15:22:45Z",
+        "content": "Bitcoin (BTC) saw flash volatility into Mondays Wall Street open as markets reacted to tech company Strategys new BTC sales.\r\nKey points:\r\n<ul><li>Bitcoin reacts sharply to news that Strategy had sol… [+2880 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Sony Crypto Exchange Push Moves Japan’s Digital Asset Market Into A New Phase",
+        "description": "Sony is putting its name closer to crypto trading in Japan, with Amber Japan being rebranded as S.BLOX as the group prepares a refreshed domestic exchange push. \n\n TL;DR \n\n \n\n This article was written by the News Desk and edited by Samuel Rae .",
+        "url": "http://www.newsbtc.com/news/sony-crypto-exchange-push-moves-japans-digital-asset-market-into-a-new-phase/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/10/SOL.jpg?fit=1365%2C768",
+        "publishedAt": "2026-07-06T14:56:00Z",
+        "content": "Sony is putting its name closer to crypto trading in Japan, with Amber Japan being rebranded as S.BLOX as the group prepares a refreshed domestic exchange push.\r\nFor more details, visit the official … [+1997 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Binanace-CZ-decrypt-style-02-gID_7.jpg",
         "publishedAt": "2026-06-30T21:16:18Z",
         "content": "In brief\r\n<ul><li>Changpeng \"CZ\" Zhao and Binance were named in a lawsuit seeking nearly $200 million in the U.K. </li><li>The suit alleges the firm offered risky financial products without appropria… [+2303 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
-        "description": "Bitcoin faced downside pressure as the US dollar hit its highest levels against the Japanese yen since 1986, while BTC price analysis revealed \"capitulation\" by 2025 top-buyers.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-slumps-to-near-58k-as-us-dollar-hits-40-year-high-against-yen",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-201145-japan-remixpoint-ceo-salary-bitcoin.jpg",
-        "publishedAt": "2026-06-30T18:17:56Z",
-        "content": "Bitcoin (BTC) fell toward $58,000 around Tuesdays Wall Street open as the clock ticked down to a brutal quarterly close.\r\nKey points:\r\n<ul><li>US stocks' Q2 gains leave Bitcoin far behind as bulls nu… [+3750 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Artem G",
-        "title": "AI’s power crunch turns Bitcoin miners’ grid access into an asset",
-        "description": "AI data centers are straining power grids, turning Bitcoin miners’ energized sites into valuable infrastructure for HPC and cloud deals.",
-        "url": "https://cointelegraph.com/features/bitcoin-miners-ai-data-centers-power-infrastructure",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-power-in-energy-and-how-new-technologies-can-shift-bitcoin-1.jpg",
-        "publishedAt": "2026-06-30T17:44:31Z",
-        "content": "By the end of 2025, the power capacity tied to artificial intelligence data centers worldwide had reached about 29.6 gigawatts (GW), enough to run all of New York state at peak demand, according to S… [+6438 chars]"
       }
     ]
   }
