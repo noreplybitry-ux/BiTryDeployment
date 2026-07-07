@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-07T17:22:16.498Z",
+  "timestamp": "2026-07-07T20:03:48.208Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Logan Hitchcock",
+        "title": "Bitcoin Hits Highest Price in Weeks as Bernstein Analysts Maintain 'Ambitious' $150K Target",
+        "description": "The financial firm admitted Bitcoin's retrace has been painful, but still holds a lofty year-end price prediction for the top crypto asset.",
+        "url": "https://decrypt.co/372851/bitcoin-highest-price-weeks-bernstein-ambitious-150k-target",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
+        "publishedAt": "2026-07-06T19:58:25Z",
+        "content": "In brief\r\n<ul><li>Bernstein analysts kept a $150,000 Bitcoin price forecast in play despite its nearly 50% retrace from all-time highs. </li><li>Analysts pointed to potential regulatory clarity and S… [+2612 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-251386-ethereum-price-drops-1-8k-data-eth-bears-not-done-yet.jpg",
         "publishedAt": "2026-06-30T21:16:47Z",
         "content": "Key takeaways:\r\n<ul><li>The Spot Ether ETF outflows overwhelmed BitMines ETH accumulation, raising the chance of a drop below the $1,500 support.</li><li>Falling DApps revenue and weak staking yields… [+3361 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Binance, Changpeng Zhao Sued for $200M by British Investors: Reuters",
-        "description": "Crypto exchange Binance and its founder were sued for nearly $200 million in a new lawsuit filed in the United Kingdom.",
-        "url": "https://decrypt.co/372452/binance-changpeng-zhao-sued-200-million-british-investors-reuters",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Binanace-CZ-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-06-30T21:16:18Z",
-        "content": "In brief\r\n<ul><li>Changpeng \"CZ\" Zhao and Binance were named in a lawsuit seeking nearly $200 million in the U.K. </li><li>The suit alleges the firm offered risky financial products without appropria… [+2303 chars]"
       }
     ]
   }
