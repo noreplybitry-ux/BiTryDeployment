@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-07T00:14:16.029Z",
+  "timestamp": "2026-07-07T04:57:49.276Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-low-latency-is-important-for-cryptocurrency-exchanges-etf.jpg",
         "publishedAt": "2026-06-30T05:49:50Z",
         "content": "Tech-focused asset manager ARK Invest has capitalized on the recent crypto market downturn, buying a combined $43.5 million worth of shares in crypto firms such as Coinbase and Circle over the past t… [+1765 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Martin Young",
-        "title": "Sovereign funds see Bitcoin discount as entry point: MidChains CEO",
-        "description": "It sends “a very clear signal” to other institutions that may be sitting on the sidelines and looking at these larger funds as leaders, said MidChains CEO Basil Al Askari.",
-        "url": "https://cointelegraph.com/news/sovereign-funds-see-bitcoin-discount-as-entry-point-midchains-ceo-says",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-are-governments-implementing-the-guidelines-bitcoin.jpg",
-        "publishedAt": "2026-06-30T03:53:34Z",
-        "content": "Sovereign wealth funds have been accumulating spot Bitcoin, a sign that Bitcoins current price level is becoming attractive to institutional investors, according to MidChains CEO Basil Al Askari.\r\nWh… [+2513 chars]"
       }
     ]
   }
