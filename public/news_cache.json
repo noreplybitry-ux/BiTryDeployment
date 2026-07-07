@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-07T20:03:48.207Z",
+  "timestamp": "2026-07-07T22:15:19.580Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,32 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/arrest-police-crime-prison-jail-imprisonment-man-person2.jpg",
         "publishedAt": "2026-07-01T03:47:30Z",
         "content": "Hollywood director Carl Rinsch has been sentenced to two and a half years in prison for defrauding Netflix out of $11 million, which he spent on crypto, stocks and luxury goods.\r\nA Manhattan federal … [+3642 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin just $5K away from ‘best investment opportunity’ of bear market",
-        "description": "Bitcoin's recent selloff brought it within 10% of its realized price — a line that has marked the bottoming zone in Bitcoin's previous bear markets.",
-        "url": "https://cointelegraph.com/markets/bitcoin-is-just-a-5k-drop-away-from-its-best-investment-opportunity-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-226789-bitcoin-scrapes-new-lows-as-tech-stocks-drop-data-forecasts-btc-dip-below-dollar.jpg",
-        "publishedAt": "2026-06-30T21:49:08Z",
-        "content": "Bitcoin (BTC) is fast approaching a buying level that analysts describe as a top investment opportunity.\r\nKey points:\r\n<ul><li>Bitcoin only needs to dip another $5,000 to hit a buy-in level that has … [+2504 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?",
-        "description": "Tokenization and RWA TVL growth highlight Ethereum’s fundamentals, but stagnant DApps and spot ETF outflows keep the pressure on ETH price.",
-        "url": "https://cointelegraph.com/markets/bitmine-ether-buys-eclipsed-by-345m-eth-etf-345m-outflows-is-sub-15k-next",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-251386-ethereum-price-drops-1-8k-data-eth-bears-not-done-yet.jpg",
-        "publishedAt": "2026-06-30T21:16:47Z",
-        "content": "Key takeaways:\r\n<ul><li>The Spot Ether ETF outflows overwhelmed BitMines ETH accumulation, raising the chance of a drop below the $1,500 support.</li><li>Falling DApps revenue and weak staking yields… [+3361 chars]"
       }
     ]
   }
