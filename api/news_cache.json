@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-08T19:41:25.754Z",
+  "timestamp": "2026-07-08T21:14:10.107Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Vanguard seeks digital assets chief after years of crypto skepticism",
+        "description": "Vanguard is hiring a head of digital assets to lead its strategy for tokenization, stablecoins and blockchain infrastructure as asset managers expand onchain products.",
+        "url": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-and-blockchain-job-market.jpg",
+        "publishedAt": "2026-07-07T20:57:02Z",
+        "content": "Vanguard is hiring a head of digital assets to lead the asset manager's strategy on tokenization, stablecoins, blockchain infrastructure and client-facing digital asset products, signaling a broader … [+2625 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/05/iStock-485863805.jpg?fit=2120%2C1415",
         "publishedAt": "2026-07-01T19:15:00Z",
         "content": "Crypto exchange balances saw a notable withdrawal wave heading into July 1, with USDC and Bitcoin leading approximately $850 million in net outflows from centralized platforms. The move adds another … [+3255 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "US Bitcoin Demand Stays Weak As Coinbase Premium Remains Negative",
-        "description": "The Coinbase Premium Index has reportedly stayed negative since May 6, pointing to softer US Bitcoin demand relative to global venues.",
-        "url": "http://www.newsbtc.com/news/us-bitcoin-demand-stays-weak-as-coinbase-premium-remains-negative/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/02/Picture8_3c49da.jpg?fit=936%2C524",
-        "publishedAt": "2026-07-01T17:45:00Z",
-        "content": "Bitcoins US demand signal is still struggling to recover, with the Coinbase Premium Index reportedly sitting in negative territory for eight straight weeks. The run began on May 6, 2026, and now mark… [+2886 chars]"
       }
     ]
   }
