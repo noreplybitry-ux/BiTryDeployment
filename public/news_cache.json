@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-08T17:43:08.449Z",
+  "timestamp": "2026-07-08T19:41:25.753Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Crypto exchange Kraken is trying to become a bank in Europe",
+        "description": "Kraken's focus is on Lithuania as the jurisdiction to secure the license, according to a person familiar with the plans.",
+        "url": "https://www.coindesk.com/business/2026/07/07/crypto-exchange-kraken-is-trying-to-become-a-bank-in-europe",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-07T18:38:10Z",
+        "content": "Kraken, the cryptocurrency exchange planning to go public in the U.S., is pursuing a full banking license in Europe, with a focus on Lithuania as the jurisdiction to secure it, according to a person … [+910 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/02/Picture8_3c49da.jpg?fit=936%2C524",
         "publishedAt": "2026-07-01T17:45:00Z",
         "content": "Bitcoins US demand signal is still struggling to recover, with the Coinbase Premium Index reportedly sitting in negative territory for eight straight weeks. The run began on May 6, 2026, and now mark… [+2886 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Anchorage Digital brings off-exchange settlement to Binance",
-        "description": "The integration addresses one of the biggest obstacles keeping institutional capital on the sidelines of crypto markets: exchange counterparty risk.",
-        "url": "https://cointelegraph.com/news/anchorage-digital-expands-binance-access-with-off-exchange-settlement-for-institutions",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-banks-are-seeing-ways-to-make-money-from-crypto-custody.png",
-        "publishedAt": "2026-07-01T16:55:48Z",
-        "content": "Anchorage Digital has integrated its off-exchange settlement platform with Binance, allowing institutional clients to trade on the exchange while keeping their crypto and cash in qualified custody at… [+2698 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price returns to $60K as US dollar strength rejects weekly high",
-        "description": "Bitcoin started July with a push beyond $60,000 as US dollar strength cooled, prompting renewed calls for a relief rally to continue throughout the coming month.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-returns-to-60k-as-us-dollar-strength-rejects-from-weekly-high",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-lazer-eyes-and-bull-run1.jpg",
-        "publishedAt": "2026-07-01T16:47:01Z",
-        "content": "Bitcoin (BTC) rallied to $60,000 at Wednesdays Wall Street open as stocks moved higher and US dollar strength fell.\r\nKey points:\r\n<ul><li>Bitcoin catches an early tailwind at the start of July's firs… [+3004 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Solana USDC Liquidity Jumps As Circle Mints Another $1 Billion",
-        "description": "Circle reportedly minted another $1 billion of USDC on Solana, adding to the network’s already large gross issuance total for 2026.",
-        "url": "http://www.newsbtc.com/news/solana-usdc-liquidity-jumps-as-circle-mints-another-1-billion/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/10/SOL.jpg?fit=1365%2C768",
-        "publishedAt": "2026-07-01T16:15:00Z",
-        "content": "Solana has received another major injection of stablecoin liquidity after Circle reportedly minted an additional $1 billion in USDC on the network around July 1. The move adds to a year that has alre… [+3021 chars]"
       }
     ]
   }
