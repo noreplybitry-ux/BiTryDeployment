@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-08T12:24:34.412Z",
+  "timestamp": "2026-07-08T15:25:45.161Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off",
+        "description": "Bitcoin price action is \"at a critical point,\" says John Bollinger as BTC surfs a fresh US stocks dip on the day SpaceX joins the Nasdaq 100.",
+        "url": "https://cointelegraph.com/markets/bitcoin-bulls-battle-for-63k-as-micron-stock-eyes-10-drop-in-us-chip-sell-off",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-trade-wars-impact-stocks-and-crypto.jpg",
+        "publishedAt": "2026-07-07T15:13:25Z",
+        "content": "Bitcoin (BTC) circled $63,000 after Tuesdays Wall Street open as chip companies led a dip in US stocks.\r\nKey points:\r\n<ul><li>Bitcoin attempts to hold $63,000 after seeing its highest levels in two w… [+2758 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Has Bitcoin bottomed for this cycle? Analysts say 'not yet'",
+        "description": "Some Bitcoin analysts point to a deeper downside risk, while others believes they can see the early signs of a recovery.",
+        "url": "https://cointelegraph.com/features/how-much-longer-until-bitcoin-finds-cycle-bottom-analysts-disagree",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-true-or-false-about-bitcoin-and-crypto-are-totally-wrong.jpg",
+        "publishedAt": "2026-07-07T13:30:00Z",
+        "content": "Bitcoin is trading in a market thats getting harder to define.\r\nHovering around $64,000 at the time of writing, Bitcoin is down by almost 50% from its cycle peak. That's a much shallower draw down th… [+6854 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/10/SOL.jpg?fit=1365%2C768",
         "publishedAt": "2026-07-01T16:15:00Z",
         "content": "Solana has received another major injection of stablecoin liquidity after Circle reportedly minted an additional $1 billion in USDC on the network around July 1. The move adds to a year that has alre… [+3021 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley",
-        "title": "Ark Invest bought more than $75 million of crypto shares during June bloodbath",
-        "description": "The Cathie Wood-led investment firm has a tendency to \"buy the dip,\" loading up on shares in cryptocurrency companies at times when their prices are depressed.",
-        "url": "https://www.coindesk.com/markets/2026/07/01/ark-invest-bought-more-than-usd75-million-of-crypto-shares-during-june-bloodbath",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6ccf18504f2934569339f68665f855f679f37378-4312x2426.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-01T11:42:22Z",
-        "content": "Ark Invest has a tendency to load up on shares in cryptocurrency companies when their prices are depressed, and June was no exception.\r\nBitcoin BTC\r\n$58,551.99, the largest cryptocurrency, recorded i… [+918 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jesse Coghlan",
-        "title": "‘47 Ronin’ director who gambled Netflix funds on crypto gets 30 months",
-        "description": "Carl Rinsch will serve two and a half years in prison for taking money meant for a Netflix show to buy Dogecoin, stocks and luxury goods.",
-        "url": "https://cointelegraph.com/news/47-ronin-director-who-gambled-netflix-funds-on-crypto-gets-30-months",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/arrest-police-crime-prison-jail-imprisonment-man-person2.jpg",
-        "publishedAt": "2026-07-01T03:47:30Z",
-        "content": "Hollywood director Carl Rinsch has been sentenced to two and a half years in prison for defrauding Netflix out of $11 million, which he spent on crypto, stocks and luxury goods.\r\nA Manhattan federal … [+3642 chars]"
       }
     ]
   }
