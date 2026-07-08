@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-08T21:14:10.107Z",
+  "timestamp": "2026-07-08T23:13:42.826Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Tether Invests $20 Million in Mercado Bitcoin to Fuel Expansion Across Latin America",
+        "description": "Brazilian crypto exchange Mercado Bitcoin has raised $20 million in fresh investment from USDT stablecoin issuer Tether.",
+        "url": "https://decrypt.co/372946/tether-invests-20-million-mercado-bitcoin-fuel-expansion-latin-america",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Tether-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-07-07T21:31:09Z",
+        "content": "In brief\r\n<ul><li>Tether will invest $20 million in a strategic financing round for Mercado Bitcoin, a Brazilian crypto platform, to expand blockchain-based financial services in Latin America.</li><… [+2768 chars]"
+      },
       {
         "source": {
           "id": null,
