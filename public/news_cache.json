@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-08T15:25:45.161Z",
+  "timestamp": "2026-07-08T17:43:08.449Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Tether invests in Mercado Bitcoin as blockchain finance expands in Latin America",
+        "description": "Mercado Bitcoin will use the funding to expand tokenized finance across Latin America, adding to Tether's growing portfolio of infrastructure investments.",
+        "url": "https://cointelegraph.com/news/tether-invests-20m-in-mercado-bitcoin-to-expand-tokenized-finance-in-latin-america",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/canada-tether.png",
+        "publishedAt": "2026-07-07T16:43:07Z",
+        "content": "Tether has invested $20 million in Brazilian crypto platform Mercado Bitcoin to support the company's expansion into tokenized assets, stablecoin payments, lending and other blockchain-based financia… [+2464 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Institutional crypto exchange EDX lands $76M from SBI Holdings",
+        "description": "The funding round comes as institutional investors continue backing crypto market infrastructure despite slower venture investment across the digital asset sector.",
+        "url": "https://cointelegraph.com/news/institutional-crypto-exchange-edx-lands-76m-from-sbi-holdings",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-edx.png",
+        "publishedAt": "2026-07-07T16:16:35Z",
+        "content": "EDX Markets, a cryptocurrency exchange focused on institutional investors, has raised $76 million in a Series C funding round led by Japans SBI Holdings, marking one of the larger funding rounds this… [+2400 chars]"
+      },
       {
         "source": {
           "id": null,
