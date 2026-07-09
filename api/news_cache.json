@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-09T07:47:16.735Z",
+  "timestamp": "2026-07-09T11:10:06.303Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-yield-farming-in-defi-stablecoin.jpg",
         "publishedAt": "2026-07-02T10:23:33Z",
         "content": "Yield-bearing stablecoin supply fell by more than $3.5 billion in the second quarter of 2026, reversing nearly three years of quarterly growth as crypto-native products contracted and Treasury-backed… [+2710 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Robinhood Launches 'AI-Native' Ethereum Layer-2 Network, Tokenized Stock Trading",
-        "description": "Brokerage and crypto exchange Robinhood opened the public mainnet for its Arbitrum-powered Ethereum layer-2 network on Wednesday.",
-        "url": "https://decrypt.co/372614/robinhood-ai-native-ethereum-layer-2-network-tokenized-stock-trading",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-07-01T20:56:38Z",
-        "content": "In brief\r\n<ul><li>Robinhood launched the public mainnet of Robinhood Chain, an \"AI-native\" Ethereum layer-2 network.</li><li>The chain further bridges the firm's traditional financial offerings with … [+2606 chars]"
       }
     ]
   }
