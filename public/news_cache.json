@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-10T08:29:07.542Z",
+  "timestamp": "2026-07-10T11:57:11.324Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Singapore's Temasek investment fund says crypto is off the table, will focus on AI",
+        "description": "The $400 billion wealth fund plans to expand AI holdings to 15% of its portfolio by 2031 from the current 6%.",
+        "url": "https://www.coindesk.com/business/2026/07/09/singapore-s-temasek-investment-fund-says-crypto-is-off-the-table-will-focus-on-ai",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d6ff7ac663416cc8d1eafb78db5bcac050ac5db9-1600x1200.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-09T10:22:35Z",
+        "content": "Singapores state-owned investment firm, Temasek Holdings, said it will prioritize AI investments over crypto due to regulatory uncertainty and the lingering impact of a $275 million write-off from th… [+911 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin ETFs end 'most overwhelming' $2.7B sell-off amid new $85M net outflow",
+        "description": "Bitcoin spot ETFs posted a fresh net outflow on Wednesday as analysis said that their \"most overwhelming\" outflow streak had ended without a clear demand recovery.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etfs-end-most-overwhelming-sell-off-amid-new-85m-net-outflow",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/photo5366486023912757477y.jpg",
+        "publishedAt": "2026-07-09T09:58:07Z",
+        "content": "Bitcoin (BTC) institutional demand is not yet strong despite positive inflows to the US spot Bitcoin exchange-traded funds (ETFs).\r\nKey points:\r\n<ul><li>Bitcoin ETF flows reverse a ten-day losing str… [+2388 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "A 20-Year-Old's Crypto Wallet Moved $123M in Romance-Scam Cash: Interpol Says",
+        "description": "The two Thai arrests were part of Operation First Light, a 97-country sweep that logged 5,811 arrests and intercepted $293 million.",
+        "url": "https://decrypt.co/373107/a-20-year-olds-crypto-wallet-moved-123m-in-romance-scam-cash-interpol-says",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-07-09T09:21:54Z",
+        "content": "In brief\r\n<ul><li>Thai police arrested two people over a scheme that laundered romance-scam proceeds through crypto, using cross-chain swaps to hide the trail, Interpol said. One suspect, aged 20, co… [+4493 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-layoffs-mount-as-exchanges-continue-to-be-ravaged-by-the-prevailing-bear-market-bitcoin-1.jpg",
         "publishedAt": "2026-07-04T13:09:16Z",
         "content": "Bitcoin (BTC) is completing a perfectly fractal reversal pattern that a well-known analyst hopes could end the bear market.\r\nKey points:\r\n<ul><li>Bitcoin is on the final leg of what could become a ma… [+2514 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price tags $62.3K nine-day high after global stocks hit historic record",
-        "description": "Bitcoin set new highs for July after the Dow Jones and global stocks market cap set new all-time highs before the US Independence Day holiday.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-tags-623k-nine-day-high-after-global-stocks-hit-historic-record",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-ipo-stocks-explained2.jpg",
-        "publishedAt": "2026-07-03T15:11:30Z",
-        "content": "Bitcoin (BTC) saw new July highs on Friday as bulls kept pushing over the US holiday period.\r\nKey points:\r\n<ul><li>Bitcoin sustains upside momentum as BTC price action nears its 200-week moving avera… [+2556 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Farage Reported to UK Standards Watchdog Over Alleged Crypto Lobbying",
-        "description": "A Labour MP says the Reform leader pressed the Bank of England on policy that could enrich his biggest donor, a major Tether investor.",
-        "url": "https://decrypt.co/372726/farage-reported-to-uk-standards-watchdog-over-alleged-crypto-lobbying",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/nigel-farage-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-07-03T13:06:56Z",
-        "content": "In brief\r\n<ul><li>Labour MP Phil Brickell has reported Nigel Farage to the Parliamentary Commissioner for Standards, alleging he lobbied the Bank of England on crypto policy that could benefit his bi… [+4207 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
-        "description": "U.S. institutional demand had its worst month ever in June. Large holders absorbed the selling, marking a divergence that has shown up near past cycle bottoms.",
-        "url": "https://www.coindesk.com/markets/2026/07/03/bitcoin-whales-bought-270-000-btc-in-two-weeks-even-as-etfs-bled-a-record-usd4-billion",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b53d077c4e5949d0efd6629978ef575ece087f83-2400x1350.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-03T11:45:33Z",
-        "content": "Large bitcoin holders bought more than 270,000 bitcoin BTC\r\n$61,903.56 ($16.7 billion) over the past two weeks, stepping in as U.S. institutions pulled money out at a record pace.\r\nU.S. spot bitcoin … [+838 chars]"
       }
     ]
   }
