@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-10T04:56:52.940Z",
+  "timestamp": "2026-07-10T08:29:07.542Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph",
+        "title": "Regulators invited Binance to seek new licenses after MiCA setback, co-CEO says",
+        "description": "Binance says it is in early talks with regulators over crypto licenses after withdrawing its MiCA application in Greece amid EU regulatory changes.",
+        "url": "https://cointelegraph.com/news/regulators-invite-binance-seek-new-license-mica-setback-teng",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-emergence-of-bnb-as-a-global-defi-infrastructure-1.jpg",
+        "publishedAt": "2026-07-09T08:26:30Z",
+        "content": "Binance is in talks with regulators that have invited the exchange to apply for crypto licenses following its withdrawal from the Markets in Crypto-Assets Regulation (MiCA) application in Greece, acc… [+3143 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russia's largest private bank Alfa-Bank tests crypto trading",
+        "description": "Alfa-Bank is testing cryptocurrency trading for qualified investors as Russia moves toward regulating digital assets and banks prepare new crypto services.",
+        "url": "https://cointelegraph.com/news/russia-largest-private-bank-alfa-bank-crypto-services",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-russias-central-bank-digital-currency-prospects-and-problems22.jpg",
+        "publishedAt": "2026-07-09T08:22:36Z",
+        "content": "Russias largest private bank, Alfa-Bank, is reportedly preparing to offer cryptocurrency services as the country continues developing a legal framework for the digital asset market.\r\nDmitry Vitman, c… [+2276 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b53d077c4e5949d0efd6629978ef575ece087f83-2400x1350.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-03T11:45:33Z",
         "content": "Large bitcoin holders bought more than 270,000 bitcoin BTC\r\n$61,903.56 ($16.7 billion) over the past two weeks, stepping in as U.S. institutions pulled money out at a record pace.\r\nU.S. spot bitcoin … [+838 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Japanese Financial Giant SBI to Shut Down Bitcoin Mining Pool",
-        "description": "SBI Crypto, the subsidiary of the Japanese financial giant, is the latest firm to shutter its Bitcoin mining endeavor.",
-        "url": "https://decrypt.co/372686/japanese-financial-giant-sbi-shut-down-bitcoin-mining-pool",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-mining-decrypt-style-03-gID_7.png",
-        "publishedAt": "2026-07-02T18:28:47Z",
-        "content": "In brief\r\n<ul><li>SBI Crypto is ending its Bitcoin mining pool service, the 11th largest according to Hashrate Index. </li><li>The firm joins a growing list of other Bitcoin miners that are ending op… [+2664 chars]"
       }
     ]
   }
