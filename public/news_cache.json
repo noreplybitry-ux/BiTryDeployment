@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-10T14:46:31.360Z",
+  "timestamp": "2026-07-10T17:01:05.986Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Can Bitcoin hold $62K ahead of Friday’s $1.4 billion options expiry?",
+        "description": "Bitcoin traders watch as BTC reclaims $63k ahead of $1.4B Deribit expiry, with Treasury yields sparking correction fears.",
+        "url": "https://cointelegraph.com/markets/can-bitcoin-hold-62k-ahead-of-fridays-14-billion-options-expiry",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-options-expiry-explained-what-it-means-for-traders.jpg",
+        "publishedAt": "2026-07-09T16:31:10Z",
+        "content": "Bitcoin (BTC) reclaimed the $63,000 mark on Thursday, but traders fear a correction ahead of Fridays $1.4 billion options expiry on Deribit. The concerns stem from the US government bond yield climbi… [+3166 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-assess-the-value-of-binance.jpg",
         "publishedAt": "2026-07-05T08:33:39Z",
         "content": "Binance, the worlds largest crypto exchange by trading volumes, recorded a sharp surge in weekly outflows as Ethereum withdrawal activity climbed to a multi-year high.\r\nAccording to DefiLlama data vi… [+2450 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
-        "description": "Bitcoin price strength could \"break\" the entire downtrend if the reversal pattern completed, John Bollinger suggested in light of the BTC rebound.",
-        "url": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-layoffs-mount-as-exchanges-continue-to-be-ravaged-by-the-prevailing-bear-market-bitcoin-1.jpg",
-        "publishedAt": "2026-07-04T13:09:16Z",
-        "content": "Bitcoin (BTC) is completing a perfectly fractal reversal pattern that a well-known analyst hopes could end the bear market.\r\nKey points:\r\n<ul><li>Bitcoin is on the final leg of what could become a ma… [+2514 chars]"
       }
     ]
   }
