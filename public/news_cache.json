@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-11T10:18:53.108Z",
+  "timestamp": "2026-07-11T11:56:07.500Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum approaches $1,800 as bulls test key resistance",
+        "description": "Key takeaways Ethereum (ETH) is extending its recovery, trading near $1,800, a key technical resistance level. Despite improving momentum, ETH remains below its 50-day, 100-day, and 200-day EMAs, keeping the broader trend cautious. Technical indicators, inclu…",
+        "url": "https://coinjournal.net/news/ethereum-approaches-1800-as-bulls-test-key-resistance/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-10-2026-11_30_23-AM.png",
+        "publishedAt": "2026-07-10T10:33:34Z",
+        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) is extending its recovery, trading near $1,800, a key technical resistance level.</li><li>Despite improving momentum, ETH remains below its 50-day, 100-day, and … [+2335 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f51f4fb1abaeae6f744f3245167da2a894eac1b1-1024x569.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-06T10:01:24Z",
         "content": "Ripple said Monday that Luxembourg upgraded its preliminary Crypto-Asset Service Provider (CASP) authorization under the European Unions (EU) Markets in Crypto-Assets (MiCA) regulations to a full lic… [+1115 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Dubai tops Asian crypto hubs, India isolates banks from crypto: Asia Express",
-        "description": "SBI Crypto shuts 12th largest Bitcoin mining pool, India's central bank to firewall banks from crypto, Dubai overtakes Singapore and Hong Kong for licensed crypto firms. Asia Express.",
-        "url": "https://cointelegraph.com/features/asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-3.jpg",
-        "publishedAt": "2026-07-05T23:35:03Z",
-        "content": "India's central bank revives push to isolate banks from crypto: Report\r\nThe Indian central bank reportedly urged lawmakers to keep banks insulated from crypto and private stablecoins while preserving… [+8621 chars]"
       }
     ]
   }
