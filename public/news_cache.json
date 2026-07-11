@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-11T16:04:10.209Z",
+  "timestamp": "2026-07-11T17:58:06.694Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "New Hampshire council votes down $100M Bitcoin bonds",
+        "description": "State representative Keith Ammon said the New Hampshire executive council's vote against Bitcoin-backed bonds was “short-sighted,” urging the body to reconsider the measure.",
+        "url": "https://cointelegraph.com/news/new-hampshire-votes-against-bitcoin-bonds",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoin-replace-bonds-in-institutional-portfolios.png",
+        "publishedAt": "2026-07-10T17:23:10Z",
+        "content": "Policymakers in New Hampshires executive council voted against a proposal that would have allowed the state to issue $100 million in bonds backed by Bitcoin (BTC).\r\nAt a Wednesday hearing, the five-m… [+1767 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,32 +316,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
         "publishedAt": "2026-07-06T19:58:25Z",
         "content": "In brief\r\n<ul><li>Bernstein analysts kept a $150,000 Bitcoin price forecast in play despite its nearly 50% retrace from all-time highs. </li><li>Analysts pointed to potential regulatory clarity and S… [+2612 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price falls up to 4% on Strategy BTC sale as trader sees Summer 2022 repeat",
-        "description": "Bitcoin wiped out much of its latest gains thanks to a market reaction to Strategy's 3,600 BTC sell-off, but analysis eyed a potential buy announcement in the coming days.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-on-strategy-btc-sales",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-bitcoin-escrow-services-and-how-do-they-work-strategyb-1.jpg",
-        "publishedAt": "2026-07-06T15:22:45Z",
-        "content": "Bitcoin (BTC) saw flash volatility into Mondays Wall Street open as markets reacted to tech company Strategys new BTC sales.\r\nKey points:\r\n<ul><li>Bitcoin reacts sharply to news that Strategy had sol… [+2880 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Sony Crypto Exchange Push Moves Japan’s Digital Asset Market Into A New Phase",
-        "description": "Sony is putting its name closer to crypto trading in Japan, with Amber Japan being rebranded as S.BLOX as the group prepares a refreshed domestic exchange push. \n\n TL;DR \n\n \n\n This article was written by the News Desk and edited by Samuel Rae .",
-        "url": "http://www.newsbtc.com/news/sony-crypto-exchange-push-moves-japans-digital-asset-market-into-a-new-phase/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/10/SOL.jpg?fit=1365%2C768",
-        "publishedAt": "2026-07-06T14:56:00Z",
-        "content": "Sony is putting its name closer to crypto trading in Japan, with Amber Japan being rebranded as S.BLOX as the group prepares a refreshed domestic exchange push.\r\nFor more details, visit the official … [+1997 chars]"
       }
     ]
   }
