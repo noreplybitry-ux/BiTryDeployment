@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-11T11:56:07.500Z",
+  "timestamp": "2026-07-11T13:41:14.225Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "US charges prisoner over alleged laundering of seized Kraken crypto",
+        "description": "US prosecutors charged a federal prisoner with moving $290,000 in forfeited crypto from a restrained Kraken account through exchanges and mixers.",
+        "url": "https://cointelegraph.com/news/us-prisoner-290k-crypto-restrained-kraken-account",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-spot-an-exit-scam-doj.jpg",
+        "publishedAt": "2026-07-10T12:27:40Z",
+        "content": "United States prosecutors have charged a man serving a federal prison sentence over the alleged removal and laundering of about $290,000 in crypto assets held in a Kraken account subject to a forfeit… [+2265 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-6-2026-11_48_20-AM.png",
         "publishedAt": "2026-07-06T10:49:20Z",
         "content": "Key takeaways\r\n<ul><li>Bitcoin is trading below $64,000 after rallying more than 6% last week.</li><li>U.S. spot Bitcoin ETFs recorded $526.64 million in net outflows, marking an eighth consecutive w… [+3836 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Ripple's preliminary crypto asset provider license in Luxembourg upgraded to fully compliant",
-        "description": "The approval means Ripple is now fully MiCA-compliant for payments, financial institutions, corporates and businesses across all 30 European Economic Area countries.",
-        "url": "https://www.coindesk.com/policy/2026/07/06/ripple-s-preliminary-crypto-asset-provider-license-in-luxembourg-upgraded-to-fully-compliant",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f51f4fb1abaeae6f744f3245167da2a894eac1b1-1024x569.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-06T10:01:24Z",
-        "content": "Ripple said Monday that Luxembourg upgraded its preliminary Crypto-Asset Service Provider (CASP) authorization under the European Unions (EU) Markets in Crypto-Assets (MiCA) regulations to a full lic… [+1115 chars]"
       }
     ]
   }
