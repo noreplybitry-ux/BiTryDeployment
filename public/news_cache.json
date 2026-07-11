@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-11T13:41:14.225Z",
+  "timestamp": "2026-07-11T14:59:48.253Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin whales sent BTC price to $64K as Coinbase Premium broke key level: CryptoQuant",
+        "description": "Bitcoin price gains came thanks to US whales propeling the Coinbase Premium above a key trend line, new analysis from CryptoQuant reported.",
+        "url": "https://cointelegraph.com/markets/bitcoin-whales-sent-btc-price-to-64k-as-coinbase-premium-broke-key-level-cryptoquant",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-experts-discuss-what-the-current-number-of-whales-interest-in-futures-means-for-the-market1.jpg",
+        "publishedAt": "2026-07-10T14:59:30Z",
+        "content": "Bitcoin (BTC) demand shifts are behind the price rebound to $64,000, new analysis claims.\r\nKey points:\r\n<ul><li>New Bitcoin price analysis says that US whales are behind the latest spate of BTC price… [+2769 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/69d88d811de6cddb538ec7d407061b9d441d2dd2-2048x1536.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-06T11:36:05Z",
         "content": "Non-qualified investors will be allowed to trade under testing requirements and limits capped at roughly 300,000 rubles (around $3,800) per year, while market participants will have until July 1, 202… [+1232 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Ethereum begins new week on strong footing as bulls target key breakout levels",
-        "description": "Key takeaways Bitcoin, Ethereum, and XRP started the week holding onto last week’s strong gains. Ethereum is approaching its 50-day EMA near $1,806, a key hurdle for extending its recovery. Bitcoin (BTC), Ethereum (ETH) and Ripple (XRP) began the week on a co…",
-        "url": "https://coinjournal.net/news/ethereum-begins-new-week-on-strong-footing-as-bulls-target-key-breakout-levels/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-6-2026-12_00_42-PM.png",
-        "publishedAt": "2026-07-06T11:01:53Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin, Ethereum, and XRP started the week holding onto last week’s strong gains.</li><li>Ethereum is approaching its 50-day EMA near $1,806, a key hurdle for extending its re… [+1770 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin dips below $63K amid ETF outflows and geopolitical risks",
-        "description": "Key takeaways Bitcoin is trading below $64,000 after rallying more than 6% last week. U.S. spot Bitcoin ETFs recorded $526.64 million in net outflows, marking an eighth consecutive week of withdrawals. Renewed geopolitical concerns surrounding the Strait of H…",
-        "url": "https://coinjournal.net/news/bitcoin-dips-below-63k-amid-etf-outflows-and-geopolitical-risks/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-6-2026-11_48_20-AM.png",
-        "publishedAt": "2026-07-06T10:49:20Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin is trading below $64,000 after rallying more than 6% last week.</li><li>U.S. spot Bitcoin ETFs recorded $526.64 million in net outflows, marking an eighth consecutive w… [+3836 chars]"
       }
     ]
   }
