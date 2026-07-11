@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-11T20:57:02.542Z",
+  "timestamp": "2026-07-11T21:57:26.087Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 23,
     "articles": [
       {
         "source": {
@@ -303,19 +303,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-true-or-false-about-bitcoin-and-crypto-are-totally-wrong.jpg",
         "publishedAt": "2026-07-07T13:30:00Z",
         "content": "Bitcoin is trading in a market thats getting harder to define.\r\nHovering around $64,000 at the time of writing, Bitcoin is down by almost 50% from its cycle peak. That's a much shallower draw down th… [+6854 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Logan Hitchcock",
-        "title": "Bitcoin Hits Highest Price in Weeks as Bernstein Analysts Maintain 'Ambitious' $150K Target",
-        "description": "The financial firm admitted Bitcoin's retrace has been painful, but still holds a lofty year-end price prediction for the top crypto asset.",
-        "url": "https://decrypt.co/372851/bitcoin-highest-price-weeks-bernstein-ambitious-150k-target",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
-        "publishedAt": "2026-07-06T19:58:25Z",
-        "content": "In brief\r\n<ul><li>Bernstein analysts kept a $150,000 Bitcoin price forecast in play despite its nearly 50% retrace from all-time highs. </li><li>Analysts pointed to potential regulatory clarity and S… [+2612 chars]"
       }
     ]
   }
