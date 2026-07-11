@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-11T08:51:01.056Z",
+  "timestamp": "2026-07-11T10:18:53.109Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-3.jpg",
         "publishedAt": "2026-07-05T23:35:03Z",
         "content": "India's central bank revives push to isolate banks from crypto: Report\r\nThe Indian central bank reportedly urged lawmakers to keep banks insulated from crypto and private stablecoins while preserving… [+8621 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Binance outflows triple to $1.2B as ETH withdrawals hit 3-year high",
-        "description": "Binance posts $1.23 billion in weekly outflows, up 207% from about $400 million the previous week, while CryptoQuant reports ETH withdrawals hit a three-year high amid a price rebound.",
-        "url": "https://cointelegraph.com/news/binance-outflows-1-23-billion-eth-withdrawals-3-year-high",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-assess-the-value-of-binance.jpg",
-        "publishedAt": "2026-07-05T08:33:39Z",
-        "content": "Binance, the worlds largest crypto exchange by trading volumes, recorded a sharp surge in weekly outflows as Ethereum withdrawal activity climbed to a multi-year high.\r\nAccording to DefiLlama data vi… [+2450 chars]"
       }
     ]
   }
