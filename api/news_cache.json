@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-11T06:18:49.483Z",
+  "timestamp": "2026-07-11T08:51:01.056Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
+        "description": "A smoother long-term MACD just flipped bullish, pointing to more upside. Here are key levels that will decide if the ongoing bounce turns into a full blown uptrend.",
+        "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-gets-a-green-light-from-a-reliable-momentum-gauge-here-are-key-levels-to-watch",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a5d0f75b04392e25a31f206a3e9a16e752cb4a2c-2872x1915.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-10T06:49:13Z",
+        "content": "Traders typically do not rely on a single indicator to determine market trends. But this particular MACD has proved reliable as a standalone gauge through the price crash from the record high of $126… [+1221 chars]"
+      },
       {
         "source": {
           "id": null,
