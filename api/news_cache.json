@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-11T14:59:48.254Z",
+  "timestamp": "2026-07-11T16:04:10.210Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 25,
     "articles": [
       {
         "source": {
@@ -329,45 +329,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2023/10/SOL.jpg?fit=1365%2C768",
         "publishedAt": "2026-07-06T14:56:00Z",
         "content": "Sony is putting its name closer to crypto trading in Japan, with Amber Japan being rebranded as S.BLOX as the group prepares a refreshed domestic exchange push.\r\nFor more details, visit the official … [+1997 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Strategy sells 3,588 Bitcoin for $216M to fund dividends, keeps $2.55B reserve intact",
-        "description": "Strategy sold 3,588 Bitcoin to fund dividends and replenish its US dollar reserve, while Bernstein said the company remains unlikely to become a forced seller.",
-        "url": "https://cointelegraph.com/news/strategy-sells-bitcoin-bernstein-btc-target",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-supply-michael-saylor-2.jpg",
-        "publishedAt": "2026-07-06T12:59:04Z",
-        "content": "Michael Saylor's Strategy sold 3,588 Bitcoin (BTC) to fund preferred stock dividend payments and replenish its cash reserves.\r\nStrategy sold the Bitcoin for $216 million, reducing its total holdings … [+2484 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Belgian regulator flags six unauthorized crypto providers after MiCA deadline",
-        "description": "Belgium’s FSMA warned consumers about six crypto-asset service providers it added to a fraudulent CASP list days after the EU’s MiCA transitional period expired.",
-        "url": "https://cointelegraph.com/news/belgium-unauthorized-crypto-firms-mica-deadline",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/european-union-eu-european-parliament-brussels-1.jpg",
-        "publishedAt": "2026-07-06T12:15:20Z",
-        "content": "Belgiums financial markets regulator warned consumers against six crypto-asset service providers (CASPs) it said were operating in the country without authorization, days after the European Unions Ma… [+2217 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Russia's largest bank plans crypto wallet launch as Moscow clears market path",
-        "description": "Services will integrate into \"Sberbank Online\" and \"SberInvestments\" once the \"On Digital Currency and Digital Rights\" bill takes effect in September.",
-        "url": "https://www.coindesk.com/business/2026/07/06/russia-s-largest-bank-plans-crypto-wallet-launch-as-moscow-clears-market-path",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/69d88d811de6cddb538ec7d407061b9d441d2dd2-2048x1536.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-06T11:36:05Z",
-        "content": "Non-qualified investors will be allowed to trade under testing requirements and limits capped at roughly 300,000 rubles (around $3,800) per year, while market participants will have until July 1, 202… [+1232 chars]"
       }
     ]
   }
