@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-12T11:15:34.959Z",
+  "timestamp": "2026-07-12T13:39:09.157Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price gains nearly 10% in July, but traders still see BTC copying 2022 bear market",
+        "description": "Bitcoin price gains approached 10% for the first two weeks of the month, but analysis warned of the bear market returning from August onward.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-gains-nearly-10-in-july-but-traders-still-see-btc-copying-2022-bear-market",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bull-or-bear-how-sec-actions-correlate-with-market-prices2-1.jpg",
+        "publishedAt": "2026-07-11T11:21:07Z",
+        "content": "Bitcoin (BTC) is seeing its best month of July since 2022, but analysis warns that the result could be firmly bearish.\r\nKey points:\r\n<ul><li>Bitcoin is nearing double-digit gains for July, but market… [+2601 chars]"
+      },
       {
         "source": {
           "id": null,
