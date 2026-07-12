@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-12T00:04:06.310Z",
+  "timestamp": "2026-07-12T04:28:08.242Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Brayden Lindrea",
+        "title": "Robinhood says its AI agent feature will ‘soon’ be assisting crypto traders",
+        "description": "Brokerage firm said it will expand its AI agent trading feature for equities and options to crypto “soon,” enabling agentic accounts to place crypto trades on behalf of users.",
+        "url": "https://cointelegraph.com/news/robinhood-says-ai-agents-will-be-trading-for-crypto-users-soon",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/robinhood-us.jpg",
+        "publishedAt": "2026-07-11T04:12:30Z",
+        "content": "Robinhood said eligible US-based customers will soon be able to connect third-party AI agents to make crypto trades on their behalf, marking the latest expansion in autonomous trading after the compa… [+2917 chars]"
+      },
       {
         "source": {
           "id": null,
