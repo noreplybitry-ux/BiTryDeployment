@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-13T17:59:23.620Z",
+  "timestamp": "2026-07-13T19:42:04.687Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Nikhilesh De",
+        "title": "Signs of life?: State of Crypto",
+        "description": "Several sources told CoinDesk that a new draft of the Clarity Act may drop this week, but challenges remain.",
+        "url": "https://www.coindesk.com/policy/2026/07/12/signs-of-life-state-of-crypto",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/39aef47b93f60ebf7e668e371d51320693bb79e3-3364x1894.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-12T18:30:00Z",
+        "content": "But the 2026 midterm election is coming up quite soon Nov. 3, so less than four months from now and lawmakers will have to face their own base and flanks after they break for the summer recess and go… [+1497 chars]"
+      },
       {
         "source": {
           "id": null,
