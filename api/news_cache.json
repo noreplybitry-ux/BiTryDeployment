@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-14T04:07:02.999Z",
+  "timestamp": "2026-07-14T07:12:34.430Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 25,
     "articles": [
       {
         "source": {
@@ -329,32 +329,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-07T18:38:10Z",
         "content": "Kraken, the cryptocurrency exchange planning to go public in the U.S., is pursuing a full banking license in Europe, with a focus on Lithuania as the jurisdiction to secure it, according to a person … [+910 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Tether invests in Mercado Bitcoin as blockchain finance expands in Latin America",
-        "description": "Mercado Bitcoin will use the funding to expand tokenized finance across Latin America, adding to Tether's growing portfolio of infrastructure investments.",
-        "url": "https://cointelegraph.com/news/tether-invests-20m-in-mercado-bitcoin-to-expand-tokenized-finance-in-latin-america",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/canada-tether.png",
-        "publishedAt": "2026-07-07T16:43:07Z",
-        "content": "Tether has invested $20 million in Brazilian crypto platform Mercado Bitcoin to support the company's expansion into tokenized assets, stablecoin payments, lending and other blockchain-based financia… [+2464 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Institutional crypto exchange EDX lands $76M from SBI Holdings",
-        "description": "The funding round comes as institutional investors continue backing crypto market infrastructure despite slower venture investment across the digital asset sector.",
-        "url": "https://cointelegraph.com/news/institutional-crypto-exchange-edx-lands-76m-from-sbi-holdings",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-edx.png",
-        "publishedAt": "2026-07-07T16:16:35Z",
-        "content": "EDX Markets, a cryptocurrency exchange focused on institutional investors, has raised $76 million in a Series C funding round led by Japans SBI Holdings, marking one of the larger funding rounds this… [+2400 chars]"
       }
     ]
   }
