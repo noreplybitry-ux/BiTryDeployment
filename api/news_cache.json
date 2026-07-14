@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-14T07:12:34.430Z",
+  "timestamp": "2026-07-14T10:03:42.364Z",
   "data": {
     "status": "ok",
     "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "BTC slips below $63K as Middle East tensions offset ETF inflows",
+        "description": "Key takeaways Bitcoin fell to $63,000 after renewed geopolitical tensions in the Middle East weakened investor risk appetite. The U.S. military’s latest strikes on Iran and heightened tensions around the Strait of Hormuz boosted demand for safe-haven assets w…",
+        "url": "https://coinjournal.net/news/btc-slips-below-63k-as-middle-east-tensions-offset-etf-inflows/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-13-2026-10_27_20-AM.png",
+        "publishedAt": "2026-07-13T09:28:57Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin fell to $63,000 after renewed geopolitical tensions in the Middle East weakened investor risk appetite.</li><li>The U.S. military’s latest strikes on Iran and heightene… [+4124 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +329,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-and-blockchain-job-market.jpg",
         "publishedAt": "2026-07-07T20:57:02Z",
         "content": "Vanguard is hiring a head of digital assets to lead the asset manager's strategy on tokenization, stablecoins, blockchain infrastructure and client-facing digital asset products, signaling a broader … [+2625 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Ian Allison",
-        "title": "Crypto exchange Kraken is trying to become a bank in Europe",
-        "description": "Kraken's focus is on Lithuania as the jurisdiction to secure the license, according to a person familiar with the plans.",
-        "url": "https://www.coindesk.com/business/2026/07/07/crypto-exchange-kraken-is-trying-to-become-a-bank-in-europe",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-07T18:38:10Z",
-        "content": "Kraken, the cryptocurrency exchange planning to go public in the U.S., is pursuing a full banking license in Europe, with a focus on Lithuania as the jurisdiction to secure it, according to a person … [+910 chars]"
       }
     ]
   }
