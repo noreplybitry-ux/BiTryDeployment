@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-13T22:59:50.782Z",
+  "timestamp": "2026-07-14T00:01:07.921Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Robinhood L2 sparks ETH optimism, Saylor 'muddies waters.' Hodler's Digest, July 5-12, 2026",
+        "description": "Surging volume on Robinhood Chain renews optimism about Ethereum — even among critics. Trader loses $1M due to a phishy token approval, and more news: Hodler's Digest.",
+        "url": "https://cointelegraph.com/features/ethereum-climbs-as-robinhood-l2-takes-off",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/11-july.jpg",
+        "publishedAt": "2026-07-12T23:24:26Z",
+        "content": "Robinhood Chain surge boosts ETH price\r\nThe successful launch of the layer-2 network Robinhood Chain has boosted investor sentiment around Ethereum. The newly launched blockchain uses ETH as its nati… [+10314 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-edx.png",
         "publishedAt": "2026-07-07T16:16:35Z",
         "content": "EDX Markets, a cryptocurrency exchange focused on institutional investors, has raised $76 million in a Series C funding round led by Japans SBI Holdings, marking one of the larger funding rounds this… [+2400 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin bulls battle for $63K as Micron stock eyes 10% drop in US chip sell-off",
-        "description": "Bitcoin price action is \"at a critical point,\" says John Bollinger as BTC surfs a fresh US stocks dip on the day SpaceX joins the Nasdaq 100.",
-        "url": "https://cointelegraph.com/markets/bitcoin-bulls-battle-for-63k-as-micron-stock-eyes-10-drop-in-us-chip-sell-off",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-trade-wars-impact-stocks-and-crypto.jpg",
-        "publishedAt": "2026-07-07T15:13:25Z",
-        "content": "Bitcoin (BTC) circled $63,000 after Tuesdays Wall Street open as chip companies led a dip in US stocks.\r\nKey points:\r\n<ul><li>Bitcoin attempts to hold $63,000 after seeing its highest levels in two w… [+2758 chars]"
       }
     ]
   }
