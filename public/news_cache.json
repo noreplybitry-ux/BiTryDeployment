@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-14T10:03:42.364Z",
+  "timestamp": "2026-07-14T12:18:18.718Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "BTC price bull market to begin in September? Five things to know in Bitcoin this week",
+        "description": "Bitcoin bear-market reversal talk gathers pace this week as BTC price action surfs macro volatility at the hands of the US-Iran war and upcoming inflation data prints.",
+        "url": "https://cointelegraph.com/markets/btc-price-bull-market-to-begin-in-september-five-things-to-know-in-bitcoin-this-week",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-106114-1-12b-in-bitcoin-options-expire-this-week-and-bulls-appear-to-be-at-a-disadvanta.jpg",
+        "publishedAt": "2026-07-13T10:45:22Z",
+        "content": "Bitcoin (BTC) starts the new week with a bump as traders brace for more macro volatility.\r\nKey points:\r\n<ul><li>Bitcoin gets knocked back toward $62,000, but a trader is already eyeing the end of the… [+9242 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Chinese Prosecutors Float Treating Crypto Mixer, Privacy Coin Use as Sign of Money Laundering",
+        "description": "An article in the top prosecutors' paper urges new blockchain evidence rules, presumptions of intent, and a state platform to sell seized coins.",
+        "url": "https://decrypt.co/373374/chinese-prosecutors-float-treating-crypto-mixer-privacy-coin-use-as-sign-of-money-laundering",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
+        "publishedAt": "2026-07-13T10:43:13Z",
+        "content": "In brief\r\n<ul><li>An opinion article in the newspaper of China's Supreme People's Procuratorate lays out a framework for prosecuting crypto money laundering.</li><li>Its proposals include presuming c… [+4302 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Hyperliquid price forecast: HYPE faces critical test as Bitcoin holds the key",
+        "description": "Hyperliquid price holds above key support as traders watch the $61.92 level. Bitcoin’s move around $63,000 could shape HYPE’s next direction. Hyperliquid’s total open interest has climbed to nearly $11 billion. Hyperliquid (HYPE) has entered a crucial phase a…",
+        "url": "https://coinjournal.net/news/hyperliquid-price-forecast-hype-faces-critical-test-as-bitcoin-holds-the-key/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/Hyperliquid-price-outlook.png",
+        "publishedAt": "2026-07-13T10:27:20Z",
+        "content": "<ul><li>Hyperliquid price holds above key support as traders watch the $61.92 level.</li><li>Bitcoin’s move around $63,000 could shape HYPE’s next direction.</li><li>Hyperliquid’s total open interest… [+5126 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,32 +342,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-08T04:30:24Z",
         "content": "Bitcoin BTC\r\n$62,740.60 and the broader cryptocurrency market came under pressure Tuesday after the US and Iran exchanged aerial strikes, sending the dollar higher.\r\nBTC, the leading cryptocurrency b… [+1188 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Tether Invests $20 Million in Mercado Bitcoin to Fuel Expansion Across Latin America",
-        "description": "Brazilian crypto exchange Mercado Bitcoin has raised $20 million in fresh investment from USDT stablecoin issuer Tether.",
-        "url": "https://decrypt.co/372946/tether-invests-20-million-mercado-bitcoin-fuel-expansion-latin-america",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Tether-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-07-07T21:31:09Z",
-        "content": "In brief\r\n<ul><li>Tether will invest $20 million in a strategic financing round for Mercado Bitcoin, a Brazilian crypto platform, to expand blockchain-based financial services in Latin America.</li><… [+2768 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Vanguard seeks digital assets chief after years of crypto skepticism",
-        "description": "Vanguard is hiring a head of digital assets to lead its strategy for tokenization, stablecoins and blockchain infrastructure as asset managers expand onchain products.",
-        "url": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-and-blockchain-job-market.jpg",
-        "publishedAt": "2026-07-07T20:57:02Z",
-        "content": "Vanguard is hiring a head of digital assets to lead the asset manager's strategy on tokenization, stablecoins, blockchain infrastructure and client-facing digital asset products, signaling a broader … [+2625 chars]"
       }
     ]
   }
