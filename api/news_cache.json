@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-15T09:12:18.155Z",
+  "timestamp": "2026-07-15T11:39:10.443Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 23,
     "articles": [
       {
         "source": {
@@ -303,19 +303,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-defi-stack-stablecoins-exchanges-synthetics-money-markets-and-insurance-eu.png",
         "publishedAt": "2026-07-08T17:23:19Z",
         "content": "Stablecoin-settled perpetual contracts tied to traditional financial assets topped $1.1 trillion in trading volume during the first half of 2026, according to Binance Research, underscoring the growi… [+2429 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Malaysia Seizes Over 75,000 Crypto Mining Rigs in Power-Theft Crackdown",
-        "description": "More than 3,000 raids since 2022 have led to 629 arrests, as authorities target miners siphoning electricity from the national grid.",
-        "url": "https://decrypt.co/373030/malaysia-seizes-over-75000-crypto-mining-rigs-in-power-theft-crackdown",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-mining-decrypt-style-03-gID_7.png",
-        "publishedAt": "2026-07-08T15:40:15Z",
-        "content": "In brief\r\n<ul><li>Malaysian authorities have seized more than 75,000 crypto mining machines in over 3,000 raids between 2022 and May 2026, the Deputy Home Minister told parliament.</li><li>The operat… [+2950 chars]"
       }
     ]
   }
