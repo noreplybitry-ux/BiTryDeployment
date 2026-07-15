@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-15T17:22:20.673Z",
+  "timestamp": "2026-07-15T19:19:21.784Z",
   "data": {
     "status": "ok",
-    "totalResults": 19,
+    "totalResults": 18,
     "articles": [
       {
         "source": {
@@ -238,19 +238,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/photo5366486023912757477y.jpg",
         "publishedAt": "2026-07-09T09:58:07Z",
         "content": "Bitcoin (BTC) institutional demand is not yet strong despite positive inflows to the US spot Bitcoin exchange-traded funds (ETFs).\r\nKey points:\r\n<ul><li>Bitcoin ETF flows reverse a ten-day losing str… [+2388 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "A 20-Year-Old's Crypto Wallet Moved $123M in Romance-Scam Cash: Interpol Says",
-        "description": "The two Thai arrests were part of Operation First Light, a 97-country sweep that logged 5,811 arrests and intercepted $293 million.",
-        "url": "https://decrypt.co/373107/a-20-year-olds-crypto-wallet-moved-123m-in-romance-scam-cash-interpol-says",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-07-09T09:21:54Z",
-        "content": "In brief\r\n<ul><li>Thai police arrested two people over a scheme that laundered romance-scam proceeds through crypto, using cross-chain swaps to hide the trail, Interpol said. One suspect, aged 20, co… [+4493 chars]"
       }
     ]
   }
