@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-15T15:37:24.321Z",
+  "timestamp": "2026-07-15T17:22:20.673Z",
   "data": {
     "status": "ok",
-    "totalResults": 21,
+    "totalResults": 19,
     "articles": [
       {
         "source": {
@@ -251,32 +251,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
         "publishedAt": "2026-07-09T09:21:54Z",
         "content": "In brief\r\n<ul><li>Thai police arrested two people over a scheme that laundered romance-scam proceeds through crypto, using cross-chain swaps to hide the trail, Interpol said. One suspect, aged 20, co… [+4493 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph",
-        "title": "Regulators invited Binance to seek new licenses after MiCA setback, co-CEO says",
-        "description": "Binance says it is in early talks with regulators over crypto licenses after withdrawing its MiCA application in Greece amid EU regulatory changes.",
-        "url": "https://cointelegraph.com/news/regulators-invite-binance-seek-new-license-mica-setback-teng",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-emergence-of-bnb-as-a-global-defi-infrastructure-1.jpg",
-        "publishedAt": "2026-07-09T08:26:30Z",
-        "content": "Binance is in talks with regulators that have invited the exchange to apply for crypto licenses following its withdrawal from the Markets in Crypto-Assets Regulation (MiCA) application in Greece, acc… [+3143 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Russia's largest private bank Alfa-Bank tests crypto trading",
-        "description": "Alfa-Bank is testing cryptocurrency trading for qualified investors as Russia moves toward regulating digital assets and banks prepare new crypto services.",
-        "url": "https://cointelegraph.com/news/russia-largest-private-bank-alfa-bank-crypto-services",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-russias-central-bank-digital-currency-prospects-and-problems22.jpg",
-        "publishedAt": "2026-07-09T08:22:36Z",
-        "content": "Russias largest private bank, Alfa-Bank, is reportedly preparing to offer cryptocurrency services as the country continues developing a legal framework for the digital asset market.\r\nDmitry Vitman, c… [+2276 chars]"
       }
     ]
   }
