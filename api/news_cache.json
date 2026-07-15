@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-15T13:53:06.214Z",
+  "timestamp": "2026-07-15T15:37:24.322Z",
   "data": {
     "status": "ok",
-    "totalResults": 22,
+    "totalResults": 21,
     "articles": [
       {
         "source": {
@@ -277,19 +277,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-russias-central-bank-digital-currency-prospects-and-problems22.jpg",
         "publishedAt": "2026-07-09T08:22:36Z",
         "content": "Russias largest private bank, Alfa-Bank, is reportedly preparing to offer cryptocurrency services as the country continues developing a legal framework for the digital asset market.\r\nDmitry Vitman, c… [+2276 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Stalls as Ethereum Flashes Worst Weekly Signal in Years: Analysis",
-        "description": "Bitcoin is looking slightly more optimistic but failed the breakout everyone was watching. Meanwhile, ETH just printed a weekly death cross for the first time in years.",
-        "url": "https://decrypt.co/373060/bitcoin-price-stalls-ethereum-flashes-worst-weekly-signal-years",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-Ethereum-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-07-08T19:23:13Z",
-        "content": "In brief\r\n<ul><li>Bitcoin fell 2.89% this week, closing at $61,749 after failing to break resistance in the $6465K rangethe key zone bulls needed to reclaim to change the short-term narrative.</li><l… [+9601 chars]"
       }
     ]
   }
