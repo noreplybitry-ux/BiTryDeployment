@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-15T11:39:10.442Z",
+  "timestamp": "2026-07-15T13:53:06.214Z",
   "data": {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 22,
     "articles": [
       {
         "source": {
@@ -290,19 +290,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-Ethereum-decrypt-style-02-gID_7.png",
         "publishedAt": "2026-07-08T19:23:13Z",
         "content": "In brief\r\n<ul><li>Bitcoin fell 2.89% this week, closing at $61,749 after failing to break resistance in the $6465K rangethe key zone bulls needed to reclaim to change the short-term narrative.</li><l… [+9601 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Stablecoin-settled TradFi perpetual trading tops $1.1T: Binance Research",
-        "description": "A new Binance Research report said stablecoins are fast becoming a preferred settlement layer for tokenized TradFi markets while gaining traction in payments and savings.",
-        "url": "https://cointelegraph.com/news/tradfi-perpetual-trading-surpasses-11t-in-2026-binance-research-says",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-defi-stack-stablecoins-exchanges-synthetics-money-markets-and-insurance-eu.png",
-        "publishedAt": "2026-07-08T17:23:19Z",
-        "content": "Stablecoin-settled perpetual contracts tied to traditional financial assets topped $1.1 trillion in trading volume during the first half of 2026, according to Binance Research, underscoring the growi… [+2429 chars]"
       }
     ]
   }
