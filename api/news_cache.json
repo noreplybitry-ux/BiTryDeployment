@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-15T21:05:14.917Z",
+  "timestamp": "2026-07-15T23:01:29.795Z",
   "data": {
     "status": "ok",
     "totalResults": 18,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Over 95% of Coinbase’s code is now written with AI",
+        "description": "Coinbase revealed AI now helps write more than 95% of its code as the crypto exchange shifts toward smaller, more senior teams following its May layoffs.",
+        "url": "https://cointelegraph.com/news/over-95-of-coinbases-code-is-now-written-with-ai",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-coinbase-transaction-ai-1.jpg",
+        "publishedAt": "2026-07-14T22:30:00Z",
+        "content": "Artificial intelligence now helps write more than 95% of Coinbases code, offering new insight into the crypto exchanges AI strategy following its decision to cut 14% of its workforce earlier this yea… [+3249 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -225,19 +238,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d6ff7ac663416cc8d1eafb78db5bcac050ac5db9-1600x1200.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-09T10:22:35Z",
         "content": "Singapores state-owned investment firm, Temasek Holdings, said it will prioritize AI investments over crypto due to regulatory uncertainty and the lingering impact of a $275 million write-off from th… [+911 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin ETFs end 'most overwhelming' $2.7B sell-off amid new $85M net outflow",
-        "description": "Bitcoin spot ETFs posted a fresh net outflow on Wednesday as analysis said that their \"most overwhelming\" outflow streak had ended without a clear demand recovery.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etfs-end-most-overwhelming-sell-off-amid-new-85m-net-outflow",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/photo5366486023912757477y.jpg",
-        "publishedAt": "2026-07-09T09:58:07Z",
-        "content": "Bitcoin (BTC) institutional demand is not yet strong despite positive inflows to the US spot Bitcoin exchange-traded funds (ETFs).\r\nKey points:\r\n<ul><li>Bitcoin ETF flows reverse a ten-day losing str… [+2388 chars]"
       }
     ]
   }
