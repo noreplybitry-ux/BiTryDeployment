@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-16T11:44:12.349Z",
+  "timestamp": "2026-07-16T14:05:30.132Z",
   "data": {
     "status": "ok",
-    "totalResults": 18,
+    "totalResults": 20,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Ethereum Reclaims $1,800 As ETF Hopes Meet A Friendlier Macro Tape",
+        "description": "There is a useful difference between a noisy headline and a story that actually changes the market’s understanding of a sector. Ethereum Reclaims $1,800 As ETF Hopes Meet A Friendlier Macro Tape lands closer to the secon",
+        "url": "http://www.newsbtc.com/news/ethereum-reclaims-1-800-as-etf-hopes-meet-a-friendlier-macro-tape/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2022/10/man-5782411_1920.jpg?fit=1920%2C1280",
+        "publishedAt": "2026-07-15T12:50:00Z",
+        "content": "There is a useful difference between a noisy headline and a story that actually changes the markets understanding of a sector. Ethereum Reclaims $1,800 As ETF Hopes Meet A Friendlier Macro Tape lands… [+3766 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitcoin Reclaims $65,000 As Cooler CPI Gives Risk Assets Room To Breathe",
+        "description": "The market has had plenty to digest this week, so not every headline deserves the same treatment. This one does, because bitcoin reclaiming the $65,000 level driven by a cooler u.s. cpi print signals recovering risk-on s",
+        "url": "http://www.newsbtc.com/news/bitcoin-reclaims-65-000-as-cooler-cpi-gives-risk-assets-room-to-breathe/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/02/Picture8_3c49da.jpg?fit=936%2C524",
+        "publishedAt": "2026-07-15T12:35:00Z",
+        "content": "The market has had plenty to digest this week, so not every headline deserves the same treatment. This one does, because bitcoin reclaiming the $65,000 level driven by a cooler u.s. cpi print signals… [+3789 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Japan reclassifies crypto as a financial asset, paves way for tax cuts",
+        "description": "The overhaul adds insider trading rules, tighter disclosures and tougher penalties while laying the groundwork for future bitcoin ETFs.",
+        "url": "https://www.coindesk.com/policy/2026/07/15/japan-reclassifies-crypto-as-a-financial-asset-paves-way-for-tax-cuts",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c0dea9de473d44b83caea8d173fa793134cc73e9-2561x1726.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-15T12:05:33Z",
+        "content": "Japan reclassified cryptocurrencies as financial instruments, a structural shift that establishes the legal framework for separate taxation of crypto assets and for future crypto exchange-traded fund… [+946 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -225,19 +264,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a5d0f75b04392e25a31f206a3e9a16e752cb4a2c-2872x1915.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-10T06:49:13Z",
         "content": "Traders typically do not rely on a single indicator to determine market trends. But this particular MACD has proved reliable as a standalone gauge through the price crash from the record high of $126… [+1221 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Can Bitcoin hold $62K ahead of Friday’s $1.4 billion options expiry?",
-        "description": "Bitcoin traders watch as BTC reclaims $63k ahead of $1.4B Deribit expiry, with Treasury yields sparking correction fears.",
-        "url": "https://cointelegraph.com/markets/can-bitcoin-hold-62k-ahead-of-fridays-14-billion-options-expiry",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-options-expiry-explained-what-it-means-for-traders.jpg",
-        "publishedAt": "2026-07-09T16:31:10Z",
-        "content": "Bitcoin (BTC) reclaimed the $63,000 mark on Thursday, but traders fear a correction ahead of Fridays $1.4 billion options expiry on Deribit. The concerns stem from the US government bond yield climbi… [+3166 chars]"
       }
     ]
   }
