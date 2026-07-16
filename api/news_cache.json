@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-16T06:23:31.917Z",
+  "timestamp": "2026-07-16T09:18:57.768Z",
   "data": {
     "status": "ok",
-    "totalResults": 18,
+    "totalResults": 17,
     "articles": [
       {
         "source": {
@@ -225,19 +225,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-options-expiry-explained-what-it-means-for-traders.jpg",
         "publishedAt": "2026-07-09T16:31:10Z",
         "content": "Bitcoin (BTC) reclaimed the $63,000 mark on Thursday, but traders fear a correction ahead of Fridays $1.4 billion options expiry on Deribit. The concerns stem from the US government bond yield climbi… [+3166 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Singapore's Temasek investment fund says crypto is off the table, will focus on AI",
-        "description": "The $400 billion wealth fund plans to expand AI holdings to 15% of its portfolio by 2031 from the current 6%.",
-        "url": "https://www.coindesk.com/business/2026/07/09/singapore-s-temasek-investment-fund-says-crypto-is-off-the-table-will-focus-on-ai",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d6ff7ac663416cc8d1eafb78db5bcac050ac5db9-1600x1200.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-09T10:22:35Z",
-        "content": "Singapores state-owned investment firm, Temasek Holdings, said it will prioritize AI investments over crypto due to regulatory uncertainty and the lingering impact of a $275 million write-off from th… [+911 chars]"
       }
     ]
   }
