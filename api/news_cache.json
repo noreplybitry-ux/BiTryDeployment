@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-16T09:18:57.768Z",
+  "timestamp": "2026-07-16T11:44:12.349Z",
   "data": {
     "status": "ok",
-    "totalResults": 17,
+    "totalResults": 18,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Japan passes crypto overhaul to bring digital assets under financial rules",
+        "description": "Japan’s revised Financial Instruments and Exchange Act introduces crypto insider trading rules, tougher penalties and new oversight requirements for crypto businesses.",
+        "url": "https://cointelegraph.com/news/japan-crypto-amendment-digital-assets-financial-rules",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-us-crypto-bills-compared-stable-act.png",
+        "publishedAt": "2026-07-15T11:05:46Z",
+        "content": "Japan is set to reshape its cryptocurrency market with stricter trading rules, stronger user protections and a framework closer to traditional finance.\r\nThe countrys parliament on Wednesday passed re… [+2353 chars]"
+      },
       {
         "source": {
           "id": null,
