@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-16T14:05:30.132Z",
+  "timestamp": "2026-07-16T16:20:51.485Z",
   "data": {
     "status": "ok",
     "totalResults": 20,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Breaks Heavy Resistance—But Death Cross Looms: Analysis",
+        "description": "BTC cleared a key resistance level Tuesday, giving bulls hope. Prediction market traders aren't convinced.",
+        "url": "https://decrypt.co/373545/bitcoin-price-heavy-resistance-death-cross-looms",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-23-gID_7.jpg",
+        "publishedAt": "2026-07-15T16:05:19Z",
+        "content": "In brief\r\n<ul><li>Bitcoin broke above $64K resistance Tuesday and is trading flat at $64,858 todayjust 0.18% down, barely breathing.</li><li>A death cross on the charts keeps the macro trend bearish,… [+5208 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -251,19 +264,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-10-2026-11_30_23-AM.png",
         "publishedAt": "2026-07-10T10:33:34Z",
         "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) is extending its recovery, trading near $1,800, a key technical resistance level.</li><li>Despite improving momentum, ETH remains below its 50-day, 100-day, and … [+2335 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Bitcoin gets a green light from a reliable momentum gauge. Here are key levels to watch",
-        "description": "A smoother long-term MACD just flipped bullish, pointing to more upside. Here are key levels that will decide if the ongoing bounce turns into a full blown uptrend.",
-        "url": "https://www.coindesk.com/markets/2026/07/10/bitcoin-gets-a-green-light-from-a-reliable-momentum-gauge-here-are-key-levels-to-watch",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a5d0f75b04392e25a31f206a3e9a16e752cb4a2c-2872x1915.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-10T06:49:13Z",
-        "content": "Traders typically do not rely on a single indicator to determine market trends. But this particular MACD has proved reliable as a standalone gauge through the price crash from the record high of $126… [+1221 chars]"
       }
     ]
   }
