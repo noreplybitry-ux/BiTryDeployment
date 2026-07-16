@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-16T18:09:48.101Z",
+  "timestamp": "2026-07-16T20:05:01.819Z",
   "data": {
     "status": "ok",
-    "totalResults": 20,
+    "totalResults": 19,
     "articles": [
       {
         "source": {
@@ -251,19 +251,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-spot-an-exit-scam-doj.jpg",
         "publishedAt": "2026-07-10T12:27:40Z",
         "content": "United States prosecutors have charged a man serving a federal prison sentence over the alleged removal and laundering of about $290,000 in crypto assets held in a Kraken account subject to a forfeit… [+2265 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Ethereum approaches $1,800 as bulls test key resistance",
-        "description": "Key takeaways Ethereum (ETH) is extending its recovery, trading near $1,800, a key technical resistance level. Despite improving momentum, ETH remains below its 50-day, 100-day, and 200-day EMAs, keeping the broader trend cautious. Technical indicators, inclu…",
-        "url": "https://coinjournal.net/news/ethereum-approaches-1800-as-bulls-test-key-resistance/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-10-2026-11_30_23-AM.png",
-        "publishedAt": "2026-07-10T10:33:34Z",
-        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) is extending its recovery, trading near $1,800, a key technical resistance level.</li><li>Despite improving momentum, ETH remains below its 50-day, 100-day, and … [+2335 chars]"
       }
     ]
   }
