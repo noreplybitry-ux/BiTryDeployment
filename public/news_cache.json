@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-17T04:11:19.234Z",
+  "timestamp": "2026-07-17T07:21:32.381Z",
   "data": {
     "status": "ok",
-    "totalResults": 20,
+    "totalResults": 19,
     "articles": [
       {
         "source": {
@@ -251,19 +251,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-experts-discuss-what-the-current-number-of-whales-interest-in-futures-means-for-the-market1.jpg",
         "publishedAt": "2026-07-10T14:59:30Z",
         "content": "Bitcoin (BTC) demand shifts are behind the price rebound to $64,000, new analysis claims.\r\nKey points:\r\n<ul><li>New Bitcoin price analysis says that US whales are behind the latest spate of BTC price… [+2769 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "US charges prisoner over alleged laundering of seized Kraken crypto",
-        "description": "US prosecutors charged a federal prisoner with moving $290,000 in forfeited crypto from a restrained Kraken account through exchanges and mixers.",
-        "url": "https://cointelegraph.com/news/us-prisoner-290k-crypto-restrained-kraken-account",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-spot-an-exit-scam-doj.jpg",
-        "publishedAt": "2026-07-10T12:27:40Z",
-        "content": "United States prosecutors have charged a man serving a federal prison sentence over the alleged removal and laundering of about $290,000 in crypto assets held in a Kraken account subject to a forfeit… [+2265 chars]"
       }
     ]
   }
