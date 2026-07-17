@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-17T20:09:51.813Z",
+  "timestamp": "2026-07-17T21:58:02.375Z",
   "data": {
     "status": "ok",
-    "totalResults": 19,
+    "totalResults": 18,
     "articles": [
       {
         "source": {
@@ -238,19 +238,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/254961a3adc7c5698b4ba47d0de96c8605400978-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-11T17:07:24Z",
         "content": "Despite these headwinds Lopez says regulatory clarity is no longer the primary obstacle for companies considering public listings.\r\n\"That's less relevant than before. Companies went public before the… [+1395 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
-        "description": "Robinhood Chain is an Ethereum layer-2 network built with Arbitrum technology for tokenized assets, crypto apps, and on-chain financial products.",
-        "url": "https://decrypt.co/resources/what-robinhood-chain-ethereum-layer-2-network-tokenized-stocks",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/robinhood-chain-learn-gID_7-pID_2.png",
-        "publishedAt": "2026-07-11T16:21:34Z",
-        "content": "In brief\r\n<ul><li>Robinhood Chain is an Ethereum layer-2 blockchain built using Arbitrum technology.</li><li>The network handles tokenized real-world assets, including stocks and ETFs.</li><li>It wor… [+5606 chars]"
       }
     ]
   }
