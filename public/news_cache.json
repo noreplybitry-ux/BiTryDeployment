@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-17T10:03:34.662Z",
+  "timestamp": "2026-07-17T12:13:47.306Z",
   "data": {
     "status": "ok",
-    "totalResults": 19,
+    "totalResults": 18,
     "articles": [
       {
         "source": {
@@ -238,19 +238,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoin-replace-bonds-in-institutional-portfolios.png",
         "publishedAt": "2026-07-10T17:23:10Z",
         "content": "Policymakers in New Hampshires executive council voted against a proposal that would have allowed the state to issue $100 million in bonds backed by Bitcoin (BTC).\r\nAt a Wednesday hearing, the five-m… [+1767 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin whales sent BTC price to $64K as Coinbase Premium broke key level: CryptoQuant",
-        "description": "Bitcoin price gains came thanks to US whales propeling the Coinbase Premium above a key trend line, new analysis from CryptoQuant reported.",
-        "url": "https://cointelegraph.com/markets/bitcoin-whales-sent-btc-price-to-64k-as-coinbase-premium-broke-key-level-cryptoquant",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-experts-discuss-what-the-current-number-of-whales-interest-in-futures-means-for-the-market1.jpg",
-        "publishedAt": "2026-07-10T14:59:30Z",
-        "content": "Bitcoin (BTC) demand shifts are behind the price rebound to $64,000, new analysis claims.\r\nKey points:\r\n<ul><li>New Bitcoin price analysis says that US whales are behind the latest spate of BTC price… [+2769 chars]"
       }
     ]
   }
