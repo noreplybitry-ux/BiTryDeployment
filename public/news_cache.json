@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-17T16:19:27.134Z",
+  "timestamp": "2026-07-17T18:10:15.339Z",
   "data": {
     "status": "ok",
-    "totalResults": 18,
+    "totalResults": 19,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price dips on US stocks sell-off as Micron losses pass 30%",
+        "description": "Bitcoin fell 1.5% from local highs amid a reversal in US stocks as markets moved from bullish US inflation cues to retail profit-taking.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-dips-with-us-stocks-as-tech-sell-off-as-micron-losses-pass-30",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/market-red-graph-falling-danger-stones-bitcoin-2.jpg",
+        "publishedAt": "2026-07-16T16:58:02Z",
+        "content": "Bitcoin (BTC) cooled off with US stocks on Thursday as tech selling tempered gains from low inflation.\r\nKey points:\r\n<ul><li>Bitcoin follows US stocks as they come off local highs sparked by bullish … [+2456 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Morgan Stanley’s E*TRADE launches spot crypto trading through Zero Hash",
+        "description": "Eligible E*TRADE retail clients can now buy, sell and hold Bitcoin, Ether and Solana through a partnership with crypto infrastructure provider Zero Hash.",
+        "url": "https://cointelegraph.com/news/morgan-stanleys-etrade-rolls-out-spot-crypto-trading-for-retail-investors",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-vs-stocks-breaking-news-1.png",
+        "publishedAt": "2026-07-16T16:32:01Z",
+        "content": "Morgan Stanleys E*TRADE platform has launched spot cryptocurrency trading, allowing eligible clients to buy, sell and hold Bitcoin, Ether and Solana through a partnership with crypto infrastructure p… [+2499 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -225,19 +251,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/robinhood-us.jpg",
         "publishedAt": "2026-07-11T04:12:30Z",
         "content": "Robinhood said eligible US-based customers will soon be able to connect third-party AI agents to make crypto trades on their behalf, marking the latest expansion in autonomous trading after the compa… [+2917 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "New Hampshire council votes down $100M Bitcoin bonds",
-        "description": "State representative Keith Ammon said the New Hampshire executive council's vote against Bitcoin-backed bonds was “short-sighted,” urging the body to reconsider the measure.",
-        "url": "https://cointelegraph.com/news/new-hampshire-votes-against-bitcoin-bonds",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoin-replace-bonds-in-institutional-portfolios.png",
-        "publishedAt": "2026-07-10T17:23:10Z",
-        "content": "Policymakers in New Hampshires executive council voted against a proposal that would have allowed the state to issue $100 million in bonds backed by Bitcoin (BTC).\r\nAt a Wednesday hearing, the five-m… [+1767 chars]"
       }
     ]
   }
