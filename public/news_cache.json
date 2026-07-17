@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-17T22:57:59.945Z",
+  "timestamp": "2026-07-17T23:59:39.866Z",
   "data": {
     "status": "ok",
     "totalResults": 18,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Citadel Securities invests $400M in Crypto.com at $20B valuation",
+        "description": "Crypto.com has secured a $400 million investment from Citadel Securities at a $20 billion valuation to accelerate its push into tokenized securities and traditional finance.",
+        "url": "https://cointelegraph.com/news/citadel-securities-invests-400m-in-cryptocom-at-20b-valuation",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocom-is-granted-conditional-approval-for-bank-trust-charter.jpg",
+        "publishedAt": "2026-07-16T23:47:12Z",
+        "content": "Crypto exchange Crypto.com on Thursday announced it has secured a $400 million investment from global market maker Citadel Securities at a $20 billion valuation.\r\nThe investment comes amid growing in… [+904 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -225,19 +238,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/39aef47b93f60ebf7e668e371d51320693bb79e3-3364x1894.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-12T18:30:00Z",
         "content": "But the 2026 midterm election is coming up quite soon Nov. 3, so less than four months from now and lawmakers will have to face their own base and flanks after they break for the summer recess and go… [+1497 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs",
-        "description": "Funding constraints and investor caution, not regulation, are delaying crypto IPOs, according to Cohen & Company Capital Markets' Christian Lopez.",
-        "url": "https://www.coindesk.com/business/2026/07/08/crypto-ipo-market-stalls-as-capital-rotates-to-ai-and-macro-uncertainty-weighs",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/254961a3adc7c5698b4ba47d0de96c8605400978-1920x1280.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-11T17:07:24Z",
-        "content": "Despite these headwinds Lopez says regulatory clarity is no longer the primary obstacle for companies considering public listings.\r\n\"That's less relevant than before. Companies went public before the… [+1395 chars]"
       }
     ]
   }
