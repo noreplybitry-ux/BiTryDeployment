@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-17T00:02:16.004Z",
+  "timestamp": "2026-07-17T04:11:19.234Z",
   "data": {
     "status": "ok",
-    "totalResults": 19,
+    "totalResults": 20,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Two Groups of bitcoin Investors sell on the rise as U.S. inflation lifts prices to nearly $65,000",
+        "description": "Bitcoin surges toward $65,000 on softer-than-expected inflation data, but on-chain signals show two key investor groups selling into the bounce.",
+        "url": "https://www.coindesk.com/markets/2026/07/16/two-groups-of-bitcoin-investors-sell-on-the-rise-as-inflation-lifts-prices-to-nearly-usd65-000",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6d62dea31c05f153f4407ebc45f48ddfab943da6-1280x905.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-16T04:09:10Z",
+        "content": "Some observers remain skeptical of the sustainability of this inflation-led bounce, arguing that the collapse in oil prices mainly drove the slower growth in the cost of living in June and that the r… [+1063 chars]"
+      },
       {
         "source": {
           "id": null,
