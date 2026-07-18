@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-18T03:22:08.794Z",
+  "timestamp": "2026-07-18T06:09:40.413Z",
   "data": {
     "status": "ok",
-    "totalResults": 18,
+    "totalResults": 19,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Crypto exchange Bybit launches in Indonesia after NOBI acquisition",
+        "description": "Bybit has launched a locally operated crypto exchange in Indonesia after acquiring a majority stake in licensed digital asset firm PT Enkripsi Teknologi Handal.",
+        "url": "https://cointelegraph.com/news/crypto-exchange-bybit-launches-in-indonesia-after-nobi-acquisition",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bybit-giant-is-entering-cryptoheres-why-it-matters.jpg",
+        "publishedAt": "2026-07-17T04:16:32Z",
+        "content": "Crypto exchange Bybit announced Thursday it has launched a locally operated platform in Indonesia after acquiring a majority stake in digital asset firm PT Enkripsi Teknologi Handal, formerly known a… [+994 chars]"
+      },
       {
         "source": {
           "id": null,
