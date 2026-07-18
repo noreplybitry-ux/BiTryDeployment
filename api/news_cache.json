@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-18T16:04:30.030Z",
+  "timestamp": "2026-07-18T17:59:19.366Z",
   "data": {
     "status": "ok",
-    "totalResults": 18,
+    "totalResults": 15,
     "articles": [
       {
         "source": {
@@ -199,45 +199,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-coinbase-transaction-ai-1.jpg",
         "publishedAt": "2026-07-14T22:30:00Z",
         "content": "Artificial intelligence now helps write more than 95% of Coinbases code, offering new insight into the crypto exchanges AI strategy following its decision to cut 14% of its workforce earlier this yea… [+3249 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "BTC price bull market to begin in September? Five things to know in Bitcoin this week",
-        "description": "Bitcoin bear-market reversal talk gathers pace this week as BTC price action surfs macro volatility at the hands of the US-Iran war and upcoming inflation data prints.",
-        "url": "https://cointelegraph.com/markets/btc-price-bull-market-to-begin-in-september-five-things-to-know-in-bitcoin-this-week",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-106114-1-12b-in-bitcoin-options-expire-this-week-and-bulls-appear-to-be-at-a-disadvanta.jpg",
-        "publishedAt": "2026-07-13T10:45:22Z",
-        "content": "Bitcoin (BTC) starts the new week with a bump as traders brace for more macro volatility.\r\nKey points:\r\n<ul><li>Bitcoin gets knocked back toward $62,000, but a trader is already eyeing the end of the… [+9242 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Chinese Prosecutors Float Treating Crypto Mixer, Privacy Coin Use as Sign of Money Laundering",
-        "description": "An article in the top prosecutors' paper urges new blockchain evidence rules, presumptions of intent, and a state platform to sell seized coins.",
-        "url": "https://decrypt.co/373374/chinese-prosecutors-float-treating-crypto-mixer-privacy-coin-use-as-sign-of-money-laundering",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
-        "publishedAt": "2026-07-13T10:43:13Z",
-        "content": "In brief\r\n<ul><li>An opinion article in the newspaper of China's Supreme People's Procuratorate lays out a framework for prosecuting crypto money laundering.</li><li>Its proposals include presuming c… [+4302 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Hyperliquid price forecast: HYPE faces critical test as Bitcoin holds the key",
-        "description": "Hyperliquid price holds above key support as traders watch the $61.92 level. Bitcoin’s move around $63,000 could shape HYPE’s next direction. Hyperliquid’s total open interest has climbed to nearly $11 billion. Hyperliquid (HYPE) has entered a crucial phase a…",
-        "url": "https://coinjournal.net/news/hyperliquid-price-forecast-hype-faces-critical-test-as-bitcoin-holds-the-key/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/Hyperliquid-price-outlook.png",
-        "publishedAt": "2026-07-13T10:27:20Z",
-        "content": "<ul><li>Hyperliquid price holds above key support as traders watch the $61.92 level.</li><li>Bitcoin’s move around $63,000 could shape HYPE’s next direction.</li><li>Hyperliquid’s total open interest… [+5126 chars]"
       }
     ]
   }
