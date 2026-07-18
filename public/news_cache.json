@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-18T11:56:37.892Z",
+  "timestamp": "2026-07-18T13:39:15.355Z",
   "data": {
     "status": "ok",
     "totalResults": 18,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "SBI acquires Singaporean crypto platform Coinhako after MAS approval",
+        "description": "SBI Holdings received regulatory approval to acquire a majority stake in Singapore-based crypto exchange Coinhako, expanding its presence in stablecoins, onchain finance and tokenization.",
+        "url": "https://cointelegraph.com/news/sbi-receives-mas-approval-to-acquire-singaporean-coinhako",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-sbi-virtual-currencies-the-bank-backed-japanese-exchange-with-big-plans.jpg",
+        "publishedAt": "2026-07-17T13:30:20Z",
+        "content": "Japanese financial services group SBI Holdings has acquired a majority stake in Holdbuild, the parent company of Singaporean crypto platform Coinhako, after receiving regulatory approval from Singapo… [+2128 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -225,19 +238,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-13-2026-10_27_20-AM.png",
         "publishedAt": "2026-07-13T09:28:57Z",
         "content": "Key takeaways\r\n<ul><li>Bitcoin fell to $63,000 after renewed geopolitical tensions in the Middle East weakened investor risk appetite.</li><li>The U.S. military’s latest strikes on Iran and heightene… [+4124 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Robinhood L2 sparks ETH optimism, Saylor 'muddies waters.' Hodler's Digest, July 5-12, 2026",
-        "description": "Surging volume on Robinhood Chain renews optimism about Ethereum — even among critics. Trader loses $1M due to a phishy token approval, and more news: Hodler's Digest.",
-        "url": "https://cointelegraph.com/features/ethereum-climbs-as-robinhood-l2-takes-off",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/11-july.jpg",
-        "publishedAt": "2026-07-12T23:24:26Z",
-        "content": "Robinhood Chain surge boosts ETH price\r\nThe successful launch of the layer-2 network Robinhood Chain has boosted investor sentiment around Ethereum. The newly launched blockchain uses ETH as its nati… [+10314 chars]"
       }
     ]
   }
