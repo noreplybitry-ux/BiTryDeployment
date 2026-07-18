@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-18T13:39:15.355Z",
+  "timestamp": "2026-07-18T14:59:11.519Z",
   "data": {
     "status": "ok",
     "totalResults": 18,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price sags under $62.5K as Iran strikes add to US stocks pressure",
+        "description": "Bitcoin continues to weaken with US stocks as US-Iran war pressures add to an existing tech sell-off, while BTC price action repeats bear-market moves.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-sags-under-625k-as-iran-strikes-add-to-us-stocks-pressure",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/16codemonitor-bitcoin.jpg",
+        "publishedAt": "2026-07-17T14:37:39Z",
+        "content": "Bitcoin (BTC) dipped below $62,500 at Fridays Wall Street open as stocks took a fresh hit from the US-Iran war.\r\nKey points:\r\n<ul><li>Bitcoin gives traders a sense of deja-vu as local highs spark rej… [+2625 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -225,19 +238,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/Hyperliquid-price-outlook.png",
         "publishedAt": "2026-07-13T10:27:20Z",
         "content": "<ul><li>Hyperliquid price holds above key support as traders watch the $61.92 level.</li><li>Bitcoin’s move around $63,000 could shape HYPE’s next direction.</li><li>Hyperliquid’s total open interest… [+5126 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "BTC slips below $63K as Middle East tensions offset ETF inflows",
-        "description": "Key takeaways Bitcoin fell to $63,000 after renewed geopolitical tensions in the Middle East weakened investor risk appetite. The U.S. military’s latest strikes on Iran and heightened tensions around the Strait of Hormuz boosted demand for safe-haven assets w…",
-        "url": "https://coinjournal.net/news/btc-slips-below-63k-as-middle-east-tensions-offset-etf-inflows/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-13-2026-10_27_20-AM.png",
-        "publishedAt": "2026-07-13T09:28:57Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin fell to $63,000 after renewed geopolitical tensions in the Middle East weakened investor risk appetite.</li><li>The U.S. military’s latest strikes on Iran and heightene… [+4124 chars]"
       }
     ]
   }
