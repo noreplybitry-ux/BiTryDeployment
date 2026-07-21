@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-21T07:34:57.284Z",
+  "timestamp": "2026-07-21T10:29:01.769Z",
   "data": {
     "status": "ok",
-    "totalResults": 16,
+    "totalResults": 17,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETF inflows extend to second week, but recovery lacks momentum",
+        "description": "US spot Bitcoin ETFs extended their inflow streak to two weeks with $75.7 million in net inflows, but analysts said demand remains insufficient to fuel a sustained uptrend.",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-inflows-second-but-recovery-lacks-momentum",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-exchange-executive-digital-currency-as-the-basis-of-the-post-crisis-world-order-3.png",
+        "publishedAt": "2026-07-20T09:33:19Z",
+        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) are seeing renewed investor demand, but the latest inflow streak has yet to provide enough momentum for a stronger recovery.\r\nBitcoin ETFs recorded… [+2741 chars]"
+      },
       {
         "source": {
           "id": null,
