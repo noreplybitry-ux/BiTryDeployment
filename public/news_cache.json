@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-21T12:25:24.584Z",
+  "timestamp": "2026-07-21T15:07:24.524Z",
   "data": {
     "status": "ok",
-    "totalResults": 19,
+    "totalResults": 20,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Europe Gets A Bitcoin-Backed Preferred Stock As Treasury Demand Spreads",
+        "description": "# Europe Gets A Bitcoin-Backed Preferred Stock As Treasury Demand Spreads",
+        "url": "http://www.newsbtc.com/news/europe-bitcoin-backed-preferred-stock-treasury-demand/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-07-20T14:30:00Z",
+        "content": "Reference: Bitcoin Treasury Capital\r\nBitcoin Treasury Capital AB has launched a Bitcoin-backed preferred stock in Sweden, adding another example of how corporate Bitcoin treasury strategies are movin… [+5749 chars]"
+      },
       {
         "source": {
           "id": null,
