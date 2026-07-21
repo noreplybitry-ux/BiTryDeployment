@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-21T15:07:24.525Z",
+  "timestamp": "2026-07-21T17:26:30.065Z",
   "data": {
     "status": "ok",
-    "totalResults": 20,
+    "totalResults": 21,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Avalanche faces key test as $23M token unlock meets surging network activity",
+        "description": "Daily Avalanche transactions surged from 300K to 6.2 million in a year. A $23.3 million AVAX unlock could shape short-term price action. AVAX must hold $6.32 support to keep bullish momentum alive. Avalanche enters a critical week with two contrasting forces …",
+        "url": "https://coinjournal.net/news/avalanche-faces-key-test-as-23m-token-unlock-meets-surging-network-activity/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/Avalanche-token.png",
+        "publishedAt": "2026-07-20T16:39:29Z",
+        "content": "<ul><li>Daily Avalanche transactions surged from 300K to 6.2 million in a year.</li><li>A $23.3 million AVAX unlock could shape short-term price action.</li><li>AVAX must hold $6.32 support to keep b… [+4086 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price hits $65K wall as stocks battle ‘record’ institutional tech sell-off",
+        "description": "Bitcoin traders stay optimistic about BTC price action reaching levels closer to $70,000 despite near-term friction at the hands of the US-Iran war and US tech-stock selling.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-hits-65k-wall-as-stock-battle-record-institutional-tech-sell-off",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-btc-is-doing-great-but-is-an-altseason-emerging.png",
+        "publishedAt": "2026-07-20T15:47:00Z",
+        "content": "Traders balked on Bitcoin (BTC) at $65,000 on Monday as crypto and risk-assets remained under pressure.\r\nKey points:\r\n<ul><li>Bitcoin staged several unsuccessful attempts to break and hold $65,000.</… [+2791 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Grayscale Staking Payout Proposal Could Reshape Ethereum And Solana Trusts",
+        "description": "# Grayscale Staking Payout Proposal Could Reshape Ethereum And Solana Trusts",
+        "url": "http://www.newsbtc.com/news/grayscale-staking-payout-proposal-ethereum-solana-trusts/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Captura-de-pantalla-2026-05-22-a-las-11.43.13-a.-m.png?fit=2424%2C1092",
+        "publishedAt": "2026-07-20T15:15:00Z",
+        "content": "Reference: SEC\r\nGrayscale is proposing changes that would allow staking rewards from its Ethereum and Solana products to be paid out to investors in cash, a move that could make crypto staking exposu… [+6029 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -238,32 +277,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c0dea9de473d44b83caea8d173fa793134cc73e9-2561x1726.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-15T12:05:33Z",
         "content": "Japan reclassified cryptocurrencies as financial instruments, a structural shift that establishes the legal framework for separate taxation of crypto assets and for future crypto exchange-traded fund… [+946 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Japan passes crypto overhaul to bring digital assets under financial rules",
-        "description": "Japan’s revised Financial Instruments and Exchange Act introduces crypto insider trading rules, tougher penalties and new oversight requirements for crypto businesses.",
-        "url": "https://cointelegraph.com/news/japan-crypto-amendment-digital-assets-financial-rules",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-us-crypto-bills-compared-stable-act.png",
-        "publishedAt": "2026-07-15T11:05:46Z",
-        "content": "Japan is set to reshape its cryptocurrency market with stricter trading rules, stronger user protections and a framework closer to traditional finance.\r\nThe countrys parliament on Wednesday passed re… [+2353 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Over 95% of Coinbase’s code is now written with AI",
-        "description": "Coinbase revealed AI now helps write more than 95% of its code as the crypto exchange shifts toward smaller, more senior teams following its May layoffs.",
-        "url": "https://cointelegraph.com/news/over-95-of-coinbases-code-is-now-written-with-ai",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-coinbase-transaction-ai-1.jpg",
-        "publishedAt": "2026-07-14T22:30:00Z",
-        "content": "Artificial intelligence now helps write more than 95% of Coinbases code, offering new insight into the crypto exchanges AI strategy following its decision to cut 14% of its workforce earlier this yea… [+3249 chars]"
       }
     ]
   }
