@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-21T10:29:01.769Z",
+  "timestamp": "2026-07-21T12:25:24.584Z",
   "data": {
     "status": "ok",
-    "totalResults": 17,
+    "totalResults": 19,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Vietnam sets fines for unlicensed crypto trading ahead of regulation rollout",
+        "description": "The new rules establish penalties as much as $1,9000 for crypto violations, including unlicensed trading and AML breaches, ahead of Vietnam’s regulated crypto market launch.",
+        "url": "https://cointelegraph.com/news/vietnam-crypto-traders-unlicensed-platforms-fines",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-an-overview-of-cryptocurrency-regulations-in-vietnam-1.jpg",
+        "publishedAt": "2026-07-20T12:04:06Z",
+        "content": "Vietnam has decreed administrative penalties for use of unlicensed cryptocurrency platforms, adding an enforcement framework to the countrys upcoming regulated market.\r\nDecree No. 284/2026/N-CP, issu… [+908 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russia’s parliament to hold final readings on crypto bill Tuesday",
+        "description": "Russia’s State Duma is set to consider the crypto regulation bill in second and third readings, with rules for investors and cross-border payments included.",
+        "url": "https://cointelegraph.com/news/russia-crypto-bill-final-readings-july-21",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-russia-lifts-ban-on-telegram-user-privacy-still-intact3.jpg",
+        "publishedAt": "2026-07-20T10:37:23Z",
+        "content": "Russias parliament, the State Duma, is preparing to hold final readings on a bill to regulate the cryptocurrency market.\r\nThe draft bill No. 1194918-8, titled On Digital Currency and Digital Rights, … [+1068 chars]"
+      },
       {
         "source": {
           "id": null,
