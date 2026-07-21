@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-21T19:38:50.799Z",
+  "timestamp": "2026-07-21T21:15:51.511Z",
   "data": {
     "status": "ok",
     "totalResults": 21,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Russia's First Comprehensive Crypto Law Is Two Votes Away From Passing",
+        "description": "The bill licenses exchanges, caps retail investors at about $3,800 a year, and creates a legal pathway for Russian companies to pay foreign partners in crypto—bypassing Western sanctions.",
+        "url": "https://decrypt.co/373880/russia-first-comprehensive-crypto-law",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/ukraine-russia-bitcoin-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-07-20T20:02:33Z",
+        "content": "In brief\r\n<ul><li>The State Duma's second and third readings of a pending crypto bill are scheduled for July 21; if approved, the law takes effect September 1.</li><li>The bill explicitly permits cry… [+4263 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -264,19 +277,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-23-gID_7.jpg",
         "publishedAt": "2026-07-15T16:05:19Z",
         "content": "In brief\r\n<ul><li>Bitcoin broke above $64K resistance Tuesday and is trading flat at $64,858 todayjust 0.18% down, barely breathing.</li><li>A death cross on the charts keeps the macro trend bearish,… [+5208 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Ethereum Reclaims $1,800 As ETF Hopes Meet A Friendlier Macro Tape",
-        "description": "There is a useful difference between a noisy headline and a story that actually changes the market’s understanding of a sector. Ethereum Reclaims $1,800 As ETF Hopes Meet A Friendlier Macro Tape lands closer to the secon",
-        "url": "http://www.newsbtc.com/news/ethereum-reclaims-1-800-as-etf-hopes-meet-a-friendlier-macro-tape/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2022/10/man-5782411_1920.jpg?fit=1920%2C1280",
-        "publishedAt": "2026-07-15T12:50:00Z",
-        "content": "There is a useful difference between a noisy headline and a story that actually changes the markets understanding of a sector. Ethereum Reclaims $1,800 As ETF Hopes Meet A Friendlier Macro Tape lands… [+3766 chars]"
       }
     ]
   }
