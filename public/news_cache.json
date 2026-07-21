@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-21T00:00:55.529Z",
+  "timestamp": "2026-07-21T04:18:19.013Z",
   "data": {
     "status": "ok",
-    "totalResults": 15,
+    "totalResults": 16,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "South Korea probed 40 cases of crypto manipulation over 2 years",
+        "description": "South Korea’s financial authorities said they investigated 40 suspected cases of unfair crypto trading since the Virtual Asset User Protection Act took effect in July 2024.",
+        "url": "https://cointelegraph.com/news/south-korea-probed-40-cases-of-crypto-manipulation-over-2-years",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/lost-bitcoins-crypto-hack-hacking-falling-jeans-south-korea.jpg",
+        "publishedAt": "2026-07-20T00:33:12Z",
+        "content": "South Koreas financial authorities investigated more than 40 cases of unfair trading, including market manipulation and fraudulent crypto trading, in the last two years. \r\nAccording to an X post by F… [+1351 chars]"
+      },
       {
         "source": {
           "id": null,
