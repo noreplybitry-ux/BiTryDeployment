@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-22T20:19:16.309Z",
+  "timestamp": "2026-07-22T22:09:08.068Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Marcel Pechman",
+        "title": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "description": "Ether’s rally faces onchain headwinds, but rising staking demand and Google earnings could spark the push toward $2,100.",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/gym-up-eth.jpg",
+        "publishedAt": "2026-07-21T20:26:13Z",
+        "content": "Key takeaways:\r\n<ul><li>Despite ETHs price gains, weak onchain activity and low DEX volumes signal trader caution.</li><li>Record Ethereum staking at 34% reduces sell pressure, yet sustained upside n… [+3218 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/market-red-graph-falling-danger-stones-bitcoin-2.jpg",
         "publishedAt": "2026-07-16T16:58:02Z",
         "content": "Bitcoin (BTC) cooled off with US stocks on Thursday as tech selling tempered gains from low inflation.\r\nKey points:\r\n<ul><li>Bitcoin follows US stocks as they come off local highs sparked by bullish … [+2456 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Morgan Stanley’s E*TRADE launches spot crypto trading through Zero Hash",
-        "description": "Eligible E*TRADE retail clients can now buy, sell and hold Bitcoin, Ether and Solana through a partnership with crypto infrastructure provider Zero Hash.",
-        "url": "https://cointelegraph.com/news/morgan-stanleys-etrade-rolls-out-spot-crypto-trading-for-retail-investors",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-vs-stocks-breaking-news-1.png",
-        "publishedAt": "2026-07-16T16:32:01Z",
-        "content": "Morgan Stanleys E*TRADE platform has launched spot cryptocurrency trading, allowing eligible clients to buy, sell and hold Bitcoin, Ether and Solana through a partnership with crypto infrastructure p… [+2499 chars]"
       }
     ]
   }
