@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-22T09:30:35.574Z",
+  "timestamp": "2026-07-22T11:51:31.100Z",
   "data": {
     "status": "ok",
-    "totalResults": 21,
+    "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russian parliament passes law regulating crypto market",
+        "description": "The State Duma legislation creates a regulated framework for crypto market participants and now moves to President Vladimir Putin for his signature before becoming law.",
+        "url": "https://cointelegraph.com/news/russias-parliament-passes-law-regulating-crypto-market",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/russia-bitcoin.jpg",
+        "publishedAt": "2026-07-21T11:49:30Z",
+        "content": "Russias State Duma has approved a bill establishing rules for the cryptocurrency market, setting conditions for crypto asset operations inside the country and for cross-border trade.\r\nThe parliament … [+1038 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Charles Thuo",
+        "title": "Ethereum price forecast: ETH eyes $2,000 breakout as ETF inflows boost momentum",
+        "description": "Ethereum (ETH) has gained 8.8% in a week as momentum strengthened. BlackRock’s ETHA helped drive fresh spot ETF inflows. $2,000 remains Ethereum’s next major resistance level. Ethereum has extended its latest recovery, climbing above the $1,900 level and putt…",
+        "url": "https://coinjournal.net/news/ethereum-price-forecast-eth-eyes-2000-breakout-as-etf-inflows-boost-momentum/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/11/Ethereum.jpg",
+        "publishedAt": "2026-07-21T11:27:31Z",
+        "content": "<ul><li>Ethereum (ETH) has gained 8.8% in a week as momentum strengthened.</li><li>BlackRock’s ETHA helped drive fresh spot ETF inflows.</li><li>$2,000 remains Ethereum’s next major resistance level.… [+5100 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price gains to $66.3K as range breakout attempt sparks one-month high",
+        "description": "Bitcoin expands to its highest levels in over a month as a trader sees another 6% upside if BTC price action reaches $68,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-hits-663k-as-range-breakout-attempt-sparks-one-month-high",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-gains-100000.png",
+        "publishedAt": "2026-07-21T10:26:35Z",
+        "content": "Bitcoin (BTC) passed one-month highs on Tuesday as price action defied the odds to top $66,000.\r\nKey points:\r\n<ul><li>Bitcoin broke through resistance to hit $66,000 for the first time in more than a… [+2969 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -264,19 +303,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6d62dea31c05f153f4407ebc45f48ddfab943da6-1280x905.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-16T04:09:10Z",
         "content": "Some observers remain skeptical of the sustainability of this inflation-led bounce, arguing that the collapse in oil prices mainly drove the slower growth in the cost of living in June and that the r… [+1063 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Breaks Heavy Resistance—But Death Cross Looms: Analysis",
-        "description": "BTC cleared a key resistance level Tuesday, giving bulls hope. Prediction market traders aren't convinced.",
-        "url": "https://decrypt.co/373545/bitcoin-price-heavy-resistance-death-cross-looms",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-23-gID_7.jpg",
-        "publishedAt": "2026-07-15T16:05:19Z",
-        "content": "In brief\r\n<ul><li>Bitcoin broke above $64K resistance Tuesday and is trading flat at $64,858 todayjust 0.18% down, barely breathing.</li><li>A death cross on the charts keeps the macro trend bearish,… [+5208 chars]"
       }
     ]
   }
