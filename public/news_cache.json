@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-23T15:13:29.717Z",
+  "timestamp": "2026-07-23T17:35:38.884Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price avoids major Iran jitters as S&P 500 ‘short squeeze’ on horizon",
+        "description": "Bitcoin and US stocks stayed strong in the face of US-Iran escalation as analysis predicted BTC price action outperforming equities later.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-avoids-major-iran-jitters-as-sp-500-short-squeeze-on-horizon",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-users-in-iran-we-talk-to-industry-participants.jpg",
+        "publishedAt": "2026-07-22T15:55:20Z",
+        "content": "Bitcoin (BTC) held higher on Wednesday as crypto and risk assets continued to brush off US-Iran war tensions.\r\nKey points:\r\n<ul><li>Bitcoin limits its comedown from five-week highs despite fresh esca… [+3340 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -104,7 +117,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -117,7 +130,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -342,19 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/16codemonitor-bitcoin.jpg",
         "publishedAt": "2026-07-17T14:37:39Z",
         "content": "Bitcoin (BTC) dipped below $62,500 at Fridays Wall Street open as stocks took a fresh hit from the US-Iran war.\r\nKey points:\r\n<ul><li>Bitcoin gives traders a sense of deja-vu as local highs spark rej… [+2625 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "SBI acquires Singaporean crypto platform Coinhako after MAS approval",
-        "description": "SBI Holdings received regulatory approval to acquire a majority stake in Singapore-based crypto exchange Coinhako, expanding its presence in stablecoins, onchain finance and tokenization.",
-        "url": "https://cointelegraph.com/news/sbi-receives-mas-approval-to-acquire-singaporean-coinhako",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-sbi-virtual-currencies-the-bank-backed-japanese-exchange-with-big-plans.jpg",
-        "publishedAt": "2026-07-17T13:30:20Z",
-        "content": "Japanese financial services group SBI Holdings has acquired a majority stake in Holdbuild, the parent company of Singaporean crypto platform Coinhako, after receiving regulatory approval from Singapo… [+2128 chars]"
       }
     ]
   }
