@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-23T21:10:10.676Z",
+  "timestamp": "2026-07-23T23:01:52.155Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Coinbase Wants to Be Canada's One-Stop Shop for Stocks, Crypto and Prediction Markets",
+        "description": "The company's \"Everything Exchange\" is heading north. No launch date set yet, but the Coinbase Canada CEO says phase two for the company is in motion.",
+        "url": "https://decrypt.co/374110/coinbase-canada-stocks-crypto-prediction-markets",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
+        "publishedAt": "2026-07-22T21:13:04Z",
+        "content": "In brief\r\n<ul><li>Coinbase Canada CEO Eric Richmond confirmed the company is working to bring its \"Everything Exchange\" to Canadian users.</li><li>The idea is to offer a single app combining crypto, … [+2982 chars]"
+      },
       {
         "source": {
           "id": null,
