@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-23T12:26:40.908Z",
+  "timestamp": "2026-07-23T15:13:29.717Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "US Seizes More Than $25M in Crypto Tied to Investment and Romance Scams",
+        "description": "Prosecutors filed five forfeiture cases as Secret Service agents traced funds from thousands of victims to launderers in Southeast Asia.",
+        "url": "https://decrypt.co/374049/us-seizes-more-than-25m-in-crypto-tied-to-investment-and-romance-scams",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/department-of-justice-doj-decrypt-style-scaled-gID_7.jpg",
+        "publishedAt": "2026-07-22T15:10:46Z",
+        "content": "In brief\r\n<ul><li>U.S. prosecutors have seized more than $25 million in cryptocurrency linked to international fraud schemes that targeted victims across the U.S. and Canada.</li><li>The money was re… [+2847 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "U.S. seeks forfeiture of $25 million in crypto tied to romance and investment scams",
+        "description": "The cases add to more than $800 million that authorities say a dedicated federal scam task force has recovered.",
+        "url": "https://www.coindesk.com/policy/2026/07/22/u-s-seeks-forfeiture-of-usd25-million-in-crypto-tied-to-romance-and-investment-scams",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/daff9ba693e030b0bf954a2c3bd97fd9395cc604-1920x1403.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-22T13:45:58Z",
+        "content": "Federal prosecutors filed five civil forfeiture complaints seeking more than $25 million in cryptocurrency that investigators say came from international romance and investment scams targeting people… [+1078 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -78,7 +104,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -91,7 +117,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -329,45 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-sbi-virtual-currencies-the-bank-backed-japanese-exchange-with-big-plans.jpg",
         "publishedAt": "2026-07-17T13:30:20Z",
         "content": "Japanese financial services group SBI Holdings has acquired a majority stake in Holdbuild, the parent company of Singaporean crypto platform Coinhako, after receiving regulatory approval from Singapo… [+2128 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Crypto exchange Bybit launches in Indonesia after NOBI acquisition",
-        "description": "Bybit has launched a locally operated crypto exchange in Indonesia after acquiring a majority stake in licensed digital asset firm PT Enkripsi Teknologi Handal.",
-        "url": "https://cointelegraph.com/news/crypto-exchange-bybit-launches-in-indonesia-after-nobi-acquisition",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bybit-giant-is-entering-cryptoheres-why-it-matters.jpg",
-        "publishedAt": "2026-07-17T04:16:32Z",
-        "content": "Crypto exchange Bybit announced Thursday it has launched a locally operated platform in Indonesia after acquiring a majority stake in digital asset firm PT Enkripsi Teknologi Handal, formerly known a… [+994 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Citadel Securities invests $400M in Crypto.com at $20B valuation",
-        "description": "Crypto.com has secured a $400 million investment from Citadel Securities at a $20 billion valuation to accelerate its push into tokenized securities and traditional finance.",
-        "url": "https://cointelegraph.com/news/citadel-securities-invests-400m-in-cryptocom-at-20b-valuation",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocom-is-granted-conditional-approval-for-bank-trust-charter.jpg",
-        "publishedAt": "2026-07-16T23:47:12Z",
-        "content": "Crypto exchange Crypto.com on Thursday announced it has secured a $400 million investment from global market maker Citadel Securities at a $20 billion valuation.\r\nThe investment comes amid growing in… [+904 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Morgan Stanley Launches Bitcoin, Ethereum, and Solana Trading on E*Trade",
-        "description": "Eligible customers can now buy, sell, and hold Bitcoin, Ethereum, and Solana with Morgan Stanley via Zero Hash.",
-        "url": "https://decrypt.co/373681/morgan-stanley-launches-bitcoin-ethereum-solana-trading-etrade",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png",
-        "publishedAt": "2026-07-16T20:01:03Z",
-        "content": "In brief\r\n<ul><li>Eligible E*Trade customers can now trade spot Bitcoin, Ethereum, and Solana.</li><li>Crypto trades are executed through Zero Hash, which also provides custody.</li><li>The launch fo… [+2538 chars]"
       }
     ]
   }
