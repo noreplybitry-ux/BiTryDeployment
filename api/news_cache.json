@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-24T19:37:27.468Z",
+  "timestamp": "2026-07-24T21:09:44.573Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Kraken’s UK Setup Shows Why Crypto Regulation Is More Complicated Than A Simple License",
+        "description": "Kraken’s UK Setup Shows Why Crypto Regulation Is More Complicated Than A Simple License - Read the full analysis on NewsBTC.",
+        "url": "http://www.newsbtc.com/news/kraken-s-uk-setup-shows-why-crypto-regulation-is-more-complicated-than-a-simple/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-29.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-07-23T20:40:00Z",
+        "content": "Krakens UK presence is a good example of how crypto regulation actually works in practice: not as one broad approval, but as a patchwork of registrations, permissions, services, and limits.\r\nThe exch… [+5883 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin.jpeg?fit=1280%2C853",
         "publishedAt": "2026-07-20T14:30:00Z",
         "content": "Reference: Bitcoin Treasury Capital\r\nBitcoin Treasury Capital AB has launched a Bitcoin-backed preferred stock in Sweden, adding another example of how corporate Bitcoin treasury strategies are movin… [+5749 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Vietnam sets fines for unlicensed crypto trading ahead of regulation rollout",
-        "description": "The new rules establish penalties as much as $1,9000 for crypto violations, including unlicensed trading and AML breaches, ahead of Vietnam’s regulated crypto market launch.",
-        "url": "https://cointelegraph.com/news/vietnam-crypto-traders-unlicensed-platforms-fines",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-an-overview-of-cryptocurrency-regulations-in-vietnam-1.jpg",
-        "publishedAt": "2026-07-20T12:04:06Z",
-        "content": "Vietnam has decreed administrative penalties for use of unlicensed cryptocurrency platforms, adding an enforcement framework to the countrys upcoming regulated market.\r\nDecree No. 284/2026/N-CP, issu… [+908 chars]"
       }
     ]
   }
