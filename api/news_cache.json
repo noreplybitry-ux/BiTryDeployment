@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-24T21:09:44.573Z",
+  "timestamp": "2026-07-24T23:05:55.831Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Japan’s Crypto Law Changes Put Bitcoin ETF Hopes On A Longer Track",
+        "description": "Japan’s Crypto Law Changes Put Bitcoin ETF Hopes On A Longer Track - Read the full analysis on NewsBTC.",
+        "url": "http://www.newsbtc.com/news/japan-s-crypto-law-changes-put-bitcoin-etf-hopes-on-a-longer-track/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-14.-Mai-2026-09_12_14.png?fit=1222%2C687",
+        "publishedAt": "2026-07-23T21:30:00Z",
+        "content": "Japans latest crypto law changes have revived the countrys spot Bitcoin ETF discussion, but the important part is the timeline. This is not an approval story today. It is a regulatory groundwork stor… [+5635 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -273,7 +286,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -286,7 +299,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Captura-de-pantalla-2026-05-22-a-las-11.43.13-a.-m.png?fit=2424%2C1092",
         "publishedAt": "2026-07-20T15:15:00Z",
         "content": "Reference: SEC\r\nGrayscale is proposing changes that would allow staking rewards from its Ethereum and Solana products to be paid out to investors in cash, a move that could make crypto staking exposu… [+6029 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Europe Gets A Bitcoin-Backed Preferred Stock As Treasury Demand Spreads",
-        "description": "# Europe Gets A Bitcoin-Backed Preferred Stock As Treasury Demand Spreads",
-        "url": "http://www.newsbtc.com/news/europe-bitcoin-backed-preferred-stock-treasury-demand/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-07-20T14:30:00Z",
-        "content": "Reference: Bitcoin Treasury Capital\r\nBitcoin Treasury Capital AB has launched a Bitcoin-backed preferred stock in Sweden, adding another example of how corporate Bitcoin treasury strategies are movin… [+5749 chars]"
       }
     ]
   }
