@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-24T11:45:37.379Z",
+  "timestamp": "2026-07-24T13:56:33.450Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Binance joins STOP THE TRAFFIK in anti-human trafficking effort",
+        "description": "Binance said the partnership will provide intelligence, training and investigative support to help detect cryptocurrency activity linked to human trafficking and child exploitation while expanding its compliance efforts.",
+        "url": "https://cointelegraph.com/news/binance-stop-the-traffik-anti-human-trafficking",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/binance-nonprofit-human-trafficking.jpg",
+        "publishedAt": "2026-07-23T13:00:00Z",
+        "content": "Binance has partnered with nonprofit STOP THE TRAFFIK to bolster its ability to identify and investigate cryptocurrency activity linked to human trafficking and child exploitation.\r\nThe crypto exchan… [+1226 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -221,7 +234,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -234,7 +247,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -433,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-exchange-executive-digital-currency-as-the-basis-of-the-post-crisis-world-order-3.png",
         "publishedAt": "2026-07-20T09:33:19Z",
         "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) are seeing renewed investor demand, but the latest inflow streak has yet to provide enough momentum for a stronger recovery.\r\nBitcoin ETFs recorded… [+2741 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "South Korea probed 40 cases of crypto manipulation over 2 years",
-        "description": "South Korea’s financial authorities said they investigated 40 suspected cases of unfair crypto trading since the Virtual Asset User Protection Act took effect in July 2024.",
-        "url": "https://cointelegraph.com/news/south-korea-probed-40-cases-of-crypto-manipulation-over-2-years",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/lost-bitcoins-crypto-hack-hacking-falling-jeans-south-korea.jpg",
-        "publishedAt": "2026-07-20T00:33:12Z",
-        "content": "South Koreas financial authorities investigated more than 40 cases of unfair trading, including market manipulation and fraudulent crypto trading, in the last two years. \r\nAccording to an X post by F… [+1351 chars]"
       }
     ]
   }
