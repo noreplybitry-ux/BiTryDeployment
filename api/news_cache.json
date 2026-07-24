@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-24T06:30:40.537Z",
+  "timestamp": "2026-07-24T09:24:27.772Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Bitcoin may have bottomed before its traditional cycle low: Grayscale’s Pandl",
+        "description": "Grayscale’s head of research said that Bitcoin may have bottomed, arguing that macro factors, such as interest rate decisions as increasingly driving the price action of this maturing asset class.",
+        "url": "https://cointelegraph.com/markets/grayscale-bitcoins-price-bottomed",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/market-red-graph-falling-danger-stones-bitcoin-3.jpg",
+        "publishedAt": "2026-07-23T09:03:20Z",
+        "content": "Crypto-focused asset manager Grayscale said that Bitcoins price may have bottomed earlier than the traditional four-year cycle, which would imply a cycle low in September or October. \r\nGrayscales hea… [+2184 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETFs approach $1B in 7-session inflow run",
+        "description": "US spot Bitcoin ETFs recorded $69 million in inflows on Wednesday, extending their inflow streak to seven sessions and bringing total inflows during the period to nearly $1 billion",
+        "url": "https://cointelegraph.com/markets/bitcoin-etfs-1-billion-7-session-inflow-streak",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-etf.jpg",
+        "publishedAt": "2026-07-23T07:08:25Z",
+        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) have attracted about $1 billion in net inflows over seven straight trading sessions.\r\nSpot Bitcoin ETFs recorded $68.99 million in net inflows on W… [+1108 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "South Korea's oldest crypto exchange is now part of the $1 trillion Mirae Group family",
+        "description": "Korbit, South Korea's first cryptocurrency exchange, has joined the Mirae Asset Group family, marking the first time a traditional Korean financial group's affiliate has taken a controlling stake in a domestic crypto exchange.",
+        "url": "https://www.coindesk.com/markets/2026/07/23/south-korea-s-oldest-crypto-exchange-is-now-part-of-the-usd800-billion-mirae-group-family",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/daec67875a17af486d5c2ab3ce621f84580db22f-1260x645.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-23T07:05:42Z",
+        "content": "Korbit, South Korea's first homegrown crypto exchange founded in 2013, now has a new home and its a traditional finance behemoth.\r\nThe exchange announced Thursday that it is now part of the Mirae Ass… [+986 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -182,7 +221,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -195,7 +234,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
