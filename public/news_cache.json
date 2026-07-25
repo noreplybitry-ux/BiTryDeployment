@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-24T23:05:55.831Z",
+  "timestamp": "2026-07-25T03:16:38.641Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-btc-is-doing-great-but-is-an-altseason-emerging.png",
         "publishedAt": "2026-07-20T15:47:00Z",
         "content": "Traders balked on Bitcoin (BTC) at $65,000 on Monday as crypto and risk-assets remained under pressure.\r\nKey points:\r\n<ul><li>Bitcoin staged several unsuccessful attempts to break and hold $65,000.</… [+2791 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Grayscale Staking Payout Proposal Could Reshape Ethereum And Solana Trusts",
-        "description": "# Grayscale Staking Payout Proposal Could Reshape Ethereum And Solana Trusts",
-        "url": "http://www.newsbtc.com/news/grayscale-staking-payout-proposal-ethereum-solana-trusts/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Captura-de-pantalla-2026-05-22-a-las-11.43.13-a.-m.png?fit=2424%2C1092",
-        "publishedAt": "2026-07-20T15:15:00Z",
-        "content": "Reference: SEC\r\nGrayscale is proposing changes that would allow staking rewards from its Ethereum and Solana products to be paid out to investors in cash, a move that could make crypto staking exposu… [+6029 chars]"
       }
     ]
   }
