@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-25T09:03:08.749Z",
+  "timestamp": "2026-07-25T11:15:44.031Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,32 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/ukraine-russia-bitcoin-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-07-20T20:02:33Z",
         "content": "In brief\r\n<ul><li>The State Duma's second and third readings of a pending crypto bill are scheduled for July 21; if approved, the law takes effect September 1.</li><li>The bill explicitly permits cry… [+4263 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin ETFs Are Green Again—Here’s Why Investors Should Zoom Out",
-        "description": "Two consecutive weeks of inflows ended the worst sustained outflow streak in Bitcoin ETF history. Here's why patience may be required from investors.",
-        "url": "https://decrypt.co/373850/bitcoin-etfs-green-inflows-why-investors-should-zoom-out",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-07-20T17:59:51Z",
-        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs posted $75.7 million in net inflows for the week ending July 17.</li><li>This marks a second consecutive green week after eight straight weeks of outflows tot… [+4786 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Bitmine grows treasury to 5.78M ETH as Ether outpaces Bitcoin",
-        "description": "BitMine increased its Ether treasury to 5.78 million ETH, or about 4.8% of Ethereum’s circulating supply, as the company closed in on its 5% accumulation target and Ether continued to outperform Bitcoin.",
-        "url": "https://cointelegraph.com/news/bitmine-grows-ether-treasury-to-578m-eth-as-ethereum-outpaces-bitcoin",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-ethereum-with-bitmine-2.jpg",
-        "publishedAt": "2026-07-20T17:50:00Z",
-        "content": "Top Ethereum treasury company Bitmine said Monday its Ether holdings had reached 5.78 million tokens, representing about 4.8% of Ethereums circulating supply, as the company closed in on its stated g… [+3154 chars]"
       }
     ]
   }
