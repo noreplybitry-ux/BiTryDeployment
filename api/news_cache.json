@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-25T11:15:44.031Z",
+  "timestamp": "2026-07-25T13:46:35.528Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ciaran Lyons",
+        "title": "A quantum roadmap would push Bitcoin much higher: Charles Edwards",
+        "description": "Quantum fears have caused a 30% decline in the Bitcoin price says Charles Edwards. Unveiling a clear plan to fix it, would see the price surge by double digits “very quickly.”",
+        "url": "https://cointelegraph.com/magazine/bitcoins-biggest-bull-catalyst-may-come-from-fixing-its-biggest-risk-edwards",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/interview-23-07-2026.jpg",
+        "publishedAt": "2026-07-24T13:30:00Z",
+        "content": "Bitcoin developers need to swallow their pride and outline a clear plan to harden the blockchain against quantum computing attacks, according to Capriole Investments founder Charles Edwards. He says … [+4408 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Crypto market maker B2C2 held sale talks with multiple potential buyers",
+        "description": "The SBI-owned crypto trading firm is said to have attracted takeover interest from a number of suitors over the past 18 months, but valuation has been a sticking point.",
+        "url": "https://www.coindesk.com/business/2026/06/29/crypto-market-maker-b2c2-held-sale-talks-with-multiple-potential-buyers",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8da0275422489abf75f6dc703d2c645c27ac6f41-7360x4140.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+        "publishedAt": "2026-07-24T11:49:06Z",
+        "content": "Crypto markets have struggled for much of the year as weaker trading volumes, concerns over the economy and fading risk appetite weighed on digital assets. The tougher backdrop has hurt market makers… [+1236 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +394,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2025/11/Ethereum.jpg",
         "publishedAt": "2026-07-21T11:27:31Z",
         "content": "<ul><li>Ethereum (ETH) has gained 8.8% in a week as momentum strengthened.</li><li>BlackRock’s ETHA helped drive fresh spot ETF inflows.</li><li>$2,000 remains Ethereum’s next major resistance level.… [+5100 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price gains to $66.3K as range breakout attempt sparks one-month high",
-        "description": "Bitcoin expands to its highest levels in over a month as a trader sees another 6% upside if BTC price action reaches $68,000.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-hits-663k-as-range-breakout-attempt-sparks-one-month-high",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-gains-100000.png",
-        "publishedAt": "2026-07-21T10:26:35Z",
-        "content": "Bitcoin (BTC) passed one-month highs on Tuesday as price action defied the odds to top $66,000.\r\nKey points:\r\n<ul><li>Bitcoin broke through resistance to hit $66,000 for the first time in more than a… [+2969 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Russia's First Comprehensive Crypto Law Is Two Votes Away From Passing",
-        "description": "The bill licenses exchanges, caps retail investors at about $3,800 a year, and creates a legal pathway for Russian companies to pay foreign partners in crypto—bypassing Western sanctions.",
-        "url": "https://decrypt.co/373880/russia-first-comprehensive-crypto-law",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/ukraine-russia-bitcoin-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-07-20T20:02:33Z",
-        "content": "In brief\r\n<ul><li>The State Duma's second and third readings of a pending crypto bill are scheduled for July 21; if approved, the law takes effect September 1.</li><li>The bill explicitly permits cry… [+4263 chars]"
       }
     ]
   }
