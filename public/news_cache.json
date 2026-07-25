@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-25T06:22:31.236Z",
+  "timestamp": "2026-07-25T09:03:08.749Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -299,7 +299,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -312,7 +312,7 @@
         "author": "Cointelegraph by Sam Bourgi",
         "title": "Crypto market breakout could accelerate as AI trade cools, analyst says",
         "description": "Bitcoin topped $67,000 while crypto stocks rallied on optimism over US crypto legislation and signs investors may be rotating out of AI trades.",
-        "url": "https://cointelegraph.com/markets/crypto-market-breakout-ai-trade-cools-analyst-says",
+        "url": "https://cointelegraph.com/news/crypto-market-breakout-ai-trade-cools-analyst-says",
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
@@ -420,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-ethereum-with-bitmine-2.jpg",
         "publishedAt": "2026-07-20T17:50:00Z",
         "content": "Top Ethereum treasury company Bitmine said Monday its Ether holdings had reached 5.78 million tokens, representing about 4.8% of Ethereums circulating supply, as the company closed in on its stated g… [+3154 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Charles Thuo",
-        "title": "Avalanche faces key test as $23M token unlock meets surging network activity",
-        "description": "Daily Avalanche transactions surged from 300K to 6.2 million in a year. A $23.3 million AVAX unlock could shape short-term price action. AVAX must hold $6.32 support to keep bullish momentum alive. Avalanche enters a critical week with two contrasting forces …",
-        "url": "https://coinjournal.net/news/avalanche-faces-key-test-as-23m-token-unlock-meets-surging-network-activity/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/05/Avalanche-token.png",
-        "publishedAt": "2026-07-20T16:39:29Z",
-        "content": "<ul><li>Daily Avalanche transactions surged from 300K to 6.2 million in a year.</li><li>A $23.3 million AVAX unlock could shape short-term price action.</li><li>AVAX must hold $6.32 support to keep b… [+4086 chars]"
       }
     ]
   }
