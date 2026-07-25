@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-25T20:58:48.505Z",
+  "timestamp": "2026-07-25T22:02:55.498Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Poolin Files Chapter 11 As Bitcoin Miner Moves Toward $52M Asset Sale",
+        "description": "Poolin Files Chapter 11 As Bitcoin Miner Moves Toward $52M Asset Sale - Read the full analysis on NewsBTC.",
+        "url": "http://www.newsbtc.com/news/poolin-files-chapter-11-as-bitcoin-miner-moves-toward-52m-asset-sale/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin_fd195e.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-07-24T21:30:00Z",
+        "content": "Poolin Technology has filed for Chapter 11 bankruptcy protection, setting up an orderly wind-down and asset sale process tied to its West Texas mining operations.\r\nThe filing was made on July 22, 202… [+5666 chars]"
+      },
       {
         "source": {
           "id": null,
