@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-25T15:08:36.626Z",
+  "timestamp": "2026-07-25T17:05:20.974Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin ETFs Shed $225M, Snapping Seven-Day Inflow Streak as Iran Tensions Spook Markets",
+        "description": "BlackRock's IBIT led the exit as Bitcoin briefly dipped under $65,000 and stocks fell on renewed US-Iran hostilities—though the week still closed in the green.",
+        "url": "https://decrypt.co/374260/bitcoin-etfs-shed-225m-snapping-inflow-streak-iran-tensions",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
+        "publishedAt": "2026-07-24T16:17:37Z",
+        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs posted $225.2 million in net outflows on July 23, ending a seven-day streak that had pulled in nearly $1 billion, according to SoSoValue data.</li><li>BlackRo… [+3089 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Crypto Biz: Is the AI-to-crypto rotation underway?",
+        "description": "In this week’s Crypto Biz, US spot Bitcoin ETFs extend their inflow streak as AI stocks lose momentum and lawmakers advance the CLARITY Act, boosting optimism for digital assets.",
+        "url": "https://cointelegraph.com/news/crypto-biz-ai-to-crypto-rotation-bitcoin-etf-inflows-clarity-act",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/sad-bitcoin-delayed.jpg",
+        "publishedAt": "2026-07-24T15:15:57Z",
+        "content": "Crypto markets showed renewed signs of life this week as institutional investors fueled the longest streak of inflows into US spot Bitcoin exchange-traded funds (ETFs) since April and crypto-linked s… [+5152 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-can-bitcoins-hard-cap-be-changed.png",
         "publishedAt": "2026-07-21T17:46:30Z",
         "content": "Bitcoin and the broader cryptocurrency market looked poised for a recovery on Tuesday as progress on landmark US crypto legislation boosted sentiment, with analysts also pointing to a slowdown in the… [+2016 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Jack Mallers Quits Twenty One Capital as Tether's Bitcoin Merger Collapses",
-        "description": "XXI stock dropped nearly 18% after the company's co-founder stepped down and Tether's plan to combine three Bitcoin firms officially fell apart.",
-        "url": "https://decrypt.co/373940/jack-mallers-quits-twenty-one-capital-as-tethers-bitcoin-merger-collapses",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-20-gID_7.png",
-        "publishedAt": "2026-07-21T16:06:20Z",
-        "content": "In brief\r\n<ul><li>Jack Mallers stepped down as CEO of Twenty One Capital, announcing his return to Bitcoin payments firm Strikewhich will remain an independent company.</li><li>Tether's plan to merge… [+4024 chars]"
       }
     ]
   }
