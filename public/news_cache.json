@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-26T20:13:52.865Z",
+  "timestamp": "2026-07-26T22:03:03.486Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Robinhood in talks with Crypto.com over prediction markets: WSJ",
+        "description": "While prediction market companies in the US continue to face legal battles between state and federal authorities, Robinhood is reportedly considering expanding its services.",
+        "url": "https://cointelegraph.com/news/robinhood-cryptocom-prediction-markets",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-when-prediction-markets-go-wrong-who-decides-what-counts-as-the-truth.jpg",
+        "publishedAt": "2026-07-25T21:01:44Z",
+        "content": "The company behind the cryptocurrency and stock trading app, Robinhood, is reportedly discussing plans to expand its existing prediction markets offering with crypto exchange Crypto.com.\r\nAccording t… [+1148 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/8D4AE69827902267ACBA9BDCEF2F78763F5B349528723A680AF2109CEBAF2B2C/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F339ba92c65770bdfcb597f20e40e559b",
         "publishedAt": "2026-07-22T08:40:25Z",
         "content": "In Bitcoin news today, shareholders of Satsuma Technology voted by more than 90% on Monday to sell the company's remaining 668 BTC, worth roughly $43.5M at current prices, and to cancel its LSE delis… [+5483 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "DAT Went Wrong: Satsuma to Unwind Bitcoin Treasury, Sell Off $43 Million in BTC",
-        "description": "The UK Bitcoin treasury company raised $218 million less than a year ago. Now it's returning whatever is left.",
-        "url": "https://decrypt.co/374018/dat-satsuma-unwind-bitcoin-treasury-sell-off-btc",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-05-gID_7.png",
-        "publishedAt": "2026-07-22T00:32:58Z",
-        "content": "In brief\r\n<ul><li>Shareholders voted by more than 90% to sell the company's 668 BTC, return capital, and cancel its London Stock Exchange listing</li><li>This marks the end of a Bitcoin treasury expe… [+3946 chars]"
       }
     ]
   }
