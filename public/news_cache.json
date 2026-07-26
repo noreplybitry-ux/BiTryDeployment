@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-26T16:05:57.799Z",
+  "timestamp": "2026-07-26T18:04:16.746Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
+        "description": "New regulations for crypto trading, custody, and settlement in Russia take effect Sept. 1, with requirements for licensed intermediaries applying from July 2027.",
+        "url": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c00d5f581af46430d49e6ab1ab92dae6b12abcf3-5625x3750.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-25T16:59:36Z",
+        "content": "Russias largest bank, Sberbank, plans to build cryptocurrency trading infrastructure and launch a digital depository by Dec. 1 as Russia moves to bring crypto trading, custody and settlement into its… [+1176 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-05-gID_7.png",
         "publishedAt": "2026-07-22T00:32:58Z",
         "content": "In brief\r\n<ul><li>Shareholders voted by more than 90% to sell the company's 668 BTC, return capital, and cancel its London Stock Exchange listing</li><li>This marks the end of a Bitcoin treasury expe… [+3946 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Marcel Pechman",
-        "title": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
-        "description": "Ether’s rally faces onchain headwinds, but rising staking demand and Google earnings could spark the push toward $2,100.",
-        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/gym-up-eth.jpg",
-        "publishedAt": "2026-07-21T20:26:13Z",
-        "content": "Key takeaways:\r\n<ul><li>Despite ETHs price gains, weak onchain activity and low DEX volumes signal trader caution.</li><li>Record Ethereum staking at 34% reduces sell pressure, yet sustained upside n… [+3218 chars]"
       }
     ]
   }
