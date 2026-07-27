@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-27T15:46:08.292Z",
+  "timestamp": "2026-07-27T17:47:09.736Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Robert Lakin",
+        "title": "Russia’s Sberbank to launch crypto trading infrastructure this year",
+        "description": "Sberbank, Russia’s biggest financial institution, plans to create cryptocurrency trading infrastructure by Dec. 1 as the country is set to establish rules for market participants while allowing crypto assets to be used in foreign trade operations.",
+        "url": "https://cointelegraph.com/news/russias-sberbank-to-launch-crypto-trading-infrastructure-this-year",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/russia-bitcoin.png",
+        "publishedAt": "2026-07-26T16:07:11Z",
+        "content": "Sberbank, Russias biggest bank, plans to build cryptocurrency trading infrastructure including a digital depository no later than Dec. 1 as the country brings crypto trading, custody and settlement i… [+3103 chars]"
+      },
       {
         "source": {
           "id": null,
