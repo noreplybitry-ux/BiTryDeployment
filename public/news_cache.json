@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-27T00:04:38.777Z",
+  "timestamp": "2026-07-27T04:40:51.623Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Binance ‘red teams’ its own staff every month to keep hackers out",
+        "description": "Crypto exchange Binance’s red team will regularly conduct simulated phishing attacks on the company’s staff to check for security weak points.",
+        "url": "https://cointelegraph.com/news/binance-red-teams-own-staff-every-month-to-keep-hackers-out",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/phishing.jpg",
+        "publishedAt": "2026-07-26T02:00:00Z",
+        "content": "Cryptocurrency exchange Binance runs simulated phishing attacks against its own employees and can fire staff who repeatedly fail the tests, according to Binance chief security officer Jimmy Su.\r\nThe … [+2665 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d4b2490f30fa58bdb6ed0c1a89ed37ee02479a66-3407x2556.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-22T09:01:54Z",
         "content": "Balance Coin, a low-circulation algorithmic stablecoin meant to hold a dollar peg, crashed more than 99% on Wednesday after an attacker exploited a pricing flaw in the protocol behind it, blockchain … [+1256 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Bitcoin News: BTC Treasury Strategy Casualty as Satsuma Technology Votes to Wind Down",
-        "description": "In Bitcoin news today, shareholders of Satsuma Technology voted by more than 90% on Monday to sell the company’s remaining 668 BTC, worth roughly $43.5M at c...",
-        "url": "https://cryptonews.com/news/bitcoin-news-satsuma-technology-btc-treasury-wind-down/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/8D4AE69827902267ACBA9BDCEF2F78763F5B349528723A680AF2109CEBAF2B2C/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F339ba92c65770bdfcb597f20e40e559b",
-        "publishedAt": "2026-07-22T08:40:25Z",
-        "content": "In Bitcoin news today, shareholders of Satsuma Technology voted by more than 90% on Monday to sell the company's remaining 668 BTC, worth roughly $43.5M at current prices, and to cancel its LSE delis… [+5483 chars]"
       }
     ]
   }
