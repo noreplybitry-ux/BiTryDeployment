@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-27T04:40:51.623Z",
+  "timestamp": "2026-07-27T08:36:00.580Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
+        "description": "Users have a month to close trades and six months to withdraw, and the exchange gave no specific reason for closing.",
+        "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/030d61604f4bdf32cd4013015de2ad6a80a15e24-7200x4800.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-26T06:59:51Z",
+        "content": "BMX, the platform's token, fell to about 8 cents, down 58% over 24 hours, cutting its market value to roughly $27 million. The token was already down about 70% over the past year, so Sunday's drop ex… [+920 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/daff9ba693e030b0bf954a2c3bd97fd9395cc604-1920x1403.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-22T13:45:58Z",
         "content": "Federal prosecutors filed five civil forfeiture complaints seeking more than $25 million in cryptocurrency that investigators say came from international romance and investment scams targeting people… [+1078 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "BTC trades near $66K as a break above the 50-Day EMA strengthens bullish momentum",
-        "description": "Key takeaways Bitcoin (BTC) trades around $66,300, extending gains after reclaiming the 50-day EMA. The leading cryptocurrency remains below the 100-day and 200-day EMAs, leaving key resistance levels intact. Technical indicators, including the RSI and MACD, …",
-        "url": "https://coinjournal.net/news/btc-trades-near-66k-as-a-break-above-the-50-day-ema-strengthens-bullish-momentum/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/07/ChatGPT-Image-Jul-22-2026-11_44_19-AM.png",
-        "publishedAt": "2026-07-22T10:46:32Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin (BTC) trades around $66,300, extending gains after reclaiming the 50-day EMA.</li><li>The leading cryptocurrency remains below the 100-day and 200-day EMAs, leaving key… [+2717 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
-        "description": "An attacker fed the lending system a fake, abnormally low bitcoin price, liquidated vaults that should have been safe, and pocketed the difference in a single transaction.",
-        "url": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d4b2490f30fa58bdb6ed0c1a89ed37ee02479a66-3407x2556.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-22T09:01:54Z",
-        "content": "Balance Coin, a low-circulation algorithmic stablecoin meant to hold a dollar peg, crashed more than 99% on Wednesday after an attacker exploited a pricing flaw in the protocol behind it, blockchain … [+1256 chars]"
       }
     ]
   }
