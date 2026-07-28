@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-28T08:43:29.625Z",
+  "timestamp": "2026-07-28T11:22:57.462Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Coinbase CEO Brian Armstrong criticizes crypto startups that rebrand to AI",
+        "description": "The executive rejected the idea that the two sectors are in direct competition, framing blockchain as fundamental infrastructure for future automation.",
+        "url": "https://www.coindesk.com/business/2026/07/27/coinbase-ceo-brian-armstrong-criticizes-crypto-startups-that-rebrand-to-ai",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e3f99acddea957693d96eb5d4f88310558d6e951-640x427.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-27T10:39:22Z",
+        "content": "Armstrong and others say autonomous software agents will eventually execute far more daily transactions than humans. Because digital programs cannot open bank accounts or wait days for wire transfers… [+1164 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "BitMart Becomes Latest Crypto Exchange to Shut Down",
+        "description": "BitMart’s closure, citing the market environment and “future strategic direction,” comes days after crypto perps exchange BitMEX shut down.",
+        "url": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/bitmart-decrypt-style-1-gID_7.jpg",
+        "publishedAt": "2026-07-27T09:57:20Z",
+        "content": "In brief\r\n<ul><li>BitMart said Sunday it will wind down its trading platform after nine years, halting all trading on August 26 and ceasing operations on January 31, 2027.</li><li>Its BMX exchange to… [+2298 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +368,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-glasses-decrypt-style-gID_7.png",
         "publishedAt": "2026-07-22T18:48:45Z",
         "content": "In brief\r\n<ul><li>Bitcoin is trading at $66,208 after the daily 200 EMA held as a floor following a crash to the $53K$54K range.</li><li>The death cross50 EMA below 200 EMAis still active on the dail… [+5936 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price avoids major Iran jitters as S&P 500 ‘short squeeze’ on horizon",
-        "description": "Bitcoin and US stocks stayed strong in the face of US-Iran escalation as analysis predicted BTC price action outperforming equities later.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-avoids-major-iran-jitters-as-sp-500-short-squeeze-on-horizon",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-users-in-iran-we-talk-to-industry-participants.jpg",
-        "publishedAt": "2026-07-22T15:55:20Z",
-        "content": "Bitcoin (BTC) held higher on Wednesday as crypto and risk assets continued to brush off US-Iran war tensions.\r\nKey points:\r\n<ul><li>Bitcoin limits its comedown from five-week highs despite fresh esca… [+3340 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "US Seizes More Than $25M in Crypto Tied to Investment and Romance Scams",
-        "description": "Prosecutors filed five forfeiture cases as Secret Service agents traced funds from thousands of victims to launderers in Southeast Asia.",
-        "url": "https://decrypt.co/374049/us-seizes-more-than-25m-in-crypto-tied-to-investment-and-romance-scams",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/department-of-justice-doj-decrypt-style-scaled-gID_7.jpg",
-        "publishedAt": "2026-07-22T15:10:46Z",
-        "content": "In brief\r\n<ul><li>U.S. prosecutors have seized more than $25 million in cryptocurrency linked to international fraud schemes that targeted victims across the U.S. and Canada.</li><li>The money was re… [+2847 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, AI Boost",
-        "title": "U.S. seeks forfeiture of $25 million in crypto tied to romance and investment scams",
-        "description": "The cases add to more than $800 million that authorities say a dedicated federal scam task force has recovered.",
-        "url": "https://www.coindesk.com/policy/2026/07/22/u-s-seeks-forfeiture-of-usd25-million-in-crypto-tied-to-romance-and-investment-scams",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/daff9ba693e030b0bf954a2c3bd97fd9395cc604-1920x1403.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-22T13:45:58Z",
-        "content": "Federal prosecutors filed five civil forfeiture complaints seeking more than $25 million in cryptocurrency that investigators say came from international romance and investment scams targeting people… [+1078 chars]"
       }
     ]
   }
