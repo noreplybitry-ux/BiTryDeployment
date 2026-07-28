@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-28T14:22:11.862Z",
+  "timestamp": "2026-07-28T16:44:31.216Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price eyes $66K as US stocks rise on Iran-strike pause",
+        "description": "Bitcoin injected volatility at the week’s first Wall Street open as stocks reacted to a pause in hostilities between the US and Iran.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-66k-as-us-stocks-rise-on-iran-strike-pause",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/gym-up-bitcoin.jpg",
+        "publishedAt": "2026-07-27T14:51:26Z",
+        "content": "Bitcoin (BTC) sought to build on local highs at Mondays Wall Street open as US stocks opened in the green.\r\nKey points:\r\n<ul><li>Bitcoin approached new local highs with the start of the weeks first U… [+2835 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Cantor is advising crypto bank AMINA on path to potential public listing",
+        "description": "The Swiss bank is exploring multiple paths to the public markets, though discussions are ongoing and no final decision has been made.",
+        "url": "https://www.coindesk.com/business/2026/07/27/cantor-is-advising-crypto-bank-amina-on-path-to-potential-public-listing",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-27T14:36:30Z",
+        "content": "Founded in 2018 as SEBA Bank and rebranded as AMINA in 2023, the lender is overseen by the Swiss Financial Market Supervisory Authority, FINMA. It is one of a small number of regulated banks focused … [+1188 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/daec67875a17af486d5c2ab3ce621f84580db22f-1260x645.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-23T07:05:42Z",
         "content": "Korbit, South Korea's first homegrown crypto exchange founded in 2013, now has a new home and its a traditional finance behemoth.\r\nThe exchange announced Thursday that it is now part of the Mirae Ass… [+986 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Swiss bank BancaStato launches regulated crypto trading with Sygnum",
-        "description": "Switzerland’s BancaStato adds regulated crypto trading through Sygnum and Avaloq to enable its clients to buy, sell and hold four crypto assets, including BTC, ETH, LTC and SOL.",
-        "url": "https://cointelegraph.com/news/bancastato-regulated-crypto-trading-sygnum-avaloq",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-u-banks-have-deeper-interest-in-digital-than-previously-thought-switzerland.jpg",
-        "publishedAt": "2026-07-23T06:00:00Z",
-        "content": "Swiss bank BancaStato has launched regulated cryptocurrency trading using digital asset bank Sygnum and banking software provider Avaloq.\r\nBancaStato, the cantonal bank serving Switzerlands Italian-s… [+2717 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "SEC settles Coinbase suit over ‘text messages that disappeared’",
-        "description": "The settlement follows a watchdog report last year that blamed “avoidable errors” for the loss of nearly a year’s worth of Gary Gensler’s text messages.",
-        "url": "https://cointelegraph.com/news/sec-settles-coinbase-suit-over-text-messages-that-disappeared",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/judge-law-court-regulation-coinbase.jpg",
-        "publishedAt": "2026-07-23T02:57:10Z",
-        "content": "The US Securities and Exchange Commission agreed to pay $150,000 in legal fees to settle a Coinbase lawsuit seeking internal records from the agency at the height of the Biden-era SEC crackdown on cr… [+1968 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Coinbase Wants to Be Canada's One-Stop Shop for Stocks, Crypto and Prediction Markets",
-        "description": "The company's \"Everything Exchange\" is heading north. No launch date set yet, but the Coinbase Canada CEO says phase two for the company is in motion.",
-        "url": "https://decrypt.co/374110/coinbase-canada-stocks-crypto-prediction-markets",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
-        "publishedAt": "2026-07-22T21:13:04Z",
-        "content": "In brief\r\n<ul><li>Coinbase Canada CEO Eric Richmond confirmed the company is working to bring its \"Everything Exchange\" to Canadian users.</li><li>The idea is to offer a single app combining crypto, … [+2982 chars]"
       }
     ]
   }
