@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-28T11:22:57.462Z",
+  "timestamp": "2026-07-28T14:22:11.861Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Adrian Zmudzinski",
+        "title": "Hong Kong crypto giant HashKey merges regional exchange into one",
+        "description": "Hong Kong’s HashKey will unify its crypto exchange branches, with users from its Hong Kong, Global, Singapore and Middle East regions using the same platform.",
+        "url": "https://cointelegraph.com/news/hong-kong-crypto-giant-hashkey-merges-its-exchanges-into-one",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-stablecoin-hong-kong.jpg",
+        "publishedAt": "2026-07-27T13:41:44Z",
+        "content": "Hong Kong digital asset services business HashKey Holdings has merged its HashKey Exchange and HashKey Global exchanges into a single platform and application.\r\nCore jurisdictional hubs including Hon… [+1314 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Aoyon Ashraf",
+        "title": "Crypto is rewriting how Wall Street traders spend their weekends",
+        "description": "Around-the-clock crypto markets are forcing Wall Street to reevaluate one of its oldest assumptions: that weekends are for waiting.",
+        "url": "https://www.coindesk.com/markets/2026/07/27/crypto-is-rewriting-how-wall-street-traders-spend-their-weekends",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b92bb96ac6790d4f43e19a7ae2b7adc6e5b95c18-4245x2839.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-27T13:00:00Z",
+        "content": "By Friday afternoon, the mood on commodity trading desks changes.\r\nFor the first four days of the week, traders have been trying to profit from their bets. By lunch on Friday, however, they're thinki… [+13522 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
         "publishedAt": "2026-07-22T21:13:04Z",
         "content": "In brief\r\n<ul><li>Coinbase Canada CEO Eric Richmond confirmed the company is working to bring its \"Everything Exchange\" to Canadian users.</li><li>The idea is to offer a single app combining crypto, … [+2982 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Is Bouncing: Here’s the Bull and Bear Case for Its Next Move",
-        "description": "The good news: Bitcoin is holding onto key support, and rising. The bad news: a \"death cross\" is still active, and prediction markets are still overwhelmingly bearish.",
-        "url": "https://decrypt.co/374059/bitcoin-price-bounce-bull-bear-case",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-glasses-decrypt-style-gID_7.png",
-        "publishedAt": "2026-07-22T18:48:45Z",
-        "content": "In brief\r\n<ul><li>Bitcoin is trading at $66,208 after the daily 200 EMA held as a floor following a crash to the $53K$54K range.</li><li>The death cross50 EMA below 200 EMAis still active on the dail… [+5936 chars]"
       }
     ]
   }
