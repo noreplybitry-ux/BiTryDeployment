@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-29T10:44:56.922Z",
+  "timestamp": "2026-07-29T13:04:19.836Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Myanmar Approves Death Penalty for Forced Scam Labor, Life for Crypto Fraud",
+        "description": "Scam operations across the region drove up to $114 billion in losses in 2025, according to United Nations estimates.",
+        "url": "https://decrypt.co/374519/myanmar-approves-death-penalty-for-forced-scam-labor-life-for-crypto-fraud",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/scam-compound-myanmar-decrypt-style-1-gID_7.jpg",
+        "publishedAt": "2026-07-28T11:29:21Z",
+        "content": "In brief\r\n<ul><li>Myanmar's military-backed parliament passed the Anti-Online Scam Bill on Tuesday, the first law under Min Aung Hlaing's new government.</li><li>A draft published in May set a maximu… [+2482 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-is-now-superior-over-gold2-1.jpg",
         "publishedAt": "2026-07-23T16:26:43Z",
         "content": "Ether is becoming increasingly attractive from a valuation standpoint, particularly relative to Bitcoin, but onchain data suggests the market has yet to reach a definitive cycle bottom, according to … [+2882 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Swiss Cantonal Bank BancaStato Adds Bitcoin And Ethereum Trading With Sygnum",
-        "description": "Swiss Cantonal Bank BancaStato Adds Bitcoin And Ethereum Trading With Sygnum - Read the full analysis on NewsBTC.",
-        "url": "http://www.newsbtc.com/news/swiss-cantonal-bank-bancastato-adds-bitcoin-and-ethereum-trading-with-sygnum/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/newsbtc_kraken_fifa_clean.jpg?fit=1600%2C900",
-        "publishedAt": "2026-07-23T14:00:00Z",
-        "content": "A Swiss cantonal bank has moved crypto trading directly into its normal banking experience, and that is the part of the story that matters most.\r\nBancaStato, the state bank of the Canton of Ticino, h… [+5479 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Binance joins STOP THE TRAFFIK in anti-human trafficking effort",
-        "description": "Binance said the partnership will provide intelligence, training and investigative support to help detect cryptocurrency activity linked to human trafficking and child exploitation while expanding its compliance efforts.",
-        "url": "https://cointelegraph.com/news/binance-stop-the-traffik-anti-human-trafficking",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/binance-nonprofit-human-trafficking.jpg",
-        "publishedAt": "2026-07-23T13:00:00Z",
-        "content": "Binance has partnered with nonprofit STOP THE TRAFFIK to bolster its ability to identify and investigate cryptocurrency activity linked to human trafficking and child exploitation.\r\nThe crypto exchan… [+1226 chars]"
       }
     ]
   }
