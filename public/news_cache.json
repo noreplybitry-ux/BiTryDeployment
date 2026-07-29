@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-29T04:16:09.494Z",
+  "timestamp": "2026-07-29T07:49:06.233Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,19 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/binance-nonprofit-human-trafficking.jpg",
         "publishedAt": "2026-07-23T13:00:00Z",
         "content": "Binance has partnered with nonprofit STOP THE TRAFFIK to bolster its ability to identify and investigate cryptocurrency activity linked to human trafficking and child exploitation.\r\nThe crypto exchan… [+1226 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Bitcoin may have bottomed before its traditional cycle low: Grayscale’s Pandl",
-        "description": "Grayscale’s head of research said that Bitcoin may have bottomed, arguing that macro factors, such as interest rate decisions as increasingly driving the price action of this maturing asset class.",
-        "url": "https://cointelegraph.com/markets/grayscale-bitcoins-price-bottomed",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/market-red-graph-falling-danger-stones-bitcoin-3.jpg",
-        "publishedAt": "2026-07-23T09:03:20Z",
-        "content": "Crypto-focused asset manager Grayscale said that Bitcoins price may have bottomed earlier than the traditional four-year cycle, which would imply a cycle low in September or October. \r\nGrayscales hea… [+2184 chars]"
       }
     ]
   }
