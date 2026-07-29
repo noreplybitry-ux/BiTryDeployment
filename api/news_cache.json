@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-29T15:52:32.242Z",
+  "timestamp": "2026-07-29T17:20:03.938Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin lows pierce $63K as Asia chip-stock crash spreads to Wall Street",
+        "description": "Bitcoin and crypto dropped as contagion from a major Asia stock-market correction spreads to the US at the Wall Street open.",
+        "url": "https://cointelegraph.com/markets/bitcoin-lows-pierce-63k-as-asia-chip-stock-crash-spills",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-126255-openai-semiconductor-chip-entice-uae-investors.jpg",
+        "publishedAt": "2026-07-28T16:27:46Z",
+        "content": "Bitcoin (BTC) hit ten-day lows at Tuesdays Wall Street open as BTC price action followed a US stocks sell-off.\r\nKey points:\r\n<ul><li>Bitcoin price action reacts to contagion from an Asia stocks sell-… [+2895 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Why the Bitcoin Rally Seems More Like a Bull Trap",
+        "description": "The Bitcoin bounce looked promising. The charts now say it wasn't.",
+        "url": "https://decrypt.co/374539/bitcoin-price-rally-bull-trap",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "publishedAt": "2026-07-28T16:22:18Z",
+        "content": "In brief\r\n<ul><li>Bitcoin's brief rally to $66,921 failed at the golden zone and price has since fallen back to $63,422a pattern that looks less like a recovery and more like a textbook bull trap.</l… [+5313 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +355,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ae0a096246871f868542edd025af448d189d9fa4-2177x1110.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-24T06:10:49Z",
         "content": "Korbit currently holds less than 1% of South Korea's domestic crypto market, far behind giants Upbit and Bithumb. When asked directly about its strategy to compete, Mirae Asset stressed that the goal… [+1353 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Japan’s Crypto Law Changes Put Bitcoin ETF Hopes On A Longer Track",
-        "description": "Japan’s Crypto Law Changes Put Bitcoin ETF Hopes On A Longer Track - Read the full analysis on NewsBTC.",
-        "url": "http://www.newsbtc.com/news/japan-s-crypto-law-changes-put-bitcoin-etf-hopes-on-a-longer-track/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/ChatGPT-Image-14.-Mai-2026-09_12_14.png?fit=1222%2C687",
-        "publishedAt": "2026-07-23T21:30:00Z",
-        "content": "Japans latest crypto law changes have revived the countrys spot Bitcoin ETF discussion, but the important part is the timeline. This is not an approval story today. It is a regulatory groundwork stor… [+5635 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Kraken’s UK Setup Shows Why Crypto Regulation Is More Complicated Than A Simple License",
-        "description": "Kraken’s UK Setup Shows Why Crypto Regulation Is More Complicated Than A Simple License - Read the full analysis on NewsBTC.",
-        "url": "http://www.newsbtc.com/news/kraken-s-uk-setup-shows-why-crypto-regulation-is-more-complicated-than-a-simple/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-29.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-07-23T20:40:00Z",
-        "content": "Krakens UK presence is a good example of how crypto regulation actually works in practice: not as one broad approval, but as a patchwork of registrations, permissions, services, and limits.\r\nThe exch… [+5883 chars]"
       }
     ]
   }
