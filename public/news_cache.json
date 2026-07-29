@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-29T17:20:03.937Z",
+  "timestamp": "2026-07-29T19:24:42.116Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Morgan Stanley Expands Crypto Push With Ethereum and Solana ETPs",
+        "description": "The Wall Street giant has launched spot Ethereum and Solana exchange-traded products, expanding its digital asset strategy.",
+        "url": "https://decrypt.co/374592/morgan-stanley-crypto-ethereum-solana-etps",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png",
+        "publishedAt": "2026-07-28T19:14:14Z",
+        "content": "In brief\r\n<ul><li>Morgan Stanley launched spot Ethereum and Solana exchange-traded products under the ticker symbols MSSE and MSOL.</li><li>Both funds will stake a portion of their holdings, with sta… [+2355 chars]"
+      },
       {
         "source": {
           "id": null,
