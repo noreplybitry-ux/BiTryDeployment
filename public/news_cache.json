@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-29T13:04:19.836Z",
+  "timestamp": "2026-07-29T15:52:32.242Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
+        "description": "Under new proposals, the central bank will treat digital assets like standard securities, requiring exchanges to publish volume-weighted market prices.",
+        "url": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/177fe0d442a9bb8ec8bb8ee503d2332e2d65478d-1710x958.png?auto=format&q=75",
+        "publishedAt": "2026-07-28T14:49:50Z",
+        "content": "The Bank of Russia published its first draft rules as part of the introduction of cryptocurrency regulations in the country, including capital requirements for companies that hold and record digital … [+1174 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/05/Untitled-design-29.jpg?fit=1792%2C1024",
         "publishedAt": "2026-07-23T20:40:00Z",
         "content": "Krakens UK presence is a good example of how crypto regulation actually works in practice: not as one broad approval, but as a patchwork of registrations, permissions, services, and limits.\r\nThe exch… [+5883 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Ethereum nears market bottom against Bitcoin, though key signals remain unconfirmed: CryptoQuant",
-        "description": "Ether trades below its realized price while onchain indicators point to easing selling pressure and recovering demand, though a definitive cycle bottom has yet to emerge.",
-        "url": "https://cointelegraph.com/news/ethereum-nears-market-bottom-against-bitcoin-key-signals-remain-unconfirmed-cryptoquant",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-is-now-superior-over-gold2-1.jpg",
-        "publishedAt": "2026-07-23T16:26:43Z",
-        "content": "Ether is becoming increasingly attractive from a valuation standpoint, particularly relative to Bitcoin, but onchain data suggests the market has yet to reach a definitive cycle bottom, according to … [+2882 chars]"
       }
     ]
   }
