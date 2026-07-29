@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-29T07:49:06.233Z",
+  "timestamp": "2026-07-29T10:44:56.922Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "BitMEX and BitMart may be first casualties of crypto trading slump",
+        "description": "Trading volumes across major centralized platforms fell down to $1.05 trillion, marking the quietest stretch of activity for the digital asset market in over two years.",
+        "url": "https://www.coindesk.com/business/2026/07/28/bitmex-and-bitmart-may-be-first-casualties-of-crypto-trading-slump",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/771385c021cd7c09e06e6a11e5938b7cef002ac8-10500x5906.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-28T09:36:01Z",
+        "content": "BitMEX is now facing legal action alleging it withheld trader collateral and engaged in insider trading. The new lawsuit accuses Hayes and fellow co-founders, Ben Delo and Samuel Reed, of designing a… [+1105 chars]"
+      },
       {
         "source": {
           "id": null,
