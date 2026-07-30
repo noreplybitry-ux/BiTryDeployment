@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-30T11:12:23.088Z",
+  "timestamp": "2026-07-30T14:15:20.605Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Oliver Knight",
+        "title": "The inside story of how a hike in Hong Kong changed crypto trading forever",
+        "description": "\"We were a scrappy startup,\" Delo said of BitMEX back in 2016, when it launched the first perpetual future. \"We thought, ‘Just get it out there. If it was any good, the market would show us.’\"",
+        "url": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a6ed51e6620572825f55b798cf85004f3ad4e580-5960x3973.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-29T13:53:01Z",
+        "content": "It was sometime in 2015, on a hiking trail in Hong Kong, that the perpetual swap also called a perpetual future or a perp for short was born. Ben Delo, the mathematician and co-founder of BitMEX, was… [+8723 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Crypto Scams Cost Americans an Estimated $80.7B in 2025: Report",
+        "description": "The figure is seven times that of the $11.4 billion in reported losses, a rate drawn from a 2017 survey on how rarely fraud is reported.",
+        "url": "https://decrypt.co/374638/crypto-scams-cost-americans-an-estimated-80-7b-in-2025-report",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
+        "publishedAt": "2026-07-29T12:10:26Z",
+        "content": "In brief\r\n<ul><li>Crypto accounted for more than half of all scam losses reported to the FBI last year, at $11.37 billion.</li><li>The Consumer Federation of America puts the true cost at $80.7 billi… [+2971 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/interview-23-07-2026.jpg",
         "publishedAt": "2026-07-24T13:30:00Z",
         "content": "Bitcoin developers need to swallow their pride and outline a clear plan to harden the blockchain against quantum computing attacks, according to Capriole Investments founder Charles Edwards. He says … [+4408 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Crypto market maker B2C2 held sale talks with multiple potential buyers",
-        "description": "The SBI-owned crypto trading firm is said to have attracted takeover interest from a number of suitors over the past 18 months, but valuation has been a sticking point.",
-        "url": "https://www.coindesk.com/business/2026/06/29/crypto-market-maker-b2c2-held-sale-talks-with-multiple-potential-buyers",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8da0275422489abf75f6dc703d2c645c27ac6f41-7360x4140.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-24T11:49:06Z",
-        "content": "Crypto markets have struggled for much of the year as weaker trading volumes, concerns over the economy and fading risk appetite weighed on digital assets. The tougher backdrop has hurt market makers… [+1236 chars]"
       }
     ]
   }
