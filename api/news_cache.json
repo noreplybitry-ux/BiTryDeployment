@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-30T20:18:06.881Z",
+  "timestamp": "2026-07-30T22:11:03.615Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Robinhood posts record quarter as crypto revenue slides 38%",
+        "description": "Robinhood reported record second-quarter revenue and earnings, while cryptocurrency transaction revenue fell 38% despite continued expansion through Bitstamp, Robinhood Chain and tokenized stocks.",
+        "url": "https://cointelegraph.com/markets/robinhood-record-quarter-crypto-revenue-slides",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/robinhood.jpg",
+        "publishedAt": "2026-07-29T21:53:35Z",
+        "content": "[Update 08:55 UTC, July 30: Updates with additional reporting and context.]\r\nOnline brokerage Robinhood posted record second-quarter revenue and earnings, though cryptocurrency transaction revenue fe… [+2504 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Robinhood posts record quarter, but crypto revenue slides 38%",
+        "description": "Robinhood reported record second-quarter revenue and earnings, while cryptocurrency transaction revenue fell 38% despite continued expansion through Bitstamp, Robinhood Chain and tokenized stocks.",
+        "url": "https://cointelegraph.com/news/robinhood-record-quarter-crypto-revenue-slides",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/robinhood.jpg",
+        "publishedAt": "2026-07-29T21:53:35Z",
+        "content": "Online brokerage Robinhood posted record second-quarter revenue and earnings, though cryptocurrency transaction revenue fell 38% from a year earlier.\r\nAccording to the companys earnings report on Wed… [+1227 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun, Krisztian Sandor",
+        "title": "Robinhood slides 4% despite earnings beat as crypto revenue cools",
+        "description": "The brokerage reported $100 million revenue from crypto trading, a 38% decline in a year, offset by stronger options, equities and prediction markets activity.",
+        "url": "https://www.coindesk.com/markets/2026/07/29/robinhood-slides-4-despite-earnings-beat-as-crypto-revenue-cools",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/da9ffcdfcd965614c3a32a2e673631861308b387-1920x1080.jpg?auto=format&q=75",
+        "publishedAt": "2026-07-29T20:40:43Z",
+        "content": "Robinhood (HOOD) topped Wall Street's second-quarter expectations, but shares fell about 4% in after-hours trading, adding to their 3.1% decline during Wednesday's session.\r\nThe online brokerage repo… [+981 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin_fd195e.jpeg?fit=1280%2C853",
         "publishedAt": "2026-07-24T21:30:00Z",
         "content": "Poolin Technology has filed for Chapter 11 bankruptcy protection, setting up an orderly wind-down and asset sale process tied to its West Texas mining operations.\r\nThe filing was made on July 22, 202… [+5666 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Elliptic Report Shows How Bitcoin ATM Scams Move From Cash To On-Chain Wallets",
-        "description": "Elliptic Report Shows How Bitcoin ATM Scams Move From Cash To On-Chain Wallets - Read the full analysis on NewsBTC.",
-        "url": "http://www.newsbtc.com/news/elliptic-report-shows-how-bitcoin-atm-scams-move-from-cash-to-on-chain-wallets/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-07-24T19:50:00Z",
-        "content": "Elliptic has published a new report explaining how Bitcoin ATM scams work, and the most useful part is not the usual warning that scammers exist. It is the transaction path.\r\nThe report describes how… [+5541 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin ETFs Shed $225M, Snapping Seven-Day Inflow Streak as Iran Tensions Spook Markets",
-        "description": "BlackRock's IBIT led the exit as Bitcoin briefly dipped under $65,000 and stocks fell on renewed US-Iran hostilities—though the week still closed in the green.",
-        "url": "https://decrypt.co/374260/bitcoin-etfs-shed-225m-snapping-inflow-streak-iran-tensions",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
-        "publishedAt": "2026-07-24T16:17:37Z",
-        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs posted $225.2 million in net outflows on July 23, ending a seven-day streak that had pulled in nearly $1 billion, according to SoSoValue data.</li><li>BlackRo… [+3089 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Crypto Biz: Is the AI-to-crypto rotation underway?",
-        "description": "In this week’s Crypto Biz, US spot Bitcoin ETFs extend their inflow streak as AI stocks lose momentum and lawmakers advance the CLARITY Act, boosting optimism for digital assets.",
-        "url": "https://cointelegraph.com/news/crypto-biz-ai-to-crypto-rotation-bitcoin-etf-inflows-clarity-act",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/sad-bitcoin-delayed.jpg",
-        "publishedAt": "2026-07-24T15:15:57Z",
-        "content": "Crypto markets showed renewed signs of life this week as institutional investors fueled the longest streak of inflows into US spot Bitcoin exchange-traded funds (ETFs) since April and crypto-linked s… [+5152 chars]"
       }
     ]
   }
