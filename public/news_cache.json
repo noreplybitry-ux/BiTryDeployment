@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-30T08:35:59.979Z",
+  "timestamp": "2026-07-30T11:12:23.088Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Hungary repeals crypto checks as first MiCA license is granted",
+        "description": "Hungary abolished its crypto validator requirement while CoinCash became the first Hungarian platform authorized under the European Union’s MiCA rules.",
+        "url": "https://cointelegraph.com/news/hungary-repeals-crypto-checks-first-mica-license-granted",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hungary-mica.png",
+        "publishedAt": "2026-07-29T09:15:36Z",
+        "content": "Hungary is rolling back strict crypto rules as CoinCash prepares to resume services after receiving authorization under the European Unions Markets in Crypto-Assets (MiCA) regulation.\r\nThe Hungarian … [+2792 chars]"
+      },
       {
         "source": {
           "id": null,
