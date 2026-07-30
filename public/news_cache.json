@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-30T14:15:20.605Z",
+  "timestamp": "2026-07-30T16:39:44.515Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "MoonPay vault enables ChatGPT and Claude users to authorize crypto transactions",
+        "description": "MoonPay launched PayBox, an AI payment vault that lets ChatGPT and Claude users buy crypto, swap tokens and authorize blockchain transactions while retaining custody.",
+        "url": "https://cointelegraph.com/news/moonpay-launches-ai-payment-vault-for-chatgpt-and-claude-with-crypto-transaction-support",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/magazine-ai-agents-are-trading-crypto-now-but-beware-these-rookie-mistakes.png",
+        "publishedAt": "2026-07-29T16:20:37Z",
+        "content": "MoonPay has launched PayBox, a payment vault that lets ChatGPT and Claude users authorize AI to buy crypto, swap tokens and bridge assets from within a conversation while keeping control of their fun… [+2440 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Coinbase hit by spot trading slump: Wall Street trims expectations ahead of earnings",
+        "description": "Wall Street expects a sluggish second quarter from Coinbase as crypto trading activity cools, putting all eyes on and pending U.S. crypto legislation.",
+        "url": "https://www.coindesk.com/markets/2026/07/29/investors-look-past-expected-weak-q2-earnings-to-focus-on-coinbase-s-political-future",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8f8e845d301c236d4f4687a125d984bf99f2fe55-1152x648.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-29T15:15:08Z",
+        "content": "Barclays analyst Benjamin Budish estimates Coinbase processed roughly $152 billion of trading volume during the quarter, well below the Street's expectation of about $178 billion. He expects adjusted… [+1234 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/26685777b02289720baed417998ab31c5110fd17-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-24T14:36:16Z",
         "content": "Institutional crypto trading platform LMAX Group is working with Morgan Stanley (MS) and investment bank KBW, part of Stifel (SF), to evaluate strategic options, according to three people familiar wi… [+1317 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ciaran Lyons",
-        "title": "A quantum roadmap would push Bitcoin much higher: Charles Edwards",
-        "description": "Quantum fears have caused a 30% decline in the Bitcoin price says Charles Edwards. Unveiling a clear plan to fix it, would see the price surge by double digits “very quickly.”",
-        "url": "https://cointelegraph.com/magazine/bitcoins-biggest-bull-catalyst-may-come-from-fixing-its-biggest-risk-edwards",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/interview-23-07-2026.jpg",
-        "publishedAt": "2026-07-24T13:30:00Z",
-        "content": "Bitcoin developers need to swallow their pride and outline a clear plan to harden the blockchain against quantum computing attacks, according to Capriole Investments founder Charles Edwards. He says … [+4408 chars]"
       }
     ]
   }
