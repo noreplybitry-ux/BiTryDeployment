@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-30T02:46:55.927Z",
+  "timestamp": "2026-07-30T05:47:01.698Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea plans stablecoin rules as opposition pushes crypto tax repeal",
+        "description": "The FSC reportedly plans a government-backed digital asset bill covering stablecoins and exchanges, while opposition lawmakers seek to scrap a 22% crypto tax due in 2027.",
+        "url": "https://cointelegraph.com/news/south-korea-consolidated-crypto-law-tax-repeal",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-people-start-trust-stablecoin-in-period-of-crisis-south-korea.png",
+        "publishedAt": "2026-07-29T03:43:05Z",
+        "content": "South Koreas Financial Services Commission (FSC) reportedly plans to draft a consolidated Digital Asset Basic Act with the ruling Democratic Party, giving lawmakers a government-backed proposal cover… [+2334 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8da0275422489abf75f6dc703d2c645c27ac6f41-7360x4140.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
         "publishedAt": "2026-07-24T11:49:06Z",
         "content": "Crypto markets have struggled for much of the year as weaker trading volumes, concerns over the economy and fading risk appetite weighed on digital assets. The tougher backdrop has hurt market makers… [+1236 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before",
-        "description": "Mirae Asset, the $1 trillion South Korean financial giant, says its plans for newly acquired Korbit go far beyond capturing crypto market share — it wants to build an intelligent investment platform seamlessly connecting real-world assets, stablecoins and dig…",
-        "url": "https://www.coindesk.com/markets/2026/07/24/mirae-asset-has-a-name-for-what-it-s-building-with-korbit-an-intelligent-platform",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ae0a096246871f868542edd025af448d189d9fa4-2177x1110.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-24T06:10:49Z",
-        "content": "Korbit currently holds less than 1% of South Korea's domestic crypto market, far behind giants Upbit and Bithumb. When asked directly about its strategy to compete, Mirae Asset stressed that the goal… [+1353 chars]"
       }
     ]
   }
