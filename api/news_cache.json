@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-07-30T18:20:18.075Z",
+  "timestamp": "2026-07-30T20:18:06.881Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/sad-bitcoin-delayed.jpg",
         "publishedAt": "2026-07-24T15:15:57Z",
         "content": "Crypto markets showed renewed signs of life this week as institutional investors fueled the longest streak of inflows into US spot Bitcoin exchange-traded funds (ETFs) since April and crypto-linked s… [+5152 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Institutional crypto trading platform LMAX is exploring sale, IPO",
-        "description": "LMAX is working with Morgan Stanley and investment bank KBW to assess its options, which could lead to a sale or a public offering.",
-        "url": "https://www.coindesk.com/business/2026/05/22/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/26685777b02289720baed417998ab31c5110fd17-1920x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-        "publishedAt": "2026-07-24T14:36:16Z",
-        "content": "Institutional crypto trading platform LMAX Group is working with Morgan Stanley (MS) and investment bank KBW, part of Stifel (SF), to evaluate strategic options, according to three people familiar wi… [+1317 chars]"
       }
     ]
   }
