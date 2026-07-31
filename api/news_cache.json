@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-31T10:44:44.180Z",
+  "timestamp": "2026-07-31T12:59:50.726Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Crypto Exchange Luno Cuts Global Staff By a Fifth, Citing Automation",
+        "description": "CEO James Lanigan cited automation reshaping the business, as the exchange shifts from retail trading toward institutional infrastructure.",
+        "url": "https://decrypt.co/374699/crypto-exchange-luno-cuts-global-staff-by-a-fifth-citing-automation",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-layoffs-2-gID_7.png",
+        "publishedAt": "2026-07-30T11:42:03Z",
+        "content": "In brief\r\n<ul><li>Luno is cutting about 20% of its staff globally, CEO James Lanigan told Bloomberg, without giving a number.</li><li>He pointed to investments in automation that are \"rapidly changin… [+2740 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/russia-bitcoin.png",
         "publishedAt": "2026-07-26T16:07:11Z",
         "content": "Sberbank, Russias biggest bank, plans to build cryptocurrency trading infrastructure including a digital depository no later than Dec. 1 as the country brings crypto trading, custody and settlement i… [+3103 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
-        "description": "Users have a month to close trades and six months to withdraw, and the exchange gave no specific reason for closing.",
-        "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/030d61604f4bdf32cd4013015de2ad6a80a15e24-7200x4800.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-26T06:59:51Z",
-        "content": "BMX, the platform's token, fell to about 8 cents, down 58% over 24 hours, cutting its market value to roughly $27 million. The token was already down about 70% over the past year, so Sunday's drop ex… [+920 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Binance ‘red teams’ its own staff every month to keep hackers out",
-        "description": "Crypto exchange Binance’s red team will regularly conduct simulated phishing attacks on the company’s staff to check for security weak points.",
-        "url": "https://cointelegraph.com/news/binance-red-teams-own-staff-every-month-to-keep-hackers-out",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/phishing.jpg",
-        "publishedAt": "2026-07-26T02:00:00Z",
-        "content": "Cryptocurrency exchange Binance runs simulated phishing attacks against its own employees and can fire staff who repeatedly fail the tests, according to Binance chief security officer Jimmy Su.\r\nThe … [+2665 chars]"
       }
     ]
   }
