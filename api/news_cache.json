@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-31T04:26:39.336Z",
+  "timestamp": "2026-07-31T07:54:01.370Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETF inflows return as Ether funds slip into outflows",
+        "description": "US spot Bitcoin ETFs returned to net inflows as Bitcoin traded below $64,000, while Ether ETFs recorded daily outflows and crypto sentiment remained cautious.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-inflows-return-ether-funds-outflows",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/surfing-blockchain-wave-etf.jpg",
+        "publishedAt": "2026-07-30T07:05:23Z",
+        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) ended a four-session outflow streak on Wednesday, recording $32.1 million in net inflows.\r\nAfter posting more than $500 million in combined outflow… [+1166 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c00d5f581af46430d49e6ab1ab92dae6b12abcf3-5625x3750.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-25T16:59:36Z",
         "content": "Russias largest bank, Sberbank, plans to build cryptocurrency trading infrastructure and launch a digital depository by Dec. 1 as Russia moves to bring crypto trading, custody and settlement into its… [+1176 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "BitMEX Faces Proposed Class Action Seeking Return Of 622 BTC",
-        "description": "BitMEX Faces Proposed Class Action Seeking Return Of 622 BTC - Read the full analysis on NewsBTC.",
-        "url": "http://www.newsbtc.com/news/bitmex-faces-proposed-class-action-seeking-return-of-622-btc/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/newsbtc_02_coinbase-derivatives-to-launch-24-7-gold-and-silve_b40947.png?fit=1200%2C675",
-        "publishedAt": "2026-07-25T00:00:00Z",
-        "content": "BitMEX is facing a proposed class action in the Southern District of New York seeking the return of 622.66 BTC over alleged forced liquidations and platform misconduct.\r\nThe complaint was filed on Ju… [+5655 chars]"
       }
     ]
   }
