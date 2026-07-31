@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-07-31T19:41:59.677Z",
+  "timestamp": "2026-07-31T21:12:15.170Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Strategy books $8.2 billion second quarter loss on bitcoin price decline",
+        "description": "The world's largest corporate bitcoin holder says it has built a cash reserve covering more than two years of dividend payments after investors questioned its growing stack of preferred securities.",
+        "url": "https://www.coindesk.com/business/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/024d211d615916fbb53501cbb63dc60c856cab12-6000x3376.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-30T20:32:13Z",
+        "content": "Strategy (MSTR), the worlds largest corporate bitcoin BTC\r\n$64,714.55 holder, reported Thursday an $8.2 billion second-quarter net loss after the cryptocurrencys price decline erased billions of doll… [+907 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
+        "description": "The world's largest corporate bitcoin holder says it has built a cash reserve covering more than two years of dividend payments after investors questioned its growing stack of preferred securities.",
+        "url": "https://www.coindesk.com/markets/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/024d211d615916fbb53501cbb63dc60c856cab12-6000x3376.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-30T20:32:13Z",
+        "content": "Strategy (MSTR), the worlds largest corporate bitcoin BTC\r\n$64,818.00 holder, reported Thursday an $8.2 billion second-quarter net loss after the cryptocurrencys price decline erased billions of doll… [+907 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Coinbase sinks 5% after missing second quarter revenue estimates",
+        "description": "The company reported $1.22 billion in overall revenue, down from $1.5 billion in the year prior.",
+        "url": "https://www.coindesk.com/markets/2026/07/30/coinbase-sinks-5-after-missing-q2-revenue-estimates",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-30T20:18:33Z",
+        "content": "In a post on X, CEO Brian Armstrong pointed to the company's expanding businesses beyond spot trading, including stablecoins, Base and prediction markets, noting that Coinbase reached a record 10.3% … [+1120 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e3f99acddea957693d96eb5d4f88310558d6e951-640x427.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-27T10:39:22Z",
         "content": "Armstrong and others say autonomous software agents will eventually execute far more daily transactions than humans. Because digital programs cannot open bank accounts or wait days for wire transfers… [+1164 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "BitMart Becomes Latest Crypto Exchange to Shut Down",
-        "description": "BitMart’s closure, citing the market environment and “future strategic direction,” comes days after crypto perps exchange BitMEX shut down.",
-        "url": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/bitmart-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-07-27T09:57:20Z",
-        "content": "In brief\r\n<ul><li>BitMart said Sunday it will wind down its trading platform after nine years, halting all trading on August 26 and ceasing operations on January 31, 2027.</li><li>Its BMX exchange to… [+2298 chars]"
       }
     ]
   }
