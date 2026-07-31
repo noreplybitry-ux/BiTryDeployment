@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-31T00:07:07.173Z",
+  "timestamp": "2026-07-31T04:26:39.336Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Luno cuts 20% of staff as crypto layoffs spread across 12 firms in July",
+        "description": "Luno is reportedly cutting 20% of its workforce as Gnosis also restructures, adding to layoffs across 12 crypto firms in July.",
+        "url": "https://cointelegraph.com/news/luno-cuts-staff-crypto-layoffs-july",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-box-1.jpg",
+        "publishedAt": "2026-07-30T04:13:34Z",
+        "content": "Crypto exchange Luno is reportedly cutting about 20% of its global workforce as it restructures operations and shifts more resources toward institutional clients, financial infrastructure and busines… [+2418 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Japanese game developer launches Bitcoin, altcoin fund with SBI",
+        "description": "The Bitcoin and altcoin fund builds on Gumi’s growing crypto business centered around XRP, with the company nearly doubling its crypto holdings over the past year.",
+        "url": "https://cointelegraph.com/news/japanese-game-developer-bitcoin-altcoin-fund",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-blockchain-puzzle-charity-donations-unite-ukraine.jpg",
+        "publishedAt": "2026-07-30T03:19:58Z",
+        "content": "Japanese game developer Gumi said it will begin operating a 3 billion yen (about $18.3 million) crypto asset fund on Saturday with SBI Financial Services and backing from Daiwa Securities Group and o… [+1034 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/newsbtc_02_coinbase-derivatives-to-launch-24-7-gold-and-silve_b40947.png?fit=1200%2C675",
         "publishedAt": "2026-07-25T00:00:00Z",
         "content": "BitMEX is facing a proposed class action in the Southern District of New York seeking the return of 622.66 BTC over alleged forced liquidations and platform misconduct.\r\nThe complaint was filed on Ju… [+5655 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Poolin Files Chapter 11 As Bitcoin Miner Moves Toward $52M Asset Sale",
-        "description": "Poolin Files Chapter 11 As Bitcoin Miner Moves Toward $52M Asset Sale - Read the full analysis on NewsBTC.",
-        "url": "http://www.newsbtc.com/news/poolin-files-chapter-11-as-bitcoin-miner-moves-toward-52m-asset-sale/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin_fd195e.jpeg?fit=1280%2C853",
-        "publishedAt": "2026-07-24T21:30:00Z",
-        "content": "Poolin Technology has filed for Chapter 11 bankruptcy protection, setting up an orderly wind-down and asset sale process tied to its West Texas mining operations.\r\nThe filing was made on July 22, 202… [+5666 chars]"
       }
     ]
   }
