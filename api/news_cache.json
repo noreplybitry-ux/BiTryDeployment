@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-31T07:54:01.370Z",
+  "timestamp": "2026-07-31T10:44:44.180Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Crypto exchange Luno cuts 20% of staff amid automation push and retail trading slumps",
+        "description": "The DCG-owned company previously cut 35% of staff in January 2023 citing tough market conditions.",
+        "url": "https://www.coindesk.com/business/2026/07/30/crypto-exchange-luno-cuts-20-of-staff-amid-automation-push-and-retail-trading-slumps",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/035f90f25d915273eee4dcd768f38c2e3b8252dd-3631x2041.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-30T09:54:18Z",
+        "content": "Cryptocurrency exchange Luno is cutting about 20% of its global workforce as weaker retail trading and automation push the company toward a leaner structure and more institutional business, according… [+1072 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/phishing.jpg",
         "publishedAt": "2026-07-26T02:00:00Z",
         "content": "Cryptocurrency exchange Binance runs simulated phishing attacks against its own employees and can fire staff who repeatedly fail the tests, according to Binance chief security officer Jimmy Su.\r\nThe … [+2665 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Robinhood in talks with Crypto.com over prediction markets: WSJ",
-        "description": "While prediction market companies in the US continue to face legal battles between state and federal authorities, Robinhood is reportedly considering expanding its services.",
-        "url": "https://cointelegraph.com/news/robinhood-cryptocom-prediction-markets",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-when-prediction-markets-go-wrong-who-decides-what-counts-as-the-truth.jpg",
-        "publishedAt": "2026-07-25T21:01:44Z",
-        "content": "The company behind the cryptocurrency and stock trading app, Robinhood, is reportedly discussing plans to expand its existing prediction markets offering with crypto exchange Crypto.com.\r\nAccording t… [+1148 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
-        "description": "New regulations for crypto trading, custody, and settlement in Russia take effect Sept. 1, with requirements for licensed intermediaries applying from July 2027.",
-        "url": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c00d5f581af46430d49e6ab1ab92dae6b12abcf3-5625x3750.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-25T16:59:36Z",
-        "content": "Russias largest bank, Sberbank, plans to build cryptocurrency trading infrastructure and launch a digital depository by Dec. 1 as Russia moves to bring crypto trading, custody and settlement into its… [+1176 chars]"
       }
     ]
   }
