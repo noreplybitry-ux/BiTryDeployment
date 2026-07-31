@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-31T21:12:15.171Z",
+  "timestamp": "2026-07-31T23:07:30.297Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Coinbase Misses on Q2 Earnings as Crypto Trading Activity Slows",
+        "description": "The exchange reported lower quarterly revenue and a net loss as crypto trading activity declined, while subscription, stablecoin, and lending businesses continued to grow.",
+        "url": "https://decrypt.co/374761/coinbase-misses-q2-earnings-crypto-trading-activity-slows",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png",
+        "publishedAt": "2026-07-30T21:19:12Z",
+        "content": "In brief\r\n<ul><li>Coinbase reported $1.22 billion in second-quarter revenue, and a net loss of $359 million, against an expected $1.29 billion in earnings.</li><li>Subscription and services revenue t… [+3837 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b92bb96ac6790d4f43e19a7ae2b7adc6e5b95c18-4245x2839.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-27T13:00:00Z",
         "content": "By Friday afternoon, the mood on commodity trading desks changes.\r\nFor the first four days of the week, traders have been trying to profit from their bets. By lunch on Friday, however, they're thinki… [+13522 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Coinbase CEO Brian Armstrong criticizes crypto startups that rebrand to AI",
-        "description": "The executive rejected the idea that the two sectors are in direct competition, framing blockchain as fundamental infrastructure for future automation.",
-        "url": "https://www.coindesk.com/business/2026/07/27/coinbase-ceo-brian-armstrong-criticizes-crypto-startups-that-rebrand-to-ai",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e3f99acddea957693d96eb5d4f88310558d6e951-640x427.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-27T10:39:22Z",
-        "content": "Armstrong and others say autonomous software agents will eventually execute far more daily transactions than humans. Because digital programs cannot open bank accounts or wait days for wire transfers… [+1164 chars]"
       }
     ]
   }
