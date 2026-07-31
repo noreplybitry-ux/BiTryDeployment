@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-07-31T12:59:50.726Z",
+  "timestamp": "2026-07-31T15:26:07.792Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "South Korean crypto trading surges amid stock market plunge",
+        "description": "Crypto exchange trading volume in South Korea sees another uptick as stocks drop, continuing a trend from earlier in July as Bitcoin shows “remarkable resilience” to headwinds.",
+        "url": "https://cointelegraph.com/markets/south-korean-crypto-trading-surges-amid-stock-market-plunge",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-people-start-trust-stablecoin-in-period-of-crisis-south-korea.png",
+        "publishedAt": "2026-07-30T14:10:31Z",
+        "content": "Cryptocurrency trading volumes spiked in South Korea as its stock market fell by nearly 18% this week. \r\nKey points:\r\n<ul><li>South Korean exchanges see a 600% uptick in crypto trading volume around … [+3099 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
+        "description": "A new report from market maker Wintermute found that institutions now dominate crypto trading, driving lower volatility, selective altcoin flows and growth in tokenized assets.",
+        "url": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-30T13:55:18Z",
+        "content": "That concentration could make future altcoin rallies more selective.\r\n\"The result is a market where the flow that increasingly sets direction is concentrated in fewer names, traded more selectively,\"… [+1453 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/bitmart-decrypt-style-1-gID_7.jpg",
         "publishedAt": "2026-07-27T09:57:20Z",
         "content": "In brief\r\n<ul><li>BitMart said Sunday it will wind down its trading platform after nine years, halting all trading on August 26 and ceasing operations on January 31, 2027.</li><li>Its BMX exchange to… [+2298 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Robert Lakin",
-        "title": "Russia’s Sberbank to launch crypto trading infrastructure this year",
-        "description": "Sberbank, Russia’s biggest financial institution, plans to create cryptocurrency trading infrastructure by Dec. 1 as the country is set to establish rules for market participants while allowing crypto assets to be used in foreign trade operations.",
-        "url": "https://cointelegraph.com/news/russias-sberbank-to-launch-crypto-trading-infrastructure-this-year",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/russia-bitcoin.png",
-        "publishedAt": "2026-07-26T16:07:11Z",
-        "content": "Sberbank, Russias biggest bank, plans to build cryptocurrency trading infrastructure including a digital depository no later than Dec. 1 as the country brings crypto trading, custody and settlement i… [+3103 chars]"
       }
     ]
   }
