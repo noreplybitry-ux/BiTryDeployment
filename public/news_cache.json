@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-01T17:06:01.972Z",
+  "timestamp": "2026-08-01T19:17:02.360Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,32 +394,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/177fe0d442a9bb8ec8bb8ee503d2332e2d65478d-1710x958.png?auto=format&q=75",
         "publishedAt": "2026-07-28T14:49:50Z",
         "content": "The Bank of Russia published its first draft rules as part of the introduction of cryptocurrency regulations in the country, including capital requirements for companies that hold and record digital … [+1174 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Myanmar Approves Death Penalty for Forced Scam Labor, Life for Crypto Fraud",
-        "description": "Scam operations across the region drove up to $114 billion in losses in 2025, according to United Nations estimates.",
-        "url": "https://decrypt.co/374519/myanmar-approves-death-penalty-for-forced-scam-labor-life-for-crypto-fraud",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/scam-compound-myanmar-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-07-28T11:29:21Z",
-        "content": "In brief\r\n<ul><li>Myanmar's military-backed parliament passed the Anti-Online Scam Bill on Tuesday, the first law under Min Aung Hlaing's new government.</li><li>A draft published in May set a maximu… [+2482 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "BitMEX and BitMart may be first casualties of crypto trading slump",
-        "description": "Trading volumes across major centralized platforms fell down to $1.05 trillion, marking the quietest stretch of activity for the digital asset market in over two years.",
-        "url": "https://www.coindesk.com/business/2026/07/28/bitmex-and-bitmart-may-be-first-casualties-of-crypto-trading-slump",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/771385c021cd7c09e06e6a11e5938b7cef002ac8-10500x5906.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-28T09:36:01Z",
-        "content": "BitMEX is now facing legal action alleging it withheld trader collateral and engaged in insider trading. The new lawsuit accuses Hayes and fellow co-founders, Ben Delo and Samuel Reed, of designing a… [+1105 chars]"
       }
     ]
   }
