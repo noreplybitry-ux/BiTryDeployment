@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-01T11:21:41.461Z",
+  "timestamp": "2026-08-01T13:39:21.823Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
+        "description": "Most analysts blamed a weak crypto market for Coinbase's earnings miss, though opinions diverged on when trading activity will recover.",
+        "url": "https://www.coindesk.com/markets/2026/07/31/coinbase-s-weak-quarter-leaves-wall-street-split-on-timing-of-a-recovery",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f8d7504a44461e3168672f5739292318dd792954-5749x3832.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-31T13:20:45Z",
+        "content": "Coinbase said it captured a record 10.3% share of global crypto trading volume during the quarter, its third consecutive quarterly gain. Analysts at Benchmark, Oppenheimer, Clear Street and Cantor al… [+1290 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Coinbase Posts Surprise Loss as Crypto Trading Dries Up",
+        "description": "Plus, BTC is red this morning despite $233M in ETF inflows yesterday; and NY State is trying to shut down Kalshi and seeking $36B in damages",
+        "url": "https://decrypt.co/374781/morning-minute-coinbase-posts-surprise-loss-as-crypto-trading-dries-up",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-07-31T12:11:17Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt.\r\nGM!\r\nTodays top news:\r\n<ul><li>Crypto m… [+5528 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +433,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/af5533562893e00a029eaace0996b96eacade301-1905x1072.jpg?auto=format&q=75",
         "publishedAt": "2026-07-27T16:47:06Z",
         "content": "The cuts come as the crypto industry grapples with a prolonged downturn. After three consecutive quarters of declines, the total cryptocurrency market capitalization fell to around $2.1 trillion at t… [+1458 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price eyes $66K as US stocks rise on Iran-strike pause",
-        "description": "Bitcoin injected volatility at the week’s first Wall Street open as stocks reacted to a pause in hostilities between the US and Iran.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-66k-as-us-stocks-rise-on-iran-strike-pause",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/gym-up-bitcoin.jpg",
-        "publishedAt": "2026-07-27T14:51:26Z",
-        "content": "Bitcoin (BTC) sought to build on local highs at Mondays Wall Street open as US stocks opened in the green.\r\nKey points:\r\n<ul><li>Bitcoin approached new local highs with the start of the weeks first U… [+2835 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Cantor is advising crypto bank AMINA on path to potential public listing",
-        "description": "The Swiss bank is exploring multiple paths to the public markets, though discussions are ongoing and no final decision has been made.",
-        "url": "https://www.coindesk.com/business/2026/07/27/cantor-is-advising-crypto-bank-amina-on-path-to-potential-public-listing",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-27T14:36:30Z",
-        "content": "Founded in 2018 as SEBA Bank and rebranded as AMINA in 2023, the lender is overseen by the Swiss Financial Market Supervisory Authority, FINMA. It is one of a small number of regulated banks focused … [+1188 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Adrian Zmudzinski",
-        "title": "Hong Kong crypto giant HashKey merges regional exchange into one",
-        "description": "Hong Kong’s HashKey will unify its crypto exchange branches, with users from its Hong Kong, Global, Singapore and Middle East regions using the same platform.",
-        "url": "https://cointelegraph.com/news/hong-kong-crypto-giant-hashkey-merges-its-exchanges-into-one",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-stablecoin-hong-kong.jpg",
-        "publishedAt": "2026-07-27T13:41:44Z",
-        "content": "Hong Kong digital asset services business HashKey Holdings has merged its HashKey Exchange and HashKey Global exchanges into a single platform and application.\r\nCore jurisdictional hubs including Hon… [+1314 chars]"
       }
     ]
   }
