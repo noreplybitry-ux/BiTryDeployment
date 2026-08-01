@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-01T15:04:57.914Z",
+  "timestamp": "2026-08-01T17:06:01.972Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price sinks to 2-week lows as US stocks fail to copy Asia rebound",
+        "description": "Bitcoin saw fresh downside pressure as US stocks tracked sideways into the end of the month, diverging from the relief bounce seen in Asia.",
+        "url": "https://cointelegraph.com/markets/bitcoin-two-week-lows-us-stocks-fail-copy-asia-rebound",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-price-fall.jpg",
+        "publishedAt": "2026-07-31T15:57:03Z",
+        "content": "Bitcoin (BTC) fell to its lowest levels in over two weeks on Friday as US stocks saw pressure into the monthly close.\r\nKey points:\r\n<ul><li>Bitcoin approaches $62,000 as daily losses hit 3.5%.</li><l… [+2460 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/771385c021cd7c09e06e6a11e5938b7cef002ac8-10500x5906.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-28T09:36:01Z",
         "content": "BitMEX is now facing legal action alleging it withheld trader collateral and engaged in insider trading. The new lawsuit accuses Hayes and fellow co-founders, Ben Delo and Samuel Reed, of designing a… [+1105 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Binance phishs its own staff monthly, India censors BitChat code: Asia Express",
-        "description": "Staff at Binance who fall victim to in-house phishing attempts probably won’t have a job for long. India censors BitChat’s repo. The week’s crypto news in Asia Express.",
-        "url": "https://cointelegraph.com/magazine/india-bans-bitchat-binance-phishs-its-own-staff-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-6.jpg",
-        "publishedAt": "2026-07-28T01:23:07Z",
-        "content": "Binance red teams its own staff every month to keep hackers out\r\nCryptocurrency exchange Binance has been running simulated phishing attacks against its own employees for the past four years and can … [+7890 chars]"
       }
     ]
   }
