@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-07-31T23:07:30.297Z",
+  "timestamp": "2026-08-01T03:28:53.548Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain",
+        "description": "Coinkite urged Coldcard Mk3 users to migrate funds after identifying a potential seed-generation risk, as Bitcoin security experts separately examine an unexplained $38 million wallet drain.",
+        "url": "https://cointelegraph.com/news/coldcard-mk3-warning-594-btc-sweep",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/thief-bitcoin.jpg",
+        "publishedAt": "2026-07-31T02:38:09Z",
+        "content": "Canadian Bitcoin hardware maker Coinkite has warned users of its Coldcard Mk3 signing device to move funds from wallets whose seed phrases were generated on affected firmware. \r\nOn Thursday, Coinkite… [+3087 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-stablecoin-hong-kong.jpg",
         "publishedAt": "2026-07-27T13:41:44Z",
         "content": "Hong Kong digital asset services business HashKey Holdings has merged its HashKey Exchange and HashKey Global exchanges into a single platform and application.\r\nCore jurisdictional hubs including Hon… [+1314 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Aoyon Ashraf",
-        "title": "Crypto is rewriting how Wall Street traders spend their weekends",
-        "description": "Around-the-clock crypto markets are forcing Wall Street to reevaluate one of its oldest assumptions: that weekends are for waiting.",
-        "url": "https://www.coindesk.com/markets/2026/07/27/crypto-is-rewriting-how-wall-street-traders-spend-their-weekends",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b92bb96ac6790d4f43e19a7ae2b7adc6e5b95c18-4245x2839.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-27T13:00:00Z",
-        "content": "By Friday afternoon, the mood on commodity trading desks changes.\r\nFor the first four days of the week, traders have been trying to profit from their bets. By lunch on Friday, however, they're thinki… [+13522 chars]"
       }
     ]
   }
