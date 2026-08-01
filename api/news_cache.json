@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-01T06:34:51.420Z",
+  "timestamp": "2026-08-01T09:10:14.374Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Bitcoin’s calm is back and so is the setup for a volatility explosion",
+        "description": "Bitcoin is as hard to trade now as in January. A standard deviation study shows its daily price swings at their tightest in six months, with volatility collapsing into small ranges. Here's what could happen next.",
+        "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-s-calm-is-back-and-so-is-the-setup-for-a-volatility-explosion",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f9747ccb3b3edaff1ec28ee4730bc4ae5cbf95b9-2854x1488.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-07-31T08:30:31Z",
+        "content": "Trading bitcoin BTC\r\n$62,515.55 these days feels much as it did seven months ago, at the start of the year. \r\nThe price of the largest cryptocurrency is stuck in a tight range, with volatility at six… [+879 chars]"
+      },
       {
         "source": {
           "id": null,
