@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-02T20:13:01.957Z",
+  "timestamp": "2026-08-02T21:59:44.041Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Onchain, in court: What happened in crypto legal news this week",
+        "description": "A case tied to defunct crypto exchange FTX moves forward, a soldier seeks to dismiss over a Polymarket bet and a former congressman was ordered to pay $35,000 for manipulative trading.",
+        "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-5-key-highlights-of-the-secs-lawsuit-against-binance.jpg",
+        "publishedAt": "2026-08-01T21:14:39Z",
+        "content": "Wife of former FTX executive seeks to preclude her husbands guilty plea\r\nIn a Friday filing with the US District Court for the Southern District of New York (SDNY) over campaign finance charges, Mich… [+5042 chars]"
+      },
       {
         "source": {
           "id": null,
