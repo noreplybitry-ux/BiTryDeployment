@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-02T07:34:33.560Z",
+  "timestamp": "2026-08-02T10:02:05.047Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Coldcard Bitcoin loss estimate rises to $70M after Galaxy analysis",
+        "description": "Galaxy Research identified more than $70 million in Bitcoin losses linked to the Coldcard wallet incident and warned users to move funds from vulnerable addresses.",
+        "url": "https://cointelegraph.com/news/coldcard-bitcoin-loss-estimate-70-million-galaxy-analysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hand-coin-laptop-hack-bitcoin.jpg",
+        "publishedAt": "2026-08-01T09:23:56Z",
+        "content": "Galaxy Research, the research arm of crypto investment company Galaxy Digital, identified 1,196 addresses linked to the Coldcard wallet incident that lost 1,082.65 Bitcoin, worth about $70.2 million … [+1334 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
         "publishedAt": "2026-07-28T16:22:18Z",
         "content": "In brief\r\n<ul><li>Bitcoin's brief rally to $66,921 failed at the golden zone and price has since fallen back to $63,422a pattern that looks less like a recovery and more like a textbook bull trap.</l… [+5313 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
-        "description": "Under new proposals, the central bank will treat digital assets like standard securities, requiring exchanges to publish volume-weighted market prices.",
-        "url": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/177fe0d442a9bb8ec8bb8ee503d2332e2d65478d-1710x958.png?auto=format&q=75",
-        "publishedAt": "2026-07-28T14:49:50Z",
-        "content": "The Bank of Russia published its first draft rules as part of the introduction of cryptocurrency regulations in the country, including capital requirements for companies that hold and record digital … [+1174 chars]"
       }
     ]
   }
