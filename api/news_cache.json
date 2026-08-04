@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-04T06:31:56.674Z",
+  "timestamp": "2026-08-04T09:40:52.490Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png",
         "publishedAt": "2026-07-28T19:14:14Z",
         "content": "In brief\r\n<ul><li>Morgan Stanley launched spot Ethereum and Solana exchange-traded products under the ticker symbols MSSE and MSOL.</li><li>Both funds will stake a portion of their holdings, with sta… [+2355 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin lows pierce $63K as Asia chip-stock crash spreads to Wall Street",
-        "description": "Bitcoin and crypto dropped as contagion from a major Asia stock-market correction spreads to the US at the Wall Street open.",
-        "url": "https://cointelegraph.com/markets/bitcoin-lows-pierce-63k-as-asia-chip-stock-crash-spills",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-126255-openai-semiconductor-chip-entice-uae-investors.jpg",
-        "publishedAt": "2026-07-28T16:27:46Z",
-        "content": "Bitcoin (BTC) hit ten-day lows at Tuesdays Wall Street open as BTC price action followed a US stocks sell-off.\r\nKey points:\r\n<ul><li>Bitcoin price action reacts to contagion from an Asia stocks sell-… [+2895 chars]"
       }
     ]
   }
