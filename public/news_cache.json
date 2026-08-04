@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-03T23:07:52.480Z",
+  "timestamp": "2026-08-04T03:13:27.015Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2",
+        "description": "The “sickening” Coldcard exploit sparks a flight to safety among small Bitcoin hodlers. The Clarity Act stalls with just five days left on the clock. Hodler’s Digest, July 2.",
+        "url": "https://cointelegraph.com/magazine/coldcard-exploit-sparks-bitcoin-flight-clarity-act-no-vote-or-no-vote-hodlers-digest-august-2",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/1-august.jpg",
+        "publishedAt": "2026-08-02T23:44:04Z",
+        "content": "Cold storage fears after Coldcard users lose $90M in Bitcoin\r\nAfter $90 million in Bitcoin was drained from Coldcard wallet users, small hodlers desperately sought refuge on centralized exchanges and… [+9205 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-126255-openai-semiconductor-chip-entice-uae-investors.jpg",
         "publishedAt": "2026-07-28T16:27:46Z",
         "content": "Bitcoin (BTC) hit ten-day lows at Tuesdays Wall Street open as BTC price action followed a US stocks sell-off.\r\nKey points:\r\n<ul><li>Bitcoin price action reacts to contagion from an Asia stocks sell-… [+2895 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Why the Bitcoin Rally Seems More Like a Bull Trap",
-        "description": "The Bitcoin bounce looked promising. The charts now say it wasn't.",
-        "url": "https://decrypt.co/374539/bitcoin-price-rally-bull-trap",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
-        "publishedAt": "2026-07-28T16:22:18Z",
-        "content": "In brief\r\n<ul><li>Bitcoin's brief rally to $66,921 failed at the golden zone and price has since fallen back to $63,422a pattern that looks less like a recovery and more like a textbook bull trap.</l… [+5313 chars]"
       }
     ]
   }
