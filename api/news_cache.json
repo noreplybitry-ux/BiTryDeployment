@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-04T19:43:47.240Z",
+  "timestamp": "2026-08-04T21:17:00.171Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "FalconX cuts 10% of workforce amid prolonged crypto market slump: Report",
+        "description": "According to Bloomberg, the digital asset prime broker is refocusing its Singapore strategy and withdrawing its local license application as crypto companies continue to trim costs.",
+        "url": "https://cointelegraph.com/news/falconx-workforce-reduction-amid-crypto-market-slump-report",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-people-ai-1.jpg",
+        "publishedAt": "2026-08-03T19:44:48Z",
+        "content": "FalconX, the digital asset prime brokerage that acquired crypto ETF issuer 21shares last November, has laid off roughly 10% of its global workforce as it prepares for a prolonged downturn in the cryp… [+2112 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/magazine-ai-agents-are-trading-crypto-now-but-beware-these-rookie-mistakes.png",
         "publishedAt": "2026-07-29T16:20:37Z",
         "content": "MoonPay has launched PayBox, a payment vault that lets ChatGPT and Claude users authorize AI to buy crypto, swap tokens and bridge assets from within a conversation while keeping control of their fun… [+2440 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Coinbase hit by spot trading slump: Wall Street trims expectations ahead of earnings",
-        "description": "Wall Street expects a sluggish second quarter from Coinbase as crypto trading activity cools, putting all eyes on and pending U.S. crypto legislation.",
-        "url": "https://www.coindesk.com/markets/2026/07/29/investors-look-past-expected-weak-q2-earnings-to-focus-on-coinbase-s-political-future",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8f8e845d301c236d4f4687a125d984bf99f2fe55-1152x648.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-29T15:15:08Z",
-        "content": "Barclays analyst Benjamin Budish estimates Coinbase processed roughly $152 billion of trading volume during the quarter, well below the Street's expectation of about $178 billion. He expects adjusted… [+1234 chars]"
       }
     ]
   }
