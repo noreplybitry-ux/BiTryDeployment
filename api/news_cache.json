@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-04T12:04:36.877Z",
+  "timestamp": "2026-08-04T15:27:10.478Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: The Coldcard Bitcoin Hack Nears $114 Million in Potential Losses",
+        "description": "Self-custody is under attack, and it's becoming increasingly clear that AI is one of crypto's leading threats.",
+        "url": "https://decrypt.co/374830/morning-minute-the-coldcard-bitcoin-hack-nears-114-million-in-potential-losses",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "publishedAt": "2026-08-03T13:11:19Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt.\r\nGM!\r\nTodays top news:\r\n<ul><li>Crypto m… [+5266 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a6ed51e6620572825f55b798cf85004f3ad4e580-5960x3973.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-29T13:53:01Z",
         "content": "It was sometime in 2015, on a hiking trail in Hong Kong, that the perpetual swap also called a perpetual future or a perp for short was born. Ben Delo, the mathematician and co-founder of BitMEX, was… [+8723 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Crypto Scams Cost Americans an Estimated $80.7B in 2025: Report",
-        "description": "The figure is seven times that of the $11.4 billion in reported losses, a rate drawn from a 2017 survey on how rarely fraud is reported.",
-        "url": "https://decrypt.co/374638/crypto-scams-cost-americans-an-estimated-80-7b-in-2025-report",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
-        "publishedAt": "2026-07-29T12:10:26Z",
-        "content": "In brief\r\n<ul><li>Crypto accounted for more than half of all scam losses reported to the FBI last year, at $11.37 billion.</li><li>The Consumer Federation of America puts the true cost at $80.7 billi… [+2971 chars]"
       }
     ]
   }
