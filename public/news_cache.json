@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-04T15:27:10.478Z",
+  "timestamp": "2026-08-04T17:53:08.900Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8f8e845d301c236d4f4687a125d984bf99f2fe55-1152x648.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-29T15:15:08Z",
         "content": "Barclays analyst Benjamin Budish estimates Coinbase processed roughly $152 billion of trading volume during the quarter, well below the Street's expectation of about $178 billion. He expects adjusted… [+1234 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Oliver Knight",
-        "title": "The inside story of how a hike in Hong Kong changed crypto trading forever",
-        "description": "\"We were a scrappy startup,\" Delo said of BitMEX back in 2016, when it launched the first perpetual future. \"We thought, ‘Just get it out there. If it was any good, the market would show us.’\"",
-        "url": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a6ed51e6620572825f55b798cf85004f3ad4e580-5960x3973.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-29T13:53:01Z",
-        "content": "It was sometime in 2015, on a hiking trail in Hong Kong, that the perpetual swap also called a perpetual future or a perp for short was born. Ben Delo, the mathematician and co-founder of BitMEX, was… [+8723 chars]"
       }
     ]
   }
