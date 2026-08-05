@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-05T16:45:07.747Z",
+  "timestamp": "2026-08-05T18:25:12.526Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/robinhood.jpg",
         "publishedAt": "2026-07-29T21:53:35Z",
         "content": "[Update 08:55 UTC, July 30: Updates with additional reporting and context.]\r\nOnline brokerage Robinhood posted record second-quarter revenue and earnings, though cryptocurrency transaction revenue fe… [+2504 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Robinhood posts record quarter, but crypto revenue slides 38%",
-        "description": "Robinhood reported record second-quarter revenue and earnings, while cryptocurrency transaction revenue fell 38% despite continued expansion through Bitstamp, Robinhood Chain and tokenized stocks.",
-        "url": "https://cointelegraph.com/news/robinhood-record-quarter-crypto-revenue-slides",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/robinhood.jpg",
-        "publishedAt": "2026-07-29T21:53:35Z",
-        "content": "Online brokerage Robinhood posted record second-quarter revenue and earnings, though cryptocurrency transaction revenue fell 38% from a year earlier.\r\nAccording to the companys earnings report on Wed… [+1227 chars]"
       }
     ]
   }
