@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-05T14:21:15.114Z",
+  "timestamp": "2026-08-05T16:45:07.747Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin coils at $64K as Hormuz reopening timeline sends S&P 500 to $70T record",
+        "description": "Bitcoin slowly heads higher while US stocks see new all-time highs as optimism builds over oil traffic returning to the Strait of Hormuz as soon as Wednesday.",
+        "url": "https://cointelegraph.com/markets/bitcoin-coils-as-hormuz-reopening-time-line-sends-sp-500-to-new-record-high",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-oil-firm-buys-into-blockchain-iran.png",
+        "publishedAt": "2026-08-04T16:38:54Z",
+        "content": "Bitcoin saw new August highs into Tuesdays Wall Street open as markets bet on US-Iran tensions again easing.\r\nKey points:\r\n<ul><li>Bitcoin (BTC) edges higher as optimism over the Strait of Hormuz reo… [+3063 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/robinhood.jpg",
         "publishedAt": "2026-07-29T21:53:35Z",
         "content": "Online brokerage Robinhood posted record second-quarter revenue and earnings, though cryptocurrency transaction revenue fell 38% from a year earlier.\r\nAccording to the companys earnings report on Wed… [+1227 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun, Krisztian Sandor",
-        "title": "Robinhood slides 4% despite earnings beat as crypto revenue cools",
-        "description": "The brokerage reported $100 million revenue from crypto trading, a 38% decline in a year, offset by stronger options, equities and prediction markets activity.",
-        "url": "https://www.coindesk.com/markets/2026/07/29/robinhood-slides-4-despite-earnings-beat-as-crypto-revenue-cools",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/da9ffcdfcd965614c3a32a2e673631861308b387-1920x1080.jpg?auto=format&q=75",
-        "publishedAt": "2026-07-29T20:40:43Z",
-        "content": "Robinhood (HOOD) topped Wall Street's second-quarter expectations, but shares fell about 4% in after-hours trading, adding to their 3.1% decline during Wednesday's session.\r\nThe online brokerage repo… [+981 chars]"
       }
     ]
   }
