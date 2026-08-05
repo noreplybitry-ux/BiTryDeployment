@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-05T08:43:48.344Z",
+  "timestamp": "2026-08-05T11:24:22.831Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Former FBI supervisor admits guilt in $1M crypto theft",
+        "description": "A former FBI supervisory agent pleaded guilty to stealing about $1 million worth of digital assets from an adversarial country and forfeited about $925,000 in funds to government-controlled wallets.",
+        "url": "https://cointelegraph.com/news/former-fbi-supervisor-charged-1m-crypto-theft",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-nexfundai-the-fbis-trap-token-explained-2.jpg",
+        "publishedAt": "2026-08-04T10:30:56Z",
+        "content": "Former FBI supervisory agent Patrick Steven Yaroch was charged with using internal systems to obtain credentials for cryptocurrency wallets linked to an adversarial country, which he used to transfer… [+1544 chars]"
+      },
       {
         "source": {
           "id": null,
