@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-05T05:50:41.525Z",
+  "timestamp": "2026-08-05T08:43:48.344Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Crypto firms are still seeking frontier AI access, only a select few have it",
+        "description": "Crypto executives say restricting powerful AI models may initially be justified, but it doesn’t make sense as open-source alternatives become more capable.",
+        "url": "https://cointelegraph.com/news/few-crypto-firms-have-access-to-frontier-ai-as-cyber-threats-escalate",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/ai-hack-1.jpg",
+        "publishedAt": "2026-08-04T06:00:23Z",
+        "content": "Cryptos biggest players are still waiting to gain access to powerful new AI models to strengthen their code from attacks, but only a select few have been able to get it. \r\nUS crypto exchange Coinbase… [+6110 chars]"
+      },
       {
         "source": {
           "id": null,
