@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-04T23:07:03.246Z",
+  "timestamp": "2026-08-05T02:54:26.187Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Caleb & Brown expands to UK, betting on untapped crypto demand",
+        "description": "Swyftx-owned crypto brokerage Caleb & Brown has expanded into the UK, citing low Bitcoin adoption and limited private-client crypto services as growth opportunities.",
+        "url": "https://cointelegraph.com/news/caleb-brown-expands-to-uk-betting-on-untapped-crypto-demand",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-revival-of-general-partnership-in-the-age-of-tokenomics-part-1.jpg",
+        "publishedAt": "2026-08-04T00:51:32Z",
+        "content": "Caleb &amp; Brown, an Australian crypto brokerage owned by the Swyftx Group, has entered the UK market, expanding its services for wealthy investors beyond Australia and the US. \r\nThe expansion comes… [+1294 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/da9ffcdfcd965614c3a32a2e673631861308b387-1920x1080.jpg?auto=format&q=75",
         "publishedAt": "2026-07-29T20:40:43Z",
         "content": "Robinhood (HOOD) topped Wall Street's second-quarter expectations, but shares fell about 4% in after-hours trading, adding to their 3.1% decline during Wednesday's session.\r\nThe online brokerage repo… [+981 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "MoonPay vault enables ChatGPT and Claude users to authorize crypto transactions",
-        "description": "MoonPay launched PayBox, an AI payment vault that lets ChatGPT and Claude users buy crypto, swap tokens and authorize blockchain transactions while retaining custody.",
-        "url": "https://cointelegraph.com/news/moonpay-launches-ai-payment-vault-for-chatgpt-and-claude-with-crypto-transaction-support",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/magazine-ai-agents-are-trading-crypto-now-but-beware-these-rookie-mistakes.png",
-        "publishedAt": "2026-07-29T16:20:37Z",
-        "content": "MoonPay has launched PayBox, a payment vault that lets ChatGPT and Claude users authorize AI to buy crypto, swap tokens and bridge assets from within a conversation while keeping control of their fun… [+2440 chars]"
       }
     ]
   }
