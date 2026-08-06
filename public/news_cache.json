@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-06T10:44:28.827Z",
+  "timestamp": "2026-08-06T12:59:27.036Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinspeaker"
+        },
+        "author": "Daniel Francis",
+        "title": "GPU Debt Mismatches Could Trigger the Crisis That Sends Bitcoin to $1 Million, Says Hayes",
+        "description": "BitMEX co-founder and Maelstrom chief investment officer Arthur Hayes, speaking on the Bankless podcast on June 22, 2026, argued that roughly $1.5 trillion i...",
+        "url": "https://www.coinspeaker.com/ai-credit-crisis-bitcoin-hayes-prediction/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/96369A11043EAF629A4573E7F618206582BCE6B3AA6A956FDB0C147CC53FB9CD/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2F8d4263136b5edc7a28757bbcf9cb606a",
+        "publishedAt": "2026-08-05T11:54:40Z",
+        "content": "BitMEX co-founder and Maelstrom chief investment officer Arthur Hayes, speaking on the Bankless podcast on June 22, 2026, argued that roughly $1.5 trillion in AI-related debt issued since late 2022 h… [+5834 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-layoffs-2-gID_7.png",
         "publishedAt": "2026-07-30T11:42:03Z",
         "content": "In brief\r\n<ul><li>Luno is cutting about 20% of its staff globally, CEO James Lanigan told Bloomberg, without giving a number.</li><li>He pointed to investments in automation that are \"rapidly changin… [+2740 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Crypto exchange Luno cuts 20% of staff amid automation push and retail trading slumps",
-        "description": "The DCG-owned company previously cut 35% of staff in January 2023 citing tough market conditions.",
-        "url": "https://www.coindesk.com/business/2026/07/30/crypto-exchange-luno-cuts-20-of-staff-amid-automation-push-and-retail-trading-slumps",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/035f90f25d915273eee4dcd768f38c2e3b8252dd-3631x2041.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-30T09:54:18Z",
-        "content": "Cryptocurrency exchange Luno is cutting about 20% of its global workforce as weaker retail trading and automation push the company toward a leaner structure and more institutional business, according… [+1072 chars]"
       }
     ]
   }
