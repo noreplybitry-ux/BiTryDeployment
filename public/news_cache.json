@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-06T00:03:09.532Z",
+  "timestamp": "2026-08-06T04:17:14.105Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-blockchain-puzzle-charity-donations-unite-ukraine.jpg",
         "publishedAt": "2026-07-30T03:19:58Z",
         "content": "Japanese game developer Gumi said it will begin operating a 3 billion yen (about $18.3 million) crypto asset fund on Saturday with SBI Financial Services and backing from Daiwa Securities Group and o… [+1034 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Robinhood posts record quarter as crypto revenue slides 38%",
-        "description": "Robinhood reported record second-quarter revenue and earnings, while cryptocurrency transaction revenue fell 38% despite continued expansion through Bitstamp, Robinhood Chain and tokenized stocks.",
-        "url": "https://cointelegraph.com/markets/robinhood-record-quarter-crypto-revenue-slides",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/robinhood.jpg",
-        "publishedAt": "2026-07-29T21:53:35Z",
-        "content": "[Update 08:55 UTC, July 30: Updates with additional reporting and context.]\r\nOnline brokerage Robinhood posted record second-quarter revenue and earnings, though cryptocurrency transaction revenue fe… [+2504 chars]"
       }
     ]
   }
