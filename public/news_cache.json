@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-06T12:59:27.036Z",
+  "timestamp": "2026-08-07T00:06:38.399Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Tests Market’s Patience as Zcash Gives Holders Hope: Analysis",
+        "description": "Will Bitcoin breakout of its death cross? Can Zcash continue to make holders forget about that mid-June crash? Here’s what the charts say.",
+        "url": "https://decrypt.co/374975/bitcoin-price-test-zcash-holds-golden-cross",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_red-gID_7.png",
+        "publishedAt": "2026-08-05T18:33:34Z",
+        "content": "In brief\r\n<ul><li>Bitcoin remains range-bound, trapped in a death cross, with all the signs of a bear trap in the making.</li><li>Zcash, meanwhile, is painting the opposite picture, with indicators l… [+5689 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten",
+        "title": "Strategy’s STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes",
+        "description": "Bitcoin sales, what is now a $4 billion cash reserve, and a $975 million repurchase program, have supported STRC’s recovery.",
+        "url": "https://www.coindesk.com/markets/2026/08/05/strategy-s-strc-rebounds-30-as-company-builds-cash-reserve-bitcoin-price-stabilizes",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1b143885ed58dece3a26646b1d6d4e198494e466-1534x969.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-05T14:44:30Z",
+        "content": "Strategys (MSTR) perpetual preferred stock, Stretch (STRC), has risen more than 30% from its June low. It is currently trading around $94, after gaining another 1% on Wednesday.\r\nSTRC bottomed in lat… [+909 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-people-start-trust-stablecoin-in-period-of-crisis-south-korea.png",
         "publishedAt": "2026-07-30T14:10:31Z",
         "content": "Cryptocurrency trading volumes spiked in South Korea as its stock market fell by nearly 18% this week. \r\nKey points:\r\n<ul><li>South Korean exchanges see a 600% uptick in crypto trading volume around … [+3099 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Institutional crypto trading hits a record 72% as Wall Street calms crypto's wild swings",
-        "description": "A new report from market maker Wintermute found that institutions now dominate crypto trading, driving lower volatility, selective altcoin flows and growth in tokenized assets.",
-        "url": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-30T13:55:18Z",
-        "content": "That concentration could make future altcoin rallies more selective.\r\n\"The result is a market where the flow that increasingly sets direction is concentrated in fewer names, traded more selectively,\"… [+1453 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Crypto Exchange Luno Cuts Global Staff By a Fifth, Citing Automation",
-        "description": "CEO James Lanigan cited automation reshaping the business, as the exchange shifts from retail trading toward institutional infrastructure.",
-        "url": "https://decrypt.co/374699/crypto-exchange-luno-cuts-global-staff-by-a-fifth-citing-automation",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-layoffs-2-gID_7.png",
-        "publishedAt": "2026-07-30T11:42:03Z",
-        "content": "In brief\r\n<ul><li>Luno is cutting about 20% of its staff globally, CEO James Lanigan told Bloomberg, without giving a number.</li><li>He pointed to investments in automation that are \"rapidly changin… [+2740 chars]"
       }
     ]
   }
