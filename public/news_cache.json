@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-07T09:05:03.923Z",
+  "timestamp": "2026-08-07T10:57:26.999Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russian president signs crypto law, core rules take effect in 2026",
+        "description": "Russian President Vladimir Putin signed a crypto law establishing market rules for exchanges, custodians and investors, with core provisions taking effect in September 2026.",
+        "url": "https://cointelegraph.com/news/putin-signs-crypto-law-core-rules-take-effect-2026",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/putin2.jpg",
+        "publishedAt": "2026-08-06T09:38:54Z",
+        "content": "Russian President Vladimir Putin has signed a law creating a regulated framework for cryptocurrency markets in Russia.\r\nPutin signed bill No. 1194918-8, titled On Digital Currencies and Digital Right… [+1203 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-is-bitcoin-a-hedge-against-inflation.jpg",
         "publishedAt": "2026-07-30T16:17:29Z",
         "content": "Bitcoin (BTC) shook off volatility on Thursday as US stocks rebounded on the back of inflation-data relief.\r\nKey points:\r\n<ul><li>Bitcoin avoids a snap reaction to US personal consumption expenditure… [+3702 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "South Korean crypto trading surges amid stock market plunge",
-        "description": "Crypto exchange trading volume in South Korea sees another uptick as stocks drop, continuing a trend from earlier in July as Bitcoin shows “remarkable resilience” to headwinds.",
-        "url": "https://cointelegraph.com/markets/south-korean-crypto-trading-surges-amid-stock-market-plunge",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-people-start-trust-stablecoin-in-period-of-crisis-south-korea.png",
-        "publishedAt": "2026-07-30T14:10:31Z",
-        "content": "Cryptocurrency trading volumes spiked in South Korea as its stock market fell by nearly 18% this week. \r\nKey points:\r\n<ul><li>South Korean exchanges see a 600% uptick in crypto trading volume around … [+3099 chars]"
       }
     ]
   }
