@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-07T11:51:19.563Z",
+  "timestamp": "2026-08-07T13:15:18.674Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/024d211d615916fbb53501cbb63dc60c856cab12-6000x3376.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-30T20:32:13Z",
         "content": "Strategy (MSTR), the worlds largest corporate bitcoin BTC\r\n$64,818.00 holder, reported Thursday an $8.2 billion second-quarter net loss after the cryptocurrencys price decline erased billions of doll… [+907 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Coinbase sinks 5% after missing second quarter revenue estimates",
-        "description": "The company reported $1.22 billion in overall revenue, down from $1.5 billion in the year prior.",
-        "url": "https://www.coindesk.com/markets/2026/07/30/coinbase-sinks-5-after-missing-q2-revenue-estimates",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-30T20:18:33Z",
-        "content": "In a post on X, CEO Brian Armstrong pointed to the company's expanding businesses beyond spot trading, including stablecoins, Base and prediction markets, noting that Coinbase reached a record 10.3% … [+1120 chars]"
       }
     ]
   }
