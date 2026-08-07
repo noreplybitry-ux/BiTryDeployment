@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-07T10:57:26.999Z",
+  "timestamp": "2026-08-07T11:51:19.563Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin treasury trade ‘breaking’ and fund holdings drop 10%: Analysis",
+        "description": "Bitcoin treasuries are at risk of “breaking” altogether, new analysis warns as BTC institutional funds reduce holdings by 10%.",
+        "url": "https://cointelegraph.com/markets/bitcoin-treasury-trade-breaking-and-fund-holdings-drop-10-analysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-92543-dc-attorney-general-sues-michael-saylor-and-microstrategy-for-tax-evasion.jpg",
+        "publishedAt": "2026-08-06T11:48:37Z",
+        "content": "Bitcoin (BTC) institutional investment vehicles have shed 10% of their BTC holdings since May as analysis warns of a breaking sector.\r\nKey points:\r\n<ul><li>Bitcoin institutional funds see a blanket 1… [+2959 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-30T20:18:33Z",
         "content": "In a post on X, CEO Brian Armstrong pointed to the company's expanding businesses beyond spot trading, including stablecoins, Base and prediction markets, noting that Coinbase reached a record 10.3% … [+1120 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin stable as Fed fave PCE inflation sees first monthly drop in six years",
-        "description": "Bitcoin and risk assets see a modest relief bounce as US PCE inflation conforms to expectations and the South Korean semiconductor rout cools after several days of major downside.",
-        "url": "https://cointelegraph.com/markets/bitcoin-crypto-stable-as-us-pce-inflation-sees-first-monthly-drop-in-six-years",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-is-bitcoin-a-hedge-against-inflation.jpg",
-        "publishedAt": "2026-07-30T16:17:29Z",
-        "content": "Bitcoin (BTC) shook off volatility on Thursday as US stocks rebounded on the back of inflation-data relief.\r\nKey points:\r\n<ul><li>Bitcoin avoids a snap reaction to US personal consumption expenditure… [+3702 chars]"
       }
     ]
   }
