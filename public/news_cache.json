@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-08T11:33:47.023Z",
+  "timestamp": "2026-08-08T12:58:25.823Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russia cracks down on 9 crypto exchanges in Moscow City",
+        "description": "Russia has shut down nine unregistered crypto exchanges in Moscow, with the FSB alleging they helped move scam proceeds abroad through Ukrainian call centers.",
+        "url": "https://cointelegraph.com/news/russia-shuts-down-crypto-exchanges-moscow-city",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-russias-law-on-crypto-whats-the-latest.jpg",
+        "publishedAt": "2026-08-07T12:28:41Z",
+        "content": "Russias Federal Security Service (FSB) has raided nine unregistered crypto exchange services in Moscow over alleged money laundering involving fraud proceeds that authorities linked to Ukraine-based … [+1133 chars]"
+      },
       {
         "source": {
           "id": null,
