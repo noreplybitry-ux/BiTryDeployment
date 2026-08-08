@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-08T05:02:53.667Z",
+  "timestamp": "2026-08-08T07:01:19.677Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Japan FSA asks crypto exchanges to impose withdrawal delays to fight scams",
+        "description": "Japanese authorities called for address registration, customer-specific limits and stronger authentication as part of a broader push to curb misuse of exchange accounts.",
+        "url": "https://cointelegraph.com/news/japan-fsa-crypto-exchanges-withdrawal-delays-scams",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/skjapan-1.jpg",
+        "publishedAt": "2026-08-07T05:24:38Z",
+        "content": "Japans financial regulator has asked crypto exchanges to introduce withdrawal delays and other safeguards as authorities respond to increasingly sophisticated scams involving digital assets. \r\nOn Thu… [+1223 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f9747ccb3b3edaff1ec28ee4730bc4ae5cbf95b9-2854x1488.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-31T08:30:31Z",
         "content": "Trading bitcoin BTC\r\n$62,515.55 these days feels much as it did seven months ago, at the start of the year. \r\nThe price of the largest cryptocurrency is stuck in a tight range, with volatility at six… [+879 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain",
-        "description": "Coinkite urged Coldcard Mk3 users to migrate funds after identifying a potential seed-generation risk, as Bitcoin security experts separately examine an unexplained $38 million wallet drain.",
-        "url": "https://cointelegraph.com/news/coldcard-mk3-warning-594-btc-sweep",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/thief-bitcoin.jpg",
-        "publishedAt": "2026-07-31T02:38:09Z",
-        "content": "Canadian Bitcoin hardware maker Coinkite has warned users of its Coldcard Mk3 signing device to move funds from wallets whose seed phrases were generated on affected firmware. \r\nOn Thursday, Coinkite… [+3087 chars]"
       }
     ]
   }
