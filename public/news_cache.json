@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-08T07:01:19.677Z",
+  "timestamp": "2026-08-08T08:49:17.808Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
+        "description": "The crypto market maker can now trade US stocks and options and support ETFs as crypto moves closer to traditional markets.",
+        "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7db3bf97253af39b70ae7cb86f74023bea1187e3-4323x2432.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-07T08:46:17Z",
+        "content": "Crypto market maker Wintermute has secured broker-dealer status in the U.S., giving the firm a regulated route into Wall Street as crypto trading and traditional securities markets draw closer togeth… [+1100 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-07-31T12:11:17Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt.\r\nGM!\r\nTodays top news:\r\n<ul><li>Crypto m… [+5528 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Bitcoin’s calm is back and so is the setup for a volatility explosion",
-        "description": "Bitcoin is as hard to trade now as in January. A standard deviation study shows its daily price swings at their tightest in six months, with volatility collapsing into small ranges. Here's what could happen next.",
-        "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-s-calm-is-back-and-so-is-the-setup-for-a-volatility-explosion",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f9747ccb3b3edaff1ec28ee4730bc4ae5cbf95b9-2854x1488.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-31T08:30:31Z",
-        "content": "Trading bitcoin BTC\r\n$62,515.55 these days feels much as it did seven months ago, at the start of the year. \r\nThe price of the largest cryptocurrency is stuck in a tight range, with volatility at six… [+879 chars]"
       }
     ]
   }
