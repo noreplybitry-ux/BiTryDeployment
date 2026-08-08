@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-08T10:38:50.415Z",
+  "timestamp": "2026-08-08T11:33:47.023Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f8d7504a44461e3168672f5739292318dd792954-5749x3832.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-07-31T13:20:45Z",
         "content": "Coinbase said it captured a record 10.3% share of global crypto trading volume during the quarter, its third consecutive quarterly gain. Analysts at Benchmark, Oppenheimer, Clear Street and Cantor al… [+1290 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Coinbase Posts Surprise Loss as Crypto Trading Dries Up",
-        "description": "Plus, BTC is red this morning despite $233M in ETF inflows yesterday; and NY State is trying to shut down Kalshi and seeking $36B in damages",
-        "url": "https://decrypt.co/374781/morning-minute-coinbase-posts-surprise-loss-as-crypto-trading-dries-up",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-07-31T12:11:17Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt.\r\nGM!\r\nTodays top news:\r\n<ul><li>Crypto m… [+5528 chars]"
       }
     ]
   }
