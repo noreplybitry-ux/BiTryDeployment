@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-08T17:35:57.852Z",
+  "timestamp": "2026-08-08T18:45:29.388Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-cmc-verified-info-deadline-1.png",
         "publishedAt": "2026-08-01T07:23:07Z",
         "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) finished July in the green despite a late-month wave of selling and BTC price volatility.\r\nBitcoin ETFs attracted a modest $172.4 million in net in… [+2301 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price sinks to 2-week lows as US stocks fail to copy Asia rebound",
-        "description": "Bitcoin saw fresh downside pressure as US stocks tracked sideways into the end of the month, diverging from the relief bounce seen in Asia.",
-        "url": "https://cointelegraph.com/markets/bitcoin-two-week-lows-us-stocks-fail-copy-asia-rebound",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-price-fall.jpg",
-        "publishedAt": "2026-07-31T15:57:03Z",
-        "content": "Bitcoin (BTC) fell to its lowest levels in over two weeks on Friday as US stocks saw pressure into the monthly close.\r\nKey points:\r\n<ul><li>Bitcoin approaches $62,000 as daily losses hit 3.5%.</li><l… [+2460 chars]"
       }
     ]
   }
