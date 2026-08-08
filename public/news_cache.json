@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-08T01:58:30.170Z",
+  "timestamp": "2026-08-08T03:40:46.808Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Bitget explores licensed crypto presence in Bhutan",
+        "description": "Bitget signed an agreement with Bhutan’s Gelephu Mindfulness City Authority to pursue a licensed local digital asset presence.",
+        "url": "https://cointelegraph.com/news/bitget-explores-licensed-crypto-presence-in-bhutan",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/building-bitcoin-investment-bhutan.jpg",
+        "publishedAt": "2026-08-07T03:22:26Z",
+        "content": "Bitget has signed an agreement with Bhutans Gelephu Mindfulness City Authority to explore establishing a licensed local operation, as the crypto exchange seeks a foothold in the countrys developing d… [+1002 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "MARA swings to Q2 loss as Bitcoin’s slump masks higher output",
+        "description": "Bitcoin miner MARA posted its highest quarterly Bitcoin production in over a year, but was overshadowed by a 28% decline in the average price of Bitcoin.",
+        "url": "https://cointelegraph.com/markets/mara-swings-to-q2-loss-as-bitcoins-slump-masks-higher-output",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/miner.jpg",
+        "publishedAt": "2026-08-07T02:17:07Z",
+        "content": "Bitcoin miner MARA swung to a net loss of $611.3 million from a year-earlier profit in the second quarter of 2026, driven primarily by a change in the value of its Bitcoin holdings, despite reporting… [+3097 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/thief-bitcoin.jpg",
         "publishedAt": "2026-07-31T02:38:09Z",
         "content": "Canadian Bitcoin hardware maker Coinkite has warned users of its Coldcard Mk3 signing device to move funds from wallets whose seed phrases were generated on affected firmware. \r\nOn Thursday, Coinkite… [+3087 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Coinbase Misses on Q2 Earnings as Crypto Trading Activity Slows",
-        "description": "The exchange reported lower quarterly revenue and a net loss as crypto trading activity declined, while subscription, stablecoin, and lending businesses continued to grow.",
-        "url": "https://decrypt.co/374761/coinbase-misses-q2-earnings-crypto-trading-activity-slows",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png",
-        "publishedAt": "2026-07-30T21:19:12Z",
-        "content": "In brief\r\n<ul><li>Coinbase reported $1.22 billion in second-quarter revenue, and a net loss of $359 million, against an expected $1.29 billion in earnings.</li><li>Subscription and services revenue t… [+3837 chars]"
       }
     ]
   }
