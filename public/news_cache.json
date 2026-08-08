@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-07T23:38:12.043Z",
+  "timestamp": "2026-08-08T01:58:30.170Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Crypto market maker Wintermute launches US broker-dealer",
+        "description": "Wintermute said the registration allows the firm to position itself for the growth of tokenized securities in the US.",
+        "url": "https://cointelegraph.com/news/crypto-market-maker-wintermute-launches-us-broker-dealer",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-wall-street-is-using-ethereum-without-talking-about-ethereum.jpg",
+        "publishedAt": "2026-08-07T00:09:47Z",
+        "content": "Wintermutes US arm has registered as a broker-dealer, enabling the crypto trading firm to expand into traditional financial services in the US. \r\nOn Thursday, Wintermute announced its affiliate Winte… [+1165 chars]"
+      },
       {
         "source": {
           "id": null,
