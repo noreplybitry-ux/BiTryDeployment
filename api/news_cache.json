@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-08T13:51:21.755Z",
+  "timestamp": "2026-08-08T14:36:51.045Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine",
+        "description": "The FSB said at least 20 individuals were arrested in connection with a ring that scammed an undetermined number of Russian citizens.",
+        "url": "https://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0f3b402a88a484342bc1b2aa4643ff9a5387e8f9-4256x2832.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-07T14:04:47Z",
+        "content": "Russias Federal Security Service (FSB) said Friday it detained more than 20 people it claims worked for unregistered crypto exchange offices used to move money stolen from Russian scam victims to Ukr… [+769 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-price-fall.jpg",
         "publishedAt": "2026-07-31T15:57:03Z",
         "content": "Bitcoin (BTC) fell to its lowest levels in over two weeks on Friday as US stocks saw pressure into the monthly close.\r\nKey points:\r\n<ul><li>Bitcoin approaches $62,000 as daily losses hit 3.5%.</li><l… [+2460 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
-        "description": "Most analysts blamed a weak crypto market for Coinbase's earnings miss, though opinions diverged on when trading activity will recover.",
-        "url": "https://www.coindesk.com/markets/2026/07/31/coinbase-s-weak-quarter-leaves-wall-street-split-on-timing-of-a-recovery",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f8d7504a44461e3168672f5739292318dd792954-5749x3832.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-07-31T13:20:45Z",
-        "content": "Coinbase said it captured a record 10.3% share of global crypto trading volume during the quarter, its third consecutive quarterly gain. Analysts at Benchmark, Oppenheimer, Clear Street and Cantor al… [+1290 chars]"
       }
     ]
   }
