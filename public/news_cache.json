@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-10T13:19:52.687Z",
+  "timestamp": "2026-08-10T15:03:51.115Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk",
+        "description": "Bitcoin ETFs saw $853 million in weekly net inflows, the largest since April, led by BlackRock’s IBIT, signaling a possible return of institutional demand.",
+        "url": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-09T14:19:35Z",
+        "content": "Bitcoin BTC\r\n$65,183.11 exchange-traded funds (ETFs) pulled in $853.54 million in net inflows for the week ended Aug. 7, the largest weekly total since mid-April, according to data from SoSoValue.\r\nB… [+1018 chars]"
+      },
       {
         "source": {
           "id": null,
