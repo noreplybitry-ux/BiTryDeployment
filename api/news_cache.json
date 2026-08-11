@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-11T17:01:55.592Z",
+  "timestamp": "2026-08-11T19:09:24.855Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Rally Fades—Where Does Price Go Next?",
+        "description": "The price of Bitcoin is up on the seven-day chart, today bouncing to a high of $65,000. But bearish market pressure persists.",
+        "url": "https://decrypt.co/375238/bitcoin-rally-stalls-price-next-prediction-market",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-08-10T17:18:49Z",
+        "content": "In brief\r\n<ul><li>Bitcoin price bounced to $65,000 today, but the rally was short-lived.</li><li>The price of Bitcoin is up on the seven-day chart, but bearish technical indicators persist.</li><li>P… [+5379 chars]"
+      },
       {
         "source": {
           "id": null,
