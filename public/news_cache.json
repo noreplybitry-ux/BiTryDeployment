@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-11T07:16:58.406Z",
+  "timestamp": "2026-08-11T09:04:29.554Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead",
+        "description": "Your look at what's coming in the week starting Aug. 10",
+        "url": "https://www.coindesk.com/markets/2026/08/10/u-s-cpi-inflation-securitize-gemini-among-earnings-reports-crypto-week-ahead",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f93a68faff56e9b07fbb81cf8ad37ba84d47c186-4920x2768.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-10T08:57:04Z",
+        "content": "Crypto markets enter the week with the near-term direction tied to whether easing U.S. inflation can keep the Federal Reserves interest-rate policy on hold and take pressure off the dollar into year-… [+4538 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-segwit-explained2-1.jpg",
         "publishedAt": "2026-08-02T08:04:56Z",
         "content": "Smaller Bitcoin transfers have reached levels not seen since the collapse of cryptocurrency exchange FTX amid an ongoing suspected Coldcard hack.\r\nBitcoin transfers below 1 BTC climbed to their highe… [+2811 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Onchain, in court: What happened in crypto legal news this week",
-        "description": "A case tied to defunct crypto exchange FTX moves forward, a soldier seeks to dismiss over a Polymarket bet and a former congressman was ordered to pay $35,000 for manipulative trading.",
-        "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-5-key-highlights-of-the-secs-lawsuit-against-binance.jpg",
-        "publishedAt": "2026-08-01T21:14:39Z",
-        "content": "Wife of former FTX executive seeks to preclude her husbands guilty plea\r\nIn a Friday filing with the US District Court for the Southern District of New York (SDNY) over campaign finance charges, Mich… [+5042 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Coldcard Bitcoin loss estimate rises to $70M after Galaxy analysis",
-        "description": "Galaxy Research identified more than $70 million in Bitcoin losses linked to the Coldcard wallet incident and warned users to move funds from vulnerable addresses.",
-        "url": "https://cointelegraph.com/news/coldcard-bitcoin-loss-estimate-70-million-galaxy-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hand-coin-laptop-hack-bitcoin.jpg",
-        "publishedAt": "2026-08-01T09:23:56Z",
-        "content": "Galaxy Research, the research arm of crypto investment company Galaxy Digital, identified 1,196 addresses linked to the Coldcard wallet incident that lost 1,082.65 Bitcoin, worth about $70.2 million … [+1334 chars]"
       }
     ]
   }
