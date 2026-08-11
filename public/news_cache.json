@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-11T15:03:16.709Z",
+  "timestamp": "2026-08-11T17:01:55.592Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Hackers Drain $8 Million From Crypto Exchange Across Two Blockchains",
+        "description": "The attacker moved funds across Tron and Ethereum before routing millions through crypto exchanges, while later wallet activity offers clues about how the breach occurred.",
+        "url": "https://decrypt.co/375213/hackers-drain-8-million-from-crypto-platform-coinsbuy",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+        "publishedAt": "2026-08-10T15:56:30Z",
+        "content": "In brief\r\n<ul><li>An attacker drained $8.07 million from Coinsbuy wallets across Tron and Ethereum on August 9.</li><li>About $6.34 million of the stolen funds passed through FixedFloat, according to… [+2838 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/1E90D03A2582EA4113E0960A0C372CB834AB6972018B676BC71D740023283003/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2Faf081dcbae891bfe9541b1d364efa2a4",
         "publishedAt": "2026-08-03T12:00:12Z",
         "content": "In South Korea crypto news, the five largest won-based exchanges, Upbit, Bithumb, Coinone, Korbit, and Gopax, sent 2.76 trillion won in stablecoins to overseas venues in June 2026 and received 2.20 t… [+4218 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2",
-        "description": "The “sickening” Coldcard exploit sparks a flight to safety among small Bitcoin hodlers. The Clarity Act stalls with just five days left on the clock. Hodler’s Digest, July 2.",
-        "url": "https://cointelegraph.com/magazine/coldcard-exploit-sparks-bitcoin-flight-clarity-act-no-vote-or-no-vote-hodlers-digest-august-2",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/1-august.jpg",
-        "publishedAt": "2026-08-02T23:44:04Z",
-        "content": "Cold storage fears after Coldcard users lose $90M in Bitcoin\r\nAfter $90 million in Bitcoin was drained from Coldcard wallet users, small hodlers desperately sought refuge on centralized exchanges and… [+9205 chars]"
       }
     ]
   }
