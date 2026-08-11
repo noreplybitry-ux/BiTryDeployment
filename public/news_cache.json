@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-11T10:54:32.237Z",
+  "timestamp": "2026-08-11T11:48:52.580Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Oliver Knight",
+        "title": "Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack",
+        "description": "Onchain forensics tie a single actor to an $8 million coordinated drain across TRON and Ethereum, with most funds routed through FixedFloat and the attack vector still unknown.",
+        "url": "https://www.coindesk.com/business/2026/08/10/crypto-exchange-coinsbuy-loses-usd8-million-in-coordinated-two-blockchain-attack",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6c28c3dcd5461d3803d6e6200f1da0686dde993f-1920x1082.jpg?auto=format&q=75",
+        "publishedAt": "2026-08-10T11:39:44Z",
+        "content": "Crypto exchange Coinsbuy lost more than $8 million in a coordinated attack across TRON and Ethereum on Aug. 9, according to onchain data reviewed by blockchain security researchers.\r\nThe attacker beg… [+1063 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/1-august.jpg",
         "publishedAt": "2026-08-02T23:44:04Z",
         "content": "Cold storage fears after Coldcard users lose $90M in Bitcoin\r\nAfter $90 million in Bitcoin was drained from Coldcard wallet users, small hodlers desperately sought refuge on centralized exchanges and… [+9205 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Coldcard hack sparks biggest sub-1 BTC move since FTX: CryptoQuant",
-        "description": "Bitcoin users moved 39,600 BTC in sub-1 BTC transfers as CryptoQuant tracked the highest daily transfers since the FTX collapse amid an ongoing Coldcard hack.",
-        "url": "https://cointelegraph.com/news/coldcard-biggest-sub-1-btc-transfer-ftx-cryptoquant",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-segwit-explained2-1.jpg",
-        "publishedAt": "2026-08-02T08:04:56Z",
-        "content": "Smaller Bitcoin transfers have reached levels not seen since the collapse of cryptocurrency exchange FTX amid an ongoing suspected Coldcard hack.\r\nBitcoin transfers below 1 BTC climbed to their highe… [+2811 chars]"
       }
     ]
   }
