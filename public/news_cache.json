@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-11T05:55:59.900Z",
+  "timestamp": "2026-08-11T07:16:58.406Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
       {
         "source": {
@@ -420,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hand-coin-laptop-hack-bitcoin.jpg",
         "publishedAt": "2026-08-01T09:23:56Z",
         "content": "Galaxy Research, the research arm of crypto investment company Galaxy Digital, identified 1,196 addresses linked to the Coldcard wallet incident that lost 1,082.65 Bitcoin, worth about $70.2 million … [+1334 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETFs end July in the green despite late-month selling",
-        "description": "Spot Bitcoin ETFs attracted $172.4 million in July inflows but remained $5.3 billion negative year to date after heavy withdrawals in May and June.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-cmc-verified-info-deadline-1.png",
-        "publishedAt": "2026-08-01T07:23:07Z",
-        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) finished July in the green despite a late-month wave of selling and BTC price volatility.\r\nBitcoin ETFs attracted a modest $172.4 million in net in… [+2301 chars]"
       }
     ]
   }
