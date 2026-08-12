@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-12T15:02:32.494Z",
+  "timestamp": "2026-08-12T17:01:27.733Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Coinbase-backed Flowdesk secures full broker-dealer license in Dubai",
+        "description": "The institutional market maker joins a growing group of crypto companies expanding regulated services as broker-dealer infrastructure gains traction.",
+        "url": "https://cointelegraph.com/news/flowdesk-dubai-vara-broker-dealer-license",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/arabian-khaliji-people-of-the-arabian-peninsula-agreement-handshake-crypto-1.jpg",
+        "publishedAt": "2026-08-11T16:39:17Z",
+        "content": "Flowdesk, an institutional crypto market maker backed by Coinbase Ventures and BlackRock, has received a full broker-dealer license in Dubai, expanding its ability to serve institutional investors in… [+1147 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin drops to one-week low as retail buys gold at highest prices since June",
+        "description": "Bitcoin price action sank to one-week lows ahead of US CPI data, while retail investors piled into gold ETFs and XAU/USD hit its highest levels in nine weeks.",
+        "url": "https://cointelegraph.com/markets/bitcoin-drops-to-one-week-low-as-retail-buys-gold-at-highest-prices-since-june",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-extreme-gold-net-longs-can-also-push-bitcoin-price-to-new-highs-in-2021.jpg",
+        "publishedAt": "2026-08-11T16:24:48Z",
+        "content": "Bitcoin (BTC) headed lower around Tuesdays Wall Street open as investors appetite for gold sent the precious metal to nine-week highs.\r\nKey points:\r\n<ul><li>Bitcoin takes a backseat as gold steals th… [+3533 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/ai-hack-1.jpg",
         "publishedAt": "2026-08-04T06:00:23Z",
         "content": "Cryptos biggest players are still waiting to gain access to powerful new AI models to strengthen their code from attacks, but only a select few have been able to get it. \r\nUS crypto exchange Coinbase… [+6110 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Caleb & Brown expands to UK, betting on untapped crypto demand",
-        "description": "Swyftx-owned crypto brokerage Caleb & Brown has expanded into the UK, citing low Bitcoin adoption and limited private-client crypto services as growth opportunities.",
-        "url": "https://cointelegraph.com/news/caleb-brown-expands-to-uk-betting-on-untapped-crypto-demand",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-revival-of-general-partnership-in-the-age-of-tokenomics-part-1.jpg",
-        "publishedAt": "2026-08-04T00:51:32Z",
-        "content": "Caleb &amp; Brown, an Australian crypto brokerage owned by the Swyftx Group, has entered the UK market, expanding its services for wealthy investors beyond Australia and the US. \r\nThe expansion comes… [+1294 chars]"
       }
     ]
   }
