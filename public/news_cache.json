@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-11T23:48:56.467Z",
+  "timestamp": "2026-08-12T02:22:36.862Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Thailand’s 0% crypto tax. Bitcoin Red Team forced to use Chinese AI: Asia Express",
+        "description": "Bitcoin Policy Institute urges frontier AI labs to increase access after Bitcoin Red Team forced to rely on open source Chinese models. Thailand sets crypto tax to 0%. Asia Express",
+        "url": "https://cointelegraph.com/magazine/thailands-0-crypto-tax-bitcoin-red-team-forced-to-use-chinese-ai-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-8.jpg",
+        "publishedAt": "2026-08-11T02:08:36Z",
+        "content": "THAILAND\r\nThailand introduces 0% capital gains tax on crypto\r\nFor the next few years crypto investors in Thailand wont have to pay any capital gains taxes on sales made via platforms licensed by Thai… [+8862 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
         "publishedAt": "2026-08-03T13:11:19Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt.\r\nGM!\r\nTodays top news:\r\n<ul><li>Crypto m… [+5266 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Daniel Francis",
-        "title": "Korea Crypto News: Stablecoin Outflows and the 18-Month Streak Explained",
-        "description": "In South Korea crypto news, the five largest won-based exchanges, Upbit, Bithumb, Coinone, Korbit, and Gopax, sent 2.76 trillion won in stablecoins to overse...",
-        "url": "https://www.coinspeaker.com/south-korea-crypto-stablecoin-outflows-18-month-streak/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/1E90D03A2582EA4113E0960A0C372CB834AB6972018B676BC71D740023283003/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2Faf081dcbae891bfe9541b1d364efa2a4",
-        "publishedAt": "2026-08-03T12:00:12Z",
-        "content": "In South Korea crypto news, the five largest won-based exchanges, Upbit, Bithumb, Coinone, Korbit, and Gopax, sent 2.76 trillion won in stablecoins to overseas venues in June 2026 and received 2.20 t… [+4218 chars]"
       }
     ]
   }
