@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-12T20:51:40.447Z",
+  "timestamp": "2026-08-12T21:52:20.966Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
+        "description": "Weeks of sideways trading have crushed volatility, leaving Wednesday’s inflation report as the next potential catalyst, analysts said.",
+        "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-as-etf-inflows-offset-selling-but-inflation-data-could-spark-a-move",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f7aa56b41189d5f33e1de7a8fa506df0c822e553-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-11T21:38:13Z",
+        "content": "Bitcoin BTC\r\n$63,674.36 barely budged on Tuesday, extending a five-week standstill as steady demand from exchange-traded funds ran into selling from miners and corporate holders.\r\nBTC slipped to arou… [+1061 chars]"
+      },
       {
         "source": {
           "id": null,
