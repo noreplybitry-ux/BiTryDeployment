@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-12T11:51:59.906Z",
+  "timestamp": "2026-08-12T13:20:49.870Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russia proposes exchange trading of Bitcoin, Ether and Tether’s USDT",
+        "description": "The Bank of Russia has selected three crypto assets for trading on regulated exchanges, including Bitcoin, Ether and USDT, with public feedback open until Aug. 24.",
+        "url": "https://cointelegraph.com/news/bank-of-russia-trading-bitcoin-ether-tether-usdt",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bank-with-crypto-characters.png",
+        "publishedAt": "2026-08-11T12:09:38Z",
+        "content": "Russias central bank has compiled a proposed list of crypto assets that could be admitted to public trading on exchanges under new rules approved last week.\r\nThe list includes Bitcoin, Ether and Teth… [+1235 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-the-revival-of-general-partnership-in-the-age-of-tokenomics-part-1.jpg",
         "publishedAt": "2026-08-04T00:51:32Z",
         "content": "Caleb &amp; Brown, an Australian crypto brokerage owned by the Swyftx Group, has entered the UK market, expanding its services for wealthy investors beyond Australia and the US. \r\nThe expansion comes… [+1294 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "FalconX cuts 10% of workforce amid prolonged crypto market slump: Report",
-        "description": "According to Bloomberg, the digital asset prime broker is refocusing its Singapore strategy and withdrawing its local license application as crypto companies continue to trim costs.",
-        "url": "https://cointelegraph.com/news/falconx-workforce-reduction-amid-crypto-market-slump-report",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-people-ai-1.jpg",
-        "publishedAt": "2026-08-03T19:44:48Z",
-        "content": "FalconX, the digital asset prime brokerage that acquired crypto ETF issuer 21shares last November, has laid off roughly 10% of its global workforce as it prepares for a prolonged downturn in the cryp… [+2112 chars]"
       }
     ]
   }
