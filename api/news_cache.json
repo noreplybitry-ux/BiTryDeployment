@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-13T13:22:54.506Z",
+  "timestamp": "2026-08-13T15:02:37.567Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/96369A11043EAF629A4573E7F618206582BCE6B3AA6A956FDB0C147CC53FB9CD/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2F8d4263136b5edc7a28757bbcf9cb606a",
         "publishedAt": "2026-08-05T11:54:40Z",
         "content": "BitMEX co-founder and Maelstrom chief investment officer Arthur Hayes, speaking on the Bankless podcast on June 22, 2026, argued that roughly $1.5 trillion in AI-related debt issued since late 2022 h… [+5834 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETFs log inflows as cold wallet hack reignites custody debate",
-        "description": "US spot Bitcoin ETFs drew $382 million in two-day inflows, with Galaxy’s Bitcoin ETF returning to gains as the Coldcard incident renewed custody concerns.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etfs-inflows-cold-wallet-hack-custody-debate",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-a-stronger-foundation-for-bitcoin-etf-applications1-1.jpg",
-        "publishedAt": "2026-08-05T10:43:05Z",
-        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) are attracting fresh capital as a high-profile cryptocurrency custody incident puts renewed focus on digital asset security.\r\nSpot Bitcoin ETFs rec… [+3300 chars]"
       }
     ]
   }
