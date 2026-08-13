@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-13T17:00:45.327Z",
+  "timestamp": "2026-08-13T19:08:45.716Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1b143885ed58dece3a26646b1d6d4e198494e466-1534x969.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-05T14:44:30Z",
         "content": "Strategys (MSTR) perpetual preferred stock, Stretch (STRC), has risen more than 30% from its June low. It is currently trading around $94, after gaining another 1% on Wednesday.\r\nSTRC bottomed in lat… [+909 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Daniel Francis",
-        "title": "GPU Debt Mismatches Could Trigger the Crisis That Sends Bitcoin to $1 Million, Says Hayes",
-        "description": "BitMEX co-founder and Maelstrom chief investment officer Arthur Hayes, speaking on the Bankless podcast on June 22, 2026, argued that roughly $1.5 trillion i...",
-        "url": "https://www.coinspeaker.com/ai-credit-crisis-bitcoin-hayes-prediction/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/96369A11043EAF629A4573E7F618206582BCE6B3AA6A956FDB0C147CC53FB9CD/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2F8d4263136b5edc7a28757bbcf9cb606a",
-        "publishedAt": "2026-08-05T11:54:40Z",
-        "content": "BitMEX co-founder and Maelstrom chief investment officer Arthur Hayes, speaking on the Bankless podcast on June 22, 2026, argued that roughly $1.5 trillion in AI-related debt issued since late 2022 h… [+5834 chars]"
       }
     ]
   }
