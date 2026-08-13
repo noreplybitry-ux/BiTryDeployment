@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-13T10:12:54.586Z",
+  "timestamp": "2026-08-13T11:52:19.520Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
+        "description": "Non-qualified investors face a 300,000-ruble (approx. $3,600) annual purchase limit per intermediary, while qualified investors have no cap.",
+        "url": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-12T11:19:32Z",
+        "content": "Russias central bank will allow retail investors to only trade bitcoin BTC\r\n$64,124.91, ether ETH\r\n$1,909.82 and USDT on regulated exchanges, making Tethers dollar-linked token the only stablecoin on… [+607 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-66799-bitcoin-dominance-cycle-suggests-the-2017-crypto-rally-could-repeat.jpg",
         "publishedAt": "2026-08-05T09:34:41Z",
         "content": "Bitcoin price-metric basket sees longest capitulation since FTX blow-up: Glassnode\r\nBitcoin (BTC) is seeing its longest capitulation since the end of the 2022 bear market, onchain analytics platform … [+2801 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa, Omkar Godbole",
-        "title": "Live updates: An AI credit bubble could set up bitcoin’s path to $1 million",
-        "description": "Maelstrom co-founder Arthur Hayes says overleveraged AI data-center spending will eventually crack, forcing government bailouts and money printing that become the next major bitcoin catalyst.",
-        "url": "https://www.coindesk.com/markets/2026/08/05/live-updates-an-ai-credit-bubble-could-set-up-bitcoin-s-path-to-usd1-million",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2771883a4e6391de7227ecc345175032a26924a9-1280x925.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-05T09:00:20Z",
-        "content": "Arthur Hayes thinks everyone has the AI trade filed under the wrong category. \r\nIn a new essay, the co-founder of crypto exchange BitMEX and crypto fund Maelstrom said the ongoing infrastructure buil… [+1030 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Boerse Stuttgart Digital, Tradias close European crypto merger",
-        "description": "Boerse Stuttgart Digital and Tradias completed their merger, forming a 300-person European crypto unit spanning trading, custody, staking and tokenization.",
-        "url": "https://cointelegraph.com/news/boerse-stuttgart-digital-tradias-european-crypto-merger",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-institutional-trading-and-cryptocurrency-industry-eu.jpg",
-        "publishedAt": "2026-08-05T08:47:24Z",
-        "content": "Boerse Stuttgart Digital and institutional crypto trading firm Tradias have completed their merger after clearing the required ownership control procedure, creating a combined digital asset infrastru… [+1223 chars]"
       }
     ]
   }
