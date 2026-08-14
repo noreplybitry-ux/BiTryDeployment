@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-14T02:22:48.384Z",
+  "timestamp": "2026-08-14T04:52:42.122Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_red-gID_7.png",
         "publishedAt": "2026-08-05T18:33:34Z",
         "content": "In brief\r\n<ul><li>Bitcoin remains range-bound, trapped in a death cross, with all the signs of a bear trap in the making.</li><li>Zcash, meanwhile, is painting the opposite picture, with indicators l… [+5689 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten",
-        "title": "Strategy’s STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes",
-        "description": "Bitcoin sales, what is now a $4 billion cash reserve, and a $975 million repurchase program, have supported STRC’s recovery.",
-        "url": "https://www.coindesk.com/markets/2026/08/05/strategy-s-strc-rebounds-30-as-company-builds-cash-reserve-bitcoin-price-stabilizes",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1b143885ed58dece3a26646b1d6d4e198494e466-1534x969.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-05T14:44:30Z",
-        "content": "Strategys (MSTR) perpetual preferred stock, Stretch (STRC), has risen more than 30% from its June low. It is currently trading around $94, after gaining another 1% on Wednesday.\r\nSTRC bottomed in lat… [+909 chars]"
       }
     ]
   }
