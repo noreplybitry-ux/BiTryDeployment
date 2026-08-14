@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-14T17:01:08.725Z",
+  "timestamp": "2026-08-14T19:00:39.288Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
+        "description": "The thesis is that high yields on long-term U.S. Treasuries make non-yielding assets like bitcoin less attractive.",
+        "url": "https://www.coindesk.com/markets/2026/08/13/forecasts-for-usd1-million-bitcoin-price-likely-look-too-ambitious-key-ratio-suggests",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/acf831401ea851c7551eb13183b3f53d9be886a8-7146x4766.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-13T17:43:25Z",
+        "content": "The 30-year Treasury yield cleared 5% this year and is sitting at its highest level since 2007. That means every dollar sitting in bitcoin or any non-yielding asset is a dollar not earning that 5%. S… [+1173 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/building-bitcoin-investment-bhutan.jpg",
         "publishedAt": "2026-08-07T03:22:26Z",
         "content": "Bitget has signed an agreement with Bhutans Gelephu Mindfulness City Authority to explore establishing a licensed local operation, as the crypto exchange seeks a foothold in the countrys developing d… [+1002 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "MARA swings to Q2 loss as Bitcoin’s slump masks higher output",
-        "description": "Bitcoin miner MARA posted its highest quarterly Bitcoin production in over a year, but was overshadowed by a 28% decline in the average price of Bitcoin.",
-        "url": "https://cointelegraph.com/markets/mara-swings-to-q2-loss-as-bitcoins-slump-masks-higher-output",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/miner.jpg",
-        "publishedAt": "2026-08-07T02:17:07Z",
-        "content": "Bitcoin miner MARA swung to a net loss of $611.3 million from a year-earlier profit in the second quarter of 2026, driven primarily by a change in the value of its Bitcoin holdings, despite reporting… [+3097 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Crypto market maker Wintermute launches US broker-dealer",
-        "description": "Wintermute said the registration allows the firm to position itself for the growth of tokenized securities in the US.",
-        "url": "https://cointelegraph.com/news/crypto-market-maker-wintermute-launches-us-broker-dealer",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-wall-street-is-using-ethereum-without-talking-about-ethereum.jpg",
-        "publishedAt": "2026-08-07T00:09:47Z",
-        "content": "Wintermutes US arm has registered as a broker-dealer, enabling the crypto trading firm to expand into traditional financial services in the US. \r\nOn Thursday, Wintermute announced its affiliate Winte… [+1165 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "MetaMask Launches Self-Custodial AI Wallet for Autonomous Crypto Trading",
-        "description": "The new Agent Wallet lets AI agents execute on-chain trades within user-defined limits as MetaMask expands its push into AI-powered crypto trading.",
-        "url": "https://decrypt.co/375044/metamask-self-custodial-ai-wallet-autonomous-crypto-trading",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/decrypt-style-metamask-fox-gID_7.jpg",
-        "publishedAt": "2026-08-06T16:26:56Z",
-        "content": "In brief\r\n<ul><li>MetaMask has launched Agent Wallet, a self-custodial wallet designed for AI-powered crypto trading.</li><li>Users can set spending limits, allowlist protocols, and choose security s… [+2588 chars]"
       }
     ]
   }
