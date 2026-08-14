@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-08-14T13:17:47.303Z",
+  "timestamp": "2026-08-14T14:56:11.992Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "FCA, HTX in Settlement Talks Over Illegal UK Crypto Promotions: Report",
+        "description": "An FCA employee bought crypto from a UK IP address using a driving license as ID, according to the regulator's claim.",
+        "url": "https://decrypt.co/375551/fca-htx-in-settlement-talks-over-illegal-uk-crypto-promotions-report",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/uk-fca-financial-conduct-authority-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-08-13T14:31:56Z",
+        "content": "In brief\r\n<ul><li>Britain's Financial Conduct Authority and HTX are in talks to settle the regulator's claim that the exchange illegally promoted crypto services to UK consumers.</li><li>The High Cou… [+2963 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
+        "description": "The online bank cut full-year revenue and profit forecasts after first-half crypto trading levels slumped.",
+        "url": "https://www.coindesk.com/business/2026/08/13/swissquote-cuts-full-year-guidance-as-1h-crypto-income-plunges-shares-slide",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/837fe64380b9dc3d548255d2d567d2589dbb7250-1920x1080.jpg?auto=format&q=75",
+        "publishedAt": "2026-08-13T13:41:32Z",
+        "content": "Swiss banking firm Swissquote Group (SQN) cut full-year revenue and profit forecasts after first-half net crypto income fell 66.2% to 14.6 million Swiss francs ($18 million).\r\nCrypto trading volume a… [+1069 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Crypto platform operator gets 15-year prison sentence in South Korea due to $50 million scam",
+        "description": "A South Korean court sentenced the head of centralized finance (CeFi) lender Delio to 15 years in prison for embezzling digital assets from more than 1,100 customers.",
+        "url": "https://www.coindesk.com/business/2026/08/13/crypto-platform-operator-gets-15-year-prison-sentence-in-south-korea-due-to-usd50-million-scam",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ab6526a6112137a16ade76be0e301939e1434fb8-6240x3996.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-13T13:37:56Z",
+        "content": "The CEO of Delio, identified only as Mr. Jeong, received a 15-year prison sentence in South Korea after being found guilty in a $50 million fraud case that affected more than 1,100 people, local news… [+1336 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bull-market-vs-bear-market-hyperliquid.jpg",
         "publishedAt": "2026-08-06T16:24:18Z",
         "content": "Bitcoin (BTC) stayed motionless at Thursdays Wall Street open as analysis saw signs of reemergent US stagflation.\r\nKey points:\r\n<ul><li>Bitcoin stays below $65,000 as Iran tempers expectations over t… [+3309 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin treasury trade ‘breaking’ and fund holdings drop 10%: Analysis",
-        "description": "Bitcoin treasuries are at risk of “breaking” altogether, new analysis warns as BTC institutional funds reduce holdings by 10%.",
-        "url": "https://cointelegraph.com/markets/bitcoin-treasury-trade-breaking-and-fund-holdings-drop-10-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/article-covers-92543-dc-attorney-general-sues-michael-saylor-and-microstrategy-for-tax-evasion.jpg",
-        "publishedAt": "2026-08-06T11:48:37Z",
-        "content": "Bitcoin (BTC) institutional investment vehicles have shed 10% of their BTC holdings since May as analysis warns of a breaking sector.\r\nKey points:\r\n<ul><li>Bitcoin institutional funds see a blanket 1… [+2959 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Russian president signs crypto law, core rules take effect in 2026",
-        "description": "Russian President Vladimir Putin signed a crypto law establishing market rules for exchanges, custodians and investors, with core provisions taking effect in September 2026.",
-        "url": "https://cointelegraph.com/news/putin-signs-crypto-law-core-rules-take-effect-2026",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/putin2.jpg",
-        "publishedAt": "2026-08-06T09:38:54Z",
-        "content": "Russian President Vladimir Putin has signed a law creating a regulated framework for cryptocurrency markets in Russia.\r\nPutin signed bill No. 1194918-8, titled On Digital Currencies and Digital Right… [+1203 chars]"
       }
     ]
   }
