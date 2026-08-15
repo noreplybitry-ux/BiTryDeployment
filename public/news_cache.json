@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-15T07:34:51.750Z",
+  "timestamp": "2026-08-15T08:34:32.946Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Crypto payments barely register among euro area merchants, ECB finds",
+        "description": "An ECB survey of 8,205 euro area companies found just 0.2% of online sellers accept crypto, as while acceptance at physical points of sale remained below 1% and mobile payment adoption jumped sharply.",
+        "url": "https://cointelegraph.com/news/ecb-survey-0-2-euro-area-companies-accept-crypto-online",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-digitized-europe-the-shift-to-a-cashless-world-crypto.jpg",
+        "publishedAt": "2026-08-14T08:22:54Z",
+        "content": "Crypto remains a marginal payment option among euro area businesses even as other forms of digital payments gain ground, according to a new European Central Bank (ECB) report.\r\nJust 0.2% of companies… [+3052 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/skjapan-1.jpg",
         "publishedAt": "2026-08-07T05:24:38Z",
         "content": "Japans financial regulator has asked crypto exchanges to introduce withdrawal delays and other safeguards as authorities respond to increasingly sophisticated scams involving digital assets. \r\nOn Thu… [+1223 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Bitget explores licensed crypto presence in Bhutan",
-        "description": "Bitget signed an agreement with Bhutan’s Gelephu Mindfulness City Authority to pursue a licensed local digital asset presence.",
-        "url": "https://cointelegraph.com/news/bitget-explores-licensed-crypto-presence-in-bhutan",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/building-bitcoin-investment-bhutan.jpg",
-        "publishedAt": "2026-08-07T03:22:26Z",
-        "content": "Bitget has signed an agreement with Bhutans Gelephu Mindfulness City Authority to explore establishing a licensed local operation, as the crypto exchange seeks a foothold in the countrys developing d… [+1002 chars]"
       }
     ]
   }
