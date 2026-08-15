@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-15T14:27:47.574Z",
+  "timestamp": "2026-08-15T15:26:32.163Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price drops to $62.5K as trader warns weekly close may spark more losses",
+        "description": "Bitcoin falls further toward new August lows, ignoring positive US inflation trends while US stocks continue to circle all-time highs.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-trader-warns-weekly-close-may-spark-more-losses",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bungee-jumping-bitcoin-2.jpg",
+        "publishedAt": "2026-08-14T14:38:27Z",
+        "content": "Bitcoin (BTC) declined into Fridays Wall Street open as traders increasingly saw a BTC price breakdown next.\r\nKey points:\r\n<ul><li>Bitcoin stays below $63,000, heading steadily closer to new August l… [+2798 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0f3b402a88a484342bc1b2aa4643ff9a5387e8f9-4256x2832.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-07T14:04:47Z",
         "content": "Russias Federal Security Service (FSB) said Friday it detained more than 20 people it claims worked for unregistered crypto exchange offices used to move money stolen from Russian scam victims to Ukr… [+769 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Russia cracks down on 9 crypto exchanges in Moscow City",
-        "description": "Russia has shut down nine unregistered crypto exchanges in Moscow, with the FSB alleging they helped move scam proceeds abroad through Ukrainian call centers.",
-        "url": "https://cointelegraph.com/news/russia-shuts-down-crypto-exchanges-moscow-city",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-russias-law-on-crypto-whats-the-latest.jpg",
-        "publishedAt": "2026-08-07T12:28:41Z",
-        "content": "Russias Federal Security Service (FSB) has raided nine unregistered crypto exchange services in Moscow over alleged money laundering involving fraud proceeds that authorities linked to Ukraine-based … [+1133 chars]"
       }
     ]
   }
