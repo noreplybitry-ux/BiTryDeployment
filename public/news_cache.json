@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-15T13:34:15.533Z",
+  "timestamp": "2026-08-15T14:27:47.574Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten, AI Boost",
+        "title": "Israel’s largest bank to offer crypto trading with Galaxy",
+        "description": "Bank Leumi customers will be able to trade bitcoin, ether and solana through the bank’s investment app from early 2027.",
+        "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8142dec16a595aba3e6c3f1bb742b14314bedc43-1440x810.jpg?auto=format&q=75",
+        "publishedAt": "2026-08-14T13:51:37Z",
+        "content": "Bank Leumi, Israels largest bank, will offer cryptocurrency trading to customers from early 2027 becoming the first Israeli bank to announce such a service.\r\nCustomers of Leumi and its mobile banking… [+1190 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Binance to restrict transactions involving HTX, 10 other crypto platforms",
+        "description": "Binance said it will stop processing transactions for involving 11 crypto platforms, including HTX, which was recently listed in the EU’s sanctions package targeting Russia.",
+        "url": "https://cointelegraph.com/news/binance-restrict-htx-10-crypto-platforms",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/regulation-binance-1.jpg",
+        "publishedAt": "2026-08-14T13:36:34Z",
+        "content": "Binance will stop processing transactions involving crypto exchange HTX and 10 other listed crypto platforms and service providers from Aug. 23.\r\nThe cryptocurrency exchange cited recent regulatory d… [+1265 chars]"
+      },
       {
         "source": {
           "id": null,
