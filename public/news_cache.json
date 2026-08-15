@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-15T16:30:20.220Z",
+  "timestamp": "2026-08-15T17:25:15.318Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Israel’s Largest Bank Will Give Bitcoin Trading Another Try",
+        "description": "Bank Leumi's 2022 attempt died at the Bank of Israel. A softer regulatory line and Galaxy's custody stack now give it another shot in early 2027.",
+        "url": "https://decrypt.co/375665/israel-largest-bank-leumi-bitcoin-trading",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Israel-Flag-DecryptStyle-gID_7.jpg",
+        "publishedAt": "2026-08-14T17:14:02Z",
+        "content": "In brief\r\n<ul><li>Bank Leumi, Israel's largest bank, will let customers trade Bitcoin, Ethereum, and Solana inside Leumi Trade through Galaxy's trading and custody rails.</li><li>It's Bank Leumi's se… [+3161 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-09T14:19:35Z",
         "content": "Bitcoin BTC\r\n$65,183.11 exchange-traded funds (ETFs) pulled in $853.54 million in net inflows for the week ended Aug. 7, the largest weekly total since mid-April, according to data from SoSoValue.\r\nB… [+1018 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine",
-        "description": "The FSB said at least 20 individuals were arrested in connection with a ring that scammed an undetermined number of Russian citizens.",
-        "url": "https://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0f3b402a88a484342bc1b2aa4643ff9a5387e8f9-4256x2832.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-07T14:04:47Z",
-        "content": "Russias Federal Security Service (FSB) said Friday it detained more than 20 people it claims worked for unregistered crypto exchange offices used to move money stolen from Russian scam victims to Ukr… [+769 chars]"
       }
     ]
   }
