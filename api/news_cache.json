@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-16T12:49:04.089Z",
+  "timestamp": "2026-08-16T13:35:12.983Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ciaran Lyons",
+        "title": "Bitcoin to $1M by 2030 is ‘mathematically impossible’ says Markus Thielen",
+        "description": "The trillions required to boost Bitcoin to a price of $1 million per coin is not going to happen by 2030... or perhaps ever, says party pooper Markus Thielen.",
+        "url": "https://cointelegraph.com/magazine/bitcoin-1m-by-2030-is-mathematically-impossible-markus-thielen",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/interview-markus-thielen.jpg",
+        "publishedAt": "2026-08-15T13:30:00Z",
+        "content": "The numbers behind the oft-cited prediction that Bitcoin will reach $1 million by 2030 simply dont add up, according to Markus Thielen, head of research at 10x Research.\r\nIts mathematically impossibl… [+3396 chars]"
+      },
       {
         "source": {
           "id": null,
