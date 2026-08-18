@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-18T20:29:37.779Z",
+  "timestamp": "2026-08-18T21:29:08.131Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6c28c3dcd5461d3803d6e6200f1da0686dde993f-1920x1082.jpg?auto=format&q=75",
         "publishedAt": "2026-08-10T11:39:44Z",
         "content": "Crypto exchange Coinsbuy lost more than $8 million in a coordinated attack across TRON and Ethereum on Aug. 9, according to onchain data reviewed by blockchain security researchers.\r\nThe attacker beg… [+1063 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead",
-        "description": "Your look at what's coming in the week starting Aug. 10",
-        "url": "https://www.coindesk.com/markets/2026/08/10/u-s-cpi-inflation-securitize-gemini-among-earnings-reports-crypto-week-ahead",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f93a68faff56e9b07fbb81cf8ad37ba84d47c186-4920x2768.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-10T08:57:04Z",
-        "content": "Crypto markets enter the week with the near-term direction tied to whether easing U.S. inflation can keep the Federal Reserves interest-rate policy on hold and take pressure off the dollar into year-… [+4538 chars]"
       }
     ]
   }
