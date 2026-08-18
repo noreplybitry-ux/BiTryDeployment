@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-18T12:55:38.999Z",
+  "timestamp": "2026-08-18T13:47:19.251Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f93a68faff56e9b07fbb81cf8ad37ba84d47c186-4920x2768.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-10T08:57:04Z",
         "content": "Crypto markets enter the week with the near-term direction tied to whether easing U.S. inflation can keep the Federal Reserves interest-rate policy on hold and take pressure off the dollar into year-… [+4538 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Australia orders Cryptolink Bitcoin ATMs offline over ‘basic reporting’ failures",
-        "description": "Australia’s financial watchdog has suspended Cryptolink’s registration for three months, adding to a crackdown that previously saw the Bitcoin ATM operator fined $56,340.",
-        "url": "https://cointelegraph.com/news/australia-orders-cryptolink-bitcoin-atms-offline-over-basic-reporting-failures",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/atm.jpg",
-        "publishedAt": "2026-08-10T04:32:36Z",
-        "content": "Australias anti-money laundering watchdog has suspended the operation of Cryptolinks Bitcoin ATMs for three months, citing ongoing concerns about its compliance with anti-money laundering obligations… [+1446 chars]"
       }
     ]
   }
