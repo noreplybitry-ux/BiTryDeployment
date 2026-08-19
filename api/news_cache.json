@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-19T14:38:54.667Z",
+  "timestamp": "2026-08-19T15:36:20.500Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin tags $65K as S&P 500 rebounds from 2-week lows on US-Iran rhetoric",
+        "description": "Bitcoin returned to $65,000 for the first time in a week as fresh BTC price volatility accompanied US claims that the Strait of Hormuz was “open and operating.”",
+        "url": "https://cointelegraph.com/markets/bitcoin-tags-65k-as-sp-500-rebounds-from-2-week-lows-on-us-iran-rhetoric",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoins-are-flash-green.jpg",
+        "publishedAt": "2026-08-18T15:27:13Z",
+        "content": "Bitcoin (BTC) hit $65,000 after Tuesdays Wall Street open as US stocks rebounded in spite of geopolitical pressure.\r\nKey points:\r\n<ul><li>Bitcoin reaches $65,000 for the first time since Aug. 10 as r… [+2656 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/south-korea-coin.jpg",
         "publishedAt": "2026-08-11T06:28:16Z",
         "content": "South Korea will expand its crypto Travel Rule to all transfers between registered virtual asset service providers (VASPs), removing the current 1 million won (about $700) threshold.\r\nThe countrys Ca… [+2493 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Thailand’s 0% crypto tax. Bitcoin Red Team forced to use Chinese AI: Asia Express",
-        "description": "Bitcoin Policy Institute urges frontier AI labs to increase access after Bitcoin Red Team forced to rely on open source Chinese models. Thailand sets crypto tax to 0%. Asia Express",
-        "url": "https://cointelegraph.com/magazine/thailands-0-crypto-tax-bitcoin-red-team-forced-to-use-chinese-ai-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-8.jpg",
-        "publishedAt": "2026-08-11T02:08:36Z",
-        "content": "THAILAND\r\nThailand introduces 0% capital gains tax on crypto\r\nFor the next few years crypto investors in Thailand wont have to pay any capital gains taxes on sales made via platforms licensed by Thai… [+8862 chars]"
       }
     ]
   }
