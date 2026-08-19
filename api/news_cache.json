@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-19T05:35:16.024Z",
+  "timestamp": "2026-08-19T06:52:35.877Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "The bitcoin price level where leveraged bulls could get whacked",
+        "description": "Bulls are stacking longs, liquidity is thinning and one key level could trigger large liquidations.",
+        "url": "https://www.coindesk.com/markets/2026/08/18/the-bitcoin-price-level-where-leveraged-bulls-could-get-whacked",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/04f05b5cd4023bff86ebd19b9d5981356f50f8eb-8640x5760.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-08-18T05:55:43Z",
+        "content": "$57,000 is a key region to watch. If Bitcoin trades down into that area, we could see a massive wave of long liquidations, Joao Wedson, CEO of crypto analytics platform Alphractal, said. \r\nThe risk i… [+1076 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
         "publishedAt": "2026-08-10T15:56:30Z",
         "content": "In brief\r\n<ul><li>An attacker drained $8.07 million from Coinsbuy wallets across Tron and Ethereum on August 9.</li><li>About $6.34 million of the stolen funds passed through FixedFloat, according to… [+2838 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Oliver Knight",
-        "title": "Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack",
-        "description": "Onchain forensics tie a single actor to an $8 million coordinated drain across TRON and Ethereum, with most funds routed through FixedFloat and the attack vector still unknown.",
-        "url": "https://www.coindesk.com/business/2026/08/10/crypto-exchange-coinsbuy-loses-usd8-million-in-coordinated-two-blockchain-attack",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6c28c3dcd5461d3803d6e6200f1da0686dde993f-1920x1082.jpg?auto=format&q=75",
-        "publishedAt": "2026-08-10T11:39:44Z",
-        "content": "Crypto exchange Coinsbuy lost more than $8 million in a coordinated attack across TRON and Ethereum on Aug. 9, according to onchain data reviewed by blockchain security researchers.\r\nThe attacker beg… [+1063 chars]"
       }
     ]
   }
