@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-19T08:43:27.213Z",
+  "timestamp": "2026-08-19T09:38:41.225Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price spike to $64.5K was ‘low-volume liquidity trap’: Analysis",
+        "description": "Bitcoin short liquidations spike to their highest levels in almost a month as analysis warns that BTC price upside was a short squeeze on low liquidity.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-spike-to-645k-was-low-volume-liquidity-trap-analysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/price-fall-up-road1.jpg",
+        "publishedAt": "2026-08-18T09:31:15Z",
+        "content": "Bitcoin (BTC) short liquidations hit their highest in almost one month as it hit $64,500 on Monday, new data reveals.\r\nKey points:\r\n<ul><li>Bitcoin passed $64,000 thanks to a short squeeze on derivat… [+2803 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-8.jpg",
         "publishedAt": "2026-08-11T02:08:36Z",
         "content": "THAILAND\r\nThailand introduces 0% capital gains tax on crypto\r\nFor the next few years crypto investors in Thailand wont have to pay any capital gains taxes on sales made via platforms licensed by Thai… [+8862 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Rally Fades—Where Does Price Go Next?",
-        "description": "The price of Bitcoin is up on the seven-day chart, today bouncing to a high of $65,000. But bearish market pressure persists.",
-        "url": "https://decrypt.co/375238/bitcoin-rally-stalls-price-next-prediction-market",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-08-10T17:18:49Z",
-        "content": "In brief\r\n<ul><li>Bitcoin price bounced to $65,000 today, but the rally was short-lived.</li><li>The price of Bitcoin is up on the seven-day chart, but bearish technical indicators persist.</li><li>P… [+5379 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Hackers Drain $8 Million From Crypto Exchange Across Two Blockchains",
-        "description": "The attacker moved funds across Tron and Ethereum before routing millions through crypto exchanges, while later wallet activity offers clues about how the breach occurred.",
-        "url": "https://decrypt.co/375213/hackers-drain-8-million-from-crypto-platform-coinsbuy",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
-        "publishedAt": "2026-08-10T15:56:30Z",
-        "content": "In brief\r\n<ul><li>An attacker drained $8.07 million from Coinsbuy wallets across Tron and Ethereum on August 9.</li><li>About $6.34 million of the stolen funds passed through FixedFloat, according to… [+2838 chars]"
       }
     ]
   }
