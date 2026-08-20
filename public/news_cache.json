@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-20T10:36:00.257Z",
+  "timestamp": "2026-08-20T11:31:43.969Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin has ‘largely purged’ froth that preceded 50% drop from $126K: BlackRock",
+        "description": "BlackRock has doubled down on its Bitcoin bull case in a new report, seeing its correlation to risk assets decreasing in the future as leverage has been purged from the market.",
+        "url": "https://cointelegraph.com/markets/bitcoin-has-largely-purged-froth-that-preceded-50-drop-from-126k-blackrock",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-sek-blackrock.jpg",
+        "publishedAt": "2026-08-19T11:06:13Z",
+        "content": "Bitcoin (BTC) falling more than 50% from its $126,200 all-time high was a positioning correction, BlackRock says.\r\nKey points:\r\n<ul><li>A BlackRock report attributes Bitcoins decline below $60,000 to… [+4412 chars]"
+      },
       {
         "source": {
           "id": null,
