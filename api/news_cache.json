@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-20T19:35:41.015Z",
+  "timestamp": "2026-08-20T20:34:12.607Z",
   "data": {
     "status": "ok",
     "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
+        "description": "Strategy, Coinbase, Circle, and BitMine are riding Bitcoin's short squeeze toward $70K—and two of them may be squeezing equity bears of their own.",
+        "url": "https://decrypt.co/375990/crypto-stocks-rip-strategy-coinbase-bitcoin",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-03-gID_7.png",
+        "publishedAt": "2026-08-19T19:51:11Z",
+        "content": "In brief\r\n<ul><li>Strategy (MSTR) led crypto-linked equities, up 11.95% to $103.58, while Coinbase (COIN) rose 9.05% to $159.47.</li><li>Circle (CRCL) added 9.44% to $78.50 and BitMine (BMNR) gained … [+3729 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,19 +342,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f7aa56b41189d5f33e1de7a8fa506df0c822e553-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-11T21:38:13Z",
         "content": "Bitcoin BTC\r\n$63,674.36 barely budged on Tuesday, extending a five-week standstill as steady demand from exchange-traded funds ran into selling from miners and corporate holders.\r\nBTC slipped to arou… [+1061 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "EToro reports second quarter crypto loss even as total profit beats estimates",
-        "description": "The trading platform’s gross crypto revenue fell to $1.35 billion in the second quarter. It also agreed to buy U.S. brokerage TradeZero for up to $231 million.",
-        "url": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b51601b176dc3c6b4d6c74591116ef860cd0d2a3-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-11T17:12:11Z",
-        "content": "EToros (ETOR) crypto trading was $7.2 million in the red in the second quarter of 2026, a decline of nearly 120% from the $37.7 million it made a year earlier, according to its second-quarter earning… [+1014 chars]"
       }
     ]
   }
