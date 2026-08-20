@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-20T07:45:06.538Z",
+  "timestamp": "2026-08-20T08:45:10.739Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Bitcoin ETFs add $189M as August net inflows approach $1B",
+        "description": "US spot Bitcoin ETFs drew $189 million on Tuesday, taking August net inflows to about $951 million, while Ether ETFs added $71.5 million.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-august-net-inflows-approach-1b",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-investment-pump.jpg",
+        "publishedAt": "2026-08-19T07:59:16Z",
+        "content": "US-listed spot Bitcoin exchange-traded funds drew $189.3 million in net inflows on Tuesday, lifting August net inflows to about $951 million.\r\nThe latest gains followed $297.6 million in net inflows … [+870 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8f8e845d301c236d4f4687a125d984bf99f2fe55-1152x648.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-11T11:23:25Z",
         "content": "Coinbase (COIN) is setting up its international tokenization hub in Abu Dhabi, giving the crypto exchange a regulatory base for bringing traditional securities onchain outside the U.S.\r\nThe company s… [+1005 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin sell pressure ‘closer to exhaustion’ after $4B USDT market-cap drop: CryptoQuant",
-        "description": "Bitcoin analysis suggested that sell pressure would not increase given the historically large contraction in USDT market cap over a 60-day period.",
-        "url": "https://cointelegraph.com/markets/bitcoin-sell-pressure-closer-to-exhaustion-after-4b-usdt-market-cap-drop-cryptoquant",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-tether-on-a-brink-of-major-upgrade-eu.png",
-        "publishedAt": "2026-08-11T10:54:19Z",
-        "content": "Biggest stablecoin Tether (USDT) has shed $4 billion in market cap in just two months, but history suggests that the downturn is nearly over.\r\nKey points:\r\n<ul><li>Tethers 60-day rolling market-cap c… [+3363 chars]"
       }
     ]
   }
