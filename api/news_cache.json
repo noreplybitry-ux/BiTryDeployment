@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-21T11:31:14.975Z",
+  "timestamp": "2026-08-21T12:56:59.587Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Cybersecurity firm unveils crypto phishing campaign targeting 885,000 phone numbers",
+        "description": "Cybersecurity company Rapid7 unveiled a massive crypto phishing campaign targeting 885,000 phone numbers to steal the seed phrases of cryptocurrency investors through fake websites.",
+        "url": "https://cointelegraph.com/news/cybersecurity-unveils-crypto-phishing-885000-phone-numbers",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-crypto-money-mule-scam-and-how-to-avoid-it.jpg",
+        "publishedAt": "2026-08-20T12:35:32Z",
+        "content": "Cybersecurity firm Rapid7 unveiled a new cryptocurrency phishing campaign known as Operation Asterix, targeting roughly 885,000 phone numbers from several countries to steal cryptocurrency investors … [+3023 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/55974d1b7b39174a9aabbaadda8b7ede8581ec0a-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-13T09:14:15Z",
         "content": "Japanese bitcoin treasury company Metaplanet (3350) unveiled a continuous bond issuance program, dubbed BitBonds, completing its first sale with four privately placed series worth about 200 million y… [+1202 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Fidelity files with SEC to add staking to Ethereum ETF",
-        "description": "Fidelity plans to add staking to its Ether fund, with 85% of rewards retained by FETH and quarterly cash distributions planned for investors.",
-        "url": "https://cointelegraph.com/news/fidelity-staking-ethereum-etf-sec-filing",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/option-1-bold-white-montserrat.jpeg",
-        "publishedAt": "2026-08-12T12:42:58Z",
-        "content": "Fidelity Investments plans to add staking to its spot Ether exchange-traded product, the Fidelity Ethereum Fund (FETH), according to its Tuesday filing with the US Securities and Exchange Commission … [+1478 chars]"
       }
     ]
   }
