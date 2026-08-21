@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-21T12:56:59.587Z",
+  "timestamp": "2026-08-21T13:51:08.047Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Fake Crypto AML Checkers Are Trying to Drain Users' Wallets",
+        "description": "Scammers are impersonating crypto compliance services to trick users into approving transactions that could put their assets at risk.",
+        "url": "https://decrypt.co/376029/fake-crypto-aml-drain-users-wallets",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/hacker3-gID_7.png",
+        "publishedAt": "2026-08-20T13:31:05Z",
+        "content": "In brief\r\n<ul><li>Malwarebytes identified fake crypto AML checkers that trick users into connecting their wallets and approving transactions.</li><li>The sites impersonate legitimate services such as… [+2921 chars]"
+      },
       {
         "source": {
           "id": null,
