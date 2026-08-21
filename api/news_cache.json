@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-21T09:41:55.348Z",
+  "timestamp": "2026-08-21T10:35:15.314Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Crypto short liquidations pass $3B mark as Bitcoin price nears $72K",
+        "description": "Bitcoin continues to set multimonth highs, liquidating even more short positions as the crypto total passes $3 billion since Thursday.",
+        "url": "https://cointelegraph.com/markets/crypto-short-liquidations-pass-3b-mark-as-bitcoin-price-nears-72k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-i-am-cynically-bullish-about-the-bitcoin-3.jpg",
+        "publishedAt": "2026-08-20T10:03:04Z",
+        "content": "Bitcoin (BTC) and altcoins are breaking records as short position liquidations pass $3 billion over two days.\r\nKey points:\r\n<ul><li>Crypto short liquidations since Thursday are in excess of $3.1 bill… [+2504 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/option-1-bold-white-montserrat.jpeg",
         "publishedAt": "2026-08-12T12:42:58Z",
         "content": "Fidelity Investments plans to add staking to its spot Ether exchange-traded product, the Fidelity Ethereum Fund (FETH), according to its Tuesday filing with the US Securities and Exchange Commission … [+1478 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
-        "description": "Non-qualified investors face a 300,000-ruble (approx. $3,600) annual purchase limit per intermediary, while qualified investors have no cap.",
-        "url": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-12T11:19:32Z",
-        "content": "Russias central bank will allow retail investors to only trade bitcoin BTC\r\n$64,124.91, ether ETH\r\n$1,909.82 and USDT on regulated exchanges, making Tethers dollar-linked token the only stablecoin on… [+607 chars]"
       }
     ]
   }
