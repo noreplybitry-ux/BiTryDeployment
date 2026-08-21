@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "timestamp": "2026-08-21T01:40:07.936Z",
+  "timestamp": "2026-08-21T03:07:59.805Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
@@ -56,6 +56,19 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-you-could-save-money-us-treasury-1.jpg",
         "publishedAt": "2026-08-19T15:44:09Z",
         "content": "Bitcoin (BTC) saw its highest levels since the start of June after Wednesdays Wall Street open as markets reacted to a US government liquidity move.\r\nKey points:\r\n<ul><li>Bitcoin spikes 6% on the day… [+3511 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "Strategy Just Stopped Bitcoin News: Is the Market’s Biggest Corporate Bid Gone for Good?",
+        "description": "In the latest Bitcoin news, Strategy held its bitcoin position flat at 840,447 BTC through the week ended Aug. 16, according to a Form 8-K the company filed...",
+        "url": "https://cryptonews.com/news/strategy-bitcoin-news-buying-pause/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/8F2150F3AC58934C5E6B372B122AAC697A26FA45A20990FBE1CC715D4B4553ED/subgraphmysterio/resizefill_w1200_h673;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fca0edd2d2b9aea47180caca65d75cc58.jpg",
+        "publishedAt": "2026-08-19T13:29:42Z",
+        "content": "In the latest Bitcoin news, Strategy held its bitcoin position flat at 840,447 BTC through the week ended Aug. 16, according to a Form 8-K the company filed with the U.S. Securities and Exchange Comm… [+5111 chars]"
       },
       {
         "source": {
@@ -342,19 +355,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-12T11:19:32Z",
         "content": "Russias central bank will allow retail investors to only trade bitcoin BTC\r\n$64,124.91, ether ETH\r\n$1,909.82 and USDT on regulated exchanges, making Tethers dollar-linked token the only stablecoin on… [+607 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
-        "description": "Weeks of sideways trading have crushed volatility, leaving Wednesday’s inflation report as the next potential catalyst, analysts said.",
-        "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-as-etf-inflows-offset-selling-but-inflation-data-could-spark-a-move",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/f7aa56b41189d5f33e1de7a8fa506df0c822e553-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-11T21:38:13Z",
-        "content": "Bitcoin BTC\r\n$63,674.36 barely budged on Tuesday, extending a five-week standstill as steady demand from exchange-traded funds ran into selling from miners and corporate holders.\r\nBTC slipped to arou… [+1061 chars]"
       }
     ]
   }
