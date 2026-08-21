@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-21T20:30:50.287Z",
+  "timestamp": "2026-08-21T21:29:23.837Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "What's Next for Bitcoin After Historic Rally? Experts Weigh In",
+        "description": "Bitcoin's surge above $72,000 wiped out billions in bearish bets, but analysts say fresh buying will be needed to keep the rally going.",
+        "url": "https://decrypt.co/376155/what-next-for-bitcoin-price-experts-weigh-in",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-glasses-decrypt-style-gID_7.png",
+        "publishedAt": "2026-08-20T20:40:56Z",
+        "content": "In brief\r\n<ul><li>Bitcoin climbed above $72,000 Thursday after gaining nearly 15% since Monday.</li><li>Analysts pointed to Treasury bond purchases, policy headlines, and a massive short squeeze as d… [+6950 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/837fe64380b9dc3d548255d2d567d2589dbb7250-1920x1080.jpg?auto=format&q=75",
         "publishedAt": "2026-08-13T13:41:32Z",
         "content": "Swiss banking firm Swissquote Group (SQN) cut full-year revenue and profit forecasts after first-half net crypto income fell 66.2% to 14.6 million Swiss francs ($18 million).\r\nCrypto trading volume a… [+1069 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Crypto platform operator gets 15-year prison sentence in South Korea due to $50 million scam",
-        "description": "A South Korean court sentenced the head of centralized finance (CeFi) lender Delio to 15 years in prison for embezzling digital assets from more than 1,100 customers.",
-        "url": "https://www.coindesk.com/business/2026/08/13/crypto-platform-operator-gets-15-year-prison-sentence-in-south-korea-due-to-usd50-million-scam",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ab6526a6112137a16ade76be0e301939e1434fb8-6240x3996.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-13T13:37:56Z",
-        "content": "The CEO of Delio, identified only as Mr. Jeong, received a 15-year prison sentence in South Korea after being found guilty in a $50 million fraud case that affected more than 1,100 people, local news… [+1336 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin speculators keep BTC price ‘pinned’ below $68.7K: Glassnode",
-        "description": "Bitcoin short-term holders trying to break even on their underwater holdings are keeping price stuck in a range below $68,700, new onchain analysis shows.",
-        "url": "https://cointelegraph.com/markets/bitcoin-speculators-in-the-red-keep-price-pinned-below-687k-new-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-market-volatility-bitcoin-2.jpg",
-        "publishedAt": "2026-08-13T09:37:16Z",
-        "content": "Bitcoin (BTC) recent buyers are the latest hurdle to a breakout from a stubborn trading range in place since June.\r\nKey points:\r\n<ol><li>Bitcoin short-term holders are keen to sell into range highs a… [+2958 chars]"
       }
     ]
   }
