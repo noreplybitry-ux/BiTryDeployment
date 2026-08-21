@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-21T15:38:30.660Z",
+  "timestamp": "2026-08-21T16:39:55.209Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price reaches $72.5K as US issues ‘Economic D-Day’ threat to Iran",
+        "description": "Bitcoin saw new multimonth highs above $72,500 even as US stocks cooled amid US threats of “economic warfare” with Iran.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-reaches-725k-as-us-issues-economic-d-day-threat-to-iran",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-trump-speak-iran-2.jpg",
+        "publishedAt": "2026-08-20T15:40:54Z",
+        "content": "Bitcoin (BTC) saw multimonth highs after Thursdays Wall Street open while stocks dipped and bond yields rebounded on US-Iran war nerves.\r\nKey points:\r\n<ul><li>Bitcoin builds on its highest levels in … [+3401 chars]"
+      },
       {
         "source": {
           "id": null,
