@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-21T08:47:18.015Z",
+  "timestamp": "2026-08-21T09:41:55.348Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Pi Network tops $0.09 as the broader crypto market rally",
+        "description": "Key takeaways Pi Network trades at $0.09 after recording three consecutive bullish daily closes earlier this week. Expanded US Treasury bond buybacks have improved risk appetite and pushed Bitcoin toward $70,000, but PI continues to underperform. The token mu…",
+        "url": "https://coinjournal.net/news/pi-network-tops-0-09-as-the-broader-crypto-market-rally/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-20-2026-09_58_48-AM.png",
+        "publishedAt": "2026-08-20T09:01:09Z",
+        "content": "Key takeaways\r\n<ul><li>Pi Network trades at $0.09 after recording three consecutive bullish daily closes earlier this week.</li><li>Expanded US Treasury bond buybacks have improved risk appetite and … [+4349 chars]"
+      },
       {
         "source": {
           "id": null,
