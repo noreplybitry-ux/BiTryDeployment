@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-21T18:42:57.629Z",
+  "timestamp": "2026-08-21T19:29:14.751Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Is Pumping But Prediction Market Traders Aren't Convinced",
+        "description": "Bitcoin's sharpest rally in five months flipped prediction-market odds from bearish to a coin flip—but the longer-term bets still price in a crash.",
+        "url": "https://decrypt.co/376103/bitcoin-price-pumping-prediction-next-move",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-neon-gID_7.png",
+        "publishedAt": "2026-08-20T19:16:05Z",
+        "content": "In brief\r\n<ul><li>Bitcoin traded at $71,556 on Thursday, up 3.26% on the day and inside a $68,858$72,408 band, </li><li>The move extends a Wednesday's 8.7% rip.</li><li>On Myriad, the \"pump to $84K o… [+2440 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "CFTC Chair Readies Crypto Rules If Congress Fails to Pass Clarity Act",
+        "description": "The CFTC chair said staff is already exploring a crypto market structure framework and could move quickly to propose rules if Congress fails to act.",
+        "url": "https://decrypt.co/376151/cftc-chair-crypto-rules-if-congress-fails-clarity-act",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-08-20T18:44:08Z",
+        "content": "In brief\r\n<ul><li>CFTC Chair Michael S. Selig directed staff to explore crypto market structure rules using the agency's existing authority.</li><li>Selig said he will direct staff to formally propos… [+3291 chars]"
+      },
       {
         "source": {
           "id": null,
