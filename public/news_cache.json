@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-22T16:30:23.256Z",
+  "timestamp": "2026-08-22T17:25:27.389Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
       {
         "source": {
@@ -433,19 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/regulation-binance-1.jpg",
         "publishedAt": "2026-08-14T13:36:34Z",
         "content": "Binance will stop processing transactions involving crypto exchange HTX and 10 other listed crypto platforms and service providers from Aug. 23.\r\nThe cryptocurrency exchange cited recent regulatory d… [+1265 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Google Gemini AI Predicts Bitcoin Price by the End of 2026",
-        "description": "An accounting rule change might be the most underrated catalyst on this list. Google Gemini AI predicts it will help carry Bitcoin to $85,000 to $105,000 by...",
-        "url": "https://cryptonews.com/news/google-gemini-ai-predicts-bitcoin-price-by-end-of-2026/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/C1476BBF3FAFF6D310A5AE1DEEA40318DAF1B79AB4FF9B76ACF52C60C0E05A32/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fb65c1c6402963e0efdf880627d582c45.jpg",
-        "publishedAt": "2026-08-14T09:34:36Z",
-        "content": "An accounting rule change might be the most underrated catalyst on this list. Google Gemini AI predicts it will help carry Bitcoin to $85,000 to $105,000 by the end of 2026, and the price prediction … [+3503 chars]"
       }
     ]
   }
