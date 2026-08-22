@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-22T12:48:47.317Z",
+  "timestamp": "2026-08-22T13:35:30.868Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Laser Digital gets Japan’s first crypto exchange approval in 4 years",
+        "description": "Nomura-backed Laser Digital Japan received Japan’s first crypto exchange registration in nearly four years and plans to provide local market liquidity.",
+        "url": "https://cointelegraph.com/news/nomuras-laser-digital-japans-first-crypto-exchange-4-years",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-plans-tough-new-rules-for-crypto-exchanges-what-liability-reserves-actually-mean.jpg",
+        "publishedAt": "2026-08-21T13:08:12Z",
+        "content": "Nomura Groups digital asset subsidiary, Laser Digital, received authorization to operate as a crypto asset exchange service provider under Japans Payment Services Act (PSA)\r\nA list issued by Japans F… [+1317 chars]"
+      },
       {
         "source": {
           "id": null,
