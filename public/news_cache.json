@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-22T18:37:14.918Z",
+  "timestamp": "2026-08-22T19:26:26.341Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Onchain, in court: What happened in crypto legal news this week",
+        "description": "The CFTC ordered a trading ban for former Alameda and FTX executives, and US prosecutors opposed a motion from a US soldier accused of profiting from the removal of Nicolas Maduro.",
+        "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-5-key-highlights-of-the-secs-lawsuit-against-binance-1280x853.webp",
+        "publishedAt": "2026-08-21T19:19:27Z",
+        "content": "Former Alameda Research and FTX executives receive 5-year trading bans\r\nOn Tuesday, the US District Court for the Southern District of New York (SDNY) entered consent orders related to a 2022 enforce… [+2295 chars]"
+      },
       {
         "source": {
           "id": null,
