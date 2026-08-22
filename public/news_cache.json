@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-22T20:28:45.919Z",
+  "timestamp": "2026-08-22T21:26:45.009Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Binance Theft Lawsuit Can Proceed In Federal Court, Appeals Panel Rules",
+        "description": "Binance Theft Lawsuit Can Proceed In Federal Court, Appeals Panel Rules - Read the full analysis on NewsBTC.",
+        "url": "http://www.newsbtc.com/news/binance-theft-lawsuit-federal-court-appeals-panel/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/XRP-from-Getty-Images-67.jpg?fit=612%2C408",
+        "publishedAt": "2026-08-21T20:30:00Z",
+        "content": "A US appeals court has allowed a proposed Binance-related theft lawsuit to proceed in federal court, rejecting a lower-court order that had forced the plaintiffs into arbitration.\r\nThe Eleventh Circu… [+4119 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8142dec16a595aba3e6c3f1bb742b14314bedc43-1440x810.jpg?auto=format&q=75",
         "publishedAt": "2026-08-14T13:51:37Z",
         "content": "Bank Leumi, Israels largest bank, will offer cryptocurrency trading to customers from early 2027 becoming the first Israeli bank to announce such a service.\r\nCustomers of Leumi and its mobile banking… [+1190 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Binance to restrict transactions involving HTX, 10 other crypto platforms",
-        "description": "Binance said it will stop processing transactions for involving 11 crypto platforms, including HTX, which was recently listed in the EU’s sanctions package targeting Russia.",
-        "url": "https://cointelegraph.com/news/binance-restrict-htx-10-crypto-platforms",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/regulation-binance-1.jpg",
-        "publishedAt": "2026-08-14T13:36:34Z",
-        "content": "Binance will stop processing transactions involving crypto exchange HTX and 10 other listed crypto platforms and service providers from Aug. 23.\r\nThe cryptocurrency exchange cited recent regulatory d… [+1265 chars]"
       }
     ]
   }
