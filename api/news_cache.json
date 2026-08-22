@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-22T21:26:45.009Z",
+  "timestamp": "2026-08-22T22:27:16.822Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
+        "description": "Coinkite's latest firmware requires users to add their own randomness when generating wallet seeds and fixes additional security issues uncovered during a three-week review.",
+        "url": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg",
+        "publishedAt": "2026-08-21T21:31:05Z",
+        "content": "In brief\r\n<ul><li>Coinkite released new Coldcard firmware after a seed-generation flaw exposed users to more than $100 million in Bitcoin thefts.</li><li>Coldcard now requires users to add randomness… [+4925 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bungee-jumping-bitcoin-2.jpg",
         "publishedAt": "2026-08-14T14:38:27Z",
         "content": "Bitcoin (BTC) declined into Fridays Wall Street open as traders increasingly saw a BTC price breakdown next.\r\nKey points:\r\n<ul><li>Bitcoin stays below $63,000, heading steadily closer to new August l… [+2798 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten, AI Boost",
-        "title": "Israel’s largest bank to offer crypto trading with Galaxy",
-        "description": "Bank Leumi customers will be able to trade bitcoin, ether and solana through the bank’s investment app from early 2027.",
-        "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8142dec16a595aba3e6c3f1bb742b14314bedc43-1440x810.jpg?auto=format&q=75",
-        "publishedAt": "2026-08-14T13:51:37Z",
-        "content": "Bank Leumi, Israels largest bank, will offer cryptocurrency trading to customers from early 2027 becoming the first Israeli bank to announce such a service.\r\nCustomers of Leumi and its mobile banking… [+1190 chars]"
       }
     ]
   }
