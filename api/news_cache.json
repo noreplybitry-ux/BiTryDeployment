@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-22T08:35:58.141Z",
+  "timestamp": "2026-08-22T09:32:08.420Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Binance Opens the Door to AI Agents That Can Trade Crypto for You",
+        "description": "Binance Agent OS connects tools like ChatGPT and Claude directly to the exchange's markets, though safeguards wall agents off from user funds—and leave much of the oversight to users themselves.",
+        "url": "https://decrypt.co/376161/binance-ai-agents-trade-crypto",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+        "publishedAt": "2026-08-21T09:31:05Z",
+        "content": "In brief\r\n<ul><li>Binance launched Binance Agent OS, a developer platform bundling its APIs, wallet hub, x402 payment layer and a skills marketplace.</li><li>Once authorized, agents can read market d… [+2543 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/acf831401ea851c7551eb13183b3f53d9be886a8-7146x4766.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-13T17:43:25Z",
         "content": "The 30-year Treasury yield cleared 5% this year and is sitting at its highest level since 2007. That means every dollar sitting in bitcoin or any non-yielding asset is a dollar not earning that 5%. S… [+1173 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "FCA, HTX in Settlement Talks Over Illegal UK Crypto Promotions: Report",
-        "description": "An FCA employee bought crypto from a UK IP address using a driving license as ID, according to the regulator's claim.",
-        "url": "https://decrypt.co/375551/fca-htx-in-settlement-talks-over-illegal-uk-crypto-promotions-report",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/uk-fca-financial-conduct-authority-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-08-13T14:31:56Z",
-        "content": "In brief\r\n<ul><li>Britain's Financial Conduct Authority and HTX are in talks to settle the regulator's claim that the exchange illegally promoted crypto services to UK consumers.</li><li>The High Cou… [+2963 chars]"
       }
     ]
   }
