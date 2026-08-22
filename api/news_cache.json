@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-22T14:26:39.924Z",
+  "timestamp": "2026-08-22T15:26:34.716Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
+        "description": "Meanwhile crypto majors and alts continue to soar, with BTC nearing $80k and alts like Pump and ZEC putting up big candles.",
+        "url": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-08-21T14:27:31Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt.\r\nGM!\r\nTodays top news:\r\n<ul><li>Crypto m… [+4698 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-digitized-europe-the-shift-to-a-cashless-world-crypto.jpg",
         "publishedAt": "2026-08-14T08:22:54Z",
         "content": "Crypto remains a marginal payment option among euro area businesses even as other forms of digital payments gain ground, according to a new European Central Bank (ECB) report.\r\nJust 0.2% of companies… [+3052 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
-        "description": "The thesis is that high yields on long-term U.S. Treasuries make non-yielding assets like bitcoin less attractive.",
-        "url": "https://www.coindesk.com/markets/2026/08/13/forecasts-for-usd1-million-bitcoin-price-likely-look-too-ambitious-key-ratio-suggests",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/acf831401ea851c7551eb13183b3f53d9be886a8-7146x4766.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-13T17:43:25Z",
-        "content": "The 30-year Treasury yield cleared 5% this year and is sitting at its highest level since 2007. That means every dollar sitting in bitcoin or any non-yielding asset is a dollar not earning that 5%. S… [+1173 chars]"
       }
     ]
   }
