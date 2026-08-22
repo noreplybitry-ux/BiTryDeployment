@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-22T07:35:39.772Z",
+  "timestamp": "2026-08-22T08:35:58.141Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin eyes $80k after weekly rally pushes BTC above key moving averages",
+        "description": "Key takeaways Bitcoin, Ethereum, and XRP have gained nearly 20%, over 25%, and almost 30%, respectively, this week. Expanded U.S. Treasury debt buybacks have improved liquidity expectations and boosted demand for risk assets. Bitcoin trades around $76,800 aft…",
+        "url": "https://coinjournal.net/news/bitcoin-eyes-80k-after-weekly-rally-pushes-btc-above-key-moving-averages/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-21-2026-09_18_57-AM.png",
+        "publishedAt": "2026-08-21T08:20:33Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin, Ethereum, and XRP have gained nearly 20%, over 25%, and almost 30%, respectively, this week.</li><li>Expanded U.S. Treasury debt buybacks have improved liquidity expec… [+3836 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/uk-fca-financial-conduct-authority-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-08-13T14:31:56Z",
         "content": "In brief\r\n<ul><li>Britain's Financial Conduct Authority and HTX are in talks to settle the regulator's claim that the exchange illegally promoted crypto services to UK consumers.</li><li>The High Cou… [+2963 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
-        "description": "The online bank cut full-year revenue and profit forecasts after first-half crypto trading levels slumped.",
-        "url": "https://www.coindesk.com/business/2026/08/13/swissquote-cuts-full-year-guidance-as-1h-crypto-income-plunges-shares-slide",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/837fe64380b9dc3d548255d2d567d2589dbb7250-1920x1080.jpg?auto=format&q=75",
-        "publishedAt": "2026-08-13T13:41:32Z",
-        "content": "Swiss banking firm Swissquote Group (SQN) cut full-year revenue and profit forecasts after first-half net crypto income fell 66.2% to 14.6 million Swiss francs ($18 million).\r\nCrypto trading volume a… [+1069 chars]"
       }
     ]
   }
