@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-23T15:27:39.512Z",
+  "timestamp": "2026-08-23T16:31:55.618Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
+        "description": "A group of 20-odd developers is scanning the Bitcoin ecosystem for AI-discoverable flaws, warning that cheap, powerful models have handed attackers unprecedented reach.",
+        "url": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-specs-gID_7.png",
+        "publishedAt": "2026-08-22T15:31:04Z",
+        "content": "In brief\r\n<ul><li>In an interview with Decrypt, Bitcoin Red Team member Calle said Chinese AI models are used far more than U.S. models for security research because American models often block cyber… [+6252 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Israel-Flag-DecryptStyle-gID_7.jpg",
         "publishedAt": "2026-08-14T17:14:02Z",
         "content": "In brief\r\n<ul><li>Bank Leumi, Israel's largest bank, will let customers trade Bitcoin, Ethereum, and Solana inside Leumi Trade through Galaxy's trading and custody rails.</li><li>It's Bank Leumi's se… [+3161 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price drops to $62.5K as trader warns weekly close may spark more losses",
-        "description": "Bitcoin falls further toward new August lows, ignoring positive US inflation trends while US stocks continue to circle all-time highs.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-trader-warns-weekly-close-may-spark-more-losses",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bungee-jumping-bitcoin-2.jpg",
-        "publishedAt": "2026-08-14T14:38:27Z",
-        "content": "Bitcoin (BTC) declined into Fridays Wall Street open as traders increasingly saw a BTC price breakdown next.\r\nKey points:\r\n<ul><li>Bitcoin stays below $63,000, heading steadily closer to new August l… [+2798 chars]"
       }
     ]
   }
