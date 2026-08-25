@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-25T14:51:35.925Z",
+  "timestamp": "2026-08-25T15:49:10.886Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Bitmine extends 14-month ETH buying pace as Ether breaks above $2.5K",
+        "description": "Ether’s breakout above $2,500 has put the spotlight back on corporate ETH treasuries, with Bitmine now nearing its long-stated accumulation target.",
+        "url": "https://cointelegraph.com/news/bitmine-eth-holdings-5-percent-ether-price-breakout",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-ethereum-with-bitmine-3.jpg",
+        "publishedAt": "2026-08-24T15:29:26Z",
+        "content": "Tom Lees Bitmine Immersion Technologies continued its accumulation of Ether last week, adding to its holdings as the cryptocurrency staged a sharp breakout following a prolonged downturn.\r\nThe compan… [+2001 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "Bitcoin Price Analysis: Can BTC Clear $80K This Week?",
+        "description": "Bitcoin price analysis today shows the asset is trading at $77,552.01, up a modest 0.19% over the past 24 hours, as the market digests one of its sharpest we...",
+        "url": "https://cryptonews.com/news/bitcoin-price-analysis-89k-target/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/620EEDA94925FA3A06E3501C20F9A06C7C4C4364324038608B880F774643E216/subgraphmysterio/resizefill_w1200_h670;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F1214759d770d12927ab38618e476e3aa",
+        "publishedAt": "2026-08-24T15:20:00Z",
+        "content": "Bitcoin price analysis today shows the asset is trading at $77,552.01, up a modest 0.19% over the past 24 hours, as the market digests one of its sharpest weekly moves in months. That flatline masks … [+2473 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-9.jpg",
         "publishedAt": "2026-08-18T01:28:37Z",
         "content": "BitMart account demands founder explain funds status, Xia calls claims fabricated\r\nBitMarts official Chinese-language X account has publicly demanded that founder Sheldon Xia explain the whereabouts … [+5498 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "BTC price loses 200-week trend line as 2022 repeats: Five things to know in Bitcoin this week",
-        "description": "Bitcoin confirmed a weekly candle close below its 200-week moving average, copying the 2022 bear-market as traders warn of further BTC price downside next.",
-        "url": "https://cointelegraph.com/markets/btc-price-loses-200-week-trend-line-as-2022-repeats",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/walk-b-man-balance-rope-ropewalker-bitcoin-crypto-market-price.jpg",
-        "publishedAt": "2026-08-17T11:38:52Z",
-        "content": "Bitcoin (BTC) is starting the new week at around $63,000, but bear-market history continues to repeat with weekly close below a key long-term trend line.\r\nKey points:\r\n<ul><li>Bitcoin has been tradin… [+8346 chars]"
       }
     ]
   }
