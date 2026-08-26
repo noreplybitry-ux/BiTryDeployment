@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-26T19:07:11.138Z",
+  "timestamp": "2026-08-26T23:10:31.029Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024",
+        "description": "The Crypto Fear and Greed Index was at 36, firmly in the fear zone, just a month ago.",
+        "url": "https://decrypt.co/376503/crypto-fear-greed-index-extreme-greed",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-08-25T19:11:04Z",
+        "content": "In brief\r\n<ul><li>The Crypto Fear and Greed Index has hit \"extreme greed,\" the highest reading since the 2024 cycle top.</li><li>The score jumped from 36 (fear) a month ago and 41 (neutral) a week ag… [+2909 chars]"
+      },
       {
         "source": {
           "id": null,
