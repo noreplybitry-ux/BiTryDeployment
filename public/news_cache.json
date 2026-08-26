@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-26T05:38:52.473Z",
+  "timestamp": "2026-08-26T06:57:07.831Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Breaking: Bitcoin hits $80k for the first time since May as rally continues",
+        "description": "Bitcoin extended its rally on Tuesday, hitting the $80,000 psychological level for the first time since May 4. The rally comes as improving liquidity expectations continued to lift the broader cryptocurrency market. Bitcoin has gained nearly 30% in the last w…",
+        "url": "https://coinjournal.net/news/breaking-bitcoin-hits-80k-for-the-first-time-since-may-as-rally-continues/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-21-2026-10_00_15-AM.png",
+        "publishedAt": "2026-08-25T05:41:44Z",
+        "content": "Bitcoin extended its rally on Tuesday, hitting the $80,000 psychological level for the first time since May 4.\r\nThe rally comes as improving liquidity expectations continued to lift the broader crypt… [+3389 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/price-fall-up-road1.jpg",
         "publishedAt": "2026-08-18T09:31:15Z",
         "content": "Bitcoin (BTC) short liquidations hit their highest in almost one month as it hit $64,500 on Monday, new data reveals.\r\nKey points:\r\n<ul><li>Bitcoin passed $64,000 thanks to a short squeeze on derivat… [+2803 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "The bitcoin price level where leveraged bulls could get whacked",
-        "description": "Bulls are stacking longs, liquidity is thinning and one key level could trigger large liquidations.",
-        "url": "https://www.coindesk.com/markets/2026/08/18/the-bitcoin-price-level-where-leveraged-bulls-could-get-whacked",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/04f05b5cd4023bff86ebd19b9d5981356f50f8eb-8640x5760.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-08-18T05:55:43Z",
-        "content": "$57,000 is a key region to watch. If Bitcoin trades down into that area, we could see a massive wave of long liquidations, Joao Wedson, CEO of crypto analytics platform Alphractal, said. \r\nThe risk i… [+1076 chars]"
       }
     ]
   }
