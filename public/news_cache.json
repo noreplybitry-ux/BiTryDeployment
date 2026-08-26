@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-26T10:39:35.584Z",
+  "timestamp": "2026-08-26T11:34:20.269Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
+        "description": "Bitcoin RSI signals stay mixed across short and long time frames, but analysis sees a bullish divergence potentially pointing to a new BTC price uptrend.",
+        "url": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-draws-2022-comparisons-as-analysis-weighs-new-price-trend",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-the-relative-strength-index-rsi2.jpg",
+        "publishedAt": "2026-08-25T10:49:43Z",
+        "content": "Bitcoin (BTC) price action is offering mixed signals after hitting $80,000 as traders diverge on market trajectory.\r\nKey points:\r\n<ul><li>Bitcoin weekly relative strength index (RSI) reaches 58.3, re… [+3572 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoins-are-flash-green.jpg",
         "publishedAt": "2026-08-18T15:27:13Z",
         "content": "Bitcoin (BTC) hit $65,000 after Tuesdays Wall Street open as US stocks rebounded in spite of geopolitical pressure.\r\nKey points:\r\n<ul><li>Bitcoin reaches $65,000 for the first time since Aug. 10 as r… [+2656 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price spike to $64.5K was ‘low-volume liquidity trap’: Analysis",
-        "description": "Bitcoin short liquidations spike to their highest levels in almost a month as analysis warns that BTC price upside was a short squeeze on low liquidity.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-spike-to-645k-was-low-volume-liquidity-trap-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/price-fall-up-road1.jpg",
-        "publishedAt": "2026-08-18T09:31:15Z",
-        "content": "Bitcoin (BTC) short liquidations hit their highest in almost one month as it hit $64,500 on Monday, new data reveals.\r\nKey points:\r\n<ul><li>Bitcoin passed $64,000 thanks to a short squeeze on derivat… [+2803 chars]"
       }
     ]
   }
