@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-26T01:41:09.699Z",
+  "timestamp": "2026-08-26T03:10:33.159Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Korean bank taps Ripple for payments, Pakistan opens crypto licensing: Asia Express",
+        "description": "South Korea’s Jeonbuk Bank has tapped Ripple for cross border payments, while Pakistan has begun the process of licensing crypto exchanges.",
+        "url": "https://cointelegraph.com/magazine/korean-bank-to-use-ripple-payments-japans-first-exchange-in-4-years-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-10.jpg",
+        "publishedAt": "2026-08-25T02:03:55Z",
+        "content": "KOREA\r\nSouth Koreas Jeonbuk Bank taps Ripple for cross-border payments\r\nSouth Koreas Jeonbuk Bank has partnered with blockchain payments company Ripple to deploy its cross-border payment system for b… [+6773 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/04f05b5cd4023bff86ebd19b9d5981356f50f8eb-8640x5760.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-08-18T05:55:43Z",
         "content": "$57,000 is a key region to watch. If Bitcoin trades down into that area, we could see a massive wave of long liquidations, Joao Wedson, CEO of crypto analytics platform Alphractal, said. \r\nThe risk i… [+1076 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "‘Fabricated rumors’ about BitMart founder, Binance bStocks dominate: Asia Express",
-        "description": "Binance’s bStocks are the second largest tokenized stock issuer just two months after launch, and BitMart’s internal feud erupts into the spotlight ahead of its closure",
-        "url": "https://cointelegraph.com/magazine/fabricated-rumors-about-bitmart-founder-binance-bstocks-dominate-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-9.jpg",
-        "publishedAt": "2026-08-18T01:28:37Z",
-        "content": "BitMart account demands founder explain funds status, Xia calls claims fabricated\r\nBitMarts official Chinese-language X account has publicly demanded that founder Sheldon Xia explain the whereabouts … [+5498 chars]"
       }
     ]
   }
