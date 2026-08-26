@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-26T14:49:47.071Z",
+  "timestamp": "2026-08-26T16:22:00.691Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin slips from $80K as gold cools with falling US bond yields",
+        "description": "Bitcoin and gold diverge from US stocks, falling in step with bond yields after BTC price action crossed $80,000 for the first time in over 14 weeks.",
+        "url": "https://cointelegraph.com/markets/bitcoin-slips-from-80k-as-gold-cools-with-falling-us-bond-yields",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-bitcoin-btc-price.jpg",
+        "publishedAt": "2026-08-25T15:15:35Z",
+        "content": "Bitcoin (BTC) fell below $80,000 into Tuesdays Wall Street open as crypto and gold gave way to gains in US equities.\r\nKey points:\r\n<ul><li>Bitcoin upside momentum fizzles as $80,000 proves difficult … [+3388 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-investment-pump.jpg",
         "publishedAt": "2026-08-19T07:59:16Z",
         "content": "US-listed spot Bitcoin exchange-traded funds drew $189.3 million in net inflows on Tuesday, lifting August net inflows to about $951 million.\r\nThe latest gains followed $297.6 million in net inflows … [+870 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin tags $65K as S&P 500 rebounds from 2-week lows on US-Iran rhetoric",
-        "description": "Bitcoin returned to $65,000 for the first time in a week as fresh BTC price volatility accompanied US claims that the Strait of Hormuz was “open and operating.”",
-        "url": "https://cointelegraph.com/markets/bitcoin-tags-65k-as-sp-500-rebounds-from-2-week-lows-on-us-iran-rhetoric",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoins-are-flash-green.jpg",
-        "publishedAt": "2026-08-18T15:27:13Z",
-        "content": "Bitcoin (BTC) hit $65,000 after Tuesdays Wall Street open as US stocks rebounded in spite of geopolitical pressure.\r\nKey points:\r\n<ul><li>Bitcoin reaches $65,000 for the first time since Aug. 10 as r… [+2656 chars]"
       }
     ]
   }
