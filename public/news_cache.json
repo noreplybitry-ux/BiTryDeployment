@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-26T06:57:07.831Z",
+  "timestamp": "2026-08-26T07:52:30.573Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETFs add $338M as six-day inflow streak hits $2.26B",
+        "description": "Bitcoin ETFs have drawn $2.26 billion over six trading days, while year-to-date net outflows have narrowed to about $2.57 billion.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-six-day-inflow-streak-2-26-billion",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/b-man-etf-cointelegraph-style.png",
+        "publishedAt": "2026-08-25T07:38:29Z",
+        "content": "US spot Bitcoin exchange-traded funds (ETFs) recorded $337.6 million in net inflows on Monday, marking their sixth consecutive trading day of inflows totaling $2.26 billion.\r\nThe new inflows have cut… [+1179 chars]"
+      },
       {
         "source": {
           "id": null,
