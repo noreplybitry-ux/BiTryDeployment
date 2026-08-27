@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-08-27T08:35:42.284Z",
+  "timestamp": "2026-08-27T19:43:03.743Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Students want crypto classes but learn on social media: OKX survey",
+        "description": "An OKX survey found 90% of US college students want crypto taught in college, while social media remains their leading source of information.",
+        "url": "https://cointelegraph.com/news/students-crypto-classes-learn-social-media-okx",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-education-key-in-driving-crypto-adoption-in-africa2.jpg",
+        "publishedAt": "2026-08-26T13:00:00Z",
+        "content": "While most US college students want schools to teach crypto and blockchain, in the absence of courses, social media remains their leading source of crypto education, according to a study commissioned… [+1047 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Supply absorption ‘key question’ as Bitcoin fails to reclaim $80K: Analysis",
+        "description": "Bitcoin price analysis says that new buyer support needs to appear as BTC price action struggles to cement local highs.",
+        "url": "https://cointelegraph.com/markets/supply-absorption-key-question-as-bitcoin-fails-to-reclaim-80k-analysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-network-death-spiral-still-likely.jpg",
+        "publishedAt": "2026-08-26T10:49:26Z",
+        "content": "Bitcoin (BTC) remains sensitive to sell-side pressure at $80,000, even as investors broadly avoid mass profit-taking.\r\nKey points:\r\n<ul><li>Bitcoin investors unrealized profit and loss crosses above … [+3264 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Pi holds above $0.085 support as crypto market recovery loses momentum",
+        "description": "Key takeaways Pi Network trades around $0.0900 on Wednesday, maintaining mild upside momentum above the critical $0.0853 support. The broader cryptocurrency market is retreating as investors take profits following last week’s double-digit gains. A break above…",
+        "url": "https://coinjournal.net/news/pi-holds-above-0-085-support-as-crypto-market-recovery-loses-momentum/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-26-2026-09_35_59-AM.png",
+        "publishedAt": "2026-08-26T08:37:40Z",
+        "content": "Key takeaways\r\n<ul><li>Pi Network trades around $0.0900 on Wednesday, maintaining mild upside momentum above the critical $0.0853 support.</li><li>The broader cryptocurrency market is retreating as i… [+3379 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,58 +498,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
         "publishedAt": "2026-08-19T16:10:04Z",
         "content": "In brief\r\n<ul><li>Bitcoin jumped as much as 9.3% this week, hitting an intraday high of $69,749 and trading near $68,689, up sharply from the week's open at $62,832.</li><li>CoinGlass's Total Liquida… [+4529 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price hits 11-week high as US Treasury doubles debt buyback size",
-        "description": "Bitcoin joined US stocks in a broad rally after the US Treasury announced that it was at least doubling the amount of its debt buyback operations from September.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-hits-11-week-high-as-us-treasury-doubles-debt-buyback-size",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-you-could-save-money-us-treasury-1.jpg",
-        "publishedAt": "2026-08-19T15:44:09Z",
-        "content": "Bitcoin (BTC) saw its highest levels since the start of June after Wednesdays Wall Street open as markets reacted to a US government liquidity move.\r\nKey points:\r\n<ul><li>Bitcoin spikes 6% on the day… [+3511 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Strategy Just Stopped Bitcoin News: Is the Market’s Biggest Corporate Bid Gone for Good?",
-        "description": "In the latest Bitcoin news, Strategy held its bitcoin position flat at 840,447 BTC through the week ended Aug. 16, according to a Form 8-K the company filed...",
-        "url": "https://cryptonews.com/news/strategy-bitcoin-news-buying-pause/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/8F2150F3AC58934C5E6B372B122AAC697A26FA45A20990FBE1CC715D4B4553ED/subgraphmysterio/resizefill_w1200_h673;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fca0edd2d2b9aea47180caca65d75cc58.jpg",
-        "publishedAt": "2026-08-19T13:29:42Z",
-        "content": "In the latest Bitcoin news, Strategy held its bitcoin position flat at 840,447 BTC through the week ended Aug. 16, according to a Form 8-K the company filed with the U.S. Securities and Exchange Comm… [+5111 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin has ‘largely purged’ froth that preceded 50% drop from $126K: BlackRock",
-        "description": "BlackRock has doubled down on its Bitcoin bull case in a new report, seeing its correlation to risk assets decreasing in the future as leverage has been purged from the market.",
-        "url": "https://cointelegraph.com/markets/bitcoin-has-largely-purged-froth-that-preceded-50-drop-from-126k-blackrock",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-sek-blackrock.jpg",
-        "publishedAt": "2026-08-19T11:06:13Z",
-        "content": "Bitcoin (BTC) falling more than 50% from its $126,200 all-time high was a positioning correction, BlackRock says.\r\nKey points:\r\n<ul><li>A BlackRock report attributes Bitcoins decline below $60,000 to… [+4412 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Bitcoin ETFs add $189M as August net inflows approach $1B",
-        "description": "US spot Bitcoin ETFs drew $189 million on Tuesday, taking August net inflows to about $951 million, while Ether ETFs added $71.5 million.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etf-august-net-inflows-approach-1b",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-investment-pump.jpg",
-        "publishedAt": "2026-08-19T07:59:16Z",
-        "content": "US-listed spot Bitcoin exchange-traded funds drew $189.3 million in net inflows on Tuesday, lifting August net inflows to about $951 million.\r\nThe latest gains followed $297.6 million in net inflows … [+870 chars]"
       }
     ]
   }
