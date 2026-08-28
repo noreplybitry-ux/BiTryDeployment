@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-08-28T04:07:30.504Z",
+  "timestamp": "2026-08-28T17:14:26.420Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Charles Schwab adda Solana, Avalanche and Chainlink to nascent crypto platform",
+        "description": "The financial services giant plans to expand Schwab Crypto beyond Bitcoin and Ether just months after rolling out direct crypto trading to retail clients.",
+        "url": "https://cointelegraph.com/news/charles-schwab-to-add-solana-avalanche-and-chainlink-to-crypto-platform",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bank-bitcoin-charles-schwab-corp.png",
+        "publishedAt": "2026-08-27T16:13:10Z",
+        "content": "US financial services giant Charles Schwab plans to add Solana (SOL), Avalanche (AVAX) and Chainlink (LINK) to its crypto trading platform in the coming months, expanding its direct cryptocurrency of… [+1814 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum price outlook turns bullish as ETF inflows support $2,800 target",
+        "description": "Key takeaways Ethereum has gained 27% in seven days after breaking above $2,000 and triggering substantial short liquidations. Proposed SEC crypto rules and planned Treasury bond buybacks have strengthened risk appetite. Ethereum ETFs attracted more than $1.2…",
+        "url": "https://coinjournal.net/news/ethereum-price-outlook-turns-bullish-as-etf-inflows-support-2800-target/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-27-2026-11_39_45-AM.png",
+        "publishedAt": "2026-08-27T10:41:09Z",
+        "content": "Key takeaways\r\n<ul><li>Ethereum has gained 27% in seven days after breaking above $2,000 and triggering substantial short liquidations.</li><li>Proposed SEC crypto rules and planned Treasury bond buy… [+4084 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Bitcoin ETFs Draw $2.8B in Eight-Day Streak as BTC Tests $80K",
+        "description": "August is heading for its strongest month of inflows since October 2025 if the pace holds, one analyst noted.",
+        "url": "https://decrypt.co/376683/bitcoin-etfs-draw-2-8b-in-eight-day-streak-as-btc-tests-80k",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-08-27T10:39:10Z",
+        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs have seen inflows of $2.8 billion across eight consecutive trading sessions.</li><li>Daily inflows have retreated from a peak of $606 million on August 20 to … [+3754 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,32 +511,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-20-2026-09_58_48-AM.png",
         "publishedAt": "2026-08-20T09:01:09Z",
         "content": "Key takeaways\r\n<ul><li>Pi Network trades at $0.09 after recording three consecutive bullish daily closes earlier this week.</li><li>Expanded US Treasury bond buybacks have improved risk appetite and … [+4349 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin's Sharpest Rally in Five Months Flips Markets From Bearish to Coin Flip",
-        "description": "Bitcoin's steepest daily gain since March caught traders off guard, and Myriad's pump-or-dump market swung from 70-30 odds to nearly even in a single day.",
-        "url": "https://decrypt.co/376030/bitcoin-rally-flips-markets-bearish-coin-flip",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin_bull-gID_7.png",
-        "publishedAt": "2026-08-19T22:18:01Z",
-        "content": "In brief\r\n<ul><li>Bitcoin jumped as much as 8.7% Wednesday to an intraday high of $69,749, its steepest one-day move since March 4 and its highest price since June 1.</li><li>On Myriad, prediction od… [+3496 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
-        "description": "Strategy, Coinbase, Circle, and BitMine are riding Bitcoin's short squeeze toward $70K—and two of them may be squeezing equity bears of their own.",
-        "url": "https://decrypt.co/375990/crypto-stocks-rip-strategy-coinbase-bitcoin",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-03-gID_7.png",
-        "publishedAt": "2026-08-19T19:51:11Z",
-        "content": "In brief\r\n<ul><li>Strategy (MSTR) led crypto-linked equities, up 11.95% to $103.58, while Coinbase (COIN) rose 9.05% to $159.47.</li><li>Circle (CRCL) added 9.44% to $78.50 and BitMine (BMNR) gained … [+3729 chars]"
       }
     ]
   }
