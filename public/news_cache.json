@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-29T14:17:48.169Z",
+  "timestamp": "2026-08-29T18:15:09.549Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum",
+        "description": "The brokerage will expand Schwab Crypto trading to Solana, Avalanche, and Chainlink, but has not given a launch date for the three tokens.",
+        "url": "https://decrypt.co/376819/charles-schwab-crypto-trading-bitcoin-ethereum-solana",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-charles-schwab-gID_7.png",
+        "publishedAt": "2026-08-28T16:39:02Z",
+        "content": "In brief\r\n<ul><li>Schwab plans to add Solana, Avalanche, and Chainkin trading in the coming months.</li><li>Schwab Crypto began rolling out with Bitcoin and Ethereum in May.</li><li>Eligible clients … [+2304 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Crypto Biz: Bitcoin pumps, Wall Street does the paperwork",
+        "description": "Bitcoin’s $80,000 rebound lifts crypto stocks as Circle, Strategy and Solana show how capital markets, stablecoins and onchain growth are driving crypto’s recovery.",
+        "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-rally-crypto-stocks-circle-strategy-solana",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14DS05X6DTJB5K7J056DP3A/hi-how-bitcoins-legal-victory-turned-it-into-wall-streets-favorite-crypto.jpg",
+        "publishedAt": "2026-08-28T14:53:40Z",
+        "content": "Bitcoins return above $80,000 is exposing just how much the crypto industry now runs through traditional capital markets. Michael Saylors Strategy needs a receptive market to finance its Bitcoin mach… [+5375 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,45 +498,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-neon-gID_7.png",
         "publishedAt": "2026-08-20T19:16:05Z",
         "content": "In brief\r\n<ul><li>Bitcoin traded at $71,556 on Thursday, up 3.26% on the day and inside a $68,858$72,408 band, </li><li>The move extends a Wednesday's 8.7% rip.</li><li>On Myriad, the \"pump to $84K o… [+2440 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "CFTC Chair Readies Crypto Rules If Congress Fails to Pass Clarity Act",
-        "description": "The CFTC chair said staff is already exploring a crypto market structure framework and could move quickly to propose rules if Congress fails to act.",
-        "url": "https://decrypt.co/376151/cftc-chair-crypto-rules-if-congress-fails-clarity-act",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-08-20T18:44:08Z",
-        "content": "In brief\r\n<ul><li>CFTC Chair Michael S. Selig directed staff to explore crypto market structure rules using the agency's existing authority.</li><li>Selig said he will direct staff to formally propos… [+3291 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price reaches $72.5K as US issues ‘Economic D-Day’ threat to Iran",
-        "description": "Bitcoin saw new multimonth highs above $72,500 even as US stocks cooled amid US threats of “economic warfare” with Iran.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-reaches-725k-as-us-issues-economic-d-day-threat-to-iran",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-trump-speak-iran-2.jpg",
-        "publishedAt": "2026-08-20T15:40:54Z",
-        "content": "Bitcoin (BTC) saw multimonth highs after Thursdays Wall Street open while stocks dipped and bond yields rebounded on US-Iran war nerves.\r\nKey points:\r\n<ul><li>Bitcoin builds on its highest levels in … [+3401 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Fake Crypto AML Checkers Are Trying to Drain Users' Wallets",
-        "description": "Scammers are impersonating crypto compliance services to trick users into approving transactions that could put their assets at risk.",
-        "url": "https://decrypt.co/376029/fake-crypto-aml-drain-users-wallets",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/hacker3-gID_7.png",
-        "publishedAt": "2026-08-20T13:31:05Z",
-        "content": "In brief\r\n<ul><li>Malwarebytes identified fake crypto AML checkers that trick users into connecting their wallets and approving transactions.</li><li>The sites impersonate legitimate services such as… [+2921 chars]"
       }
     ]
   }
