@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-29T18:15:09.549Z",
+  "timestamp": "2026-08-29T21:34:46.697Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
+        "description": "BTC gave back some of its gains after Fed Chair Kevin Warsh talked tough on inflation, but prediction market traders are still leaning bullish.",
+        "url": "https://decrypt.co/376846/bitcoin-rally-stalls-sentiment-bullish",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-15-gID_7.png",
+        "publishedAt": "2026-08-28T21:16:04Z",
+        "content": "In brief\r\n<ul><li>Bitcoin dropped as low as $76,877 on Friday after Fed Chair Kevin Warsh's hawkish Jackson Hole keynote, confirming the resistance zone flagged earlier this week.</li><li>September r… [+4569 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Solana validators approve proposal to accelerate SOL disinflation",
+        "description": "The approved proposal doubles Solana’s annual disinflation rate from 15% to 30%, reducing future SOL issuance while leaving its long-term inflation target unchanged.",
+        "url": "https://cointelegraph.com/news/solana-validators-approve-proposal-to-accelerate-sol-disinflation",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14TAFCZGB4VMQ151R2N0EKE/hi-bitcoin-vs-fiat-currencies-over-the-past-several-years-have-they-been-hampered-by-the-inflation2-2.png",
+        "publishedAt": "2026-08-28T19:53:12Z",
+        "content": "Solana validators have approved a proposal to double the networks annual disinflation rate, reducing future SOL issuance.\r\nAccording to finalized voting results, the proposal received 67% support, wi… [+2254 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,32 +498,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-glasses-decrypt-style-gID_7.png",
         "publishedAt": "2026-08-20T20:40:56Z",
         "content": "In brief\r\n<ul><li>Bitcoin climbed above $72,000 Thursday after gaining nearly 15% since Monday.</li><li>Analysts pointed to Treasury bond purchases, policy headlines, and a massive short squeeze as d… [+6950 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Binance opens crypto trading to AI agents with user-set controls",
-        "description": "Binance’s Agent OS lets AI agents access market data, execute trades and make payments while giving users control over permissions and account access.",
-        "url": "https://cointelegraph.com/news/binance-opens-crypto-trading-to-ai-agents-with-user-set-controls",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-trading-bots-vs-ai-agents-everything-you-need-to-know2-1.png",
-        "publishedAt": "2026-08-20T20:26:28Z",
-        "content": "Binance has launched Agent OS, a developer platform that allows AI agents to access market data, monitor user accounts and execute crypto trades on the exchange.\r\nAccording to a company announcement,… [+2054 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Is Pumping But Prediction Market Traders Aren't Convinced",
-        "description": "Bitcoin's sharpest rally in five months flipped prediction-market odds from bearish to a coin flip—but the longer-term bets still price in a crash.",
-        "url": "https://decrypt.co/376103/bitcoin-price-pumping-prediction-next-move",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-neon-gID_7.png",
-        "publishedAt": "2026-08-20T19:16:05Z",
-        "content": "In brief\r\n<ul><li>Bitcoin traded at $71,556 on Thursday, up 3.26% on the day and inside a $68,858$72,408 band, </li><li>The move extends a Wednesday's 8.7% rip.</li><li>On Myriad, the \"pump to $84K o… [+2440 chars]"
       }
     ]
   }
