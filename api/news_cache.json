@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-08-28T17:14:26.420Z",
+  "timestamp": "2026-08-29T01:36:06.777Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Mirae Asset lays out crypto, stablecoin, tokenization plans",
+        "description": "The South Korean financial group plans to build a $109 billion digital asset business spanning crypto, stablecoins and tokenized assets, according to The Korea Times.",
+        "url": "https://cointelegraph.com/news/mirae-asset-lays-out-crypto-stablecoin-and-tokenization-plans",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-when-will-the-coinbase-ipo-take-place-and-what-effect-is-it-having-on-crypto.png",
+        "publishedAt": "2026-08-27T18:58:32Z",
+        "content": "South Korean financial group Mirae Asset plans to build a 150 trillion won ($109 billion) digital asset business around Digital X, the crypto exchange formerly known as Korbit, according to The Korea… [+1193 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets",
+        "description": "Bitcoin and crypto joined US stock markets in fresh gains after Nvidia Q2 earnings beat expectations by around $4 billion.",
+        "url": "https://cointelegraph.com/markets/bitcoin-eyes-81k-as-nvidia-earnings-beat-boosts-risk-assets",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-use-nvidia-stock-for-broad-market-exposure.jpg",
+        "publishedAt": "2026-08-27T17:15:43Z",
+        "content": "Bitcoin (BTC) rebounded toward $81,000 around Thursdays Wall Street open as Nvidia earnings boosted US stocks.\r\nKey points:\r\n<ul><li>Bitcoin reclaims $80,000 as $96.2 billion Nvidia earnings provide … [+2812 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-crypto-money-mule-scam-and-how-to-avoid-it.jpg",
         "publishedAt": "2026-08-20T12:35:32Z",
         "content": "Cybersecurity firm Rapid7 unveiled a new cryptocurrency phishing campaign known as Operation Asterix, targeting roughly 885,000 phone numbers from several countries to steal cryptocurrency investors … [+3023 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Crypto short liquidations pass $3B mark as Bitcoin price nears $72K",
-        "description": "Bitcoin continues to set multimonth highs, liquidating even more short positions as the crypto total passes $3 billion since Thursday.",
-        "url": "https://cointelegraph.com/markets/crypto-short-liquidations-pass-3b-mark-as-bitcoin-price-nears-72k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-why-i-am-cynically-bullish-about-the-bitcoin-3.jpg",
-        "publishedAt": "2026-08-20T10:03:04Z",
-        "content": "Bitcoin (BTC) and altcoins are breaking records as short position liquidations pass $3 billion over two days.\r\nKey points:\r\n<ul><li>Crypto short liquidations since Thursday are in excess of $3.1 bill… [+2504 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Pi Network tops $0.09 as the broader crypto market rally",
-        "description": "Key takeaways Pi Network trades at $0.09 after recording three consecutive bullish daily closes earlier this week. Expanded US Treasury bond buybacks have improved risk appetite and pushed Bitcoin toward $70,000, but PI continues to underperform. The token mu…",
-        "url": "https://coinjournal.net/news/pi-network-tops-0-09-as-the-broader-crypto-market-rally/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-20-2026-09_58_48-AM.png",
-        "publishedAt": "2026-08-20T09:01:09Z",
-        "content": "Key takeaways\r\n<ul><li>Pi Network trades at $0.09 after recording three consecutive bullish daily closes earlier this week.</li><li>Expanded US Treasury bond buybacks have improved risk appetite and … [+4349 chars]"
       }
     ]
   }
