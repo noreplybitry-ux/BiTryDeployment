@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-08-29T08:49:52.091Z",
+  "timestamp": "2026-08-29T14:17:48.169Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "Bitcoin Price Prediction: Can BTC Get Back Over $80,000?",
+        "description": "Today’s Bitcoin price prediction has BTC trading at $79,500, up around +1.1% over the past 24 hours, as the coin’s late-August grind between $78,000 and $81,...",
+        "url": "https://cryptonews.com/news/bitcoin-price-prediction-august-28/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/c9b5c001455e5db87e161e0e3122a925b7e13f637f6dbda145ac09823e4fe6ff/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fc1be8c0ea65b653acc90c3b2e279ea82",
+        "publishedAt": "2026-08-28T10:30:09Z",
+        "content": "Today's Bitcoin price prediction has BTC trading at $79,500, up around +1.1% over the past 24 hours, as the coin's late-August grind between $78,000 and $81,000 stretches into another week.\r\nThat sid… [+3548 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,19 +511,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/hacker3-gID_7.png",
         "publishedAt": "2026-08-20T13:31:05Z",
         "content": "In brief\r\n<ul><li>Malwarebytes identified fake crypto AML checkers that trick users into connecting their wallets and approving transactions.</li><li>The sites impersonate legitimate services such as… [+2921 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Cybersecurity firm unveils crypto phishing campaign targeting 885,000 phone numbers",
-        "description": "Cybersecurity company Rapid7 unveiled a massive crypto phishing campaign targeting 885,000 phone numbers to steal the seed phrases of cryptocurrency investors through fake websites.",
-        "url": "https://cointelegraph.com/news/cybersecurity-unveils-crypto-phishing-885000-phone-numbers",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-crypto-money-mule-scam-and-how-to-avoid-it.jpg",
-        "publishedAt": "2026-08-20T12:35:32Z",
-        "content": "Cybersecurity firm Rapid7 unveiled a new cryptocurrency phishing campaign known as Operation Asterix, targeting roughly 885,000 phone numbers from several countries to steal cryptocurrency investors … [+3023 chars]"
       }
     ]
   }
