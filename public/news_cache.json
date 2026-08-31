@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-08-31T08:27:53.099Z",
+  "timestamp": "2026-08-31T16:56:40.421Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
       {
         "source": {
@@ -485,19 +485,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-21-2026-09_18_57-AM.png",
         "publishedAt": "2026-08-21T08:20:33Z",
         "content": "Key takeaways\r\n<ul><li>Bitcoin, Ethereum, and XRP have gained nearly 20%, over 25%, and almost 30%, respectively, this week.</li><li>Expanded U.S. Treasury debt buybacks have improved liquidity expec… [+3836 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "What's Next for Bitcoin After Historic Rally? Experts Weigh In",
-        "description": "Bitcoin's surge above $72,000 wiped out billions in bearish bets, but analysts say fresh buying will be needed to keep the rally going.",
-        "url": "https://decrypt.co/376155/what-next-for-bitcoin-price-experts-weigh-in",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-glasses-decrypt-style-gID_7.png",
-        "publishedAt": "2026-08-20T20:40:56Z",
-        "content": "In brief\r\n<ul><li>Bitcoin climbed above $72,000 Thursday after gaining nearly 15% since Monday.</li><li>Analysts pointed to Treasury bond purchases, policy headlines, and a massive short squeeze as d… [+6950 chars]"
       }
     ]
   }
