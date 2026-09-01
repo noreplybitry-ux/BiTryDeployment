@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-01T17:44:37.158Z",
+  "timestamp": "2026-09-01T20:51:48.531Z",
   "data": {
     "status": "ok",
     "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Russia's Sberbank Sees $46 Billion in Crypto Trading, Plans Ethereum and USDT-Backed Loans",
+        "description": "Deputy Chairman Anatoly Popov told state media that trading could hit 4 trillion rubles in its first year, as the bank prepares to broaden crypto-backed lending once regulators sign off.",
+        "url": "https://decrypt.co/376971/russia-sberbank-46-billion-crypto-trading-ethereum-usdt",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/russia-moscow-red-square-kremlin-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-08-31T18:46:04Z",
+        "content": "In brief\r\n<ul><li>Sberbank's Anatoly Popov told TASS that Russian crypto trading could reach about 4 trillion rubles (~$46.43 billion) in the first year under new rules and roughly 7.5 trillion ruble… [+2742 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,19 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/kevin-warsh-2.jpg",
         "publishedAt": "2026-08-24T11:23:58Z",
         "content": "Bitcoin (BTC) starts the final week of August near its highest levels since mid-May as its bear-market recovery reaches a critical stage.\r\nKey points:\r\n<ul><li>Bitcoin sees a weekly candle close abov… [+9147 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
-        "description": "A group of 20-odd developers is scanning the Bitcoin ecosystem for AI-discoverable flaws, warning that cheap, powerful models have handed attackers unprecedented reach.",
-        "url": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-specs-gID_7.png",
-        "publishedAt": "2026-08-22T15:31:04Z",
-        "content": "In brief\r\n<ul><li>In an interview with Decrypt, Bitcoin Red Team member Calle said Chinese AI models are used far more than U.S. models for security research because American models often block cyber… [+6252 chars]"
       }
     ]
   }
