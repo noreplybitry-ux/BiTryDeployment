@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-09-01T07:35:04.651Z",
+  "timestamp": "2026-09-01T13:20:58.770Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Robinhood Chain Revenue Tops Ethereum In 24-Hour App Metrics",
+        "description": "Robinhood Chain recorded $2.66 million in daily app revenue, surpassing Ethereum mainnet and Hyperliquid over the same 24-hour measurement window, accordin...",
+        "url": "http://www.newsbtc.com/news/robinhood-chain-revenue-tops-ethereum-app-metrics/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-59.jpg?fit=1792%2C1024",
+        "publishedAt": "2026-08-31T12:15:00Z",
+        "content": "Robinhood Chain recorded $2.66 million in daily app revenue, surpassing Ethereum mainnet and Hyperliquid over the same 24-hour measurement window, according to validated DeFiLlama-style dashboard dat… [+4114 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitcoin Holds $78K As Strait Of Hormuz Strike Lifts Oil Above $90",
+        "description": "Bitcoin held near the $78,000 area as geopolitical tension around the Strait of Hormuz pushed Brent crude above $90, giving traders another macro-risk even...",
+        "url": "http://www.newsbtc.com/news/bitcoin-holds-78k-strait-hormuz-oil-90/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin.jpeg?fit=1280%2C853",
+        "publishedAt": "2026-08-31T11:30:00Z",
+        "content": "Bitcoin held near the $78,000 area as geopolitical tension around the Strait of Hormuz pushed Brent crude above $90, giving traders another macro-risk event to price across energy, inflation, and ris… [+4230 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Third Point’s Core Scientific Stake Puts Bitcoin Miner-To-AI Trade In Focus",
+        "description": "Dan Loeb’s Third Point has disclosed an equity position in Core Scientific, adding another institutional name to the growing trade around Bitcoin miners mo...",
+        "url": "http://www.newsbtc.com/news/third-point-core-scientific-bitcoin-miner-ai-trade/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/newsbtc_01_bitcoin_mining_difficulty_featured.png?fit=1200%2C675",
+        "publishedAt": "2026-08-31T10:45:00Z",
+        "content": "Dan Loebs Third Point has disclosed an equity position in Core Scientific, adding another institutional name to the growing trade around Bitcoin miners moving deeper into AI infrastructure.\r\nThe posi… [+4747 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "Bitcoin Faces a Three-Way Macro Test Near $78,000",
+        "description": "Bitcoin traded at $78,500 as the Japanese yen breached 160 per dollar in Tokyo trading, while a U.S. strike on Iran’s Larak Island added to market uncertaint...",
+        "url": "https://cryptonews.com/news/bitcoin-macro-risks-78000/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/7ff344e537085fc322ec3b5c90a320c9358c68e35f60348b7738e55265f57d7b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F94f1935bec510b094b03b392f156a268",
+        "publishedAt": "2026-08-31T10:20:16Z",
+        "content": "Bitcoin traded at $78,500 as the Japanese yen breached 160 per dollar in Tokyo trading, while a U.S. strike on Iran's Larak Island added to market uncertainty. All these follow Friday's broad dollar … [+3199 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "CLARITY Act Lags as Bitcoin ETFs Slip",
+        "description": "U.S. spot Bitcoin ETFs turned negative at the end of last week, ending a nine-day inflow streak that had brought in a total of $2.8 billion. Meanwhile, Rober...",
+        "url": "https://cryptonews.com/news/bitcoin-etfs-inflow-streak-clarity-act/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/74517ece7b9f27f8856318763ea6637c496356c7276c4b62009fbd85318dac01/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F00c3fd44b99892c0dbb6c9e8179e648d",
+        "publishedAt": "2026-08-31T09:20:29Z",
+        "content": "U.S. spot Bitcoin ETFs turned negative at the end of last week, ending a nine-day inflow streak that had brought in a total of $2.8 billion. Meanwhile, Robert Mitchnick, BlackRock's head of digital a… [+2554 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,84 +472,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
         "publishedAt": "2026-08-21T16:29:01Z",
         "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs took in $606.29 million on August 20, their largest single-day haul since May 1 and a fourth straight day of inflows.</li><li>BlackRock's IBIT accounted for $… [+5148 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
-        "description": "Bitcoin’s rally above $79,000 lifted miners and treasury companies, with Canaan, Strive and Metaplanet posting double-digit gains as crypto stocks surged.",
-        "url": "https://cointelegraph.com/markets/bitcoin-rally-crypto-stocks-canaan-strive-metaplanet",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-stocks-and-crypto-correlation-is-at-all-time-high-1.jpg",
-        "publishedAt": "2026-08-21T16:11:07Z",
-        "content": "Shares of Bitcoin miners and digital asset treasury companies surged toward the end of the week, tracking a broader rally across crypto markets after the US Treasury announced it would double certain… [+1844 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
-        "description": "Meanwhile crypto majors and alts continue to soar, with BTC nearing $80k and alts like Pump and ZEC putting up big candles.",
-        "url": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-08-21T14:27:31Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt.\r\nGM!\r\nTodays top news:\r\n<ul><li>Crypto m… [+4698 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Laser Digital gets Japan’s first crypto exchange approval in 4 years",
-        "description": "Nomura-backed Laser Digital Japan received Japan’s first crypto exchange registration in nearly four years and plans to provide local market liquidity.",
-        "url": "https://cointelegraph.com/news/nomuras-laser-digital-japans-first-crypto-exchange-4-years",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-plans-tough-new-rules-for-crypto-exchanges-what-liability-reserves-actually-mean.jpg",
-        "publishedAt": "2026-08-21T13:08:12Z",
-        "content": "Nomura Groups digital asset subsidiary, Laser Digital, received authorization to operate as a crypto asset exchange service provider under Japans Payment Services Act (PSA)\r\nA list issued by Japans F… [+1317 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Ethereum ETF Pulls $221M as ETH Eyes Another Breakout",
-        "description": "Ethereum is back in the spotlight after U.S. spot Ethereum ETF pulled more than $220 million in fresh capital on August 20. The funds recorded more $219 mill...",
-        "url": "https://cryptonews.com/news/ethereum-etf-inflows-189-million/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/675B0A3D7473BB54B6E04C67F402F8C8472AA753F8DB96EC3AB55151D9DC9E90/subgraphmysterio/resizefill_w1200_h670;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F4609a971aed8cf2260be1daef8a98ebf",
-        "publishedAt": "2026-08-21T10:41:22Z",
-        "content": "Ethereum is back in the spotlight after U.S. spot Ethereum ETF pulled more than $220 million in fresh capital on August 20. The funds recorded more $219 million in net inflows, extending their winnin… [+3202 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Binance Opens the Door to AI Agents That Can Trade Crypto for You",
-        "description": "Binance Agent OS connects tools like ChatGPT and Claude directly to the exchange's markets, though safeguards wall agents off from user funds—and leave much of the oversight to users themselves.",
-        "url": "https://decrypt.co/376161/binance-ai-agents-trade-crypto",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
-        "publishedAt": "2026-08-21T09:31:05Z",
-        "content": "In brief\r\n<ul><li>Binance launched Binance Agent OS, a developer platform bundling its APIs, wallet hub, x402 payment layer and a skills marketplace.</li><li>Once authorized, agents can read market d… [+2543 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin eyes $80k after weekly rally pushes BTC above key moving averages",
-        "description": "Key takeaways Bitcoin, Ethereum, and XRP have gained nearly 20%, over 25%, and almost 30%, respectively, this week. Expanded U.S. Treasury debt buybacks have improved liquidity expectations and boosted demand for risk assets. Bitcoin trades around $76,800 aft…",
-        "url": "https://coinjournal.net/news/bitcoin-eyes-80k-after-weekly-rally-pushes-btc-above-key-moving-averages/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-21-2026-09_18_57-AM.png",
-        "publishedAt": "2026-08-21T08:20:33Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin, Ethereum, and XRP have gained nearly 20%, over 25%, and almost 30%, respectively, this week.</li><li>Expanded U.S. Treasury debt buybacks have improved liquidity expec… [+3836 chars]"
       }
     ]
   }
