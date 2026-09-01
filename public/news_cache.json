@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-01T13:20:58.770Z",
+  "timestamp": "2026-09-01T17:44:37.158Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Webull expands crypto trading into Canada through Coinbase collaboration",
+        "description": "The brokerage is adding digital assets alongside stocks, ETFs and options as Canadian crypto ownership rises and regulators move toward clearer industry rules.",
+        "url": "https://cointelegraph.com/news/webull-canada-crypto-trading-coinbase",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C82GGTPW1R06193D045R8Q/canada-coin.jpg",
+        "publishedAt": "2026-08-31T17:28:19Z",
+        "content": "Webull, a self-directed brokerage and trading platform, is expanding its Canadian offering to include cryptocurrencies, adding Canada to a crypto footprint that already includes the United States, Au… [+1258 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Strive buys 1,800 Bitcoin for $143M, becomes fifth-biggest corporate holder",
+        "description": "Strive’s latest Bitcoin purchase lifted its holdings to 23,156 BTC, making it the fifth-largest publicly traded corporate holder as crypto markets rebound.",
+        "url": "https://cointelegraph.com/news/strive-buys-1800-bitcoin-143m-btc-purchase",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C52C7MYQ0QY4TB55BX8Z68/moses-and-bitcoins.jpg",
+        "publishedAt": "2026-08-31T15:08:12Z",
+        "content": "Strive, a publicly traded asset manager and Bitcoin treasury company, added 1,800 Bitcoin to its holdings last week, accelerating an accumulation strategy that has propelled it into the ranks of the … [+1814 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
+        "description": "Regulated cryptocurrency exchanges may see more than $46 billion in crypto trading volume during the first year after legalization, according to estimates from the country’s largest bank.",
+        "url": "https://cointelegraph.com/news/russian-crypto-trading-bring-46b-regulated-exchanges-legalization",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C10WR962EQNTM5JC7YMRXS/russia-coin-moscow-minin-and-pozharskiy.jpg",
+        "publishedAt": "2026-08-31T14:50:58Z",
+        "content": "Cryptocurrency trading in Russia is expected to bring 4 trillion rubles ($46.4 billion) in trading volume for regulated domestic exchanges in the first year after legalization, according to estimates… [+1213 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,58 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-specs-gID_7.png",
         "publishedAt": "2026-08-22T15:31:04Z",
         "content": "In brief\r\n<ul><li>In an interview with Decrypt, Bitcoin Red Team member Calle said Chinese AI models are used far more than U.S. models for security research because American models often block cyber… [+6252 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
-        "description": "Coinkite's latest firmware requires users to add their own randomness when generating wallet seeds and fixes additional security issues uncovered during a three-week review.",
-        "url": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg",
-        "publishedAt": "2026-08-21T21:31:05Z",
-        "content": "In brief\r\n<ul><li>Coinkite released new Coldcard firmware after a seed-generation flaw exposed users to more than $100 million in Bitcoin thefts.</li><li>Coldcard now requires users to add randomness… [+4925 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Binance Theft Lawsuit Can Proceed In Federal Court, Appeals Panel Rules",
-        "description": "Binance Theft Lawsuit Can Proceed In Federal Court, Appeals Panel Rules - Read the full analysis on NewsBTC.",
-        "url": "http://www.newsbtc.com/news/binance-theft-lawsuit-federal-court-appeals-panel/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/XRP-from-Getty-Images-67.jpg?fit=612%2C408",
-        "publishedAt": "2026-08-21T20:30:00Z",
-        "content": "A US appeals court has allowed a proposed Binance-related theft lawsuit to proceed in federal court, rejecting a lower-court order that had forced the plaintiffs into arbitration.\r\nThe Eleventh Circu… [+4119 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Onchain, in court: What happened in crypto legal news this week",
-        "description": "The CFTC ordered a trading ban for former Alameda and FTX executives, and US prosecutors opposed a motion from a US soldier accused of profiting from the removal of Nicolas Maduro.",
-        "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-5-key-highlights-of-the-secs-lawsuit-against-binance-1280x853.webp",
-        "publishedAt": "2026-08-21T19:19:27Z",
-        "content": "Former Alameda Research and FTX executives receive 5-year trading bans\r\nOn Tuesday, the US District Court for the Southern District of New York (SDNY) entered consent orders related to a 2022 enforce… [+2295 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin ETFs Just Had Their Biggest Day Since May—BlackRock Took 83% of It",
-        "description": "U.S. spot Bitcoin ETFs pulled in $606 million Thursday, the biggest haul since May. And altcoin funds finally showed up too.",
-        "url": "https://decrypt.co/376211/bitcoin-etfs-biggest-day-since-may",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-08-21T16:29:01Z",
-        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs took in $606.29 million on August 20, their largest single-day haul since May 1 and a fourth straight day of inflows.</li><li>BlackRock's IBIT accounted for $… [+5148 chars]"
       }
     ]
   }
