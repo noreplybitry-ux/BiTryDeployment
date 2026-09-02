@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-02T17:47:45.049Z",
+  "timestamp": "2026-09-02T20:51:22.602Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "What Is 'Red September'? Bitcoin's Curse, and Why Wall Street Has the Same One",
+        "description": "Bitcoin has lost ground in eight of the last 13 Septembers. The stock market's had the same problem since 1928. Here's the case for the curse, what broke it last year, and what's coming in the next round.",
+        "url": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "publishedAt": "2026-09-01T20:31:05Z",
+        "content": "In brief\r\n<ul><li>Bitcoin has closed 8 of the last 13 Septembers in the red, averaging a 2.97% loss, the worst month of the year by both average and median return.</li><li>September 2025 broke the st… [+6943 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin's Next Move: Bullish Bets Run Up Against a Historical Wall",
+        "description": "Bitcoin just had one its best months in years amid a price rally that broke the crypto winter pattern. But the charts tell a complicated story.",
+        "url": "https://decrypt.co/377052/bitcoins-next-move-bullish-bets-run-up-against-a-historical-wall",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-20-gID_7.png",
+        "publishedAt": "2026-09-01T18:22:09Z",
+        "content": "In brief\r\n<ul><li>Bitcoin gained nearly 25% in August, its best August since 2017, closing the month back above its 50-month moving average for the first time since last year's crypto winter began.</… [+5437 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-polymarkets-lawsuit-could-decide-who-regulates-us-prediction-markets.png",
         "publishedAt": "2026-08-24T20:46:16Z",
         "content": "Crypto exchange Gemini and Apex Fintech Solutions have signed a non-binding letter of intent that would make Gemini Titan the exclusive regulated venue for crypto event contracts offered by brokerage… [+1210 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
-        "description": "As BTC tops $80,000 for the first time since May, price analysis warns that the market still needs to sustain higher levels to challenge the bear-market thesis.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-price-growing-kitchen-pastry.png",
-        "publishedAt": "2026-08-24T17:48:44Z",
-        "content": "Bitcoin (BTC) passed $80,000 after Mondays Wall Street open as bulls built on last weeks snap BTC price rally.\r\nKey points:\r\n<ul><li>Bitcoin hits $80,000 for the first time since mid-May as bullish m… [+1885 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Bitmine extends 14-month ETH buying pace as Ether breaks above $2.5K",
-        "description": "Ether’s breakout above $2,500 has put the spotlight back on corporate ETH treasuries, with Bitmine now nearing its long-stated accumulation target.",
-        "url": "https://cointelegraph.com/news/bitmine-eth-holdings-5-percent-ether-price-breakout",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-buy-ethereum-with-bitmine-3.jpg",
-        "publishedAt": "2026-08-24T15:29:26Z",
-        "content": "Tom Lees Bitmine Immersion Technologies continued its accumulation of Ether last week, adding to its holdings as the cryptocurrency staged a sharp breakout following a prolonged downturn.\r\nThe compan… [+2001 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Bitcoin Price Analysis: Can BTC Clear $80K This Week?",
-        "description": "Bitcoin price analysis today shows the asset is trading at $77,552.01, up a modest 0.19% over the past 24 hours, as the market digests one of its sharpest we...",
-        "url": "https://cryptonews.com/news/bitcoin-price-analysis-89k-target/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/620EEDA94925FA3A06E3501C20F9A06C7C4C4364324038608B880F774643E216/subgraphmysterio/resizefill_w1200_h670;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F1214759d770d12927ab38618e476e3aa",
-        "publishedAt": "2026-08-24T15:20:00Z",
-        "content": "Bitcoin price analysis today shows the asset is trading at $77,552.01, up a modest 0.19% over the past 24 hours, as the market digests one of its sharpest weekly moves in months. That flatline masks … [+2473 chars]"
       }
     ]
   }
