@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-02T08:39:47.331Z",
+  "timestamp": "2026-09-02T13:28:10.412Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/gracy-chen.jpg",
         "publishedAt": "2026-08-24T13:30:00Z",
         "content": "Bitget CEO Gracy Chen isnt convinced that Bitcoins recent rally to $79,000 marks the end of the bear market.\r\nShe is keeping a significant portion of her portfolio in stablecoins and watching for a d… [+4403 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "First bear-market trend line reclaim since 2025: Five things to know in Bitcoin this week",
-        "description": "Bitcoin returns short-term investors to profit with a trip toward $80,000 and its first weekly close above a key trend line since November 2025.",
-        "url": "https://cointelegraph.com/markets/first-bear-market-trend-line-reclaim-since-2025-five-things-to-know-in-bitcoin-this-week",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/kevin-warsh-2.jpg",
-        "publishedAt": "2026-08-24T11:23:58Z",
-        "content": "Bitcoin (BTC) starts the final week of August near its highest levels since mid-May as its bear-market recovery reaches a critical stage.\r\nKey points:\r\n<ul><li>Bitcoin sees a weekly candle close abov… [+9147 chars]"
       }
     ]
   }
