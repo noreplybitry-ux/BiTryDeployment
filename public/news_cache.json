@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-02T13:28:10.412Z",
+  "timestamp": "2026-09-02T17:47:45.049Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Does the Bitcoin rally mean we haven’t wasted our lives in crypto?",
+        "description": "Many believe that crypto has failed to live up to the dreams of early builders, and interest faded in 2026. So have we just wasted 10 years on a pipe dream — or is there hope yet?",
+        "url": "https://cointelegraph.com/magazine/does-bitcoins-rally-mean-we-havent-wasted-our-lives-in-crypto",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M147DZTCHD31BVRCJN6E980E/magazinedoes-paper-bitcoin-and-derivatives-mean-there-is-an-unlimited-supply.jpg",
+        "publishedAt": "2026-09-01T13:30:00Z",
+        "content": "Sentiment in crypto has dived lower than a snailfish in the Mariana Trench in recent months. \r\nMiners are capitulating to AI, cold wallets are getting exploited, and you can hardly fire up LinkedIn w… [+8006 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/620EEDA94925FA3A06E3501C20F9A06C7C4C4364324038608B880F774643E216/subgraphmysterio/resizefill_w1200_h670;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F1214759d770d12927ab38618e476e3aa",
         "publishedAt": "2026-08-24T15:20:00Z",
         "content": "Bitcoin price analysis today shows the asset is trading at $77,552.01, up a modest 0.19% over the past 24 hours, as the market digests one of its sharpest weekly moves in months. That flatline masks … [+2473 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ciaran Lyons",
-        "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
-        "description": "Bitget CEO Gracy Chen doesn’t believe the current Bitcoin rally is sustainable, and she aims to buy more BTC around the $50K mark later in 2026 or early next year.",
-        "url": "https://cointelegraph.com/magazine/bitget-ceo-isnt-buying-the-bitcoin-rally-waiting-for-50k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/gracy-chen.jpg",
-        "publishedAt": "2026-08-24T13:30:00Z",
-        "content": "Bitget CEO Gracy Chen isnt convinced that Bitcoins recent rally to $79,000 marks the end of the bear market.\r\nShe is keeping a significant portion of her portfolio in stablecoins and watching for a d… [+4403 chars]"
       }
     ]
   }
