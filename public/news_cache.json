@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-03T20:48:24.179Z",
+  "timestamp": "2026-09-03T23:14:47.854Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "FBI Seizes $560K in Crypto Bound for Hamas, Takes Over Fundraising Sites",
+        "description": "Agents seized digital assets, domains, and servers allegedly used by Hamas’ military wing to collect donations and recruit supporters.",
+        "url": "https://decrypt.co/377230/fbi-seizes-560k-crypto-hamas",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/money-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-02T22:47:06Z",
+        "content": "In brief\r\n<ul><li>The FBI seized about $560,000 in cryptocurrency allegedly intended for the Al Qassam Brigades.</li><li>Agents took control of domains and servers linked to AlQassam.ps.</li><li>The … [+2537 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
+        "description": "The Japanese company booked a ¥117.8 million profit after selling its ETH, SOL, XRP and DOGE, leaving roughly 1,506 BTC as its only cryptocurrency holding.",
+        "url": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-02T21:31:05Z",
+        "content": "In brief\r\n<ul><li>Remixpoint sold its altcoins for ¥878.8 million ($4.47 million).</li><li>The sale produced a ¥117.8 million ($598,400) gain.</li><li>Sale proceeds may fund battery-storage projects … [+2654 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
         "publishedAt": "2026-08-25T19:11:04Z",
         "content": "In brief\r\n<ul><li>The Crypto Fear and Greed Index has hit \"extreme greed,\" the highest reading since the 2024 cycle top.</li><li>The score jumped from 36 (fear) a month ago and 41 (neutral) a week ag… [+2909 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin slips from $80K as gold cools with falling US bond yields",
-        "description": "Bitcoin and gold diverge from US stocks, falling in step with bond yields after BTC price action crossed $80,000 for the first time in over 14 weeks.",
-        "url": "https://cointelegraph.com/markets/bitcoin-slips-from-80k-as-gold-cools-with-falling-us-bond-yields",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/crypto-bitcoin-btc-price.jpg",
-        "publishedAt": "2026-08-25T15:15:35Z",
-        "content": "Bitcoin (BTC) fell below $80,000 into Tuesdays Wall Street open as crypto and gold gave way to gains in US equities.\r\nKey points:\r\n<ul><li>Bitcoin upside momentum fizzles as $80,000 proves difficult … [+3388 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
-        "description": "Bitcoin RSI signals stay mixed across short and long time frames, but analysis sees a bullish divergence potentially pointing to a new BTC price uptrend.",
-        "url": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-draws-2022-comparisons-as-analysis-weighs-new-price-trend",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-the-relative-strength-index-rsi2.jpg",
-        "publishedAt": "2026-08-25T10:49:43Z",
-        "content": "Bitcoin (BTC) price action is offering mixed signals after hitting $80,000 as traders diverge on market trajectory.\r\nKey points:\r\n<ul><li>Bitcoin weekly relative strength index (RSI) reaches 58.3, re… [+3572 chars]"
       }
     ]
   }
