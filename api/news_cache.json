@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-03T08:48:12.181Z",
+  "timestamp": "2026-09-03T13:26:55.356Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Sality Botnet Dismantled After Eight Years of Stealing Bitcoin and Ethereum",
+        "description": "CrowdStrike and the DOJ isolated more than 15,000 infected machines in a malware takedown spanning four countries.",
+        "url": "https://decrypt.co/377156/sality-botnet-dismantled-after-eight-years-of-stealing-bitcoin-and-ethereum",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/malware-code-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-02T11:30:45Z",
+        "content": "In brief\r\n<ul><li>The Justice Department and CrowdStrike said Tuesday they had disrupted Sality, a peer-to-peer botnet running since 2003.</li><li>Its primary payload for the past eight years was Egg… [+3494 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-10.jpg",
         "publishedAt": "2026-08-25T02:03:55Z",
         "content": "KOREA\r\nSouth Koreas Jeonbuk Bank taps Ripple for cross-border payments\r\nSouth Koreas Jeonbuk Bank has partnered with blockchain payments company Ripple to deploy its cross-border payment system for b… [+6773 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Gemini plans to distribute crypto prediction markets through Apex brokerages",
-        "description": "The proposed deal would make Gemini the exclusive venue for crypto event contracts offered through Apex’s FCM, expanding its prediction-market reach to brokerage clients.",
-        "url": "https://cointelegraph.com/news/gemini-plans-to-distribute-crypto-prediction-markets-through-apex-brokerages",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-polymarkets-lawsuit-could-decide-who-regulates-us-prediction-markets.png",
-        "publishedAt": "2026-08-24T20:46:16Z",
-        "content": "Crypto exchange Gemini and Apex Fintech Solutions have signed a non-binding letter of intent that would make Gemini Titan the exclusive regulated venue for crypto event contracts offered by brokerage… [+1210 chars]"
       }
     ]
   }
