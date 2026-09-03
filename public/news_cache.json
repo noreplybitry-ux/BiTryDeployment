@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-03T13:26:55.355Z",
+  "timestamp": "2026-09-03T17:43:25.461Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Charles Bennett",
+        "title": "Bitcoin’s apparent demand turns negative as price struggles with $77K",
+        "description": "One of Bitcoin’s onchain demand indicators turns negative again after a brief August rebound, as BTC price slipped below $77,000 amid a broader bond and equities sell-off.",
+        "url": "https://cointelegraph.com/markets/bitcoins-apparent-demand-turns-negative-price-struggles-with-77k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HEBC31STJ1V8Y61W60PS20/analytics-red-market-falling-drop-bitcoin-3.jpg",
+        "publishedAt": "2026-09-02T16:35:56Z",
+        "content": "Bitcoin (BTC) sold off into the early European trading hours on Wednesday to hit local lows of $76,400, per data from CoinGecko.\r\nKey points: \r\n<ul><li>Bitcoins apparent demand indicator turns negati… [+2526 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ciaran Lyons",
+        "title": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
+        "description": "Arthur Hayes reveals the “ingredients” he believes will push Bitcoin to $1 million by 2030, but says the best risk/reward adjusted bet in crypto right now is buying ETH.",
+        "url": "https://cointelegraph.com/magazine/btc-will-hit-1m-by-2030-but-arthur-hayes-is-buying-eth-instead",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FNPVV54PCXHCZQHZ8DRZWN/arthur.webp",
+        "publishedAt": "2026-09-02T13:30:00Z",
+        "content": "Bitcoin has all the factors in place to a seven-figure price over the next four years, according to BitMEX co-founder Arthur Hayes.\r\nBut hes buying ETH right now, because he believes it could easily … [+4180 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/b-man-etf-cointelegraph-style.png",
         "publishedAt": "2026-08-25T07:38:29Z",
         "content": "US spot Bitcoin exchange-traded funds (ETFs) recorded $337.6 million in net inflows on Monday, marking their sixth consecutive trading day of inflows totaling $2.26 billion.\r\nThe new inflows have cut… [+1179 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Breaking: Bitcoin hits $80k for the first time since May as rally continues",
-        "description": "Bitcoin extended its rally on Tuesday, hitting the $80,000 psychological level for the first time since May 4. The rally comes as improving liquidity expectations continued to lift the broader cryptocurrency market. Bitcoin has gained nearly 30% in the last w…",
-        "url": "https://coinjournal.net/news/breaking-bitcoin-hits-80k-for-the-first-time-since-may-as-rally-continues/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-21-2026-10_00_15-AM.png",
-        "publishedAt": "2026-08-25T05:41:44Z",
-        "content": "Bitcoin extended its rally on Tuesday, hitting the $80,000 psychological level for the first time since May 4.\r\nThe rally comes as improving liquidity expectations continued to lift the broader crypt… [+3389 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Korean bank taps Ripple for payments, Pakistan opens crypto licensing: Asia Express",
-        "description": "South Korea’s Jeonbuk Bank has tapped Ripple for cross border payments, while Pakistan has begun the process of licensing crypto exchanges.",
-        "url": "https://cointelegraph.com/magazine/korean-bank-to-use-ripple-payments-japans-first-exchange-in-4-years-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/asia-express-10.jpg",
-        "publishedAt": "2026-08-25T02:03:55Z",
-        "content": "KOREA\r\nSouth Koreas Jeonbuk Bank taps Ripple for cross-border payments\r\nSouth Koreas Jeonbuk Bank has partnered with blockchain payments company Ripple to deploy its cross-border payment system for b… [+6773 chars]"
       }
     ]
   }
