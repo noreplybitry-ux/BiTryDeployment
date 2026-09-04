@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-04T08:44:03.167Z",
+  "timestamp": "2026-09-04T13:21:21.841Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Standard Chartered launches spot Bitcoin and Ether trading in UAE",
+        "description": "Standard Chartered launches spot Bitcoin and Ether trading for institutional clients in the UAE, claiming it is the first global bank to launch a similar regulated offering.",
+        "url": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-uae",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1KANTKWQNSCNEMJXC5A98C8/hi-crypto-assets-regulation-in-dubai-is-cryptocurrency-regulated-in-uae.jpg",
+        "publishedAt": "2026-09-03T10:15:34Z",
+        "content": "London-headquartered multinational bank Standard Chartered has launched spot Bitcoin and Ether trading for institutional clients in the United Arab Emirates (UAE), through its entity regulated by the… [+1491 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,32 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-network-death-spiral-still-likely.jpg",
         "publishedAt": "2026-08-26T10:49:26Z",
         "content": "Bitcoin (BTC) remains sensitive to sell-side pressure at $80,000, even as investors broadly avoid mass profit-taking.\r\nKey points:\r\n<ul><li>Bitcoin investors unrealized profit and loss crosses above … [+3264 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Pi holds above $0.085 support as crypto market recovery loses momentum",
-        "description": "Key takeaways Pi Network trades around $0.0900 on Wednesday, maintaining mild upside momentum above the critical $0.0853 support. The broader cryptocurrency market is retreating as investors take profits following last week’s double-digit gains. A break above…",
-        "url": "https://coinjournal.net/news/pi-holds-above-0-085-support-as-crypto-market-recovery-loses-momentum/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-26-2026-09_35_59-AM.png",
-        "publishedAt": "2026-08-26T08:37:40Z",
-        "content": "Key takeaways\r\n<ul><li>Pi Network trades around $0.0900 on Wednesday, maintaining mild upside momentum above the critical $0.0853 support.</li><li>The broader cryptocurrency market is retreating as i… [+3379 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024",
-        "description": "The Crypto Fear and Greed Index was at 36, firmly in the fear zone, just a month ago.",
-        "url": "https://decrypt.co/376503/crypto-fear-greed-index-extreme-greed",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-08-25T19:11:04Z",
-        "content": "In brief\r\n<ul><li>The Crypto Fear and Greed Index has hit \"extreme greed,\" the highest reading since the 2024 cycle top.</li><li>The score jumped from 36 (fear) a month ago and 41 (neutral) a week ag… [+2909 chars]"
       }
     ]
   }
