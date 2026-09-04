@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-04T20:35:53.862Z",
+  "timestamp": "2026-09-04T22:55:20.608Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,32 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-when-will-the-coinbase-ipo-take-place-and-what-effect-is-it-having-on-crypto.png",
         "publishedAt": "2026-08-27T18:58:32Z",
         "content": "South Korean financial group Mirae Asset plans to build a 150 trillion won ($109 billion) digital asset business around Digital X, the crypto exchange formerly known as Korbit, according to The Korea… [+1193 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin eyes $81K as Nvidia earnings beat boosts risk assets",
-        "description": "Bitcoin and crypto joined US stock markets in fresh gains after Nvidia Q2 earnings beat expectations by around $4 billion.",
-        "url": "https://cointelegraph.com/markets/bitcoin-eyes-81k-as-nvidia-earnings-beat-boosts-risk-assets",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-use-nvidia-stock-for-broad-market-exposure.jpg",
-        "publishedAt": "2026-08-27T17:15:43Z",
-        "content": "Bitcoin (BTC) rebounded toward $81,000 around Thursdays Wall Street open as Nvidia earnings boosted US stocks.\r\nKey points:\r\n<ul><li>Bitcoin reclaims $80,000 as $96.2 billion Nvidia earnings provide … [+2812 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Charles Schwab adda Solana, Avalanche and Chainlink to nascent crypto platform",
-        "description": "The financial services giant plans to expand Schwab Crypto beyond Bitcoin and Ether just months after rolling out direct crypto trading to retail clients.",
-        "url": "https://cointelegraph.com/news/charles-schwab-to-add-solana-avalanche-and-chainlink-to-crypto-platform",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bank-bitcoin-charles-schwab-corp.png",
-        "publishedAt": "2026-08-27T16:13:10Z",
-        "content": "US financial services giant Charles Schwab plans to add Solana (SOL), Avalanche (AVAX) and Chainlink (LINK) to its crypto trading platform in the coming months, expanding its direct cryptocurrency of… [+1814 chars]"
       }
     ]
   }
