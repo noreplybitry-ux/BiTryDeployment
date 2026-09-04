@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-04T17:30:20.392Z",
+  "timestamp": "2026-09-04T20:35:53.862Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Marathon Mines 670 Bitcoin In August As Treasury Reaches 25,000 BTC",
+        "description": "Read the latest update on Marathon Mines 670 Bitcoin In August As Treasury Reaches 25,000 BTC.",
+        "url": "http://www.newsbtc.com/news/marathon-mines-670-bitcoin-in-august-as-treasury-reaches-25-000-btc/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/01JQ8RR72B070D883EGPACYTS5-28.jpg?fit=2560%2C1293",
+        "publishedAt": "2026-09-03T18:45:00Z",
+        "content": "Marathon Digital reported August production of 670 Bitcoin, while its corporate treasury balance reached 25,000 BTC under its full HODL strategy.\r\nThe update gives investors a fresh look at one of th… [+3588 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,32 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bank-bitcoin-charles-schwab-corp.png",
         "publishedAt": "2026-08-27T16:13:10Z",
         "content": "US financial services giant Charles Schwab plans to add Solana (SOL), Avalanche (AVAX) and Chainlink (LINK) to its crypto trading platform in the coming months, expanding its direct cryptocurrency of… [+1814 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Ethereum price outlook turns bullish as ETF inflows support $2,800 target",
-        "description": "Key takeaways Ethereum has gained 27% in seven days after breaking above $2,000 and triggering substantial short liquidations. Proposed SEC crypto rules and planned Treasury bond buybacks have strengthened risk appetite. Ethereum ETFs attracted more than $1.2…",
-        "url": "https://coinjournal.net/news/ethereum-price-outlook-turns-bullish-as-etf-inflows-support-2800-target/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/08/ChatGPT-Image-Aug-27-2026-11_39_45-AM.png",
-        "publishedAt": "2026-08-27T10:41:09Z",
-        "content": "Key takeaways\r\n<ul><li>Ethereum has gained 27% in seven days after breaking above $2,000 and triggering substantial short liquidations.</li><li>Proposed SEC crypto rules and planned Treasury bond buy… [+4084 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Bitcoin ETFs Draw $2.8B in Eight-Day Streak as BTC Tests $80K",
-        "description": "August is heading for its strongest month of inflows since October 2025 if the pace holds, one analyst noted.",
-        "url": "https://decrypt.co/376683/bitcoin-etfs-draw-2-8b-in-eight-day-streak-as-btc-tests-80k",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-08-27T10:39:10Z",
-        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs have seen inflows of $2.8 billion across eight consecutive trading sessions.</li><li>Daily inflows have retreated from a peak of $606 million on August 20 to … [+3754 chars]"
       }
     ]
   }
