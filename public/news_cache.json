@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-04T13:21:21.841Z",
+  "timestamp": "2026-09-04T17:30:20.392Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Bybit Pay integrates with Mesh to expand crypto payments",
+        "description": "Bybit Pay has joined Mesh’s crypto payments network, connecting the exchange’s 80 million users with payment and funding options across Mesh-powered platforms.",
+        "url": "https://cointelegraph.com/news/bybit-pay-integrates-with-mesh-to-expand-crypto-payments",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1M3NJSETHX828KE4N3BKDW6/hi-the-revival-of-general-partnership-in-the-age-of-tokenomics-part-1.png",
+        "publishedAt": "2026-09-03T17:13:04Z",
+        "content": "Bybit Pay, the payments arm of crypto exchange Bybit, has integrated with crypto payments infrastructure provider Mesh, allowing users to make payments and fund accounts on supported platforms direct… [+1047 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt",
+        "description": "Stocks and crypto rallied together after Governor Christopher Waller said he could back holding rates steady, with short sellers absorbing the brunt of the squeeze.",
+        "url": "https://decrypt.co/377314/bitcoin-pump-fed-rate-pause-shorts-get-rekt",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png",
+        "publishedAt": "2026-09-03T16:38:17Z",
+        "content": "In brief\r\n<ul><li>Bitcoin reclaimed $80,000, trading near $80,270 and up close to 3% over 24 hours, as XRP, Ethereum, and BNB rallied alongside a broader stock market advance.</li><li>Fed Governor Ch… [+4866 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Metaplanet Buys 1,007 More Bitcoin As Treasury Hits 20,000 BTC",
+        "description": "Read the latest update on Metaplanet Buys 1,007 More Bitcoin As Treasury Hits 20,000 BTC.",
+        "url": "http://www.newsbtc.com/news/metaplanet-buys-1-007-more-bitcoin-as-treasury-hits-20-000-btc/",
+        "urlToImage": null,
+        "publishedAt": "2026-09-03T15:45:00Z",
+        "content": "Metaplanet has bought another 1,007 Bitcoin for $69 million, lifting its total corporate treasury holdings to 20,000 BTC.\r\nThe company said the latest purchase was made at an average price of $68,520… [+4155 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +433,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
         "publishedAt": "2026-08-27T10:39:10Z",
         "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs have seen inflows of $2.8 billion across eight consecutive trading sessions.</li><li>Daily inflows have retreated from a peak of $606 million on August 20 to … [+3754 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Better launches Bitcoin-backed mortgages powered by Coinbase",
-        "description": "Better and Coinbase have launched a crypto-backed mortgage product that lets US homebuyers pledge Bitcoin as collateral for a down payment without having to sell it.",
-        "url": "https://cointelegraph.com/news/better-launches-bitcoin-backed-mortgages-powered-by-coinbase",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-japan-what-is-a-housing-loan2.jpg",
-        "publishedAt": "2026-08-26T20:09:23Z",
-        "content": "Better Mortgage and Coinbase have made their Bitcoin-backed mortgage product generally available, allowing US homebuyers to pledge Bitcoin as collateral for a down payment without selling it, the com… [+2800 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Students want crypto classes but learn on social media: OKX survey",
-        "description": "An OKX survey found 90% of US college students want crypto taught in college, while social media remains their leading source of information.",
-        "url": "https://cointelegraph.com/news/students-crypto-classes-learn-social-media-okx",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-education-key-in-driving-crypto-adoption-in-africa2.jpg",
-        "publishedAt": "2026-08-26T13:00:00Z",
-        "content": "While most US college students want schools to teach crypto and blockchain, in the absence of courses, social media remains their leading source of crypto education, according to a study commissioned… [+1047 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Supply absorption ‘key question’ as Bitcoin fails to reclaim $80K: Analysis",
-        "description": "Bitcoin price analysis says that new buyer support needs to appear as BTC price action struggles to cement local highs.",
-        "url": "https://cointelegraph.com/markets/supply-absorption-key-question-as-bitcoin-fails-to-reclaim-80k-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-network-death-spiral-still-likely.jpg",
-        "publishedAt": "2026-08-26T10:49:26Z",
-        "content": "Bitcoin (BTC) remains sensitive to sell-side pressure at $80,000, even as investors broadly avoid mass profit-taking.\r\nKey points:\r\n<ul><li>Bitcoin investors unrealized profit and loss crosses above … [+3264 chars]"
       }
     ]
   }
