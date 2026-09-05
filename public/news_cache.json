@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-05T00:46:41.073Z",
+  "timestamp": "2026-09-05T05:28:29.998Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "US, UK launch joint alliance targeting crypto scam centers",
+        "description": "The agreement includes parallel investigations and information sharing, with US and UK authorities planning a private-sector disruption operation in London in October.",
+        "url": "https://cointelegraph.com/news/us-uk-joint-alliance-crypto-scam-centers",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NB3D2EEQMKVH8E9QFSYFWH/hi-anti-pig-butchering-policy-in-crypto-cambodia.png",
+        "publishedAt": "2026-09-04T04:33:55Z",
+        "content": "The United States and United Kingdom have formed a joint law enforcement alliance targeting scam centers involved in crypto and cyber-enabled investment fraud. \r\nOn Thursday, the US Department of Jus… [+2561 chars]"
+      },
       {
         "source": {
           "id": null,
