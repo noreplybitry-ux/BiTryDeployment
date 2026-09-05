@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-04T22:55:20.608Z",
+  "timestamp": "2026-09-05T00:46:41.073Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Tether sued over frozen ‘pig butcher’ coins, 6,600 students get crypto loans: Asia Express",
+        "description": "Two Thai businessmen who don’t dispute involvement with a pig butchering scam sue Tether over frozen funds, thousands of Asia students access crypto loans. Asia Express.",
+        "url": "https://cointelegraph.com/magazine/tether-sued-over-frozen-pig-butcher-coins-6600-students-get-crypto-loans-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1MT8AVRA0N4FG4HK9PK2CZ5/asia-express-11.jpg",
+        "publishedAt": "2026-09-03T23:40:09Z",
+        "content": "THAILAND\r\nThai businessmen sue Tether for freezing $42M in $61M pig butchering case\r\nTwo Thai businessmen have sued stablecoin issuer Tether in a New York district court, claiming it illegally froze … [+8572 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/c9b5c001455e5db87e161e0e3122a925b7e13f637f6dbda145ac09823e4fe6ff/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fc1be8c0ea65b653acc90c3b2e279ea82",
         "publishedAt": "2026-08-28T10:30:09Z",
         "content": "Today's Bitcoin price prediction has BTC trading at $79,500, up around +1.1% over the past 24 hours, as the coin's late-August grind between $78,000 and $81,000 stretches into another week.\r\nThat sid… [+3548 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Mirae Asset lays out crypto, stablecoin, tokenization plans",
-        "description": "The South Korean financial group plans to build a $109 billion digital asset business spanning crypto, stablecoins and tokenized assets, according to The Korea Times.",
-        "url": "https://cointelegraph.com/news/mirae-asset-lays-out-crypto-stablecoin-and-tokenization-plans",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/hi-when-will-the-coinbase-ipo-take-place-and-what-effect-is-it-having-on-crypto.png",
-        "publishedAt": "2026-08-27T18:58:32Z",
-        "content": "South Korean financial group Mirae Asset plans to build a 150 trillion won ($109 billion) digital asset business around Digital X, the crypto exchange formerly known as Korbit, according to The Korea… [+1193 chars]"
       }
     ]
   }
