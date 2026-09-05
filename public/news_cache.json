@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-05T13:47:41.166Z",
+  "timestamp": "2026-09-05T16:41:38.786Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Slides as Blowout Jobs Report Revives Fed Hike Odds",
+        "description": "The Dow dropped 226 points and Bitcoin erased some of its gains after August payrolls tripled estimates, pushing September rate-hike odds to 58%.",
+        "url": "https://decrypt.co/377414/bitcoin-slides-blowout-jobs-report-fed-hike-odds",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/nyse-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-04T15:13:28Z",
+        "content": "In brief\r\n<ul><li>The U.S. economy added 162,000 jobs in August, nearly triple the 53,000 economists expected, while unemployment held at 4.1%, according to the Bureau of Labor Statistics.</li><li>Bi… [+3679 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +381,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/newsbtc_01_bitcoin_mining_difficulty_featured.png?fit=1200%2C675",
         "publishedAt": "2026-08-31T10:45:00Z",
         "content": "Dan Loebs Third Point has disclosed an equity position in Core Scientific, adding another institutional name to the growing trade around Bitcoin miners moving deeper into AI infrastructure.\r\nThe posi… [+4747 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Bitcoin Faces a Three-Way Macro Test Near $78,000",
-        "description": "Bitcoin traded at $78,500 as the Japanese yen breached 160 per dollar in Tokyo trading, while a U.S. strike on Iran’s Larak Island added to market uncertaint...",
-        "url": "https://cryptonews.com/news/bitcoin-macro-risks-78000/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/7ff344e537085fc322ec3b5c90a320c9358c68e35f60348b7738e55265f57d7b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F94f1935bec510b094b03b392f156a268",
-        "publishedAt": "2026-08-31T10:20:16Z",
-        "content": "Bitcoin traded at $78,500 as the Japanese yen breached 160 per dollar in Tokyo trading, while a U.S. strike on Iran's Larak Island added to market uncertainty. All these follow Friday's broad dollar … [+3199 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "CLARITY Act Lags as Bitcoin ETFs Slip",
-        "description": "U.S. spot Bitcoin ETFs turned negative at the end of last week, ending a nine-day inflow streak that had brought in a total of $2.8 billion. Meanwhile, Rober...",
-        "url": "https://cryptonews.com/news/bitcoin-etfs-inflow-streak-clarity-act/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/74517ece7b9f27f8856318763ea6637c496356c7276c4b62009fbd85318dac01/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F00c3fd44b99892c0dbb6c9e8179e648d",
-        "publishedAt": "2026-08-31T09:20:29Z",
-        "content": "U.S. spot Bitcoin ETFs turned negative at the end of last week, ending a nine-day inflow streak that had brought in a total of $2.8 billion. Meanwhile, Robert Mitchnick, BlackRock's head of digital a… [+2554 chars]"
       }
     ]
   }
