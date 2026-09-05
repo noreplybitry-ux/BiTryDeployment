@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-05T16:41:38.786Z",
+  "timestamp": "2026-09-05T18:55:09.887Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Bitcoin.jpeg?fit=1280%2C853",
         "publishedAt": "2026-08-31T11:30:00Z",
         "content": "Bitcoin held near the $78,000 area as geopolitical tension around the Strait of Hormuz pushed Brent crude above $90, giving traders another macro-risk event to price across energy, inflation, and ris… [+4230 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Third Point’s Core Scientific Stake Puts Bitcoin Miner-To-AI Trade In Focus",
-        "description": "Dan Loeb’s Third Point has disclosed an equity position in Core Scientific, adding another institutional name to the growing trade around Bitcoin miners mo...",
-        "url": "http://www.newsbtc.com/news/third-point-core-scientific-bitcoin-miner-ai-trade/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/newsbtc_01_bitcoin_mining_difficulty_featured.png?fit=1200%2C675",
-        "publishedAt": "2026-08-31T10:45:00Z",
-        "content": "Dan Loebs Third Point has disclosed an equity position in Core Scientific, adding another institutional name to the growing trade around Bitcoin miners moving deeper into AI infrastructure.\r\nThe posi… [+4747 chars]"
       }
     ]
   }
