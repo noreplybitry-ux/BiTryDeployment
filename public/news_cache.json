@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-05T10:19:49.222Z",
+  "timestamp": "2026-09-05T13:47:41.166Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "IMF Now Says Donations Funded El Salvador's Bitcoin Growth",
+        "description": "A year ago the fund claimed the total had not moved, and that the reserve was only shuffling coins between government wallets.",
+        "url": "https://decrypt.co/377392/imf-now-says-donations-funded-el-salvadors-bitcoin-growth",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-El-Salvador-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-09-04T12:26:01Z",
+        "content": "In brief\r\n<ul><li>IMF staff reached a preliminary agreement on El Salvador's combined second and third program reviews, unlocking about $140 million if the board approves.</li><li>Documentation showe… [+2813 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "FinCEN Ties $12.7B to Crypto Scams Run From Asian Compounds",
+        "description": "Monthly reported sums rose 18% on average, and the compounds now appear to be spreading beyond Southeast Asia.",
+        "url": "https://decrypt.co/377386/fincen-ties-12-7b-to-crypto-scams-run-from-asian-compounds",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/amnesty-cambodia-scam-compound-gID_7.jpg",
+        "publishedAt": "2026-09-04T10:22:57Z",
+        "content": "In brief\r\n<ul><li>FinCEN analyzed 33,904 suspicious activity reports filed between September 2023 and December 2025.</li><li>About 1,300 institutions filed them, with crypto money services businesses… [+3023 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "Bitcoin News: BTC to Gold Ratio Hits 18 as Both Assets Rally",
+        "description": "Bitcoin now buys 18 ounces of gold, the highest reading on that ratio since January, and it’s climbing while both assets rally together after the Fed’s job d...",
+        "url": "https://cryptonews.com/news/bitcoin-gold-ratio-18-news/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/e5d01cac851340cc383e5d71ccfc727e3cc808d4ce9a4b2bc76e61ceb148b6cc/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Ff96479ec5ac0a1ec5e8b76785a607a15",
+        "publishedAt": "2026-09-04T08:50:00Z",
+        "content": "Bitcoin now buys 18 ounces of gold, the highest reading on that ratio since January, and it's climbing while both assets rally together after the Fed's job data news. The number forces a specific que… [+3279 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +394,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/74517ece7b9f27f8856318763ea6637c496356c7276c4b62009fbd85318dac01/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F00c3fd44b99892c0dbb6c9e8179e648d",
         "publishedAt": "2026-08-31T09:20:29Z",
         "content": "U.S. spot Bitcoin ETFs turned negative at the end of last week, ending a nine-day inflow streak that had brought in a total of $2.8 billion. Meanwhile, Robert Mitchnick, BlackRock's head of digital a… [+2554 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
-        "description": "BTC gave back some of its gains after Fed Chair Kevin Warsh talked tough on inflation, but prediction market traders are still leaning bullish.",
-        "url": "https://decrypt.co/376846/bitcoin-rally-stalls-sentiment-bullish",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-15-gID_7.png",
-        "publishedAt": "2026-08-28T21:16:04Z",
-        "content": "In brief\r\n<ul><li>Bitcoin dropped as low as $76,877 on Friday after Fed Chair Kevin Warsh's hawkish Jackson Hole keynote, confirming the resistance zone flagged earlier this week.</li><li>September r… [+4569 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Solana validators approve proposal to accelerate SOL disinflation",
-        "description": "The approved proposal doubles Solana’s annual disinflation rate from 15% to 30%, reducing future SOL issuance while leaving its long-term inflation target unchanged.",
-        "url": "https://cointelegraph.com/news/solana-validators-approve-proposal-to-accelerate-sol-disinflation",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14TAFCZGB4VMQ151R2N0EKE/hi-bitcoin-vs-fiat-currencies-over-the-past-several-years-have-they-been-hampered-by-the-inflation2-2.png",
-        "publishedAt": "2026-08-28T19:53:12Z",
-        "content": "Solana validators have approved a proposal to double the networks annual disinflation rate, reducing future SOL issuance.\r\nAccording to finalized voting results, the proposal received 67% support, wi… [+2254 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum",
-        "description": "The brokerage will expand Schwab Crypto trading to Solana, Avalanche, and Chainlink, but has not given a launch date for the three tokens.",
-        "url": "https://decrypt.co/376819/charles-schwab-crypto-trading-bitcoin-ethereum-solana",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-charles-schwab-gID_7.png",
-        "publishedAt": "2026-08-28T16:39:02Z",
-        "content": "In brief\r\n<ul><li>Schwab plans to add Solana, Avalanche, and Chainkin trading in the coming months.</li><li>Schwab Crypto began rolling out with Bitcoin and Ethereum in May.</li><li>Eligible clients … [+2304 chars]"
       }
     ]
   }
