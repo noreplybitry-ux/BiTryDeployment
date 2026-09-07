@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-07T03:57:06.483Z",
+  "timestamp": "2026-09-07T09:14:45.424Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,19 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C10WR962EQNTM5JC7YMRXS/russia-coin-moscow-minin-and-pozharskiy.jpg",
         "publishedAt": "2026-08-31T14:50:58Z",
         "content": "Cryptocurrency trading in Russia is expected to bring 4 trillion rubles ($46.4 billion) in trading volume for regulated domestic exchanges in the first year after legalization, according to estimates… [+1213 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Robinhood Chain Revenue Tops Ethereum In 24-Hour App Metrics",
-        "description": "Robinhood Chain recorded $2.66 million in daily app revenue, surpassing Ethereum mainnet and Hyperliquid over the same 24-hour measurement window, accordin...",
-        "url": "http://www.newsbtc.com/news/robinhood-chain-revenue-tops-ethereum-app-metrics/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Untitled-design-59.jpg?fit=1792%2C1024",
-        "publishedAt": "2026-08-31T12:15:00Z",
-        "content": "Robinhood Chain recorded $2.66 million in daily app revenue, surpassing Ethereum mainnet and Hyperliquid over the same 24-hour measurement window, according to validated DeFiLlama-style dashboard dat… [+4114 chars]"
       }
     ]
   }
