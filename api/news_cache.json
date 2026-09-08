@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-08T12:46:11.904Z",
+  "timestamp": "2026-09-08T17:10:47.744Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin chips away at weekend upside as $80K hangs in the balance",
+        "description": "Bitcoin price fell 2% in low-liquidity conditions as the US Labor Day holiday saw $80,000 once again slip from bulls’ grasp.",
+        "url": "https://cointelegraph.com/markets/bitcoin-chips-away-at-weekend-upside-as-80k-hangs-in-the-balance",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1Y8ZNSF5WMPGFQ1661WSGAG/hi-why-bitcoin-treasury-stocks-fall-faster-than-the-assets-they-hold-2.jpg",
+        "publishedAt": "2026-09-07T15:57:47Z",
+        "content": "Bitcoin (BTC) drifted lower on Monday as a low-liquidity environment erased the weekends gains above $80,000.\r\nKey points:\r\n<ul><li>Bitcoin dips 2% below $80,000 after its highest weekly close since … [+2681 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Starts the Week Flat, But Chainlink Is Flying—Here's Why",
+        "description": "LINK hit an eight-month high after Bottomline, a top-three SWIFT services provider moving $16 trillion a year, tapped Chainlink to connect 600-plus banks to blockchain settlement.",
+        "url": "https://decrypt.co/377566/bitcoin-starts-flat-chainlink-price-flying",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/chainlink-decrypt-style-01-gID_7.jpg",
+        "publishedAt": "2026-09-07T15:42:34Z",
+        "content": "In brief\r\n<ul><li>Bottomline, a top-three SWIFT services provider that processes more than $16 trillion in payments annually, announced a deal with Chainlink to connect its 600-plus bank customers to… [+4296 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitcoin ETFs Add $3.8B Over Three Weeks As IBIT And FBTC Lead",
+        "description": "Read the latest update on Bitcoin ETFs Add $3.8B Over Three Weeks As IBIT And FBTC Lead.",
+        "url": "http://www.newsbtc.com/news/bitcoin-etfs-add-3-8b-over-three-weeks-as-ibit-and-fbtc-lead/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-2.-Juni-2026-09_17_53.png?fit=1222%2C687",
+        "publishedAt": "2026-09-07T14:45:00Z",
+        "content": "U.S. spot Bitcoin ETFs have pulled in $3.8 billion in net inflows over a three-week stretch, with BlackRocks IBIT and Fidelitys FBTC leading the flow data.\r\nThe figure gives Bitcoin traders another s… [+3788 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C52C7MYQ0QY4TB55BX8Z68/moses-and-bitcoins.jpg",
         "publishedAt": "2026-08-31T15:08:12Z",
         "content": "Strive, a publicly traded asset manager and Bitcoin treasury company, added 1,800 Bitcoin to its holdings last week, accelerating an accumulation strategy that has propelled it into the ranks of the … [+1814 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
-        "description": "Regulated cryptocurrency exchanges may see more than $46 billion in crypto trading volume during the first year after legalization, according to estimates from the country’s largest bank.",
-        "url": "https://cointelegraph.com/news/russian-crypto-trading-bring-46b-regulated-exchanges-legalization",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C10WR962EQNTM5JC7YMRXS/russia-coin-moscow-minin-and-pozharskiy.jpg",
-        "publishedAt": "2026-08-31T14:50:58Z",
-        "content": "Cryptocurrency trading in Russia is expected to bring 4 trillion rubles ($46.4 billion) in trading volume for regulated domestic exchanges in the first year after legalization, according to estimates… [+1213 chars]"
       }
     ]
   }
