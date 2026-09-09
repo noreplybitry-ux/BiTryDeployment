@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-09T14:17:50.740Z",
+  "timestamp": "2026-09-09T18:25:00.216Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Robinhood takes stakes in Crypto.com, OG.com in prediction markets deal",
+        "description": "Robinhood takes equity stakes in Crypto.com and OG.com as part of a deal to expand its prediction markets infrastructure and event contract offering.",
+        "url": "https://cointelegraph.com/news/robinhood-takes-stakes-in-cryptocom-ogcom-in-prediction-markets-deal",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M20X8RTKQJQJ462YAJQDMNR1/hi-new-industry-new-rules-building-an-industry-without-bias.png",
+        "publishedAt": "2026-09-08T17:03:47Z",
+        "content": "Robinhood has taken equity stakes in Crypto.com and its newly spun-off prediction market platform OG.com as part of a multi-year deal to use OG.coms regulated infrastructure for event contracts.\r\nUnd… [+2535 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Robinhood Takes Equity Stake in Crypto.com, Taps Exchange to Power Prediction Markets",
+        "description": "The multi-year deal makes OG.com the infrastructure and clearing engine behind Robinhood's fastest-growing business.",
+        "url": "https://decrypt.co/377676/robinhood-equity-crypto-com-prediction-markets",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/crypto-com-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-08T15:25:16Z",
+        "content": "In brief\r\n<ul><li>Robinhood and Crypto.coms OG.com, announced a multi-year deal Tuesday making OG.com an infrastructure and clearing provider for Robinhood's Prediction Markets platform.</li><li>Robi… [+4108 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +342,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
         "publishedAt": "2026-09-01T20:31:05Z",
         "content": "In brief\r\n<ul><li>Bitcoin has closed 8 of the last 13 Septembers in the red, averaging a 2.97% loss, the worst month of the year by both average and median return.</li><li>September 2025 broke the st… [+6943 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin's Next Move: Bullish Bets Run Up Against a Historical Wall",
-        "description": "Bitcoin just had one its best months in years amid a price rally that broke the crypto winter pattern. But the charts tell a complicated story.",
-        "url": "https://decrypt.co/377052/bitcoins-next-move-bullish-bets-run-up-against-a-historical-wall",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-20-gID_7.png",
-        "publishedAt": "2026-09-01T18:22:09Z",
-        "content": "In brief\r\n<ul><li>Bitcoin gained nearly 25% in August, its best August since 2017, closing the month back above its 50-month moving average for the first time since last year's crypto winter began.</… [+5437 chars]"
       }
     ]
   }
