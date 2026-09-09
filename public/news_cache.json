@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-09T18:25:00.216Z",
+  "timestamp": "2026-09-09T21:34:22.513Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Holds, Wall Street Stalls as Oil Shock Revives Fed Hike Bets",
+        "description": "Bitcoin is defending its golden zone support while the S&P 500 grinds inside its tightest range yet, both waiting on Friday's inflation report before the Fed's September 16 rate call.",
+        "url": "https://decrypt.co/377705/bitcoin-holds-wall-street-stalls-oil-shock-fed-hike",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png",
+        "publishedAt": "2026-09-08T18:59:35Z",
+        "content": "In brief\r\n<ul><li>Bitcoin traded at $78,524 Tuesday, down 0.72%, while the S&amp;P 500 closed at 7,689.80, off 0.37%, as oil pushed toward $100 a barrel on renewed U.S.-Iran fighting in the Strait of… [+4736 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,32 +329,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FNPVV54PCXHCZQHZ8DRZWN/arthur.webp",
         "publishedAt": "2026-09-02T13:30:00Z",
         "content": "Bitcoin has all the factors in place to a seven-figure price over the next four years, according to BitMEX co-founder Arthur Hayes.\r\nBut hes buying ETH right now, because he believes it could easily … [+4180 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Sality Botnet Dismantled After Eight Years of Stealing Bitcoin and Ethereum",
-        "description": "CrowdStrike and the DOJ isolated more than 15,000 infected machines in a malware takedown spanning four countries.",
-        "url": "https://decrypt.co/377156/sality-botnet-dismantled-after-eight-years-of-stealing-bitcoin-and-ethereum",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/malware-code-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-02T11:30:45Z",
-        "content": "In brief\r\n<ul><li>The Justice Department and CrowdStrike said Tuesday they had disrupted Sality, a peer-to-peer botnet running since 2003.</li><li>Its primary payload for the past eight years was Egg… [+3494 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "What Is 'Red September'? Bitcoin's Curse, and Why Wall Street Has the Same One",
-        "description": "Bitcoin has lost ground in eight of the last 13 Septembers. The stock market's had the same problem since 1928. Here's the case for the curse, what broke it last year, and what's coming in the next round.",
-        "url": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
-        "publishedAt": "2026-09-01T20:31:05Z",
-        "content": "In brief\r\n<ul><li>Bitcoin has closed 8 of the last 13 Septembers in the red, averaging a 2.97% loss, the worst month of the year by both average and median return.</li><li>September 2025 broke the st… [+6943 chars]"
       }
     ]
   }
