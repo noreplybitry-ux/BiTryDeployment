@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-10T09:28:50.818Z",
+  "timestamp": "2026-09-10T14:11:21.446Z",
   "data": {
     "status": "ok",
     "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Italy’s central bank orders sanctions screening for crypto transfers",
+        "description": "Italy’s central bank ordered crypto service providers to implement mandatory screening procedures to identify digital asset transfers from sanctioned entities.",
+        "url": "https://cointelegraph.com/news/italys-central-bank-orders-sanctions-screening-for-crypto-transfers",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22YH8T5P9TFVVDGR0A597KG/hi-bank-of-italy-and-crypto-recap.jpg",
+        "publishedAt": "2026-09-09T12:20:33Z",
+        "content": "Italys central bank, Banca dItalia, ordered mandatory sanctions screening for cryptocurrency transfers to help curb illicit flows across the EU. \r\nThe bank said that crypto asset service providers (C… [+1317 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin SOPR metric sees longest profit run of 2026 as new analysis challenges bear market",
+        "description": "Bitcoin aggregate onchain profit entered its fourth week, but a popular analyst warned that BTC price “downside risk” remained in place.",
+        "url": "https://cointelegraph.com/markets/bitcoin-sopr-metric-sees-longest-profit-run-of-2026-as-new-analysis-challenges-bear-market",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22T4WSTAGZ7E6YW1EWZGJDW/dollar-fiat-money-bitcoin-1.jpg",
+        "publishedAt": "2026-09-09T10:12:16Z",
+        "content": "Bitcoin (BTC) is breaking with typical bear-market behavior as a classic onchain metric puts in its longest bullish streak of 2026.\r\nKey points:\r\n<ul><li>Bitcoins SOPR metric has stayed above its bre… [+2963 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,32 +342,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-02T21:31:05Z",
         "content": "In brief\r\n<ul><li>Remixpoint sold its altcoins for ¥878.8 million ($4.47 million).</li><li>The sale produced a ¥117.8 million ($598,400) gain.</li><li>Sale proceeds may fund battery-storage projects … [+2654 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "'The Right Trade': Strategy CEO Has No Regrets Selling Bitcoin at $60K Before Buying Back Higher",
-        "description": "Phong Le said Strategy’s cost of capital—not Bitcoin’s price—drove its decision to sell nearly 7,000 BTC before resuming purchases above $80,000.",
-        "url": "https://decrypt.co/377215/right-trade-strategy-no-regrets-selling-bitcoin",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png",
-        "publishedAt": "2026-09-02T19:15:06Z",
-        "content": "In brief\r\n<ul><li>Strategy sold 6,948 BTC this summer before buying 4,603 BTC at an average price of $80,318.</li><li>CEO Phong Le said both moves were the right trade when they occurred.</li><li>The… [+3153 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Is Bitcoin About to Flash Crash? What a 'Bart Simpson' Pattern Would Actually Take",
-        "description": "Bitcoin traders are calling August's spike-and-fade a Bart Simpson hairline. Here's what separates an actual flash crash from an ordinary correction.",
-        "url": "https://decrypt.co/377185/bitcoin-flash-crash-real-bart-simpson-pattern",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/Bart-BTC-Gallery-Masterpiece-gID_7.png",
-        "publishedAt": "2026-09-02T18:30:06Z",
-        "content": "In brief\r\n<ul><li>Bitcoin is consolidating near $77,500 after spiking from roughly $64,420 to nearly $80,700 in six trading days last week, the move traders are calling a \"Bart Simpson\" setup.</li><l… [+6601 chars]"
       }
     ]
   }
