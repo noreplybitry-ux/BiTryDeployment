@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "timestamp": "2026-09-10T18:14:25.585Z",
+  "timestamp": "2026-09-10T21:29:59.745Z",
   "data": {
     "status": "ok",
     "totalResults": 26,
@@ -43,6 +43,19 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/09/ChatGPT-Image-Sep-9-2026-09_12_38-AM.png",
         "publishedAt": "2026-09-09T08:15:48Z",
         "content": "Key takeaways\r\n<ul><li>Chainlink has gained 51% over seven days amid improving regulatory sentiment and project-specific developments.</li><li>Chainlink’s total value secured rose from $43 billion in… [+5277 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "Elon Musk Grok AI Predicts $250K Bitcoin Price by 2027",
+        "description": "The Elon Musk-backed Grok AI predicts BTC could hit a quarter of a million dollars by January 1, 2027, a figure sure to excite the Bitcoin community. The mod...",
+        "url": "https://cryptonews.com/news/elon-musk-grok-ai-predicts-250k-bitcoin-2027/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/21cafbfc912be8ab8b3b810a4f0c94c5f821c75e3895a0c994a6b1ca12e1390b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fc368cd87c5ade2127a56f0a04c74b4b4.jpg",
+        "publishedAt": "2026-09-09T08:12:18Z",
+        "content": "The Elon Musk-backed Grok AI predicts BTC could hit a quarter of a million dollars by January 1, 2027, a figure sure to excite the Bitcoin community. The model predicts BTC could reach between $200,0… [+2779 chars]"
       },
       {
         "source": {
@@ -329,19 +342,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/money-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-02T22:47:06Z",
         "content": "In brief\r\n<ul><li>The FBI seized about $560,000 in cryptocurrency allegedly intended for the Al Qassam Brigades.</li><li>Agents took control of domains and servers linked to AlQassam.ps.</li><li>The … [+2537 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
-        "description": "The Japanese company booked a ¥117.8 million profit after selling its ETH, SOL, XRP and DOGE, leaving roughly 1,506 BTC as its only cryptocurrency holding.",
-        "url": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-02T21:31:05Z",
-        "content": "In brief\r\n<ul><li>Remixpoint sold its altcoins for ¥878.8 million ($4.47 million).</li><li>The sale produced a ¥117.8 million ($598,400) gain.</li><li>Sale proceeds may fund battery-storage projects … [+2654 chars]"
       }
     ]
   }
