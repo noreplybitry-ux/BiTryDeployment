@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-10T04:24:58.873Z",
+  "timestamp": "2026-09-10T09:28:50.818Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Chainlink surges 51% as bullish breakout points to $18",
+        "description": "Key takeaways Chainlink has gained 51% over seven days amid improving regulatory sentiment and project-specific developments. Chainlink’s total value secured rose from $43 billion in June to nearly $57 billion by the end of August—an increase of approximately…",
+        "url": "https://coinjournal.net/news/chainlink-surges-51-as-bullish-breakout-points-to-18/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/09/ChatGPT-Image-Sep-9-2026-09_12_38-AM.png",
+        "publishedAt": "2026-09-09T08:15:48Z",
+        "content": "Key takeaways\r\n<ul><li>Chainlink has gained 51% over seven days amid improving regulatory sentiment and project-specific developments.</li><li>Chainlink’s total value secured rose from $43 billion in… [+5277 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
+        "description": "Iran’s central bank has reportedly relaxed currency controls, giving businesses more scope to use USDT and Bitcoin for trade amid tightening US sanctions.",
+        "url": "https://cointelegraph.com/news/iran-central-bank-encourages-crypto-evade-sanctions",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22ESE8ZYFYS2R1YN4CJ0FMK/hi-iran-launching-a-currency.jpg",
+        "publishedAt": "2026-09-09T07:36:39Z",
+        "content": "Irans central bank has reportedly eased foreign currency controls to encourage businesses to bring overseas earnings home, including through cryptocurrency, amid tightening US sanctions.\r\nThis includ… [+1239 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Gemini receives Singapore payment license for crypto services",
+        "description": "Gemini’s local entity is authorized to provide digital payment token and cross-border money transfer services without standard transaction-volume limits.",
+        "url": "https://cointelegraph.com/news/gemini-singapore-mpi-license-crypto-services",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22A0GM1G22S8VPZXWGBQS1G/hi-time-to-switch-license-singapore.jpg",
+        "publishedAt": "2026-09-09T05:27:12Z",
+        "content": "Crypto exchange Gemini has received a Major Payment Institution (MPI) license from the Monetary Authority of Singapore (MAS), completing its transition from in-principle approval granted nearly two y… [+1263 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,32 +342,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/Bart-BTC-Gallery-Masterpiece-gID_7.png",
         "publishedAt": "2026-09-02T18:30:06Z",
         "content": "In brief\r\n<ul><li>Bitcoin is consolidating near $77,500 after spiking from roughly $64,420 to nearly $80,700 in six trading days last week, the move traders are calling a \"Bart Simpson\" setup.</li><l… [+6601 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Charles Bennett",
-        "title": "Bitcoin’s apparent demand turns negative as price struggles with $77K",
-        "description": "One of Bitcoin’s onchain demand indicators turns negative again after a brief August rebound, as BTC price slipped below $77,000 amid a broader bond and equities sell-off.",
-        "url": "https://cointelegraph.com/markets/bitcoins-apparent-demand-turns-negative-price-struggles-with-77k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HEBC31STJ1V8Y61W60PS20/analytics-red-market-falling-drop-bitcoin-3.jpg",
-        "publishedAt": "2026-09-02T16:35:56Z",
-        "content": "Bitcoin (BTC) sold off into the early European trading hours on Wednesday to hit local lows of $76,400, per data from CoinGecko.\r\nKey points: \r\n<ul><li>Bitcoins apparent demand indicator turns negati… [+2526 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ciaran Lyons",
-        "title": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
-        "description": "Arthur Hayes reveals the “ingredients” he believes will push Bitcoin to $1 million by 2030, but says the best risk/reward adjusted bet in crypto right now is buying ETH.",
-        "url": "https://cointelegraph.com/magazine/btc-will-hit-1m-by-2030-but-arthur-hayes-is-buying-eth-instead",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FNPVV54PCXHCZQHZ8DRZWN/arthur.webp",
-        "publishedAt": "2026-09-02T13:30:00Z",
-        "content": "Bitcoin has all the factors in place to a seven-figure price over the next four years, according to BitMEX co-founder Arthur Hayes.\r\nBut hes buying ETH right now, because he believes it could easily … [+4180 chars]"
       }
     ]
   }
