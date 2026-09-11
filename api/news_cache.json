@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-11T17:40:36.889Z",
+  "timestamp": "2026-09-11T20:46:25.075Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Coinbase Wallet Rebrands to Chase 'Anything, Anywhere' Trading as Robinhood Chain Heats Up",
+        "description": "Head of Product Ryan Kass says the return to Coinbase Wallet reflects a broader trading strategy, with the self-custody app serving as a testing ground for new assets and experiences.",
+        "url": "https://decrypt.co/377601/coinbase-wallet-rebrand-robinhood-chain",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
+        "publishedAt": "2026-09-10T18:51:04Z",
+        "content": "In brief\r\n<ul><li>Base App is scheduled to rebrand back to Coinbase Wallet on September 8.</li><li>Ryan Kass says the wallet will serve as Coinbases test kitchen, bringing users new trading experienc… [+3461 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
+        "description": "Bitcoin couldn't escape today's inflation-driven selloff, but a bearish pattern on its chart is about to flip for the first time since November.",
+        "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-09-10T18:46:04Z",
+        "content": "In brief\r\n<ul><li>Bitcoin fell 1.22% today to $77,323, unable to extend last week's push above $80,000 as broader markets sold off on inflation fears.</li><li>Bitcoin's 50-day EMA is inches from cros… [+4102 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "Bitcoin News: Bond Stress and Regulation Shape Armstrong’s $400K BTC Prediction",
+        "description": "Brian Armstrong, Coinbase’s CEO, said Bitcoin reaching $400,000 by 2030 is a reasonable target, and described the $300,000-$400,000 range as very likely to b...",
+        "url": "https://cryptonews.com/news/bitcoin-price-prediction-armstrong/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/75e84f0613bdf64a4b44d277c423264e1c90cd985dc2df203aef90f0492dabfe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F6ecc054fcb17eb2212085ff1134d7323.jpg",
+        "publishedAt": "2026-09-10T09:48:14Z",
+        "content": "Brian Armstrong, Coinbase's CEO, said Bitcoin reaching $400,000 by 2030 is a reasonable target, and described the $300,000-$400,000 range as very likely to be hit within that window, in a CNBC Squawk… [+3362 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png",
         "publishedAt": "2026-09-03T16:38:17Z",
         "content": "In brief\r\n<ul><li>Bitcoin reclaimed $80,000, trading near $80,270 and up close to 3% over 24 hours, as XRP, Ethereum, and BNB rallied alongside a broader stock market advance.</li><li>Fed Governor Ch… [+4866 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Metaplanet Buys 1,007 More Bitcoin As Treasury Hits 20,000 BTC",
-        "description": "Read the latest update on Metaplanet Buys 1,007 More Bitcoin As Treasury Hits 20,000 BTC.",
-        "url": "http://www.newsbtc.com/news/metaplanet-buys-1-007-more-bitcoin-as-treasury-hits-20-000-btc/",
-        "urlToImage": null,
-        "publishedAt": "2026-09-03T15:45:00Z",
-        "content": "Metaplanet has bought another 1,007 Bitcoin for $69 million, lifting its total corporate treasury holdings to 20,000 BTC.\r\nThe company said the latest purchase was made at an average price of $68,520… [+4155 chars]"
       }
     ]
   }
