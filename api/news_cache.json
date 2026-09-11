@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-11T08:52:18.231Z",
+  "timestamp": "2026-09-11T13:26:31.628Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin sell-side risk returns to rare lows as $80K sellers fade from view",
+        "description": "Bitcoin investors showed little sign of panic selling as BTC held most of its August gains and sell-side risk fell to rare lows, data showed.",
+        "url": "https://cointelegraph.com/markets/bitcoin-sell-side-risk-returns-rare-lows-fade",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M259VB1C6WATJW98PNV7EBMY/bitcoin-relax-adoption.jpg",
+        "publishedAt": "2026-09-10T09:36:42Z",
+        "content": "Bitcoin (BTC) sell-side risk remains near historic lows as August profit-taking cools, new data shows.\r\nKey points:\r\n<ul><li>Bitcoins sell-side risk ratio fell to seven from 16 in September, placing … [+2755 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,32 +329,6 @@
         "urlToImage": null,
         "publishedAt": "2026-09-03T15:45:00Z",
         "content": "Metaplanet has bought another 1,007 Bitcoin for $69 million, lifting its total corporate treasury holdings to 20,000 BTC.\r\nThe company said the latest purchase was made at an average price of $68,520… [+4155 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Standard Chartered launches spot Bitcoin and Ether trading in UAE",
-        "description": "Standard Chartered launches spot Bitcoin and Ether trading for institutional clients in the UAE, claiming it is the first global bank to launch a similar regulated offering.",
-        "url": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-uae",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1KANTKWQNSCNEMJXC5A98C8/hi-crypto-assets-regulation-in-dubai-is-cryptocurrency-regulated-in-uae.jpg",
-        "publishedAt": "2026-09-03T10:15:34Z",
-        "content": "London-headquartered multinational bank Standard Chartered has launched spot Bitcoin and Ether trading for institutional clients in the United Arab Emirates (UAE), through its entity regulated by the… [+1491 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "FBI Seizes $560K in Crypto Bound for Hamas, Takes Over Fundraising Sites",
-        "description": "Agents seized digital assets, domains, and servers allegedly used by Hamas’ military wing to collect donations and recruit supporters.",
-        "url": "https://decrypt.co/377230/fbi-seizes-560k-crypto-hamas",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/money-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-02T22:47:06Z",
-        "content": "In brief\r\n<ul><li>The FBI seized about $560,000 in cryptocurrency allegedly intended for the Al Qassam Brigades.</li><li>Agents took control of domains and servers linked to AlQassam.ps.</li><li>The … [+2537 chars]"
       }
     ]
   }
