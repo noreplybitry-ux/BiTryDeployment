@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-12T09:08:23.366Z",
+  "timestamp": "2026-09-12T13:28:54.446Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Robinhood’s crypto volume increases 61% in August, still down 38% YoY",
+        "description": "Robinhood reported $17.5 billion in August crypto volume, up 61% from July but down 38% year over year as Bitstamp contributed $10.1 billion.",
+        "url": "https://cointelegraph.com/news/robinhoods-crypto-volume-rebounds-august",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M283JZSQVMT1TPB7GVMGKVNK/robinhood2-2.jpg",
+        "publishedAt": "2026-09-11T11:49:07Z",
+        "content": "Robinhoods crypto trading volume rose 61% month-on-month to $17.5 billion in August, though it remained 38% below the year-earlier level.\r\nThe online brokerage said in its August 2026 monthly operati… [+1023 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "UniCredit seeks infrastructure partner for crypto trading, custody: Report",
+        "description": "UniCredit is seeking infrastructure partner to expand into cryptocurrency trading, custody and tokenized investment products, as the latest bank to venture into digital assets.",
+        "url": "https://cointelegraph.com/news/unicredit-infrastructure-partners-crypto-trading-custody",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M282X830DCH6TSW5XZJXNKBH/hi-crypto-olympic-gods.jpg",
+        "publishedAt": "2026-09-11T11:35:27Z",
+        "content": "UniCredit Bank is seeking a technology provider that would allow it to build infrastructure for digital asset trading, custody and access to tokenized investment products.\r\nThe Italian banks discussi… [+1175 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1MT8AVRA0N4FG4HK9PK2CZ5/asia-express-11.jpg",
         "publishedAt": "2026-09-03T23:40:09Z",
         "content": "THAILAND\r\nThai businessmen sue Tether for freezing $42M in $61M pig butchering case\r\nTwo Thai businessmen have sued stablecoin issuer Tether in a New York district court, claiming it illegally froze … [+8572 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Marathon Mines 670 Bitcoin In August As Treasury Reaches 25,000 BTC",
-        "description": "Read the latest update on Marathon Mines 670 Bitcoin In August As Treasury Reaches 25,000 BTC.",
-        "url": "http://www.newsbtc.com/news/marathon-mines-670-bitcoin-in-august-as-treasury-reaches-25-000-btc/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/01/01JQ8RR72B070D883EGPACYTS5-28.jpg?fit=2560%2C1293",
-        "publishedAt": "2026-09-03T18:45:00Z",
-        "content": "Marathon Digital reported August production of 670 Bitcoin, while its corporate treasury balance reached 25,000 BTC under its full HODL strategy.\r\nThe update gives investors a fresh look at one of th… [+3588 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Bybit Pay integrates with Mesh to expand crypto payments",
-        "description": "Bybit Pay has joined Mesh’s crypto payments network, connecting the exchange’s 80 million users with payment and funding options across Mesh-powered platforms.",
-        "url": "https://cointelegraph.com/news/bybit-pay-integrates-with-mesh-to-expand-crypto-payments",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1M3NJSETHX828KE4N3BKDW6/hi-the-revival-of-general-partnership-in-the-age-of-tokenomics-part-1.png",
-        "publishedAt": "2026-09-03T17:13:04Z",
-        "content": "Bybit Pay, the payments arm of crypto exchange Bybit, has integrated with crypto payments infrastructure provider Mesh, allowing users to make payments and fund accounts on supported platforms direct… [+1047 chars]"
       }
     ]
   }
