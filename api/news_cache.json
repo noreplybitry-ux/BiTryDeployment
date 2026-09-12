@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-11T23:06:51.063Z",
+  "timestamp": "2026-09-12T04:02:31.691Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Metaplanet equity backlash, SE Asia crypto funding doubles: Asia Express",
+        "description": "Shareholders of Bitcoin treasury company Metaplanet are seething over equity allocations for insiders, while new figures cement Singapore’s role as the top Asian crypto hub.",
+        "url": "https://cointelegraph.com/magazine/metaplanet-equity-backlash-se-asia-crypto-funding-doubles-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26Q2WGDD8GDA5QMCWQF3GB3/magazineasia-expresssnow.jpg",
+        "publishedAt": "2026-09-10T23:21:26Z",
+        "content": "JAPAN\r\nMetaplanets executive stock pool sparks shareholder backlash\r\nJapanese Bitcoin treasury company Metaplanets executive stock pool continues to draw shareholder backlash over stock dilution conc… [+6601 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1M3NJSETHX828KE4N3BKDW6/hi-the-revival-of-general-partnership-in-the-age-of-tokenomics-part-1.png",
         "publishedAt": "2026-09-03T17:13:04Z",
         "content": "Bybit Pay, the payments arm of crypto exchange Bybit, has integrated with crypto payments infrastructure provider Mesh, allowing users to make payments and fund accounts on supported platforms direct… [+1047 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt",
-        "description": "Stocks and crypto rallied together after Governor Christopher Waller said he could back holding rates steady, with short sellers absorbing the brunt of the squeeze.",
-        "url": "https://decrypt.co/377314/bitcoin-pump-fed-rate-pause-shorts-get-rekt",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png",
-        "publishedAt": "2026-09-03T16:38:17Z",
-        "content": "In brief\r\n<ul><li>Bitcoin reclaimed $80,000, trading near $80,270 and up close to 3% over 24 hours, as XRP, Ethereum, and BNB rallied alongside a broader stock market advance.</li><li>Fed Governor Ch… [+4866 chars]"
       }
     ]
   }
