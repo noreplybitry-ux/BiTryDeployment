@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-12T16:52:53.628Z",
+  "timestamp": "2026-09-12T19:05:25.523Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Robinhood Crypto Trading Volume Jumps 61% in August",
+        "description": "Fresh operating data shows crypto trading bouncing back, but the company's fastest-growing business these days isn't traditional trading at all.",
+        "url": "https://decrypt.co/377982/robinhoods-crypto-volume-jumps-august",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-09-11T17:22:39Z",
+        "content": "In brief\r\n<ul><li>Robinhood's crypto trading volume rose 61% month over month to $17.5 billion in August, according to new operating data.</li><li>The figure remains 38% below last August's total.</l… [+3477 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NB3D2EEQMKVH8E9QFSYFWH/hi-anti-pig-butchering-policy-in-crypto-cambodia.png",
         "publishedAt": "2026-09-04T04:33:55Z",
         "content": "The United States and United Kingdom have formed a joint law enforcement alliance targeting scam centers involved in crypto and cyber-enabled investment fraud. \r\nOn Thursday, the US Department of Jus… [+2561 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Tether sued over frozen ‘pig butcher’ coins, 6,600 students get crypto loans: Asia Express",
-        "description": "Two Thai businessmen who don’t dispute involvement with a pig butchering scam sue Tether over frozen funds, thousands of Asia students access crypto loans. Asia Express.",
-        "url": "https://cointelegraph.com/magazine/tether-sued-over-frozen-pig-butcher-coins-6600-students-get-crypto-loans-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1MT8AVRA0N4FG4HK9PK2CZ5/asia-express-11.jpg",
-        "publishedAt": "2026-09-03T23:40:09Z",
-        "content": "THAILAND\r\nThai businessmen sue Tether for freezing $42M in $61M pig butchering case\r\nTwo Thai businessmen have sued stablecoin issuer Tether in a New York district court, claiming it illegally froze … [+8572 chars]"
       }
     ]
   }
