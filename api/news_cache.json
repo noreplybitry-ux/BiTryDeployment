@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-14T23:46:55.542Z",
+  "timestamp": "2026-09-15T04:20:24.724Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest",
+        "description": "A flurry of last minute meetings could get Tuesday’s crucial Senate vote on the CLARITY act over the line. Swarm fears prompt AI development slowdown, but how will markets react?",
+        "url": "https://cointelegraph.com/magazine/cryptos-biggest-week-ever-swarm-fears-prompt-ai-slowdown-hodlers-digest",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2EK46FSXWXQTA0ENWV5Z0W4/three-figures-no-text.png",
+        "publishedAt": "2026-09-14T00:15:37Z",
+        "content": "Cryptos moment of CLARITY arrives\r\nThe CLARITY act heads for a crucial Senate vote on September 15, with Politico reporting that Democrat senators had been called to a meeting on Sunday by Minority L… [+10465 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/c89be77442c7acfd3f44fb634f7ea9b4bfd2ccbe726f7e4104d58f5c17d3fbb1/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2Fa323b6ba5074d790f369906394cf24ae",
         "publishedAt": "2026-09-04T08:43:45Z",
         "content": "Bitcoin (BTC) is changing hands around $80,724, down 0.93% over the past 24 hours, a modest pullback, and certainly one that doesn't dent the bigger story unfolding against gold. One Bitcoin now buys… [+4559 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "US, UK launch joint alliance targeting crypto scam centers",
-        "description": "The agreement includes parallel investigations and information sharing, with US and UK authorities planning a private-sector disruption operation in London in October.",
-        "url": "https://cointelegraph.com/news/us-uk-joint-alliance-crypto-scam-centers",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NB3D2EEQMKVH8E9QFSYFWH/hi-anti-pig-butchering-policy-in-crypto-cambodia.png",
-        "publishedAt": "2026-09-04T04:33:55Z",
-        "content": "The United States and United Kingdom have formed a joint law enforcement alliance targeting scam centers involved in crypto and cyber-enabled investment fraud. \r\nOn Thursday, the US Department of Jus… [+2561 chars]"
       }
     ]
   }
