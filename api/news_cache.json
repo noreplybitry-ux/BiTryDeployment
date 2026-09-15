@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-15T14:46:32.430Z",
+  "timestamp": "2026-09-15T18:49:20.657Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Strive adds 469 Bitcoin to reach 25,000 BTC treasury",
+        "description": "Strive’s latest Bitcoin purchase was funded entirely through its SATA preferred stock as the company continues its rapid climb among corporate BTC holders.",
+        "url": "https://cointelegraph.com/news/strive-adds-469-bitcoin-to-reach-25000-btc-treasury",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2GEQRXMNZKPZF714Z603E41/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price-1.png",
+        "publishedAt": "2026-09-14T17:50:12Z",
+        "content": "Strive, a top-five Bitcoin treasury company and asset manager, purchased 469 Bitcoin for about $36.6 million last week, bringing its holdings to 25,000 BTC.\r\nAccording to a Monday filing with the US … [+2331 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks",
+        "description": "AI CEOs want the industry to pump the brakes on capability gains. Nvidia, Intel, and AMD didn't like the sound of that. Bitcoin didn't seem to mind.",
+        "url": "https://decrypt.co/378157/bitcoin-climbs-ai-slowdown-nvidia-chip-stocks",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
+        "publishedAt": "2026-09-14T17:40:04Z",
+        "content": "In brief\r\n<ul><li>Anthropic CEO Dario Amodei has called on AI labs to deliberately slow capability gains for safety reasons; OpenAI's Sam Altman and xAI's Elon Musk both said they agree.</li><li>Nvid… [+3112 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Crypto Market Has 'Definitely Not Priced In' Clarity Act Surprise, Says Bernstein",
+        "description": "Ethics and banking concessions have improved the crypto bill’s prospects, analysts say, but Democratic support remains uncertain.",
+        "url": "https://decrypt.co/378155/crypto-not-priced-in-clarity-act-surprise-bernstein",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-09-14T17:25:06Z",
+        "content": "In brief\r\n<ul><li>Bernstein says markets have not priced in a positive surprise on the Clarity Act.</li><li>Republicans revised ethics enforcement and protections for community-bank deposits.</li><li… [+3034 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +368,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-El-Salvador-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-09-04T12:26:01Z",
         "content": "In brief\r\n<ul><li>IMF staff reached a preliminary agreement on El Salvador's combined second and third program reviews, unlocking about $140 million if the board approves.</li><li>Documentation showe… [+2813 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "FinCEN Ties $12.7B to Crypto Scams Run From Asian Compounds",
-        "description": "Monthly reported sums rose 18% on average, and the compounds now appear to be spreading beyond Southeast Asia.",
-        "url": "https://decrypt.co/377386/fincen-ties-12-7b-to-crypto-scams-run-from-asian-compounds",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/amnesty-cambodia-scam-compound-gID_7.jpg",
-        "publishedAt": "2026-09-04T10:22:57Z",
-        "content": "In brief\r\n<ul><li>FinCEN analyzed 33,904 suspicious activity reports filed between September 2023 and December 2025.</li><li>About 1,300 institutions filed them, with crypto money services businesses… [+3023 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Bitcoin News: BTC to Gold Ratio Hits 18 as Both Assets Rally",
-        "description": "Bitcoin now buys 18 ounces of gold, the highest reading on that ratio since January, and it’s climbing while both assets rally together after the Fed’s job d...",
-        "url": "https://cryptonews.com/news/bitcoin-gold-ratio-18-news/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/e5d01cac851340cc383e5d71ccfc727e3cc808d4ce9a4b2bc76e61ceb148b6cc/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Ff96479ec5ac0a1ec5e8b76785a607a15",
-        "publishedAt": "2026-09-04T08:50:00Z",
-        "content": "Bitcoin now buys 18 ounces of gold, the highest reading on that ratio since January, and it's climbing while both assets rally together after the Fed's job data news. The number forces a specific que… [+3279 chars]"
       }
     ]
   }
