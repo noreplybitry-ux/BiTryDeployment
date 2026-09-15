@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-15T04:20:24.724Z",
+  "timestamp": "2026-09-15T09:53:32.524Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Bitcoin Suisse to Cut Up to Half Its Swiss Jobs in Overseas Shift",
+        "description": "The Crypto Valley pioneer is moving up to 60 Zug jobs to Bratislava or Vietnam as it pivots from a Swiss crypto specialist into a global wealth manager.",
+        "url": "https://decrypt.co/378119/bitcoin-suisse-cut-half-swiss-jobs",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
+        "publishedAt": "2026-09-14T09:01:03Z",
+        "content": "In brief\r\n<ul><li>Bitcoin Suisse plans to relocate up to half its Zug headquarters jobs abroadas many as 60 positions, mostly back-office and administrative rolesto Bratislava or Vietnam, with the fi… [+2470 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/e5d01cac851340cc383e5d71ccfc727e3cc808d4ce9a4b2bc76e61ceb148b6cc/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Ff96479ec5ac0a1ec5e8b76785a607a15",
         "publishedAt": "2026-09-04T08:50:00Z",
         "content": "Bitcoin now buys 18 ounces of gold, the highest reading on that ratio since January, and it's climbing while both assets rally together after the Fed's job data news. The number forces a specific que… [+3279 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Daniel Francis",
-        "title": "Bitcoin is Now Less Than 18 Ounces of Gold: BTC XAU Ratio in Focus",
-        "description": "Bitcoin (BTC) is changing hands around $80,724, down 0.93% over the past 24 hours, a modest pullback, and certainly one that doesn’t dent the bigger story un...",
-        "url": "https://www.coinspeaker.com/bitcoin-gold-ratio-btc-xau/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/c89be77442c7acfd3f44fb634f7ea9b4bfd2ccbe726f7e4104d58f5c17d3fbb1/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2Fa323b6ba5074d790f369906394cf24ae",
-        "publishedAt": "2026-09-04T08:43:45Z",
-        "content": "Bitcoin (BTC) is changing hands around $80,724, down 0.93% over the past 24 hours, a modest pullback, and certainly one that doesn't dent the bigger story unfolding against gold. One Bitcoin now buys… [+4559 chars]"
       }
     ]
   }
