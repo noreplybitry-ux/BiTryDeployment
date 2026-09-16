@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-16T13:18:40.888Z",
+  "timestamp": "2026-09-16T18:02:27.571Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Binance adds 11 US-listed ETFs to wealth management offering",
+        "description": "The crypto exchange is expanding its traditional finance offerings with 11 US-listed exchange-traded funds focused on US Treasurys and investment-grade bonds.",
+        "url": "https://cointelegraph.com/news/binance-adds-11-us-listed-etfs-to-wealth-management-offering",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2JZT31WJSAPCWV4C5T6FJ1R/hi-bitcoin-etf-sec-deadline-on-nov-5-not-a-decision-on-etfs-but-deadline-for-the-public-to-submit-a-review-clarifying-piece.png",
+        "publishedAt": "2026-09-15T17:22:04Z",
+        "content": "Binance has launched a wealth management service offering access to 11 US-listed exchange-traded funds focused on short-term US Treasurys and investment-grade bonds.\r\nThe new Binance Earn offering gr… [+1401 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs",
+        "description": "Bitcoin price action weakened over market nerves prior to the Senate CLARITY Act vote, while surging bond yields pressured risk assets across the board.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-to-756k-september-low-as-global-bonds-hit-multidecade-highs",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2JWDC9JXEQB4J55MT31ZEK2/hi-what-are-bonds-and-how-do-they-work-for-crypto-red.jpg",
+        "publishedAt": "2026-09-15T16:02:01Z",
+        "content": "Bitcoin (BTC) saw month-to-date lows at Tuesdays Wall Street open as global bond yields spiked and crypto markets awaited a key US Senate vote on the CLARITY Act.\r\nKey points:\r\n<ul><li>Bitcoin droppe… [+3559 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1RDG59G42A1KT2B2MD6EQRF/poland.png",
         "publishedAt": "2026-09-05T10:44:29Z",
         "content": "Polish lawmakers have again failed to secure the three-fifths majority needed to overturn President Karol Nawrockis veto of legislation aimed at strengthening oversight of the countrys crypto market.… [+2584 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Slides as Blowout Jobs Report Revives Fed Hike Odds",
-        "description": "The Dow dropped 226 points and Bitcoin erased some of its gains after August payrolls tripled estimates, pushing September rate-hike odds to 58%.",
-        "url": "https://decrypt.co/377414/bitcoin-slides-blowout-jobs-report-fed-hike-odds",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/nyse-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-04T15:13:28Z",
-        "content": "In brief\r\n<ul><li>The U.S. economy added 162,000 jobs in August, nearly triple the 53,000 economists expected, while unemployment held at 4.1%, according to the Bureau of Labor Statistics.</li><li>Bi… [+3679 chars]"
       }
     ]
   }
