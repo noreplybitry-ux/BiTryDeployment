@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-16T01:11:57.518Z",
+  "timestamp": "2026-09-16T07:28:47.867Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "CoinEx to cease operation after 9 years, citing ‘significant’ crypto contraction",
+        "description": "CoinEx said falling trading volumes and liquidity, along with rising regulatory and compliance costs, had exceeded “reasonable boundaries,” with withdrawals remaining open until Dec. 22.",
+        "url": "https://cointelegraph.com/news/coinex-cease-operation-citing-significant-crypto-contraction",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2HJPZRCHW98XR8YR97CKYKA/crypto-winter.jpg",
+        "publishedAt": "2026-09-15T04:19:16Z",
+        "content": "Crypto exchange CoinEx said it is winding down operations, citing a prolonged crypto market downturn, sinking trading volumes and liquidity, and rising regulatory and compliance costs, according to a… [+1943 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/nyse-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-04T15:13:28Z",
         "content": "In brief\r\n<ul><li>The U.S. economy added 162,000 jobs in August, nearly triple the 53,000 economists expected, while unemployment held at 4.1%, according to the Bureau of Labor Statistics.</li><li>Bi… [+3679 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "IMF Now Says Donations Funded El Salvador's Bitcoin Growth",
-        "description": "A year ago the fund claimed the total had not moved, and that the reserve was only shuffling coins between government wallets.",
-        "url": "https://decrypt.co/377392/imf-now-says-donations-funded-el-salvadors-bitcoin-growth",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-El-Salvador-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-09-04T12:26:01Z",
-        "content": "In brief\r\n<ul><li>IMF staff reached a preliminary agreement on El Salvador's combined second and third program reviews, unlocking about $140 million if the board approves.</li><li>Documentation showe… [+2813 chars]"
       }
     ]
   }
