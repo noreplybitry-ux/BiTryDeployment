@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-16T18:02:27.571Z",
+  "timestamp": "2026-09-16T21:59:19.877Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jason Nelson",
+        "title": "Coinbase-Backed Crypto Group Warns of Midterms Payback After Clarity Act Fails",
+        "description": "The Coinbase-backed Stand With Crypto will add senators’ votes to its scorecards as it rallies crypto voters ahead of November’s elections.",
+        "url": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/US-Capitol-decrypt-style-03-gID_7.png",
+        "publishedAt": "2026-09-15T21:10:06Z",
+        "content": "In brief\r\n<ul><li>The Senate failed to advance the Clarity Act in a procedural vote Tuesday.</li><li>Stand With Crypto will include the vote in its ratings of lawmakers.</li><li>The group pledged to … [+3060 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Crypto Reacts: Bitcoin Slides as Clarity Act Fails to Clear Senate Vote",
+        "description": "The Senate fell short of the 60 votes needed to advance the crypto industry's marquee bill Tuesday. Bitcoin dropped as the no tally mounted, but the move stopped well short of panic.",
+        "url": "https://decrypt.co/378286/crypto-clarity-act-fails-clear-senate-bitcoin-slides",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/stocks-gID_7.jpg",
+        "publishedAt": "2026-09-15T19:18:29Z",
+        "content": "In brief\r\n<ul><li>The Senate failed to invoke cloture on the Digital Asset Market Clarity Act Tuesday, after 50 senators voted against it.</li><li>Bitcoin slid from a session high near $77,200 to a l… [+4594 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-2.-Juni-2026-09_17_53.png?fit=1222%2C687",
         "publishedAt": "2026-09-07T14:45:00Z",
         "content": "U.S. spot Bitcoin ETFs have pulled in $3.8 billion in net inflows over a three-week stretch, with BlackRocks IBIT and Fidelitys FBTC leading the flow data.\r\nThe figure gives Bitcoin traders another s… [+3788 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
-        "description": "Polish lawmakers failed to overturn a presidential veto of crypto legislation as the Zondacrypto investigation expands and its Estonian operator enters bankruptcy.",
-        "url": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1RDG59G42A1KT2B2MD6EQRF/poland.png",
-        "publishedAt": "2026-09-05T10:44:29Z",
-        "content": "Polish lawmakers have again failed to secure the three-fifths majority needed to overturn President Karol Nawrockis veto of legislation aimed at strengthening oversight of the countrys crypto market.… [+2584 chars]"
       }
     ]
   }
