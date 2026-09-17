@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-16T21:59:19.877Z",
+  "timestamp": "2026-09-17T00:20:48.058Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/chainlink-decrypt-style-01-gID_7.jpg",
         "publishedAt": "2026-09-07T15:42:34Z",
         "content": "In brief\r\n<ul><li>Bottomline, a top-three SWIFT services provider that processes more than $16 trillion in payments annually, announced a deal with Chainlink to connect its 600-plus bank customers to… [+4296 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Bitcoin ETFs Add $3.8B Over Three Weeks As IBIT And FBTC Lead",
-        "description": "Read the latest update on Bitcoin ETFs Add $3.8B Over Three Weeks As IBIT And FBTC Lead.",
-        "url": "http://www.newsbtc.com/news/bitcoin-etfs-add-3-8b-over-three-weeks-as-ibit-and-fbtc-lead/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/ChatGPT-Image-2.-Juni-2026-09_17_53.png?fit=1222%2C687",
-        "publishedAt": "2026-09-07T14:45:00Z",
-        "content": "U.S. spot Bitcoin ETFs have pulled in $3.8 billion in net inflows over a three-week stretch, with BlackRocks IBIT and Fidelitys FBTC leading the flow data.\r\nThe figure gives Bitcoin traders another s… [+3788 chars]"
       }
     ]
   }
