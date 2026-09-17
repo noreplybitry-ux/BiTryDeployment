@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-17T11:22:59.321Z",
+  "timestamp": "2026-09-17T16:39:25.693Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin ETFs Had Their Worst Day Since June Following Failed Clarity Act Vote",
+        "description": "Bitcoin, Ethereum, and XRP ETFs shed roughly $593 million combined Tuesday, their heaviest single-day drawdown since June.",
+        "url": "https://decrypt.co/378382/bitcoin-etfs-clarity-act-vote",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ETF2-gID_7.png",
+        "publishedAt": "2026-09-16T15:50:07Z",
+        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs shed $450.4 million Tuesday, their largest single-day outflow since June 24.</li><li>The Senate voted 49 to 50 against invoking cloture on the Clarity Act, a … [+3841 chars]"
+      },
       {
         "source": {
           "id": null,
