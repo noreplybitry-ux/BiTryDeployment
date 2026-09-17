@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-17T05:55:40.120Z",
+  "timestamp": "2026-09-17T11:22:59.321Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin holds above key moving averages despite CLARITY Act sell-off",
+        "description": "Key takeaways Bitcoin traded near $75,950 after falling more than 1% on Tuesday. Ethereum and XRP declined more than 4% and 9%, respectively. BTC remains above its 50-day, 100-day, and 200-day EMAs. Bitcoin (BTC) traded near $75,950 on Wednesday after declini…",
+        "url": "https://coinjournal.net/news/bitcoin-holds-above-key-moving-averages-despite-clarity-act-sell-off/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-11_05_47-AM.png",
+        "publishedAt": "2026-09-16T10:08:34Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin traded near $75,950 after falling more than 1% on Tuesday.</li><li>Ethereum and XRP declined more than 4% and 9%, respectively.</li><li>BTC remains above its 50-day, 10… [+3140 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Crypto Exchange CoinEx Is Shutting Down After Nine Years, Giving Users Until December to Cash Out",
+        "description": "The Hong Kong-founded exchange blamed a prolonged crypto winter and rising compliance costs, closing the books on a run that began in December 2017.",
+        "url": "https://decrypt.co/378324/coinex-shutting-down",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/closed-sign-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-16T08:01:03Z",
+        "content": "In brief\r\n<ul><li>CoinEx will formally close on Dec. 22, 2026, nine years to the day after it launched, with new signups already halted and spot trading ending Sept. 29.</li><li>Founder and CEO Haipo… [+2668 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "AI has been a ‘net negative’ for crypto: Phemex CEO",
+        "description": "Federico Variola says AI has diverted capital from crypto and is empowering attackers, while rising cybersecurity costs could push the industry toward greater centralization.",
+        "url": "https://cointelegraph.com/news/ai-has-been-a-net-negative-for-crypto-phemex-ceo",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MEY4H050WZYJEZA2JY1JK2/ai-1.jpg",
+        "publishedAt": "2026-09-16T06:38:48Z",
+        "content": "Phemex CEO Federico Variola says AI has been a net negative for crypto, despite the crypto exchange announcing an AI-focused transformation earlier this year. \r\nSpeaking on Cointelegraphs Chain React… [+2925 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/crypto-com-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-08T15:25:16Z",
         "content": "In brief\r\n<ul><li>Robinhood and Crypto.coms OG.com, announced a multi-year deal Tuesday making OG.com an infrastructure and clearing provider for Robinhood's Prediction Markets platform.</li><li>Robi… [+4108 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin chips away at weekend upside as $80K hangs in the balance",
-        "description": "Bitcoin price fell 2% in low-liquidity conditions as the US Labor Day holiday saw $80,000 once again slip from bulls’ grasp.",
-        "url": "https://cointelegraph.com/markets/bitcoin-chips-away-at-weekend-upside-as-80k-hangs-in-the-balance",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1Y8ZNSF5WMPGFQ1661WSGAG/hi-why-bitcoin-treasury-stocks-fall-faster-than-the-assets-they-hold-2.jpg",
-        "publishedAt": "2026-09-07T15:57:47Z",
-        "content": "Bitcoin (BTC) drifted lower on Monday as a low-liquidity environment erased the weekends gains above $80,000.\r\nKey points:\r\n<ul><li>Bitcoin dips 2% below $80,000 after its highest weekly close since … [+2681 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Starts the Week Flat, But Chainlink Is Flying—Here's Why",
-        "description": "LINK hit an eight-month high after Bottomline, a top-three SWIFT services provider moving $16 trillion a year, tapped Chainlink to connect 600-plus banks to blockchain settlement.",
-        "url": "https://decrypt.co/377566/bitcoin-starts-flat-chainlink-price-flying",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/chainlink-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-09-07T15:42:34Z",
-        "content": "In brief\r\n<ul><li>Bottomline, a top-three SWIFT services provider that processes more than $16 trillion in payments annually, announced a deal with Chainlink to connect its 600-plus bank customers to… [+4296 chars]"
       }
     ]
   }
