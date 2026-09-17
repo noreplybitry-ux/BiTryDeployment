@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-17T16:39:25.693Z",
+  "timestamp": "2026-09-17T20:06:05.201Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "UK FCA sets crypto authorization guidance ahead of September application window",
+        "description": "The FCA’s new guidance outlines which crypto activities may require authorization as firms prepare for the UK’s incoming digital asset regulatory regime.",
+        "url": "https://cointelegraph.com/news/uk-fca-sets-crypto-authorization-guidance-ahead-of-september-application-window",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2NRTRQVV5H9VDTT43R1701S/hi-united-kingdom-making-strides-on-crypto-regulation-fca.jpg",
+        "publishedAt": "2026-09-16T19:19:23Z",
+        "content": "The UK Financial Conduct Authority has issued final guidance outlining when crypto activities may require authorization under the countrys incoming regulatory regime.\r\nThe guidance covers activities … [+2235 chars]"
+      },
       {
         "source": {
           "id": null,
