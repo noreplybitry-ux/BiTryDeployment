@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-18T09:30:57.846Z",
+  "timestamp": "2026-09-18T14:15:33.646Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Crypto adoption blooming in Germany, while UK is falling ‘behind,’ says CoinShares researcher",
+        "description": "German crypto adoption is progressing through family offices and wealth managers, while the UK only recently reversed its ban on crypto ETPs for retail investors, explained the researcher.",
+        "url": "https://cointelegraph.com/news/crypto-adoption-blooming-germany-uk-behind-researcher",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2QHYX57TFPR50NZSRV98AR3/hi-german-crypto-ecosystem-2021.jpg",
+        "publishedAt": "2026-09-17T12:34:11Z",
+        "content": "Cryptocurrency adoption is advancing in Germany, particularly among younger investors, while the UK is gradually falling behind, largely due to lagging regulations, according to CoinShares crypto res… [+2317 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22A0GM1G22S8VPZXWGBQS1G/hi-time-to-switch-license-singapore.jpg",
         "publishedAt": "2026-09-09T05:27:12Z",
         "content": "Crypto exchange Gemini has received a Major Payment Institution (MPI) license from the Monetary Authority of Singapore (MAS), completing its transition from in-principle approval granted nearly two y… [+1263 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Holds, Wall Street Stalls as Oil Shock Revives Fed Hike Bets",
-        "description": "Bitcoin is defending its golden zone support while the S&P 500 grinds inside its tightest range yet, both waiting on Friday's inflation report before the Fed's September 16 rate call.",
-        "url": "https://decrypt.co/377705/bitcoin-holds-wall-street-stalls-oil-shock-fed-hike",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png",
-        "publishedAt": "2026-09-08T18:59:35Z",
-        "content": "In brief\r\n<ul><li>Bitcoin traded at $78,524 Tuesday, down 0.72%, while the S&amp;P 500 closed at 7,689.80, off 0.37%, as oil pushed toward $100 a barrel on renewed U.S.-Iran fighting in the Strait of… [+4736 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Robinhood takes stakes in Crypto.com, OG.com in prediction markets deal",
-        "description": "Robinhood takes equity stakes in Crypto.com and OG.com as part of a deal to expand its prediction markets infrastructure and event contract offering.",
-        "url": "https://cointelegraph.com/news/robinhood-takes-stakes-in-cryptocom-ogcom-in-prediction-markets-deal",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M20X8RTKQJQJ462YAJQDMNR1/hi-new-industry-new-rules-building-an-industry-without-bias.png",
-        "publishedAt": "2026-09-08T17:03:47Z",
-        "content": "Robinhood has taken equity stakes in Crypto.com and its newly spun-off prediction market platform OG.com as part of a multi-year deal to use OG.coms regulated infrastructure for event contracts.\r\nUnd… [+2535 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Robinhood Takes Equity Stake in Crypto.com, Taps Exchange to Power Prediction Markets",
-        "description": "The multi-year deal makes OG.com the infrastructure and clearing engine behind Robinhood's fastest-growing business.",
-        "url": "https://decrypt.co/377676/robinhood-equity-crypto-com-prediction-markets",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/crypto-com-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-08T15:25:16Z",
-        "content": "In brief\r\n<ul><li>Robinhood and Crypto.coms OG.com, announced a multi-year deal Tuesday making OG.com an infrastructure and clearing provider for Robinhood's Prediction Markets platform.</li><li>Robi… [+4108 chars]"
       }
     ]
   }
