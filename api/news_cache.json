@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-18T14:15:33.646Z",
+  "timestamp": "2026-09-18T18:13:24.401Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "FCA Targets Three More London Sites Over Unregistered P2P Crypto Trading",
+        "description": "\"Anyone running an unregistered peer-to-peer crypto business should assume we are looking at them,\" the FCA's enforcement chief said.",
+        "url": "https://decrypt.co/378495/fca-targets-three-more-london-sites-over-unregistered-p2p-crypto-trading",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-17T15:21:19Z",
+        "content": "In brief\r\n<ul><li>The FCA, HMRC and the Metropolitan Police visited three London premises on September 10.</li><li>Cease and desist letters were issued at all three, ordering suspected illegal busine… [+2749 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,71 +342,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22YH8T5P9TFVVDGR0A597KG/hi-bank-of-italy-and-crypto-recap.jpg",
         "publishedAt": "2026-09-09T12:20:33Z",
         "content": "Italys central bank, Banca dItalia, ordered mandatory sanctions screening for cryptocurrency transfers to help curb illicit flows across the EU. \r\nThe bank said that crypto asset service providers (C… [+1317 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin SOPR metric sees longest profit run of 2026 as new analysis challenges bear market",
-        "description": "Bitcoin aggregate onchain profit entered its fourth week, but a popular analyst warned that BTC price “downside risk” remained in place.",
-        "url": "https://cointelegraph.com/markets/bitcoin-sopr-metric-sees-longest-profit-run-of-2026-as-new-analysis-challenges-bear-market",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22T4WSTAGZ7E6YW1EWZGJDW/dollar-fiat-money-bitcoin-1.jpg",
-        "publishedAt": "2026-09-09T10:12:16Z",
-        "content": "Bitcoin (BTC) is breaking with typical bear-market behavior as a classic onchain metric puts in its longest bullish streak of 2026.\r\nKey points:\r\n<ul><li>Bitcoins SOPR metric has stayed above its bre… [+2963 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Chainlink surges 51% as bullish breakout points to $18",
-        "description": "Key takeaways Chainlink has gained 51% over seven days amid improving regulatory sentiment and project-specific developments. Chainlink’s total value secured rose from $43 billion in June to nearly $57 billion by the end of August—an increase of approximately…",
-        "url": "https://coinjournal.net/news/chainlink-surges-51-as-bullish-breakout-points-to-18/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/09/ChatGPT-Image-Sep-9-2026-09_12_38-AM.png",
-        "publishedAt": "2026-09-09T08:15:48Z",
-        "content": "Key takeaways\r\n<ul><li>Chainlink has gained 51% over seven days amid improving regulatory sentiment and project-specific developments.</li><li>Chainlink’s total value secured rose from $43 billion in… [+5277 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Elon Musk Grok AI Predicts $250K Bitcoin Price by 2027",
-        "description": "The Elon Musk-backed Grok AI predicts BTC could hit a quarter of a million dollars by January 1, 2027, a figure sure to excite the Bitcoin community. The mod...",
-        "url": "https://cryptonews.com/news/elon-musk-grok-ai-predicts-250k-bitcoin-2027/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/21cafbfc912be8ab8b3b810a4f0c94c5f821c75e3895a0c994a6b1ca12e1390b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fc368cd87c5ade2127a56f0a04c74b4b4.jpg",
-        "publishedAt": "2026-09-09T08:12:18Z",
-        "content": "The Elon Musk-backed Grok AI predicts BTC could hit a quarter of a million dollars by January 1, 2027, a figure sure to excite the Bitcoin community. The model predicts BTC could reach between $200,0… [+2779 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
-        "description": "Iran’s central bank has reportedly relaxed currency controls, giving businesses more scope to use USDT and Bitcoin for trade amid tightening US sanctions.",
-        "url": "https://cointelegraph.com/news/iran-central-bank-encourages-crypto-evade-sanctions",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22ESE8ZYFYS2R1YN4CJ0FMK/hi-iran-launching-a-currency.jpg",
-        "publishedAt": "2026-09-09T07:36:39Z",
-        "content": "Irans central bank has reportedly eased foreign currency controls to encourage businesses to bring overseas earnings home, including through cryptocurrency, amid tightening US sanctions.\r\nThis includ… [+1239 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Gemini receives Singapore payment license for crypto services",
-        "description": "Gemini’s local entity is authorized to provide digital payment token and cross-border money transfer services without standard transaction-volume limits.",
-        "url": "https://cointelegraph.com/news/gemini-singapore-mpi-license-crypto-services",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22A0GM1G22S8VPZXWGBQS1G/hi-time-to-switch-license-singapore.jpg",
-        "publishedAt": "2026-09-09T05:27:12Z",
-        "content": "Crypto exchange Gemini has received a Major Payment Institution (MPI) license from the Monetary Authority of Singapore (MAS), completing its transition from in-principle approval granted nearly two y… [+1263 chars]"
       }
     ]
   }
