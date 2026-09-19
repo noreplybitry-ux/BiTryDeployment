@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-19T00:02:37.353Z",
+  "timestamp": "2026-09-19T05:36:59.052Z",
   "data": {
     "status": "ok",
     "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments",
+        "description": "US Treasury says the Iranian exchange processed payments received through Iran’s Strait of Hormuz maritime scheme and helped move hundreds of millions of dollars in Bitcoin to the IRGC.",
+        "url": "https://cointelegraph.com/news/us-sanctions-irans-bitbank-saying-it-processes-hormuz-safe-bitcoin-payments",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2S256YQ45ANHSRCNHS5BZ56/bitbank.jpg",
+        "publishedAt": "2026-09-18T01:33:54Z",
+        "content": "US authorities on Thursday announced sanctions against Iranian crypto exchange BitBank, accusing it of processing Bitcoin paid by ships transiting the Strait of Hormuz.\r\nThe US Department of the Trea… [+2289 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,19 +342,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/75e84f0613bdf64a4b44d277c423264e1c90cd985dc2df203aef90f0492dabfe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F6ecc054fcb17eb2212085ff1134d7323.jpg",
         "publishedAt": "2026-09-10T09:48:14Z",
         "content": "Brian Armstrong, Coinbase's CEO, said Bitcoin reaching $400,000 by 2030 is a reasonable target, and described the $300,000-$400,000 range as very likely to be hit within that window, in a CNBC Squawk… [+3362 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin sell-side risk returns to rare lows as $80K sellers fade from view",
-        "description": "Bitcoin investors showed little sign of panic selling as BTC held most of its August gains and sell-side risk fell to rare lows, data showed.",
-        "url": "https://cointelegraph.com/markets/bitcoin-sell-side-risk-returns-rare-lows-fade",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M259VB1C6WATJW98PNV7EBMY/bitcoin-relax-adoption.jpg",
-        "publishedAt": "2026-09-10T09:36:42Z",
-        "content": "Bitcoin (BTC) sell-side risk remains near historic lows as August profit-taking cools, new data shows.\r\nKey points:\r\n<ul><li>Bitcoins sell-side risk ratio fell to seven from 16 in September, placing … [+2755 chars]"
       }
     ]
   }
