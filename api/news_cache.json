@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "timestamp": "2026-09-18T21:32:29.924Z",
+  "timestamp": "2026-09-19T00:02:37.353Z",
   "data": {
     "status": "ok",
     "totalResults": 26,
@@ -17,6 +17,19 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-17T15:21:19Z",
         "content": "In brief\r\n<ul><li>The FCA, HMRC and the Metropolitan Police visited three London premises on September 10.</li><li>Cease and desist letters were issued at all three, ordering suspected illegal busine… [+2749 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinspeaker"
+        },
+        "author": "Daniel Francis",
+        "title": "ETF Outflows Clash With Crypto Traders’ Ethereum Conviction",
+        "description": "Ethereum is currently trading near $2,440, up 1.7% over the prior 24 hours, even with some bad news. The price is holding above the $2,400 mark, and it has d...",
+        "url": "https://www.coinspeaker.com/ethereum-news-price-etf-outflows/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/c981488309ea11db1d16bc642d1acba382b84bdb0392aa237c16679eda68072e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2F3b7a9e6c1d20c172330d8918a026b285",
+        "publishedAt": "2026-09-17T15:08:58Z",
+        "content": "Ethereum is currently trading near $2,440, up 1.7% over the prior 24 hours, even with some bad news. The price is holding above the $2,400 mark, and it has defended through two developments that migh… [+4184 chars]"
       },
       {
         "source": {
@@ -329,19 +342,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M259VB1C6WATJW98PNV7EBMY/bitcoin-relax-adoption.jpg",
         "publishedAt": "2026-09-10T09:36:42Z",
         "content": "Bitcoin (BTC) sell-side risk remains near historic lows as August profit-taking cools, new data shows.\r\nKey points:\r\n<ul><li>Bitcoins sell-side risk ratio fell to seven from 16 in September, placing … [+2755 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Italy’s central bank orders sanctions screening for crypto transfers",
-        "description": "Italy’s central bank ordered crypto service providers to implement mandatory screening procedures to identify digital asset transfers from sanctioned entities.",
-        "url": "https://cointelegraph.com/news/italys-central-bank-orders-sanctions-screening-for-crypto-transfers",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22YH8T5P9TFVVDGR0A597KG/hi-bank-of-italy-and-crypto-recap.jpg",
-        "publishedAt": "2026-09-09T12:20:33Z",
-        "content": "Italys central bank, Banca dItalia, ordered mandatory sanctions screening for cryptocurrency transfers to help curb illicit flows across the EU. \r\nThe bank said that crypto asset service providers (C… [+1317 chars]"
       }
     ]
   }
