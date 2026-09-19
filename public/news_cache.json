@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-19T05:36:59.052Z",
+  "timestamp": "2026-09-19T10:39:02.802Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships",
+        "description": "OFAC says hundreds of millions of dollars in Bitcoin moved through BitBank to the Revolutionary Guards in two months.",
+        "url": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
+        "publishedAt": "2026-09-18T09:01:55Z",
+        "content": "In brief\r\n<ul><li>OFAC has designated BitBank, an Iranian exchange controlled by financier Babak Zanjani.</li><li>Treasury says Zanjani used it to move hundreds of millions in Bitcoin to the IRGC bet… [+3377 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Iran’s Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
+        "description": "The U.S. Treasury sanctioned BitBank, a Tehran exchange it says moved hundreds of millions of dollars in bitcoin to the Revolutionary Guards and handled payments collected from ships buying passage through the world’s most important oil chokepoint.",
+        "url": "https://www.coindesk.com/policy/2026/09/18/iran-s-strait-of-hormuz-toll-booth-ran-through-a-bitcoin-exchange-u-s-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ea6e0ec4cd84026d0707ce39424079748bd5f9fb-3449x2300.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-09-18T06:52:23Z",
+        "content": "Iran has spent this year charging tankers between $1 million and $2 million to cross the Strait of Hormuz, and the U.S. Treasury said that since June, part of that money has moved through a cryptocur… [+927 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,19 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
         "publishedAt": "2026-09-10T18:46:04Z",
         "content": "In brief\r\n<ul><li>Bitcoin fell 1.22% today to $77,323, unable to extend last week's push above $80,000 as broader markets sold off on inflation fears.</li><li>Bitcoin's 50-day EMA is inches from cros… [+4102 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Bitcoin News: Bond Stress and Regulation Shape Armstrong’s $400K BTC Prediction",
-        "description": "Brian Armstrong, Coinbase’s CEO, said Bitcoin reaching $400,000 by 2030 is a reasonable target, and described the $300,000-$400,000 range as very likely to b...",
-        "url": "https://cryptonews.com/news/bitcoin-price-prediction-armstrong/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/75e84f0613bdf64a4b44d277c423264e1c90cd985dc2df203aef90f0492dabfe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2F6ecc054fcb17eb2212085ff1134d7323.jpg",
-        "publishedAt": "2026-09-10T09:48:14Z",
-        "content": "Brian Armstrong, Coinbase's CEO, said Bitcoin reaching $400,000 by 2030 is a reasonable target, and described the $300,000-$400,000 range as very likely to be hit within that window, in a CNBC Squawk… [+3362 chars]"
       }
     ]
   }
