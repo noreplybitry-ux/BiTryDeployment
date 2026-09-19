@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-19T14:15:33.050Z",
+  "timestamp": "2026-09-19T17:52:48.610Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin hits $81K as US bond yields rebound on global oil woes",
+        "description": "Bitcoin price action made swift gains at the start of Friday’s Wall Street trading session as US 30-year bond yields began rising again.",
+        "url": "https://cointelegraph.com/markets/bitcoin-hits-81k-as-us-bond-yields-rebound-on-global-oil-woes",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2TJDKWQFE5TAXZVRTNBSB4T/oil-bitcoin-coin-stablecoin-blockchain-sky-platform-production-iran.jpg",
+        "publishedAt": "2026-09-18T15:35:59Z",
+        "content": "Bitcoin (BTC) jumped past $80,000 around Fridays Wall Street open as fuel-crisis woes spread through global markets.\r\nKey points:\r\n<ul><li>Bitcoin gained 6% on Friday as concerns about oil supply saw… [+3311 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +342,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26Q2WGDD8GDA5QMCWQF3GB3/magazineasia-expresssnow.jpg",
         "publishedAt": "2026-09-10T23:21:26Z",
         "content": "JAPAN\r\nMetaplanets executive stock pool sparks shareholder backlash\r\nJapanese Bitcoin treasury company Metaplanets executive stock pool continues to draw shareholder backlash over stock dilution conc… [+6601 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Coinbase Wallet Rebrands to Chase 'Anything, Anywhere' Trading as Robinhood Chain Heats Up",
-        "description": "Head of Product Ryan Kass says the return to Coinbase Wallet reflects a broader trading strategy, with the self-custody app serving as a testing ground for new assets and experiences.",
-        "url": "https://decrypt.co/377601/coinbase-wallet-rebrand-robinhood-chain",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
-        "publishedAt": "2026-09-10T18:51:04Z",
-        "content": "In brief\r\n<ul><li>Base App is scheduled to rebrand back to Coinbase Wallet on September 8.</li><li>Ryan Kass says the wallet will serve as Coinbases test kitchen, bringing users new trading experienc… [+3461 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
-        "description": "Bitcoin couldn't escape today's inflation-driven selloff, but a bearish pattern on its chart is about to flip for the first time since November.",
-        "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-09-10T18:46:04Z",
-        "content": "In brief\r\n<ul><li>Bitcoin fell 1.22% today to $77,323, unable to extend last week's push above $80,000 as broader markets sold off on inflation fears.</li><li>Bitcoin's 50-day EMA is inches from cros… [+4102 chars]"
       }
     ]
   }
