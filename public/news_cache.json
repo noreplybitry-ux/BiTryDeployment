@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-20T15:48:11.173Z",
+  "timestamp": "2026-09-20T18:36:21.951Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Bitcoin's Sharpest Rally in Two Years Ran Almost Entirely on Short Liquidations",
+        "description": "A Glassnode and Bybit report found Bitcoin climbed 24.6% in five August days even as active leverage fell, with short positions supplying 89% of every liquidated dollar.",
+        "url": "https://decrypt.co/378686/bitcoin-sharpest-rally-two-years-short-liquidations",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-chart-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-09-19T16:01:03Z",
+        "content": "In brief\r\n<ul><li>Over five days in August, Bitcoin rose 24.6% while coin-denominated open interest fell 12.6%, meaning the rally ran on unwinding short positions rather than fresh bullish bets.</li>… [+2848 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,32 +329,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-09-11T17:22:39Z",
         "content": "In brief\r\n<ul><li>Robinhood's crypto trading volume rose 61% month over month to $17.5 billion in August, according to new operating data.</li><li>The figure remains 38% below last August's total.</l… [+3477 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Robinhood’s crypto volume increases 61% in August, still down 38% YoY",
-        "description": "Robinhood reported $17.5 billion in August crypto volume, up 61% from July but down 38% year over year as Bitstamp contributed $10.1 billion.",
-        "url": "https://cointelegraph.com/news/robinhoods-crypto-volume-rebounds-august",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M283JZSQVMT1TPB7GVMGKVNK/robinhood2-2.jpg",
-        "publishedAt": "2026-09-11T11:49:07Z",
-        "content": "Robinhoods crypto trading volume rose 61% month-on-month to $17.5 billion in August, though it remained 38% below the year-earlier level.\r\nThe online brokerage said in its August 2026 monthly operati… [+1023 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "UniCredit seeks infrastructure partner for crypto trading, custody: Report",
-        "description": "UniCredit is seeking infrastructure partner to expand into cryptocurrency trading, custody and tokenized investment products, as the latest bank to venture into digital assets.",
-        "url": "https://cointelegraph.com/news/unicredit-infrastructure-partners-crypto-trading-custody",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M282X830DCH6TSW5XZJXNKBH/hi-crypto-olympic-gods.jpg",
-        "publishedAt": "2026-09-11T11:35:27Z",
-        "content": "UniCredit Bank is seeking a technology provider that would allow it to build infrastructure for digital asset trading, custody and access to tokenized investment products.\r\nThe Italian banks discussi… [+1175 chars]"
       }
     ]
   }
