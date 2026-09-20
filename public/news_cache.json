@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-20T18:36:21.951Z",
+  "timestamp": "2026-09-20T21:20:53.355Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Coinbase And Stablecore Open Digital Asset Rails To 3,000+ Banks And Credit Unions",
+        "description": "Read the latest update on Coinbase And Stablecore Open Digital Asset Rails To 3,000+ Banks And Credit Unions.",
+        "url": "http://www.newsbtc.com/news/coinbase-and-stablecore-open-digital-asset-rails-to-3-000-banks-and-credit/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/IMG_3439-3.png?fit=1280%2C960",
+        "publishedAt": "2026-09-19T19:00:00Z",
+        "content": "TL;DR\r\n<ul><li>Coinbase is partnering with Stablecore to bring crypto services into existing bank technology.</li><li>Stablecores infrastructure reaches more than 3,000 U.S. banks and credit unions.<… [+2655 chars]"
+      },
       {
         "source": {
           "id": null,
