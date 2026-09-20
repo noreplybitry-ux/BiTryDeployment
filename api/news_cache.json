@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-20T11:04:20.046Z",
+  "timestamp": "2026-09-20T15:48:11.173Z",
   "data": {
     "status": "ok",
     "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
+        "description": "The network's clock just sped up again, but the extra speed goes to freshness, not capacity.",
+        "url": "https://decrypt.co/378674/solana-heartbeat-quickens-speed-upgrade",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-09-19T13:01:04Z",
+        "content": "In brief\r\n<ul><li>Solana's target slot timethe window a validator gets to produce a blockdropped from 300 milliseconds to 250 on Friday, the network's third speed cut since August.</li><li>The change… [+3322 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,19 +342,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M282X830DCH6TSW5XZJXNKBH/hi-crypto-olympic-gods.jpg",
         "publishedAt": "2026-09-11T11:35:27Z",
         "content": "UniCredit Bank is seeking a technology provider that would allow it to build infrastructure for digital asset trading, custody and access to tokenized investment products.\r\nThe Italian banks discussi… [+1175 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Metaplanet equity backlash, SE Asia crypto funding doubles: Asia Express",
-        "description": "Shareholders of Bitcoin treasury company Metaplanet are seething over equity allocations for insiders, while new figures cement Singapore’s role as the top Asian crypto hub.",
-        "url": "https://cointelegraph.com/magazine/metaplanet-equity-backlash-se-asia-crypto-funding-doubles-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26Q2WGDD8GDA5QMCWQF3GB3/magazineasia-expresssnow.jpg",
-        "publishedAt": "2026-09-10T23:21:26Z",
-        "content": "JAPAN\r\nMetaplanets executive stock pool sparks shareholder backlash\r\nJapanese Bitcoin treasury company Metaplanets executive stock pool continues to draw shareholder backlash over stock dilution conc… [+6601 chars]"
       }
     ]
   }
