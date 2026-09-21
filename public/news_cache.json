@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-21T20:55:36.584Z",
+  "timestamp": "2026-09-21T23:58:26.907Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 24,
     "articles": [
       {
         "source": {
@@ -316,19 +316,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-09-14T17:25:06Z",
         "content": "In brief\r\n<ul><li>Bernstein says markets have not priced in a positive surprise on the Clarity Act.</li><li>Republicans revised ethics enforcement and protections for community-bank deposits.</li><li… [+3034 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Bitcoin Suisse to Cut Up to Half Its Swiss Jobs in Overseas Shift",
-        "description": "The Crypto Valley pioneer is moving up to 60 Zug jobs to Bratislava or Vietnam as it pivots from a Swiss crypto specialist into a global wealth manager.",
-        "url": "https://decrypt.co/378119/bitcoin-suisse-cut-half-swiss-jobs",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
-        "publishedAt": "2026-09-14T09:01:03Z",
-        "content": "In brief\r\n<ul><li>Bitcoin Suisse plans to relocate up to half its Zug headquarters jobs abroadas many as 60 positions, mostly back-office and administrative rolesto Bratislava or Vietnam, with the fi… [+2470 chars]"
       }
     ]
   }
