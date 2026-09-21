@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-21T04:46:54.337Z",
+  "timestamp": "2026-09-21T10:33:35.700Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 25,
     "articles": [
       {
         "source": {
@@ -329,19 +329,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2EK46FSXWXQTA0ENWV5Z0W4/three-figures-no-text.png",
         "publishedAt": "2026-09-14T00:15:37Z",
         "content": "Cryptos moment of CLARITY arrives\r\nThe CLARITY act heads for a crucial Senate vote on September 15, with Politico reporting that Democrat senators had been called to a meeting on Sunday by Minority L… [+10465 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Robinhood Crypto Trading Volume Jumps 61% in August",
-        "description": "Fresh operating data shows crypto trading bouncing back, but the company's fastest-growing business these days isn't traditional trading at all.",
-        "url": "https://decrypt.co/377982/robinhoods-crypto-volume-jumps-august",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-09-11T17:22:39Z",
-        "content": "In brief\r\n<ul><li>Robinhood's crypto trading volume rose 61% month over month to $17.5 billion in August, according to new operating data.</li><li>The figure remains 38% below last August's total.</l… [+3477 chars]"
       }
     ]
   }
