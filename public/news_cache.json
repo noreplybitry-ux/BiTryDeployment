@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-21T10:33:35.700Z",
+  "timestamp": "2026-09-21T16:55:32.837Z",
   "data": {
     "status": "ok",
     "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years",
+        "description": "A Glassnode and Bybit report frames the divergence as the defining feature of this cycle, with froth pooling in the market's riskiest corners even as Bitcoin does the heavy lifting.",
+        "url": "https://decrypt.co/378695/holding-anything-but-bitcoin-losing-bet",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
+        "publishedAt": "2026-09-20T14:01:03Z",
+        "content": "In brief\r\n<ul><li>Over two years, Bitcoin gained 28% while the median mid-cap altcoin lost 74% and Ethereum landed roughly sideways, per a Glassnode and Bybit reporta stark reversal of the usual \"alt… [+2767 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +329,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
         "publishedAt": "2026-09-14T09:01:03Z",
         "content": "In brief\r\n<ul><li>Bitcoin Suisse plans to relocate up to half its Zug headquarters jobs abroadas many as 60 positions, mostly back-office and administrative rolesto Bratislava or Vietnam, with the fi… [+2470 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest",
-        "description": "A flurry of last minute meetings could get Tuesday’s crucial Senate vote on the CLARITY act over the line. Swarm fears prompt AI development slowdown, but how will markets react?",
-        "url": "https://cointelegraph.com/magazine/cryptos-biggest-week-ever-swarm-fears-prompt-ai-slowdown-hodlers-digest",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2EK46FSXWXQTA0ENWV5Z0W4/three-figures-no-text.png",
-        "publishedAt": "2026-09-14T00:15:37Z",
-        "content": "Cryptos moment of CLARITY arrives\r\nThe CLARITY act heads for a crucial Senate vote on September 15, with Politico reporting that Democrat senators had been called to a meeting on Sunday by Minority L… [+10465 chars]"
       }
     ]
   }
