@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-22T04:41:14.237Z",
+  "timestamp": "2026-09-22T09:45:04.572Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 23,
     "articles": [
       {
         "source": {
@@ -303,19 +303,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2HJPZRCHW98XR8YR97CKYKA/crypto-winter.jpg",
         "publishedAt": "2026-09-15T04:19:16Z",
         "content": "Crypto exchange CoinEx said it is winding down operations, citing a prolonged crypto market downturn, sinking trading volumes and liquidity, and rising regulatory and compliance costs, according to a… [+1943 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Strive adds 469 Bitcoin to reach 25,000 BTC treasury",
-        "description": "Strive’s latest Bitcoin purchase was funded entirely through its SATA preferred stock as the company continues its rapid climb among corporate BTC holders.",
-        "url": "https://cointelegraph.com/news/strive-adds-469-bitcoin-to-reach-25000-btc-treasury",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2GEQRXMNZKPZF714Z603E41/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price-1.png",
-        "publishedAt": "2026-09-14T17:50:12Z",
-        "content": "Strive, a top-five Bitcoin treasury company and asset manager, purchased 469 Bitcoin for about $36.6 million last week, bringing its holdings to 25,000 BTC.\r\nAccording to a Monday filing with the US … [+2331 chars]"
       }
     ]
   }
