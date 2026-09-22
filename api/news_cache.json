@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-22T14:33:11.583Z",
+  "timestamp": "2026-09-22T18:39:58.385Z",
   "data": {
     "status": "ok",
     "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’",
+        "description": "Bitcoin crossed the $86,000 mark for the first time since late January as falling oil prices and concerns over supply lifted US stocks.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-86k-analysis-sees-crypto-new-bull-market",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M32CF788SWBBCQ9G0KVD8FQK/article-covers-253627-bitcoin-bull-trap-bear-market-phase-middle-willy-woo-analyst-960x640.webp",
+        "publishedAt": "2026-09-21T16:39:40Z",
+        "content": "Bitcoin (BTC) spiked above $86,000 after Mondays Wall Street open as US stocks rose amid cooling oil prices.\r\nKey points:\r\n<ul><li>Bitcoin gained nearly 6% on Monday to briefly trade above $86,000 fo… [+3397 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Is Rallying Again—What Happens Next?",
+        "description": "The rally cleared an eight-month ceiling on a short squeeze and falling oil prices. The next three weeks will decide if it sticks.",
+        "url": "https://decrypt.co/378767/bitcoin-rally-what-happens-next",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/bitcoin-bull-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-21T15:45:35Z",
+        "content": "In brief\r\n<ul><li>Bitcoin traded as high as $86,332 on Monday, its highest level since January.</li><li>CoinGlass recorded $877.31 million in crypto liquidations over 24 hours, with $740.79 million c… [+5074 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -277,32 +303,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MEY4H050WZYJEZA2JY1JK2/ai-1.jpg",
         "publishedAt": "2026-09-16T06:38:48Z",
         "content": "Phemex CEO Federico Variola says AI has been a net negative for crypto, despite the crypto exchange announcing an AI-focused transformation earlier this year. \r\nSpeaking on Cointelegraphs Chain React… [+2925 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Coinbase-Backed Crypto Group Warns of Midterms Payback After Clarity Act Fails",
-        "description": "The Coinbase-backed Stand With Crypto will add senators’ votes to its scorecards as it rallies crypto voters ahead of November’s elections.",
-        "url": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/US-Capitol-decrypt-style-03-gID_7.png",
-        "publishedAt": "2026-09-15T21:10:06Z",
-        "content": "In brief\r\n<ul><li>The Senate failed to advance the Clarity Act in a procedural vote Tuesday.</li><li>Stand With Crypto will include the vote in its ratings of lawmakers.</li><li>The group pledged to … [+3060 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Crypto Reacts: Bitcoin Slides as Clarity Act Fails to Clear Senate Vote",
-        "description": "The Senate fell short of the 60 votes needed to advance the crypto industry's marquee bill Tuesday. Bitcoin dropped as the no tally mounted, but the move stopped well short of panic.",
-        "url": "https://decrypt.co/378286/crypto-clarity-act-fails-clear-senate-bitcoin-slides",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/stocks-gID_7.jpg",
-        "publishedAt": "2026-09-15T19:18:29Z",
-        "content": "In brief\r\n<ul><li>The Senate failed to invoke cloture on the Digital Asset Market Clarity Act Tuesday, after 50 senators voted against it.</li><li>Bitcoin slid from a session high near $77,200 to a l… [+4594 chars]"
       }
     ]
   }
