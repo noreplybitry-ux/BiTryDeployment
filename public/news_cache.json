@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-22T09:45:04.572Z",
+  "timestamp": "2026-09-22T14:33:11.582Z",
   "data": {
     "status": "ok",
     "totalResults": 23,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Kyle Samani predicts SOL flippening, claims ‘no one’ uses ETH",
+        "description": "Multicoin Capital co-founder Kyle Samani argues that more crypto companies are migrating from Ethereum to Solana and he predicts a flippening will happen this cycle.",
+        "url": "https://cointelegraph.com/magazine/kyle-samani-predicts-sol-flippening-claims-no-one-uses-eth",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M30R5TSC95SZGESPDXXCRR22/kyle-samani.png",
+        "publishedAt": "2026-09-21T13:30:00Z",
+        "content": "Multicoin Capital co-founder Kyle Samani predicts more crypto companies will choose to build on Solana over Ethereum due to its ease of use and greater functionality.\r\nSolana will flip Ether during t… [+3925 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "BTC price nears eight-month high above $85K: Five things to know in Bitcoin this week",
+        "description": "Bitcoin price momentum sees fresh strength as BTC returns to $85,000 for the first time since January.",
+        "url": "https://cointelegraph.com/markets/btc-price-nears-eight-month-high-above-85k-five-things-to-know-in-bitcoin-this-week",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M31Q8BFZ8GX28390FWKSDR14/hi-why-i-am-cynically-bullish-about-the-bitcoin-4.jpg",
+        "publishedAt": "2026-09-21T10:15:51Z",
+        "content": "Bitcoin (BTC) starts a new week at its highest levels in nearly eight months as bulls propel the market to $85,000.\r\nKey points:\r\n<ul><li>Bitcoin hit $85,248 on Monday, marking its highest levels sin… [+7364 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Crypto Worker's Children Held Hostage in Latest French ‘Wrench Attack,’ $46,000 Taken",
+        "description": "France is the worst-hit country in the world for these attacks, with more than 70 logged in the first eight months of 2026.",
+        "url": "https://decrypt.co/378720/crypto-workers-children-held-hostage-in-latest-french-wrench-attack-46000-taken",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-09-21T09:51:24Z",
+        "content": "In brief\r\n<ul><li>Four masked men broke into a house in Vendin-le-Vieil at around 4am on Sunday and bound a couple and their two children with tape.</li><li>The father, a salaried IT worker in the cr… [+2684 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -264,45 +303,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/stocks-gID_7.jpg",
         "publishedAt": "2026-09-15T19:18:29Z",
         "content": "In brief\r\n<ul><li>The Senate failed to invoke cloture on the Digital Asset Market Clarity Act Tuesday, after 50 senators voted against it.</li><li>Bitcoin slid from a session high near $77,200 to a l… [+4594 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Binance adds 11 US-listed ETFs to wealth management offering",
-        "description": "The crypto exchange is expanding its traditional finance offerings with 11 US-listed exchange-traded funds focused on US Treasurys and investment-grade bonds.",
-        "url": "https://cointelegraph.com/news/binance-adds-11-us-listed-etfs-to-wealth-management-offering",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2JZT31WJSAPCWV4C5T6FJ1R/hi-bitcoin-etf-sec-deadline-on-nov-5-not-a-decision-on-etfs-but-deadline-for-the-public-to-submit-a-review-clarifying-piece.png",
-        "publishedAt": "2026-09-15T17:22:04Z",
-        "content": "Binance has launched a wealth management service offering access to 11 US-listed exchange-traded funds focused on short-term US Treasurys and investment-grade bonds.\r\nThe new Binance Earn offering gr… [+1401 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price falls to $75.6K September low as global bonds hit multidecade highs",
-        "description": "Bitcoin price action weakened over market nerves prior to the Senate CLARITY Act vote, while surging bond yields pressured risk assets across the board.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-falls-to-756k-september-low-as-global-bonds-hit-multidecade-highs",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2JWDC9JXEQB4J55MT31ZEK2/hi-what-are-bonds-and-how-do-they-work-for-crypto-red.jpg",
-        "publishedAt": "2026-09-15T16:02:01Z",
-        "content": "Bitcoin (BTC) saw month-to-date lows at Tuesdays Wall Street open as global bond yields spiked and crypto markets awaited a key US Senate vote on the CLARITY Act.\r\nKey points:\r\n<ul><li>Bitcoin droppe… [+3559 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "CoinEx to cease operation after 9 years, citing ‘significant’ crypto contraction",
-        "description": "CoinEx said falling trading volumes and liquidity, along with rising regulatory and compliance costs, had exceeded “reasonable boundaries,” with withdrawals remaining open until Dec. 22.",
-        "url": "https://cointelegraph.com/news/coinex-cease-operation-citing-significant-crypto-contraction",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2HJPZRCHW98XR8YR97CKYKA/crypto-winter.jpg",
-        "publishedAt": "2026-09-15T04:19:16Z",
-        "content": "Crypto exchange CoinEx said it is winding down operations, citing a prolonged crypto market downturn, sinking trading volumes and liquidity, and rising regulatory and compliance costs, according to a… [+1943 chars]"
       }
     ]
   }
