@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-21T23:58:26.907Z",
+  "timestamp": "2026-09-22T04:41:14.238Z",
   "data": {
     "status": "ok",
     "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "FCA Targets Three London Premises In Illegal P2P Crypto Trading Crackdown",
+        "description": "Read the latest update on FCA Targets Three London Premises In Illegal P2P Crypto Trading Crackdown.",
+        "url": "http://www.newsbtc.com/news/fca-targets-three-london-premises-in-illegal-p2p-crypto-trading-crackdown/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/f6b23d82476e4698a6900c8f436a401d-3-2.png?fit=1280%2C960",
+        "publishedAt": "2026-09-21T04:15:00Z",
+        "content": "TL;DR\r\n<ul><li>The FCA, HMRC and Metropolitan Police inspected three London premises over suspected illegal crypto trading.</li><li>Cease-and-desist notices were issued.</li><li>The action involved u… [+1998 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "North Korean fake recruiters infect 30K devices, steal $10.7M in crypto",
+        "description": "North Korean cyber group WaterPlum targeted developers with fake jobs at crypto, AI and NFT companies, infecting at least 30,000 devices across more than 100 countries.",
+        "url": "https://cointelegraph.com/news/north-korean-fake-recruiters-infect-30k-devices-steal-107m-in-crypto",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M30SCR3TXMTSM58MCQ6E0A8X/north-korea-it.jpg",
+        "publishedAt": "2026-09-21T01:42:53Z",
+        "content": "North Korean hacking group WaterPlum stole at least $10.7 million by posing as recruiters for legitimate crypto and AI companies, attacking unsuspecting job seekers with malware. \r\nThe group, also kn… [+2947 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,32 +316,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2GEQRXMNZKPZF714Z603E41/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price-1.png",
         "publishedAt": "2026-09-14T17:50:12Z",
         "content": "Strive, a top-five Bitcoin treasury company and asset manager, purchased 469 Bitcoin for about $36.6 million last week, bringing its holdings to 25,000 BTC.\r\nAccording to a Monday filing with the US … [+2331 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks",
-        "description": "AI CEOs want the industry to pump the brakes on capability gains. Nvidia, Intel, and AMD didn't like the sound of that. Bitcoin didn't seem to mind.",
-        "url": "https://decrypt.co/378157/bitcoin-climbs-ai-slowdown-nvidia-chip-stocks",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
-        "publishedAt": "2026-09-14T17:40:04Z",
-        "content": "In brief\r\n<ul><li>Anthropic CEO Dario Amodei has called on AI labs to deliberately slow capability gains for safety reasons; OpenAI's Sam Altman and xAI's Elon Musk both said they agree.</li><li>Nvid… [+3112 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Crypto Market Has 'Definitely Not Priced In' Clarity Act Surprise, Says Bernstein",
-        "description": "Ethics and banking concessions have improved the crypto bill’s prospects, analysts say, but Democratic support remains uncertain.",
-        "url": "https://decrypt.co/378155/crypto-not-priced-in-clarity-act-surprise-bernstein",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-09-14T17:25:06Z",
-        "content": "In brief\r\n<ul><li>Bernstein says markets have not priced in a positive surprise on the Clarity Act.</li><li>Republicans revised ethics enforcement and protections for community-bank deposits.</li><li… [+3034 chars]"
       }
     ]
   }
