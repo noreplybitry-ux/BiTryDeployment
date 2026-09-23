@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-23T11:11:52.082Z",
+  "timestamp": "2026-09-23T16:33:31.743Z",
   "data": {
     "status": "ok",
     "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Binance takes $100M stake in Circle under expanded USDC deal",
+        "description": "Binance purchased $100 million in Circle shares as the companies expanded their USDC partnership through a new five-year commercial agreement.",
+        "url": "https://cointelegraph.com/news/binance-stake-circle-expanded-usdc-deal",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M34EG4VHJABBH8BW3DK0M075/binance-circle.jpg",
+        "publishedAt": "2026-09-22T12:18:41Z",
+        "content": "Binance has invested $100 million in stablecoin issuer Circle as part of an expanded five-year agreement to promote USDC on the crypto exchange.\r\nCircle issued Binance 1,237,011 shares of its Class A… [+1221 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,19 +316,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-17T15:21:19Z",
         "content": "In brief\r\n<ul><li>The FCA, HMRC and the Metropolitan Police visited three London premises on September 10.</li><li>Cease and desist letters were issued at all three, ordering suspected illegal busine… [+2749 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinspeaker"
-        },
-        "author": "Daniel Francis",
-        "title": "ETF Outflows Clash With Crypto Traders’ Ethereum Conviction",
-        "description": "Ethereum is currently trading near $2,440, up 1.7% over the prior 24 hours, even with some bad news. The price is holding above the $2,400 mark, and it has d...",
-        "url": "https://www.coinspeaker.com/ethereum-news-price-etf-outflows/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/c981488309ea11db1d16bc642d1acba382b84bdb0392aa237c16679eda68072e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2F3b7a9e6c1d20c172330d8918a026b285",
-        "publishedAt": "2026-09-17T15:08:58Z",
-        "content": "Ethereum is currently trading near $2,440, up 1.7% over the prior 24 hours, even with some bad news. The price is holding above the $2,400 mark, and it has defended through two developments that migh… [+4184 chars]"
       }
     ]
   }
