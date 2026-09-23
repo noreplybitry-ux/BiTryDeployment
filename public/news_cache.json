@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-23T16:33:31.743Z",
+  "timestamp": "2026-09-23T20:04:29.036Z",
   "data": {
     "status": "ok",
-    "totalResults": 24,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Breaks Out as Nasdaq Hits Records and Oil Slides on Iran Hopes",
+        "description": "A stretched but firmly bullish Bitcoin chart is riding the same tailwind lifting stocks: falling oil, a record Nasdaq, and a Fed that hiked rates while quietly pumping liquidity into the system.",
+        "url": "https://decrypt.co/378972/bitcoin-breaks-out-nasdaq-hits-records-oil-slides",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-13-gID_7.png",
+        "publishedAt": "2026-09-22T18:46:03Z",
+        "content": "In brief\r\n<ul><li>Bitcoin traded near $86,559 Tuesday, up 12.2% over the past week, after clearing the resistance band that had capped it since early September.</li><li>The Crypto Fear &amp; Greed In… [+4221 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -56,6 +69,19 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M348REMRPFT3JRDK7677JZW0/hi-btc-the-most-popular-crypto-for-purchases-but-bch-and-dash-for-selling-1.jpg",
         "publishedAt": "2026-09-22T10:00:43Z",
         "content": "Bitcoins (BTC) rise to $86,000 this week has dragged altcoin markets higher as the industrys market cap reclaimed $3 trillion.\r\nKey points:\r\n<ul><li>Glassnodes Altcoin Cycle Signal printed a new altc… [+3106 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cryptonews"
+        },
+        "author": "Ahmed Barakat",
+        "title": "Bitcoin Reclaims $85,000 as Oil and Yields Retreat",
+        "description": "Bitcoin (BTC) is defending the $85,500 mark on Tuesday, 22 September, with BTC price trading at $85,736 as a minor -0.97% price correction cools off a bullis...",
+        "url": "https://cryptonews.com/news/bitcoin-reclaims-85000/",
+        "urlToImage": "https://s.yimg.com/lo/mysterio/api/7380d510f235e77b45cf74e94b2c54fad64df4a764961e231775e72630cb811b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fb499b94a5998a2a3d63cf8ff5d854291",
+        "publishedAt": "2026-09-22T09:28:04Z",
+        "content": "Bitcoin (BTC) is defending the $85,500 mark on Tuesday, 22 September, with BTC price trading at $85,736 as a minor -0.97% price correction cools off a bullish move. This comes after the top cryptocur… [+4931 chars]"
       },
       {
         "source": {
@@ -303,19 +329,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2S256YQ45ANHSRCNHS5BZ56/bitbank.jpg",
         "publishedAt": "2026-09-18T01:33:54Z",
         "content": "US authorities on Thursday announced sanctions against Iranian crypto exchange BitBank, accusing it of processing Bitcoin paid by ships transiting the Strait of Hormuz.\r\nThe US Department of the Trea… [+2289 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "FCA Targets Three More London Sites Over Unregistered P2P Crypto Trading",
-        "description": "\"Anyone running an unregistered peer-to-peer crypto business should assume we are looking at them,\" the FCA's enforcement chief said.",
-        "url": "https://decrypt.co/378495/fca-targets-three-more-london-sites-over-unregistered-p2p-crypto-trading",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-17T15:21:19Z",
-        "content": "In brief\r\n<ul><li>The FCA, HMRC and the Metropolitan Police visited three London premises on September 10.</li><li>Cease and desist letters were issued at all three, ordering suspected illegal busine… [+2749 chars]"
       }
     ]
   }
