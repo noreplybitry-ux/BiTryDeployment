@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-23T00:12:29.948Z",
+  "timestamp": "2026-09-23T05:43:04.535Z",
   "data": {
     "status": "ok",
     "totalResults": 22,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Coinbase Opens IPO Allocations To US Retail Traders Starting With Oura",
+        "description": "TL;DR Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app. The service is offered through FINRA-registered Coinbase Capital Markets. Oura is the first IPO on the platform, with allocation rules designed to discou…",
+        "url": "http://www.newsbtc.com/news/coinbase-opens-ipo-allocations-to-us-retail-traders-starting-with-oura/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_xy4INP0h_1780626753962_raw.jpg?fit=1024%2C1024",
+        "publishedAt": "2026-09-22T03:30:00Z",
+        "content": "<ul><li>Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app.</li><li>The service is offered through FINRA-registered Coinbase Capital Markets.</li><li>O… [+1809 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -277,19 +290,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ETF2-gID_7.png",
         "publishedAt": "2026-09-16T15:50:07Z",
         "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs shed $450.4 million Tuesday, their largest single-day outflow since June 24.</li><li>The Senate voted 49 to 50 against invoking cloture on the Clarity Act, a … [+3841 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Bitcoin holds above key moving averages despite CLARITY Act sell-off",
-        "description": "Key takeaways Bitcoin traded near $75,950 after falling more than 1% on Tuesday. Ethereum and XRP declined more than 4% and 9%, respectively. BTC remains above its 50-day, 100-day, and 200-day EMAs. Bitcoin (BTC) traded near $75,950 on Wednesday after declini…",
-        "url": "https://coinjournal.net/news/bitcoin-holds-above-key-moving-averages-despite-clarity-act-sell-off/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-11_05_47-AM.png",
-        "publishedAt": "2026-09-16T10:08:34Z",
-        "content": "Key takeaways\r\n<ul><li>Bitcoin traded near $75,950 after falling more than 1% on Tuesday.</li><li>Ethereum and XRP declined more than 4% and 9%, respectively.</li><li>BTC remains above its 50-day, 10… [+3140 chars]"
       }
     ]
   }
