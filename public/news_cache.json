@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-09-23T05:43:04.535Z",
+  "timestamp": "2026-09-23T11:11:52.082Z",
   "data": {
     "status": "ok",
-    "totalResults": 22,
+    "totalResults": 24,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa, Omkar Godbole",
+        "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
+        "description": "Circle sold 1.24 million shares at $80.84 each and will pay Binance a monthly fee tied to USDC held through its wallet infrastructure.",
+        "url": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d9828d5a1dcf4e1f9551968a3a6c2c75a4fc3166-3657x2057.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-09-22T11:07:23Z",
+        "content": "Binance bought $100 million of Circle shares as the companies signed a five-year deal that pays the crypto exchange to promote the USDC stablecoin on its platform.\r\nCircle issued Binance 1.24 million… [+1345 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
+        "description": "Federal prosecutors in Manhattan and the Justice Department are said to be investigating whether the crypto exchange knowingly permitted users to bypass U.S. sanctions on Iran.",
+        "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8524e860085e53902a998b3545d3aa7e9f9192c9-1440x810.jpg?auto=format&q=75",
+        "publishedAt": "2026-09-22T10:07:52Z",
+        "content": "Since then, the company has sought to emphasize its cooperation with law enforcement and regulators. The company said in a blog post in February that more than 1,500 people, or about 25% of its globa… [+1114 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Crypto metric signals altseason as Bitcoin market-cap share stalls below 60%",
+        "description": "Glassnode’s Altcoin Cycle Signal printed a new altseason signal after a month of Bitcoin and altcoin market-cap gains.",
+        "url": "https://cointelegraph.com/markets/crypto-metric-signals-altseason-as-bitcoin-market-cap-share-stalls-below-60",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M348REMRPFT3JRDK7677JZW0/hi-btc-the-most-popular-crypto-for-purchases-but-bch-and-dash-for-selling-1.jpg",
+        "publishedAt": "2026-09-22T10:00:43Z",
+        "content": "Bitcoins (BTC) rise to $86,000 this week has dragged altcoin markets higher as the industrys market cap reclaimed $3 trillion.\r\nKey points:\r\n<ul><li>Glassnodes Altcoin Cycle Signal printed a new altc… [+3106 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Crypto’s wild boom-and-bust cycles are fading, Solstice CEO says",
+        "description": "Solstice CEO Ben Nadareski says deeper liquidity and growing institutional participation could make future crypto bull runs less volatile than previous cycles.",
+        "url": "https://cointelegraph.com/news/crypto-bull-runs-liquidity-solstice-ceo",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M33ZZ6HX76QGK6MY66SG8KYD/hi-governments-enterprise-gaming-who-will-drive-the-next-crypto-bull-run.jpg",
+        "publishedAt": "2026-09-22T08:06:23Z",
+        "content": "Ben Nadareski, CEO of Solana-based decentralized finance platform Solstice, said crypto markets are unlikely to return to the extreme boom-and-bust cycles as deeper liquidity brings stability to digi… [+2584 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETFs flirt with $1B as inflows hit 2026 high",
+        "description": "US spot Bitcoin ETFs drew nearly $1 billion on Monday, their largest daily inflow since October 2025, as Bitcoin briefly climbed above $87,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-biggest-inflow-october-2025",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M33Y5TYZKZESE6DRNC3V960G/hi-a-stronger-foundation-for-bitcoin-etf-applications1-3.jpg",
+        "publishedAt": "2026-09-22T07:33:37Z",
+        "content": "US spot Bitcoin exchange-traded funds (ETFs) drew nearly $1 billion in net inflows on Monday, their biggest daily haul of 2026.\r\nThe funds recorded $998.9 million in daily net inflows, surpassing the… [+1179 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -251,45 +316,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/c981488309ea11db1d16bc642d1acba382b84bdb0392aa237c16679eda68072e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2F3b7a9e6c1d20c172330d8918a026b285",
         "publishedAt": "2026-09-17T15:08:58Z",
         "content": "Ethereum is currently trading near $2,440, up 1.7% over the prior 24 hours, even with some bad news. The price is holding above the $2,400 mark, and it has defended through two developments that migh… [+4184 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Crypto adoption blooming in Germany, while UK is falling ‘behind,’ says CoinShares researcher",
-        "description": "German crypto adoption is progressing through family offices and wealth managers, while the UK only recently reversed its ban on crypto ETPs for retail investors, explained the researcher.",
-        "url": "https://cointelegraph.com/news/crypto-adoption-blooming-germany-uk-behind-researcher",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2QHYX57TFPR50NZSRV98AR3/hi-german-crypto-ecosystem-2021.jpg",
-        "publishedAt": "2026-09-17T12:34:11Z",
-        "content": "Cryptocurrency adoption is advancing in Germany, particularly among younger investors, while the UK is gradually falling behind, largely due to lagging regulations, according to CoinShares crypto res… [+2317 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "UK FCA sets crypto authorization guidance ahead of September application window",
-        "description": "The FCA’s new guidance outlines which crypto activities may require authorization as firms prepare for the UK’s incoming digital asset regulatory regime.",
-        "url": "https://cointelegraph.com/news/uk-fca-sets-crypto-authorization-guidance-ahead-of-september-application-window",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2NRTRQVV5H9VDTT43R1701S/hi-united-kingdom-making-strides-on-crypto-regulation-fca.jpg",
-        "publishedAt": "2026-09-16T19:19:23Z",
-        "content": "The UK Financial Conduct Authority has issued final guidance outlining when crypto activities may require authorization under the countrys incoming regulatory regime.\r\nThe guidance covers activities … [+2235 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin ETFs Had Their Worst Day Since June Following Failed Clarity Act Vote",
-        "description": "Bitcoin, Ethereum, and XRP ETFs shed roughly $593 million combined Tuesday, their heaviest single-day drawdown since June.",
-        "url": "https://decrypt.co/378382/bitcoin-etfs-clarity-act-vote",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ETF2-gID_7.png",
-        "publishedAt": "2026-09-16T15:50:07Z",
-        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs shed $450.4 million Tuesday, their largest single-day outflow since June 24.</li><li>The Senate voted 49 to 50 against invoking cloture on the Clarity Act, a … [+3841 chars]"
       }
     ]
   }
