@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-24T04:08:45.446Z",
+  "timestamp": "2026-09-24T09:47:55.278Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Raiffeisen to offer crypto trading across 11 European markets via Bitpanda",
+        "description": "Raiffeisen Bank International is expanding crypto access through Bitpanda, giving its network banks infrastructure that could serve about 18 million customers.",
+        "url": "https://cointelegraph.com/news/raiffeisen-crypto-11-european-markets-bitpanda",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1P74NCJ7VVQEWSD26T81DZH/digital-bank-2.jpg",
+        "publishedAt": "2026-09-23T09:42:39Z",
+        "content": "Raiffeisen Bank International (RBI), an Austrian banking group with operations across Central and Eastern Europe, is expanding its cryptocurrency push through a group-wide partnership with Bitpanda.\r… [+1437 chars]"
+      },
       {
         "source": {
           "id": null,
