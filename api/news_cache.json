@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-24T09:47:55.279Z",
+  "timestamp": "2026-09-24T14:47:26.541Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 25,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "North Korea's Fake Job Interviews Drained $11M From 7,000 Crypto Wallets",
+        "description": "A seven-agency advisory ties the WaterPlum hacking crew and Pyongyang's remote IT worker scheme to the same bureau.",
+        "url": "https://decrypt.co/379032/north-koreas-fake-job-interviews-drained-11m-from-7000-crypto-wallets",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-23T12:15:18Z",
+        "content": "In brief\r\n<ul><li>Police and intelligence agencies in Japan, the U.S., Australia and Germany said the group infected at least 30,000 devices across more than 100 countries.</li><li>It took funds or c… [+3569 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin bull market ‘confirmed’ but $90K presents profit-taking risk: Analysis",
+        "description": "Bitcoin price analysis sees onchain signals repeating the signs that “confirmed” the past two bull markets.",
+        "url": "https://cointelegraph.com/markets/bitcoin-bull-market-confirmed-but-90k-presents-profit-taking-risk-analysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M36VKH38PWTADPGEVC4SV8G0/hi-fiat-institutions-and-crypto-trading-desks-1.jpg",
+        "publishedAt": "2026-09-23T10:05:10Z",
+        "content": "Bitcoin (BTC) faces its next real test at $90,000 as traders continue to return to unrealized profit.\r\nKey points:\r\n<ul><li>Bitcoin profit-takers may stall BTC price upside at $90,000, CryptoQuant pr… [+2931 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,45 +329,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2TJDKWQFE5TAXZVRTNBSB4T/oil-bitcoin-coin-stablecoin-blockchain-sky-platform-production-iran.jpg",
         "publishedAt": "2026-09-18T15:35:59Z",
         "content": "Bitcoin (BTC) jumped past $80,000 around Fridays Wall Street open as fuel-crisis woes spread through global markets.\r\nKey points:\r\n<ul><li>Bitcoin gained 6% on Friday as concerns about oil supply saw… [+3311 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships",
-        "description": "OFAC says hundreds of millions of dollars in Bitcoin moved through BitBank to the Revolutionary Guards in two months.",
-        "url": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
-        "publishedAt": "2026-09-18T09:01:55Z",
-        "content": "In brief\r\n<ul><li>OFAC has designated BitBank, an Iranian exchange controlled by financier Babak Zanjani.</li><li>Treasury says Zanjani used it to move hundreds of millions in Bitcoin to the IRGC bet… [+3377 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Iran’s Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
-        "description": "The U.S. Treasury sanctioned BitBank, a Tehran exchange it says moved hundreds of millions of dollars in bitcoin to the Revolutionary Guards and handled payments collected from ships buying passage through the world’s most important oil chokepoint.",
-        "url": "https://www.coindesk.com/policy/2026/09/18/iran-s-strait-of-hormuz-toll-booth-ran-through-a-bitcoin-exchange-u-s-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ea6e0ec4cd84026d0707ce39424079748bd5f9fb-3449x2300.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-09-18T06:52:23Z",
-        "content": "Iran has spent this year charging tankers between $1 million and $2 million to cross the Strait of Hormuz, and the U.S. Treasury said that since June, part of that money has moved through a cryptocur… [+927 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments",
-        "description": "US Treasury says the Iranian exchange processed payments received through Iran’s Strait of Hormuz maritime scheme and helped move hundreds of millions of dollars in Bitcoin to the IRGC.",
-        "url": "https://cointelegraph.com/news/us-sanctions-irans-bitbank-saying-it-processes-hormuz-safe-bitcoin-payments",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2S256YQ45ANHSRCNHS5BZ56/bitbank.jpg",
-        "publishedAt": "2026-09-18T01:33:54Z",
-        "content": "US authorities on Thursday announced sanctions against Iranian crypto exchange BitBank, accusing it of processing Bitcoin paid by ships transiting the Strait of Hormuz.\r\nThe US Department of the Trea… [+2289 chars]"
       }
     ]
   }
