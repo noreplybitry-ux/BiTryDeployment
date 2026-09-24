@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-09-24T14:47:26.541Z",
+  "timestamp": "2026-09-24T18:56:10.753Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Crypto Exchange That Invented 100x Leverage Is No More: Here’s What BitMEX Users Need to Know",
+        "description": "BitMEX ended trading at 04:00 UTC Wednesday and is urging users to withdraw their remaining funds, as fees now apply to balances left on the exchange.",
+        "url": "https://decrypt.co/379089/crypto-exchange-that-invented-100x-leverage-is-no-more-heres-what-bitmex-users-need-to-know",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/arthur-hayes-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-09-23T17:31:03Z",
+        "content": "In brief\r\n<ul><li>BitMEX officially ended exchange operations Wednesday, closing out a wind-down announced in July. Trading and deposits are off, but withdrawals remain open.</li><li>Verified users w… [+2247 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "NYSE Taps Blockchain.com to Reach Crypto Investors With Tokenized Stocks",
+        "description": "Blockchain.com and NYSE Group signed a preliminary agreement to give the crypto exchange's users access to tokenized U.S. stocks and ETFs, pending regulatory approval.",
+        "url": "https://decrypt.co/379080/nyse-taps-blockchain-com-to-reach-crypto-investors-with-tokenized-stocks-etfs",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/crypto-trading-gen-z-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-23T16:36:03Z",
+        "content": "In brief\r\n<ul><li>Blockchain.com signed a memorandum of understanding with NYSE Group to offer tokenized U.S. stocks and ETFs through the NYSE's planned 24/7 digital trading venue.</li><li>The deal a… [+2675 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,19 +342,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-09-19T13:01:04Z",
         "content": "In brief\r\n<ul><li>Solana's target slot timethe window a validator gets to produce a blockdropped from 300 milliseconds to 250 on Friday, the network's third speed cut since August.</li><li>The change… [+3322 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin hits $81K as US bond yields rebound on global oil woes",
-        "description": "Bitcoin price action made swift gains at the start of Friday’s Wall Street trading session as US 30-year bond yields began rising again.",
-        "url": "https://cointelegraph.com/markets/bitcoin-hits-81k-as-us-bond-yields-rebound-on-global-oil-woes",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2TJDKWQFE5TAXZVRTNBSB4T/oil-bitcoin-coin-stablecoin-blockchain-sky-platform-production-iran.jpg",
-        "publishedAt": "2026-09-18T15:35:59Z",
-        "content": "Bitcoin (BTC) jumped past $80,000 around Fridays Wall Street open as fuel-crisis woes spread through global markets.\r\nKey points:\r\n<ul><li>Bitcoin gained 6% on Friday as concerns about oil supply saw… [+3311 chars]"
       }
     ]
   }
