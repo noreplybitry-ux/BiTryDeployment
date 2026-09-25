@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-09-25T07:27:07.990Z",
+  "timestamp": "2026-09-25T13:29:18.912Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Elliptic Wants Every Cop to Read a Crypto Wallet in Seconds—With AI",
+        "description": "Elliptic’s new AI-assisted tool, called Pulse, lets any officer input a wallet address or transaction hash and get a plain-language summary in seconds, aiming to bring crypto tracing beyond specialized units.",
+        "url": "https://decrypt.co/379113/elliptic-crypto-wallet-ai-pulse",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/french-police-gendarme-decrypt-style-1-scaled-gID_7.jpg",
+        "publishedAt": "2026-09-24T13:01:03Z",
+        "content": "In brief\r\n<ul><li>Elliptic launched Pulse, an AI product that gives frontline law enforcement officers a plain-language financial summary of any wallet address or transaction hash in seconds, no bloc… [+2658 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Solana Foundation hires Binance, Polygon veterans as it ramps up tokenized finance push",
+        "description": "Rachel Conlan and Jamal Raees join as Solana aims to court institutions moving payments and assets onchain.",
+        "url": "https://www.coindesk.com/business/2026/09/24/solana-foundation-hires-binance-polygon-veterans-as-it-ramps-up-tokenized-finance-push",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/be69f7e3e9544b2f09ff312d461acfec072b473d-2047x1323.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-09-24T13:00:00Z",
+        "content": "The Solana Foundation has appointed former Binance executive Rachel Conlan as its new chief strategy officer, adding a high-profile crypto industry veteran as the Solana (SOL) blockchain makes a bigg… [+1070 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Selig Says ‘It’s Go Time’ for CFTC Crypto Rules",
+        "description": "The CFTC has been extremely busy ever since the Clarity Act failed its vote, and it appears they’re ready to accelerate.",
+        "url": "https://decrypt.co/379169/morning-minute-selig-says-its-go-time-for-cftc-crypto-rules",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-09-24T11:56:11Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+5267 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Institutions held crypto through 50% drawdown, Bitwise finds",
+        "description": "Every institution interviewed that owned crypto held Bitcoin, usually as its largest asset; some set exit conditions for Ether and Solana.",
+        "url": "https://cointelegraph.com/markets/institutions-held-crypto-50-percent-drawdown-bitwise",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3995AEZDZAHF7KGY7TNVJAH/bitwise-report.png",
+        "publishedAt": "2026-09-24T09:18:16Z",
+        "content": "None of the 15 institutions interviewed by asset manager Bitwise cut their crypto allocations during a roughly 50% market drawdown, while several bought more.\r\nEvery institution in the group that own… [+2196 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -303,45 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
         "publishedAt": "2026-09-20T14:01:03Z",
         "content": "In brief\r\n<ul><li>Over two years, Bitcoin gained 28% while the median mid-cap altcoin lost 74% and Ethereum landed roughly sideways, per a Glassnode and Bybit reporta stark reversal of the usual \"alt… [+2767 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Coinbase And Stablecore Open Digital Asset Rails To 3,000+ Banks And Credit Unions",
-        "description": "Read the latest update on Coinbase And Stablecore Open Digital Asset Rails To 3,000+ Banks And Credit Unions.",
-        "url": "http://www.newsbtc.com/news/coinbase-and-stablecore-open-digital-asset-rails-to-3-000-banks-and-credit/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/IMG_3439-3.png?fit=1280%2C960",
-        "publishedAt": "2026-09-19T19:00:00Z",
-        "content": "TL;DR\r\n<ul><li>Coinbase is partnering with Stablecore to bring crypto services into existing bank technology.</li><li>Stablecores infrastructure reaches more than 3,000 U.S. banks and credit unions.<… [+2655 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Bitcoin's Sharpest Rally in Two Years Ran Almost Entirely on Short Liquidations",
-        "description": "A Glassnode and Bybit report found Bitcoin climbed 24.6% in five August days even as active leverage fell, with short positions supplying 89% of every liquidated dollar.",
-        "url": "https://decrypt.co/378686/bitcoin-sharpest-rally-two-years-short-liquidations",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-chart-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-09-19T16:01:03Z",
-        "content": "In brief\r\n<ul><li>Over five days in August, Bitcoin rose 24.6% while coin-denominated open interest fell 12.6%, meaning the rally ran on unwinding short positions rather than fresh bullish bets.</li>… [+2848 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
-        "description": "The network's clock just sped up again, but the extra speed goes to freshness, not capacity.",
-        "url": "https://decrypt.co/378674/solana-heartbeat-quickens-speed-upgrade",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-09-19T13:01:04Z",
-        "content": "In brief\r\n<ul><li>Solana's target slot timethe window a validator gets to produce a blockdropped from 300 milliseconds to 250 on Friday, the network's third speed cut since August.</li><li>The change… [+3322 chars]"
       }
     ]
   }
