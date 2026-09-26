@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-26T07:22:14.094Z",
+  "timestamp": "2026-09-26T12:52:13.725Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 27,
     "articles": [
       {
         "source": {
@@ -355,19 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
         "publishedAt": "2026-09-21T09:51:24Z",
         "content": "In brief\r\n<ul><li>Four masked men broke into a house in Vendin-le-Vieil at around 4am on Sunday and bound a couple and their two children with tape.</li><li>The father, a salaried IT worker in the cr… [+2684 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "FCA Targets Three London Premises In Illegal P2P Crypto Trading Crackdown",
-        "description": "Read the latest update on FCA Targets Three London Premises In Illegal P2P Crypto Trading Crackdown.",
-        "url": "http://www.newsbtc.com/news/fca-targets-three-london-premises-in-illegal-p2p-crypto-trading-crackdown/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/f6b23d82476e4698a6900c8f436a401d-3-2.png?fit=1280%2C960",
-        "publishedAt": "2026-09-21T04:15:00Z",
-        "content": "TL;DR\r\n<ul><li>The FCA, HMRC and Metropolitan Police inspected three London premises over suspected illegal crypto trading.</li><li>Cease-and-desist notices were issued.</li><li>The action involved u… [+1998 chars]"
       }
     ]
   }
