@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-25T22:08:05.914Z",
+  "timestamp": "2026-09-26T01:20:53.048Z",
   "data": {
     "status": "ok",
     "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Asia dominates Crypto Adoption Index, Bitget’s $351M hack: Asia Express",
+        "description": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $351M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+        "url": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RR0R87D4ZNY7FB45GN96P2/magazineasia-expressriver.jpg",
+        "publishedAt": "2026-09-24T23:27:17Z",
+        "content": "Asian countries account for almost half of Adoption Index\r\nAlmost half of the top 20 nations in terms of grassroots crypto adoption are in the Asia Pacific region. According to Chainalysiss newly rel… [+6296 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +368,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/f6b23d82476e4698a6900c8f436a401d-3-2.png?fit=1280%2C960",
         "publishedAt": "2026-09-21T04:15:00Z",
         "content": "TL;DR\r\n<ul><li>The FCA, HMRC and Metropolitan Police inspected three London premises over suspected illegal crypto trading.</li><li>Cease-and-desist notices were issued.</li><li>The action involved u… [+1998 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "North Korean fake recruiters infect 30K devices, steal $10.7M in crypto",
-        "description": "North Korean cyber group WaterPlum targeted developers with fake jobs at crypto, AI and NFT companies, infecting at least 30,000 devices across more than 100 countries.",
-        "url": "https://cointelegraph.com/news/north-korean-fake-recruiters-infect-30k-devices-steal-107m-in-crypto",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M30SCR3TXMTSM58MCQ6E0A8X/north-korea-it.jpg",
-        "publishedAt": "2026-09-21T01:42:53Z",
-        "content": "North Korean hacking group WaterPlum stole at least $10.7 million by posing as recruiters for legitimate crypto and AI companies, attacking unsuspecting job seekers with malware. \r\nThe group, also kn… [+2947 chars]"
       }
     ]
   }
