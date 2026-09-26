@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-26T16:59:28.897Z",
+  "timestamp": "2026-09-26T19:44:20.099Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 25,
     "articles": [
       {
         "source": {
@@ -329,32 +329,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M30R5TSC95SZGESPDXXCRR22/kyle-samani.png",
         "publishedAt": "2026-09-21T13:30:00Z",
         "content": "Multicoin Capital co-founder Kyle Samani predicts more crypto companies will choose to build on Solana over Ethereum due to its ease of use and greater functionality.\r\nSolana will flip Ether during t… [+3925 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "BTC price nears eight-month high above $85K: Five things to know in Bitcoin this week",
-        "description": "Bitcoin price momentum sees fresh strength as BTC returns to $85,000 for the first time since January.",
-        "url": "https://cointelegraph.com/markets/btc-price-nears-eight-month-high-above-85k-five-things-to-know-in-bitcoin-this-week",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M31Q8BFZ8GX28390FWKSDR14/hi-why-i-am-cynically-bullish-about-the-bitcoin-4.jpg",
-        "publishedAt": "2026-09-21T10:15:51Z",
-        "content": "Bitcoin (BTC) starts a new week at its highest levels in nearly eight months as bulls propel the market to $85,000.\r\nKey points:\r\n<ul><li>Bitcoin hit $85,248 on Monday, marking its highest levels sin… [+7364 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Crypto Worker's Children Held Hostage in Latest French ‘Wrench Attack,’ $46,000 Taken",
-        "description": "France is the worst-hit country in the world for these attacks, with more than 70 logged in the first eight months of 2026.",
-        "url": "https://decrypt.co/378720/crypto-workers-children-held-hostage-in-latest-french-wrench-attack-46000-taken",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-09-21T09:51:24Z",
-        "content": "In brief\r\n<ul><li>Four masked men broke into a house in Vendin-le-Vieil at around 4am on Sunday and bound a couple and their two children with tape.</li><li>The father, a salaried IT worker in the cr… [+2684 chars]"
       }
     ]
   }
