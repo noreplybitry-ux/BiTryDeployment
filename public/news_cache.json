@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-27T13:44:43.249Z",
+  "timestamp": "2026-09-27T18:11:49.036Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+        "description": "Kraken parent Payward is unifying trading, payments, asset management and institutional services on common rails, co-CEO Arjun Sethi said.",
+        "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-09-26T14:00:00Z",
+        "content": "Payward has divided that vision into four pillars: trading through Kraken, banking, asset management and Payward Services, its business-to-business infrastructure division.\r\nKraken has about 6.6 mill… [+1666 chars]"
+      },
       {
         "source": {
           "id": null,
