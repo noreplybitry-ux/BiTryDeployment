@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-29T15:34:52.347Z",
+  "timestamp": "2026-09-29T20:36:04.591Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Sam Bourgi",
+        "title": "Blockchain.com eyes $500M IPO as crypto capital markets thaw: Report",
+        "description": "The crypto company is seeking a valuation of up to $6 billion, well below its 2022 peak, as recently listed crypto stocks struggle to hold their gains.",
+        "url": "https://cointelegraph.com/news/blockchain-com-500m-ipo-bloomberg-reports",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3MTCJ1E1J8KDT907A531CF3/hi-ipo-stocks-bitpgo.png",
+        "publishedAt": "2026-09-28T20:28:13Z",
+        "content": "Blockchain.com, a crypto exchange and wallet provider, is reportedly looking to raise about $500 million in an initial public offering (IPO) this year, more than four years after the company reached … [+1248 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +342,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M33ZZ6HX76QGK6MY66SG8KYD/hi-governments-enterprise-gaming-who-will-drive-the-next-crypto-bull-run.jpg",
         "publishedAt": "2026-09-22T08:06:23Z",
         "content": "Ben Nadareski, CEO of Solana-based decentralized finance platform Solstice, said crypto markets are unlikely to return to the extreme boom-and-bust cycles as deeper liquidity brings stability to digi… [+2584 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETFs flirt with $1B as inflows hit 2026 high",
-        "description": "US spot Bitcoin ETFs drew nearly $1 billion on Monday, their largest daily inflow since October 2025, as Bitcoin briefly climbed above $87,000.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etf-biggest-inflow-october-2025",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M33Y5TYZKZESE6DRNC3V960G/hi-a-stronger-foundation-for-bitcoin-etf-applications1-3.jpg",
-        "publishedAt": "2026-09-22T07:33:37Z",
-        "content": "US spot Bitcoin exchange-traded funds (ETFs) drew nearly $1 billion in net inflows on Monday, their biggest daily haul of 2026.\r\nThe funds recorded $998.9 million in daily net inflows, surpassing the… [+1179 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Coinbase Opens IPO Allocations To US Retail Traders Starting With Oura",
-        "description": "TL;DR Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app. The service is offered through FINRA-registered Coinbase Capital Markets. Oura is the first IPO on the platform, with allocation rules designed to discou…",
-        "url": "http://www.newsbtc.com/news/coinbase-opens-ipo-allocations-to-us-retail-traders-starting-with-oura/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_xy4INP0h_1780626753962_raw.jpg?fit=1024%2C1024",
-        "publishedAt": "2026-09-22T03:30:00Z",
-        "content": "<ul><li>Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app.</li><li>The service is offered through FINRA-registered Coinbase Capital Markets.</li><li>O… [+1809 chars]"
       }
     ]
   }
