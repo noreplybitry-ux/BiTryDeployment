@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-29T01:40:28.610Z",
+  "timestamp": "2026-09-29T08:11:50.089Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "South Korea weighs crypto market makers after JPYC trades at 4 times peg",
+        "description": "Crypto market making is effectively restricted under South Korea’s manipulation rules, but regulators are reconsidering the approach after a JPYC spiked on Upbit this month.",
+        "url": "https://cointelegraph.com/news/south-korea-weighs-crypto-market-makers-after-jpyc-trades-at-4-times-peg",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3K8G09TJR75WD4RB7BDGCQW/south-korea-market-makers.jpg",
+        "publishedAt": "2026-09-28T05:42:45Z",
+        "content": "South Koreas Financial Services Commission said it is considering a market-making system for digital assets, after a stablecoin linked to the value of the Japanese yen traded for as much as four time… [+2682 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/bitcoin-bull-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-21T15:45:35Z",
         "content": "In brief\r\n<ul><li>Bitcoin traded as high as $86,332 on Monday, its highest level since January.</li><li>CoinGlass recorded $877.31 million in crypto liquidations over 24 hours, with $740.79 million c… [+5074 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Kyle Samani predicts SOL flippening, claims ‘no one’ uses ETH",
-        "description": "Multicoin Capital co-founder Kyle Samani argues that more crypto companies are migrating from Ethereum to Solana and he predicts a flippening will happen this cycle.",
-        "url": "https://cointelegraph.com/magazine/kyle-samani-predicts-sol-flippening-claims-no-one-uses-eth",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M30R5TSC95SZGESPDXXCRR22/kyle-samani.png",
-        "publishedAt": "2026-09-21T13:30:00Z",
-        "content": "Multicoin Capital co-founder Kyle Samani predicts more crypto companies will choose to build on Solana over Ethereum due to its ease of use and greater functionality.\r\nSolana will flip Ether during t… [+3925 chars]"
       }
     ]
   }
