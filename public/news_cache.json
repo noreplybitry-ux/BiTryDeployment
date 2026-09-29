@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-09-29T08:11:50.088Z",
+  "timestamp": "2026-09-29T15:34:52.347Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
+        "description": "CoinDesk found 27 successful swaps moving about 2,390 ETH into 75.2 BTC, even as Bitget urged THORChain to stop serving addresses tied to the $387.5 million theft.",
+        "url": "https://www.coindesk.com/tech/2026/09/28/thorchain-rejects-bitget-request-to-block-hacker-as-usd6-million-moves-to-bitcoin",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/46896a614298dcf705810c12a113e9dab6ce84fb-4416x2488.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-09-28T12:13:09Z",
+        "content": "Crypto exchange Bitget lost about $388 million in a Sept. 24 breach after an attacker bypassed security controls protecting its exchange wallets. The company has since said it has identified and fixe… [+1301 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitget resumes Bitcoin withdrawals as hacker swaps ETH via THORChain",
+        "description": "Ether withdrawals are scheduled to return Tuesday and USDt on Wednesday as Bitget restores services following last week’s $388 million hack.",
+        "url": "https://cointelegraph.com/news/bitget-btc-withdrawal-hacker-eth-swap-thorchain",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3KKY0E7P2KHSR2CF4H4E1SY/hi-bitget-blockchain-initiatives-overview.jpg",
+        "publishedAt": "2026-09-28T11:05:24Z",
+        "content": "Crypto exchange Bitget is resuming withdrawals after a security breach affecting nearly $388 million in assets, as the attacker continues moving stolen crypto through THORChain.\r\nBitget said it resum… [+2333 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Ian Allison",
+        "title": "Crypto-friendly institution Franklin Templeton brings its tokenized collateral service to Bybit",
+        "description": "Franklin Templeton’s tokenized money market shares can be used as collateral for USDT or USDC trading credit lines on Bybit while earning yield on the underlying assets.",
+        "url": "https://www.coindesk.com/business/2026/09/28/crypto-friendly-institution-franklin-templeton-brings-its-tokenized-collateral-service-to-bybit",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ad2bfefb79599f5b40634c14c22a9a628a33a13f-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-09-28T11:00:00Z",
+        "content": "Digital asset-friendly financial institution Franklin Templeton is expanding its off-exchange collateral program\" to Bybit, allowing the exchanges users to use shares in Franklin Templetons tokenized… [+974 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,45 +355,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/image_xy4INP0h_1780626753962_raw.jpg?fit=1024%2C1024",
         "publishedAt": "2026-09-22T03:30:00Z",
         "content": "<ul><li>Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app.</li><li>The service is offered through FINRA-registered Coinbase Capital Markets.</li><li>O… [+1809 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jason Nelson",
-        "title": "Coinbase Brings IPO Shares to US Retail Traders, With Oura Up First",
-        "description": "Eligible customers can request shares at the offering price, but allocations are not guaranteed.",
-        "url": "https://decrypt.co/378874/coinbase-ipo-shares-us-traders-oura",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
-        "publishedAt": "2026-09-21T19:26:49Z",
-        "content": "In brief\r\n<ul><li>Coinbase is opening IPO allocations to eligible U.S. retail customers through its app.</li><li>Smart-ring maker Oura will be the first company offered through the service.</li><li>C… [+3066 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’",
-        "description": "Bitcoin crossed the $86,000 mark for the first time since late January as falling oil prices and concerns over supply lifted US stocks.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-86k-analysis-sees-crypto-new-bull-market",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M32CF788SWBBCQ9G0KVD8FQK/article-covers-253627-bitcoin-bull-trap-bear-market-phase-middle-willy-woo-analyst-960x640.webp",
-        "publishedAt": "2026-09-21T16:39:40Z",
-        "content": "Bitcoin (BTC) spiked above $86,000 after Mondays Wall Street open as US stocks rose amid cooling oil prices.\r\nKey points:\r\n<ul><li>Bitcoin gained nearly 6% on Monday to briefly trade above $86,000 fo… [+3397 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Is Rallying Again—What Happens Next?",
-        "description": "The rally cleared an eight-month ceiling on a short squeeze and falling oil prices. The next three weeks will decide if it sticks.",
-        "url": "https://decrypt.co/378767/bitcoin-rally-what-happens-next",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/bitcoin-bull-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-21T15:45:35Z",
-        "content": "In brief\r\n<ul><li>Bitcoin traded as high as $86,332 on Monday, its highest level since January.</li><li>CoinGlass recorded $877.31 million in crypto liquidations over 24 hours, with $740.79 million c… [+5074 chars]"
       }
     ]
   }
