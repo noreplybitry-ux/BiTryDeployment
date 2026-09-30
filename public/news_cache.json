@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-30T18:59:58.588Z",
+  "timestamp": "2026-09-30T22:57:51.090Z",
   "data": {
     "status": "ok",
     "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "21Shares Sets New Staking Payouts Across Five Crypto ETFs",
+        "description": "21Shares has declared September staking distributions for five crypto ETFs covering Ethereum, Solana, Hyperliquid, Sui and Polkadot. The largest per-share distribution is $0.191360 for the Hyperliquid Staking ETF. The funds distribute staking rewards generate…",
+        "url": "http://www.newsbtc.com/institutional/21shares-sets-new-staking-payouts-across-five-crypto-etfs/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/newsbtc_fireblocks_eth_staking_clean.jpg?fit=1600%2C900",
+        "publishedAt": "2026-09-29T19:30:00Z",
+        "content": "<ul><li>21Shares has declared September staking distributions for five crypto ETFs covering Ethereum, Solana, Hyperliquid, Sui and Polkadot.</li><li>The largest per-share distribution is $0.191360 fo… [+2565 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,19 +342,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-13-gID_7.png",
         "publishedAt": "2026-09-22T18:46:03Z",
         "content": "In brief\r\n<ul><li>Bitcoin traded near $86,559 Tuesday, up 12.2% over the past week, after clearing the resistance band that had capped it since early September.</li><li>The Crypto Fear &amp; Greed In… [+4221 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Binance takes $100M stake in Circle under expanded USDC deal",
-        "description": "Binance purchased $100 million in Circle shares as the companies expanded their USDC partnership through a new five-year commercial agreement.",
-        "url": "https://cointelegraph.com/news/binance-stake-circle-expanded-usdc-deal",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M34EG4VHJABBH8BW3DK0M075/binance-circle.jpg",
-        "publishedAt": "2026-09-22T12:18:41Z",
-        "content": "Binance has invested $100 million in stablecoin issuer Circle as part of an expanded five-year agreement to promote USDC on the crypto exchange.\r\nCircle issued Binance 1,237,011 shares of its Class A… [+1221 chars]"
       }
     ]
   }
