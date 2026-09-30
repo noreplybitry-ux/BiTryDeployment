@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-09-30T13:30:10.866Z",
+  "timestamp": "2026-09-30T18:59:58.588Z",
   "data": {
     "status": "ok",
     "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Is the Red September Curse Over? Bitcoin Set for Best September on Record",
+        "description": "Bitcoin is up 7.33% in September, edging past 2024 as the best September on record, with one day left before the monthly candle closes.",
+        "url": "https://decrypt.co/379549/red-september-curse-over-bitcoin-best-returns-record",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
+        "publishedAt": "2026-09-29T16:50:46Z",
+        "content": "In brief\r\n<ul><li>Bitcoin is up 7.33% for September, just ahead of 2024's 7.29%, which would make it the best September returns going back to 2013.</li><li>A fourth straight green September would be … [+4211 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,19 +342,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M34EG4VHJABBH8BW3DK0M075/binance-circle.jpg",
         "publishedAt": "2026-09-22T12:18:41Z",
         "content": "Binance has invested $100 million in stablecoin issuer Circle as part of an expanded five-year agreement to promote USDC on the crypto exchange.\r\nCircle issued Binance 1,237,011 shares of its Class A… [+1221 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa, Omkar Godbole",
-        "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
-        "description": "Circle sold 1.24 million shares at $80.84 each and will pay Binance a monthly fee tied to USDC held through its wallet infrastructure.",
-        "url": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d9828d5a1dcf4e1f9551968a3a6c2c75a4fc3166-3657x2057.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-09-22T11:07:23Z",
-        "content": "Binance bought $100 million of Circle shares as the companies signed a five-year deal that pays the crypto exchange to promote the USDC stablecoin on its platform.\r\nCircle issued Binance 1.24 million… [+1345 chars]"
       }
     ]
   }
