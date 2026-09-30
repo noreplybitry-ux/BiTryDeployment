@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-09-30T00:13:18.682Z",
+  "timestamp": "2026-09-30T06:29:38.026Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 25,
     "articles": [
       {
         "source": {
@@ -329,19 +329,6 @@
         "urlToImage": "https://s.yimg.com/lo/mysterio/api/7380d510f235e77b45cf74e94b2c54fad64df4a764961e231775e72630cb811b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fb499b94a5998a2a3d63cf8ff5d854291",
         "publishedAt": "2026-09-22T09:28:04Z",
         "content": "Bitcoin (BTC) is defending the $85,500 mark on Tuesday, 22 September, with BTC price trading at $85,736 as a minor -0.97% price correction cools off a bullish move. This comes after the top cryptocur… [+4931 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Crypto’s wild boom-and-bust cycles are fading, Solstice CEO says",
-        "description": "Solstice CEO Ben Nadareski says deeper liquidity and growing institutional participation could make future crypto bull runs less volatile than previous cycles.",
-        "url": "https://cointelegraph.com/news/crypto-bull-runs-liquidity-solstice-ceo",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M33ZZ6HX76QGK6MY66SG8KYD/hi-governments-enterprise-gaming-who-will-drive-the-next-crypto-bull-run.jpg",
-        "publishedAt": "2026-09-22T08:06:23Z",
-        "content": "Ben Nadareski, CEO of Solana-based decentralized finance platform Solstice, said crypto markets are unlikely to return to the extreme boom-and-bust cycles as deeper liquidity brings stability to digi… [+2584 chars]"
       }
     ]
   }
