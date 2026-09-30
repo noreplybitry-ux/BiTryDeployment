@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-09-30T06:29:38.025Z",
+  "timestamp": "2026-09-30T13:30:10.866Z",
   "data": {
     "status": "ok",
-    "totalResults": 25,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETF inflows leave institutional demand unclear: CoinShares",
+        "description": "CoinShares says Bitcoin ETF flows offer clues to institutional activity but do not clearly distinguish institutional buying from retail demand.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-mixed-read-institutional-demand-coinshares",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3PB1SXVHKJ0HQNAKV23AYKN/hi-blackrocks-bitcoin-etf-how-it-works-benefits-and-opportunities-1.jpg",
+        "publishedAt": "2026-09-29T12:40:12Z",
+        "content": "Billions are flowing back into Bitcoin exchange-traded funds (ETFs), but the figures alone do not reveal how much of the demand comes from institutions, according to CoinShares.\r\nUS crypto investment… [+2605 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "US crypto ETF inflows cool after $3.3B week but streaks hold",
+        "description": "US spot crypto ETF inflows fell about 80% from Friday as Bitcoin, Ether, Solana and XRP funds attracted $64.8 million combined on Monday.",
+        "url": "https://cointelegraph.com/markets/us-crypto-etf-inflows-cool-bitcoin-ether-solana-xrp",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3P8GAEMYVH36BJMJ67FFQFK/etf-btc-eth.png",
+        "publishedAt": "2026-09-29T10:15:19Z",
+        "content": "US spot crypto exchange-traded fund (ETF) attracted about $64.8 million on inflows continued to cool on Monday, down roughly 80% from Friday after a strong week of buying.\r\nSoSoValue data showed US s… [+1830 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin bounces to $84K after US 30-year bond yield sets 24-year high",
+        "description": "Bitcoin price weathers a fresh surge in US bond yields as it returns to $84,000 and protects critical support for its uptrend.",
+        "url": "https://cointelegraph.com/markets/bitcoin-bounces-to-84k-after-us-30-year-bond-yield-sets-24-year-high",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M285JYCZ9QMJKNR8RK6TQCBQ/hi-what-is-a-bitcoin-bond-etf-and-how-does-it-work.jpg",
+        "publishedAt": "2026-09-29T10:04:42Z",
+        "content": "Bitcoin (BTC) preserved crucial support into Tuesday as analysis warned of a new profit-taking surge.\r\nKey points:\r\n<ul><li>Bitcoin rebounded to $84,000 without violating $82,500, a level seen as ess… [+3172 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Greece gets first MiCA entrants as watchdog denies Binance-Lagarde claim",
+        "description": "Greece joined ESMA’s MiCA register for the first time with four providers as HCMC expanded its denial of remarks in a report about Binance and Lagarde.",
+        "url": "https://cointelegraph.com/news/greece-first-mica-entrants-hcmc-binance-lagarde",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3P1CC8JZ9CE9GXZ0SSDV4J0/111111.png",
+        "publishedAt": "2026-09-29T09:50:22Z",
+        "content": "Greece has entered the European Unions crypto regulatory register for the first time, with four providers added.\r\nFour Greek providers BCash, Xenios Blockchain Group, Capital Wallet Greece and Piraeu… [+3022 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -290,45 +342,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d9828d5a1dcf4e1f9551968a3a6c2c75a4fc3166-3657x2057.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-09-22T11:07:23Z",
         "content": "Binance bought $100 million of Circle shares as the companies signed a five-year deal that pays the crypto exchange to promote the USDC stablecoin on its platform.\r\nCircle issued Binance 1.24 million… [+1345 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
-        "description": "Federal prosecutors in Manhattan and the Justice Department are said to be investigating whether the crypto exchange knowingly permitted users to bypass U.S. sanctions on Iran.",
-        "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/8524e860085e53902a998b3545d3aa7e9f9192c9-1440x810.jpg?auto=format&q=75",
-        "publishedAt": "2026-09-22T10:07:52Z",
-        "content": "Since then, the company has sought to emphasize its cooperation with law enforcement and regulators. The company said in a blog post in February that more than 1,500 people, or about 25% of its globa… [+1114 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Crypto metric signals altseason as Bitcoin market-cap share stalls below 60%",
-        "description": "Glassnode’s Altcoin Cycle Signal printed a new altseason signal after a month of Bitcoin and altcoin market-cap gains.",
-        "url": "https://cointelegraph.com/markets/crypto-metric-signals-altseason-as-bitcoin-market-cap-share-stalls-below-60",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M348REMRPFT3JRDK7677JZW0/hi-btc-the-most-popular-crypto-for-purchases-but-bch-and-dash-for-selling-1.jpg",
-        "publishedAt": "2026-09-22T10:00:43Z",
-        "content": "Bitcoins (BTC) rise to $86,000 this week has dragged altcoin markets higher as the industrys market cap reclaimed $3 trillion.\r\nKey points:\r\n<ul><li>Glassnodes Altcoin Cycle Signal printed a new altc… [+3106 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cryptonews"
-        },
-        "author": "Ahmed Barakat",
-        "title": "Bitcoin Reclaims $85,000 as Oil and Yields Retreat",
-        "description": "Bitcoin (BTC) is defending the $85,500 mark on Tuesday, 22 September, with BTC price trading at $85,736 as a minor -0.97% price correction cools off a bullis...",
-        "url": "https://cryptonews.com/news/bitcoin-reclaims-85000/",
-        "urlToImage": "https://s.yimg.com/lo/mysterio/api/7380d510f235e77b45cf74e94b2c54fad64df4a764961e231775e72630cb811b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcryptonews_us_711%2Fb499b94a5998a2a3d63cf8ff5d854291",
-        "publishedAt": "2026-09-22T09:28:04Z",
-        "content": "Bitcoin (BTC) is defending the $85,500 mark on Tuesday, 22 September, with BTC price trading at $85,736 as a minor -0.97% price correction cools off a bullish move. This comes after the top cryptocur… [+4931 chars]"
       }
     ]
   }
