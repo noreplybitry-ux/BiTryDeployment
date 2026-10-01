@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-01T16:59:20.178Z",
+  "timestamp": "2026-10-01T21:46:11.984Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 26,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
+        "description": "Bitcoin ETFs added $66 million Tuesday, matching August's nine-day run and topping it in dollars. How long will the streak stay alive?",
+        "url": "https://decrypt.co/379731/bitcoin-etf-9-day-streak-august-rally",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
+        "publishedAt": "2026-09-30T17:27:43Z",
+        "content": "In brief\r\n<ul><li>Bitcoin ETFs took in $66.19 million on Sept. 29, their ninth straight day of net inflows.</li><li>The Sept. 1729 run has drawn about $3.08 billion, edging past the roughly $3.04 bil… [+2794 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +342,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3995AEZDZAHF7KGY7TNVJAH/bitwise-report.png",
         "publishedAt": "2026-09-24T09:18:16Z",
         "content": "None of the 15 institutions interviewed by asset manager Bitwise cut their crypto allocations during a roughly 50% market drawdown, while several bought more.\r\nEvery institution in the group that own… [+2196 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Crypto Exchange That Invented 100x Leverage Is No More: Here’s What BitMEX Users Need to Know",
-        "description": "BitMEX ended trading at 04:00 UTC Wednesday and is urging users to withdraw their remaining funds, as fees now apply to balances left on the exchange.",
-        "url": "https://decrypt.co/379089/crypto-exchange-that-invented-100x-leverage-is-no-more-heres-what-bitmex-users-need-to-know",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/arthur-hayes-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-09-23T17:31:03Z",
-        "content": "In brief\r\n<ul><li>BitMEX officially ended exchange operations Wednesday, closing out a wind-down announced in July. Trading and deposits are off, but withdrawals remain open.</li><li>Verified users w… [+2247 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "NYSE Taps Blockchain.com to Reach Crypto Investors With Tokenized Stocks",
-        "description": "Blockchain.com and NYSE Group signed a preliminary agreement to give the crypto exchange's users access to tokenized U.S. stocks and ETFs, pending regulatory approval.",
-        "url": "https://decrypt.co/379080/nyse-taps-blockchain-com-to-reach-crypto-investors-with-tokenized-stocks-etfs",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/crypto-trading-gen-z-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-23T16:36:03Z",
-        "content": "In brief\r\n<ul><li>Blockchain.com signed a memorandum of understanding with NYSE Group to offer tokenized U.S. stocks and ETFs through the NYSE's planned 24/7 digital trading venue.</li><li>The deal a… [+2675 chars]"
       }
     ]
   }
