@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-01T09:56:53.888Z",
+  "timestamp": "2026-10-01T16:59:20.178Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Singapore crypto activity grows 55% as broader region contracts",
+        "description": "Singapore’s crypto economy grew 55.4% to $284 billion as institutional-platform activity surged 94%, while the Philippines, Thailand and Vietnam stood out for small-value P2P transfers.",
+        "url": "https://cointelegraph.com/news/singapore-crypto-economy-284b-institutional-activity-chainalysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3RAGTSRKJH3XGCDAAGQTVXB/regulations-singapore-crypto.jpg",
+        "publishedAt": "2026-09-30T13:00:00Z",
+        "content": "Singapores crypto activity rose 55.4% to $284 billion in the year ended June 2026, bucking a regional contraction and regaining its position as the largest crypto economy in Central and Southeast Asi… [+3976 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "FCA opens crypto authorization window ahead of 2027 UK regime",
+        "description": "The FCA opened crypto authorization applications ahead of the UK’s October 2027 regime, with existing businesses urged to apply by Feb. 28.",
+        "url": "https://cointelegraph.com/news/fca-crypto-authorization-2027-uk-regime",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3S34AE4B11G1QWG7E88GP0J/hi-uk-compliance-deadline-is-upcoming-should-users-expect-crypto-firm-closures-2.jpg",
+        "publishedAt": "2026-09-30T12:06:04Z",
+        "content": "The United Kingdoms Financial Conduct Authority (FCA) opened applications Wednesday for crypto businesses seeking authorization under a regulatory regime due to take effect on Oct. 25, 2027.\r\nCompani… [+1166 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -329,32 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/crypto-trading-gen-z-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-23T16:36:03Z",
         "content": "In brief\r\n<ul><li>Blockchain.com signed a memorandum of understanding with NYSE Group to offer tokenized U.S. stocks and ETFs through the NYSE's planned 24/7 digital trading venue.</li><li>The deal a… [+2675 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "North Korea's Fake Job Interviews Drained $11M From 7,000 Crypto Wallets",
-        "description": "A seven-agency advisory ties the WaterPlum hacking crew and Pyongyang's remote IT worker scheme to the same bureau.",
-        "url": "https://decrypt.co/379032/north-koreas-fake-job-interviews-drained-11m-from-7000-crypto-wallets",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-23T12:15:18Z",
-        "content": "In brief\r\n<ul><li>Police and intelligence agencies in Japan, the U.S., Australia and Germany said the group infected at least 30,000 devices across more than 100 countries.</li><li>It took funds or c… [+3569 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin bull market ‘confirmed’ but $90K presents profit-taking risk: Analysis",
-        "description": "Bitcoin price analysis sees onchain signals repeating the signs that “confirmed” the past two bull markets.",
-        "url": "https://cointelegraph.com/markets/bitcoin-bull-market-confirmed-but-90k-presents-profit-taking-risk-analysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M36VKH38PWTADPGEVC4SV8G0/hi-fiat-institutions-and-crypto-trading-desks-1.jpg",
-        "publishedAt": "2026-09-23T10:05:10Z",
-        "content": "Bitcoin (BTC) faces its next real test at $90,000 as traders continue to return to unrealized profit.\r\nKey points:\r\n<ul><li>Bitcoin profit-takers may stall BTC price upside at $90,000, CryptoQuant pr… [+2931 chars]"
       }
     ]
   }
