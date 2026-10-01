@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-10-01T02:01:56.228Z",
+  "timestamp": "2026-10-01T09:56:53.888Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Robinhood announces AI agent for customers that trades around the clock, plus 10x crypto perps",
+        "description": "Robinhood users could soon access an AI agent that trades on behalf of them even at 2 am. Plus, they will get to trade crypto perpetuals.",
+        "url": "https://www.coindesk.com/markets/2026/09/30/robinhood-is-giving-customers-an-ai-agent-that-trades-for-them-plus-10x-crypto-bets",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/444f7a787b146a0e468e858e32f1f9d80f6c9c32-3600x2400.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-09-30T05:59:31Z",
+        "content": "\"Whether you're an expert or are just getting started with AI, you're at a disadvantage if you're not using Robinhood,\" said Abhishek Fatehpuria, Robinhood's vice president of product management.\r\nTh… [+1089 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Crypto.com AI agent still in ‘stealth mode’ nearly 8 months after Super Bowl debut",
+        "description": "In February, ai.com drew enough traffic to crash its website after a $15 million Super Bowl ad, but months later, users are still wondering what’s happened to their promised AI agent.",
+        "url": "https://cointelegraph.com/news/cryptocom-ai-agent-stealth-mode-nearly-8-months-after-super-bowl-debut",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3R6DNNDMD14KM1BFQ6A4CBC/ai-agent.jpg",
+        "publishedAt": "2026-09-30T03:40:42Z",
+        "content": "Crypto.com says its personal AI agent venture, pitched to perform a broad set of tasks from trading stocks to updating online dating profiles, is still under construction, months after a Super Bowl d… [+2673 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Binance Pay lets visitors spend USDT at PayPay merchants in Japan",
+        "description": "Binance Pay will let eligible overseas users spend USDT at most PayPay-supported merchants in Japan through HIVEX, with stores receiving yen.",
+        "url": "https://cointelegraph.com/news/binance-pay-usdt-paypay-merchants-japan",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3P2PR3RBJ5STG23V6141JFH/hi-how-binance-debit-cards-work.png",
+        "publishedAt": "2026-09-30T02:25:00Z",
+        "content": "Binance Pay will allow eligible overseas users visiting Japan to spend Tether USDt (USDT) at the vast majority of PayPay-supported merchants starting Wednesday.\r\nThe service will run through HIVEX, a… [+1165 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,32 +355,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M36VKH38PWTADPGEVC4SV8G0/hi-fiat-institutions-and-crypto-trading-desks-1.jpg",
         "publishedAt": "2026-09-23T10:05:10Z",
         "content": "Bitcoin (BTC) faces its next real test at $90,000 as traders continue to return to unrealized profit.\r\nKey points:\r\n<ul><li>Bitcoin profit-takers may stall BTC price upside at $90,000, CryptoQuant pr… [+2931 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Raiffeisen to offer crypto trading across 11 European markets via Bitpanda",
-        "description": "Raiffeisen Bank International is expanding crypto access through Bitpanda, giving its network banks infrastructure that could serve about 18 million customers.",
-        "url": "https://cointelegraph.com/news/raiffeisen-crypto-11-european-markets-bitpanda",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1P74NCJ7VVQEWSD26T81DZH/digital-bank-2.jpg",
-        "publishedAt": "2026-09-23T09:42:39Z",
-        "content": "Raiffeisen Bank International (RBI), an Austrian banking group with operations across Central and Eastern Europe, is expanding its cryptocurrency push through a group-wide partnership with Bitpanda.\r… [+1437 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Breaks Out as Nasdaq Hits Records and Oil Slides on Iran Hopes",
-        "description": "A stretched but firmly bullish Bitcoin chart is riding the same tailwind lifting stocks: falling oil, a record Nasdaq, and a Fed that hiked rates while quietly pumping liquidity into the system.",
-        "url": "https://decrypt.co/378972/bitcoin-breaks-out-nasdaq-hits-records-oil-slides",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-13-gID_7.png",
-        "publishedAt": "2026-09-22T18:46:03Z",
-        "content": "In brief\r\n<ul><li>Bitcoin traded near $86,559 Tuesday, up 12.2% over the past week, after clearing the resistance band that had capped it since early September.</li><li>The Crypto Fear &amp; Greed In… [+4221 chars]"
       }
     ]
   }
