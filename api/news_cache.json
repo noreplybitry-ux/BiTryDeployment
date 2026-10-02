@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-02T08:14:36.702Z",
+  "timestamp": "2026-10-02T15:36:54.048Z",
   "data": {
     "status": "ok",
-    "totalResults": 26,
+    "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
+        "description": "The popular cross-chain trading system said it will reimburse losses after a bug affected deposits and withdrawals across several networks.",
+        "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5844591d4fc53908b4ecc1fda0511af88a269620-6024x4024.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-10-01T14:18:14Z",
+        "content": "The incident adds to a rough year for crypto security. Just last week, exchange Bitget suffered an exploit that resulted in over $350 million in stolen assets. Other major incidents included Liquid N… [+807 chars]"
+      },
       {
         "source": {
           "id": null,
