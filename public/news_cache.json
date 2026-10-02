@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-02T15:36:54.048Z",
+  "timestamp": "2026-10-02T20:33:34.409Z",
   "data": {
     "status": "ok",
     "totalResults": 27,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs",
+        "description": "US bond yields fell sharply around Thursday’s Wall Street open as Bitcoin price action sought to preserve a local trend of higher lows.",
+        "url": "https://cointelegraph.com/markets/bitcoin-fights-local-uptrend-us-bond-yields-drop-from-new-24-year-highs",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3W2DJGKT5VP6Z8THMSJRK57/crypto-bitcoin-btc-price-960x640.webp",
+        "publishedAt": "2026-10-01T15:55:19Z",
+        "content": "Bitcoin (BTC) pushed above $84,000 around Thursdays Wall Street open as US bond yields retreated after setting more multidecade highs.\r\nKey points:\r\n<ul><li>BTC price action seeks to cement higher lo… [+2868 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,19 +355,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-09-24T11:56:11Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+5267 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Institutions held crypto through 50% drawdown, Bitwise finds",
-        "description": "Every institution interviewed that owned crypto held Bitcoin, usually as its largest asset; some set exit conditions for Ether and Solana.",
-        "url": "https://cointelegraph.com/markets/institutions-held-crypto-50-percent-drawdown-bitwise",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3995AEZDZAHF7KGY7TNVJAH/bitwise-report.png",
-        "publishedAt": "2026-09-24T09:18:16Z",
-        "content": "None of the 15 institutions interviewed by asset manager Bitwise cut their crypto allocations during a roughly 50% market drawdown, while several bought more.\r\nEvery institution in the group that own… [+2196 chars]"
       }
     ]
   }
