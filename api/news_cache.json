@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-02T20:33:34.410Z",
+  "timestamp": "2026-10-03T00:18:55.923Z",
   "data": {
     "status": "ok",
-    "totalResults": 27,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "China warns foreign spies about crypto, Singapore dominates Asia: Asia Express",
+        "description": "China warns would-be foreign spies crypto isn’t as anonymous as they think and that authorities are watching the blockchain. South Korea finally warms up to crypto market makers.",
+        "url": "https://cointelegraph.com/magazine/china-claims-crypto-used-by-spies-singapore-dominates-asian-crypto-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3WVGY0BWCZXBWJ212RM1CMX/magazineasia-expresshighway.jpg",
+        "publishedAt": "2026-10-01T23:17:47Z",
+        "content": "CHINA\r\nBeijing claims cryptocurrencies are accomplices in espionage\r\nChinas Ministry of State Security has toughened its rhetoric on the risks of cryptocurrencies, highlighting their role in crime an… [+5460 chars]"
+      },
       {
         "source": {
           "id": null,
