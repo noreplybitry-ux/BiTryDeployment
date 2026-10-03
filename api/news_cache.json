@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-03T12:23:45.768Z",
+  "timestamp": "2026-10-03T17:08:49.605Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Heads Higher on Macro Moves: Where Does BTC Go Next?",
+        "description": "A jobs report miss just erased the odds of an October rate hike, and BTC is now knocking on the door of its yearly ceiling.",
+        "url": "https://decrypt.co/379936/bitcoin-heads-higher-fed-jobs-where-does-btc-go-next",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-mountain-decrypt-style-gID_7.png",
+        "publishedAt": "2026-10-02T16:45:52Z",
+        "content": "In brief\r\n<ul><li>The U.S. added only 29,000 jobs in September versus 84,000 expected, and odds of an October Fed hike plunged to roughly 14% from 70% earlier this week.</li><li>Bitcoin trades at $86… [+4319 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin briefly hits $87K as weak US jobs data sends bond yields lower",
+        "description": "Bitcoin climbed after weaker-than-expected payrolls pushed Treasury yields lower, but order-book resistance kept BTC from reaching new macro highs.",
+        "url": "https://cointelegraph.com/markets/bitcoin-briefly-taps-87k-as-bond-yields-drop-on-low-us-nonfarm-payrolls-data",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3YJCPAEGNQQMRKZHXC717XH/hi-bitcoins-hidden-messages-bitcoin-price-960x640.webp",
+        "publishedAt": "2026-10-02T15:27:31Z",
+        "content": "Bitcoin (BTC) spiked past $87,000 on Friday as US jobs data missed expectations.\r\nKey points:\r\n<ul><li>Bitcoin tapped $87,200 but failed to make new multi-month highs as overhead resistance held.</li… [+2532 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RR0R87D4ZNY7FB45GN96P2/magazineasia-expressriver.jpg",
         "publishedAt": "2026-09-24T23:27:17Z",
         "content": "Asian countries account for almost half of Adoption Index\r\nAlmost half of the top 20 nations in terms of grassroots crypto adoption are in the Asia Pacific region. According to Chainalysiss newly rel… [+6296 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Aoyon Ashraf, Nikhilesh De",
-        "title": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
-        "description": "Bitget CEO Gracy Chen announced the hack shortly after independent researchers flagged unusual wallet movements.",
-        "url": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b211dc0a2c42f8c64487bc73e191e498111d9fed-7737x5161.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-09-24T21:59:32Z",
-        "content": "Crypto exchange Bitget had $351.6 million dollars exposed to a system breach on Thursday, CEO Gracy Chen announced in a social media post. \r\nIn a post on X, Chen said that Bitgets cold wallets and us… [+1041 chars]"
       }
     ]
   }
