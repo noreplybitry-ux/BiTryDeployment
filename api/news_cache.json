@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-03T06:16:52.060Z",
+  "timestamp": "2026-10-03T12:23:45.768Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Bitcoin treasuries may struggle to match Strategy, says Ammous",
+        "description": "Strategy’s scale and cash reserves give it an edge over treasury rivals, according to Saifedean Ammous, author of “The Bitcoin Standard.”",
+        "url": "https://cointelegraph.com/news/bitcoin-treasuries-struggle-strategy-says-ammous",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3Y0CB1X2FGXJEE6QVA6ZCTS/saifedean-ammous.png",
+        "publishedAt": "2026-10-02T10:54:33Z",
+        "content": "Bitcoin treasury companies built primarily around buying the cryptocurrency may struggle to compete with Michael Saylors Strategy, according to economist and The Bitcoin Standard author Saifedean Amm… [+2626 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Marex Gives Institutions Long And Short Crypto Exposure Without Holding The Coins",
+        "description": "TL;DR Marex has launched a cash-settled OTC rolling spot crypto product for institutional clients. The product allows long or short exposure without clients directly holding the underlying digital assets. Marex is also introducing Neon Crypto inside its exist…",
+        "url": "http://www.newsbtc.com/institutional/marex-otc-rolling-spot-crypto-institutions/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/1085X504-13.png?fit=3255%2C1512",
+        "publishedAt": "2026-10-02T08:41:35Z",
+        "content": "<ul><li>Marex has launched a cash-settled OTC rolling spot crypto product for institutional clients.</li><li>The product allows long or short exposure without clients directly holding the underlying … [+3095 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,45 +368,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/b211dc0a2c42f8c64487bc73e191e498111d9fed-7737x5161.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-09-24T21:59:32Z",
         "content": "Crypto exchange Bitget had $351.6 million dollars exposed to a system breach on Thursday, CEO Gracy Chen announced in a social media post. \r\nIn a post on X, Chen said that Bitgets cold wallets and us… [+1041 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Charles Bennett",
-        "title": "Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
-        "description": "US Treasury yields hit a 19-year high on Thursday, pressuring risk assets as Bitcoin held near $84,000 and ONDO became top performer among altcoins.",
-        "url": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3AGHD04QX5Q0GBBZ75P2EB6/hi-blockchain-explanatory-articles-for-the-very-beginner-ondo-2.jpg",
-        "publishedAt": "2026-09-24T20:32:16Z",
-        "content": "Bitcoin (BTC) had a volatile Thursday during US hours as the yield on the 10-year US Treasury note climbed to its highest level in nearly two decades. After briefly falling below $83,000, BTC struggl… [+2905 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Elliptic Wants Every Cop to Read a Crypto Wallet in Seconds—With AI",
-        "description": "Elliptic’s new AI-assisted tool, called Pulse, lets any officer input a wallet address or transaction hash and get a plain-language summary in seconds, aiming to bring crypto tracing beyond specialized units.",
-        "url": "https://decrypt.co/379113/elliptic-crypto-wallet-ai-pulse",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/french-police-gendarme-decrypt-style-1-scaled-gID_7.jpg",
-        "publishedAt": "2026-09-24T13:01:03Z",
-        "content": "In brief\r\n<ul><li>Elliptic launched Pulse, an AI product that gives frontline law enforcement officers a plain-language financial summary of any wallet address or transaction hash in seconds, no bloc… [+2658 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Solana Foundation hires Binance, Polygon veterans as it ramps up tokenized finance push",
-        "description": "Rachel Conlan and Jamal Raees join as Solana aims to court institutions moving payments and assets onchain.",
-        "url": "https://www.coindesk.com/business/2026/09/24/solana-foundation-hires-binance-polygon-veterans-as-it-ramps-up-tokenized-finance-push",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/be69f7e3e9544b2f09ff312d461acfec072b473d-2047x1323.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-09-24T13:00:00Z",
-        "content": "The Solana Foundation has appointed former Binance executive Rachel Conlan as its new chief strategy officer, adding a high-profile crypto industry veteran as the Solana (SOL) blockchain makes a bigg… [+1070 chars]"
       }
     ]
   }
