@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-03T00:18:55.923Z",
+  "timestamp": "2026-10-03T06:16:52.060Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea crypto exchange profits fall 78% in H1 amid trading slump",
+        "description": "South Korean crypto exchange operating profits fell 78% in the first half of 2026 as trading volumes, market capitalization and customer deposits declined.",
+        "url": "https://cointelegraph.com/news/south-korea-crypto-exchange-profits-fall-78-percent",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3XHV0FC144KSRRK1DF5EHGE/south-korea-flag-stocks.png",
+        "publishedAt": "2026-10-02T05:53:27Z",
+        "content": "South Korean crypto exchanges saw operating profits fall 78% in the first half of 2026 as trading activity, market valuations and customer deposits declined, according to new government data. \r\nOn Th… [+1345 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "SEC moves to clear custody hurdle for advisers offering crypto",
+        "description": "The SEC proposed new crypto custody rules that would let investment advisers self-custody some assets and use eligible state trust companies as custodians.",
+        "url": "https://cointelegraph.com/news/sec-moves-to-clear-custody-hurdle-for-advisers-offering-crypto",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XP9EEWDQ84ZSGS1X5SFP19/hi-sbuidl-blackrocks-tokenized-treasury-fund.jpg",
+        "publishedAt": "2026-10-02T01:07:08Z",
+        "content": "The US securities regulator has proposed easing rules governing how investment advisers and funds hold crypto, potentially clearing a regulatory hurdle that has held some businesses back from offerin… [+3508 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/be69f7e3e9544b2f09ff312d461acfec072b473d-2047x1323.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-09-24T13:00:00Z",
         "content": "The Solana Foundation has appointed former Binance executive Rachel Conlan as its new chief strategy officer, adding a high-profile crypto industry veteran as the Solana (SOL) blockchain makes a bigg… [+1070 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Selig Says ‘It’s Go Time’ for CFTC Crypto Rules",
-        "description": "The CFTC has been extremely busy ever since the Clarity Act failed its vote, and it appears they’re ready to accelerate.",
-        "url": "https://decrypt.co/379169/morning-minute-selig-says-its-go-time-for-cftc-crypto-rules",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-09-24T11:56:11Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+5267 chars]"
       }
     ]
   }
