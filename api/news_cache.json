@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-06T16:41:18.981Z",
+  "timestamp": "2026-10-06T21:32:09.810Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Crypto Sleuth ZachXBT Fronted $350K to Pose as a Client of Lazarus' Chinese Launderers",
+        "description": "The on-chain sleuth says he posed as a customer of a Chinese crime syndicate, fronting $349,700 and eating 5% on every order, to track Lazarus Group's Bybit loot in real time.",
+        "url": "https://decrypt.co/380092/zachxbt-fronted-350k-pose-client-lazarus-chinese-crypto-launderers",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-10-05T18:46:02Z",
+        "content": "In brief\r\n<ul><li>ZachXBT says he fronted 349.7K USDC on March 6, 2025, and accepted a 5% loss on each order while posing as a client of a Chinese laundering syndicate.</li><li>He says the operation … [+7099 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3P1CC8JZ9CE9GXZ0SSDV4J0/111111.png",
         "publishedAt": "2026-09-29T09:50:22Z",
         "content": "Greece has entered the European Unions crypto regulatory register for the first time, with four providers added.\r\nFour Greek providers BCash, Xenios Blockchain Group, Capital Wallet Greece and Piraeu… [+3022 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Blockchain.com eyes $500M IPO as crypto capital markets thaw: Report",
-        "description": "The crypto company is seeking a valuation of up to $6 billion, well below its 2022 peak, as recently listed crypto stocks struggle to hold their gains.",
-        "url": "https://cointelegraph.com/news/blockchain-com-500m-ipo-bloomberg-reports",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3MTCJ1E1J8KDT907A531CF3/hi-ipo-stocks-bitpgo.png",
-        "publishedAt": "2026-09-28T20:28:13Z",
-        "content": "Blockchain.com, a crypto exchange and wallet provider, is reportedly looking to raise about $500 million in an initial public offering (IPO) this year, more than four years after the company reached … [+1248 chars]"
       }
     ]
   }
