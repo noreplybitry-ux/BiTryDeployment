@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-07T16:15:38.284Z",
+  "timestamp": "2026-10-07T21:52:18.873Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin grinds toward $87K as US equities hit new record highs",
+        "description": "Bitcoin remained caught below ask liquidity around $87,000 as the S&P 500 and Nasdaq broke out to hit new all-time highs.",
+        "url": "https://cointelegraph.com/markets/bitcoin-grinds-toward-87k-as-us-equities-hit-new-record-highs",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M48Y4PJ2GGMHEEAY807E953G/hi-why-bitcoin-has-recently-reacted-more-to-liquidity-conditions-than-rate-cuts.jpg",
+        "publishedAt": "2026-10-06T17:19:58Z",
+        "content": "Bitcoin (BTC) continued to circle $86,000 on Tuesday as US stock markets hit fresh all-time highs.\r\nKey points:\r\n<ul><li>Bitcoin attempted to move toward $87,000 but faces ongoing friction from ask l… [+3197 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3S34AE4B11G1QWG7E88GP0J/hi-uk-compliance-deadline-is-upcoming-should-users-expect-crypto-firm-closures-2.jpg",
         "publishedAt": "2026-09-30T12:06:04Z",
         "content": "The United Kingdoms Financial Conduct Authority (FCA) opened applications Wednesday for crypto businesses seeking authorization under a regulatory regime due to take effect on Oct. 25, 2027.\r\nCompani… [+1166 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Robinhood announces AI agent for customers that trades around the clock, plus 10x crypto perps",
-        "description": "Robinhood users could soon access an AI agent that trades on behalf of them even at 2 am. Plus, they will get to trade crypto perpetuals.",
-        "url": "https://www.coindesk.com/markets/2026/09/30/robinhood-is-giving-customers-an-ai-agent-that-trades-for-them-plus-10x-crypto-bets",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/444f7a787b146a0e468e858e32f1f9d80f6c9c32-3600x2400.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-09-30T05:59:31Z",
-        "content": "\"Whether you're an expert or are just getting started with AI, you're at a disadvantage if you're not using Robinhood,\" said Abhishek Fatehpuria, Robinhood's vice president of product management.\r\nTh… [+1089 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Crypto.com AI agent still in ‘stealth mode’ nearly 8 months after Super Bowl debut",
-        "description": "In February, ai.com drew enough traffic to crash its website after a $15 million Super Bowl ad, but months later, users are still wondering what’s happened to their promised AI agent.",
-        "url": "https://cointelegraph.com/news/cryptocom-ai-agent-stealth-mode-nearly-8-months-after-super-bowl-debut",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3R6DNNDMD14KM1BFQ6A4CBC/ai-agent.jpg",
-        "publishedAt": "2026-09-30T03:40:42Z",
-        "content": "Crypto.com says its personal AI agent venture, pitched to perform a broad set of tasks from trading stocks to updating online dating profiles, is still under construction, months after a Super Bowl d… [+2673 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Binance Pay lets visitors spend USDT at PayPay merchants in Japan",
-        "description": "Binance Pay will let eligible overseas users spend USDT at most PayPay-supported merchants in Japan through HIVEX, with stores receiving yen.",
-        "url": "https://cointelegraph.com/news/binance-pay-usdt-paypay-merchants-japan",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3P2PR3RBJ5STG23V6141JFH/hi-how-binance-debit-cards-work.png",
-        "publishedAt": "2026-09-30T02:25:00Z",
-        "content": "Binance Pay will allow eligible overseas users visiting Japan to spend Tether USDt (USDT) at the vast majority of PayPay-supported merchants starting Wednesday.\r\nThe service will run through HIVEX, a… [+1165 chars]"
       }
     ]
   }
