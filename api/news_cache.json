@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-10-08T08:41:13.184Z",
+  "timestamp": "2026-10-08T16:16:57.179Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill",
+        "description": "Representative French Hill hopes lawmakers could pass a cryptocurrency market structure bill before the next session of Congress in 2027 as SEC and CFTC actions weren’t sufficient",
+        "url": "https://cointelegraph.com/news/sec-cftc-crypto-regulations-fall-short-clarity-bill",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4BDBYZXWRGYC55QX8JFFZ4N/hi-sec-cftc-and-clarity.png",
+        "publishedAt": "2026-10-07T16:06:03Z",
+        "content": "Representative French Hill, who chairs the House Financial Services Committee, said that though US financial regulators were moving forward with addressing digital assets, their actions lacked the lo… [+1834 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Dips Below $83K as Oil Shock Rattles Markets: What Happens Next?",
+        "description": "Bitcoin fell sharply as oil topped $101 and the 30-year Treasury yield hit its highest since 2002. The daily chart still leans bullish. The four-hour chart disagrees.",
+        "url": "https://decrypt.co/380290/bitcoin-dips-oil-shock-rattles-markets-what-happens-next",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "publishedAt": "2026-10-07T15:34:31Z",
+        "content": "In brief\r\n<ul><li>Bitcoin fell as low as $82,776.30 today and sits at $83,178.54, down 2.76% on the day, as oil climbed above $101 and bond yields climbed.</li><li>The daily chart still shows a stron… [+5023 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves",
+        "description": "Bitcoin fell below $83,000 to reach month-to-date lows as stocks reversed after all-time highs and bond yields spiked higher.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-to-827k-october-low-as-bond-sell-off-resumes-on-iran-nerves",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4BEBEZ7QSY6YC27Z3G1WAYE/oil-bitcoin-petrol-iran-3.jpg",
+        "publishedAt": "2026-10-07T15:06:14Z",
+        "content": "Bitcoin (BTC) fell further at Wednesdays Wall Street open as oil prices gained on US-Iran war headlines and stocks came off all-time highs.\r\nKey points:\r\n<ul><li>Bitcoin fell to $82,734 on Bitstamp, … [+2979 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Crypto trading giant GSR's new vault business is a $100M bet on onchain credit",
+        "description": "The firm is putting its own capital into stablecoin and tokenized gold vaults as institutional finance moves further onchain.",
+        "url": "https://www.coindesk.com/business/2026/10/07/crypto-trading-giant-gsr-s-new-vault-business-is-a-usd100m-bet-on-onchain-credit",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2bb224bfa288e79f5e3ee5873991c29fe31f5ebd-1440x1080.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-10-07T12:34:13Z",
+        "content": "Crypto trading and market-making firm GSR is committing $100 million to a new onchain credit business, betting that vaults will become a bigger part of how institutional investors put digital and tok… [+1047 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Crypto liquidations hit $550M as Bitcoin price dips below $84K",
+        "description": "Bitcoin fell 2.3% in two hours amid suspicion over the appearance of leveraged BTC short positions on Hyperliquid.",
+        "url": "https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4AW745VDSWX1CKPHGAJA9VF/big-wave-bitcoin-market-fall.jpg",
+        "publishedAt": "2026-10-07T09:45:35Z",
+        "content": "Bitcoin (BTC) dipped below $84,000 on Wednesday as flash downside liquidated over $500 million in crypto long positions.\r\nKey points:\r\n<ul><li>Bitcoin briefly dropped to $83,560 but held support at i… [+2416 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,58 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XP9EEWDQ84ZSGS1X5SFP19/hi-sbuidl-blackrocks-tokenized-treasury-fund.jpg",
         "publishedAt": "2026-10-02T01:07:08Z",
         "content": "The US securities regulator has proposed easing rules governing how investment advisers and funds hold crypto, potentially clearing a regulatory hurdle that has held some businesses back from offerin… [+3508 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "China warns foreign spies about crypto, Singapore dominates Asia: Asia Express",
-        "description": "China warns would-be foreign spies crypto isn’t as anonymous as they think and that authorities are watching the blockchain. South Korea finally warms up to crypto market makers.",
-        "url": "https://cointelegraph.com/magazine/china-claims-crypto-used-by-spies-singapore-dominates-asian-crypto-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3WVGY0BWCZXBWJ212RM1CMX/magazineasia-expresshighway.jpg",
-        "publishedAt": "2026-10-01T23:17:47Z",
-        "content": "CHINA\r\nBeijing claims cryptocurrencies are accomplices in espionage\r\nChinas Ministry of State Security has toughened its rhetoric on the risks of cryptocurrencies, highlighting their role in crime an… [+5460 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs",
-        "description": "US bond yields fell sharply around Thursday’s Wall Street open as Bitcoin price action sought to preserve a local trend of higher lows.",
-        "url": "https://cointelegraph.com/markets/bitcoin-fights-local-uptrend-us-bond-yields-drop-from-new-24-year-highs",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3W2DJGKT5VP6Z8THMSJRK57/crypto-bitcoin-btc-price-960x640.webp",
-        "publishedAt": "2026-10-01T15:55:19Z",
-        "content": "Bitcoin (BTC) pushed above $84,000 around Thursdays Wall Street open as US bond yields retreated after setting more multidecade highs.\r\nKey points:\r\n<ul><li>BTC price action seeks to cement higher lo… [+2868 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
-        "description": "The popular cross-chain trading system said it will reimburse losses after a bug affected deposits and withdrawals across several networks.",
-        "url": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5844591d4fc53908b4ecc1fda0511af88a269620-6024x4024.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-10-01T14:18:14Z",
-        "content": "The incident adds to a rough year for crypto security. Just last week, exchange Bitget suffered an exploit that resulted in over $350 million in stolen assets. Other major incidents included Liquid N… [+807 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
-        "description": "Bitcoin ETFs added $66 million Tuesday, matching August's nine-day run and topping it in dollars. How long will the streak stay alive?",
-        "url": "https://decrypt.co/379731/bitcoin-etf-9-day-streak-august-rally",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
-        "publishedAt": "2026-09-30T17:27:43Z",
-        "content": "In brief\r\n<ul><li>Bitcoin ETFs took in $66.19 million on Sept. 29, their ninth straight day of net inflows.</li><li>The Sept. 1729 run has drawn about $3.08 billion, edging past the roughly $3.04 bil… [+2794 chars]"
       }
     ]
   }
