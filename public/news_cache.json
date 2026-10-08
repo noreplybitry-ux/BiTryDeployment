@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-10-08T01:40:31.717Z",
+  "timestamp": "2026-10-08T08:41:13.184Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin slips below $84,000 ahead of FOMC minutes",
+        "description": "Key takeaways Bitcoin briefly fell below $84,000 during Wednesday’s Asian session. Rising oil prices added inflation concerns ahead of the FOMC minutes, keeping interest-rate expectations in focus. BTC’s immediate support lies around 80,000–82,000, while a su…",
+        "url": "https://coinjournal.net/news/bitcoin-slips-below-84000-ahead-of-fomc-minutes/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/10/Traders-Analyze-Bitcoins-Bearish-Slide.png",
+        "publishedAt": "2026-10-07T08:12:53Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin briefly fell below $84,000 during Wednesday’s Asian session.</li><li>Rising oil prices added inflation concerns ahead of the FOMC minutes, keeping interest-rate expecta… [+3240 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russia clears first crypto exchanges, custodians under new law",
+        "description": "Sberbank joined Russia’s first group of registered crypto custodians and plans to launch Bitcoin, Ether and USDT products through its platforms on Dec. 1.",
+        "url": "https://cointelegraph.com/news/russia-first-crypto-platforms-register-new-law",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4AKW3XPT7HT038RPJCR9B5F/digital-bank-russia.jpg",
+        "publishedAt": "2026-10-07T08:06:35Z",
+        "content": "Russia has registered its first cryptocurrency exchange operators and digital custodians under new crypto regulations that took effect on Sept. 1.\r\nThe Bank of Russia on Tuesday published its first r… [+1034 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole",
+        "title": "Down but not out. Bitcoin's stair-step bullish trajectory is still intact",
+        "description": "Bitcoin dipped to around $84,200 on Wednesday but stayed inside its recent range, keeping the broader bullish stair-step trajectory intact.",
+        "url": "https://www.coindesk.com/markets/2026/10/07/down-but-not-out-bitcoin-s-stair-step-bullish-trajectory-is-still-intact",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0b4999b3425c23ed7837f68c0ef62de17ff278d0-1600x1017.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-10-07T07:52:22Z",
+        "content": "Bitcoin BTC\r\n$84,039.25 is on the back foot Wednesday. Its bigger bullish pattern is still holding.\r\nThe cryptocurrency fell to $84,200 early Wednesday, down over 2% from near $86,500 on Tuesday, acc… [+975 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Bitcoin.de trading remains halted as German regulator rejects MiCA application",
+        "description": "Trading on the platform has largely been suspended since June as its operator awaited MiCA authorization, with the company now looking to regulated partners to restart services.",
+        "url": "https://cointelegraph.com/news/bitcoinde-trading-remains-halted-as-german-regulator-rejects-mica-application",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4A095MDC2D69YPTJKJTJZCV/mica.jpg",
+        "publishedAt": "2026-10-07T01:48:53Z",
+        "content": "Bitcoin Group SE says it is seeking an alternative operating model for its bitcoin.de platform after the German Federal Financial Supervisory Authority (BaFin) refused its subsidiary futurum bank AGs… [+1582 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,32 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
         "publishedAt": "2026-09-30T17:27:43Z",
         "content": "In brief\r\n<ul><li>Bitcoin ETFs took in $66.19 million on Sept. 29, their ninth straight day of net inflows.</li><li>The Sept. 1729 run has drawn about $3.08 billion, edging past the roughly $3.04 bil… [+2794 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Singapore crypto activity grows 55% as broader region contracts",
-        "description": "Singapore’s crypto economy grew 55.4% to $284 billion as institutional-platform activity surged 94%, while the Philippines, Thailand and Vietnam stood out for small-value P2P transfers.",
-        "url": "https://cointelegraph.com/news/singapore-crypto-economy-284b-institutional-activity-chainalysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3RAGTSRKJH3XGCDAAGQTVXB/regulations-singapore-crypto.jpg",
-        "publishedAt": "2026-09-30T13:00:00Z",
-        "content": "Singapores crypto activity rose 55.4% to $284 billion in the year ended June 2026, bucking a regional contraction and regaining its position as the largest crypto economy in Central and Southeast Asi… [+3976 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "FCA opens crypto authorization window ahead of 2027 UK regime",
-        "description": "The FCA opened crypto authorization applications ahead of the UK’s October 2027 regime, with existing businesses urged to apply by Feb. 28.",
-        "url": "https://cointelegraph.com/news/fca-crypto-authorization-2027-uk-regime",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3S34AE4B11G1QWG7E88GP0J/hi-uk-compliance-deadline-is-upcoming-should-users-expect-crypto-firm-closures-2.jpg",
-        "publishedAt": "2026-09-30T12:06:04Z",
-        "content": "The United Kingdoms Financial Conduct Authority (FCA) opened applications Wednesday for crypto businesses seeking authorization under a regulatory regime due to take effect on Oct. 25, 2027.\r\nCompani… [+1166 chars]"
       }
     ]
   }
