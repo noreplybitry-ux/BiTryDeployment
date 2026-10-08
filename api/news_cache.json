@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-08T16:16:57.179Z",
+  "timestamp": "2026-10-08T21:55:39.812Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, Krisztian Sandor",
+        "title": "Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity",
+        "description": "The discussions would see Payward supply liquidity for crypto trading as major banks deepen their involvement in digital assets.",
+        "url": "https://www.coindesk.com/business/2026/10/05/wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ed683cdb87684e6ca349d6f2efd15060d7dd27d5-5196x3464.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-10-07T18:59:32Z",
+        "content": "Payward, the parent company of crypto exchange Kraken, is in talks to become a crypto liquidity provider to U.S. financial giant Wells Fargo (WFC), according to two people with direct knowledge of th… [+1195 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3XHV0FC144KSRRK1DF5EHGE/south-korea-flag-stocks.png",
         "publishedAt": "2026-10-02T05:53:27Z",
         "content": "South Korean crypto exchanges saw operating profits fall 78% in the first half of 2026 as trading activity, market valuations and customer deposits declined, according to new government data. \r\nOn Th… [+1345 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "SEC moves to clear custody hurdle for advisers offering crypto",
-        "description": "The SEC proposed new crypto custody rules that would let investment advisers self-custody some assets and use eligible state trust companies as custodians.",
-        "url": "https://cointelegraph.com/news/sec-moves-to-clear-custody-hurdle-for-advisers-offering-crypto",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XP9EEWDQ84ZSGS1X5SFP19/hi-sbuidl-blackrocks-tokenized-treasury-fund.jpg",
-        "publishedAt": "2026-10-02T01:07:08Z",
-        "content": "The US securities regulator has proposed easing rules governing how investment advisers and funds hold crypto, potentially clearing a regulatory hurdle that has held some businesses back from offerin… [+3508 chars]"
       }
     ]
   }
