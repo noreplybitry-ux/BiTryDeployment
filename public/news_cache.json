@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-09T01:54:32.256Z",
+  "timestamp": "2026-10-09T08:46:21.619Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Standard Chartered plans institutional crypto custody in Singapore",
+        "description": "Standard Chartered shared plans to launch digital asset custody services for Singaporean institutions, including for crypto assets, stablecoins and tokenized RWAs.",
+        "url": "https://cointelegraph.com/news/standard-chartered-digital-asset-custody-services-singapore",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4D5M8YGHAPX4VAG5QCCZDDF/sponsored-marina-bay-sand-singapore-light-water-stablecoin.jpg",
+        "publishedAt": "2026-10-08T08:08:03Z",
+        "content": "Standard Chartered announced plans to launch digital asset custody services for institutional clients in Singapore.\r\nThe London-headquartered multinational bank plans to offer custody services for se… [+1219 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny",
+        "title": "Crypto investment firm Deus X Capital shuts down as backers pursue separate strategies",
+        "description": "CEO Tim Grant will lead AI venture TensorX, while CIO Stuart Connolly stays to oversee the firm’s formal unwind in January.",
+        "url": "https://www.coindesk.com/business/2026/10/06/crypto-investment-firm-deus-x-capital-shuts-down-as-backers-pursue-separate-strategies",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6dec032e9776af5c3f491fe5dfddeba45aa83df0-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-10-08T08:00:00Z",
+        "content": "Crypto and fintech investment firm Deus X Capital has ceased operations as its backers pursue separate investment strategies, the company told CoinDesk.\r\nThe company, led by former Galaxy Digital (GL… [+1032 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3Y0CB1X2FGXJEE6QVA6ZCTS/saifedean-ammous.png",
         "publishedAt": "2026-10-02T10:54:33Z",
         "content": "Bitcoin treasury companies built primarily around buying the cryptocurrency may struggle to compete with Michael Saylors Strategy, according to economist and The Bitcoin Standard author Saifedean Amm… [+2626 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Marex Gives Institutions Long And Short Crypto Exposure Without Holding The Coins",
-        "description": "TL;DR Marex has launched a cash-settled OTC rolling spot crypto product for institutional clients. The product allows long or short exposure without clients directly holding the underlying digital assets. Marex is also introducing Neon Crypto inside its exist…",
-        "url": "http://www.newsbtc.com/institutional/marex-otc-rolling-spot-crypto-institutions/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/1085X504-13.png?fit=3255%2C1512",
-        "publishedAt": "2026-10-02T08:41:35Z",
-        "content": "<ul><li>Marex has launched a cash-settled OTC rolling spot crypto product for institutional clients.</li><li>The product allows long or short exposure without clients directly holding the underlying … [+3095 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "South Korea crypto exchange profits fall 78% in H1 amid trading slump",
-        "description": "South Korean crypto exchange operating profits fell 78% in the first half of 2026 as trading volumes, market capitalization and customer deposits declined.",
-        "url": "https://cointelegraph.com/news/south-korea-crypto-exchange-profits-fall-78-percent",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3XHV0FC144KSRRK1DF5EHGE/south-korea-flag-stocks.png",
-        "publishedAt": "2026-10-02T05:53:27Z",
-        "content": "South Korean crypto exchanges saw operating profits fall 78% in the first half of 2026 as trading activity, market valuations and customer deposits declined, according to new government data. \r\nOn Th… [+1345 chars]"
       }
     ]
   }
