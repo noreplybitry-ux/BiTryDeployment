@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-09T16:01:11.891Z",
+  "timestamp": "2026-10-09T20:49:21.925Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
+        "description": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
+        "url": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-12-gID_7.png",
+        "publishedAt": "2026-10-08T16:14:46Z",
+        "content": "In brief\r\n<ul><li>Bitcoin fell as low as $81,749.83 today, undercutting the $82,776.30 floor flagged yesterday, and trades near $82,486.</li><li>Bitcoin ETFs lost $484.9 million on Oct. 7, their wors… [+4717 chars]"
+      },
       {
         "source": {
           "id": null,
