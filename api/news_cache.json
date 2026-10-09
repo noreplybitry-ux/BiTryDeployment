@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-10-09T08:46:21.620Z",
+  "timestamp": "2026-10-09T16:01:11.891Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
+        "description": "Tokenized shares in the mega-caps will first trade on Securitize's Solana-based platform, with further plans to expand them to NYSE and OKXICE digital venues, the firm said.",
+        "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0df058fe321b648948d8a5b690588aaafbb157fe-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-10-08T13:06:24Z",
+        "content": "Tokenization firm Securitize (SECZ) said it is bringing shares of Apple, Nvidia, Tesla and other major U.S. companies in the Solana (SOL) blockchain, joining a growing race to make traditional stocks… [+1024 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Ethereum Researcher Says AI May Break Crypto Encryption Before Quantum",
+        "description": "Justin Drake is calling for crypto holders to start calmly planning for “Bunker Mode.\" But reactions so far haven’t been too calm.",
+        "url": "https://decrypt.co/380402/morning-minute-ethereum-researcher-says-ai-may-break-crypto-encryption-before-quantum",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+        "publishedAt": "2026-10-08T11:48:13Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+6812 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin monthly ‘new money’ inflows near $5B as BTC price rally stalls",
+        "description": "Bitcoin’s realized cap rise in the 30 days to Oct. 5 came mostly from existing holders, not fresh capital, Glassnode data showed.",
+        "url": "https://cointelegraph.com/markets/bitcoin-monthly-new-money-inflows-near-5b-as-btc-price-rally-stalls",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4DEN6J4BGP9C8NCD8A1AQCZ/hi-crypto-market-trading-1-breaking-news-1.jpg",
+        "publishedAt": "2026-10-08T09:56:07Z",
+        "content": "Bitcoin (BTC) price gains do not yet reflect enough new capital entering the market, analysis warns.\r\nKey points:\r\n<ul><li>Rolling 30-day cumulative inflows of new money to Bitcoin reached $4.9 billi… [+2795 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Jamie Crawley",
+        "title": "Greece prepares to levy 10% capital gains tax on cryptocurrency",
+        "description": "Crypto gains of up to 500 euros ($560) per year would be exempt under the bill, which will be submitted to parliament in November.",
+        "url": "https://www.coindesk.com/policy/2026/10/08/greece-prepares-to-levy-10-capital-gains-tax-on-cryptocurrency",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/42d4c9ccc3b896065fd01389069573b1eb1ed6cb-5229x3486.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
+        "publishedAt": "2026-10-08T09:17:18Z",
+        "content": "Greece is preparing to impose a 10% capital gains tax (CGT) on cryptocurrency, Reuters reported on Thursday, citing a draft bill published for public consultation.\r\nGains of up to 500 euros ($560) a … [+692 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,58 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3Z204Z5E8HCQ1YYBGG9YAK4/hi-self-custody-of-cryptocurrencies-is-your-own-wallet-really-safer-for-private-investors.png",
         "publishedAt": "2026-10-02T20:40:47Z",
         "content": "European crypto users are placing more trust in regulated platforms following the implementation of the European Unions Markets in Crypto-Assets framework (MiCA), according to Christian Trummer, co-C… [+1339 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
-        "description": "Once home to more than $2 billion in crypto assets, Blast is shutting down as activity fades, costs rise, and bigger platforms like Coinbase and Robinhood build networks of their own.",
-        "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/030d61604f4bdf32cd4013015de2ad6a80a15e24-7200x4800.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-10-02T17:15:35Z",
-        "content": "The chains economics deteriorated quickly as speculative capital moved elsewhere and activity faded. Total value locked peaked over $2 billion in June 2024, according to DeFiLlama, and has since fall… [+1179 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Heads Higher on Macro Moves: Where Does BTC Go Next?",
-        "description": "A jobs report miss just erased the odds of an October rate hike, and BTC is now knocking on the door of its yearly ceiling.",
-        "url": "https://decrypt.co/379936/bitcoin-heads-higher-fed-jobs-where-does-btc-go-next",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-mountain-decrypt-style-gID_7.png",
-        "publishedAt": "2026-10-02T16:45:52Z",
-        "content": "In brief\r\n<ul><li>The U.S. added only 29,000 jobs in September versus 84,000 expected, and odds of an October Fed hike plunged to roughly 14% from 70% earlier this week.</li><li>Bitcoin trades at $86… [+4319 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin briefly hits $87K as weak US jobs data sends bond yields lower",
-        "description": "Bitcoin climbed after weaker-than-expected payrolls pushed Treasury yields lower, but order-book resistance kept BTC from reaching new macro highs.",
-        "url": "https://cointelegraph.com/markets/bitcoin-briefly-taps-87k-as-bond-yields-drop-on-low-us-nonfarm-payrolls-data",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3YJCPAEGNQQMRKZHXC717XH/hi-bitcoins-hidden-messages-bitcoin-price-960x640.webp",
-        "publishedAt": "2026-10-02T15:27:31Z",
-        "content": "Bitcoin (BTC) spiked past $87,000 on Friday as US jobs data missed expectations.\r\nKey points:\r\n<ul><li>Bitcoin tapped $87,200 but failed to make new multi-month highs as overhead resistance held.</li… [+2532 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Bitcoin treasuries may struggle to match Strategy, says Ammous",
-        "description": "Strategy’s scale and cash reserves give it an edge over treasury rivals, according to Saifedean Ammous, author of “The Bitcoin Standard.”",
-        "url": "https://cointelegraph.com/news/bitcoin-treasuries-struggle-strategy-says-ammous",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3Y0CB1X2FGXJEE6QVA6ZCTS/saifedean-ammous.png",
-        "publishedAt": "2026-10-02T10:54:33Z",
-        "content": "Bitcoin treasury companies built primarily around buying the cryptocurrency may struggle to compete with Michael Saylors Strategy, according to economist and The Bitcoin Standard author Saifedean Amm… [+2626 chars]"
       }
     ]
   }
