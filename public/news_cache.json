@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-10T06:53:12.572Z",
+  "timestamp": "2026-10-10T13:29:27.019Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "UK sanctions three crypto exchanges tied to Russian illicit funds",
+        "description": "The UK sanctioned crypto exchanges and payment processors, some of which were tied to thousands of Russian entities and the sanctioned HTX exchange.",
+        "url": "https://cointelegraph.com/news/uk-sanctions-crypto-exchanges-russian-illicit-funds",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4FZR0YP4HAX26C5RVN1W1T2/hi-russias-law-on-crypto-whats-the-latest-2.jpg",
+        "publishedAt": "2026-10-09T10:34:37Z",
+        "content": "The UK government has sanctioned three cryptocurrency exchanges and two payment platforms suspected of helping Russian entities circumvent financial sanctions.\r\nThree of the service providers were li… [+1580 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Thailand opens door to locally listed bitcoin and ether ETFs",
+        "description": "Thailand’s new crypto rules taking effect Oct. 16. They allow Thai asset managers to launch crypto ETFs on the local stock exchange, with bitcoin and ether initially eligible.",
+        "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/70284126e74d9b4b82638d4995ed0ba9820e80a9-4883x2747.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-09T10:16:55Z",
+        "content": "Thai assert managers may outsource crypto investment management to licensed digital-asset fund managers. Regulated digital-asset custodians and other qualified firms will also be able to register as … [+810 chars]"
+      },
       {
         "source": {
           "id": null,
