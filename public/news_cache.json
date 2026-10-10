@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-10T00:39:42.669Z",
+  "timestamp": "2026-10-10T06:53:12.572Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Omkar Godbole, AI Boost",
+        "title": "New tech to power bitcoin lending is set to debut with $500 million in commitments",
+        "description": "Layer-1 blockchain Sui is launching Hashi, an institutional protocol allowing holders to use bitcoin as collateral without moving it off the Bitcoin network.",
+        "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4caf34246416f1020ad3fc1aaa25373b18a9161f-5760x3240.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-09T06:40:54Z",
+        "content": "The primary target for this capital is a massive pool of dormant wealth. Sui estimates that roughly $1 trillion worth of Bitcoin is currently sitting idle. Until now, institutional and corporate bala… [+1261 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs",
+        "description": "The rules are set to take effect next week, allowing crypto ETFs to trade exclusively on the Stock Exchange of Thailand.",
+        "url": "https://cointelegraph.com/news/thailand-finalizes-rules-paving-way-for-bitcoin-ether-etfs",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4FA1413AR809PCC2V0XRTMJ/thailand.jpg",
+        "publishedAt": "2026-10-09T03:08:51Z",
+        "content": "Thailands Securities and Exchange Commission on Thursday finalized rules allowing crypto exchange-traded funds (ETFs) to list on Thailands main stock exchange, limited initially to Bitcoin and Ether.… [+1916 chars]"
+      },
       {
         "source": {
           "id": null,
