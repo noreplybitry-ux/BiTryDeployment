@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-11T08:35:15.960Z",
+  "timestamp": "2026-10-11T15:30:24.974Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Bitcoin's $19 billion wake-up call: One-year later, has crypto learned anything?",
+        "description": "One year after a flash crash wiped out billions in leveraged crypto bets, traders have better tools to spot risks. But the forces behind the selloff remain.",
+        "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/564d4c8495b94d94a0db2e6e7301c2e2029243ca-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-10T11:00:00Z",
+        "content": "\"People were keenly aware, like me, they were bulled up because it was 'go' time,\" Connors said. \"We were going to go to that $250,000 to $300,000, $400,000 level using previous cycles.\"\r\nInstead, th… [+1340 chars]"
+      },
       {
         "source": {
           "id": null,
