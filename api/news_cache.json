@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-13T07:34:09.401Z",
+  "timestamp": "2026-10-13T15:47:55.106Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Standard Chartered offers RLUSD custody in Dubai and plans LMAX collateral link",
+        "description": "The move follows Standard Chartered’s recent expansion of digital asset custody services into Singapore, Hong Kong, and Luxembourg.",
+        "url": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/635098a63fd9f1666a72fdfb7fee8ca9adedf6a2-4032x2268.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-12T12:09:09Z",
+        "content": "Regulated custody connected to a global systemically important bank is becoming one of the most valuable pieces of infrastructure in digital assets, said Joseph Goh, head of Asia-Pacific at Singapore… [+1169 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korean bank launches Bitcoin-backed business loans: Report",
+        "description": "Jeonbuk Bank reportedly began offering Bitcoin-backed loans to corporate customers, with a third-party custodian holding the cryptocurrency used as collateral.",
+        "url": "https://cointelegraph.com/news/south-korea-jeonbuk-bank-bitcoin-backed-business-loans",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4QKGRPPCEHYJ6JB01H5VKKA/south-korea-bank.png",
+        "publishedAt": "2026-10-12T08:45:58Z",
+        "content": "South Koreas Jeonbuk Bank, a subsidiary of JB Financial Group, reportedly started issuing Bitcoin-backed loans to its corporate customers.\r\nLocal outlet EDaily reported Monday that Jeonbuk Bank becam… [+1176 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +511,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M469ADWYE5MCQ6AY7SXW55WJ/hi-bitcoin-is-it-gold-money-or-something-else3-1.jpg",
         "publishedAt": "2026-10-05T15:09:57Z",
         "content": "Bitcoin (BTC) fluctuated around $86,000 after Mondays Wall Street open as US bond yields continued to rise.\r\nKey points:\r\n<ul><li>Bitcoin rejected near its weekly close of $86,570 after the start of … [+3081 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "China P2P stablecoin wallets grew 43x despite crypto restrictions: Chainalysis",
-        "description": "Unique wallets sending P2P stablecoin transactions in China grew 43-fold between Q1 2024 and Q2 2026 as crypto activity increasingly shifted toward direct wallet-to-wallet transfers.",
-        "url": "https://cointelegraph.com/news/china-stablecoin-p2p-wallets-crypto-restrictions",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M45C7SQN6DV5Z1GMPSEJ4CRN/china-ban-bitcoin.png",
-        "publishedAt": "2026-10-05T13:00:00Z",
-        "content": "The number of unique wallets sending peer-to-peer (P2P) stablecoin transactions in China grew 43-fold between the first quarter of 2024 and the second quarter of 2026, according to Chainalysis.\r\nThe … [+2061 chars]"
       }
     ]
   }
