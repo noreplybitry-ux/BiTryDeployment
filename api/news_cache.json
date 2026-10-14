@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-10-14T07:21:32.222Z",
+  "timestamp": "2026-10-14T13:30:21.594Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Is Bitcoin kidding itself about the Lightning Network?",
+        "description": "Critics argue Lightning Network adoption is dwarfed by trillions in stablecoin volume on other chains. Has Lightning lived up to its promise or is time to find alternate solutions?",
+        "url": "https://cointelegraph.com/magazine/is-bitcoin-kidding-itself-about-the-lightning-network",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4G9K7C73KY8G43Y46W76Q1Z/magazinebig-questions-can-btc-survive-10-year.png",
+        "publishedAt": "2026-10-13T13:30:00Z",
+        "content": "Bitcoin developer Paul Sztorc ruffled a few feathers this month with a brutally blunt assessment of the Lightning Network: Bitcoiners are lying to themselves about how well it works.\r\nMost people don… [+6751 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russia clears Sberbank for crypto trading ahead of December launch",
+        "description": "Sberbank joined Russia’s register of 10 authorized crypto exchange operators after gaining digital custodian status, with its product launch planned for December.",
+        "url": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4TJ29HRXGHBG9K7W07M6RBV/sbernew2.jpg",
+        "publishedAt": "2026-10-13T12:22:24Z",
+        "content": "Sberbank, Russias largest lender, has secured the central banks approval to trade cryptocurrencies, including Bitcoin, ahead of a planned December launch.\r\nThe Bank of Russias updated register, dated… [+1173 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "James Van Straten, Omkar Godbole, Francisco Rodrigues",
+        "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
+        "description": "Investors are positioning ahead of today's bank earnings reports and Wednesday’s U.S. inflation data.",
+        "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/17da6534fc263b22ddbdfd999e0ad1424acdc5d1-1520x856.png?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-13T11:06:39Z",
+        "content": "South Koreas equity benchmark plunged 5.5% on Tuesday, leaving the index roughly 38% below its June all-time high. Crypto also saw sharp swings, with bitcoin BTC\r\n$83,696.96 falling below $81,000 bef… [+5769 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "Russia’s largest bank Sberbank secures approval to trade crypto",
+        "description": "Sberbank plans to open crypto trading to all clients Dec. 1 and is already testing BTC, ETH and USDT trades in its app.",
+        "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4431859b83445fdd3e02e984cae83412cc8949df-3264x2040.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-13T11:02:47Z",
+        "content": "Russias largest bank, Sberbank, has received approval to exchange cryptocurrencies, advancing Moscows effort to bring crypto trading and custody into its regulated financial system.\r\nThe Bank of Russ… [+1053 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin hits $84K resistance as Korean tech rout deepens KOSPI losses",
+        "description": "Bitcoin bulls attempt to shake off a new South Korea tech sell-off as sellers keep BTC price contained below $84,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-hits-84k-resistance-as-korea-tech-sell-off-sends-kospi-down-74",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4T82Y5Q89Y3M191FB9H1S1C/article-covers-262292-ex-treasury-chief-warns-us-treasurys-crash-calls-emergency-debt-plan-1280x853.webp",
+        "publishedAt": "2026-10-13T09:42:00Z",
+        "content": "Bitcoin (BTC) rebounded toward $84,000 on Tuesday as crypto markets skirted fresh losses for South Korean stock markets.\r\nKey points:\r\n<ul><li>Bitcoin diverged from plummeting Asian tech stocks on Tu… [+2922 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,58 +524,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M489PAR81ADC43W66ZRS8PBE/hi-what-is-a-clarity-act-coinbase-1.png",
         "publishedAt": "2026-10-06T13:00:00Z",
         "content": "Opinion by Andrew M. Cuomo, former governor of New York\r\nThe digital asset revolution is here, and its already transforming our financial system.\r\nWere no longer questioning if it will continue to de… [+5182 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: The CFTC Reveals Plan to Regulate Crypto Exchanges",
-        "description": "Clear rules of the road are here. So what does it all mean and what is the overall impact?",
-        "url": "https://decrypt.co/380146/morning-minute-the-cftc-reveals-plan-to-regulate-crypto-exchanges",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-10-06T12:27:11Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+6251 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Crypto 'Godfather' Gets Six Years for Hiring Sheriff's Deputies, $37M Meta Fraud",
-        "description": "Adam Iza used off-duty LA deputies to pull warrants and personal data on his rivals, then moved the proceeds through crypto custodians.",
-        "url": "https://decrypt.co/380138/crypto-godfather-gets-six-years-for-hiring-sheriffs-deputies-37m-meta-fraud",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Jail-cell-2-gID_7.png",
-        "publishedAt": "2026-10-06T10:36:57Z",
-        "content": "In brief\r\n<ul><li>Adam Iza, 26, was sentenced to 78 months and ordered to pay $23.4 million in restitution.</li><li>Five former Los Angeles County Sheriff's Department deputies have been convicted ov… [+3616 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Binance BTC outflows hit highest since mid-2023 as whales deposit stablecoins",
-        "description": "Binance BTC withdrawals set their highest weekly tally since mid-2023 as analysis sees the trend echoing the recovery from Bitcoin’s last bear market.",
-        "url": "https://cointelegraph.com/markets/binance-btc-outflows-hit-highest-since-mid-2023-as-whales-deposit-stablecoins",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M489V6KADJ5PEVWVG55W2YFF/hi-quantum-threat-to-bitcoin-80000-btc-just-moved-after-14-years.jpg",
-        "publishedAt": "2026-10-06T09:59:12Z",
-        "content": "Bitcoin (BTC) outflows from largest crypto exchange Binance set multiyear records in late September, new analysis reveals.\r\nKey points:\r\n<ul><li>Binance net Bitcoin outflows passed 23,000 BTC in the … [+2670 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Crypto Sleuth ZachXBT Fronted $350K to Pose as a Client of Lazarus' Chinese Launderers",
-        "description": "The on-chain sleuth says he posed as a customer of a Chinese crime syndicate, fronting $349,700 and eating 5% on every order, to track Lazarus Group's Bybit loot in real time.",
-        "url": "https://decrypt.co/380092/zachxbt-fronted-350k-pose-client-lazarus-chinese-crypto-launderers",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-10-05T18:46:02Z",
-        "content": "In brief\r\n<ul><li>ZachXBT says he fronted 349.7K USDC on March 6, 2025, and accepted a 5% loss on each order while posing as a client of a Chinese laundering syndicate.</li><li>He says the operation … [+7099 chars]"
       }
     ]
   }
