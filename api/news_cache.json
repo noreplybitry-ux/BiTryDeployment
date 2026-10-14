@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-14T01:01:46.043Z",
+  "timestamp": "2026-10-14T07:21:32.222Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Binance to shut down crypto mining pool services in November",
+        "description": "Binance will shut down its crypto mining pool and related services on Nov. 10, ending more than six years of operations and requiring miners to move elsewhere.",
+        "url": "https://cointelegraph.com/news/binance-shut-down-crypto-mining-pool-november",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4STR9GPNQXV18RZ1XBHZJV9/hi-coinflares-exit-and-the-future-of-cloud-mining-3.jpg",
+        "publishedAt": "2026-10-13T05:23:26Z",
+        "content": "Crypto exchange Binance is shutting down its mining pool and related services in November, ending an operation that has been running for over six years. \r\nOn Tuesday, Binance said it would discontinu… [+1452 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "South Korea moves to block 27 crypto websites, including KuCoin, MEXC",
+        "description": "Authorities said the restrictions are aimed at unregistered exchanges and have acknowledged that customers could have difficulty withdrawing assets.",
+        "url": "https://cointelegraph.com/news/south-korea-moves-to-block-27-crypto-websites-including-kucoin-mexc",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4SJ32T5MFAHM21PB498EN3Q/korea-website-block.jpg",
+        "publishedAt": "2026-10-13T02:41:30Z",
+        "content": "South Korean authorities have approved measures to block domestic access to 27 websites operated by unregistered crypto exchanges and other virtual asset service providers, including KuCoin, MEXC, Ph… [+1597 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-10-05T18:46:02Z",
         "content": "In brief\r\n<ul><li>ZachXBT says he fronted 349.7K USDC on March 6, 2025, and accepted a 5% loss on each order while posing as a client of a Chinese laundering syndicate.</li><li>He says the operation … [+7099 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Just Flashed a Second, Stronger Golden Cross: Here's What That Means",
-        "description": "The Bitcoin rally keeps bumping into the same wall, but a classic bullish signal suggests the trend is built to last.",
-        "url": "https://decrypt.co/380067/bitcoin-price-golden-cross-fed-rate",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin_chart-1-gID_7.png",
-        "publishedAt": "2026-10-05T16:10:00Z",
-        "content": "In brief\r\n<ul><li>Bitcoin traded around $86,000 on Monday, roughly $1,200 below the $87,354 swing high that has capped the rally.</li><li>Macroeconomic winds have turned in Bitcoin's favor, with pote… [+5041 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price fails to break higher after best weekly close in eight months",
-        "description": "Bitcoin’s highest weekly close in eight months formed low-timeframe resistance at the start of Monday’s US trading session.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-fails-to-break-higher-after-best-weekly-close-in-eight-months",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M469ADWYE5MCQ6AY7SXW55WJ/hi-bitcoin-is-it-gold-money-or-something-else3-1.jpg",
-        "publishedAt": "2026-10-05T15:09:57Z",
-        "content": "Bitcoin (BTC) fluctuated around $86,000 after Mondays Wall Street open as US bond yields continued to rise.\r\nKey points:\r\n<ul><li>Bitcoin rejected near its weekly close of $86,570 after the start of … [+3081 chars]"
       }
     ]
   }
