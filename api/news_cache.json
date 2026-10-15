@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-15T18:08:46.147Z",
+  "timestamp": "2026-10-15T22:03:18.480Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Russia's Biggest Bank Sberbank Wins Approval to Trade Bitcoin",
+        "description": "Sberbank now holds both custody and exchange status under Russia's new crypto law, and plans to bring Bitcoin, Ethereum and USDT to apps used by 110 million retail clients.",
+        "url": "https://decrypt.co/380981/sberbank-russia-bank-trade-crypto-bitcoin",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/russia-moscow-red-square-kremlin-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-10-14T19:46:03Z",
+        "content": "In brief\r\n<ul><li>The Bank of Russia added Sberbank to its register of crypto exchange operators on October 12, six days after listing it as a digital depository.</li><li>Sberbank plans to launch its… [+3166 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4BEBEZ7QSY6YC27Z3G1WAYE/oil-bitcoin-petrol-iran-3.jpg",
         "publishedAt": "2026-10-07T15:06:14Z",
         "content": "Bitcoin (BTC) fell further at Wednesdays Wall Street open as oil prices gained on US-Iran war headlines and stocks came off all-time highs.\r\nKey points:\r\n<ul><li>Bitcoin fell to $82,734 on Bitstamp, … [+2979 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Crypto trading giant GSR's new vault business is a $100M bet on onchain credit",
-        "description": "The firm is putting its own capital into stablecoin and tokenized gold vaults as institutional finance moves further onchain.",
-        "url": "https://www.coindesk.com/business/2026/10/07/crypto-trading-giant-gsr-s-new-vault-business-is-a-usd100m-bet-on-onchain-credit",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/2bb224bfa288e79f5e3ee5873991c29fe31f5ebd-1440x1080.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-10-07T12:34:13Z",
-        "content": "Crypto trading and market-making firm GSR is committing $100 million to a new onchain credit business, betting that vaults will become a bigger part of how institutional investors put digital and tok… [+1047 chars]"
       }
     ]
   }
