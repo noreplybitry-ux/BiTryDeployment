@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-10-15T07:12:42.768Z",
+  "timestamp": "2026-10-15T13:14:48.951Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
+        "description": "Payward agreed to buy Lithuania’s Saldo Bank, which holds $190 million in total assets, securing an EU license for deposits and lending.",
+        "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/c6a8d9e5fa0a7902d01bc64094e514fa9a1ac32b-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-14T13:07:45Z",
+        "content": "Payward, the parent company of crypto exchange Kraken, said it agreed to acquire Lithuania-based Saldo Bank for an undisclosed amount, giving it a European Union (EU) banking license as it expands be… [+955 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Bitcoin will become ‘less volatile’ and larger than gold: ‘The Bitcoin Standard’ author",
+        "description": "Saifedean Ammous argues that Bitcoin already functions as money when held as a store of value; expects it will become larger and less volatile than gold as it matures.",
+        "url": "https://cointelegraph.com/news/bitcoin-less-volatile-larger-gold-bitcoin-standard-author",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4WX6QRMY3H03AP4FKTGM4KT/hi-why-the-crypto-market-is-falling-lately2.jpg",
+        "publishedAt": "2026-10-14T10:25:53Z",
+        "content": "Saifedean Ammous, the author of the 2018 academic book The Bitcoin Standard, said that Bitcoin already functions as a medium of exchange and that volatilitys effect on that is likely to diminish.\r\nBi… [+1643 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Standard Chartered expands Bitcoin and Ether trading to professional investors in UAE",
+        "description": "Standard Chartered expanded its Bitcoin and Ether trading to professional investors in the UAE, as it continues to expand its regulated digital asset offerings in the region.",
+        "url": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-professional-investors-uae",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4WQPH22MB1PQE91PWD5QS21/hi-dubai-overview-crypto-and-blockchain.jpg",
+        "publishedAt": "2026-10-14T10:07:03Z",
+        "content": "Standard Chartered has expanded Bitcoin (BTC) and Ether (ETH) trading to wealthy clients in the United Arab Emirates (UAE) who qualify as professional investors.\r\nEligible investors can trade these a… [+1281 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Standard Chartered unlocks direct bitcoin and ether trading for affluent UAE clients",
+        "description": "The bank manages custody and settlement in-house via a closed-loop model, removing the need for separate crypto wallets.",
+        "url": "https://www.coindesk.com/business/2026/10/14/standard-chartered-unlocks-direct-bitcoin-and-ether-trading-for-affluent-uae-clients",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/635098a63fd9f1666a72fdfb7fee8ca9adedf6a2-4032x2268.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-14T08:10:07Z",
+        "content": "Standard Chartered (STAN) introduced a crypto trading service for affluent clients in the United Arab Emirates, allowing eligible investors to buy and sell bitcoin BTC\r\n$83,478.64 and ether ETH\r\n$2,5… [+1110 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,45 +524,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4A095MDC2D69YPTJKJTJZCV/mica.jpg",
         "publishedAt": "2026-10-07T01:48:53Z",
         "content": "Bitcoin Group SE says it is seeking an alternative operating model for its bitcoin.de platform after the German Federal Financial Supervisory Authority (BaFin) refused its subsidiary futurum bank AGs… [+1582 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin grinds toward $87K as US equities hit new record highs",
-        "description": "Bitcoin remained caught below ask liquidity around $87,000 as the S&P 500 and Nasdaq broke out to hit new all-time highs.",
-        "url": "https://cointelegraph.com/markets/bitcoin-grinds-toward-87k-as-us-equities-hit-new-record-highs",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M48Y4PJ2GGMHEEAY807E953G/hi-why-bitcoin-has-recently-reacted-more-to-liquidity-conditions-than-rate-cuts.jpg",
-        "publishedAt": "2026-10-06T17:19:58Z",
-        "content": "Bitcoin (BTC) continued to circle $86,000 on Tuesday as US stock markets hit fresh all-time highs.\r\nKey points:\r\n<ul><li>Bitcoin attempted to move toward $87,000 but faces ongoing friction from ask l… [+3197 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Crypto ‘Godfather’ Gets 78 Months For $37M Meta Fraud Scheme",
-        "description": "TL;DR Adam Iza, who called himself “The Godfather,” has been sentenced to 78 months in federal prison. Prosecutors said he stole more than $37 million from Meta through fraud involving access to business-manager accounts and credit lines. The court also order…",
-        "url": "http://www.newsbtc.com/regulation/crypto-godfather-gets-78-months-for-37m-meta-fraud-scheme/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/fac08d46731c4b6fa729f9b50b73515c.png?fit=1920%2C1080",
-        "publishedAt": "2026-10-06T16:00:43Z",
-        "content": "<ul><li>Adam Iza, who called himself The Godfather, has been sentenced to 78 months in federal prison.</li><li>Prosecutors said he stole more than $37 million from Meta through fraud involving access… [+2166 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Genius Group Restarts Bitcoin Buying With 10 BTC Purchase",
-        "description": "TL;DR Genius Group has restarted Bitcoin purchases, buying 10 BTC for approximately $854,000. The company paid an average of $85,364 per Bitcoin across purchases made between October 2 and October 5. The renewed buying follows the removal of a court injunctio…",
-        "url": "http://www.newsbtc.com/news/bitcoin/genius-group-restarts-bitcoin-buying-with-10-btc-purchase/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/Newsbtc-Image.jpg?fit=1458%2C1090",
-        "publishedAt": "2026-10-06T16:00:32Z",
-        "content": "<ul><li>Genius Group has restarted Bitcoin purchases, buying 10 BTC for approximately $854,000.</li><li>The company paid an average of $85,364 per Bitcoin across purchases made between October 2 and … [+2229 chars]"
       }
     ]
   }
