@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-16T12:13:18.885Z",
+  "timestamp": "2026-10-16T17:16:26.089Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Russia to ban direct peer-to-peer crypto trades starting July 2027",
+        "description": "Russia wants to end direct P2P crypto trading in July 2027, while its central bank also bars individuals from moving crypto assets into their own self-custody wallets.",
+        "url": "https://cointelegraph.com/news/russia-ban-p2p-crypto-trades-july-2027",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4ZXEK5DTKX65782NKWA8C3M/russia-p2p-ban-illustration-1.png",
+        "publishedAt": "2026-10-15T14:22:43Z",
+        "content": "Russia will ban direct peer-to-peer (P2P) cryptocurrency transactions between individuals starting next year, requiring individuals to use authorized intermediaries for such trades.\r\nThe restriction … [+1361 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
+        "description": "The scheme allegedly stole tens of millions through Russian-language Facebook ads and fake advisers, then went after victims again with fake recovery offers.",
+        "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/46896a614298dcf705810c12a113e9dab6ce84fb-4416x2488.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-15T12:35:24Z",
+        "content": "Brooklyn prosecutors and the FBI have seized or disrupted 241 websites and 112 servers tied to a crypto investment scam that allegedly stole tens of millions of dollars from Russian-speaking victims … [+1024 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,45 +472,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26Q2WGDD8GDA5QMCWQF3GB3/magazineasia-expresssnow.jpg",
         "publishedAt": "2026-10-08T22:35:00Z",
         "content": "China P2P stablecoin wallets grew 43x despite crypto restrictions: Chainalysis\r\nThe number of unique wallets sending peer-to-peer (P2P) stablecoin transactions in China grew 43-fold between the first… [+6805 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
-        "description": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
-        "url": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-12-gID_7.png",
-        "publishedAt": "2026-10-08T16:14:46Z",
-        "content": "In brief\r\n<ul><li>Bitcoin fell as low as $81,749.83 today, undercutting the $82,776.30 floor flagged yesterday, and trades near $82,486.</li><li>Bitcoin ETFs lost $484.9 million on Oct. 7, their wors… [+4717 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
-        "description": "Tokenized shares in the mega-caps will first trade on Securitize's Solana-based platform, with further plans to expand them to NYSE and OKXICE digital venues, the firm said.",
-        "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/0df058fe321b648948d8a5b690588aaafbb157fe-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-10-08T13:06:24Z",
-        "content": "Tokenization firm Securitize (SECZ) said it is bringing shares of Apple, Nvidia, Tesla and other major U.S. companies in the Solana (SOL) blockchain, joining a growing race to make traditional stocks… [+1024 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Ethereum Researcher Says AI May Break Crypto Encryption Before Quantum",
-        "description": "Justin Drake is calling for crypto holders to start calmly planning for “Bunker Mode.\" But reactions so far haven’t been too calm.",
-        "url": "https://decrypt.co/380402/morning-minute-ethereum-researcher-says-ai-may-break-crypto-encryption-before-quantum",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
-        "publishedAt": "2026-10-08T11:48:13Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+6812 chars]"
       }
     ]
   }
