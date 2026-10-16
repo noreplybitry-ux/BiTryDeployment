@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-16T17:16:26.089Z",
+  "timestamp": "2026-10-16T20:47:20.182Z",
   "data": {
     "status": "ok",
     "totalResults": 36,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Russia Will Soon Ban Peer-to-Peer Bitcoin Trading, Central Bank Confirms",
+        "description": "Russians have until July 1, 2027 to buy and sell crypto directly with each other. After that, every trade runs through a broker or exchange approved by the Bank of Russia.",
+        "url": "https://decrypt.co/381079/russia-ban-peer-to-peer-bitcoin-trading",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/ukraine-russia-bitcoin-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-10-15T20:31:04Z",
+        "content": "In brief\r\n<ul><li>The Bank of Russia confirmed in an October 12 FAQ that direct crypto trades between individuals are legal only until July 1, 2027, citing new law.</li><li>The regulator also says in… [+3700 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Binance.US seeks $1B valuation in potential $100M funding round: Report",
+        "description": "The crypto exchange was reportedly looking to use the additional funding to regain market share following Binance’s 2023 settlement with US authorities.",
+        "url": "https://cointelegraph.com/news/binance-us-funding-valuation-billion",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M50GBDK9V1K1J9DSAGNBWX7S/us-binance.jpg",
+        "publishedAt": "2026-10-15T20:21:11Z",
+        "content": "Binance.US is reportedly seeking to raise up to $100 million in a funding round that could value the cryptocurrency exchange at $1 billion.\r\nAccording to a Thursday Bloomberg report, the US-based cry… [+1168 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,32 +472,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4caf34246416f1020ad3fc1aaa25373b18a9161f-5760x3240.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-09T06:40:54Z",
         "content": "The primary target for this capital is a massive pool of dormant wealth. Sui estimates that roughly $1 trillion worth of Bitcoin is currently sitting idle. Until now, institutional and corporate bala… [+1261 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Thailand finalizes rules paving way for Bitcoin, Ether ETFs",
-        "description": "The rules are set to take effect next week, allowing crypto ETFs to trade exclusively on the Stock Exchange of Thailand.",
-        "url": "https://cointelegraph.com/news/thailand-finalizes-rules-paving-way-for-bitcoin-ether-etfs",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4FA1413AR809PCC2V0XRTMJ/thailand.jpg",
-        "publishedAt": "2026-10-09T03:08:51Z",
-        "content": "Thailands Securities and Exchange Commission on Thursday finalized rules allowing crypto exchange-traded funds (ETFs) to list on Thailands main stock exchange, limited initially to Bitcoin and Ether.… [+1916 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "China’s P2P stablecoin wallets surge 43x, Korea’s $450B crypto economy: Asia Express",
-        "description": "China has seen a massive surge in peer-to-peer stablecoin use, even as bans continue. South Korea’s crypto economy is worth now worth $450B despite exchange profits falling 78%.",
-        "url": "https://cointelegraph.com/magazine/chinas-p2p-stablecoin-wallets-surge-43x-koreas-450b-crypto-economy-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26Q2WGDD8GDA5QMCWQF3GB3/magazineasia-expresssnow.jpg",
-        "publishedAt": "2026-10-08T22:35:00Z",
-        "content": "China P2P stablecoin wallets grew 43x despite crypto restrictions: Chainalysis\r\nThe number of unique wallets sending peer-to-peer (P2P) stablecoin transactions in China grew 43-fold between the first… [+6805 chars]"
       }
     ]
   }
