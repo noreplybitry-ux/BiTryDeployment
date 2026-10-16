@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-10-16T01:05:47.081Z",
+  "timestamp": "2026-10-16T06:55:19.204Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea plans cybersecurity overhaul after attacks hit banks, crypto firms",
+        "description": "South Korea plans tighter cybersecurity rules after incidents involving 16 financial firms, including crypto exchanges Gopax and Prabang.",
+        "url": "https://cointelegraph.com/news/south-korea-cybersecurity-overhaul-crypto-exchanges",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4Z1KM9Q4QJVB0NC8VRX5GG8/south-korea-coin-1.jpg",
+        "publishedAt": "2026-10-15T05:52:21Z",
+        "content": "South Korea is planning tighter cybersecurity requirements for financial institutions after an investigation into earlier security incidents involving 16 companies, including crypto exchanges. \r\nThe … [+1280 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
+        "description": "Computing power directed at Binance Pool has fallen from 26 EH/s in December to about 9 EH/s. Its remaining miners must choose another provider before a Nov. 10 cutoff.",
+        "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/54bd04de039305784bf732dce245207bcc75ba21-7008x3942.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-15T04:13:56Z",
+        "content": "Miners have about four weeks to direct their machines elsewhere. After the cutoff, Binance will stop crediting mining shares, the records of work used to calculate payouts. Pool Savings users must re… [+1247 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
+        "description": "Bitcoin mining stocks fell as much as 13% Wednesday as hotter US inflation sparked a selloff in AI infrastructure companies and raised concerns about interest rates.",
+        "url": "https://cointelegraph.com/markets/bitcoin-miners-plunge-up-to-13-in-wall-streets-worst-selloff-since-july",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4YSG3DXFXJ6NSHP3JM0EBPS/stocks.jpg",
+        "publishedAt": "2026-10-15T03:29:22Z",
+        "content": "US stocks suffered their sharpest selloff since July on Wednesday as hotter-than-expected inflation data weighed on technology and AI infrastructure companies, with Bitcoin miners among those hit. \r\n… [+1791 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,32 +498,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ed683cdb87684e6ca349d6f2efd15060d7dd27d5-5196x3464.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
         "publishedAt": "2026-10-07T18:59:32Z",
         "content": "Payward, the parent company of crypto exchange Kraken, is in talks to become a crypto liquidity provider to U.S. financial giant Wells Fargo (WFC), according to two people with direct knowledge of th… [+1195 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill",
-        "description": "Representative French Hill hopes lawmakers could pass a cryptocurrency market structure bill before the next session of Congress in 2027 as SEC and CFTC actions weren’t sufficient",
-        "url": "https://cointelegraph.com/news/sec-cftc-crypto-regulations-fall-short-clarity-bill",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4BDBYZXWRGYC55QX8JFFZ4N/hi-sec-cftc-and-clarity.png",
-        "publishedAt": "2026-10-07T16:06:03Z",
-        "content": "Representative French Hill, who chairs the House Financial Services Committee, said that though US financial regulators were moving forward with addressing digital assets, their actions lacked the lo… [+1834 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Dips Below $83K as Oil Shock Rattles Markets: What Happens Next?",
-        "description": "Bitcoin fell sharply as oil topped $101 and the 30-year Treasury yield hit its highest since 2002. The daily chart still leans bullish. The four-hour chart disagrees.",
-        "url": "https://decrypt.co/380290/bitcoin-dips-oil-shock-rattles-markets-what-happens-next",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
-        "publishedAt": "2026-10-07T15:34:31Z",
-        "content": "In brief\r\n<ul><li>Bitcoin fell as low as $82,776.30 today and sits at $83,178.54, down 2.76% on the day, as oil climbed above $101 and bond yields climbed.</li><li>The daily chart still shows a stron… [+5023 chars]"
       }
     ]
   }
