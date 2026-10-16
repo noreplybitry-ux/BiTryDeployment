@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-10-16T20:47:20.182Z",
+  "timestamp": "2026-10-16T23:23:30.592Z",
   "data": {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 35,
     "articles": [
       {
         "source": {
@@ -459,19 +459,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/70284126e74d9b4b82638d4995ed0ba9820e80a9-4883x2747.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-09T10:16:55Z",
         "content": "Thai assert managers may outsource crypto investment management to licensed digital-asset fund managers. Regulated digital-asset custodians and other qualified firms will also be able to register as … [+810 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole, AI Boost",
-        "title": "New tech to power bitcoin lending is set to debut with $500 million in commitments",
-        "description": "Layer-1 blockchain Sui is launching Hashi, an institutional protocol allowing holders to use bitcoin as collateral without moving it off the Bitcoin network.",
-        "url": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4caf34246416f1020ad3fc1aaa25373b18a9161f-5760x3240.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-09T06:40:54Z",
-        "content": "The primary target for this capital is a massive pool of dormant wealth. Sui estimates that roughly $1 trillion worth of Bitcoin is currently sitting idle. Until now, institutional and corporate bala… [+1261 chars]"
       }
     ]
   }
