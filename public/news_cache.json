@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-15T22:03:18.480Z",
+  "timestamp": "2026-10-16T01:05:47.081Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Polygon gains US payments licenses after closing Coinme deal",
+        "description": "Polygon Labs has completed its acquisition of Coinme, expanding its stablecoin payments infrastructure across 48 US states through licenses and exemptions.",
+        "url": "https://cointelegraph.com/news/polygon-gains-us-payments-licenses-after-closing-coinme-deal",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4YGMAKBQ7H9BQG4RR5WN0J2/polygon.jpg",
+        "publishedAt": "2026-10-15T00:55:21Z",
+        "content": "Polygon Labs has completed its acquisition of Coinme, giving its stablecoin payments platform a regulated way to convert dollars into digital assets and back across 48 US states.\r\nPolygon said Wednes… [+1127 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
         "publishedAt": "2026-10-07T15:34:31Z",
         "content": "In brief\r\n<ul><li>Bitcoin fell as low as $82,776.30 today and sits at $83,178.54, down 2.76% on the day, as oil climbed above $101 and bond yields climbed.</li><li>The daily chart still shows a stron… [+5023 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves",
-        "description": "Bitcoin fell below $83,000 to reach month-to-date lows as stocks reversed after all-time highs and bond yields spiked higher.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-to-827k-october-low-as-bond-sell-off-resumes-on-iran-nerves",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4BEBEZ7QSY6YC27Z3G1WAYE/oil-bitcoin-petrol-iran-3.jpg",
-        "publishedAt": "2026-10-07T15:06:14Z",
-        "content": "Bitcoin (BTC) fell further at Wednesdays Wall Street open as oil prices gained on US-Iran war headlines and stocks came off all-time highs.\r\nKey points:\r\n<ul><li>Bitcoin fell to $82,734 on Bitstamp, … [+2979 chars]"
       }
     ]
   }
