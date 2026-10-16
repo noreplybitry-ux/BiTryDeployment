@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-10-16T06:55:19.204Z",
+  "timestamp": "2026-10-16T12:13:18.885Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Brooklyn Prosecutors Take Down 112 Servers Behind Crypto Scam Targeting Russian Speakers",
+        "description": "The scammers also ran a fake recovery service, contacting victims weeks later with promises to get their stolen crypto back.",
+        "url": "https://decrypt.co/381000/brooklyn-prosecutors-take-down-112-servers-behind-crypto-scam-targeting-russian-speakers",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
+        "publishedAt": "2026-10-15T10:01:21Z",
+        "content": "In brief\r\n<ul><li>The Brooklyn District Attorney's Virtual Currency Unit, working with the FBI, disrupted 112 servers and 241 web domains used in a crypto investment scam.</li><li>The operation targe… [+2956 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Australia’s financial watchdog seeks stiffer rules for crypto exchanges ahead of licensing deadline",
+        "description": "The country’s regulator, ASIC, has proposed tougher rules to protect users’ digital assets, crypto trading and to safeguard the country’s financial stability.",
+        "url": "https://www.coindesk.com/policy/2026/10/15/australia-s-financial-watchdog-seeks-stiffer-rules-for-crypto-exchanges-ahead-of-licensing-deadline",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/725e54466a506d18ddd589c3163082c4f09cc8f6-2704x1544.png?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-15T09:53:37Z",
+        "content": "The rules take effect on April 8, 2027. Crypto firms already operating in the country have until Oct. 7 of the next year to apply for a license and can continue doing business while ASIC reviews thei… [+1081 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin dips to $80.1K as KOSPI closes at its lowest since April",
+        "description": "Bitcoin approaches $80,000 for the first time since mid-September as South Korea’s tech sell-off sparks 7.5% daily losses for the KOSPI.",
+        "url": "https://cointelegraph.com/markets/bitcoin-dips-korea-kospi-lowest-close-since-april",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4ZCG70WQ1C80X0TYGEPZ7KC/ai-falling-stock-prices-960x644.webp",
+        "publishedAt": "2026-10-15T09:48:07Z",
+        "content": "Bitcoin (BTC) fell to its lowest levels in over three weeks on Thursday as crypto tracked fresh losses on South Korean stock markets.\r\nKey points:\r\n<ul><li>Bitcoin reached new local lows of $80,154 a… [+3688 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Thailand crypto ETFs may see slow start despite new rules: CoinShares",
+        "description": "Thailand’s new Bitcoin and Ether ETF rules take effect Friday, but CoinShares expects modest initial inflows as existing investment options compete for demand.",
+        "url": "https://cointelegraph.com/news/thailand-crypto-etfs-slow-start-new-rules-coinshares",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4Z7M52YNHC4A063CV7T5G1J/hi-thailand-and-blockchain-etf-1.jpg",
+        "publishedAt": "2026-10-15T09:36:20Z",
+        "content": "Thailands first crypto exchange-traded funds (ETFs) may get off to a slow start despite Bangkoks efforts to expand access to regulated digital asset investments.\r\nI would expect modest inflows initia… [+2716 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,71 +485,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
         "publishedAt": "2026-10-08T11:48:13Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+6812 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin monthly ‘new money’ inflows near $5B as BTC price rally stalls",
-        "description": "Bitcoin’s realized cap rise in the 30 days to Oct. 5 came mostly from existing holders, not fresh capital, Glassnode data showed.",
-        "url": "https://cointelegraph.com/markets/bitcoin-monthly-new-money-inflows-near-5b-as-btc-price-rally-stalls",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4DEN6J4BGP9C8NCD8A1AQCZ/hi-crypto-market-trading-1-breaking-news-1.jpg",
-        "publishedAt": "2026-10-08T09:56:07Z",
-        "content": "Bitcoin (BTC) price gains do not yet reflect enough new capital entering the market, analysis warns.\r\nKey points:\r\n<ul><li>Rolling 30-day cumulative inflows of new money to Bitcoin reached $4.9 billi… [+2795 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Jamie Crawley",
-        "title": "Greece prepares to levy 10% capital gains tax on cryptocurrency",
-        "description": "Crypto gains of up to 500 euros ($560) per year would be exempt under the bill, which will be submitted to parliament in November.",
-        "url": "https://www.coindesk.com/policy/2026/10/08/greece-prepares-to-levy-10-capital-gains-tax-on-cryptocurrency",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/42d4c9ccc3b896065fd01389069573b1eb1ed6cb-5229x3486.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-10-08T09:17:18Z",
-        "content": "Greece is preparing to impose a 10% capital gains tax (CGT) on cryptocurrency, Reuters reported on Thursday, citing a draft bill published for public consultation.\r\nGains of up to 500 euros ($560) a … [+692 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Standard Chartered plans institutional crypto custody in Singapore",
-        "description": "Standard Chartered shared plans to launch digital asset custody services for Singaporean institutions, including for crypto assets, stablecoins and tokenized RWAs.",
-        "url": "https://cointelegraph.com/news/standard-chartered-digital-asset-custody-services-singapore",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4D5M8YGHAPX4VAG5QCCZDDF/sponsored-marina-bay-sand-singapore-light-water-stablecoin.jpg",
-        "publishedAt": "2026-10-08T08:08:03Z",
-        "content": "Standard Chartered announced plans to launch digital asset custody services for institutional clients in Singapore.\r\nThe London-headquartered multinational bank plans to offer custody services for se… [+1219 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny",
-        "title": "Crypto investment firm Deus X Capital shuts down as backers pursue separate strategies",
-        "description": "CEO Tim Grant will lead AI venture TensorX, while CIO Stuart Connolly stays to oversee the firm’s formal unwind in January.",
-        "url": "https://www.coindesk.com/business/2026/10/06/crypto-investment-firm-deus-x-capital-shuts-down-as-backers-pursue-separate-strategies",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6dec032e9776af5c3f491fe5dfddeba45aa83df0-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-10-08T08:00:00Z",
-        "content": "Crypto and fintech investment firm Deus X Capital has ceased operations as its backers pursue separate investment strategies, the company told CoinDesk.\r\nThe company, led by former Galaxy Digital (GL… [+1032 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, Krisztian Sandor",
-        "title": "Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity",
-        "description": "The discussions would see Payward supply liquidity for crypto trading as major banks deepen their involvement in digital assets.",
-        "url": "https://www.coindesk.com/business/2026/10/05/wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/ed683cdb87684e6ca349d6f2efd15060d7dd27d5-5196x3464.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75",
-        "publishedAt": "2026-10-07T18:59:32Z",
-        "content": "Payward, the parent company of crypto exchange Kraken, is in talks to become a crypto liquidity provider to U.S. financial giant Wells Fargo (WFC), according to two people with direct knowledge of th… [+1195 chars]"
       }
     ]
   }
