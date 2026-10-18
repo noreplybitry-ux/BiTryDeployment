@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-18T14:25:00.970Z",
+  "timestamp": "2026-10-18T17:56:38.280Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Binance.US Seeks $100 Million Funding Round At $1 Billion Valuation",
+        "description": "TL;DR: Binance.US is reportedly seeking up to $100 million from private investors at a proposed valuation of approximately $1 billion. The financing discussions come as the American exchange attempts to rebuild after several difficult years. Binance.US is rep…",
+        "url": "http://www.newsbtc.com/crypto-news/binance-us-seeks-100-million-funding-round-at-1-billion-valuation/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/newsbtc_N09.png?fit=1600%2C900",
+        "publishedAt": "2026-10-17T17:13:00Z",
+        "content": "TL;DR: Binance.US is reportedly seeking up to $100 million from private investors at a proposed valuation of approximately $1 billion. The financing discussions come as the American exchange attempts… [+1802 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4TJ29HRXGHBG9K7W07M6RBV/sbernew2.jpg",
         "publishedAt": "2026-10-13T12:22:24Z",
         "content": "Sberbank, Russias largest lender, has secured the central banks approval to trade cryptocurrencies, including Bitcoin, ahead of a planned December launch.\r\nThe Bank of Russias updated register, dated… [+1173 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "James Van Straten, Omkar Godbole, Francisco Rodrigues",
-        "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
-        "description": "Investors are positioning ahead of today's bank earnings reports and Wednesday’s U.S. inflation data.",
-        "url": "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/17da6534fc263b22ddbdfd999e0ad1424acdc5d1-1520x856.png?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-13T11:06:39Z",
-        "content": "South Koreas equity benchmark plunged 5.5% on Tuesday, leaving the index roughly 38% below its June all-time high. Crypto also saw sharp swings, with bitcoin BTC\r\n$83,696.96 falling below $81,000 bef… [+5769 chars]"
       }
     ]
   }
