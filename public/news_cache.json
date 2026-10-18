@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-18T10:44:30.518Z",
+  "timestamp": "2026-10-18T14:25:00.970Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Circle Targets 40 New Markets As USDC Push Moves Beyond Crypto Trading",
+        "description": "TL;DR: Circle plans to expand USDC infrastructure into approximately 40 developing and emerging markets. The company is targeting international payments and access to digital dollars rather than relying solely on cryptocurrency exchange demand. Circle is look…",
+        "url": "http://www.newsbtc.com/crypto-news/circle-targets-40-new-markets-as-usdc-push-moves-beyond-crypto-trading/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/newsbtc_N03.png?fit=1600%2C900",
+        "publishedAt": "2026-10-17T11:13:00Z",
+        "content": "TL;DR: Circle plans to expand USDC infrastructure into approximately 40 developing and emerging markets. The company is targeting international payments and access to digital dollars rather than rely… [+1978 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/17da6534fc263b22ddbdfd999e0ad1424acdc5d1-1520x856.png?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-13T11:06:39Z",
         "content": "South Koreas equity benchmark plunged 5.5% on Tuesday, leaving the index roughly 38% below its June all-time high. Crypto also saw sharp swings, with bitcoin BTC\r\n$83,696.96 falling below $81,000 bef… [+5769 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, AI Boost",
-        "title": "Russia’s largest bank Sberbank secures approval to trade crypto",
-        "description": "Sberbank plans to open crypto trading to all clients Dec. 1 and is already testing BTC, ETH and USDT trades in its app.",
-        "url": "https://www.coindesk.com/business/2026/10/13/russia-s-largest-bank-sberbank-secures-approval-to-trade-crypto",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4431859b83445fdd3e02e984cae83412cc8949df-3264x2040.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-13T11:02:47Z",
-        "content": "Russias largest bank, Sberbank, has received approval to exchange cryptocurrencies, advancing Moscows effort to bring crypto trading and custody into its regulated financial system.\r\nThe Bank of Russ… [+1053 chars]"
       }
     ]
   }
