@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-18T17:56:38.280Z",
+  "timestamp": "2026-10-18T20:25:46.682Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Charles Schwab Opens Bitcoin And Ethereum Transfers As Crypto Rollout Expands",
+        "description": "TL;DR: Charles Schwab is expanding its direct Bitcoin and Ethereum services, including phased external wallet transfers. The move brings digital asset ownership further into the company’s conventional brokerage experience. Charles Schwab is moving its cryptoc…",
+        "url": "http://www.newsbtc.com/crypto-news/charles-schwab-opens-bitcoin-and-ethereum-transfers-as-crypto-rollout/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/newsbtc_N11.png?fit=1600%2C900",
+        "publishedAt": "2026-10-17T19:13:00Z",
+        "content": "TL;DR: Charles Schwab is expanding its direct Bitcoin and Ethereum services, including phased external wallet transfers. The move brings digital asset ownership further into the company’s conventiona… [+1935 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4G9K7C73KY8G43Y46W76Q1Z/magazinebig-questions-can-btc-survive-10-year.png",
         "publishedAt": "2026-10-13T13:30:00Z",
         "content": "Bitcoin developer Paul Sztorc ruffled a few feathers this month with a brutally blunt assessment of the Lightning Network: Bitcoiners are lying to themselves about how well it works.\r\nMost people don… [+6751 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Russia clears Sberbank for crypto trading ahead of December launch",
-        "description": "Sberbank joined Russia’s register of 10 authorized crypto exchange operators after gaining digital custodian status, with its product launch planned for December.",
-        "url": "https://cointelegraph.com/news/sberbank-russia-crypto-trading-approval",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4TJ29HRXGHBG9K7W07M6RBV/sbernew2.jpg",
-        "publishedAt": "2026-10-13T12:22:24Z",
-        "content": "Sberbank, Russias largest lender, has secured the central banks approval to trade cryptocurrencies, including Bitcoin, ahead of a planned December launch.\r\nThe Bank of Russias updated register, dated… [+1173 chars]"
       }
     ]
   }
