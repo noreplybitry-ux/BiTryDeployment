@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-19T14:30:15.037Z",
+  "timestamp": "2026-10-19T20:29:42.704Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation",
+        "description": "Parliament passed a law taxing crypto withdrawals above deposits rather than individual trades, featuring a one-time declaration mechanism.",
+        "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d02365f898383e63bd7d71439d04e193ccd52d12-1920x1281.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-18T16:00:00Z",
+        "content": "The proposal comes as Latvia changes how it taxes crypto investments. On Oct. 15, the countrys parliament passed legislation to tax withdrawals from crypto investment accounts once they exceed the am… [+905 chars]"
+      },
       {
         "source": {
           "id": null,
