@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-19T06:02:55.998Z",
+  "timestamp": "2026-10-19T14:30:15.037Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Olivier Acuna",
+        "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
+        "description": "The security firm found that 77% of third-quarter losses involved compromised suppliers, delayed fixes or systems outside the latest security reviews.",
+        "url": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-18T13:00:00Z",
+        "content": "Usually, when a customer sees a new project, they see an audit badge, assume the whole system is covered, and lose money through a key, a supplier, or a setting that was never tested, Matiukhin said.… [+1160 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Will Canny, AI Boost",
+        "title": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+        "description": "Bitwise sees a potential return above $100,000, while LO:TECH expects a narrower trading range as interest-rate uncertainty weighs on the market.",
+        "url": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5b3e22f79db7d662674f6627620b8e945757ba94-1280x702.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-18T13:00:00Z",
+        "content": "Adam Morgan McCarthy, head of research at LO:TECH, a London-based crypto trading and market data firm, is more cautious. His base case is an $85,000$95,000 trading range into year-end.\r\nMacro has gon… [+1181 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +381,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/635098a63fd9f1666a72fdfb7fee8ca9adedf6a2-4032x2268.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-14T08:10:07Z",
         "content": "Standard Chartered (STAN) introduced a crypto trading service for affluent clients in the United Arab Emirates, allowing eligible investors to buy and sell bitcoin BTC\r\n$83,478.64 and ether ETH\r\n$2,5… [+1110 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Shakes Off Spooky Season Jitters: Can Bulls Keep It Going?",
-        "description": "Bitcoin dipped below $81,000 before buyers stepped in, but the Fear and Greed Index says traders aren't convinced yet.",
-        "url": "https://decrypt.co/380842/bitcoin-shakes-off-spooky-season-jitters",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
-        "publishedAt": "2026-10-13T16:46:05Z",
-        "content": "In brief\r\n<ul><li>Bitcoin is up 2.24% at $83,591.79 after dipping to $80,953.41, a higher low than the $80,365.12 swing that started its latest bounce.</li><li>The Crypto Fear and Greed Index sits at… [+3227 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Is Bitcoin kidding itself about the Lightning Network?",
-        "description": "Critics argue Lightning Network adoption is dwarfed by trillions in stablecoin volume on other chains. Has Lightning lived up to its promise or is time to find alternate solutions?",
-        "url": "https://cointelegraph.com/magazine/is-bitcoin-kidding-itself-about-the-lightning-network",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4G9K7C73KY8G43Y46W76Q1Z/magazinebig-questions-can-btc-survive-10-year.png",
-        "publishedAt": "2026-10-13T13:30:00Z",
-        "content": "Bitcoin developer Paul Sztorc ruffled a few feathers this month with a brutally blunt assessment of the Lightning Network: Bitcoiners are lying to themselves about how well it works.\r\nMost people don… [+6751 chars]"
       }
     ]
   }
