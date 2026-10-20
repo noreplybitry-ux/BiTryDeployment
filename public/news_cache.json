@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-20T16:39:05.652Z",
+  "timestamp": "2026-10-20T20:22:33.343Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "German Savings Banks Begin Crypto Trading Rollout Inside Sparkassen App",
+        "description": "Germany’s Sparkassen savings-bank group is beginning a phased cryptocurrency-trading rollout inside its existing banking app, taking an asset class it once treated cautiously into a familiar retail-finance setting. TL;DR: The first participating Sparkassen ba…",
+        "url": "http://www.newsbtc.com/crypto-news/german-savings-banks-begin-crypto-trading-rollout-inside-sparkassen-app/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/sparkassen_finanzgruppe_logo.jpg?fit=1280%2C720",
+        "publishedAt": "2026-10-19T19:00:00Z",
+        "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+2009 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/russia-moscow-red-square-kremlin-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-10-14T19:46:03Z",
         "content": "In brief\r\n<ul><li>The Bank of Russia added Sberbank to its register of crypto exchange operators on October 12, six days after listing it as a digital depository.</li><li>Sberbank plans to launch its… [+3166 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Standard Chartered Opens Bitcoin and Ethereum Trading to Wealthy UAE Clients",
-        "description": "The British bank won Dubai regulatory approval to let affluent clients buy BTC and ETH straight from their bank accounts, with custody and settlement kept in-house.",
-        "url": "https://decrypt.co/380967/standard-chartered-bitcoin-ethereum-trading",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-ethereum-decrypt-style-new-01-1-gID_7.jpg",
-        "publishedAt": "2026-10-14T17:46:05Z",
-        "content": "In brief\r\n<ul><li>Standard Chartered launched direct Bitcoin and Ethereum trading for affluent UAE clients on Wednesday after receiving licensing approval from Dubai's Virtual Assets Regulatory Autho… [+3691 chars]"
       }
     ]
   }
