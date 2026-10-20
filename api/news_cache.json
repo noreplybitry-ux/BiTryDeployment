@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-10-20T00:11:16.341Z",
+  "timestamp": "2026-10-20T05:47:47.415Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
       {
         "source": {
@@ -368,19 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4WX6QRMY3H03AP4FKTGM4KT/hi-why-the-crypto-market-is-falling-lately2.jpg",
         "publishedAt": "2026-10-14T10:25:53Z",
         "content": "Saifedean Ammous, the author of the 2018 academic book The Bitcoin Standard, said that Bitcoin already functions as a medium of exchange and that volatilitys effect on that is likely to diminish.\r\nBi… [+1643 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Standard Chartered expands Bitcoin and Ether trading to professional investors in UAE",
-        "description": "Standard Chartered expanded its Bitcoin and Ether trading to professional investors in the UAE, as it continues to expand its regulated digital asset offerings in the region.",
-        "url": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-professional-investors-uae",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4WQPH22MB1PQE91PWD5QS21/hi-dubai-overview-crypto-and-blockchain.jpg",
-        "publishedAt": "2026-10-14T10:07:03Z",
-        "content": "Standard Chartered has expanded Bitcoin (BTC) and Ether (ETH) trading to wealthy clients in the United Arab Emirates (UAE) who qualify as professional investors.\r\nEligible investors can trade these a… [+1281 chars]"
       }
     ]
   }
