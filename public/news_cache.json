@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-21T19:15:49.910Z",
+  "timestamp": "2026-10-21T23:08:53.545Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Swiss Regulator Approves First Retail Fund That Holds Bitcoin Directly",
+        "description": "FINMA waived the diversification rules for the fund but leaned hard on custody and investor-protection safeguards.",
+        "url": "https://decrypt.co/381446/swiss-regulator-first-retail-fund-holds-bitcoin-directly",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png",
+        "publishedAt": "2026-10-20T19:31:04Z",
+        "content": "In brief\r\n<ul><li>Switzerland's financial regulator FINMA announced Oct. 20 that it approved the country's first retail exchange-traded fund that invests directly in Bitcoin.</li><li>The fund receive… [+3301 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M51KABB9BETQZNEF1DB9SNM5/openai-ether.png",
         "publishedAt": "2026-10-16T06:11:22Z",
         "content": "An internal research model at OpenAI accessed a funded crypto wallet without authorization, using testnet Ether to deploy smart contracts on the Sepolia network and later omitting the spending from i… [+2514 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Russia Will Soon Ban Peer-to-Peer Bitcoin Trading, Central Bank Confirms",
-        "description": "Russians have until July 1, 2027 to buy and sell crypto directly with each other. After that, every trade runs through a broker or exchange approved by the Bank of Russia.",
-        "url": "https://decrypt.co/381079/russia-ban-peer-to-peer-bitcoin-trading",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/ukraine-russia-bitcoin-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-10-15T20:31:04Z",
-        "content": "In brief\r\n<ul><li>The Bank of Russia confirmed in an October 12 FAQ that direct crypto trades between individuals are legal only until July 1, 2027, citing new law.</li><li>The regulator also says in… [+3700 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Turner Wright",
-        "title": "Binance.US seeks $1B valuation in potential $100M funding round: Report",
-        "description": "The crypto exchange was reportedly looking to use the additional funding to regain market share following Binance’s 2023 settlement with US authorities.",
-        "url": "https://cointelegraph.com/news/binance-us-funding-valuation-billion",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M50GBDK9V1K1J9DSAGNBWX7S/us-binance.jpg",
-        "publishedAt": "2026-10-15T20:21:11Z",
-        "content": "Binance.US is reportedly seeking to raise up to $100 million in a funding round that could value the cryptocurrency exchange at $1 billion.\r\nAccording to a Thursday Bloomberg report, the US-based cry… [+1168 chars]"
       }
     ]
   }
