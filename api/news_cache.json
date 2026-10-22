@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-22T15:00:58.518Z",
+  "timestamp": "2026-10-22T19:11:17.438Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
+        "description": "Bitcoin is back near $84,500 as XRP and Zcash lead a broad crypto rebound from October's slide, putting \"Uptober\" back on the table.",
+        "url": "https://decrypt.co/381555/bitcoin-price-weekly-high-crypto-rebounds",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
+        "publishedAt": "2026-10-21T17:31:03Z",
+        "content": "In brief\r\n<ul><li>Bitcoin trades near $84,500, up 2.5% in 24 hours, as the crypto market cap rose 2.6% to $2.82 trillion; XRP gained 4.1% and Zcash 11.2%.</li><li>Brent crude near $108 and a 5.09% 10… [+4397 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat",
+        "description": "Bitcoin nears $85,000 for the first time in two weeks as SpaceX Q3 earnings allay stock-market fears over AI spending.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-tags-846k-as-us-stocks-head-higher-on-spacex-q3-earnings-beat",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5FFNBMBTT9KJFWC3TVMA71T/hi-what-is-spacex-ipo-and-binance-1.jpg",
+        "publishedAt": "2026-10-21T15:13:17Z",
+        "content": "Bitcoin (BTC) passed $84,000 after Wednesdays Wall Street open as US stocks added to gains on more strong corporate earnings reports.\r\nKey points:\r\n<ul><li>Bitcoin climbed nearly 2% on Wednesday to r… [+3096 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-10-16T11:46:54Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+5517 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
-        "description": "The internal model derived keys from public developer recovery phrases, spent another account's test ETH, and left it out of its report.",
-        "url": "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/ethereum-decrypt-style-06-gID_7.jpg",
-        "publishedAt": "2026-10-16T10:39:08Z",
-        "content": "In brief\r\n<ul><li>OpenAI said an internal research model used funds from a crypto wallet it had not been given to pay for a contract deployment on Ethereum's Sepolia test network.</li><li>The model d… [+3200 chars]"
       }
     ]
   }
