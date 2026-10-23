@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-23T18:59:09.980Z",
+  "timestamp": "2026-10-23T22:01:00.120Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Google’s Updated UAE Crypto Advertising Rules Take Effect",
+        "description": "Google’s updated rules for UAE-targeted crypto exchange and wallet ads took effect October 21. Advertisers need an accepted local license and Google certification; the policy is not blanket permission for all crypto promotions.",
+        "url": "https://www.newsbtc.com/regulation/google-uae-crypto-advertising-rules-october-21/",
+        "urlToImage": null,
+        "publishedAt": "2026-10-22T21:10:00Z",
+        "content": "TL;DR: Googles updated rules for UAE-targeted crypto exchange and wallet ads took effect October 21. Advertisers need an accepted local license and Google certification; the policy is not blanket per… [+2287 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-18T13:00:00Z",
         "content": "Usually, when a customer sees a new project, they see an audit badge, assume the whole system is covered, and lose money through a key, a supplier, or a setting that was never tested, Matiukhin said.… [+1160 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Will Canny, AI Boost",
-        "title": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
-        "description": "Bitwise sees a potential return above $100,000, while LO:TECH expects a narrower trading range as interest-rate uncertainty weighs on the market.",
-        "url": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5b3e22f79db7d662674f6627620b8e945757ba94-1280x702.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-18T13:00:00Z",
-        "content": "Adam Morgan McCarthy, head of research at LO:TECH, a London-based crypto trading and market data firm, is more cautious. His base case is an $85,000$95,000 trading range into year-end.\r\nMacro has gon… [+1181 chars]"
       }
     ]
   }
