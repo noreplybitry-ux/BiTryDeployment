@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-10-23T09:51:47.270Z",
+  "timestamp": "2026-10-23T14:48:27.263Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Thailand SEC says several companies eye crypto ETFs, none has applied",
+        "description": "Several companies have approached Thailand’s SEC about launching spot crypto ETFs, but no applications have been filed and the first approval date remains uncertain.",
+        "url": "https://cointelegraph.com/news/thailand-sec-crypto-etf-applications",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5HP7DQ484K9JYNHR6WQMB12/regulations-thailand-crypto-1.jpg",
+        "publishedAt": "2026-10-22T13:20:57Z",
+        "content": "Thailands new spot cryptocurrency exchange-traded fund (ETF) framework is attracting interest from asset managers, but the regulator has yet to receive its first application.\r\nSeveral asset managemen… [+1149 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Italy Busts Mafia 'Secret Bank' That Laundered Money Through Crypto, Seizes $24M",
+        "description": "Police say a car-rental firm near Milan was an underground bank for 'Ndrangheta and Camorra figures, moving money abroad and into crypto.",
+        "url": "https://decrypt.co/381589/italy-busts-mafia-secret-bank-that-laundered-money-through-crypto-seizes-24m",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
+        "publishedAt": "2026-10-22T10:45:13Z",
+        "content": "In brief\r\n<ul><li>Italian police arrested 30 people over an alleged mafia-linked \"hidden bank\" run from a car-rental business near Milan, seizing 21 million in assets including cryptocurrency.</li><l… [+3276 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin corrects below $82K after Tesla Q3 results, KOSPI falls",
+        "description": "Bitcoin reversed a run toward $85,000 after Tesla reported lower-than-expected capital expenditure in Q3.",
+        "url": "https://cointelegraph.com/markets/bitcoin-corrects-below-82k-after-tesla-q3-results-kospi-falls",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5HJSXMPY51PCJ82B9PXHE2E/hi-market-correction-vs-bear-market-btc-2.jpg",
+        "publishedAt": "2026-10-22T10:38:51Z",
+        "content": "Bitcoin (BTC) fell nearly 3% on Thursday after an attempt to break higher was rejected near $85,000.\r\nKey points:\r\n<ul><li>Bitcoin returned to near $81,500 after Tesla reported a lower-than-expected … [+3120 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,45 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/newsbtc_N09.png?fit=1600%2C900",
         "publishedAt": "2026-10-17T17:13:00Z",
         "content": "TL;DR: Binance.US is reportedly seeking up to $100 million from private investors at a proposed valuation of approximately $1 billion. The financing discussions come as the American exchange attempts… [+1802 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Circle Targets 40 New Markets As USDC Push Moves Beyond Crypto Trading",
-        "description": "TL;DR: Circle plans to expand USDC infrastructure into approximately 40 developing and emerging markets. The company is targeting international payments and access to digital dollars rather than relying solely on cryptocurrency exchange demand. Circle is look…",
-        "url": "http://www.newsbtc.com/crypto-news/circle-targets-40-new-markets-as-usdc-push-moves-beyond-crypto-trading/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/newsbtc_N03.png?fit=1600%2C900",
-        "publishedAt": "2026-10-17T11:13:00Z",
-        "content": "TL;DR: Circle plans to expand USDC infrastructure into approximately 40 developing and emerging markets. The company is targeting international payments and access to digital dollars rather than rely… [+1978 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Bounces, But Where Does It Go Next? Here’s What the Charts Say",
-        "description": "Technical indicators suggest the bullish trend remains intact, but prediction market traders are sending mix signals.",
-        "url": "https://decrypt.co/381150/bitcoin-price-rebounds-where-next-charts",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-decrypt-style-28-gID_7.png",
-        "publishedAt": "2026-10-16T16:06:05Z",
-        "content": "In brief\r\n<ul><li>Bitcoin has bounced after a Thursday dip brought it under $80,000 for the first time in over a month.</li><li>Alts are having a better day as well: Zcash jumped 10.29%, Ethereum ros… [+2875 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Three Canadian Armed Forces Members Charged in Kidnapping of Crypto Exchange Owner",
-        "description": "Police seized guns, silencers and more than 2,000 rounds of ammunition, nearly all of it allegedly stolen from the Canadian military.",
-        "url": "https://decrypt.co/381148/three-canadian-armed-forces-members-charged-in-kidnapping-of-crypto-exchange-owner",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Handcuffs-gID_7.png",
-        "publishedAt": "2026-10-16T15:43:58Z",
-        "content": "In brief\r\n<ul><li>Toronto police have laid 82 charges against seven men, including three Canadian Armed Forces members, over the July abduction of a crypto exchange owner.</li><li>Police allege the v… [+3792 chars]"
       }
     ]
   }
