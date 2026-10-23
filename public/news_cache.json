@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-23T04:13:03.183Z",
+  "timestamp": "2026-10-23T09:51:47.270Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B",
+        "description": "Bitcoin ETFs attracted $528 million on Wednesday as BTC briefly topped $84,700, pushing October’s net flows back into positive territory at $461 million.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NJXA13RF9N1Q13C8RH5D6G/surfing-blockchain-wave-etf-1.jpg",
+        "publishedAt": "2026-10-22T07:37:32Z",
+        "content": "US spot Bitcoin exchange-traded funds (ETFs) attracted $528 million in net inflows on Wednesday as Bitcoin briefly surged above $84,700 before retreating.\r\nThe funds extended their inflow streak to t… [+1149 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Handcuffs-gID_7.png",
         "publishedAt": "2026-10-16T15:43:58Z",
         "content": "In brief\r\n<ul><li>Toronto police have laid 82 charges against seven men, including three Canadian Armed Forces members, over the July abduction of a crypto exchange owner.</li><li>Police allege the v… [+3792 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Tyler Warner",
-        "title": "Morning Minute: Google Clears a Major Quantum Hurdle, Bitcoin Still Safe",
-        "description": "Plus, crypto majors rebound despite hot PPI and Saylor’s Strategy is at risk of removal from a major index.",
-        "url": "https://decrypt.co/381138/morning-minute-google-clears-a-major-quantum-hurdle-bitcoin-still-safe",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-10-16T11:46:54Z",
-        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+5517 chars]"
       }
     ]
   }
