@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-23T14:48:27.263Z",
+  "timestamp": "2026-10-23T18:59:09.980Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Krisztian Sandor",
+        "title": "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech",
+        "description": "The venture investor behind early bets on Coinbase, Solana and Uniswap said is broadening its focus, joining other crypto investment firms looking beyond blockchain to artificial intelligence and tech themes.",
+        "url": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/941dba842a1a32a077b3b9c26476efac090f9415-7081x3983.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-22T18:30:57Z",
+        "content": "Andreessen Horowitz (a16z), one of crypto's most influential venture capital backers, is dropping \"crypto\" from the name of its investment arm and expanding into artificial intelligence and other eme… [+1078 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Turner Wright",
+        "title": "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures",
+        "description": "According to the Central Bank of Ireland, Coinbase Ireland had agreed with the facts around the enforcement action and will be subject to fines and sanctions upon approval by a high court.",
+        "url": "https://cointelegraph.com/news/ireland-central-bank-coinbase-oversight-safeguard-failure",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5J5AK9VV0TKNV4DMR09TVT7/hi-what-is-a-coinbase-transaction-ireland.jpg",
+        "publishedAt": "2026-10-22T16:48:00Z",
+        "content": "The Central Bank of Ireland announced an enforcement action against Coinbase Ireland for failures to safeguard user funds and provide oversight between 2020 and 2025. \r\nIn a Thursday notice, the regu… [+1416 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/5b3e22f79db7d662674f6627620b8e945757ba94-1280x702.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-18T13:00:00Z",
         "content": "Adam Morgan McCarthy, head of research at LO:TECH, a London-based crypto trading and market data firm, is more cautious. His base case is an $85,000$95,000 trading range into year-end.\r\nMacro has gon… [+1181 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Charles Schwab Opens Bitcoin And Ethereum Transfers As Crypto Rollout Expands",
-        "description": "TL;DR: Charles Schwab is expanding its direct Bitcoin and Ethereum services, including phased external wallet transfers. The move brings digital asset ownership further into the company’s conventional brokerage experience. Charles Schwab is moving its cryptoc…",
-        "url": "http://www.newsbtc.com/crypto-news/charles-schwab-opens-bitcoin-and-ethereum-transfers-as-crypto-rollout/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/newsbtc_N11.png?fit=1600%2C900",
-        "publishedAt": "2026-10-17T19:13:00Z",
-        "content": "TL;DR: Charles Schwab is expanding its direct Bitcoin and Ethereum services, including phased external wallet transfers. The move brings digital asset ownership further into the company’s conventiona… [+1935 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Binance.US Seeks $100 Million Funding Round At $1 Billion Valuation",
-        "description": "TL;DR: Binance.US is reportedly seeking up to $100 million from private investors at a proposed valuation of approximately $1 billion. The financing discussions come as the American exchange attempts to rebuild after several difficult years. Binance.US is rep…",
-        "url": "http://www.newsbtc.com/crypto-news/binance-us-seeks-100-million-funding-round-at-1-billion-valuation/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/newsbtc_N09.png?fit=1600%2C900",
-        "publishedAt": "2026-10-17T17:13:00Z",
-        "content": "TL;DR: Binance.US is reportedly seeking up to $100 million from private investors at a proposed valuation of approximately $1 billion. The financing discussions come as the American exchange attempts… [+1802 chars]"
       }
     ]
   }
