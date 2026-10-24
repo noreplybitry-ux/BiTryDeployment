@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-10-24T07:03:13.692Z",
+  "timestamp": "2026-10-24T12:31:54.113Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
+        "description": "Bitcoin price volatility cooled as stock markets battled another day of resurgent AI fears during Friday’s Asia trading session.",
+        "url": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M51V1P8ZQ063ADC4P2T050NT/market-red-graph-falling-danger-stones-bitcoin-4.jpg",
+        "publishedAt": "2026-10-23T12:23:58Z",
+        "content": "Bitcoin (BTC) ranged below $82,000 into Fridays Wall Street open as stock markets slid further on AI financing concerns.\r\nKey points:\r\n<ul><li>Bitcoin struggled to rebound after falling more than 3% … [+3010 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Chainlink And LG CNS Target South Korean Banks With Digital Asset Infrastructure Deal",
+        "description": "Chainlink and LG CNS are partnering on oracle and cross-chain infrastructure aimed at South Korea’s financial institutions; the announcement is a partnership, not a completed nationwide deployment.",
+        "url": "https://www.newsbtc.com/crypto-news/chainlink-lg-cns-south-korea-institutional-digital-assets/",
+        "urlToImage": null,
+        "publishedAt": "2026-10-23T12:15:00Z",
+        "content": "TL;DR: Chainlink and LG CNS are partnering on oracle and cross-chain infrastructure aimed at South Koreas financial institutions; the announcement is a partnership, not a completed nationwide deploym… [+2823 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "BlockmanPR",
+        "title": "Paybis Adds iDEAL, BLIK, Multibanco and EPS for Buying Crypto in Europe",
+        "description": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave of 13 local payment methods Paybis is adding. Riga, Latvia O…",
+        "url": "https://www.newsbtc.com/news/paybis-adds-ideal-blik-multibanco-and-eps-for-buying-crypto-in-europe/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/710b8519a1dc4e788e2b20a82798e222.jpg",
+        "publishedAt": "2026-10-23T11:30:09Z",
+        "content": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave … [+3927 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Ryan Gladwin",
+        "title": "Bitcoin in 'Wait and See Mode'—And That Might Be a Good Thing",
+        "description": "The crypto market has been quiet as of late. Market analysts think that might actually be a good sign and that a bull market might be near.",
+        "url": "https://decrypt.co/381666/bitcoin-in-wait-and-see-mode-and-that-might-be-a-good-thing",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bhutan-bitcoin-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-10-23T08:55:35Z",
+        "content": "In brief\r\n<ul><li>Bitcoin hasn't moved more than 6% over the past month, and every top five cryptocurrency has failed to move more than 2% over the past seven days.</li><li>Market analysts say that a… [+5149 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Handcuffs-gID_7.png",
         "publishedAt": "2026-10-19T10:31:09Z",
         "content": "In brief\r\n<ul><li>Three men have been jailed for between five and six years after breaking into a man's home in Bristol, England, and demanding a large amount of cryptocurrency.</li><li>All three ple… [+2675 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Stocks rebound into key tech earnings: Three things to know in Bitcoin this week",
-        "description": "Bitcoin closes its weekly candle below a key support zone as stock markets seek to recover some of the losses from last week’s tech sell-off.",
-        "url": "https://cointelegraph.com/markets/stocks-rebound-into-key-tech-earnings-three-things-to-know-in-bitcoin-this-week",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M59TMCWT4YS3BEJ97Y7B01HA/hi-crypto-on-corporate-balance-sheets-south-korea.jpg",
-        "publishedAt": "2026-10-19T10:18:40Z",
-        "content": "Bitcoin (BTC) starts the third week of October at $82,000 as crypto and stock markets begin a tentative rebound.\r\nKey points:\r\n<ul><li>South Koreas KOSPI Composite Index gained nearly 1.8% on Monday … [+6332 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin, Ether ETFs shed $549M as October ETH outflows near $1B",
-        "description": "Bitcoin and Ether ETFs recorded $549 million in weekly withdrawals as October’s Ether fund outflows approached $1 billion, exceeding the previous months in 2026.",
-        "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M59F6KYERPENFDEPMTNEM29K/big-wave-bitcoin-ethereum-market-fall-1.jpg",
-        "publishedAt": "2026-10-19T07:54:13Z",
-        "content": "US spot Bitcoin and Ether exchange-traded funds (ETFs) saw $549 million in net outflows last week as investors continued pulling money from two of the largest crypto funds.\r\nBitcoin ETFs recorded aro… [+1250 chars]"
       }
     ]
   }
