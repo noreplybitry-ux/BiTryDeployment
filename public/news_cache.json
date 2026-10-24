@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-24T19:20:31.938Z",
+  "timestamp": "2026-10-24T22:20:06.708Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitwise Dogecoin ETF Reaches Scheduled Liquidation As Holders Face Cash Redemption",
+        "description": "Bitwise’s BWOW Dogecoin ETF reached its announced October 22 liquidation distribution date, with remaining shareholders due cash based on the fund’s net asset value.",
+        "url": "https://www.newsbtc.com/crypto-news/bitwise-bwow-dogecoin-etf-cash-liquidation-october-22/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Dogecoin-from-Getty-Images-6.jpg",
+        "publishedAt": "2026-10-23T21:15:00Z",
+        "content": "TL;DR: Bitwises BWOW Dogecoin ETF reached its announced October 22 liquidation distribution date, with remaining shareholders due cash based on the funds net asset value.\r\nFor investors who held the … [+2688 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M45MNAH6T9X0V6SRTWP10EC6/bitcoin-lazer-eyes-and-bull-run-graph-6.jpg",
         "publishedAt": "2026-10-19T16:05:57Z",
         "content": "Bitcoin (BTC) traded below $82,000 after Mondays Wall Street open as crypto diverged from rising stocks and bond yields.\r\nKey points:\r\n<ul><li>Bitcoin gave up early-week gains as ask liquidity amasse… [+2861 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Tests Key Support as Oil and AI Fears Squeeze Markets",
-        "description": "Bitcoin keeps limping back to the same floor while $108 oil and 5% yields weigh on risk assets. The chart shows a coiled spring, not a trend.",
-        "url": "https://decrypt.co/381319/bitcoin-price-key-support-oil-ai-fears-squeeze-markets",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
-        "publishedAt": "2026-10-19T16:05:09Z",
-        "content": "In brief\r\n<ul><li>Bitcoin trades at $82,164, just above the a key support line, after touching $83,040 today and giving back part of the gain.</li><li>Oil near $108, 3.7% inflation, and a 10-year yie… [+4064 chars]"
       }
     ]
   }
