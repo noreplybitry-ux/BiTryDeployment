@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-24T16:28:56.683Z",
+  "timestamp": "2026-10-24T19:20:31.938Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Crypto Scammers Who Used Prayer Groups to Lure Victims Must Pay $1.3 Billion, Says New York",
+        "description": "New York’s attorney general asked a court to order NovaTech’s founders, who fled the country, to pay about $1.37 billion, and settled with four top promoters for nearly $6 million.",
+        "url": "https://decrypt.co/381708/crypto-scammers-prayer-groups-lure-victims-must-pay-1-3-billion-new-york",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-gID_7.png",
+        "publishedAt": "2026-10-23T16:31:03Z",
+        "content": "In brief\r\n<ul><li>New York Attorney General Letitia James is seeking about $1.37 billion from NovaTech founders Cynthia and Eddy Petion, who fled the U.S. before an August 2025 default judgment.</li>… [+3361 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
         "publishedAt": "2026-10-19T16:05:09Z",
         "content": "In brief\r\n<ul><li>Bitcoin trades at $82,164, just above the a key support line, after touching $83,040 today and giving back part of the gain.</li><li>Oil near $108, 3.7% inflation, and a 10-year yie… [+4064 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Latvia Changes Crypto Tax Treatment And Opens A 2027 Declaration Window",
-        "description": "Latvia has passed a change to the way crypto investment-account gains are taxed, shifting attention from individual trades to what an investor ultimately withdraws from an eligible account. TL;DR: New Latvian legislation taxes qualifying account withdrawals a…",
-        "url": "http://www.newsbtc.com/regulation/latvia-changes-crypto-tax-treatment-and-opens-a-2027-declaration-window/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2018/02/eu-flag-2108026_1280.jpg?fit=1280%2C853",
-        "publishedAt": "2026-10-19T13:00:00Z",
-        "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+1952 chars]"
       }
     ]
   }
