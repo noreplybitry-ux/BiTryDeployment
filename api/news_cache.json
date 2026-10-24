@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-23T22:01:00.120Z",
+  "timestamp": "2026-10-24T01:26:22.127Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
+        "description": "A Singapore is firm behind Switzerland’s new Bitcoin ETF, Crypto Valley partners with Vietnam on crypto tech. The US cracks down on DeepSeek and bans some overseas AI investments.",
+        "url": "https://cointelegraph.com/magazine/new-deepseek-ban-in-us-swiss-asia-crypto-ties-deepen-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5JV90GX9YTTQQZEH3XNN8PG/asia-express-1.jpg",
+        "publishedAt": "2026-10-22T22:50:22Z",
+        "content": "CHINATreasury proposes blocks on US investments in AI and semiconductors in some foreign countries\r\nThe US Treasury has proposed new rules that would block investment in artificial intelligence proje… [+7543 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M59F6KYERPENFDEPMTNEM29K/big-wave-bitcoin-ethereum-market-fall-1.jpg",
         "publishedAt": "2026-10-19T07:54:13Z",
         "content": "US spot Bitcoin and Ether exchange-traded funds (ETFs) saw $549 million in net outflows last week as investors continued pulling money from two of the largest crypto funds.\r\nBitcoin ETFs recorded aro… [+1250 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation",
-        "description": "Parliament passed a law taxing crypto withdrawals above deposits rather than individual trades, featuring a one-time declaration mechanism.",
-        "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d02365f898383e63bd7d71439d04e193ccd52d12-1920x1281.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-18T16:00:00Z",
-        "content": "The proposal comes as Latvia changes how it taxes crypto investments. On Oct. 15, the countrys parliament passed legislation to tax withdrawals from crypto investment accounts once they exceed the am… [+905 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Olivier Acuna",
-        "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
-        "description": "The security firm found that 77% of third-quarter losses involved compromised suppliers, delayed fixes or systems outside the latest security reviews.",
-        "url": "https://www.coindesk.com/tech/2026/10/18/crypto-audits-give-investors-false-sense-of-security-as-q3-hacks-cost-usd1-18-billion-hacken-says",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-18T13:00:00Z",
-        "content": "Usually, when a customer sees a new project, they see an audit badge, assume the whole system is covered, and lose money through a key, a supplier, or a setting that was never tested, Matiukhin said.… [+1160 chars]"
       }
     ]
   }
