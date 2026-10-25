@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-25T11:02:49.626Z",
+  "timestamp": "2026-10-25T15:51:48.142Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Sygnum Launches Bitcoin Loans With Collateral Keys Shared Across Parties",
+        "description": "Sygnum and Debifi launch MultiSYG Bitcoin loans with dedicated multisignature wallets as Bitcoin exceeds 80% of the bank’s pledged collateral.",
+        "url": "https://www.newsbtc.com/bitcoin-news/sygnum-multisyg-bitcoin-loans-shared-collateral-keys/",
+        "urlToImage": null,
+        "publishedAt": "2026-10-24T15:00:00Z",
+        "content": "TL;DR: Sygnum and Debifi have launched MultiSYG, a Bitcoin-backed lending service using segregated multisignature wallets. The arrangement spreads control of collateral across several parties, while … [+3034 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/10/mt-gox-bitcoin-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-10-20T10:55:48Z",
         "content": "In brief\r\n<ul><li>Mt. Gox's rehabilitation trustee has moved the defunct exchange's repayment deadline to October 31, 2027, with the permission of a Tokyo court.</li><li>Trustee Nobuaki Kobayashi sai… [+3018 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Bitget plans Thai crypto exchange acquisition weeks after $388M hack",
-        "description": "The proposed acquisition would give Bitget a route into Thailand’s crypto market through a locally licensed operator.",
-        "url": "https://cointelegraph.com/news/bitget-plans-thai-crypto-exchange-acquisition-weeks-after-388m-hack",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5913E3NB29C5XXKGWE4B5TQ/thailand-2.jpg",
-        "publishedAt": "2026-10-20T10:00:00Z",
-        "content": "Crypto exchange Bitget has announced plans to acquire Thailands GMO-Z.com Cryptonomics, seeking to expand its Southeast Asia footprint weeks after a major hack impacting its hot and warm wallets. \r\nT… [+2060 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "German Savings Banks Begin Crypto Trading Rollout Inside Sparkassen App",
-        "description": "Germany’s Sparkassen savings-bank group is beginning a phased cryptocurrency-trading rollout inside its existing banking app, taking an asset class it once treated cautiously into a familiar retail-finance setting. TL;DR: The first participating Sparkassen ba…",
-        "url": "http://www.newsbtc.com/crypto-news/german-savings-banks-begin-crypto-trading-rollout-inside-sparkassen-app/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/sparkassen_finanzgruppe_logo.jpg?fit=1280%2C720",
-        "publishedAt": "2026-10-19T19:00:00Z",
-        "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+2009 chars]"
       }
     ]
   }
