@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-10-25T05:51:25.222Z",
+  "timestamp": "2026-10-25T11:02:49.626Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
       {
         "source": {
@@ -407,19 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/sparkassen_finanzgruppe_logo.jpg?fit=1280%2C720",
         "publishedAt": "2026-10-19T19:00:00Z",
         "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+2009 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin is rejected at $83K as US bond yields reverse higher with equities",
-        "description": "Bitcoin price upside runs out of momentum at $83,000 as a wall of ask liquidity keeps BTC from following US stocks higher.",
-        "url": "https://cointelegraph.com/markets/bitcoin-is-rejected-at-83k-as-us-bond-yields-reverse-higher-with-equities",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M45MNAH6T9X0V6SRTWP10EC6/bitcoin-lazer-eyes-and-bull-run-graph-6.jpg",
-        "publishedAt": "2026-10-19T16:05:57Z",
-        "content": "Bitcoin (BTC) traded below $82,000 after Mondays Wall Street open as crypto diverged from rising stocks and bond yields.\r\nKey points:\r\n<ul><li>Bitcoin gave up early-week gains as ask liquidity amasse… [+2861 chars]"
       }
     ]
   }
