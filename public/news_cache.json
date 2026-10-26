@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-25T23:59:40.387Z",
+  "timestamp": "2026-10-26T04:33:26.239Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitcoin ETF Flows Trail Price Moves, DWF Study Finds",
+        "description": "DWF’s Bitcoin ETF study tests flow timing. Basis trades and fund-creation mechanics help explain why a flow total is an incomplete market signal.",
+        "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-etf-flows-trail-price-dwf-study/",
+        "urlToImage": null,
+        "publishedAt": "2026-10-25T04:00:00Z",
+        "content": "Bitcoin ETF flows track recent price moves more closely than subsequent ones, according to DWF Labs research published October 22. The findings challenge a familiar shortcut: treating a large daily i… [+2662 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/mesh_official_brandmark.jpg?fit=1200%2C630",
         "publishedAt": "2026-10-20T12:00:00Z",
         "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+1889 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Mt. Gox Pushes Repayment Deadline to 2027 With $2.8B in Bitcoin Still to Distribute",
-        "description": "The defunct exchange's trustee said many creditors still have not completed the procedures needed to get their Bitcoin back.",
-        "url": "https://decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/10/mt-gox-bitcoin-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-10-20T10:55:48Z",
-        "content": "In brief\r\n<ul><li>Mt. Gox's rehabilitation trustee has moved the defunct exchange's repayment deadline to October 31, 2027, with the permission of a Tokyo court.</li><li>Trustee Nobuaki Kobayashi sai… [+3018 chars]"
       }
     ]
   }
