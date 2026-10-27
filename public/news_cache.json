@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-27T07:35:08.605Z",
+  "timestamp": "2026-10-27T14:15:05.766Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "HOOD’s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein",
+        "description": "Bernstein analysts raised Robinhood’s revenue estimates through 2026 and 2028, while maintaining their HOOD price target unchanged at $160.",
+        "url": "https://cointelegraph.com/news/prediction-markets-17b-robinhood-exceed-crypto-revenue-2028-bernstein",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5W2DRTH9GX1TGHSRAAGJBW5/hi-japan-robin-hood-join-trading-platform-2.jpg",
+        "publishedAt": "2026-10-26T13:12:41Z",
+        "content": "Bernstein analysts expect prediction markets to become one of the incremental earnings drivers for trading platform Robinhood Markets (HOOD), potentially surpassing its crypto-derived revenue.\r\nPredi… [+1368 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Bitcoin Dips Below $80,000 Ahead of Fed Decision, Midterms",
+        "description": "Analysts point to a sell-off in AI stocks and ETF outflows, with HashKey's Tim Sun flagging $75,000 as the next key support level.",
+        "url": "https://decrypt.co/381802/bitcoin-dips-below-80000-ahead-of-fed-decision-midterms",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
+        "publishedAt": "2026-10-26T13:02:43Z",
+        "content": "In brief\r\n<ul><li>Bitcoin briefly fell below $80,000 over the past day, touching about $79,330, before recovering to trade at $80,264, down 2.7% on the week, per CoinGecko.</li><li>U.S. spot Bitcoin … [+3413 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
         "publishedAt": "2026-10-20T17:03:26Z",
         "content": "In brief\r\n<ul><li>Zcash rose 8.5% in 24 hours to $1,215.85, the best performer among the largest tokens.</li><li>Total crypto market cap climbed 1.68% to $2.78 trillion, while the Fear &amp; Greed In… [+3992 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls",
-        "description": "High US corporate earnings reports boosted stock markets and saw BTC price hit $83,300 before reversing at a 21-day trend line.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-spikes-to-833k-as-us-stocks-rise-on-q3-earnings-oil-falls",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3KCZXGV1C50ET53JWS4RJ0V/hi-can-bitcoins-hard-cap-be-changed-3.jpg",
-        "publishedAt": "2026-10-20T16:14:09Z",
-        "content": "Bitcoin (BTC) returned to $83,000 after Tuesdays Wall Street open as US stocks gained on strong earnings reports.\r\nKey points:\r\n<ul><li>Bitcoin gained up to 1.5%, joining upside in US stocks on the b… [+2898 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Metaplanet Bitcoin Investment Clears Super League Shareholder Vote",
-        "description": "TL;DR: Super League shareholders have approved proposals connected to Metaplanet’s plan to contribute 2,100 BTC and cash to a new US-listed Bitcoin treasury platform. Metaplanet’s proposed American Bitcoin treasury vehicle has moved a step closer to reality, …",
-        "url": "http://www.newsbtc.com/bitcoin-news/metaplanet-bitcoin-investment-clears-super-league-shareholder-vote/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/metaplanet_official_brandmark.jpg?fit=1920%2C1080",
-        "publishedAt": "2026-10-20T16:10:00Z",
-        "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+1811 chars]"
       }
     ]
   }
