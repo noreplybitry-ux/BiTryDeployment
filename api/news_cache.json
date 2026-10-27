@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-27T14:15:05.766Z",
+  "timestamp": "2026-10-27T19:57:57.099Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues, AI Boost",
+        "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
+        "description": "Officials fear users of domestic exchanges would bear the tax burden because the U.S. won’t share crypto trading data under the OECD’s CARF until 2029.",
+        "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d02365f898383e63bd7d71439d04e193ccd52d12-1920x1281.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-26T14:51:07Z",
+        "content": "South Korea is considering delaying its tax on cryptocurrency gains for a fourth time, postponing the introduction until 2029, Newsis reported.\r\nThe presidential office is leaning toward a delay amid… [+928 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-glasses-decrypt-style-gID_7.png",
         "publishedAt": "2026-10-20T17:45:04Z",
         "content": "In brief\r\n<ul><li>Bitcoin trades just below $83,000, above both the short-term and long-term moving price averages.</li><li>Momentum is neutral, with room to run in either direction.</li><li>Here's h… [+3267 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified",
-        "description": "Bitcoin treasury firm Strive completed its upsized SATS preferred-stock offering, with estimated net proceeds of $608 million available for Bitcoin purchases and other uses.",
-        "url": "https://cointelegraph.com/news/strive-closes-630m-sats-ipo-leaves-bitcoin-allocation-unspecified",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5D4R4SY5YQGHZN1M57JSE8D/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price-2.jpg",
-        "publishedAt": "2026-10-20T17:40:00Z",
-        "content": "Strive, the Bitcoin treasury company led by chairman and CEO Matt Cole, closed its upsized initial public offering of SATS preferred stock on Oct. 20, raising $630 million gross, according to the com… [+1555 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Zcash Leads Crypto Bounce, Surging 8.5% as Bitcoin Reclaims $83,000",
-        "description": "Zcash jumped 8.5% in 24 hours to $1,215.85 as the broader crypto market rebounded, with Bitcoin up 1.6% and ETF money flowing back in.",
-        "url": "https://decrypt.co/381424/zcash-crypto-bounce-surging-bitcoin-reclaims",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-10-20T17:03:26Z",
-        "content": "In brief\r\n<ul><li>Zcash rose 8.5% in 24 hours to $1,215.85, the best performer among the largest tokens.</li><li>Total crypto market cap climbed 1.68% to $2.78 trillion, while the Fear &amp; Greed In… [+3992 chars]"
       }
     ]
   }
