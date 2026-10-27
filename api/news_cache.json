@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-10-26T22:30:07.527Z",
+  "timestamp": "2026-10-27T01:55:45.761Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "A16z Frontier Broadens The Pitch For Crypto As Investors Look Across Technologies",
+        "description": "Andreessen Horowitz is expanding its crypto team's investment brief. Chris Dixon's October 22 announcement renames a16z Crypto as a16z Frontier, with the new fund able to pursue a wider range of emerging technologies while continuing crypto investment.",
+        "url": "https://www.newsbtc.com/crypto-news/a16z-frontier-crypto-fund-broader-technology-mandate/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/335.png",
+        "publishedAt": "2026-10-26T01:00:00Z",
+        "content": "Andreessen Horowitz is expanding its crypto team’s investment brief. Chris Dixon’s October 22 announcement renames a16z Crypto as a16z Frontier, with the new fund able to pursue a wider range of emer… [+2882 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/metaplanet_official_brandmark.jpg?fit=1920%2C1080",
         "publishedAt": "2026-10-20T16:10:00Z",
         "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+1811 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Visa And Mesh Want Crypto Wallet Balances To Work At 175 Million Merchants",
-        "description": "TL;DR: Mesh and Visa have announced a partnership intended to let consumers spend cryptocurrency and stablecoins from participating wallet apps wherever Visa payments are accepted. Holding stablecoins is one thing. Actually spending them in a shop usually inv…",
-        "url": "http://www.newsbtc.com/crypto-news/visa-and-mesh-want-crypto-wallet-balances-to-work-at-175-million-merchants/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/mesh_official_brandmark.jpg?fit=1200%2C630",
-        "publishedAt": "2026-10-20T12:00:00Z",
-        "content": "Strict editorial policy that focuses on accuracy, relevance, and impartiality\r\nCreated by industry experts and meticulously reviewed\r\nThe highest standards in reporting and publishing\r\nStrict editori… [+1889 chars]"
       }
     ]
   }
