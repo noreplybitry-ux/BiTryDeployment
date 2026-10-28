@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-28T11:16:03.786Z",
+  "timestamp": "2026-10-28T18:11:42.600Z",
   "data": {
     "status": "ok",
     "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Ryan Gladwin",
+        "title": "McDonald's McRib Doesn't Actually Boost Bitcoin's Price, Sorry Everyone",
+        "description": "Crypto traders think the McRib’s return to McDonald's means a Bitcoin pump is coming. Experts say there is \"no correlation at all.\"",
+        "url": "https://decrypt.co/381909/mcdonalds-mcrib-doesnt-actually-boost-bitcoins-price-sorry-everyone",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/10/mcdonalds-mcrib-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-10-27T14:31:02Z",
+        "content": "In brief\r\n<ul><li>Some crypto traders believe that the McRibs return to McDonalds menus precedes a rise in Bitcoins price.</li><li>Experts say there is \"no correlation between the two at all, as beli… [+3225 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
+        "description": "A decline in the share of Bitcoin’s realized cap held by coins unmoved for 18 months or longer points to the ‘early stages’ of a bull market, analysis says.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5YMN410HHB04XQCTHZ2P4NF/crypto-bitcoin-storage.jpg",
+        "publishedAt": "2026-10-27T12:18:24Z",
+        "content": "Bitcoin (BTC) onchain transaction data is hinting at the start of a new uptrend as long-term holders retreat from selling.\r\nKey points:\r\n<ul><li>The percentage of Bitcoins realized cap involving coin… [+3554 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,32 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png",
         "publishedAt": "2026-10-20T19:31:04Z",
         "content": "In brief\r\n<ul><li>Switzerland's financial regulator FINMA announced Oct. 20 that it approved the country's first retail exchange-traded fund that invests directly in Bitcoin.</li><li>The fund receive… [+3301 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin ETFs Post Their Best Day in Nearly a Month as BlackRock Does All the Buying",
-        "description": "U.S. spot Bitcoin ETFs took in $526.7 million on Monday, their biggest day since Sept. 22. BlackRock's IBIT supplied all of it while Fidelity and Grayscale funds bled.",
-        "url": "https://decrypt.co/381444/bitcoin-etfs-best-day-nearly-month-blackrock-does-most-buying",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
-        "publishedAt": "2026-10-20T18:31:04Z",
-        "content": "In brief\r\n<ul><li>U.S. spot Bitcoin ETFs drew $526.7 million on Oct. 19, the largest single-day inflow since the $714.7 million of Sept. 22.</li><li>BlackRock's IBIT took in $665.2 million while Fide… [+3445 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin's Next Move: Here's What to Watch",
-        "description": "Bitcoin trades just below $83,000, above both the short-term and long-term moving averages. Here are the levels traders are watching.",
-        "url": "https://decrypt.co/381435/bitcoins-next-move-heres-what-to-watch",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-glasses-decrypt-style-gID_7.png",
-        "publishedAt": "2026-10-20T17:45:04Z",
-        "content": "In brief\r\n<ul><li>Bitcoin trades just below $83,000, above both the short-term and long-term moving price averages.</li><li>Momentum is neutral, with room to run in either direction.</li><li>Here's h… [+3267 chars]"
       }
     ]
   }
