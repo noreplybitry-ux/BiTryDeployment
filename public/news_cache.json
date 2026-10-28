@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-28T18:11:42.600Z",
+  "timestamp": "2026-10-28T23:02:57.222Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Helene Braun",
+        "title": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts",
+        "description": "Crypto trading volume fell 38% from year-ago levels, but the firm's overall blockchain business gained traction.",
+        "url": "https://www.coindesk.com/markets/2026/10/27/robinhood-s-crypto-revenue-plunges-55-even-as-trading-platform-posts-record-sales",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a92db287f1805105761bc517860540b2fdd5b741-2600x1302.png?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-27T20:32:21Z",
+        "content": "Robinhood's HOOD\r\n$94.61·Market Closed third-quarter cryptocurrency trading business was down 55% from last year but still topped Street forecasts.\r\nCrypto transaction revenue dropped to $120 million… [+1136 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "EDX Markets Signs Apex Fintech Deal to Broaden Crypto Trading Access",
+        "description": "EDX Markets and Apex Fintech Solutions announced a strategic relationship on October 26 to connect institutional digital-asset trading and clearing.",
+        "url": "https://www.newsbtc.com/news/edx-markets-signs-apex-fintech-deal-to-broaden-crypto-trading-access/",
+        "urlToImage": null,
+        "publishedAt": "2026-10-27T19:00:00Z",
+        "content": "TL;DR: EDX Markets and Apex Fintech Solutions announced a strategic relationship on October 26 to connect institutional digital-asset trading and clearing technology with Apex’s established financial… [+4367 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5F0PB0PYRW4ADV979RY5M5W/hi-on-chain-volume-vs-trading-value.jpg",
         "publishedAt": "2026-10-21T10:39:13Z",
         "content": "Bitcoin (BTC) investors sitting on unrealized losses are capping price gains at $87,700, while ETF inflows strengthen support at $80,000, analysis reveals.\r\nKey points:\r\n<ul><li>Bitcoin investors who… [+3379 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Swiss Regulator Approves First Retail Fund That Holds Bitcoin Directly",
-        "description": "FINMA waived the diversification rules for the fund but leaned hard on custody and investor-protection safeguards.",
-        "url": "https://decrypt.co/381446/swiss-regulator-first-retail-fund-holds-bitcoin-directly",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png",
-        "publishedAt": "2026-10-20T19:31:04Z",
-        "content": "In brief\r\n<ul><li>Switzerland's financial regulator FINMA announced Oct. 20 that it approved the country's first retail exchange-traded fund that invests directly in Bitcoin.</li><li>The fund receive… [+3301 chars]"
       }
     ]
   }
