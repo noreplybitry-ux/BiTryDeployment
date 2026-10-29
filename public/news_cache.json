@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-10-29T05:12:36.846Z",
+  "timestamp": "2026-10-29T12:39:42.213Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Mirae Asset Securities issues tokenized notes on Solana",
+        "description": "The company’s Hong Kong unit issued six-month notes under its $3 billion program, extending blockchain-based distribution to institutional investors.",
+        "url": "https://cointelegraph.com/news/mirae-asset-securities-tokenized-notes-solana",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6120BTEQBS14CMZ858YG88A/hi-hong-kong-situation-solana.jpg",
+        "publishedAt": "2026-10-28T11:05:33Z",
+        "content": "The Hong Kong arm of Mirae Asset Securities, one of South Koreas largest securities firms, has issued tokenized notes on Solana to institutional investors.\r\nThe transaction involved six-month floatin… [+1174 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Francisco Rodrigues",
+        "title": "Brazil’s largest lender becomes first bank to formalize crypto brokerage under new rules",
+        "description": "Itau Unibanco notified Brazil’s central bank of its crypto trading and custody operations on Tuesday, ahead of a month-end deadline under Resolution 520.",
+        "url": "https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first-bank-to-formalize-crypto-brokerage-under-new-rules",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6d46ba6649c1aae115103732eff1cb5d1d02aaf6-960x720.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-28T10:07:54Z",
+        "content": "Itaú Unibanco, Brazils largest private bank, formalized its cryptocurrency trading and custody operations under the countrys new digital-asset rules, becoming the first bank in the country to do so.\r… [+1103 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
+        "description": "Bitcoin sees relief as tech stocks rebound while BTC price analysis raises questions over where the next long-term trading range will sit.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-82k-as-morgan-stanley-strategist-says-most-of-correction-is-over",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5Z3BJXQ46ZDN2Q8H9RF7F7N/hi-will-crypto-be-the-only-digital-currency-left-standing-south-korea-1.jpg",
+        "publishedAt": "2026-10-28T09:55:29Z",
+        "content": "Bitcoin (BTC) approached $82,000 on Wednesday as South Koreas KOSPI Composite Index gained over 6%.\r\nKey points:\r\n<ul><li>Bitcoin reached $81,687 on Wednesday, extending a rebound as bid liquidity th… [+2490 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETF inflows climb to $176M as sentiment edges higher",
+        "description": "US spot Bitcoin ETFs drew $286 million over two days, narrowing October’s net outflows to $26 million as the Crypto Fear & Greed Index remained neutral.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-176-million-inflow-sentiment-rebounds",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M60NEYRT27HS3BACTE6CCD20/futures-bitcoin-options-top-5.jpg",
+        "publishedAt": "2026-10-28T07:57:18Z",
+        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) attracted about $176 million in net inflows on Tuesday, extending their recovery to a second consecutive trading day.\r\nThe inflows rose from $110 m… [+1036 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CoinDesk"
+        },
+        "author": "Shaurya Malwa",
+        "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
+        "description": "The company said the accounting correction will cut reported assets by $92.2 million at the end of 2025 after bitcoin held on Biconomy could not be withdrawn.",
+        "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc",
+        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7ea06fe12b67cf68a418acec0b27042a90242011-2753x2065.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+        "publishedAt": "2026-10-28T05:28:13Z",
+        "content": "Datavault AI (DVLT) shares plunged nearly 50% on Tuesday after a filing revealed that the company had been unable to withdraw bitcoin from crypto exchange Biconomy since June and would have to restat… [+973 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,71 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5HP7DQ484K9JYNHR6WQMB12/regulations-thailand-crypto-1.jpg",
         "publishedAt": "2026-10-22T13:20:57Z",
         "content": "Thailands new spot cryptocurrency exchange-traded fund (ETF) framework is attracting interest from asset managers, but the regulator has yet to receive its first application.\r\nSeveral asset managemen… [+1149 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Italy Busts Mafia 'Secret Bank' That Laundered Money Through Crypto, Seizes $24M",
-        "description": "Police say a car-rental firm near Milan was an underground bank for 'Ndrangheta and Camorra figures, moving money abroad and into crypto.",
-        "url": "https://decrypt.co/381589/italy-busts-mafia-secret-bank-that-laundered-money-through-crypto-seizes-24m",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
-        "publishedAt": "2026-10-22T10:45:13Z",
-        "content": "In brief\r\n<ul><li>Italian police arrested 30 people over an alleged mafia-linked \"hidden bank\" run from a car-rental business near Milan, seizing 21 million in assets including cryptocurrency.</li><l… [+3276 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin corrects below $82K after Tesla Q3 results, KOSPI falls",
-        "description": "Bitcoin reversed a run toward $85,000 after Tesla reported lower-than-expected capital expenditure in Q3.",
-        "url": "https://cointelegraph.com/markets/bitcoin-corrects-below-82k-after-tesla-q3-results-kospi-falls",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5HJSXMPY51PCJ82B9PXHE2E/hi-market-correction-vs-bear-market-btc-2.jpg",
-        "publishedAt": "2026-10-22T10:38:51Z",
-        "content": "Bitcoin (BTC) fell nearly 3% on Thursday after an attempt to break higher was rejected near $85,000.\r\nKey points:\r\n<ul><li>Bitcoin returned to near $81,500 after Tesla reported a lower-than-expected … [+3120 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B",
-        "description": "Bitcoin ETFs attracted $528 million on Wednesday as BTC briefly topped $84,700, pushing October’s net flows back into positive territory at $461 million.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etfs-528-million-btc-tops-84k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NJXA13RF9N1Q13C8RH5D6G/surfing-blockchain-wave-etf-1.jpg",
-        "publishedAt": "2026-10-22T07:37:32Z",
-        "content": "US spot Bitcoin exchange-traded funds (ETFs) attracted $528 million in net inflows on Wednesday as Bitcoin briefly surged above $84,700 before retreating.\r\nThe funds extended their inflow streak to t… [+1149 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
-        "description": "Bitcoin is back near $84,500 as XRP and Zcash lead a broad crypto rebound from October's slide, putting \"Uptober\" back on the table.",
-        "url": "https://decrypt.co/381555/bitcoin-price-weekly-high-crypto-rebounds",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
-        "publishedAt": "2026-10-21T17:31:03Z",
-        "content": "In brief\r\n<ul><li>Bitcoin trades near $84,500, up 2.5% in 24 hours, as the crypto market cap rose 2.6% to $2.82 trillion; XRP gained 4.1% and Zcash 11.2%.</li><li>Brent crude near $108 and a 5.09% 10… [+4397 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat",
-        "description": "Bitcoin nears $85,000 for the first time in two weeks as SpaceX Q3 earnings allay stock-market fears over AI spending.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-tags-846k-as-us-stocks-head-higher-on-spacex-q3-earnings-beat",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5FFNBMBTT9KJFWC3TVMA71T/hi-what-is-spacex-ipo-and-binance-1.jpg",
-        "publishedAt": "2026-10-21T15:13:17Z",
-        "content": "Bitcoin (BTC) passed $84,000 after Wednesdays Wall Street open as US stocks added to gains on more strong corporate earnings reports.\r\nKey points:\r\n<ul><li>Bitcoin climbed nearly 2% on Wednesday to r… [+3096 chars]"
       }
     ]
   }
