@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-29T12:39:42.213Z",
+  "timestamp": "2026-10-29T18:53:09.126Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+        "description": "Bitcoin failed to move past its 50-day simple moving average as market participants awaited the outcome of the FOMC meeting and key tech earnings.",
+        "url": "https://cointelegraph.com/markets/market-update",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M61J85J966F70S7471SPHK17/hi-us-bitcoin-reserve-asset-bill-explained-960x639.webp",
+        "publishedAt": "2026-10-28T16:53:26Z",
+        "content": "Bitcoin (BTC) gave back early gains around Wednesdays Wall Street open as markets prepared for the US Federal Reserves interest-rate decision.\r\nKey points:\r\n<ul><li>Bitcoin fell around 0.3% on Wednes… [+3118 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+        "description": "Bitcoin failed to move past its 50-day simple moving average as market participants awaited the outcome of the FOMC meeting and key tech earnings.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-bounce-rejected-at-50-day-trend-line-ahead-of-fomc-earnings",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M61J85J966F70S7471SPHK17/hi-us-bitcoin-reserve-asset-bill-explained-960x639.webp",
+        "publishedAt": "2026-10-28T16:53:26Z",
+        "content": "Bitcoin (BTC) gave back early gains around Wednesdays Wall Street open as markets prepared for the US Federal Reserves interest-rate decision.\r\nKey points:\r\n<ul><li>Bitcoin fell around 0.3% on Wednes… [+3118 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5J5AK9VV0TKNV4DMR09TVT7/hi-what-is-a-coinbase-transaction-ireland.jpg",
         "publishedAt": "2026-10-22T16:48:00Z",
         "content": "The Central Bank of Ireland announced an enforcement action against Coinbase Ireland for failures to safeguard user funds and provide oversight between 2020 and 2025. \r\nIn a Thursday notice, the regu… [+1416 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Thailand SEC says several companies eye crypto ETFs, none has applied",
-        "description": "Several companies have approached Thailand’s SEC about launching spot crypto ETFs, but no applications have been filed and the first approval date remains uncertain.",
-        "url": "https://cointelegraph.com/news/thailand-sec-crypto-etf-applications",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5HP7DQ484K9JYNHR6WQMB12/regulations-thailand-crypto-1.jpg",
-        "publishedAt": "2026-10-22T13:20:57Z",
-        "content": "Thailands new spot cryptocurrency exchange-traded fund (ETF) framework is attracting interest from asset managers, but the regulator has yet to receive its first application.\r\nSeveral asset managemen… [+1149 chars]"
       }
     ]
   }
