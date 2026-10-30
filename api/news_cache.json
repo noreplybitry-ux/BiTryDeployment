@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-10-30T18:30:04.754Z",
+  "timestamp": "2026-10-30T22:52:58.326Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Binance Drained of $5.5 Billion in Suspected Hack, Tether and Circle Freeze $1.8 Billion",
+        "description": "An on-chain tally puts the suspected Binance drain at $5.57 billion across three blockchains, as Tether and Circle froze $1.8 billion.",
+        "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+        "publishedAt": "2026-10-29T21:36:24Z",
+        "content": "In brief\r\n<ul><li>At least $5.57 billion left Binance-linked wallets on Ethereum, Bitcoin and Tron on Thursday, per an on-chain tally; Binance said it is investigating.</li><li>Tether froze 975.1 mil… [+3818 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "FalconX Backs $250M Credit Facility for Ibis as Crypto Lending Infrastructure Evolves",
+        "description": "Onchain credit company Ibis emerged from stealth on October 28, announcing a $250 million credit facility with FalconX and a pre-seed funding round. For a.",
+        "url": "https://www.newsbtc.com/news/falconx-backs-250m-credit-facility-for-ibis-as-crypto-lending-infrastructure-evolves/",
+        "urlToImage": null,
+        "publishedAt": "2026-10-29T21:00:00Z",
+        "content": "TL;DR: Onchain credit company Ibis emerged from stealth on October 28, announcing a $250 million credit facility with FalconX and a pre-seed funding round. For a crypto market accustomed to cycles of… [+3951 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Coinbase Swings to $719 Million Q3 Profit on Crypto Gains",
+        "description": "Coinbase reported third-quarter net income of $719 million, driven largely by gains on its crypto holdings, as revenue held flat at $1.22 billion.",
+        "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/brian-armstrong-coinbase-decrypt-style-2-gID_7.png",
+        "publishedAt": "2026-10-29T20:46:43Z",
+        "content": "In brief\r\n<ul><li>Coinbase posted $719 million in Q3 net income, or $2.51 per share, against an expected loss, though about $715 million came from gains on crypto it holds. Adjusted net income was $7… [+2979 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitwise Sees Bitcoin at $1.6 Million by 2036, but the Forecast Has Big Assumptions",
+        "description": "Bitwise Asset Management has raised its long-range Bitcoin price projection to $1.6 million by 2036 in its 2027 capital-market assumptions. The headline.",
+        "url": "https://www.newsbtc.com/news/bitwise-sees-bitcoin-at-1-6-million-by-2036-but-the-forecast-has-big-assumptions/",
+        "urlToImage": null,
+        "publishedAt": "2026-10-29T20:00:00Z",
+        "content": "TL;DR: Bitwise Asset Management has raised its long-range Bitcoin price projection to $1.6 million by 2036 in its 2027 capital-market assumptions. The headline will attract attention because it impli… [+3417 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -342,71 +394,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Dogecoin-from-Getty-Images-6.jpg",
         "publishedAt": "2026-10-23T21:15:00Z",
         "content": "TL;DR: Bitwises BWOW Dogecoin ETF reached its announced October 22 liquidation distribution date, with remaining shareholders due cash based on the funds net asset value.\r\nFor investors who held the … [+2688 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Crypto Scammers Who Used Prayer Groups to Lure Victims Must Pay $1.3 Billion, Says New York",
-        "description": "New York’s attorney general asked a court to order NovaTech’s founders, who fled the country, to pay about $1.37 billion, and settled with four top promoters for nearly $6 million.",
-        "url": "https://decrypt.co/381708/crypto-scammers-prayer-groups-lure-victims-must-pay-1-3-billion-new-york",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-gID_7.png",
-        "publishedAt": "2026-10-23T16:31:03Z",
-        "content": "In brief\r\n<ul><li>New York Attorney General Letitia James is seeking about $1.37 billion from NovaTech founders Cynthia and Eddy Petion, who fled the U.S. before an August 2025 default judgment.</li>… [+3361 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March",
-        "description": "Bitcoin weathers a fresh surge in oil prices as BTC price analysts see need to reclaim the 50-day moving average to avoid a drop below $80,000.",
-        "url": "https://cointelegraph.com/markets/bitcoin-seeks-support-above-81k-as-brent-crude-oil-hits-highest-level-since-march",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5MPBY5231GNMGE2Q9V1FYVN/hi-crypto-offers-russia-no-way-out-from-western-sanctions2-1.jpg",
-        "publishedAt": "2026-10-23T15:39:17Z",
-        "content": "Bitcoin (BTC) saw a fresh dip below $81,000 after Fridays Wall Street open as Brent crude oil set new seven-month highs.\r\nKey points:\r\n<ul><li>Bitcoin briefly dropped below $81,000 at the start of Fr… [+2665 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
-        "description": "Bitcoin price volatility cooled as stock markets battled another day of resurgent AI fears during Friday’s Asia trading session.",
-        "url": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M51V1P8ZQ063ADC4P2T050NT/market-red-graph-falling-danger-stones-bitcoin-4.jpg",
-        "publishedAt": "2026-10-23T12:23:58Z",
-        "content": "Bitcoin (BTC) ranged below $82,000 into Fridays Wall Street open as stock markets slid further on AI financing concerns.\r\nKey points:\r\n<ul><li>Bitcoin struggled to rebound after falling more than 3% … [+3010 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Chainlink And LG CNS Target South Korean Banks With Digital Asset Infrastructure Deal",
-        "description": "Chainlink and LG CNS are partnering on oracle and cross-chain infrastructure aimed at South Korea’s financial institutions; the announcement is a partnership, not a completed nationwide deployment.",
-        "url": "https://www.newsbtc.com/crypto-news/chainlink-lg-cns-south-korea-institutional-digital-assets/",
-        "urlToImage": null,
-        "publishedAt": "2026-10-23T12:15:00Z",
-        "content": "TL;DR: Chainlink and LG CNS are partnering on oracle and cross-chain infrastructure aimed at South Koreas financial institutions; the announcement is a partnership, not a completed nationwide deploym… [+2823 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "BlockmanPR",
-        "title": "Paybis Adds iDEAL, BLIK, Multibanco and EPS for Buying Crypto in Europe",
-        "description": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave of 13 local payment methods Paybis is adding. Riga, Latvia O…",
-        "url": "https://www.newsbtc.com/news/paybis-adds-ideal-blik-multibanco-and-eps-for-buying-crypto-in-europe/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/710b8519a1dc4e788e2b20a82798e222.jpg",
-        "publishedAt": "2026-10-23T11:30:09Z",
-        "content": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave … [+3927 chars]"
       }
     ]
   }
