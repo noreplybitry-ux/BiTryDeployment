@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-10-29T23:10:43.587Z",
+  "timestamp": "2026-10-30T05:12:13.873Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 29,
     "articles": [
       {
         "source": {
@@ -381,19 +381,6 @@
         "urlToImage": null,
         "publishedAt": "2026-10-22T21:10:00Z",
         "content": "TL;DR: Googles updated rules for UAE-targeted crypto exchange and wallet ads took effect October 21. Advertisers need an accepted local license and Google certification; the policy is not blanket per… [+2287 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Krisztian Sandor",
-        "title": "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech",
-        "description": "The venture investor behind early bets on Coinbase, Solana and Uniswap said is broadening its focus, joining other crypto investment firms looking beyond blockchain to artificial intelligence and tech themes.",
-        "url": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/941dba842a1a32a077b3b9c26476efac090f9415-7081x3983.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-22T18:30:57Z",
-        "content": "Andreessen Horowitz (a16z), one of crypto's most influential venture capital backers, is dropping \"crypto\" from the name of its investment arm and expanding into artificial intelligence and other eme… [+1078 chars]"
       }
     ]
   }
