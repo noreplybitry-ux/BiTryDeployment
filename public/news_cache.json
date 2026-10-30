@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-30T12:30:45.929Z",
+  "timestamp": "2026-10-30T18:30:04.754Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price jumps to $81.5K as US GDP data beats expectations",
+        "description": "Bitcoin diverges from US stock markets to spike to $81,500 after strong US macro data, brushing off Alphabet’s Q3 earnings miss.",
+        "url": "https://cointelegraph.com/markets/bitcoin-reaction-to-pce-data",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M642ZF00Z895Q6B695HS29XA/article-covers-188965-bitcoin-traders-predict-btc-price-gains-ahead-of-96k-liquidity-clash-960x640.webp",
+        "publishedAt": "2026-10-29T15:39:54Z",
+        "content": "Bitcoin (BTC) rebounded above $81,000 after Thursdays Wall Street open as US GDP numbers stayed strong and inflation data conformed to estimates.\r\nKey points:\r\n<ul><li>Bitcoin jumped to $81,547 on th… [+3117 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Brazil’s Halloween eve crypto deadline brings more tricks than treats",
+        "description": "Brazil’s central bank faces unanswered questions over crypto wallet checks and a $100,000 international transfer limit ahead of the Oct. 30 application deadline.",
+        "url": "https://cointelegraph.com/news/brazil-crypto-license-filing-deadline-hurdles-uncertainty",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63FKA31ZQ62SGYFQ4D2DA02/brazil.png",
+        "publishedAt": "2026-10-29T13:30:00Z",
+        "content": "Cryptocurrency exchanges operating in Brazil face mounting compliance costs and unanswered regulatory questions ahead of a license application deadline.\r\nExchanges already operating in Brazil must ap… [+3572 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/10/710b8519a1dc4e788e2b20a82798e222.jpg",
         "publishedAt": "2026-10-23T11:30:09Z",
         "content": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave … [+3927 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Ryan Gladwin",
-        "title": "Bitcoin in 'Wait and See Mode'—And That Might Be a Good Thing",
-        "description": "The crypto market has been quiet as of late. Market analysts think that might actually be a good sign and that a bull market might be near.",
-        "url": "https://decrypt.co/381666/bitcoin-in-wait-and-see-mode-and-that-might-be-a-good-thing",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bhutan-bitcoin-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-10-23T08:55:35Z",
-        "content": "In brief\r\n<ul><li>Bitcoin hasn't moved more than 6% over the past month, and every top five cryptocurrency has failed to move more than 2% over the past seven days.</li><li>Market analysts say that a… [+5149 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
-        "description": "A Singapore is firm behind Switzerland’s new Bitcoin ETF, Crypto Valley partners with Vietnam on crypto tech. The US cracks down on DeepSeek and bans some overseas AI investments.",
-        "url": "https://cointelegraph.com/magazine/new-deepseek-ban-in-us-swiss-asia-crypto-ties-deepen-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5JV90GX9YTTQQZEH3XNN8PG/asia-express-1.jpg",
-        "publishedAt": "2026-10-22T22:50:22Z",
-        "content": "CHINATreasury proposes blocks on US investments in AI and semiconductors in some foreign countries\r\nThe US Treasury has proposed new rules that would block investment in artificial intelligence proje… [+7543 chars]"
       }
     ]
   }
