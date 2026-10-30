@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-10-30T05:12:13.873Z",
+  "timestamp": "2026-10-30T12:30:45.930Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
+        "description": "HTX has settled the FCA’s UK crypto promotions case, pledging to stop unlawful marketing until October 2031 after withdrawing from the UK market.",
+        "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63R9CYRD1Y8NYM7MX76FWJS/hi-how-to-trade-crypto-in-uk1.jpg",
+        "publishedAt": "2026-10-29T12:20:27Z",
+        "content": "Crypto exchange HTX has agreed to stop unlawfully promoting its services to consumers in the United Kingdom under a settlement announced Thursday by the Financial Conduct Authority (FCA).\r\nThe exchan… [+1213 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey",
+        "description": "European investors ranked crypto above retirement plans for lasting wealth creation, while prior surveys show US investors are skeptical on crypto’s role in retirement accounts.",
+        "url": "https://cointelegraph.com/news/eu-investors-crypto-above-retirement-lasting-wealth",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63ERM4BGFEBV3E6TAR9B0GH/hi-is-bitcoin-a-good-investment-for-retirement.jpg",
+        "publishedAt": "2026-10-29T12:00:00Z",
+        "content": "Investors in several of Europes biggest economies ranked crypto above retirement plans as lasting wealth creation tools, with 19% of those surveyed choosing cryptocurrencies, while 8% opted for tradi… [+3657 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K",
+        "description": "BTC price analysis from Glassnode drew attention to $85,000 as the lower boundary of a cost-basis zone for long-term holders.",
+        "url": "https://cointelegraph.com/markets/bitcoin-long-term-resistance-in-focus-as-analysis-sees-selling-risk-above-85k",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63M426NN1C8PGWZD4S269RJ/hi-how-bitcoin-empowers-the-unbanked-and-combats-injustice.jpg",
+        "publishedAt": "2026-10-29T10:46:43Z",
+        "content": "Bitcoin (BTC) faces resistance between $84,000 and $85,000 as analysis points to coins largely linked to a single large holder.\r\nKey points:\r\n<ul><li>Bitcoin faces resistance around $85,000, where 4.… [+2648 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5JV90GX9YTTQQZEH3XNN8PG/asia-express-1.jpg",
         "publishedAt": "2026-10-22T22:50:22Z",
         "content": "CHINATreasury proposes blocks on US investments in AI and semiconductors in some foreign countries\r\nThe US Treasury has proposed new rules that would block investment in artificial intelligence proje… [+7543 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Google’s Updated UAE Crypto Advertising Rules Take Effect",
-        "description": "Google’s updated rules for UAE-targeted crypto exchange and wallet ads took effect October 21. Advertisers need an accepted local license and Google certification; the policy is not blanket permission for all crypto promotions.",
-        "url": "https://www.newsbtc.com/regulation/google-uae-crypto-advertising-rules-october-21/",
-        "urlToImage": null,
-        "publishedAt": "2026-10-22T21:10:00Z",
-        "content": "TL;DR: Googles updated rules for UAE-targeted crypto exchange and wallet ads took effect October 21. Advertisers need an accepted local license and Google certification; the policy is not blanket per… [+2287 chars]"
       }
     ]
   }
