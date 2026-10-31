@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-10-30T22:52:58.326Z",
+  "timestamp": "2026-10-31T02:10:17.552Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Robinhood Crypto Revenue Falls 55% as Prediction Markets Support Growth",
+        "description": "Robinhood reported third-quarter 2026 results on October 27, with total net revenue of about $1.42 billion, up 12% from the comparable period a year.",
+        "url": "https://www.newsbtc.com/news/robinhood-crypto-revenue-falls-55-as-prediction-markets-support-growth/",
+        "urlToImage": null,
+        "publishedAt": "2026-10-30T01:00:00Z",
+        "content": "TL;DR: Robinhood reported third-quarter 2026 results on October 27, with total net revenue of about $1.42 billion, up 12% from the comparable period a year earlier. Market participants can learn some… [+3992 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides",
+        "description": "Bitcoin and Ether tumbled as the broader crypto market fell 3.3%, with reports of suspicious multibillion-dollar transfers from Binance-linked wallets fueling uncertainty.",
+        "url": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M64Y4PTFHTAMEWNV8MMJQWCT/hi-crypto-trading-basics-a-beginners-guide-to-cryptocurrency-order-types1.jpeg",
+        "publishedAt": "2026-10-29T23:24:21Z",
+        "content": "Cryptocurrency markets fell sharply Thursday as reports of a potential multibillion-dollar hack involving Binance wallets rattled investors, sending BNB down more than 7% and pushing the broader mark… [+1109 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,19 +407,6 @@
         "urlToImage": null,
         "publishedAt": "2026-10-24T15:00:00Z",
         "content": "TL;DR: Sygnum and Debifi have launched MultiSYG, a Bitcoin-backed lending service using segregated multisignature wallets. The arrangement spreads control of collateral across several parties, while … [+3034 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Bitwise Dogecoin ETF Reaches Scheduled Liquidation As Holders Face Cash Redemption",
-        "description": "Bitwise’s BWOW Dogecoin ETF reached its announced October 22 liquidation distribution date, with remaining shareholders due cash based on the fund’s net asset value.",
-        "url": "https://www.newsbtc.com/crypto-news/bitwise-bwow-dogecoin-etf-cash-liquidation-october-22/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/06/Dogecoin-from-Getty-Images-6.jpg",
-        "publishedAt": "2026-10-23T21:15:00Z",
-        "content": "TL;DR: Bitwises BWOW Dogecoin ETF reached its announced October 22 liquidation distribution date, with remaining shareholders due cash based on the funds net asset value.\r\nFor investors who held the … [+2688 chars]"
       }
     ]
   }
