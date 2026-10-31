@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-10-31T02:10:17.552Z",
+  "timestamp": "2026-10-31T09:27:14.584Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Live updates: Binance $6.3B hack linked to North Korea’s TraderTraitor",
+        "description": "Follow live updates as Binance says $6.3 billion in assets have been stolen in a major hack. Around $3 billion in stolen funds have been frozen.",
+        "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M65VKEHPWZPADDH0AZM1CR3Q/trying-to-open-monitor-1.jpg",
+        "publishedAt": "2026-10-30T07:33:15Z",
+        "content": "What we know about the Binance hack: \r\n<ul><li>Binance says the estimated total impact is around $6.3 billion and the verified total value of crypto frozen is $3 billion. This could increase as inves… [+14225 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity",
+        "description": "Michael Saylor says Strategy could create up to $30 billion in digital credit without new common-stock fundraising or further Bitcoin price gains, as the company plans more BTC purchases.",
+        "url": "https://cointelegraph.com/news/strategy-30-billion-digital-credit-capacity-bitcoin-buys",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M65N18RTP4EB58E1CCHH5C3R/earnings-calls-strategy-saylor-phong-le.jpg",
+        "publishedAt": "2026-10-30T05:53:07Z",
+        "content": "Bitcoin treasury company Strategy is looking to finance more Bitcoin purchases through preferred-share offerings, with executive chairman Michael Saylor saying it has the capacity to create as much a… [+1282 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
+        "description": "Standard Chartered’s Geoffrey Kendrick says the breach could accelerate a shift toward decentralized trading and strengthen his case for Uniswap’s UNI token reaching $100 by 2030.",
+        "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M65CZZGFZ3KNMMA8P6JN3YH4/uniswap.jpg",
+        "publishedAt": "2026-10-30T03:47:01Z",
+        "content": "The Binance hack could accelerate a shift in crypto trading toward decentralized exchanges, benefiting Uniswap over the longer term, according to Standard Chartereds global head of digital assets res… [+1762 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +433,6 @@
         "urlToImage": null,
         "publishedAt": "2026-10-25T04:00:00Z",
         "content": "Bitcoin ETF flows track recent price moves more closely than subsequent ones, according to DWF Labs research published October 22. The findings challenge a familiar shortcut: treating a large daily i… [+2662 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Sygnum Launches Bitcoin Loans With Collateral Keys Shared Across Parties",
-        "description": "Sygnum and Debifi launch MultiSYG Bitcoin loans with dedicated multisignature wallets as Bitcoin exceeds 80% of the bank’s pledged collateral.",
-        "url": "https://www.newsbtc.com/bitcoin-news/sygnum-multisyg-bitcoin-loans-shared-collateral-keys/",
-        "urlToImage": null,
-        "publishedAt": "2026-10-24T15:00:00Z",
-        "content": "TL;DR: Sygnum and Debifi have launched MultiSYG, a Bitcoin-backed lending service using segregated multisignature wallets. The arrangement spreads control of collateral across several parties, while … [+3034 chars]"
       }
     ]
   }
