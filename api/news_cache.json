@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-10-31T09:27:14.584Z",
+  "timestamp": "2026-10-31T15:40:12.239Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
+        "description": "Bitcoin held above $76,000 after a $6.3 billion Binance hack and a tech-stock sell-off, as momentum indicators pointed to a possible rebound.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3ANFG8K9N6H2586MPQRV7KT/hi-got-crypto-losses-wallet-1.jpg",
+        "publishedAt": "2026-10-30T11:29:23Z",
+        "content": "Bitcoin (BTC) traded above $77,000 on Friday as crypto market liquidations passed $1.5 billion over 24 hours.\r\nKey points:\r\n<ul><li>Bitcoin stemmed losses after dropping to $76,320 as markets process… [+3241 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "EIP-7702 didn’t cause Binance hack, but may have amplified losses",
+        "description": "Binance’s $6.3 billion hack has raised questions about Ethereum’s EIP-7702 as investigators uncover additional breaches and experts point to compromised signing systems.",
+        "url": "https://cointelegraph.com/news/binance-hack-security-ethereum-eip-7702-role",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6602N70GW2FG23Y7A1E55CV/hi-binance-hack.jpg",
+        "publishedAt": "2026-10-30T11:00:10Z",
+        "content": "Compromised signing systems likely enabled Binances $6.3 billion hack, while Ethereums EIP-7702 upgrade may have helped attackers bypass security checks, according to blockchain security firm Blockai… [+2892 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury",
+        "description": "The Binance hacker holds 18,270 BTC, surpassing Coinbase’s corporate Bitcoin holdings, while its 508,621 ETH stash also exceeds major Ether treasuries.",
+        "url": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M663XBRMVF35RHDZ0MC72744/hacker-binance-bitcoin-treasury.jpg",
+        "publishedAt": "2026-10-30T10:54:30Z",
+        "content": "The attackers behind the $6.3 billion Binance hack held more Bitcoin on Friday than crypto exchange Coinbases holding for investment and operation at the end of September.\r\nBlockchain analytics firm … [+1625 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +459,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/02/335.png",
         "publishedAt": "2026-10-26T01:00:00Z",
         "content": "Andreessen Horowitz is expanding its crypto team’s investment brief. Chris Dixon’s October 22 announcement renames a16z Crypto as a16z Frontier, with the new fund able to pursue a wider range of emer… [+2882 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Bitcoin ETF Flows Trail Price Moves, DWF Study Finds",
-        "description": "DWF’s Bitcoin ETF study tests flow timing. Basis trades and fund-creation mechanics help explain why a flow total is an incomplete market signal.",
-        "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-etf-flows-trail-price-dwf-study/",
-        "urlToImage": null,
-        "publishedAt": "2026-10-25T04:00:00Z",
-        "content": "Bitcoin ETF flows track recent price moves more closely than subsequent ones, according to DWF Labs research published October 22. The findings challenge a familiar shortcut: treating a large daily i… [+2662 chars]"
       }
     ]
   }
