@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-11-01T12:58:45.675Z",
+  "timestamp": "2026-11-01T18:23:06.137Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
+        "description": "Strive CEO Matt Cole says the Binance hack has not changed his long-term case for Bitcoin, but cautions it is too early to call a market bottom.",
+        "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6784E305ZRSTBDYV0WKG4RR/hi-true-or-false-91-of-surveys-about-bitcoin-and-crypto-are-totally-wrong.png",
+        "publishedAt": "2026-10-31T15:26:46Z",
+        "content": "Bitcoin has held up better than expected following the $6.3 billion Binance hack, according to Strive CEO Matt Cole, who said the breach does not undermine the cryptocurrencys long-term investment th… [+2950 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
+        "description": "Attackers tied to North Korea drained roughly $6.4 billion from the world’s largest crypto exchange. Here’s what we know about how it happened, who’s behind it, and what comes next.",
+        "url": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+        "publishedAt": "2026-10-31T15:01:02Z",
+        "content": "In brief\r\n<ul><li>Attackers stole roughly $6.4 billion from Binance on Thursday in the largest crypto hack ever, more than four times the previous record.</li><li>Binance says it will cover all losse… [+6648 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "Bitcoin turns 18: Has the original rebel grown up?",
+        "description": "In typical Bitcoin style, the number one cryptocurrency turns 18 today, amid AI-driven security threats, quantum fears and the biggest exchange hack in crypto history.",
+        "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M66D6NEJQ63776RRBN8K6ZNJ/magazine-crypto-idealism.png",
+        "publishedAt": "2026-10-31T14:27:52Z",
+        "content": "Eighteen years ago today, pseudonymous cypherpunk Satoshi Nakamoto posted the Bitcoin whitepaper, Bitcoin: A Peer-to-Peer Electronic Cash System, to a cryptography mailing list.\r\nCreated to bypass op… [+8491 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,45 +485,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d02365f898383e63bd7d71439d04e193ccd52d12-1920x1281.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-26T14:51:07Z",
         "content": "South Korea is considering delaying its tax on cryptocurrency gains for a fourth time, postponing the introduction until 2029, Newsis reported.\r\nThe presidential office is leaning toward a delay amid… [+928 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "HOOD’s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein",
-        "description": "Bernstein analysts raised Robinhood’s revenue estimates through 2026 and 2028, while maintaining their HOOD price target unchanged at $160.",
-        "url": "https://cointelegraph.com/news/prediction-markets-17b-robinhood-exceed-crypto-revenue-2028-bernstein",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5W2DRTH9GX1TGHSRAAGJBW5/hi-japan-robin-hood-join-trading-platform-2.jpg",
-        "publishedAt": "2026-10-26T13:12:41Z",
-        "content": "Bernstein analysts expect prediction markets to become one of the incremental earnings drivers for trading platform Robinhood Markets (HOOD), potentially surpassing its crypto-derived revenue.\r\nPredi… [+1368 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Bitcoin Dips Below $80,000 Ahead of Fed Decision, Midterms",
-        "description": "Analysts point to a sell-off in AI stocks and ETF outflows, with HashKey's Tim Sun flagging $75,000 as the next key support level.",
-        "url": "https://decrypt.co/381802/bitcoin-dips-below-80000-ahead-of-fed-decision-midterms",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-10-26T13:02:43Z",
-        "content": "In brief\r\n<ul><li>Bitcoin briefly fell below $80,000 over the past day, touching about $79,330, before recovering to trade at $80,264, down 2.7% on the week, per CoinGecko.</li><li>U.S. spot Bitcoin … [+3413 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet",
-        "description": "The Mumbai-based exchange initially dismissed reports of suspicious outflows as a false alarm. It now says it lost $16 million and will absorb the loss.",
-        "url": "https://www.coindesk.com/markets/2026/10/26/coindcx-absorbs-usd16-million-loss-from-internal-process-failure-tied-to-retired-wallet",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/00d356f53a801bd0f750248d0414a782fcdafaeb-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-26T05:39:17Z",
-        "content": "This wallet belongs to our old operational wallet infrastructure, which was compromised during the security incident we reported on July 19, 2025, and was deprecated as a result, CoinDCX said.\r\nThe p… [+1059 chars]"
       }
     ]
   }
