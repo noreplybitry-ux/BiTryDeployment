@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-02T02:14:16.047Z",
+  "timestamp": "2026-11-02T10:46:56.877Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Michael Millard",
+        "title": "Binance says phase one of withdrawals opens after $6.3B hack",
+        "description": "The crypto exchange said it has begun phased withdrawals after the record hack the FBI has blamed on North Korea.",
+        "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6B7GCDKCRNR2Z23KSY172H6/hi-binance-unchained.jpg",
+        "publishedAt": "2026-11-01T09:38:18Z",
+        "content": "Binance said it has reopened its Bitcoin network in phase one of resuming withdrawals after a major hack of about $6.3 billion in funds.\r\nThe crypto exchange had suspended user withdrawals after the … [+1283 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5YMN410HHB04XQCTHZ2P4NF/crypto-bitcoin-storage.jpg",
         "publishedAt": "2026-10-27T12:18:24Z",
         "content": "Bitcoin (BTC) onchain transaction data is hinting at the start of a new uptrend as long-term holders retreat from selling.\r\nKey points:\r\n<ul><li>The percentage of Bitcoins realized cap involving coin… [+3554 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues, AI Boost",
-        "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
-        "description": "Officials fear users of domestic exchanges would bear the tax burden because the U.S. won’t share crypto trading data under the OECD’s CARF until 2029.",
-        "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/d02365f898383e63bd7d71439d04e193ccd52d12-1920x1281.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-26T14:51:07Z",
-        "content": "South Korea is considering delaying its tax on cryptocurrency gains for a fourth time, postponing the introduction until 2029, Newsis reported.\r\nThe presidential office is leaning toward a delay amid… [+928 chars]"
       }
     ]
   }
