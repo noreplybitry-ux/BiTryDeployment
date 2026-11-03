@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-02T20:41:16.243Z",
+  "timestamp": "2026-11-03T02:50:25.477Z",
   "data": {
     "status": "ok",
     "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "SEC Charges BG Wealth and DSJ Exchange Over Alleged $130M Crypto Scheme",
+        "description": "The SEC alleges BG Wealth and DSJ Exchange raised more than $130 million using false filings and trading claims. The civil complaint is an allegation, not a final judgment.",
+        "url": "https://www.newsbtc.com/news/sec-charges-bg-wealth-and-dsj-exchange-over-alleged-130m-crypto-scheme/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/Newsbtc-Image.jpg",
+        "publishedAt": "2026-11-01T21:00:00Z",
+        "content": "TL;DR: The SEC alleges BG Wealth and DSJ Exchange raised more than $130 million using false filings and trading claims. The civil complaint is an allegation, not a final judgment.\r\nThe US Securities … [+3730 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -472,19 +485,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/10/mcdonalds-mcrib-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-10-27T14:31:02Z",
         "content": "In brief\r\n<ul><li>Some crypto traders believe that the McRibs return to McDonalds menus precedes a rise in Bitcoins price.</li><li>Experts say there is \"no correlation between the two at all, as beli… [+3225 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
-        "description": "A decline in the share of Bitcoin’s realized cap held by coins unmoved for 18 months or longer points to the ‘early stages’ of a bull market, analysis says.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-analysis-sees-strong-rally-as-old-coins-become-dormant",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5YMN410HHB04XQCTHZ2P4NF/crypto-bitcoin-storage.jpg",
-        "publishedAt": "2026-10-27T12:18:24Z",
-        "content": "Bitcoin (BTC) onchain transaction data is hinting at the start of a new uptrend as long-term holders retreat from selling.\r\nKey points:\r\n<ul><li>The percentage of Bitcoins realized cap involving coin… [+3554 chars]"
       }
     ]
   }
