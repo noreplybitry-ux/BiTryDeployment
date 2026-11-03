@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-03T10:39:06.296Z",
+  "timestamp": "2026-11-03T18:18:36.565Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Brazil's Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack",
+        "description": "Brazil's largest crypto exchange paused deposits and withdrawals after a security incident. Tether froze more than 4.5 million USDT tied to the attack.",
+        "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/hacker3-gID_7.png",
+        "publishedAt": "2026-11-02T16:46:03Z",
+        "content": "In brief\r\n<ul><li>Mercado Bitcoin suspended deposits and withdrawals on Monday after a security incident, saying customers lost nothing and no data leaked.</li><li>Blockchain security firm Hypernativ… [+2726 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Binance hackers begin swapping stolen Solana tokens for Bitcoin: Chainalysis",
+        "description": "Crypto exchange Gate said it froze two linked accounts as US investigators urged platforms to block transactions tied to the $6.3 billion theft.",
+        "url": "https://cointelegraph.com/news/binance-hackers-solana-new-phase-laundering-chainalysis",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6DXS9W8ZYW0K2FAPP5WSEXQ/hi-hackers-fishing-1.jpg",
+        "publishedAt": "2026-11-02T12:40:45Z",
+        "content": "The hackers behind Binances $6.3 billion theft have begun converting stolen Solana tokens into Bitcoin after largely emptying the wallets used to launder funds on Tron, according to blockchain invest… [+2534 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M60NEYRT27HS3BACTE6CCD20/futures-bitcoin-options-top-5.jpg",
         "publishedAt": "2026-10-28T07:57:18Z",
         "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) attracted about $176 million in net inflows on Tuesday, extending their recovery to a second consecutive trading day.\r\nThe inflows rose from $110 m… [+1036 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Shaurya Malwa",
-        "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
-        "description": "The company said the accounting correction will cut reported assets by $92.2 million at the end of 2025 after bitcoin held on Biconomy could not be withdrawn.",
-        "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/7ea06fe12b67cf68a418acec0b27042a90242011-2753x2065.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-28T05:28:13Z",
-        "content": "Datavault AI (DVLT) shares plunged nearly 50% on Tuesday after a filing revealed that the company had been unable to withdraw bitcoin from crypto exchange Biconomy since June and would have to restat… [+973 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Omkar Godbole",
-        "title": "Coinbase says user funds are safe after third-party vendor exposes customer contact info",
-        "description": "The crypto exchange says an incident at analytics firm Amplitude exposed some customer contact information, but insists its own systems were not breached.",
-        "url": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6e8ed1cd0f17a1509349ad7cb7c31b8324847527-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-28T03:11:14Z",
-        "content": "Nasdaq-listed cryptocurrency exchange Coinbase has denied reports of a hack, saying customer funds are safe.\r\nThe exchange clarified that the incident that led to the breach of customer data originat… [+987 chars]"
       }
     ]
   }
