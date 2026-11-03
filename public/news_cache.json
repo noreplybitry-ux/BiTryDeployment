@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-03T18:18:36.565Z",
+  "timestamp": "2026-11-03T23:55:11.358Z",
   "data": {
     "status": "ok",
     "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Hashdex Adds Jane Street to Crypto Index ETF Authorized Participants",
+        "description": "An October 30 prospectus supplement adds Jane Street Capital to Hashdex’s authorized participants, expanding its listed creation-and-redemption network.",
+        "url": "https://www.newsbtc.com/news/hashdex-adds-jane-street-to-crypto-index-etf-authorized-participants/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2018/06/Circle-Bank-Vault.jpg",
+        "publishedAt": "2026-11-02T21:00:00Z",
+        "content": "TL;DR\r\n<ul><li>Jane Street Capital joined the ETFs listed authorized participants.</li><li>The change appears in an October 30 prospectus supplement.</li><li>The appointment is different from an inve… [+3930 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
+        "description": "Bitcoin price analysis expects a drop to local support at $76,000 as risk assets stay nervous over tech earnings and the US midterm elections.",
+        "url": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6ER84KWFRV6AB54PVPNX1S9/oil-bitcoin-petrol-2-960x640-960x640.webp",
+        "publishedAt": "2026-11-02T19:27:58Z",
+        "content": "Bitcoin (BTC) returned below $77,000 after Mondays Wall Street open as crypto shrugged off hopes of a US-Iran peace deal.\r\nKey points:\r\n<ul><li>Bitcoin fell below $78,000 as WTI crude oil hit $95.15 … [+3798 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,32 +511,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6d46ba6649c1aae115103732eff1cb5d1d02aaf6-960x720.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-28T10:07:54Z",
         "content": "Itaú Unibanco, Brazils largest private bank, formalized its cryptocurrency trading and custody operations under the countrys new digital-asset rules, becoming the first bank in the country to do so.\r… [+1103 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
-        "description": "Bitcoin sees relief as tech stocks rebound while BTC price analysis raises questions over where the next long-term trading range will sit.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-eyes-82k-as-morgan-stanley-strategist-says-most-of-correction-is-over",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5Z3BJXQ46ZDN2Q8H9RF7F7N/hi-will-crypto-be-the-only-digital-currency-left-standing-south-korea-1.jpg",
-        "publishedAt": "2026-10-28T09:55:29Z",
-        "content": "Bitcoin (BTC) approached $82,000 on Wednesday as South Koreas KOSPI Composite Index gained over 6%.\r\nKey points:\r\n<ul><li>Bitcoin reached $81,687 on Wednesday, extending a rebound as bid liquidity th… [+2490 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETF inflows climb to $176M as sentiment edges higher",
-        "description": "US spot Bitcoin ETFs drew $286 million over two days, narrowing October’s net outflows to $26 million as the Crypto Fear & Greed Index remained neutral.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etf-176-million-inflow-sentiment-rebounds",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M60NEYRT27HS3BACTE6CCD20/futures-bitcoin-options-top-5.jpg",
-        "publishedAt": "2026-10-28T07:57:18Z",
-        "content": "US-listed spot Bitcoin exchange-traded funds (ETFs) attracted about $176 million in net inflows on Tuesday, extending their recovery to a second consecutive trading day.\r\nThe inflows rose from $110 m… [+1036 chars]"
       }
     ]
   }
