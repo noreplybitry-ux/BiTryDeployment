@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-11-03T02:50:25.477Z",
+  "timestamp": "2026-11-03T10:39:06.296Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 39,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "FBI Blames North Korea for $6B Binance Hack as Exchange Reopens Withdrawals",
+        "description": "Binance saw $3.64 billion in net outflows in the first nine and a half hours after reopening withdrawals, or 2.1% of its assets, it said.",
+        "url": "https://decrypt.co/382316/fbi-blames-north-korea-for-6b-binance-hack-as-exchange-reopens-withdrawals",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-11-02T10:36:19Z",
+        "content": "In brief\r\n<ul><li>The FBI said North Korea's TraderTraitor was responsible for the theft of more than $6 billion from Binance, and published hundreds of addresses linked to the hack.</li><li>Binance … [+5610 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
+        "description": "Bitcoin price action held its 100-day moving average into the monthly close as crypto markets braced for US midterm election and tech earnings volatility.",
+        "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6DPN36PMEF09E83YXHSEHAH/article-covers-252604-crypto-laws-states-party-primaries-1280x853.webp",
+        "publishedAt": "2026-11-02T09:41:36Z",
+        "content": "Bitcoin (BTC) held above its 100-day moving average on Monday ahead of US midterm elections, jobs data and earnings from Apple and Palantir.\r\nKey points:\r\n<ul><li>Kalshi traders put Democrats chances… [+4746 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "OKX draws $445M in net inflows as Binance outflows exceed $7B",
+        "description": "OKX recorded $445 million in daily inflows to lead all cryptocurrency exchanges, while Binance registered the largest net outflows of around $7 billion.",
+        "url": "https://cointelegraph.com/news/okx-leads-crypto-exchanges-445m-inflows",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M48NWDDYWBD7SNFGR28DNZC8/hi-how-to-migrate-crypto-from-an-exchange-to-okx.jpg",
+        "publishedAt": "2026-11-02T08:56:03Z",
+        "content": "OKX recorded about $445 million in 24-hour net inflows, the largest among tracked crypto exchanges, while Binance continued to register outflows after reopening withdrawals following its $6.3 billion… [+1675 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
+        "description": "US spot Bitcoin ETFs closed October with $515 million in net withdrawals after a $643 million Friday exodus, while Ether ETFs suffered their worst month on record.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etfs-october-red-binance-hack-outflows",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6DFVVTB1BSHSCFQ2R7VR4PQ/hi-top-news-of-the-week-5-bitcoin.jpg",
+        "publishedAt": "2026-11-02T07:50:36Z",
+        "content": "Investors pulled $643 million from US-listed spot Bitcoin exchange-traded funds (ETFs) on Friday, pushing Octobers net flows into negative territory as crypto markets faced volatility following Binan… [+1313 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Bank of Korea probes financial firms’ exposure to crypto risks",
+        "description": "The central bank is surveying 31 financial institutions on how a major exchange shutdown, prolonged crypto downturn or losses at another firm could affect their operations.",
+        "url": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M59TMCWT4YS3BEJ97Y7B01HA/hi-crypto-on-corporate-balance-sheets-south-korea.jpg",
+        "publishedAt": "2026-11-02T03:55:50Z",
+        "content": "The Bank of Korea has reportedly launched its first survey of banks and brokerages on cryptocurrency-related risks, asking how they would be affected by a major exchange hack, a market crash or heavy… [+2308 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,45 +511,6 @@
         "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6e8ed1cd0f17a1509349ad7cb7c31b8324847527-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
         "publishedAt": "2026-10-28T03:11:14Z",
         "content": "Nasdaq-listed cryptocurrency exchange Coinbase has denied reports of a hack, saying customer funds are safe.\r\nThe exchange clarified that the incident that led to the breach of customer data originat… [+987 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Helene Braun",
-        "title": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts",
-        "description": "Crypto trading volume fell 38% from year-ago levels, but the firm's overall blockchain business gained traction.",
-        "url": "https://www.coindesk.com/markets/2026/10/27/robinhood-s-crypto-revenue-plunges-55-even-as-trading-platform-posts-record-sales",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/a92db287f1805105761bc517860540b2fdd5b741-2600x1302.png?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-27T20:32:21Z",
-        "content": "Robinhood's HOOD\r\n$94.61·Market Closed third-quarter cryptocurrency trading business was down 55% from last year but still topped Street forecasts.\r\nCrypto transaction revenue dropped to $120 million… [+1136 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "EDX Markets Signs Apex Fintech Deal to Broaden Crypto Trading Access",
-        "description": "EDX Markets and Apex Fintech Solutions announced a strategic relationship on October 26 to connect institutional digital-asset trading and clearing.",
-        "url": "https://www.newsbtc.com/news/edx-markets-signs-apex-fintech-deal-to-broaden-crypto-trading-access/",
-        "urlToImage": null,
-        "publishedAt": "2026-10-27T19:00:00Z",
-        "content": "TL;DR: EDX Markets and Apex Fintech Solutions announced a strategic relationship on October 26 to connect institutional digital-asset trading and clearing technology with Apex’s established financial… [+4367 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Ryan Gladwin",
-        "title": "McDonald's McRib Doesn't Actually Boost Bitcoin's Price, Sorry Everyone",
-        "description": "Crypto traders think the McRib’s return to McDonald's means a Bitcoin pump is coming. Experts say there is \"no correlation at all.\"",
-        "url": "https://decrypt.co/381909/mcdonalds-mcrib-doesnt-actually-boost-bitcoins-price-sorry-everyone",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/10/mcdonalds-mcrib-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-10-27T14:31:02Z",
-        "content": "In brief\r\n<ul><li>Some crypto traders believe that the McRibs return to McDonalds menus precedes a rise in Bitcoins price.</li><li>Experts say there is \"no correlation between the two at all, as beli… [+3225 chars]"
       }
     ]
   }
