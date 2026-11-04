@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-03T23:55:11.358Z",
+  "timestamp": "2026-11-04T05:42:37.061Z",
   "data": {
     "status": "ok",
-    "totalResults": 39,
+    "totalResults": 40,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
+        "description": "Crypto.com is winding down its Hong Kong consumer app. Meanwhile, its local entity awaits approval of a crypto trading platform license filed in 2024.",
+        "url": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6FWJCR3YC78YRVRCAXWNJWS/hong-kong-license.jpg",
+        "publishedAt": "2026-11-03T05:10:19Z",
+        "content": "Crypto.com will discontinue its consumer app services in Hong Kong on Feb. 1, 2027, while continuing to pursue regulatory approval for its institutional exchange.\r\nOn Monday, the company confirmed th… [+1050 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Binance begins second withdrawal phase following record hack",
+        "description": "The exchange says additional assets will become available for withdrawal from 04:00 UTC on Tuesday as security checks are completed, following an initial reopening on Nov. 1.",
+        "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6FN2679AMA9PVMMSE4QTW9R/binance-1.jpg",
+        "publishedAt": "2026-11-03T03:03:44Z",
+        "content": "Binance plans to begin a second phase of cryptocurrency withdrawals on Tuesday, as data show withdrawal volumes have started to stabilize following last weeks $6.3 billion hack.\r\nWithdrawals for addi… [+1568 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,19 +524,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6120BTEQBS14CMZ858YG88A/hi-hong-kong-situation-solana.jpg",
         "publishedAt": "2026-10-28T11:05:33Z",
         "content": "The Hong Kong arm of Mirae Asset Securities, one of South Koreas largest securities firms, has issued tokenized notes on Solana to institutional investors.\r\nThe transaction involved six-month floatin… [+1174 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "CoinDesk"
-        },
-        "author": "Francisco Rodrigues",
-        "title": "Brazil’s largest lender becomes first bank to formalize crypto brokerage under new rules",
-        "description": "Itau Unibanco notified Brazil’s central bank of its crypto trading and custody operations on Tuesday, ahead of a month-end deadline under Resolution 520.",
-        "url": "https://www.coindesk.com/policy/2026/10/28/brazil-s-largest-lender-becomes-first-bank-to-formalize-crypto-brokerage-under-new-rules",
-        "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/6d46ba6649c1aae115103732eff1cb5d1d02aaf6-960x720.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
-        "publishedAt": "2026-10-28T10:07:54Z",
-        "content": "Itaú Unibanco, Brazils largest private bank, formalized its cryptocurrency trading and custody operations under the countrys new digital-asset rules, becoming the first bank in the country to do so.\r… [+1103 chars]"
       }
     ]
   }
