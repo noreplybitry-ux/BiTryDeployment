@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-11-04T05:42:37.061Z",
+  "timestamp": "2026-11-04T14:06:31.225Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
+        "description": "Moscow Exchange plans to launch Bitcoin, Ether and USDT trading on Dec. 1. An industry executive questions demand for the sanctioned venue.",
+        "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6GN6W7C4H29GR4MQT2Q1EN2/moscow-btc-eth-tether.png",
+        "publishedAt": "2026-11-03T13:15:47Z",
+        "content": "Moscow Exchange plans to launch trading in Bitcoin, Ether and Tethers USDT on Dec. 1, opening what it describes as Russias first organized digital currency market.\r\nThe exchange said Monday that pilo… [+2300 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "North Korea Denies $6.3B Binance Hack, Calls FBI Finding a 'Political Provocation'",
+        "description": "Kim Yo Jong suggested the U.S. itself could be behind the theft, as Binance said hourly deposits had begun to exceed withdrawals.",
+        "url": "https://decrypt.co/382394/north-korea-denies-6-3b-binance-hack-calls-fbi-finding-a-political-provocation",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-11-03T10:18:48Z",
+        "content": "In brief\r\n<ul><li>North Korea has denied it was behind the hack of Binance, with Kim Yo Jong calling U.S. accusations a \"sinister\" attempt to damage the country's image.</li><li>The FBI, the Secret S… [+4006 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
+        "description": "Bitcoin fell below the realized price of the one-to-three-month-old buyer cohort in a move that risked flipping it to new resistance.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-support-loss-recent-buyers-underwater",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4FX2DFZ8H6KSQP3M3F615T4/article-covers-246541-three-signs-bitcoin-price-near-full-capitulation-960x640.webp",
+        "publishedAt": "2026-11-03T10:04:05Z",
+        "content": "Bitcoin (BTC) risks turning $77,700 into new resistance as recent buyers fall into an aggregate loss, analysis warns.\r\nKey points:\r\n<ul><li>Bitcoin fell below $77,700, the cost basis of buyers from o… [+3004 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
+        "description": "ARK Invest added Coinbase and Circle shares across two trading sessions while selling about $8 million in Bullish as crypto stocks declined.",
+        "url": "https://cointelegraph.com/news/ark-buys-coinbase-circle-trims-bullish",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6G5EBKBSYS8ZPKKVS3JB9QS/cathie-wood2.jpg",
+        "publishedAt": "2026-11-03T08:35:13Z",
+        "content": "Cathie Woods ARK Invest is buying Coinbase and Circle shares as crypto stocks fall, while cutting its stake in crypto exchange operator Bullish.\r\nARK purchased crypto exchange Coinbase (COIN) shares … [+958 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,32 +550,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M61J85J966F70S7471SPHK17/hi-us-bitcoin-reserve-asset-bill-explained-960x639.webp",
         "publishedAt": "2026-10-28T16:53:26Z",
         "content": "Bitcoin (BTC) gave back early gains around Wednesdays Wall Street open as markets prepared for the US Federal Reserves interest-rate decision.\r\nKey points:\r\n<ul><li>Bitcoin fell around 0.3% on Wednes… [+3118 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
-        "description": "Bitcoin failed to move past its 50-day simple moving average as market participants awaited the outcome of the FOMC meeting and key tech earnings.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-bounce-rejected-at-50-day-trend-line-ahead-of-fomc-earnings",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M61J85J966F70S7471SPHK17/hi-us-bitcoin-reserve-asset-bill-explained-960x639.webp",
-        "publishedAt": "2026-10-28T16:53:26Z",
-        "content": "Bitcoin (BTC) gave back early gains around Wednesdays Wall Street open as markets prepared for the US Federal Reserves interest-rate decision.\r\nKey points:\r\n<ul><li>Bitcoin fell around 0.3% on Wednes… [+3118 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Mirae Asset Securities issues tokenized notes on Solana",
-        "description": "The company’s Hong Kong unit issued six-month notes under its $3 billion program, extending blockchain-based distribution to institutional investors.",
-        "url": "https://cointelegraph.com/news/mirae-asset-securities-tokenized-notes-solana",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6120BTEQBS14CMZ858YG88A/hi-hong-kong-situation-solana.jpg",
-        "publishedAt": "2026-10-28T11:05:33Z",
-        "content": "The Hong Kong arm of Mirae Asset Securities, one of South Koreas largest securities firms, has issued tokenized notes on Solana to institutional investors.\r\nThe transaction involved six-month floatin… [+1174 chars]"
       }
     ]
   }
