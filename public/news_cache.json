@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-11-04T14:06:31.225Z",
+  "timestamp": "2026-11-04T21:10:16.039Z",
   "data": {
     "status": "ok",
     "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Crypto Docs Host GitBook Hit by AI Agent Security Breach, Urges Users to Rotate Keys",
+        "description": "GitBook says attackers accessed infrastructure credentials in an AI-assisted breach, prompting a shutdown and emergency token resets.",
+        "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+        "publishedAt": "2026-11-03T19:46:03Z",
+        "content": "In brief\r\n<ul><li>GitBook disclosed a targeted cyberattack involving AI agents that gave an attacker unauthorized access to some of its infrastructure credentials on November 2.</li><li>Potentially e… [+5249 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Brazil's Biggest Bitcoin Exchange Says It Will Refund Users After a $40 Million Hack",
+        "description": "Mercado Bitcoin says customers won't pay for a hack that drained tens of millions. Withdrawals on the exchange remain frozen with no restart date.",
+        "url": "https://decrypt.co/382459/brazil-mercado-bitcoin-will-refund-users-40-million-hack",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png",
+        "publishedAt": "2026-11-03T18:16:03Z",
+        "content": "In brief\r\n<ul><li>Mercado Bitcoin, Brazil's largest crypto exchange, says its customers won't bear the cost of a hack that hit its systems on November 2.</li><li>Loss estimates differ: the exchange s… [+3463 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Ryan Gladwin",
+        "title": "Five Ways North Korea Breaks Into Crypto Firms—and How Binance Was Hacked",
+        "description": "From AI deepfakes to poisoning code libraries: here's how North Korean hackers get inside crypto companies.",
+        "url": "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/11/north-korea-lazarus-group-dprk-hacker-decrypt-style-02-gID_7.jpg",
+        "publishedAt": "2026-11-03T17:30:54Z",
+        "content": "In brief\r\n<ul><li>North Korean hackers allegedly drained $6.3 billion from Binance last week, the largest crypto hack on record.</li><li>Their methods range from getting hired under fake identities t… [+8798 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price defends $76K lows as analysts see stocks pricing in ‘political gridlock’",
+        "description": "Bitcoin made modest gains at the start of Wall Street trading on Tuesday as markets awaited cues from the US midterm elections.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-defends-76k-lows-as-analysis-sees-stocks-pricing-in-political-gridlock",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6GYWTMJRC5WVDCDG7QCTRRJ/article-covers-180463-us-cpi-lower-expected-rate-cuts-coming-1280x853-960x640.webp",
+        "publishedAt": "2026-11-03T15:44:42Z",
+        "content": "Bitcoin (BTC) headed higher at Tuesdays Wall Street open as a tech-stock rebound under the shadow of uncertainty surrounding the US midterm elections.\r\nKey points:\r\n<ul><li>Bitcoin price action edged… [+3054 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -498,58 +550,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63R9CYRD1Y8NYM7MX76FWJS/hi-how-to-trade-crypto-in-uk1.jpg",
         "publishedAt": "2026-10-29T12:20:27Z",
         "content": "Crypto exchange HTX has agreed to stop unlawfully promoting its services to consumers in the United Kingdom under a settlement announced Thursday by the Financial Conduct Authority (FCA).\r\nThe exchan… [+1213 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey",
-        "description": "European investors ranked crypto above retirement plans for lasting wealth creation, while prior surveys show US investors are skeptical on crypto’s role in retirement accounts.",
-        "url": "https://cointelegraph.com/news/eu-investors-crypto-above-retirement-lasting-wealth",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63ERM4BGFEBV3E6TAR9B0GH/hi-is-bitcoin-a-good-investment-for-retirement.jpg",
-        "publishedAt": "2026-10-29T12:00:00Z",
-        "content": "Investors in several of Europes biggest economies ranked crypto above retirement plans as lasting wealth creation tools, with 19% of those surveyed choosing cryptocurrencies, while 8% opted for tradi… [+3657 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K",
-        "description": "BTC price analysis from Glassnode drew attention to $85,000 as the lower boundary of a cost-basis zone for long-term holders.",
-        "url": "https://cointelegraph.com/markets/bitcoin-long-term-resistance-in-focus-as-analysis-sees-selling-risk-above-85k",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63M426NN1C8PGWZD4S269RJ/hi-how-bitcoin-empowers-the-unbanked-and-combats-injustice.jpg",
-        "publishedAt": "2026-10-29T10:46:43Z",
-        "content": "Bitcoin (BTC) faces resistance between $84,000 and $85,000 as analysis points to coins largely linked to a single large holder.\r\nKey points:\r\n<ul><li>Bitcoin faces resistance around $85,000, where 4.… [+2648 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Treasury Datavault AI Says It Can’t Access Its BTC, Stock Tanks",
-        "description": "Datavault AI says it has been unable to withdraw its Bitcoin from Biconomy since June and will restate four financial reports tied to a $150 million Scilex deal.",
-        "url": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/bitcoin-dollar-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-10-28T21:46:02Z",
-        "content": "In brief\r\n<ul><li>Datavault AI shares fell 49.55% to $0.067 on Oct. 27 after an SEC filing said the company has been unable to complete a June request to withdraw Bitcoin from Biconomy.</li><li>The c… [+4310 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
-        "description": "Bitcoin failed to move past its 50-day simple moving average as market participants awaited the outcome of the FOMC meeting and key tech earnings.",
-        "url": "https://cointelegraph.com/markets/market-update",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M61J85J966F70S7471SPHK17/hi-us-bitcoin-reserve-asset-bill-explained-960x639.webp",
-        "publishedAt": "2026-10-28T16:53:26Z",
-        "content": "Bitcoin (BTC) gave back early gains around Wednesdays Wall Street open as markets prepared for the US Federal Reserves interest-rate decision.\r\nKey points:\r\n<ul><li>Bitcoin fell around 0.3% on Wednes… [+3118 chars]"
       }
     ]
   }
