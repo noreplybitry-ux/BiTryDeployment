@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-05T18:37:06.367Z",
+  "timestamp": "2026-11-05T23:59:25.002Z",
   "data": {
     "status": "ok",
     "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
+        "description": "Mercado Bitcoin plans to restore limited account access after a $46 million hack and says it will use company funds to replace affected assets.",
+        "url": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6MCS6V48YKBXE34JHPKFCDG/hi-gate-io-5.jpg",
+        "publishedAt": "2026-11-04T23:20:17Z",
+        "content": "Brazilian crypto exchange Mercado Bitcoin said it will begin restoring customer account access Monday after a hack that blockchain analysts estimated resulted in more than $46 million in stolen asset… [+1038 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -537,19 +550,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
         "publishedAt": "2026-10-29T21:36:24Z",
         "content": "In brief\r\n<ul><li>At least $5.57 billion left Binance-linked wallets on Ethereum, Bitcoin and Tron on Thursday, per an on-chain tally; Binance said it is investigating.</li><li>Tether froze 975.1 mil… [+3818 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "FalconX Backs $250M Credit Facility for Ibis as Crypto Lending Infrastructure Evolves",
-        "description": "Onchain credit company Ibis emerged from stealth on October 28, announcing a $250 million credit facility with FalconX and a pre-seed funding round. For a.",
-        "url": "https://www.newsbtc.com/news/falconx-backs-250m-credit-facility-for-ibis-as-crypto-lending-infrastructure-evolves/",
-        "urlToImage": null,
-        "publishedAt": "2026-10-29T21:00:00Z",
-        "content": "TL;DR: Onchain credit company Ibis emerged from stealth on October 28, announcing a $250 million credit facility with FalconX and a pre-seed funding round. For a crypto market accustomed to cycles of… [+3951 chars]"
       }
     ]
   }
