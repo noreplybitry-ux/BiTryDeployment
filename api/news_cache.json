@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-05T10:36:08.852Z",
+  "timestamp": "2026-11-05T18:37:06.368Z",
   "data": {
     "status": "ok",
     "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Rebounds After Democratic Midterm Sweep, But Crypto Faces Tougher Fight in Washington",
+        "description": "Bitcoin bounced back after Democrats won control of Congress, but a stalled market structure bill and heavy industry campaign spending reveal crypto’s exposure to shifting US political power.",
+        "url": "https://decrypt.co/382515/bitcoin-rebounds-democratic-midterm-sweep-crypto-washington",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-America-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-11-04T16:49:31Z",
+        "content": "In brief\r\n<ul><li>Bitcoin recovered from a six-week low to trade at $78,354 early Wednesday, while Ethereum rose to $2,323 following Democratic wins in both chambers of Congress.</li><li>The crypto i… [+4234 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
+        "description": "Zach Pandl highlighted institutional custody safeguards as crypto markets recovered some losses following the record $6.3 billion Binance hack.",
+        "url": "https://cointelegraph.com/markets/crypto-market-recovery-grayscale-binance-hack-temporary-setback",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6JYK2EH5NQHTWBFQ5A01VV5/hi-biggest-disappointments-in-crypto-in-2021.jpg",
+        "publishedAt": "2026-11-04T11:11:57Z",
+        "content": "Binances $6.3 billion hack could temporarily hurt confidence in crypto markets but would ultimately lead to stronger security practices across exchanges, according to Grayscale.\r\nIt also underscores … [+1334 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -524,32 +550,6 @@
         "urlToImage": null,
         "publishedAt": "2026-10-29T21:00:00Z",
         "content": "TL;DR: Onchain credit company Ibis emerged from stealth on October 28, announcing a $250 million credit facility with FalconX and a pre-seed funding round. For a crypto market accustomed to cycles of… [+3951 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Coinbase Swings to $719 Million Q3 Profit on Crypto Gains",
-        "description": "Coinbase reported third-quarter net income of $719 million, driven largely by gains on its crypto holdings, as revenue held flat at $1.22 billion.",
-        "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/brian-armstrong-coinbase-decrypt-style-2-gID_7.png",
-        "publishedAt": "2026-10-29T20:46:43Z",
-        "content": "In brief\r\n<ul><li>Coinbase posted $719 million in Q3 net income, or $2.51 per share, against an expected loss, though about $715 million came from gains on crypto it holds. Adjusted net income was $7… [+2979 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Bitwise Sees Bitcoin at $1.6 Million by 2036, but the Forecast Has Big Assumptions",
-        "description": "Bitwise Asset Management has raised its long-range Bitcoin price projection to $1.6 million by 2036 in its 2027 capital-market assumptions. The headline.",
-        "url": "https://www.newsbtc.com/news/bitwise-sees-bitcoin-at-1-6-million-by-2036-but-the-forecast-has-big-assumptions/",
-        "urlToImage": null,
-        "publishedAt": "2026-10-29T20:00:00Z",
-        "content": "TL;DR: Bitwise Asset Management has raised its long-range Bitcoin price projection to $1.6 million by 2036 in its 2027 capital-market assumptions. The headline will attract attention because it impli… [+3417 chars]"
       }
     ]
   }
