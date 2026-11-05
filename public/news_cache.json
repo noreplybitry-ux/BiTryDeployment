@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-05T02:06:00.204Z",
+  "timestamp": "2026-11-05T10:36:08.852Z",
   "data": {
     "status": "ok",
     "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum reclaims $2,300 as $1.61B ETF outflows weigh on recovery",
+        "description": "Key takeaways Ethereum (ETH) has reclaimed $2,300 after falling below its realized price of $2,309 following the $6.3 billion Binance hack. US spot Ethereum ETFs recorded their seventh consecutive trading day of outflows on Tuesday. ETH faces immediate suppor…",
+        "url": "https://coinjournal.net/news/ethereum-reclaims-2300-as-1-61b-etf-outflows-weigh-on-recovery/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Institutional-Investors-Queue-for-Ethereum-ETF-Withdrawals.png",
+        "publishedAt": "2026-11-04T07:57:41Z",
+        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) has reclaimed $2,300 after falling below its realized price of $2,309 following the $6.3 billion Binance hack.</li><li>US spot Ethereum ETFs recorded their seven… [+4850 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
+        "description": "Bitcoin price action saw downside volatility as US midterm election voting results showed a Democratic sweep of the House and Senate.",
+        "url": "https://cointelegraph.com/markets/bitcoin-bounces-from-7-week-low-under-76k-as-democrats-eye-congress-sweep",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6JMY7XMBZ97KS5GW9AD860J/regulation-papers-960x640.webp",
+        "publishedAt": "2026-11-04T07:25:47Z",
+        "content": "Bitcoin (BTC) sought to erase 3% overnight losses on Wednesday as crypto markets digested the Democratic sweep of the midterm elections.\r\nKey points:\r\n<ul><li>Bitcoin fell to $75,618 as Democrats won… [+3370 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -524,32 +550,6 @@
         "urlToImage": null,
         "publishedAt": "2026-10-29T20:00:00Z",
         "content": "TL;DR: Bitwise Asset Management has raised its long-range Bitcoin price projection to $1.6 million by 2036 in its 2027 capital-market assumptions. The headline will attract attention because it impli… [+3417 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price jumps to $81.5K as US GDP data beats expectations",
-        "description": "Bitcoin diverges from US stock markets to spike to $81,500 after strong US macro data, brushing off Alphabet’s Q3 earnings miss.",
-        "url": "https://cointelegraph.com/markets/bitcoin-reaction-to-pce-data",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M642ZF00Z895Q6B695HS29XA/article-covers-188965-bitcoin-traders-predict-btc-price-gains-ahead-of-96k-liquidity-clash-960x640.webp",
-        "publishedAt": "2026-10-29T15:39:54Z",
-        "content": "Bitcoin (BTC) rebounded above $81,000 after Thursdays Wall Street open as US GDP numbers stayed strong and inflation data conformed to estimates.\r\nKey points:\r\n<ul><li>Bitcoin jumped to $81,547 on th… [+3117 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Brazil’s Halloween eve crypto deadline brings more tricks than treats",
-        "description": "Brazil’s central bank faces unanswered questions over crypto wallet checks and a $100,000 international transfer limit ahead of the Oct. 30 application deadline.",
-        "url": "https://cointelegraph.com/news/brazil-crypto-license-filing-deadline-hurdles-uncertainty",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63FKA31ZQ62SGYFQ4D2DA02/brazil.png",
-        "publishedAt": "2026-10-29T13:30:00Z",
-        "content": "Cryptocurrency exchanges operating in Brazil face mounting compliance costs and unanswered regulatory questions ahead of a license application deadline.\r\nExchanges already operating in Brazil must ap… [+3572 chars]"
       }
     ]
   }
