@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-04T21:10:16.039Z",
+  "timestamp": "2026-11-05T02:06:00.204Z",
   "data": {
     "status": "ok",
     "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "US midterms election 2026 live: What they mean for crypto",
+        "description": "Follow live coverage of the 2026 US midterm elections, including key congressional races, crypto-backed candidates and what the results could mean for digital asset regulation.",
+        "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6HNW6N1NESPPP9VWMSTMCKP/hi-can-polymarket-and-augur-predict-the-next-us-elections2.jpg",
+        "publishedAt": "2026-11-03T23:01:32Z",
+        "content": "Within the next few hours, we will begin to learn whether President Donald Trumps Republican Party has managed to retain control of the US Congress, determining his ability to advance his legislative… [+6273 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -537,19 +550,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63FKA31ZQ62SGYFQ4D2DA02/brazil.png",
         "publishedAt": "2026-10-29T13:30:00Z",
         "content": "Cryptocurrency exchanges operating in Brazil face mounting compliance costs and unanswered regulatory questions ahead of a license application deadline.\r\nExchanges already operating in Brazil must ap… [+3572 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
-        "description": "HTX has settled the FCA’s UK crypto promotions case, pledging to stop unlawful marketing until October 2031 after withdrawing from the UK market.",
-        "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M63R9CYRD1Y8NYM7MX76FWJS/hi-how-to-trade-crypto-in-uk1.jpg",
-        "publishedAt": "2026-10-29T12:20:27Z",
-        "content": "Crypto exchange HTX has agreed to stop unlawfully promoting its services to consumers in the United Kingdom under a settlement announced Thursday by the Financial Conduct Authority (FCA).\r\nThe exchan… [+1213 chars]"
       }
     ]
   }
