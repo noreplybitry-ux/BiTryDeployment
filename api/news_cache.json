@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-06T06:24:32.891Z",
+  "timestamp": "2026-11-06T14:53:33.773Z",
   "data": {
     "status": "ok",
     "totalResults": 42,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Thailand to block Bitget in December over unlicensed crypto trading",
+        "description": "Thailand will block access to Bitget from Dec. 5 after its securities regulator filed a criminal complaint against the exchange’s operator.",
+        "url": "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6NPN42BG6Z4FSAM7R35THVD/hi-bitget-research-article-350000-crypto-currency-traders-in-japan-bitget-research-2.jpg",
+        "publishedAt": "2026-11-05T11:33:20Z",
+        "content": "Thailands securities regulator has filed a criminal complaint against BG Limited, the operator of cryptocurrency exchange Bitget, for allegedly operating without a license.\r\nThailands Securities and … [+1187 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Dogecoin eyes $0.0806 breakout as DOGE recovers despite weak ETF demand",
+        "description": "Key takeaways Dogecoin (DOGE) trades near $0.0770 on Thursday, extending its recovery after two consecutive sessions of gains. Dogecoin ETFs have recorded no new inflows since October 14, reflecting subdued institutional demand. DOGE has reclaimed its four-ho…",
+        "url": "https://coinjournal.net/news/dogecoin-eyes-0-0806-breakout-as-doge-recovers-despite-weak-etf-demand/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Golden-Retriever-Frisbee-Leap.png",
+        "publishedAt": "2026-11-05T10:25:28Z",
+        "content": "Key takeaways\r\n<ul><li>Dogecoin (DOGE) trades near $0.0770 on Thursday, extending its recovery after two consecutive sessions of gains.</li><li>Dogecoin ETFs have recorded no new inflows since Octobe… [+5124 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -524,32 +550,6 @@
         "urlToImage": null,
         "publishedAt": "2026-10-30T01:00:00Z",
         "content": "TL;DR: Robinhood reported third-quarter 2026 results on October 27, with total net revenue of about $1.42 billion, up 12% from the comparable period a year earlier. Market participants can learn some… [+3992 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides",
-        "description": "Bitcoin and Ether tumbled as the broader crypto market fell 3.3%, with reports of suspicious multibillion-dollar transfers from Binance-linked wallets fueling uncertainty.",
-        "url": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M64Y4PTFHTAMEWNV8MMJQWCT/hi-crypto-trading-basics-a-beginners-guide-to-cryptocurrency-order-types1.jpeg",
-        "publishedAt": "2026-10-29T23:24:21Z",
-        "content": "Cryptocurrency markets fell sharply Thursday as reports of a potential multibillion-dollar hack involving Binance wallets rattled investors, sending BNB down more than 7% and pushing the broader mark… [+1109 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Binance Drained of $5.5 Billion in Suspected Hack, Tether and Circle Freeze $1.8 Billion",
-        "description": "An on-chain tally puts the suspected Binance drain at $5.57 billion across three blockchains, as Tether and Circle froze $1.8 billion.",
-        "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
-        "publishedAt": "2026-10-29T21:36:24Z",
-        "content": "In brief\r\n<ul><li>At least $5.57 billion left Binance-linked wallets on Ethereum, Bitcoin and Tron on Thursday, per an on-chain tally; Binance said it is investigating.</li><li>Tether froze 975.1 mil… [+3818 chars]"
       }
     ]
   }
