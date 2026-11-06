@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-06T14:53:33.773Z",
+  "timestamp": "2026-11-06T20:46:18.355Z",
   "data": {
     "status": "ok",
-    "totalResults": 42,
+    "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jona Jaupi",
+        "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
+        "description": "US regulators reportedly contacted banks following last week’s $6.3 billion Binance security hack, while experts raised concerns about transaction security and crypto risks.",
+        "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6PFFXJ4XKPEQ9E1ESY0C401/two-men-with-badges.png",
+        "publishedAt": "2026-11-05T18:32:45Z",
+        "content": "US regulators reportedly contacted banks following last weeks $6.3 billion Binance hack, as cybersecurity experts raised concerns about how financial institutions handle crypto-related security risks… [+3618 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Ryan Gladwin",
+        "title": "Democrats to Push Broader Crypto Market Structure Bill After Sweeping US Midterms: Report",
+        "description": "Analysts said that the Clarity Act's path has become tougher, while advocacy group Stand With Crypto has endorsed 27 winning candidates so far.",
+        "url": "https://decrypt.co/382602/democrats-to-push-broader-crypto-market-structure-bill-after-sweeping-us-midterms-report",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
+        "publishedAt": "2026-11-05T16:37:20Z",
+        "content": "In brief\r\n<ul><li>House Democrats reportedly plan to expand Maxine Waters Crypto Investor Consumer Bill of Rights into a broader market structure bill that would give the SEC more oversight.</li><li>… [+5024 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -511,45 +537,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M65VKEHPWZPADDH0AZM1CR3Q/trying-to-open-monitor-1.jpg",
         "publishedAt": "2026-10-30T07:33:15Z",
         "content": "What we know about the Binance hack: \r\n<ul><li>Binance says the estimated total impact is around $6.3 billion and the verified total value of crypto frozen is $3 billion. This could increase as inves… [+14225 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity",
-        "description": "Michael Saylor says Strategy could create up to $30 billion in digital credit without new common-stock fundraising or further Bitcoin price gains, as the company plans more BTC purchases.",
-        "url": "https://cointelegraph.com/news/strategy-30-billion-digital-credit-capacity-bitcoin-buys",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M65N18RTP4EB58E1CCHH5C3R/earnings-calls-strategy-saylor-phong-le.jpg",
-        "publishedAt": "2026-10-30T05:53:07Z",
-        "content": "Bitcoin treasury company Strategy is looking to finance more Bitcoin purchases through preferred-share offerings, with executive chairman Michael Saylor saying it has the capacity to create as much a… [+1282 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
-        "description": "Standard Chartered’s Geoffrey Kendrick says the breach could accelerate a shift toward decentralized trading and strengthen his case for Uniswap’s UNI token reaching $100 by 2030.",
-        "url": "https://cointelegraph.com/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M65CZZGFZ3KNMMA8P6JN3YH4/uniswap.jpg",
-        "publishedAt": "2026-10-30T03:47:01Z",
-        "content": "The Binance hack could accelerate a shift in crypto trading toward decentralized exchanges, benefiting Uniswap over the longer term, according to Standard Chartereds global head of digital assets res… [+1762 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Robinhood Crypto Revenue Falls 55% as Prediction Markets Support Growth",
-        "description": "Robinhood reported third-quarter 2026 results on October 27, with total net revenue of about $1.42 billion, up 12% from the comparable period a year.",
-        "url": "https://www.newsbtc.com/news/robinhood-crypto-revenue-falls-55-as-prediction-markets-support-growth/",
-        "urlToImage": null,
-        "publishedAt": "2026-10-30T01:00:00Z",
-        "content": "TL;DR: Robinhood reported third-quarter 2026 results on October 27, with total net revenue of about $1.42 billion, up 12% from the comparable period a year earlier. Market participants can learn some… [+3992 chars]"
       }
     ]
   }
