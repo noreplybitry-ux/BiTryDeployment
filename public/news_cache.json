@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-07T00:46:25.535Z",
+  "timestamp": "2026-11-07T06:56:23.527Z",
   "data": {
     "status": "ok",
     "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Crypto exchanges tout cold storage ratios after Binance attack",
+        "description": "Crypto exchanges, including Coinbase, Gate and Upbit, have confirmed their cold storage holdings after Binance’s record $6.3 billion hack.",
+        "url": "https://cointelegraph.com/news/binance-hack-puts-crypto-exchanges-cold-wallet-ratio-under-spotlight",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6QCQ9E3FBH5XSMVA720JM6M/cold-storage.jpg",
+        "publishedAt": "2026-11-06T05:07:00Z",
+        "content": "Crypto exchanges were quick to reassure users following the attack on Binances hot wallet infrastructure last week, with several companies disclosing how they divide assets between cold storage and i… [+3337 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -524,19 +537,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6602N70GW2FG23Y7A1E55CV/hi-binance-hack.jpg",
         "publishedAt": "2026-10-30T11:00:10Z",
         "content": "Compromised signing systems likely enabled Binances $6.3 billion hack, while Ethereums EIP-7702 upgrade may have helped attackers bypass security checks, according to blockchain security firm Blockai… [+2892 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury",
-        "description": "The Binance hacker holds 18,270 BTC, surpassing Coinbase’s corporate Bitcoin holdings, while its 508,621 ETH stash also exceeds major Ether treasuries.",
-        "url": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M663XBRMVF35RHDZ0MC72744/hacker-binance-bitcoin-treasury.jpg",
-        "publishedAt": "2026-10-30T10:54:30Z",
-        "content": "The attackers behind the $6.3 billion Binance hack held more Bitcoin on Friday than crypto exchange Coinbases holding for investment and operation at the end of September.\r\nBlockchain analytics firm … [+1625 chars]"
       }
     ]
   }
