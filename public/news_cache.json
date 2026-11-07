@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-11-07T13:52:03.917Z",
+  "timestamp": "2026-11-07T18:34:16.911Z",
   "data": {
     "status": "ok",
-    "totalResults": 40,
+    "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
+        "description": "BTC price action stayed weak after US nonfarm payrolls data significantly beat forecasts, increasing bets of a December interest-rate hike.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M500AA327W2X1RAET1WJ9AW5/article-covers-257087-bitcoin-dips-3percent-analysis-70k-btc-price-not-obviously-bearish-1280x853.webp",
+        "publishedAt": "2026-11-06T17:49:33Z",
+        "content": "Bitcoin (BTC) set new multi-week lows after Fridays Wall Street open as BTC price action diverged from stocks.\r\nKey points:\r\n<ul><li>Bitcoin fell to $74,762 after the start of Fridays US trading sess… [+2801 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "US Sanctions 45 More Targets Tied to Alleged Crypto Scam Empire Prince Group",
+        "description": "OFAC targeted offshore companies and associates it says helped Prince Group executives hide assets and dodge earlier sanctions.",
+        "url": "https://decrypt.co/382730/us-sanctions-45-more-targets-tied-to-alleged-crypto-scam-empire-prince-group",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Treasury-Department1-gID_7.jpg",
+        "publishedAt": "2026-11-06T17:42:31Z",
+        "content": "In brief\r\n<ul><li>The U.S. Treasury sanctioned four individuals and 41 entities it says support Prince Group, a Cambodian conglomerate accused of running crypto scam compounds.</li><li>The targets in… [+4207 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Crypto Card Provider Gnosis Pay Says Hackers Accessed Customer Data",
+        "description": "Gnosis Pay said hackers accessed customer information on the legacy system behind its branded cards, though funds weren’t affected and its enterprise card platform was untouched.",
+        "url": "https://decrypt.co/382718/crypto-card-provider-gnosis-pay-hackers-customer-data",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/crypto-credit-cards-mastercard-visa-gID_7.jpg",
+        "publishedAt": "2026-11-06T16:41:29Z",
+        "content": "In brief\r\n<ul><li>Gnosis Pay detected unauthorized access on Nov. 3 to the system powering its own branded cards, exposing some customer information. The company says funds werent affected.</li><li>T… [+3437 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
+        "description": "Nigeria has banned algorithmic stablecoins and introduced reserve requirements for issuers as it expands central bank oversight of crypto payment services.",
+        "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RFZC8EDJXT26642DWHC0EV/hi-the-crypto-act-explained-nigeria-1.jpg",
+        "publishedAt": "2026-11-06T13:57:14Z",
+        "content": "Nigerias central bank has introduced new licensing and reserve requirements for cryptocurrency companies, tightening oversight of stablecoins and digital asset payment services in one of Africas larg… [+2466 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -446,84 +498,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6B7GCDKCRNR2Z23KSY172H6/hi-binance-unchained.jpg",
         "publishedAt": "2026-11-01T09:38:18Z",
         "content": "Binance said it has reopened its Bitcoin network in phase one of resuming withdrawals after a major hack of about $6.3 billion in funds.\r\nThe crypto exchange had suspended user withdrawals after the … [+1283 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
-        "description": "Strive CEO Matt Cole says the Binance hack has not changed his long-term case for Bitcoin, but cautions it is too early to call a market bottom.",
-        "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6784E305ZRSTBDYV0WKG4RR/hi-true-or-false-91-of-surveys-about-bitcoin-and-crypto-are-totally-wrong.png",
-        "publishedAt": "2026-10-31T15:26:46Z",
-        "content": "Bitcoin has held up better than expected following the $6.3 billion Binance hack, according to Strive CEO Matt Cole, who said the breach does not undermine the cryptocurrencys long-term investment th… [+2950 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
-        "description": "Attackers tied to North Korea drained roughly $6.4 billion from the world’s largest crypto exchange. Here’s what we know about how it happened, who’s behind it, and what comes next.",
-        "url": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
-        "publishedAt": "2026-10-31T15:01:02Z",
-        "content": "In brief\r\n<ul><li>Attackers stole roughly $6.4 billion from Binance on Thursday in the largest crypto hack ever, more than four times the previous record.</li><li>Binance says it will cover all losse… [+6648 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Christina Comben",
-        "title": "Bitcoin turns 18: Has the original rebel grown up?",
-        "description": "In typical Bitcoin style, the number one cryptocurrency turns 18 today, amid AI-driven security threats, quantum fears and the biggest exchange hack in crypto history.",
-        "url": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M66D6NEJQ63776RRBN8K6ZNJ/magazine-crypto-idealism.png",
-        "publishedAt": "2026-10-31T14:27:52Z",
-        "content": "Eighteen years ago today, pseudonymous cypherpunk Satoshi Nakamoto posted the Bitcoin whitepaper, Bitcoin: A Peer-to-Peer Electronic Cash System, to a cryptography mailing list.\r\nCreated to bypass op… [+8491 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Michael Millard",
-        "title": "Binance $6.3B record hack sparks pre-election political chatter",
-        "description": "Some political and administration figures tried to make hay of the biggest-ever crypto heist.",
-        "url": "https://cointelegraph.com/news/binance-63b-record-hack-sparks-pre-election-political-chatter",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M50GBDK9V1K1J9DSAGNBWX7S/us-binance.jpg",
-        "publishedAt": "2026-10-31T09:58:50Z",
-        "content": "Soon after the $6.3 billion hack of Binance, the biggest in crypto history, a few political and administration figures began offering opinions, with a US election approaching on Nov. 3 and voting alr… [+3782 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Sam Bourgi",
-        "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
-        "description": "Bitcoin faces mounting quantum security concerns as Ripple secures a US banking charter, USDC gains ground in Europe and VanEck adds BTC to a new ETF.",
-        "url": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M66WK9FWJATF4KMADN8DRH10/hi-will-googles-quantum-supremacy-break-bitcoin-in-2022.jpg",
-        "publishedAt": "2026-10-30T17:09:31Z",
-        "content": "The debate over quantum computing has raised serious questions about Bitcoins long-term security, but the economic consequences could emerge long before the technology seriously threatens the network… [+5238 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
-        "description": "Bitcoin circled $77,000 as US tech stocks sold off and gold fell to its lowest level in a year, leaving BTC on track for its worst October since 2014.",
-        "url": "https://cointelegraph.com/markets/bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M66RSMA8MM7W9WSFC6PFHK6S/hi-bull-market-vs-bear-market-whats-the-difference.jpg",
-        "publishedAt": "2026-10-30T16:06:28Z",
-        "content": "Bitcoin (BTC) stayed under pressure below $80,000 at Fridays Wall Street open as AI fears returned to intensify a broader risk-asset rout.\r\nKey points:\r\n<ul><li>Bitcoin struggled to hold around $77,0… [+2533 chars]"
       }
     ]
   }
