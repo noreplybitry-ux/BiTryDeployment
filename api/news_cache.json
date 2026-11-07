@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-11-07T18:34:16.911Z",
+  "timestamp": "2026-11-07T22:36:13.822Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
+        "description": "FinCEN’s order, part of Operation Economic Outcast, bars U.S. institutions from any transfers to or from MEXC, which Treasury says facilitated $16 billion in illicit finance tied to Iran, North Korea and Russia.",
+        "url": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/scott-bessent-decrypt-style-1-gID_7.jpg",
+        "publishedAt": "2026-11-06T21:06:03Z",
+        "content": "In brief\r\n<ul><li>The U.S. Treasurys FinCEN issued an order cutting MEXC Global, a top-20 crypto exchange, off from the U.S. financial system, accusing it of facilitating at least $16 billion in illi… [+3438 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Isabelle Castro",
+        "title": "Binance hack is ‘cyber war,’ TRM Labs executive says",
+        "description": "TRM Labs executive Ari Redbord called for governments to take offensive action against North Korean hackers following the record $6.3 billion Binance theft.",
+        "url": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6MAGXTEN3YDD171XWZ849SA/hacked-with-trm-logo.png",
+        "publishedAt": "2026-11-06T20:36:25Z",
+        "content": "The $6.3 billion Binance hack sent shockwaves through the crypto industry. Following a series of increasingly severe cybersecurity incidents, the attack on the worlds biggest crypto exchange demonstr… [+3379 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
+        "description": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December.",
+        "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RZKYX3G2AZB93NGGBV65NX/digital-bank-russia.png",
+        "publishedAt": "2026-11-06T18:47:45Z",
+        "content": "Russias central bank has finalized rules allowing exchanges to offer Bitcoin (BTC), Ether (ETH) and Tether USDt (USDT) to retail investors starting Nov. 17.\r\nUnder the rules, non-qualified investors … [+1650 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,45 +498,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6DFVVTB1BSHSCFQ2R7VR4PQ/hi-top-news-of-the-week-5-bitcoin.jpg",
         "publishedAt": "2026-11-02T07:50:36Z",
         "content": "Investors pulled $643 million from US-listed spot Bitcoin exchange-traded funds (ETFs) on Friday, pushing Octobers net flows into negative territory as crypto markets faced volatility following Binan… [+1313 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Bank of Korea probes financial firms’ exposure to crypto risks",
-        "description": "The central bank is surveying 31 financial institutions on how a major exchange shutdown, prolonged crypto downturn or losses at another firm could affect their operations.",
-        "url": "https://cointelegraph.com/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M59TMCWT4YS3BEJ97Y7B01HA/hi-crypto-on-corporate-balance-sheets-south-korea.jpg",
-        "publishedAt": "2026-11-02T03:55:50Z",
-        "content": "The Bank of Korea has reportedly launched its first survey of banks and brokerages on cryptocurrency-related risks, asking how they would be affected by a major exchange hack, a market crash or heavy… [+2308 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "SEC Charges BG Wealth and DSJ Exchange Over Alleged $130M Crypto Scheme",
-        "description": "The SEC alleges BG Wealth and DSJ Exchange raised more than $130 million using false filings and trading claims. The civil complaint is an allegation, not a final judgment.",
-        "url": "https://www.newsbtc.com/news/sec-charges-bg-wealth-and-dsj-exchange-over-alleged-130m-crypto-scheme/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/09/Newsbtc-Image.jpg",
-        "publishedAt": "2026-11-01T21:00:00Z",
-        "content": "TL;DR: The SEC alleges BG Wealth and DSJ Exchange raised more than $130 million using false filings and trading claims. The civil complaint is an allegation, not a final judgment.\r\nThe US Securities … [+3730 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Michael Millard",
-        "title": "Binance says phase one of withdrawals opens after $6.3B hack",
-        "description": "The crypto exchange said it has begun phased withdrawals after the record hack the FBI has blamed on North Korea.",
-        "url": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6B7GCDKCRNR2Z23KSY172H6/hi-binance-unchained.jpg",
-        "publishedAt": "2026-11-01T09:38:18Z",
-        "content": "Binance said it has reopened its Bitcoin network in phase one of resuming withdrawals after a major hack of about $6.3 billion in funds.\r\nThe crypto exchange had suspended user withdrawals after the … [+1283 chars]"
       }
     ]
   }
