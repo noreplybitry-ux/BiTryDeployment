@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-06T20:46:18.355Z",
+  "timestamp": "2026-11-07T00:46:25.535Z",
   "data": {
     "status": "ok",
     "totalResults": 41,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
+        "description": "Asian crypto exchanges are scrambling to tighten security on fears of a wave of potentially AI-assisted hacks, even as regional governments embrace tokenization and stablecoins.",
+        "url": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RR0R87D4ZNY7FB45GN96P2/magazineasia-expressriver.jpg",
+        "publishedAt": "2026-11-05T22:18:42Z",
+        "content": "India warns AI-powered hackers targeting crypto exchanges at machine speed\r\nIndias national cybersecurity agency warned that an AI-assisted threat actor has escalated its attacks on cryptocurrency ex… [+8372 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -524,19 +537,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M663XBRMVF35RHDZ0MC72744/hacker-binance-bitcoin-treasury.jpg",
         "publishedAt": "2026-10-30T10:54:30Z",
         "content": "The attackers behind the $6.3 billion Binance hack held more Bitcoin on Friday than crypto exchange Coinbases holding for investment and operation at the end of September.\r\nBlockchain analytics firm … [+1625 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Live updates: Binance $6.3B hack linked to North Korea’s TraderTraitor",
-        "description": "Follow live updates as Binance says $6.3 billion in assets have been stolen in a major hack. Around $3 billion in stolen funds have been frozen.",
-        "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M65VKEHPWZPADDH0AZM1CR3Q/trying-to-open-monitor-1.jpg",
-        "publishedAt": "2026-10-30T07:33:15Z",
-        "content": "What we know about the Binance hack: \r\n<ul><li>Binance says the estimated total impact is around $6.3 billion and the verified total value of crypto frozen is $3 billion. This could increase as inves… [+14225 chars]"
       }
     ]
   }
