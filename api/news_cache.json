@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-08T10:02:19.478Z",
+  "timestamp": "2026-11-08T16:57:59.302Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Strive Reports $509M Quarterly Profit as Bitcoin Buying Accelerates",
+        "description": "Strive reported $509 million in third-quarter GAAP net income and said it purchased 8,136 BTC during the quarter, followed by another 15,124 BTC between…",
+        "url": "https://www.newsbtc.com/news/bitcoin/strive-reports-509m-quarterly-profit-as-bitcoin-buying-accelerates/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_1ea311.jpg",
+        "publishedAt": "2026-11-07T14:00:00Z",
+        "content": "TL;DR: Strive reported $509 million in third-quarter GAAP net income and said it purchased 8,136 BTC during the quarter, followed by another 15,124 BTC between October 1 and October 30. Its financing… [+3669 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M48NWDDYWBD7SNFGR28DNZC8/hi-how-to-migrate-crypto-from-an-exchange-to-okx.jpg",
         "publishedAt": "2026-11-02T08:56:03Z",
         "content": "OKX recorded about $445 million in 24-hour net inflows, the largest among tracked crypto exchanges, while Binance continued to register outflows after reopening withdrawals following its $6.3 billion… [+1675 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
-        "description": "US spot Bitcoin ETFs closed October with $515 million in net withdrawals after a $643 million Friday exodus, while Ether ETFs suffered their worst month on record.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etfs-october-red-binance-hack-outflows",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6DFVVTB1BSHSCFQ2R7VR4PQ/hi-top-news-of-the-week-5-bitcoin.jpg",
-        "publishedAt": "2026-11-02T07:50:36Z",
-        "content": "Investors pulled $643 million from US-listed spot Bitcoin exchange-traded funds (ETFs) on Friday, pushing Octobers net flows into negative territory as crypto markets faced volatility following Binan… [+1313 chars]"
       }
     ]
   }
