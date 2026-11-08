@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-08T16:57:59.302Z",
+  "timestamp": "2026-11-08T21:03:21.758Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+        "description": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
+        "url": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-n07-10-federal-reserve-building-washington-commons.jpg",
+        "publishedAt": "2026-11-07T21:00:00Z",
+        "content": "TL;DR: The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics’ November 6 release. The data complicate hopes of quick monet… [+3941 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6DPN36PMEF09E83YXHSEHAH/article-covers-252604-crypto-laws-states-party-primaries-1280x853.webp",
         "publishedAt": "2026-11-02T09:41:36Z",
         "content": "Bitcoin (BTC) held above its 100-day moving average on Monday ahead of US midterm elections, jobs data and earnings from Apple and Palantir.\r\nKey points:\r\n<ul><li>Kalshi traders put Democrats chances… [+4746 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "OKX draws $445M in net inflows as Binance outflows exceed $7B",
-        "description": "OKX recorded $445 million in daily inflows to lead all cryptocurrency exchanges, while Binance registered the largest net outflows of around $7 billion.",
-        "url": "https://cointelegraph.com/news/okx-leads-crypto-exchanges-445m-inflows",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M48NWDDYWBD7SNFGR28DNZC8/hi-how-to-migrate-crypto-from-an-exchange-to-okx.jpg",
-        "publishedAt": "2026-11-02T08:56:03Z",
-        "content": "OKX recorded about $445 million in 24-hour net inflows, the largest among tracked crypto exchanges, while Binance continued to register outflows after reopening withdrawals following its $6.3 billion… [+1675 chars]"
       }
     ]
   }
