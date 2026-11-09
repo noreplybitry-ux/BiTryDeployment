@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-09T01:31:51.798Z",
+  "timestamp": "2026-11-09T09:28:36.773Z",
   "data": {
     "status": "ok",
     "totalResults": 38,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Michael Millard",
+        "title": "Binance’s finance chief Kaiser Ng to leave company, report says",
+        "description": "Ng will be replaced by Justin Yek, who was formerly vice-president of finance at Airwallex.",
+        "url": "https://cointelegraph.com/news/binances-finance-chief-kaiser-ng-to-leave-company-report-says",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6X3D6NBXVQ58B0WF2EB2C96/bank-building-hall-entrance-door-binance.png",
+        "publishedAt": "2026-11-08T08:12:56Z",
+        "content": "Binances finance chief Kaiser Ng is reportedly leaving that company to pursue a new venture.\r\nKaiser Ng has decided to pursue a new venture after more than five years at Binance, with a transition pl… [+934 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -485,19 +498,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-11-02T10:36:19Z",
         "content": "In brief\r\n<ul><li>The FBI said North Korea's TraderTraitor was responsible for the theft of more than $6 billion from Binance, and published hundreds of addresses linked to the hack.</li><li>Binance … [+5610 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
-        "description": "Bitcoin price action held its 100-day moving average into the monthly close as crypto markets braced for US midterm election and tech earnings volatility.",
-        "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6DPN36PMEF09E83YXHSEHAH/article-covers-252604-crypto-laws-states-party-primaries-1280x853.webp",
-        "publishedAt": "2026-11-02T09:41:36Z",
-        "content": "Bitcoin (BTC) held above its 100-day moving average on Monday ahead of US midterm elections, jobs data and earnings from Apple and Palantir.\r\nKey points:\r\n<ul><li>Kalshi traders put Democrats chances… [+4746 chars]"
       }
     ]
   }
