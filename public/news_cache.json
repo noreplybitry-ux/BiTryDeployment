@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-10T03:19:19.260Z",
+  "timestamp": "2026-11-10T12:21:29.473Z",
   "data": {
     "status": "ok",
-    "totalResults": 37,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
+        "description": "The exchange will move its institutional crypto custody business under federal oversight, building on its 2018 New York trust charter.",
+        "url": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
+        "publishedAt": "2026-11-09T11:50:36Z",
+        "content": "In brief\r\n<ul><li>Coinbase has received final approval from the Office of the Comptroller of the Currency to charter Coinbase National Trust Company.</li><li>The charter brings Coinbase's institution… [+3138 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
+        "description": "Investors pulled a net $1.21 billion from BlackRock’s IBIT last week as Bitcoin fell below $76,000 and US technology stocks sold off.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etfs-13b-biggest-weekly-outflow-late-june",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2M5WQHM74XV1CTRDCQ9ZXS3/bitcoin-etf-4.jpg",
+        "publishedAt": "2026-11-09T08:17:35Z",
+        "content": "US spot Bitcoin exchange-traded funds (ETFs) recorded $1.28 billion in net outflows last week, their largest weekly withdrawals since late June.\r\nThe withdrawals brought the funds net outflows for th… [+2283 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,58 +459,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6G5EBKBSYS8ZPKKVS3JB9QS/cathie-wood2.jpg",
         "publishedAt": "2026-11-03T08:35:13Z",
         "content": "Cathie Woods ARK Invest is buying Coinbase and Circle shares as crypto stocks fall, while cutting its stake in crypto exchange operator Bullish.\r\nARK purchased crypto exchange Coinbase (COIN) shares … [+958 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
-        "description": "Crypto.com is winding down its Hong Kong consumer app. Meanwhile, its local entity awaits approval of a crypto trading platform license filed in 2024.",
-        "url": "https://cointelegraph.com/news/crypto-com-hong-kong-app-shutdown-license-pending",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6FWJCR3YC78YRVRCAXWNJWS/hong-kong-license.jpg",
-        "publishedAt": "2026-11-03T05:10:19Z",
-        "content": "Crypto.com will discontinue its consumer app services in Hong Kong on Feb. 1, 2027, while continuing to pursue regulatory approval for its institutional exchange.\r\nOn Monday, the company confirmed th… [+1050 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Binance begins second withdrawal phase following record hack",
-        "description": "The exchange says additional assets will become available for withdrawal from 04:00 UTC on Tuesday as security checks are completed, following an initial reopening on Nov. 1.",
-        "url": "https://cointelegraph.com/news/binance-begins-second-withdrawal-phase-following-record-hack",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6FN2679AMA9PVMMSE4QTW9R/binance-1.jpg",
-        "publishedAt": "2026-11-03T03:03:44Z",
-        "content": "Binance plans to begin a second phase of cryptocurrency withdrawals on Tuesday, as data show withdrawal volumes have started to stabilize following last weeks $6.3 billion hack.\r\nWithdrawals for addi… [+1568 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Hashdex Adds Jane Street to Crypto Index ETF Authorized Participants",
-        "description": "An October 30 prospectus supplement adds Jane Street Capital to Hashdex’s authorized participants, expanding its listed creation-and-redemption network.",
-        "url": "https://www.newsbtc.com/news/hashdex-adds-jane-street-to-crypto-index-etf-authorized-participants/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2018/06/Circle-Bank-Vault.jpg",
-        "publishedAt": "2026-11-02T21:00:00Z",
-        "content": "TL;DR\r\n<ul><li>Jane Street Capital joined the ETFs listed authorized participants.</li><li>The change appears in an October 30 prospectus supplement.</li><li>The appointment is different from an inve… [+3930 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
-        "description": "Bitcoin price analysis expects a drop to local support at $76,000 as risk assets stay nervous over tech earnings and the US midterm elections.",
-        "url": "https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6ER84KWFRV6AB54PVPNX1S9/oil-bitcoin-petrol-2-960x640-960x640.webp",
-        "publishedAt": "2026-11-02T19:27:58Z",
-        "content": "Bitcoin (BTC) returned below $77,000 after Mondays Wall Street open as crypto shrugged off hopes of a US-Iran peace deal.\r\nKey points:\r\n<ul><li>Bitcoin fell below $78,000 as WTI crude oil hit $95.15 … [+3798 chars]"
       }
     ]
   }
