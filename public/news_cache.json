@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-11-10T12:21:29.473Z",
+  "timestamp": "2026-11-10T20:21:48.390Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Formation Securities plans Solana stock trading venue under SEC exemption",
+        "description": "The proposed venue would offer 24/7 trading of tokenized shares from Galaxy Digital, Exodus and Forward Industries, with a launch planned for early 2027.",
+        "url": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M70VDA13QECV5XSQ4V1SKPEE/hi-crypto-goes-for-nasdaq-solana-1.png",
+        "publishedAt": "2026-11-09T19:52:34Z",
+        "content": "Formation Securities, a newly established company licensing technology from decentralized exchange Orca, has notified the US Securities and Exchange Commission (SEC) of plans to launch a tokenized st… [+2051 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Isabelle Castro",
+        "title": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
+        "description": "Mercado Bitcoin customers can view their balances again a week after a $49 million hack, but withdrawals and trading remain suspended with no timeline.",
+        "url": "https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4GS2W4DFN9GTK5VFGEJ9190/cover-b415ec149cce052d.jpg",
+        "publishedAt": "2026-11-09T18:25:29Z",
+        "content": "Crypto exchange Mercado Bitcoin began restoring read-only access to customer accounts in phases on Monday, a week after attackers drained an estimated $49 million from the platform. The exchange has … [+2552 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
+        "description": "Bitcoin halts downside at $73,500 as stocks catch a bid despite ongoing events at Nvidia, with cooler oil prices spurring risk-asset upside.",
+        "url": "https://cointelegraph.com/markets/bitcoin-stocks-nvidia-analyst-68k-target",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M70K6JJA96WE7MYD336FM1EF/article-covers-262247-bitcoin-liquidations-top-dollar283m-after-short-squeeze-sends-btc-price-above-do-960x640.webp",
+        "publishedAt": "2026-11-09T17:13:25Z",
+        "content": "Bitcoin (BTC) returned above $75,000 after Mondays Wall Street open as tech stocks rebounded.\r\nKey points:\r\n<ul><li>Bitcoin bounced from 11-week lows of $73,500 on Monday as investors added tech-stoc… [+3532 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "NYSE Taps Avalanche to Settle Its Planned Tokenized Stock Platform",
+        "description": "Ava Labs said Avalanche will serve as the “core ledger technology” for the clearing firm behind the NYSE-affiliated venue, which aims to bring 24/7 trading, clearing and settlement of tokenized securities onchain.",
+        "url": "https://decrypt.co/382833/nyse-avalanche-settle-tokenized-stock-platform",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/stocks-gID_7.jpg",
+        "publishedAt": "2026-11-09T15:49:22Z",
+        "content": "In brief\r\n<ul><li>Ava Labs said Avalanche will provide the core ledger technology for the clearing firm behind an NYSE-affiliated tokenized securities platform, designed for 24/7 trading, clearing an… [+3087 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,71 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/11/north-korea-lazarus-group-dprk-hacker-decrypt-style-02-gID_7.jpg",
         "publishedAt": "2026-11-03T17:30:54Z",
         "content": "In brief\r\n<ul><li>North Korean hackers allegedly drained $6.3 billion from Binance last week, the largest crypto hack on record.</li><li>Their methods range from getting hired under fake identities t… [+8798 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price defends $76K lows as analysts see stocks pricing in ‘political gridlock’",
-        "description": "Bitcoin made modest gains at the start of Wall Street trading on Tuesday as markets awaited cues from the US midterm elections.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-defends-76k-lows-as-analysis-sees-stocks-pricing-in-political-gridlock",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6GYWTMJRC5WVDCDG7QCTRRJ/article-covers-180463-us-cpi-lower-expected-rate-cuts-coming-1280x853-960x640.webp",
-        "publishedAt": "2026-11-03T15:44:42Z",
-        "content": "Bitcoin (BTC) headed higher at Tuesdays Wall Street open as a tech-stock rebound under the shadow of uncertainty surrounding the US midterm elections.\r\nKey points:\r\n<ul><li>Bitcoin price action edged… [+3054 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
-        "description": "Moscow Exchange plans to launch Bitcoin, Ether and USDT trading on Dec. 1. An industry executive questions demand for the sanctioned venue.",
-        "url": "https://cointelegraph.com/news/moscow-exchange-bitcoin-ether-usdt-trading-december",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6GN6W7C4H29GR4MQT2Q1EN2/moscow-btc-eth-tether.png",
-        "publishedAt": "2026-11-03T13:15:47Z",
-        "content": "Moscow Exchange plans to launch trading in Bitcoin, Ether and Tethers USDT on Dec. 1, opening what it describes as Russias first organized digital currency market.\r\nThe exchange said Monday that pilo… [+2300 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "North Korea Denies $6.3B Binance Hack, Calls FBI Finding a 'Political Provocation'",
-        "description": "Kim Yo Jong suggested the U.S. itself could be behind the theft, as Binance said hourly deposits had begun to exceed withdrawals.",
-        "url": "https://decrypt.co/382394/north-korea-denies-6-3b-binance-hack-calls-fbi-finding-a-political-provocation",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-11-03T10:18:48Z",
-        "content": "In brief\r\n<ul><li>North Korea has denied it was behind the hack of Binance, with Kim Yo Jong calling U.S. accusations a \"sinister\" attempt to damage the country's image.</li><li>The FBI, the Secret S… [+4006 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
-        "description": "Bitcoin fell below the realized price of the one-to-three-month-old buyer cohort in a move that risked flipping it to new resistance.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-support-loss-recent-buyers-underwater",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4FX2DFZ8H6KSQP3M3F615T4/article-covers-246541-three-signs-bitcoin-price-near-full-capitulation-960x640.webp",
-        "publishedAt": "2026-11-03T10:04:05Z",
-        "content": "Bitcoin (BTC) risks turning $77,700 into new resistance as recent buyers fall into an aggregate loss, analysis warns.\r\nKey points:\r\n<ul><li>Bitcoin fell below $77,700, the cost basis of buyers from o… [+3004 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
-        "description": "ARK Invest added Coinbase and Circle shares across two trading sessions while selling about $8 million in Bullish as crypto stocks declined.",
-        "url": "https://cointelegraph.com/news/ark-buys-coinbase-circle-trims-bullish",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6G5EBKBSYS8ZPKKVS3JB9QS/cathie-wood2.jpg",
-        "publishedAt": "2026-11-03T08:35:13Z",
-        "content": "Cathie Woods ARK Invest is buying Coinbase and Circle shares as crypto stocks fall, while cutting its stake in crypto exchange operator Bullish.\r\nARK purchased crypto exchange Coinbase (COIN) shares … [+958 chars]"
       }
     ]
   }
