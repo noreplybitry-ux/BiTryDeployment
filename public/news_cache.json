@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-09T20:33:09.851Z",
+  "timestamp": "2026-11-10T03:19:19.260Z",
   "data": {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 37,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Riot Sells More Than 20,000 Bitcoin as AI Data-Centre Contracts Reach $38B",
+        "description": "Riot Platforms says it sold 20,264 BTC in the first nine months of 2026, raising about $1.5 billion primarily for data-centre development. Its latest…",
+        "url": "https://www.newsbtc.com/news/bitcoin/riot-sells-more-than-20-000-bitcoin-as-ai-data-centre-contracts-reach-38b/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-n07-04-bitcoin-mining-racks-illustrative-commons.jpg",
+        "publishedAt": "2026-11-09T00:00:00Z",
+        "content": "TL;DR: Riot Platforms says it sold 20,264 BTC in the first nine months of 2026, raising about $1.5 billion primarily for data-centre development. Its latest quarterly release puts long-term contracte… [+3679 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest",
+        "description": "Transactions are surging but fee revenue isn’t, which may be why Vitalik wants ETH to embrace a store of value narrative. Crypto industry weighs implications of Democratic sweep.",
+        "url": "https://cointelegraph.com/magazine/vitaliks-pivots-to-eth-as-a-store-of-value-us-election-weighs-on-crypto-hodlers-digest",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6YMNVH88N4KSXQB6XWMMW2K/screenshot-2026-11-09-093227.jpg",
+        "publishedAt": "2026-11-08T22:59:06Z",
+        "content": "Ethereum creator says ETH should be valued as an SoV\r\nEthereum creator Vitalik Buterin says the network should promote ETH as a store of value, rather than as an asset that derives value from burning… [+10480 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -459,45 +485,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6ER84KWFRV6AB54PVPNX1S9/oil-bitcoin-petrol-2-960x640-960x640.webp",
         "publishedAt": "2026-11-02T19:27:58Z",
         "content": "Bitcoin (BTC) returned below $77,000 after Mondays Wall Street open as crypto shrugged off hopes of a US-Iran peace deal.\r\nKey points:\r\n<ul><li>Bitcoin fell below $78,000 as WTI crude oil hit $95.15 … [+3798 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Brazil's Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack",
-        "description": "Brazil's largest crypto exchange paused deposits and withdrawals after a security incident. Tether froze more than 4.5 million USDT tied to the attack.",
-        "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/hacker3-gID_7.png",
-        "publishedAt": "2026-11-02T16:46:03Z",
-        "content": "In brief\r\n<ul><li>Mercado Bitcoin suspended deposits and withdrawals on Monday after a security incident, saying customers lost nothing and no data leaked.</li><li>Blockchain security firm Hypernativ… [+2726 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Binance hackers begin swapping stolen Solana tokens for Bitcoin: Chainalysis",
-        "description": "Crypto exchange Gate said it froze two linked accounts as US investigators urged platforms to block transactions tied to the $6.3 billion theft.",
-        "url": "https://cointelegraph.com/news/binance-hackers-solana-new-phase-laundering-chainalysis",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6DXS9W8ZYW0K2FAPP5WSEXQ/hi-hackers-fishing-1.jpg",
-        "publishedAt": "2026-11-02T12:40:45Z",
-        "content": "The hackers behind Binances $6.3 billion theft have begun converting stolen Solana tokens into Bitcoin after largely emptying the wallets used to launder funds on Tron, according to blockchain invest… [+2534 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "FBI Blames North Korea for $6B Binance Hack as Exchange Reopens Withdrawals",
-        "description": "Binance saw $3.64 billion in net outflows in the first nine and a half hours after reopening withdrawals, or 2.1% of its assets, it said.",
-        "url": "https://decrypt.co/382316/fbi-blames-north-korea-for-6b-binance-hack-as-exchange-reopens-withdrawals",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-11-02T10:36:19Z",
-        "content": "In brief\r\n<ul><li>The FBI said North Korea's TraderTraitor was responsible for the theft of more than $6 billion from Binance, and published hundreds of addresses linked to the hack.</li><li>Binance … [+5610 chars]"
       }
     ]
   }
