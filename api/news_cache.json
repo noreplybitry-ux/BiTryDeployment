@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-11-11T09:04:19.694Z",
+  "timestamp": "2026-11-11T17:47:33.208Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Yohan Yun",
+        "title": "Bitcoin’s ‘best buying opportunity ever’ has arrived: Mark Moss",
+        "description": "Bitcoin Opportunity Fund co-founder Mark Moss explains why investors should ignore Bitcoin’s performance this week and look ahead to a new record high in 2027.",
+        "url": "https://cointelegraph.com/magazine/bitcoins-best-buying-opportunity-ever-has-arrived-mark-moss",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M706AM1558Y70YWGC5XVGNF0/mark-moss-trade-secrets.png",
+        "publishedAt": "2026-11-10T13:30:00Z",
+        "content": "Wall Streets embrace of Bitcoin has created the best buying opportunity ever, according to investor Mark Moss.\r\nMoss co-founded the Bitcoin Opportunity Fund, where he is an advisory partner. In 2025,… [+4786 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin could dip to $67k amid $1.3 billion ETF outflows",
+        "description": "Key takeaways Bitcoin (BTC) trading volume surged more than 200% over 24 hours as the cryptocurrency fell toward $75,000.  US spot Bitcoin ETFs recorded approximately $1.3 billion in weekly net outflows, while the Crypto Fear and Greed Index dropped to 28.  B…",
+        "url": "https://coinjournal.net/news/bitcoin-could-dip-to-67k-amid-1-3-billion-etf-outflows/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Mountain-Bull-Overlook.png",
+        "publishedAt": "2026-11-10T09:31:10Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin (BTC) trading volume surged more than 200% over 24 hours as the cryptocurrency fell toward $75,000. </li><li>US spot Bitcoin ETFs recorded approximately $1.3 billion in… [+4205 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum risks falling to $1,970 as Buterin challenges ETH fee-burning narrative",
+        "description": "Key takeaways Ethereum (ETH) is up 1.3% on Tuesday as co-founder Vitalik Buterin sparked debate over the cryptocurrency’s long-term value proposition. Bitmine Immersion Technologies acquired another 9,587 ETH, increasing its holdings to 6.07 million tokens, r…",
+        "url": "https://coinjournal.net/news/ethereum-risks-falling-to-1970-as-buterin-challenges-eth-fee-burning-narrative/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2024/07/1x-1.jpg",
+        "publishedAt": "2026-11-10T09:15:47Z",
+        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) is up 1.3% on Tuesday as co-founder Vitalik Buterin sparked debate over the cryptocurrency’s long-term value proposition.</li><li>Bitmine Immersion Technologies … [+6226 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,58 +433,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Institutional-Investors-Queue-for-Ethereum-ETF-Withdrawals.png",
         "publishedAt": "2026-11-04T07:57:41Z",
         "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) has reclaimed $2,300 after falling below its realized price of $2,309 following the $6.3 billion Binance hack.</li><li>US spot Ethereum ETFs recorded their seven… [+4850 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
-        "description": "Bitcoin price action saw downside volatility as US midterm election voting results showed a Democratic sweep of the House and Senate.",
-        "url": "https://cointelegraph.com/markets/bitcoin-bounces-from-7-week-low-under-76k-as-democrats-eye-congress-sweep",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6JMY7XMBZ97KS5GW9AD860J/regulation-papers-960x640.webp",
-        "publishedAt": "2026-11-04T07:25:47Z",
-        "content": "Bitcoin (BTC) sought to erase 3% overnight losses on Wednesday as crypto markets digested the Democratic sweep of the midterm elections.\r\nKey points:\r\n<ul><li>Bitcoin fell to $75,618 as Democrats won… [+3370 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "US midterms election 2026 live: What they mean for crypto",
-        "description": "Follow live coverage of the 2026 US midterm elections, including key congressional races, crypto-backed candidates and what the results could mean for digital asset regulation.",
-        "url": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6HNW6N1NESPPP9VWMSTMCKP/hi-can-polymarket-and-augur-predict-the-next-us-elections2.jpg",
-        "publishedAt": "2026-11-03T23:01:32Z",
-        "content": "Within the next few hours, we will begin to learn whether President Donald Trumps Republican Party has managed to retain control of the US Congress, determining his ability to advance his legislative… [+6273 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Crypto Docs Host GitBook Hit by AI Agent Security Breach, Urges Users to Rotate Keys",
-        "description": "GitBook says attackers accessed infrastructure credentials in an AI-assisted breach, prompting a shutdown and emergency token resets.",
-        "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
-        "publishedAt": "2026-11-03T19:46:03Z",
-        "content": "In brief\r\n<ul><li>GitBook disclosed a targeted cyberattack involving AI agents that gave an attacker unauthorized access to some of its infrastructure credentials on November 2.</li><li>Potentially e… [+5249 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Brazil's Biggest Bitcoin Exchange Says It Will Refund Users After a $40 Million Hack",
-        "description": "Mercado Bitcoin says customers won't pay for a hack that drained tens of millions. Withdrawals on the exchange remain frozen with no restart date.",
-        "url": "https://decrypt.co/382459/brazil-mercado-bitcoin-will-refund-users-40-million-hack",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png",
-        "publishedAt": "2026-11-03T18:16:03Z",
-        "content": "In brief\r\n<ul><li>Mercado Bitcoin, Brazil's largest crypto exchange, says its customers won't bear the cost of a hack that hit its systems on November 2.</li><li>Loss estimates differ: the exchange s… [+3463 chars]"
       }
     ]
   }
