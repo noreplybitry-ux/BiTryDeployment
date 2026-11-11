@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-11T01:07:53.858Z",
+  "timestamp": "2026-11-11T09:04:19.694Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Crypto exchanges need hard dollar caps on hot wallets, CertiK says",
+        "description": "CertiK says crypto exchanges should impose hard dollar limits on hot wallets rather than relying solely on cold-storage ratios following Binance’s $6.3 billion hack.",
+        "url": "https://cointelegraph.com/news/crypto-exchanges-need-dollar-caps-on-hot-wallets-certik",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M71XK0AKCR5VV61ST5J6AGKW/cold-wallet-1.jpg",
+        "publishedAt": "2026-11-10T05:05:58Z",
+        "content": "Crypto exchanges should impose hard dollar limits on their hot-wallet holdings rather than relying solely on cold-storage ratios to measure security, according to cybersecurity firm CertiK.\r\nThe reco… [+2199 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png",
         "publishedAt": "2026-11-03T18:16:03Z",
         "content": "In brief\r\n<ul><li>Mercado Bitcoin, Brazil's largest crypto exchange, says its customers won't bear the cost of a hack that hit its systems on November 2.</li><li>Loss estimates differ: the exchange s… [+3463 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Ryan Gladwin",
-        "title": "Five Ways North Korea Breaks Into Crypto Firms—and How Binance Was Hacked",
-        "description": "From AI deepfakes to poisoning code libraries: here's how North Korean hackers get inside crypto companies.",
-        "url": "https://decrypt.co/382420/five-ways-north-korea-breaks-into-crypto-firms-and-how-binance-was-hacked",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/11/north-korea-lazarus-group-dprk-hacker-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-11-03T17:30:54Z",
-        "content": "In brief\r\n<ul><li>North Korean hackers allegedly drained $6.3 billion from Binance last week, the largest crypto hack on record.</li><li>Their methods range from getting hired under fake identities t… [+8798 chars]"
       }
     ]
   }
