@@ -1,10 +1,62 @@
 {
   "version": 3,
-  "timestamp": "2026-11-12T17:28:26.821Z",
+  "timestamp": "2026-11-12T23:24:19.999Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Stablecoin Drain, ETF Outflows Leave Bitcoin 'Running on Empty'",
+        "description": "Stablecoin supply fell $14.2 billion in 30 days, the fastest contraction since June 2022, amid weak ETF demand.",
+        "url": "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg",
+        "publishedAt": "2026-11-11T21:46:03Z",
+        "content": "In brief\r\n<ul><li>Total stablecoin supply fell by $14.2 billion over 30 days through Nov. 9, its fastest drop since June 2022, according to Glassnode.</li><li>U.S. spot Bitcoin ETFs saw about $1.6 bi… [+2475 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Nomura explores sale of crypto unit Laser Digital: Bloomberg",
+        "description": "Nomura is reportedly considering selling its crypto subsidiary Laser Digital following trading losses, despite recent regulatory approvals in Japan and the US.",
+        "url": "https://cointelegraph.com/news/nomura-sale-crypto-unit-laser-digital",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M763TD8E1ZBRMPTMFSD5YQ3A/bithumb-acquisition-deal-off-2.png",
+        "publishedAt": "2026-11-11T21:36:01Z",
+        "content": "Japanese financial services giant Nomura Holdings is reportedly weighing a sale of its cryptocurrency subsidiary Laser Digital as Nomuras European operations continue to post losses.\r\nNomura has held… [+1605 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Deutsche Bank Goes Live With Crypto Custody After a Five-Year Buildup",
+        "description": "Deutsche Bank’s custody service now holds Bitcoin, Ethereum and three stablecoins for institutional and corporate clients in Europe.",
+        "url": "https://decrypt.co/383067/deutsche-bank-goes-live-with-crypto-custody-after-a-five-year-buildup",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-11-11T19:06:02Z",
+        "content": "In brief\r\n<ul><li>Deutsche Banks Digital Asset Custody service is live for paying institutional and corporate clients in Europe, supporting Bitcoin, Ethereum, USDC, EURC and EURAU.</li><li>The bank s… [+2903 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Faces First Back-to-Back Annual Losses in History, But There's a Catch",
+        "description": "Bitcoin is heading toward its first consecutive losing years, breaking an 18-year pattern. But there's some nuance in the data.",
+        "url": "https://decrypt.co/383049/bitcoin-first-back-to-back-annual-losses-history",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-mountain-decrypt-style-gID_7.png",
+        "publishedAt": "2026-11-11T17:56:02Z",
+        "content": "In brief\r\n<ul><li>Bitcoin lost 6.34% in 2025 and is down roughly 16% in 2026, putting it on track for its first two consecutive negative calendar years.</li><li>The combined decline is around 21%, fa… [+3805 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,58 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6R5FQT9G760GWMQ4WKS1P1T/storage-crypto-tokens.png",
         "publishedAt": "2026-11-06T10:47:33Z",
         "content": "South Korean crypto exchange GOPAX suspended trading, deposits and standard withdrawals Friday after receiving an email threatening a hack, according to local newspaper Kyunghyang Shinmun.\r\nA GOPAX r… [+1841 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Crypto exchanges tout cold storage ratios after Binance attack",
-        "description": "Crypto exchanges, including Coinbase, Gate and Upbit, have confirmed their cold storage holdings after Binance’s record $6.3 billion hack.",
-        "url": "https://cointelegraph.com/news/binance-hack-puts-crypto-exchanges-cold-wallet-ratio-under-spotlight",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6QCQ9E3FBH5XSMVA720JM6M/cold-storage.jpg",
-        "publishedAt": "2026-11-06T05:07:00Z",
-        "content": "Crypto exchanges were quick to reassure users following the attack on Binances hot wallet infrastructure last week, with several companies disclosing how they divide assets between cold storage and i… [+3337 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express",
-        "description": "Asian crypto exchanges are scrambling to tighten security on fears of a wave of potentially AI-assisted hacks, even as regional governments embrace tokenization and stablecoins.",
-        "url": "https://cointelegraph.com/magazine/asian-crypto-exchanges-bunker-down-as-hacks-surge-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RR0R87D4ZNY7FB45GN96P2/magazineasia-expressriver.jpg",
-        "publishedAt": "2026-11-05T22:18:42Z",
-        "content": "India warns AI-powered hackers targeting crypto exchanges at machine speed\r\nIndias national cybersecurity agency warned that an AI-assisted threat actor has escalated its attacks on cryptocurrency ex… [+8372 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jona Jaupi",
-        "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
-        "description": "US regulators reportedly contacted banks following last week’s $6.3 billion Binance security hack, while experts raised concerns about transaction security and crypto risks.",
-        "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6PFFXJ4XKPEQ9E1ESY0C401/two-men-with-badges.png",
-        "publishedAt": "2026-11-05T18:32:45Z",
-        "content": "US regulators reportedly contacted banks following last weeks $6.3 billion Binance hack, as cybersecurity experts raised concerns about how financial institutions handle crypto-related security risks… [+3618 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Ryan Gladwin",
-        "title": "Democrats to Push Broader Crypto Market Structure Bill After Sweeping US Midterms: Report",
-        "description": "Analysts said that the Clarity Act's path has become tougher, while advocacy group Stand With Crypto has endorsed 27 winning candidates so far.",
-        "url": "https://decrypt.co/382602/democrats-to-push-broader-crypto-market-structure-bill-after-sweeping-us-midterms-report",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
-        "publishedAt": "2026-11-05T16:37:20Z",
-        "content": "In brief\r\n<ul><li>House Democrats reportedly plan to expand Maxine Waters Crypto Investor Consumer Bill of Rights into a broader market structure bill that would give the SEC more oversight.</li><li>… [+5024 chars]"
       }
     ]
   }
