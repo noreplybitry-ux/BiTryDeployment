@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-12T08:05:09.250Z",
+  "timestamp": "2026-11-12T17:28:26.821Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "eToro Q3 Profit Drops 74% as Crypto Trading Activity Slows",
+        "description": "eToro reported third-quarter net income of about $15 million, down from $57 million a year earlier, as crypto-related activity weakened. Its…",
+        "url": "https://www.newsbtc.com/business/etoro-q3-2026-profit-crypto-trading-decline/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/N10-18_etoro-q3-2026-profit-crypto-trading-decline.png",
+        "publishedAt": "2026-11-11T11:00:00Z",
+        "content": "TL;DR: eToro reported third-quarter net income of about $15 million, down from $57 million a year earlier, as crypto-related activity weakened. Its funded-account base continued to grow, highlighting… [+3619 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "SEC enforcement actions fall 24%, crypto cases in spotlight",
+        "description": "The SEC filed 348 actions in fiscal 2026, down from 456 a year earlier. Cases included alleged Bitcoin mining fraud and an FTX audit settlement.",
+        "url": "https://cointelegraph.com/news/sec-crypto-cases-enforcement-actions-fall-23-2025",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M74RCY03VD26P3VVM8SW3SGD/tracking-supervision-security-people.jpg",
+        "publishedAt": "2026-11-11T08:43:30Z",
+        "content": "The US Securities and Exchange Commission (SEC) filed 348 enforcement actions in fiscal 2026, down 23.7% from 456 a year earlier. \r\nIts annual enforcement results included cases involving alleged cry… [+1572 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-america-decrypt-style-02-gID_7.png",
         "publishedAt": "2026-11-05T16:37:20Z",
         "content": "In brief\r\n<ul><li>House Democrats reportedly plan to expand Maxine Waters Crypto Investor Consumer Bill of Rights into a broader market structure bill that would give the SEC more oversight.</li><li>… [+5024 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Thailand to block Bitget in December over unlicensed crypto trading",
-        "description": "Thailand will block access to Bitget from Dec. 5 after its securities regulator filed a criminal complaint against the exchange’s operator.",
-        "url": "https://cointelegraph.com/news/thailand-block-bitget-december-unlicensed-crypto-trading",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6NPN42BG6Z4FSAM7R35THVD/hi-bitget-research-article-350000-crypto-currency-traders-in-japan-bitget-research-2.jpg",
-        "publishedAt": "2026-11-05T11:33:20Z",
-        "content": "Thailands securities regulator has filed a criminal complaint against BG Limited, the operator of cryptocurrency exchange Bitget, for allegedly operating without a license.\r\nThailands Securities and … [+1187 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Dogecoin eyes $0.0806 breakout as DOGE recovers despite weak ETF demand",
-        "description": "Key takeaways Dogecoin (DOGE) trades near $0.0770 on Thursday, extending its recovery after two consecutive sessions of gains. Dogecoin ETFs have recorded no new inflows since October 14, reflecting subdued institutional demand. DOGE has reclaimed its four-ho…",
-        "url": "https://coinjournal.net/news/dogecoin-eyes-0-0806-breakout-as-doge-recovers-despite-weak-etf-demand/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Golden-Retriever-Frisbee-Leap.png",
-        "publishedAt": "2026-11-05T10:25:28Z",
-        "content": "Key takeaways\r\n<ul><li>Dogecoin (DOGE) trades near $0.0770 on Thursday, extending its recovery after two consecutive sessions of gains.</li><li>Dogecoin ETFs have recorded no new inflows since Octobe… [+5124 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
-        "description": "Mercado Bitcoin plans to restore limited account access after a $46 million hack and says it will use company funds to replace affected assets.",
-        "url": "https://cointelegraph.com/news/mercado-bitcoin-phased-reopening-to-begin-monday-pledges-to-cover-losses",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6MCS6V48YKBXE34JHPKFCDG/hi-gate-io-5.jpg",
-        "publishedAt": "2026-11-04T23:20:17Z",
-        "content": "Brazilian crypto exchange Mercado Bitcoin said it will begin restoring customer account access Monday after a hack that blockchain analysts estimated resulted in more than $46 million in stolen asset… [+1038 chars]"
       }
     ]
   }
