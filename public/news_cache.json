@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-11T17:47:33.208Z",
+  "timestamp": "2026-11-12T00:19:49.959Z",
   "data": {
     "status": "ok",
     "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Isabelle Castro",
+        "title": "Mercado Bitcoin to resume cash withdrawals after $49M hack",
+        "description": "Mercado Bitcoin will reopen Pix deposits and withdrawals next week after a $49 million hack, while crypto trading and transfers stay suspended.",
+        "url": "https://cointelegraph.com/news/pix-withdrawals-resume-mercado-bitcoin-hack",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M732NFDQVGSJE1VGENNVNKQT/trading-app-crypto-messenger-phone.jpg",
+        "publishedAt": "2026-11-10T18:12:07Z",
+        "content": "Crypto exchange Mercado Bitcoin will resume deposits and withdrawals in Brazilian reais via Pix, the countrys instant payment system, next week, a company representative told Cointelegraph. The resta… [+1499 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -420,19 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6JYK2EH5NQHTWBFQ5A01VV5/hi-biggest-disappointments-in-crypto-in-2021.jpg",
         "publishedAt": "2026-11-04T11:11:57Z",
         "content": "Binances $6.3 billion hack could temporarily hurt confidence in crypto markets but would ultimately lead to stronger security practices across exchanges, according to Grayscale.\r\nIt also underscores … [+1334 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Ethereum reclaims $2,300 as $1.61B ETF outflows weigh on recovery",
-        "description": "Key takeaways Ethereum (ETH) has reclaimed $2,300 after falling below its realized price of $2,309 following the $6.3 billion Binance hack. US spot Ethereum ETFs recorded their seventh consecutive trading day of outflows on Tuesday. ETH faces immediate suppor…",
-        "url": "https://coinjournal.net/news/ethereum-reclaims-2300-as-1-61b-etf-outflows-weigh-on-recovery/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Institutional-Investors-Queue-for-Ethereum-ETF-Withdrawals.png",
-        "publishedAt": "2026-11-04T07:57:41Z",
-        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) has reclaimed $2,300 after falling below its realized price of $2,309 following the $6.3 billion Binance hack.</li><li>US spot Ethereum ETFs recorded their seven… [+4850 chars]"
       }
     ]
   }
