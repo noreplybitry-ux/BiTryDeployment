@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-12T23:24:19.999Z",
+  "timestamp": "2026-11-13T05:58:29.896Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
+        "description": "The move follows recent security incidents involving South Korean crypto exchanges, including GOPAX’s precautionary suspension of services and a $70,000 hot-wallet breach at Prabang.",
+        "url": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M597BM0AMWQ1YPAXSBBRRVZN/south-korea-1.jpg",
+        "publishedAt": "2026-11-12T05:54:48Z",
+        "content": "South Koreas Financial Services Commission (FSC) plans to allow crypto exchanges to suspend deposits and withdrawals when hacking is suspected, rather than waiting until a breach is confirmed, amid a… [+1339 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack",
+        "description": "In a July interview, Binance chief security officer Jimmy Su explained how fake coding assessments could compromise employee devices, a tactic later used in the exchange’s record-breaking hack.",
+        "url": "https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M772C3WKZ2V15SYTV41CF4T1/hi-a-fake-crypto-job-interview-nearly-installed-malware-on-my-computer.jpg",
+        "publishedAt": "2026-11-12T05:07:11Z",
+        "content": "Months before Binance lost $6.3 billion to a hack, its chief security officer described to Cointelegraph how a fake job interview could give attackers a foothold inside the exchange closely resemblin… [+3876 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RFZC8EDJXT26642DWHC0EV/hi-the-crypto-act-explained-nigeria-1.jpg",
         "publishedAt": "2026-11-06T13:57:14Z",
         "content": "Nigerias central bank has introduced new licensing and reserve requirements for cryptocurrency companies, tightening oversight of stablecoins and digital asset payment services in one of Africas larg… [+2466 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "GOPAX halts crypto trading, withdrawals to move all assets to cold storage",
-        "description": "South Korea’s GOPAX suspended trading, deposits and standard withdrawals after a hacking threat, with manual withdrawals available through support.",
-        "url": "https://cointelegraph.com/news/gopax-halts-crypto-trading-withdrawals-cold-storage",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6R5FQT9G760GWMQ4WKS1P1T/storage-crypto-tokens.png",
-        "publishedAt": "2026-11-06T10:47:33Z",
-        "content": "South Korean crypto exchange GOPAX suspended trading, deposits and standard withdrawals Friday after receiving an email threatening a hack, according to local newspaper Kyunghyang Shinmun.\r\nA GOPAX r… [+1841 chars]"
       }
     ]
   }
