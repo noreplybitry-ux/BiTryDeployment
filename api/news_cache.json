@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-11-13T05:58:29.896Z",
+  "timestamp": "2026-11-13T14:27:36.524Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "SoFi Brings Its Bank-Issued Stablecoin to Polygon’s Payments Stack",
+        "description": "SoFiUSD, the first stablecoin from a U.S. national bank, is now live on Polygon Open Money Stack alongside Ethereum and Solana.",
+        "url": "https://decrypt.co/383096/sofi-brings-bank-issued-stablecoin-polygon-payments-stack",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-11-12T14:01:02Z",
+        "content": "In brief\r\n<ul><li>SoFi expanded SoFiUSDthe first stablecoin issued by a U.S. national bankto Polygons Open Money Stack, adding Polygon alongside Ethereum and Solana.</li><li>The move pushes SoFiUSD f… [+2920 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum eyes $2k amid BitMine’s $6.3 billion loss",
+        "description": "Key takeaways Ethereum (ETH) is down 1.7% on Thursday, approaching the $2,000 psychological level.  Ethereum treasury company BitMine Immersion Technologies reported a $6.3 billion annual net loss, largely driven by $6.23 billion in unrealized losses on its d…",
+        "url": "https://coinjournal.net/news/ethereum-eyes-2k-amid-bitmines-6-3-billion-loss/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Ethereum-Coin-on-a-Sleeping-Bear.png",
+        "publishedAt": "2026-11-12T09:39:56Z",
+        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) is down 1.7% on Thursday, approaching the $2,000 psychological level. </li><li>Ethereum treasury company BitMine Immersion Technologies reported a $6.3 billion a… [+3808 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
+        "description": "BlackRock’s IBIT has lost more than $2 billion over nine consecutive trading sessions, while broader US spot Bitcoin ETFs recorded nearly $1.44 billion in withdrawals over five days.",
+        "url": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-ibit-outflows-nine-day-streak",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M77BC08M1JK1359QWDPVF1FQ/blackrock-2-billion.png",
+        "publishedAt": "2026-11-12T08:06:48Z",
+        "content": "BlackRocks spot Bitcoin exchange-traded fund (ETF), the iShares Bitcoin Trust (IBIT), recorded more than $2 billion in net outflows over nine consecutive trading sessions through Wednesday.\r\nInvestor… [+1393 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +433,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Treasury-Department1-gID_7.jpg",
         "publishedAt": "2026-11-06T17:42:31Z",
         "content": "In brief\r\n<ul><li>The U.S. Treasury sanctioned four individuals and 41 entities it says support Prince Group, a Cambodian conglomerate accused of running crypto scam compounds.</li><li>The targets in… [+4207 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Crypto Card Provider Gnosis Pay Says Hackers Accessed Customer Data",
-        "description": "Gnosis Pay said hackers accessed customer information on the legacy system behind its branded cards, though funds weren’t affected and its enterprise card platform was untouched.",
-        "url": "https://decrypt.co/382718/crypto-card-provider-gnosis-pay-hackers-customer-data",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/crypto-credit-cards-mastercard-visa-gID_7.jpg",
-        "publishedAt": "2026-11-06T16:41:29Z",
-        "content": "In brief\r\n<ul><li>Gnosis Pay detected unauthorized access on Nov. 3 to the system powering its own branded cards, exposing some customer information. The company says funds werent affected.</li><li>T… [+3437 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
-        "description": "Nigeria has banned algorithmic stablecoins and introduced reserve requirements for issuers as it expands central bank oversight of crypto payment services.",
-        "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RFZC8EDJXT26642DWHC0EV/hi-the-crypto-act-explained-nigeria-1.jpg",
-        "publishedAt": "2026-11-06T13:57:14Z",
-        "content": "Nigerias central bank has introduced new licensing and reserve requirements for cryptocurrency companies, tightening oversight of stablecoins and digital asset payment services in one of Africas larg… [+2466 chars]"
       }
     ]
   }
