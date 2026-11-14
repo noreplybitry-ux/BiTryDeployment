@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-14T09:58:54.560Z",
+  "timestamp": "2026-11-14T16:31:31.085Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Israeli police arrest five in $5M WhatsApp crypto trading probe",
+        "description": "Israeli police arrested five people in a $5 million investigation involving a WhatsApp crypto trading group that allegedly disguised proceeds as loans.",
+        "url": "https://cointelegraph.com/news/israel-police-arrest-five-5m-whatsapp-crypto-scheme",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7A9KC13WNDH9B0FYB99Y1X5/hi-fundraising-101-a-beginners-guide-on-raising-funds-using-cryptocurrencies-israel.jpg",
+        "publishedAt": "2026-11-13T12:19:01Z",
+        "content": "Israeli police arrested five people on Tuesday in a money laundering investigation involving about 16 million shekels ($5 million) in crypto transactions arranged through a WhatsApp group.\r\nInvestiga… [+1177 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2M5WQHM74XV1CTRDCQ9ZXS3/bitcoin-etf-4.jpg",
         "publishedAt": "2026-11-09T08:17:35Z",
         "content": "US spot Bitcoin exchange-traded funds (ETFs) recorded $1.28 billion in net outflows last week, their largest weekly withdrawals since late June.\r\nThe withdrawals brought the funds net outflows for th… [+2283 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Riot Sells More Than 20,000 Bitcoin as AI Data-Centre Contracts Reach $38B",
-        "description": "Riot Platforms says it sold 20,264 BTC in the first nine months of 2026, raising about $1.5 billion primarily for data-centre development. Its latest…",
-        "url": "https://www.newsbtc.com/news/bitcoin/riot-sells-more-than-20-000-bitcoin-as-ai-data-centre-contracts-reach-38b/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-n07-04-bitcoin-mining-racks-illustrative-commons.jpg",
-        "publishedAt": "2026-11-09T00:00:00Z",
-        "content": "TL;DR: Riot Platforms says it sold 20,264 BTC in the first nine months of 2026, raising about $1.5 billion primarily for data-centre development. Its latest quarterly release puts long-term contracte… [+3679 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest",
-        "description": "Transactions are surging but fee revenue isn’t, which may be why Vitalik wants ETH to embrace a store of value narrative. Crypto industry weighs implications of Democratic sweep.",
-        "url": "https://cointelegraph.com/magazine/vitaliks-pivots-to-eth-as-a-store-of-value-us-election-weighs-on-crypto-hodlers-digest",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6YMNVH88N4KSXQB6XWMMW2K/screenshot-2026-11-09-093227.jpg",
-        "publishedAt": "2026-11-08T22:59:06Z",
-        "content": "Ethereum creator says ETH should be valued as an SoV\r\nEthereum creator Vitalik Buterin says the network should promote ETH as a store of value, rather than as an asset that derives value from burning… [+10480 chars]"
       }
     ]
   }
