@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-13T21:19:13.640Z",
+  "timestamp": "2026-11-14T02:06:10.281Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Russia Sets November 22 Start for Exchange Crypto Trading, Subject to Approval",
+        "description": "Russia’s central bank has set November 22 as the earliest start under new exchange trading rules, with each venue’s rulebook requiring regulatory concurrence.",
+        "url": "https://www.newsbtc.com/regulation/russia-exchange-crypto-trading-november-22-rules/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/N12-08_russia-exchange-crypto-trading-november-22-rules.png",
+        "publishedAt": "2026-11-12T22:00:00Z",
+        "content": "TL;DR: Russian exchanges may begin cryptocurrency trading from November 22 if their trading rules receive the Bank of Russias concurrence. The November 11 announcement sets operating requirements for… [+3930 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Nate Kostar",
+        "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
+        "description": "Strategy shares declined Thursday following MSCI’s decision to remove the company from its indexes, as Bitcoin also fell amid a broader crypto market decline.",
+        "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M78SKXFN30X2QXCVG2NCJ1VY/hi-how-strategyb-turned-k-into-m-using-a-high-risk-high-precision-strategy.png",
+        "publishedAt": "2026-11-12T21:52:04Z",
+        "content": "Shares of Michael Saylors Bitcoin treasury company Strategy fell 6.49% on Thursday, closing at $114.41, a day after MSCI confirmed the companys removal from its global equity indexes and amid a broad… [+1856 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,45 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2025/12/a_1ea311.jpg",
         "publishedAt": "2026-11-07T14:00:00Z",
         "content": "TL;DR: Strive reported $509 million in third-quarter GAAP net income and said it purchased 8,136 BTC during the quarter, followed by another 15,124 BTC between October 1 and October 30. Its financing… [+3669 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
-        "description": "FinCEN’s order, part of Operation Economic Outcast, bars U.S. institutions from any transfers to or from MEXC, which Treasury says facilitated $16 billion in illicit finance tied to Iran, North Korea and Russia.",
-        "url": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/scott-bessent-decrypt-style-1-gID_7.jpg",
-        "publishedAt": "2026-11-06T21:06:03Z",
-        "content": "In brief\r\n<ul><li>The U.S. Treasurys FinCEN issued an order cutting MEXC Global, a top-20 crypto exchange, off from the U.S. financial system, accusing it of facilitating at least $16 billion in illi… [+3438 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Isabelle Castro",
-        "title": "Binance hack is ‘cyber war,’ TRM Labs executive says",
-        "description": "TRM Labs executive Ari Redbord called for governments to take offensive action against North Korean hackers following the record $6.3 billion Binance theft.",
-        "url": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6MAGXTEN3YDD171XWZ849SA/hacked-with-trm-logo.png",
-        "publishedAt": "2026-11-06T20:36:25Z",
-        "content": "The $6.3 billion Binance hack sent shockwaves through the crypto industry. Following a series of increasingly severe cybersecurity incidents, the attack on the worlds biggest crypto exchange demonstr… [+3379 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
-        "description": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December.",
-        "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6RZKYX3G2AZB93NGGBV65NX/digital-bank-russia.png",
-        "publishedAt": "2026-11-06T18:47:45Z",
-        "content": "Russias central bank has finalized rules allowing exchanges to offer Bitcoin (BTC), Ether (ETH) and Tether USDt (USDT) to retail investors starting Nov. 17.\r\nUnder the rules, non-qualified investors … [+1650 chars]"
       }
     ]
   }
