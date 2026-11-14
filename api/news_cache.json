@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-14T16:31:31.085Z",
+  "timestamp": "2026-11-14T21:14:06.185Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "JPMorgan’s Bitcoin and Crypto-Linked Holdings Approach $1 Billion",
+        "description": "The bank’s Q3 13F shows roughly $981 million across Bitcoin ETFs, Strategy and Coinbase—likely over $1 billion counting Robinhood and miners.",
+        "url": "https://decrypt.co/383267/jpmorgan-bitcoin-crypto-linked-holdings-approach-1-billion",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/jp-morgan-jamie-dimon-decrypt-style-01-gID_7.png",
+        "publishedAt": "2026-11-13T20:16:03Z",
+        "content": "In brief\r\n<ul><li>JPMorgans Q3 13F filing shows it held roughly $981 million across spot Bitcoin ETFs, Strategy and Coinbase as of Sept. 30close to $1 billion, and likely past it counting Robinhood a… [+3154 chars]"
+      },
       {
         "source": {
           "id": null,
