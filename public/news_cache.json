@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-11-16T01:43:04.468Z",
+  "timestamp": "2026-11-16T09:17:44.989Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
       {
         "source": {
@@ -394,19 +394,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
         "publishedAt": "2026-11-09T11:50:36Z",
         "content": "In brief\r\n<ul><li>Coinbase has received final approval from the Office of the Comptroller of the Currency to charter Coinbase National Trust Company.</li><li>The charter brings Coinbase's institution… [+3138 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
-        "description": "Investors pulled a net $1.21 billion from BlackRock’s IBIT last week as Bitcoin fell below $76,000 and US technology stocks sold off.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etfs-13b-biggest-weekly-outflow-late-june",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2M5WQHM74XV1CTRDCQ9ZXS3/bitcoin-etf-4.jpg",
-        "publishedAt": "2026-11-09T08:17:35Z",
-        "content": "US spot Bitcoin exchange-traded funds (ETFs) recorded $1.28 billion in net outflows last week, their largest weekly withdrawals since late June.\r\nThe withdrawals brought the funds net outflows for th… [+2283 chars]"
       }
     ]
   }
