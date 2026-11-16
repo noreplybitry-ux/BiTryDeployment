@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-16T09:17:44.989Z",
+  "timestamp": "2026-11-16T20:09:45.446Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Stablecoin Supply Shrinkage Raises a Bigger Question About Crypto Liquidity",
+        "description": "Crypto investors spend plenty of time staring at Bitcoin charts, but one of the more revealing signals this month may be the amount of dollar-backed stablecoins circulating across the market. Recent data suggests that the combined supply of major stablecoins …",
+        "url": "https://www.newsbtc.com/crypto-news/stablecoin-supply-contracts-crypto-liquidity-november-2026/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-04_cover.jpg",
+        "publishedAt": "2026-11-15T20:00:00Z",
+        "content": "Crypto investors spend plenty of time staring at Bitcoin charts, but one of the more revealing signals this month may be the amount of dollar-backed stablecoins circulating across the market. Recent … [+3480 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+        "description": "Bitcoin dropped to a four-month low near $62,000 before rebounding above $65,000, as crypto markets extended losses amid extreme fear and ETF outflows.",
+        "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7FBMZXNH6CNG3W9M8RNBHCN/hi-meet-the-trader-who-lost-bitcoin-bear-market.jpg",
+        "publishedAt": "2026-11-15T10:23:17Z",
+        "content": "Bitcoin fell to a four-month low near $62,000 on Sunday, extending a selloff across major digital assets before recovering some of its losses.\r\nOn Sunday, Bitcoin (BTC) dropped to a 24-hour low of $6… [+1173 chars]"
+      },
       {
         "source": {
           "id": null,
