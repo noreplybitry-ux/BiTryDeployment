@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-17T12:57:19.150Z",
+  "timestamp": "2026-11-17T21:40:08.778Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+        "description": "Bitcoin and US equities saw pressure to start the week as traders weighed the impact of forthcoming Nvidia Q3 earnings and Anthropic’s IPO announcement.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-fails-to-hold-65k-us-stocks-drop-on-ai-nerves",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7JHP4NCX2Y0XJ53GG2CQ9P5/article-covers-251323-bitcoin-market-enters-full-capitulation-price-dips-below-63k-1280x853.webp",
+        "publishedAt": "2026-11-16T16:26:52Z",
+        "content": "Bitcoin (BTC) struggled to stay above $65,000 at Mondays Wall Street open as tech-stock weakness dragged US equities lower.\r\nKey points:\r\n<ul><li>Crypto markets followed US stocks downward as AI sect… [+3580 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Tyler Warner",
+        "title": "Morning Minute: Crypto Hits Extreme Fear as Bitcoin Plunges",
+        "description": "Why is crypto selling off so hard over the past few weeks? CZ chimes in with his thoughts, while confirming he and Binance aren’t selling.",
+        "url": "https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "publishedAt": "2026-11-16T13:23:17Z",
+        "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+6905 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,45 +407,6 @@
         "urlToImage": "https://coinjournal.net/wp-content/uploads/2024/07/1x-1.jpg",
         "publishedAt": "2026-11-10T09:15:47Z",
         "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) is up 1.3% on Tuesday as co-founder Vitalik Buterin sparked debate over the cryptocurrency’s long-term value proposition.</li><li>Bitmine Immersion Technologies … [+6226 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Crypto exchanges need hard dollar caps on hot wallets, CertiK says",
-        "description": "CertiK says crypto exchanges should impose hard dollar limits on hot wallets rather than relying solely on cold-storage ratios following Binance’s $6.3 billion hack.",
-        "url": "https://cointelegraph.com/news/crypto-exchanges-need-dollar-caps-on-hot-wallets-certik",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M71XK0AKCR5VV61ST5J6AGKW/cold-wallet-1.jpg",
-        "publishedAt": "2026-11-10T05:05:58Z",
-        "content": "Crypto exchanges should impose hard dollar limits on their hot-wallet holdings rather than relying solely on cold-storage ratios to measure security, according to cybersecurity firm CertiK.\r\nThe reco… [+2199 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Formation Securities plans Solana stock trading venue under SEC exemption",
-        "description": "The proposed venue would offer 24/7 trading of tokenized shares from Galaxy Digital, Exodus and Forward Industries, with a launch planned for early 2027.",
-        "url": "https://cointelegraph.com/news/formation-securities-solana-stock-trading-venue-sec-exemption",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M70VDA13QECV5XSQ4V1SKPEE/hi-crypto-goes-for-nasdaq-solana-1.png",
-        "publishedAt": "2026-11-09T19:52:34Z",
-        "content": "Formation Securities, a newly established company licensing technology from decentralized exchange Orca, has notified the US Securities and Exchange Commission (SEC) of plans to launch a tokenized st… [+2051 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Isabelle Castro",
-        "title": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
-        "description": "Mercado Bitcoin customers can view their balances again a week after a $49 million hack, but withdrawals and trading remain suspended with no timeline.",
-        "url": "https://cointelegraph.com/news/mercado-bitcoin-reopening-withdrawals-hack-suspended",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4GS2W4DFN9GTK5VFGEJ9190/cover-b415ec149cce052d.jpg",
-        "publishedAt": "2026-11-09T18:25:29Z",
-        "content": "Crypto exchange Mercado Bitcoin began restoring read-only access to customer accounts in phases on Monday, a week after attackers drained an estimated $49 million from the platform. The exchange has … [+2552 chars]"
       }
     ]
   }
