@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-16T20:09:45.446Z",
+  "timestamp": "2026-11-17T03:33:42.441Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares",
+        "description": "A quarterly US securities filing has put fresh numbers around JPMorgan's exposure to crypto-linked investments. The filing shows larger reported positions in both Strategy, the Bitcoin treasury company, and BlackRock's spot Bitcoin ETF at the end of September…",
+        "url": "https://www.newsbtc.com/bitcoin-news/jpmorgan-13f-strategy-ibit-holdings-q3-2026/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-11_cover.jpg",
+        "publishedAt": "2026-11-16T03:00:00Z",
+        "content": "A quarterly US securities filing has put fresh numbers around JPMorgan's exposure to crypto-linked investments. The filing shows larger reported positions in both Strategy, the Bitcoin treasury compa… [+3522 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/stocks-gID_7.jpg",
         "publishedAt": "2026-11-09T15:49:22Z",
         "content": "In brief\r\n<ul><li>Ava Labs said Avalanche will provide the core ledger technology for the clearing firm behind an NYSE-affiliated tokenized securities platform, designed for 24/7 trading, clearing an… [+3087 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Agent",
-        "title": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
-        "description": "The exchange will move its institutional crypto custody business under federal oversight, building on its 2018 New York trust charter.",
-        "url": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
-        "publishedAt": "2026-11-09T11:50:36Z",
-        "content": "In brief\r\n<ul><li>Coinbase has received final approval from the Office of the Comptroller of the Currency to charter Coinbase National Trust Company.</li><li>The charter brings Coinbase's institution… [+3138 chars]"
       }
     ]
   }
