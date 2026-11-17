@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-17T03:33:42.441Z",
+  "timestamp": "2026-11-17T12:57:19.150Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Ethereum price forecast: ETH risks further losses as it drops to $1,803",
+        "description": "Key takeaways Ethereum (ETH) fell more than 13% last week as selling pressure intensified across the cryptocurrency market. Ethereum has declined to approximately $1,807, with its RSI at 25 and immediate resistance at $1,823. Negative Moving Average Convergen…",
+        "url": "https://coinjournal.net/news/ethereum-price-forecast-eth-risks-further-losses-as-it-drops-to-1803/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Ethereum-Coin-Crashes-Over-Stormy-Cliff.png",
+        "publishedAt": "2026-11-16T09:02:01Z",
+        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) fell more than 13% last week as selling pressure intensified across the cryptocurrency market.</li><li>Ethereum has declined to approximately $1,807, with its RS… [+3963 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Twenty One Capital’s $1.09 Billion Profit Is Mostly a Bitcoin Accounting Story",
+        "description": "Twenty One Capital has reported net income of about $1.09 billion for the third quarter, a figure that might look extraordinary for a Bitcoin-focused company. But nearly all of that profit came from changes in the fair value of its Bitcoin holdings rather tha…",
+        "url": "https://www.newsbtc.com/bitcoin-news/twenty-one-capital-q3-2026-bitcoin-paper-gains/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-17_cover.jpg",
+        "publishedAt": "2026-11-16T09:00:00Z",
+        "content": "Twenty One Capital has reported net income of about $1.09 billion for the third quarter, a figure that might look extraordinary for a Bitcoin-focused company. But nearly all of that profit came from … [+3414 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4GS2W4DFN9GTK5VFGEJ9190/cover-b415ec149cce052d.jpg",
         "publishedAt": "2026-11-09T18:25:29Z",
         "content": "Crypto exchange Mercado Bitcoin began restoring read-only access to customer accounts in phases on Monday, a week after attackers drained an estimated $49 million from the platform. The exchange has … [+2552 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
-        "description": "Bitcoin halts downside at $73,500 as stocks catch a bid despite ongoing events at Nvidia, with cooler oil prices spurring risk-asset upside.",
-        "url": "https://cointelegraph.com/markets/bitcoin-stocks-nvidia-analyst-68k-target",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M70K6JJA96WE7MYD336FM1EF/article-covers-262247-bitcoin-liquidations-top-dollar283m-after-short-squeeze-sends-btc-price-above-do-960x640.webp",
-        "publishedAt": "2026-11-09T17:13:25Z",
-        "content": "Bitcoin (BTC) returned above $75,000 after Mondays Wall Street open as tech stocks rebounded.\r\nKey points:\r\n<ul><li>Bitcoin bounced from 11-week lows of $73,500 on Monday as investors added tech-stoc… [+3532 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "NYSE Taps Avalanche to Settle Its Planned Tokenized Stock Platform",
-        "description": "Ava Labs said Avalanche will serve as the “core ledger technology” for the clearing firm behind the NYSE-affiliated venue, which aims to bring 24/7 trading, clearing and settlement of tokenized securities onchain.",
-        "url": "https://decrypt.co/382833/nyse-avalanche-settle-tokenized-stock-platform",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/stocks-gID_7.jpg",
-        "publishedAt": "2026-11-09T15:49:22Z",
-        "content": "In brief\r\n<ul><li>Ava Labs said Avalanche will provide the core ledger technology for the clearing firm behind an NYSE-affiliated tokenized securities platform, designed for 24/7 trading, clearing an… [+3087 chars]"
       }
     ]
   }
