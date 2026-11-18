@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-18T03:29:19.126Z",
+  "timestamp": "2026-11-18T12:50:49.171Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
+        "description": "BlackRock’s Bitcoin ETF ended 11 sessions of withdrawals totaling $2.35 billion, but CryptoQuant says one day of inflows is too early to signal a recovery.",
+        "url": "https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7MGG7MGZGSJD7F656NEWPFD/hi-bitcoin-etfs-may-have-lost-the-battle-but-not-the-war1-1-1280x853.webp",
+        "publishedAt": "2026-11-17T11:18:18Z",
+        "content": "BlackRocks spot Bitcoin exchange-traded fund (ETF) returned to inflows Monday, ending an 11-session outflow streak totaling roughly $2.35 billion.\r\nThe iShares Bitcoin Trust (IBIT) attracted $76.5 mi… [+1519 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin realized loss metric beats June high as open interest eyes 2-year low",
+        "description": "Bitcoin short-term holders realize the largest proportion of onchain losses since February as BTC/USD struggles to rebound from four-month lows.",
+        "url": "https://cointelegraph.com/markets/bitcoin-realized-loss-metric-beats-june-high-open-interest-eyes-2-year-low",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7MGH6S8Y1QTSMVNC1AQ8PZX/article-covers-184960-panicked-bitcoiner-mistakenly-pays-0-75-btc-in-fees-960x640.webp",
+        "publishedAt": "2026-11-17T11:14:05Z",
+        "content": "Bitcoin investors are showing increasing signs of panic as newer buyers onchain losses hit their highest since February.\r\nKey points:\r\n<ul><li>The spent output profit ratio (SOPR) for Bitcoin (BTC) w… [+3465 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M732NFDQVGSJE1VGENNVNKQT/trading-app-crypto-messenger-phone.jpg",
         "publishedAt": "2026-11-10T18:12:07Z",
         "content": "Crypto exchange Mercado Bitcoin will resume deposits and withdrawals in Brazilian reais via Pix, the countrys instant payment system, next week, a company representative told Cointelegraph. The resta… [+1499 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Yohan Yun",
-        "title": "Bitcoin’s ‘best buying opportunity ever’ has arrived: Mark Moss",
-        "description": "Bitcoin Opportunity Fund co-founder Mark Moss explains why investors should ignore Bitcoin’s performance this week and look ahead to a new record high in 2027.",
-        "url": "https://cointelegraph.com/magazine/bitcoins-best-buying-opportunity-ever-has-arrived-mark-moss",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M706AM1558Y70YWGC5XVGNF0/mark-moss-trade-secrets.png",
-        "publishedAt": "2026-11-10T13:30:00Z",
-        "content": "Wall Streets embrace of Bitcoin has created the best buying opportunity ever, according to investor Mark Moss.\r\nMoss co-founded the Bitcoin Opportunity Fund, where he is an advisory partner. In 2025,… [+4786 chars]"
       }
     ]
   }
