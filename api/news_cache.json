@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-19T03:01:39.816Z",
+  "timestamp": "2026-11-19T12:41:10.712Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Binance Hack-Linked Wallet Moves 34,279 ETH, but Investigators See No Confirmed Sale",
+        "description": "A wallet linked by blockchain investigators to the October 29 Binance breach has transferred 34,279.66 ETH to three newly created addresses, ending a period of.",
+        "url": "https://www.newsbtc.com/security/binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-17-N17-19_binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale.jpg",
+        "publishedAt": "2026-11-18T07:00:00Z",
+        "content": "TL;DR\r\n<ul><li>Investigators tracked 34,279.66 ETH from a Binance hack-linked address to three new wallets.</li><li>The movement was worth roughly $63 million at the reported market price.</li><li>No… [+4288 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/N10-18_etoro-q3-2026-profit-crypto-trading-decline.png",
         "publishedAt": "2026-11-11T11:00:00Z",
         "content": "TL;DR: eToro reported third-quarter net income of about $15 million, down from $57 million a year earlier, as crypto-related activity weakened. Its funded-account base continued to grow, highlighting… [+3619 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "SEC enforcement actions fall 24%, crypto cases in spotlight",
-        "description": "The SEC filed 348 actions in fiscal 2026, down from 456 a year earlier. Cases included alleged Bitcoin mining fraud and an FTX audit settlement.",
-        "url": "https://cointelegraph.com/news/sec-crypto-cases-enforcement-actions-fall-23-2025",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M74RCY03VD26P3VVM8SW3SGD/tracking-supervision-security-people.jpg",
-        "publishedAt": "2026-11-11T08:43:30Z",
-        "content": "The US Securities and Exchange Commission (SEC) filed 348 enforcement actions in fiscal 2026, down 23.7% from 456 a year earlier. \r\nIts annual enforcement results included cases involving alleged cry… [+1572 chars]"
       }
     ]
   }
