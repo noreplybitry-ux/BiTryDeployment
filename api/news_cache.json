@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-19T12:41:10.712Z",
+  "timestamp": "2026-11-19T21:16:19.773Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 35,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Polymarket US takes rapid-fire crypto trading format to oil, natural gas",
+        "description": "Polymarket US is expanding its rapid-fire prediction markets to oil and natural gas after short-duration crypto contracts topped $1 billion in volume in six weeks.",
+        "url": "https://cointelegraph.com/news/polymarket-us-takes-rapid-fire-crypto-trading-format-oil-natural-gas",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7PGAVAC26A920BS70GX2Q7N/polymarket-1280x853.webp",
+        "publishedAt": "2026-11-18T17:00:00Z",
+        "content": "Polymarket US is adding short-duration oil and natural gas markets after its crypto up-or-down contracts surpassed $1 billion in trading volume over six weeks, the company told Cointelegraph.\r\nThe ne… [+1623 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Sanctions fears loom over Russia’s regulated crypto trading launch",
+        "description": "Russia’s central bank has listed 30 authorized crypto operators, but questions remain over retail access as the EU prepares new sanctions targeting crypto platforms.",
+        "url": "https://cointelegraph.com/news/sanctions-fears-russia-crypto-launch",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7Q75JXEH3W3H0DFN6HB6KQR/contemplative-coin-character-1280x853.webp",
+        "publishedAt": "2026-11-18T13:32:19Z",
+        "content": "Russias push to bring cryptocurrency trading under government oversight is raising concerns that greater transparency could expose market participants to international sanctions.\r\nSome companies are … [+2814 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +459,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-mountain-decrypt-style-gID_7.png",
         "publishedAt": "2026-11-11T17:56:02Z",
         "content": "In brief\r\n<ul><li>Bitcoin lost 6.34% in 2025 and is down roughly 16% in 2026, putting it on track for its first two consecutive negative calendar years.</li><li>The combined decline is around 21%, fa… [+3805 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "eToro Q3 Profit Drops 74% as Crypto Trading Activity Slows",
-        "description": "eToro reported third-quarter net income of about $15 million, down from $57 million a year earlier, as crypto-related activity weakened. Its…",
-        "url": "https://www.newsbtc.com/business/etoro-q3-2026-profit-crypto-trading-decline/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/N10-18_etoro-q3-2026-profit-crypto-trading-decline.png",
-        "publishedAt": "2026-11-11T11:00:00Z",
-        "content": "TL;DR: eToro reported third-quarter net income of about $15 million, down from $57 million a year earlier, as crypto-related activity weakened. Its funded-account base continued to grow, highlighting… [+3619 chars]"
       }
     ]
   }
