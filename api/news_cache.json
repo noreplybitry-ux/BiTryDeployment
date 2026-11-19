@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-18T21:14:22.370Z",
+  "timestamp": "2026-11-19T03:01:39.816Z",
   "data": {
     "status": "ok",
     "totalResults": 34,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "NewsBTC Editorial Team",
+        "title": "Bitwise Maps Solana to $80, $385 or $1,100 by 2031 in Scenario-Based Research",
+        "description": "Bitwise has published a five-year framework for Solana that includes very different possible outcomes for SOL’s price. The range extends from an $80 bear case to a $385.",
+        "url": "https://www.newsbtc.com/news/solana/bitwise-maps-solana-to-80-385-or-1-100-by-2031-in-scenario-based-research/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-17-N17-11_bitwise-maps-solana-to-80-385-or-1-100-by-2031-in-scenario-based-research.jpg",
+        "publishedAt": "2026-11-17T23:00:00Z",
+        "content": "TL;DR\r\n<ul><li>Bitwises research outlines bear, base and bull cases for SOL by 2031, not a single guaranteed price.</li><li>The cited outcomes are about $80, $385 and $1,100.</li><li>The highest scen… [+4126 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -433,19 +446,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M74RCY03VD26P3VVM8SW3SGD/tracking-supervision-security-people.jpg",
         "publishedAt": "2026-11-11T08:43:30Z",
         "content": "The US Securities and Exchange Commission (SEC) filed 348 enforcement actions in fiscal 2026, down 23.7% from 456 a year earlier. \r\nIts annual enforcement results included cases involving alleged cry… [+1572 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Charles Schwab Opens Live Solana, Avalanche and Chainlink Trading to Eligible Clients",
-        "description": "Schwab Crypto now supports SOL, AVAX and LINK trading for eligible retail clients, adding to its BTC and ETH offering. Schwab says its service became…",
-        "url": "https://www.newsbtc.com/altcoin-news/charles-schwab-live-solana-avalanche-chainlink-trading/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/N10-08_charles-schwab-live-solana-avalanche-chainlink-trading.png",
-        "publishedAt": "2026-11-11T01:00:00Z",
-        "content": "Charles Schwab has moved three major altcoins from its expansion plan into its live crypto trading menu. The brokerage announced on November 9 that eligible Schwab Crypto clients can now trade Solana… [+3188 chars]"
       }
     ]
   }
