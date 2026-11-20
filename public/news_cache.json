@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-11-20T11:09:33.793Z",
+  "timestamp": "2026-11-20T19:50:32.082Z",
   "data": {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
+        "description": "Anthropic shares surged on their Nasdaq debut, but stocks slid and Bitcoin fell lower. Its daily chart shows deeply oversold momentum, a strong downtrend, and fragile support.",
+        "url": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg",
+        "publishedAt": "2026-11-19T19:08:24Z",
+        "content": "In brief\r\n<ul><li>Bitcoin traded near $62,640 Thursday as Anthropics record-setting debut failed to lift the broader stock market.</li><li>Bitcoins 50-day EMA sits below its 200-day EMA; the chart do… [+4144 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
+        "description": "Bitcoin dropped toward a third retest of $62,000 as Anthropic debuted on the Nasdaq, hitting highs of $115 per share before dropping below $100.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7TCJA0M8WRD0SM02A6P1Y5K/ai-machine-cyber-mind-960x644.webp",
+        "publishedAt": "2026-11-19T18:06:50Z",
+        "content": "Bitcoin shrugged off US tech-stock strength at Thursdays Wall Street open as markets reacted to Anthropics $111.50 debut.\r\nKey points:\r\n<ul><li>Anthropic opens at $111.50 per share on the Nasdaq, 34%… [+2198 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks",
+        "description": "Shareholders will vote Dec. 7 on whether H100 can buy back up to 10% of its shares, potentially using a Bitcoin pool that lost about 30 BTC in Q3.",
+        "url": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7SNB5B19MZXHBMWJSW6SVAN/hi-coinbase-seeks-ipo-1.png",
+        "publishedAt": "2026-11-19T11:19:58Z",
+        "content": "Swedish Bitcoin treasury company H100 Group said Thursday it could use Bitcoin from its trading pool to fund share buybacks if shareholders approve the plan next month.\r\nThe pool lost about 30 Bitcoi… [+1340 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,58 +420,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-11-12T14:01:02Z",
         "content": "In brief\r\n<ul><li>SoFi expanded SoFiUSDthe first stablecoin issued by a U.S. national bankto Polygons Open Money Stack, adding Polygon alongside Ethereum and Solana.</li><li>The move pushes SoFiUSD f… [+2920 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Ethereum eyes $2k amid BitMine’s $6.3 billion loss",
-        "description": "Key takeaways Ethereum (ETH) is down 1.7% on Thursday, approaching the $2,000 psychological level.  Ethereum treasury company BitMine Immersion Technologies reported a $6.3 billion annual net loss, largely driven by $6.23 billion in unrealized losses on its d…",
-        "url": "https://coinjournal.net/news/ethereum-eyes-2k-amid-bitmines-6-3-billion-loss/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Ethereum-Coin-on-a-Sleeping-Bear.png",
-        "publishedAt": "2026-11-12T09:39:56Z",
-        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) is down 1.7% on Thursday, approaching the $2,000 psychological level. </li><li>Ethereum treasury company BitMine Immersion Technologies reported a $6.3 billion a… [+3808 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
-        "description": "BlackRock’s IBIT has lost more than $2 billion over nine consecutive trading sessions, while broader US spot Bitcoin ETFs recorded nearly $1.44 billion in withdrawals over five days.",
-        "url": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-ibit-outflows-nine-day-streak",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M77BC08M1JK1359QWDPVF1FQ/blackrock-2-billion.png",
-        "publishedAt": "2026-11-12T08:06:48Z",
-        "content": "BlackRocks spot Bitcoin exchange-traded fund (ETF), the iShares Bitcoin Trust (IBIT), recorded more than $2 billion in net outflows over nine consecutive trading sessions through Wednesday.\r\nInvestor… [+1393 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
-        "description": "The move follows recent security incidents involving South Korean crypto exchanges, including GOPAX’s precautionary suspension of services and a $70,000 hot-wallet breach at Prabang.",
-        "url": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M597BM0AMWQ1YPAXSBBRRVZN/south-korea-1.jpg",
-        "publishedAt": "2026-11-12T05:54:48Z",
-        "content": "South Koreas Financial Services Commission (FSC) plans to allow crypto exchanges to suspend deposits and withdrawals when hacking is suspected, rather than waiting until a breach is confirmed, amid a… [+1339 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack",
-        "description": "In a July interview, Binance chief security officer Jimmy Su explained how fake coding assessments could compromise employee devices, a tactic later used in the exchange’s record-breaking hack.",
-        "url": "https://cointelegraph.com/news/binance-cso-foreshadowed-6b-hack-tactic-months-before-attack",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M772C3WKZ2V15SYTV41CF4T1/hi-a-fake-crypto-job-interview-nearly-installed-malware-on-my-computer.jpg",
-        "publishedAt": "2026-11-12T05:07:11Z",
-        "content": "Months before Binance lost $6.3 billion to a hack, its chief security officer described to Cointelegraph how a fake job interview could give attackers a foothold inside the exchange closely resemblin… [+3876 chars]"
       }
     ]
   }
