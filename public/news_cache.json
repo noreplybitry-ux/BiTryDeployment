@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-20T02:54:26.934Z",
+  "timestamp": "2026-11-20T11:09:33.793Z",
   "data": {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 33,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
+        "description": "US spot Bitcoin ETF assets fell to a three-month low after $306.4 million in withdrawals Wednesday, while Ether funds recorded nearly $40 million in outflows.",
+        "url": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7SA53P2GHC309QBB97B4KW6/lost-bitcoins-etf-hack-hacking-falling-jeans-1-1280x853.webp",
+        "publishedAt": "2026-11-19T08:26:19Z",
+        "content": "US spot Bitcoin exchange-traded funds (ETFs) ended Wednesday with $77.7 billion in net assets, a three-month low, as net outflows for the year topped $2.5 billion.\r\nThe funds recorded $306.4 million … [+1117 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Jona Jaupi",
+        "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
+        "description": "Sygnum predicts that Bitcoin carry trades may offer higher returns than Treasury bills in 2027, following a sharp drop in funding rates that made the strategy less compelling in 2026.",
+        "url": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7R6WEJ8WD3YY7VF1JPW7MH8/sponsor-screen-traid-bitcoin-1280x853.webp",
+        "publishedAt": "2026-11-19T06:00:00Z",
+        "content": "Bitcoin carry trades could regain their edge over US Treasury bills in 2027 as demand for leverage recovers, according to digital asset bank Sygnum.\r\nIn its 2027 Sygnal Outlook report, Sygnum forecas… [+4237 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,45 +433,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M772C3WKZ2V15SYTV41CF4T1/hi-a-fake-crypto-job-interview-nearly-installed-malware-on-my-computer.jpg",
         "publishedAt": "2026-11-12T05:07:11Z",
         "content": "Months before Binance lost $6.3 billion to a hack, its chief security officer described to Cointelegraph how a fake job interview could give attackers a foothold inside the exchange closely resemblin… [+3876 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Stablecoin Drain, ETF Outflows Leave Bitcoin 'Running on Empty'",
-        "description": "Stablecoin supply fell $14.2 billion in 30 days, the fastest contraction since June 2022, amid weak ETF demand.",
-        "url": "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg",
-        "publishedAt": "2026-11-11T21:46:03Z",
-        "content": "In brief\r\n<ul><li>Total stablecoin supply fell by $14.2 billion over 30 days through Nov. 9, its fastest drop since June 2022, according to Glassnode.</li><li>U.S. spot Bitcoin ETFs saw about $1.6 bi… [+2475 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Nomura explores sale of crypto unit Laser Digital: Bloomberg",
-        "description": "Nomura is reportedly considering selling its crypto subsidiary Laser Digital following trading losses, despite recent regulatory approvals in Japan and the US.",
-        "url": "https://cointelegraph.com/news/nomura-sale-crypto-unit-laser-digital",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M763TD8E1ZBRMPTMFSD5YQ3A/bithumb-acquisition-deal-off-2.png",
-        "publishedAt": "2026-11-11T21:36:01Z",
-        "content": "Japanese financial services giant Nomura Holdings is reportedly weighing a sale of its cryptocurrency subsidiary Laser Digital as Nomuras European operations continue to post losses.\r\nNomura has held… [+1605 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "Deutsche Bank Goes Live With Crypto Custody After a Five-Year Buildup",
-        "description": "Deutsche Bank’s custody service now holds Bitcoin, Ethereum and three stablecoins for institutional and corporate clients in Europe.",
-        "url": "https://decrypt.co/383067/deutsche-bank-goes-live-with-crypto-custody-after-a-five-year-buildup",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-11-11T19:06:02Z",
-        "content": "In brief\r\n<ul><li>Deutsche Banks Digital Asset Custody service is live for paying institutional and corporate clients in Europe, supporting Bitcoin, Ethereum, USDC, EURC and EURAU.</li><li>The bank s… [+2903 chars]"
       }
     ]
   }
