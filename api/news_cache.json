@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "timestamp": "2026-11-19T21:16:19.773Z",
+  "timestamp": "2026-11-20T02:54:26.934Z",
   "data": {
     "status": "ok",
-    "totalResults": 35,
+    "totalResults": 34,
     "articles": [
       {
         "source": {
@@ -446,19 +446,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg",
         "publishedAt": "2026-11-11T19:06:02Z",
         "content": "In brief\r\n<ul><li>Deutsche Banks Digital Asset Custody service is live for paying institutional and corporate clients in Europe, supporting Bitcoin, Ethereum, USDC, EURC and EURAU.</li><li>The bank s… [+2903 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Faces First Back-to-Back Annual Losses in History, But There's a Catch",
-        "description": "Bitcoin is heading toward its first consecutive losing years, breaking an 18-year pattern. But there's some nuance in the data.",
-        "url": "https://decrypt.co/383049/bitcoin-first-back-to-back-annual-losses-history",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-mountain-decrypt-style-gID_7.png",
-        "publishedAt": "2026-11-11T17:56:02Z",
-        "content": "In brief\r\n<ul><li>Bitcoin lost 6.34% in 2025 and is down roughly 16% in 2026, putting it on track for its first two consecutive negative calendar years.</li><li>The combined decline is around 21%, fa… [+3805 chars]"
       }
     ]
   }
