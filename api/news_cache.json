@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-21T01:15:06.042Z",
+  "timestamp": "2026-11-21T09:27:49.247Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Coinjournal.net"
+        },
+        "author": "Hassan Maishera",
+        "title": "Bitcoin price forecast: BTC falls to July lows below $61,560",
+        "description": "Key takeaways Bitcoin’s price falls to $61,558 on Friday, its lowest level since July 6, extending its weekly decline beyond 10%. Bitcoin’s RSI has dropped to 20, indicating deeply oversold conditions, while its negative MACD suggests that bearish momentum re…",
+        "url": "https://coinjournal.net/news/bitcoin-price-forecast-btc-falls-to-july-lows-below-61560/",
+        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Trading-Floor-in-Bitcoin-Turmoil.png",
+        "publishedAt": "2026-11-20T09:05:29Z",
+        "content": "Key takeaways\r\n<ul><li>Bitcoin’s price falls to $61,558 on Friday, its lowest level since July 6, extending its weekly decline beyond 10%.</li><li>Bitcoin’s RSI has dropped to 20, indicating deeply o… [+3983 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
+        "description": "The SEC charged eight firms with defrauding US investors of $37 million by allegedly masquerading as SEC-licensed cryptocurrency platforms.",
+        "url": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7VWVJFSAZCDB7METDY1P77G/hi-otc-over-the-counter-trade-fraud-1280x853.webp",
+        "publishedAt": "2026-11-20T08:03:34Z",
+        "content": "The US Securities and Exchange Commission (SEC) charged eight Colorado-based entities with defrauding US investors of more than $37 million.\r\nThe defendants allegedly lured investors by masquerading … [+1812 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,45 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M79N7DA5EN5QTEX2W50DFFNH/hi-so-what-is-happening-to-bitcoin-bear-market-1.jpg",
         "publishedAt": "2026-11-13T06:00:15Z",
         "content": "Bitcoin fell below $70,000 on Friday, extending its recent decline as investor sentiment deteriorated amid institutional outflows, tightening liquidity and broader macroeconomic pressures. \r\nBitcoin … [+2236 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Russia Sets November 22 Start for Exchange Crypto Trading, Subject to Approval",
-        "description": "Russia’s central bank has set November 22 as the earliest start under new exchange trading rules, with each venue’s rulebook requiring regulatory concurrence.",
-        "url": "https://www.newsbtc.com/regulation/russia-exchange-crypto-trading-november-22-rules/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/N12-08_russia-exchange-crypto-trading-november-22-rules.png",
-        "publishedAt": "2026-11-12T22:00:00Z",
-        "content": "TL;DR: Russian exchanges may begin cryptocurrency trading from November 22 if their trading rules receive the Bank of Russias concurrence. The November 11 announcement sets operating requirements for… [+3930 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Nate Kostar",
-        "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
-        "description": "Strategy shares declined Thursday following MSCI’s decision to remove the company from its indexes, as Bitcoin also fell amid a broader crypto market decline.",
-        "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M78SKXFN30X2QXCVG2NCJ1VY/hi-how-strategyb-turned-k-into-m-using-a-high-risk-high-precision-strategy.png",
-        "publishedAt": "2026-11-12T21:52:04Z",
-        "content": "Shares of Michael Saylors Bitcoin treasury company Strategy fell 6.49% on Thursday, closing at $114.41, a day after MSCI confirmed the companys removal from its global equity indexes and amid a broad… [+1856 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jona Jaupi",
-        "title": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
-        "description": "DTCC plans to bring tokenized securities to Solana in 2027, but regulatory restrictions could limit how much trading activity the move brings to the network.",
-        "url": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M78HYSFQRVZZRHHY3ZZHRTMW/hi-what-is-chainlink-dtcc.png",
-        "publishedAt": "2026-11-12T20:07:41Z",
-        "content": "Plans by the Depository Trust &amp; Clearing Corporations (DTCC) to bring tokenized securities to Solana could attract more traditional financial institutions to the blockchain, but regulatory restri… [+4975 chars]"
       }
     ]
   }
