@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-20T19:50:32.082Z",
+  "timestamp": "2026-11-21T01:15:06.042Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
+        "description": "Binance obtains court orders freezing assets stolen in October’s hack. Hong Kong warns citizens about Hyperliquid, and Thai police arrest four foreigners linked to a crypto scam.",
+        "url": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7TW6KD0H9BEVC27QRWR5CP8/asia-express-jacket-1280x853.webp",
+        "publishedAt": "2026-11-19T22:25:18Z",
+        "content": "Binance obtains $6.5B global freeze order, plans to expand throughout Asia\r\nBinance has secured a $6.5 billion worldwide freezing injunction from the Abu Dhabi Global Market Courts as it seeks to rec… [+3831 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -394,32 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M78HYSFQRVZZRHHY3ZZHRTMW/hi-what-is-chainlink-dtcc.png",
         "publishedAt": "2026-11-12T20:07:41Z",
         "content": "Plans by the Depository Trust &amp; Clearing Corporations (DTCC) to bring tokenized securities to Solana could attract more traditional financial institutions to the blockchain, but regulatory restri… [+4975 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
-        "description": "Bitcoin sets new 11-week lows near $71,000 as the resignation of Nvidia CEO Jensen Huang sparks a fresh round of tech-stock selling.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7859A9F3JFAC903AM8D1SAR/hi-beyond-bitcoin-the-future-of-digital-assets-bitcoin-price-us-iran-960x640.webp",
-        "publishedAt": "2026-11-12T15:46:06Z",
-        "content": "Bitcoin (BTC) set new multimonth lows after Thursdays Wall Street open as selling pressure returned to the US stock market. \r\nKey points:\r\n<ul><li>Bitcoin price losses hit 3.5% on Thursday as markets… [+2902 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "SoFi Brings Its Bank-Issued Stablecoin to Polygon’s Payments Stack",
-        "description": "SoFiUSD, the first stablecoin from a U.S. national bank, is now live on Polygon Open Money Stack alongside Ethereum and Solana.",
-        "url": "https://decrypt.co/383096/sofi-brings-bank-issued-stablecoin-polygon-payments-stack",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-11-12T14:01:02Z",
-        "content": "In brief\r\n<ul><li>SoFi expanded SoFiUSDthe first stablecoin issued by a U.S. national bankto Polygons Open Money Stack, adding Polygon alongside Ethereum and Solana.</li><li>The move pushes SoFiUSD f… [+2920 chars]"
       }
     ]
   }
