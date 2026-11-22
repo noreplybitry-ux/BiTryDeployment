@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-22T11:02:08.372Z",
+  "timestamp": "2026-11-22T19:17:00.607Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Staff",
+        "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+        "description": "The agency says eight Colorado-registered entities, likely run from overseas, posed as legitimate advisers and crypto platforms—even faking SEC certificates and filings—to defraud U.S. investors of more than $37 million.",
+        "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png",
+        "publishedAt": "2026-11-21T17:01:02Z",
+        "content": "In brief\r\n<ul><li>The SEC charged eight Colorado-registered entities, likely operated from overseas, with running fake investment advisers and crypto trading platforms to steal more than $37 million … [+3240 chars]"
+      },
       {
         "source": {
           "id": null,
