@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-23T08:46:28.550Z",
+  "timestamp": "2026-11-23T21:02:05.386Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+        "description": "Bitcoin briefly fell to the equivalent of $17K on Kraken’s Canadian-dollar market, but the exchange ruled out a breach and said all executed trades would stand.",
+        "url": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M819JW0D1CC9W3NZY32KQ4A0/hi-kraken2-1-1280x853.webp",
+        "publishedAt": "2026-11-22T09:33:06Z",
+        "content": "Crypto exchange Kraken said it would honor trades executed during a sharp selloff across its Canadian-dollar markets that briefly pushed Bitcoin to the equivalent of about $17,000 on Saturday.\r\nIn a … [+1305 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7FBMZXNH6CNG3W9M8RNBHCN/hi-meet-the-trader-who-lost-bitcoin-bear-market.jpg",
         "publishedAt": "2026-11-15T10:23:17Z",
         "content": "Bitcoin fell to a four-month low near $62,000 on Sunday, extending a selloff across major digital assets before recovering some of its losses.\r\nOn Sunday, Bitcoin (BTC) dropped to a 24-hour low of $6… [+1173 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Decrypt Staff",
-        "title": "JPMorgan’s Bitcoin and Crypto-Linked Holdings Approach $1 Billion",
-        "description": "The bank’s Q3 13F shows roughly $981 million across Bitcoin ETFs, Strategy and Coinbase—likely over $1 billion counting Robinhood and miners.",
-        "url": "https://decrypt.co/383267/jpmorgan-bitcoin-crypto-linked-holdings-approach-1-billion",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/jp-morgan-jamie-dimon-decrypt-style-01-gID_7.png",
-        "publishedAt": "2026-11-13T20:16:03Z",
-        "content": "In brief\r\n<ul><li>JPMorgans Q3 13F filing shows it held roughly $981 million across spot Bitcoin ETFs, Strategy and Coinbase as of Sept. 30close to $1 billion, and likely past it counting Robinhood a… [+3154 chars]"
       }
     ]
   }
