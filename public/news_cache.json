@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-11-24T05:48:31.173Z",
+  "timestamp": "2026-11-24T17:19:25.530Z",
   "data": {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+        "description": "Bitcoin price upside hit $64,500 as risk assets surged on Nvidia CEO Jensen Huang’s reinstatement, while crypto liquidations topped $500 million four hours.",
+        "url": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6KGZKGX8HBQZ86GKFQW8S8B/bitcoin-lazer-eyes-and-bull-run-graph-5-960x640.webp",
+        "publishedAt": "2026-11-23T16:51:17Z",
+        "content": "Bitcoin gained as much as 5.4% on Monday as cryptocurrencies and stocks rallied following news that Nvidia had reinstated its founder, Jensen Huang, as CEO.\r\nKey points:\r\n<ul><li>Bitcoin (BTC) hit lo… [+2980 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Adrian Zmudzinski",
+        "title": "How market depth shapes the price of a weekend Bitcoin sale",
+        "description": "Over 14 hours, Bitcoin traded on Kraken’s Canadian dollar market at an average 37.3% discount to a benchmark based on the exchange’s US dollar trades.",
+        "url": "https://cointelegraph.com/news/how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M84G01VVAQ9V84G4EW1A47S6/canada-biman-1280x853.webp",
+        "publishedAt": "2026-11-23T15:57:55Z",
+        "content": "A narrow bid-ask spread can conceal the cost of selling 10 Bitcoin. If the best bid covers only part of the order, a desk seeking to sell the full amount immediately must accept lower prices for the … [+1083 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Decrypt Agent",
+        "title": "Strategy Buys $30M in Bitcoin, Moves $1B From USD Reserve to Cash Pot",
+        "description": "Michael Saylor's firm raised its preferred stock buyback program to $4 billion after repurchasing another $212 million of STRC last week.",
+        "url": "https://decrypt.co/383779/strategy-buys-30m-in-bitcoin-moves-1b-from-usd-reserve-to-cash-pot",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png",
+        "publishedAt": "2026-11-23T13:25:35Z",
+        "content": "In brief\r\n<ul><li>Strategy bought 457 BTC for $29.6 million last week, its fourth straight weekly purchase, lifting its holdings to 851,305 BTC, according to an SEC filing.</li><li>Its board approved… [+3223 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,58 +407,6 @@
         "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
         "publishedAt": "2026-11-16T13:23:17Z",
         "content": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our daily news show 'FOMO … [+6905 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Coinjournal.net"
-        },
-        "author": "Hassan Maishera",
-        "title": "Ethereum price forecast: ETH risks further losses as it drops to $1,803",
-        "description": "Key takeaways Ethereum (ETH) fell more than 13% last week as selling pressure intensified across the cryptocurrency market. Ethereum has declined to approximately $1,807, with its RSI at 25 and immediate resistance at $1,823. Negative Moving Average Convergen…",
-        "url": "https://coinjournal.net/news/ethereum-price-forecast-eth-risks-further-losses-as-it-drops-to-1803/",
-        "urlToImage": "https://coinjournal.net/wp-content/uploads/2026/11/Ethereum-Coin-Crashes-Over-Stormy-Cliff.png",
-        "publishedAt": "2026-11-16T09:02:01Z",
-        "content": "Key takeaways\r\n<ul><li>Ethereum (ETH) fell more than 13% last week as selling pressure intensified across the cryptocurrency market.</li><li>Ethereum has declined to approximately $1,807, with its RS… [+3963 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Twenty One Capital’s $1.09 Billion Profit Is Mostly a Bitcoin Accounting Story",
-        "description": "Twenty One Capital has reported net income of about $1.09 billion for the third quarter, a figure that might look extraordinary for a Bitcoin-focused company. But nearly all of that profit came from changes in the fair value of its Bitcoin holdings rather tha…",
-        "url": "https://www.newsbtc.com/bitcoin-news/twenty-one-capital-q3-2026-bitcoin-paper-gains/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-17_cover.jpg",
-        "publishedAt": "2026-11-16T09:00:00Z",
-        "content": "Twenty One Capital has reported net income of about $1.09 billion for the third quarter, a figure that might look extraordinary for a Bitcoin-focused company. But nearly all of that profit came from … [+3414 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares",
-        "description": "A quarterly US securities filing has put fresh numbers around JPMorgan's exposure to crypto-linked investments. The filing shows larger reported positions in both Strategy, the Bitcoin treasury company, and BlackRock's spot Bitcoin ETF at the end of September…",
-        "url": "https://www.newsbtc.com/bitcoin-news/jpmorgan-13f-strategy-ibit-holdings-q3-2026/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-11_cover.jpg",
-        "publishedAt": "2026-11-16T03:00:00Z",
-        "content": "A quarterly US securities filing has put fresh numbers around JPMorgan's exposure to crypto-linked investments. The filing shows larger reported positions in both Strategy, the Bitcoin treasury compa… [+3522 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Stablecoin Supply Shrinkage Raises a Bigger Question About Crypto Liquidity",
-        "description": "Crypto investors spend plenty of time staring at Bitcoin charts, but one of the more revealing signals this month may be the amount of dollar-backed stablecoins circulating across the market. Recent data suggests that the combined supply of major stablecoins …",
-        "url": "https://www.newsbtc.com/crypto-news/stablecoin-supply-contracts-crypto-liquidity-november-2026/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-04_cover.jpg",
-        "publishedAt": "2026-11-15T20:00:00Z",
-        "content": "Crypto investors spend plenty of time staring at Bitcoin charts, but one of the more revealing signals this month may be the amount of dollar-backed stablecoins circulating across the market. Recent … [+3480 chars]"
       }
     ]
   }
