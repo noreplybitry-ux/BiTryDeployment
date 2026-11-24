@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-23T21:02:05.386Z",
+  "timestamp": "2026-11-24T05:48:31.173Z",
   "data": {
     "status": "ok",
     "totalResults": 32,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Andrew Fenton",
+        "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
+        "description": "Bitcoin rebounds 11% off its new cycle low, but is there more pain to come? Ethereum’s Glamsterdam upgrade could be delayed by months, and new reports of tampered Ledgers.",
+        "url": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M82HY5BRFTHNBV47HXBFNCPV/nov-23.jpg",
+        "publishedAt": "2026-11-22T22:47:09Z",
+        "content": "Bitcoins 11% rebound, Kraken says everythings fine despite $17K Bitcoin price\r\nBitcoin saw a sharp recovery on the weekend to back above $61,034, marking an 11% rebound from its new cycle low around … [+8183 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -407,19 +420,6 @@
         "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-04_cover.jpg",
         "publishedAt": "2026-11-15T20:00:00Z",
         "content": "Crypto investors spend plenty of time staring at Bitcoin charts, but one of the more revealing signals this month may be the amount of dollar-backed stablecoins circulating across the market. Recent … [+3480 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Ezra Reguerra",
-        "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
-        "description": "Bitcoin dropped to a four-month low near $62,000 before rebounding above $65,000, as crypto markets extended losses amid extreme fear and ETF outflows.",
-        "url": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7FBMZXNH6CNG3W9M8RNBHCN/hi-meet-the-trader-who-lost-bitcoin-bear-market.jpg",
-        "publishedAt": "2026-11-15T10:23:17Z",
-        "content": "Bitcoin fell to a four-month low near $62,000 on Sunday, extending a selloff across major digital assets before recovering some of its losses.\r\nOn Sunday, Bitcoin (BTC) dropped to a 24-hour low of $6… [+1173 chars]"
       }
     ]
   }
