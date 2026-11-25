@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-25T02:06:06.529Z",
+  "timestamp": "2026-11-25T12:24:20.175Z",
   "data": {
     "status": "ok",
     "totalResults": 31,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Zoltan Vardai",
+        "title": "South Korea proposes bank-led stablecoins, 20% cap on crypto exchange stakes",
+        "description": "The draft bill would also reopen domestic initial coin offerings after a ban dating to 2017 and require issuers to disclose risks before soliciting buyers.",
+        "url": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5Z3BJXQ46ZDN2Q8H9RF7F7N/hi-will-crypto-be-the-only-digital-currency-left-standing-south-korea-1-1280x853.webp",
+        "publishedAt": "2026-11-24T12:04:16Z",
+        "content": "South Koreas Financial Services Commission (FSC) unveiled a draft bill Tuesday that would initially limit issuance of won-denominated stablecoins to groups majority-owned by banks and generally cap s… [+1248 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin dips back under $60K as gold seals worst 60-day loss since 1980s",
+        "description": "Bitcoin price relief fails to last as BTC/USD drops 8% from intraday highs of $64,500 while analysis reveals the full impact of the AI sell-off on gold.",
+        "url": "https://cointelegraph.com/markets/bitcoin-dips-60k-gold-worst-60-day-loss-1980s",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M86BHJKQHXMF4CD02MKJ6YRP/hi-what-is-the-stock-to-flow-ratio-of-bitcoin-960x640.webp",
+        "publishedAt": "2026-11-24T09:25:45Z",
+        "content": "Bitcoin (BTC) dipped below $60,000 on Tuesday after rallying Monday on news that Nvidia reinstated Jensen Huang as CEO.\r\nKey points:\r\n<ul><li>Bitcoin fell nearly 8% from its intraday high of $64,505 … [+3243 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -381,32 +407,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7MGH6S8Y1QTSMVNC1AQ8PZX/article-covers-184960-panicked-bitcoiner-mistakenly-pays-0-75-btc-in-fees-960x640.webp",
         "publishedAt": "2026-11-17T11:14:05Z",
         "content": "Bitcoin investors are showing increasing signs of panic as newer buyers onchain losses hit their highest since February.\r\nKey points:\r\n<ul><li>The spent output profit ratio (SOPR) for Bitcoin (BTC) w… [+3465 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jona Jaupi",
-        "title": "Binance hack may push institutions to outside custody, FalconX exec says",
-        "description": "FalconX’s Joshua Lim says the Binance hack could drive more institutions toward off-exchange custody and change how large investors trade crypto in 2027.",
-        "url": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7JYN3X9NPASHKCFA1BBHM7P/bank-building-hall-entrance-door-binance-2.png",
-        "publishedAt": "2026-11-16T22:19:41Z",
-        "content": "A major shift in institutional crypto trading could be on the horizon following the recent Binance hack, as security concerns may lead to more large investors keeping their assets outside exchanges, … [+4718 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
-        "description": "Bitcoin fell near $62,100 as forced liquidations swept crypto markets. ETF withdrawals and a crowded options trade offer a closer look at the damage left behind.",
-        "url": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/bitcoin-dollar-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-11-16T21:46:03Z",
-        "content": "In brief\r\n<ul><li>Bitcoin touched roughly $62,100 Sunday, its lowest price since July, as about $2 billion in crypto positions were liquidated over a weekend 24-hour window.</li><li>U.S. spot Bitcoin… [+3607 chars]"
       }
     ]
   }
