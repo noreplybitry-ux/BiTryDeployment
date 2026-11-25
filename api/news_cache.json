@@ -1,10 +1,75 @@
 {
   "version": 3,
-  "timestamp": "2026-11-25T12:24:20.175Z",
+  "timestamp": "2026-11-25T22:15:55.444Z",
   "data": {
     "status": "ok",
-    "totalResults": 31,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Bitcoin Losses Are the Worst Since FTX. Is the Bottom Near?",
+        "description": "Bitcoin slipped below $60,000 as realized losses nearly doubled in a week. Glassnode says the sell-off resembles past market bottoms, but another drop to $53,200 could be in the cards.",
+        "url": "https://decrypt.co/383909/bitcoin-losses-worst-since-ftx-is-bottom-near",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "publishedAt": "2026-11-24T19:35:32Z",
+        "content": "In brief\r\n<ul><li>Bitcoins realized losses relative to annual capital inflows are at their highest level since FTX collapsed in November 2022.</li><li>U.S. spot Bitcoin ETFs have lost $4.3 billion in… [+3867 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Decrypt"
+        },
+        "author": "Jose Antonio Lanz",
+        "title": "Wall Street and Crypto Are in 'Extreme Fear'. What's Spooking Investors?",
+        "description": "Fear and Greed indexes are flashing extreme fear across stocks and crypto as Nvidia’s relief rally fades, Bitcoin falls below $60,000, and investors brace for higher interest rates",
+        "url": "https://decrypt.co/383898/wall-street-crypto-extreme-whats-spooking-investors",
+        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_red-gID_7.png",
+        "publishedAt": "2026-11-24T18:16:02Z",
+        "content": "In brief\r\n<ul><li>Crypto market sentiment is back at its lowest levels since February, while Wall Street's Fear and Greed Index sits at 17 out of 100.</li><li>Bitcoin has fallen below $60,000 again, … [+5556 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "USDT buyers face 22% VAT when Moscow Exchange opens crypto trading",
+        "description": "Buyers will pay VAT on top of the trade price in December because Russia’s tax code has no explicit exemption for foreign digital instruments.",
+        "url": "https://cointelegraph.com/news/russia-usdt-buyer-face-22-tax-december-launch",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M86V69BFN7DVT7AYSE5HQFWR/hi-russias-central-bank-digital-currency-prospects-and-problems-stablecoin-1-1280x856.webp",
+        "publishedAt": "2026-11-24T14:10:23Z",
+        "content": "Buyers of Tethers USDt (USDT) stablecoin will pay a 22% value-added tax (VAT) on top of the trade price when Moscow Exchange (MOEX) opens crypto trading on Dec. 1, according to the exchanges clearing… [+1049 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Tomás Rivas",
+        "title": "Bitcoin Loses $60,000 And Gold Offers No Protection During Its Worst Selloff Since 1982",
+        "description": "Key takeaways Bitcoin fell back below $60,000 on Tuesday after a Monday recovery above $64,000, while gold is in its own severe correction. Gold fell 24.6% over the 60 days to November 23, its steepest loss over such a period since 1982. Neither asset pays in…",
+        "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-price-below-60000-gold-selloff/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/Bitcoin-and-Gold-Market-Selloff-1-860x484.png",
+        "publishedAt": "2026-11-24T13:21:58Z",
+        "content": "<ul><li>Bitcoin fell back below $60,000 on Tuesday after a Monday recovery above $64,000, while gold is in its own severe correction.</li><li>Gold fell 24.6% over the 60 days to November 23, its stee… [+6417 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Grayscale calls Bitcoin ‘oversold’ at $62K but warns of AI risks",
+        "description": "Grayscale said Bitcoin looked oversold after more than $2 billion left crypto investment products in a week, but AI risks could drive near-term prices.",
+        "url": "https://cointelegraph.com/markets/bitcoin-oversold-ai-risks-grayscale",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M86R3XR84EC6JZ8PPBN2SC3P/bitcoin1111-1280x853.webp",
+        "publishedAt": "2026-11-24T13:11:44Z",
+        "content": "Bitcoin appeared oversold near $62,000 on Monday, while risks tied to artificial intelligence (AI) could dominate its near-term outlook, according to Grayscale Investments.\r\nMore than $2 billion flow… [+1151 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -316,97 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7Q75JXEH3W3H0DFN6HB6KQR/contemplative-coin-character-1280x853.webp",
         "publishedAt": "2026-11-18T13:32:19Z",
         "content": "Russias push to bring cryptocurrency trading under government oversight is raising concerns that greater transparency could expose market participants to international sanctions.\r\nSome companies are … [+2814 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Binance Hack-Linked Wallet Moves 34,279 ETH, but Investigators See No Confirmed Sale",
-        "description": "A wallet linked by blockchain investigators to the October 29 Binance breach has transferred 34,279.66 ETH to three newly created addresses, ending a period of.",
-        "url": "https://www.newsbtc.com/security/binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-17-N17-19_binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale.jpg",
-        "publishedAt": "2026-11-18T07:00:00Z",
-        "content": "TL;DR\r\n<ul><li>Investigators tracked 34,279.66 ETH from a Binance hack-linked address to three new wallets.</li><li>The movement was worth roughly $63 million at the reported market price.</li><li>No… [+4288 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Bitwise Maps Solana to $80, $385 or $1,100 by 2031 in Scenario-Based Research",
-        "description": "Bitwise has published a five-year framework for Solana that includes very different possible outcomes for SOL’s price. The range extends from an $80 bear case to a $385.",
-        "url": "https://www.newsbtc.com/news/solana/bitwise-maps-solana-to-80-385-or-1-100-by-2031-in-scenario-based-research/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-17-N17-11_bitwise-maps-solana-to-80-385-or-1-100-by-2031-in-scenario-based-research.jpg",
-        "publishedAt": "2026-11-17T23:00:00Z",
-        "content": "TL;DR\r\n<ul><li>Bitwises research outlines bear, base and bull cases for SOL by 2031, not a single guaranteed price.</li><li>The cited outcomes are about $80, $385 and $1,100.</li><li>The highest scen… [+4126 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Cathie Wood's ARK Sells $85 Million in Nvidia, Buys $40 Million in Crypto Stocks",
-        "description": "Cathie Wood's funds trimmed Nvidia ahead of earnings while buying Block, Circle and Coinbase during Monday's selloff.",
-        "url": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/cathie-wood-ark-invest-decrypt-style-02-gID_7.jpg",
-        "publishedAt": "2026-11-17T19:46:03Z",
-        "content": "In brief\r\n<ul><li>ARK sold 543,092 Nvidia shares, valued at about $84.8 million using Monday's closing price.</li><li>The firm bought approximately $39.9 million in Block, Circle and Coinbase shares … [+4198 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
-        "description": "Bitcoin feels downside pressure with nervous traders set to parse Nvidia earnings data and cues over the fate of former CEO Jensen Huang.",
-        "url": "https://cointelegraph.com/markets/bitcoin-drops-25-nvidia-stock-risks-new-5-month-low-q3-earnings",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7N46854SJGNK5GMN2W9MWH0/article-covers-256498-bitcoin-hints-regime-shift-btc-price-dips-69-5k-iran-nerves-960x640.webp",
-        "publishedAt": "2026-11-17T16:39:43Z",
-        "content": "Bitcoin saw selling pressure after Tuesdays Wall Street open as stock markets stayed on edge ahead of Nvidias third-quarter earnings and forward guidance.\r\nKey points:\r\n<ul><li>Bitcoin (BTC) threaten… [+4013 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "newsBTC"
-        },
-        "author": "NewsBTC Editorial Team",
-        "title": "Wells Fargo Reports $2.35 Billion in BlackRock Bitcoin ETF Shares, but the Filing Needs Context",
-        "description": "A new securities disclosure puts Wells Fargo among the largest reported holders of BlackRock’s iShares Bitcoin Trust, with a position valued at approximately $2.35.",
-        "url": "https://www.newsbtc.com/institutional/wells-fargo-reports-2-35-billion-in-blackrock-bitcoin-etf-shares-but-the-filing-needs-context/",
-        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-17-N17-01_wells-fargo-reports-2-35-billion-in-blackrock-bitcoin-etf-shares-but-the-filing-needs-context.jpg",
-        "publishedAt": "2026-11-17T13:00:00Z",
-        "content": "TL;DR\r\n<ul><li>Wells Fargo reported approximately 49.58 million IBIT shares valued at $2.35 billion for September 30.</li><li>The filing includes investment-management reporting and does not prove th… [+4343 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
-        "description": "BlackRock’s Bitcoin ETF ended 11 sessions of withdrawals totaling $2.35 billion, but CryptoQuant says one day of inflows is too early to signal a recovery.",
-        "url": "https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7MGG7MGZGSJD7F656NEWPFD/hi-bitcoin-etfs-may-have-lost-the-battle-but-not-the-war1-1-1280x853.webp",
-        "publishedAt": "2026-11-17T11:18:18Z",
-        "content": "BlackRocks spot Bitcoin exchange-traded fund (ETF) returned to inflows Monday, ending an 11-session outflow streak totaling roughly $2.35 billion.\r\nThe iShares Bitcoin Trust (IBIT) attracted $76.5 mi… [+1519 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin realized loss metric beats June high as open interest eyes 2-year low",
-        "description": "Bitcoin short-term holders realize the largest proportion of onchain losses since February as BTC/USD struggles to rebound from four-month lows.",
-        "url": "https://cointelegraph.com/markets/bitcoin-realized-loss-metric-beats-june-high-open-interest-eyes-2-year-low",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7MGH6S8Y1QTSMVNC1AQ8PZX/article-covers-184960-panicked-bitcoiner-mistakenly-pays-0-75-btc-in-fees-960x640.webp",
-        "publishedAt": "2026-11-17T11:14:05Z",
-        "content": "Bitcoin investors are showing increasing signs of panic as newer buyers onchain losses hit their highest since February.\r\nKey points:\r\n<ul><li>The spent output profit ratio (SOPR) for Bitcoin (BTC) w… [+3465 chars]"
       }
     ]
   }
