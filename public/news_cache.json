@@ -1,10 +1,36 @@
 {
   "version": 3,
-  "timestamp": "2026-11-26T04:49:05.125Z",
+  "timestamp": "2026-11-26T14:52:23.537Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Helen Partz",
+        "title": "Ukraine passes bill to legalize crypto and tax profits at 23%",
+        "description": "Ukraine passed a cryptocurrency regulation bill introducing a 23% tax on individual crypto profits and establishing regulatory oversight of stablecoins.",
+        "url": "https://cointelegraph.com/news/ukraine-passes-bill-crypto-regulation-tax",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8992X91RDVP095WKH0ZV4TH/u11111-1280x853.webp",
+        "publishedAt": "2026-11-25T13:02:09Z",
+        "content": "Ukraines parliament passed a bill Wednesday to regulate the cryptocurrency market and tax individuals profits from digital asset transactions.\r\nThe bill secured 271 votes in its final reading. Its ma… [+1096 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by William Suberg",
+        "title": "Bitcoin price may fall below $53K if bear-market history repeats",
+        "description": "Bitcoin price downside targets focused on the $53,200 realized price as research saw pointed to bear-market patterns continuing for BTC/USD.",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-bear-market-history-repeats",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M893T0SM6CVYNXZQE3SFECS5/hi-crypto-layoffs-mount-as-exchanges-continue-to-be-ravaged-by-the-prevailing-bear-market-bitcoin-1-960x640.webp",
+        "publishedAt": "2026-11-25T11:09:38Z",
+        "content": "Bitcoin (BTC) is approaching investors aggregate cost basis, with previous bear markets pointing to the risk of further price declines.\r\nKey points:\r\n<ul><li>Bitcoin traded at $58,919 at 10 am UTC on… [+2592 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7R6WEJ8WD3YY7VF1JPW7MH8/sponsor-screen-traid-bitcoin-1280x853.webp",
         "publishedAt": "2026-11-19T06:00:00Z",
         "content": "Bitcoin carry trades could regain their edge over US Treasury bills in 2027 as demand for leverage recovers, according to digital asset bank Sygnum.\r\nIn its 2027 Sygnal Outlook report, Sygnum forecas… [+4237 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Felix Ng",
-        "title": "Polymarket US takes rapid-fire crypto trading format to oil, natural gas",
-        "description": "Polymarket US is expanding its rapid-fire prediction markets to oil and natural gas after short-duration crypto contracts topped $1 billion in volume in six weeks.",
-        "url": "https://cointelegraph.com/news/polymarket-us-takes-rapid-fire-crypto-trading-format-oil-natural-gas",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7PGAVAC26A920BS70GX2Q7N/polymarket-1280x853.webp",
-        "publishedAt": "2026-11-18T17:00:00Z",
-        "content": "Polymarket US is adding short-duration oil and natural gas markets after its crypto up-or-down contracts surpassed $1 billion in trading volume over six weeks, the company told Cointelegraph.\r\nThe ne… [+1623 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Sanctions fears loom over Russia’s regulated crypto trading launch",
-        "description": "Russia’s central bank has listed 30 authorized crypto operators, but questions remain over retail access as the EU prepares new sanctions targeting crypto platforms.",
-        "url": "https://cointelegraph.com/news/sanctions-fears-russia-crypto-launch",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7Q75JXEH3W3H0DFN6HB6KQR/contemplative-coin-character-1280x853.webp",
-        "publishedAt": "2026-11-18T13:32:19Z",
-        "content": "Russias push to bring cryptocurrency trading under government oversight is raising concerns that greater transparency could expose market participants to international sanctions.\r\nSome companies are … [+2814 chars]"
       }
     ]
   }
