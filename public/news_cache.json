@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-26T23:37:16.195Z",
+  "timestamp": "2026-11-27T07:43:25.473Z",
   "data": {
     "status": "ok",
     "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
+        "description": "US Senators Elizabeth Warren and Chris Van Hollen, among others, have taken aim at two recent SEC efforts to ease regulatory requirements for the crypto industry.",
+        "url": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8AYBSWPYBQEZSFKNS3QMFEP/hi-fungible-tokens-turn-monopoly-money-into-cryptocurrency-sec-1280x853.webp",
+        "publishedAt": "2026-11-26T04:24:45Z",
+        "content": "US Senators Elizabeth Warren and Chris Van Hollen have urged the US Securities and Exchange Commission to drop a proposal that would allow eligible crypto projects to raise funds from US investors wi… [+4159 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -368,19 +381,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7SA53P2GHC309QBB97B4KW6/lost-bitcoins-etf-hack-hacking-falling-jeans-1-1280x853.webp",
         "publishedAt": "2026-11-19T08:26:19Z",
         "content": "US spot Bitcoin exchange-traded funds (ETFs) ended Wednesday with $77.7 billion in net assets, a three-month low, as net outflows for the year topped $2.5 billion.\r\nThe funds recorded $306.4 million … [+1117 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Jona Jaupi",
-        "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
-        "description": "Sygnum predicts that Bitcoin carry trades may offer higher returns than Treasury bills in 2027, following a sharp drop in funding rates that made the strategy less compelling in 2026.",
-        "url": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7R6WEJ8WD3YY7VF1JPW7MH8/sponsor-screen-traid-bitcoin-1280x853.webp",
-        "publishedAt": "2026-11-19T06:00:00Z",
-        "content": "Bitcoin carry trades could regain their edge over US Treasury bills in 2027 as demand for leverage recovers, according to digital asset bank Sygnum.\r\nIn its 2027 Sygnal Outlook report, Sygnum forecas… [+4237 chars]"
       }
     ]
   }
