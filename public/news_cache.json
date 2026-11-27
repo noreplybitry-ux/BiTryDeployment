@@ -1,10 +1,49 @@
 {
   "version": 3,
-  "timestamp": "2026-11-27T07:43:25.473Z",
+  "timestamp": "2026-11-27T17:58:59.306Z",
   "data": {
     "status": "ok",
-    "totalResults": 29,
+    "totalResults": 30,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Adrian Zmudzinski",
+        "title": "How EU brokers could lose access to Kyrgyz crypto exchanges",
+        "description": "Adding Kyrgyzstan to an EU sanctions list could cost European brokers access to trading and settlement partners, even if Brussels never names the exchanges.",
+        "url": "https://cointelegraph.com/news/how-eu-brokers-could-lose-access-to-kyrgyz-crypto-exchanges",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8C3GD14M87H9WKHF5WVDZN0/hi-from-kyrgyzstan-how-cryptocurrencies-are-regulated-in-the-central-asia-1280x853.webp",
+        "publishedAt": "2026-11-26T15:45:07Z",
+        "content": "A European Union sanctions list published in July has an empty annex for more countries, and Kyrgyzstan could be its first entry.\r\nWhen authorities disrupted the Russian crypto exchange Garantex in M… [+1211 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Christina Comben",
+        "title": "7 bizarre things crypto whales spent a fortune on",
+        "description": "From space tickets that failed to launch, to paying way too much for bizarre artworks and immortality, here are 7 of the strangest purchases by whales with more crypto than sense",
+        "url": "https://cointelegraph.com/magazine/7-bizarre-things-crypto-whales-spent-a-fortune-on",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8AJF5HX1DMMV7AVXD5FM0BD/transformed-surreal-scene-1280x720.webp",
+        "publishedAt": "2026-11-26T13:30:00Z",
+        "content": "They say a fool and his money are soon parted, but perhaps the idiom should be extended to crypto multi-millionaires and billionaires, who get their kicks from spending their fortunes on some truly b… [+6416 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Ezra Reguerra",
+        "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
+        "description": "US spot Bitcoin ETFs recorded $5.39 billion in net outflows in November through Wednesday, while Morgan Stanley’s fund drew $114.1 million, per Farside Investors.",
+        "url": "https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M25BCMVHPH5H5NSCSEW4N3JQ/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-etf-1-1280x853.webp",
+        "publishedAt": "2026-11-26T09:42:34Z",
+        "content": "US spot Bitcoin exchange-traded funds (ETFs) collectively recorded $5.39 billion in net outflows in November after adding $453 million to the red column on Wednesday but Morgan Stanleys fund has been… [+1343 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,32 +394,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7TCJA0M8WRD0SM02A6P1Y5K/ai-machine-cyber-mind-960x644.webp",
         "publishedAt": "2026-11-19T18:06:50Z",
         "content": "Bitcoin shrugged off US tech-stock strength at Thursdays Wall Street open as markets reacted to Anthropics $111.50 debut.\r\nKey points:\r\n<ul><li>Anthropic opens at $111.50 per share on the Nasdaq, 34%… [+2198 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Zoltan Vardai",
-        "title": "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks",
-        "description": "Shareholders will vote Dec. 7 on whether H100 can buy back up to 10% of its shares, potentially using a Bitcoin pool that lost about 30 BTC in Q3.",
-        "url": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7SNB5B19MZXHBMWJSW6SVAN/hi-coinbase-seeks-ipo-1.png",
-        "publishedAt": "2026-11-19T11:19:58Z",
-        "content": "Swedish Bitcoin treasury company H100 Group said Thursday it could use Bitcoin from its trading pool to fund share buybacks if shareholders approve the plan next month.\r\nThe pool lost about 30 Bitcoi… [+1340 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Helen Partz",
-        "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
-        "description": "US spot Bitcoin ETF assets fell to a three-month low after $306.4 million in withdrawals Wednesday, while Ether funds recorded nearly $40 million in outflows.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7SA53P2GHC309QBB97B4KW6/lost-bitcoins-etf-hack-hacking-falling-jeans-1-1280x853.webp",
-        "publishedAt": "2026-11-19T08:26:19Z",
-        "content": "US spot Bitcoin exchange-traded funds (ETFs) ended Wednesday with $77.7 billion in net assets, a three-month low, as net outflows for the year topped $2.5 billion.\r\nThe funds recorded $306.4 million … [+1117 chars]"
       }
     ]
   }
