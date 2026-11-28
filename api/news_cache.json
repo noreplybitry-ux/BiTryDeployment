@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-27T17:58:59.306Z",
+  "timestamp": "2026-11-28T01:22:05.950Z",
   "data": {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 28,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "newsBTC"
+        },
+        "author": "Tomás Rivas",
+        "title": "Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet",
+        "description": "Key takeaways Michael Saylor’s estimated net worth has fallen about $6 billion, from $9.3 billion in October 2025 to roughly $3.3 billion on November 25, 2026, a 64.5% drop per Forbes. The $6 billion is a drop in estimated wealth, not a confirmed cash loss or…",
+        "url": "https://www.newsbtc.com/bitcoin-news/michael-saylor-net-worth/",
+        "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/11/saylor-net-worth-cover-upload.jpg",
+        "publishedAt": "2026-11-26T20:14:20Z",
+        "content": "<ul><li>Michael Saylor’s estimated net worth has fallen about $6 billion, from $9.3 billion in October 2025 to roughly $3.3 billion on November 25, 2026, a 64.5% drop per Forbes.</li><li>The $6 billi… [+7244 chars]"
+      },
       {
         "source": {
           "id": null,
@@ -355,45 +368,6 @@
         "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7VWVJFSAZCDB7METDY1P77G/hi-otc-over-the-counter-trade-fraud-1280x853.webp",
         "publishedAt": "2026-11-20T08:03:34Z",
         "content": "The US Securities and Exchange Commission (SEC) charged eight Colorado-based entities with defrauding US investors of more than $37 million.\r\nThe defendants allegedly lured investors by masquerading … [+1812 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by Andrew Fenton",
-        "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
-        "description": "Binance obtains court orders freezing assets stolen in October’s hack. Hong Kong warns citizens about Hyperliquid, and Thai police arrest four foreigners linked to a crypto scam.",
-        "url": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7TW6KD0H9BEVC27QRWR5CP8/asia-express-jacket-1280x853.webp",
-        "publishedAt": "2026-11-19T22:25:18Z",
-        "content": "Binance obtains $6.5B global freeze order, plans to expand throughout Asia\r\nBinance has secured a $6.5 billion worldwide freezing injunction from the Abu Dhabi Global Market Courts as it seeks to rec… [+3831 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Decrypt"
-        },
-        "author": "Jose Antonio Lanz",
-        "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
-        "description": "Anthropic shares surged on their Nasdaq debut, but stocks slid and Bitcoin fell lower. Its daily chart shows deeply oversold momentum, a strong downtrend, and fragile support.",
-        "url": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo",
-        "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg",
-        "publishedAt": "2026-11-19T19:08:24Z",
-        "content": "In brief\r\n<ul><li>Bitcoin traded near $62,640 Thursday as Anthropics record-setting debut failed to lift the broader stock market.</li><li>Bitcoins 50-day EMA sits below its 200-day EMA; the chart do… [+4144 chars]"
-      },
-      {
-        "source": {
-          "id": null,
-          "name": "Cointelegraph"
-        },
-        "author": "Cointelegraph by William Suberg",
-        "title": "Bitcoin price ignores Anthropic debut as ANT share price dips below $100",
-        "description": "Bitcoin dropped toward a third retest of $62,000 as Anthropic debuted on the Nasdaq, hitting highs of $115 per share before dropping below $100.",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-ignores-anthropic-debut-ant-share-price-dips-below-100",
-        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7TCJA0M8WRD0SM02A6P1Y5K/ai-machine-cyber-mind-960x644.webp",
-        "publishedAt": "2026-11-19T18:06:50Z",
-        "content": "Bitcoin shrugged off US tech-stock strength at Thursdays Wall Street open as markets reacted to Anthropics $111.50 debut.\r\nKey points:\r\n<ul><li>Anthropic opens at $111.50 per share on the Nasdaq, 34%… [+2198 chars]"
       }
     ]
   }
