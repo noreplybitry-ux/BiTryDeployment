@@ -1,10 +1,23 @@
 {
   "version": 3,
-  "timestamp": "2026-11-28T01:22:05.950Z",
+  "timestamp": "2026-11-28T10:00:39.676Z",
   "data": {
     "status": "ok",
-    "totalResults": 28,
+    "totalResults": 29,
     "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Cointelegraph"
+        },
+        "author": "Cointelegraph by Felix Ng",
+        "title": "Japan’s crypto security group taps SEAL to speed up hack response",
+        "description": "The partnership comes weeks after a third-party data breach exposed hundreds of thousands of customer email addresses belonging to two Japanese crypto exchanges.",
+        "url": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response",
+        "urlToImage": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8DPYBXC89VZD6RYR0TH6TY2/hi-sponsored-of-nexo-2-1280x853.webp",
+        "publishedAt": "2026-11-27T05:22:36Z",
+        "content": "Japans crypto industry cybersecurity group has signed an agreement with US nonprofit Security Alliance (SEAL) to improve the detection of cyberattacks and respond to incidents more effectively.\r\nAcco… [+1333 chars]"
+      },
       {
         "source": {
           "id": null,
